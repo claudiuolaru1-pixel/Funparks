@@ -1,0 +1,80 @@
+default_platform(:android)
+
+platform :android do
+  desc "Upload AAB to Google Play (internal track)"
+  lane :internal do
+    # Requires GOOGLE_PLAY_SERVICE_ACCOUNT_JSON secret (base64 of service account JSON)
+    gradle(task: "bundle", build_type: "Release")
+    if ENV['ONLY_SCREENSHOTS'] == '1'
+      UI.message("Uploading screenshots & metadata only (no AAB).")
+      supply(
+        track: "internal",
+        metadata_path: "fastlane/metadata/android",
+        skip_upload_apk: true,
+        skip_upload_aab: true,
+        skip_upload_images: false,
+        skip_upload_screenshots: false
+      )
+    else
+      supply(
+      default_language: "en-US",
+      changes_not_sent_for_review: true,
+      aab: "app/build/outputs/bundle/release/app-release.aab",
+      track: "internal",
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+  
+    # === Optional: apply country targeting from countries.json ===
+    if File.exist?('fastlane/countries.json')
+      require 'json'
+      require 'google/apis/androidpublisher_v3'
+      require 'googleauth'
+
+      UI.message('Applying country targeting from countries.json')
+      cfg = JSON.parse(File.read('fastlane/countries.json'))
+      track_name = cfg['track'] || 'internal'
+      countries = (cfg['countries'] || []).map(&:upcase)
+
+      scope = 'https://www.googleapis.com/auth/androidpublisher'
+      authorizer = Google::Auth::ServiceAccountCredentials.make_creds(
+        json_key_io: File.open('fastlane/play-api.json'),
+        scope: scope
+      )
+      authorizer.fetch_access_token!
+      service = Google::Apis::AndroidpublisherV3::AndroidPublisherService.new
+      service.authorization = authorizer
+
+      package_name = CredentialsManager::AppfileConfig.try_fetch_value(:package_name)
+      UI.user_error!("Set :package_name in android/fastlane/Appfile") unless package_name
+      edit = service.insert_edit(package_name)
+      edit_id = edit.id
+
+      # Fetch existing track
+      begin
+        track = service.get_edit_track(package_name, edit_id, track_name)
+      rescue
+        track = Google::Apis::AndroidpublisherV3::Track.new(track: track_name, releases: [])
+      end
+
+      # Ensure at least one release exists to attach targeting
+      if track.releases.nil? || track.releases.empty?
+        track.releases = [Google::Apis::AndroidpublisherV3::TrackRelease.new(name: 'Auto', status: 'draft')]
+      end
+
+      # Apply country targeting to all releases in this track
+      track.releases.each do |rel|
+        rel.country_targeting = Google::Apis::AndroidpublisherV3::CountryTargeting.new(
+          countries: countries
+        )
+      end
+
+      service.update_edit_track(package_name, edit_id, track_name, track)
+      service.commit_edit(package_name, edit_id)
+      UI.success("Country targeting applied to #{track_name}: #{countries.join(', ')}")
+    else
+      UI.message('countries.json not found; skipping country targeting')
+    end
+
+  end
+end

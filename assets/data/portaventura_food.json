@@ -1,0 +1,102 @@
+[
+  {
+    "id": "iron_horse",
+    "name": "Iron Horse",
+    "type": "American Grill",
+    "description": "Iron Horse is a classic American-style grill offering hearty meals inspired by roadside diners and barbecue joints. It’s the perfect stop for big appetites, featuring juicy burgers, smoky ribs, and comfort food favorites in a relaxed, family-friendly setting.",
+    "image": "assets/images/portaventura/food_iron_horse.png",
+    "lat": 41.0886,
+    "lng": 1.1579,
+    "rating": 4.5,
+    "topPick": false,
+    "items": [
+      { "name": "Burger Menu", "description": "Beef burger + fries + soft drink", "price": 14.90 },
+      { "name": "Cheeseburger Menu", "description": "Beef cheeseburger + fries + soft drink", "price": 15.50 },
+      { "name": "Chicken Burger Menu", "description": "Crispy chicken burger + fries + soft drink", "price": 14.50 },
+      { "name": "BBQ Ribs", "description": "BBQ pork ribs with seasoned fries", "price": 18.50 },
+      { "name": "Grilled Chicken Plate", "description": "Grilled chicken breast + salad + fries", "price": 16.90 },
+      { "name": "Pulled Pork Sandwich", "description": "Slow-cooked pulled pork + BBQ sauce + slaw", "price": 13.90 },
+      { "name": "Caesar Salad", "description": "Romaine, parmesan, croutons, Caesar dressing", "price": 9.90 },
+      { "name": "Kids Menu", "description": "Mini burger or nuggets + fries + juice", "price": 9.50 },
+      { "name": "Onion Rings", "description": "Crispy onion rings with dip", "price": 5.50 },
+      { "name": "Chicken Nuggets", "description": "Nuggets with fries and sauce", "price": 8.90 },
+      { "name": "Soft Drink", "description": "330ml bottle / fountain drink", "price": 3.20 },
+      { "name": "Water", "description": "500ml bottle", "price": 2.50 }
+    ]
+  },
+  {
+    "id": "vinosfera",
+    "name": "Vinosfera",
+    "type": "Snacks & Drinks",
+    "description": "Vinosfera is a relaxed snack and drink spot ideal for quick breaks between attractions. Offering sandwiches, light bites, coffee, and refreshing drinks, it’s a great place to recharge without committing to a full meal.",
+    "image": "assets/images/portaventura/food_vinosfera.png",
+    "lat": 41.0876,
+    "lng": 1.1548,
+    "rating": 4.6,
+    "topPick": false,
+    "items": [
+      { "name": "Ham & Cheese Sandwich", "description": "Classic toasted sandwich", "price": 7.50 },
+      { "name": "Chicken Wrap", "description": "Chicken, lettuce, sauce in a tortilla wrap", "price": 8.90 },
+      { "name": "Veggie Sandwich", "description": "Tomato, mozzarella, pesto, salad", "price": 7.90 },
+      { "name": "Cheese Plate", "description": "Assorted cheeses with crackers", "price": 9.90 },
+      { "name": "Iberian Ham Plate", "description": "Cured ham with breadsticks", "price": 12.90 },
+      { "name": "Olives & Snacks", "description": "Olives or mixed salty snacks", "price": 4.50 },
+      { "name": "Chips", "description": "Bag of chips", "price": 2.50 },
+      { "name": "Coffee", "description": "Espresso / Cappuccino", "price": 2.80 },
+      { "name": "Iced Coffee", "description": "Chilled coffee with milk", "price": 3.80 },
+      { "name": "Soft Drink", "description": "330ml bottle / can", "price": 3.20 },
+      { "name": "Water", "description": "500ml bottle", "price": 2.50 },
+      { "name": "Dessert Cup", "description": "Small dessert (varies daily)", "price": 4.90 }
+    ]
+  },
+  {
+    "id": "epi",
+    "name": "EPI",
+    "type": "Mediterranean",
+    "description": "EPI serves Mediterranean-inspired cuisine with fresh ingredients and balanced flavors. From comforting pasta dishes to lighter salads and bowls, it’s a versatile option for guests looking for a satisfying but not overly heavy meal.",
+    "image": "assets/images/portaventura/food_epi.png",
+    "lat": 41.0868,
+    "lng": 1.1591,
+    "rating": 4.4,
+    "topPick": false,
+    "items": [
+      { "name": "Pasta Bolognese", "description": "Rich meat sauce with pasta", "price": 13.00 },
+      { "name": "Pasta Carbonara", "description": "Creamy sauce with bacon", "price": 13.50 },
+      { "name": "Pasta Pesto", "description": "Basil pesto with parmesan", "price": 12.50 },
+      { "name": "Mediterranean Salad", "description": "Tomato, cucumber, olives, feta", "price": 9.50 },
+      { "name": "Chicken & Rice Bowl", "description": "Mediterranean spiced chicken with rice", "price": 12.90 },
+      { "name": "Vegetarian Bowl", "description": "Roasted veggies, hummus, rice", "price": 11.90 },
+      { "name": "Soup of the Day", "description": "Seasonal soup (ask on site)", "price": 6.50 },
+      { "name": "Garlic Bread", "description": "Toasted bread with garlic butter", "price": 4.90 },
+      { "name": "Kids Pasta", "description": "Smaller pasta portion + juice", "price": 9.50 },
+      { "name": "Fruit Cup", "description": "Fresh seasonal fruit", "price": 4.20 },
+      { "name": "Soft Drink", "description": "330ml bottle / can", "price": 3.20 },
+      { "name": "Water", "description": "500ml bottle", "price": 2.50 }
+    ]
+  },
+  {
+    "id": "raco_de_mar",
+    "name": "Racó de Mar",
+    "type": "Seafood & Mediterranean",
+    "description": "Racó de Mar offers Mediterranean and seafood specialties inspired by coastal cuisine. Known for its paellas, fresh fish, and relaxed seaside atmosphere, it’s ideal for guests wanting a sit-down meal with authentic flavors.",
+    "image": "assets/images/portaventura/food_raco_de_mar.png",
+    "lat": 41.0859,
+    "lng": 1.1589,
+    "rating": 4.8,
+    "topPick": true,
+    "items": [
+      { "name": "Fish & Chips", "description": "Crispy fish with fries and tartar sauce", "price": 15.50 },
+      { "name": "Calamari", "description": "Fried calamari with lemon & sauce", "price": 12.90 },
+      { "name": "Seafood Paella (Small)", "description": "Classic seafood paella (single portion)", "price": 16.90 },
+      { "name": "Seafood Paella (Large)", "description": "Paella for sharing (2 people)", "price": 29.90 },
+      { "name": "Grilled Salmon Plate", "description": "Salmon with salad and potatoes", "price": 18.90 },
+      { "name": "Shrimp Salad", "description": "Fresh salad with shrimp and citrus dressing", "price": 12.50 },
+      { "name": "Mediterranean Pasta", "description": "Pasta with tomato, herbs, and seafood option", "price": 14.90 },
+      { "name": "Bread & Aioli", "description": "Fresh bread with garlic aioli", "price": 4.90 },
+      { "name": "Kids Fish Plate", "description": "Small fish portion + fries + juice", "price": 9.90 },
+      { "name": "Ice Cream", "description": "Single serving ice cream", "price": 4.50 },
+      { "name": "Soft Drink", "description": "330ml bottle / can", "price": 3.20 },
+      { "name": "Water", "description": "500ml bottle", "price": 2.50 }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Build and upload to TestFlight"
+  lane :beta do
+    # Set environment variables in GitHub Secrets:
+    # APP_STORE_CONNECT_API_KEY_ID, APP_STORE_CONNECT_ISSUER_ID, APP_STORE_CONNECT_KEY (base64 p8)
+    create_keychain(
+      name: "fastlane_tmp_keychain",
+      default_keychain: true,
+      unlock: true,
+      timeout: 3600,
+      lock_when_sleeps: false
+    )
+
+    api_key = app_store_connect_api_key(
+      key_id: ENV['APP_STORE_CONNECT_API_KEY_ID'],
+      issuer_id: ENV['APP_STORE_CONNECT_ISSUER_ID'],
+      key_content: Base64.decode64(ENV['APP_STORE_CONNECT_KEY'] || ''),
+      is_key_content_base64: false,
+      duration: 1200,
+      in_house: false
+    )
+
+    build_app(
+      scheme: "Runner",
+      export_method: "app-store",
+      clean: true
+    )
+    upload_to_testflight(api_key: api_key, skip_waiting_for_build_processing: true)
+  end
+end
+
+
+  desc "Set App Store territories from ios/fastlane/territories.json"
+  lane :set_territories do
+    require 'json'
+    require 'spaceship'
+    UI.message("Setting territories via App Store Connect API")
+
+    # Authenticate with API Key (set ENV vars in CI)
+    key_id = ENV['APP_STORE_CONNECT_API_KEY_ID']
+    issuer_id = ENV['APP_STORE_CONNECT_ISSUER_ID']
+    key_content = Base64.decode64(ENV['APP_STORE_CONNECT_KEY'] || '')
+    Spaceship::ConnectAPI.token = Spaceship::ConnectAPI::Token.create(key_id: key_id, issuer_id: issuer_id, key: key_content)
+
+    app_id = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
+    UI.user_error!("Set :app_identifier in ios/fastlane/Appfile") unless app_id

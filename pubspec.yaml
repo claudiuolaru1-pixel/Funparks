@@ -1,0 +1,93 @@
+name: funparks
+description: A playful, map-first theme park discovery app (MVP).
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  intl: 0.20.2
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  http: ^1.2.2
+  flutter_svg: ^2.0.9
+  url_launcher: ^6.3.0
+
+  # Maps
+  google_maps_flutter: ^2.7.0
+  google_maps_flutter_android: ^2.18.0
+
+  # Firebase
+  firebase_core: ^3.5.0
+  cloud_firestore: ^5.4.4
+  firebase_auth: ^5.3.1
+  firebase_storage: ^12.3.3
+
+  # Other
+  share_plus: ^10.0.2
+  image_picker: ^1.1.2
+  geolocator: ^13.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/data/
+    - assets/maps/
+    - assets/images/start_bg.png
+
+    # Force include PortAventura images (fix “grey images” on release/AAB)
+    - assets/images/portaventura/dragon_khan.png
+    - assets/images/portaventura/el_diablo_tren_mina.png
+    - assets/images/portaventura/food_epi.png
+    - assets/images/portaventura/food_iron_horse.png
+    - assets/images/portaventura/food_raco_de_mar.png
+    - assets/images/portaventura/food_vinosfera.png
+    - assets/images/portaventura/furius_baco.png
+    - assets/images/portaventura/grand_canyon_rapids.png
+    - assets/images/portaventura/hurakan_condor.png
+    - assets/images/portaventura/katanga.png
+    - assets/images/portaventura/menu_prices.png
+    - assets/images/portaventura/park_map.png
+    - assets/images/portaventura/red_force.png
+    - assets/images/portaventura/sea_odyssey.png
+    - assets/images/portaventura/shambhala.png
+    - assets/images/portaventura/silver_river_flume.png
+    - assets/images/portaventura/stampida.png
+    - assets/images/portaventura/tami_tami.png
+    - assets/images/portaventura/tomahawk.png
+    - assets/images/portaventura/tutuki_splash.png
+    - assets/images/portaventura/volpaiute.png
+    - assets/images/portaventura/hotel_portaventura.png
+    - assets/images/portaventura/hotel_gold_river.png
+
+flutter_native_splash:
+  color: "#72C8FF"
+  color_dark: "#2A2A2A"
+  image: assets/splash/splash_2732.png
+  android_12:
+    image: assets/splash/splash_2732.png
+    icon_background_color: "#72C8FF"
+  ios: true
+  android: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/icon_1024.png
+  adaptive_icon_background: "#72C8FF"
+  adaptive_icon_foreground: assets/icons/icon_1024.png

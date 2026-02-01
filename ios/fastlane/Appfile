@@ -1,0 +1,2 @@
+app_identifier("com.funparks.app") # Update to your bundle id
+apple_id("owner@funparks.app")     # Your Apple ID

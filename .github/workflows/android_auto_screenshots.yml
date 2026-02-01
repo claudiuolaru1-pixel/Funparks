@@ -1,0 +1,460 @@
+name: Android Auto Screenshots
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      upload_mode:
+        description: 'Upload mode: none | screenshots-only | full'
+        required: true
+        default: 'none'
+      upload_to_play:
+        description: 'Upload screenshots & metadata to Play after capture'
+        required: true
+        default: 'false'
+      locales:
+        description: 'Space-separated locales (en fr nl de es it pt ru)'
+        required: true
+        default: 'en fr nl de es it pt ru'
+
+jobs:
+  capture:
+  capture_tablet:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Flutter doctor
+        run: flutter doctor -v
+      - name: Install dependencies
+        run: flutter pub get
+      - name: Generate l10n
+        run: flutter gen-l10n
+      - name: Run integration tests per locale on tablet emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          arch: x86_64
+          profile: pixel_c  # tablet-like profile
+          script: |
+            set -euxo pipefail
+            LOCALES="${{ github.event.inputs.locales }}"
+            for L in $LOCALES; do
+              echo "=== Capturing tablet screenshots for locale: $L ==="
+              flutter test integration_test/screenshot_test.dart --dart-define=APP_LOCALE=$L
+              mkdir -p screenshots_tablet/$L
+              cp -v build/integration_test/*.png screenshots_tablet/$L/ || true
+              rm -rf build/integration_test/*.png || true
+            done
+
+      - name: Generate 7-inch screenshots (800x1280)
+        run: |
+          set -euxo pipefail
+          pip3 install Pillow >/dev/null 2>&1 || true
+          python3 - << 'PY'
+import os
+from PIL import Image
+base='screenshots_tablet'
+for loc in os.listdir(base):
+    srcdir=os.path.join(base,loc)
+    if not os.path.isdir(srcdir): continue
+    outdir=os.path.join('seven_inch', loc)
+    os.makedirs(outdir, exist_ok=True)
+    i=1
+    for fn in sorted(os.listdir(srcdir)):
+        if not fn.lower().endswith('.png'): continue
+        img=Image.open(os.path.join(srcdir,fn)).convert('RGB')
+        img=img.resize((800,1280))
+        img.save(os.path.join(outdir, f'seven_{i:02d}.png'))
+        i+=1
+PY
+      - name: Inject 7-inch into Fastlane metadata
+        run: |
+          set -euxo pipefail
+          declare -A PLAY_MAP=(
+            [en]=en-US [fr]=fr-FR [nl]=nl-NL [de]=de-DE
+            [es]=es-ES [it]=it-IT [pt]=pt-PT [ru]=ru-RU
+          )
+          for L in ${{ github.event.inputs.locales }}; do
+            PLAY_LOC=${PLAY_MAP[$L]}
+            test -n "$PLAY_LOC"
+            SRC="seven_inch/$L"
+            DEST="android/fastlane/metadata/android/$PLAY_LOC/sevenInchScreenshots"
+            mkdir -p "$DEST"
+            if [ -d "$SRC" ]; then
+              cp -v "$SRC"/*.png "$DEST/" || true
+            fi
+          done
+      - name: Upload raw tablet screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-android-tablet-screenshots
+          path: screenshots_tablet/
+      - name: Inject tablet screenshots into Fastlane metadata folders
+        run: |
+          set -euxo pipefail
+          declare -A PLAY_MAP=(
+            [en]=en-US [fr]=fr-FR [nl]=nl-NL [de]=de-DE
+            [es]=es-ES [it]=it-IT [pt]=pt-PT [ru]=ru-RU
+          )
+          for L in ${{ github.event.inputs.locales }}; do
+            PLAY_LOC=${PLAY_MAP[$L]}
+            test -n "$PLAY_LOC"
+            DEST="android/fastlane/metadata/android/$PLAY_LOC/tenInchScreenshots"
+            mkdir -p "$DEST"
+            i=1
+            for f in screenshots_tablet/$L/*.png; do
+              printf -v idx "%02d" $i
+              cp -v "$f" "$DEST/${idx}_$L.png"
+              i=$((i+1))
+            done
+          done
+      - name: Count screenshots (tablet)
+        id: count_tablet
+        run: |
+          set -euo pipefail
+          declare -A PLAY_MAP=(
+            [en]=en-US [fr]=fr-FR [nl]=nl-NL [de]=de-DE
+            [es]=es-ES [it]=it-IT [pt]=pt-PT [ru]=ru-RU
+          )
+          LOCALES="${{ github.event.inputs.locales }}"
+          echo "counts=" >> $GITHUB_OUTPUT
+          for L in $LOCALES; do
+            LOC=${PLAY_MAP[$L]}
+            C=$(ls android/fastlane/metadata/android/$LOC/tenInchScreenshots/*.png 2>/dev/null | wc -l || true)
+            echo "$L:$C" >> counts_tab.txt
+          done
+          echo "counts<<EOF" >> $GITHUB_OUTPUT
+          cat counts_tab.txt >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Upload fastlane tablet metadata folder
+        uses: actions/upload-artifact@v4
+        with:
+          name: fastlane-metadata-tablet-after-screens
+          path: android/fastlane/metadata/android/
+
+      - name: Post Run Summary (tablet)
+        if: always()
+        run: |
+          echo "# Android Auto Screenshots — Tablet" >> $GITHUB_STEP_SUMMARY
+
+      - name: Add Dashboard link to Summary
+        if: always()
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Dashboard" >> $GITHUB_STEP_SUMMARY
+          echo "https://claudiuolaru1.github.io/pixel/" >> $GITHUB_STEP_SUMMARY
+      - name: Post PR Comment (tablet, upsert)
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const countsRaw = `${{ steps.count_tablet.outputs.counts }}`.trim();
+            const pairs = countsRaw.split('\n').filter(Boolean).map(l=>l.split(':')).map(([k,v])=>[k, Number(v||0)]);
+            const missing = pairs.filter(([k,v])=>v<=0).map(([k])=>k);
+            const diff = missing.length ? `\n\n**Missing screenshots:** ${missing.join(', ')}` : '';
+            const header = '<!--FUNPARKS-ANDROID-TABLET-->';
+            const statusBar = missing.length ? `🚨 Missing: ${missing.join(', ')}` : '✅ All screenshots present';
+            const body = `${header}\n${statusBar}\n\n**Android Tablet Screenshots**\n\n- Workflow: ${process.env.GITHUB_WORKFLOW}\n- Ref: ${process.env.GITHUB_REF}\n- Run: ${process.env.GITHUB_RUN_NUMBER}\n- Status: ${{ job.status }}\n\n**Counts**\n${countsRaw}${diff}\n\n[Open run](${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID})` + `
+
+---
+
+### 🧭 <a href="https://claudiuolaru1.github.io/pixel/" target="_blank">Dashboard</a>  
+### 🧩 <a href="https://claudiuolaru1.github.io/pixel/data.json" target="_blank">JSON API</a>
+`;
+            const {owner, repo} = context.repo;
+            const issue_number = context.issue.number;
+            const { data: comments } = await github.rest.issues.listComments({owner, repo, issue_number, per_page: 100});
+            const existing = comments.find(c => c.user.type === 'Bot' && c.body && c.body.includes(header));
+            if (existing) {
+              await github.rest.issues.updateComment({owner, repo, comment_id: existing.id, body});
+            } else {
+              await github.rest.issues.createComment({owner, repo, issue_number, body});
+            }
+          echo "**Workflow:** $GITHUB_WORKFLOW" >> $GITHUB_STEP_SUMMARY
+          echo "**Ref:** $GITHUB_REF" >> $GITHUB_STEP_SUMMARY
+          echo "**Run:** $GITHUB_RUN_NUMBER" >> $GITHUB_STEP_SUMMARY
+          echo "**Locales:** ${{ github.event.inputs.locales }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Device:** Pixel C (emulator)" >> $GITHUB_STEP_SUMMARY
+          echo "**Status:** ${{ job.status }}\n**Per-locale counts:**\n${{ steps.count_tablet.outputs.counts }}\n**Per-locale counts:**\n${{ steps.count_phone.outputs.counts }}" >> $GITHUB_STEP_SUMMARY
+          echo "[Open this run]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)" >> $GITHUB_STEP_SUMMARY
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🧭 <a href=\"https://claudiuolaru1.github.io/pixel/\" target=\"_blank\">Dashboard</a>" >> $GITHUB_STEP_SUMMARY
+          echo "### 🧩 <a href=\"https://claudiuolaru1.github.io/pixel/data.json\" target=\"_blank\">JSON API</a>" >> $GITHUB_STEP_SUMMARY
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🧭 <a href=\"https://claudiuolaru1.github.io/pixel/\" target=\"_blank\">Dashboard</a>" >> $GITHUB_STEP_SUMMARY
+          echo "### 🧩 <a href=\"https://claudiuolaru1.github.io/pixel/data.json\" target=\"_blank\">JSON API</a>" >> $GITHUB_STEP_SUMMARY
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Flutter doctor
+        run: flutter doctor -v
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Generate l10n
+        run: flutter gen-l10n
+
+      # Start Android Emulator and run tests for each locale
+      - name: Run integration tests per locale on emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          arch: x86_64
+          profile: pixel_6
+          script: |
+            set -euxo pipefail
+            # Ensure google APIs for maps if needed (emulator-runner action handles system image)
+            LOCALES="${{ github.event.inputs.locales }}"
+            for L in $LOCALES; do
+              echo "=== Capturing screenshots for locale: $L ==="
+              flutter test integration_test/screenshot_test.dart --dart-define=APP_LOCALE=$L
+              mkdir -p screenshots/$L
+              cp -v build/integration_test/*.png screenshots/$L/ || true
+              # Clean between runs so files don't mix
+              rm -rf build/integration_test/*.png || true
+            done
+
+      - name: Upload raw screenshots as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-android-screenshots
+          path: screenshots/
+
+      - name: Inject screenshots into Fastlane metadata folders
+        run: |
+          set -euxo pipefail
+          declare -A PLAY_MAP=(
+            [en]=en-US [fr]=fr-FR [nl]=nl-NL [de]=de-DE
+            [es]=es-ES [it]=it-IT [pt]=pt-PT [ru]=ru-RU
+          )
+          for L in ${{ github.event.inputs.locales }}; do
+            PLAY_LOC=${PLAY_MAP[$L]}
+            test -n "$PLAY_LOC"
+            DEST="android/fastlane/metadata/android/$PLAY_LOC/phoneScreenshots"
+            mkdir -p "$DEST"
+            # copy and prefix files to keep order
+            i=1
+            for f in screenshots/$L/*.png; do
+              bn=$(basename "$f")
+              printf -v idx "%02d" $i
+              cp -v "$f" "$DEST/${idx}_$bn"
+              i=$((i+1))
+            done
+          done
+
+      - name: Count screenshots (phone)
+        id: count_phone
+        run: |
+          set -euo pipefail
+          declare -A PLAY_MAP=(
+            [en]=en-US [fr]=fr-FR [nl]=nl-NL [de]=de-DE
+            [es]=es-ES [it]=it-IT [pt]=pt-PT [ru]=ru-RU
+          )
+          LOCALES="${{ github.event.inputs.locales }}"
+          echo "counts=" >> $GITHUB_OUTPUT
+          for L in $LOCALES; do
+            LOC=${PLAY_MAP[$L]}
+            C=$(ls android/fastlane/metadata/android/$LOC/phoneScreenshots/*.png 2>/dev/null | wc -l || true)
+            echo "$L:$C" >> counts.txt
+          done
+          echo "counts<<EOF" >> $GITHUB_OUTPUT
+          cat counts.txt >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Upload fastlane metadata folder (post-injection)
+        uses: actions/upload-artifact@v4
+        with:
+          name: fastlane-metadata-after-screens
+          path: android/fastlane/metadata/android/
+
+      - name: Post Run Summary (phone)
+        if: always()
+        run: |
+          echo "# Android Auto Screenshots — Phone" >> $GITHUB_STEP_SUMMARY
+
+      - name: Add Dashboard link to Summary
+        if: always()
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Dashboard" >> $GITHUB_STEP_SUMMARY
+          echo "https://claudiuolaru1.github.io/pixel/" >> $GITHUB_STEP_SUMMARY
+      - name: Post PR Comment (phone, upsert)
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const countsRaw = `${{ steps.count_phone.outputs.counts }}`.trim();
+            const pairs = countsRaw.split('\n').filter(Boolean).map(l=>l.split(':')).map(([k,v])=>[k, Number(v||0)]);
+            const missing = pairs.filter(([k,v])=>v<=0).map(([k])=>k);
+            const diff = missing.length ? `\n\n**Missing screenshots:** ${missing.join(', ')}` : '';
+            const header = '<!--FUNPARKS-ANDROID-PHONE-->';
+            const statusBar = missing.length ? `🚨 Missing: ${missing.join(', ')}` : '✅ All screenshots present';
+            const body = `${header}\n${statusBar}\n\n**Android Phone Screenshots**\n\n- Workflow: ${process.env.GITHUB_WORKFLOW}\n- Ref: ${process.env.GITHUB_REF}\n- Run: ${process.env.GITHUB_RUN_NUMBER}\n- Status: ${{ job.status }}\n\n**Counts**\n${countsRaw}${diff}\n\n[Open run](${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID})` + `
+
+---
+
+### 🧭 <a href="https://claudiuolaru1.github.io/pixel/" target="_blank">Dashboard</a>  
+### 🧩 <a href="https://claudiuolaru1.github.io/pixel/data.json" target="_blank">JSON API</a>
+`;
+            const {owner, repo} = context.repo;
+            const issue_number = context.issue.number;
+            const { data: comments } = await github.rest.issues.listComments({owner, repo, issue_number, per_page: 100});
+            const existing = comments.find(c => c.user.type === 'Bot' && c.body && c.body.includes(header));
+            if (existing) {
+              await github.rest.issues.updateComment({owner, repo, comment_id: existing.id, body});
+            } else {
+              await github.rest.issues.createComment({owner, repo, issue_number, body});
+            }
+          echo "**Workflow:** $GITHUB_WORKFLOW" >> $GITHUB_STEP_SUMMARY
+          echo "**Ref:** $GITHUB_REF" >> $GITHUB_STEP_SUMMARY
+          echo "**Run:** $GITHUB_RUN_NUMBER" >> $GITHUB_STEP_SUMMARY
+          echo "**Locales:** ${{ github.event.inputs.locales }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Device:** Pixel 6 (emulator)" >> $GITHUB_STEP_SUMMARY
+          echo "**Status:** ${{ job.status }}\n**Per-locale counts:**\n${{ steps.count_phone.outputs.counts }}" >> $GITHUB_STEP_SUMMARY
+          echo "[Open this run]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)" >> $GITHUB_STEP_SUMMARY
+- name: Guard: require tag for FULL uploads
+        if: ${{ github.event.inputs.upload_mode == 'full' && github.ref_type != 'tag' }}
+        run: |
+          echo "::error ::FULL uploads are only allowed on tagged releases. Current ref_type: ${{ github.ref_type }}"
+          exit 1
+- name: Guard: require tag for SCREENSHOTS-ONLY uploads
+        if: ${{ github.event.inputs.upload_mode == 'screenshots-only' && github.ref_type != 'tag' }}
+        run: |
+          echo "::error ::Screenshots-only uploads are only allowed on tagged releases. Current ref_type: ${{ github.ref_type }}"
+          exit 1
+      - name: Restore cooldown cache (android)
+        if: failure()
+        uses: actions/cache@v4
+        with:
+          path: .github/.ci_alert_cache
+          key: ci-alert-android-${{ github.run_id }}
+          restore-keys: |
+            ci-alert-android-
+      - name: Cooldown check (30m, platform=android)
+        if: failure()
+        run: |
+          set -euo pipefail
+          mkdir -p .github/.ci_alert_cache
+          FILE=.github/.ci_alert_cache/last_ts
+          NOW=$(date +%s)
+          if [ -f "$FILE" ]; then
+            LAST=$(cat "$FILE" || echo 0)
+            DIFF=$((NOW - LAST))
+            echo "Last alert: $DIFF seconds ago"
+            if [ "$DIFF" -lt 1800 ]; then
+              echo "SKIP_ALERT=1" >> $GITHUB_ENV
+              echo "Cooldown active; skipping notifications."
+            fi
+          else
+            echo "No previous alert timestamp found."
+          fi
+
+      - name: Slack notification (failure only)
+        if: failure() && env.SKIP_ALERT != '1'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          if [ -z "$SLACK_WEBHOOK_URL" ]; then
+            echo "No SLACK_WEBHOOK_URL secret; skipping Slack notification."
+            exit 0
+          fi
+          STATUS="${{ job.status }}"
+          COLOR="#2eb886"
+          if [ "$STATUS" != "success" ]; then COLOR="#e01e5a"; fi
+          PAYLOAD=$(cat <<'JSON'
+          {
+            "attachments": [ {
+              "color": "#e01e5a",
+              "title": "🚨 Funparks Android CI FAILED",
+              "text": "Workflow: $GITHUB_WORKFLOW
+Ref: $GITHUB_REF
+Run: $GITHUB_RUN_NUMBER
+URL: https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID",
+              "footer": "GitHub Actions",
+              "ts": 1759571044
+            } ]
+          }
+          JSON
+          )
+          curl -X POST -H 'Content-type: application/json' --data "$PAYLOAD" "$SLACK_WEBHOOK_URL"
+
+
+      - name: Optionally upload to Play (supply)
+        if: ${{ github.event.inputs.upload_mode != 'none' }}
+        env:
+          GOOGLE_PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+        run: |
+          set -euxo pipefail
+          test -n "$GOOGLE_PLAY_SERVICE_ACCOUNT_JSON"
+          echo "$GOOGLE_PLAY_SERVICE_ACCOUNT_JSON" | base64 -d > android/fastlane/play-api.json
+          sudo gem install fastlane --no-document
+          if [ "${{ github.event.inputs.upload_mode }}" = "full" ]; then
+            flutter build appbundle --release
+          fi
+          cd android
+          # upload; Fastfile will respect ONLY_SCREENSHOTS env to skip AAB
+          ONLY_SCREENSHOTS=$([ "${{ github.event.inputs.upload_mode }}" = "screenshots-only" ] && echo 1 || echo 0) fastlane internal
+      - name: Email notification (failure only)
+        if: failure() && env.SKIP_ALERT != '1'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+                    subject: "🚨 Funparks CI FAILED (${ { github.workflow } })"
+          to: ${{ secrets.NOTIFY_EMAIL_TO }}
+          from: Funparks CI <${{ secrets.SMTP_USERNAME }}>
+          content_type: text/plain
+                    body: |
+            🚨 Funparks CI FAILED
+            Workflow: $GITHUB_WORKFLOW
+            Ref: $GITHUB_REF
+            Status: ${{ job.status }}
+            URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            Workflow: $GITHUB_WORKFLOW
+            Run: $GITHUB_RUN_NUMBER
+            Ref: $GITHUB_REF
+            Status: ${{ job.status }}
+            URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+

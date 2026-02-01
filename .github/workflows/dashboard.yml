@@ -1,0 +1,50 @@
+name: Pixel Dashboard (GitHub Pages)
+
+on:
+  schedule:
+    - cron: '15 2 * * *'   # nightly (approx Brussels-friendly)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Generate dashboard
+        run: |
+          pip install --quiet --upgrade pillow || true
+          python3 scripts/generate_dashboard.py
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+      - name: Add Dashboard links to Summary
+        if: always()
+        run: |
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🧭 <a href=\"https://claudiuolaru1.github.io/pixel/\" target=\"_blank\">Dashboard</a>" >> $GITHUB_STEP_SUMMARY
+          echo "### 🧩 <a href=\"https://claudiuolaru1.github.io/pixel/data.json\" target=\"_blank\">JSON API</a>" >> $GITHUB_STEP_SUMMARY
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

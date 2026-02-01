@@ -1,0 +1,2 @@
+json_key_file("play-api.json") # Generated from Google Play Console service account
+package_name("com.funparks.app") # Update if you change applicationId

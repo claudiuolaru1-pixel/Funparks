@@ -1,0 +1,66 @@
+{
+  "@@locale": "en",
+  "appTitle": "Funparks",
+  "viewPark": "View Park",
+  "overview": "Overview",
+  "attractions": "Attractions",
+  "foodAndPrices": "Food & Prices",
+  "hotels": "Hotels",
+
+  "entryFrom": "Entry from",
+  "hours": "Hours",
+  "location": "Location",
+  "parkMap": "Park map",
+  "highlights": "Highlights",
+
+  "translate": "Translate",
+  "adult": "Adult",
+  "child": "Child",
+  "website": "Website",
+  "comingSoon": "Coming soon",
+
+  "settings": "Settings",
+  "language": "Language",
+  "currency": "Currency",
+  "nearbyParks": "Nearby Parks",
+
+  "thrill": "Thrill",
+  "family": "Family",
+  "water": "Water",
+  "simulator": "Simulator",
+
+  "topPick": "Top pick",
+  "recommended": "Recommended",
+  "lowestWait": "Lowest wait",
+  "highestRated": "Highest rated",
+  "tapCardForDetails": "Tap a card for full details",
+
+  "addToMyDay": "Add to My Day",
+  "removeFromMyDay": "Remove from My Day",
+  "addToMyFood": "Add to My Food",
+  "removeFromMyFood": "Remove from My Food",
+
+  "directions": "Directions",
+  "liveWait": "Live wait",
+  "setMyWait": "Set my wait",
+
+  "yourRating": "Your rating",
+  "yourComment": "Your comment",
+  "commentHint": "Share tips, what to expect, best seats, etc…",
+  "commentHintFood": "Share tips (best value, favorite dishes, good spots)…",
+
+  "myWaitTimeOptional": "My wait time (optional)",
+  "minutesHint": "Minutes (e.g. 25)",
+
+  "menuAndPrices": "Menu & prices",
+  "share": "Share",
+  "save": "Save",
+  "saved": "Saved!",
+
+  "rooms": "Rooms",
+  "night": "night",
+  "price": "Price",
+  "rating": "Rating",
+  "breakfastIncluded": "Breakfast included",
+  "breakfastNotIncluded": "Breakfast not included"
+}

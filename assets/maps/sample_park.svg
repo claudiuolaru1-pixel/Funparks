@@ -1,0 +1,7 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#e8f7ff"/>
+  <circle cx="200" cy="150" r="40" fill="#cdeccf"/>
+  <rect x="400" y="300" width="120" height="80" fill="#ffdce0"/>
+  <text x="180" y="155" font-size="14">Castle</text>
+  <text x="420" y="345" font-size="14">Water Zone</text>
+</svg>

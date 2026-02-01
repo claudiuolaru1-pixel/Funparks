@@ -1,0 +1,93 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    // id "com.google.gms.google-services" // uncomment only after adding google-services.json
+}
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file("key.properties")
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+// Read local.properties for MAPS_API_KEY
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file("local.properties")
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader("UTF-8") { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def mapsApiKey = localProperties.getProperty("MAPS_API_KEY", "")
+
+android {
+    namespace "com.funparks.app"
+    compileSdkVersion 36
+
+    defaultConfig {
+        applicationId "com.funparks.app"
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion 36
+        versionCode 102
+        versionName "1.0.102"
+        multiDexEnabled true
+
+        // IMPORTANT: keep Flutter's default placeholder AND add MAPS_API_KEY
+        manifestPlaceholders = [
+                applicationName: "io.flutter.app.FlutterApplication",
+                MAPS_API_KEY: mapsApiKey
+        ]
+    }
+
+    signingConfigs {
+        release {
+            if (keystoreProperties.containsKey('storeFile')
+                    && keystoreProperties.containsKey('storePassword')
+                    && keystoreProperties.containsKey('keyAlias')
+                    && keystoreProperties.containsKey('keyPassword')) {
+                storeFile file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            if (keystoreProperties.containsKey('storeFile')
+                    && keystoreProperties.containsKey('storePassword')
+                    && keystoreProperties.containsKey('keyAlias')
+                    && keystoreProperties.containsKey('keyPassword')) {
+                signingConfig signingConfigs.release
+            }
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    // Java / Kotlin 17
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+// Optional: align Kotlin toolchain to JDK 17
+kotlin {
+    jvmToolchain(17)
+}
+
+dependencies {
+    // Intentionally empty; Flutter handles most dependencies.
+}

@@ -1,0 +1,36 @@
+name: iOS TestFlight (Fastlane)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fastlane_beta:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Flutter pub get
+        run: flutter pub get
+      - name: CocoaPods
+        run: |
+          cd ios && pod install && cd ..
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+      - name: Fastlane
+        run: |
+          cd ios && bundle init || true
+          gem install fastlane --no-document
+          cd ..
+      - name: Build & Upload to TestFlight
+        env:
+          APP_STORE_CONNECT_API_KEY_ID: ${{ secrets.APP_STORE_CONNECT_API_KEY_ID }}
+          APP_STORE_CONNECT_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
+          APP_STORE_CONNECT_KEY: ${{ secrets.APP_STORE_CONNECT_KEY }}
+        run: |
+          cd ios
+          fastlane beta

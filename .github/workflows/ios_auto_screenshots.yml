@@ -1,0 +1,287 @@
+name: iOS Auto Screenshots
+
+on:
+  schedule:
+    - cron: '30 1 * * *'
+  workflow_dispatch:
+    inputs:
+      upload_mode:
+        description: 'Upload mode: none | screenshots-only | metadata+screens'
+        required: true
+        default: 'none'
+      upload_to_appstore:
+        description: 'Upload metadata & screenshots to App Store after capture'
+        required: true
+        default: 'false'
+      locales:
+        description: 'Space-separated locales (en fr nl de es it pt ru)'
+        required: true
+        default: 'en fr nl de es it pt ru'
+      device_name:
+        description: 'Simulator device name (e.g., iPhone 14 Pro)'
+        required: true
+        default: 'iPhone 14 Pro'
+
+jobs:
+  capture:
+    runs-on: macos-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        device: ['iPhone 14 Pro', 'iPad Pro (12.9-inch) (6th generation)']
+    timeout-minutes: 90
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Flutter doctor
+        run: flutter doctor -v
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Generate l10n
+        run: flutter gen-l10n
+
+      - name: Boot iOS Simulator
+        run: |
+          set -euxo pipefail
+          DEV="${{ matrix.device }}"
+          RUNTIME=$(xcrun simctl list runtimes | grep -E "iOS .*\(.*\)" | tail -1 | sed -E 's/.*\((.*)\).*/\1/')
+          UDID=$(xcrun simctl create "FunparksCI" "$DEV" "$RUNTIME")
+          xcrun simctl boot "$UDID"
+          xcrun simctl bootstatus "$UDID"
+          echo "SIM_UDID=$UDID" >> $GITHUB_ENV
+
+      - name: Run integration tests per locale on simulator
+        run: |
+          set -euxo pipefail
+          mkdir -p ios_captures
+          for L in ${{ github.event.inputs.locales }}; do
+            echo "=== Capturing screenshots for locale: $L ==="
+            flutter -d "$SIM_UDID" test integration_test/screenshot_test.dart --dart-define=APP_LOCALE=$L
+            mkdir -p ios_captures/$L
+            cp -v build/integration_test/*.png ios_captures/$L/ || true
+            rm -rf build/integration_test/*.png || true
+          done
+
+      - name: Shutdown simulator
+        if: always()
+        run: |
+          if [ -n "${SIM_UDID:-}" ]; then
+            xcrun simctl shutdown "$SIM_UDID" || true
+            xcrun simctl delete "$SIM_UDID" || true
+          fi
+
+      - name: Upload raw iOS screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-ios-screenshots
+          path: ios_captures/
+
+      - name: Inject screenshots into Fastlane iOS folders
+        run: |
+          set -euxo pipefail
+          # Map short codes to App Store locales
+          declare -A APPLE_MAP=(
+            [en]=en-US [fr]=fr-FR [nl]=nl-NL [de]=de-DE
+            [es]=es-ES [it]=it [pt]=pt-PT [ru]=ru
+          )
+          for L in ${{ github.event.inputs.locales }}; do
+            LOC=${APPLE_MAP[$L]}
+            test -n "$LOC"
+            DEST="ios/fastlane/screenshots/$LOC"
+            mkdir -p "$DEST"
+            i=1
+            for f in ios_captures/$L/*.png; do
+              printf -v idx "%02d" $i
+              if [[ "${{ matrix.device }}" == iPad* ]]; then cp -v "$f" "$DEST/iPadPro129_${idx}.png"; else cp -v "$f" "$DEST/iPhone65_${idx}.png"; fi
+              i=$((i+1))
+            done
+          done
+
+      - name: Count screenshots (iOS)
+        id: count_ios
+        run: |
+          set -euo pipefail
+          declare -A APPLE_MAP=(
+            [en]=en-US [fr]=fr-FR [nl]=nl-NL [de]=de-DE
+            [es]=es-ES [it]=it [pt]=pt-PT [ru]=ru
+          )
+          LOCALES="${{ github.event.inputs.locales }}"
+          echo "counts=" >> $GITHUB_OUTPUT
+          for L in $LOCALES; do
+            LOC=${APPLE_MAP[$L]}
+            if [[ "${{ matrix.device }}" == iPad* ]]; then
+              C=$(ls ios/fastlane/screenshots/$LOC/iPadPro129_*.png 2>/dev/null | wc -l || true)
+            else
+              C=$(ls ios/fastlane/screenshots/$LOC/iPhone65_*.png 2>/dev/null | wc -l || true)
+            fi
+            echo "$L:$C" >> counts_ios.txt
+          done
+          echo "counts<<EOF" >> $GITHUB_OUTPUT
+          cat counts_ios.txt >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Upload iOS screenshots (post-injection)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-fastlane-screenshots
+          path: ios/fastlane/screenshots/
+
+      - name: Post Run Summary (iOS matrix)
+        if: always()
+        run: |
+          echo "# iOS Auto Screenshots" >> $GITHUB_STEP_SUMMARY
+
+      - name: Add Dashboard link to Summary
+        if: always()
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Dashboard" >> $GITHUB_STEP_SUMMARY
+          echo "https://claudiuolaru1.github.io/pixel/" >> $GITHUB_STEP_SUMMARY
+      - name: Post PR Comment (iOS, upsert)
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const countsRaw = `${{ steps.count_ios.outputs.counts }}`.trim();
+            const pairs = countsRaw.split('\n').filter(Boolean).map(l=>l.split(':')).map(([k,v])=>[k, Number(v||0)]);
+            const missing = pairs.filter(([k,v])=>v<=0).map(([k])=>k);
+            const diff = missing.length ? `\n\n**Missing screenshots:** ${missing.join(', ')}` : '';
+            const header = '<!--FUNPARKS-IOS-${{ matrix.device }}-->';
+            const statusBar = missing.length ? `🚨 Missing: ${missing.join(', ')}` : '✅ All screenshots present';
+            const body = `${header}\n${statusBar}\n\n**iOS Screenshots — ${{ matrix.device }}**\n\n- Workflow: ${process.env.GITHUB_WORKFLOW}\n- Ref: ${process.env.GITHUB_REF}\n- Run: ${process.env.GITHUB_RUN_NUMBER}\n- Status: ${{ job.status }}\n\n**Counts**\n${countsRaw}${diff}\n\n[Open run](${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID})` + `
+
+---
+
+### 🧭 <a href="https://claudiuolaru1.github.io/pixel/" target="_blank">Dashboard</a>  
+### 🧩 <a href="https://claudiuolaru1.github.io/pixel/data.json" target="_blank">JSON API</a>
+`;
+            const {owner, repo} = context.repo;
+            const issue_number = context.issue.number;
+            const { data: comments } = await github.rest.issues.listComments({owner, repo, issue_number, per_page: 100});
+            const existing = comments.find(c => c.user.type === 'Bot' && c.body && c.body.includes(header));
+            if (existing) {
+              await github.rest.issues.updateComment({owner, repo, comment_id: existing.id, body});
+            } else {
+              await github.rest.issues.createComment({owner, repo, issue_number, body});
+            }
+          echo "**Workflow:** $GITHUB_WORKFLOW" >> $GITHUB_STEP_SUMMARY
+          echo "**Ref:** $GITHUB_REF" >> $GITHUB_STEP_SUMMARY
+          echo "**Run:** $GITHUB_RUN_NUMBER" >> $GITHUB_STEP_SUMMARY
+          echo "**Locales:** ${{ github.event.inputs.locales }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Device:** ${{ matrix.device }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Status:** ${{ job.status }}\n**Per-locale counts:**\n${{ steps.count_ios.outputs.counts }}" >> $GITHUB_STEP_SUMMARY
+          echo "[Open this run]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)" >> $GITHUB_STEP_SUMMARY
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🧭 <a href=\"https://claudiuolaru1.github.io/pixel/\" target=\"_blank\">Dashboard</a>" >> $GITHUB_STEP_SUMMARY
+          echo "### 🧩 <a href=\"https://claudiuolaru1.github.io/pixel/data.json\" target=\"_blank\">JSON API</a>" >> $GITHUB_STEP_SUMMARY
+      - name: Restore cooldown cache (ios)
+        if: failure()
+        uses: actions/cache@v4
+        with:
+          path: .github/.ci_alert_cache
+          key: ci-alert-ios-${{ github.run_id }}
+          restore-keys: |
+            ci-alert-ios-
+      - name: Cooldown check (30m, platform=ios)
+        if: failure()
+        run: |
+          set -euo pipefail
+          mkdir -p .github/.ci_alert_cache
+          FILE=.github/.ci_alert_cache/last_ts
+          NOW=$(date +%s)
+          if [ -f "$FILE" ]; then
+            LAST=$(cat "$FILE" || echo 0)
+            DIFF=$((NOW - LAST))
+            echo "Last alert: $DIFF seconds ago"
+            if [ "$DIFF" -lt 1800 ]; then
+              echo "SKIP_ALERT=1" >> $GITHUB_ENV
+              echo "Cooldown active; skipping notifications."
+            fi
+          else
+            echo "No previous alert timestamp found."
+          fi
+
+      - name: Slack notification (failure only)
+        if: failure() && env.SKIP_ALERT != '1'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          if [ -z "$SLACK_WEBHOOK_URL" ]; then
+            echo "No SLACK_WEBHOOK_URL secret; skipping Slack notification."
+            exit 0
+          fi
+          STATUS="${{ job.status }}"
+          COLOR="#2eb886"
+          if [ "$STATUS" != "success" ]; then COLOR="#e01e5a"; fi
+          PAYLOAD=$(cat <<'JSON'
+          {
+            "attachments": [ {
+              "color": "#e01e5a",
+              "title": "🚨 Funparks iOS CI FAILED",
+              "text": "Workflow: $GITHUB_WORKFLOW
+Ref: $GITHUB_REF
+Run: $GITHUB_RUN_NUMBER
+URL: https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID",
+              "footer": "GitHub Actions",
+              "ts": 1759571044
+            } ]
+          }
+          JSON
+          )
+          curl -X POST -H 'Content-type: application/json' --data "$PAYLOAD" "$SLACK_WEBHOOK_URL"
+
+
+      - name: Optionally upload metadata/screens to App Store (deliver)
+        if: ${{ github.event.inputs.upload_mode != 'none' }}
+        env:
+          APP_STORE_CONNECT_API_KEY_ID: ${{ secrets.APP_STORE_CONNECT_API_KEY_ID }}
+          APP_STORE_CONNECT_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
+          APP_STORE_CONNECT_KEY: ${{ secrets.APP_STORE_CONNECT_KEY }}
+        run: |
+          set -euxo pipefail
+          gem install fastlane --no-document
+          cd ios
+          if [ "${{ github.event.inputs.upload_mode }}" = "screenshots-only" ]; then
+            # deliver supports skipping metadata by passing only screenshots path and using flags
+            fastlane deliver_upload -- --skip_metadata true --force true
+          else
+            fastlane deliver_upload
+          fi
+      - name: Email notification (failure only)
+        if: failure() && env.SKIP_ALERT != '1'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+                    subject: "🚨 Funparks CI FAILED (${ { github.workflow } })"
+          to: ${{ secrets.NOTIFY_EMAIL_TO }}
+          from: Funparks CI <${{ secrets.SMTP_USERNAME }}>
+          content_type: text/plain
+                    body: |
+            🚨 Funparks CI FAILED
+            Workflow: $GITHUB_WORKFLOW
+            Ref: $GITHUB_REF
+            Status: ${{ job.status }}
+            URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            Workflow: $GITHUB_WORKFLOW
+            Run: $GITHUB_RUN_NUMBER
+            Ref: $GITHUB_REF
+            Status: ${{ job.status }}
+            URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+

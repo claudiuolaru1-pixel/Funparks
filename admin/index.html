@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Funparks Admin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+    body{font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial; margin:20px;}
+    header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+    .card{border:1px solid #ddd;border-radius:12px;padding:16px;margin-bottom:12px}
+    input,select,button{padding:8px;border-radius:8px;border:1px solid #ccc}
+    button{background:#72C8FF;border:none}
+    .row{display:flex;gap:12px;flex-wrap:wrap}
+  </style>
+  <!-- Firebase App (compat) -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-storage-compat.js"></script>
+</head>
+<body>
+
+  <div class="card" id="invite">
+    <h3>Invite User</h3>
+    <p>Send a passwordless sign-in link (enable Email Link sign-in in Firebase Auth).</p>
+    <div class="row">
+      <input id="inviteEmail" placeholder="user email"/>
+      <button onclick="sendInvite()">Send Invite Link</button>
+    </div>
+  </div>
+
+  <div class="card" id="reset">
+    <h3>Password Reset</h3>
+    <div class="row">
+      <input id="resetEmail" placeholder="user email"/>
+      <button onclick="sendReset()">Send Reset Email</button>
+    </div>
+  </div>
+
+
+  <div class="card" id="signin">
+    <h3>Sign In</h3>
+    <div class="row">
+      <input id="email" placeholder="admin email"/>
+      <input id="password" placeholder="password" type="password"/>
+      <button onclick="emailSignIn()">Sign In</button>
+      <button onclick="emailSignOut()">Sign Out</button>
+    </div>
+    <div id="authStatus"></div>
+  </div>
+
+  <header>
+    <h2>Funparks Admin</h2>
+    <div>Use this tool to manage <b>parks</b>, <b>attractions</b>, and <b>food</b>.</div>
+  </header>
+
+  <div class="card">
+    <h3>Firebase Config</h3>
+    <p>Paste your Firebase web config here and hit <b>Connect</b>.</p>
+    <textarea id="cfg" rows="6" style="width:100%" placeholder='{"apiKey":"...","authDomain":"...","projectId":"..."}'></textarea><br/>
+    <button onclick="connectFirebase()">Connect</button>
+    <span id="status"></span>
+  </div>
+
+  <div class="card">
+    <h3>Create Park</h3>
+    <div class="row">
+      <input id="pid" placeholder="id (slug)"/>
+      <input id="pname" placeholder="name"/>
+      <input id="pcountry" placeholder="country"/>
+      <select id="ptype">
+        <option value="thrill">thrill</option>
+        <option value="water">water</option>
+        <option value="fantasy">fantasy</option>
+        <option value="safari">safari</option>
+        <option value="tech">tech</option>
+      </select>
+      <input id="plat" placeholder="lat"/>
+      <input id="plng" placeholder="lng"/>
+      <input id="pcurrency" placeholder="currency (e.g., EUR)"/>
+      <input id="padult" placeholder="adult price"/>
+      <input id="pchild" placeholder="child price"/>
+      <input id="phours" placeholder="opening hours"/>
+      <input id="pthumb" placeholder="thumbnail URL (optional if uploading)" style="width:100%"/>
+      <input type="file" id="thumbFile" accept="image/*"/>
+    </div>
+    <button onclick="createPark()">Save Park</button>
+  </div>
+
+  <div class="card">
+    <h3>Add Attraction / Food</h3>
+    <div class="row">
+      <input id="pid2" placeholder="park id"/>
+      <input id="aname" placeholder="attraction name"/>
+      <input id="atype" placeholder="type (Thrill/Family/Water)"/>
+      <button onclick="addAttraction()">Add Attraction</button>
+    </div>
+    <div class="row" style="margin-top:8px">
+      <input id="fname" placeholder="food item"/>
+      <input id="fprice" placeholder="price"/>
+      <button onclick="addFood()">Add Food</button>
+    </div>
+  </div>
+
+  <script>
+    let db = null; let auth = null; let authed = false;
+    function connectFirebase(){
+      try{
+        const cfg = JSON.parse(document.getElementById('cfg').value);
+        const app = firebase.initializeApp(cfg);
+        db = firebase.firestore(app);
+        document.getElementById('status').innerText = 'Connected';
+
+    auth = firebase.auth();
+    auth.onAuthStateChanged((user)=>{
+      authed = !!user;
+      document.getElementById('authStatus').innerText = user ? ('Signed in as ' + user.email) : 'Signed out';
+      if(user) refreshClaims();
+    });
+
+      }catch(e){
+        document.getElementById('status').innerText = 'Config error';
+        console.error(e);
+      }
+    }
+    async function createPark(){ requireAuth();
+      if(!db){alert('Connect Firebase first');return;}
+      const doc = {
+        id: document.getElementById('pid').value,
+        name: document.getElementById('pname').value,
+        country: document.getElementById('pcountry').value,
+        type: document.getElementById('ptype').value,
+        lat: parseFloat(document.getElementById('plat').value),
+        lng: parseFloat(document.getElementById('plng').value),
+        currency: document.getElementById('pcurrency').value,
+        entry_prices: {adult: parseFloat(document.getElementById('padult').value), child: parseFloat(document.getElementById('pchild').value)},
+        opening_hours: document.getElementById('phours').value,
+        thumbnail: document.getElementById('pthumb').value
+      };
+      await db.collection('parks').doc(doc.id).set(doc);
+      alert('Saved ' + doc.name);
+    }
+    async function addAttraction(){ requireAuth();
+      if(!db){alert('Connect Firebase first');return;}
+      const parkId = document.getElementById('pid2').value;
+      const item = {name: document.getElementById('aname').value, type: document.getElementById('atype').value};
+      await db.collection('parks').doc(parkId).collection('attractions').add(item);
+      alert('Attraction added');
+    }
+    async function addFood(){ requireAuth();
+      if(!db){alert('Connect Firebase first');return;}
+      const parkId = document.getElementById('pid2').value;
+      const item = {name: document.getElementById('fname').value, price: parseFloat(document.getElementById('fprice').value)};
+      await db.collection('parks').doc(parkId).collection('food').add(item);
+      alert('Food added');
+    }
+  
+    function requireAuth(){ if(!authed){ alert('Please sign in first.'); throw new Error('No auth'); } if(!adminClaim){ alert('Admin permission required'); throw new Error('No admin'); } }
+    async function emailSignIn(){
+      try{
+        const email = document.getElementById('email').value;
+        const pass = document.getElementById('password').value;
+        await auth.signInWithEmailAndPassword(email, pass);
+        alert('Signed in');
+      }catch(e){ alert('Sign in failed'); console.error(e); }
+    }
+    async function emailSignOut(){ try{ await auth.signOut(); alert('Signed out'); }catch(e){ console.error(e); } }
+
+</script>
+
+  <div class="card" id="svgEditor">
+    <h3>SVG Map Editor</h3>
+    <p>Upload an <b>SVG</b> map for a park, click anywhere to add pins, then save to Firestore.</p>
+    <div class="row">
+      <input id="parkSvgId" placeholder="park id"/>
+      <input type="file" id="svgFile" accept=".svg"/>
+      <button onclick="uploadSvg()">Upload SVG</button>
+      <button onclick="loadSvg()">Load Existing</button>
+      <button onclick="savePins()">Save Pins</button>
+    </div>
+    <div style="margin-top:10px">
+      <small>Tip: Use the same aspect ratio per park. Pins are stored as pixel coordinates relative to original SVG size.</small>
+    </div>
+    <div id="svgCanvasWrap" style="border:1px dashed #bbb; margin-top:12px; padding:8px; overflow:auto; max-height:60vh">
+      <div id="svgInfo" style="margin-bottom:8px;color:#555"></div>
+      <div id="svgCanvas" style="position:relative; display:inline-block"></div>
+    </div>
+  </div>
+
+</body>
+</html>

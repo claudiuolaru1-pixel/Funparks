@@ -1,0 +1,50 @@
+[
+  {
+  "id": "efteling",
+  "name": "Efteling",
+  "country": "Netherlands",
+  "lat": 51.6499,
+  "lng": 5.0490,
+  "type": "fantasy",
+  "currency": "EUR",
+  "openingHours": "10:00 - 18:00",
+  "entryPrices": {
+    "adult": 51.00,
+    "child": 45.00
+  },
+  "website": "https://www.efteling.com/"
+},
+
+{
+  "id": "portaventura",
+  "name": "PortAventura",
+  "country": "Spain",
+  "lat": 41.0870,
+  "lng": 1.1572,
+  "type": "thrill",
+  "currency": "EUR",
+  "openingHours": "10:00 - 19:00",
+  "entryPrices": {
+    "adult": 55.00,
+    "child": 48.00
+  },
+  "website": "https://www.portaventuraworld.com/"
+},
+
+  {
+  "id": "europapark",
+  "name": "Europa-Park",
+  "country": "Germany",
+  "lat": 48.2670,
+  "lng": 7.7220,
+  "type": "fantasy",
+  "currency": "EUR",
+  "openingHours": "09:00 - 18:00",
+  "entryPrices": {
+    "adult": 65.00,
+    "child": 55.00
+  },
+  "website": "https://www.europapark.de/"
+}  
+
+]

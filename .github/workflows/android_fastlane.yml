@@ -1,0 +1,48 @@
+name: Android Play Upload (Fastlane)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upload_internal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Flutter pub get
+        run: flutter pub get
+      - name: Decode keystore (optional for signed release)
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: |
+          if [ -n "$ANDROID_KEYSTORE_BASE64" ]; then
+            echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > android/keystore.jks
+            cat > android/key.properties <<EOF
+storePassword=${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}
+keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}
+storeFile=keystore.jks
+EOF
+          fi
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+      - name: Install fastlane & supply
+        run: gem install fastlane --no-document
+      - name: Write Play API JSON
+        env:
+          GOOGLE_PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ -z "$GOOGLE_PLAY_SERVICE_ACCOUNT_JSON" ]; then
+            echo "Missing GOOGLE_PLAY_SERVICE_ACCOUNT_JSON secret"; exit 1; fi
+          echo "$GOOGLE_PLAY_SERVICE_ACCOUNT_JSON" | base64 -d > android/fastlane/play-api.json
+      - name: Generate feature graphics
+        run: python3 scripts/gen_feature_graphics.py
+      - name: Build & Upload to Play (internal)
+        run: |
+          cd android
+          fastlane internal

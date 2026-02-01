@@ -1,0 +1,16 @@
+[
+  {
+    "id": "portaventura",
+    "name": "PortAventura Park",
+    "city": "Salou",
+    "country": "Spain",
+    "type": "theme",
+    "openingHours": "10:00–20:00",
+    "entryPrices": { "adult": 55, "child": 45 },
+    "currency": "EUR",
+    "lat": 41.087,
+    "lng": 1.157,
+    "thumbnail": "assets/images/portaventura/park_thumbnail.png"
+  }
+]
+

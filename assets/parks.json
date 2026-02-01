@@ -1,0 +1,20 @@
+[
+  {
+    "id": "usf",
+    "name": "Universal Studios Florida",
+    "lat": 28.474321,
+    "lng": -81.467819,
+    "city": "Orlando, FL",
+    "country": "USA",
+    "thumbnail": "https://i.imgur.com/5QF8QnS.jpeg"
+  },
+  {
+    "id": "efteling",
+    "name": "Efteling",
+    "lat": 51.65,
+    "lng": 5.05,
+    "city": "Kaatsheuvel",
+    "country": "Netherlands",
+    "thumbnail": "https://i.imgur.com/1nQH3m1.jpeg"
+  }
+]
