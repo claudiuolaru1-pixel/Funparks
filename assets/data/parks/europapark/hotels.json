@@ -1,0 +1,104 @@
+[
+  {
+    "id": "hotel_colosseo",
+    "name": "Hotel Colosseo",
+    "description": "A stunning 4-star hotel themed around ancient Rome and Italy. Guests are immersed in Roman architecture with dramatic columns, mosaics and fountains. Located steps from the park entrance.",
+    "image": "assets/images/europapark/hotel_colosseo.png",
+    "lat": 48.2642,
+    "lng": 7.7205,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.europapark.de/en/hotels/hotel-colosseo",
+    "rooms": [
+      {
+        "key": "standard",
+        "name": "Standard Room",
+        "description": "Comfortable room with Roman-themed decor, twin or double beds, and modern amenities.",
+        "pricePerNight": 189.00,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "superior",
+        "name": "Superior Room",
+        "description": "Larger room with upgraded furnishings, seating area and views over the hotel grounds.",
+        "pricePerNight": 229.00,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Spacious suite with separate living area, premium Roman decor and priority park entry.",
+        "pricePerNight": 349.00,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_bell_rock",
+    "name": "Hotel Bell Rock",
+    "description": "A 4-star hotel inspired by the New England coastline and Cape Cod architecture. Bright airy rooms with nautical touches, a large pool and direct access to the park.",
+    "image": "assets/images/europapark/hotel_bell_rock.png",
+    "lat": 48.2638,
+    "lng": 7.7210,
+    "rating": 4.6,
+    "topPick": true,
+    "website": "https://www.europapark.de/en/hotels/hotel-bell-rock",
+    "rooms": [
+      {
+        "key": "standard",
+        "name": "Standard Room",
+        "description": "Cheerful New England styled room with twin or double beds and garden or pool views.",
+        "pricePerNight": 179.00,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family",
+        "name": "Family Room",
+        "description": "Larger room sleeping up to 2 adults and 2 children with bunk beds and playful decor.",
+        "pricePerNight": 259.00,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Lighthouse Suite",
+        "description": "Premium suite with panoramic views, sitting room and exclusive lounge access.",
+        "pricePerNight": 379.00,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_el_andaluz",
+    "name": "Hotel El Andaluz",
+    "description": "A beautiful 4-star hotel inspired by southern Spain and Andalusian architecture. White-washed walls, terracotta tiles and lush courtyard gardens create an authentic Mediterranean escape.",
+    "image": "assets/images/europapark/hotel_el_andaluz.png",
+    "lat": 48.2644,
+    "lng": 7.7198,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "https://www.europapark.de/en/hotels/hotel-el-andaluz",
+    "rooms": [
+      {
+        "key": "standard",
+        "name": "Standard Room",
+        "description": "Elegant Andalusian-styled room with warm tones, tiled floors and courtyard or garden views.",
+        "pricePerNight": 169.00,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "superior",
+        "name": "Superior Room",
+        "description": "Larger room with upgraded furnishings, balcony and views over the courtyard fountain.",
+        "pricePerNight": 209.00,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Patio Suite",
+        "description": "Generous suite with private patio, sitting area and premium Spanish decor throughout.",
+        "pricePerNight": 319.00,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_disneyland",
+    "name": "Disneyland Hotel",
+    "description": "The iconic pink Victorian castle hotel at the entrance of Disneyland Park. The most prestigious hotel at the resort with luxurious themed rooms, exclusive benefits and the magical feeling of sleeping inside the park itself.",
+    "image": "assets/images/disneyland/hotel_disneyland.png",
+    "lat": 48.8673,
+    "lng": 2.7833,
+    "rating": 4.9,
+    "lowestNightPrice": 450.0,
+    "breakfastIncluded": false,
+    "rooms": [
+      {
+        "key": "classic_room",
+        "name": "Classic Room",
+        "description": "Elegantly themed room sleeping up to 4 with castle views and exclusive early park entry.",
+        "pricePerNight": 450.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Luxurious suite with panoramic castle and park views, premium amenities and VIP benefits.",
+        "pricePerNight": 950.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_new_york_art_of_marvel",
+    "name": "Disney's Hotel New York - The Art of Marvel",
+    "description": "A stunning Marvel themed luxury hotel featuring over 350 original works of art by Marvel artists. Guests enjoy exclusive Marvel character experiences, premium dining and direct access to Disney Adventure World.",
+    "image": "assets/images/disneyland/hotel_new_york_art_of_marvel.png",
+    "lat": 48.8660,
+    "lng": 2.7870,
+    "rating": 4.7,
+    "lowestNightPrice": 320.0,
+    "breakfastIncluded": false,
+    "rooms": [
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Marvel themed room with original artwork sleeping up to 4 with early park entry.",
+        "pricePerNight": 320.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "hero_suite",
+        "name": "Hero Suite",
+        "description": "Premium Marvel themed suite with exclusive Superhero character decor and premium park benefits.",
+        "pricePerNight": 680.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_sequoia_lodge",
+    "name": "Disney's Sequoia Lodge",
+    "description": "A cosy American national park inspired lodge hotel surrounded by pine trees with a warm rustic atmosphere, indoor and outdoor pools, and easy access to both Disney parks.",
+    "image": "assets/images/disneyland/hotel_sequoia_lodge.png",
+    "lat": 48.8655,
+    "lng": 2.7862,
+    "rating": 4.3,
+    "lowestNightPrice": 180.0,
+    "breakfastIncluded": false,
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable lodge themed room sleeping up to 4 with forest views and early park entry.",
+        "pricePerNight": 180.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room sleeping up to 6 with bunk beds and pool access.",
+        "pricePerNight": 260.0,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

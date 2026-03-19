@@ -9,10 +9,35 @@ class AppLocalizationsNl extends AppLocalizations {
   AppLocalizationsNl([String locale = 'nl']) : super(locale);
 
   @override
+  String get continueWithoutAccount => 'Doorgaan zonder account';
+
+  @override
+  String get registerAccount => 'Account aanmaken';
+
+  @override
+  String get login => 'Inloggen';
+
+  @override
+  String get welcomeTitle => 'Ontdek pretparken';
+
+  @override
+  String get welcomeSubtitle =>
+      'Plan je bezoek, volg wachttijden en verken parken over de hele wereld.';
+
+  @override
+  String get favoritesTitle => 'Favorieten';
+
+  @override
+  String get noFavoritesYet => 'Nog geen favorieten';
+
+  @override
+  String get removeFromFavorites => 'Verwijderen uit favorieten';
+
+  @override
   String get appTitle => 'Funparks';
 
   @override
-  String get viewPark => 'Park openen';
+  String get viewPark => 'Park bekijken';
 
   @override
   String get overview => 'Overzicht';
@@ -27,7 +52,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get hotels => 'Hotels';
 
   @override
-  String get entryFrom => 'Toegang vanaf';
+  String get entryFrom => 'Entree vanaf';
 
   @override
   String get hours => 'Openingstijden';
@@ -45,6 +70,9 @@ class AppLocalizationsNl extends AppLocalizations {
   String get translate => 'Vertalen';
 
   @override
+  String get original => 'Origineel';
+
+  @override
   String get adult => 'Volwassene';
 
   @override
@@ -54,7 +82,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get website => 'Website';
 
   @override
-  String get comingSoon => 'Binnenkort';
+  String get comingSoon => 'Binnenkort beschikbaar';
 
   @override
   String get settings => 'Instellingen';
@@ -69,7 +97,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get nearbyParks => 'Parken in de buurt';
 
   @override
-  String get thrill => 'Spanning';
+  String get thrill => 'Thrill';
 
   @override
   String get family => 'Familie';
@@ -87,13 +115,13 @@ class AppLocalizationsNl extends AppLocalizations {
   String get recommended => 'Aanbevolen';
 
   @override
-  String get lowestWait => 'Laagste wachttijd';
+  String get lowestWait => 'Kortste wachttijd';
 
   @override
-  String get highestRated => 'Best beoordeeld';
+  String get highestRated => 'Hoogst beoordeeld';
 
   @override
-  String get tapCardForDetails => 'Tik op een kaart voor alle details';
+  String get tapCardForDetails => 'Tik voor details';
 
   @override
   String get addToMyDay => 'Toevoegen aan Mijn Dag';
@@ -123,12 +151,10 @@ class AppLocalizationsNl extends AppLocalizations {
   String get yourComment => 'Jouw opmerking';
 
   @override
-  String get commentHint =>
-      'Deel tips, wat je kunt verwachten, beste plekken, etc…';
+  String get commentHint => 'Tips, beste plekken, enz…';
 
   @override
-  String get commentHintFood =>
-      'Deel tips (beste waarde, favoriete gerechten, goede plekken)…';
+  String get commentHintFood => 'Tips (prijs-kwaliteit, favoriete gerechten)…';
 
   @override
   String get myWaitTimeOptional => 'Mijn wachttijd (optioneel)';
@@ -149,29 +175,103 @@ class AppLocalizationsNl extends AppLocalizations {
   String get saved => 'Opgeslagen!';
 
   @override
-  String get rooms => 'Rooms';
+  String get rooms => 'Kamers';
 
   @override
-  String get night => 'night';
+  String get night => 'nacht';
 
   @override
-  String get price => 'Price';
+  String get price => 'Prijs';
 
   @override
-  String get rating => 'Rating';
+  String get rating => 'Beoordeling';
 
   @override
-  String get breakfastIncluded => 'Breakfast included';
+  String get breakfastIncluded => 'Ontbijt inbegrepen';
 
   @override
-  String get breakfastNotIncluded => 'Breakfast not included';
+  String get breakfastNotIncluded => 'Geen ontbijt';
 
   @override
-  String get addToMyStay => 'Add to My Stay';
+  String get addToMyStay => 'Toevoegen aan Mijn Verblijf';
 
   @override
-  String get removeFromMyStay => 'Remove from My Stay';
+  String get removeFromMyStay => 'Verwijderen uit Mijn Verblijf';
 
   @override
-  String get lowestPrice => 'Lowest price';
+  String get lowestPrice => 'Laagste prijs';
+
+  @override
+  String get didYouKnow => 'Wist je dat';
+
+  @override
+  String get plan => 'Plan';
+
+  @override
+  String get photos => 'Foto’s';
+
+  @override
+  String get facts => 'Feiten';
+
+  @override
+  String get route => 'Route';
+
+  @override
+  String get myDayRoute => 'Mijn Dag Route';
+
+  @override
+  String get routeEmpty =>
+      'Voeg attracties toe aan Mijn Dag om een route te maken.';
+
+  @override
+  String get descriptionTitle => 'Beschrijving';
+
+  @override
+  String get detailsTitle => 'Details';
+
+  @override
+  String get roomTitle => 'Kamer';
+
+  @override
+  String get addToEllipsis => 'Toevoegen aan…';
+
+  @override
+  String get added => 'Toegevoegd';
+
+  @override
+  String get closest => 'Dichtstbij';
+
+  @override
+  String get cheapest => 'Goedkoopst';
+
+  @override
+  String get couldNotOpenMaps => 'Kon Maps niet openen';
+
+  @override
+  String get couldNotOpenWebsite => 'Kon website niet openen';
+
+  @override
+  String get speed => 'Snelheid';
+
+  @override
+  String get height => 'Hoogte';
+
+  @override
+  String get inversions => 'Inversies';
+
+  @override
+  String get opened => 'Geopend';
+
+  @override
+  String get openMap => 'Kaart openen';
+
+  @override
+  String get templateInfoPortAventura =>
+      'PortAventura World is een van de grootste toeristische bestemmingen in Europa, in Salou, Spanje.';
+
+  @override
+  String get restaurants => 'Restaurants';
+
+  @override
+  String get hotelRoomsComingSoon => 'Kamerdetails binnenkort beschikbaar';
 }

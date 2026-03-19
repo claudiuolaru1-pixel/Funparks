@@ -1,0 +1,49 @@
+[
+  {
+    "id": "hotel_portaventura",
+    "name": "Hotel PortAventura",
+    "description": "On-site themed hotel near the park entrance. Great if you want minimal walking and early starts.",
+    "image": "assets/images/portaventura/hotel_portaventura.png",
+    "lat": 41.0869,
+    "lng": 1.1565,
+    "rating": 4.6,
+    "topPick": true,
+    "website": "",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable room for 2–4 guests.",
+        "pricePerNight": 189.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "More space + better views.",
+        "pricePerNight": 239.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_gold_river",
+    "name": "Hotel Gold River",
+    "description": "Wild West style hotel with spacious areas and a relaxed resort feel.",
+    "image": "assets/images/portaventura/hotel_gold_river.png",
+    "lat": 41.0884,
+    "lng": 1.1549,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Great value option for families.",
+        "pricePerNight": 169.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

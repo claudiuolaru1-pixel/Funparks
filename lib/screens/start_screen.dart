@@ -1,90 +1,134 @@
-import 'package:flutter/material.dart';
-
+﻿import 'package:flutter/material.dart';
 import '../l10n/app_localizations.dart';
-import 'home_map_screen.dart';
+import 'app_tour_screen.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
 
-  void _goToMap(BuildContext context) {
-    debugPrint('START_SCREEN: Continue pressed -> going to HomeMapScreen');
-    Navigator.of(context).pushReplacement(
-      MaterialPageRoute(builder: (_) => const HomeMapScreen()),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
-    debugPrint('START_SCREEN: build()');
-
-    final loc = AppLocalizations.of(context);
-    final title = loc?.appTitle ?? 'Funparks';
-
+    final loc = AppLocalizations.of(context)!;
     return Scaffold(
       body: Stack(
         fit: StackFit.expand,
         children: [
-          Image.asset('assets/images/start_bg.png', fit: BoxFit.cover),
-          Container(color: Colors.black.withOpacity(0.4)),
+          Image.network('https://firebasestorage.googleapis.com/v0/b/funparks-779c6.firebasestorage.app/o/images%2Fstart_bg.png?alt=media', fit: BoxFit.cover, errorBuilder: (_, __, ___) => Container(color: const Color(0xFF72C8FF))),
+          Container(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [
+                  Colors.black.withOpacity(0.3),
+                  Colors.black.withOpacity(0.75),
+                ],
+              ),
+            ),
+          ),
           SafeArea(
-            child: Center(
-              child: Padding(
-                padding: const EdgeInsets.all(24),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      'Welcome to $title!',
-                      textAlign: TextAlign.center,
-                      style: const TextStyle(
-                        fontSize: 28,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 28),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  const Spacer(),
+                  Text(
+                    loc.appTitle,
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 42,
+                      fontWeight: FontWeight.w900,
+                    ),
+                  ),
+                  const SizedBox(height: 12),
+                  Text(
+                    loc.welcomeSubtitle,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white.withOpacity(0.85),
+                      fontSize: 16,
+                      height: 1.5,
+                    ),
+                  ),
+                  const SizedBox(height: 48),
+
+                  // Take a Tour
+                  SizedBox(
+                    width: double.infinity,
+                    child: OutlinedButton.icon(
+                      onPressed: () => Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (_) => const AppTourScreen(),
+                        ),
+                      ),
+                      icon: const Icon(Icons.explore, color: Colors.white),
+                      label: const Text(
+                        'Take a Tour',
+                        style: TextStyle(
+                            fontWeight: FontWeight.w700,
+                            fontSize: 16,
+                            color: Colors.white),
+                      ),
+                      style: OutlinedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(vertical: 16),
+                        side: BorderSide(
+                            color: Colors.white.withOpacity(0.6), width: 1.5),
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(14)),
                       ),
                     ),
-                    const SizedBox(height: 12),
-                    const Text(
-                      'Discover parks, plan your day, share your rides.',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(fontSize: 14, color: Colors.white70),
+                  ),
+                  const SizedBox(height: 12),
+
+                  // Continue without account
+                  SizedBox(
+                    width: double.infinity,
+                    child: FilledButton(
+                      onPressed: () =>
+                          Navigator.pushReplacementNamed(context, '/home'),
+                      style: FilledButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(vertical: 16),
+                        backgroundColor: Colors.white,
+                        foregroundColor: Colors.black,
+                      ),
+                      child: Text(loc.continueWithoutAccount,
+                          style: const TextStyle(
+                              fontWeight: FontWeight.w700, fontSize: 16)),
                     ),
-                    const SizedBox(height: 8),
-                    Text(
-                      'Build 71',
+                  ),
+                  const SizedBox(height: 12),
+
+                  // Register
+                  SizedBox(
+                    width: double.infinity,
+                    child: FilledButton(
+                      onPressed: () => Navigator.pushNamed(context, '/signin',
+                          arguments: 'register'),
+                      style: FilledButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(vertical: 16),
+                        backgroundColor: Colors.white.withOpacity(0.15),
+                        foregroundColor: Colors.white,
+                      ),
+                      child: Text(loc.registerAccount,
+                          style: const TextStyle(
+                              fontWeight: FontWeight.w700, fontSize: 16)),
+                    ),
+                  ),
+                  const SizedBox(height: 12),
+
+                  // Login
+                  TextButton(
+                    onPressed: () =>
+                        Navigator.pushNamed(context, '/signin'),
+                    child: Text(
+                      loc.login,
                       style: TextStyle(
-                        color: Colors.white.withOpacity(0.85),
-                        fontSize: 12,
-                      ),
+                          color: Colors.white.withOpacity(0.75), fontSize: 15),
                     ),
-                    const SizedBox(height: 32),
-
-                    SizedBox(
-                      width: double.infinity,
-                      child: FilledButton(
-                        onPressed: () => _goToMap(context),
-                        child: const Text('Continue without an account'),
-                      ),
-                    ),
-                    const SizedBox(height: 12),
-
-                    SizedBox(
-                      width: double.infinity,
-                      child: FilledButton(
-                        onPressed: () => _goToMap(context),
-                        child: const Text('Sign in'),
-                      ),
-                    ),
-                    const SizedBox(height: 12),
-
-                    SizedBox(
-                      width: double.infinity,
-                      child: FilledButton(
-                        onPressed: () => _goToMap(context),
-                        child: const Text('Create an account'),
-                      ),
-                    ),
-                  ],
-                ),
+                  ),
+                  const SizedBox(height: 32),
+                ],
               ),
             ),
           ),

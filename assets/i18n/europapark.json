@@ -1,0 +1,352 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Europa-Park is Germany's largest theme park and one of the most visited in Europe, located in Rust, Baden-Württemberg. Founded in 1975 by the Mack family — who also manufacture roller coasters — the park has grown into a world-class resort spanning over 95 hectares. It is organised into themed areas representing different European countries, each with immersive architecture, native landscaping, authentic cuisine, and themed rides.",
+      "es": "Europa-Park es el parque tematico mas grande de Alemania y uno de los mas visitados de Europa, situado en Rust, Baden-Wurtemberg. Fundado en 1975 por la familia Mack, el parque se ha convertido en un complejo de clase mundial de mas de 95 hectareas organizado en areas tematicas que representan distintos paises europeos.",
+      "fr": "Europa-Park est le plus grand parc a theme d'Allemagne et l'un des plus visites d'Europe, situe a Rust, Bade-Wurtemberg. Fonde en 1975 par la famille Mack, il est devenu un complexe de classe mondiale de plus de 95 hectares organise en zones thematiques representant differents pays europeens.",
+      "de": "Europa-Park ist Deutschlands groesster Freizeitpark und einer der meistbesuchten Europas in Rust, Baden-Wuerttemberg. 1975 von der Familie Mack gegruendet, ist er zu einem weltklasse Resort von ueber 95 Hektar gewachsen, organisiert in Themenbereiche verschiedener europaeischer Laender.",
+      "it": "Europa-Park e il piu grande parco a tema della Germania e uno dei piu visitati d'Europa, situato a Rust, Baden-Wurtemberg. Fondato nel 1975 dalla famiglia Mack, e diventato un resort di classe mondiale di oltre 95 ettari organizzato in aree tematiche che rappresentano diversi paesi europei.",
+      "nl": "Europa-Park is Duitslands grootste pretpark en een van de meest bezochte van Europa, gelegen in Rust, Baden-Wuerttemberg. Opgericht in 1975 door de familie Mack, is het uitgegroeid tot een wereldklasse resort van meer dan 95 hectare georganiseerd in themagebieden van verschillende Europese landen.",
+      "pt": "Europa-Park e o maior parque tematico da Alemanha e um dos mais visitados da Europa, localizado em Rust, Baden-Wuerttemberg. Fundado em 1975 pela familia Mack, cresceu para um resort de classe mundial de mais de 95 hectares organizado em areas tematicas de diferentes paises europeus.",
+      "ru": "Europa-Park — крупнейший тематический парк Германии и один из самых посещаемых в Европе, расположен в Русте, Баден-Вюртемберг. Основан семьёй Мак в 1975 году, вырос до мирового курорта площадью более 95 гектаров.",
+      "zh": "欧罗巴公园是德国最大的主题公园，也是欧洲参观人数最多的主题公园之一，位于巴登-符腾堡州的鲁斯特。由马克家族于1975年创立，已发展成为占地超过95公顷的世界级度假胜地。",
+      "ar": "يوروبا بارك هو أكبر حديقة ترفيه في ألمانيا وأحد أكثر المتنزهات زيارة في أوروبا، يقع في روست بولاية بادن فورتمبرغ. أسسته عائلة ماك عام 1975 ونما ليصبح منتجعاً عالمي المستوى يمتد على أكثر من 95 هكتاراً منظماً في مناطق تمثل دول أوروبية مختلفة."
+    },
+    "ov_highlights_body": {
+      "en": "Voltron Nevera, opened in 2024, is Europe's fastest coaster reaching 135 km/h. Silver Star at 73 metres delivers breathtaking airtime. Blue Fire combines electromagnetic launch with four inversions. Wodan is one of Europe's finest wooden coasters. Arthur in the Minimoys Kingdom offers a magical indoor dark ride for families.",
+      "es": "Voltron Nevera abierto en 2024 es el coaster mas rapido de Europa a 135 km/h. Silver Star a 73 metros ofrece airtime impresionante. Blue Fire combina lanzamiento electromagnetico con cuatro inversiones. Wodan es uno de los mejores coasters de madera de Europa.",
+      "fr": "Voltron Nevera ouvert en 2024 est le coaster le plus rapide d'Europe a 135 km/h. Silver Star a 73 metres offre un airtime epoustouflant. Blue Fire combine lancement electromagnetique et quatre inversions. Wodan est l'un des meilleurs coasters en bois d'Europe.",
+      "de": "Voltron Nevera 2024 eroeffnet ist Europas schnellster Coaster mit 135 km/h. Silver Star bei 73 Metern liefert atemberaubende Airtime. Blue Fire kombiniert elektromagnetischen Start mit vier Inversionen. Wodan ist einer der besten Holzcoaster Europas.",
+      "it": "Voltron Nevera aperto nel 2024 e il coaster piu veloce d'Europa a 135 km/h. Silver Star a 73 metri offre airtime mozzafiato. Blue Fire combina lancio elettromagnetico con quattro inversioni. Wodan e uno dei migliori coaster in legno d'Europa.",
+      "nl": "Voltron Nevera geopend in 2024 is Europa's snelste coaster op 135 km/h. Silver Star op 73 meter levert adembenemende airtime. Blue Fire combineert elektromagnetische lancering met vier inversies. Wodan is een van Europa's beste houten coasters.",
+      "pt": "Voltron Nevera aberto em 2024 e o coaster mais rapido da Europa a 135 km/h. Silver Star a 73 metros oferece airtime deslumbrante. Blue Fire combina lancamento eletromagnetico com quatro inversoes. Wodan e um dos melhores coasters de madeira da Europa.",
+      "ru": "Voltron Nevera 2024 — самые быстрые горки Европы 135 км/ч. Silver Star 73 м с захватывающим воздушным временем. Blue Fire — электромагнитный запуск с четырьмя инверсиями. Wodan — один из лучших деревянных коастеров Европы.",
+      "zh": "2024年开放的沃尔特龙·内维拉是欧洲最快过山车，时速135公里。银星高74米，带来惊人失重体验。蓝火结合磁力发射和四次翻转。沃当是欧洲最好的木质过山车之一。",
+      "ar": "فولترون نيبولا المفتوح عام 2024 هو أسرع أفعوانية في أوروبا بسرعة 135 كم/ساعة. سيلفر ستار بارتفاع 73 متراً يوفر لحظات انعدام جاذبية مذهلة. بلو فاير يجمع الإطلاق المغناطيسي مع أربع انقلابات. وودان من أفضل الأفعوانيات الخشبية في أوروبا."
+    },
+    "ov_did_you_know_body": {
+      "en": "Europa-Park was founded in 1975 by Franz Mack and his son Roland, who also run Mack Rides — one of the world's leading roller coaster manufacturers. The park attracted over 6 million visitors in 2023, making it the second most visited theme park in Europe after Disneyland Paris. Voltron Nevera was developed in partnership with Croatian electric hypercar maker Rimac.",
+      "es": "Europa-Park fue fundado en 1975 por Franz Mack y su hijo Roland, que tambien dirigen Mack Rides. Atrajo mas de 6 millones de visitantes en 2023, siendo el segundo parque mas visitado de Europa tras Disneyland Paris.",
+      "fr": "Europa-Park a ete fonde en 1975 par Franz Mack et son fils Roland, qui dirigent aussi Mack Rides. Il a attire plus de 6 millions de visiteurs en 2023, etant le deuxieme parc le plus visite d'Europe apres Disneyland Paris.",
+      "de": "Europa-Park wurde 1975 von Franz Mack und seinem Sohn Roland gegruendet, die auch Mack Rides betreiben. Er zog 2023 ueber 6 Millionen Besucher an und ist nach Disneyland Paris der meistbesuchte Park Europas.",
+      "it": "Europa-Park e stato fondato nel 1975 da Franz Mack e suo figlio Roland, che gestiscono anche Mack Rides. Ha attirato oltre 6 milioni di visitatori nel 2023 essendo il secondo parco piu visitato d'Europa dopo Disneyland Paris.",
+      "nl": "Europa-Park werd in 1975 opgericht door Franz Mack en zijn zoon Roland, die ook Mack Rides runnen. Het trok meer dan 6 miljoen bezoekers in 2023 en is het op een na meest bezochte park in Europa na Disneyland Paris.",
+      "pt": "Europa-Park foi fundado em 1975 por Franz Mack e seu filho Roland, que tambem gerem a Mack Rides. Atraiu mais de 6 milhoes de visitantes em 2023, sendo o segundo parque mais visitado da Europa apos a Disneyland Paris.",
+      "ru": "Europa-Park основан в 1975 году Францем Маком и его сыном Роландом, которые также управляют Mack Rides. В 2023 году парк привлёк более 6 миллионов посетителей, став вторым по посещаемости в Европе после Disneyland Paris.",
+      "zh": "欧罗巴公园由弗朗茨·马克和儿子罗兰于1975年创立，他们还经营马克游乐设施公司。2023年吸引超过600万游客，是继巴黎迪士尼乐园之后欧洲第二大主题公园。",
+      "ar": "أسس فرانز ماك وابنه رولاند يوروبا بارك عام 1975 وهم يديرون أيضاً شركة ماك رايدز لصنع الأفعوانيات. استقطب المتنزه أكثر من 6 ملايين زائر عام 2023 ليكون ثاني أكثر متنزه زيارة في أوروبا بعد ديزني باريس."
+    },
+    "ov_plan_body": {
+      "en": "Arrive 30 minutes before opening and head straight to Voltron Nevera or Silver Star. Blue Fire and Wodan are best tackled early too. Explore the European themed areas at a leisurely pace. Water rides like Poseidon are best saved for the hottest part of the day. Hotel guests benefit from early park entry.",
+      "es": "Llega 30 minutos antes de la apertura y ve directo a Voltron Nevera o Silver Star. Blue Fire y Wodan tambien son mejores temprano. Los huespedes del hotel se benefician de entrada anticipada.",
+      "fr": "Arrivez 30 minutes avant l'ouverture et allez directement a Voltron Nevera ou Silver Star. Blue Fire et Wodan sont aussi mieux le matin. Les clients de l'hotel beneficient d'une entree anticipee.",
+      "de": "30 Minuten vor Oeffnung ankommen und direkt zu Voltron Nevera oder Silver Star. Blue Fire und Wodan frueh angehen. Hotelgaeste haben fruehen Einlass.",
+      "it": "Arriva 30 minuti prima dell'apertura e vai direttamente a Voltron Nevera o Silver Star. Blue Fire e Wodan sono meglio la mattina presto. Gli ospiti dell'hotel hanno ingresso anticipato.",
+      "nl": "Kom 30 minuten voor opening aan en ga direct naar Voltron Nevera of Silver Star. Blue Fire en Wodan ook vroeg aanpakken. Hotelgasten profiteren van vroege toegang.",
+      "pt": "Chega 30 minutos antes da abertura e vai direto ao Voltron Nevera ou Silver Star. Blue Fire e Wodan tambem sao melhores cedo. Hospedes do hotel beneficiam de entrada antecipada.",
+      "ru": "Приходите за 30 минут до открытия — сразу к Voltron Nevera или Silver Star. Blue Fire и Wodan тоже утром. Гости отеля получают ранний вход.",
+      "zh": "开园前30分钟到达，直奔沃尔特龙或银星。蓝火和沃当也最好早上去。酒店客人享受提前入园特权。",
+      "ar": "اصل قبل 30 دقيقة من الافتتاح وتوجه مباشرة إلى فولترون نيبولا أو سيلفر ستار. بلو فاير وووداق أيضاً في الصباح الباكر. نزلاء الفندق يستفيدون من الدخول المبكر."
+    },
+    "ov_photos_body": {
+      "en": "The best shots of Silver Star can be captured from the lakeside path in the France area. Voltron Nevera looks spectacular from the Croatia zone plaza. The Scandinavian and Icelandic areas offer dramatic scenery for wide shots. The European themed hotels are magnificent at dusk when illuminated.",
+      "es": "Las mejores fotos de Silver Star desde el camino junto al lago en la zona de Francia. Voltron Nevera es espectacular desde la plaza de la zona de Croacia. Los hoteles europeos son magnificos al anochecer.",
+      "fr": "Les meilleures photos de Silver Star depuis le chemin du bord du lac dans la zone France. Voltron Nevera est spectaculaire depuis la plaza de la zone Croatie. Les hotels europeens sont magnifiques au crepuscule.",
+      "de": "Die besten Fotos von Silver Star vom Seeweg im Frankreich-Bereich. Voltron Nevera vom Kroatien-Platz spektakulaer. Die europaeischen Hotels sind in der Daemmerung prachtvoll.",
+      "it": "Le migliori foto di Silver Star dal sentiero del lago nella zona Francia. Voltron Nevera e spettacolare dalla piazza della zona Croazia. Gli hotel europei sono magnifici al crepuscolo.",
+      "nl": "De beste foto's van Silver Star vanaf het meer in het Frankrijk-gebied. Voltron Nevera is spectaculair vanaf het Kroatie-plein. De Europese hotels zijn prachtig bij schemering.",
+      "pt": "As melhores fotos de Silver Star a partir do caminho do lago na zona Franca. Voltron Nevera e espetacular desde a praca da zona Croacia. Os hoteis europeus sao magnificos ao entardecer.",
+      "ru": "Лучшие фото Silver Star с озёрной тропы в зоне Франции. Voltron Nevera впечатляет с площади Хорватии. Европейские отели великолепны в сумерках.",
+      "zh": "银星最佳拍摄地点是法国区湖边小路。沃尔特龙从克罗地亚广场看非常壮观。欧洲主题酒店在黄昏灯光下美轮美奂。",
+      "ar": "أفضل صور سيلفر ستار من مسار البحيرة في منطقة فرنسا. فولترون نيبولا يبدو رائعاً من ساحة منطقة كرواتيا. الفنادق الأوروبية رائعة عند الغسق حين تضاء واجهاتها."
+    }
+  },
+  "attractions": {
+    "voltron_nevera": {
+      "desc": {
+        "en": "Europe's fastest roller coaster themed around the Rimac Nevera electric hypercar, reaching extreme speeds with multiple launches and inversions.",
+        "es": "El coaster mas rapido de Europa con tema del hypercar electrico Rimac Nevera, alcanzando velocidades extremas con multiples lanzamientos.",
+        "fr": "Le coaster le plus rapide d'Europe sur le theme de l'hypercar electrique Rimac Nevera, atteignant des vitesses extremes.",
+        "de": "Europas schnellster Coaster zum Thema Rimac Nevera Elektro-Hypercar mit mehreren Abschuessen und Inversionen.",
+        "it": "Il coaster piu veloce d'Europa a tema hypercar elettrica Rimac Nevera con molteplici lanci e inversioni.",
+        "nl": "Europa's snelste achterbaan met het thema van de Rimac Nevera elektrische hypercar met meerdere lanceringen.",
+        "pt": "A montana-russa mais rapida da Europa com tema do hypercar eletrico Rimac Nevera com multiplos lancamentos.",
+        "ru": "Самые быстрые горки Европы с темой электрического гиперкара Rimac Nevera с несколькими запусками и инверсиями.",
+        "zh": "以里马克内维拉电动超级跑车为主题的欧洲最快过山车，多次发射达到极限速度。",
+        "ar": "أسرع أفعوانية في أوروبا بطابع سيارة Rimac Nevera الكهربائية الفائقة، تصل إلى سرعات قصوى مع إطلاقات متعددة وانقلابات."
+      }
+    },
+    "silver_star": {
+      "desc": {
+        "en": "One of Europe's tallest and fastest steel roller coasters by B&M, a classic hypercoaster with breathtaking airtime hills and sweeping turns at 130 km/h.",
+        "es": "Uno de los coasters de acero mas altos y rapidos de Europa de B&M, un hipercoaster clasico con colinas de airtime y curvas a 130 km/h.",
+        "fr": "L'un des coasters d'acier les plus hauts et les plus rapides d'Europe par B&M, un hypercoaster classique a 130 km/h.",
+        "de": "Einer der hoechsten und schnellsten Stahlcoaster Europas von B&M, ein klassischer Hypercoaster mit Airtime-Huegeln bei 130 km/h.",
+        "it": "Uno dei coaster d'acciaio piu alti e veloci d'Europa di B&M, un classico hypercoaster con colline di airtime a 130 km/h.",
+        "nl": "Een van Europa's hoogste en snelste stalen achterbanen van B&M, een klassieke hypercoaster met airtimeheuvels op 130 km/h.",
+        "pt": "Uma das montanhas-russas de aco mais altas e rapidas da Europa da B&M, um hypercoaster classico com colinas de airtime a 130 km/h.",
+        "ru": "Один из самых высоких и быстрых стальных коастеров Европы от B&M, классический гиперкоастер с воздушными горками при 130 км/ч.",
+        "zh": "B&M制造的欧洲最高最快钢铁过山车之一，经典超级过山车，时速130公里，多个空中时间山丘。",
+        "ar": "واحدة من أطول وأسرع الأفعوانيات المعدنية في أوروبا من B&M، أفعوانية فائقة كلاسيكية بتلال انعدام جاذبية ومنعطجات بسرعة 130 كم/ساعة."
+      }
+    },
+    "blue_fire": {
+      "desc": {
+        "en": "A launched steel coaster by Mack Rides featuring a powerful electromagnetic launch and four inversions through a futuristic industrial theme at 100 km/h.",
+        "es": "Coaster lanzado de Mack Rides con potente lanzamiento electromagnetico y cuatro inversiones en tema industrial futurista a 100 km/h.",
+        "fr": "Coaster lance de Mack Rides avec puissant lancement electromagnetique et quatre inversions dans un theme industriel futuriste a 100 km/h.",
+        "de": "Launch-Coaster von Mack Rides mit elektromagnetischem Start und vier Inversionen durch futuristisches Industriethema bei 100 km/h.",
+        "it": "Coaster lanciato di Mack Rides con potente lancio elettromagnetico e quattro inversioni in un tema industriale futuristico a 100 km/h.",
+        "nl": "Een gelanceerde achterbaan van Mack Rides met krachtige elektromagnetische lancering en vier inversies op 100 km/h.",
+        "pt": "Coaster lancado da Mack Rides com potente lancamento eletromagnetico e quatro inversoes a 100 km/h.",
+        "ru": "Запускаемые горки от Mack Rides с электромагнитным запуском и четырьмя инверсиями при 100 км/ч.",
+        "zh": "Mack Rides制造的发射式过山车，强力电磁发射，四次翻转，未来主义工业主题，时速100公里。",
+        "ar": "أفعوانية إطلاق من Mack Rides بإطلاق كهرومغناطيسي قوي وأربع انقلابات عبر طابع صناعي مستقبلي بسرعة 100 كم/ساعة."
+      }
+    },
+    "wodan": {
+      "desc": {
+        "en": "A thrilling wooden roller coaster themed around Norse mythology, widely regarded as one of the best wooden coasters in Europe with intense airtime and fast turns.",
+        "es": "Emocionante montana rusa de madera con tema de mitologia nordica, considerada uno de los mejores coasters de madera de Europa.",
+        "fr": "Coaster en bois passionnant sur le theme de la mythologie nordique, largement considere comme l'un des meilleurs en Europe.",
+        "de": "Aufregender Holzcoaster mit nordischer Mythologie-Thema, weithin als einer der besten Holzcoaster Europas angesehen.",
+        "it": "Emozionante coaster in legno a tema mitologia norrena, ampiamente considerato uno dei migliori in Europa.",
+        "nl": "Spannende houten achterbaan met Noordse mythologie-thema, algemeen beschouwd als een van de beste in Europa.",
+        "pt": "Montana-russa de madeira com tema de mitologia nordica, amplamente considerada uma das melhores da Europa.",
+        "ru": "Захватывающие деревянные горки с темой скандинавской мифологии, широко считаются одними из лучших в Европе.",
+        "zh": "以北欧神话为主题的刺激木质过山车，被公认为欧洲最好的木质过山车之一。",
+        "ar": "أفعوانية خشبية مثيرة بطابع الأساطير الاسكندنافية، تُعدّ على نطاق واسع من أفضل الأفعوانيات الخشبية في أوروبا."
+      }
+    },
+    "eurosat_cancan": {
+      "desc": {
+        "en": "An indoor roller coaster inside a giant dome themed around Paris and the Moulin Rouge. Enjoy a lively can-can soundtrack while twisting through the dark.",
+        "es": "Montana rusa cubierta en una cupula gigante con tema de Paris y el Moulin Rouge. Disfruta de la banda sonora can-can mientras giras en la oscuridad.",
+        "fr": "Coaster couvert dans un dome geant sur le theme de Paris et du Moulin Rouge. Profitez d'une bande sonore can-can en vous tortillant dans l'obscurite.",
+        "de": "Innencoaster in einer Riesenkuppel mit Paris- und Moulin-Rouge-Thema. Geniesse einen lebhaften Can-Can-Soundtrack beim Drehen im Dunkeln.",
+        "it": "Coaster al coperto in una cupola gigante a tema Parigi e Moulin Rouge. Goditi una vivace colonna sonora can-can mentre ti attorcigli nel buio.",
+        "nl": "Overdekte achterbaan in een reuzenkoepel met Parijs en Moulin Rouge-thema. Geniet van een levendige can-can-soundtrack terwijl je door het donker draait.",
+        "pt": "Montana-russa coberta numa cupula gigante com tema de Paris e do Moulin Rouge. Desfruta de uma animada banda sonora can-can.",
+        "ru": "Закрытые горки в гигантском куполе с темой Парижа и Мулен Руж с весёлым саундтреком кан-кан.",
+        "zh": "以巴黎和红磨坊为主题的室内过山车，在巨型圆顶内穿越黑暗，享受欢快的康康舞配乐。",
+        "ar": "أفعوانية مغطاة داخل قبة عملاقة بطابع باريس وموليان روج. استمتع بموسيقى كان-كان الحيوية أثناء التلوي في الظلام."
+      }
+    },
+    "poseidon": {
+      "desc": {
+        "en": "A water roller coaster themed around the Greek god of the sea combining the thrill of a coaster with the splash of a water ride through ancient ruins.",
+        "es": "Coaster acuatico con tema del dios griego del mar que combina la emocion de un coaster con el splash de un juego de agua.",
+        "fr": "Coaster aquatique sur le theme du dieu grec de la mer combinant l'excitation d'un coaster avec les eclaboussures d'un manege aquatique.",
+        "de": "Wassercoaster mit dem Thema des griechischen Meeresgottes, der den Nervenkitzel eines Coasters mit dem Splash einer Wasserfahrt kombiniert.",
+        "it": "Coaster acquatico a tema dio greco del mare che combina il brivido di un coaster con lo splash di un'attrazione acquatica.",
+        "nl": "Een waterachterbaan met het thema van de Griekse zeegod die de spanning van een achterbaan combineert met de plons van een waterattractie.",
+        "pt": "Coaster aquatico com tema do deus grego do mar combinando a emocao de um coaster com o splash de um passeio aquatico.",
+        "ru": "Водные горки с темой греческого бога морей, сочетающие острые ощущения горок с брызгами водного аттракциона.",
+        "zh": "以希腊海神为主题的水上过山车，将过山车的刺激与水上游乐的水花相结合，穿越古代遗迹。",
+        "ar": "أفعوانية مائية بطابع الإله الإغريقي للبحر تجمع إثارة الأفعوانية مع رذاذ الماء عبر الأطلال القديمة."
+      }
+    },
+    "arthur": {
+      "desc": {
+        "en": "A magical indoor dark ride and roller coaster hybrid based on the Arthur and the Minimoys films, perfect for families with younger children.",
+        "es": "Magica combinacion de dark ride y coaster cubierto basada en las peliculas de Arthur y los Minimoys, perfecta para familias con ninos pequenos.",
+        "fr": "Magique hybride dark ride et coaster interieur base sur les films Arthur et les Minimoys, parfait pour les familles avec de jeunes enfants.",
+        "de": "Magisches Innen-Dark-Ride und Coaster-Hybrid basierend auf den Arthur und die Minimoys Filmen, perfekt fuer Familien.",
+        "it": "Magico ibrido dark ride e coaster al coperto basato sui film di Arthur e i Minimei, perfetto per famiglie con bambini piccoli.",
+        "nl": "Magische indoor dark ride en achterbaan hybride gebaseerd op de Arthur en de Minimoys films, perfect voor gezinnen.",
+        "pt": "Magica hibrida dark ride e coaster coberto baseada nos filmes Arthur e os Minimoys, perfeita para familias.",
+        "ru": "Волшебный закрытый тёмный аттракцион и гибрид горок по мотивам фильмов «Артур и Минипуты» для семей.",
+        "zh": "以《亚瑟和迷你王国》电影为主题的神奇室内暗室游乐和过山车混合项目，非常适合带小孩的家庭。",
+        "ar": "لعبة مظلمة داخلية سحرية وهجين أفعوانية مستند إلى أفلام آرثر والمينيموي، مثالي للعائلات مع الأطفال الصغار."
+      }
+    },
+    "euromir": {
+      "desc": {
+        "en": "A unique spinning roller coaster taking guests on a journey through a Soviet space station. Riders face backwards as their car rotates through the scenes.",
+        "es": "Unico coaster giratorio que lleva a los visitantes a traves de una estacion espacial sovietica. Los riders miran hacia atras mientras el coche rota.",
+        "fr": "Unique coaster tournant emmenant les visiteurs dans une station spatiale sovietique. Les riders regardent en arriere pendant que leur voiture pivote.",
+        "de": "Einzigartiger Dreh-Coaster durch eine sowjetische Raumstation. Fahrer schauen rueckwaerts waehrend ihr Wagen dreht.",
+        "it": "Unico coaster rotante che porta gli ospiti in un viaggio attraverso una stazione spaziale sovietica.",
+        "nl": "Unieke draaiende achterbaan die gasten meeneemt door een Sovjet ruimtestation. Riders kijken achteruit terwijl hun wagen roteert.",
+        "pt": "Unica montana-russa giratoria que leva os visitantes por uma estacao espacial sovietica.",
+        "ru": "Уникальные вращающиеся горки через советскую космическую станцию — пассажиры смотрят назад при вращении вагона.",
+        "zh": "独特的旋转过山车，带游客穿越苏联太空站。乘客面向后方，座舱在场景中旋转。",
+        "ar": "أفعوانية دوارة فريدة تأخذ الزوار في رحلة عبر محطة فضاء سوفيتية. يجلس الركاب للخلف بينما تدور عربتهم."
+      }
+    },
+    "matterhorn_blitz": {
+      "desc": {
+        "en": "A classic alpine mine train roller coaster winding through the Austrian-themed area, a gentle but fun ride suitable for the whole family.",
+        "es": "Clasica montana rusa de tren minero alpino serpenteando por la zona de tema austriaco, suave pero divertida para toda la familia.",
+        "fr": "Classique coaster de train minier alpin serpentant dans la zone autrichienne, une balade douce mais amusante pour toute la famille.",
+        "de": "Klassische Alpine-Minenbahnachterbahn durch die oesterreichische Zone, eine sanfte aber lustige Fahrt fuer die ganze Familie.",
+        "it": "Classico coaster trenino minerario alpino che serpeggia nella zona austriaca, una corsa dolce ma divertente per tutta la famiglia.",
+        "nl": "Klassieke alpine mijntreinachterbaan door het Oostenrijkse gebied, een rustige maar leuke rit voor het hele gezin.",
+        "pt": "Classica montana-russa de comboio de mina alpino serpenteando pela zona austriaca, suave mas divertida para toda a familia.",
+        "ru": "Классические горные горки-шахтный поезд через австрийскую зону, тихая, но весёлая поездка для всей семьи.",
+        "zh": "经典高山矿山车过山车，蜿蜒穿越奥地利主题区，温和有趣，适合全家。",
+        "ar": "أفعوانية قطار منجم جبلي كلاسيكية تلتف عبر المنطقة ذات الطابع النمساوي، رحلة هادئة لكن ممتعة للعائلة بأكملها."
+      }
+    },
+    "fjord_rafting": {
+      "desc": {
+        "en": "A thrilling river rapids ride through the Scandinavian-themed area with rushing water, spinning rafts and a guaranteed soaking in the Norwegian fjords setting.",
+        "es": "Emocionante aventura de rapidos por la zona escandinava con agua torrencial, balsas giratorias y garantia de empapamiento en los fiordos noruegos.",
+        "fr": "Aventure de rapides passionnante a travers la zone scandinave avec eau tourbillonnante et radeaux tournants dans un decor de fjords norvegiens.",
+        "de": "Aufregede Wildwasserfahrt durch die skandinavische Zone mit Strudeln und Drehbooten in norwegischer Fjordkulisse.",
+        "it": "Emozionante avventura di rapide attraverso la zona scandinava con acqua vorticosa e zattere rotanti nei fiordi norvegesi.",
+        "nl": "Spannend wildwateravontuur door het Scandinavische gebied met bruisend water en draaiende vlotten in Noorse fjorden.",
+        "pt": "Emocionante aventura de rapidos pela zona escandinava com agua torrencial e jangadas giratórias nos fiordes noruegueses.",
+        "ru": "Захватывающее водное приключение через скандинавскую зону с бурной водой и вращающимися плотами.",
+        "zh": "穿越斯堪的纳维亚主题区的刺激激流漂流，湍急的水流和旋转的筏子，保证湿透。",
+        "ar": "مغامرة مياه سريعة مثيرة عبر المنطقة الاسكندنافية مع مياه هادرة وقوارب دوارة في مشهد المضايق النرويجية."
+      }
+    },
+    "piraten_in_batavia": {
+      "desc": {
+        "en": "A classic boat dark ride through colonial Batavia under pirate attack, completely rebuilt in 2020 with modern animatronics and stunning scenery.",
+        "es": "Clasico dark ride en barca por la Batavia colonial bajo ataque pirata, completamente reconstruido en 2020 con animatronicos modernos.",
+        "fr": "Classique dark ride en bateau a travers la Batavia coloniale sous attaque pirate, entierement reconstruit en 2020.",
+        "de": "Klassische Boot-Dark-Ride durch das koloniale Batavia unter Piratenangriff, 2020 komplett mit modernen Animatronics neu aufgebaut.",
+        "it": "Classico dark ride in barca attraverso la Batavia coloniale sotto attacco pirata, completamente ricostruito nel 2020.",
+        "nl": "Klassieke boot dark ride door koloniaal Batavia onder piratenanval, volledig herbouwd in 2020 met moderne animatronics.",
+        "pt": "Classico dark ride de barco pelo Batavia colonial sob ataque pirata, completamente reconstruido em 2020.",
+        "ru": "Классический тёмный аттракцион на лодке через колониальную Батавию под пиратской атакой, полностью перестроен в 2020 году.",
+        "zh": "穿越殖民时代巴达维亚遭受海盗袭击的经典船只暗室游乐，2020年完全重建，配备现代机械人偶。",
+        "ar": "رحلة قارب مظلمة كلاسيكية عبر باتافيا الاستعمارية تحت هجوم القراصنة، أُعيد بناؤها بالكامل عام 2020 بأنيماترونيك حديثة."
+      }
+    },
+    "eatrenalin": {
+      "desc": {
+        "en": "A world-first immersive dining experience where guests sit in motorised chairs that move through themed rooms, each course paired with a different multisensory environment.",
+        "es": "Primera experiencia de cena inmersiva del mundo donde los comensales se sientan en sillas motorizadas que se mueven por salas tematicas.",
+        "fr": "Premiere experience de diner immersif au monde ou les convives s'assoient dans des fauteuils motorises qui se deplacent dans des salles thematiques.",
+        "de": "Weltpremiere immersives Dinner-Erlebnis, bei dem Gaeste in motorisierten Sitzen durch Themenraeume fahren.",
+        "it": "Prima esperienza di cena immersiva al mondo dove i commensali siedono su sedie motorizzate che si muovono attraverso stanze tematiche.",
+        "nl": "Wereldprimeur meeslepende dinerervaring waarbij gasten in gemotoriseerde stoelen door thematische kamers rijden.",
+        "pt": "Primeira experiencia de jantar imersivo do mundo onde os convidados sentam em cadeiras motorizadas que se movem por salas tematicas.",
+        "ru": "Мировая премьера: иммерсивный ужин, где гости сидят в моторизованных креслах, движущихся через тематические комнаты.",
+        "zh": "世界首创的沉浸式用餐体验，客人坐在电动椅上穿越主题房间，每道菜配以不同的多感官环境。",
+        "ar": "أول تجربة طعام غامرة في العالم حيث يجلس الضيوف في كراسي آلية تتحرك عبر غرف ذات طابع مميز، كل طبق مقرون ببيئة متعددة الحواس."
+      }
+    },
+    "seehaus": {
+      "desc": {
+        "en": "A scenic lakeside restaurant serving fresh European fish and seafood dishes with beautiful views over the park lake.",
+        "es": "Restaurante junto al lago con platos de pescado y marisco europeo fresco y hermosas vistas al lago del parque.",
+        "fr": "Restaurant au bord du lac servant des poissons et fruits de mer europeens frais avec de belles vues sur le lac du parc.",
+        "de": "Malerisches Seerestaurant mit frischen europaeischen Fisch- und Meeresfruchten und schoener Aussicht auf den Parksee.",
+        "it": "Ristorante panoramico sul lago con piatti di pesce e frutti di mare europei freschi e belle vedute sul lago del parco.",
+        "nl": "Schilderachtig restaurant aan het meer met verse Europese vis en zeevruchten met prachtig uitzicht over het meer.",
+        "pt": "Restaurante panoramico a beira do lago com peixe e marisco europeu fresco e belas vistas sobre o lago do parque.",
+        "ru": "Живописный ресторан у озера со свежей европейской рыбой и морепродуктами и красивым видом на озеро парка.",
+        "zh": "湖边景观餐厅，供应新鲜欧式鱼类和海鲜，可欣赏公园湖泊美景。",
+        "ar": "مطعم بحري خلاب يقدم الأسماك والمأكولات البحرية الأوروبية الطازجة مع مناظر جميلة على بحيرة المتنزه."
+      }
+    },
+    "petite_france": {
+      "desc": {
+        "en": "An authentic French brasserie in the France-themed area serving crepes, quiches, croissants and classic French cuisine in a charming Alsatian setting.",
+        "es": "Autentica brasserie francesa en la zona de Francia con crepes, quiches, croissants y cocina francesa clasica.",
+        "fr": "Authentique brasserie francaise dans la zone France servant crepes, quiches, croissants et cuisine francaise classique.",
+        "de": "Authentische franzoesische Brasserie in der Frankreich-Zone mit Crepes, Quiches, Croissants und klassischer franzoesischer Kueche.",
+        "it": "Autentica brasserie francese nella zona Francia con crepes, quiches, croissants e cucina francese classica.",
+        "nl": "Authentieke Franse brasserie in het Frankrijk-gebied met crepes, quiches, croissants en klassieke Franse keuken.",
+        "pt": "Brasserie francesa autentica na zona Franca com crepes, quiches, croissants e cozinha francesa classica.",
+        "ru": "Аутентичная французская брассерия в зоне Франции с крепами, киш-лорен, круассанами и классической французской кухней.",
+        "zh": "法国区正宗法式小酒馆，供应可丽饼、法式咸派、羊角面包和经典法国菜，阿尔萨斯风情装饰。",
+        "ar": "مطعم براسيري فرنسي أصيل في منطقة فرنسا يقدم الكريب والكيش والكرواسون والمأكولات الفرنسية الكلاسيكية."
+      }
+    },
+    "foodloop": {
+      "desc": {
+        "en": "A fun family restaurant where food is delivered to your table via spiral tubes and loop-the-loop tracks. A unique and entertaining dining experience.",
+        "es": "Divertido restaurante familiar donde la comida llega a tu mesa a traves de tubos en espiral y pistas en bucle. Una experiencia unica.",
+        "fr": "Amusant restaurant familial ou la nourriture est livree a votre table via des tubes en spirale et des pistes en boucle.",
+        "de": "Lustiges Familienrestaurant, bei dem das Essen per Spiralroehren und Loopingstrecken an den Tisch geliefert wird.",
+        "it": "Divertente ristorante familiare dove il cibo viene consegnato al tavolo tramite tubi a spirale e binari ad anello.",
+        "nl": "Leuk familierestaurant waar eten via spiraalbuizen en loopingbanen aan tafel wordt bezorgd.",
+        "pt": "Divertido restaurante familiar onde a comida e entregue na mesa via tubos em espiral e pistas em loop.",
+        "ru": "Весёлый семейный ресторан, где еда доставляется к столу по спиральным трубам и петлям.",
+        "zh": "有趣的家庭餐厅，食物通过螺旋管道和环形轨道送到餐桌，独特有趣的用餐体验。",
+        "ar": "مطعم عائلي ممتع حيث يتم تسليم الطعام إلى طاولتك عبر أنابيب حلزونية ومسارات حلقية. تجربة طعام فريدة ومسلية."
+      }
+    },
+    "hotel_colosseo": {
+      "desc": {
+        "en": "A spectacular Roman Empire themed hotel with an impressive Colosseum facade, indoor pool, multiple restaurants and direct park access.",
+        "es": "Espectacular hotel con tema del Imperio Romano con impresionante fachada de Coliseo, piscina interior y acceso directo al parque.",
+        "fr": "Spectaculaire hotel sur le theme de l'Empire Romain avec impressionnante facade du Colisee, piscine interieure et acces direct au parc.",
+        "de": "Spektakulaeres Roemisches-Reich-Themenhotel mit beeindruckender Kolosseum-Fassade, Hallenbad und direktem Parkzugang.",
+        "it": "Spettacolare hotel a tema Impero Romano con impressionante facciata del Colosseo, piscina coperta e accesso diretto al parco.",
+        "nl": "Spectaculair Romeins Rijk themahotel met indrukwekkende Colosseum-gevel, overdekt zwembad en directe parktoegang.",
+        "pt": "Espetacular hotel com tema do Imperio Romano com impressionante fachada do Coliseu, piscina coberta e acesso direto ao parque.",
+        "ru": "Роскошный отель в стиле Римской империи с впечатляющим фасадом Колизея, крытым бассейном и прямым доступом в парк.",
+        "zh": "壮观的罗马帝国主题酒店，令人印象深刻的斗兽场外观，室内游泳池和直通公园通道。",
+        "ar": "فندق رائع بطابع الإمبراطورية الرومانية مع واجهة كولوسيوم مذهلة وحمام سباحة داخلي وإمكانية دخول مباشر للمتنزه."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Elegant Roman themed room for up to 4 guests with park views and Roman inspired decor.", "es": "Elegante habitacion de tema romano para 4 huespedes con vistas al parque.", "fr": "Elegante chambre a theme romain pour 4 personnes avec vue sur le parc.", "de": "Elegantes roemisches Zimmer fuer 4 Gaeste mit Parkblick.", "it": "Elegante camera a tema romano per 4 ospiti con vista sul parco.", "nl": "Elegante Romeinse kamer voor 4 gasten met parkuitzicht.", "pt": "Elegante quarto de tema romano para 4 hospedes com vistas para o parque.", "ru": "Элегантный номер в римском стиле для 4 гостей с видом на парк.", "zh": "优雅的罗马主题客房，可容纳4位客人，欣赏公园美景。", "ar": "غرفة أنيقة بطابع روماني لـ 4 ضيوف مع إطلالات على المتنزه وديكور مستوحى من روما." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious family room sleeping up to 6 with Roman themed bunk beds and private bathroom.", "es": "Habitacion familiar para 6 con literas de tema romano y bano privado.", "fr": "Chambre familiale pour 6 avec lits superposes romains et salle de bain privee.", "de": "Geraeumigers Familienzimmer fuer 6 mit roemischen Etagenbetten und Privatbad.", "it": "Camera familiare per 6 con letti a castello romani e bagno privato.", "nl": "Ruime familiekamer voor 6 met Romeinse stapelbedden en privébadkamer.", "pt": "Quarto familiar para 6 com beliches romanos e casa de banho privada.", "ru": "Просторный семейный номер для 6 с двухъярусными кроватями в римском стиле.", "zh": "宽敞家庭客房，可容纳6人，罗马主题上下铺，独立浴室。", "ar": "غرفة عائلية فسيحة تتسع لـ 6 أشخاص مع أسرة بطابقين بطابع روماني وحمام خاص." }
+        },
+        "suite": {
+          "name": { "en": "Imperial Suite", "es": "Suite Imperial", "fr": "Suite Imperiale", "de": "Kaiserliche Suite", "it": "Suite Imperiale", "nl": "Imperiale Suite", "pt": "Suite Imperial", "ru": "Императорский люкс", "zh": "帝王套房", "ar": "جناح إمبراطوري" },
+          "desc": { "en": "Luxurious imperial suite with private terrace, premium Roman decor and stunning park views.", "es": "Lujosa suite imperial con terraza privada y vistas al parque.", "fr": "Luxueuse suite imperiale avec terrasse privee et vues sur le parc.", "de": "Luxurioese Kaisersuite mit Privatteasse und Parkblick.", "it": "Lussuosa suite imperiale con terrazza privata e viste sul parco.", "nl": "Luxueuze imperiale suite met prive terras en parkuitzicht.", "pt": "Luxuosa suite imperial com terraco privado e vistas para o parque.", "ru": "Роскошный императорский люкс с частной террасой и видами на парк.", "zh": "豪华帝王套房，私人露台，欣赏公园美景。", "ar": "جناح إمبراطوري فاخر مع تراس خاص وديكور روماني فاخر وإطلالات رائعة على المتنزه." }
+        }
+      }
+    },
+    "hotel_bell_rock": {
+      "desc": {
+        "en": "A charming New England lighthouse themed hotel offering comfortable rooms, indoor and outdoor pools, spa and direct walkway access to Europa-Park.",
+        "es": "Encantador hotel con tema de faro de Nueva Inglaterra con habitaciones confortables, piscinas interior y exterior, spa y acceso directo al parque.",
+        "fr": "Charmant hotel sur le theme du phare de Nouvelle-Angleterre avec chambres confortables, piscines interieure et exterieure, spa et acces direct au parc.",
+        "de": "Charmantes Leuchtturm-Themenhotel in Neu-England-Stil mit komfortablen Zimmern, Hallenbad und Aussenpool, Spa und direktem Parkzugang.",
+        "it": "Affascinante hotel a tema faro del New England con camere confortevoli, piscine interna ed esterna, spa e accesso diretto al parco.",
+        "nl": "Charmant vuurtoren-themahotel in Nieuw-Engelse stijl met comfortabele kamers, binnen- en buitenzwembad, spa en directe parktoegang.",
+        "pt": "Encantador hotel com tema de farol da Nova Inglaterra com quartos confortaveis, piscinas interior e exterior, spa e acesso direto ao parque.",
+        "ru": "Очаровательный отель в стиле маяка Новой Англии с уютными номерами, крытым и открытым бассейнами и спа.",
+        "zh": "迷人的新英格兰灯塔主题酒店，舒适客房，室内外游泳池，水疗中心，直通欧罗巴公园。",
+        "ar": "فندق ساحر بطابع منارة نيو إنغلاند مع غرف مريحة وحمامات سباحة داخلية وخارجية وسبا وإمكانية دخول مباشر للمتنزه."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Comfortable nautical themed room for up to 4 guests with lighthouse decor and garden views.", "es": "Habitacion nautica para 4 huespedes con decoracion de faro y vistas al jardin.", "fr": "Chambre nautique pour 4 personnes avec decor de phare et vue sur le jardin.", "de": "Komfortables nautisches Zimmer fuer 4 Gaeste mit Leuchtturm-Dekor und Gartenblick.", "it": "Camera nautica per 4 ospiti con decor faro e viste sul giardino.", "nl": "Nautische kamer voor 4 gasten met vuurtoren decor en tuinuitzicht.", "pt": "Quarto nautico para 4 hospedes com decor de farol e vistas para o jardim.", "ru": "Уютный морской номер для 4 гостей с декором маяка и видом на сад.", "zh": "舒适的航海主题客房，可容纳4位客人，灯塔装饰，花园景观。", "ar": "غرفة بحرية مريحة لـ 4 ضيوف بديكور المنارة وإطلالات على الحديقة." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious family room with lighthouse theming sleeping up to 6 with bunk beds and pool access.", "es": "Habitacion familiar con tema de faro para 6 con literas y acceso a piscina.", "fr": "Chambre familiale phare pour 6 avec lits superposes et acces piscine.", "de": "Geraeumigers Leuchtturm-Familienzimmer fuer 6 mit Etagenbetten und Poolzugang.", "it": "Camera familiare faro per 6 con letti a castello e accesso piscina.", "nl": "Ruime vuurtoren familiekamer voor 6 met stapelbedden en zwembadtoegang.", "pt": "Quarto familiar com tema de farol para 6 com beliches e acesso a piscina.", "ru": "Просторный семейный номер маяка для 6 с двухъярусными кроватями и бассейном.", "zh": "宽敞的灯塔主题家庭客房，可容纳6人，上下铺，游泳池通道。", "ar": "غرفة عائلية فسيحة بطابع المنارة تتسع لـ 6 أشخاص مع أسرة بطابقين وإمكانية الوصول للمسبح." }
+        }
+      }
+    },
+    "hotel_el_andaluz": {
+      "desc": {
+        "en": "An elegant Andalusian palace themed hotel inspired by the Alhambra, featuring Moorish architecture, indoor pool, tapas restaurant and direct park access.",
+        "es": "Elegante hotel palacio andaluz inspirado en la Alhambra con arquitectura morisca, piscina interior, restaurante de tapas y acceso directo al parque.",
+        "fr": "Elegant hotel palais andalou inspire de l'Alhambra avec architecture mauresque, piscine interieure, restaurant de tapas et acces direct au parc.",
+        "de": "Elegantes andalusisches Palasthotel inspiriert von der Alhambra mit maurischer Architektur, Hallenbad, Tapas-Restaurant und direktem Parkzugang.",
+        "it": "Elegante hotel palazzo andaluso ispirato all'Alhambra con architettura moresca, piscina coperta, ristorante tapas e accesso diretto al parco.",
+        "nl": "Elegant Andalusisch paleishotel geïnspireerd op de Alhambra met Moorse architectuur, overdekt zwembad, tapasrestaurant en directe parktoegang.",
+        "pt": "Elegante hotel palacio andaluz inspirado na Alhambra com arquitectura moura, piscina coberta, restaurante de tapas e acesso direto ao parque.",
+        "ru": "Элегантный андалузский дворец-отель, вдохновлённый Альгамброй, с мавританской архитектурой, крытым бассейном и ресторанами.",
+        "zh": "以阿尔罕布拉宫为灵感的优雅安达卢西亚宫殿主题酒店，摩尔式建筑，室内游泳池，塔帕斯餐厅，直通公园。",
+        "ar": "فندق قصر أندلسي أنيق مستوحى من قصر الحمراء مع هندسة معمارية مورية وحمام سباحة داخلي ومطعم تاباس وإمكانية دخول مباشر للمتنزه."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Moorish inspired room for up to 4 guests with ornate decor and courtyard views.", "es": "Habitacion de inspiracion morisca para 4 huespedes con decoracion ornamentada.", "fr": "Chambre d'inspiration mauresque pour 4 personnes avec decor orne.", "de": "Maurisch inspiriertes Zimmer fuer 4 Gaeste mit ornamentalem Dekor.", "it": "Camera di ispirazione moresca per 4 ospiti con decor ornamentale.", "nl": "Moorse kamer voor 4 gasten met sierlijk decor.", "pt": "Quarto de inspiracao mourisca para 4 hospedes com decor ornamentado.", "ru": "Номер в мавританском стиле для 4 гостей с орнаментальным декором.", "zh": "摩尔风格客房，可容纳4位客人，华丽装饰，庭院景观。", "ar": "غرفة مستوحاة من الطراز المغربي لـ 4 ضيوف بديكور زخرفي وإطلالات على الفناء." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious Andalusian room sleeping up to 6 with ornate bunk beds and pool access.", "es": "Habitacion andaluza espaciosa para 6 con literas ornamentadas y acceso a piscina.", "fr": "Chambre andalouse spacieuse pour 6 avec lits superposes ornes et acces piscine.", "de": "Geraeumigers andalusisches Zimmer fuer 6 mit verzierten Etagenbetten und Poolzugang.", "it": "Camera andalusa spaziosa per 6 con letti a castello ornamentali e accesso piscina.", "nl": "Ruime Andalusische kamer voor 6 met sierlijke stapelbedden en zwembadtoegang.", "pt": "Quarto andaluz espacoso para 6 com beliches ornamentados e acesso a piscina.", "ru": "Просторный андалузский номер для 6 с украшенными двухъярусными кроватями и бассейном.", "zh": "宽敞的安达卢西亚客房，可容纳6人，华丽上下铺，游泳池通道。", "ar": "غرفة أندلسية فسيحة تتسع لـ 6 أشخاص مع أسرة بطابقين زخرفية وإمكانية الوصول للمسبح." }
+        }
+      }
+    }
+  }
+}

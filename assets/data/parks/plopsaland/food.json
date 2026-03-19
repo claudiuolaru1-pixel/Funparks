@@ -1,0 +1,101 @@
+﻿[
+    {
+        "id":  "le_grand_buffet",
+        "name":  "Le Grand Buffet",
+        "type":  "Buffet Restaurant",
+        "image":  "assets/images/plopsaland/food_le_grand_buffet.png",
+        "lat":  51.1073,
+        "lng":  2.5986,
+        "rating":  4.3,
+        "description":  "The flagship buffet restaurant at the Plopsaland Theater Hotel serving a wide selection of starters, main courses and desserts. Studio 100 characters may join you at your table!",
+        "topPick":  true,
+        "items":  [
+                      {
+                          "name":  "Buffet Starter Selection",
+                          "description":  "Wide range of fresh salads and starters",
+                          "price":  5.00
+                      },
+                      {
+                          "name":  "Main Course Buffet",
+                          "description":  "Meat, fish, pasta and vegetable dishes",
+                          "price":  18.50
+                      },
+                      {
+                          "name":  "Children\u0027s Buffet",
+                          "description":  "Special buffet menu designed for children",
+                          "price":  12.00
+                      },
+                      {
+                          "name":  "Dessert Selection",
+                          "description":  "Cakes, ice cream and sweet treats",
+                          "price":  5.00
+                      }
+                  ]
+    },
+    {
+        "id":  "viking_grill",
+        "name":  "Viking Grill",
+        "type":  "Grill Restaurant",
+        "image":  "assets/images/plopsaland/food_viking_grill.png",
+        "lat":  51.1070,
+        "lng":  2.5980,
+        "rating":  4.2,
+        "description":  "A hearty Viking-themed grill restaurant where top Viking chefs fry delectable meat dishes on a giant grill. Famous for their skewers and spareribs enjoyed far beyond national borders.",
+        "topPick":  false,
+        "items":  [
+                      {
+                          "name":  "Viking Spareribs",
+                          "description":  "Famous slow-cooked spareribs with Viking sauce",
+                          "price":  22.00
+                      },
+                      {
+                          "name":  "Meat Skewer",
+                          "description":  "Grilled meat skewer with seasonal vegetables",
+                          "price":  16.00
+                      },
+                      {
+                          "name":  "Mixed Grill Platter",
+                          "description":  "Selection of grilled meats with fries and salad",
+                          "price":  24.00
+                      },
+                      {
+                          "name":  "Soft Drink",
+                          "description":  "Large soft drink",
+                          "price":  4.50
+                      }
+                  ]
+    },
+    {
+        "id":  "prinsessia_restaurant",
+        "name":  "Prinsessia Restaurant",
+        "type":  "Family Restaurant",
+        "image":  "assets/images/plopsaland/food_prinsessia_restaurant.png",
+        "lat":  51.1075,
+        "lng":  2.5975,
+        "rating":  4.1,
+        "description":  "Live a fairy tale experience in the enchanting surroundings of the Prinsessia Restaurant where you will feel like a real prince or princess while enjoying your meal.",
+        "topPick":  false,
+        "items":  [
+                      {
+                          "name":  "Princess Pasta",
+                          "description":  "Creamy pasta with vegetables in fairy tale presentation",
+                          "price":  14.00
+                      },
+                      {
+                          "name":  "Royal Chicken",
+                          "description":  "Grilled chicken with golden fries and salad",
+                          "price":  16.00
+                      },
+                      {
+                          "name":  "Children\u0027s Menu",
+                          "description":  "Kids meal with drink and small dessert",
+                          "price":  10.00
+                      },
+                      {
+                          "name":  "Fairy Tale Dessert",
+                          "description":  "Colourful ice cream sundae with sweet toppings",
+                          "price":  7.00
+                      }
+                  ]
+    }
+]

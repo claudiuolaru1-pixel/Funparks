@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../services/wait_time_service.dart';
 import '../widgets/attraction_row.dart';
 import '../models/attraction.dart';
-import '../i18n/i18n_content.dart';
+import '../services/i18n_content.dart';
 
 class AttractionsListScreen extends StatelessWidget {
   final String parkId;

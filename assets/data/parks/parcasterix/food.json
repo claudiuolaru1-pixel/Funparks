@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "le_restaurant_du_lac",
+    "name": "Le Restaurant du Lac",
+    "type": "French & International",
+    "image": "assets/images/parcasterix/food_le_restaurant_du_lac.png",
+    "lat": 49.1366,
+    "lng": 2.5736,
+    "rating": 4.3,
+    "description": "A scenic lakeside restaurant serving French and international dishes with beautiful views over the park lake.",
+    "topPick": true,
+    "items": [
+      { "name": "Poulet Rôti", "description": "Classic French roast chicken with seasonal vegetables", "price": 15.00 },
+      { "name": "Pasta du Jour", "description": "Daily pasta special with fresh sauce", "price": 12.50 },
+      { "name": "Salade Gauloise", "description": "Fresh salad with grilled chicken and croutons", "price": 11.00 },
+      { "name": "Crème Brûlée", "description": "Classic French vanilla crème brûlée", "price": 6.50 }
+    ]
+  },
+  {
+    "id": "fritapopoulos",
+    "name": "Fritapopoulos",
+    "type": "Fast Food & Snacks",
+    "image": "assets/images/parcasterix/food_fritapopoulos.png",
+    "lat": 49.1370,
+    "lng": 2.5742,
+    "rating": 4.0,
+    "description": "A fun quick-service Greek-inspired snack spot serving fries, wraps and fast food favourites in a lively setting.",
+    "topPick": false,
+    "items": [
+      { "name": "Frites Maison", "description": "Freshly cooked thick-cut fries with dipping sauces", "price": 5.50 },
+      { "name": "Wrap Poulet", "description": "Grilled chicken wrap with salad and sauce", "price": 9.00 },
+      { "name": "Hot Dog", "description": "Classic hot dog with mustard and ketchup", "price": 6.00 },
+      { "name": "Soft Drink", "description": "Large soft drink", "price": 3.50 }
+    ]
+  },
+  {
+    "id": "poz_kebab",
+    "name": "Poz Kebab",
+    "type": "Middle Eastern",
+    "image": "assets/images/parcasterix/food_poz_kebab.png",
+    "lat": 49.1362,
+    "lng": 2.5730,
+    "rating": 3.9,
+    "description": "A quick-service spot in the Egypt zone serving freshly prepared kebabs, wraps and Middle Eastern snacks.",
+    "topPick": false,
+    "items": [
+      { "name": "Kebab Classique", "description": "Grilled meat kebab with salad and sauce in flatbread", "price": 10.50 },
+      { "name": "Wrap Falafel", "description": "Crispy falafel wrap with hummus and vegetables", "price": 9.00 },
+      { "name": "Assiette Mezze", "description": "Selection of Middle Eastern dips and breads", "price": 8.50 },
+      { "name": "Limonade", "description": "Fresh lemonade", "price": 3.50 }
+    ]
+  },
+  {
+    "id": "le_relais_gaulois",
+    "name": "Le Relais Gaulois",
+    "type": "French & Gaulish",
+    "image": "assets/images/parcasterix/food_le_relais_gaulois.png",
+    "lat": 49.1358,
+    "lng": 2.5738,
+    "rating": 4.2,
+    "description": "The heart of the Gaulish village dining experience serving traditional French dishes and Gaulish feast inspired food.",
+    "topPick": false,
+    "items": [
+      { "name": "Sanglier Rôti", "description": "Roasted wild boar inspired dish with root vegetables", "price": 16.00 },
+      { "name": "Soupe Gauloise", "description": "Hearty Gaulish style vegetable and meat soup", "price": 8.00 },
+      { "name": "Tarte aux Pommes", "description": "Classic French apple tart", "price": 6.00 },
+      { "name": "Cidre Gaulois", "description": "Sparkling apple cider", "price": 4.50 }
+    ]
+  }
+]

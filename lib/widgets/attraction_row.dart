@@ -1,12 +1,12 @@
+// lib/widgets/attraction_row.dart
 import 'package:flutter/material.dart';
 
-// ✅ Adjust these imports to your project paths:
 import '../services/wait_time_service.dart';
 import '../l10n/app_localizations.dart';
 
-// These are assumed to already exist in your codebase:
 import '../models/attraction.dart';
-import '../i18n/i18n_content.dart';
+import '../services/i18n_content.dart';
+
 import 'soft_badge.dart';
 import 'action_pill.dart';
 
@@ -36,6 +36,9 @@ class AttractionRow extends StatelessWidget {
     final cs = Theme.of(context).colorScheme;
 
     final cat = categoryLabel(attraction.category);
+
+    // If your I18nContent exposes this method, keep it.
+    // Otherwise replace with: final translatedDesc = attraction.description;
     final translatedDesc =
         i18n.tAttractionDesc(context, attraction.id, attraction.description);
 
@@ -49,7 +52,11 @@ class AttractionRow extends StatelessWidget {
           color: cs.surface,
           border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
           boxShadow: const [
-            BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12),
+            BoxShadow(
+              blurRadius: 10,
+              offset: Offset(0, 3),
+              color: Colors.black12,
+            ),
           ],
         ),
         child: Row(
@@ -92,7 +99,8 @@ class AttractionRow extends StatelessWidget {
                   ),
                   const SizedBox(height: 6),
 
-                  // If you want your inline toggle, swap this Text for _InlineTranslateText
+                  // Use inline toggle if you want:
+                  // InlineTranslateText(id: attraction.id, original: attraction.description, translated: translatedDesc),
                   Text(
                     translatedDesc,
                     maxLines: 2,
@@ -116,7 +124,7 @@ class AttractionRow extends StatelessWidget {
                           attractionId: attraction.id,
                         ),
                         builder: (_, snap) {
-                          // While loading, just show fallback (no "LIVE")
+                          // While loading, show fallback (no LIVE tag)
                           if (snap.connectionState == ConnectionState.waiting) {
                             return SoftBadge(
                               icon: Icons.schedule,
@@ -126,7 +134,7 @@ class AttractionRow extends StatelessWidget {
 
                           final r = snap.data;
 
-                          // ✅ LIVE only if fresh
+                          // LIVE only if fresh
                           if (r != null && r.isFresh(maxAgeMinutes: 20)) {
                             return SoftBadge(
                               icon: Icons.timer,
@@ -134,12 +142,10 @@ class AttractionRow extends StatelessWidget {
                             );
                           }
 
-                          // ✅ Not fresh / missing: show fallback + info
+                          // Not fresh / missing: show fallback + info
                           final fallback = attraction.liveWaitMinutes;
                           final ago = r?.minutesAgo();
-                          final suffix = (ago == null)
-                              ? _safeNoLiveText(loc)
-                              : '${ago}m ago';
+                          final suffix = (ago == null) ? _noLiveText(loc) : '${ago}m ago';
 
                           return SoftBadge(
                             icon: Icons.schedule,
@@ -158,12 +164,11 @@ class AttractionRow extends StatelessWidget {
 
             const SizedBox(width: 10),
 
+            // Right-side action: directions pill
             ActionPill(
-              attractionId: attraction.id,
-              addLabel: loc.addToMyDay,
-              removeLabel: loc.removeFromMyDay,
-              directionsLabel: loc.directions,
-              onDirections: onDirections,
+              label: loc.directions,
+              icon: Icons.directions,
+              onTap: onDirections,
             ),
           ],
         ),
@@ -171,16 +176,12 @@ class AttractionRow extends StatelessWidget {
     );
   }
 
-  String _safeNoLiveText(AppLocalizations loc) {
-    // If you don't have loc.noLiveData in your l10n yet,
-    // this keeps the build from failing.
-    try {
-      // ignore: unused_local_variable
-      final _ = loc.noLiveData;
-      return loc.noLiveData;
-    } catch (_) {
-      return 'No live data';
-    }
+  String _noLiveText(AppLocalizations loc) {
+    // Avoid referencing loc.noLiveData (it doesn't exist in your l10n).
+    // Keep it stable using existing l10n string(s) or fallback.
+    final s = loc.liveWait.trim();
+    if (s.isNotEmpty) return 'No $s';
+    return 'No live data';
   }
 }
 

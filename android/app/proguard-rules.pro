@@ -6,3 +6,6 @@
 -dontwarn com.google.android.gms.**
 # Keep JSON models (reflective access)
 -keep class **.models.** { *; }
+
+-dontwarn com.google.android.play.core.**
+-keep class com.google.android.play.core.** { *; }

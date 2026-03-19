@@ -1,0 +1,380 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Disneyland Paris is Europe's number one tourist destination located in Marne-la-Vallée, 32 km east of Paris. The resort features two theme parks — the classic Disneyland Park and the newly transformed Disney Adventure World — along with seven themed hotels, a shopping and entertainment district and two convention centres.",
+      "es": "Disneyland Paris es el destino turístico número uno de Europa en Marne-la-Vallée, a 32 km al este de París. El resort cuenta con dos parques temáticos: el clásico Disneyland Park y el nuevo Disney Adventure World.",
+      "fr": "Disneyland Paris est la première destination touristique d'Europe située à Marne-la-Vallée, à 32 km à l'est de Paris. Le resort comprend deux parcs à thème — le classique Disneyland Park et le nouveau Disney Adventure World.",
+      "de": "Disneyland Paris ist Europas beliebtestes Reiseziel in Marne-la-Vallée, 32 km östlich von Paris. Das Resort bietet zwei Freizeitparks — den klassischen Disneyland Park und das neu verwandelte Disney Adventure World.",
+      "it": "Disneyland Paris è la destinazione turistica numero uno in Europa a Marne-la-Vallée, a 32 km a est di Parigi. Il resort comprende due parchi tematici: il classico Disneyland Park e il nuovo Disney Adventure World.",
+      "nl": "Disneyland Paris is Europa's nummer één toeristische bestemming in Marne-la-Vallée, 32 km ten oosten van Parijs. Het resort heeft twee pretparken — het klassieke Disneyland Park en het nieuwe Disney Adventure World.",
+      "pt": "Disneyland Paris é o destino turístico número um da Europa em Marne-la-Vallée, a 32 km a leste de Paris. O resort tem dois parques temáticos — o clássico Disneyland Park e o novo Disney Adventure World.",
+      "ru": "Disneyland Paris — туристическое направление номер один в Европе, расположено в Марн-ла-Валле, в 32 км к востоку от Парижа. Курорт включает два тематических парка — классический Disneyland Park и новый Disney Adventure World.",
+      "zh": "迪士尼乐园巴黎是欧洲第一旅游目的地，位于巴黎以东32公里的马恩河谷。度假村拥有两个主题公园——经典的迪士尼乐园和全新改造的迪士尼冒险世界。",
+      "ar": "ديزني لاند باريس هي الوجهة السياحية الأولى في أوروبا، تقع في مارن لا فاليه على بعد 32 كم شرق باريس. يضم المنتجع متنزهين ترفيهيين: ديزني لاند بارك الكلاسيكي وعالم ديزني للمغامرة الجديد."
+    },
+    "ov_highlights_body": {
+      "en": "Disneyland Park features the iconic Sleeping Beauty Castle, Pirates of the Caribbean, Phantom Manor, Big Thunder Mountain and Star Wars Hyperspace Mountain. Disney Adventure World opened in March 2026 with the spectacular World of Frozen featuring Frozen Ever After, the brand new Raiponce Tangled Spin, Crush's Coaster, Ratatouille The Adventure and Marvel Avengers Campus with Avengers Assemble Flight Force.",
+      "es": "Disneyland Park tiene el icónico Castillo de la Bella Durmiente, Pirates of the Caribbean y Big Thunder Mountain. Disney Adventure World abrió en marzo 2026 con World of Frozen, Tangled Spin, Crush's Coaster y Avengers Campus.",
+      "fr": "Disneyland Park dispose du château de la Belle au Bois Dormant, Pirates des Caraïbes et Big Thunder Mountain. Disney Adventure World a ouvert en mars 2026 avec World of Frozen, Tangled Spin et Avengers Campus.",
+      "de": "Disneyland Park hat das Schloss Dornröschen, Pirates of the Caribbean und Big Thunder Mountain. Disney Adventure World öffnete März 2026 mit World of Frozen, Tangled Spin und Avengers Campus.",
+      "it": "Disneyland Park ha il castello della Bella Addormentata, Pirates of the Caribbean e Big Thunder Mountain. Disney Adventure World ha aperto a marzo 2026 con World of Frozen, Tangled Spin e Avengers Campus.",
+      "nl": "Disneyland Park heeft het Doornroosje kasteel, Pirates of the Caribbean en Big Thunder Mountain. Disney Adventure World opende maart 2026 met World of Frozen, Tangled Spin en Avengers Campus.",
+      "pt": "Disneyland Park tem o castelo da Bela Adormecida, Pirates of the Caribbean e Big Thunder Mountain. Disney Adventure World abriu em março 2026 com World of Frozen, Tangled Spin e Avengers Campus.",
+      "ru": "Disneyland Park — замок Спящей красавицы, Pirates of the Caribbean и Big Thunder Mountain. Disney Adventure World открылся в марте 2026 с World of Frozen, Tangled Spin и Avengers Campus.",
+      "zh": "迪士尼乐园有标志性的睡美人城堡、加勒比海盗和大雷山。迪士尼冒险世界于2026年3月开放，包含冰雪奇缘世界、长发公主旋转木马和复仇者联盟校园。",
+      "ar": "تضم ديزني لاند بارك قلعة الأميرة النائمة وقراصنة الكاريبي وجبل الرعد الكبير. افتُتح عالم ديزني للمغامرة في مارس 2026 مع عالم فروزن وتانغلد سبين وحرم الانتقام."
+    },
+    "ov_did_you_know_body": {
+      "en": "Disneyland Paris opened on 12 April 1992 as Euro Disney. It is the most visited theme park resort in Europe with over 15 million visitors annually. The Disneyland Hotel, fully renovated and reopened in 2024, sits directly above the park entrance making it the most unique hotel location in Disney history. Disney Adventure World nearly doubled in size with the 2026 expansion.",
+      "es": "Disneyland Paris abrió el 12 de abril de 1992 como Euro Disney. Es el resort de parques temáticos más visitado de Europa con más de 15 millones de visitantes anuales. El Disneyland Hotel reabrió en 2024.",
+      "fr": "Disneyland Paris a ouvert le 12 avril 1992 sous le nom d'Euro Disney. C'est le resort de parcs à thème le plus visité d'Europe avec plus de 15 millions de visiteurs annuels. L'hôtel Disneyland a rouvert en 2024.",
+      "de": "Disneyland Paris öffnete am 12. April 1992 als Euro Disney. Mit über 15 Millionen Besuchern jährlich ist es Europas meistbesuchtes Freizeitpark-Resort. Das Disneyland Hotel wurde 2024 wiedereröffnet.",
+      "it": "Disneyland Paris ha aperto il 12 aprile 1992 come Euro Disney. È il resort di parchi tematici più visitato d'Europa con oltre 15 milioni di visitatori annui. Il Disneyland Hotel ha riaperto nel 2024.",
+      "nl": "Disneyland Paris opende op 12 april 1992 als Euro Disney. Het is Europa's meest bezochte pretparkresort met meer dan 15 miljoen bezoekers per jaar. Het Disneyland Hotel heropende in 2024.",
+      "pt": "Disneyland Paris abriu a 12 de abril de 1992 como Euro Disney. É o resort de parques temáticos mais visitado da Europa com mais de 15 milhões de visitantes anuais. O Disneyland Hotel reabriu em 2024.",
+      "ru": "Disneyland Paris открылся 12 апреля 1992 года как Euro Disney. Это самый посещаемый курорт тематических парков Европы с более чем 15 миллионами посетителей в год. Disneyland Hotel вновь открылся в 2024 году.",
+      "zh": "迪士尼乐园巴黎于1992年4月12日作为欧洲迪士尼开放。它是欧洲访问量最大的主题公园度假村，每年超过1500万游客。迪士尼乐园酒店于2024年重新开放。",
+      "ar": "افتُتح ديزني لاند باريس في 12 أبريل 1992 باسم يورو ديزني. إنه منتجع المتنزهات الترفيهية الأكثر زيارة في أوروبا بأكثر من 15 مليون زائر سنوياً. أعاد فندق ديزني لاند افتتاحه عام 2024."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at park opening and head straight to Frozen Ever After and Crush's Coaster in Disney Adventure World as they draw the longest queues. Big Thunder Mountain and Star Wars Hyperspace Mountain are best mid-morning. Pirates of the Caribbean and Phantom Manor have shorter waits in the afternoon. Hotel guests enjoy exclusive early park entry 30 minutes before opening.",
+      "es": "Llega a la apertura y ve directo a Frozen Ever After y Crush's Coaster. Big Thunder Mountain e Hyperspace Mountain a media mañana. Los huéspedes del hotel tienen entrada anticipada exclusiva 30 minutos antes.",
+      "fr": "Arrivez à l'ouverture et allez directement à Frozen Ever After et Crush's Coaster. Big Thunder Mountain et Hyperspace Mountain en milieu de matinée. Les clients de l'hôtel ont une entrée anticipée exclusive 30 minutes avant.",
+      "de": "Bei Öffnung ankommen und direkt zu Frozen Ever After und Crush's Coaster. Big Thunder Mountain und Hyperspace Mountain am Vormittag. Hotelgäste haben exklusiven 30-Minuten-Früheinlass.",
+      "it": "Arriva all'apertura e vai direttamente a Frozen Ever After e Crush's Coaster. Big Thunder Mountain e Hyperspace Mountain a metà mattina. Gli ospiti dell'hotel hanno ingresso anticipato esclusivo 30 minuti prima.",
+      "nl": "Kom bij opening aan en ga direct naar Frozen Ever After en Crush's Coaster. Big Thunder Mountain en Hyperspace Mountain halverwege de ochtend. Hotelgasten hebben exclusieve 30 minuten vroege toegang.",
+      "pt": "Chega à abertura e vai direto ao Frozen Ever After e Crush's Coaster. Big Thunder Mountain e Hyperspace Mountain a meio da manhã. Hóspedes do hotel têm entrada antecipada exclusiva 30 minutos antes.",
+      "ru": "Приходите к открытию и сразу к Frozen Ever After и Crush's Coaster. Big Thunder Mountain и Hyperspace Mountain утром. Гости отеля получают эксклюзивный 30-минутный ранний вход.",
+      "zh": "开园时到达，直奔冰雪奇缘世界和小龟历险记过山车。大雷山和星球大战超空间山上午游玩。酒店客人享受开园前30分钟独家提前入园。",
+      "ar": "اصل عند الافتتاح وتوجه مباشرة إلى Frozen Ever After وCrush's Coaster. جبل الرعد الكبير وهايبرسبيس ماونتن في منتصف الصباح. نزلاء الفندق يستفيدون من دخول مبكر حصري 30 دقيقة قبل الافتتاح."
+    },
+    "ov_photos_body": {
+      "en": "The Sleeping Beauty Castle photographed from Main Street at golden hour is iconic. Big Thunder Mountain reflecting in the Rivers of America is spectacular. The new World of Frozen with Elsa's Ice Palace and the North Mountain creates stunning winter photography. The Disneyland Hotel facade lit up at night is magical. Phantom Manor from the Frontierland bridge is atmospheric.",
+      "es": "El Castillo de la Bella Durmiente desde Main Street al atardecer es icónico. Big Thunder Mountain reflejado en Rivers of America es espectacular. El nuevo World of Frozen con el Palacio de Hielo de Elsa crea fotografías invernales impresionantes.",
+      "fr": "Le château de la Belle au Bois Dormant depuis Main Street à l'heure dorée est iconique. Big Thunder Mountain se reflétant dans les Rivers of America est spectaculaire. Le nouveau World of Frozen crée de magnifiques photos hivernales.",
+      "de": "Das Schloss Dornröschen von der Main Street in der goldenen Stunde ist ikonisch. Big Thunder Mountain im Spiegel der Rivers of America ist spektakulär. Das neue World of Frozen schafft atemberaubende Winterfotos.",
+      "it": "Il castello della Bella Addormentata visto da Main Street all'ora d'oro è iconico. Big Thunder Mountain che si riflette nei Rivers of America è spettacolare. Il nuovo World of Frozen crea splendide foto invernali.",
+      "nl": "Het Doornroosje kasteel gefotografeerd vanaf Main Street tijdens het gouden uur is iconisch. Big Thunder Mountain weerspiegeld in de Rivers of America is spectaculair. Het nieuwe World of Frozen creëert prachtige winterfoto's.",
+      "pt": "O Castelo da Bela Adormecida fotografado da Main Street na hora dourada é icónico. Big Thunder Mountain refletido nos Rivers of America é espetacular. O novo World of Frozen cria fotografias de inverno deslumbrantes.",
+      "ru": "Замок Спящей красавицы с Main Street в золотой час — классика. Big Thunder Mountain, отражающийся в Rivers of America, — зрелище. Новый World of Frozen создаёт потрясающие зимние снимки.",
+      "zh": "在黄金时刻从美国大街拍摄睡美人城堡是经典之作。大雷山倒映在美国河中壮观无比。新的冰雪奇缘世界和艾尔莎冰宫创造令人惊叹的冬季摄影作品。",
+      "ar": "تصوير قلعة الأميرة النائمة من الشارع الرئيسي في ساعة الذهب أيقوني. جبل الرعد الكبير يعكس صورته في أنهار أمريكا رائع. عالم فروزن الجديد مع قصر الجليد يخلق صور شتوية مذهلة."
+    }
+  },
+  "attractions": {
+    "big_thunder_mountain": {
+      "desc": {
+        "en": "A classic Wild West mine train coaster thundering through red rock canyons, flooded mines and haunted desert at 60 km/h. One of the most beloved Disney attractions ever created.",
+        "es": "Clásica montaña rusa de tren minero del Viejo Oeste por cañones de roca roja y minas inundadas a 60 km/h. Una de las atracciones Disney más queridas.",
+        "fr": "Classique coaster de train minier du Far West à travers canyons de roche rouge et mines inondées à 60 km/h. L'une des attractions Disney les plus aimées.",
+        "de": "Klassischer Wild-West-Minenbahncoaster durch rote Felsschluchten bei 60 km/h. Eine der beliebtesten Disney-Attraktionen aller Zeiten.",
+        "it": "Classico coaster trenino minerario Far West attraverso canyon di roccia rossa a 60 km/h. Una delle attrazioni Disney più amate.",
+        "nl": "Klassieke Far West mijntrein coaster door rode rotskloven op 60 km/h. Een van de meest geliefde Disney attracties ooit.",
+        "pt": "Clássico coaster de comboio mineiro Far West por cânions de rocha vermelha a 60 km/h. Uma das atrações Disney mais queridas.",
+        "ru": "Классический горный поезд Дикого Запада через красные скалы при 60 км/ч. Один из самых любимых аттракционов Disney.",
+        "zh": "经典西部矿山火车过山车，以60公里/时穿越红岩峡谷和洪水矿场。迪士尼有史以来最受喜爱的项目之一。",
+        "ar": "أفعوانية قطار منجم غرب الأمريكي الكلاسيكية عبر وديان الصخور الحمراء بسرعة 60 كم/ساعة. واحدة من أكثر جاذبيات ديزني محبوبة على الإطلاق."
+      }
+    },
+    "pirates_of_the_caribbean": {
+      "desc": {
+        "en": "The most elaborate Pirates of the Caribbean anywhere in the world. A stunning boat dark ride through a Caribbean port under siege with spectacular sets, hundreds of Audio-Animatronics and an unforgettable atmosphere.",
+        "es": "El Pirates of the Caribbean más elaborado del mundo. Un impresionante dark ride en barca por un puerto caribeño asediado con sets espectaculares.",
+        "fr": "Le Pirates des Caraïbes le plus élaboré au monde. Un impressionnant dark ride en bateau à travers un port caribéen assiégé avec des décors spectaculaires.",
+        "de": "Das aufwändigste Pirates of the Caribbean der Welt. Eine atemberaubende Boot-Dark-Ride durch einen belagerten Karibikhafen.",
+        "it": "Il Pirates of the Caribbean più elaborato al mondo. Un impressionante dark ride in barca attraverso un porto caraibico assediato.",
+        "nl": "De meest uitgebreide Pirates of the Caribbean ter wereld. Een prachtige boot dark ride door een belegerde Caribische haven.",
+        "pt": "O Pirates of the Caribbean mais elaborado do mundo. Uma impressionante dark ride em barco por um porto caribenho sitiado.",
+        "ru": "Самые грандиозные «Пираты Карибского моря» в мире. Потрясающий тёмный аттракцион на лодке через осаждённый карибский порт.",
+        "zh": "全球最精心制作的加勒比海盗。令人叹为观止的船只暗室游乐，穿越遭受围攻的加勒比港口，宏伟布景和数百个机械人偶。",
+        "ar": "قراصنة الكاريبي الأكثر تفصيلاً في العالم. رحلة قارب مظلمة رائعة عبر ميناء كاريبي محاصر مع مجموعات رائعة ومئات من الشخصيات الآلية."
+      }
+    },
+    "haunted_mansion": {
+      "desc": {
+        "en": "Phantom Manor is Disneyland Paris's unique gothic haunted house experience with a tragic Victorian love story. Guests board Doom Buggies through 999 ghostly inhabitants in a spectacular Thunder Mesa mansion.",
+        "es": "Phantom Manor es la única experiencia de mansión encantada gótica de Disneyland Paris con una trágica historia de amor victoriana.",
+        "fr": "Phantom Manor est l'unique expérience de manoir hanté gothique de Disneyland Paris avec une tragique histoire d'amour victorienne.",
+        "de": "Phantom Manor ist Disneyland Paris's einzigartiges gotisches Geisterhaus mit einer tragischen viktorianischen Liebesgeschichte.",
+        "it": "Phantom Manor è l'unica esperienza di villa stregata gotica di Disneyland Paris con una tragica storia d'amore vittoriana.",
+        "nl": "Phantom Manor is Disneyland Paris's unieke gotische spookhuis ervaring met een tragisch Victoriaans liefdesverhaal.",
+        "pt": "Phantom Manor é a experiência única de mansão assombrada gótica de Disneyland Paris com uma trágica história de amor vitoriana.",
+        "ru": "Phantom Manor — уникальный готический дом с привидениями Disneyland Paris с трагической викторианской историей любви.",
+        "zh": "幻影庄园是迪士尼乐园巴黎独特的哥特式鬼屋体验，有一个悲惨的维多利亚时代爱情故事。客人乘坐末日车穿越999位幽灵居民。",
+        "ar": "فانتوم مانور هو تجربة المنزل المسكون القوطي الفريدة في ديزني لاند باريس مع قصة حب فيكتورية مأساوية."
+      }
+    },
+    "star_wars_hyperspace_mountain": {
+      "desc": {
+        "en": "An exhilarating indoor space coaster re-themed to Star Wars with X-wings and TIE fighters battling through hyperspace at 57 km/h with two inversions in complete darkness.",
+        "es": "Emocionante coaster espacial interior con tema Star Wars con X-wings y TIE fighters a 57 km/h con dos inversiones.",
+        "fr": "Passionnant coaster spatial intérieur à thème Star Wars avec X-wings et TIE fighters à 57 km/h avec deux inversions.",
+        "de": "Aufregender Innen-Weltraum-Coaster mit Star-Wars-Thema bei 57 km/h mit zwei Inversionen.",
+        "it": "Emozionante coaster spaziale indoor a tema Star Wars con X-wings e TIE fighters a 57 km/h con due inversioni.",
+        "nl": "Opwindende indoor ruimtecoaster met Star Wars thema op 57 km/h met twee inversies.",
+        "pt": "Emocionante coaster espacial indoor com tema Star Wars a 57 km/h com duas inversões.",
+        "ru": "Захватывающий закрытый космический коастер с темой Star Wars при 57 км/ч с двумя инверсиями.",
+        "zh": "以星球大战为主题的刺激室内太空过山车，X翼战机和钛战机在超空间战斗，时速57公里，两次翻转，完全黑暗。",
+        "ar": "أفعوانية فضائية داخلية مثيرة ذات طابع حرب النجوم مع مقاتلات X-wing وTIE بسرعة 57 كم/ساعة وانقلابين في الظلام الكامل."
+      }
+    },
+    "indiana_jones_temple_of_peril": {
+      "desc": {
+        "en": "A thrilling outdoor coaster looping through ancient jungle ruins on a mine cart. The only inverting roller coaster in Disneyland Park with a full 360-degree loop at 70 km/h.",
+        "es": "Emocionante coaster exterior por ruinas de jungla antigua en vagoneta. El único coaster con inversión en Disneyland Park con loop de 360 grados a 70 km/h.",
+        "fr": "Passionnant coaster extérieur à travers des ruines de jungle ancienne. Le seul coaster avec inversion dans Disneyland Park à 70 km/h.",
+        "de": "Aufregender Aussencoaster durch alte Dschungelruinen. Der einzige Inversionscoaster in Disneyland Park bei 70 km/h.",
+        "it": "Emozionante coaster esterno attraverso antiche rovine della giungla. L'unico coaster con inversione nel Disneyland Park a 70 km/h.",
+        "nl": "Spannende buitencoaster door oude jungleruïnes. De enige inversieachterbaan in Disneyland Park op 70 km/h.",
+        "pt": "Emocionante coaster exterior por ruínas de selva antiga. O único coaster com inversão no Disneyland Park a 70 km/h.",
+        "ru": "Захватывающий уличный коастер через руины джунглей. Единственные горки с инверсией в Disneyland Park при 70 км/ч.",
+        "zh": "穿越古老丛林废墟的刺激室外过山车。迪士尼乐园唯一的翻转过山车，70公里/时，完整360度环形。",
+        "ar": "أفعوانية خارجية مثيرة تلف عبر أطلال الغابة القديمة في عربة منجم. الأفعوانية الوحيدة ذات الانقلاب في ديزني لاند بارك بسرعة 70 كم/ساعة."
+      }
+    },
+    "buzz_lightyear_laser_blast": {
+      "desc": {
+        "en": "An interactive dark ride where guests join the Space Ranger Academy spinning their vehicle and firing laser cannons at Emperor Zurg's robots to earn the highest score.",
+        "es": "Dark ride interactivo donde los visitantes se unen a la Space Ranger Academy girando su vehículo y disparando cañones láser a los robots del Emperador Zurg.",
+        "fr": "Dark ride interactif où les visiteurs rejoignent l'Académie des Rangers de l'Espace en faisant pivoter leur véhicule et en tirant des canons laser.",
+        "de": "Interaktiver Dark-Ride, bei dem Gäste der Space Ranger Academy beitreten und Laserkanonen auf Kaiser Zurgs Roboter abfeuern.",
+        "it": "Dark ride interattivo dove gli ospiti si uniscono all'Accademia degli Space Ranger sparando cannoni laser ai robot dell'Imperatore Zurg.",
+        "nl": "Interactieve dark ride waarbij gasten de Space Ranger Academy toetreden en laserkanonnen afvuren op keizer Zurgs robots.",
+        "pt": "Dark ride interativa onde os visitantes se juntam à Academia Space Ranger disparando canhões laser nos robôs do Imperador Zurg.",
+        "ru": "Интерактивный тёмный аттракцион, где гости вступают в Академию космических рейнджеров и стреляют из лазерных пушек по роботам Императора Зурга.",
+        "zh": "互动暗室游乐，客人加入太空游侠学院，旋转车辆并向皇帝佐格的机器人发射激光炮，争取最高分。",
+        "ar": "لعبة مظلمة تفاعلية حيث ينضم الضيوف إلى أكاديمية رينجر الفضاء ويطلقون مدافع الليزر على روبوتات الإمبراطور زورغ."
+      }
+    },
+    "its_a_small_world": {
+      "desc": {
+        "en": "A classic gentle boat ride through colourful scenes of singing children from cultures around the world. The most beloved family attraction at Disneyland Paris with its unforgettable theme song.",
+        "es": "Clásico paseo en barca por coloridas escenas de niños cantando de culturas de todo el mundo. La atracción familiar más querida de Disneyland Paris.",
+        "fr": "Classique balade en bateau à travers des scènes colorées d'enfants chantant de cultures du monde entier.",
+        "de": "Klassische Bootsfahrt durch bunte Szenen singender Kinder aus Kulturen der ganzen Welt.",
+        "it": "Classico giro in barca attraverso coloratissime scene di bambini cantanti di culture di tutto il mondo.",
+        "nl": "Klassieke boottocht door kleurrijke scenes van zingende kinderen uit culturen over de hele wereld.",
+        "pt": "Clássico passeio de barco por cenas coloridas de crianças cantando de culturas de todo o mundo.",
+        "ru": "Классическая лодочная прогулка через красочные сцены поющих детей со всего мира с незабываемой темой.",
+        "zh": "经典温和船只游览，穿越来自世界各地文化的彩色歌唱儿童场景。迪士尼乐园巴黎最受喜爱的家庭项目。",
+        "ar": "رحلة قارب هادئة كلاسيكية عبر مشاهد ملونة لأطفال يغنون من ثقافات حول العالم. أكثر جاذبية عائلية محبوبة في ديزني لاند باريس."
+      }
+    },
+    "tower_of_terror": {
+      "desc": {
+        "en": "A thrilling drop tower inside the haunted Hollywood Tower Hotel. Guests enter the Twilight Zone before plunging in a free-falling elevator at terrifying speed in one of Disney's greatest attractions.",
+        "es": "Torre de caída dentro del Hotel Hollywood Tower encantado. Los visitantes entran a la Twilight Zone antes de caer en un ascensor en caída libre.",
+        "fr": "Tour de chute à l'intérieur du hanté Hollywood Tower Hotel. Les visiteurs entrent dans la Twilight Zone avant de plonger dans un ascenseur en chute libre.",
+        "de": "Fallturm im verfluchten Hollywood Tower Hotel. Gäste betreten die Twilight Zone bevor sie in einem freifallenden Aufzug stürzen.",
+        "it": "Torre a caduta all'interno del Hollywood Tower Hotel stregato. Gli ospiti entrano nella Twilight Zone prima di precipitare in un ascensore in caduta libera.",
+        "nl": "Valtoren in het vervloekte Hollywood Tower Hotel. Gasten betreden de Twilight Zone voor een vrije val in een lift.",
+        "pt": "Torre de queda dentro do assombrado Hollywood Tower Hotel. Os visitantes entram na Twilight Zone antes de cair num elevador em queda livre.",
+        "ru": "Башня падения в проклятом Hollywood Tower Hotel. Гости входят в Сумеречную зону перед свободным падением в лифте.",
+        "zh": "在鬼魂好莱坞塔楼酒店内的刺激落体塔。客人进入暮光地带，然后在恐怖速度下自由落体电梯下坠。迪士尼最伟大的项目之一。",
+        "ar": "برج سقوط داخل فندق هوليود تاور المسكون. يدخل الضيوف منطقة الشفق قبل الهبوط في مصعد ساقط بسرعة مرعبة."
+      }
+    },
+    "frozen_ever_after": {
+      "desc": {
+        "en": "A brand new magical boat ride through the Kingdom of Arendelle opened March 2026. Journey through iconic Frozen scenes with lifelike Audio-Animatronics and cutting-edge projection technology in the spectacular World of Frozen.",
+        "es": "Nuevo mágico paseo en barca por el Reino de Arendelle inaugurado en marzo 2026. Viaje por escenas icónicas de Frozen con Audio-Animatronics de última generación.",
+        "fr": "Nouveau et magique tour en bateau à travers le Royaume d'Arendelle ouvert en mars 2026. Voyage à travers des scènes iconiques de La Reine des Neiges.",
+        "de": "Brandneues magisches Bootsabenteuer durch das Königreich Arendelle, geöffnet März 2026 mit lebensechten Audio-Animatronics.",
+        "it": "Nuovo magico giro in barca attraverso il Regno di Arendelle aperto a marzo 2026 con Audio-Animatronics realistici.",
+        "nl": "Gloednieuwe magische boottocht door het Koninkrijk Arendelle geopend maart 2026 met levensechte Audio-Animatronics.",
+        "pt": "Nova e mágica viagem de barco pelo Reino de Arendelle inaugurada em março 2026 com Audio-Animatronics realistas.",
+        "ru": "Новый волшебный аттракцион на лодке через Королевство Арендель, открытый в марте 2026 с реалистичными Audio-Animatronics.",
+        "zh": "2026年3月开放的全新魔幻船只游览，穿越阿伦黛尔王国。通过栩栩如生的声光机械人偶和尖端投影技术游历冰雪奇缘标志性场景。",
+        "ar": "رحلة قارب سحرية جديدة عبر مملكة أريندل افتُتحت في مارس 2026. رحلة عبر مشاهد فروزن الأيقونية مع أنيماترونيك متطور وتقنية عرض متقدمة."
+      }
+    },
+    "crush_coaster": {
+      "desc": {
+        "en": "A thrilling spinning roller coaster through the ocean world of Finding Nemo at 70 km/h. Riders spin freely in turtle shells through underwater tunnels and exciting drops in Disney Adventure World.",
+        "es": "Emocionante coaster giratorio por el mundo oceánico de Buscando a Nemo a 70 km/h. Los riders giran en caparazones de tortuga por túneles submarinos.",
+        "fr": "Passionnant coaster tournant à travers le monde océanique du Monde de Nemo à 70 km/h. Les riders tournent dans des carapaces de tortues.",
+        "de": "Aufregender Dreh-Coaster durch Nemos Ozeanwelt bei 70 km/h. Fahrer drehen sich in Schildkrötenpanzern durch Unterwassertunnel.",
+        "it": "Emozionante coaster rotante attraverso il mondo oceanico di Alla Ricerca di Nemo a 70 km/h. I rider ruotano in gusci di tartaruga.",
+        "nl": "Spannende draaiende achterbaan door de oceaanwereld van Finding Nemo op 70 km/h. Riders draaien in schildpadpantser door onderwatergangen.",
+        "pt": "Emocionante coaster giratório pelo mundo oceânico de À Procura de Nemo a 70 km/h. Os riders giram em carapaças de tartaruga.",
+        "ru": "Захватывающий вращающийся коастер через океанский мир «В поисках Немо» при 70 км/ч. Пассажиры вращаются в панцирях черепах.",
+        "zh": "穿越海底总动员海洋世界的刺激旋转过山车，时速70公里。乘客在乌龟壳中自由旋转，穿越水下隧道。",
+        "ar": "أفعوانية دوارة مثيرة عبر عالم المحيط من Finding Nemo بسرعة 70 كم/ساعة. يدور الركاب بحرية في أصداف السلاحف عبر الأنفاق تحت الماء."
+      }
+    },
+    "ratatouille_adventure": {
+      "desc": {
+        "en": "A unique trackless dark ride shrinking guests to rat size as they scurry through Gusteau's Parisian restaurant. Freshly renovated in 2026 with enhanced scenes and a new Parisian artist's studio queue.",
+        "es": "Único dark ride sin raíles que reduce a los visitantes al tamaño de una rata mientras corren por el restaurante parisino de Gusteau. Renovado en 2026.",
+        "fr": "Unique dark ride sans rails réduisant les visiteurs à la taille d'un rat en courant dans le restaurant parisien de Gusteau. Rénové en 2026.",
+        "de": "Einzigartiger spurloser Dark-Ride, der Gäste auf Rattengrösse schrumpft. Frisch 2026 renoviert mit verbesserten Szenen.",
+        "it": "Unico dark ride senza binari che rimpicciolisce gli ospiti alla dimensione di un topo nel ristorante parigino di Gusteau. Rinnovato nel 2026.",
+        "nl": "Unieke spoorkloze dark ride die gasten op ratgrootte krimpt in Gusteau's Parijse restaurant. Gerenoveerd in 2026.",
+        "pt": "Única dark ride sem trilhos que encolhe os visitantes ao tamanho de rato no restaurante parisiense de Gusteau. Renovado em 2026.",
+        "ru": "Уникальный бесколейный тёмный аттракцион, уменьшающий гостей до размера крысы в парижском ресторане Гюсто. Обновлён в 2026 году.",
+        "zh": "独特的无轨暗室游乐，将客人缩小到老鼠大小，穿越古斯特巴黎餐厅。2026年翻新，增强场景和新的巴黎艺术家工作室排队区。",
+        "ar": "لعبة مظلمة فريدة بلا مسار تقلص الضيوف إلى حجم الفأر وهم يركضون عبر مطعم غوستو الباريسي. جُدِّدت عام 2026 مع مشاهد محسّنة."
+      }
+    },
+    "avengers_assemble_flight_force": {
+      "desc": {
+        "en": "A high-speed launched coaster in Marvel Avengers Campus reaching extreme speeds with multiple launches and four inversions. Join Iron Man and the Avengers on a high-stakes mission to save the universe.",
+        "es": "Coaster lanzado de alta velocidad en Avengers Campus con múltiples lanzamientos y cuatro inversiones. Únete a Iron Man y los Vengadores en una misión.",
+        "fr": "Coaster lancé à grande vitesse dans Avengers Campus avec plusieurs lancements et quatre inversions. Rejoignez Iron Man et les Avengers.",
+        "de": "Hochgeschwindigkeits-Launch-Coaster im Avengers Campus mit mehreren Abschüssen und vier Inversionen.",
+        "it": "Coaster lanciato ad alta velocità nell'Avengers Campus con molteplici lanci e quattro inversioni.",
+        "nl": "Hoge snelheid gelanceerde achterbaan in Avengers Campus met meerdere lanceringen en vier inversies.",
+        "pt": "Coaster lançado a alta velocidade no Avengers Campus com múltiplos lançamentos e quatro inversões.",
+        "ru": "Высокоскоростной запускаемый коастер в Avengers Campus с несколькими запусками и четырьмя инверсиями.",
+        "zh": "复仇者联盟校园的高速发射式过山车，多次发射，四次翻转。与钢铁侠和复仇者联盟一起执行高风险救援任务。",
+        "ar": "أفعوانية إطلاق عالية السرعة في حرم الانتقام مع إطلاقات متعددة وأربعة انقلابات. انضم إلى أيرون مان والانتقام في مهمة إنقاذ الكون."
+      }
+    },
+    "tangled_spin": {
+      "desc": {
+        "en": "A brand new family spinner opened March 2026 where guests board gondolas spinning beneath a sky filled with glowing lanterns while I See the Light plays. Voiced exclusively by Mandy Moore for Disneyland Paris.",
+        "es": "Nuevo juego familiar giratorio inaugurado en marzo 2026 donde los visitantes suben a góndolas giratorias bajo un cielo de linternas brillantes con Mandy Moore.",
+        "fr": "Nouveau manège familial tournant ouvert en mars 2026 où les visiteurs montent dans des gondoles tournant sous un ciel de lanternes brillantes.",
+        "de": "Brandneues Familien-Drehkarussell März 2026, bei dem Gäste in Gondeln unter einem Himmel leuchtender Laternen drehen.",
+        "it": "Nuovo gioco familiare rotante aperto a marzo 2026 dove gli ospiti salgono su gondole che girano sotto un cielo di lanterne luminose.",
+        "nl": "Gloednieuw familiedraaikarousel maart 2026 waarbij gasten in gondels draaien onder een hemel vol gloeiende lantaarns.",
+        "pt": "Novo spinner familiar inaugurado em março 2026 onde os visitantes embarcam em gôndolas girando sob um céu de lanternas brilhantes.",
+        "ru": "Новый семейный спиннер, открытый в марте 2026 — гости катаются в гондолах, вращаясь под небом светящихся фонарей.",
+        "zh": "2026年3月开放的全新家庭旋转木马，客人乘坐贡多拉在满天闪光灯笼下旋转，伴随着曼迪·摩尔专为迪士尼乐园巴黎录制的配音。",
+        "ar": "لعبة عائلية دوارة جديدة افتُتحت في مارس 2026 حيث يصعد الضيوف في قوارب تدور تحت سماء مليئة بالفوانيس المضيئة مع صوت ماندي مور."
+      }
+    }
+  },
+  "food": {
+    "blue_lagoon": {
+      "desc": {
+        "en": "One of the most romantic restaurants in any Disney park worldwide. Guests dine on Caribbean cuisine beside the lagoon inside the Pirates of the Caribbean attraction with boats floating past in a magical atmosphere.",
+        "es": "Uno de los restaurantes más románticos de todos los parques Disney del mundo. Los comensales cenan con cocina caribeña junto a la laguna dentro de Pirates of the Caribbean.",
+        "fr": "L'un des restaurants les plus romantiques de tous les parcs Disney du monde. Les convives dînent avec cuisine caribéenne au bord du lagon à l'intérieur de Pirates des Caraïbes.",
+        "de": "Eines der romantischsten Restaurants in einem Disney-Park weltweit. Gäste speisen mit karibischer Küche am Lagunenrand innerhalb der Pirates-of-the-Caribbean-Attraktion.",
+        "it": "Uno dei ristoranti più romantici di tutti i parchi Disney nel mondo. Gli ospiti cenano con cucina caraibica accanto alla laguna all'interno di Pirates of the Caribbean.",
+        "nl": "Een van de meest romantische restaurants in alle Disney parken wereldwijd. Gasten dineren met Caribische keuken naast de lagune binnen de Pirates of the Caribbean attractie.",
+        "pt": "Um dos restaurantes mais românticos em qualquer parque Disney no mundo. Os clientes jantam com cozinha caribenha ao lado da lagoa dentro da atração Pirates of the Caribbean.",
+        "ru": "Один из самых романтичных ресторанов в парках Disney по всему миру. Гости ужинают карибской кухней у лагуны внутри аттракциона «Пираты Карибского моря».",
+        "zh": "全球迪士尼乐园中最浪漫的餐厅之一。客人在加勒比海盗景点内的泻湖旁享用加勒比菜肴，船只漂过身边。",
+        "ar": "واحد من أكثر المطاعم رومانسية في أي متنزه ديزني في العالم. يتناول الضيوف المأكولات الكاريبية بجانب البحيرة داخل جاذبية قراصنة الكاريبي."
+      }
+    },
+    "plaza_gardens": {
+      "desc": {
+        "en": "An elegant Victorian-style buffet restaurant on Main Street USA offering hot and cold dishes, salads, desserts and popular character dining experiences with Disney characters.",
+        "es": "Elegante restaurante buffet de estilo victoriano en Main Street USA con platos calientes y fríos y experiencias de cena con personajes Disney.",
+        "fr": "Élégant restaurant buffet de style victorien sur Main Street USA avec plats chauds et froids et expériences de dîner avec les personnages Disney.",
+        "de": "Elegantes viktorianisches Buffet-Restaurant an der Main Street USA mit warmen und kalten Gerichten und Disney-Charakteressen.",
+        "it": "Elegante ristorante buffet stile vittoriano su Main Street USA con piatti caldi e freddi e esperienze di cena con i personaggi Disney.",
+        "nl": "Elegant Victoriaans buffetrestaurant op Main Street USA met warme en koude gerechten en Disney karakter diners.",
+        "pt": "Elegante restaurante buffet de estilo vitoriano na Main Street USA com pratos quentes e frios e experiências de jantar com personagens Disney.",
+        "ru": "Элегантный викторианский буфет на Main Street USA с горячими и холодными блюдами и ужином с персонажами Disney.",
+        "zh": "美国大街上优雅的维多利亚风格自助餐厅，提供热菜和冷菜、沙拉、甜点以及与迪士尼角色一起用餐的体验。",
+        "ar": "مطعم بوفيه أنيق بطراز فيكتوري على الشارع الرئيسي يقدم الأطباق الساخنة والباردة وتجارب العشاء مع شخصيات ديزني."
+      }
+    },
+    "walts_restaurant": {
+      "desc": {
+        "en": "The finest table service restaurant at Disneyland Paris on Main Street USA, dedicated to Walt Disney himself. Each room tells a story from Walt's life with premium French and international cuisine.",
+        "es": "El mejor restaurante de servicio en mesa de Disneyland Paris en Main Street USA, dedicado al propio Walt Disney con cocina francesa e internacional premium.",
+        "fr": "Le meilleur restaurant gastronomique de Disneyland Paris sur Main Street USA, dédié à Walt Disney lui-même avec cuisine française et internationale premium.",
+        "de": "Das feinste Tischservice-Restaurant in Disneyland Paris an der Main Street USA, Walt Disney gewidmet mit Premium-Küche.",
+        "it": "Il miglior ristorante con servizio al tavolo di Disneyland Paris su Main Street USA, dedicato a Walt Disney con cucina francese e internazionale premium.",
+        "nl": "Het beste tafelservicerestaurant in Disneyland Paris op Main Street USA, gewijd aan Walt Disney zelf met premium Franse en internationale keuken.",
+        "pt": "O melhor restaurante de serviço à mesa em Disneyland Paris na Main Street USA, dedicado ao próprio Walt Disney com cozinha francesa e internacional premium.",
+        "ru": "Лучший ресторан с обслуживанием столиков в Disneyland Paris на Main Street USA, посвящённый Уолту Диснею с премиальной французской кухней.",
+        "zh": "迪士尼乐园巴黎美国大街上最好的餐桌服务餐厅，专门献给沃尔特·迪士尼本人。每个房间讲述沃尔特生活中的故事，供应高档法式和国际菜肴。",
+        "ar": "أفضل مطعم بالخدمة على الطاولة في ديزني لاند باريس على الشارع الرئيسي، مخصص لوالت ديزني نفسه مع مأكولات فرنسية ودولية فاخرة."
+      }
+    },
+    "agrabah_cafe": {
+      "desc": {
+        "en": "An Aladdin themed buffet restaurant in Adventureland serving Middle Eastern and North African inspired dishes in a colourful bazaar atmosphere inspired by the city of Agrabah.",
+        "es": "Restaurante buffet con tema de Aladdin en Adventureland con platos inspirados en Oriente Medio y Norte de África en ambiente de bazar colorido.",
+        "fr": "Restaurant buffet à thème Aladdin dans Adventureland servant des plats inspirés du Moyen-Orient et d'Afrique du Nord dans une atmosphère de bazar coloré.",
+        "de": "Aladdin-Themen-Buffet-Restaurant in Adventureland mit nahöstlichen und nordafrikanischen Gerichten in buntem Basar-Ambiente.",
+        "it": "Ristorante buffet a tema Aladdin in Adventureland con piatti ispirati al Medio Oriente e all'Africa del Nord in un'atmosfera di bazar colorato.",
+        "nl": "Aladdin-thema buffetrestaurant in Adventureland met Midden-Oosterse en Noord-Afrikaanse gerechten in kleurrijke bazaarsfeer.",
+        "pt": "Restaurante buffet com tema Aladdin em Adventureland com pratos inspirados no Médio Oriente e Norte de África em atmosfera de bazar colorido.",
+        "ru": "Буфет в стиле Аладдина в Adventureland с ближневосточными и североафриканскими блюдами в красочной базарной атмосфере.",
+        "zh": "冒险乐园以阿拉丁为主题的自助餐厅，供应以中东和北非为灵感的菜肴，阿格拉巴城市主题的多彩集市氛围。",
+        "ar": "مطعم بوفيه بطابع علاء الدين في أرض المغامرات يقدم أطباقاً مستوحاة من الشرق الأوسط وشمال أفريقيا في أجواء سوق ملونة."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_disneyland": {
+      "desc": {
+        "en": "The iconic pink Victorian castle hotel sitting directly above the entrance to Disneyland Park. Fully renovated and reopened in 2024, it is the most prestigious hotel at the resort with exclusive benefits and a magical once-in-a-lifetime experience.",
+        "es": "El icónico hotel castillo victoriano rosa situado directamente sobre la entrada a Disneyland Park. Completamente renovado en 2024, es el hotel más prestigioso del resort.",
+        "fr": "L'iconique hôtel château rose victorien situé directement au-dessus de l'entrée de Disneyland Park. Entièrement rénové en 2024, c'est l'hôtel le plus prestigieux du resort.",
+        "de": "Das ikonische rosa viktorianische Schlosshotel direkt über dem Eingang von Disneyland Park. Vollständig renoviert 2024, das prestigiöse Hotel des Resorts.",
+        "it": "L'iconico hotel castello vittoriano rosa situato direttamente sopra l'ingresso di Disneyland Park. Completamente rinnovato nel 2024, è l'hotel più prestigioso del resort.",
+        "nl": "Het iconische roze Victoriaanse kasteel hotel direct boven de ingang van Disneyland Park. Volledig gerenoveerd in 2024, het meest prestigieuze hotel van het resort.",
+        "pt": "O icónico hotel castelo vitoriano rosa situado directamente sobre a entrada do Disneyland Park. Totalmente renovado em 2024, é o hotel mais prestigioso do resort.",
+        "ru": "Культовый розовый викторианский замок-отель прямо над входом в Disneyland Park. Полностью отремонтирован в 2024 году — самый престижный отель курорта.",
+        "zh": "标志性的粉红色维多利亚城堡酒店，直接坐落在迪士尼乐园入口上方。2024年全面翻新重开，是度假村最负盛名的酒店。",
+        "ar": "الفندق الأيقوني القلعة الفيكتورية الوردية الجالسة مباشرة فوق مدخل ديزني لاند بارك. جُدِّد بالكامل وأعاد افتتاحه عام 2024، وهو أكثر فنادق المنتجع مرموقية."
+      },
+      "rooms": {
+        "classic_room": {
+          "name": { "en": "Classic Room", "es": "Habitación Clásica", "fr": "Chambre Classique", "de": "Classic Zimmer", "it": "Camera Classic", "nl": "Classic Kamer", "pt": "Quarto Clássico", "ru": "Классический номер", "zh": "经典客房", "ar": "غرفة كلاسيكية" },
+          "desc": { "en": "Elegantly themed room sleeping up to 4 with castle views and exclusive early park entry.", "es": "Habitación elegante para 4 con vistas al castillo y entrada anticipada exclusiva.", "fr": "Chambre élégante pour 4 avec vue château et entrée anticipée exclusive.", "de": "Elegantes Zimmer fuer 4 mit Schlossblick und exklusivem Früheinlass.", "it": "Camera elegante per 4 con vista castello e ingresso anticipato esclusivo.", "nl": "Elegante kamer voor 4 met kasteelzicht en exclusieve vroege toegang.", "pt": "Quarto elegante para 4 com vista castelo e entrada antecipada exclusiva.", "ru": "Элегантный номер для 4 с видом на замок и эксклюзивным ранним входом.", "zh": "优雅主题客房，可容纳4人，城堡景观，独家早入场特权。", "ar": "غرفة أنيقة تتسع لـ 4 أشخاص مع إطلالات على القلعة ودخول مبكر حصري." }
+        },
+        "suite": {
+          "name": { "en": "Suite", "es": "Suite", "fr": "Suite", "de": "Suite", "it": "Suite", "nl": "Suite", "pt": "Suite", "ru": "Люкс", "zh": "套房", "ar": "جناح" },
+          "desc": { "en": "Luxurious suite with panoramic castle and park views, premium amenities and VIP benefits.", "es": "Suite lujosa con vistas panorámicas al castillo y parque, amenidades premium y beneficios VIP.", "fr": "Suite luxueuse avec vues panoramiques sur le château et le parc, équipements premium et avantages VIP.", "de": "Luxuriöse Suite mit Panoramablick auf Schloss und Park, Premium-Ausstattung und VIP-Vorteilen.", "it": "Suite lussuosa con viste panoramiche su castello e parco, dotazioni premium e vantaggi VIP.", "nl": "Luxueuze suite met panoramisch kasteel en parkzicht, premium voorzieningen en VIP voordelen.", "pt": "Suite luxuosa com vistas panorâmicas para o castelo e parque, comodidades premium e benefícios VIP.", "ru": "Роскошный люкс с панорамными видами на замок и парк, премиальными удобствами и VIP-льготами.", "zh": "豪华套房，城堡和公园全景，高级设施和VIP特权。", "ar": "جناح فاخر مع إطلالات بانورامية على القلعة والمتنزه ومرافق فاخرة ومزايا كبار الشخصيات." }
+        }
+      }
+    },
+    "hotel_new_york_art_of_marvel": {
+      "desc": {
+        "en": "A stunning Marvel themed luxury hotel featuring over 350 original works of art by Marvel artists. Guests enjoy exclusive Marvel character experiences, premium dining at the Skyline Bar and direct access to Disney Adventure World.",
+        "es": "Impresionante hotel de lujo con tema Marvel con más de 350 obras de arte originales de artistas Marvel. Los huéspedes disfrutan de experiencias exclusivas con personajes Marvel.",
+        "fr": "Superbe hôtel de luxe à thème Marvel avec plus de 350 œuvres d'art originales d'artistes Marvel. Les clients bénéficient d'expériences exclusives avec les personnages Marvel.",
+        "de": "Atemberaubendes Marvel-Luxushotel mit über 350 Originalkunstwerken von Marvel-Künstlern. Gäste genießen exklusive Marvel-Charaktererlebnisse.",
+        "it": "Splendido hotel di lusso a tema Marvel con oltre 350 opere d'arte originali di artisti Marvel. Gli ospiti godono di esperienze esclusive con i personaggi Marvel.",
+        "nl": "Verbluffend Marvel luxehotel met meer dan 350 originele kunstwerken van Marvel-kunstenaars. Gasten genieten van exclusieve Marvel-karakterervaringen.",
+        "pt": "Deslumbrante hotel de luxo temático Marvel com mais de 350 obras de arte originais de artistas Marvel. Os hóspedes desfrutam de experiências exclusivas com personagens Marvel.",
+        "ru": "Потрясающий роскошный отель Marvel с более чем 350 оригинальными произведениями искусства художников Marvel.",
+        "zh": "令人惊叹的漫威主题豪华酒店，展示超过350件漫威艺术家的原创作品。客人享受独家漫威角色体验和天际线酒吧高级餐饮。",
+        "ar": "فندق فاخر رائع بطابع مارفل يضم أكثر من 350 عملاً فنياً أصيلاً لفناني مارفل. يستمتع الضيوف بتجارب حصرية مع شخصيات مارفل."
+      },
+      "rooms": {
+        "superior_room": {
+          "name": { "en": "Superior Room", "es": "Habitación Superior", "fr": "Chambre Supérieure", "de": "Superior Zimmer", "it": "Camera Superior", "nl": "Superior Kamer", "pt": "Quarto Superior", "ru": "Улучшенный номер", "zh": "高级客房", "ar": "غرفة سوبيريور" },
+          "desc": { "en": "Marvel themed room with original artwork sleeping up to 4 with early park entry.", "es": "Habitación Marvel con obra de arte original para 4 con entrada anticipada.", "fr": "Chambre Marvel avec œuvre d'art originale pour 4 avec entrée anticipée.", "de": "Marvel-Zimmer mit Originalkunstwerk fuer 4 mit frühem Einlass.", "it": "Camera Marvel con opera d'arte originale per 4 con ingresso anticipato.", "nl": "Marvel kamer met origineel kunstwerk voor 4 met vroege parktoegang.", "pt": "Quarto Marvel com obra de arte original para 4 com entrada antecipada.", "ru": "Номер Marvel с оригинальным произведением искусства для 4 с ранним входом.", "zh": "漫威主题客房，原创艺术品，可容纳4人，早入场特权。", "ar": "غرفة بطابع مارفل مع أعمال فنية أصيلة تتسع لـ 4 أشخاص مع دخول مبكر." }
+        },
+        "hero_suite": {
+          "name": { "en": "Hero Suite", "es": "Suite Héroe", "fr": "Suite Héros", "de": "Hero Suite", "it": "Suite Eroe", "nl": "Hero Suite", "pt": "Suite Herói", "ru": "Люкс Героя", "zh": "英雄套房", "ar": "جناح البطل" },
+          "desc": { "en": "Premium Marvel themed suite with exclusive Superhero decor, premium park benefits and Skyline Bar access.", "es": "Suite Marvel premium con decoración exclusiva de Superhéroes, beneficios premium del parque.", "fr": "Suite Marvel premium avec décor exclusif de Super-Héros et avantages premium du parc.", "de": "Premium Marvel-Suite mit exklusivem Superhelden-Dekor und Premium-Parkvorteilen.", "it": "Suite Marvel premium con decor esclusivo di Supereroi e vantaggi premium del parco.", "nl": "Premium Marvel suite met exclusieve Superhelden decor en premium parkvoordelen.", "pt": "Suite Marvel premium com decor exclusivo de Super-Heróis e benefícios premium do parque.", "ru": "Премиум-люкс Marvel с эксклюзивным декором супергероев и премиальными привилегиями.", "zh": "高级漫威主题套房，独家超级英雄装饰，高级公园特权和天际线酒吧通道。", "ar": "جناح مارفل الفاخر مع ديكور حصري للأبطال الخارقين ومزايا فاخرة للمتنزه." }
+        }
+      }
+    },
+    "hotel_sequoia_lodge": {
+      "desc": {
+        "en": "A cosy American national park inspired lodge hotel surrounded by pine trees with a warm rustic atmosphere, indoor and outdoor pools, and easy walking access to both Disney parks.",
+        "es": "Acogedor hotel lodge inspirado en parques nacionales americanos rodeado de pinos con piscinas interior y exterior y fácil acceso a ambos parques Disney.",
+        "fr": "Chalet hôtel douillet inspiré des parcs nationaux américains entouré de pins avec piscines intérieure et extérieure et accès facile aux deux parcs Disney.",
+        "de": "Gemütliches Nationalpark-inspiriertes Lodge-Hotel von Kiefern umgeben mit Innen- und Aussenpool und einfachem Fussweg zu beiden Disney-Parks.",
+        "it": "Accogliente hotel lodge ispirato ai parchi nazionali americani circondato da pini con piscine interna ed esterna e facile accesso a entrambi i parchi Disney.",
+        "nl": "Gezellig Amerikaans nationaal park geïnspireerd lodge hotel omgeven door pijnbomen met binnen- en buitenzwembad en gemakkelijke toegang tot beide Disney parken.",
+        "pt": "Acolhedor hotel lodge inspirado nos parques nacionais americanos rodeado de pinheiros com piscinas interior e exterior e fácil acesso a ambos os parques Disney.",
+        "ru": "Уютный лодж-отель в стиле американских национальных парков среди сосен с крытым и открытым бассейнами и пешей доступностью обоих парков Disney.",
+        "zh": "以美国国家公园为灵感的舒适小屋酒店，松树环绕，温暖质朴的氛围，室内外游泳池，步行即可到达两个迪士尼公园。",
+        "ar": "فندق لودج مريح مستوحى من المتنزهات الوطنية الأمريكية محاط بأشجار الصنوبر مع حمامات سباحة داخلية وخارجية وسهولة الوصول لكلا متنزهي ديزني."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitación Estándar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Comfortable lodge themed room sleeping up to 4 with forest views and early park entry.", "es": "Habitación lodge para 4 con vistas al bosque y entrada anticipada.", "fr": "Chambre lodge pour 4 avec vue forêt et entrée anticipée.", "de": "Komfortables Lodge-Zimmer fuer 4 mit Waldblick und frühem Einlass.", "it": "Camera lodge per 4 con vista bosco e ingresso anticipato.", "nl": "Comfortabele lodge kamer voor 4 met bostzicht en vroege parktoegang.", "pt": "Quarto lodge para 4 com vista floresta e entrada antecipada.", "ru": "Уютный номер для 4 с видом на лес и ранним входом.", "zh": "舒适的小屋主题客房，可容纳4人，森林景观，早入场特权。", "ar": "غرفة لودج مريحة تتسع لـ 4 أشخاص مع إطلالات على الغابة ودخول مبكر." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitación Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious family room sleeping up to 6 with bunk beds, pool access and early park entry.", "es": "Habitación familiar para 6 con literas, acceso a piscina y entrada anticipada.", "fr": "Chambre familiale pour 6 avec lits superposés, accès piscine et entrée anticipée.", "de": "Geräumiges Familienzimmer fuer 6 mit Etagenbetten und Poolzugang.", "it": "Camera familiare per 6 con letti a castello e accesso piscina.", "nl": "Ruime familiekamer voor 6 met stapelbedden en zwembadtoegang.", "pt": "Quarto familiar para 6 com beliches e acesso à piscina.", "ru": "Просторный семейный номер для 6 с двухъярусными кроватями и бассейном.", "zh": "宽敞家庭客房，可容纳6人，上下铺，游泳池通道，早入场特权。", "ar": "غرفة عائلية فسيحة تتسع لـ 6 أشخاص مع أسرة بطابقين وإمكانية الوصول للمسبح." }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+﻿[
+  {"id":"restaurant_piraat","name":"Restaurant Piraat","type":"restaurant","priceRange":"$$","lat":51.6497,"lng":5.0460,"image":"assets/images/efteling/food_restaurant_piraat.png"},
+  {"id":"polles_keuken","name":"Polles Keuken","type":"restaurant","priceRange":"$$","lat":51.6499,"lng":5.0458,"image":"assets/images/efteling/food_polles_keuken.png"},
+  {"id":"grand_cafe_roodkapje","name":"Grand Cafe Roodkapje","type":"cafe","priceRange":"$$","lat":51.6495,"lng":5.0463,"image":"assets/images/efteling/food_grand_cafe_roodkapje.png"},
+  {"id":"pancake_house","name":"Pancake House","type":"cafe","priceRange":"$","lat":51.6493,"lng":5.0466,"image":"assets/images/efteling/food_pancake_house.png"}
+]

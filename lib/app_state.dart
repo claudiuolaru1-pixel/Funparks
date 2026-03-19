@@ -1,154 +1,158 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'models/my_day_item.dart';
 
 class AppState extends ChangeNotifier {
-  // ---------- Locale ----------
-  Locale _locale = const Locale('en');
-  Locale get locale => _locale;
 
-  bool _languageManuallySet = false;
-  bool get languageManuallySet => _languageManuallySet;
+  // ---------------------------
+  // Auth state
+  // ---------------------------
+  User? _user;
+  User? get currentUser => _user;
+  bool get isLoggedIn => _user != null;
+  String? get userEmail => _user?.email;
 
-  // ---------- Currency ----------
-  String _currency = 'EUR';
-  String get currency => _currency;
+  // ---------------------------
+  // Language & currency
+  // ---------------------------
+  String _languageCode = 'en';
+  String _currencyCode = 'EUR';
+  String get languageCode => _languageCode;
+  String get currencyCode => _currencyCode;
+  String get currency => _currencyCode;
+  Locale get locale => Locale(_languageCode);
+  Future<void> setLocale(Locale l) => setLanguageCode(l.languageCode);
+  Future<void> setLanguage(String code) => setLanguageCode(code);
+  Future<void> setCurrency(String code) => setCurrencyCode(code);
 
-  // ---------- Init ----------
-  bool _initialized = false;
-  bool get initialized => _initialized;
-
-  Future<void>? _initFuture;
-
-  /// Call this from main.dart using FutureBuilder.
-  /// Runs only once (safe to call multiple times).
-  Future<void> ensureInitialized(Locale deviceLocale, String defaultCurrency) {
-    _initFuture ??= _loadFromPrefs(deviceLocale, defaultCurrency);
-    return _initFuture!;
-  }
-
-  Future<void> _loadFromPrefs(Locale deviceLocale, String defaultCurrency) async {
-    final prefs = await SharedPreferences.getInstance();
-
-    final savedLang = prefs.getString('locale_lang');
-    final lang = (savedLang == null || savedLang.trim().isEmpty)
-        ? deviceLocale.languageCode
-        : savedLang.trim();
-
-    _locale = Locale(lang);
-
-    _currency = prefs.getString('currency') ?? defaultCurrency;
-    _languageManuallySet = prefs.getBool('language_manual') ?? false;
-    _myStay = (prefs.getStringList('my_stay') ?? []).toSet();
-
-    // Restore lists
-    _myDay = (prefs.getStringList('my_day') ?? []).toSet();
-    _myFood = (prefs.getStringList('my_food') ?? []).toSet();
-    _myStay = (prefs.getStringList('my_stay') ?? []).toSet();
-
-    _initialized = true;
+  Future<void> setLanguageCode(String code) async {
+    await _ensureBootLoaded();
+    if (code == _languageCode) return;
+    _languageCode = code;
+    await _prefsSetString(_kLang, code);
     notifyListeners();
   }
 
-  // Keep compatibility if older code still calls this:
-  Future<void> loadFromDevice(Locale deviceLocale, String defaultCurrency) async {
-    await ensureInitialized(deviceLocale, defaultCurrency);
-  }
-
-  Future<void> setLocale(Locale l) async {
-    final prefs = await SharedPreferences.getInstance();
-    _locale = Locale(l.languageCode);
-    _languageManuallySet = true;
-    await prefs.setString('locale_lang', _locale.languageCode);
-    await prefs.setBool('language_manual', true);
+  Future<void> setCurrencyCode(String code) async {
+    await _ensureBootLoaded();
+    if (code == _currencyCode) return;
+    _currencyCode = code;
+    await _prefsSetString(_kCurrency, code);
     notifyListeners();
   }
 
-  Future<void> setLocaleSilently(Locale l) async {
-    final prefs = await SharedPreferences.getInstance();
-    _locale = Locale(l.languageCode);
-    await prefs.setString('locale_lang', _locale.languageCode);
-    notifyListeners();
+  // ---------------------------
+  // Favorite parks
+  // ---------------------------
+  final Set<String> _favoriteParkIds = {};
+
+  Set<String> get favoriteParkIds {
+    if (!_bootLoaded) _ensureBootLoaded().then((_) => notifyListeners());
+    return _favoriteParkIds;
   }
 
-  Future<void> setCurrency(String cur) async {
-    final prefs = await SharedPreferences.getInstance();
-    _currency = cur;
-    await prefs.setString('currency', cur);
-    notifyListeners();
-  }
+  bool isParkFavorite(String parkId) => _favoriteParkIds.contains(parkId);
 
-  // -------------------- My Day (Attractions) --------------------
-  Set<String> _myDay = {};
-  bool isInMyDay(String id) => _myDay.contains(id);
-
-  int get myDayCount => _myDay.length;
-
-  Future<void> toggleMyDayAttraction(String id) async {
-    final prefs = await SharedPreferences.getInstance();
-    if (_myDay.contains(id)) {
-      _myDay.remove(id);
+  Future<void> toggleParkFavorite(String parkId) async {
+    await _ensureBootLoaded();
+    if (_favoriteParkIds.contains(parkId)) {
+      _favoriteParkIds.remove(parkId);
     } else {
-      _myDay.add(id);
+      _favoriteParkIds.add(parkId);
     }
-    await prefs.setStringList('my_day', _myDay.toList());
+    await _saveFavorites();
     notifyListeners();
   }
 
-  // -------------------- My Food --------------------
-  Set<String> _myFood = {};
-  bool isInMyFood(String id) => _myFood.contains(id);
+  // ---------------------------
+  // Unified My Day
+  // ---------------------------
+  final List<MyDayItem> _myDayItems = [];
+  List<MyDayItem> get myDayItems => List.unmodifiable(_myDayItems);
+  int get myDayTotalCount => _myDayItems.length;
+  int get myDayTotalMinutes =>
+      _myDayItems.fold(0, (sum, i) => sum + i.estimatedMinutes);
+  bool isInMyDayUnified(String id) => _myDayItems.any((i) => i.id == id);
 
-  int get myFoodCount => _myFood.length;
-
-  Future<void> toggleMyFood(String id) async {
-    final prefs = await SharedPreferences.getInstance();
-    if (_myFood.contains(id)) {
-      _myFood.remove(id);
-    } else {
-      _myFood.add(id);
-    }
-    await prefs.setStringList('my_food', _myFood.toList());
-    notifyListeners();
-  }
-
-    // -------------------- My Stay (Hotels) --------------------
-    Set<String> _myStay = {};
-    bool isInMyStay(String id) => _myStay.contains(id);
-    int get myStayCount => _myStay.length;
-
-    Future<void> toggleMyStay(String id) async {
-      final prefs = await SharedPreferences.getInstance();
-      if (_myStay.contains(id)) {
-        _myStay.remove(id);
-      } else {
-        _myStay.add(id);
-      }
-      await prefs.setStringList('my_stay', _myStay.toList());
+  Future<void> addToMyDay(MyDayItem item) async {
+    await _ensureBootLoaded();
+    await _ensureMyDayLoaded();
+    if (!_myDayItems.any((i) => i.id == item.id)) {
+      _myDayItems.add(item);
+      await _saveMyDayUnified();
       notifyListeners();
     }
+  }
 
-  // -------------------- Ratings / Comments (Attractions) --------------------
-  final Map<String, double> _attrRatings = {};
-  final Map<String, String> _attrComments = {};
+  Future<void> removeFromMyDay(String id) async {
+    await _ensureBootLoaded();
+    await _ensureMyDayLoaded();
+    _myDayItems.removeWhere((i) => i.id == id);
+    await _saveMyDayUnified();
+    notifyListeners();
+  }
 
-  double? ratingForAttraction(String id) => _attrRatings[id];
-  String? commentForAttraction(String id) => _attrComments[id];
+  Future<void> updateMyDayItemMinutes(String id, int minutes) async {
+    await _ensureBootLoaded();
+    await _ensureMyDayLoaded();
+    final idx = _myDayItems.indexWhere((i) => i.id == id);
+    if (idx != -1) {
+      _myDayItems[idx].estimatedMinutes = minutes;
+      await _saveMyDayUnified();
+      notifyListeners();
+    }
+  }
+
+  void reorderMyDay(List<MyDayItem> newOrder) {
+    _myDayItems
+      ..clear()
+      ..addAll(newOrder);
+    _saveMyDayUnified();
+    notifyListeners();
+  }
+
+  // ---------------------------
+  // Attraction notes
+  // ---------------------------
+  final Map<String, double> _attractionRatings = {};
+  final Map<String, String> _attractionComments = {};
+  final Map<String, int> _attractionMyWaitMinutes = {};
+
+  double? ratingForAttraction(String id) => _attractionRatings[id];
+  String? commentForAttraction(String id) => _attractionComments[id];
+  int? myWaitFor(String id) => _attractionMyWaitMinutes[id];
 
   Future<void> setAttractionRating(String id, double rating) async {
-    final prefs = await SharedPreferences.getInstance();
-    _attrRatings[id] = rating;
-    await prefs.setDouble('attr_rating_$id', rating);
+    await ensureLoadedForAttraction(id);
+    _attractionRatings[id] = rating;
+    await _saveAttractionNotes();
     notifyListeners();
   }
 
   Future<void> setAttractionComment(String id, String comment) async {
-    final prefs = await SharedPreferences.getInstance();
-    _attrComments[id] = comment;
-    await prefs.setString('attr_comment_$id', comment);
+    await ensureLoadedForAttraction(id);
+    _attractionComments[id] = comment;
+    await _saveAttractionNotes();
     notifyListeners();
   }
 
-  // -------------------- Ratings / Comments (Food) --------------------
+  Future<void> setMyWaitMinutes(String id, int? minutes) async {
+    await ensureLoadedForAttraction(id);
+    if (minutes == null) {
+      _attractionMyWaitMinutes.remove(id);
+    } else {
+      _attractionMyWaitMinutes[id] = minutes;
+    }
+    await _saveAttractionNotes();
+    notifyListeners();
+  }
+
+  // ---------------------------
+  // Food notes
+  // ---------------------------
   final Map<String, double> _foodRatings = {};
   final Map<String, String> _foodComments = {};
 
@@ -156,99 +160,358 @@ class AppState extends ChangeNotifier {
   String? commentForFood(String id) => _foodComments[id];
 
   Future<void> setFoodRating(String id, double rating) async {
-    final prefs = await SharedPreferences.getInstance();
+    await ensureLoadedForFood(id);
     _foodRatings[id] = rating;
-    await prefs.setDouble('food_rating_$id', rating);
+    await _saveFoodNotes();
     notifyListeners();
   }
 
   Future<void> setFoodComment(String id, String comment) async {
-    final prefs = await SharedPreferences.getInstance();
+    await ensureLoadedForFood(id);
     _foodComments[id] = comment;
-    await prefs.setString('food_comment_$id', comment);
+    await _saveFoodNotes();
     notifyListeners();
   }
 
-  // -------------------- Ratings / Comments (Hotels) --------------------
-  final Map<String, double> _hotelRatings = {};
-  final Map<String, String> _hotelComments = {};
+  // ---------------------------
+  // Legacy compatibility stubs
+  // ---------------------------
+  final Set<String> _myDayAttractionIds = {};
+  final Set<String> _myFoodIds = {};
+  final Set<String> _plannedHotelIds = {};
 
-  double? ratingForHotel(String id) => _hotelRatings[id];
-  String? commentForHotel(String id) => _hotelComments[id];
+  int get myDayCount => _myDayAttractionIds.length;
+  int get myFoodCount => _myFoodIds.length;
+  bool isInMyDay(String id) => _myDayAttractionIds.contains(id);
+  bool isInMyFood(String id) => _myFoodIds.contains(id);
+  bool isHotelPlanned(String id) => _plannedHotelIds.contains(id);
 
-  Future<void> setHotelRating(String id, double rating) async {
-    final prefs = await SharedPreferences.getInstance();
-    _hotelRatings[id] = rating;
-    await prefs.setDouble('hotel_rating_$id', rating);
-    notifyListeners();
-  }
-
-  Future<void> setHotelComment(String id, String comment) async {
-    final prefs = await SharedPreferences.getInstance();
-    _hotelComments[id] = comment;
-    await prefs.setString('hotel_comment_$id', comment);
-    notifyListeners();
-  }
-
-  // -------------------- My Wait Minutes --------------------
-  final Map<String, int?> _myWait = {};
-  int? myWaitFor(String attractionId) => _myWait[attractionId];
-
-  Future<void> setMyWaitMinutes(String attractionId, int? minutes) async {
-    final prefs = await SharedPreferences.getInstance();
-    _myWait[attractionId] = minutes;
-    if (minutes == null) {
-      await prefs.remove('my_wait_$attractionId');
+  Future<void> toggleMyDayAttraction(String id) async {
+    await ensureLoadedForAttraction(id);
+    if (_myDayAttractionIds.contains(id)) {
+      _myDayAttractionIds.remove(id);
     } else {
-      await prefs.setInt('my_wait_$attractionId', minutes);
+      _myDayAttractionIds.add(id);
     }
     notifyListeners();
   }
 
-  // -------------------- Lazy load per item --------------------
-  Future<void> ensureLoadedForAttraction(String id) async {
+  Future<void> toggleMyFood(String id) async {
+    await ensureLoadedForFood(id);
+    if (_myFoodIds.contains(id)) {
+      _myFoodIds.remove(id);
+    } else {
+      _myFoodIds.add(id);
+    }
+    notifyListeners();
+  }
+
+  Future<void> toggleHotelPlanned(String id) async {
+    await _ensureBootLoaded();
+    if (_plannedHotelIds.contains(id)) {
+      _plannedHotelIds.remove(id);
+    } else {
+      _plannedHotelIds.add(id);
+    }
+    notifyListeners();
+  }
+
+  // ---------------------------
+  // Boot / lazy load guards
+  // ---------------------------
+  bool _bootLoaded = false;
+  bool _attractionLoaded = false;
+  bool _foodLoaded = false;
+  bool _myDayUnifiedLoaded = false;
+
+  Future<void> _ensureBootLoaded() async {
+    if (_bootLoaded) return;
+    _bootLoaded = true;
     final prefs = await SharedPreferences.getInstance();
+    _languageCode = prefs.getString(_kLang) ?? _languageCode;
+    _currencyCode = prefs.getString(_kCurrency) ?? _currencyCode;
+    final fav = prefs.getStringList(_kFavoriteParks) ?? [];
+    _favoriteParkIds
+      ..clear()
+      ..addAll(fav.where((e) => e.trim().isNotEmpty));
 
-    if (!_attrRatings.containsKey(id)) {
-      final v = prefs.getDouble('attr_rating_$id');
-      if (v != null) _attrRatings[id] = v;
-    }
+    // Listen to auth state changes
+    FirebaseAuth.instance.authStateChanges().listen((user) async {
+      _user = user;
+      if (user != null) {
+        await _syncFromFirestore(user.uid);
+      }
+      notifyListeners();
+    });
+  }
 
-    if (!_attrComments.containsKey(id)) {
-      final v = prefs.getString('attr_comment_$id');
-      if (v != null) _attrComments[id] = v;
-    }
-
-    if (!_myWait.containsKey(id)) {
-      _myWait[id] = prefs.getInt('my_wait_$id');
+  Future<void> _ensureMyDayLoaded() async {
+    if (_myDayUnifiedLoaded) return;
+    _myDayUnifiedLoaded = true;
+    final prefs = await SharedPreferences.getInstance();
+    final raw = prefs.getString(_kMyDayUnified);
+    if (raw != null && raw.trim().isNotEmpty) {
+      try {
+        final decoded = json.decode(raw) as List;
+        _myDayItems
+          ..clear()
+          ..addAll(decoded
+              .map((e) => MyDayItem.fromJson(e as Map<String, dynamic>)));
+      } catch (_) {}
     }
   }
 
-  Future<void> ensureLoadedForFood(String id) async {
+  Future<void> ensureLoadedForAttraction(String _) async {
+    await _ensureBootLoaded();
+    if (_attractionLoaded) return;
+    _attractionLoaded = true;
     final prefs = await SharedPreferences.getInstance();
-
-    if (!_foodRatings.containsKey(id)) {
-      final v = prefs.getDouble('food_rating_$id');
-      if (v != null) _foodRatings[id] = v;
-    }
-
-    if (!_foodComments.containsKey(id)) {
-      final v = prefs.getString('food_comment_$id');
-      if (v != null) _foodComments[id] = v;
+    final notesRaw = prefs.getString(_kAttractionNotes);
+    if (notesRaw != null && notesRaw.trim().isNotEmpty) {
+      try {
+        final decoded = json.decode(notesRaw);
+        if (decoded is Map) {
+          final r = decoded['ratings'];
+          final c = decoded['comments'];
+          final w = decoded['waits'];
+          if (r is Map)
+            _attractionRatings.addAll(
+                r.map((k, v) => MapEntry(k.toString(), _toDouble(v))));
+          if (c is Map)
+            _attractionComments.addAll(c.map(
+                (k, v) => MapEntry(k.toString(), v?.toString() ?? '')));
+          if (w is Map)
+            _attractionMyWaitMinutes.addAll(
+                w.map((k, v) => MapEntry(k.toString(), _toInt(v))));
+        }
+      } catch (_) {}
     }
   }
 
-  Future<void> ensureLoadedForHotel(String id) async {
+  Future<void> ensureLoadedForFood(String _) async {
+    await _ensureBootLoaded();
+    if (_foodLoaded) return;
+    _foodLoaded = true;
     final prefs = await SharedPreferences.getInstance();
-
-    if (!_hotelRatings.containsKey(id)) {
-      final v = prefs.getDouble('hotel_rating_$id');
-      if (v != null) _hotelRatings[id] = v;
-    }
-
-    if (!_hotelComments.containsKey(id)) {
-      final v = prefs.getString('hotel_comment_$id');
-      if (v != null) _hotelComments[id] = v;
+    final notesRaw = prefs.getString(_kFoodNotes);
+    if (notesRaw != null && notesRaw.trim().isNotEmpty) {
+      try {
+        final decoded = json.decode(notesRaw);
+        if (decoded is Map) {
+          final r = decoded['ratings'];
+          final c = decoded['comments'];
+          if (r is Map)
+            _foodRatings.addAll(
+                r.map((k, v) => MapEntry(k.toString(), _toDouble(v))));
+          if (c is Map)
+            _foodComments.addAll(c.map(
+                (k, v) => MapEntry(k.toString(), v?.toString() ?? '')));
+        }
+      } catch (_) {}
     }
   }
+
+  // ---------------------------
+  // Firestore sync
+  // ---------------------------
+  FirebaseFirestore get _db => FirebaseFirestore.instance;
+
+  DocumentReference _userDoc(String uid) =>
+      _db.collection('users').doc(uid);
+
+  /// Pull all user data from Firestore and overwrite local state.
+  Future<void> _syncFromFirestore(String uid) async {
+    try {
+      final doc = await _userDoc(uid).get();
+      if (!doc.exists) {
+        // New user — push local data up
+        await _pushToFirestore(uid);
+        return;
+      }
+      final data = doc.data() as Map<String, dynamic>;
+
+      // My Day
+      final myDayRaw = data['my_day'];
+      if (myDayRaw is List) {
+        await _ensureMyDayLoaded();
+        _myDayItems
+          ..clear()
+          ..addAll(myDayRaw.map((e) =>
+              MyDayItem.fromJson(Map<String, dynamic>.from(e as Map))));
+        await _saveMyDayUnified();
+      }
+
+      // Favorites
+      final favsRaw = data['favorites'];
+      if (favsRaw is List) {
+        _favoriteParkIds
+          ..clear()
+          ..addAll(favsRaw.map((e) => e.toString()));
+        await _saveFavorites();
+      }
+
+      // Attraction notes
+      final attrRaw = data['attraction_notes'];
+      if (attrRaw is Map) {
+        final r = attrRaw['ratings'];
+        final c = attrRaw['comments'];
+        final w = attrRaw['waits'];
+        if (r is Map)
+          _attractionRatings.addAll(
+              r.map((k, v) => MapEntry(k.toString(), _toDouble(v))));
+        if (c is Map)
+          _attractionComments.addAll(
+              c.map((k, v) => MapEntry(k.toString(), v?.toString() ?? '')));
+        if (w is Map)
+          _attractionMyWaitMinutes.addAll(
+              w.map((k, v) => MapEntry(k.toString(), _toInt(v))));
+        await _saveAttractionNotes();
+      }
+
+      // Food notes
+      final foodRaw = data['food_notes'];
+      if (foodRaw is Map) {
+        final r = foodRaw['ratings'];
+        final c = foodRaw['comments'];
+        if (r is Map)
+          _foodRatings.addAll(
+              r.map((k, v) => MapEntry(k.toString(), _toDouble(v))));
+        if (c is Map)
+          _foodComments.addAll(
+              c.map((k, v) => MapEntry(k.toString(), v?.toString() ?? '')));
+        await _saveFoodNotes();
+      }
+
+      notifyListeners();
+    } catch (e) {
+      debugPrint('Firestore sync error: $e');
+    }
+  }
+
+  /// Push all local data up to Firestore.
+  Future<void> _pushToFirestore(String uid) async {
+    try {
+      await _userDoc(uid).set({
+        'my_day': _myDayItems.map((i) => i.toJson()).toList(),
+        'favorites': _favoriteParkIds.toList(),
+        'attraction_notes': {
+          'ratings': _attractionRatings,
+          'comments': _attractionComments,
+          'waits': _attractionMyWaitMinutes,
+        },
+        'food_notes': {
+          'ratings': _foodRatings,
+          'comments': _foodComments,
+        },
+        'updated_at': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+    } catch (e) {
+      debugPrint('Firestore push error: $e');
+    }
+  }
+
+  // ---------------------------
+  // Save helpers (local + cloud)
+  // ---------------------------
+  Future<void> _saveMyDayUnified() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(
+        _kMyDayUnified,
+        json.encode(_myDayItems.map((i) => i.toJson()).toList()));
+    if (isLoggedIn) {
+      await _userDoc(_user!.uid).set({
+        'my_day': _myDayItems.map((i) => i.toJson()).toList(),
+        'updated_at': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+    }
+  }
+
+  Future<void> _saveFavorites() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setStringList(
+        _kFavoriteParks, _favoriteParkIds.toList()..sort());
+    if (isLoggedIn) {
+      await _userDoc(_user!.uid).set({
+        'favorites': _favoriteParkIds.toList(),
+        'updated_at': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+    }
+  }
+
+  Future<void> _saveAttractionNotes() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(
+        _kAttractionNotes,
+        json.encode({
+          'ratings': _attractionRatings,
+          'comments': _attractionComments,
+          'waits': _attractionMyWaitMinutes,
+        }));
+    if (isLoggedIn) {
+      await _userDoc(_user!.uid).set({
+        'attraction_notes': {
+          'ratings': _attractionRatings,
+          'comments': _attractionComments,
+          'waits': _attractionMyWaitMinutes,
+        },
+        'updated_at': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+    }
+  }
+
+  Future<void> _saveFoodNotes() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(
+        _kFoodNotes,
+        json.encode({
+          'ratings': _foodRatings,
+          'comments': _foodComments,
+        }));
+    if (isLoggedIn) {
+      await _userDoc(_user!.uid).set({
+        'food_notes': {
+          'ratings': _foodRatings,
+          'comments': _foodComments,
+        },
+        'updated_at': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+    }
+  }
+
+  Future<void> _prefsSetString(String key, String value) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(key, value);
+  }
+
+  // ---------------------------
+  // Sign out
+  // ---------------------------
+  Future<void> signOut() async {
+    await FirebaseAuth.instance.signOut();
+    _user = null;
+    notifyListeners();
+  }
+
+  // ---------------------------
+  // Utils
+  // ---------------------------
+  static double _toDouble(dynamic v) {
+    if (v is num) return v.toDouble();
+    return double.tryParse(v?.toString() ?? '') ?? 0.0;
+  }
+
+  static int _toInt(dynamic v) {
+    if (v is num) return v.toInt();
+    return int.tryParse(v?.toString() ?? '') ?? 0;
+  }
+
+  // ---------------------------
+  // Pref keys
+  // ---------------------------
+  static const _kLang = 'pref.languageCode';
+  static const _kCurrency = 'pref.currencyCode';
+  static const _kAttractionNotes = 'notes.attractions.v1';
+  static const _kFoodNotes = 'notes.food.v1';
+  static const _kFavoriteParks = 'favorites.parks.v1';
+  static const _kMyDayUnified = 'plan.myDay.unified.v1';
 }

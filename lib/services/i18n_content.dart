@@ -1,4 +1,3 @@
-// lib/services/i18n_content.dart
 import 'package:flutter/widgets.dart';
 
 class I18nContent {
@@ -6,102 +5,129 @@ class I18nContent {
   const I18nContent(this.root);
 
   String _lang(BuildContext context) =>
-      Localizations.localeOf(context).languageCode;
+      Localizations.localeOf(context).languageCode.toLowerCase();
+
+  String _pickText({
+    required BuildContext context,
+    required Map<String, dynamic> map,
+    required String fallback,
+  }) {
+    final l = _lang(context);
+    final v = map[l] ?? map['en'];
+    if (v is String && v.trim().isNotEmpty) return v;
+    return fallback;
+  }
+
+  Map<String, dynamic>? _asMap(dynamic v) => v is Map<String, dynamic>
+      ? v
+      : (v is Map ? Map<String, dynamic>.from(v) : null);
 
   // -------------------- Overview --------------------
   String tOverview(BuildContext context, String key, String fallbackEn) {
-    final l = _lang(context);
-    final ov = root['overview'];
-    if (ov is! Map) return fallbackEn;
-    final entry = ov[key];
-    if (entry is! Map) return fallbackEn;
-    return (entry[l] ?? entry['en'] ?? fallbackEn).toString();
+    final ov = _asMap(root['overview']);
+    if (ov == null) return fallbackEn;
+
+    final entry = _asMap(ov[key]);
+    if (entry == null) return fallbackEn;
+
+    return _pickText(context: context, map: entry, fallback: fallbackEn);
   }
 
   // -------------------- Attractions --------------------
-  String tAttractionDesc(
-      BuildContext context, String attractionId, String fallbackEn) {
-    final l = _lang(context);
-    final at = root['attractions'];
-    if (at is! Map) return fallbackEn;
-    final obj = at[attractionId];
-    if (obj is! Map) return fallbackEn;
-    final desc = obj['desc'];
-    if (desc is! Map) return fallbackEn;
-    return (desc[l] ?? desc['en'] ?? fallbackEn).toString();
+  String tAttractionDesc(BuildContext context, String attractionId, String fallbackEn) {
+    final at = _asMap(root['attractions']);
+    if (at == null) return fallbackEn;
+
+    final obj = _asMap(at[attractionId]);
+    if (obj == null) return fallbackEn;
+
+    final desc = _asMap(obj['desc']);
+    if (desc == null) return fallbackEn;
+
+    return _pickText(context: context, map: desc, fallback: fallbackEn);
   }
 
   // -------------------- Food --------------------
   String tFoodDesc(BuildContext context, String foodId, String fallbackEn) {
-    final l = _lang(context);
-    final fd = root['food'];
-    if (fd is! Map) return fallbackEn;
-    final obj = fd[foodId];
-    if (obj is! Map) return fallbackEn;
-    final desc = obj['desc'];
-    if (desc is! Map) return fallbackEn;
-    return (desc[l] ?? desc['en'] ?? fallbackEn).toString();
+    final fd = _asMap(root['food']);
+    if (fd == null) return fallbackEn;
+
+    final obj = _asMap(fd[foodId]);
+    if (obj == null) return fallbackEn;
+
+    final desc = _asMap(obj['desc']);
+    if (desc == null) return fallbackEn;
+
+    return _pickText(context: context, map: desc, fallback: fallbackEn);
   }
 
   // -------------------- Hotels --------------------
   String tHotelDesc(BuildContext context, String hotelId, String fallbackEn) {
-    final l = _lang(context);
-    final ht = root['hotels'];
-    if (ht is! Map) return fallbackEn;
-    final obj = ht[hotelId];
-    if (obj is! Map) return fallbackEn;
-    final desc = obj['desc'];
-    if (desc is! Map) return fallbackEn;
-    return (desc[l] ?? desc['en'] ?? fallbackEn).toString();
+    final ht = _asMap(root['hotels']);
+    if (ht == null) return fallbackEn;
+
+    final obj = _asMap(ht[hotelId]);
+    if (obj == null) return fallbackEn;
+
+    final desc = _asMap(obj['desc']);
+    if (desc == null) return fallbackEn;
+
+    return _pickText(context: context, map: desc, fallback: fallbackEn);
   }
 
-  /// Optional: room-level name translation
-  /// roomKey example: "standard_room", "superior_room"
+  // -------------------- Hotel rooms --------------------
   String tHotelRoomName(
     BuildContext context,
     String hotelId,
     String roomKey,
     String fallbackEn,
   ) {
-    final l = _lang(context);
-    final ht = root['hotels'];
-    if (ht is! Map) return fallbackEn;
-    final obj = ht[hotelId];
-    if (obj is! Map) return fallbackEn;
-    final rooms = obj['rooms'];
-    if (rooms is! Map) return fallbackEn;
-    final roomObj = rooms[roomKey];
-    if (roomObj is! Map) return fallbackEn;
-    final name = roomObj['name'];
-    if (name is! Map) return fallbackEn;
-    return (name[l] ?? name['en'] ?? fallbackEn).toString();
+    final ht = _asMap(root['hotels']);
+    if (ht == null) return fallbackEn;
+
+    final obj = _asMap(ht[hotelId]);
+    if (obj == null) return fallbackEn;
+
+    final rooms = _asMap(obj['rooms']);
+    if (rooms == null) return fallbackEn;
+
+    final roomObj = _asMap(rooms[roomKey]);
+    if (roomObj == null) return fallbackEn;
+
+    final name = _asMap(roomObj['name']);
+    if (name == null) return fallbackEn;
+
+    return _pickText(context: context, map: name, fallback: fallbackEn);
   }
 
-  /// Optional: room-level description translation
   String tHotelRoomDesc(
     BuildContext context,
     String hotelId,
     String roomKey,
     String fallbackEn,
   ) {
-    final l = _lang(context);
-    final ht = root['hotels'];
-    if (ht is! Map) return fallbackEn;
-    final obj = ht[hotelId];
-    if (obj is! Map) return fallbackEn;
-    final rooms = obj['rooms'];
-    if (rooms is! Map) return fallbackEn;
-    final roomObj = rooms[roomKey];
-    if (roomObj is! Map) return fallbackEn;
-    final desc = roomObj['desc'];
-    if (desc is! Map) return fallbackEn;
-    return (desc[l] ?? desc['en'] ?? fallbackEn).toString();
+    final ht = _asMap(root['hotels']);
+    if (ht == null) return fallbackEn;
+
+    final obj = _asMap(ht[hotelId]);
+    if (obj == null) return fallbackEn;
+
+    final rooms = _asMap(obj['rooms']);
+    if (rooms == null) return fallbackEn;
+
+    final roomObj = _asMap(rooms[roomKey]);
+    if (roomObj == null) return fallbackEn;
+
+    final desc = _asMap(roomObj['desc']);
+    if (desc == null) return fallbackEn;
+
+    return _pickText(context: context, map: desc, fallback: fallbackEn);
   }
 
-  // -------------------- Translate button --------------------
+  // -------------------- Translate button label --------------------
   static String buttonLabel(BuildContext context, bool showingTranslated) {
-    final l = Localizations.localeOf(context).languageCode;
-    String pick(Map<String, String> m, String fb) => m[l] ?? fb;
+    final l = Localizations.localeOf(context).languageCode.toLowerCase();
+    String pick(Map<String, String> m, String fb) => m[l] ?? m['en'] ?? fb;
 
     final translate = pick({
       'en': 'Translate',

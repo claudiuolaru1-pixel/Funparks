@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "hall_of_columns",
+    "name": "Hall of Columns",
+    "type": "Seafood & International",
+    "image": "assets/images/energylandia/food_hall_of_columns.png",
+    "lat": 50.0172,
+    "lng": 19.4320,
+    "rating": 4.4,
+    "description": "An atmospheric restaurant in the Aqualantis zone among antique columns, serving succulent fish and seafood dishes inspired by an ancient sunken city.",
+    "topPick": true,
+    "items": [
+      { "name": "Grilled Salmon", "description": "Fresh grilled salmon with lemon butter and vegetables", "price": 42.00 },
+      { "name": "Fish and Chips", "description": "Crispy battered fish with golden fries", "price": 35.00 },
+      { "name": "Seafood Pasta", "description": "Pasta with mixed seafood in white wine sauce", "price": 38.00 },
+      { "name": "Lemonade", "description": "Fresh squeezed lemonade", "price": 12.00 }
+    ]
+  },
+  {
+    "id": "formula_pizza",
+    "name": "Formula Pizza",
+    "type": "Pizzeria",
+    "image": "assets/images/energylandia/food_formula_pizza.png",
+    "lat": 50.0186,
+    "lng": 19.4308,
+    "rating": 4.2,
+    "description": "A popular pizzeria near the Formula coaster serving freshly made pizzas, pasta and Italian favourites in a lively atmosphere.",
+    "topPick": false,
+    "items": [
+      { "name": "Pizza Margherita", "description": "Freshly made Margherita pizza with tomato and mozzarella", "price": 30.00 },
+      { "name": "Pizza Pepperoni", "description": "Classic pepperoni pizza with mozzarella", "price": 33.00 },
+      { "name": "Pasta Bolognese", "description": "Classic pasta with rich meat sauce", "price": 28.00 },
+      { "name": "Tiramisu", "description": "Classic Italian tiramisu dessert", "price": 16.00 }
+    ]
+  },
+  {
+    "id": "the_sunken_burger",
+    "name": "The Sunken Burger",
+    "type": "Burgers & Fast Food",
+    "image": "assets/images/energylandia/food_the_sunken_burger.png",
+    "lat": 50.0174,
+    "lng": 19.4316,
+    "rating": 4.1,
+    "description": "A fun burger restaurant in the Aqualantis zone serving juicy burgers, fries and fast food favourites in an underwater themed setting.",
+    "topPick": false,
+    "items": [
+      { "name": "Classic Burger", "description": "Beef patty with lettuce, tomato and house sauce", "price": 28.00 },
+      { "name": "Double Burger", "description": "Double beef patty with cheese and bacon", "price": 35.00 },
+      { "name": "Fries", "description": "Golden crispy fries with dipping sauce", "price": 14.00 },
+      { "name": "Soft Drink", "description": "Large soft drink", "price": 10.00 }
+    ]
+  },
+  {
+    "id": "scandinavia_restaurant",
+    "name": "Scandinavia Restaurant",
+    "type": "Polish & International",
+    "image": "assets/images/energylandia/food_scandinavia_restaurant.png",
+    "lat": 50.0183,
+    "lng": 19.4318,
+    "rating": 4.3,
+    "description": "A large Scandinavian-style restaurant serving hearty traditional Polish dishes, soups, salads and pasta on the border of the Kids and Family zones.",
+    "topPick": false,
+    "items": [
+      { "name": "Kotlet Schabowy", "description": "Traditional Polish breaded pork cutlet with potatoes", "price": 32.00 },
+      { "name": "Zupa Dnia", "description": "Hearty soup of the day with fresh bread", "price": 18.00 },
+      { "name": "Pasta al Pomodoro", "description": "Classic tomato pasta with fresh herbs", "price": 28.00 },
+      { "name": "Salatka Grecka", "description": "Fresh Greek salad with feta cheese", "price": 24.00 }
+    ]
+  }
+]

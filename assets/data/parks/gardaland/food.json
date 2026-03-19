@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "merlin_stube",
+    "name": "Merlin Stube",
+    "type": "Italian & International",
+    "image": "assets/images/gardaland/food_merlin_stube.png",
+    "lat": 45.4468,
+    "lng": 10.7195,
+    "rating": 4.2,
+    "description": "Gardaland's flagship restaurant serving a wide selection of Italian and international dishes in a warm welcoming atmosphere.",
+    "topPick": true,
+    "items": [
+      { "name": "Pasta al Pomodoro", "description": "Classic Italian tomato pasta", "price": 12.50 },
+      { "name": "Grilled Chicken", "description": "Tender grilled chicken with seasonal vegetables", "price": 15.00 },
+      { "name": "Margherita Pizza", "description": "Traditional wood-fired Margherita pizza", "price": 11.00 },
+      { "name": "Tiramisù", "description": "Classic Italian tiramisu dessert", "price": 6.50 }
+    ]
+  },
+  {
+    "id": "hacienda_miguel",
+    "name": "Hacienda Miguel",
+    "type": "Mexican & Tex-Mex",
+    "image": "assets/images/gardaland/food_hacienda_miguel.png",
+    "lat": 45.4472,
+    "lng": 10.7188,
+    "rating": 4.0,
+    "description": "Lively Mexican-themed restaurant serving burritos, nachos, quesadillas and classic Tex-Mex favourites in a colourful western setting.",
+    "topPick": false,
+    "items": [
+      { "name": "Burrito", "description": "Filled flour tortilla with rice, beans and meat", "price": 10.50 },
+      { "name": "Nachos Grande", "description": "Tortilla chips with cheese, salsa and guacamole", "price": 8.50 },
+      { "name": "Quesadilla", "description": "Grilled tortilla with melted cheese and fillings", "price": 9.00 },
+      { "name": "Soft Drink", "description": "Large soft drink", "price": 3.50 }
+    ]
+  },
+  {
+    "id": "focacceria_western",
+    "name": "Focacceria Western",
+    "type": "Sandwiches & Snacks",
+    "image": "assets/images/gardaland/food_focacceria_western.png",
+    "lat": 45.4465,
+    "lng": 10.7200,
+    "rating": 3.9,
+    "description": "Quick-service spot serving freshly baked focaccia, paninis and Italian snacks with a western theme, perfect between rides.",
+    "topPick": false,
+    "items": [
+      { "name": "Focaccia Classica", "description": "Freshly baked focaccia with rosemary and olive oil", "price": 5.00 },
+      { "name": "Focaccia Prosciutto", "description": "Focaccia filled with Parma ham and mozzarella", "price": 7.50 },
+      { "name": "Panino Vegetariano", "description": "Grilled vegetables with pesto on ciabatta", "price": 7.00 },
+      { "name": "Gelato", "description": "Two scoops of Italian gelato", "price": 4.00 }
+    ]
+  },
+  {
+    "id": "ristorante_aladino",
+    "name": "Ristorante Aladino",
+    "type": "Italian & Mediterranean",
+    "image": "assets/images/gardaland/food_ristorante_aladino.png",
+    "lat": 45.4475,
+    "lng": 10.7192,
+    "rating": 4.1,
+    "description": "Arabian Nights inspired restaurant serving Italian and Mediterranean dishes in a colourful exotic setting.",
+    "topPick": false,
+    "items": [
+      { "name": "Spaghetti al Ragù", "description": "Classic Italian spaghetti bolognese", "price": 13.00 },
+      { "name": "Pollo alla Griglia", "description": "Grilled chicken with herbs and roasted potatoes", "price": 15.00 },
+      { "name": "Risotto ai Funghi", "description": "Creamy mushroom risotto", "price": 13.00 },
+      { "name": "Panna Cotta", "description": "Vanilla panna cotta with berry coulis", "price": 6.00 }
+    ]
+  }
+]

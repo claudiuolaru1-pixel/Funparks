@@ -1,17 +1,10 @@
-// lib/screens/home_map_screen.dart
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
 
-import '../app_state.dart';
-import '../l10n/app_localizations.dart';
+import '../data/parks_repository.dart';
 import '../models/park.dart';
-import '../services/park_repository.dart';
-import 'park_detail_screen.dart';
-import 'settings_screen.dart';
+import '../l10n/app_localizations.dart';
+import '../models/park_summary.dart';
 
 class HomeMapScreen extends StatefulWidget {
   const HomeMapScreen({super.key});
@@ -21,418 +14,512 @@ class HomeMapScreen extends StatefulWidget {
 }
 
 class _HomeMapScreenState extends State<HomeMapScreen> {
-  final Completer<GoogleMapController> _controller = Completer();
+  static const CameraPosition _initial = CameraPosition(
+    target: LatLng(48.8566, 2.3522),
+    zoom: 4.5,
+  );
+
+  final _repo = ParksRepository();
+  final _searchCtrl = TextEditingController();
+
+  GoogleMapController? _controller;
+  final Set<Marker> _allMarkers = {};
 
   bool _loading = true;
   String? _error;
 
-  List<Park> _parks = const [];
-  Set<Marker> _markers = const {};
+  List<ParkSummary> _allParks = const [];
+  List<ParkSummary> _filtered = const [];
 
-  static const CameraPosition _fallback = CameraPosition(
-    target: LatLng(48.8566, 2.3522), // Paris
-    zoom: 5.5,
-  );
+  String _searchQuery = '';
+  String? _selectedCountry;
+  String? _selectedType;
+
+  List<String> get _countries {
+    final set = <String>{};
+    for (final p in _allParks) {
+      if (p.country.trim().isNotEmpty) set.add(p.country.trim());
+    }
+    final list = set.toList()..sort();
+    return list;
+  }
+
+  List<String> get _types {
+    final set = <String>{};
+    for (final p in _allParks) {
+      final t = p.type.name.trim();
+      if (t.isNotEmpty) set.add(t);
+    }
+    final list = set.toList()..sort();
+    return list;
+  }
 
   @override
   void initState() {
     super.initState();
-    _loadParks();
+    _loadParksAndMarkers();
+    _searchCtrl.addListener(() {
+      setState(() {
+        _searchQuery = _searchCtrl.text.trim().toLowerCase();
+        _applyFilters();
+      });
+    });
   }
 
-  Future<void> _loadParks() async {
+  @override
+  void dispose() {
+    _searchCtrl.dispose();
+    super.dispose();
+  }
+
+  void _applyFilters() {
+    _filtered = _allParks.where((p) {
+      final matchSearch = _searchQuery.isEmpty ||
+          p.name.toLowerCase().contains(_searchQuery) ||
+          p.country.toLowerCase().contains(_searchQuery) ||
+          (p.city ?? '').toLowerCase().contains(_searchQuery);
+      final matchCountry =
+          _selectedCountry == null || p.country.trim() == _selectedCountry;
+      final matchType =
+          _selectedType == null || p.type.name.trim() == _selectedType;
+      return matchSearch && matchCountry && matchType;
+    }).toList();
+    _updateMarkers();
+  }
+
+  void _updateMarkers() {
+    final filteredIds = _filtered.map((p) => p.id).toSet();
+    final visibleMarkers = _allMarkers
+        .where((m) => filteredIds.contains(m.markerId.value))
+        .toSet();
+    // We rebuild markers set so the map updates
+    _markers
+      ..clear()
+      ..addAll(visibleMarkers);
+  }
+
+  final Set<Marker> _markers = {};
+
+  Future<void> _loadParksAndMarkers() async {
+    if (!mounted) return;
     setState(() {
       _loading = true;
       _error = null;
     });
 
     try {
-      final parks = await ParkRepository.loadLocal();
+      final parks = await _repo.loadParkIndex(
+        assetPath: 'assets/data/parks/parks_index.json',
+      );
+
+      final markers = <Marker>{};
+
+      for (final park in parks) {
+        markers.add(
+          Marker(
+            markerId: MarkerId(park.id),
+            position: LatLng(park.lat, park.lng),
+            infoWindow: InfoWindow(title: park.name),
+            onTap: () {
+              if (!mounted) return;
+              _openPark(park);
+            },
+          ),
+        );
+      }
 
       if (!mounted) return;
-
-      final markers = parks
-          .where((p) => p.lat != 0.0 && p.lng != 0.0)
-          .map(
-            (p) => Marker(
-              markerId: MarkerId(p.id),
-              position: LatLng(p.lat, p.lng),
-              infoWindow: InfoWindow(
-                title: p.name,
-                snippet: (p.city ?? '').trim().isNotEmpty
-                    ? '${p.city}, ${p.country}'
-                    : p.country,
-                onTap: () => _openPark(p),
-              ),
-              onTap: () => _openParkSheet(p),
-            ),
-          )
-          .toSet();
-
       setState(() {
-        _parks = parks;
-        _markers = markers;
+        _allParks = parks;
+        _filtered = parks;
+        _allMarkers
+          ..clear()
+          ..addAll(markers);
+        _markers
+          ..clear()
+          ..addAll(markers);
         _loading = false;
       });
 
-      final target = _pickInitialPark(parks);
-      if (target != null) {
-        final c = await _controller.future;
-        await c.animateCamera(
-          CameraUpdate.newCameraPosition(
-            CameraPosition(
-              target: LatLng(target.lat, target.lng),
-              zoom: 11.0,
-            ),
-          ),
-        );
+      if (markers.isNotEmpty) {
+        await Future.delayed(const Duration(milliseconds: 200));
+        _fitAllMarkers();
       }
     } catch (e) {
       if (!mounted) return;
       setState(() {
-        _parks = const [];
-        _markers = const {};
-        _loading = false;
         _error = e.toString();
+        _loading = false;
       });
     }
   }
 
-  Park? _pickInitialPark(List<Park> parks) {
-    if (parks.isEmpty) return null;
+  void _openPark(ParkSummary park) {
+    Navigator.of(context).pushNamed('/park', arguments: Park(
+      id: park.id,
+      name: park.name,
+      city: park.city,
+      country: park.country,
+      type: park.type.name,
+      openingHours: park.openingHours,
+      entryPrices: {'adult': park.entryPrices.adult, 'child': park.entryPrices.child},
+      currency: park.currency,
+      lat: park.lat,
+      lng: park.lng,
+      thumbnail: park.thumbnail,
+      website: park.website,
+      ticketsUrl: park.ticketsUrl,
+    ));
+  }
 
-    for (final p in parks) {
-      if (p.id.toLowerCase().contains('portaventura')) return p;
-      if (p.name.toLowerCase().contains('portaventura')) return p;
+  Future<void> _fitAllMarkers() async {
+    final c = _controller;
+    if (c == null || _markers.isEmpty) return;
+
+    double? minLat, maxLat, minLng, maxLng;
+    for (final m in _markers) {
+      final lat = m.position.latitude;
+      final lng = m.position.longitude;
+      minLat = (minLat == null) ? lat : (lat < minLat ? lat : minLat);
+      maxLat = (maxLat == null) ? lat : (lat > maxLat ? lat : maxLat);
+      minLng = (minLng == null) ? lng : (lng < minLng ? lng : minLng);
+      maxLng = (maxLng == null) ? lng : (lng > maxLng ? lng : maxLng);
     }
 
-    return parks.firstWhere(
-      (p) => p.lat != 0.0 && p.lng != 0.0,
-      orElse: () => parks.first,
+    if (minLat == null || maxLat == null || minLng == null || maxLng == null) return;
+
+    final bounds = LatLngBounds(
+      southwest: LatLng(minLat, minLng),
+      northeast: LatLng(maxLat, maxLng),
     );
+
+    try {
+      await c.animateCamera(CameraUpdate.newLatLngBounds(bounds, 70));
+    } catch (_) {}
   }
 
-  void _openPark(Park park) {
-    Navigator.of(context).push(
-      MaterialPageRoute(builder: (_) => ParkDetailScreen(park: park)),
-    );
-  }
+  Future<void> _fitFilteredMarkers() async {
+    final c = _controller;
+    if (c == null || _markers.isEmpty) return;
 
-  Future<void> _openMapsDirections(Park park) async {
-    final uri = Uri.parse(
-      'https://www.google.com/maps/dir/?api=1&destination=${park.lat},${park.lng}',
-    );
-    final ok = await launchUrl(uri, mode: LaunchMode.externalApplication);
-    if (!ok && mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Could not open Maps')),
-      );
+    double? minLat, maxLat, minLng, maxLng;
+    for (final m in _markers) {
+      final lat = m.position.latitude;
+      final lng = m.position.longitude;
+      minLat = (minLat == null) ? lat : (lat < minLat ? lat : minLat);
+      maxLat = (maxLat == null) ? lat : (lat > maxLat ? lat : maxLat);
+      minLng = (minLng == null) ? lng : (lng < minLng ? lng : minLng);
+      maxLng = (maxLng == null) ? lng : (lng > maxLng ? lng : maxLng);
     }
-  }
 
-  void _openParkSheet(Park park) {
-    showModalBottomSheet<void>(
-      context: context,
-      useSafeArea: true,
-      showDragHandle: true,
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(18)),
-      ),
-      builder: (context) {
-        final loc = AppLocalizations.of(context)!;
-        final app = context.watch<AppState>();
+    if (minLat == null) return;
 
-        final locationLine = (park.city ?? '').trim().isNotEmpty
-            ? '${park.city}, ${park.country}'
-            : park.country;
+    if (minLat == maxLat && minLng == maxLng) {
+      await c.animateCamera(CameraUpdate.newLatLngZoom(
+          LatLng(minLat!, minLng!), 12));
+      return;
+    }
 
-        // Prefer app currency if you want global currency override:
-        final currency = app.currency; // (instead of park.currency)
-
-        final adult = park.entryPrices['adult'];
-        final fromPrice = adult != null ? '$currency ${adult.toString()}' : '—';
-
-        final hasHours = (park.openingHours ?? '').trim().isNotEmpty;
-        final hasImage = (park.image ?? '').trim().isNotEmpty;
-
-        return Padding(
-          padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  if (hasImage)
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(999),
-                      child: Image.asset(
-                        park.image!.trim(),
-                        width: 46,
-                        height: 46,
-                        fit: BoxFit.cover,
-                        cacheWidth: 160,
-                        gaplessPlayback: true,
-                        errorBuilder: (_, __, ___) => Container(
-                          width: 46,
-                          height: 46,
-                          decoration: BoxDecoration(
-                            color: Colors.black12,
-                            borderRadius: BorderRadius.circular(999),
-                          ),
-                          child: const Icon(Icons.park),
-                        ),
-                      ),
-                    )
-                  else
-                    Container(
-                      width: 46,
-                      height: 46,
-                      decoration: BoxDecoration(
-                        color: Theme.of(context)
-                            .colorScheme
-                            .surfaceContainerHighest,
-                        borderRadius: BorderRadius.circular(999),
-                      ),
-                      child: const Icon(Icons.park),
-                    ),
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          park.name,
-                          style: Theme.of(context).textTheme.titleLarge,
-                        ),
-                        const SizedBox(height: 2),
-                        Text(
-                          locationLine,
-                          style: TextStyle(
-                            color: Colors.grey.shade700,
-                            fontWeight: FontWeight.w600,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-
-              const SizedBox(height: 10),
-
-              Wrap(
-                spacing: 8,
-                runSpacing: 8,
-                children: [
-                  _MiniChip(icon: Icons.category, text: park.type),
-                  _MiniChip(icon: Icons.payments, text: '${loc.entryFrom} $fromPrice'),
-                  if (hasHours)
-                    _MiniChip(
-                      icon: Icons.schedule,
-                      text: park.openingHours!.trim(),
-                    ),
-                ],
-              ),
-
-              const SizedBox(height: 14),
-
-              Row(
-                children: [
-                  Expanded(
-                    child: OutlinedButton.icon(
-                      icon: const Icon(Icons.directions),
-                      label: Text(loc.directions),
-                      onPressed: () async {
-                        Navigator.pop(context);
-                        await _openMapsDirections(park);
-                      },
-                    ),
-                  ),
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: ElevatedButton.icon(
-                      icon: const Icon(Icons.info_outline),
-                      label: Text(loc.viewPark), // or "Open park" if you add it to arb
-                      onPressed: () {
-                        Navigator.pop(context);
-                        _openPark(park);
-                      },
-                    ),
-                  ),
-                ],
-              ),
-
-              const SizedBox(height: 10),
-
-              SizedBox(
-                width: double.infinity,
-                child: TextButton.icon(
-                  icon: const Icon(Icons.my_location),
-                  label: const Text('Center'),
-                  onPressed: () async {
-                    final c = await _controller.future;
-                    await c.animateCamera(
-                      CameraUpdate.newCameraPosition(
-                        CameraPosition(
-                          target: LatLng(park.lat, park.lng),
-                          zoom: 14.5,
-                        ),
-                      ),
-                    );
-                    if (context.mounted) Navigator.pop(context);
-                  },
-                ),
-              ),
-            ],
-          ),
-        );
-      },
+    final bounds = LatLngBounds(
+      southwest: LatLng(minLat!, minLng!),
+      northeast: LatLng(maxLat!, maxLng!),
     );
+
+    try {
+      await c.animateCamera(CameraUpdate.newLatLngBounds(bounds, 70));
+    } catch (_) {}
   }
 
-  void _openSettings() {
-    Navigator.of(context).push(
-      MaterialPageRoute(builder: (_) => const SettingsScreen()),
-    );
+  void _clearFilters() {
+    _searchCtrl.clear();
+    setState(() {
+      _searchQuery = '';
+      _selectedCountry = null;
+      _selectedType = null;
+      _filtered = _allParks;
+      _markers
+        ..clear()
+        ..addAll(_allMarkers);
+    });
+    _fitAllMarkers();
   }
+
+  bool get _hasActiveFilters =>
+      _searchQuery.isNotEmpty ||
+      _selectedCountry != null ||
+      _selectedType != null;
 
   @override
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
+    final cs = Theme.of(context).colorScheme;
 
     return Scaffold(
-      body: SafeArea(
-        child: Stack(
-          children: [
-            GoogleMap(
-              initialCameraPosition: _fallback,
-              markers: _markers,
-              myLocationEnabled: false,
-              myLocationButtonEnabled: false,
-              zoomControlsEnabled: false,
-              mapToolbarEnabled: false,
-              onMapCreated: (c) {
-                if (!_controller.isCompleted) _controller.complete(c);
-              },
+      appBar: AppBar(
+        title: Text(loc.appTitle),
+        actions: [
+          if (_hasActiveFilters)
+            IconButton(
+              onPressed: _clearFilters,
+              icon: const Icon(Icons.filter_alt_off),
+              tooltip: 'Clear filters',
             ),
-
-            // ✅ Top bar (Settings)
-            Positioned(
-              left: 12,
-              right: 12,
-              top: 12,
-              child: Row(
-                children: [
-                  Expanded(
-                    child: _TopStatusPill(
-                      text: _loading
-                          ? 'Loading parks…'
-                          : _error != null
-                              ? 'Error loading parks. Check assets/data/parks.json and pubspec.yaml.'
-                              : 'Funparks',
-                      isError: _error != null,
-                    ),
+          IconButton(
+            onPressed: _loadParksAndMarkers,
+            icon: const Icon(Icons.refresh),
+            tooltip: 'Reload',
+          ),
+          IconButton(
+            onPressed: () => Navigator.pushNamed(context, '/settings'),
+            icon: const Icon(Icons.settings),
+            tooltip: 'Settings',
+          ),
+        ],
+      ),
+      body: Column(
+        children: [
+          // ── Search + filter bar ──
+          Container(
+            color: cs.surface,
+            padding: const EdgeInsets.fromLTRB(12, 8, 12, 8),
+            child: Column(
+              children: [
+                // Search field
+                TextField(
+                  controller: _searchCtrl,
+                  decoration: InputDecoration(
+                    hintText: 'Search parks…',
+                    prefixIcon: const Icon(Icons.search),
+                    suffixIcon: _searchQuery.isNotEmpty
+                        ? IconButton(
+                            icon: const Icon(Icons.clear),
+                            onPressed: () {
+                              _searchCtrl.clear();
+                              setState(() {
+                                _searchQuery = '';
+                                _applyFilters();
+                              });
+                            },
+                          )
+                        : null,
+                    border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12)),
+                    contentPadding:
+                        const EdgeInsets.symmetric(vertical: 10),
+                    isDense: true,
                   ),
-                  const SizedBox(width: 10),
-                  Material(
-                    elevation: 2,
-                    borderRadius: BorderRadius.circular(999),
-                    color: Colors.black.withOpacity(0.68),
-                    child: IconButton(
-                      tooltip: loc.settings,
-                      onPressed: _openSettings,
-                      icon: const Icon(Icons.settings, color: Colors.white),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-
-            if (!_loading && _parks.isNotEmpty)
-              Positioned(
-                right: 12,
-                bottom: 12,
-                child: FloatingActionButton(
-                  heroTag: 'center_first_park',
-                  onPressed: () async {
-                    final p = _pickInitialPark(_parks);
-                    if (p == null) return;
-                    final c = await _controller.future;
-                    await c.animateCamera(
-                      CameraUpdate.newCameraPosition(
-                        CameraPosition(
-                          target: LatLng(p.lat, p.lng),
-                          zoom: 11.0,
+                ),
+                const SizedBox(height: 8),
+                // Filter chips row
+                SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: [
+                      // Country filter
+                      PopupMenuButton<String?>(
+                        tooltip: 'Filter by country',
+                        onSelected: (v) {
+                          setState(() {
+                            _selectedCountry = v;
+                            _applyFilters();
+                          });
+                          _fitFilteredMarkers();
+                        },
+                        itemBuilder: (_) => [
+                          const PopupMenuItem(
+                              value: null, child: Text('All countries')),
+                          ..._countries.map((c) =>
+                              PopupMenuItem(value: c, child: Text(c))),
+                        ],
+                        child: _FilterChip(
+                          label: _selectedCountry ?? 'Country',
+                          active: _selectedCountry != null,
+                          icon: Icons.public,
                         ),
                       ),
-                    );
+                      const SizedBox(width: 8),
+                      // Type filter
+                      PopupMenuButton<String?>(
+                        tooltip: 'Filter by type',
+                        onSelected: (v) {
+                          setState(() {
+                            _selectedType = v;
+                            _applyFilters();
+                          });
+                          _fitFilteredMarkers();
+                        },
+                        itemBuilder: (_) => [
+                          const PopupMenuItem(
+                              value: null, child: Text('All types')),
+                          ..._types.map((t) =>
+                              PopupMenuItem(value: t, child: Text(t))),
+                        ],
+                        child: _FilterChip(
+                          label: _selectedType ?? 'Type',
+                          active: _selectedType != null,
+                          icon: Icons.category,
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      // Results count
+                      if (!_loading)
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 10, vertical: 6),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(999),
+                            color: cs.surfaceContainerHighest,
+                          ),
+                          child: Text(
+                            '${_filtered.length} park${_filtered.length == 1 ? '' : 's'}',
+                            style: const TextStyle(
+                                fontSize: 12, fontWeight: FontWeight.w700),
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+          // ── Map ──
+          Expanded(
+            flex: 3,
+            child: Stack(
+              children: [
+                GoogleMap(
+                  initialCameraPosition: _initial,
+                  markers: _markers,
+                  myLocationEnabled: true,
+                  myLocationButtonEnabled: true,
+                  zoomControlsEnabled: false,
+                  onMapCreated: (c) {
+                    _controller = c;
+                    if (_markers.isNotEmpty) _fitAllMarkers();
                   },
-                  child: const Icon(Icons.public),
+                ),
+                if (_loading)
+                  const Center(child: CircularProgressIndicator()),
+                if (_error != null)
+                  Positioned(
+                    top: 12,
+                    left: 12,
+                    right: 12,
+                    child: Material(
+                      color: Colors.red.shade700,
+                      borderRadius: BorderRadius.circular(10),
+                      child: Padding(
+                        padding: const EdgeInsets.all(10),
+                        child: Text('Error: $_error',
+                            style: const TextStyle(color: Colors.white)),
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+          ),
+          // ── Parks list ──
+          if (!_loading && _filtered.isNotEmpty)
+            Expanded(
+              flex: 2,
+              child: ListView.separated(
+                padding: const EdgeInsets.symmetric(vertical: 6),
+                itemCount: _filtered.length,
+                separatorBuilder: (_, __) =>
+                    const Divider(height: 1, indent: 16, endIndent: 16),
+                itemBuilder: (_, i) {
+                  final p = _filtered[i];
+                  return ListTile(
+                    leading: CircleAvatar(
+                      backgroundColor:
+                          cs.primaryContainer,
+                      child: Text(
+                        p.name.isNotEmpty ? p.name[0].toUpperCase() : '?',
+                        style: TextStyle(
+                            color: cs.onPrimaryContainer,
+                            fontWeight: FontWeight.w900),
+                      ),
+                    ),
+                    title: Text(p.name,
+                        style: const TextStyle(fontWeight: FontWeight.w800)),
+                    subtitle: Text(
+                        [p.city, p.country]
+                            .where((s) => (s ?? '').isNotEmpty)
+                            .join(', '),
+                        style: TextStyle(color: Colors.grey.shade600)),
+                    trailing: Text(p.type.name,
+                        style: TextStyle(
+                            fontSize: 11,
+                            color: cs.primary,
+                            fontWeight: FontWeight.w700)),
+                    onTap: () {
+                      // Fly to marker on map
+                      _controller?.animateCamera(
+                          CameraUpdate.newLatLngZoom(
+                              LatLng(p.lat, p.lng), 12));
+                      _openPark(p);
+                    },
+                  );
+                },
+              ),
+            ),
+          if (!_loading && _filtered.isEmpty && _hasActiveFilters)
+            const Expanded(
+              flex: 2,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.search_off, size: 42, color: Colors.grey),
+                    SizedBox(height: 8),
+                    Text('No parks match your filters',
+                        style: TextStyle(color: Colors.grey)),
+                  ],
                 ),
               ),
-          ],
-        ),
+            ),
+        ],
       ),
     );
   }
 }
 
-class _TopStatusPill extends StatelessWidget {
-  final String text;
-  final bool isError;
-  const _TopStatusPill({required this.text, this.isError = false});
-
-  @override
-  Widget build(BuildContext context) {
-    return Material(
-      elevation: 2,
-      borderRadius: BorderRadius.circular(999),
-      color: isError ? Colors.red.withOpacity(0.92) : Colors.black.withOpacity(0.68),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
-        child: Row(
-          children: [
-            Icon(
-              isError ? Icons.error_outline : Icons.public,
-              size: 18,
-              color: Colors.white,
-            ),
-            const SizedBox(width: 8),
-            Expanded(
-              child: Text(
-                text,
-                style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700),
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class _MiniChip extends StatelessWidget {
+class _FilterChip extends StatelessWidget {
+  final String label;
+  final bool active;
   final IconData icon;
-  final String text;
-  const _MiniChip({required this.icon, required this.text});
+
+  const _FilterChip({
+    required this.label,
+    required this.active,
+    required this.icon,
+  });
 
   @override
   Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(999),
-        color: Theme.of(context).colorScheme.surfaceContainerHighest,
+        color: active ? cs.primary : cs.surfaceContainerHighest,
+        border: active
+            ? null
+            : Border.all(color: cs.outlineVariant.withOpacity(0.5)),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, size: 16),
+          Icon(icon, size: 14, color: active ? cs.onPrimary : cs.onSurface),
           const SizedBox(width: 6),
-          Text(text, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12)),
+          Text(label,
+              style: TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w700,
+                  color: active ? cs.onPrimary : cs.onSurface)),
+          const SizedBox(width: 4),
+          Icon(Icons.arrow_drop_down,
+              size: 16, color: active ? cs.onPrimary : cs.onSurface),
         ],
       ),
     );

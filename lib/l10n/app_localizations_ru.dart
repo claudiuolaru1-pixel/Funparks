@@ -9,6 +9,31 @@ class AppLocalizationsRu extends AppLocalizations {
   AppLocalizationsRu([String locale = 'ru']) : super(locale);
 
   @override
+  String get continueWithoutAccount => '?????????? ??? ????????';
+
+  @override
+  String get registerAccount => '??????? ???????';
+
+  @override
+  String get login => '?????';
+
+  @override
+  String get welcomeTitle => '???????? ???????????? ?????';
+
+  @override
+  String get welcomeSubtitle =>
+      '?????????? ?????, ???????????? ????? ???????? ? ?????????? ????? ?? ????? ????.';
+
+  @override
+  String get favoritesTitle => 'Избранное';
+
+  @override
+  String get noFavoritesYet => 'Пока нет избранного';
+
+  @override
+  String get removeFromFavorites => 'Удалить из избранного';
+
+  @override
   String get appTitle => 'Funparks';
 
   @override
@@ -24,7 +49,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get foodAndPrices => 'Еда и цены';
 
   @override
-  String get hotels => 'Hotels';
+  String get hotels => 'Отели';
 
   @override
   String get entryFrom => 'Вход от';
@@ -33,7 +58,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get hours => 'Часы работы';
 
   @override
-  String get location => 'Расположение';
+  String get location => 'Местоположение';
 
   @override
   String get parkMap => 'Карта парка';
@@ -43,6 +68,9 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get translate => 'Перевести';
+
+  @override
+  String get original => 'Оригинал';
 
   @override
   String get adult => 'Взрослый';
@@ -66,52 +94,52 @@ class AppLocalizationsRu extends AppLocalizations {
   String get currency => 'Валюта';
 
   @override
-  String get nearbyParks => 'Парки рядом';
+  String get nearbyParks => 'Парки поблизости';
 
   @override
   String get thrill => 'Экстрим';
 
   @override
-  String get family => 'Семейные';
+  String get family => 'Семейный';
 
   @override
-  String get water => 'Водные';
+  String get water => 'Водный';
 
   @override
   String get simulator => 'Симулятор';
 
   @override
-  String get topPick => 'Топ выбор';
+  String get topPick => 'Лучший выбор';
 
   @override
-  String get recommended => 'Рекомендуемое';
+  String get recommended => 'Рекомендуется';
 
   @override
-  String get lowestWait => 'Меньше ожидание';
+  String get lowestWait => 'Минимальное ожидание';
 
   @override
-  String get highestRated => 'Лучше оценено';
+  String get highestRated => 'Лучший рейтинг';
 
   @override
-  String get tapCardForDetails => 'Нажмите на карточку для подробностей';
+  String get tapCardForDetails => 'Нажмите для подробностей';
 
   @override
-  String get addToMyDay => 'Добавить в Мой День';
+  String get addToMyDay => 'Добавить в мой день';
 
   @override
-  String get removeFromMyDay => 'Убрать из Моего Дня';
+  String get removeFromMyDay => 'Удалить из моего дня';
 
   @override
-  String get addToMyFood => 'Добавить в Мою Еду';
+  String get addToMyFood => 'Добавить в мою еду';
 
   @override
-  String get removeFromMyFood => 'Убрать из Моей Еды';
+  String get removeFromMyFood => 'Удалить из моей еды';
 
   @override
   String get directions => 'Маршрут';
 
   @override
-  String get liveWait => 'Ожидание (live)';
+  String get liveWait => 'Время ожидания';
 
   @override
   String get setMyWait => 'Моё ожидание';
@@ -123,12 +151,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get yourComment => 'Ваш комментарий';
 
   @override
-  String get commentHint =>
-      'Поделитесь советами, чего ожидать, лучшие места и т.д.…';
+  String get commentHint => 'Советы, лучшие места и т.д…';
 
   @override
-  String get commentHintFood =>
-      'Поделитесь советами (лучшее соотношение цена/качество, любимые блюда, хорошие места)…';
+  String get commentHintFood => 'Советы (цена/качество, любимые блюда)…';
 
   @override
   String get myWaitTimeOptional => 'Моё ожидание (необязательно)';
@@ -149,29 +175,103 @@ class AppLocalizationsRu extends AppLocalizations {
   String get saved => 'Сохранено!';
 
   @override
-  String get rooms => 'Rooms';
+  String get rooms => 'Номера';
 
   @override
-  String get night => 'night';
+  String get night => 'ночь';
 
   @override
-  String get price => 'Price';
+  String get price => 'Цена';
 
   @override
-  String get rating => 'Rating';
+  String get rating => 'Рейтинг';
 
   @override
-  String get breakfastIncluded => 'Breakfast included';
+  String get breakfastIncluded => 'Завтрак включён';
 
   @override
-  String get breakfastNotIncluded => 'Breakfast not included';
+  String get breakfastNotIncluded => 'Без завтрака';
 
   @override
-  String get addToMyStay => 'Add to My Stay';
+  String get addToMyStay => 'Добавить к проживанию';
 
   @override
-  String get removeFromMyStay => 'Remove from My Stay';
+  String get removeFromMyStay => 'Удалить из проживания';
 
   @override
-  String get lowestPrice => 'Lowest price';
+  String get lowestPrice => 'Минимальная цена';
+
+  @override
+  String get didYouKnow => 'Знаете ли вы';
+
+  @override
+  String get plan => 'План';
+
+  @override
+  String get photos => 'Фото';
+
+  @override
+  String get facts => 'Факты';
+
+  @override
+  String get route => 'Маршрут';
+
+  @override
+  String get myDayRoute => 'Маршрут моего дня';
+
+  @override
+  String get routeEmpty =>
+      'Добавьте аттракционы в «Мой день», чтобы создать маршрут.';
+
+  @override
+  String get descriptionTitle => 'Описание';
+
+  @override
+  String get detailsTitle => 'Детали';
+
+  @override
+  String get roomTitle => 'Номер';
+
+  @override
+  String get addToEllipsis => 'Добавить в…';
+
+  @override
+  String get added => 'Добавлено';
+
+  @override
+  String get closest => 'Ближайший';
+
+  @override
+  String get cheapest => 'Самый дешёвый';
+
+  @override
+  String get couldNotOpenMaps => 'Не удалось открыть Maps';
+
+  @override
+  String get couldNotOpenWebsite => 'Не удалось открыть сайт';
+
+  @override
+  String get speed => 'Skorost';
+
+  @override
+  String get height => 'Vysota';
+
+  @override
+  String get inversions => 'Inversii';
+
+  @override
+  String get opened => 'Otkryt v';
+
+  @override
+  String get openMap => 'Otkryt kartu';
+
+  @override
+  String get templateInfoPortAventura =>
+      'PortAventura World - odin iz krupneyshikh kurotov Evropy v Salou, Ispaniya.';
+
+  @override
+  String get restaurants => 'Рестораны';
+
+  @override
+  String get hotelRoomsComingSoon => 'Podrobnosti o nomerakh skoro';
 }

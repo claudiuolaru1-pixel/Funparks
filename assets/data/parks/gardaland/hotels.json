@@ -1,0 +1,90 @@
+﻿[
+  {
+    "id": "hotel_gardaland",
+    "name": "Hotel Gardaland",
+    "description": "The original Gardaland Resort hotel with themed rooms, direct park access and family swimming pool.",
+    "image": "assets/images/gardaland/hotel_gardaland.png",
+    "lat": 45.4462,
+    "lng": 10.7198,
+    "rating": 4.0,
+    "topPick": false,
+    "website": "https://www.gardaland.it/en/hotel/hotel-gardaland/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable adventure themed room sleeping up to 4 with park views and family amenities.",
+        "pricePerNight": 180.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room sleeping up to 6 with bunk beds and direct park access.",
+        "pricePerNight": 230.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_gardaland_adventure",
+    "name": "Hotel Gardaland Adventure",
+    "description": "Vibrant jungle adventure themed hotel with exciting rooms, outdoor pool and direct walkway to the park.",
+    "image": "assets/images/gardaland/hotel_gardaland_adventure.png",
+    "lat": 45.4460,
+    "lng": 10.7202,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.gardaland.it/en/hotel/hotel-gardaland-adventure/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Jungle adventure themed room for up to 4 guests with immersive decor and pool access.",
+        "pricePerNight": 200.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Large jungle themed family room sleeping up to 6 with bunk beds and pool access.",
+        "pricePerNight": 260.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_gardaland_magic",
+    "name": "Hotel Gardaland Magic",
+    "description": "Gardaland's most magical and luxurious hotel with fairy tale themed rooms, rooftop pool and stunning park views.",
+    "image": "assets/images/gardaland/hotel_gardaland_magic.png",
+    "lat": 45.4458,
+    "lng": 10.7205,
+    "rating": 4.5,
+    "topPick": true,
+    "website": "https://www.gardaland.it/en/hotel/hotel-gardaland-magic/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Enchanted fairy tale themed room for up to 4 guests with premium decor and rooftop pool access.",
+        "pricePerNight": 240.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Magical family room sleeping up to 6 with enchanted bunk beds and premium fairy tale decor.",
+        "pricePerNight": 310.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Magic Suite",
+        "description": "Luxurious suite with exclusive rooftop pool access, magical decor and stunning park and lake views.",
+        "pricePerNight": 420.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

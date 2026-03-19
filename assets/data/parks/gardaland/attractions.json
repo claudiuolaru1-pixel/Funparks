@@ -1,0 +1,12 @@
+﻿[
+  {"id":"oblivion_the_black_hole","name":"Oblivion: The Black Hole","type":"coaster","thrillLevel":5,"heightRequirement":140,"duration":90,"lat":45.4655,"lng":10.7145,"image":"assets/images/gardaland/oblivion_the_black_hole.png"},
+  {"id":"raptor","name":"Raptor","type":"coaster","thrillLevel":5,"heightRequirement":140,"duration":90,"lat":45.4656,"lng":10.7146,"image":"assets/images/gardaland/raptor.png"},
+  {"id":"blue_tornado","name":"Blue Tornado","type":"coaster","thrillLevel":4,"heightRequirement":140,"duration":75,"lat":45.4657,"lng":10.7147,"image":"assets/images/gardaland/blue_tornado.png"},
+  {"id":"sequoia_adventure","name":"Sequoia Adventure","type":"thrill","thrillLevel":4,"heightRequirement":140,"duration":60,"lat":45.4658,"lng":10.7148,"image":"assets/images/gardaland/sequoia_adventure.png"},
+  {"id":"magic_mountain","name":"Magic Mountain","type":"coaster","thrillLevel":3,"heightRequirement":120,"duration":75,"lat":45.4659,"lng":10.7149,"image":"assets/images/gardaland/magic_mountain.png"},
+  {"id":"ortobruco_tour","name":"Ortobruco Tour","type":"family","thrillLevel":1,"heightRequirement":0,"duration":120,"lat":45.4660,"lng":10.7150,"image":"assets/images/gardaland/ortobruco_tour.png"},
+  {"id":"fuga_da_atlantide","name":"Fuga da Atlantide","type":"water","thrillLevel":3,"heightRequirement":120,"duration":90,"lat":45.4661,"lng":10.7151,"image":"assets/images/gardaland/fuga_da_atlantide.png"},
+  {"id":"kung_fu_panda","name":"Kung Fu Panda Adventure","type":"dark_ride","thrillLevel":1,"heightRequirement":0,"duration":180,"lat":45.4662,"lng":10.7152,"image":"assets/images/gardaland/kung_fu_panda.png"},
+  {"id":"legoland_water","name":"Legoland Water Playground","type":"family","thrillLevel":1,"heightRequirement":0,"duration":120,"lat":45.4663,"lng":10.7153,"image":"assets/images/gardaland/legoland_water.png"},
+  {"id":"fantasy_kingdom","name":"Fantasy Kingdom","type":"family","thrillLevel":1,"heightRequirement":0,"duration":120,"lat":45.4664,"lng":10.7154,"image":"assets/images/gardaland/fantasy_kingdom.png"}
+]

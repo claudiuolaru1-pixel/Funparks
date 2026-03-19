@@ -1,0 +1,48 @@
+﻿[
+  {
+    "id": "hotel_des_trois_hiboux",
+    "name": "Hotel des Trois Hiboux",
+    "stars": 3,
+    "rating": 4.0,
+    "topPick": false,
+    "description": "The original Parc Asterix hotel with charming owl-themed decor, comfortable family rooms and direct access to the park in a cosy forest atmosphere.",
+    "lat": 49.1360, "lng": 2.5730,
+    "image": "assets/images/parcasterix/hotel_des_trois_hiboux.png",
+    "website": "https://www.parcasterix.fr/en/hotels/hotel-des-trois-hiboux",
+    "rooms": [
+      {"key": "standard_room", "name": "Standard Room", "description": "Comfortable room sleeping up to 4 with forest themed decor", "pricePerNight": 180.0, "breakfastIncluded": true},
+      {"key": "family_room", "name": "Family Room", "description": "Spacious room sleeping up to 6 with bunk beds for children", "pricePerNight": 220.0, "breakfastIncluded": true}
+    ]
+  },
+  {
+    "id": "cite_suspendue",
+    "name": "La Cite Suspendue",
+    "stars": 4,
+    "rating": 4.3,
+    "topPick": false,
+    "description": "A spectacular treehouse-style hotel suspended among the trees with unique elevated rooms and stunning forest views.",
+    "lat": 49.1358, "lng": 2.5728,
+    "image": "assets/images/parcasterix/hotel_cite_suspendue.png",
+    "website": "https://www.parcasterix.fr/en/hotels/cite-suspendue",
+    "rooms": [
+      {"key": "standard_room", "name": "Standard Room", "description": "Elevated treehouse room with forest canopy views sleeping up to 4", "pricePerNight": 230.0, "breakfastIncluded": true},
+      {"key": "family_room", "name": "Family Room", "description": "Large treehouse room sleeping up to 6 with magical forest atmosphere", "pricePerNight": 280.0, "breakfastIncluded": true}
+    ]
+  },
+  {
+    "id": "les_quais_de_lutece",
+    "name": "Les Quais de Lutece",
+    "stars": 4,
+    "rating": 4.5,
+    "topPick": true,
+    "description": "The newest and most luxurious Parc Asterix hotel inspired by the ancient Roman city of Lutetia with premium rooms and a rooftop terrace.",
+    "lat": 49.1356, "lng": 2.5726,
+    "image": "assets/images/parcasterix/hotel_les_quais_de_lutece.png",
+    "website": "https://www.parcasterix.fr/en/hotels/les-quais-de-lutece",
+    "rooms": [
+      {"key": "standard_room", "name": "Standard Room", "description": "Elegant Roman themed room sleeping up to 4 with premium furnishings", "pricePerNight": 260.0, "breakfastIncluded": true},
+      {"key": "family_room", "name": "Family Room", "description": "Spacious Roman themed room sleeping up to 6 with separate children area", "pricePerNight": 320.0, "breakfastIncluded": true},
+      {"key": "suite", "name": "Suite", "description": "Luxurious suite with rooftop terrace access and premium Roman decor", "pricePerNight": 420.0, "breakfastIncluded": true}
+    ]
+  }
+]

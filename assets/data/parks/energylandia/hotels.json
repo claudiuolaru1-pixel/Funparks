@@ -1,0 +1,97 @@
+﻿[
+  {
+    "id": "holiday_park_zator",
+    "name": "Holiday Park Zator",
+    "description": "Located just 100 metres from Energylandia's entrance, this family resort offers comfortable cottages, an outdoor pool, spa and direct walking access to the park.",
+    "image": "assets/images/energylandia/hotel_holiday_park_zator.png",
+    "lat": 50.0165,
+    "lng": 19.4298,
+    "rating": 4.4,
+    "topPick": true,
+    "website": "https://holidayparkzator.pl/?lang=en",
+    "rooms": [
+      {
+        "key": "standard_cottage",
+        "name": "Standard Cottage",
+        "description": "Comfortable modern cottage sleeping up to 4 with full kitchen, free WiFi and garden views.",
+        "pricePerNight": 350.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_cottage",
+        "name": "Family Cottage",
+        "description": "Spacious cottage sleeping up to 6 with two bedrooms, kitchen, terrace and pool access.",
+        "pricePerNight": 480.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "spa_suite",
+        "name": "Spa Suite",
+        "description": "Premium suite with access to the full-service spa, outdoor pool and sauna. Sleeps up to 4.",
+        "pricePerNight": 620.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "western_camp_resort",
+    "name": "Western Camp Resort",
+    "description": "A unique Wild West themed resort a short walk from Energylandia with cowboy-style accommodation, outdoor pool, Bonanza Restaurant and a free Golden Train shuttle to the park.",
+    "image": "assets/images/energylandia/hotel_western_camp_resort.png",
+    "lat": 50.0192,
+    "lng": 19.4305,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://westerncamp.pl/en/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Western themed room sleeping up to 4 with free buffet breakfast and pool access.",
+        "pricePerNight": 280.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "sheriffs_house",
+        "name": "Sheriff's House",
+        "description": "A standalone western-style house sleeping up to 6, perfect for families. Pets welcome.",
+        "pricePerNight": 420.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "houseboat",
+        "name": "Houseboat",
+        "description": "A unique floating houseboat accommodation with western decor sleeping up to 4. Pets welcome.",
+        "pricePerNight": 380.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "fantazja_resort_zator",
+    "name": "Fantazja Resort Zator",
+    "description": "A cosy parkside retreat on Ul. Graniczna, officially listed by Energylandia as partner accommodation. Ideal for unwinding after a full day of thrills.",
+    "image": "assets/images/energylandia/hotel_fantazja_resort.png",
+    "lat": 50.0168,
+    "lng": 19.4290,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://energylandia.pl/en/hotels/fantazja-resort-zator/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable room sleeping up to 4 with free WiFi and easy park access.",
+        "pricePerNight": 260.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Larger family room sleeping up to 6 with separate children area and free parking.",
+        "pricePerNight": 340.0,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

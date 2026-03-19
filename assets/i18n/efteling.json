@@ -1,0 +1,338 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Efteling is the Netherlands' most beloved theme park located in Kaatsheuvel, North Brabant. Opened in 1952, it is one of the oldest theme parks in the world and one of the most visited in Europe with over 5 million visitors annually. Efteling is renowned for its enchanted fairy tale forest and deeply immersive storytelling atmosphere.",
+      "es": "Efteling es el parque tematico mas querido de los Paises Bajos en Kaatsheuvel, Brabante del Norte. Abierto en 1952, es uno de los parques tematicos mas antiguos del mundo y uno de los mas visitados de Europa con mas de 5 millones de visitantes anuales.",
+      "fr": "Efteling est le parc a theme le plus aime des Pays-Bas, situe a Kaatsheuvel, Brabant-Septentrional. Ouvert en 1952, c'est l'un des parcs a theme les plus anciens du monde avec plus de 5 millions de visiteurs annuels.",
+      "de": "Efteling ist der beliebteste Freizeitpark der Niederlande in Kaatsheuvel, Nordbrabant. 1952 eroeffnet ist er einer der aeltesten Freizeitparks der Welt mit ueber 5 Millionen jaehrlichen Besuchern.",
+      "it": "Efteling e il parco tematico piu amato dei Paesi Bassi a Kaatsheuvel, Brabante Settentrionale. Aperto nel 1952 e uno dei parchi tematici piu antichi del mondo con oltre 5 milioni di visitatori annui.",
+      "nl": "Efteling is het meest geliefde pretpark van Nederland in Kaatsheuvel, Noord-Brabant. Geopend in 1952 is het een van de oudste pretparken ter wereld en een van de meest bezochte in Europa met meer dan 5 miljoen bezoekers per jaar.",
+      "pt": "Efteling e o parque tematico mais amado dos Paises Baixos em Kaatsheuvel, Brabante do Norte. Aberto em 1952 e um dos parques tematicos mais antigos do mundo com mais de 5 milhoes de visitantes anuais.",
+      "ru": "Efteling — любимый парк развлечений Нидерландов в Катсхёйвеле, Северный Брабант. Открыт в 1952 году, один из старейших парков мира с более чем 5 миллионами посетителей в год.",
+      "zh": "艾芙特林是荷兰最受喜爱的主题公园，位于北布拉班特省卡茨赫费尔。1952年开放，是世界上最古老的主题公园之一，每年吸引超过500万游客。",
+      "ar": "إفتيلينج هو أكثر متنزهات هولندا محبوبة، يقع في كاتسهوفيل، برابانت الشمالية. افتُتح عام 1952 وهو أحد أقدم المتنزهات في العالم وأكثرها زيارة في أوروبا بأكثر من 5 ملايين زائر سنوياً."
+    },
+    "ov_highlights_body": {
+      "en": "Baron 1898 is the headline steel coaster plunging 37.5 metres into a gold mine at 90 km/h. Joris en de Draak is a world-class duelling wooden coaster. De Vliegende Hollander combines a roller coaster with a spectacular water finale. Symbolica is an innovative dark ride palace journey. The Fairy Tale Forest with its enchanted storybook scenes is the heart and soul of the park.",
+      "es": "Baron 1898 es el coaster principal que cae 37,5 metros en una mina de oro a 90 km/h. Joris en de Draak es un coaster de madera de duelo de clase mundial. Symbolica es un innovador viaje de dark ride en palacio.",
+      "fr": "Baron 1898 est le coaster vedette plongeant 37,5 metres dans une mine d'or a 90 km/h. Joris en de Draak est un coaster en bois a duel de classe mondiale. Symbolica est un dark ride novateur.",
+      "de": "Baron 1898 ist der Star-Coaster, der 37,5 Meter in eine Goldmine bei 90 km/h stuertzt. Joris en de Draak ist ein weltklasse Duell-Holzcoaster. Symbolica ist ein innovativer Dark-Ride.",
+      "it": "Baron 1898 e il coaster principale che cade 37,5 metri in una miniera d'oro a 90 km/h. Joris en de Draak e un coaster in legno duello di classe mondiale. Symbolica e un innovativo dark ride.",
+      "nl": "Baron 1898 is de hoofdattractie die 37,5 meter in een goudmijn duikt op 90 km/h. Joris en de Draak is een wereldklasse duel houten achterbaan. Symbolica is een innovatieve dark ride.",
+      "pt": "Baron 1898 e o coaster principal mergulhando 37,5 metros numa mina de ouro a 90 km/h. Joris en de Draak e um duelo de coaster de madeira de classe mundial. Symbolica e um dark ride inovador.",
+      "ru": "Baron 1898 — главные горки, ныряющие на 37,5 м в золотую шахту при 90 км/ч. Joris en de Draak — дуэльный деревянный коастер мирового класса. Symbolica — инновационный тёмный аттракцион.",
+      "zh": "Baron 1898是主打过山车，以90公里/时俯冲37.5米进入金矿。双龙决斗是世界级对决木质过山车。符号卡是创新的暗室骑行宫殿之旅。",
+      "ar": "بارون 1898 هو الأفعوانية الرئيسية التي تنخفض 37.5 متراً في منجم ذهب بسرعة 90 كم/ساعة. يوريس إن دي دراك هو أفعوانية خشبية مزدوجة عالمية المستوى. سيمبوليكا هي رحلة قصر مظلمة مبتكرة."
+    },
+    "ov_did_you_know_body": {
+      "en": "Efteling opened on 31 May 1952 with just a sports field and fairy tale forest. The Fairy Tale Forest was designed by illustrator Anton Pieck whose distinctive style defines the park's visual identity. Efteling was awarded the Thea Classic Award in 1992 for lifetime achievement in theme park design. The park operates year-round including a spectacular Winter Efteling season.",
+      "es": "Efteling abrio el 31 de mayo de 1952 con solo un campo deportivo y bosque de cuentos. El Bosque de Cuentos fue disenado por el ilustrador Anton Pieck. Efteling recibio el Premio Thea Classic en 1992.",
+      "fr": "Efteling a ouvert le 31 mai 1952 avec seulement un terrain de sport et une foret de contes. La Foret des Contes a ete concue par l'illustrateur Anton Pieck. Efteling a recu le Prix Thea Classic en 1992.",
+      "de": "Efteling eroeffnete am 31. Mai 1952 mit nur einem Sportfeld und Maerchenwald. Der Maerchenwald wurde vom Illustrator Anton Pieck gestaltet. Efteling erhielt 1992 den Thea Classic Award.",
+      "it": "Efteling ha aperto il 31 maggio 1952 con solo un campo sportivo e bosco delle fiabe. Il Bosco delle Fiabe e stato progettato dall'illustratore Anton Pieck. Efteling ha ricevuto il Premio Thea Classic nel 1992.",
+      "nl": "Efteling opende op 31 mei 1952 met alleen een sportveld en sprookjesbos. Het Sprookjesbos werd ontworpen door illustrator Anton Pieck. Efteling ontving de Thea Classic Award in 1992.",
+      "pt": "Efteling abriu a 31 de maio de 1952 com apenas um campo desportivo e floresta de contos. A Floresta de Contos foi desenhada pelo ilustrador Anton Pieck. Efteling recebeu o Premio Thea Classic em 1992.",
+      "ru": "Efteling открылся 31 мая 1952 года. Лес сказок создал иллюстратор Антон Пик. В 1992 году парк получил премию Thea Classic Award за вклад в дизайн тематических парков.",
+      "zh": "艾芙特林于1952年5月31日开放。童话森林由插画师安东·皮克设计，其独特风格定义了公园的视觉形象。1992年获Thea经典奖。",
+      "ar": "افتُتح إفتيلينج في 31 مايو 1952. صمم غابة الحكايات الخيالية الرسام أنتون بيك. حصل المتنزه على جائزة ثيا الكلاسيكية عام 1992 عن إنجازات مدى الحياة في تصميم المتنزهات الترفيهية."
+    },
+    "ov_plan_body": {
+      "en": "Arrive early and head to Baron 1898 and Joris en de Draak first. De Vliegende Hollander is best mid-morning. Spend the afternoon exploring the Fairy Tale Forest at a leisurely pace. Aquanura water shows run at fixed times so check the schedule. Hotel guests enjoy early park entry.",
+      "es": "Llega temprano y ve a Baron 1898 y Joris en de Draak primero. De Vliegende Hollander es mejor a media manana. Pasa la tarde explorando el Bosque de Cuentos. Los huespedes del hotel tienen entrada anticipada.",
+      "fr": "Arrivez tot et allez d'abord a Baron 1898 et Joris en de Draak. De Vliegende Hollander est mieux en milieu de matinee. Passez l'apres-midi a explorer la Foret des Contes. Les clients de l'hotel ont une entree anticipee.",
+      "de": "Frueh ankommen und zuerst zu Baron 1898 und Joris en de Draak. De Vliegende Hollander am Vormittag. Nachmittags den Maerchenwald erkunden. Hotelgaeste haben fruehen Einlass.",
+      "it": "Arriva presto e vai prima a Baron 1898 e Joris en de Draak. De Vliegende Hollander a meta mattina. Trascorri il pomeriggio esplorando il Bosco delle Fiabe. Gli ospiti dell'hotel hanno ingresso anticipato.",
+      "nl": "Kom vroeg aan en ga eerst naar Baron 1898 en Joris en de Draak. De Vliegende Hollander in de ochtend. Breng de middag door in het Sprookjesbos. Hotelgasten hebben vroege toegang.",
+      "pt": "Chega cedo e vai primeiro a Baron 1898 e Joris en de Draak. De Vliegende Hollander de manha. Passa a tarde no Bosque de Contos. Hospedes do hotel tem entrada antecipada.",
+      "ru": "Приходите рано — сначала Baron 1898 и Joris en de Draak. De Vliegende Hollander утром. Днём исследуйте Лес сказок. Гости отеля получают ранний вход.",
+      "zh": "早到先去Baron 1898和双龙决斗。上午玩飞翔荷兰人。下午悠闲探索童话森林。酒店客人享受提前入园。",
+      "ar": "اصل مبكراً واذهب أولاً إلى بارون 1898 ويوريس إن دي دراك. دي فليخيندي هولاندر في منتصف الصباح. اقضِ بعد الظهر في استكشاف غابة الحكايات الخيالية. نزلاء الفندق يستفيدون من الدخول المبكر."
+    },
+    "ov_photos_body": {
+      "en": "The Fairy Tale Forest offers countless magical photo opportunities at every turn. Baron 1898's mine shaft entrance is iconic. The best action shots of Joris en de Draak are from the bridge overlooking both tracks. De Vliegende Hollander's water finale creates dramatic splash photography. The Aquanura lake show at dusk is spectacular.",
+      "es": "El Bosque de Cuentos ofrece incontables oportunidades fotograficas magicas. La entrada de la mina de Baron 1898 es iconica. Las mejores fotos de accion de Joris en de Draak son desde el puente.",
+      "fr": "La Foret des Contes offre d'innombrables opportunites photos magiques. L'entree de la mine de Baron 1898 est iconique. Les meilleures photos d'action de Joris en de Draak sont depuis le pont.",
+      "de": "Der Maerchenwald bietet unzaehlige magische Fotomoglichkeiten. Der Mineneingang von Baron 1898 ist ikonisch. Die besten Aktionsfotos von Joris en de Draak von der Bruecke.",
+      "it": "Il Bosco delle Fiabe offre innumerevoli opportunita fotografiche magiche. L'ingresso della miniera di Baron 1898 e iconico. Le migliori foto d'azione di Joris en de Draak dal ponte.",
+      "nl": "Het Sprookjesbos biedt talloze magische fotomogelijkheden. De mijnschachtingang van Baron 1898 is iconisch. De beste actiefoto's van Joris en de Draak zijn vanaf de brug.",
+      "pt": "O Bosque de Contos oferece inumeras oportunidades fotograficas magicas. A entrada da mina de Baron 1898 e iconica. As melhores fotos de acao de Joris en de Draak sao da ponte.",
+      "ru": "Лес сказок предлагает бесчисленные волшебные фотовозможности. Вход в шахту Baron 1898 культовый. Лучшие фото Joris en de Draak с моста над обоими треками.",
+      "zh": "童话森林提供无数神奇的拍照机会。Baron 1898的矿井入口是标志性的。双龙决斗最佳动作照片从俯瞰两条轨道的桥上拍摄。",
+      "ar": "تقدم غابة الحكايات الخيالية فرص تصوير سحرية لا حصر لها. مدخل منجم بارون 1898 أيقوني. أفضل صور الحركة ليوريس إن دي دراك من الجسر المطل على المسارين."
+    }
+  },
+  "attractions": {
+    "baron_1898": {
+      "desc": {
+        "en": "A spectacular dive coaster themed around a 19th century gold mine, plunging 37.5 metres beyond vertical at 90 km/h with incredible theming and a haunting soundtrack.",
+        "es": "Espectacular coaster de buceo con tema de mina de oro del siglo XIX, cayendo 37,5 metros mas alla de la vertical a 90 km/h con increible ambientacion.",
+        "fr": "Spectaculaire coaster plongeant sur le theme d'une mine d'or du XIXe siecle, plongeant 37,5 metres au-dela de la verticale a 90 km/h.",
+        "de": "Spektakulaerer Taucher-Coaster mit Goldminen-Thema des 19. Jahrhunderts, 37,5 Meter ueber vertikal bei 90 km/h.",
+        "it": "Spettacolare coaster tuffatore a tema miniera d'oro del XIX secolo, che si tuffa 37,5 metri oltre la verticale a 90 km/h.",
+        "nl": "Spectaculaire duikachterbaan met 19e-eeuws goudmijnthema, duikend 37,5 meter voorbij verticaal op 90 km/h.",
+        "pt": "Espetacular coaster mergulhador com tema de mina de ouro do seculo XIX, mergulhando 37,5 metros alem do vertical a 90 km/h.",
+        "ru": "Впечатляющий дайв-коастер с темой золотой шахты XIX века, ныряющий на 37,5 м за вертикаль при 90 км/ч.",
+        "zh": "以19世纪金矿为主题的壮观俯冲过山车，以90公里/时超过垂直角度俯冲37.5米，主题设计精彩。",
+        "ar": "أفعوانية غوص رائعة بطابع منجم ذهب من القرن التاسع عشر، تنغمس 37.5 متراً بعد العمودي بسرعة 90 كم/ساعة."
+      }
+    },
+    "joris_en_de_draak": {
+      "desc": {
+        "en": "A world-class duelling wooden roller coaster where two trains race side by side through 1.1 kilometres of track at 75 km/h in a thrilling medieval dragon battle.",
+        "es": "Montana rusa de madera de duelo de clase mundial donde dos trenes corren codo a codo por 1,1 km a 75 km/h en una batalla medieval de dragones.",
+        "fr": "Coaster en bois de duel de classe mondiale ou deux trains courent cote a cote sur 1,1 km a 75 km/h dans une bataille de dragons medievale.",
+        "de": "Weltklasse-Duell-Holzcoaster mit zwei nebeneinander rasenden Zuegen auf 1,1 km bei 75 km/h in einer mittelalterlichen Drachenschlacht.",
+        "it": "Coaster in legno duello di classe mondiale con due treni che corrono fianco a fianco su 1,1 km a 75 km/h in una battaglia medievale di draghi.",
+        "nl": "Wereldklasse duel houten achterbaan waarbij twee treinen zij aan zij racen door 1,1 km op 75 km/h in een middeleeuws drakengevecht.",
+        "pt": "Montana-russa de madeira duelo de classe mundial com dois comboios a correr lado a lado por 1,1 km a 75 km/h numa batalha medieval de dragoes.",
+        "ru": "Дуэльные деревянные горки мирового класса с двумя поездами, мчащимися бок о бок на 1,1 км при 75 км/ч в средневековой битве с драконом.",
+        "zh": "世界级对决木质过山车，两列火车并排在1.1公里轨道上以75公里/时竞速，中世纪龙族战斗主题。",
+        "ar": "أفعوانية خشبية مزدوجة عالمية المستوى حيث يتسابق قطاران جنباً إلى جنب عبر 1.1 كيلومتر بسرعة 75 كم/ساعة في معركة تنين قروسطية."
+      }
+    },
+    "de_vliegende_hollander": {
+      "desc": {
+        "en": "A thrilling combination ride blending a roller coaster with a dramatic water finale based on the legend of the Flying Dutchman, ending in a spectacular splash.",
+        "es": "Emocionante combinacion de coaster con dramatico final acuatico basado en la leyenda del Holandes Errante, terminando en un espectacular splash.",
+        "fr": "Passionnante attraction combinee melant coaster et finale aquatique dramatique basee sur la legende du Hollandais Volant.",
+        "de": "Aufregende Kombination aus Coaster und dramatischem Wasserfinale basierend auf der Legende des Fliegenden Hollaenders.",
+        "it": "Emozionante attrazione combinata che mescola coaster e finale acquatico drammatico basato sulla leggenda dell'Olandese Volante.",
+        "nl": "Spannende combinatieattrактie die een achterbaan combineert met een dramatisch waterfinale op basis van de legende van de Vliegende Hollander.",
+        "pt": "Emocionante combinacao de coaster com dramatico final aquatico baseado na lenda do Holandes Voador.",
+        "ru": "Захватывающий комбинированный аттракцион, сочетающий горки с водным финалом, основанный на легенде о Летучем Голландце.",
+        "zh": "以飞翔荷兰人传说为主题的刺激组合游乐，将过山车与戏剧性水上终章相结合，以壮观水花结束。",
+        "ar": "لعبة مركبة مثيرة تجمع أفعوانية مع خاتمة مائية درامية مستندة إلى أسطورة الهولندي الطائر، تنتهي بشرشرة رائعة."
+      }
+    },
+    "symbolica": {
+      "desc": {
+        "en": "An innovative dark ride palace adventure where guests ride in enchanted vehicles through the magical palace of King Pardulfus filled with stunning effects and surprises.",
+        "es": "Innovadora aventura de dark ride en palacio donde los visitantes viajan en vehiculos encantados por el magico palacio del Rey Pardulfus.",
+        "fr": "Innovante aventure dark ride en palais ou les visiteurs voyagent dans des vehicules enchantes a travers le palais magique du Roi Pardulfus.",
+        "de": "Innovatives Dark-Ride-Palast-Abenteuer, bei dem Gaeste in verzauberten Fahrzeugen durch den magischen Palast von Koenig Pardulfus fahren.",
+        "it": "Innovativa avventura dark ride in palazzo dove gli ospiti viaggiano in veicoli incantati attraverso il magico palazzo di Re Pardulfus.",
+        "nl": "Innovatief dark ride paleis avontuur waarbij gasten in betoverde voertuigen door het magische paleis van Koning Pardulfus rijden.",
+        "pt": "Aventura dark ride inovadora em palacio onde os visitantes viajam em veiculos encantados pelo magico palacio do Rei Pardulfus.",
+        "ru": "Инновационный тёмный аттракцион — дворцовое приключение, где гости едут в зачарованных повозках через волшебный дворец короля Пардульфуса.",
+        "zh": "创新的暗室宫殿冒险，游客乘坐魔法车辆穿越帕尔杜弗斯国王的神奇宫殿，充满令人惊叹的特效。",
+        "ar": "مغامرة قصر مظلمة مبتكرة حيث يركب الضيوف في مركبات مسحورة عبر القصر السحري للملك باردولفوس."
+      }
+    },
+    "droomvlucht": {
+      "desc": {
+        "en": "A gentle and dreamlike dark ride gliding through enchanted forests populated by fairies, elves and magical creatures in a timeless fairy tale world.",
+        "es": "Suave y onirico dark ride deslizandose por bosques encantados habitados por hadas, elfos y criaturas magicas en un mundo de cuentos atemporales.",
+        "fr": "Doux dark ride onirique glissant a travers des forets enchantees peuplees de fees, elfes et creatures magiques dans un monde de contes.",
+        "de": "Sanfte und traumhafte Dark-Ride durch verzauberte Waelder mit Feen, Elfen und magischen Kreaturen.",
+        "it": "Dolce e onirico dark ride che scivola attraverso foreste incantate abitate da fate, elfi e creature magiche.",
+        "nl": "Zachte en droomachtige dark ride door betoverde bossen bevolkt met feen, elfen en magische wezens.",
+        "pt": "Dark ride suave e onirico deslizando por florestas encantadas habitadas por fadas, elfos e criaturas magicas.",
+        "ru": "Нежный и сказочный тёмный аттракцион, скользящий через зачарованные леса с феями, эльфами и волшебными существами.",
+        "zh": "温柔如梦的暗室游乐，滑翔穿越充满仙女、精灵和魔法生物的魔法森林。",
+        "ar": "رحلة مظلمة لطيفة وحالمة تنزلق عبر غابات مسحورة يسكنها الجنيات والأقزام والمخلوقات السحرية."
+      }
+    },
+    "fata_morgana": {
+      "desc": {
+        "en": "An exotic boat dark ride through the mysterious world of 1001 Nights featuring elaborate Arabian themed scenes, stunning animatronics and a magical atmosphere.",
+        "es": "Exotico dark ride en barca por el misterioso mundo de las 1001 Noches con elaboradas escenas arabes y animatronicos impresionantes.",
+        "fr": "Dark ride exotique en bateau a travers le monde mysterieux des 1001 Nuits avec des scenes arabes elaborees et des animatroniques impressionnants.",
+        "de": "Exotische Boot-Dark-Ride durch die mysteriose Welt von 1001 Nacht mit aufwendigen arabischen Szenen.",
+        "it": "Dark ride esotico in barca attraverso il misterioso mondo delle 1001 Notti con elaborate scene arabe.",
+        "nl": "Exotische boot dark ride door de mysterieuze wereld van 1001 Nachten met uitgebreide Arabische scenes.",
+        "pt": "Dark ride exotico em barco pelo misterioso mundo das 1001 Noites com elaboradas cenas arabes.",
+        "ru": "Экзотический тёмный аттракцион на лодке через таинственный мир 1001 ночи с арабскими сценами.",
+        "zh": "以一千零一夜为主题的异域船只暗室游乐，精心制作的阿拉伯主题场景，令人惊叹的机械人偶。",
+        "ar": "رحلة قارب مظلمة غريبة عبر عالم ألف ليلة وليلة الغامض مع مشاهد عربية متقنة وأنيماترونيك مذهل."
+      }
+    },
+    "python": {
+      "desc": {
+        "en": "A classic looping roller coaster with multiple inversions that has thrilled generations of park visitors since 1981, still delivering exciting G-forces.",
+        "es": "Clasica montana rusa de lazos con multiples inversiones que ha emocionado a generaciones desde 1981.",
+        "fr": "Classique coaster a boucles avec plusieurs inversions qui ravit les visiteurs depuis 1981.",
+        "de": "Klassischer Looping-Coaster mit mehreren Inversionen, der seit 1981 Generationen begeistert.",
+        "it": "Classica montana russa con inversioni che ha emozionato generazioni di visitatori dal 1981.",
+        "nl": "Klassieke looping achterbaan met meerdere inversies die generaties parkbezoekers heeft opgewonden sinds 1981.",
+        "pt": "Classica montana-russa com inversoes que tem emocionado geracoes de visitantes desde 1981.",
+        "ru": "Классические петлевые горки с несколькими инверсиями, радующие посетителей с 1981 года.",
+        "zh": "经典环形过山车，多次翻转，自1981年以来令一代又一代游客兴奋不已。",
+        "ar": "أفعوانية حلقية كلاسيكية بانقلابات متعددة أثارت حماس أجيال من زوار المتنزه منذ عام 1981."
+      }
+    },
+    "vogel_rok": {
+      "desc": {
+        "en": "A thrilling indoor roller coaster launched in complete darkness through an ancient Persian palace with a powerful soundtrack and exotic theming.",
+        "es": "Emocionante coaster cubierto lanzado en completa oscuridad a traves de un palacio persa antiguo con potente banda sonora.",
+        "fr": "Passionnant coaster interieur lance dans l'obscurite complete a travers un palais persan ancien.",
+        "de": "Aufregender Innencoaster im Dunkeln durch einen alten persischen Palast mit kraftvollem Soundtrack.",
+        "it": "Emozionante coaster al coperto lanciato nel buio completo attraverso un antico palazzo persiano.",
+        "nl": "Spannende indoor achterbaan gelanceerd in complete duisternis door een oud Perzisch paleis.",
+        "pt": "Emocionante coaster coberto lancado em completa escuridao por um palacio persa antigo.",
+        "ru": "Захватывающие закрытые горки в полной темноте через древний персидский дворец с мощным саундтреком.",
+        "zh": "在完全黑暗中穿越古波斯宫殿发射的刺激室内过山车，强力配乐和异域主题。",
+        "ar": "أفعوانية داخلية مثيرة تنطلق في الظلام الدامس عبر قصر فارسي قديم مع موسيقى قوية وطابع غريب."
+      }
+    },
+    "aquanura": {
+      "desc": {
+        "en": "A spectacular water and fire show on the main lake performed multiple times daily, combining hundreds of water jets, fire effects and a magical musical score.",
+        "es": "Espectacular espectaculo de agua y fuego en el lago principal realizado varias veces al dia con cientos de surtidores de agua y efectos de fuego.",
+        "fr": "Spectaculaire spectacle d'eau et de feu sur le lac principal execute plusieurs fois par jour avec des centaines de jets d'eau.",
+        "de": "Spektakulaere Wasser-und-Feuer-Show auf dem Hauptsee, mehrmals taeglich mit Hunderten von Wasserdueesen.",
+        "it": "Spettacolare show di acqua e fuoco sul lago principale eseguito piu volte al giorno con centinaia di getti d'acqua.",
+        "nl": "Spectaculaire water- en vuurshow op het hoofdmeer meerdere keren per dag met honderden waterstralen.",
+        "pt": "Espetaculo espetacular de agua e fogo no lago principal realizado varias vezes por dia.",
+        "ru": "Захватывающее водно-огненное шоу на главном озере, проводится несколько раз в день с сотнями водяных струй.",
+        "zh": "在主湖上每天多次表演的壮观水火秀，结合数百个水柱、火焰特效和神奇音乐。",
+        "ar": "عرض رائع للماء والنار على البحيرة الرئيسية يُقام عدة مرات يومياً بمئات نفاثات الماء ومؤثرات النار."
+      }
+    },
+    "sprookjesbos": {
+      "desc": {
+        "en": "The enchanted Fairy Tale Forest — the heart of Efteling — featuring iconic storybook scenes including Sleeping Beauty, Hansel and Gretel, Rapunzel and many more in magical walk-through settings.",
+        "es": "El encantado Bosque de Cuentos, el corazon de Efteling, con iconicas escenas de cuentos como La Bella Durmiente, Hansel y Gretel y Rapunzel.",
+        "fr": "L'enchanteresse Foret des Contes, le coeur d'Efteling, avec des scenes de contes iconiques comme La Belle au Bois Dormant, Hansel et Gretel et Raiponce.",
+        "de": "Der verzauberte Maerchenwald, das Herz von Efteling, mit ikonischen Maerchenszenen wie Dornroeschen, Haensel und Gretel und Rapunzel.",
+        "it": "L'incantato Bosco delle Fiabe, il cuore di Efteling, con scene iconiche di fiabe come la Bella Addormentata, Hansel e Gretel e Raperonzolo.",
+        "nl": "Het betoverde Sprookjesbos, het hart van Efteling, met iconische sprookjesscenes zoals Doornroosje, Hans en Grietje en Rapunzel.",
+        "pt": "A encantada Floresta de Contos, o coracao de Efteling, com cenas iconicas de contos como a Bela Adormecida, Joao e Maria e Rapunzel.",
+        "ru": "Зачарованный Лес сказок — сердце Efteling — с культовыми сценами из Спящей красавицы, Гензеля и Гретель, Рапунцель.",
+        "zh": "魔法童话森林——艾芙特林的心脏——以标志性的故事场景为特色，包括睡美人、汉赛尔和格蕾特尔、长发公主等。",
+        "ar": "غابة الحكايات الخيالية المسحورة — قلب إفتيلينج — تضم مشاهد أيقونية من قصص مثل الأميرة النائمة وهانسل وغريتل وراپونزل."
+      }
+    }
+  },
+  "food": {
+    "restaurant_piraat": {
+      "desc": {
+        "en": "A pirate themed restaurant serving hearty Dutch and international dishes in a swashbuckling atmosphere complete with pirate ship decor and adventurous menu.",
+        "es": "Restaurante pirata con platos holandeses e internacionales en ambiente de pirata con decoracion de barco.",
+        "fr": "Restaurant pirate servant des plats neerlandais et internationaux dans une atmosphere de flibustier.",
+        "de": "Piraten-Restaurant mit herzhaften niederlandischen und internationalen Gerichten in Piratenatmosphaere.",
+        "it": "Ristorante pirata con sostanziosi piatti olandesi e internazionali in atmosfera da avventuriero.",
+        "nl": "Piraten restaurant met stevige Nederlandse en internationale gerechten in een swashbuckling sfeer.",
+        "pt": "Restaurante pirata com pratos holandeses e internacionais robustos em atmosfera de pirata.",
+        "ru": "Пиратский ресторан с сытными нидерландскими и международными блюдами в атмосфере пиратских приключений.",
+        "zh": "海盗主题餐厅，供应丰盛的荷兰和国际菜肴，海盗船装饰，冒险氛围十足。",
+        "ar": "مطعم بطابع القراصنة يقدم الأطباق الهولندية والدولية الشهية في أجواء المغامرة مع ديكور سفينة القراصنة."
+      }
+    },
+    "polles_keuken": {
+      "desc": {
+        "en": "A charming witches kitchen themed restaurant serving traditional Dutch stamppot, soups and comfort food in a magical fairy tale setting.",
+        "es": "Encantador restaurante de cocina de bruja con stamppot holandes tradicional, sopas y comida reconfortante en ambiente de cuento.",
+        "fr": "Charmant restaurant cuisine de sorciere servant le stamppot hollandais traditionnel, des soupes et des plats reconfortants.",
+        "de": "Charmantes Hexenkuechen-Restaurant mit traditionellem niederlaendischem Stamppot, Suppen und Hausmannskost.",
+        "it": "Affascinante ristorante cucina delle streghe con stamppot olandese tradizionale, zuppe e comfort food.",
+        "nl": "Charmant heksenkeuken restaurant met traditionele Nederlandse stamppot, soepen en comforteten.",
+        "pt": "Charmoso restaurante cozinha de bruxa com stamppot holandes tradicional, sopas e comfort food.",
+        "ru": "Очаровательный ресторан «Кухня ведьмы» с традиционным нидерландским стамппотом, супами и домашней едой.",
+        "zh": "迷人的女巫厨房主题餐厅，供应传统荷兰砂锅菜、汤品和家常菜，童话氛围。",
+        "ar": "مطعم ساحر بطابع مطبخ الساحرة يقدم الحساء الهولندي التقليدي والشوربات وأطباق الطعام المريح في ديكور خرافي."
+      }
+    },
+    "grand_cafe_roodkapje": {
+      "desc": {
+        "en": "An elegant grand cafe inspired by Little Red Riding Hood, serving fresh pastries, cakes, sandwiches and Dutch coffee specialities in a beautiful park setting.",
+        "es": "Elegante gran cafe inspirado en Caperucita Roja con bolleria fresca, tartas, sandwiches y especialidades de cafe holandes.",
+        "fr": "Elegant grand cafe inspire du Chaperon Rouge, servant patisseries fraiches, gateau et sandwiches.",
+        "de": "Elegantes Grand Cafe inspiriert von Rotkaeppchen mit frischen Backwaren, Kuchen und niederlandischen Kaffeespezialitaeten.",
+        "it": "Elegante gran cafe ispirato a Cappuccetto Rosso con pasticcini freschi, torte e specialita di caffe olandese.",
+        "nl": "Elegant grand cafe geïnspireerd op Roodkapje met verse gebakjes, taarten en Nederlandse koffiespecialiteiten.",
+        "pt": "Elegante grande cafe inspirado no Capuchinho Vermelho com pasteis frescos, bolos e especialidades de cafe holandes.",
+        "ru": "Элегантное гранд-кафе в стиле Красной Шапочки со свежей выпечкой, тортами и нидерландскими кофейными специалитетами.",
+        "zh": "以小红帽为灵感的优雅大咖啡馆，供应新鲜糕点、蛋糕、三明治和荷兰咖啡特产。",
+        "ar": "مقهى كبير أنيق مستوحى من ذات الرداء الأحمر يقدم المعجنات الطازجة والكيك والسندويشات وتخصصات القهوة الهولندية."
+      }
+    },
+    "pancake_house": {
+      "desc": {
+        "en": "A beloved family restaurant serving the famous Dutch poffertjes and oversized savoury and sweet pancakes in a warm, welcoming atmosphere.",
+        "es": "Querido restaurante familiar con poffertjes holandeses famosos y panqueques gigantes dulces y salados.",
+        "fr": "Bien-aime restaurant familial servant les celebres poffertjes hollandais et d'enormes crepes sucrees et salees.",
+        "de": "Beliebtes Familienrestaurant mit beruhmten niederlaendischen Poffertjes und riesigen suessen und herzhaften Pfannkuchen.",
+        "it": "Amato ristorante familiare con i famosi poffertjes olandesi e grandi crêpes dolci e salate.",
+        "nl": "Geliefd familierestaurant met beroemde poffertjes en oversized zoete en hartige pannenkoeken.",
+        "pt": "Querido restaurante familiar com os famosos poffertjes holandeses e enormes panquecas doces e salgadas.",
+        "ru": "Любимый семейный ресторан со знаменитыми нидерландскими поффертьес и огромными сладкими и солёными блинами.",
+        "zh": "深受喜爱的家庭餐厅，供应著名的荷兰小松饼和超大号咸甜薄饼。",
+        "ar": "مطعم عائلي محبوب يقدم فطائر البوفيرتيس الهولندية الشهيرة والفطائر الضخمة المالحة والحلوة."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_efteling": {
+      "desc": {
+        "en": "The original Efteling hotel with enchanted fairy tale themed rooms, direct park access, indoor pool and magical dining experiences inspired by Efteling stories.",
+        "es": "El hotel original de Efteling con habitaciones de cuento encantadas, acceso directo al parque y piscina interior.",
+        "fr": "Le premier hotel Efteling avec chambres thematiques enchanteuses, acces direct au parc et piscine interieure.",
+        "de": "Das urspruengliche Efteling-Hotel mit verzauberten Maerchenthemenzimmern, direktem Parkzugang und Hallenbad.",
+        "it": "Il primo hotel Efteling con camere a tema fiabesco incantate, accesso diretto al parco e piscina coperta.",
+        "nl": "Het originele Efteling hotel met betoverde sprookjeskamers, directe parktoegang en overdekt zwembad.",
+        "pt": "O hotel original Efteling com quartos encantados de tema conto de fadas, acesso direto ao parque e piscina coberta.",
+        "ru": "Оригинальный отель Efteling с волшебными сказочными номерами, прямым доступом в парк и крытым бассейном.",
+        "zh": "艾芙特林原始酒店，迷人的童话主题客房，直通公园，室内游泳池，以艾芙特林故事为灵感的神奇用餐体验。",
+        "ar": "فندق إفتيلينج الأصلي بغرف ذات طابع حكايات خيالية مسحورة وإمكانية دخول مباشر للمتنزه وحمام سباحة داخلي."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Enchanted fairy tale room sleeping up to 4 with magical decor and park views.", "es": "Habitacion de cuento encantada para 4 con decoracion magica.", "fr": "Chambre de conte enchantee pour 4 avec decor magique.", "de": "Verzaubertes Maerchenzimmer fuer 4 mit magischem Dekor.", "it": "Camera fiabesca incantata per 4 con decor magico.", "nl": "Betoverde sprookjeskamer voor 4 met magisch decor.", "pt": "Quarto de conto encantado para 4 com decor magico.", "ru": "Зачарованный сказочный номер для 4 с волшебным декором.", "zh": "魔法童话客房，可容纳4人，神奇装饰，公园景观。", "ar": "غرفة حكايات خيالية مسحورة تتسع لـ 4 أشخاص بديكور سحري وإطلالات على المتنزه." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious fairy tale family room sleeping up to 6 with enchanted bunk beds and pool access.", "es": "Habitacion familiar de cuento para 6 con literas encantadas y piscina.", "fr": "Chambre familiale de conte pour 6 avec lits superposes enchantes et piscine.", "de": "Geraeumigers Maerchen-Familienzimmer fuer 6 mit verzauberten Etagenbetten.", "it": "Camera familiare fiabesca per 6 con letti a castello incantati e piscina.", "nl": "Ruime sprookjes familiekamer voor 6 met betoverde stapelbedden.", "pt": "Quarto familiar de conto para 6 com beliches encantados.", "ru": "Просторный сказочный семейный номер для 6 с зачарованными двухъярусными кроватями.", "zh": "宽敞的童话家庭客房，可容纳6人，魔法上下铺，游泳池通道。", "ar": "غرفة عائلية حكايات خيالية فسيحة تتسع لـ 6 أشخاص مع أسرة بطابقين مسحورة." }
+        }
+      }
+    },
+    "landal_efteling": {
+      "desc": {
+        "en": "A beautiful holiday village adjacent to Efteling with comfortable themed bungalows set among trees, outdoor pools and easy walking access to the park.",
+        "es": "Hermoso pueblo de vacaciones junto a Efteling con confortables bungalows tematicos entre arboles y piscinas al aire libre.",
+        "fr": "Beau village de vacances adjacent a Efteling avec confortables bungalows thematiques parmi les arbres et piscines exterieures.",
+        "de": "Schoenes Feriendorf neben Efteling mit komfortablen Themenbungalows zwischen Baeumen und Aussenpool.",
+        "it": "Bel villaggio vacanze adiacente a Efteling con confortevoli bungalow tematici tra gli alberi e piscine esterne.",
+        "nl": "Mooi vakantiedorp naast Efteling met comfortabele themabungalows tussen de bomen en buitenzwembaden.",
+        "pt": "Bela aldeia de ferias adjacente a Efteling com confortaveis bungalows tematicos entre arvores e piscinas exteriores.",
+        "ru": "Красивая деревня отдыха рядом с Efteling с уютными тематическими бунгало среди деревьев и открытыми бассейнами.",
+        "zh": "紧邻艾芙特林的美丽度假村，舒适的主题平房位于树木之间，室外游泳池，步行即可到达公园。",
+        "ar": "قرية عطلات جميلة مجاورة لإفتيلينج مع بانغالوهات مريحة ذات طابع مميز بين الأشجار وحمامات سباحة خارجية."
+      },
+      "rooms": {
+        "standard_bungalow": {
+          "name": { "en": "Standard Bungalow", "es": "Bungalow Estandar", "fr": "Bungalow Standard", "de": "Standard-Bungalow", "it": "Bungalow Standard", "nl": "Standaard Bungalow", "pt": "Bungalow Standard", "ru": "Стандартное бунгало", "zh": "标准平房", "ar": "بانغالو قياسي" },
+          "desc": { "en": "Comfortable bungalow sleeping up to 4 with forest views and outdoor terrace.", "es": "Bungalow comodo para 4 con vistas al bosque y terraza exterior.", "fr": "Bungalow confortable pour 4 avec vue sur la foret et terrasse.", "de": "Komfortables Bungalow fuer 4 mit Waldblick und Aussenteasse.", "it": "Bungalow confortevole per 4 con vista sul bosco e terrazza.", "nl": "Comfortabele bungalow voor 4 met bostzicht en buitenterras.", "pt": "Bungalow confortavel para 4 com vistas para o bosque e terraco.", "ru": "Уютное бунгало для 4 с видом на лес и террасой.", "zh": "舒适平房，可容纳4人，森林景观，室外露台。", "ar": "بانغالو مريح يتسع لـ 4 أشخاص مع إطلالات على الغابة وتراس خارجي." }
+        },
+        "family_bungalow": {
+          "name": { "en": "Family Bungalow", "es": "Bungalow Familiar", "fr": "Bungalow Familial", "de": "Familien-Bungalow", "it": "Bungalow Familiare", "nl": "Familie Bungalow", "pt": "Bungalow Familiar", "ru": "Семейное бунгало", "zh": "家庭平房", "ar": "بانغالو عائلي" },
+          "desc": { "en": "Larger bungalow sleeping up to 6 with two bedrooms, full kitchen and garden.", "es": "Bungalow grande para 6 con dos dormitorios, cocina completa y jardin.", "fr": "Grand bungalow pour 6 avec deux chambres, cuisine complete et jardin.", "de": "Grosses Bungalow fuer 6 mit zwei Schlafzimmern, Vollkueche und Garten.", "it": "Grande bungalow per 6 con due camere, cucina completa e giardino.", "nl": "Groot bungalow voor 6 met twee slaapkamers, volledige keuken en tuin.", "pt": "Grande bungalow para 6 com dois quartos, cozinha completa e jardim.", "ru": "Большое бунгало для 6 с двумя спальнями, полной кухней и садом.", "zh": "大型平房，可容纳6人，两间卧室，完整厨房，花园。", "ar": "بانغالو كبير يتسع لـ 6 أشخاص مع غرفتي نوم ومطبخ كامل وحديقة." }
+        }
+      }
+    },
+    "efteling_loonsche_land": {
+      "desc": {
+        "en": "A premium holiday village inspired by the local Loonse en Drunense Duinen national park with luxury safari-style lodges, spa and exclusive park benefits.",
+        "es": "Premium pueblo de vacaciones inspirado en el parque nacional local con lujosos lodges estilo safari, spa y beneficios exclusivos del parque.",
+        "fr": "Village de vacances premium inspire du parc national local avec luxueux lodges style safari, spa et avantages exclusifs au parc.",
+        "de": "Premiums Feriendorf inspiriert vom lokalen Nationalpark mit luxurioesen Safari-Lodges, Spa und exklusiven Parkvorteilen.",
+        "it": "Villaggio vacanze premium ispirato al parco nazionale locale con lussuosi lodge safari, spa e benefici esclusivi al parco.",
+        "nl": "Premium vakantiedorp geïnspireerd op het lokale nationale park met luxe safarilodges, spa en exclusieve parkvoordelen.",
+        "pt": "Aldeia de ferias premium inspirada no parque nacional local com luxuosos lodges safari, spa e beneficios exclusivos ao parque.",
+        "ru": "Премиальная деревня отдыха с роскошными сафари-лоджами, спа и эксклюзивными преимуществами для парка.",
+        "zh": "以当地国家公园为灵感的高端度假村，豪华非洲草原风格小屋，水疗中心，独享公园特权。",
+        "ar": "قرية عطلات فاخرة مستوحاة من المتنزه الوطني المحلي مع بيوت سفاري فاخرة وسبا ومزايا حصرية للمتنزه."
+      },
+      "rooms": {
+        "standard_lodge": {
+          "name": { "en": "Standard Lodge", "es": "Lodge Estandar", "fr": "Lodge Standard", "de": "Standard-Lodge", "it": "Lodge Standard", "nl": "Standaard Lodge", "pt": "Lodge Standard", "ru": "Стандартный лодж", "zh": "标准小屋", "ar": "لودج قياسي" },
+          "desc": { "en": "Safari-style lodge sleeping up to 4 with nature views, terrace and breakfast included.", "es": "Lodge safari para 4 con vistas a la naturaleza, terraza y desayuno incluido.", "fr": "Lodge safari pour 4 avec vues sur la nature, terrasse et petit-dejeuner inclus.", "de": "Safari-Lodge fuer 4 mit Naturblick, Terrasse und Fruehstueck inklusive.", "it": "Lodge safari per 4 con vista sulla natura, terrazza e colazione inclusa.", "nl": "Safari lodge voor 4 met natuuruitzicht, terras en ontbijt inbegrepen.", "pt": "Lodge safari para 4 com vistas para a natureza, terraco e pequeno-almoco incluido.", "ru": "Сафари-лодж для 4 с видом на природу, террасой и завтраком.", "zh": "非洲草原风格小屋，可容纳4人，自然景观，露台，含早餐。", "ar": "لودج بطراز السفاري يتسع لـ 4 أشخاص مع إطلالات على الطبيعة وتراس وإفطار مشمول." }
+        },
+        "family_lodge": {
+          "name": { "en": "Family Lodge", "es": "Lodge Familiar", "fr": "Lodge Familial", "de": "Familien-Lodge", "it": "Lodge Familiare", "nl": "Familie Lodge", "pt": "Lodge Familiar", "ru": "Семейный лодж", "zh": "家庭小屋", "ar": "لودج عائلي" },
+          "desc": { "en": "Spacious family safari lodge sleeping up to 6 with private sauna, terrace and all-inclusive breakfast.", "es": "Lodge safari familiar para 6 con sauna privada, terraza y desayuno todo incluido.", "fr": "Grand lodge safari familial pour 6 avec sauna prive, terrasse et petit-dejeuner tout inclus.", "de": "Geraeumigers Familien-Safari-Lodge fuer 6 mit Privatsauna, Terrasse und All-inclusive-Fruehstueck.", "it": "Lodge safari familiare per 6 con sauna privata, terrazza e colazione all-inclusive.", "nl": "Ruime familie safari lodge voor 6 met prive sauna, terras en all-inclusive ontbijt.", "pt": "Grande lodge safari familiar para 6 com sauna privada, terraco e pequeno-almoco all-inclusive.", "ru": "Просторный семейный сафари-лодж для 6 с частной сауной, террасой и завтраком.", "zh": "宽敞的家庭非洲草原小屋，可容纳6人，私人桑拿，露台，全包早餐。", "ar": "لودج سفاري عائلي فسيح يتسع لـ 6 أشخاص مع ساونا خاصة وتراس وإفطار شامل." }
+        }
+      }
+    }
+  }
+}

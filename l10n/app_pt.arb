@@ -1,40 +1,95 @@
 {
   "@@locale": "pt",
+
+  "favoritesTitle": "Favoritos",
+  "noFavoritesYet": "Ainda não há favoritos",
+  "removeFromFavorites": "Remover dos favoritos",
+
   "appTitle": "Funparks",
+  "viewPark": "Ver parque",
   "overview": "Visão geral",
   "attractions": "Atrações",
   "foodAndPrices": "Comida e preços",
-  "hours": "Horário",
+  "hotels": "Hotéis",
+
   "entryFrom": "Entrada a partir de",
+  "hours": "Horário",
   "location": "Localização",
   "parkMap": "Mapa do parque",
   "highlights": "Destaques",
+
   "translate": "Traduzir",
+  "adult": "Adulto",
+  "child": "Criança",
+  "website": "Website",
+  "comingSoon": "Em breve",
+
+  "settings": "Definições",
+  "language": "Idioma",
+  "currency": "Moeda",
+  "nearbyParks": "Parques próximos",
+
   "thrill": "Adrenalina",
   "family": "Família",
   "water": "Água",
   "simulator": "Simulador",
+
   "topPick": "Imperdível",
   "recommended": "Recomendado",
   "lowestWait": "Menor espera",
-  "highestRated": "Melhor avaliado",
+  "highestRated": "Mais bem avaliado",
   "tapCardForDetails": "Toque para ver detalhes",
-  "addToMyDay": "Adicionar ao Meu Dia",
-  "removeFromMyDay": "Remover do Meu Dia",
-  "addToMyFood": "Adicionar à Minha Comida",
-  "removeFromMyFood": "Remover da Minha Comida",
-  "directions": "Direções",
+
+  "addToMyDay": "Adicionar ao Meu dia",
+  "removeFromMyDay": "Remover do Meu dia",
+  "addToMyFood": "Adicionar à Minha comida",
+  "removeFromMyFood": "Remover da Minha comida",
+
+  "directions": "Rota",
   "liveWait": "Espera ao vivo",
   "setMyWait": "Minha espera",
-  "yourRating": "Sua avaliação",
-  "yourComment": "Seu comentário",
-  "commentHint": "Dicas, o que esperar, melhores lugares…",
-  "commentHintFood": "Dicas (melhor custo-benefício, pratos favoritos)…",
+
+  "yourRating": "A sua avaliação",
+  "yourComment": "O seu comentário",
+  "commentHint": "Dicas, melhores lugares, etc…",
+  "commentHintFood": "Dicas (custo-benefício, pratos favoritos)…",
+
   "myWaitTimeOptional": "Minha espera (opcional)",
-  "minutesHint": "Minutos (ex. 25)",
+  "minutesHint": "Minutos (ex.: 25)",
+
   "menuAndPrices": "Menu e preços",
-  "share": "Compartilhar",
-  "save": "Salvar",
-  "saved": "Salvo!",
-  "comingSoon": "Em breve"
+  "share": "Partilhar",
+  "save": "Guardar",
+  "saved": "Guardado!",
+
+  "rooms": "Quartos",
+  "night": "noite",
+  "price": "Preço",
+  "rating": "Avaliação",
+  "breakfastIncluded": "Pequeno-almoço incluído",
+  "breakfastNotIncluded": "Pequeno-almoço não incluído",
+
+  "addToMyStay": "Adicionar à Minha estadia",
+  "removeFromMyStay": "Remover da Minha estadia",
+  "lowestPrice": "Preço mais baixo",
+
+  "didYouKnow": "Sabia que",
+  "plan": "Plano",
+  "photos": "Fotos",
+  "route": "Rota",
+
+  "closest": "Mais próximo",
+  "cheapest": "Mais barato",
+
+  "myDayRouteTitle": "Rota do Meu dia",
+  "myDayRouteEmpty": "Adicione atrações ao Meu dia para criar uma rota.",
+
+  "templateInfoPortAventura": "Este parque usa o modelo PortAventura. Atrações, comida e hotéis são carregados a partir de JSON local.",
+  "hotelRoomsComingSoon": "Em breve vamos adicionar quartos, preços, fotos e links de reserva aqui.",
+
+  "facts": "Factos",
+  "speed": "Velocidade",
+  "height": "Altura",
+  "inversions": "Inversões",
+  "opened": "Inaugurado"
 }

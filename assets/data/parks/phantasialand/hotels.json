@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_charles_lindbergh",
+    "name": "Hotel Charles Lindbergh",
+    "description": "The world's most immersive steampunk hotel built directly into the Rookburgh theme world. Guests sleep next to the F.L.Y. roller coaster with exclusive Explorer benefits including early ride access and Bar 1919.",
+    "image": "assets/images/phantasialand/hotel_charles_lindbergh.png",
+    "lat": 50.7995,
+    "lng": 6.8801,
+    "rating": 4.9,
+    "lowestNightPrice": 280.0,
+    "breakfastIncluded": true,
+    "rooms": [
+      {
+        "key": "explorer_room",
+        "name": "Explorer Room",
+        "description": "Steampunk themed room with F.L.Y. views, exclusive Explorer benefits and early ride entry.",
+        "pricePerNight": 280.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "navigator_suite",
+        "name": "Navigator Suite",
+        "description": "Premium suite with panoramic Rookburgh views, private terrace and full Explorer package.",
+        "pricePerNight": 420.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_ling_bao",
+    "name": "Hotel Ling Bao",
+    "description": "A stunning Chinese pagoda hotel immersed in the China Town theme world with Asian inspired rooms, a rooftop bar, Restaurant Ling Bao serving Asian cuisine and direct park access.",
+    "image": "assets/images/phantasialand/hotel_ling_bao.png",
+    "lat": 50.8001,
+    "lng": 6.8793,
+    "rating": 4.7,
+    "lowestNightPrice": 220.0,
+    "breakfastIncluded": true,
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant Asian themed room sleeping up to 4 with rooftop bar access and park entry.",
+        "pricePerNight": 220.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious Asian themed family room sleeping up to 6 with garden views.",
+        "pricePerNight": 320.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_matamba",
+    "name": "Hotel Matamba",
+    "description": "An immersive African lodge hotel in the Deep in Africa theme world with beautifully decorated rooms, lush tropical gardens, Restaurant Zambesi and the Braai outdoor grill experience.",
+    "image": "assets/images/phantasialand/hotel_matamba.png",
+    "lat": 50.8002,
+    "lng": 6.8791,
+    "rating": 4.6,
+    "lowestNightPrice": 200.0,
+    "breakfastIncluded": true,
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "African themed room sleeping up to 4 with jungle garden views and breakfast.",
+        "pricePerNight": 200.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious African lodge family room sleeping up to 6 with outdoor terrace.",
+        "pricePerNight": 290.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

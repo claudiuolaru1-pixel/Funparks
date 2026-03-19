@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "restaurant_uhrwerk",
+    "name": "Restaurant Uhrwerk",
+    "type": "European & Steampunk",
+    "image": "assets/images/phantasialand/food_uhrwerk.png",
+    "lat": 50.7995,
+    "lng": 6.8800,
+    "rating": 4.5,
+    "description": "The culinary soul of Rookburgh serving homemade Poke Bowls, Rook-Burgers, Pilot's Pasta and creative sauces and dips in a stunning steampunk factory atmosphere.",
+    "topPick": true,
+    "items": [
+      { "name": "Rook-Burger", "description": "Homemade gourmet burger with unique Rookburgh toppings and sauces", "price": 16.50 },
+      { "name": "Pilot's Pasta", "description": "Freshly made pasta with homemade sauce", "price": 13.50 },
+      { "name": "Poke Bowl", "description": "Fresh poke bowl with seasonal toppings and homemade dips", "price": 14.50 },
+      { "name": "Golden Fritz", "description": "Crispy fries with aromatic homemade dipping sauces", "price": 7.50 }
+    ]
+  },
+  {
+    "id": "rutmors_tavern",
+    "name": "Rutmor's Tavern",
+    "type": "German & Medieval",
+    "image": "assets/images/phantasialand/food_rutmors_tavern.png",
+    "lat": 50.8000,
+    "lng": 6.8799,
+    "rating": 4.3,
+    "description": "A hearty medieval-themed tavern in the Berlin area serving traditional German dishes, veal schnitzel, hearty platters and vegetarian options in a cosy rustic atmosphere.",
+    "topPick": false,
+    "items": [
+      { "name": "Veal Schnitzel", "description": "Classic veal schnitzel with potatoes and salad just like Mum used to make", "price": 18.00 },
+      { "name": "Hearty Platter", "description": "Selection of cold meats, cheeses and rustic bread", "price": 15.00 },
+      { "name": "Vegetarian Platter", "description": "Seasonal vegetables, salad and homemade dips", "price": 13.00 },
+      { "name": "German Beer", "description": "Freshly poured German draught beer", "price": 6.00 }
+    ]
+  },
+  {
+    "id": "la_cantina_tacana",
+    "name": "La Cantina Tacana",
+    "type": "Mexican",
+    "image": "assets/images/phantasialand/food_la_cantina_tacana.png",
+    "lat": 50.8003,
+    "lng": 6.8789,
+    "rating": 4.2,
+    "description": "A colourful and festive Mexican restaurant in the Mexico area serving authentic tacos, burritos, nachos and vegetarian options with a lively atmosphere.",
+    "topPick": false,
+    "items": [
+      { "name": "Tacos", "description": "Three freshly made tacos with meat or vegetarian filling", "price": 12.00 },
+      { "name": "Burrito", "description": "Stuffed flour tortilla with rice, beans, cheese and salsa", "price": 13.50 },
+      { "name": "Nachos", "description": "Crispy nachos with guacamole, sour cream and salsa", "price": 9.50 },
+      { "name": "Churros", "description": "Crispy churros with chocolate dipping sauce", "price": 6.50 }
+    ]
+  },
+  {
+    "id": "mandschu",
+    "name": "Mandschu",
+    "type": "Asian",
+    "image": "assets/images/phantasialand/food_mandschu.png",
+    "lat": 50.8001,
+    "lng": 6.8795,
+    "rating": 4.2,
+    "description": "An authentic Asian restaurant in China Town serving vegan stir-fries, noodle dishes, Thai curry and Asian street food in an immersive oriental atmosphere.",
+    "topPick": false,
+    "items": [
+      { "name": "Stir-Fry Noodles", "description": "Freshly wok-fried noodles with vegetables and choice of protein", "price": 13.00 },
+      { "name": "Thai Curry", "description": "Spicy Thai curry with jasmine rice and vegetables", "price": 14.00 },
+      { "name": "Vegan Stir-Fry", "description": "Plant-based stir-fry with seasonal Asian vegetables", "price": 12.00 },
+      { "name": "Asian Street Snack", "description": "Selection of dim sum and Asian small bites", "price": 8.00 }
+    ]
+  }
+]

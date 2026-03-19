@@ -9,10 +9,35 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get continueWithoutAccount => 'Continue without an account';
+
+  @override
+  String get registerAccount => 'Register an account';
+
+  @override
+  String get login => 'Login';
+
+  @override
+  String get welcomeTitle => 'Discover theme parks';
+
+  @override
+  String get welcomeSubtitle =>
+      'Plan your visit, track wait times, and explore parks around the world.';
+
+  @override
+  String get favoritesTitle => 'Favorites';
+
+  @override
+  String get noFavoritesYet => 'No favorites yet';
+
+  @override
+  String get removeFromFavorites => 'Remove from favorites';
+
+  @override
   String get appTitle => 'Funparks';
 
   @override
-  String get viewPark => 'View Park';
+  String get viewPark => 'View park';
 
   @override
   String get overview => 'Overview';
@@ -45,6 +70,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get translate => 'Translate';
 
   @override
+  String get original => 'Original';
+
+  @override
   String get adult => 'Adult';
 
   @override
@@ -66,7 +94,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get currency => 'Currency';
 
   @override
-  String get nearbyParks => 'Nearby Parks';
+  String get nearbyParks => 'Nearby parks';
 
   @override
   String get thrill => 'Thrill';
@@ -93,7 +121,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get highestRated => 'Highest rated';
 
   @override
-  String get tapCardForDetails => 'Tap a card for full details';
+  String get tapCardForDetails => 'Tap for details';
 
   @override
   String get addToMyDay => 'Add to My Day';
@@ -114,7 +142,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get liveWait => 'Live wait';
 
   @override
-  String get setMyWait => 'Set my wait';
+  String get setMyWait => 'My wait';
 
   @override
   String get yourRating => 'Your rating';
@@ -123,11 +151,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get yourComment => 'Your comment';
 
   @override
-  String get commentHint => 'Share tips, what to expect, best seats, etc…';
+  String get commentHint => 'Tips, best seats, etc…';
 
   @override
-  String get commentHintFood =>
-      'Share tips (best value, favorite dishes, good spots)…';
+  String get commentHintFood => 'Tips (value for money, favorite dishes)…';
 
   @override
   String get myWaitTimeOptional => 'My wait time (optional)';
@@ -163,7 +190,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get breakfastIncluded => 'Breakfast included';
 
   @override
-  String get breakfastNotIncluded => 'Breakfast not included';
+  String get breakfastNotIncluded => 'No breakfast';
 
   @override
   String get addToMyStay => 'Add to My Stay';
@@ -173,4 +200,77 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get lowestPrice => 'Lowest price';
+
+  @override
+  String get didYouKnow => 'Did you know';
+
+  @override
+  String get plan => 'Plan';
+
+  @override
+  String get photos => 'Photos';
+
+  @override
+  String get facts => 'Facts';
+
+  @override
+  String get route => 'Route';
+
+  @override
+  String get myDayRoute => 'My Day Route';
+
+  @override
+  String get routeEmpty => 'Add attractions to My Day to build a route.';
+
+  @override
+  String get descriptionTitle => 'Description';
+
+  @override
+  String get detailsTitle => 'Details';
+
+  @override
+  String get roomTitle => 'Room';
+
+  @override
+  String get addToEllipsis => 'Add to…';
+
+  @override
+  String get added => 'Added';
+
+  @override
+  String get closest => 'Closest';
+
+  @override
+  String get cheapest => 'Cheapest';
+
+  @override
+  String get couldNotOpenMaps => 'Could not open Maps';
+
+  @override
+  String get couldNotOpenWebsite => 'Could not open website';
+
+  @override
+  String get speed => 'Speed';
+
+  @override
+  String get height => 'Height';
+
+  @override
+  String get inversions => 'Inversions';
+
+  @override
+  String get opened => 'Opened';
+
+  @override
+  String get openMap => 'Open map';
+
+  @override
+  String get templateInfoPortAventura =>
+      'PortAventura World is one of the largest resort destinations in Europe, located in Salou, Spain.';
+
+  @override
+  String get restaurants => 'Restaurants';
+
+  @override
+  String get hotelRoomsComingSoon => 'Room details coming soon';
 }

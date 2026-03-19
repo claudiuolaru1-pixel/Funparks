@@ -5,6 +5,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'app_localizations_ar.dart';
 import 'app_localizations_de.dart';
 import 'app_localizations_en.dart';
 import 'app_localizations_es.dart';
@@ -74,8 +75,8 @@ abstract class AppLocalizations {
 
   final String localeName;
 
-  static AppLocalizations? of(BuildContext context) {
-    return Localizations.of<AppLocalizations>(context, AppLocalizations);
+  static AppLocalizations of(BuildContext context) {
+    return Localizations.of<AppLocalizations>(context, AppLocalizations)!;
   }
 
   static const LocalizationsDelegate<AppLocalizations> delegate =
@@ -101,6 +102,7 @@ abstract class AppLocalizations {
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
+    Locale('ar'),
     Locale('de'),
     Locale('en'),
     Locale('es'),
@@ -112,6 +114,54 @@ abstract class AppLocalizations {
     Locale('zh')
   ];
 
+  /// No description provided for @continueWithoutAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue without an account'**
+  String get continueWithoutAccount;
+
+  /// No description provided for @registerAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Register an account'**
+  String get registerAccount;
+
+  /// No description provided for @login.
+  ///
+  /// In en, this message translates to:
+  /// **'Login'**
+  String get login;
+
+  /// No description provided for @welcomeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Discover theme parks'**
+  String get welcomeTitle;
+
+  /// No description provided for @welcomeSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Plan your visit, track wait times, and explore parks around the world.'**
+  String get welcomeSubtitle;
+
+  /// No description provided for @favoritesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Favorites'**
+  String get favoritesTitle;
+
+  /// No description provided for @noFavoritesYet.
+  ///
+  /// In en, this message translates to:
+  /// **'No favorites yet'**
+  String get noFavoritesYet;
+
+  /// No description provided for @removeFromFavorites.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove from favorites'**
+  String get removeFromFavorites;
+
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
@@ -121,7 +171,7 @@ abstract class AppLocalizations {
   /// No description provided for @viewPark.
   ///
   /// In en, this message translates to:
-  /// **'View Park'**
+  /// **'View park'**
   String get viewPark;
 
   /// No description provided for @overview.
@@ -184,6 +234,12 @@ abstract class AppLocalizations {
   /// **'Translate'**
   String get translate;
 
+  /// No description provided for @original.
+  ///
+  /// In en, this message translates to:
+  /// **'Original'**
+  String get original;
+
   /// No description provided for @adult.
   ///
   /// In en, this message translates to:
@@ -229,7 +285,7 @@ abstract class AppLocalizations {
   /// No description provided for @nearbyParks.
   ///
   /// In en, this message translates to:
-  /// **'Nearby Parks'**
+  /// **'Nearby parks'**
   String get nearbyParks;
 
   /// No description provided for @thrill.
@@ -283,7 +339,7 @@ abstract class AppLocalizations {
   /// No description provided for @tapCardForDetails.
   ///
   /// In en, this message translates to:
-  /// **'Tap a card for full details'**
+  /// **'Tap for details'**
   String get tapCardForDetails;
 
   /// No description provided for @addToMyDay.
@@ -325,7 +381,7 @@ abstract class AppLocalizations {
   /// No description provided for @setMyWait.
   ///
   /// In en, this message translates to:
-  /// **'Set my wait'**
+  /// **'My wait'**
   String get setMyWait;
 
   /// No description provided for @yourRating.
@@ -343,13 +399,13 @@ abstract class AppLocalizations {
   /// No description provided for @commentHint.
   ///
   /// In en, this message translates to:
-  /// **'Share tips, what to expect, best seats, etc…'**
+  /// **'Tips, best seats, etc…'**
   String get commentHint;
 
   /// No description provided for @commentHintFood.
   ///
   /// In en, this message translates to:
-  /// **'Share tips (best value, favorite dishes, good spots)…'**
+  /// **'Tips (value for money, favorite dishes)…'**
   String get commentHintFood;
 
   /// No description provided for @myWaitTimeOptional.
@@ -421,7 +477,7 @@ abstract class AppLocalizations {
   /// No description provided for @breakfastNotIncluded.
   ///
   /// In en, this message translates to:
-  /// **'Breakfast not included'**
+  /// **'No breakfast'**
   String get breakfastNotIncluded;
 
   /// No description provided for @addToMyStay.
@@ -441,6 +497,150 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Lowest price'**
   String get lowestPrice;
+
+  /// No description provided for @didYouKnow.
+  ///
+  /// In en, this message translates to:
+  /// **'Did you know'**
+  String get didYouKnow;
+
+  /// No description provided for @plan.
+  ///
+  /// In en, this message translates to:
+  /// **'Plan'**
+  String get plan;
+
+  /// No description provided for @photos.
+  ///
+  /// In en, this message translates to:
+  /// **'Photos'**
+  String get photos;
+
+  /// No description provided for @facts.
+  ///
+  /// In en, this message translates to:
+  /// **'Facts'**
+  String get facts;
+
+  /// No description provided for @route.
+  ///
+  /// In en, this message translates to:
+  /// **'Route'**
+  String get route;
+
+  /// No description provided for @myDayRoute.
+  ///
+  /// In en, this message translates to:
+  /// **'My Day Route'**
+  String get myDayRoute;
+
+  /// No description provided for @routeEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'Add attractions to My Day to build a route.'**
+  String get routeEmpty;
+
+  /// No description provided for @descriptionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get descriptionTitle;
+
+  /// No description provided for @detailsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Details'**
+  String get detailsTitle;
+
+  /// No description provided for @roomTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Room'**
+  String get roomTitle;
+
+  /// No description provided for @addToEllipsis.
+  ///
+  /// In en, this message translates to:
+  /// **'Add to…'**
+  String get addToEllipsis;
+
+  /// No description provided for @added.
+  ///
+  /// In en, this message translates to:
+  /// **'Added'**
+  String get added;
+
+  /// No description provided for @closest.
+  ///
+  /// In en, this message translates to:
+  /// **'Closest'**
+  String get closest;
+
+  /// No description provided for @cheapest.
+  ///
+  /// In en, this message translates to:
+  /// **'Cheapest'**
+  String get cheapest;
+
+  /// No description provided for @couldNotOpenMaps.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open Maps'**
+  String get couldNotOpenMaps;
+
+  /// No description provided for @couldNotOpenWebsite.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open website'**
+  String get couldNotOpenWebsite;
+
+  /// No description provided for @speed.
+  ///
+  /// In en, this message translates to:
+  /// **'Speed'**
+  String get speed;
+
+  /// No description provided for @height.
+  ///
+  /// In en, this message translates to:
+  /// **'Height'**
+  String get height;
+
+  /// No description provided for @inversions.
+  ///
+  /// In en, this message translates to:
+  /// **'Inversions'**
+  String get inversions;
+
+  /// No description provided for @opened.
+  ///
+  /// In en, this message translates to:
+  /// **'Opened'**
+  String get opened;
+
+  /// No description provided for @openMap.
+  ///
+  /// In en, this message translates to:
+  /// **'Open map'**
+  String get openMap;
+
+  /// No description provided for @templateInfoPortAventura.
+  ///
+  /// In en, this message translates to:
+  /// **'PortAventura World is one of the largest resort destinations in Europe, located in Salou, Spain.'**
+  String get templateInfoPortAventura;
+
+  /// No description provided for @restaurants.
+  ///
+  /// In en, this message translates to:
+  /// **'Restaurants'**
+  String get restaurants;
+
+  /// No description provided for @hotelRoomsComingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Room details coming soon'**
+  String get hotelRoomsComingSoon;
 }
 
 class _AppLocalizationsDelegate
@@ -454,6 +654,7 @@ class _AppLocalizationsDelegate
 
   @override
   bool isSupported(Locale locale) => <String>[
+        'ar',
         'de',
         'en',
         'es',
@@ -472,6 +673,8 @@ class _AppLocalizationsDelegate
 AppLocalizations lookupAppLocalizations(Locale locale) {
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'ar':
+      return AppLocalizationsAr();
     case 'de':
       return AppLocalizationsDe();
     case 'en':

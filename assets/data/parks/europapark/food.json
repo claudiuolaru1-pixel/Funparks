@@ -1,0 +1,66 @@
+﻿[
+  {
+    "id": "eatrenalin",
+    "name": "Eatrenalin",
+    "type": "Fine Dining Experience",
+    "description": "A world-first immersive dining experience where guests sit in motorised chairs that move through themed rooms. Each course is paired with a different multisensory environment.",
+    "image": "assets/images/europapark/food_eatrenalin.png",
+    "lat": 48.2663,
+    "lng": 7.7222,
+    "rating": 4.8,
+    "topPick": true,
+    "items": [
+      {"name": "7-Course Tasting Menu", "description": "Full immersive dining journey through 7 themed rooms", "price": 195.00},
+      {"name": "5-Course Experience", "description": "Shorter immersive journey for a lighter evening", "price": 145.00},
+      {"name": "Wine Pairing", "description": "Curated wines matched to each course", "price": 65.00}
+    ]
+  },
+  {
+    "id": "seehaus",
+    "name": "Seehaus",
+    "type": "Spanish Restaurant",
+    "description": "Authentic Spanish cuisine served inside the stunning Hotel El Andaluz. Enjoy tapas, paella and grilled meats in an elegant Andalusian courtyard setting.",
+    "image": "assets/images/europapark/food_seehaus.png",
+    "lat": 48.2645,
+    "lng": 7.7198,
+    "rating": 4.4,
+    "topPick": true,
+    "items": [
+      {"name": "Grilled Lake Fish", "description": "Freshly grilled fish of the day with seasonal vegetables and herb butter", "price": 22.50},
+      {"name": "Seehaus Fish Soup", "description": "Hearty European fish soup with crusty bread", "price": 14.50},
+      {"name": "Black Forest Cake", "description": "Classic German Black Forest cherry gateau", "price": 7.50}
+    ]
+  },
+  {
+    "id": "petite_france",
+    "name": "Petite France",
+    "type": "Casual Dining",
+    "description": "A family-friendly restaurant in the heart of the park serving hearty burgers, schnitzels and daily specials. Named after the Mack family who founded Europa-Park.",
+    "image": "assets/images/europapark/food_petite_france.png",
+    "lat": 48.2667,
+    "lng": 7.7216,
+    "rating": 4.1,
+    "topPick": false,
+    "items": [
+      {"name": "Classic Burger", "description": "Beef patty with fries and house sauce", "price": 14.90},
+      {"name": "Wiener Schnitzel", "description": "Breaded pork schnitzel with potato salad", "price": 16.50},
+      {"name": "Kids Meal", "description": "Mini burger or nuggets with fries and a drink", "price": 9.90}
+    ]
+  },
+  {
+    "id": "foodloop",
+    "name": "Foodloop",
+    "type": "Italian Restaurant",
+    "description": "Sit-down Italian restaurant in the Italy-themed area of the park. Serving wood-fired pizzas, fresh pasta and classic Italian desserts in a lively trattoria atmosphere.",
+    "image": "assets/images/europapark/food_foodloop.png",
+    "lat": 48.2672,
+    "lng": 7.7231,
+    "rating": 4.2,
+    "topPick": false,
+    "items": [
+      {"name": "Margherita Pizza", "description": "Wood-fired pizza with tomato and mozzarella", "price": 13.50},
+      {"name": "Spaghetti Carbonara", "description": "Classic Roman pasta with egg, pancetta and pecorino", "price": 15.00},
+      {"name": "Tiramisu", "description": "House-made tiramisu with espresso and mascarpone", "price": 6.50}
+    ]
+  }
+]

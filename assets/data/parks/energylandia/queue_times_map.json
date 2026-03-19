@@ -1,0 +1,21 @@
+﻿{
+  "parkId": "energylandia",
+  "queueTimesId": 317,
+  "rides": [
+    { "id": "hyperion", "queueTimesName": "Hyperion Rc" },
+    { "id": "zadra", "queueTimesName": "Zadra" },
+    { "id": "speed", "queueTimesName": "Speed" },
+    { "id": "mayan", "queueTimesName": "Mayan" },
+    { "id": "dragon_rmf", "queueTimesName": "Dragon Rmf" },
+    { "id": "space_booster", "queueTimesName": "Space Booster" },
+    { "id": "abyssus", "queueTimesName": "Abyssus" },
+    { "id": "aztec", "queueTimesName": "Aztec Swing" },
+    { "id": "jungle_adventure", "queueTimesName": "Jungle Adventure" },
+    { "id": "atlantis", "queueTimesName": "Atlantis" },
+    { "id": "formula", "queueTimesName": "Moya Formula Rc" },
+    { "id": "wonder_wheel", "queueTimesName": "Wonder Wheel" },
+    { "id": "choco_chip_creek", "queueTimesName": "Choco Chip Creek" },
+    { "id": "boomerang", "queueTimesName": "Boomerang" },
+    { "id": "apocalypto", "queueTimesName": "Apocalypto" }
+  ]
+}

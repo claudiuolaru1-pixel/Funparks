@@ -1,0 +1,6 @@
+﻿[
+  {"id":"flambo_jambo","name":"Flambo Jambo","type":"restaurant","priceRange":"$$","lat":52.9872,"lng":-1.8921,"image":"assets/images/altontowers/food_flambo_jambo.png"},
+  {"id":"secret_garden","name":"Secret Garden Restaurant","type":"restaurant","priceRange":"$$","lat":52.9874,"lng":-1.8919,"image":"assets/images/altontowers/food_secret_garden.png"},
+  {"id":"rollercoaster_restaurant","name":"Rollercoaster Restaurant","type":"restaurant","priceRange":"$$$","lat":52.9870,"lng":-1.8923,"image":"assets/images/altontowers/food_rollercoaster_restaurant.png"},
+  {"id":"towers_street_eats","name":"Towers Street Eats","type":"fast_food","priceRange":"$","lat":52.9876,"lng":-1.8917,"image":"assets/images/altontowers/food_towers_street_eats.png"}
+]

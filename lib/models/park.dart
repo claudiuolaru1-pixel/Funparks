@@ -2,6 +2,7 @@
 class Park {
   final String id;
   final String name;
+  final String? city;
   final String country;
   final String type;
   final String? openingHours;
@@ -9,58 +10,71 @@ class Park {
   final String currency;
   final double lat;
   final double lng;
+  final String? thumbnail;
   final String? website;
+  final String? ticketsUrl;
+  final int? queueTimesId;
 
-  // Optional UI fields
-  final String? city;
-  final String? thumbnail; // asset path or image URL
-
-  Park({
+  const Park({
     required this.id,
     required this.name,
+    this.city,
     required this.country,
     required this.type,
-    required this.openingHours,
+    this.openingHours,
     required this.entryPrices,
     required this.currency,
     required this.lat,
     required this.lng,
-    this.website,
-    this.city,
     this.thumbnail,
+    this.website,
+    this.ticketsUrl,
+    this.queueTimesId,
   });
 
+  static double _d(dynamic v, double fb) =>
+      v is num ? v.toDouble() : double.tryParse('$v') ?? fb;
+
   factory Park.fromJson(Map<String, dynamic> j) {
-    // entryPrices can be absent or not a map
-    final prices = j['entryPrices'];
-    Map<String, num> parsedPrices;
-    if (prices is Map) {
-      parsedPrices = Map<String, num>.from(
-        prices.map((k, v) => MapEntry(k.toString(), (v as num))),
-      );
-    } else {
-      parsedPrices = const {'adult': 0, 'child': 0};
+    final rawPrices = j['entryPrices'];
+    final prices = <String, num>{};
+    if (rawPrices is Map) {
+      rawPrices.forEach((k, v) {
+        if (v is num) prices[k.toString()] = v;
+      });
     }
-
-    double parseDouble(dynamic v) {
-      if (v == null) return 0.0;
-      if (v is num) return v.toDouble();
-      return double.tryParse(v.toString()) ?? 0.0;
-    }
-
     return Park(
-      id: (j['id'] ?? j['parkId'] ?? j['uid'] ?? '').toString(),
-      name: (j['name'] ?? 'Unnamed Park').toString(),
-      country: (j['country'] ?? '').toString(),
-      type: (j['type'] ?? 'theme').toString(),
+      id: '${j['id'] ?? ''}',
+      name: '${j['name'] ?? ''}',
+      city: j['city']?.toString(),
+      country: '${j['country'] ?? ''}',
+      type: '${j['type'] ?? ''}',
       openingHours: j['openingHours']?.toString(),
-      entryPrices: parsedPrices,
-      currency: (j['currency'] ?? 'EUR').toString(),
-      lat: parseDouble(j['lat']),
-      lng: parseDouble(j['lng']),
+      entryPrices: prices,
+      currency: '${j['currency'] ?? 'EUR'}',
+      lat: _d(j['lat'], 0.0),
+      lng: _d(j['lng'], 0.0),
+      thumbnail: j['thumbnail']?.toString(),
       website: j['website']?.toString(),
-      city: (j['city'] ?? j['town'] ?? j['locality'])?.toString(),
-      thumbnail: (j['thumbnail'] ?? j['image'] ?? j['imageUrl'] ?? j['thumbnailUrl'])?.toString(),
+      ticketsUrl: j['ticketsUrl']?.toString(),
+      queueTimesId: j['queueTimesId'] is int ? j['queueTimesId'] : null,
     );
   }
+
+  Map<String, dynamic> toJson() => {
+        'id': id,
+        'name': name,
+        if (city != null) 'city': city,
+        'country': country,
+        'type': type,
+        if (openingHours != null) 'openingHours': openingHours,
+        'entryPrices': entryPrices,
+        'currency': currency,
+        'lat': lat,
+        'lng': lng,
+        if (thumbnail != null) 'thumbnail': thumbnail,
+        if (website != null) 'website': website,
+        if (ticketsUrl != null) 'ticketsUrl': ticketsUrl,
+        if (queueTimesId != null) 'queueTimesId': queueTimesId,
+      };
 }

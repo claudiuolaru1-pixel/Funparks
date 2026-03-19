@@ -1,40 +1,95 @@
 {
   "@@locale": "fr",
+
+  "favoritesTitle": "Favoris",
+  "noFavoritesYet": "Pas encore de favoris",
+  "removeFromFavorites": "Retirer des favoris",
+
   "appTitle": "Funparks",
+  "viewPark": "Voir le parc",
   "overview": "Aperçu",
   "attractions": "Attractions",
   "foodAndPrices": "Restauration & prix",
-  "hours": "Horaires",
+  "hotels": "Hôtels",
+
   "entryFrom": "Entrée à partir de",
+  "hours": "Horaires",
   "location": "Lieu",
   "parkMap": "Plan du parc",
-  "highlights": "Incontournables",
+  "highlights": "Temps forts",
+
   "translate": "Traduire",
+  "adult": "Adulte",
+  "child": "Enfant",
+  "website": "Site web",
+  "comingSoon": "Bientôt",
+
+  "settings": "Paramètres",
+  "language": "Langue",
+  "currency": "Devise",
+  "nearbyParks": "Parcs à proximité",
+
   "thrill": "Sensations",
   "family": "Famille",
-  "water": "Eau",
+  "water": "Aquatique",
   "simulator": "Simulateur",
-  "topPick": "Coup de cœur",
+
+  "topPick": "Top choix",
   "recommended": "Recommandé",
   "lowestWait": "Attente la plus courte",
   "highestRated": "Mieux noté",
   "tapCardForDetails": "Touchez une carte pour les détails",
-  "addToMyDay": "Ajouter à Ma Journée",
-  "removeFromMyDay": "Retirer de Ma Journée",
-  "addToMyFood": "Ajouter à Mes Repas",
-  "removeFromMyFood": "Retirer de Mes Repas",
+
+  "addToMyDay": "Ajouter à Ma journée",
+  "removeFromMyDay": "Retirer de Ma journée",
+  "addToMyFood": "Ajouter à Ma nourriture",
+  "removeFromMyFood": "Retirer de Ma nourriture",
+
   "directions": "Itinéraire",
   "liveWait": "Attente en direct",
   "setMyWait": "Mon attente",
+
   "yourRating": "Votre note",
   "yourComment": "Votre commentaire",
-  "commentHint": "Conseils, meilleures places, etc…",
-  "commentHintFood": "Conseils (bon rapport qualité/prix, plats favoris)…",
+  "commentHint": "Conseils, meilleurs sièges, etc…",
+  "commentHintFood": "Conseils (bon rapport qualité-prix, plats préférés)…",
+
   "myWaitTimeOptional": "Mon attente (optionnel)",
   "minutesHint": "Minutes (ex. 25)",
+
   "menuAndPrices": "Menu & prix",
   "share": "Partager",
   "save": "Enregistrer",
   "saved": "Enregistré !",
-  "comingSoon": "Bientôt disponible"
+
+  "rooms": "Chambres",
+  "night": "nuit",
+  "price": "Prix",
+  "rating": "Note",
+  "breakfastIncluded": "Petit-déjeuner inclus",
+  "breakfastNotIncluded": "Petit-déjeuner non inclus",
+
+  "addToMyStay": "Ajouter à Mon séjour",
+  "removeFromMyStay": "Retirer de Mon séjour",
+  "lowestPrice": "Prix le plus bas",
+
+  "didYouKnow": "Le saviez-vous",
+  "plan": "Plan",
+  "photos": "Photos",
+  "route": "Itinéraire",
+
+  "closest": "Le plus proche",
+  "cheapest": "Le moins cher",
+
+  "myDayRouteTitle": "Itinéraire de ma journée",
+  "myDayRouteEmpty": "Ajoutez des attractions à Ma journée pour créer un itinéraire.",
+
+  "templateInfoPortAventura": "Ce parc utilise le modèle PortAventura. Attractions, restauration et hôtels sont chargés depuis un JSON local.",
+  "hotelRoomsComingSoon": "Nous ajouterons ici bientôt les chambres, prix, photos et liens de réservation.",
+
+  "facts": "Infos",
+  "speed": "Vitesse",
+  "height": "Hauteur",
+  "inversions": "Inversions",
+  "opened": "Ouvert"
 }

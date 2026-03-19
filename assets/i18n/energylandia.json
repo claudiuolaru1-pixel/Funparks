@@ -1,0 +1,416 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Energylandia is Poland's largest amusement park located in Zator, 50 km from Krakow. Opened in 2014, it has grown into one of Europe's top theme parks with 19 roller coasters, 133 attractions and a massive outdoor water park across 70 hectares.",
+      "es": "Energylandia es el parque de atracciones mas grande de Polonia en Zator, a 50 km de Cracovia. Abierto en 2014 con 19 montanas rusas y 133 atracciones en 70 hectareas.",
+      "fr": "Energylandia est le plus grand parc d'attractions de Pologne situe a Zator, a 50 km de Cracovie. Ouvert en 2014 avec 19 montagnes russes et 133 attractions sur 70 hectares.",
+      "de": "Energylandia ist Polens groesster Freizeitpark in Zator, 50 km von Krakau. 2014 eroeffnet mit 19 Achterbahnen und 133 Attraktionen auf 70 Hektar.",
+      "it": "Energylandia e il piu grande parco divertimenti della Polonia a Zator, 50 km da Cracovia. Aperto nel 2014 con 19 montagne russe e 133 attrazioni su 70 ettari.",
+      "nl": "Energylandia is het grootste pretpark van Polen in Zator, 50 km van Krakow. Geopend in 2014 met 19 achterbanen en 133 attracties op 70 hectare.",
+      "pt": "Energylandia e o maior parque de diversoes da Polonia em Zator, a 50 km de Cracovia. Aberto em 2014 com 19 montanhas-russas e 133 atracoes em 70 hectares.",
+      "ru": "Energylandia — крупнейший парк развлечений Польши в Заторе, в 50 км от Кракова. Открыт в 2014 году, 19 горок и 133 аттракциона на 70 гектарах.",
+      "zh": "能量乐园是波兰最大的游乐园，位于扎托尔，距克拉科夫50公里。2014年开放，拥有19座过山车和133个项目，占地70公顷。",
+      "ar": "إينرجيلاند هي أكبر مدينة ملاهٍ في بولندا في زاتور، على بعد 50 كم من كراكوف. افتُتحت عام 2014 وتضم 19 أفعوانية و133 جاذبية على 70 هكتاراً."
+    },
+    "ov_highlights_body": {
+      "en": "Hyperion is Europe's tallest lift hill coaster at 77 metres and 142 km/h. Zadra is the world's largest hybrid wooden coaster at 63 metres. Speed and Space Booster both launch to 121 km/h. Jungle Adventure is one of Poland's largest river rapids rides. The water park includes 36 slides and is free with park entry.",
+      "es": "Hyperion es el coaster mas alto de Europa con 77 metros y 142 km/h. Zadra es el mayor coaster hibrido de madera del mundo. El parque acuatico tiene 36 toboganes incluidos en la entrada.",
+      "fr": "Hyperion est le coaster le plus haut d'Europe a 77 metres et 142 km/h. Zadra est le plus grand coaster hybride en bois du monde. Le parc aquatique avec 36 toboggans est inclus dans l'entree.",
+      "de": "Hyperion ist Europas hoechster Lifthill-Coaster mit 77 Metern und 142 km/h. Zadra ist der weltgroesste Hybrid-Holzcoaster. Der Wasserpark mit 36 Rutschen ist im Eintritt enthalten.",
+      "it": "Hyperion e il coaster piu alto d'Europa con 77 metri e 142 km/h. Zadra e il piu grande coaster ibrido in legno del mondo. Il parco acquatico con 36 scivoli e incluso nel biglietto.",
+      "nl": "Hyperion is Europa's hoogste lifthill coaster op 77 meter en 142 km/h. Zadra is de grootste hybride houten coaster ter wereld. Het waterpark met 36 glijbanen is inbegrepen bij toegang.",
+      "pt": "Hyperion e o coaster mais alto da Europa com 77 metros e 142 km/h. Zadra e o maior coaster hibrido de madeira do mundo. O parque aquatico com 36 tobogans esta incluido na entrada.",
+      "ru": "Hyperion — самые высокие горки Европы 77 м при 142 км/ч. Zadra — крупнейшие гибридные деревянные горки мира. Водный парк с 36 горками включён в билет.",
+      "zh": "海伯利安是欧洲最高的升降轨道过山车，77米，142公里/时。扎德拉是世界最大的混合木质过山车。水上乐园含36条滑道，包含在门票内。",
+      "ar": "هايبيريون هو أطول أفعوانية في أوروبا بارتفاع 77 متراً وسرعة 142 كم/ساعة. زادرا هي أكبر أفعوانية خشبية هجينة في العالم. المتنزه المائي بـ 36 زحليقة مشمول في تذكرة الدخول."
+    },
+    "ov_did_you_know_body": {
+      "en": "Energylandia opened on 14 July 2014 with just three roller coasters and has expanded every single year since. It now holds the record jointly for the most roller coasters of any theme park in the world with 19. Zadra was ranked in the top 50 roller coasters in the world by Amusement Today in 2022.",
+      "es": "Energylandia abrio el 14 de julio de 2014 con tres montanas rusas y ha crecido cada ano. Comparte el record mundial de mas montanas rusas con 19. Zadra fue clasificada entre las 50 mejores del mundo en 2022.",
+      "fr": "Energylandia a ouvert le 14 juillet 2014 avec trois montagnes russes et a grandi chaque annee. Elle detient conjointement le record mondial du plus grand nombre de montagnes russes avec 19. Zadra classee top 50 mondial en 2022.",
+      "de": "Energylandia eroeffnete am 14. Juli 2014 mit drei Achterbahnen und wuchs jedes Jahr. Sie haelt gemeinsam den Weltrekord fuer die meisten Achterbahnen mit 19. Zadra 2022 in den Top 50 weltweit.",
+      "it": "Energylandia ha aperto il 14 luglio 2014 con tre montagne russe e e cresciuta ogni anno. Detiene il record mondiale con 19 montagne russe. Zadra classificata top 50 mondiale nel 2022.",
+      "nl": "Energylandia opende op 14 juli 2014 met drie achterbanen en groeide elk jaar. Het houdt gezamenlijk het wereldrecord voor meeste achterbanen met 19. Zadra top 50 wereldwijd in 2022.",
+      "pt": "Energylandia abriu a 14 de julho de 2014 com tres montanhas-russas e cresceu cada ano. Dethem o recorde mundial com 19 montanhas-russas. Zadra top 50 mundial em 2022.",
+      "ru": "Energylandia открылась 14 июля 2014 с тремя горками и расширялась каждый год. Мировой рекорд — 19 горок. Zadra в топ-50 мира в 2022 году.",
+      "zh": "能量乐园于2014年7月14日开放，只有三座过山车，此后每年扩建。现共同保持世界最多过山车记录，共19座。扎德拉2022年入选全球前50名。",
+      "ar": "افتُتحت إينرجيلاند في 14 يوليو 2014 بثلاث أفعوانيات فقط وتوسعت كل عام. تحمل الآن الرقم القياسي بـ 19 أفعوانية. صُنِّفت زادرا ضمن أفضل 50 أفعوانية عالمياً عام 2022."
+    },
+    "ov_plan_body": {
+      "en": "Head to Hyperion and Zadra first thing as they draw the longest queues. Tackle Speed and Mayan mid-morning. Use the afternoon for Jungle Adventure and the water park which is included in your ticket. The park is very large so wear comfortable shoes and consider a two-day ticket.",
+      "es": "Ve primero a Hyperion y Zadra. Speed y Mayan a media manana. La tarde para Jungle Adventure y el parque acuatico incluido. El parque es muy grande, considera ticket de dos dias.",
+      "fr": "Allez d'abord a Hyperion et Zadra. Speed et Mayan en milieu de matinee. L'apres-midi pour Jungle Adventure et le parc aquatique inclus. Le parc est tres grand, envisagez un billet deux jours.",
+      "de": "Zuerst zu Hyperion und Zadra. Speed und Mayan am Vormittag. Nachmittags Jungle Adventure und Wasserpark inklusive. Der Park ist sehr gross, Zweitageskarte empfohlen.",
+      "it": "Prima Hyperion e Zadra. Speed e Mayan a meta mattina. Pomeriggio per Jungle Adventure e parco acquatico incluso. Il parco e molto grande, considera biglietto due giorni.",
+      "nl": "Eerst naar Hyperion en Zadra. Speed en Mayan halverwege de ochtend. Middag voor Jungle Adventure en waterpark inbegrepen. Park is zeer groot, overweeg tweedaags ticket.",
+      "pt": "Primeiro Hyperion e Zadra. Speed e Mayan a meio da manha. Tarde para Jungle Adventure e parque aquatico incluido. O parque e muito grande, considera bilhete dois dias.",
+      "ru": "Сначала Hyperion и Zadra. Speed и Mayan утром. Днём Jungle Adventure и водный парк в билете. Парк очень большой, рекомендуем билет на 2 дня.",
+      "zh": "先去海伯利安和扎德拉。上午玩Speed和玛雅。下午去丛林冒险和水上乐园，含在票价内。公园很大，建议购买两日票。",
+      "ar": "اذهب أولاً إلى هايبيريون وزادرا. سبيد ومايان في منتصف الصباح. بعد الظهر لمغامرة الغابة والمتنزه المائي المشمول في التذكرة. المتنزه كبير جداً، فكر في تذكرة يومين."
+    },
+    "ov_photos_body": {
+      "en": "The best photo spots are beneath Hyperion's massive first drop and alongside Zadra's twisted track framed against the sky. The Wonder Wheel offers the best panoramic views. Jungle Adventure's rapids create exciting action shots. The Sweet Valley candy-themed zone is colourful and perfect for family photos.",
+      "es": "Los mejores spots son bajo la primera caida de Hyperion y junto a la pista de Zadra. Wonder Wheel ofrece las mejores vistas panoramicas. Jungle Adventure crea fotos de accion emocionantes.",
+      "fr": "Les meilleurs spots sont sous la premiere chute d'Hyperion et le long de la piste de Zadra. Wonder Wheel offre les meilleures vues panoramiques. Jungle Adventure cree des photos d'action excitantes.",
+      "de": "Die besten Spots sind unter Hyperions erstem Abfall und neben Zadras Strecke. Wonder Wheel bietet die besten Panoramaaussichten. Jungle Adventure schafft aufregende Aktionsfotos.",
+      "it": "I migliori spot sono sotto la prima caduta di Hyperion e lungo la pista di Zadra. Wonder Wheel offre le migliori viste panoramiche. Jungle Adventure crea foto d'azione emozionanti.",
+      "nl": "De beste spots zijn onder Hyperions eerste val en langs Zadra's baan. Wonder Wheel biedt de beste panoramische uitzichten. Jungle Adventure creert opwindende actiefoto's.",
+      "pt": "Os melhores spots sao sob a primeira queda de Hyperion e ao longo da pista de Zadra. Wonder Wheel oferece as melhores vistas panoramicas. Jungle Adventure cria fotos de acao emocionantes.",
+      "ru": "Лучшие места — под первым падением Hyperion и вдоль трассы Zadra. Wonder Wheel — лучший панорамный вид. Jungle Adventure для зрелищных фото.",
+      "zh": "最佳拍照地点：海伯利安第一次下落处下方和扎德拉扭曲轨道旁。摩天轮提供最佳全景视野。丛林冒险提供精彩动作照片。",
+      "ar": "أفضل أماكن التصوير: أسفل أول انخفاض لهايبيريون وجانب مسار زادرا. عجلة العجب توفر أفضل إطلالات بانورامية. مغامرة الغابة لصور حركة مثيرة."
+    }
+  },
+  "attractions": {
+    "hyperion": {
+      "desc": {
+        "en": "Europe's tallest lift hill coaster soaring 77 metres at 142 km/h. This Intamin hyper coaster delivers breathtaking airtime moments and an unforgettable first drop.",
+        "es": "El coaster de colina elevadora mas alto de Europa con 77 metros y 142 km/h. Momentos de airtime impresionantes.",
+        "fr": "Le coaster a colline de levage le plus haut d'Europe a 77 metres et 142 km/h. Moments d'airtime epoustouflants.",
+        "de": "Europas hoechster Lifthill-Coaster mit 77 Metern und 142 km/h. Atemberaubende Airtime-Momente.",
+        "it": "Il coaster con collina di sollevamento piu alto d'Europa a 77 metri e 142 km/h. Momenti di airtime mozzafiato.",
+        "nl": "Europa's hoogste lifthill coaster op 77 meter en 142 km/h. Adembenemende airtimemomenten.",
+        "pt": "O coaster de colina de elevacao mais alto da Europa a 77 metros e 142 km/h. Momentos de airtime deslumbrantes.",
+        "ru": "Самые высокие горки Европы 77 м при 142 км/ч. Незабываемые моменты невесомости.",
+        "zh": "欧洲最高的升降轨道过山车，77米，142公里/时。令人惊叹的空中时间瞬间。",
+        "ar": "أطول أفعوانية في أوروبا بارتفاع 77 متراً وسرعة 142 كم/ساعة. لحظات انعدام جاذبية لا تُنسى."
+      }
+    },
+    "zadra": {
+      "desc": {
+        "en": "The world's largest hybrid wooden roller coaster built by RMC reaching 63 metres with incredible drops, three inversions and breathtaking views across the park.",
+        "es": "La montana rusa hibrida de madera mas grande del mundo construida por RMC con 63 metros y tres inversiones.",
+        "fr": "Le plus grand coaster hybride en bois du monde construit par RMC atteignant 63 metres avec trois inversions.",
+        "de": "Der weltgroesste Hybrid-Holzcoaster von RMC mit 63 Metern und drei Inversionen.",
+        "it": "Il piu grande coaster ibrido in legno del mondo costruito da RMC con 63 metri e tre inversioni.",
+        "nl": "De grootste hybride houten achterbaan ter wereld gebouwd door RMC met 63 meter en drie inversies.",
+        "pt": "A maior montanha-russa hibrida de madeira do mundo construida pela RMC com 63 metros e tres inversoes.",
+        "ru": "Крупнейшие гибридные деревянные горки мира от RMC, 63 м, три инверсии и захватывающие виды.",
+        "zh": "RMC建造的世界最大混合木质过山车，高63米，三次翻转，俯瞰公园全景。",
+        "ar": "أكبر أفعوانية خشبية هجينة في العالم من بناء RMC بارتفاع 63 متراً وثلاثة انقلابات."
+      }
+    },
+    "speed": {
+      "desc": {
+        "en": "A powerful launched roller coaster blasting riders to 121 km/h across 62 metres with three intense inversions and relentless G-forces from start to finish.",
+        "es": "Potente montana rusa lanzada que dispara a los riders a 121 km/h en 62 metros con tres intensas inversiones.",
+        "fr": "Un puissant coaster lance propulsant les riders a 121 km/h sur 62 metres avec trois inversions intenses.",
+        "de": "Kraftvoller Launch-Coaster mit 121 km/h auf 62 Metern und drei intensiven Inversionen.",
+        "it": "Un potente coaster lanciato che spara i rider a 121 km/h su 62 metri con tre intense inversioni.",
+        "nl": "Een krachtige gelanceerde achterbaan die riders naar 121 km/h schiet over 62 meter met drie intense inversies.",
+        "pt": "Uma poderosa montana-russa lancada que dispara riders a 121 km/h em 62 metros com tres inversoes intensas.",
+        "ru": "Мощные запускаемые горки 121 км/ч на 62 метрах с тремя интенсивными инверсиями.",
+        "zh": "强力发射式过山车，时速121公里，高62米，三次激烈翻转。",
+        "ar": "أفعوانية إطلاق قوية تقذف الركاب بسرعة 121 كم/ساعة عبر 62 متراً مع ثلاثة انقلابات شديدة."
+      }
+    },
+    "mayan": {
+      "desc": {
+        "en": "A smooth Vekoma suspended looping coaster with five inversions and an 80 km/h top speed delivering intense G-forces in a Mayan temple themed setting.",
+        "es": "Suave coaster de lazos suspendido Vekoma con cinco inversiones y 80 km/h en entorno de templo maya.",
+        "fr": "Un coaster a boucles suspendu Vekoma fluide avec cinq inversions et 80 km/h dans un decor de temple maya.",
+        "de": "Ruhiger Vekoma-Haenge-Looping-Coaster mit fuenf Inversionen und 80 km/h in Maya-Tempel-Ambiente.",
+        "it": "Un fluido coaster a cappio sospeso Vekoma con cinque inversioni e 80 km/h in ambientazione tempio maya.",
+        "nl": "Een vlotte Vekoma hangende looping achterbaan met vijf inversies en 80 km/h in Maya tempel setting.",
+        "pt": "Um suave coaster de loops suspenso Vekoma com cinco inversoes e 80 km/h em cenario de templo maia.",
+        "ru": "Плавные подвесные петлевые горки Vekoma с пятью инверсиями и 80 км/ч в декорациях храма майя.",
+        "zh": "顺畅的Vekoma悬挂环形过山车，五次翻转，时速80公里，玛雅神庙主题设计。",
+        "ar": "أفعوانية Vekoma المعلقة الناعمة بخمس انقلابات وسرعة 80 كم/ساعة في ديكور معبد المايا."
+      }
+    },
+    "dragon_rmf": {
+      "desc": {
+        "en": "Poland's first inverted roller coaster racing along 453 metres of track at 76 km/h with a 20-metre drop and four inversions including thrilling tunnel sections.",
+        "es": "El primer coaster invertido de Polonia con 453 metros a 76 km/h, caida de 20 metros y cuatro inversiones.",
+        "fr": "Le premier coaster inverse de Pologne parcourant 453 metres a 76 km/h avec une chute de 20 metres et quatre inversions.",
+        "de": "Polens erster invertierter Coaster auf 453 Metern bei 76 km/h mit 20-Meter-Abfall und vier Inversionen.",
+        "it": "Il primo coaster invertito della Polonia su 453 metri a 76 km/h con caduta di 20 metri e quattro inversioni.",
+        "nl": "Polens eerste omgekeerde achterbaan over 453 meter op 76 km/h met 20 meter val en vier inversies.",
+        "pt": "A primeira montana-russa invertida da Polonia percorrendo 453 metros a 76 km/h com queda de 20 metros.",
+        "ru": "Первые перевёрнутые горки Польши, 453 м при 76 км/ч, падение 20 м и четыре инверсии.",
+        "zh": "波兰第一座倒置过山车，453米轨道，时速76公里，20米下落，四次翻转。",
+        "ar": "أول أفعوانية مقلوبة في بولندا تسابق عبر 453 متراً بسرعة 76 كم/ساعة مع انخفاض 20 متراً وأربعة انقلابات."
+      }
+    },
+    "space_booster": {
+      "desc": {
+        "en": "A thrilling space-themed launched coaster reaching 62 metres at 121 km/h with three inversions delivering an intense cosmic adventure.",
+        "es": "Emocionante coaster lanzado con tema espacial que alcanza 62 metros a 121 km/h con tres inversiones.",
+        "fr": "Coaster lance sur theme spatial atteignant 62 metres a 121 km/h avec trois inversions.",
+        "de": "Weltraum-Launch-Coaster mit 62 Metern bei 121 km/h und drei Inversionen.",
+        "it": "Coaster lanciato a tema spaziale che raggiunge 62 metri a 121 km/h con tre inversioni.",
+        "nl": "Ruimte-thema gelanceerde achterbaan tot 62 meter op 121 km/h met drie inversies.",
+        "pt": "Coaster lancado com tema espacial atingindo 62 metros a 121 km/h com tres inversoes.",
+        "ru": "Космический запускаемый коастер 62 м при 121 км/ч с тремя инверсиями.",
+        "zh": "太空主题发射式过山车，62米高，时速121公里，三次翻转。",
+        "ar": "أفعوانية إطلاق بطابع فضائي تصل إلى 62 متراً بسرعة 121 كم/ساعة مع ثلاثة انقلابات."
+      }
+    },
+    "abyssus": {
+      "desc": {
+        "en": "A dramatic dive coaster plunging riders beyond vertical into an underground abyss with intense water effects and a unique beyond-vertical drop experience.",
+        "es": "Dramatico coaster de buceo que sumerge a los riders mas alla de la vertical en un abismo subterraneo.",
+        "fr": "Dramatique coaster plongeant les riders au-dela du vertical dans un abime souterrain avec effets aquatiques.",
+        "de": "Dramatischer Taucher-Coaster mit Ueber-Vertikal-Abfall in einen unterirdischen Abgrund mit Wassereffekten.",
+        "it": "Drammatico coaster tuffatore che immerge i rider oltre la verticale in un abisso sotterraneo con effetti acqua.",
+        "nl": "Dramatische duikachterbaan die riders voorbij verticaal in een ondergrondse afgrond plunst met watereffecten.",
+        "pt": "Dramatico coaster de mergulho que lanca riders alem do vertical num abismo subterraneo.",
+        "ru": "Драматический дайв-коастер с падением за вертикальную черту в подземную бездну с водными эффектами.",
+        "zh": "戏剧性的俯冲过山车，超过垂直角度落入地下深渊，配合水景特效。",
+        "ar": "أفعوانية غوص درامية تغرق الركاب إلى ما بعد العمودي في هاوية تحت الأرض مع مؤثرات مائية."
+      }
+    },
+    "aztec": {
+      "desc": {
+        "en": "A massive giant pendulum ride with a 27-metre diameter swinging in a sweeping arc in the Extreme zone, delivering intense height and speed thrills.",
+        "es": "Masivo columpio pendulo gigante con 27 metros de diametro en la zona Extreme.",
+        "fr": "Massif pendule geant de 27 metres de diametre oscillant dans la zone Extreme.",
+        "de": "Massives Riesenpendel mit 27 Metern Durchmesser in der Extreme-Zone.",
+        "it": "Massiccio pendolo gigante con diametro di 27 metri nella zona Extreme.",
+        "nl": "Massief reuzenslinger met 27 meter diameter in de Extreme zone.",
+        "pt": "Massivo pendulo gigante com 27 metros de diametro na zona Extreme.",
+        "ru": "Гигантский маятник диаметром 27 м в зоне Extreme.",
+        "zh": "极限区的巨型摆锤游乐设施，直径27米，大弧度摆动。",
+        "ar": "لعبة بندول ضخمة بقطر 27 متراً تتأرجح في قوس واسع في منطقة الإكستريم."
+      }
+    },
+    "jungle_adventure": {
+      "desc": {
+        "en": "One of Poland's largest river rapids rides sending boats through heart-pounding jungle currents, whirlpools and rushing water for a completely soaking adventure.",
+        "es": "Una de las mayores atracciones de rapidos de Polonia con corrientes de selva y remolinos.",
+        "fr": "L'une des plus grandes attractions de rapides de Pologne avec courants de jungle et tourbillons.",
+        "de": "Eines der groessten Wildwasser-Fahrten Polens durch Dschungelstroemungen und Strudel.",
+        "it": "Una delle piu grandi attrazioni di rapide della Polonia con correnti di giungla e mulinelli.",
+        "nl": "Een van Polens grootste wildwaterritten door jungle stromen en draaikolken.",
+        "pt": "Uma das maiores atracoes de rapidos da Polonia com correntes de selva e redemoinhos.",
+        "ru": "Одна из крупнейших водных горок Польши с джунглевыми течениями и водоворотами.",
+        "zh": "波兰最大激流漂流项目之一，穿越丛林激流和漩涡，保证全身湿透。",
+        "ar": "واحدة من أكبر ألعاب المياه السريعة في بولندا ترسل القوارب عبر تيارات الغابة والدوامات."
+      }
+    },
+    "atlantis": {
+      "desc": {
+        "en": "An exciting water adventure through the sunken city of Atlantis in the Aqualantis zone with dramatic theming and a guaranteed soaking splash.",
+        "es": "Emocionante aventura acuatica por la ciudad hundida de Atlantis en la zona Aqualantis.",
+        "fr": "Aventure aquatique dans la cite engloutie d'Atlantide dans la zone Aqualantis.",
+        "de": "Spannendes Wasserabenteuer durch die versunkene Stadt Atlantis in der Aqualantis-Zone.",
+        "it": "Emozionante avventura acquatica nella citta sommersa di Atlantide nella zona Aqualantis.",
+        "nl": "Spannend wateravontuur door de gezonken stad Atlantis in de Aqualantis zone.",
+        "pt": "Aventura aquatica emocionante pela cidade afundada de Atlantis na zona Aqualantis.",
+        "ru": "Захватывающее водное приключение через затопленный город Атлантиды в зоне Aqualantis.",
+        "zh": "在Aqualantis区体验穿越沉没的亚特兰蒂斯城市的水上冒险。",
+        "ar": "مغامرة مائية مثيرة عبر مدينة أتلانتس الغارقة في منطقة أكوالانتيس."
+      }
+    },
+    "formula": {
+      "desc": {
+        "en": "A Vekoma launched roller coaster inspired by Formula racing with high-speed twists and turns delivering an adrenaline rush for speed enthusiasts.",
+        "es": "Coaster lanzado Vekoma inspirado en las carreras de Formula con giros a alta velocidad.",
+        "fr": "Coaster lance Vekoma inspire de la course de Formule avec virages a grande vitesse.",
+        "de": "Vekoma-Launch-Coaster inspiriert vom Formel-Rennen mit Hochgeschwindigkeitskurven.",
+        "it": "Coaster lanciato Vekoma ispirato alle corse di Formula con curve ad alta velocita.",
+        "nl": "Vekoma gelanceerde achterbaan geinspireerd op Formule races met snelle bochten.",
+        "pt": "Coaster lancado Vekoma inspirado nas corridas de Formula com curvas a alta velocidade.",
+        "ru": "Запускаемые горки Vekoma в стиле гонок Формулы с высокоскоростными поворотами.",
+        "zh": "Vekoma发射式过山车，以方程式赛车为灵感，高速过弯。",
+        "ar": "أفعوانية إطلاق Vekoma مستوحاة من سباقات الفورمولا بمنعطجات عالية السرعة."
+      }
+    },
+    "wonder_wheel": {
+      "desc": {
+        "en": "A towering 53-metre Ferris wheel with 30 enclosed cabins offering stunning panoramic views across the entire park and surrounding landscape.",
+        "es": "Noria de 53 metros con 30 cabinas ofreciendo vistas panoramicas del parque y los alrededores.",
+        "fr": "Grande roue de 53 metres avec 30 cabines offrant des vues panoramiques sur le parc et les environs.",
+        "de": "53-Meter-Riesenrad mit 30 Kabinen mit Panoramablick ueber den gesamten Park und die Umgebung.",
+        "it": "Ruota panoramica di 53 metri con 30 cabine con viste panoramiche su tutto il parco.",
+        "nl": "53 meter hoog reuzenrad met 30 cabines met panoramisch uitzicht over het hele park.",
+        "pt": "Roda gigante de 53 metros com 30 cabines com vistas panoramicas sobre todo o parque.",
+        "ru": "Колесо обозрения высотой 53 м с 30 кабинами и панорамным видом на весь парк.",
+        "zh": "53米高的摩天轮，30个封闭式车厢，俯瞰整个公园和周边景色。",
+        "ar": "عجلة فيريس شاهقة بارتفاع 53 متراً مع 30 كابينة مغلقة توفر مناظر بانورامية على كامل المتنزه."
+      }
+    },
+    "choco_chip_creek": {
+      "desc": {
+        "en": "A charming family mine train coaster winding through 1.2 kilometres of colourful candy-themed Sweet Valley scenery at 46 km/h.",
+        "es": "Encantadora montana rusa familiar estilo mina recorriendo 1,2 km de Sweet Valley a 46 km/h.",
+        "fr": "Charmant coaster familial style mine parcourant 1,2 km de Sweet Valley colore a 46 km/h.",
+        "de": "Charmante Familien-Minenbahnbahn durch 1,2 km bunter Sweet-Valley-Szenerie bei 46 km/h.",
+        "it": "Affascinante coaster familiare stile miniera che percorre 1,2 km di Sweet Valley colorata a 46 km/h.",
+        "nl": "Charmante familie mijntrein coaster door 1,2 km kleurrijk Sweet Valley op 46 km/h.",
+        "pt": "Charmoso coaster familiar de comboio de mina percorrendo 1,2 km de Sweet Valley a 46 km/h.",
+        "ru": "Очаровательный семейный шахтный поезд через 1,2 км красочной зоны Sweet Valley при 46 км/ч.",
+        "zh": "迷人的家庭矿山车，穿越1.2公里多彩糖果主题甜蜜谷风景，时速46公里。",
+        "ar": "أفعوانية قطار منجم عائلية ساحرة تلف عبر 1.2 كيلومتر من مشهد وادي الحلوى الملون بسرعة 46 كم/ساعة."
+      }
+    },
+    "boomerang": {
+      "desc": {
+        "en": "A classic Vekoma boomerang coaster launching riders forwards then backwards through a cobra roll and vertical loop at 75 km/h for double the thrills.",
+        "es": "Clasico boomerang Vekoma lanzando riders adelante y atras por cobra roll y loop a 75 km/h.",
+        "fr": "Classique boomerang Vekoma lancant les riders en avant puis en arriere a travers cobra roll et boucle a 75 km/h.",
+        "de": "Klassischer Vekoma-Boomerang-Coaster vorwaerts und rueckwaerts durch Cobra-Roll und Loop bei 75 km/h.",
+        "it": "Classico boomerang Vekoma che lancia i rider avanti e indietro attraverso cobra roll e loop a 75 km/h.",
+        "nl": "Klassieke Vekoma boomerang coaster die riders heen en terug door cobra roll en loop lanceert op 75 km/h.",
+        "pt": "Classico boomerang Vekoma lancando riders para a frente e para tras atraves de cobra roll e loop a 75 km/h.",
+        "ru": "Классический бумеранг Vekoma 75 км/ч вперёд и назад через кобру и петлю.",
+        "zh": "经典Vekoma回旋镖过山车，75公里/时，前后穿越眼镜蛇滚和垂直环。",
+        "ar": "أفعوانية بوميرانج Vekoma الكلاسيكية تطلق الركاب للأمام ثم للخلف عبر لفة الكوبرا والحلقة بسرعة 75 كم/ساعة."
+      }
+    },
+    "apocalypto": {
+      "desc": {
+        "en": "A thrilling free-fall drop tower plunging riders from 50 metres with stunning park views on the way up before a sudden heart-stopping drop.",
+        "es": "Emocionante torre de caida libre de 50 metros con vistas al parque antes de una repentina caida.",
+        "fr": "Passionnante tour de chute libre de 50 metres avec vues sur le parc avant une chute soudaine.",
+        "de": "Aufregender Freifallturm von 50 Metern mit Parkblick vor einem ploetzlichen Abfall.",
+        "it": "Emozionante torre a caduta libera da 50 metri con viste sul parco prima di una caduta improvvisa.",
+        "nl": "Spannende vrije val toren van 50 meter met parkuitzicht voor een plotselinge val.",
+        "pt": "Emocionante torre de queda livre de 50 metros com vistas do parque antes de uma queda subita.",
+        "ru": "Захватывающая башня свободного падения с 50 метров с видом на парк перед внезапным падением.",
+        "zh": "激动人心的50米自由落体塔，上升时欣赏公园美景，然后突然坠落。",
+        "ar": "برج سقوط حر مثير بارتفاع 50 متراً مع مناظر رائعة للمتنزه أثناء الصعود قبل السقوط المفاجئ."
+      }
+    }
+  },
+  "food": {
+    "hall_of_columns": {
+      "desc": {
+        "en": "An atmospheric restaurant in the Aqualantis zone among antique columns serving fish and seafood dishes inspired by the ancient sunken city.",
+        "es": "Restaurante en la zona Aqualantis entre columnas antiguas con platos de pescado y marisco.",
+        "fr": "Restaurant dans la zone Aqualantis parmi des colonnes antiques avec poissons et fruits de mer.",
+        "de": "Atmosphaerisches Restaurant in der Aqualantis-Zone zwischen antiken Saeulen mit Fisch und Meeresfruchten.",
+        "it": "Ristorante nella zona Aqualantis tra colonne antiche con piatti di pesce e frutti di mare.",
+        "nl": "Sfeervol restaurant in de Aqualantis zone tussen antieke zuilen met vis en zeevruchten.",
+        "pt": "Restaurante na zona Aqualantis entre colunas antigas com pratos de peixe e marisco.",
+        "ru": "Атмосферный ресторан в зоне Aqualantis среди античных колонн с рыбными блюдами.",
+        "zh": "位于Aqualantis区古老廊柱间的氛围餐厅，供应鱼类和海鲜菜肴。",
+        "ar": "مطعم بأجواء رائعة في منطقة أكوالانتيس بين الأعمدة القديمة يقدم أطباق السمك والمأكولات البحرية."
+      }
+    },
+    "formula_pizza": {
+      "desc": {
+        "en": "A popular pizzeria near the Formula coaster serving freshly made pizzas, pasta and Italian favourites in a lively atmosphere.",
+        "es": "Popular pizzeria cerca del coaster Formula con pizzas frescas, pasta y favoritos italianos.",
+        "fr": "Pizzeria populaire pres du coaster Formula servant pizzas fraiches, pates et favoris italiens.",
+        "de": "Beliebte Pizzeria am Formula-Coaster mit frischen Pizzen, Pasta und italienischen Favoriten.",
+        "it": "Popolare pizzeria vicino al coaster Formula con pizze fresche, pasta e favoriti italiani.",
+        "nl": "Populaire pizzeria bij de Formula coaster met verse pizza's, pasta en Italiaanse favorieten.",
+        "pt": "Popular pizzaria perto do coaster Formula com pizzas frescas, massa e favoritos italianos.",
+        "ru": "Популярная пиццерия у горки Formula со свежей пиццей, пастой и итальянской кухней.",
+        "zh": "方程式过山车附近的热门披萨店，供应新鲜披萨、意面和意大利美食。",
+        "ar": "بيتزيريا شعبية قرب أفعوانية الفورمولا تقدم البيتزا الطازجة والمعكرونة والأطباق الإيطالية المفضلة."
+      }
+    },
+    "the_sunken_burger": {
+      "desc": {
+        "en": "A fun burger restaurant in the Aqualantis zone serving juicy burgers, fries and fast food favourites in an underwater themed setting.",
+        "es": "Divertido restaurante de hamburguesas en la zona Aqualantis con hamburguesas jugosas y patatas fritas.",
+        "fr": "Sympathique restaurant de burgers dans la zone Aqualantis servant burgers juteux et frites.",
+        "de": "Lustiges Burger-Restaurant in der Aqualantis-Zone mit saftigen Burgern und Pommes.",
+        "it": "Divertente ristorante di burger nella zona Aqualantis con burger succulenti e patatine fritte.",
+        "nl": "Leuk burgerrestaurant in de Aqualantis zone met sappige burgers en friet.",
+        "pt": "Divertido restaurante de hamburguer na zona Aqualantis com hamburgeres suculentos e batatas fritas.",
+        "ru": "Весёлый бургер-ресторан в зоне Aqualantis с сочными бургерами и картошкой фри.",
+        "zh": "Aqualantis区有趣的汉堡餐厅，供应多汁汉堡、薯条，水下主题装饰。",
+        "ar": "مطعم برغر ممتع في منطقة أكوالانتيس يقدم برغر عصيراً وبطاطس مقلية في ديكور تحت الماء."
+      }
+    },
+    "scandinavia_restaurant": {
+      "desc": {
+        "en": "A large Scandinavian-style restaurant serving hearty traditional Polish dishes, soups, salads and pasta on the border of the Kids and Family zones.",
+        "es": "Gran restaurante escandinavo con platos polacos tradicionales, sopas, ensaladas y pasta.",
+        "fr": "Grand restaurant scandinave avec plats polonais traditionnels, soupes, salades et pates.",
+        "de": "Grosses skandinavisches Restaurant mit traditionellen polnischen Gerichten, Suppen, Salaten und Nudeln.",
+        "it": "Grande ristorante scandinavo con piatti polacchi tradizionali, zuppe, insalate e pasta.",
+        "nl": "Groot Scandinavisch restaurant met traditionele Poolse gerechten, soepen, salades en pasta.",
+        "pt": "Grande restaurante escandinavo com pratos polacos tradicionais, sopas, saladas e massa.",
+        "ru": "Большой скандинавский ресторан с традиционными польскими блюдами, супами и пастой.",
+        "zh": "斯堪的纳维亚风格大型餐厅，供应传统波兰菜肴、汤品、沙拉和意面。",
+        "ar": "مطعم كبير بطراز إسكندنافي يقدم الأطباق البولندية التقليدية الشهية والشوربات والسلطات والمعكرونة."
+      }
+    }
+  },
+  "hotels": {
+    "holiday_park_zator": {
+      "desc": {
+        "en": "Located just 100 metres from Energylandia's entrance, this family resort offers modern cottages, outdoor pool, full-service spa and direct walking access to the park.",
+        "es": "A solo 100 metros de la entrada de Energylandia, este resort familiar ofrece cabanas modernas, piscina y spa.",
+        "fr": "A seulement 100 metres de l'entree d'Energylandia, ce resort familial offre des cottages modernes, piscine et spa.",
+        "de": "Nur 100 Meter vom Eingang Energylandias entfernt bietet dieses Familienresort moderne Cottages, Pool und Spa.",
+        "it": "A soli 100 metri dall'ingresso di Energylandia, questo resort familiare offre cottage moderni, piscina e spa.",
+        "nl": "Op slechts 100 meter van de ingang van Energylandia biedt dit familieresort moderne cottages, zwembad en spa.",
+        "pt": "A apenas 100 metros da entrada de Energylandia, este resort familiar oferece casas modernas, piscina e spa.",
+        "ru": "Всего в 100 метрах от входа в Energylandia — семейный курорт с коттеджами, бассейном и спа.",
+        "zh": "距能量乐园入口仅100米，家庭度假村，现代小屋，室外游泳池，全服务水疗。",
+        "ar": "على بعد 100 متر فقط من مدخل إينرجيلاند، منتجع عائلي يوفر بيوتاً ريفية حديثة وحمام سباحة خارجي وسبا."
+      },
+      "rooms": {
+        "standard_cottage": {
+          "name": { "en": "Standard Cottage", "es": "Cabana Estandar", "fr": "Cottage Standard", "de": "Standard-Cottage", "it": "Cottage Standard", "nl": "Standaard Cottage", "pt": "Cottage Standard", "ru": "Стандартный коттедж", "zh": "标准小屋", "ar": "كوخ قياسي" },
+          "desc": { "en": "Modern cottage sleeping up to 4 with full kitchen, free WiFi and garden views.", "es": "Cabana moderna para 4 personas con cocina completa y WiFi gratuito.", "fr": "Cottage moderne pour 4 personnes avec cuisine complete et WiFi gratuit.", "de": "Modernes Cottage fuer 4 Personen mit Vollkueche und kostenlosem WLAN.", "it": "Cottage moderno per 4 persone con cucina completa e WiFi gratuito.", "nl": "Modern cottage voor 4 personen met volledige keuken en gratis WiFi.", "pt": "Cottage moderno para 4 pessoas com cozinha completa e WiFi gratuito.", "ru": "Современный коттедж на 4 человека с полной кухней и WiFi.", "zh": "现代小屋，可容纳4人，配备完整厨房，免费WiFi，花园景观。", "ar": "كوخ حديث يتسع لـ 4 أشخاص مع مطبخ كامل وواي فاي مجاني وإطلالات على الحديقة." }
+        },
+        "family_cottage": {
+          "name": { "en": "Family Cottage", "es": "Cabana Familiar", "fr": "Cottage Familial", "de": "Familien-Cottage", "it": "Cottage Familiare", "nl": "Familie Cottage", "pt": "Cottage Familiar", "ru": "Семейный коттедж", "zh": "家庭小屋", "ar": "كوخ عائلي" },
+          "desc": { "en": "Spacious cottage sleeping up to 6 with two bedrooms, full kitchen, terrace and pool access.", "es": "Cabana espaciosa para 6 personas con dos dormitorios, cocina y acceso a piscina.", "fr": "Cottage spacieux pour 6 personnes avec deux chambres, cuisine et acces piscine.", "de": "Geraeumigers Cottage fuer 6 Personen mit zwei Schlafzimmern und Poolzugang.", "it": "Cottage spazioso per 6 persone con due camere, cucina e accesso piscina.", "nl": "Ruim cottage voor 6 personen met twee slaapkamers en zwembadtoegang.", "pt": "Cottage espacoso para 6 pessoas com dois quartos e acesso a piscina.", "ru": "Просторный коттедж на 6 человек с двумя спальнями и доступом к бассейну.", "zh": "宽敞小屋，可容纳6人，两间卧室，完整厨房，露台，游泳池通道。", "ar": "كوخ فسيح يتسع لـ 6 أشخاص مع غرفتي نوم ومطبخ كامل وتراس وإمكانية الوصول للمسبح." }
+        },
+        "spa_suite": {
+          "name": { "en": "Spa Suite", "es": "Suite Spa", "fr": "Suite Spa", "de": "Spa-Suite", "it": "Suite Spa", "nl": "Spa Suite", "pt": "Suite Spa", "ru": "СПА-люкс", "zh": "水疗套房", "ar": "جناح سبا" },
+          "desc": { "en": "Premium suite with full-service spa access, outdoor pool and sauna. Sleeps up to 4 with breakfast included.", "es": "Suite premium con acceso al spa, piscina y sauna para 4 personas con desayuno incluido.", "fr": "Suite premium avec acces spa, piscine et sauna pour 4 personnes avec petit-dejeuner inclus.", "de": "Premium-Suite mit Spa-Zugang, Pool und Sauna fuer 4 Personen mit Fruehstueck.", "it": "Suite premium con accesso spa, piscina e sauna per 4 persone con colazione inclusa.", "nl": "Premium suite met spa toegang, zwembad en sauna voor 4 personen met ontbijt inbegrepen.", "pt": "Suite premium com acesso a spa, piscina e sauna para 4 pessoas com pequeno-almoco incluido.", "ru": "Премиум люкс с доступом к спа, бассейном и сауной на 4 человека с завтраком.", "zh": "高级套房，享有全套水疗服务、室外游泳池和桑拿，可容纳4人，含早餐。", "ar": "جناح فاخر مع إمكانية الوصول الكامل للسبا وحمام السباحة والساونا. يتسع لـ 4 أشخاص مع الإفطار مشمول." }
+        }
+      }
+    },
+    "western_camp_resort": {
+      "desc": {
+        "en": "A unique Wild West themed resort a short walk from Energylandia with cowboy-style accommodation, outdoor pool, Bonanza Restaurant and free Golden Train shuttle to the park.",
+        "es": "Resort unico estilo Oeste Salvaje a poca distancia de Energylandia con alojamiento vaquero, piscina y tren gratuito.",
+        "fr": "Resort unique style Far West a quelques minutes d'Energylandia avec hebergement cowboy, piscine et navette gratuite.",
+        "de": "Einzigartiges Wild-West-Resort nahe Energylandia mit Cowboy-Unterkunft, Pool und kostenlosem Zug zum Park.",
+        "it": "Resort unico stile Far West vicino a Energylandia con alloggio cowboy, piscina e navetta gratuita.",
+        "nl": "Uniek Wild West resort op loopafstand van Energylandia met cowboy accommodatie, zwembad en gratis trein.",
+        "pt": "Resort unico estilo Oeste Selvagem perto de Energylandia com acomodacao cowboy, piscina e comboio gratuito.",
+        "ru": "Уникальный курорт в стиле Дикого Запада рядом с Energylandia с ковбойским жильём, бассейном и бесплатным поездом.",
+        "zh": "独特的西部牛仔主题度假村，步行即可到达能量乐园，牛仔风住宿，室外游泳池，Bonanza餐厅，免费金色火车接送。",
+        "ar": "منتجع فريد بطراز الغرب الأمريكي على مسافة قصيرة من إينرجيلاند مع إقامة بأسلوب الكاوبوي وحمام سباحة وقطار ذهبي مجاني."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Western themed room sleeping up to 4 with free buffet breakfast and outdoor pool access.", "es": "Habitacion western para 4 con desayuno buffet gratuito y acceso a piscina.", "fr": "Chambre western pour 4 avec petit-dejeuner buffet gratuit et acces piscine.", "de": "Western-Zimmer fuer 4 mit kostenlosem Bueffet-Fruehstueck und Poolzugang.", "it": "Camera western per 4 con colazione buffet gratuita e accesso piscina.", "nl": "Western kamer voor 4 met gratis buffetontbijt en zwembadtoegang.", "pt": "Quarto western para 4 com pequeno-almoco buffet gratuito e acesso a piscina.", "ru": "Номер в стиле вестерн на 4 с бесплатным завтраком-буфетом и бассейном.", "zh": "西部主题客房，可容纳4人，免费自助早餐，室外游泳池通道。", "ar": "غرفة بطراز الغرب الأمريكي تتسع لـ 4 أشخاص مع إفطار بوفيه مجاني وإمكانية الوصول لحمام السباحة." }
+        },
+        "sheriffs_house": {
+          "name": { "en": "Sheriff's House", "es": "Casa del Sheriff", "fr": "Maison du Sheriff", "de": "Sheriffhaus", "it": "Casa dello Sceriffo", "nl": "Sheriffshuis", "pt": "Casa do Sheriff", "ru": "Дом шерифа", "zh": "警长之家", "ar": "منزل الشريف" },
+          "desc": { "en": "A standalone western-style house sleeping up to 6, perfect for families. Pets welcome.", "es": "Casa independiente estilo western para 6 personas ideal para familias. Mascotas bienvenidas.", "fr": "Maison independante style western pour 6 personnes ideale pour familles. Animaux bienvenus.", "de": "Eigenstaendiges Western-Haus fuer 6 Personen ideal fuer Familien. Haustiere willkommen.", "it": "Casa indipendente stile western per 6 persone ideale per famiglie. Animali benvenuti.", "nl": "Vrijstaand western huis voor 6 personen ideaal voor gezinnen. Huisdieren welkom.", "pt": "Casa independente estilo western para 6 pessoas ideal para familias. Animais bem-vindos.", "ru": "Отдельный дом в стиле вестерн для 6 человек. Домашние животные приветствуются.", "zh": "独立的西部风格住宅，可容纳6人，适合家庭入住，欢迎携带宠物。", "ar": "منزل مستقل بطراز الغرب يتسع لـ 6 أشخاص، مثالي للعائلات. الحيوانات الأليفة مرحب بها." }
+        },
+        "houseboat": {
+          "name": { "en": "Houseboat", "es": "Casa Flotante", "fr": "Peniche", "de": "Hausboot", "it": "Casa Galleggiante", "nl": "Woonboot", "pt": "Casa Flutuante", "ru": "Плавучий дом", "zh": "水上小屋", "ar": "منزل عائم" },
+          "desc": { "en": "A unique floating houseboat with western decor sleeping up to 4. Pets welcome.", "es": "Casa flotante unica con decoracion western para 4 personas. Mascotas bienvenidas.", "fr": "Peniche flottante unique avec decoration western pour 4 personnes. Animaux bienvenus.", "de": "Einzigartiges schwimmendes Hausboot mit Western-Dekor fuer 4 Personen. Haustiere willkommen.", "it": "Unica casa galleggiante con decor western per 4 persone. Animali benvenuti.", "nl": "Unieke drijvende woonboot met western decor voor 4 personen. Huisdieren welkom.", "pt": "Casa flutuante unica com decor western para 4 pessoas. Animais bem-vindos.", "ru": "Уникальный плавучий дом с декором в стиле вестерн для 4 человек. Питомцы приветствуются.", "zh": "独特的浮动水屋，西部装饰，可容纳4人，欢迎携带宠物。", "ar": "منزل عائم فريد بديكور غربي يتسع لـ 4 أشخاص. الحيوانات الأليفة مرحب بها." }
+        }
+      }
+    },
+    "fantazja_resort_zator": {
+      "desc": {
+        "en": "A cosy parkside retreat officially listed by Energylandia as partner accommodation, ideal for unwinding after a full day of thrills.",
+        "es": "Retiro acogedor junto al parque listado oficialmente por Energylandia como alojamiento asociado.",
+        "fr": "Retraite agreable pres du parc officiellement listee par Energylandia comme hebergement partenaire.",
+        "de": "Gemuetliche Parknahe Unterkunft offiziell von Energylandia als Partnerunterkunft gelistet.",
+        "it": "Un accogliente rifugio vicino al parco ufficialmente elencato da Energylandia come alloggio partner.",
+        "nl": "Een gezellige parknahe accommodatie officieel vermeld door Energylandia als partneraccommodatie.",
+        "pt": "Um retiro acolhedor perto do parque oficialmente listado pela Energylandia como alojamento parceiro.",
+        "ru": "Уютный отдых рядом с парком, официально указанный Energylandia как партнёрское жильё.",
+        "zh": "能量乐园官方合作住宿，公园旁舒适的度假胜地，适合一天游玩后放松休息。",
+        "ar": "منتجع مريح بجانب المتنزه مدرج رسمياً من قبل إينرجيلاند كإقامة شريكة، مثالي للاسترخاء بعد يوم مليء بالإثارة."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Comfortable room sleeping up to 4 with free WiFi and easy park access.", "es": "Habitacion comoda para 4 con WiFi gratuito y facil acceso al parque.", "fr": "Chambre confortable pour 4 avec WiFi gratuit et acces facile au parc.", "de": "Komfortables Zimmer fuer 4 mit kostenlosem WLAN und einfachem Parkzugang.", "it": "Camera confortevole per 4 con WiFi gratuito e facile accesso al parco.", "nl": "Comfortabele kamer voor 4 met gratis WiFi en gemakkelijke parktoegang.", "pt": "Quarto confortavel para 4 com WiFi gratuito e facil acesso ao parque.", "ru": "Комфортный номер на 4 человека с WiFi и удобным доступом в парк.", "zh": "舒适客房，可容纳4人，免费WiFi，方便进入公园。", "ar": "غرفة مريحة تتسع لـ 4 أشخاص مع واي فاي مجاني وسهولة الوصول للمتنزه." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Larger family room sleeping up to 6 with separate children area and free parking.", "es": "Habitacion familiar para 6 con area separada para ninos y aparcamiento gratuito.", "fr": "Grande chambre familiale pour 6 avec espace enfants separe et parking gratuit.", "de": "Grosses Familienzimmer fuer 6 mit separatem Kinderbereich und kostenlosem Parken.", "it": "Grande camera familiare per 6 con area bambini separata e parcheggio gratuito.", "nl": "Grote familiekamer voor 6 met aparte kinderruimte en gratis parkeren.", "pt": "Grande quarto familiar para 6 com area separada para criancas e estacionamento gratuito.", "ru": "Большой семейный номер для 6 человек с детской зоной и бесплатной парковкой.", "zh": "大型家庭客房，可容纳6人，独立儿童区，免费停车。", "ar": "غرفة عائلية كبيرة تتسع لـ 6 أشخاص مع منطقة أطفال منفصلة وموقف سيارات مجاني." }
+        }
+      }
+    }
+  }
+}

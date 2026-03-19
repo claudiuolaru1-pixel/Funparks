@@ -15,20 +15,17 @@ class ParkLocale {
     if (any(['france'])) return const Locale('fr');
     if (any(['germany', 'deutschland'])) return const Locale('de');
     if (any(['italy', 'italia'])) return const Locale('it');
-    if (any(['netherlands', 'nederland'])) return const Locale('nl');
+    if (any(['netherlands', 'nederland', 'holland'])) return const Locale('nl');
     if (any(['russia', 'россия'])) return const Locale('ru');
-    if (any(['portugal'])) return const Locale('pt');
-    if (any(['china', 'chinese', '中文', '汉语', '中國', '中国', 'cn', 'zh'])) {
-      return const Locale('zh');
-    }
-
+    if (any(['portugal', 'brazil'])) return const Locale('pt');
 
     // Chinese (covers common English + Chinese names)
     if (any([
       'china', '中国', '中华人民共和国',
       'hong kong', '香港',
       'taiwan', '台湾',
-      'macau', '澳门'
+      'macau', '澳门',
+      'chinese', '中文', '汉语', '中國', 'cn', 'zh'
     ])) {
       return const Locale('zh');
     }

@@ -1,0 +1,338 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "PortAventura World is one of the largest resort destinations in Europe, located in Salou, Tarragona on the Costa Daurada. Opened in 1995, it welcomes over 5 million visitors annually and features six immersive themed worlds inspired by civilisations from around the globe.",
+      "es": "PortAventura World es uno de los mayores destinos turísticos de Europa, situado en Salou, Tarragona en la Costa Daurada. Inaugurado en 1995, recibe más de 5 millones de visitantes anuales y cuenta con seis mundos temáticos inspirados en civilizaciones de todo el mundo.",
+      "fr": "PortAventura World est l'une des plus grandes destinations touristiques d'Europe, située à Salou, Tarragone sur la Costa Daurada. Ouvert en 1995, il accueille plus de 5 millions de visiteurs annuels avec six univers thématiques inspirés de civilisations du monde entier.",
+      "de": "PortAventura World ist eines der groessten Reiseziele Europas in Salou, Tarragona an der Costa Daurada. 1995 eroeffnet empfaengt es über 5 Millionen Besucher jaehrlich mit sechs Themenwelten.",
+      "it": "PortAventura World è una delle più grandi destinazioni turistiche d'Europa, situata a Salou, Tarragona sulla Costa Daurada. Aperto nel 1995, accoglie oltre 5 milioni di visitatori annui con sei mondi tematici.",
+      "nl": "PortAventura World is een van de grootste toeristische bestemmingen van Europa in Salou, Tarragona aan de Costa Daurada. Geopend in 1995 verwelkomt het meer dan 5 miljoen bezoekers per jaar met zes themawerelden.",
+      "pt": "PortAventura World é um dos maiores destinos turísticos da Europa, situado em Salou, Tarragona na Costa Daurada. Aberto em 1995, recebe mais de 5 milhões de visitantes anuais com seis mundos temáticos.",
+      "ru": "PortAventura World — один из крупнейших курортных направлений Европы, расположен в Салоу, Таррагона на побережье Коста Дорада. Открыт в 1995 году, принимает более 5 миллионов посетителей ежегодно.",
+      "zh": "波特冒险世界是欧洲最大的度假目的地之一，位于科斯塔多拉达海岸的萨洛乌市塔拉戈纳省。1995年开放，每年接待超过500万游客，拥有六个沉浸式主题世界。",
+      "ar": "بورتافينتورا وورلد هي واحدة من أكبر وجهات المنتجعات في أوروبا، تقع في سالو، تاراغونا على ساحل كوستا دورادا. افتُتحت عام 1995 وتستقبل أكثر من 5 ملايين زائر سنوياً مع ستة عوالم ذات طابع مميز."
+    },
+    "ov_highlights_body": {
+      "en": "Shambhala is Europe's tallest and fastest hypercoaster at 76 metres and 134 km/h. Dragon Khan was Europe's most inversions record holder with eight loops. Furius Baco is the world's fastest launch coaster at track level at 135 km/h. Red Force in Ferrari Land reaches 180 km/h making it Europe's fastest coaster. Hurakan Condor is one of Europe's tallest drop towers at 100 metres.",
+      "es": "Shambhala es el hipercoaster más alto y rápido de Europa con 76 metros y 134 km/h. Dragon Khan fue el primero con ocho inversiones en Europa. Furius Baco es el coaster de lanzamiento más rápido del mundo a nivel de vía. Red Force en Ferrari Land alcanza 180 km/h siendo el coaster más rápido de Europa.",
+      "fr": "Shambhala est le hypercoaster le plus haut et rapide d'Europe à 76 mètres et 134 km/h. Dragon Khan fut le recordman d'inversions en Europe avec huit boucles. Furius Baco est le coaster de lancement le plus rapide au niveau de la voie. Red Force dans Ferrari Land atteint 180 km/h.",
+      "de": "Shambhala ist Europas höchster und schnellster Hypercoaster bei 76 Metern und 134 km/h. Dragon Khan hielt den Rekord mit acht Inversionen. Furius Baco ist der schnellste Launch-Coaster auf Schienenhöhe. Red Force in Ferrari Land erreicht 180 km/h.",
+      "it": "Shambhala è il hypercoaster più alto e veloce d'Europa a 76 metri e 134 km/h. Dragon Khan deteneva il record con otto inversioni. Furius Baco è il coaster di lancio più veloce a livello della pista. Red Force in Ferrari Land raggiunge 180 km/h.",
+      "nl": "Shambhala is de hoogste en snelste hypercoaster van Europa op 76 meter en 134 km/h. Dragon Khan hield het record met acht inversies. Furius Baco is de snelste lanceercoaster op baanniveau. Red Force in Ferrari Land bereikt 180 km/h.",
+      "pt": "Shambhala é o hypercoaster mais alto e rápido da Europa a 76 metros e 134 km/h. Dragon Khan detinha o recorde com oito inversões. Furius Baco é o coaster de lançamento mais rápido ao nível da via. Red Force no Ferrari Land atinge 180 km/h.",
+      "ru": "Shambhala — самый высокий и быстрый гиперкоастер Европы 76 м при 134 км/ч. Dragon Khan держал рекорд с восемью инверсиями. Furius Baco — самые быстрые запускаемые горки на уровне рельсов. Red Force в Ferrari Land достигает 180 км/ч.",
+      "zh": "香巴拉是欧洲最高最快的超级过山车，76米，134公里/时。神龙可汗曾保持欧洲最多翻转记录，共八个。福瑞斯·巴科是世界上轨道高度最快的发射式过山车。法拉利乐园的红色力量达到180公里/时。",
+      "ar": "شامبهالا هي أطول وأسرع أفعوانية فائقة في أوروبا بارتفاع 76 متراً وسرعة 134 كم/ساعة. دراغون خان كان صاحب رقم قياسي بثمانية انقلابات. فوريوس باكو أسرع أفعوانية إطلاق على مستوى المسار. ريد فورس في فيراري لاند يصل إلى 180 كم/ساعة."
+    },
+    "ov_did_you_know_body": {
+      "en": "PortAventura opened on 2 May 1995 as the first major theme park in Spain. Ferrari Land opened in 2017 as the only Ferrari-licensed theme park in Europe. The resort includes six hotels ranging from the luxury Hotel El Paso to the themed Hotel PortAventura. The park hosted the 2002 Champions League Final in its adjacent stadium.",
+      "es": "PortAventura abrió el 2 de mayo de 1995 como el primer gran parque temático de España. Ferrari Land abrió en 2017 como el único parque temático con licencia Ferrari en Europa. El resort incluye seis hoteles.",
+      "fr": "PortAventura a ouvert le 2 mai 1995 comme le premier grand parc à thème d'Espagne. Ferrari Land a ouvert en 2017 comme le seul parc à thème sous licence Ferrari en Europe. Le resort comprend six hôtels.",
+      "de": "PortAventura öffnete am 2. Mai 1995 als erster grosser Freizeitpark Spaniens. Ferrari Land öffnete 2017 als einziger Ferrari-lizenzierter Freizeitpark Europas. Das Resort umfasst sechs Hotels.",
+      "it": "PortAventura ha aperto il 2 maggio 1995 come primo grande parco a tema in Spagna. Ferrari Land ha aperto nel 2017 come unico parco a tema con licenza Ferrari in Europa. Il resort comprende sei hotel.",
+      "nl": "PortAventura opende op 2 mei 1995 als het eerste grote pretpark in Spanje. Ferrari Land opende in 2017 als het enige Ferrari-gelicenseerde pretpark in Europa. Het resort omvat zes hotels.",
+      "pt": "PortAventura abriu a 2 de maio de 1995 como o primeiro grande parque temático de Espanha. Ferrari Land abriu em 2017 como o único parque temático licenciado Ferrari na Europa. O resort inclui seis hotéis.",
+      "ru": "PortAventura открылся 2 мая 1995 года как первый крупный парк Испании. Ferrari Land открылся в 2017 году как единственный парк Ferrari в Европе. Курорт включает шесть отелей.",
+      "zh": "波特冒险乐园于1995年5月2日开放，是西班牙第一个大型主题公园。法拉利乐园2017年开放，是欧洲唯一获得法拉利授权的主题公园。度假村包括六家酒店。",
+      "ar": "افتُتحت بورتافينتورا في 2 مايو 1995 كأول متنزه ترفيهي كبير في إسبانيا. افتُتح فيراري لاند عام 2017 كمتنزه فيراري الوحيد في أوروبا. يضم المنتجع ستة فنادق."
+    },
+    "ov_plan_body": {
+      "en": "Head to Shambhala and Dragon Khan first thing. Furius Baco and Red Force are best mid-morning. Save the water rides for the afternoon heat. Hotel guests enjoy early park entry. Ferrari Land is best visited in the late afternoon when crowds thin. The park is very large so wear comfortable shoes.",
+      "es": "Ve a Shambhala y Dragon Khan primero. Furius Baco y Red Force a media mañana. Guarda las atracciones acuáticas para la tarde. Los huéspedes del hotel tienen entrada anticipada.",
+      "fr": "Allez d'abord à Shambhala et Dragon Khan. Furius Baco et Red Force en milieu de matinée. Réservez les attractions aquatiques pour l'après-midi. Les clients de l'hôtel ont une entrée anticipée.",
+      "de": "Zuerst zu Shambhala und Dragon Khan. Furius Baco und Red Force am Vormittag. Wasserattraktionen für den Nachmittag aufheben. Hotelgäste haben frühen Einlass.",
+      "it": "Prima Shambhala e Dragon Khan. Furius Baco e Red Force a metà mattina. Riserva le attrazioni acquatiche per il pomeriggio. Gli ospiti dell'hotel hanno ingresso anticipato.",
+      "nl": "Eerst naar Shambhala en Dragon Khan. Furius Baco en Red Force halverwege de ochtend. Waterattracties bewaren voor de middag. Hotelgasten hebben vroege toegang.",
+      "pt": "Primeiro Shambhala e Dragon Khan. Furius Baco e Red Force a meio da manhã. Guarda as atrações aquáticas para a tarde. Hóspedes do hotel têm entrada antecipada.",
+      "ru": "Сначала Shambhala и Dragon Khan. Furius Baco и Red Force утром. Водные аттракционы оставьте на дневную жару. Гости отеля получают ранний вход.",
+      "zh": "先去香巴拉和神龙可汗。上午玩福瑞斯·巴科和红色力量。下午留给水上项目。酒店客人享受提前入园。公园很大，穿舒适的鞋子。",
+      "ar": "اذهب أولاً إلى شامبهالا ودراغون خان. فوريوس باكو وريد فورس في منتصف الصباح. احتفظ بالألعاب المائية لحرارة بعد الظهر. نزلاء الفندق يستفيدون من الدخول المبكر."
+    },
+    "ov_photos_body": {
+      "en": "The best photos of Shambhala are from the lakeside path showing its full height. Dragon Khan's eight loops photographed from below is iconic. The Mexican area offers colourful street photography opportunities. Red Force in Ferrari Land looks spectacular against the sky. Sunset from the top of Hurakan Condor offers panoramic views over the Mediterranean.",
+      "es": "Las mejores fotos de Shambhala son desde el camino del lago mostrando toda su altura. Los ocho lazos de Dragon Khan desde abajo son icónicos. La zona mexicana ofrece coloridas oportunidades fotográficas.",
+      "fr": "Les meilleures photos de Shambhala sont depuis le chemin du lac montrant toute sa hauteur. Les huit boucles de Dragon Khan photographiées d'en bas sont iconiques. La zone mexicaine offre des opportunités de photographie colorées.",
+      "de": "Die besten Fotos von Shambhala vom Seeweg zeigen seine volle Höhe. Dragon Khans acht Loops von unten fotografiert sind ikonisch. Die mexikanische Zone bietet bunte Fotomöglichkeiten.",
+      "it": "Le migliori foto di Shambhala sono dal sentiero del lago che mostra tutta la sua altezza. Le otto inversioni di Dragon Khan fotografate dal basso sono iconiche. La zona messicana offre coloratissime opportunità fotografiche.",
+      "nl": "De beste foto's van Shambhala zijn vanaf het meer en tonen zijn volledige hoogte. Dragon Khans acht loops van onderaf zijn iconisch. Het Mexicaanse gebied biedt kleurrijke fotomogelijkheden.",
+      "pt": "As melhores fotos de Shambhala são do caminho do lago mostrando toda a sua altura. As oito inversões do Dragon Khan fotografadas de baixo são icónicas.",
+      "ru": "Лучшие фото Shambhala с озёрной тропы показывают его полную высоту. Восемь петель Dragon Khan снизу — иконические. Мексиканская зона предлагает яркие возможности для уличной фотографии.",
+      "zh": "香巴拉最佳照片从湖边小路拍摄，展现完整高度。神龙可汗的八个环形从下方拍摄非常经典。墨西哥区提供丰富多彩的街头摄影机会。",
+      "ar": "أفضل صور شامبهالا من مسار البحيرة تظهر ارتفاعه الكامل. حلقات دراغون خان الثمانية من الأسفل أيقونية. المنطقة المكسيكية توفر فرص تصوير شوارع ملونة."
+    }
+  },
+  "attractions": {
+    "shambhala": {
+      "desc": {
+        "en": "Europe's tallest and fastest hypercoaster at 76 metres reaching 134 km/h with breathtaking airtime hills and sweeping turns in the Himalayan themed area.",
+        "es": "El hypercoaster más alto y rápido de Europa con 76 metros y 134 km/h con increíbles momentos de ingravidez en la zona himalaya.",
+        "fr": "Le hypercoaster le plus haut et rapide d'Europe à 76 mètres atteignant 134 km/h avec des moments d'apesanteur époustouflants.",
+        "de": "Europas höchster und schnellster Hypercoaster mit 76 Metern bei 134 km/h mit atemberaubenden Airtime-Momenten.",
+        "it": "Il hypercoaster più alto e veloce d'Europa a 76 metri raggiungendo 134 km/h con momenti di airtime mozzafiato.",
+        "nl": "Europa's hoogste en snelste hypercoaster op 76 meter die 134 km/h bereikt met adembenemende airtimemomenten.",
+        "pt": "O hypercoaster mais alto e rápido da Europa a 76 metros atingindo 134 km/h com momentos de airtime deslumbrantes.",
+        "ru": "Самый высокий и быстрый гиперкоастер Европы — 76 м при 134 км/ч с захватывающими моментами невесомости.",
+        "zh": "欧洲最高最快超级过山车，76米高，时速134公里，喜马拉雅主题区域令人窒息的空中时间体验。",
+        "ar": "أطول وأسرع أفعوانية فائقة في أوروبا بارتفاع 76 متراً تصل إلى 134 كم/ساعة مع لحظات انعدام جاذبية مذهلة."
+      }
+    },
+    "dragon_khan": {
+      "desc": {
+        "en": "A legendary B&M steel coaster with eight inversions at 110 km/h through a Chinese Imperial Dragon themed setting. One of the most iconic coasters ever built.",
+        "es": "Legendario coaster de acero B&M con ocho inversiones a 110 km/h en entorno de dragón imperial chino. Uno de los coasters más icónicos jamás construidos.",
+        "fr": "Légendaire coaster d'acier B&M avec huit inversions à 110 km/h dans un décor de dragon impérial chinois. Un des coasters les plus iconiques.",
+        "de": "Legendärer B&M Stahlcoaster mit acht Inversionen bei 110 km/h im chinesischen Kaiserdrachen-Thema.",
+        "it": "Leggendario coaster d'acciaio B&M con otto inversioni a 110 km/h in un'ambientazione di drago imperiale cinese.",
+        "nl": "Legendarische B&M stalen achterbaan met acht inversies op 110 km/h in een Chinees Keizerlijk Dragon thema.",
+        "pt": "Lendário coaster de aço B&M com oito inversões a 110 km/h num cenário de dragão imperial chinês.",
+        "ru": "Легендарный стальной коастер B&M с восемью инверсиями при 110 км/ч в декорациях китайского имперского дракона.",
+        "zh": "传奇的B&M钢铁过山车，八次翻转，时速110公里，中国帝龙主题场景。有史以来最标志性的过山车之一。",
+        "ar": "أفعوانية B&M المعدنية الأسطورية بثمانية انقلابات بسرعة 110 كم/ساعة في ديكور التنين الإمبراطوري الصيني."
+      }
+    },
+    "furius_baco": {
+      "desc": {
+        "en": "The world's fastest launch coaster at track level accelerating from 0 to 135 km/h in 3.5 seconds through a Mediterranean coastal themed setting.",
+        "es": "El coaster de lanzamiento más rápido del mundo a nivel de vía acelerando de 0 a 135 km/h en 3,5 segundos.",
+        "fr": "Le coaster de lancement le plus rapide du monde au niveau de la voie accélérant de 0 à 135 km/h en 3,5 secondes.",
+        "de": "Der schnellste Launch-Coaster der Welt auf Schienenhöhe von 0 auf 135 km/h in 3,5 Sekunden.",
+        "it": "Il coaster di lancio più veloce del mondo a livello della pista da 0 a 135 km/h in 3,5 secondi.",
+        "nl": "De snelste lanceercoaster ter wereld op baanniveau van 0 naar 135 km/h in 3,5 seconden.",
+        "pt": "O coaster de lançamento mais rápido do mundo ao nível da via de 0 a 135 km/h em 3,5 segundos.",
+        "ru": "Самые быстрые запускаемые горки в мире на уровне рельсов — от 0 до 135 км/ч за 3,5 секунды.",
+        "zh": "世界上轨道高度最快的发射式过山车，3.5秒内从0加速到135公里/时，地中海海岸主题场景。",
+        "ar": "أسرع أفعوانية إطلاق في العالم على مستوى المسار تتسارع من 0 إلى 135 كم/ساعة في 3.5 ثانية."
+      }
+    },
+    "red_force": {
+      "desc": {
+        "en": "Europe's fastest roller coaster in Ferrari Land accelerating from 0 to 180 km/h in just 5 seconds straight up a 112-metre tower inspired by a Ferrari engine.",
+        "es": "La montaña rusa más rápida de Europa en Ferrari Land acelerando de 0 a 180 km/h en solo 5 segundos.",
+        "fr": "Le coaster le plus rapide d'Europe dans Ferrari Land accélérant de 0 à 180 km/h en seulement 5 secondes.",
+        "de": "Europas schnellster Coaster in Ferrari Land von 0 auf 180 km/h in nur 5 Sekunden.",
+        "it": "Il coaster più veloce d'Europa in Ferrari Land da 0 a 180 km/h in soli 5 secondi.",
+        "nl": "Europa's snelste achterbaan in Ferrari Land van 0 naar 180 km/h in slechts 5 seconden.",
+        "pt": "O coaster mais rápido da Europa no Ferrari Land de 0 a 180 km/h em apenas 5 segundos.",
+        "ru": "Самые быстрые горки Европы в Ferrari Land от 0 до 180 км/ч за 5 секунд на башне 112 м.",
+        "zh": "法拉利乐园欧洲最快过山车，5秒内从0加速到180公里/时，笔直冲上112米高塔，以法拉利引擎为灵感。",
+        "ar": "أسرع أفعوانية في أوروبا في فيراري لاند تتسارع من 0 إلى 180 كم/ساعة في 5 ثوانٍ فقط على برج 112 متراً."
+      }
+    },
+    "hurakan_condor": {
+      "desc": {
+        "en": "One of Europe's tallest free-fall drop towers at 100 metres, plunging riders from the top at terrifying speed with panoramic views over the Mediterranean coast.",
+        "es": "Una de las torres de caída libre más altas de Europa a 100 metros con vistas panorámicas sobre la costa mediterránea.",
+        "fr": "L'une des tours de chute libre les plus hautes d'Europe à 100 mètres avec vues panoramiques sur la côte méditerranéenne.",
+        "de": "Einer der höchsten Freifall-Türme Europas mit 100 Metern und Panoramablick auf die Mittelmeerküste.",
+        "it": "Una delle torri a caduta libera più alte d'Europa a 100 metri con viste panoramiche sulla costa mediterranea.",
+        "nl": "Een van Europa's hoogste vrije val torens op 100 meter met panoramisch uitzicht over de Middellandse Zeekust.",
+        "pt": "Uma das torres de queda livre mais altas da Europa a 100 metros com vistas panorâmicas sobre a costa mediterrânea.",
+        "ru": "Одна из самых высоких башен свободного падения Европы — 100 м с панорамными видами на Средиземноморье.",
+        "zh": "欧洲最高自由落体塔之一，100米高，从顶部以恐怖速度坠落，俯瞰地中海海岸全景。",
+        "ar": "واحدة من أطول أبراج السقوط الحر في أوروبا بارتفاع 100 متر مع إطلالات بانورامية على ساحل البحر الأبيض المتوسط."
+      }
+    },
+    "grand_canyon_rapids": {
+      "desc": {
+        "en": "A thrilling river rapids ride through the Far West area sending circular rafts through rushing canyon water with exciting splashes and guaranteed soaking.",
+        "es": "Emocionante aventura de rápidos por el Far West con balsas circulares en aguas del cañón con emocionantes salpicaduras.",
+        "fr": "Aventure de rapides passionnante dans la zone Far West avec radeaux circulaires dans les eaux du canyon.",
+        "de": "Aufregende Wildwasserfahrt im Far-West-Bereich mit kreisenden Booten durch Canyon-Wasser.",
+        "it": "Emozionante avventura di rapide nell'area Far West con zattere circolari nelle acque del canyon.",
+        "nl": "Spannend wildwateravontuur in het Far West gebied met ronde vlotten door canyonwater.",
+        "pt": "Emocionante aventura de rápidos na área Far West com jangadas circulares pelas águas do canyon.",
+        "ru": "Захватывающее водное приключение в зоне Дикого Запада с круглыми плотами через воды каньона.",
+        "zh": "穿越西部区域大峡谷急流的刺激漂流，圆形筏子穿越奔腾的峡谷水流，保证全身湿透。",
+        "ar": "مغامرة مياه سريعة مثيرة عبر منطقة الغرب البعيد ترسل قوارب دائرية عبر مياه الوادي."
+      }
+    },
+    "tutuki_splash": {
+      "desc": {
+        "en": "A classic log flume adventure through the Polynesia themed area with exciting drops and a dramatic volcanic eruption finale guaranteeing a complete soaking.",
+        "es": "Aventura clásica en tronco por la zona de Polinesia con emocionantes caídas y final de erupción volcánica.",
+        "fr": "Aventure classique en rondin dans la zone Polynésie avec des chutes excitantes et un final d'éruption volcanique.",
+        "de": "Klassisches Log-Flume-Abenteuer im Polynesien-Bereich mit aufregenden Abfällen und dramatischem Vulkanausbruch.",
+        "it": "Avventura classica su tronco nella zona Polinesia con cadute emozionanti e finale di eruzione vulcanica.",
+        "nl": "Klassiek boomstamavontuur in het Polynesische gebied met spannende dalingen en dramatische vulkaanuitbarstingsfinale.",
+        "pt": "Aventura clássica de tronco na zona da Polinésia com quedas emocionantes e final de erupção vulcânica.",
+        "ru": "Классические горки на брёвнах через зону Полинезии с волнующими падениями и финальным извержением вулкана.",
+        "zh": "穿越波利尼西亚主题区域的经典木材漂流，刺激的落差和火山喷发终章，保证全身湿透。",
+        "ar": "مغامرة أفعوانية كلاسيكية عبر منطقة بولينيزيا مع انخفاضات مثيرة وخاتمة ثوران بركاني درامية."
+      }
+    },
+    "silver_river_flume": {
+      "desc": {
+        "en": "A family water flume adventure through the Far West mining territory with scenic drops and a refreshing splash for all ages.",
+        "es": "Aventura familiar en tobogán acuático por el territorio minero del Far West con bajadas escénicas y splash refrescante.",
+        "fr": "Aventure familiale en toboggan aquatique dans le territoire minier Far West avec descentes pittoresques.",
+        "de": "Familien-Wasserrutsch-Abenteuer im Far-West-Bergbaugebiet mit malerischen Abfällen.",
+        "it": "Avventura familiare su scivolo d'acqua nel territorio minerario Far West con discese pittoresche.",
+        "nl": "Familiair waterglijbaanabenteuer in het Far West mijngebied met schilderachtige dalingen.",
+        "pt": "Aventura familiar de tobogã aquático pelo território mineiro Far West com descidas cénicas.",
+        "ru": "Семейное водное приключение через горнодобывающую территорию Дикого Запада с живописными спусками.",
+        "zh": "穿越西部矿区的家庭水滑道冒险，风景优美的落差和清凉水花，老少皆宜。",
+        "ar": "مغامرة عائلية على زحليقة مائية عبر منطقة التعدين في الغرب البعيد مع انخفاضات خلابة."
+      }
+    },
+    "sea_odyssey": {
+      "desc": {
+        "en": "A magical underwater themed dark ride journey through the depths of the ocean with stunning sea creature animatronics and immersive special effects.",
+        "es": "Mágico viaje de dark ride bajo el mar con impresionantes animatrónicos de criaturas marinas y efectos especiales.",
+        "fr": "Magique voyage dark ride sous-marin à travers les profondeurs de l'océan avec d'impressionnants animatroniques.",
+        "de": "Magische Unterwasser-Dark-Ride durch die Tiefen des Ozeans mit beeindruckenden Meereskreatur-Animatronics.",
+        "it": "Magico viaggio dark ride subacqueo attraverso i fondali oceanici con impressionanti animatronici di creature marine.",
+        "nl": "Magische onderwaterritten door de diepten van de oceaan met indrukwekkende zeekreatuur animatronics.",
+        "pt": "Mágica viagem dark ride subaquática pelas profundezas do oceano com impressionantes animatrónicos.",
+        "ru": "Волшебная подводная тёмная поездка через глубины океана с впечатляющими морскими существами.",
+        "zh": "神奇的海底主题暗室游乐之旅，穿越海洋深处，令人惊叹的海洋生物机械人偶和沉浸式特效。",
+        "ar": "رحلة ركوب مظلمة سحرية ذات طابع تحت الماء عبر أعماق المحيط مع أنيماترونيك مذهل لمخلوقات البحر."
+      }
+    },
+    "el_diablo_tren_mina": {
+      "desc": {
+        "en": "A classic mine train roller coaster winding through the Far West area with exciting dips, turns and surprises perfect for families and younger riders.",
+        "es": "Clásica montaña rusa de tren minero serpenteando por el Far West con emocionantes bajadas y giros perfectos para familias.",
+        "fr": "Classique coaster de train minier serpentant dans le Far West avec descentes et virages parfaits pour les familles.",
+        "de": "Klassische Minenbahnachterbahn durch den Far-West-Bereich mit aufregenden Abfällen für Familien.",
+        "it": "Classico coaster trenino minerario nel Far West con emozionanti discese e curve per famiglie.",
+        "nl": "Klassieke mijntreinachterbaan door het Far West gebied met spannende dalingen voor gezinnen.",
+        "pt": "Clássico coaster de comboio de mina pelo Far West com descidas emocionantes para famílias.",
+        "ru": "Классический шахтный поезд через зону Дикого Запада с захватывающими спусками для семей.",
+        "zh": "经典矿山车过山车，蜿蜒穿越西部区域，刺激的俯冲和转弯，非常适合家庭和年轻游客。",
+        "ar": "أفعوانية قطار منجم كلاسيكية تلتف عبر منطقة الغرب البعيد مع انخفاضات ومنعطجات مثيرة مثالية للعائلات."
+      }
+    },
+    "tomahawk": {
+      "desc": {
+        "en": "A thrilling suspended family coaster in the SésamoAventura area delivering exciting twists and turns at family-friendly speeds for all ages.",
+        "es": "Emocionante coaster familiar suspendido en SésamoAventura con giros y curvas a velocidades familiares.",
+        "fr": "Passionnant coaster familial suspendu dans SésamoAventura avec virages à des vitesses familiales.",
+        "de": "Aufregender hängender Familiencoaster in SésamoAventura mit Kurven bei familienfreundlichen Geschwindigkeiten.",
+        "it": "Emozionante coaster familiare sospeso in SésamoAventura con giri e curve a velocità familiari.",
+        "nl": "Spannende hangende familieachterbaan in SésamoAventura met bochten op gezinsvriendelijke snelheden.",
+        "pt": "Emocionante coaster familiar suspenso em SésamoAventura com curvas a velocidades familiares.",
+        "ru": "Захватывающий семейный подвесной коастер в SésamoAventura с поворотами на семейных скоростях.",
+        "zh": "芝麻冒险区的刺激悬挂式家庭过山车，适合所有年龄段的家庭友好速度曲折。",
+        "ar": "أفعوانية عائلية معلقة مثيرة في سيزاموأفينتورا بمنعطجات بسرعات مناسبة للعائلة لجميع الأعمار."
+      }
+    },
+    "tami_tami": {
+      "desc": {
+        "en": "A gentle and fun children's roller coaster in SésamoAventura perfect for young first-time riders with Sesame Street character theming.",
+        "es": "Suave y divertida montaña rusa infantil en SésamoAventura con personajes de Sesame Street para los más pequeños.",
+        "fr": "Douce et amusante montagne russe pour enfants en SésamoAventura avec les personnages de Sesame Street.",
+        "de": "Sanfte Kinderachterbahn in SésamoAventura mit Sesamstrasse-Charakteren für kleine Erstfahrer.",
+        "it": "Dolce e divertente montagna russa per bambini in SésamoAventura con personaggi di Sesame Street.",
+        "nl": "Zachte en leuke kinderachterbaan in SésamoAventura met Sesamstraat-karakters voor jonge rijders.",
+        "pt": "Suave e divertida montanha-russa infantil em SésamoAventura com personagens da Sesame Street.",
+        "ru": "Мягкие детские горки в SésamoAventura с персонажами Улицы Сезам для маленьких первопроходцев.",
+        "zh": "芝麻冒险区温和有趣的儿童过山车，芝麻街角色主题，非常适合年幼的第一次乘坐者。",
+        "ar": "أفعوانية أطفال لطيفة ومرحة في سيزاموأفينتورا بشخصيات شارع سمسم مثالية للأطفال الصغار."
+      }
+    },
+    "stampida": {
+      "desc": {
+        "en": "A classic wooden duelling roller coaster racing two trains side by side through 1.2 kilometres of track at 75 km/h in the Far West area.",
+        "es": "Clásica montaña rusa de madera de duelo con dos trenes corriendo uno junto al otro por 1,2 km a 75 km/h.",
+        "fr": "Classique coaster en bois de duel avec deux trains courant côte à côte sur 1,2 km à 75 km/h.",
+        "de": "Klassischer Duell-Holzcoaster mit zwei nebeneinander rasenden Zügen auf 1,2 km bei 75 km/h.",
+        "it": "Classico coaster in legno duello con due treni che corrono fianco a fianco su 1,2 km a 75 km/h.",
+        "nl": "Klassieke duel houten achterbaan met twee zij aan zij racende treinen over 1,2 km op 75 km/h.",
+        "pt": "Clássico coaster de madeira duelo com dois comboios a correr lado a lado por 1,2 km a 75 km/h.",
+        "ru": "Классический дуэльный деревянный коастер с двумя поездами, мчащимися бок о бок на 1,2 км при 75 км/ч.",
+        "zh": "经典木质对决过山车，两列火车在1.2公里轨道上并排以75公里/时竞速，位于西部区域。",
+        "ar": "أفعوانية خشبية مزدوجة كلاسيكية يتسابق فيها قطاران جنباً إلى جنب عبر 1.2 كيلومتر بسرعة 75 كم/ساعة."
+      }
+    }
+  },
+  "food": {
+    "iron_horse": {
+      "desc": {
+        "en": "A lively Far West themed restaurant serving flame-grilled burgers, ribs, steaks and classic American BBQ dishes in a rustic saloon atmosphere.",
+        "es": "Animado restaurante del Far West con hamburguesas, costillas, filetes y BBQ americano clásico en ambiente de saloon.",
+        "fr": "Animé restaurant Far West servant burgers grillés, côtes, steaks et BBQ américain classique en ambiance saloon.",
+        "de": "Lebhaftes Far-West-Restaurant mit gegrillten Burgern, Ribs, Steaks und klassischem amerikanischen BBQ.",
+        "it": "Vivace ristorante Far West con hamburger alla griglia, costine, bistecche e BBQ americano classico.",
+        "nl": "Levendig Far West restaurant met gegrilde burgers, ribs, steaks en klassieke Amerikaanse BBQ.",
+        "pt": "Animado restaurante Far West com hambúrgueres grelhados, costelas, bifes e BBQ americano clássico.",
+        "ru": "Оживлённый ресторан Дикого Запада с гриль-бургерами, рёбрами, стейками и классическим американским BBQ.",
+        "zh": "充满活力的西部主题餐厅，供应炭烤汉堡、排骨、牛排和经典美式烧烤，粗犷沙龙氛围。",
+        "ar": "مطعم نابض بالحياة بطابع الغرب البعيد يقدم البرغر والضلوع والستيك والشواء الأمريكي الكلاسيكي في أجواء حانة الغرب."
+      }
+    },
+    "vinosfera": {
+      "desc": {
+        "en": "A relaxed wine bar and tapas spot in the Mediterrània area offering Spanish wines, sangria, cold beers and a rotating tapas menu with patatas bravas, jamón and seasonal small plates.",
+        "es": "Relajado bar de vinos y tapas en Mediterrània con vinos españoles, sangría, cervezas frías y tapas rotativas con patatas bravas y jamón.",
+        "fr": "Bar à vins détendu dans Mediterrània avec vins espagnols, sangria, bières fraîches et tapas rotatifs.",
+        "de": "Entspannte Weinbar in Mediterrània mit spanischen Weinen, Sangria, kalten Bieren und wechselnden Tapas.",
+        "it": "Rilassato wine bar in Mediterrània con vini spagnoli, sangria, birre fredde e tapas rotative.",
+        "nl": "Ontspannen wijnbar in Mediterrània met Spaanse wijnen, sangria, koude bieren en wisselende tapas.",
+        "pt": "Bar de vinhos descontraído em Mediterrània com vinhos espanhóis, sangria, cervejas frias e tapas rotativas.",
+        "ru": "Расслабленный винный бар в зоне Mediterrània с испанскими винами, сангрией, холодным пивом и тапас.",
+        "zh": "地中海区域的休闲酒吧和塔帕斯小馆，提供西班牙葡萄酒、桑格利亚汽酒、冰啤酒和轮换塔帕斯菜单。",
+        "ar": "بار نبيذ مريح ومكان للتاباس في منطقة ميديترانيا يقدم النبيذ الإسباني والسانغريا والبيرة الباردة وقائمة تاباس متناوبة."
+      }
+    },
+    "epi": {
+      "desc": {
+        "en": "A Mediterranean-style self-service restaurant in the Mediterrània area offering fresh grilled vegetables, pasta, salads, fish and lighter meat dishes inspired by Mediterranean cuisine.",
+        "es": "Restaurante de autoservicio mediterráneo en Mediterrània con verduras a la parrilla, pasta, ensaladas y platos de pescado.",
+        "fr": "Restaurant self-service méditerranéen dans Mediterrània avec légumes grillés, pâtes, salades et poissons.",
+        "de": "Mediterranes Self-Service-Restaurant in Mediterrània mit gegrilltem Gemüse, Pasta, Salaten und Fisch.",
+        "it": "Ristorante self-service mediterraneo in Mediterrània con verdure grigliate, pasta, insalate e pesce.",
+        "nl": "Mediterraan zelfbedieningsrestaurant in Mediterrània met gegrilde groenten, pasta, salades en vis.",
+        "pt": "Restaurante self-service mediterrâneo em Mediterrània com legumes grelhados, massa, saladas e peixe.",
+        "ru": "Средиземноморский ресторан самообслуживания в зоне Mediterrània с гриль-овощами, пастой, салатами и рыбой.",
+        "zh": "地中海区域的地中海风格自助餐厅，提供新鲜烤蔬菜、意面、沙拉、鱼类和清淡肉类菜肴。",
+        "ar": "مطعم ذاتي الخدمة بطراز البحر الأبيض المتوسط في منطقة ميديترانيا يقدم الخضروات المشوية والمعكرونة والسلطات والأسماك."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_portaventura": {
+      "desc": {
+        "en": "The flagship PortAventura hotel with Mediterranean themed rooms, multiple pools, restaurants and direct park access with early ride entry benefits for guests.",
+        "es": "El hotel insignia de PortAventura con habitaciones de tema mediterráneo, múltiples piscinas y acceso directo al parque.",
+        "fr": "L'hôtel phare de PortAventura avec chambres méditerranéennes, plusieurs piscines et accès direct au parc.",
+        "de": "Das Flaggschiff-Hotel von PortAventura mit mediterranen Zimmern, mehreren Pools und direktem Parkzugang.",
+        "it": "L'hotel ammiraglia di PortAventura con camere mediterranee, piscine multiple e accesso diretto al parco.",
+        "nl": "Het vlaggenschip PortAventura hotel met Mediterrane kamers, meerdere zwembaden en directe parktoegang.",
+        "pt": "O hotel principal da PortAventura com quartos mediterrâneos, várias piscinas e acesso direto ao parque.",
+        "ru": "Флагманский отель PortAventura со средиземноморскими номерами, несколькими бассейнами и прямым доступом в парк.",
+        "zh": "波特冒险旗舰酒店，地中海主题客房，多个游泳池，多家餐厅，直通公园，客人享受早乘特权。",
+        "ar": "فندق بورتافينتورا الرئيسي مع غرف ذات طابع متوسطي وحمامات سباحة متعددة ومطاعم وإمكانية دخول مباشر للمتنزه."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitación Estándar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Mediterranean themed room sleeping up to 4 with pool views and early park entry.", "es": "Habitación mediterránea para 4 con vistas a la piscina y entrada anticipada.", "fr": "Chambre méditerranéenne pour 4 avec vue piscine et entrée anticipée.", "de": "Mediterrane Zimmer fuer 4 mit Poolblick und frühem Einlass.", "it": "Camera mediterranea per 4 con vista piscina e ingresso anticipato.", "nl": "Mediterrane kamer voor 4 met poolzicht en vroege toegang.", "pt": "Quarto mediterrâneo para 4 com vista piscina e entrada antecipada.", "ru": "Средиземноморский номер для 4 с видом на бассейн и ранним входом.", "zh": "地中海主题客房，可容纳4人，泳池景观，早入场特权。", "ar": "غرفة بطابع متوسطي تتسع لـ 4 أشخاص مع إطلالات على المسبح ودخول مبكر للمتنزه." }
+        },
+        "superior_room": {
+          "name": { "en": "Superior Room", "es": "Habitación Superior", "fr": "Chambre Supérieure", "de": "Superior Zimmer", "it": "Camera Superior", "nl": "Superior Kamer", "pt": "Quarto Superior", "ru": "Улучшенный номер", "zh": "高级客房", "ar": "غرفة سوبيريور" },
+          "desc": { "en": "Larger room sleeping up to 4 with premium furnishings, balcony and pool or park views.", "es": "Habitación más grande para 4 con muebles premium, balcón y vistas a la piscina o parque.", "fr": "Grande chambre pour 4 avec mobilier premium, balcon et vue piscine ou parc.", "de": "Größeres Zimmer fuer 4 mit Premium-Einrichtung, Balkon und Pool- oder Parkblick.", "it": "Camera più grande per 4 con arredi premium, balcone e vista piscina o parco.", "nl": "Grotere kamer voor 4 met premium meubilair, balkon en zwembad- of parkzicht.", "pt": "Quarto maior para 4 com mobiliário premium, varanda e vistas para piscina ou parque.", "ru": "Большой номер для 4 с премиальной мебелью, балконом и видом на бассейн или парк.", "zh": "较大客房，可容纳4人，高档家具，阳台，游泳池或公园景观。", "ar": "غرفة أكبر تتسع لـ 4 أشخاص مع أثاث فاخر وشرفة وإطلالات على المسبح أو المتنزه." }
+        }
+      }
+    },
+    "hotel_gold_river": {
+      "desc": {
+        "en": "A Far West themed hotel with saloon-style decor, outdoor pool with waterslides, multiple restaurants and direct walking access to PortAventura theme park.",
+        "es": "Hotel de tema Far West con decoración estilo saloon, piscina exterior con toboganes, restaurantes y acceso directo al parque.",
+        "fr": "Hôtel thème Far West avec décor style saloon, piscine extérieure avec toboggans, restaurants et accès direct au parc.",
+        "de": "Far-West-Themenhotel mit Saloon-Dekor, Aussenpool mit Rutschen, Restaurants und direktem Parkzugang.",
+        "it": "Hotel a tema Far West con decor stile saloon, piscina esterna con scivoli, ristoranti e accesso diretto al parco.",
+        "nl": "Far West themahotel met saloon decor, buitenzwembad met glijbanen, restaurants en directe parktoegang.",
+        "pt": "Hotel tema Far West com decoração estilo saloon, piscina exterior com tobogãs, restaurantes e acesso direto ao parque.",
+        "ru": "Отель в стиле Дикого Запада с декором салуна, открытым бассейном с горками, ресторанами и прямым доступом в парк.",
+        "zh": "西部主题酒店，沙龙风格装饰，室外游泳池配滑水道，多家餐厅，步行直通波特冒险主题公园。",
+        "ar": "فندق بطابع الغرب البعيد مع ديكور بأسلوب الحانة وحمام سباحة خارجي مع زحاليق ومطاعم وإمكانية الوصول المباشر للمتنزه."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitación Estándar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Far West themed room sleeping up to 4 with pool access and early park entry.", "es": "Habitación Far West para 4 con acceso a piscina y entrada anticipada.", "fr": "Chambre Far West pour 4 avec accès piscine et entrée anticipée.", "de": "Far-West-Zimmer fuer 4 mit Poolzugang und frühem Einlass.", "it": "Camera Far West per 4 con accesso piscina e ingresso anticipato.", "nl": "Far West kamer voor 4 met zwembadtoegang en vroege parktoegang.", "pt": "Quarto Far West para 4 com acesso à piscina e entrada antecipada.", "ru": "Номер Дикого Запада для 4 с доступом к бассейну и ранним входом.", "zh": "西部主题客房，可容纳4人，游泳池通道，早入场特权。", "ar": "غرفة بطابع الغرب البعيد تتسع لـ 4 أشخاص مع إمكانية الوصول للمسبح ودخول مبكر للمتنزه." }
+        }
+      }
+    }
+  }
+}

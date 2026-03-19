@@ -1,5 +1,6 @@
 ﻿// lib/screens/park_detail_screen.dart
 import 'package:flutter/material.dart';
+import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -7,7 +8,9 @@ import 'package:share_plus/share_plus.dart';
 
 import '../app_state.dart';
 import '../l10n/app_localizations.dart';
+import '../widgets/reviews_section.dart';
 import '../models/park.dart';
+import '../models/my_day_item.dart';
 import '../models/attraction.dart';
 import '../models/food_place.dart';
 import '../services/portaventura_repository.dart';
@@ -15,16 +18,16 @@ import '../services/portaventura_i18n_repository.dart';
 import '../services/wait_time_service.dart';
 import '../services/i18n_content.dart';
 import '../models/hotel.dart';
+import '../widgets/park_image.dart';
 import '../services/portaventura_hotels_repository.dart';
 
 // ===============================================================
-// PREMIUM MICRO-ANIMATIONS / HELPERS (SAFE)
+// PREMIUM MICRO-ANIMATIONS / HELPERS
 // ===============================================================
 
 class _PressDown extends StatefulWidget {
   final Widget child;
   final VoidCallback onTap;
-
   const _PressDown({required this.child, required this.onTap});
 
   @override
@@ -33,7 +36,6 @@ class _PressDown extends StatefulWidget {
 
 class _PressDownState extends State<_PressDown> {
   bool _down = false;
-
   void _set(bool v) {
     if (_down == v) return;
     setState(() => _down = v);
@@ -79,17 +81,13 @@ class _PremiumAppear extends StatefulWidget {
 
 class _PremiumAppearState extends State<_PremiumAppear>
     with SingleTickerProviderStateMixin {
-  late final AnimationController _c = AnimationController(
-    vsync: this,
-    duration: widget.duration,
-  );
-
+  late final AnimationController _c =
+      AnimationController(vsync: this, duration: widget.duration);
   late final Animation<double> _fade =
       CurvedAnimation(parent: _c, curve: Curves.easeOutCubic);
-
-  late final Animation<double> _scale = Tween<double>(begin: 0.985, end: 1.0)
-      .animate(CurvedAnimation(parent: _c, curve: Curves.easeOutCubic));
-
+  late final Animation<double> _scale =
+      Tween<double>(begin: 0.985, end: 1.0)
+          .animate(CurvedAnimation(parent: _c, curve: Curves.easeOutCubic));
   late final Animation<Offset> _slide = Tween<Offset>(
     begin: const Offset(0, 0.035),
     end: Offset.zero,
@@ -115,10 +113,7 @@ class _PremiumAppearState extends State<_PremiumAppear>
       opacity: _fade,
       child: SlideTransition(
         position: _slide,
-        child: ScaleTransition(
-          scale: _scale,
-          child: widget.child,
-        ),
+        child: ScaleTransition(scale: _scale, child: widget.child),
       ),
     );
   }
@@ -205,20 +200,13 @@ class _LiveWaitText extends StatelessWidget {
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
     final service = WaitTimeService();
-
     return StreamBuilder<WaitTimeReading?>(
       stream: service.streamLiveWaitReading(
-        parkId: parkId,
-        attractionId: attractionId,
-      ),
+          parkId: parkId, attractionId: attractionId),
       builder: (_, snap) {
         final minutes = snap.data?.minutes ?? fallbackMinutes;
-        return Text(
-          '$minutes min (${loc.liveWait})',
-          style: style,
-          maxLines: 1,
-          overflow: TextOverflow.ellipsis,
-        );
+        return Text('$minutes min (${loc.liveWait})',
+            style: style, maxLines: 1, overflow: TextOverflow.ellipsis);
       },
     );
   }
@@ -238,12 +226,9 @@ class _LiveWaitPill extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final service = WaitTimeService();
-
     return StreamBuilder<WaitTimeReading?>(
       stream: service.streamLiveWaitReading(
-        parkId: parkId,
-        attractionId: attractionId,
-      ),
+          parkId: parkId, attractionId: attractionId),
       builder: (_, snap) {
         final minutes = snap.data?.minutes ?? fallbackMinutes;
         return _SoftBadge(icon: Icons.timer, text: '${minutes}m');
@@ -253,23 +238,201 @@ class _LiveWaitPill extends StatelessWidget {
 }
 
 // ===============================================================
-// SCREEN
+// I18N HELPERS  (single definitions — no duplicates)
+// ===============================================================
+
+class _I18nPair {
+  final String english;
+  final String translated;
+  const _I18nPair({required this.english, required this.translated});
+}
+
+class _LangPair {
+  final String en;
+  final String translated;
+  const _LangPair({required this.en, required this.translated});
+}
+
+Map<String, dynamic> _i18nRootOf(I18nContent i18n) {
+  try {
+    final r = (i18n as dynamic).root;
+    if (r is Map<String, dynamic>) return r;
+    if (r is Map) return Map<String, dynamic>.from(r);
+  } catch (_) {}
+  try {
+    final r = (i18n as dynamic).data;
+    if (r is Map<String, dynamic>) return r;
+    if (r is Map) return Map<String, dynamic>.from(r);
+  } catch (_) {}
+  try {
+    final r = (i18n as dynamic).map;
+    if (r is Map<String, dynamic>) return r;
+    if (r is Map) return Map<String, dynamic>.from(r);
+  } catch (_) {}
+  return const <String, dynamic>{};
+}
+
+_LangPair _i18nPickPair({
+  required BuildContext context,
+  required Map<String, dynamic> map,
+  required String fallbackEn,
+}) {
+  final lang = context.read<AppState>().languageCode;
+  String pick(String code) {
+    final v = map[code];
+    if (v is String && v.trim().isNotEmpty) return v.trim();
+    return '';
+  }
+  final en = pick('en');
+  final t = pick(lang);
+  return _LangPair(
+    en: en.isNotEmpty ? en : fallbackEn,
+    translated: t.isNotEmpty ? t : (en.isNotEmpty ? en : fallbackEn),
+  );
+}
+
+_LangPair _hotelDescPair(
+    BuildContext context, I18nContent i18n, String hotelId, String fallbackEn) {
+  final root = _i18nRootOf(i18n);
+  final hotels = root['hotels'];
+  if (hotels is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  final h = hotels[hotelId];
+  if (h is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  final desc = h['desc'];
+  if (desc is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  return _i18nPickPair(
+      context: context,
+      map: Map<String, dynamic>.from(desc),
+      fallbackEn: fallbackEn);
+}
+
+_LangPair _hotelRoomNamePair(BuildContext context, I18nContent i18n,
+    String hotelId, String roomKey, String fallbackEn) {
+  final root = _i18nRootOf(i18n);
+  final hotels = root['hotels'];
+  if (hotels is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  final h = hotels[hotelId];
+  if (h is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  final rooms = h['rooms'];
+  if (rooms is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  final r = rooms[roomKey];
+  if (r is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  final name = r['name'];
+  if (name is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  return _i18nPickPair(
+      context: context,
+      map: Map<String, dynamic>.from(name),
+      fallbackEn: fallbackEn);
+}
+
+_LangPair _hotelRoomDescPair(BuildContext context, I18nContent i18n,
+    String hotelId, String roomKey, String fallbackEn) {
+  final root = _i18nRootOf(i18n);
+  final hotels = root['hotels'];
+  if (hotels is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  final h = hotels[hotelId];
+  if (h is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  final rooms = h['rooms'];
+  if (rooms is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  final r = rooms[roomKey];
+  if (r is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  final desc = r['desc'];
+  if (desc is! Map) return _LangPair(en: fallbackEn, translated: fallbackEn);
+  return _i18nPickPair(
+      context: context,
+      map: Map<String, dynamic>.from(desc),
+      fallbackEn: fallbackEn);
+}
+
+class _I18nLookup {
+  final I18nContent i18n;
+  const _I18nLookup(this.i18n);
+
+  Map<String, dynamic> _rootMap() => _i18nRootOf(i18n);
+
+  _I18nPair pairOverview(
+      BuildContext context, String key, String fallbackEn) {
+    final lang = context.watch<AppState>().languageCode;
+    final root = _rootMap();
+    final ov = root['overview'];
+    if (ov is! Map) return _I18nPair(english: fallbackEn, translated: fallbackEn);
+    final node = ov[key];
+    if (node is! Map) return _I18nPair(english: fallbackEn, translated: fallbackEn);
+    String pick(String code) {
+      final v = node[code];
+      if (v is String && v.trim().isNotEmpty) return v.trim();
+      return '';
+    }
+    final en = pick('en');
+    final tr = pick(lang);
+    final english = en.isNotEmpty ? en : fallbackEn;
+    final translated = tr.isNotEmpty ? tr : english;
+    return _I18nPair(english: english, translated: translated);
+  }
+
+  _I18nPair pairDescFromSection(
+    BuildContext context, {
+    required String section,
+    required String id,
+    required String fallbackEn,
+  }) {
+    final lang = context.watch<AppState>().languageCode;
+    final root = _rootMap();
+    final sec = root[section];
+    if (sec is! Map) return _I18nPair(english: fallbackEn, translated: fallbackEn);
+    final item = sec[id];
+    if (item is! Map) return _I18nPair(english: fallbackEn, translated: fallbackEn);
+    final desc = item['desc'];
+    if (desc is! Map) return _I18nPair(english: fallbackEn, translated: fallbackEn);
+    String pick(String code) {
+      final v = desc[code];
+      if (v is String && v.trim().isNotEmpty) return v.trim();
+      return '';
+    }
+    final en = pick('en');
+    final tr = pick(lang);
+    final english = en.isNotEmpty ? en : fallbackEn;
+    final translated = tr.isNotEmpty ? tr : english;
+    return _I18nPair(english: english, translated: translated);
+  }
+
+  _I18nPair pairFromSectionIdField(
+    BuildContext context, {
+    required String section,
+    required String id,
+    required String field,
+    required String fallbackEn,
+  }) {
+    final lang = context.watch<AppState>().languageCode;
+    final root = _rootMap();
+    final sec = root[section];
+    if (sec is! Map) return _I18nPair(english: fallbackEn, translated: fallbackEn);
+    final byId = sec[id];
+    if (byId is! Map) return _I18nPair(english: fallbackEn, translated: fallbackEn);
+    final fieldNode = byId[field];
+    if (fieldNode is! Map) return _I18nPair(english: fallbackEn, translated: fallbackEn);
+    String pick(String code, String fb) {
+      final v = fieldNode[code];
+      if (v is String && v.trim().isNotEmpty) return v.trim();
+      return fb;
+    }
+    final en = pick('en', fallbackEn);
+    final tr = pick(lang, en);
+    return _I18nPair(english: en, translated: tr);
+  }
+}
+
+// ===============================================================
+// PARK DETAIL SCREEN
 // ===============================================================
 
 class ParkDetailScreen extends StatefulWidget {
   final Park park;
-
-  const ParkDetailScreen({
-    super.key,
-    required this.park,
-  });
+  const ParkDetailScreen({super.key, required this.park});
 
   @override
   State<ParkDetailScreen> createState() => _ParkDetailScreenState();
 }
-
-// ✅ FULL FIXED _ParkDetailScreenState
-// Drop this into your park_detail_screen.dart replacing your current _ParkDetailScreenState
 
 class _ParkDetailScreenState extends State<ParkDetailScreen>
     with TickerProviderStateMixin {
@@ -281,11 +444,9 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
   List<Attraction> _attractions = const [];
   List<FoodPlace> _food = const [];
   List<Hotel> _hotels = const [];
-
   I18nContent? _i18n;
 
-  bool get _isPortAventura =>
-      widget.park.id.trim().toLowerCase() == 'portaventura';
+  bool get _isPortAventura => true; // all parks now use the same template
 
   @override
   void initState() {
@@ -295,52 +456,119 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
   }
 
   Future<void> _load() async {
+  setState(() {
+    _loading = true;
+    _error = null;
+  });
+  try {
+    final parkId = widget.park.id.trim().toLowerCase();
+    final isPortAventura = parkId == 'portaventura';
+
+    late final List<Attraction> at;
+    late final List<FoodPlace> food;
+    late final List<Hotel> hotels;
+    late final Map<String, dynamic> i18nRoot;
+
+    if (isPortAventura) {
+      try {
+        at = await PortAventuraRepository.loadAttractions();
+      } catch (e, st) {
+        throw Exception('loadAttractions failed:\n$e\n\n$st');
+      }
+      try {
+        food = await PortAventuraRepository.loadFood();
+      } catch (e, st) {
+        throw Exception('loadFood failed:\n$e\n\n$st');
+      }
+      try {
+        hotels = await HotelsRepository().loadHotels(
+            parkId: widget.park.id,
+            parkLat: widget.park.lat,
+            parkLng: widget.park.lng);
+      } catch (e, st) {
+        throw Exception('loadHotels failed:\n$e\n\n$st');
+      }
+      try {
+        i18nRoot = await PortAventuraI18nRepository.load();
+      } catch (e, st) {
+        throw Exception('loadI18n failed:\n$e\n\n$st');
+      }
+    } else {
+      // Generic loader for all other parks
+      try {
+        final raw = await rootBundle
+            .loadString('assets/data/parks/$parkId/attractions.json');
+        final decoded = jsonDecode(raw) as List;
+        at = decoded
+            .map((e) => Attraction.fromJson(
+                  e as Map<String, dynamic>,
+                  parkLat: widget.park.lat,
+                  parkLng: widget.park.lng,
+                ))
+            .toList();
+      } catch (_) {
+        at = const [];
+      }
+      try {
+        final raw = await rootBundle
+            .loadString('assets/data/parks/$parkId/food.json');
+        final decoded = jsonDecode(raw) as List;
+        food = decoded
+            .map((e) => FoodPlace.fromJson(
+                  e as Map<String, dynamic>,
+                  parkLat: widget.park.lat,
+                  parkLng: widget.park.lng,
+                ))
+            .toList();
+      } catch (_) {
+        food = const [];
+      }
+      try {     
+        hotels = await HotelsRepository().loadHotels(
+            parkId: parkId,
+            parkLat: widget.park.lat,
+            parkLng: widget.park.lng);
+      } catch (e) {
+        debugPrint('HOTELS ERROR: $e');
+        hotels = const [];
+      }
+      try {
+        final i18nRaw = await rootBundle
+            .loadString('assets/i18n/$parkId.json');
+        i18nRoot = jsonDecode(i18nRaw) as Map<String, dynamic>;
+      } catch (_) {
+        i18nRoot = const <String, dynamic>{};
+      }
+    }
+
+    if (!mounted) return;
     setState(() {
-      _loading = true;
-      _error = null;
+      _attractions = at;
+      _food = food;
+      _hotels = hotels;
+      _i18n = I18nContent(i18nRoot);
+      _loading = false;
     });
 
-    try {
-      if (_isPortAventura) {
-        final at = await PortAventuraRepository.loadAttractions();
-        final food = await PortAventuraRepository.loadFood();
-        final hotels = await PortAventuraRepository.loadHotels();
-        final i18nRoot = await PortAventuraI18nRepository.load();
-
-        if (!mounted) return;
-        setState(() {
-          _attractions = at;
-          _food = food;
-          _hotels = hotels;
-          _i18n = I18nContent(i18nRoot);
-          _loading = false;
-        });
-      } else {
-        // Non-PortAventura parks: show Overview + Coming Soon tabs
-        final i18nRoot = await PortAventuraI18nRepository.load();
-
-        if (!mounted) return;
-        setState(() {
-          _attractions = const [];
-          _food = const [];
-          _hotels = const [];
-          _i18n = I18nContent(i18nRoot);
-          _loading = false;
-        });
-      }
-    } catch (e) {
-      if (!mounted) return;
-      setState(() {
-        _attractions = const [];
-        _food = const [];
-        _hotels = const [];
-        _i18n = const I18nContent(<String, dynamic>{});
-        _loading = false;
-        _error = e.toString();
-      });
+    if (widget.park.queueTimesId != null) {
+      WaitTimeService().fetchAndCacheQueueTimes(
+        parkId: widget.park.id,
+        queueTimesId: widget.park.queueTimesId!,
+      );
     }
+  } catch (e) {
+    if (!mounted) return;
+    setState(() {
+      _attractions = const [];
+      _food = const [];
+      _hotels = const [];
+      _i18n = const I18nContent(<String, dynamic>{});
+      _loading = false;
+      _error = e.toString();
+    });
   }
-
+}
+        
   @override
   void dispose() {
     _tabController.dispose();
@@ -348,14 +576,12 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
   }
 
   Future<void> _openMapsDirections(double lat, double lng) async {
-    final uri =
-        Uri.parse('https://www.google.com/maps/dir/?api=1&destination=$lat,$lng');
-
+    final uri = Uri.parse(
+        'https://www.google.com/maps/dir/?api=1&destination=$lat,$lng');
     final ok = await launchUrl(uri, mode: LaunchMode.externalApplication);
     if (!ok && mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Could not open Maps')),
-      );
+      ScaffoldMessenger.of(context)
+          .showSnackBar(const SnackBar(content: Text('Could not open Maps')));
     }
   }
 
@@ -364,16 +590,20 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
     if (u.isEmpty) return;
     final uri = Uri.tryParse(u);
     if (uri == null) return;
-
     final ok = await launchUrl(uri, mode: LaunchMode.externalApplication);
     if (!ok && mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Could not open website')),
-      );
+          const SnackBar(content: Text('Could not open website')));
     }
   }
 
-  String _categoryLabel(AppLocalizations loc, String category) {
+  _Loc _loc(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    if (l == null) return const _LocFallback();
+    return _LocReal(l);
+  }
+
+  String _categoryLabel(_Loc loc, String category) {
     switch (category.trim().toLowerCase()) {
       case 'thrill':
         return loc.thrill;
@@ -390,16 +620,28 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
 
   @override
   Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
+    final loc = _loc(context);
     final park = widget.park;
-
-    // Always use a non-null i18n object in UI:
     final i18n = _i18n ?? const I18nContent(<String, dynamic>{});
+    final website = (park.website ?? '').trim();
+    final VoidCallback? onWebsite =
+        website.isEmpty ? null : () => _openWebsite(website);
 
     return Scaffold(
       appBar: AppBar(
         title: Text(park.name),
         actions: [
+          IconButton(
+            tooltip: 'My Day',
+            icon: Consumer<AppState>(
+              builder: (context, app, _) => Badge(
+                isLabelVisible: app.myDayTotalCount > 0,
+                label: Text(app.myDayTotalCount.toString()),
+                child: const Icon(Icons.wb_sunny_outlined),
+              ),
+            ),
+            onPressed: () => Navigator.pushNamed(context, '/my_day'),
+          ),
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
@@ -408,10 +650,11 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
         ],
         bottom: TabBar(
           controller: _tabController,
+          isScrollable: true,
           tabs: [
             Tab(text: loc.overview),
             Tab(text: loc.attractions),
-            Tab(text: loc.foodAndPrices),
+            Tab(text: loc.restaurants),
             Tab(text: loc.hotels),
           ],
         ),
@@ -423,30 +666,29 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
                 ? Center(
                     child: Padding(
                       padding: const EdgeInsets.all(16),
-                      child: Text('Error: $_error'),
+                      child: Text('Error:\n\n$_error'),
                     ),
                   )
                 : TabBarView(
                     controller: _tabController,
                     children: [
-                      // 1) Overview
                       _OverviewTab(
                         park: park,
                         i18n: i18n,
+                        loc: loc,
                         onDirections: () =>
                             _openMapsDirections(park.lat, park.lng),
-                        onWebsite: (park.website == null ||
-                                park.website!.trim().isEmpty)
-                            ? null
-                            : () => _openWebsite(park.website!.trim()),
+                        onWebsite: onWebsite,
+                        onTickets: (park.ticketsUrl ?? '').isNotEmpty ? () => _openWebsite(park.ticketsUrl!) : null,
                         showPortAventuraText: _isPortAventura,
                       ),
-
-                      // 2) Attractions
                       _isPortAventura
                           ? _AttractionsTab(
+                              park: park,
                               parkId: park.id,
                               attractions: _attractions,
+                              food: _food,
+                              hotels: _hotels,
                               i18n: i18n,
                               categoryLabel: (c) => _categoryLabel(loc, c),
                               onDirections: (a) =>
@@ -455,12 +697,11 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
                           : _ComingSoonTab(
                               title: loc.attractions,
                               subtitle:
-                                  'This park will use the same template as PortAventura.\nWe’ll add attractions here soon.',
+                                  'This park will use the same template as PortAventura.\nWe will add attractions here soon.',
                             ),
-
-                      // 3) Food
                       _isPortAventura
                           ? _FoodTab(
+                              parkId: widget.park.id,
                               food: _food,
                               i18n: i18n,
                               onDirections: (f) =>
@@ -471,10 +712,9 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
                               subtitle:
                                   'Food, menus, and prices will appear here soon.',
                             ),
-
-                      // 4) Hotels (NEW signature: hotels + i18n + onDirections)
                       _isPortAventura
                           ? _HotelsTab(
+                              park: park,
                               hotels: _hotels,
                               i18n: i18n,
                               onDirections: (h) =>
@@ -491,167 +731,365 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
   }
 }
 
+// ===============================================================
+// LOC ABSTRACTION
+// ===============================================================
+
+abstract class _Loc {
+  String get overview;
+  String get attractions;
+  String get foodAndPrices;
+  String get hotels;
+  String get share;
+  String get hours;
+  String get entryFrom;
+  String get location;
+  String get directions;
+  String get highlights;
+  String get thrill;
+  String get family;
+  String get water;
+  String get simulator;
+  String get restaurants;
+}
+
+class _LocReal implements _Loc {
+  final AppLocalizations l;
+  const _LocReal(this.l);
+  @override String get overview => l.overview;
+  @override String get attractions => l.attractions;
+  @override String get foodAndPrices => l.foodAndPrices;
+  @override String get hotels => l.hotels;
+  @override String get share => l.share;
+  @override String get hours => l.hours;
+  @override String get entryFrom => l.entryFrom;
+  @override String get location => l.location;
+  @override String get directions => l.directions;
+  @override String get highlights => l.highlights;
+  @override String get thrill => l.thrill;
+  @override String get family => l.family;
+  @override String get water => l.water;
+  @override String get simulator => l.simulator;
+  @override String get restaurants => l.restaurants;
+}
+
+class _LocFallback implements _Loc {
+  const _LocFallback();
+  @override String get overview => 'Overview';
+  @override String get attractions => 'Attractions';
+  @override String get foodAndPrices => 'Food & Prices';
+  @override String get hotels => 'Hotels';
+  @override String get share => 'Share';
+  @override String get hours => 'Hours';
+  @override String get entryFrom => 'Entry from';
+  @override String get location => 'Location';
+  @override String get directions => 'Directions';
+  @override String get highlights => 'Highlights';
+  @override String get thrill => 'Thrill';
+  @override String get family => 'Family';
+  @override String get water => 'Water';
+  @override String get simulator => 'Simulator';
+  @override String get restaurants => 'Restaurants';
+}
 
 // ===============================================================
-// OVERVIEW TAB
+// SHARED SMALL WIDGETS
 // ===============================================================
 
-class _OverviewTab extends StatelessWidget {
-  final Park park;
-  final I18nContent i18n;
-  final VoidCallback onDirections;
-  final VoidCallback? onWebsite;
-
-  // When false, we avoid showing PortAventura-specific narrative text.
-  final bool showPortAventuraText;
-
-  const _OverviewTab({
-    required this.park,
-    required this.i18n,
-    required this.onDirections,
-    required this.onWebsite,
-    required this.showPortAventuraText,
-  });
+class _Chip extends StatelessWidget {
+  final String text;
+  const _Chip({required this.text});
 
   @override
   Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
-
-    final locationText =
-        '${(park.city ?? '').trim().isEmpty ? '' : '${park.city}, '}${park.country}';
-
-    final facts = <String>[
-      '${loc.hours}: ${park.openingHours ?? '—'}',
-      '${loc.entryFrom}: ${park.currency} ${(park.entryPrices['adult'] ?? 0)}',
-      '${loc.location}: $locationText',
-    ].where((e) => e.trim().isNotEmpty).toList();
-
-    return ListView(
-      padding: const EdgeInsets.fromLTRB(16, 16, 16, 24),
-      children: [
-        if ((park.thumbnail ?? '').trim().isNotEmpty)
-          ClipRRect(
-            borderRadius: BorderRadius.circular(18),
-            child: AspectRatio(
-              aspectRatio: 16 / 9,
-              child: Image.asset(
-                park.thumbnail!.trim(),
-                fit: BoxFit.cover,
-                errorBuilder: (_, __, ___) => Container(color: Colors.black12),
-              ),
-            ),
-          ),
-        if ((park.thumbnail ?? '').trim().isNotEmpty) const SizedBox(height: 12),
-
-        Wrap(
-          spacing: 8,
-          runSpacing: 8,
-          children: facts.map((t) => _Chip(text: t)).toList(),
-        ),
-        const SizedBox(height: 14),
-
-        Row(
-          children: [
-            Expanded(
-              child: FilledButton.icon(
-                onPressed: onDirections,
-                icon: const Icon(Icons.directions),
-                label: Text(loc.directions),
-              ),
-            ),
-            if (onWebsite != null) ...[
-              const SizedBox(width: 12),
-              Expanded(
-                child: OutlinedButton.icon(
-                  onPressed: onWebsite,
-                  icon: const Icon(Icons.public),
-                  label: const Text('Website'),
-                ),
-              ),
-            ],
-          ],
-        ),
-        const SizedBox(height: 14),
-
-        // For PortAventura we keep your rich text blocks + i18n.
-        // For other parks we show a clean, generic block.
-        if (showPortAventuraText) ...[
-          _SectionCard(
-            title: loc.overview,
-            translatedText: i18n.tOverview(
-              context,
-              'ov_overview_body',
-              'PortAventura Park is one of Europe’s most iconic theme parks.',
-            ),
-            originalText:
-                'PortAventura Park is one of Europe’s most iconic theme parks.',
-          ),
-          const SizedBox(height: 12),
-          _SectionCard(
-            title: loc.highlights,
-            translatedText: i18n.tOverview(
-              context,
-              'ov_highlights_body',
-              'Start with top coasters early. Water rides are best mid-day.',
-            ),
-            originalText:
-                'Start with top coasters early. Water rides are best mid-day.',
-          ),
-          const SizedBox(height: 12),
-          _SectionCard(
-            title: 'Did you know?',
-            translatedText: i18n.tOverview(
-              context,
-              'ov_did_you_know_body',
-              'The park opened in 1995 and is divided into themed worlds inspired by global cultures.',
-            ),
-            originalText:
-                'The park opened in 1995 and is divided into themed worlds inspired by global cultures.',
-          ),
-          const SizedBox(height: 12),
-          _SectionCard(
-            title: 'Plan like a pro',
-            translatedText: i18n.tOverview(
-              context,
-              'ov_plan_body',
-              'Start with the biggest rides in the morning. Save water rides for mid-day.',
-            ),
-            originalText:
-                'Start with the biggest rides in the morning. Save water rides for mid-day.',
-          ),
-          const SizedBox(height: 12),
-          _SectionCard(
-            title: 'Best photo moments',
-            translatedText: i18n.tOverview(
-              context,
-              'ov_photos_body',
-              'Look for viewpoints before sunset for warm golden light.',
-            ),
-            originalText:
-                'Look for viewpoints before sunset for warm golden light.',
-          ),
-        ] else ...[
-          _SectionCard(
-            title: loc.overview,
-            translatedText:
-                'This park is ready as a template.\nWe’ll add full content soon.',
-            originalText:
-                'This park is ready as a template.\nWe’ll add full content soon.',
-          ),
-        ],
-      ],
+    final t = text.trim();
+    if (t.isEmpty) return const SizedBox.shrink();
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(999),
+        color: Theme.of(context).colorScheme.surfaceContainerHighest,
+      ),
+      child: Text(t,
+          style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12)),
     );
   }
 }
 
+class _ComingSoonTab extends StatelessWidget {
+  final String title;
+  final String subtitle;
+  const _ComingSoonTab({required this.title, required this.subtitle});
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(22),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(Icons.construction, size: 42, color: Colors.grey.shade700),
+            const SizedBox(height: 10),
+            Text(title,
+                style: Theme.of(context)
+                    .textTheme
+                    .titleLarge
+                    ?.copyWith(fontWeight: FontWeight.w900),
+                textAlign: TextAlign.center),
+            const SizedBox(height: 8),
+            Text(subtitle,
+                style: TextStyle(color: Colors.grey.shade700),
+                textAlign: TextAlign.center),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _Pill extends StatelessWidget {
+  final IconData icon;
+  final String text;
+  const _Pill({required this.icon, required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(999),
+        color: Theme.of(context).colorScheme.surfaceContainerHighest,
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(icon, size: 16),
+          const SizedBox(width: 8),
+          Text(text,
+              style:
+                  const TextStyle(fontWeight: FontWeight.w800, fontSize: 12)),
+        ],
+      ),
+    );
+  }
+}
+
+class _SoftBadge extends StatelessWidget {
+  final IconData icon;
+  final String text;
+  const _SoftBadge({required this.icon, required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(999),
+        color: cs.surfaceContainerHighest,
+        border: Border.all(color: cs.outlineVariant.withOpacity(0.25)),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(icon, size: 14),
+          const SizedBox(width: 6),
+          Text(text,
+              style:
+                  const TextStyle(fontWeight: FontWeight.w800, fontSize: 12)),
+        ],
+      ),
+    );
+  }
+}
+
+class _MiniPill extends StatelessWidget {
+  final IconData icon;
+  final String text;
+  final VoidCallback? onTap;
+  const _MiniPill({required this.icon, required this.text, this.onTap, super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final child = Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(999),
+        color: Theme.of(context).colorScheme.surfaceContainerHighest,
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(icon, size: 16),
+          const SizedBox(width: 8),
+          Text(text,
+              style:
+                  const TextStyle(fontWeight: FontWeight.w800, fontSize: 12)),
+        ],
+      ),
+    );
+    if (onTap == null) return child;
+    return InkWell(
+        borderRadius: BorderRadius.circular(999), onTap: onTap, child: child);
+  }
+}
+
+class _StarRow extends StatelessWidget {
+  final double initial;
+  final ValueChanged<double> onChanged;
+  const _StarRow({required this.initial, required this.onChanged});
+
+  @override
+  Widget build(BuildContext context) {
+    final filled = initial.round().clamp(1, 5);
+    return Row(
+      children: List.generate(5, (i) {
+        final idx = i + 1;
+        return IconButton(
+          onPressed: () => onChanged(idx.toDouble()),
+          icon: Icon(idx <= filled ? Icons.star : Icons.star_border),
+        );
+      }),
+    );
+  }
+}
+
+class _TextCard extends StatelessWidget {
+  final String title;
+  final List<String> lines;
+  const _TextCard({required this.title, required this.lines});
+
+  @override
+  Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    if (lines.isEmpty) return const SizedBox.shrink();
+    return Container(
+      padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(16),
+        color: cs.surface,
+        border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
+        boxShadow: const [
+          BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12)
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(title,
+              style: Theme.of(context)
+                  .textTheme
+                  .titleSmall
+                  ?.copyWith(fontWeight: FontWeight.w900)),
+          const SizedBox(height: 8),
+          ...lines.map((t) => Padding(
+                padding: const EdgeInsets.only(bottom: 4),
+                child: Text(t, style: TextStyle(color: Colors.grey.shade700)),
+              )),
+        ],
+      ),
+    );
+  }
+}
+
+class _PillIconButton extends StatefulWidget {
+  final String tooltip;
+  final IconData icon;
+  final Future<void> Function() onTap;
+  final bool animate;
+
+  const _PillIconButton({
+    required this.tooltip,
+    required this.icon,
+    required this.onTap,
+    this.animate = false,
+  });
+
+  @override
+  State<_PillIconButton> createState() => _PillIconButtonState();
+}
+
+class _PillIconButtonState extends State<_PillIconButton> {
+  bool _pressed = false;
+  bool _busy = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    final isHeart =
+        widget.icon == Icons.favorite || widget.icon == Icons.favorite_border;
+    final scale = widget.animate ? (_pressed ? 0.93 : 1.0) : 1.0;
+    final opacity = widget.animate ? (_pressed ? 0.92 : 1.0) : 1.0;
+
+    return Tooltip(
+      message: widget.tooltip,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(999),
+        onTap: _busy
+            ? null
+            : () async {
+                setState(() => _busy = true);
+                try {
+                  if (widget.animate) {
+                    HapticFeedback.lightImpact();
+                    setState(() => _pressed = true);
+                    await Future.delayed(const Duration(milliseconds: 70));
+                    if (mounted) setState(() => _pressed = false);
+                  } else {
+                    HapticFeedback.selectionClick();
+                  }
+                  await widget.onTap();
+                } finally {
+                  if (mounted) setState(() => _busy = false);
+                }
+              },
+        onTapDown: (_) {
+          if (!widget.animate) return;
+          setState(() => _pressed = true);
+        },
+        onTapCancel: () {
+          if (!widget.animate) return;
+          setState(() => _pressed = false);
+        },
+        onTapUp: (_) {
+          if (!widget.animate) return;
+          setState(() => _pressed = false);
+        },
+        child: AnimatedScale(
+          duration: const Duration(milliseconds: 120),
+          curve: Curves.easeOut,
+          scale: scale,
+          child: AnimatedOpacity(
+            duration: const Duration(milliseconds: 120),
+            curve: Curves.easeOut,
+            opacity: opacity,
+            child: SizedBox(
+              width: 44,
+              height: 44,
+              child: Icon(widget.icon,
+                  size: 20,
+                  color: isHeart ? cs.primary : cs.onSurface),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+// ===============================================================
+// SECTION CARD  (single definition)
+// ===============================================================
+
 class _SectionCard extends StatefulWidget {
   final String title;
-  final String originalText;
+  final String englishText;
   final String translatedText;
 
   const _SectionCard({
     required this.title,
-    required this.originalText,
+    required this.englishText,
     required this.translatedText,
   });
 
@@ -660,20 +1098,19 @@ class _SectionCard extends StatefulWidget {
 }
 
 class _SectionCardState extends State<_SectionCard> {
-  bool _showTranslated = false;
+  bool _showTranslated = true;
 
   @override
   Widget build(BuildContext context) {
     final textToShow =
-        _showTranslated ? widget.translatedText : widget.originalText;
-
+        _showTranslated ? widget.translatedText : widget.englishText;
     return Container(
       padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16),
         color: Theme.of(context).colorScheme.surface,
         boxShadow: const [
-          BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12),
+          BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12)
         ],
       ),
       child: Column(
@@ -682,18 +1119,16 @@ class _SectionCardState extends State<_SectionCard> {
           Row(
             children: [
               Expanded(
-                child: Text(
-                  widget.title,
-                  style: Theme.of(context)
-                      .textTheme
-                      .titleMedium
-                      ?.copyWith(fontWeight: FontWeight.w900),
-                ),
+                child: Text(widget.title,
+                    style: Theme.of(context)
+                        .textTheme
+                        .titleMedium
+                        ?.copyWith(fontWeight: FontWeight.w900)),
               ),
               TextButton(
                 onPressed: () =>
                     setState(() => _showTranslated = !_showTranslated),
-                child: Text(I18nContent.buttonLabel(context, _showTranslated)),
+                child: Text(_showTranslated ? 'EN' : 'Translate'),
               ),
             ],
           ),
@@ -712,79 +1147,187 @@ class _SectionCardState extends State<_SectionCard> {
   }
 }
 
-class _Chip extends StatelessWidget {
-  final String text;
-  const _Chip({required this.text});
+// ===============================================================
+// OVERVIEW TAB
+// ===============================================================
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(999),
-        color: Theme.of(context).colorScheme.surfaceContainerHighest,
-      ),
-      child: Text(
-        text,
-        style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12),
-      ),
-    );
+class _OverviewTab extends StatelessWidget {
+  final Park park;
+  final I18nContent i18n;
+  final _Loc loc;
+  final VoidCallback onDirections;
+  final VoidCallback? onWebsite;
+  final VoidCallback? onTickets;
+  final bool showPortAventuraText;
+
+  const _OverviewTab({
+    super.key,
+    required this.park,
+    required this.i18n,
+    required this.loc,
+    required this.onDirections,
+    required this.onWebsite,
+    this.onTickets,
+    required this.showPortAventuraText,
+  });
+
+  String _formatPriceLine() {
+    final adult = park.entryPrices['adult'];
+    final child = park.entryPrices['child'];
+    String fmt(num? n) =>
+        n == null ? '' : n.toStringAsFixed(n % 1 == 0 ? 0 : 2);
+    final a = adult != null ? fmt(adult) : '';
+    final c = child != null ? fmt(child) : '';
+    if (a.isEmpty && c.isEmpty) return '';
+    if (a.isNotEmpty && c.isNotEmpty)
+      return 'Adult $a • Child $c ${park.currency}';
+    if (a.isNotEmpty) return 'Adult $a ${park.currency}';
+    return 'Child $c ${park.currency}';
   }
-}
-
-class _ComingSoonTab extends StatelessWidget {
-  final String title;
-  final String subtitle;
-
-  const _ComingSoonTab({required this.title, required this.subtitle});
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.all(22),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
+    final lookup = _I18nLookup(i18n);
+    final hasThumb = (park.thumbnail ?? '').trim().isNotEmpty;
+    final thumb = (park.thumbnail ?? '').trim();
+    final hours = (park.openingHours ?? '').trim();
+    final priceLine = _formatPriceLine();
+
+    final overviewPair = lookup.pairOverview(context, 'ov_overview_body',
+        'This park is a popular destination with themed areas, rides, and experiences.');
+    final highlightsPair = lookup.pairOverview(context, 'ov_highlights_body',
+        'Start with the top rides early. Use mid-day for water rides.');
+    final didYouKnowPair = lookup.pairOverview(context, 'ov_did_you_know_body',
+        'Did you know: This park is split into themed zones inspired by different worlds.');
+    final planPair = lookup.pairOverview(context, 'ov_plan_body',
+        'Plan: do big rides first, save water rides for mid-day, and take breaks.');
+    final photosPair = lookup.pairOverview(context, 'ov_photos_body',
+        'Photos: golden hour before sunset gives the best light.');
+
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(16, 14, 16, 24),
+      children: [
+        if (hasThumb) ...[
+          ParkHeroImage(imagePath: thumb, height: 190),
+          const SizedBox(height: 14),
+        ],
+        Row(
           children: [
-            Icon(Icons.construction, size: 42, color: Colors.grey.shade700),
-            const SizedBox(height: 10),
-            Text(
-              title,
-              style: Theme.of(context)
-                  .textTheme
-                  .titleLarge
-                  ?.copyWith(fontWeight: FontWeight.w900),
-              textAlign: TextAlign.center,
+            Expanded(
+              child: FilledButton.icon(
+                onPressed: onDirections,
+                icon: const Icon(Icons.directions),
+                label: Text(loc.directions),
+              ),
             ),
-            const SizedBox(height: 8),
-            Text(
-              subtitle,
-              style: TextStyle(color: Colors.grey.shade700),
-              textAlign: TextAlign.center,
+            const SizedBox(width: 10),
+            Expanded(
+              child: OutlinedButton.icon(
+                onPressed: onWebsite,
+                icon: const Icon(Icons.public),
+                label: const Text('Website'),
+              ),
             ),
           ],
         ),
-      ),
+        const SizedBox(height: 10),
+        Row(
+          children: [
+            Expanded(
+              child: FilledButton.icon(
+                onPressed: onTickets,
+                icon: const Icon(Icons.confirmation_number),
+                label: const Text('Buy Tickets'),
+                style: FilledButton.styleFrom(backgroundColor: Colors.deepOrange),
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 12),
+        Wrap(
+          spacing: 10,
+          runSpacing: 10,
+          children: [
+            if ((park.city ?? '').trim().isNotEmpty)
+              _Chip(text: park.city!.trim()),
+            if (park.country.trim().isNotEmpty) _Chip(text: park.country.trim()),
+            if (park.type.trim().isNotEmpty) _Chip(text: park.type.trim()),
+            if (hours.isNotEmpty) _Chip(text: '${loc.hours}: $hours'),
+            if (priceLine.isNotEmpty)
+              _Chip(text: '${loc.entryFrom}: $priceLine'),
+            _Chip(
+              text:
+                  '${loc.location}: ${park.lat.toStringAsFixed(4)}, ${park.lng.toStringAsFixed(4)}',
+            ),
+          ],
+        ),
+        const SizedBox(height: 14),
+        _SectionCard(
+            title: loc.overview,
+            englishText: overviewPair.english,
+            translatedText: overviewPair.translated),
+        const SizedBox(height: 12),
+        _SectionCard(
+            title: loc.highlights,
+            englishText: highlightsPair.english,
+            translatedText: highlightsPair.translated),
+        const SizedBox(height: 12),
+        _SectionCard(
+            title: 'Did you know',
+            englishText: didYouKnowPair.english,
+            translatedText: didYouKnowPair.translated),
+        const SizedBox(height: 12),
+        _SectionCard(
+            title: 'Plan',
+            englishText: planPair.english,
+            translatedText: planPair.translated),
+        const SizedBox(height: 12),
+        _SectionCard(
+            title: 'Photos',
+            englishText: photosPair.english,
+            translatedText: photosPair.translated),
+        if (showPortAventuraText) ...[
+          const SizedBox(height: 14),
+          Container(
+            padding: const EdgeInsets.all(14),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(16),
+              color: Theme.of(context).colorScheme.surfaceContainerHighest,
+            ),
+            child: const Text(
+              'This park uses the PortAventura template. Attractions, food, and hotels are loaded from local JSON.',
+              style: TextStyle(fontWeight: FontWeight.w700),
+            ),
+          ),
+        ],
+      ],
     );
   }
 }
 
 // ===============================================================
-// ATTRACTIONS TAB — SAFE
+// ATTRACTIONS TAB
 // ===============================================================
 
 enum _AttractionSort { recommended, lowestWait, highestRated }
 
 class _AttractionsTab extends StatefulWidget {
+  final Park park;
   final String parkId;
   final List<Attraction> attractions;
+  final List<FoodPlace> food;
+  final List<Hotel> hotels;
   final I18nContent i18n;
   final String Function(String category) categoryLabel;
   final Future<void> Function(Attraction a) onDirections;
 
   const _AttractionsTab({
+    super.key,
+    required this.park,
     required this.parkId,
     required this.attractions,
+    required this.food,
+    required this.hotels,
     required this.i18n,
     required this.categoryLabel,
     required this.onDirections,
@@ -799,7 +1342,6 @@ class _AttractionsTabState extends State<_AttractionsTab> {
 
   List<Attraction> _sorted(List<Attraction> items) {
     final list = [...items];
-
     if (_sort == _AttractionSort.lowestWait) {
       list.sort((a, b) => a.liveWaitMinutes.compareTo(b.liveWaitMinutes));
       return list;
@@ -808,39 +1350,32 @@ class _AttractionsTabState extends State<_AttractionsTab> {
       list.sort((a, b) => b.rating.compareTo(a.rating));
       return list;
     }
-
     list.sort((a, b) {
       final at = a.topPick ? 0 : 1;
       final bt = b.topPick ? 0 : 1;
       if (at != bt) return at.compareTo(bt);
-
       final r = b.rating.compareTo(a.rating);
       if (r != 0) return r;
-
       return a.liveWaitMinutes.compareTo(b.liveWaitMinutes);
     });
-
     return list;
   }
 
   void _openDetails(Attraction a) {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => _AttractionDetailScreen(
-          parkId: widget.parkId,
-          attraction: a,
-          i18n: widget.i18n,
-          onDirections: widget.onDirections,
-          categoryLabel: widget.categoryLabel,
-        ),
+    Navigator.of(context).push(MaterialPageRoute(
+      builder: (_) => _AttractionDetailScreen(
+        parkId: widget.parkId,
+        attraction: a,
+        i18n: widget.i18n,
+        onDirections: widget.onDirections,
+        categoryLabel: widget.categoryLabel,
       ),
-    );
+    ));
   }
 
   @override
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
-
     final topPicks = widget.attractions.where((a) => a.topPick).toList();
     final list = _sorted(widget.attractions);
 
@@ -861,52 +1396,51 @@ class _AttractionsTabState extends State<_AttractionsTab> {
                     isScrollControlled: true,
                     showDragHandle: true,
                     builder: (_) => _MyDayRouteSheet(
-                      park: context.read<Park>(), // if you don't have Park in scope, pass it in via widget
+                      park: widget.park,
                       attractions: widget.attractions,
+                      food: widget.food,
+                      hotels: widget.hotels,
                     ),
                   );
                 },
               ),
               _MiniPill(
-                icon: Icons.favorite,
-                text: '${loc.addToMyDay}: ${app.myDayCount}',
+                icon: Icons.wb_sunny_outlined,
+                text: 'My Day: ${app.myDayTotalCount}',
+                onTap: () => Navigator.pushNamed(context, '/my_day'),
               ),
             ],
           ),
         ),
         const SizedBox(height: 10),
-
         Align(
           alignment: Alignment.centerRight,
           child: DropdownButton<_AttractionSort>(
             value: _sort,
-            onChanged: (v) => setState(() => _sort = v ?? _sort),
+            onChanged: (v) {
+              if (v == null) return;
+              setState(() => _sort = v);
+            },
             items: [
               DropdownMenuItem(
-                value: _AttractionSort.recommended,
-                child: Text(loc.recommended),
-              ),
+                  value: _AttractionSort.recommended,
+                  child: Text(loc.recommended)),
               DropdownMenuItem(
-                value: _AttractionSort.lowestWait,
-                child: Text(loc.lowestWait),
-              ),
+                  value: _AttractionSort.lowestWait,
+                  child: Text(loc.lowestWait)),
               DropdownMenuItem(
-                value: _AttractionSort.highestRated,
-                child: Text(loc.highestRated),
-              ),
+                  value: _AttractionSort.highestRated,
+                  child: Text(loc.highestRated)),
             ],
           ),
         ),
         const SizedBox(height: 12),
-
         if (topPicks.isNotEmpty) ...[
-          Text(
-            loc.topPick,
-            style: Theme.of(context)
-                .textTheme
-                .titleSmall
-                ?.copyWith(fontWeight: FontWeight.w900),
-          ),
+          Text(loc.topPick,
+              style: Theme.of(context)
+                  .textTheme
+                  .titleSmall
+                  ?.copyWith(fontWeight: FontWeight.w900)),
           const SizedBox(height: 10),
           _AttractionTopPickRail(
             parkId: widget.parkId,
@@ -916,526 +1450,32 @@ class _AttractionsTabState extends State<_AttractionsTab> {
           ),
           const SizedBox(height: 16),
         ],
-
-        ...list.map(
-          (a) => Padding(
-            padding: const EdgeInsets.only(bottom: 12),
-            child: _AttractionRow(
-              parkId: widget.parkId,
-              attraction: a,
-              i18n: widget.i18n,
-              categoryLabel: widget.categoryLabel,
-              onTap: () => _openDetails(a),
-              onDirections: () => widget.onDirections(a),
-            ),
-          ),
-        ),
-      ],
-    );
-  }
-}
-
-// ===============================================================
-// BASIC UI WIDGETS USED IN DETAIL SCREEN
-// ===============================================================
-
-class _Pill extends StatelessWidget {
-  final IconData icon;
-  final String text;
-  const _Pill({required this.icon, required this.text});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(999),
-        color: Theme.of(context).colorScheme.surfaceContainerHighest,
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(icon, size: 16),
-          const SizedBox(width: 8),
-          Text(
-            text,
-            style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class _StarRow extends StatelessWidget {
-  final double initial;
-  final ValueChanged<double> onChanged;
-
-  const _StarRow({required this.initial, required this.onChanged});
-
-  @override
-  Widget build(BuildContext context) {
-    final filled = initial.round().clamp(1, 5);
-
-    return Row(
-      children: List.generate(5, (i) {
-        final idx = i + 1;
-        final isOn = idx <= filled;
-        return IconButton(
-          onPressed: () => onChanged(idx.toDouble()),
-          icon: Icon(isOn ? Icons.star : Icons.star_border),
-        );
-      }),
-    );
-  }
-}
-
-class _TextCard extends StatelessWidget {
-  final String title;
-  final List<String> lines;
-
-  const _TextCard({required this.title, required this.lines});
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-    if (lines.isEmpty) return const SizedBox.shrink();
-
-    return Container(
-      padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(16),
-        color: cs.surface,
-        border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-        boxShadow: const [
-          BoxShadow(
-            blurRadius: 10,
-            offset: Offset(0, 3),
-            color: Colors.black12,
-          ),
-        ],
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            title,
-            style: Theme.of(context)
-                .textTheme
-                .titleSmall
-                ?.copyWith(fontWeight: FontWeight.w900),
-          ),
-          const SizedBox(height: 8),
-          ...lines.map(
-            (t) => Padding(
-              padding: const EdgeInsets.only(bottom: 4),
-              child: Text(
-                t,
-                style: TextStyle(color: Colors.grey.shade700),
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-// ===============================================================
-// FOOD TAB
-// ===============================================================
-
-class _FoodTab extends StatelessWidget {
-  final List<FoodPlace> food;
-  final I18nContent i18n;
-  final Future<void> Function(FoodPlace f) onDirections;
-
-  const _FoodTab({
-    required this.food,
-    required this.i18n,
-    required this.onDirections,
-  });
-
-  void _openDetails(BuildContext context, FoodPlace f) {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => _FoodDetailScreen(
-          food: f,
-          i18n: i18n,
-          onDirections: onDirections,
-        ),
-      ),
-    );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
-    final cs = Theme.of(context).colorScheme;
-
-    if (food.isEmpty) {
-      return Center(child: Text(loc.comingSoon));
-    }
-
-    final top = food.where((f) => f.topPick).toList();
-    final rest = food.where((f) => !f.topPick).toList();
-
-    return ListView(
-      padding: const EdgeInsets.fromLTRB(16, 14, 16, 22),
-      children: [
-        Consumer<AppState>(
-          builder: (_, app, __) => Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            children: [
-              _MiniPill(
-                icon: Icons.favorite,
-                text: '${loc.addToMyFood}: ${app.myFoodCount}',
-              ),
-            ],
-          ),
-        ),
-        const SizedBox(height: 12),
-        if (top.isNotEmpty) ...[
-          Text(
-            loc.topPick,
-            style: Theme.of(context)
-                .textTheme
-                .titleMedium
-                ?.copyWith(fontWeight: FontWeight.w900),
-          ),
-          const SizedBox(height: 10),
-          ...top.map(
-            (f) => Padding(
+        ...list.map((a) => Padding(
               padding: const EdgeInsets.only(bottom: 12),
-              child: _FoodTopCard(
-                food: f,
-                i18n: i18n,
-                onTap: () => _openDetails(context, f),
-                onDirections: () => onDirections(f),
+              child: _AttractionRow(
+                parkId: widget.parkId,
+                attraction: a,
+                i18n: widget.i18n,
+                categoryLabel: widget.categoryLabel,
+                onTap: () => _openDetails(a),
+                onDirections: () => widget.onDirections(a),
               ),
-            ),
-          ),
-          const SizedBox(height: 12),
-          Container(height: 1, color: cs.outlineVariant.withOpacity(0.35)),
-          const SizedBox(height: 12),
-        ],
-        ...rest.map(
-          (f) => Padding(
-            padding: const EdgeInsets.only(bottom: 12),
-            child: _FoodRow(
-              food: f,
-              i18n: i18n,
-              onTap: () => _openDetails(context, f),
-              onDirections: () => onDirections(f),
+            )),
+        const SizedBox(height: 8),
+        Center(
+          child: Text(
+            'Powered by Queue-Times.com',
+            style: TextStyle(
+              fontSize: 11,
+              color: Colors.grey,
             ),
           ),
         ),
+        const SizedBox(height: 8),
       ],
     );
   }
 }
-
-class _FoodTopCard extends StatelessWidget {
-  final FoodPlace food;
-  final I18nContent i18n;
-  final VoidCallback onTap;
-  final VoidCallback onDirections;
-
-  const _FoodTopCard({
-    required this.food,
-    required this.i18n,
-    required this.onTap,
-    required this.onDirections,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
-    final cs = Theme.of(context).colorScheme;
-
-    return _PremiumAppear(
-      child: _PressDown(
-        onTap: onTap,
-        child: Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-            color: cs.surface,
-            border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-            boxShadow: const [
-              BoxShadow(
-                blurRadius: 14,
-                offset: Offset(0, 4),
-                color: Colors.black12,
-              ),
-            ],
-          ),
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(20),
-            child: Column(
-              children: [
-                AspectRatio(
-                  aspectRatio: 16 / 9,
-                  child: Stack(
-                    fit: StackFit.expand,
-                    children: [
-                      Image.asset(
-                        food.image,
-                        fit: BoxFit.cover,
-                        errorBuilder: (_, __, ___) =>
-                            Container(color: Colors.black12),
-                      ),
-                      DecoratedBox(
-                        decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                            begin: Alignment.topCenter,
-                            end: Alignment.bottomCenter,
-                            colors: [
-                              Colors.black.withOpacity(0.05),
-                              Colors.black.withOpacity(0.18),
-                              Colors.black.withOpacity(0.55),
-                            ],
-                          ),
-                        ),
-                      ),
-                      Positioned(
-                        left: 12,
-                        top: 12,
-                        child: _GlassPill(
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              const Icon(Icons.star, size: 16),
-                              const SizedBox(width: 6),
-                              Text(
-                                loc.topPick,
-                                style: const TextStyle(
-                                  fontWeight: FontWeight.w900,
-                                  fontSize: 12,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                      Positioned(
-                        right: 12,
-                        bottom: 12,
-                        child: _FoodActionPill(
-                          foodId: food.id,
-                          addLabel: loc.addToMyFood,
-                          removeLabel: loc.removeFromMyFood,
-                          directionsLabel: loc.directions,
-                          onDirections: onDirections,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(12),
-                  child: Row(
-                    children: [
-                      Expanded(
-                        child: Text(
-                          food.name,
-                          style: Theme.of(context)
-                              .textTheme
-                              .titleSmall
-                              ?.copyWith(fontWeight: FontWeight.w900),
-                        ),
-                      ),
-                      _SoftBadge(
-                        icon: Icons.star,
-                        text: food.rating.toStringAsFixed(1),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _FoodRow extends StatelessWidget {
-  final FoodPlace food;
-  final I18nContent i18n;
-  final VoidCallback onTap;
-  final VoidCallback onDirections;
-
-  const _FoodRow({
-    required this.food,
-    required this.i18n,
-    required this.onTap,
-    required this.onDirections,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
-    final cs = Theme.of(context).colorScheme;
-
-    final base =
-        food.description.trim().isEmpty ? food.type : food.description.trim();
-    final subtitle = i18n.tFoodDesc(context, food.id, base);
-
-    return InkWell(
-      onTap: onTap,
-      borderRadius: BorderRadius.circular(16),
-      child: Container(
-        padding: const EdgeInsets.all(12),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(16),
-          color: cs.surface,
-          border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-          boxShadow: const [
-            BoxShadow(
-              blurRadius: 10,
-              offset: Offset(0, 3),
-              color: Colors.black12,
-            ),
-          ],
-        ),
-        child: Row(
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(14),
-              child: Image.asset(
-                food.image,
-                width: 76,
-                height: 76,
-                fit: BoxFit.cover,
-                errorBuilder: (_, __, ___) =>
-                    Container(width: 76, height: 76, color: Colors.black12),
-              ),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    food.name,
-                    style: Theme.of(context)
-                        .textTheme
-                        .titleSmall
-                        ?.copyWith(fontWeight: FontWeight.w900),
-                  ),
-                  const SizedBox(height: 4),
-                  Text(
-                    food.type,
-                    style: TextStyle(
-                      color: Colors.grey.shade700,
-                      fontWeight: FontWeight.w700,
-                    ),
-                  ),
-                  const SizedBox(height: 6),
-                  Text(
-                    subtitle,
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                    style: TextStyle(color: Colors.grey.shade700),
-                  ),
-                  const SizedBox(height: 8),
-                  _SoftBadge(
-                    icon: Icons.star,
-                    text: food.rating.toStringAsFixed(1),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(width: 10),
-            _FoodActionPill(
-              foodId: food.id,
-              addLabel: loc.addToMyFood,
-              removeLabel: loc.removeFromMyFood,
-              directionsLabel: loc.directions,
-              onDirections: onDirections,
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class _FoodActionPill extends StatelessWidget {
-  final String foodId;
-  final String addLabel;
-  final String removeLabel;
-  final String directionsLabel;
-  final VoidCallback onDirections;
-
-  const _FoodActionPill({
-    required this.foodId,
-    required this.addLabel,
-    required this.removeLabel,
-    required this.directionsLabel,
-    required this.onDirections,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-
-    return Container(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(999),
-        color: cs.surfaceContainerHighest,
-        border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-      ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          _PillIconButton(
-            tooltip: directionsLabel,
-            icon: Icons.directions,
-            onTap: () async {
-              HapticFeedback.selectionClick();
-              onDirections();
-            },
-          ),
-          Container(
-            width: 34,
-            height: 1,
-            color: cs.outlineVariant.withOpacity(0.35),
-          ),
-          Consumer<AppState>(
-            builder: (_, app, __) {
-              final inMyFood = app.isInMyFood(foodId);
-
-              return _PillIconButton(
-                tooltip: inMyFood ? removeLabel : addLabel,
-                icon: inMyFood ? Icons.favorite : Icons.favorite_border,
-                animate: true,
-                onTap: () async {
-                  await app.toggleMyFood(foodId);
-
-                  if (context.mounted) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text(inMyFood ? removeLabel : addLabel),
-                        duration: const Duration(milliseconds: 850),
-                      ),
-                    );
-                  }
-                },
-              );
-            },
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-// ===============================================================
-// ATTRACTIONS WIDGETS
-// ===============================================================
 
 class _AttractionTopPickRail extends StatelessWidget {
   final String parkId;
@@ -1453,7 +1493,7 @@ class _AttractionTopPickRail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 185,
+      height: 242,
       child: ListView.separated(
         scrollDirection: Axis.horizontal,
         itemCount: items.length,
@@ -1504,10 +1544,7 @@ class _AttractionTopCard extends StatelessWidget {
             border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
             boxShadow: const [
               BoxShadow(
-                blurRadius: 10,
-                offset: Offset(0, 3),
-                color: Colors.black12,
-              ),
+                  blurRadius: 10, offset: Offset(0, 3), color: Colors.black12)
             ],
           ),
           child: ClipRRect(
@@ -1517,48 +1554,28 @@ class _AttractionTopCard extends StatelessWidget {
               children: [
                 SizedBox(
                   height: 110,
-                  child: Image.asset(
-                    attraction.image,
-                    fit: BoxFit.cover,
-                    cacheWidth: 900,
-                    gaplessPlayback: true,
-                    errorBuilder: (_, __, ___) =>
-                        Container(color: Colors.black12),
-                  ),
+                  child: ParkImage(image: attraction.image, fit: BoxFit.cover, cacheWidth: 900),
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(10, 8, 10, 10),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        attraction.name,
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        style: const TextStyle(
-                          fontWeight: FontWeight.w900,
-                          fontSize: 14,
-                        ),
-                      ),
+                      Text(attraction.name,
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                          style: const TextStyle(
+                              fontWeight: FontWeight.w900, fontSize: 13)),
                       const SizedBox(height: 6),
-                      Wrap(
-                        spacing: 8,
-                        runSpacing: 8,
-                        children: [
-                          _SoftBadge(
+                      Wrap(spacing: 6, runSpacing: 6, children: [
+                        _SoftBadge(
                             icon: Icons.star,
-                            text: attraction.rating.toStringAsFixed(1),
-                          ),
-                          _SoftBadge(
+                            text: attraction.rating.toStringAsFixed(1)),
+                        _SoftBadge(
                             icon: Icons.category,
-                            text: categoryLabel(attraction.category),
-                          ),
-                          _SoftBadge(
-                            icon: Icons.star,
-                            text: loc.topPick,
-                          ),
-                        ],
-                      ),
+                            text: categoryLabel(attraction.category)),
+                        _SoftBadge(icon: Icons.star, text: loc.topPick),
+                      ]),
                     ],
                   ),
                 ),
@@ -1593,10 +1610,13 @@ class _AttractionRow extends StatelessWidget {
     final loc = AppLocalizations.of(context)!;
     final cs = Theme.of(context).colorScheme;
     final service = WaitTimeService();
-
+    final lookup = _I18nLookup(i18n);
     final cat = categoryLabel(attraction.category);
-    final translatedDesc =
-        i18n.tAttractionDesc(context, attraction.id, attraction.description);
+    final baseEn = attraction.description.trim().isEmpty
+        ? attraction.category
+        : attraction.description.trim();
+    final pair = lookup.pairDescFromSection(context,
+        section: 'attractions', id: attraction.id, fallbackEn: baseEn);
 
     return InkWell(
       onTap: onTap,
@@ -1608,7 +1628,7 @@ class _AttractionRow extends StatelessWidget {
           color: cs.surface,
           border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
           boxShadow: const [
-            BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12),
+            BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12)
           ],
         ),
         child: Row(
@@ -1619,78 +1639,55 @@ class _AttractionRow extends StatelessWidget {
               child: SizedBox(
                 width: 76,
                 height: 76,
-                child: Image.asset(
-                  attraction.image,
-                  fit: BoxFit.cover,
-                  cacheWidth: 220,
-                  gaplessPlayback: true,
-                  errorBuilder: (_, __, ___) => Container(color: Colors.black12),
-                ),
+                child: ParkImage(image: attraction.image, fit: BoxFit.cover, cacheWidth: 220),
               ),
             ),
             const SizedBox(width: 12),
-
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    attraction.name,
-                    style: Theme.of(context)
-                        .textTheme
-                        .titleSmall
-                        ?.copyWith(fontWeight: FontWeight.w900),
-                  ),
+                  Text(attraction.name,
+                      style: Theme.of(context)
+                          .textTheme
+                          .titleSmall
+                          ?.copyWith(fontWeight: FontWeight.w900)),
                   const SizedBox(height: 4),
-                  Text(
-                    cat,
-                    style: TextStyle(
-                      color: Colors.grey.shade700,
-                      fontWeight: FontWeight.w700,
-                    ),
-                  ),
+                  Text(cat,
+                      style: TextStyle(
+                          color: Colors.grey.shade700,
+                          fontWeight: FontWeight.w700)),
                   const SizedBox(height: 6),
-                  Text(
-                    translatedDesc,
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                    style: TextStyle(color: Colors.grey.shade700),
-                  ),
+                  Text(pair.translated,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: TextStyle(color: Colors.grey.shade700)),
                   const SizedBox(height: 8),
-                  Wrap(
-                    spacing: 8,
-                    runSpacing: 8,
-                    children: [
-                      _SoftBadge(
+                  Wrap(spacing: 8, runSpacing: 8, children: [
+                    _SoftBadge(
                         icon: Icons.star,
-                        text: attraction.rating.toStringAsFixed(1),
-                      ),
-                      StreamBuilder<WaitTimeReading?>(
-                        stream: service.streamLiveWaitReading(
-                          parkId: parkId,
-                          attractionId: attraction.id,
-                        ),
-                        builder: (_, snap) {
-                          final minutes =
-                              snap.data?.minutes ?? attraction.liveWaitMinutes;
-                          return _SoftBadge(
+                        text: attraction.rating.toStringAsFixed(1)),
+                    StreamBuilder<WaitTimeReading?>(
+                      stream: service.streamLiveWaitReading(
+                          parkId: parkId, attractionId: attraction.id),
+                      builder: (_, snap) {
+                        final minutes =
+                            snap.data?.minutes ?? attraction.liveWaitMinutes;
+                        return _SoftBadge(
                             icon: Icons.timer,
-                            text: '$minutes min • ${loc.liveWait}',
-                          );
-                        },
-                      ),
-                      if (attraction.topPick)
-                        _SoftBadge(icon: Icons.star, text: loc.topPick),
-                    ],
-                  ),
+                            text: '$minutes min • ${loc.liveWait}');
+                      },
+                    ),
+                    if (attraction.topPick)
+                      _SoftBadge(icon: Icons.star, text: loc.topPick),
+                  ]),
                 ],
               ),
             ),
-
             const SizedBox(width: 10),
-
             _ActionPill(
               attractionId: attraction.id,
+              attractionName: attraction.name,
               addLabel: loc.addToMyDay,
               removeLabel: loc.removeFromMyDay,
               directionsLabel: loc.directions,
@@ -1699,6 +1696,238 @@ class _AttractionRow extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+class _ActionPill extends StatelessWidget {
+  final String attractionId;
+  final String attractionName;
+  final String addLabel;
+  final String removeLabel;
+  final String directionsLabel;
+  final VoidCallback onDirections;
+
+  const _ActionPill({
+    required this.attractionId,
+    required this.attractionName,
+    required this.addLabel,
+    required this.removeLabel,
+    required this.directionsLabel,
+    required this.onDirections,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(999),
+        color: cs.surfaceContainerHighest,
+        border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          _PillIconButton(
+            tooltip: directionsLabel,
+            icon: Icons.directions,
+            onTap: () async {
+              HapticFeedback.selectionClick();
+              onDirections();
+            },
+          ),
+          Container(
+              width: 34,
+              height: 1,
+              color: cs.outlineVariant.withOpacity(0.35)),
+          Consumer<AppState>(
+            builder: (_, app, __) {
+              final inMyDay = app.isInMyDayUnified(attractionId);
+              return _PillIconButton(
+                tooltip: inMyDay ? removeLabel : addLabel,
+                icon: inMyDay ? Icons.favorite : Icons.favorite_border,
+                animate: true,
+                onTap: () async {
+                  if (inMyDay) {
+                    await app.removeFromMyDay(attractionId);
+                  } else {
+                    await app.addToMyDay(MyDayItem(
+                      id: attractionId,
+                      name: attractionName,
+                      type: MyDayItemType.attraction,
+                      estimatedMinutes: MyDayItem.defaultMinutes(MyDayItemType.attraction),
+                    ));
+                  }
+                  if (context.mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                      content: Text(inMyDay ? removeLabel : addLabel),
+                      duration: const Duration(milliseconds: 850),
+                    ));
+                  }
+                },
+              );
+            },
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _RouteStop {
+  final String id;
+  final String name;
+  final double lat;
+  final double lng;
+  final IconData icon;
+  const _RouteStop({
+    required this.id,
+    required this.name,
+    required this.lat,
+    required this.lng,
+    required this.icon,
+  });
+}
+
+class _MyDayRouteSheet extends StatelessWidget {
+  final Park park;
+  final List<Attraction> attractions;
+  final List<FoodPlace> food;
+  final List<Hotel> hotels;
+
+  const _MyDayRouteSheet({
+    required this.park,
+    required this.attractions,
+    required this.food,
+    required this.hotels,
+  });
+
+  static double _dist(double aLat, double aLng, double bLat, double bLng) {
+    final dx = aLat - bLat;
+    final dy = aLng - bLng;
+    return dx * dx + dy * dy;
+  }
+
+  List<_RouteStop> _selectedInOrder(AppState app) {
+    final stops = <_RouteStop>[
+      ...attractions
+          .where((a) => app.isInMyDayUnified(a.id))
+          .map((a) => _RouteStop(
+              id: a.id, name: a.name, lat: a.lat, lng: a.lng, icon: Icons.roller_skating)),
+      ...food
+          .where((f) => app.isInMyDayUnified(f.id))
+          .map((f) => _RouteStop(
+              id: f.id, name: f.name, lat: f.lat, lng: f.lng, icon: Icons.restaurant)),
+      ...hotels
+          .where((h) => app.isInMyDayUnified(h.id))
+          .map((h) => _RouteStop(
+              id: h.id, name: h.name, lat: h.lat, lng: h.lng, icon: Icons.hotel)),
+    ];
+    if (stops.length <= 2) return stops;
+    final remaining = [...stops];
+    final ordered = <_RouteStop>[];
+    double curLat = park.lat;
+    double curLng = park.lng;
+    while (remaining.isNotEmpty) {
+      remaining.sort((a, b) {
+        final da = _dist(curLat, curLng, a.lat, a.lng);
+        final db = _dist(curLat, curLng, b.lat, b.lng);
+        return da.compareTo(db);
+      });
+      final next = remaining.removeAt(0);
+      ordered.add(next);
+      curLat = next.lat;
+      curLng = next.lng;
+    }
+    return ordered;
+  }
+
+  Uri _googleMapsRouteUri(List<_RouteStop> ordered) {
+    if (ordered.isEmpty) {
+      return Uri.parse(
+          'https://www.google.com/maps/dir/?api=1&destination=${park.lat},${park.lng}');
+    }
+    final origin = '${park.lat},${park.lng}';
+    final destination = '${ordered.last.lat},${ordered.last.lng}';
+    final waypoints = ordered.length <= 1
+        ? ''
+        : ordered
+            .sublist(0, ordered.length - 1)
+            .map((a) => '${a.lat},${a.lng}')
+            .join('|');
+    final qp = <String, String>{
+      'api': '1',
+      'origin': origin,
+      'destination': destination,
+      if (waypoints.isNotEmpty) 'waypoints': waypoints,
+      'travelmode': 'walking',
+    };
+    return Uri.https('www.google.com', '/maps/dir/', qp);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
+    return Consumer<AppState>(
+      builder: (_, app, __) {
+        final ordered = _selectedInOrder(app);
+        return Padding(
+          padding: const EdgeInsets.fromLTRB(16, 16, 16, 22),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text('My Day Route',
+                  style: Theme.of(context)
+                      .textTheme
+                      .titleLarge
+                      ?.copyWith(fontWeight: FontWeight.w900)),
+              const SizedBox(height: 10),
+              if (ordered.isEmpty)
+                Text(
+                    'Add attractions, restaurants or hotels to My Day to build a route.',
+                    style: TextStyle(color: Colors.grey.shade700),
+                    textAlign: TextAlign.center)
+              else
+                Flexible(
+                  child: ListView.separated(
+                    shrinkWrap: true,
+                    itemCount: ordered.length,
+                    separatorBuilder: (_, __) => const Divider(height: 1),
+                    itemBuilder: (_, i) {
+                      final stop = ordered[i];
+                      return ListTile(
+                        leading: Icon(stop.icon),
+                        title: Text(stop.name),
+                        trailing: const Icon(Icons.chevron_right),
+                      );
+                    },
+                  ),
+                ),
+              const SizedBox(height: 12),
+              SizedBox(
+                width: double.infinity,
+                child: FilledButton.icon(
+                  onPressed: ordered.isEmpty
+                      ? null
+                      : () async {
+                          final uri = _googleMapsRouteUri(ordered);
+                          final ok = await launchUrl(uri,
+                              mode: LaunchMode.externalApplication);
+                          if (!ok && context.mounted) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(
+                                    content: Text('Could not open Maps')));
+                          }
+                        },
+                  icon: const Icon(Icons.route),
+                  label: Text(loc.directions),
+                ),
+              ),
+            ],
+          ),
+        );
+      },
     );
   }
 }
@@ -1723,31 +1952,30 @@ class _AttractionDetailScreen extends StatefulWidget {
   });
 
   @override
-  State<_AttractionDetailScreen> createState() => _AttractionDetailScreenState();
+  State<_AttractionDetailScreen> createState() =>
+      _AttractionDetailScreenState();
 }
 
-class _AttractionDetailScreenState extends State<_AttractionDetailScreen> {
+class _AttractionDetailScreenState
+    extends State<_AttractionDetailScreen> {
   final _commentCtrl = TextEditingController();
   final _myWaitCtrl = TextEditingController();
   double _rating = 4.5;
-  bool _showDescTranslated = false;
+  bool _showTranslated = false;
 
   @override
   void initState() {
     super.initState();
-
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       final app = context.read<AppState>();
-
       try {
         await app.ensureLoadedForAttraction(widget.attraction.id);
       } catch (_) {}
-
       final r = app.ratingForAttraction(widget.attraction.id) ??
           widget.attraction.rating;
-      final c = app.commentForAttraction(widget.attraction.id) ?? '';
+      final c =
+          app.commentForAttraction(widget.attraction.id) ?? '';
       final myWait = app.myWaitFor(widget.attraction.id);
-
       if (!mounted) return;
       setState(() {
         _rating = r;
@@ -1768,23 +1996,38 @@ class _AttractionDetailScreenState extends State<_AttractionDetailScreen> {
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
     final a = widget.attraction;
-
-    final descTranslated =
-        widget.i18n.tAttractionDesc(context, a.id, a.description);
+    final lookup = _I18nLookup(widget.i18n);
+    final descPair = lookup.pairFromSectionIdField(context,
+        section: 'attractions',
+        id: a.id,
+        field: 'desc',
+        fallbackEn: a.description);
     final cat = widget.categoryLabel(a.category);
     final service = WaitTimeService();
 
     final factLines = <String>[
-      if (a.speedKmh != null) 'Speed: ${a.speedKmh} km/h',
-      if (a.heightM != null) 'Height: ${a.heightM!.toStringAsFixed(0)} m',
-      if (a.inversions != null) 'Inversions: ${a.inversions}',
-      if (a.openedYear != null) 'Opened: ${a.openedYear}',
+      if (a.speedKmh != null) '${loc.speed}: ${a.speedKmh} km/h',
+      if (a.heightM != null)
+        '${loc.height}: ${a.heightM!.toStringAsFixed(0)} m',
+      if (a.inversions != null) '${loc.inversions}: ${a.inversions}',
+      if (a.openedYear != null) '${loc.opened}: ${a.openedYear}',
     ];
 
     return Scaffold(
       appBar: AppBar(
         title: Text(a.name),
         actions: [
+          IconButton(
+            tooltip: 'My Day',
+            icon: Consumer<AppState>(
+              builder: (context, app, _) => Badge(
+                isLabelVisible: app.myDayTotalCount > 0,
+                label: Text(app.myDayTotalCount.toString()),
+                child: const Icon(Icons.wb_sunny_outlined),
+              ),
+            ),
+            onPressed: () => Navigator.pushNamed(context, '/my_day'),
+          ),
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
@@ -1796,13 +2039,7 @@ class _AttractionDetailScreenState extends State<_AttractionDetailScreen> {
         children: [
           AspectRatio(
             aspectRatio: 16 / 9,
-            child: Image.asset(
-              a.image,
-              fit: BoxFit.cover,
-              cacheWidth: 1200,
-              gaplessPlayback: true,
-              errorBuilder: (_, __, ___) => Container(color: Colors.black12),
-            ),
+            child: ParkImage(image: a.image, fit: BoxFit.cover, cacheWidth: 1200),
           ),
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 14, 16, 20),
@@ -1810,50 +2047,47 @@ class _AttractionDetailScreenState extends State<_AttractionDetailScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  _showDescTranslated ? descTranslated : a.description,
-                  style: Theme.of(context).textTheme.bodyMedium,
-                ),
+                    _showTranslated
+                        ? descPair.translated
+                        : descPair.english,
+                    style: Theme.of(context).textTheme.bodyMedium),
                 Align(
                   alignment: Alignment.centerLeft,
                   child: TextButton(
                     onPressed: () => setState(
-                        () => _showDescTranslated = !_showDescTranslated),
-                    child: Text(
-                        I18nContent.buttonLabel(context, _showDescTranslated)),
+                        () => _showTranslated = !_showTranslated),
+                    child:
+                        Text(_showTranslated ? 'EN' : 'Translate'),
                   ),
                 ),
                 const SizedBox(height: 10),
-                Wrap(
-                  spacing: 8,
-                  runSpacing: 8,
-                  children: [
-                    _Pill(icon: Icons.category, text: cat),
-                    StreamBuilder<WaitTimeReading?>(
-                      stream: service.streamLiveWaitReading(
+                Wrap(spacing: 8, runSpacing: 8, children: [
+                  _Pill(icon: Icons.category, text: cat),
+                  StreamBuilder<WaitTimeReading?>(
+                    stream: service.streamLiveWaitReading(
                         parkId: widget.parkId,
-                        attractionId: a.id,
-                      ),
-                      builder: (_, snap) {
-                        final minutes = snap.data?.minutes ?? a.liveWaitMinutes;
-                        return _Pill(
+                        attractionId: a.id),
+                    builder: (_, snap) {
+                      final minutes =
+                          snap.data?.minutes ?? a.liveWaitMinutes;
+                      return _Pill(
                           icon: Icons.timer,
-                          text: '$minutes min (${loc.liveWait})',
-                        );
-                      },
-                    ),
-                    Consumer<AppState>(
-                      builder: (_, app, __) {
-                        final myWait = app.myWaitFor(a.id);
-                        return _Pill(
-                          icon: Icons.edit,
-                          text: myWait == null
-                              ? loc.setMyWait
-                              : '${loc.setMyWait}: $myWait',
-                        );
-                      },
-                    ),
-                  ],
-                ),
+                          text:
+                              '$minutes min (${loc.liveWait})');
+                    },
+                  ),
+                  Consumer<AppState>(
+                    builder: (_, app, __) {
+                      final myWait = app.myWaitFor(a.id);
+                      return _Pill(
+                        icon: Icons.edit,
+                        text: myWait == null
+                            ? loc.setMyWait
+                            : '${loc.setMyWait}: $myWait',
+                      );
+                    },
+                  ),
+                ]),
                 const SizedBox(height: 14),
                 _TextCard(title: 'Facts', lines: factLines),
                 const SizedBox(height: 16),
@@ -1870,11 +2104,20 @@ class _AttractionDetailScreenState extends State<_AttractionDetailScreen> {
                     Expanded(
                       child: Consumer<AppState>(
                         builder: (_, app, __) {
-                          final inMyDay = app.isInMyDay(a.id);
+                          final inMyDay = app.isInMyDayUnified(a.id);
                           return FilledButton.icon(
                             onPressed: () async {
                               HapticFeedback.lightImpact();
-                              await app.toggleMyDayAttraction(a.id);
+                              if (inMyDay) {
+                                await app.removeFromMyDay(a.id);
+                              } else {
+                                await app.addToMyDay(MyDayItem(
+                                  id: a.id,
+                                  name: a.name,
+                                  type: MyDayItemType.attraction,
+                                  estimatedMinutes: MyDayItem.defaultMinutes(MyDayItemType.attraction),
+                                ));
+                              }
                             },
                             icon: Icon(inMyDay
                                 ? Icons.favorite
@@ -1889,27 +2132,6 @@ class _AttractionDetailScreenState extends State<_AttractionDetailScreen> {
                   ],
                 ),
                 const SizedBox(height: 18),
-                Text(loc.yourRating,
-                    style: Theme.of(context).textTheme.titleMedium),
-                const SizedBox(height: 8),
-                _StarRow(
-                  initial: _rating,
-                  onChanged: (v) => setState(() => _rating = v),
-                ),
-                const SizedBox(height: 18),
-                Text(loc.yourComment,
-                    style: Theme.of(context).textTheme.titleMedium),
-                const SizedBox(height: 8),
-                TextField(
-                  controller: _commentCtrl,
-                  maxLines: 4,
-                  decoration: InputDecoration(
-                    hintText: loc.commentHint,
-                    border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(12)),
-                  ),
-                ),
-                const SizedBox(height: 18),
                 Text(loc.myWaitTimeOptional,
                     style: Theme.of(context).textTheme.titleMedium),
                 const SizedBox(height: 8),
@@ -1922,27 +2144,23 @@ class _AttractionDetailScreenState extends State<_AttractionDetailScreen> {
                         borderRadius: BorderRadius.circular(12)),
                   ),
                 ),
-                const SizedBox(height: 16),
+                const SizedBox(height: 10),
                 SizedBox(
                   width: double.infinity,
                   child: FilledButton(
                     onPressed: () async {
                       final app = context.read<AppState>();
-                      await app.setAttractionRating(a.id, _rating);
-                      await app.setAttractionComment(
-                          a.id, _commentCtrl.text.trim());
-
-                      final wait = int.tryParse(_myWaitCtrl.text.trim());
-                      await app.setMyWaitMinutes(a.id, wait);
-
+                      final wait =
+                          int.tryParse(_myWaitCtrl.text.trim());
+                      if (wait != null) {
+                        await app.setMyWaitMinutes(a.id, wait);
+                      }
                       if (wait != null && wait > 0) {
                         await service.submitWaitTime(
-                          parkId: widget.parkId,
-                          attractionId: a.id,
-                          minutes: wait,
-                        );
+                            parkId: widget.parkId,
+                            attractionId: a.id,
+                            minutes: wait);
                       }
-
                       if (!mounted) return;
                       ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(content: Text(loc.saved)));
@@ -1950,1480 +2168,21 @@ class _AttractionDetailScreenState extends State<_AttractionDetailScreen> {
                     child: Text(loc.save),
                   ),
                 ),
-              ],
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-// ===============================================================
-// SHARED SMALL WIDGETS (used by Attractions + Food + LiveWait)
-// ===============================================================
-
-class _PillIconButton extends StatefulWidget {
-  final String tooltip;
-  final IconData icon;
-  final Future<void> Function() onTap;
-  final bool animate;
-
-  const _PillIconButton({
-    required this.tooltip,
-    required this.icon,
-    required this.onTap,
-    this.animate = false,
-  });
-
-  @override
-  State<_PillIconButton> createState() => _PillIconButtonState();
-}
-
-class _PillIconButtonState extends State<_PillIconButton> {
-  bool _pressed = false;
-  bool _busy = false;
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-
-    final isHeart =
-        widget.icon == Icons.favorite || widget.icon == Icons.favorite_border;
-
-    final scale = widget.animate ? (_pressed ? 0.93 : 1.0) : 1.0;
-    final opacity = widget.animate ? (_pressed ? 0.92 : 1.0) : 1.0;
-
-    return Tooltip(
-      message: widget.tooltip,
-      child: InkWell(
-        borderRadius: BorderRadius.circular(999),
-        onTap: _busy
-            ? null
-            : () async {
-                setState(() => _busy = true);
-                try {
-                  if (widget.animate) {
-                    HapticFeedback.lightImpact();
-                    setState(() => _pressed = true);
-                    await Future.delayed(const Duration(milliseconds: 70));
-                    if (mounted) setState(() => _pressed = false);
-                  } else {
-                    HapticFeedback.selectionClick();
-                  }
-                  await widget.onTap();
-                } finally {
-                  if (mounted) setState(() => _busy = false);
-                }
-              },
-        onTapDown: (_) {
-          if (!widget.animate) return;
-          setState(() => _pressed = true);
-        },
-        onTapCancel: () {
-          if (!widget.animate) return;
-          setState(() => _pressed = false);
-        },
-        onTapUp: (_) {
-          if (!widget.animate) return;
-          setState(() => _pressed = false);
-        },
-        child: AnimatedScale(
-          duration: const Duration(milliseconds: 120),
-          curve: Curves.easeOut,
-          scale: scale,
-          child: AnimatedOpacity(
-            duration: const Duration(milliseconds: 120),
-            curve: Curves.easeOut,
-            opacity: opacity,
-            child: SizedBox(
-              width: 44,
-              height: 44,
-              child: Icon(
-                widget.icon,
-                size: 20,
-                color: isHeart ? cs.primary : cs.onSurface,
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _MiniPill extends StatelessWidget {
-  final IconData icon;
-  final String text;
-  const _MiniPill({required this.icon, required this.text});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(999),
-        color: Theme.of(context).colorScheme.surfaceContainerHighest,
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(icon, size: 16),
-          const SizedBox(width: 8),
-          Text(
-            text,
-            style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class _SoftBadge extends StatelessWidget {
-  final IconData icon;
-  final String text;
-
-  const _SoftBadge({required this.icon, required this.text});
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(999),
-        color: cs.surfaceContainerHighest,
-        border: Border.all(color: cs.outlineVariant.withOpacity(0.25)),
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(icon, size: 14),
-          const SizedBox(width: 6),
-          Text(
-            text,
-            style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class _ActionPill extends StatelessWidget {
-  final String attractionId;
-  final String addLabel;
-  final String removeLabel;
-  final String directionsLabel;
-  final VoidCallback onDirections;
-
-  const _ActionPill({
-    required this.attractionId,
-    required this.addLabel,
-    required this.removeLabel,
-    required this.directionsLabel,
-    required this.onDirections,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-
-    return Container(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(999),
-        color: cs.surfaceContainerHighest,
-        border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-      ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          _PillIconButton(
-            tooltip: directionsLabel,
-            icon: Icons.directions,
-            onTap: () async {
-              HapticFeedback.selectionClick();
-              onDirections();
-            },
-          ),
-          Container(
-            width: 34,
-            height: 1,
-            color: cs.outlineVariant.withOpacity(0.35),
-          ),
-          Consumer<AppState>(
-            builder: (_, app, __) {
-              final inMyDay = app.isInMyDay(attractionId);
-              return _PillIconButton(
-                tooltip: inMyDay ? removeLabel : addLabel,
-                icon: inMyDay ? Icons.favorite : Icons.favorite_border,
-                animate: true,
-                onTap: () async {
-                  await app.toggleMyDayAttraction(attractionId);
-                  if (context.mounted) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text(inMyDay ? removeLabel : addLabel),
-                        duration: const Duration(milliseconds: 850),
-                      ),
-                    );
-                  }
-                },
-              );
-            },
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class _MyDayRouteSheet extends StatelessWidget {
-  final Park park;
-  final List<Attraction> attractions;
-
-  const _MyDayRouteSheet({
-    required this.park,
-    required this.attractions,
-  });
-
-  List<Attraction> _selectedInOrder(AppState app) {
-    final selected = attractions.where((a) => app.isInMyDay(a.id)).toList();
-    if (selected.length <= 2) return selected;
-
-    // Greedy nearest-neighbor route:
-    final remaining = [...selected];
-    final ordered = <Attraction>[];
-
-    // Start at park center (or you could start at first selected)
-    double curLat = park.lat;
-    double curLng = park.lng;
-
-    while (remaining.isNotEmpty) {
-      remaining.sort((a, b) {
-        final da = _dist(curLat, curLng, a.lat, a.lng);
-        final db = _dist(curLat, curLng, b.lat, b.lng);
-        return da.compareTo(db);
-      });
-      final next = remaining.removeAt(0);
-      ordered.add(next);
-      curLat = next.lat;
-      curLng = next.lng;
-    }
-
-    return ordered;
-  }
-
-  static double _dist(double aLat, double aLng, double bLat, double bLng) {
-    final dx = (aLat - bLat);
-    final dy = (aLng - bLng);
-    return (dx * dx) + (dy * dy); // squared distance (fast + good enough)
-  }
-
-  Uri _googleMapsRouteUri(List<Attraction> ordered) {
-    if (ordered.isEmpty) {
-      return Uri.parse('https://www.google.com/maps/dir/?api=1&destination=${park.lat},${park.lng}');
-    }
-    final origin = '${park.lat},${park.lng}';
-    final destination = '${ordered.last.lat},${ordered.last.lng}';
-
-    // Waypoints are everything except the last
-    final waypoints = ordered.length <= 1
-        ? ''
-        : ordered
-            .sublist(0, ordered.length - 1)
-            .map((a) => '${a.lat},${a.lng}')
-            .join('|');
-
-    final qp = <String, String>{
-      'api': '1',
-      'origin': origin,
-      'destination': destination,
-      if (waypoints.isNotEmpty) 'waypoints': waypoints,
-      'travelmode': 'walking',
-    };
-
-    return Uri.https('www.google.com', '/maps/dir/', qp);
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
-
-    return Consumer<AppState>(
-      builder: (_, app, __) {
-        final ordered = _selectedInOrder(app);
-
-        return Padding(
-          padding: const EdgeInsets.fromLTRB(16, 16, 16, 22),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(
-                'My Day Route',
-                style: Theme.of(context)
-                    .textTheme
-                    .titleLarge
-                    ?.copyWith(fontWeight: FontWeight.w900),
-              ),
-              const SizedBox(height: 10),
-              if (ordered.isEmpty)
-                Text(
-                  'Add attractions to My Day to build a route.',
-                  style: TextStyle(color: Colors.grey.shade700),
-                  textAlign: TextAlign.center,
-                )
-              else
-                Flexible(
-                  child: ListView.separated(
-                    shrinkWrap: true,
-                    itemCount: ordered.length,
-                    separatorBuilder: (_, __) => const Divider(height: 1),
-                    itemBuilder: (_, i) {
-                      final a = ordered[i];
-                      return ListTile(
-                        title: Text(a.name),
-                        subtitle: Text('${a.category} • ${a.liveWaitMinutes} min'),
-                        trailing: const Icon(Icons.chevron_right),
-                      );
-                    },
-                  ),
-                ),
-              const SizedBox(height: 12),
-              SizedBox(
-                width: double.infinity,
-                child: FilledButton.icon(
-                  onPressed: ordered.isEmpty
-                      ? null
-                      : () async {
-                          final uri = _googleMapsRouteUri(ordered);
-                          // use your existing launcher style if you want
-                          // ignore: use_build_context_synchronously
-                          final ok = await launchUrl(uri, mode: LaunchMode.externalApplication);
-                          if (!ok && context.mounted) {
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(content: Text('Could not open Maps')),
-                            );
-                          }
-                        },
-                  icon: const Icon(Icons.route),
-                  label: Text(loc.directions),
-                ),
-              ),
-            ],
-          ),
-        );
-      },
-    );
-  }
-}
-
-// ===============================================================
-// FOOD DETAIL
-// ===============================================================
-
-class _FoodDetailScreen extends StatefulWidget {
-  final FoodPlace food;
-  final I18nContent i18n;
-  final Future<void> Function(FoodPlace f) onDirections;
-
-  const _FoodDetailScreen({
-    required this.food,
-    required this.i18n,
-    required this.onDirections,
-  });
-
-  @override
-  State<_FoodDetailScreen> createState() => _FoodDetailScreenState();
-}
-
-class _FoodDetailScreenState extends State<_FoodDetailScreen> {
-  final _commentCtrl = TextEditingController();
-  double _rating = 4.4;
-
-  bool _showDescTranslated = false;
-
-  @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) async {
-      final app = context.read<AppState>();
-      await app.ensureLoadedForFood(widget.food.id);
-
-      if (!mounted) return;
-      setState(() {
-        _rating = app.ratingForFood(widget.food.id) ?? widget.food.rating;
-        _commentCtrl.text = app.commentForFood(widget.food.id) ?? '';
-      });
-    });
-  }
-
-  @override
-  void dispose() {
-    _commentCtrl.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
-    final cs = Theme.of(context).colorScheme;
-    final f = widget.food;
-
-    final baseDesc = f.description.isEmpty ? f.type : f.description;
-    final descTranslated = widget.i18n.tFoodDesc(context, f.id, baseDesc);
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(f.name),
-        actions: [
-          IconButton(
-            tooltip: loc.share,
-            icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${f.name} • Funparks'),
-          ),
-        ],
-      ),
-      body: _PremiumBackground(
-        child: ListView(
-          padding: const EdgeInsets.fromLTRB(16, 14, 16, 20),
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(18),
-              child: AspectRatio(
-                aspectRatio: 16 / 9,
-                child: Image.asset(
-                  f.image,
-                  fit: BoxFit.cover,
-                  errorBuilder: (_, __, ___) => Container(color: Colors.black12),
-                ),
-              ),
-            ),
-            const SizedBox(height: 14),
-            Container(
-              padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(16),
-                color: cs.surface,
-                border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-                boxShadow: const [
-                  BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12),
-                ],
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(_showDescTranslated ? descTranslated : baseDesc),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: TextButton(
-                      onPressed: () =>
-                          setState(() => _showDescTranslated = !_showDescTranslated),
-                      child: Text(I18nContent.buttonLabel(context, _showDescTranslated)),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(height: 12),
-            Row(
-              children: [
-                Expanded(
-                  child: FilledButton.icon(
-                    onPressed: () => widget.onDirections(f),
-                    icon: const Icon(Icons.directions),
-                    label: Text(loc.directions),
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: Consumer<AppState>(
-                    builder: (_, app, __) {
-                      final inPlan = app.isInMyFood(f.id);
-                      return FilledButton.icon(
-                        onPressed: () async {
-                          HapticFeedback.lightImpact();
-                          await app.toggleMyFood(f.id);
-                        },
-                        icon: Icon(inPlan ? Icons.favorite : Icons.favorite_border),
-                        label: Text(inPlan ? loc.removeFromMyFood : loc.addToMyFood),
-                      );
-                    },
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 18),
-            Text(
-              loc.menuAndPrices,
-              style: Theme.of(context)
-                  .textTheme
-                  .titleMedium
-                  ?.copyWith(fontWeight: FontWeight.w900),
-            ),
-            const SizedBox(height: 10),
-            ...f.items.map(
-              (it) => Padding(
-                padding: const EdgeInsets.only(bottom: 10),
-                child: Container(
-                  padding: const EdgeInsets.all(12),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(14),
-                    color: cs.surface,
-                    border: Border.all(color: cs.outlineVariant.withOpacity(0.30)),
-                  ),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              it.name,
-                              style: const TextStyle(fontWeight: FontWeight.w900),
-                            ),
-                            if (it.description.trim().isNotEmpty)
-                              Padding(
-                                padding: const EdgeInsets.only(top: 2),
-                                child: Text(
-                                  it.description,
-                                  style: TextStyle(color: Colors.grey.shade700),
-                                ),
-                              ),
-                          ],
-                        ),
-                      ),
-                      const SizedBox(width: 10),
-                      Text(
-                        it.price.toStringAsFixed(2),
-                        style: const TextStyle(fontWeight: FontWeight.w900),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-            const SizedBox(height: 18),
-            Text(loc.yourRating, style: Theme.of(context).textTheme.titleMedium),
-            const SizedBox(height: 8),
-            _StarRow(initial: _rating, onChanged: (v) => setState(() => _rating = v)),
-            const SizedBox(height: 18),
-            Text(loc.yourComment, style: Theme.of(context).textTheme.titleMedium),
-            const SizedBox(height: 8),
-            TextField(
-              controller: _commentCtrl,
-              maxLines: 4,
-              decoration: InputDecoration(
-                hintText: loc.commentHintFood,
-                border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-              ),
-            ),
-            const SizedBox(height: 16),
-            SizedBox(
-              width: double.infinity,
-              child: FilledButton(
-                onPressed: () async {
-                  final app = context.read<AppState>();
-                  await app.setFoodRating(f.id, _rating);
-                  await app.setFoodComment(f.id, _commentCtrl.text.trim());
-
-                  if (!mounted) return;
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text(loc.saved)),
-                  );
-                },
-                child: Text(loc.save),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-// ===============================================================
-// HOTELS TAB + HOTEL DETAIL
-// ===============================================================
-
-class _HotelsTab extends StatelessWidget {
-  final List<Hotel> hotels;
-  final String currency;
-  final Future<void> Function(Hotel h) onDirections;
-
-  const _HotelsTab({
-    required this.hotels,
-    required this.currency,
-    required this.onDirections,
-  });
-
-  void _openDetails(BuildContext context, Hotel h) {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => _HotelDetailScreen(
-          hotel: h,
-          currency: currency,
-          onDirections: onDirections,
-        ),
-      ),
-    );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-
-    if (hotels.isEmpty) {
-      return const Center(child: Text('Coming soon'));
-    }
-
-    final top = hotels.where((h) => h.topPick).toList();
-    final rest = hotels.where((h) => !h.topPick).toList();
-
-    return ListView(
-      padding: const EdgeInsets.fromLTRB(16, 14, 16, 22),
-      children: [
-        Consumer<AppState>(
-          builder: (_, app, __) => Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            children: [
-              _MiniPill(
-                icon: Icons.hotel,
-                text: 'Add to My Stay: ${app.myStayCount}',
-              ),
-            ],
-          ),
-        ),
-        const SizedBox(height: 12),
-
-        if (top.isNotEmpty) ...[
-          Text(
-            'Top Pick',
-            style: Theme.of(context)
-                .textTheme
-                .titleMedium
-                ?.copyWith(fontWeight: FontWeight.w900),
-          ),
-          const SizedBox(height: 10),
-          ...top.map(
-            (h) => Padding(
-              padding: const EdgeInsets.only(bottom: 12),
-              child: _HotelTopCard(
-                hotel: h,
-                currency: currency,
-                onTap: () => _openDetails(context, h),
-                onDirections: () => onDirections(h),
-              ),
-            ),
-          ),
-          const SizedBox(height: 12),
-          Container(height: 1, color: cs.outlineVariant.withOpacity(0.35)),
-          const SizedBox(height: 12),
-        ],
-
-        ...rest.map(
-          (h) => Padding(
-            padding: const EdgeInsets.only(bottom: 12),
-            child: _HotelRow(
-              hotel: h,
-              currency: currency,
-              onTap: () => _openDetails(context, h),
-              onDirections: () => onDirections(h),
-            ),
-          ),
-        ),
-      ],
-    );
-  }
-}
-
-class _HotelTopCard extends StatelessWidget {
-  final Hotel hotel;
-  final String currency;
-  final VoidCallback onTap;
-  final VoidCallback onDirections;
-
-  const _HotelTopCard({
-    required this.hotel,
-    required this.currency,
-    required this.onTap,
-    required this.onDirections,
-  });
-
-  String _fromPriceText() {
-    if (hotel.rooms.isEmpty) return '—';
-    final min = hotel.rooms
-        .map((r) => r.pricePerNight)
-        .reduce((a, b) => a < b ? a : b);
-    return '$currency ${min.toStringAsFixed(0)}/night';
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-
-    return _PremiumAppear(
-      child: _PressDown(
-        onTap: onTap,
-        child: Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-            color: cs.surface,
-            border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-            boxShadow: const [
-              BoxShadow(blurRadius: 14, offset: Offset(0, 4), color: Colors.black12),
-            ],
-          ),
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(20),
-            child: Column(
-              children: [
-                AspectRatio(
-                  aspectRatio: 16 / 9,
-                  child: Stack(
-                    fit: StackFit.expand,
-                    children: [
-                      Image.asset(
-                        hotel.image,
-                        fit: BoxFit.cover,
-                        errorBuilder: (_, __, ___) => Container(color: Colors.black12),
-                      ),
-                      DecoratedBox(
-                        decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                            begin: Alignment.topCenter,
-                            end: Alignment.bottomCenter,
-                            colors: [
-                              Colors.black.withOpacity(0.04),
-                              Colors.black.withOpacity(0.16),
-                              Colors.black.withOpacity(0.55),
-                            ],
-                          ),
-                        ),
-                      ),
-                      Positioned(
-                        left: 12,
-                        top: 12,
-                        child: _GlassPill(
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: const [
-                              Icon(Icons.star, size: 16),
-                              SizedBox(width: 6),
-                              Text(
-                                'Top Pick',
-                                style: TextStyle(fontWeight: FontWeight.w900, fontSize: 12),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                      Positioned(
-                        right: 12,
-                        bottom: 12,
-                        child: _HotelActionPill(
-                          hotelId: hotel.id,
-                          onDirections: onDirections,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(12),
-                  child: Row(
-                    children: [
-                      Expanded(
-                        child: Text(
-                          hotel.name,
-                          style: Theme.of(context)
-                              .textTheme
-                              .titleSmall
-                              ?.copyWith(fontWeight: FontWeight.w900),
-                        ),
-                      ),
-                      _SoftBadge(icon: Icons.star, text: hotel.rating.toStringAsFixed(1)),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
-                  child: Align(
-                    alignment: Alignment.centerLeft,
-                    child: _SoftBadge(icon: Icons.payments, text: _fromPriceText()),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _HotelRow extends StatelessWidget {
-  final Hotel hotel;
-  final String currency;
-  final VoidCallback onTap;
-  final VoidCallback onDirections;
-
-  const _HotelRow({
-    required this.hotel,
-    required this.currency,
-    required this.onTap,
-    required this.onDirections,
-  });
-
-  String _fromPriceText() {
-    if (hotel.rooms.isEmpty) return '—';
-    final min = hotel.rooms
-        .map((r) => r.pricePerNight)
-        .reduce((a, b) => a < b ? a : b);
-    return '$currency ${min.toStringAsFixed(0)}/night';
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-
-    return InkWell(
-      onTap: onTap,
-      borderRadius: BorderRadius.circular(16),
-      child: Container(
-        padding: const EdgeInsets.all(12),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(16),
-          color: cs.surface,
-          border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-          boxShadow: const [
-            BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12),
-          ],
-        ),
-        child: Row(
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(14),
-              child: Image.asset(
-                hotel.image,
-                width: 76,
-                height: 76,
-                fit: BoxFit.cover,
-                errorBuilder: (_, __, ___) =>
-                    Container(width: 76, height: 76, color: Colors.black12),
-              ),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    hotel.name,
+                const SizedBox(height: 24),
+                const Divider(),
+                const SizedBox(height: 12),
+                Text('Reviews',
                     style: Theme.of(context)
                         .textTheme
-                        .titleSmall
-                        ?.copyWith(fontWeight: FontWeight.w900),
-                  ),
-                  const SizedBox(height: 6),
-                  Text(
-                    hotel.description,
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                    style: TextStyle(color: Colors.grey.shade700),
-                  ),
-                  const SizedBox(height: 8),
-                  Wrap(
-                    spacing: 8,
-                    runSpacing: 8,
-                    children: [
-                      _SoftBadge(icon: Icons.star, text: hotel.rating.toStringAsFixed(1)),
-                      _SoftBadge(icon: Icons.payments, text: _fromPriceText()),
-                      if (hotel.topPick) const _SoftBadge(icon: Icons.star, text: 'Top Pick'),
-                    ],
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(width: 10),
-            _HotelActionPill(
-              hotelId: hotel.id,
-              onDirections: onDirections,
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class _HotelActionPill extends StatelessWidget {
-  final String hotelId;
-  final VoidCallback onDirections;
-
-  const _HotelActionPill({
-    required this.hotelId,
-    required this.onDirections,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-
-    return Container(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(999),
-        color: cs.surfaceContainerHighest,
-        border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-      ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          _PillIconButton(
-            tooltip: 'Directions',
-            icon: Icons.directions,
-            onTap: () async {
-              HapticFeedback.selectionClick();
-              onDirections();
-            },
-          ),
-          Container(
-            width: 34,
-            height: 1,
-            color: cs.outlineVariant.withOpacity(0.35),
-          ),
-          Consumer<AppState>(
-            builder: (_, app, __) {
-              final inMyStay = app.isInMyStay(hotelId);
-
-              return _PillIconButton(
-                tooltip: inMyStay ? 'Remove from My Stay' : 'Add to My Stay',
-                icon: inMyStay ? Icons.favorite : Icons.favorite_border,
-                animate: true,
-                onTap: () async {
-                  await app.toggleMyStay(hotelId);
-                  if (context.mounted) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text(inMyStay ? 'Removed from My Stay' : 'Added to My Stay'),
-                        duration: const Duration(milliseconds: 850),
-                      ),
-                    );
-                  }
-                },
-              );
-            },
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class _HotelDetailScreen extends StatefulWidget {
-  final Hotel hotel;
-  final String currency;
-  final Future<void> Function(Hotel h) onDirections;
-
-  const _HotelDetailScreen({
-    required this.hotel,
-    required this.currency,
-    required this.onDirections,
-  });
-
-  @override
-  State<_HotelDetailScreen> createState() => _HotelDetailScreenState();
-}
-
-class _HotelDetailScreenState extends State<_HotelDetailScreen> {
-  final _commentCtrl = TextEditingController();
-  double _rating = 4.5;
-
-  @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) async {
-      final app = context.read<AppState>();
-      await app.ensureLoadedForHotel(widget.hotel.id);
-
-      if (!mounted) return;
-      setState(() {
-        _rating = app.ratingForHotel(widget.hotel.id) ?? widget.hotel.rating;
-        _commentCtrl.text = app.commentForHotel(widget.hotel.id) ?? '';
-      });
-    });
-  }
-
-  @override
-  void dispose() {
-    _commentCtrl.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final h = widget.hotel;
-    final cs = Theme.of(context).colorScheme;
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(h.name),
-        actions: [
-          IconButton(
-            tooltip: 'Share',
-            icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${h.name} • Funparks'),
-          ),
-        ],
-      ),
-      body: _PremiumBackground(
-        child: ListView(
-          padding: const EdgeInsets.fromLTRB(16, 14, 16, 20),
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(18),
-              child: AspectRatio(
-                aspectRatio: 16 / 9,
-                child: Image.asset(
-                  h.image,
-                  fit: BoxFit.cover,
-                  errorBuilder: (_, __, ___) => Container(color: Colors.black12),
-                ),
-              ),
-            ),
-            const SizedBox(height: 14),
-
-            Container(
-              padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(16),
-                color: cs.surface,
-                border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-                boxShadow: const [
-                  BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12),
-                ],
-              ),
-              child: Text(h.description),
-            ),
-
-            const SizedBox(height: 12),
-
-            Row(
-              children: [
-                Expanded(
-                  child: FilledButton.icon(
-                    onPressed: () => widget.onDirections(h),
-                    icon: const Icon(Icons.directions),
-                    label: const Text('Directions'),
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: Consumer<AppState>(
-                    builder: (_, app, __) {
-                      final inStay = app.isInMyStay(h.id);
-                      return FilledButton.icon(
-                        onPressed: () async {
-                          HapticFeedback.lightImpact();
-                          await app.toggleMyStay(h.id);
-                        },
-                        icon: Icon(inStay ? Icons.favorite : Icons.favorite_border),
-                        label: Text(inStay ? 'Remove from My Stay' : 'Add to My Stay'),
-                      );
-                    },
-                  ),
+                        .titleLarge
+                        ?.copyWith(fontWeight: FontWeight.w900)),
+                const SizedBox(height: 14),
+                ReviewsSection(
+                  parkId: widget.parkId,
+                  itemId: a.id,
                 ),
               ],
             ),
-
-            const SizedBox(height: 18),
-
-            Text(
-              'Rooms & prices',
-              style: Theme.of(context)
-                  .textTheme
-                  .titleMedium
-                  ?.copyWith(fontWeight: FontWeight.w900),
-            ),
-            const SizedBox(height: 10),
-
-            if (h.rooms.isEmpty)
-              Text('No room data yet', style: TextStyle(color: Colors.grey.shade700))
-            else
-              ...h.rooms.map(
-                (r) => Padding(
-                  padding: const EdgeInsets.only(bottom: 10),
-                  child: Container(
-                    padding: const EdgeInsets.all(12),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(14),
-                      color: cs.surface,
-                      border: Border.all(color: cs.outlineVariant.withOpacity(0.30)),
-                    ),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(r.name, style: const TextStyle(fontWeight: FontWeight.w900)),
-                              const SizedBox(height: 2),
-                              Text(r.description, style: TextStyle(color: Colors.grey.shade700)),
-                              const SizedBox(height: 8),
-                              _SoftBadge(
-                                icon: r.breakfastIncluded ? Icons.free_breakfast : Icons.no_food,
-                                text: r.breakfastIncluded ? 'Breakfast included' : 'No breakfast',
-                              ),
-                            ],
-                          ),
-                        ),
-                        const SizedBox(width: 10),
-                        Text(
-                          '${widget.currency} ${r.pricePerNight.toStringAsFixed(0)}/night',
-                          style: const TextStyle(fontWeight: FontWeight.w900),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ),
-
-            const SizedBox(height: 18),
-            Text('Your rating', style: Theme.of(context).textTheme.titleMedium),
-            const SizedBox(height: 8),
-            _StarRow(initial: _rating, onChanged: (v) => setState(() => _rating = v)),
-
-            const SizedBox(height: 18),
-            Text('Your comment', style: Theme.of(context).textTheme.titleMedium),
-            const SizedBox(height: 8),
-            TextField(
-              controller: _commentCtrl,
-              maxLines: 4,
-              decoration: InputDecoration(
-                hintText: 'Share your experience (optional)',
-                border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-              ),
-            ),
-
-            const SizedBox(height: 16),
-            SizedBox(
-              width: double.infinity,
-              child: FilledButton(
-                onPressed: () async {
-                  final app = context.read<AppState>();
-                  await app.setHotelRating(h.id, _rating);
-                  await app.setHotelComment(h.id, _commentCtrl.text.trim());
-
-                  if (!mounted) return;
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Saved')),
-                  );
-                },
-                child: const Text('Save'),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-// ===============================================================
-// HOTELS TAB (Recommended / Lowest price / Highest rated) + My Stay
-// ===============================================================
-
-enum _HotelSort { recommended, lowestPrice, highestRated }
-
-class _HotelsTab extends StatefulWidget {
-  final List<Hotel> hotels;
-  final String currency;
-  final Future<void> Function(Hotel h) onDirections;
-  final Future<void> Function(String url)? onWebsite;
-
-  const _HotelsTab({
-    required this.hotels,
-    required this.currency,
-    required this.onDirections,
-    this.onWebsite,
-  });
-
-  @override
-  State<_HotelsTab> createState() => _HotelsTabState();
-}
-
-class _HotelsTabState extends State<_HotelsTab> {
-  _HotelSort _sort = _HotelSort.recommended;
-
-  List<Hotel> _sorted(List<Hotel> items) {
-    final list = [...items];
-
-    if (_sort == _HotelSort.lowestPrice) {
-      list.sort((a, b) {
-        final ap = a.lowestNightPrice ?? double.infinity;
-        final bp = b.lowestNightPrice ?? double.infinity;
-        final c = ap.compareTo(bp);
-        if (c != 0) return c;
-        return b.rating.compareTo(a.rating);
-      });
-      return list;
-    }
-
-    if (_sort == _HotelSort.highestRated) {
-      list.sort((a, b) => b.rating.compareTo(a.rating));
-      return list;
-    }
-
-    // recommended: topPick first, then rating desc, then lowest price asc
-    list.sort((a, b) {
-      final at = a.topPick ? 0 : 1;
-      final bt = b.topPick ? 0 : 1;
-      if (at != bt) return at.compareTo(bt);
-
-      final r = b.rating.compareTo(a.rating);
-      if (r != 0) return r;
-
-      final ap = a.lowestNightPrice ?? double.infinity;
-      final bp = b.lowestNightPrice ?? double.infinity;
-      return ap.compareTo(bp);
-    });
-
-    return list;
-  }
-
-  void _openDetails(Hotel h) {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => _HotelDetailScreen(
-          hotel: h,
-          currency: widget.currency,
-          onDirections: widget.onDirections,
-          onWebsite: widget.onWebsite,
-        ),
-      ),
-    );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
-    final cs = Theme.of(context).colorScheme;
-
-    if (widget.hotels.isEmpty) {
-      return Center(child: Text(loc.comingSoon));
-    }
-
-    final list = _sorted(widget.hotels);
-
-    return ListView(
-      padding: const EdgeInsets.fromLTRB(16, 14, 16, 22),
-      children: [
-        Consumer<AppState>(
-          builder: (_, app, __) => Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            children: [
-              _MiniPill(
-                icon: Icons.hotel,
-                text: '${loc.addToMyStay}: ${app.myStayCount}',
-              ),
-            ],
-          ),
-        ),
-        const SizedBox(height: 10),
-
-        Align(
-          alignment: Alignment.centerRight,
-          child: DropdownButton<_HotelSort>(
-            value: _sort,
-            onChanged: (v) => setState(() => _sort = v ?? _sort),
-            items: [
-              DropdownMenuItem(
-                value: _HotelSort.recommended,
-                child: Text(loc.recommended),
-              ),
-              DropdownMenuItem(
-                value: _HotelSort.lowestPrice,
-                child: Text(loc.lowestPrice),
-              ),
-              DropdownMenuItem(
-                value: _HotelSort.highestRated,
-                child: Text(loc.highestRated),
-              ),
-            ],
-          ),
-        ),
-
-        const SizedBox(height: 12),
-        ...list.map(
-          (h) => Padding(
-            padding: const EdgeInsets.only(bottom: 12),
-            child: InkWell(
-              onTap: () => _openDetails(h),
-              borderRadius: BorderRadius.circular(16),
-              child: Container(
-                padding: const EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(16),
-                  color: cs.surface,
-                  border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-                  boxShadow: const [
-                    BoxShadow(
-                      blurRadius: 10,
-                      offset: Offset(0, 3),
-                      color: Colors.black12,
-                    ),
-                  ],
-                ),
-                child: Row(
-                  children: [
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(14),
-                      child: Image.asset(
-                        h.image,
-                        width: 76,
-                        height: 76,
-                        fit: BoxFit.cover,
-                        errorBuilder: (_, __, ___) =>
-                            Container(width: 76, height: 76, color: Colors.black12),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            h.name,
-                            style: Theme.of(context)
-                                .textTheme
-                                .titleSmall
-                                ?.copyWith(fontWeight: FontWeight.w900),
-                          ),
-                          const SizedBox(height: 6),
-                          Text(
-                            h.description,
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                            style: TextStyle(color: Colors.grey.shade700),
-                          ),
-                          const SizedBox(height: 8),
-                          Wrap(
-                            spacing: 8,
-                            runSpacing: 8,
-                            children: [
-                              _SoftBadge(
-                                icon: Icons.star,
-                                text: h.rating.toStringAsFixed(1),
-                              ),
-                              if (h.lowestNightPrice != null)
-                                _SoftBadge(
-                                  icon: Icons.payments,
-                                  text:
-                                      '${widget.currency} ${h.lowestNightPrice!.toStringAsFixed(0)} / ${loc.night}',
-                                ),
-                              if (h.topPick)
-                                _SoftBadge(icon: Icons.star, text: loc.topPick),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ),
-
-                    const SizedBox(width: 10),
-
-                    _HotelActionPill(
-                      hotelId: h.id,
-                      addLabel: loc.addToMyStay,
-                      removeLabel: loc.removeFromMyStay,
-                      directionsLabel: loc.directions,
-                      onDirections: () => widget.onDirections(h),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ),
-        ),
-
-        const SizedBox(height: 6),
-        Container(height: 1, color: cs.outlineVariant.withOpacity(0.35)),
-        const SizedBox(height: 12),
-        Text(
-          loc.tapCardForDetails,
-          style: TextStyle(color: Colors.grey.shade700),
-        ),
-      ],
-    );
-  }
-}
-
-class _HotelActionPill extends StatelessWidget {
-  final String hotelId;
-  final String addLabel;
-  final String removeLabel;
-  final String directionsLabel;
-  final VoidCallback onDirections;
-
-  const _HotelActionPill({
-    required this.hotelId,
-    required this.addLabel,
-    required this.removeLabel,
-    required this.directionsLabel,
-    required this.onDirections,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-
-    return Container(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(999),
-        color: cs.surfaceContainerHighest,
-        border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-      ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          _PillIconButton(
-            tooltip: directionsLabel,
-            icon: Icons.directions,
-            onTap: () async {
-              HapticFeedback.selectionClick();
-              onDirections();
-            },
-          ),
-          Container(
-            width: 34,
-            height: 1,
-            color: cs.outlineVariant.withOpacity(0.35),
-          ),
-          Consumer<AppState>(
-            builder: (_, app, __) {
-              final inMyStay = app.isInMyStay(hotelId);
-              return _PillIconButton(
-                tooltip: inMyStay ? removeLabel : addLabel,
-                icon: inMyStay ? Icons.favorite : Icons.favorite_border,
-                animate: true,
-                onTap: () async {
-                  await app.toggleMyStay(hotelId);
-                  if (context.mounted) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text(inMyStay ? removeLabel : addLabel),
-                        duration: const Duration(milliseconds: 850),
-                      ),
-                    );
-                  }
-                },
-              );
-            },
           ),
         ],
       ),
@@ -3432,264 +2191,25 @@ class _HotelActionPill extends StatelessWidget {
 }
 
 // ===============================================================
-// HOTEL DETAIL SCREEN
+// FOOD TAB
 // ===============================================================
 
-class _HotelDetailScreen extends StatelessWidget {
-  final Hotel hotel;
-  final String currency;
-  final Future<void> Function(Hotel h) onDirections;
-  final Future<void> Function(String url)? onWebsite;
-
-  const _HotelDetailScreen({
-    required this.hotel,
-    required this.currency,
-    required this.onDirections,
-    this.onWebsite,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
-    final cs = Theme.of(context).colorScheme;
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(hotel.name),
-        actions: [
-          IconButton(
-            tooltip: loc.share,
-            icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${hotel.name} • Funparks'),
-          ),
-        ],
-      ),
-      body: _PremiumBackground(
-        child: ListView(
-          padding: const EdgeInsets.fromLTRB(16, 14, 16, 20),
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(18),
-              child: AspectRatio(
-                aspectRatio: 16 / 9,
-                child: Image.asset(
-                  hotel.image,
-                  fit: BoxFit.cover,
-                  errorBuilder: (_, __, ___) => Container(color: Colors.black12),
-                ),
-              ),
-            ),
-            const SizedBox(height: 14),
-
-            Container(
-              padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(16),
-                color: cs.surface,
-                border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
-                boxShadow: const [
-                  BoxShadow(
-                    blurRadius: 10,
-                    offset: Offset(0, 3),
-                    color: Colors.black12,
-                  ),
-                ],
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(hotel.description),
-                  const SizedBox(height: 10),
-                  Wrap(
-                    spacing: 8,
-                    runSpacing: 8,
-                    children: [
-                      _Pill(icon: Icons.star, text: hotel.rating.toStringAsFixed(1)),
-                      if (hotel.lowestNightPrice != null)
-                        _Pill(
-                          icon: Icons.payments,
-                          text:
-                              '$currency ${hotel.lowestNightPrice!.toStringAsFixed(0)} / ${loc.night}',
-                        ),
-                    ],
-                  ),
-                  const SizedBox(height: 14),
-                  Row(
-                    children: [
-                      Expanded(
-                        child: FilledButton.icon(
-                          onPressed: () => onDirections(hotel),
-                          icon: const Icon(Icons.directions),
-                          label: Text(loc.directions),
-                        ),
-                      ),
-                      if (hotel.website != null &&
-                          hotel.website!.trim().isNotEmpty &&
-                          onWebsite != null) ...[
-                        const SizedBox(width: 12),
-                        Expanded(
-                          child: FilledButton.icon(
-                            onPressed: () => onWebsite!(hotel.website!.trim()),
-                            icon: const Icon(Icons.public),
-                            label: Text(loc.website),
-                          ),
-                        ),
-                      ],
-                    ],
-                  ),
-                ],
-              ),
-            ),
-
-            const SizedBox(height: 18),
-            Text(
-              loc.rooms,
-              style: Theme.of(context)
-                  .textTheme
-                  .titleMedium
-                  ?.copyWith(fontWeight: FontWeight.w900),
-            ),
-            const SizedBox(height: 10),
-
-            ...hotel.rooms.map((r) {
-              final bf = r.breakfastIncluded
-                  ? loc.breakfastIncluded
-                  : loc.breakfastNotIncluded;
-
-              return Padding(
-                padding: const EdgeInsets.only(bottom: 10),
-                child: Container(
-                  padding: const EdgeInsets.all(12),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(14),
-                    color: cs.surface,
-                    border: Border.all(color: cs.outlineVariant.withOpacity(0.30)),
-                  ),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(r.name, style: const TextStyle(fontWeight: FontWeight.w900)),
-                            if (r.description.trim().isNotEmpty)
-                              Padding(
-                                padding: const EdgeInsets.only(top: 2),
-                                child: Text(
-                                  r.description,
-                                  style: TextStyle(color: Colors.grey.shade700),
-                                ),
-                              ),
-                            const SizedBox(height: 6),
-                            Text(
-                              bf,
-                              style: TextStyle(
-                                color: Colors.grey.shade700,
-                                fontWeight: FontWeight.w700,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      const SizedBox(width: 10),
-                      Text(
-                        '$currency ${r.pricePerNight.toStringAsFixed(0)}',
-                        style: const TextStyle(fontWeight: FontWeight.w900),
-                      ),
-                    ],
-                  ),
-                ),
-              );
-            }),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-// ===============================================================
-// HOTELS TAB + HOTEL DETAIL (i18n + sorting + Add to My Stay)
-// ===============================================================
-
-enum _HotelSort { recommended, lowestPrice, highestRated }
-
-class _HotelsTab extends StatefulWidget {
-  final List<Hotel> hotels;
+class _FoodTab extends StatelessWidget {
+  final String parkId;
+  final List<FoodPlace> food;
   final I18nContent i18n;
-  final Future<void> Function(Hotel h) onDirections;
+  final Future<void> Function(FoodPlace f) onDirections;
+  const _FoodTab(
+      {super.key,
+      required this.parkId,
+      required this.food,
+      required this.i18n,
+      required this.onDirections});
 
-  const _HotelsTab({
-    required this.hotels,
-    required this.i18n,
-    required this.onDirections,
-  });
-
-  @override
-  State<_HotelsTab> createState() => _HotelsTabState();
-}
-
-class _HotelsTabState extends State<_HotelsTab> {
-  _HotelSort _sort = _HotelSort.recommended;
-
-  void _openDetails(BuildContext context, Hotel h) {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => _HotelDetailScreen(
-          hotel: h,
-          i18n: widget.i18n,
-          onDirections: widget.onDirections,
-        ),
-      ),
-    );
-  }
-
-  double? _startingPrice(Hotel h) => h.lowestNightPrice;
-
-  List<Hotel> _sorted(List<Hotel> items) {
-    final list = [...items];
-
-    if (_sort == _HotelSort.lowestPrice) {
-      list.sort((a, b) {
-        final ap = a.lowestNightPrice;
-        final bp = b.lowestNightPrice;
-        if (ap == null && bp == null) return 0;
-        if (ap == null) return 1;
-        if (bp == null) return -1;
-        return ap.compareTo(bp);
-      });
-      return list;
-    }
-
-    if (_sort == _HotelSort.highestRated) {
-      list.sort((a, b) => b.rating.compareTo(a.rating));
-      return list;
-    }
-
-    // recommended: TopPick first, then rating desc, then lowest price asc (null last)
-    list.sort((a, b) {
-      final at = a.topPick ? 0 : 1;
-      final bt = b.topPick ? 0 : 1;
-      if (at != bt) return at.compareTo(bt);
-
-      final r = b.rating.compareTo(a.rating);
-      if (r != 0) return r;
-
-      final ap = a.lowestNightPrice;
-      final bp = b.lowestNightPrice;
-      if (ap == null && bp == null) return 0;
-      if (ap == null) return 1;
-      if (bp == null) return -1;
-      return ap.compareTo(bp);
-    });
-
-    return list;
-  }
-
-  String _priceBadge(AppLocalizations loc, double? price) {
-    if (price == null) return loc.price;
-    return '€ ${price.toStringAsFixed(0)}';
+  void _openDetails(BuildContext context, FoodPlace f) {
+    Navigator.of(context).push(MaterialPageRoute(
+        builder: (_) => _FoodDetailScreen(
+            parkId: parkId, food: f, i18n: i18n, onDirections: onDirections)));
   }
 
   @override
@@ -3697,121 +2217,79 @@ class _HotelsTabState extends State<_HotelsTab> {
     final loc = AppLocalizations.of(context)!;
     final cs = Theme.of(context).colorScheme;
 
-    if (widget.hotels.isEmpty) {
-      return Center(child: Text(loc.comingSoon));
-    }
+    if (food.isEmpty) return Center(child: Text(loc.comingSoon));
 
-    final list = _sorted(widget.hotels);
-    final top = list.where((h) => h.topPick).toList();
-    final rest = list.where((h) => !h.topPick).toList();
+    final top = food.where((f) => f.topPick).toList();
+    final rest = food.where((f) => !f.topPick).toList();
 
     return ListView(
       padding: const EdgeInsets.fromLTRB(16, 14, 16, 22),
       children: [
-        // My Stay count + Sort
         Consumer<AppState>(
           builder: (_, app, __) => Wrap(
             spacing: 8,
             runSpacing: 8,
             children: [
               _MiniPill(
-                icon: Icons.favorite,
-                text: '${loc.addToMyStay}: ${app.myStayCount}',
-              ),
-            ],
-          ),
-        ),
-        const SizedBox(height: 10),
-
-        Align(
-          alignment: Alignment.centerRight,
-          child: DropdownButton<_HotelSort>(
-            value: _sort,
-            onChanged: (v) => setState(() => _sort = v ?? _sort),
-            items: [
-              DropdownMenuItem(
-                value: _HotelSort.recommended,
-                child: Text(loc.recommended),
-              ),
-              DropdownMenuItem(
-                value: _HotelSort.lowestPrice,
-                child: Text(loc.lowestPrice),
-              ),
-              DropdownMenuItem(
-                value: _HotelSort.highestRated,
-                child: Text(loc.highestRated),
+                icon: Icons.wb_sunny_outlined,
+                text: 'My Day: ${app.myDayTotalCount}',
+                onTap: () => Navigator.pushNamed(context, '/my_day'),
               ),
             ],
           ),
         ),
         const SizedBox(height: 12),
-
         if (top.isNotEmpty) ...[
-          Text(
-            loc.topPick,
-            style: Theme.of(context)
-                .textTheme
-                .titleMedium
-                ?.copyWith(fontWeight: FontWeight.w900),
-          ),
+          Text(loc.topPick,
+              style: Theme.of(context)
+                  .textTheme
+                  .titleMedium
+                  ?.copyWith(fontWeight: FontWeight.w900)),
           const SizedBox(height: 10),
-          ...top.map(
-            (h) => Padding(
-              padding: const EdgeInsets.only(bottom: 12),
-              child: _HotelTopCard(
-                hotel: h,
-                i18n: widget.i18n,
-                startPrice: _startingPrice(h),
-                priceBadgeText: _priceBadge(loc, _startingPrice(h)),
-                onTap: () => _openDetails(context, h),
-                onDirections: () => widget.onDirections(h),
-              ),
-            ),
-          ),
+          ...top.map((f) => Padding(
+                padding: const EdgeInsets.only(bottom: 12),
+                child: _FoodTopCard(
+                  food: f,
+                  i18n: i18n,
+                  onTap: () => _openDetails(context, f),
+                  onDirections: () => onDirections(f),
+                ),
+              )),
           const SizedBox(height: 12),
-          Container(height: 1, color: cs.outlineVariant.withOpacity(0.35)),
+          Container(
+              height: 1,
+              color: cs.outlineVariant.withOpacity(0.35)),
           const SizedBox(height: 12),
         ],
-
-        ...rest.map(
-          (h) => Padding(
-            padding: const EdgeInsets.only(bottom: 12),
-            child: _HotelRow(
-              hotel: h,
-              i18n: widget.i18n,
-              startPrice: _startingPrice(h),
-              priceBadgeText: _priceBadge(loc, _startingPrice(h)),
-              onTap: () => _openDetails(context, h),
-              onDirections: () => widget.onDirections(h),
-            ),
-          ),
-        ),
+        ...rest.map((f) => Padding(
+              padding: const EdgeInsets.only(bottom: 12),
+              child: _FoodRow(
+                food: f,
+                i18n: i18n,
+                onTap: () => _openDetails(context, f),
+                onDirections: () => onDirections(f),
+              ),
+            )),
       ],
     );
   }
 }
 
-class _HotelTopCard extends StatelessWidget {
-  final Hotel hotel;
+class _FoodTopCard extends StatelessWidget {
+  final FoodPlace food;
   final I18nContent i18n;
-  final double? startPrice;
-  final String priceBadgeText;
   final VoidCallback onTap;
   final VoidCallback onDirections;
 
-  const _HotelTopCard({
-    required this.hotel,
-    required this.i18n,
-    required this.startPrice,
-    required this.priceBadgeText,
-    required this.onTap,
-    required this.onDirections,
-  });
+  const _FoodTopCard(
+      {required this.food,
+      required this.i18n,
+      required this.onTap,
+      required this.onDirections});
 
   @override
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
-    final translatedDesc = i18n.tHotelDesc(context, hotel.id, hotel.description);
     final cs = Theme.of(context).colorScheme;
 
     return _PremiumAppear(
@@ -3821,9 +2299,13 @@ class _HotelTopCard extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
             color: cs.surface,
-            border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
+            border:
+                Border.all(color: cs.outlineVariant.withOpacity(0.35)),
             boxShadow: const [
-              BoxShadow(blurRadius: 14, offset: Offset(0, 4), color: Colors.black12),
+              BoxShadow(
+                  blurRadius: 14,
+                  offset: Offset(0, 4),
+                  color: Colors.black12)
             ],
           ),
           child: ClipRRect(
@@ -3835,13 +2317,7 @@ class _HotelTopCard extends StatelessWidget {
                   child: Stack(
                     fit: StackFit.expand,
                     children: [
-                      Image.asset(
-                        hotel.image,
-                        fit: BoxFit.cover,
-                        cacheWidth: 1200,
-                        gaplessPlayback: true,
-                        errorBuilder: (_, __, ___) => Container(color: Colors.black12),
-                      ),
+                      ParkImage(image: food.image, fit: BoxFit.cover),
                       DecoratedBox(
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
@@ -3864,10 +2340,10 @@ class _HotelTopCard extends StatelessWidget {
                             children: [
                               const Icon(Icons.star, size: 16),
                               const SizedBox(width: 6),
-                              Text(
-                                loc.topPick,
-                                style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 12),
-                              ),
+                              Text(loc.topPick,
+                                  style: const TextStyle(
+                                      fontWeight: FontWeight.w900,
+                                      fontSize: 12)),
                             ],
                           ),
                         ),
@@ -3875,13 +2351,12 @@ class _HotelTopCard extends StatelessWidget {
                       Positioned(
                         right: 12,
                         bottom: 12,
-                        child: _HotelActionPill(
-                          hotelId: hotel.id,
-                          addLabel: loc.addToMyStay,
-                          removeLabel: loc.removeFromMyStay,
+                        child: _FoodActionPill(
+                          foodId: food.id,
+                          foodName: food.name,
+                          addLabel: loc.addToMyDay,
+                          removeLabel: loc.removeFromMyDay,
                           directionsLabel: loc.directions,
-                          websiteLabel: loc.website,
-                          websiteUrl: hotel.website,
                           onDirections: onDirections,
                         ),
                       ),
@@ -3890,32 +2365,19 @@ class _HotelTopCard extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.all(12),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                  child: Row(
                     children: [
-                      Row(
-                        children: [
-                          Expanded(
-                            child: Text(
-                              hotel.name,
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .titleSmall
-                                  ?.copyWith(fontWeight: FontWeight.w900),
-                            ),
-                          ),
-                          _SoftBadge(icon: Icons.star, text: hotel.rating.toStringAsFixed(1)),
-                          const SizedBox(width: 8),
-                          _SoftBadge(icon: Icons.euro, text: priceBadgeText),
-                        ],
+                      Expanded(
+                        child: Text(food.name,
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleSmall
+                                ?.copyWith(
+                                    fontWeight: FontWeight.w900)),
                       ),
-                      const SizedBox(height: 8),
-                      Text(
-                        translatedDesc,
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                        style: TextStyle(color: Colors.grey.shade700),
-                      ),
+                      _SoftBadge(
+                          icon: Icons.star,
+                          text: food.rating.toStringAsFixed(1)),
                     ],
                   ),
                 ),
@@ -3928,29 +2390,28 @@ class _HotelTopCard extends StatelessWidget {
   }
 }
 
-class _HotelRow extends StatelessWidget {
-  final Hotel hotel;
+class _FoodRow extends StatelessWidget {
+  final FoodPlace food;
   final I18nContent i18n;
-  final double? startPrice;
-  final String priceBadgeText;
   final VoidCallback onTap;
   final VoidCallback onDirections;
 
-  const _HotelRow({
-    required this.hotel,
-    required this.i18n,
-    required this.startPrice,
-    required this.priceBadgeText,
-    required this.onTap,
-    required this.onDirections,
-  });
+  const _FoodRow(
+      {required this.food,
+      required this.i18n,
+      required this.onTap,
+      required this.onDirections});
 
   @override
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
     final cs = Theme.of(context).colorScheme;
-
-    final translatedDesc = i18n.tHotelDesc(context, hotel.id, hotel.description);
+    final lookup = _I18nLookup(i18n);
+    final baseEn = food.description.trim().isEmpty
+        ? food.type
+        : food.description.trim();
+    final pair = lookup.pairDescFromSection(context,
+        section: 'food', id: food.id, fallbackEn: baseEn);
 
     return InkWell(
       onTap: onTap,
@@ -3960,68 +2421,55 @@ class _HotelRow extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
           color: cs.surface,
-          border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
+          border:
+              Border.all(color: cs.outlineVariant.withOpacity(0.35)),
           boxShadow: const [
-            BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12),
+            BoxShadow(
+                blurRadius: 10,
+                offset: Offset(0, 3),
+                color: Colors.black12)
           ],
         ),
         child: Row(
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(14),
-              child: Image.asset(
-                hotel.image,
-                width: 76,
-                height: 76,
-                fit: BoxFit.cover,
-                cacheWidth: 240,
-                gaplessPlayback: true,
-                errorBuilder: (_, __, ___) =>
-                    Container(width: 76, height: 76, color: Colors.black12),
-              ),
+              child: ParkImage(image: food.image, fit: BoxFit.cover, width: 76, height: 76),
             ),
             const SizedBox(width: 12),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    hotel.name,
-                    style: Theme.of(context)
-                        .textTheme
-                        .titleSmall
-                        ?.copyWith(fontWeight: FontWeight.w900),
-                  ),
+                  Text(food.name,
+                      style: Theme.of(context)
+                          .textTheme
+                          .titleSmall
+                          ?.copyWith(fontWeight: FontWeight.w900)),
+                  const SizedBox(height: 4),
+                  Text(food.type,
+                      style: TextStyle(
+                          color: Colors.grey.shade700,
+                          fontWeight: FontWeight.w700)),
                   const SizedBox(height: 6),
-                  Text(
-                    translatedDesc,
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                    style: TextStyle(color: Colors.grey.shade700),
-                  ),
+                  Text(pair.translated,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: TextStyle(color: Colors.grey.shade700)),
                   const SizedBox(height: 8),
-                  Wrap(
-                    spacing: 8,
-                    runSpacing: 8,
-                    children: [
-                      _SoftBadge(icon: Icons.star, text: hotel.rating.toStringAsFixed(1)),
-                      _SoftBadge(icon: Icons.euro, text: priceBadgeText),
-                      if (hotel.rooms.isNotEmpty)
-                        _SoftBadge(icon: Icons.hotel, text: '${hotel.rooms.length} ${loc.rooms}'),
-                      if (hotel.topPick) _SoftBadge(icon: Icons.star, text: loc.topPick),
-                    ],
-                  ),
+                  _SoftBadge(
+                      icon: Icons.star,
+                      text: food.rating.toStringAsFixed(1)),
                 ],
               ),
             ),
             const SizedBox(width: 10),
-            _HotelActionPill(
-              hotelId: hotel.id,
-              addLabel: loc.addToMyStay,
-              removeLabel: loc.removeFromMyStay,
+            _FoodActionPill(
+              foodId: food.id,
+              foodName: food.name,
+              addLabel: loc.addToMyDay,
+              removeLabel: loc.removeFromMyDay,
               directionsLabel: loc.directions,
-              websiteLabel: loc.website,
-              websiteUrl: hotel.website,
               onDirections: onDirections,
             ),
           ],
@@ -4031,63 +2479,32 @@ class _HotelRow extends StatelessWidget {
   }
 }
 
-class _HotelActionPill extends StatelessWidget {
-  final String hotelId;
-
+class _FoodActionPill extends StatelessWidget {
+  final String foodId;
+  final String foodName;
   final String addLabel;
   final String removeLabel;
-
   final String directionsLabel;
-
-  final String websiteLabel;
-  final String? websiteUrl;
-
   final VoidCallback onDirections;
 
-  const _HotelActionPill({
-    required this.hotelId,
+  const _FoodActionPill({
+    required this.foodId,
+    required this.foodName,
     required this.addLabel,
     required this.removeLabel,
     required this.directionsLabel,
-    required this.websiteLabel,
-    required this.websiteUrl,
     required this.onDirections,
   });
-
-  Future<void> _openWebsite(BuildContext context) async {
-    final url = (websiteUrl ?? '').trim();
-    if (url.isEmpty) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(websiteLabel)),
-      );
-      return;
-    }
-
-    final uri = Uri.tryParse(url);
-    if (uri == null) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Invalid website URL')),
-      );
-      return;
-    }
-
-    final ok = await launchUrl(uri, mode: LaunchMode.externalApplication);
-    if (!ok && context.mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Could not open website')),
-      );
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
-
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(999),
         color: cs.surfaceContainerHighest,
-        border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
+        border:
+            Border.all(color: cs.outlineVariant.withOpacity(0.35)),
       ),
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -4100,32 +2517,38 @@ class _HotelActionPill extends StatelessWidget {
               onDirections();
             },
           ),
-          Container(width: 34, height: 1, color: cs.outlineVariant.withOpacity(0.35)),
-          _PillIconButton(
-            tooltip: websiteLabel,
-            icon: Icons.public,
-            onTap: () async {
-              HapticFeedback.selectionClick();
-              await _openWebsite(context);
-            },
-          ),
-          Container(width: 34, height: 1, color: cs.outlineVariant.withOpacity(0.35)),
+          Container(
+              width: 34,
+              height: 1,
+              color: cs.outlineVariant.withOpacity(0.35)),
           Consumer<AppState>(
             builder: (_, app, __) {
-              final inStay = app.isInMyStay(hotelId);
+              final inMyFood = app.isInMyDayUnified(foodId);
               return _PillIconButton(
-                tooltip: inStay ? removeLabel : addLabel,
-                icon: inStay ? Icons.favorite : Icons.favorite_border,
+                tooltip: inMyFood ? removeLabel : addLabel,
+                icon: inMyFood
+                    ? Icons.favorite
+                    : Icons.favorite_border,
                 animate: true,
                 onTap: () async {
-                  await app.toggleMyStay(hotelId);
+                  if (inMyFood) {
+                    await app.removeFromMyDay(foodId);
+                  } else {
+                    await app.addToMyDay(MyDayItem(
+                      id: foodId,
+                      name: foodName,
+                      type: MyDayItemType.restaurant,
+                      estimatedMinutes: MyDayItem.defaultMinutes(MyDayItemType.restaurant),
+                    ));
+                  }
                   if (context.mounted) {
                     ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text(inStay ? removeLabel : addLabel),
-                        duration: const Duration(milliseconds: 850),
-                      ),
-                    );
+                        SnackBar(
+                      content:
+                          Text(inMyFood ? removeLabel : addLabel),
+                      duration:
+                          const Duration(milliseconds: 850),
+                    ));
                   }
                 },
               );
@@ -4138,174 +2561,887 @@ class _HotelActionPill extends StatelessWidget {
 }
 
 // ===============================================================
-// HOTEL DETAIL SCREEN (i18n + My Stay + room-level i18n)
+// FOOD DETAIL SCREEN
 // ===============================================================
 
-class _HotelDetailScreen extends StatelessWidget {
-  final Hotel hotel;
+class _FoodDetailScreen extends StatefulWidget {
+  final String parkId;
+  final FoodPlace food;
   final I18nContent i18n;
-  final Future<void> Function(Hotel h) onDirections;
+  final Future<void> Function(FoodPlace f) onDirections;
+  const _FoodDetailScreen(
+      {required this.parkId,
+      required this.food,
+      required this.i18n,
+      required this.onDirections});
 
-  const _HotelDetailScreen({
-    required this.hotel,
-    required this.i18n,
-    required this.onDirections,
-  });
+  @override
+  State<_FoodDetailScreen> createState() => _FoodDetailScreenState();
+}
+
+class _FoodDetailScreenState extends State<_FoodDetailScreen> {
+  final _commentCtrl = TextEditingController();
+  double _rating = 4.4;
+  bool _showTranslated = false;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      final app = context.read<AppState>();
+      await app.ensureLoadedForFood(widget.food.id);
+      if (!mounted) return;
+      setState(() {
+        _rating =
+            app.ratingForFood(widget.food.id) ?? widget.food.rating;
+        _commentCtrl.text =
+            app.commentForFood(widget.food.id) ?? '';
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    _commentCtrl.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
     final cs = Theme.of(context).colorScheme;
-
-    final translatedDesc = i18n.tHotelDesc(context, hotel.id, hotel.description);
-    final start = hotel.lowestNightPrice;
-
-    final facts = <String>[
-      '${loc.rating}: ${hotel.rating.toStringAsFixed(1)}',
-      if (start != null) '${loc.fromPrice}: € ${start.toStringAsFixed(0)}',
-      if (hotel.rooms.isNotEmpty) '${loc.rooms}: ${hotel.rooms.length}',
-    ];
+    final f = widget.food;
+    final lookup = _I18nLookup(widget.i18n);
+    final fallbackEn =
+        f.description.isEmpty ? f.type : f.description;
+    final descPair = lookup.pairFromSectionIdField(context,
+        section: 'food',
+        id: f.id,
+        field: 'desc',
+        fallbackEn: fallbackEn);
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(hotel.name),
+        title: Text(f.name),
         actions: [
+          IconButton(
+            tooltip: 'My Day',
+            icon: Consumer<AppState>(
+              builder: (context, app, _) => Badge(
+                isLabelVisible: app.myDayTotalCount > 0,
+                label: Text(app.myDayTotalCount.toString()),
+                child: const Icon(Icons.wb_sunny_outlined),
+              ),
+            ),
+            onPressed: () => Navigator.pushNamed(context, '/my_day'),
+          ),
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${hotel.name} • Funparks'),
+            onPressed: () => Share.share('${f.name} • Funparks'),
           ),
-          Consumer<AppState>(
-            builder: (_, app, __) {
-              final inStay = app.isInMyStay(hotel.id);
-              return IconButton(
-                tooltip: inStay ? loc.removeFromMyStay : loc.addToMyStay,
-                icon: Icon(inStay ? Icons.favorite : Icons.favorite_border),
-                onPressed: () async => app.toggleMyStay(hotel.id),
-              );
-            },
-          ),
-          if ((hotel.website ?? '').trim().isNotEmpty)
-            IconButton(
-              tooltip: loc.website,
-              icon: const Icon(Icons.public),
-              onPressed: () async {
-                final uri = Uri.tryParse(hotel.website!.trim());
-                if (uri != null) {
-                  await launchUrl(uri, mode: LaunchMode.externalApplication);
-                }
-              },
-            ),
         ],
       ),
       body: _PremiumBackground(
         child: ListView(
-          padding: const EdgeInsets.fromLTRB(16, 14, 16, 22),
+          padding: const EdgeInsets.fromLTRB(16, 14, 16, 20),
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(18),
               child: AspectRatio(
                 aspectRatio: 16 / 9,
-                child: Image.asset(
-                  hotel.image,
-                  fit: BoxFit.cover,
-                  cacheWidth: 1400,
-                  gaplessPlayback: true,
-                  errorBuilder: (_, __, ___) => Container(color: Colors.black12),
-                ),
+                child: ParkImage(image: f.image, fit: BoxFit.cover),
               ),
             ),
             const SizedBox(height: 14),
-            _GlassCard(
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(translatedDesc, style: Theme.of(context).textTheme.bodyMedium),
-                    const SizedBox(height: 12),
-                    Wrap(
-                      spacing: 8,
-                      runSpacing: 8,
-                      children: facts.map((t) => _Chip(text: t)).toList(),
+            Container(
+              padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(16),
+                color: cs.surface,
+                border: Border.all(
+                    color: cs.outlineVariant.withOpacity(0.35)),
+                boxShadow: const [
+                  BoxShadow(
+                      blurRadius: 10,
+                      offset: Offset(0, 3),
+                      color: Colors.black12)
+                ],
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(_showTranslated
+                      ? descPair.translated
+                      : descPair.english),
+                  Align(
+                    alignment: Alignment.centerLeft,
+                    child: TextButton(
+                      onPressed: () => setState(() =>
+                          _showTranslated = !_showTranslated),
+                      child: Text(
+                          _showTranslated ? 'EN' : 'Translate'),
                     ),
-                    const SizedBox(height: 12),
-                    SizedBox(
-                      width: double.infinity,
-                      child: FilledButton.icon(
-                        onPressed: () => onDirections(hotel),
-                        icon: const Icon(Icons.directions),
-                        label: Text(loc.directions),
-                      ),
-                    ),
-                  ],
-                ),
+                  ),
+                ],
               ),
             ),
-            const SizedBox(height: 16),
-
-            Text(
-              loc.rooms,
-              style: Theme.of(context)
-                  .textTheme
-                  .titleMedium
-                  ?.copyWith(fontWeight: FontWeight.w900),
+            const SizedBox(height: 12),
+            Row(
+              children: [
+                Expanded(
+                  child: FilledButton.icon(
+                    onPressed: () => widget.onDirections(f),
+                    icon: const Icon(Icons.directions),
+                    label: Text(loc.directions),
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Consumer<AppState>(
+                    builder: (_, app, __) {
+                      final inPlan = app.isInMyDayUnified(f.id);
+                      return FilledButton.icon(
+                        onPressed: () async {
+                          HapticFeedback.lightImpact();
+                          if (inPlan) {
+                            await app.removeFromMyDay(f.id);
+                          } else {
+                            await app.addToMyDay(MyDayItem(
+                              id: f.id,
+                              name: f.name,
+                              type: MyDayItemType.restaurant,
+                              estimatedMinutes: MyDayItem.defaultMinutes(MyDayItemType.restaurant),
+                            ));
+                          }
+                        },
+                        icon: Icon(inPlan
+                            ? Icons.favorite
+                            : Icons.favorite_border),
+                        label: Text(inPlan
+                            ? loc.removeFromMyDay
+                            : loc.addToMyDay),
+                      );
+                    },
+                  ),
+                ),
+              ],
             ),
+            const SizedBox(height: 18),
+            Text(loc.menuAndPrices,
+                style: Theme.of(context)
+                    .textTheme
+                    .titleMedium
+                    ?.copyWith(fontWeight: FontWeight.w900)),
             const SizedBox(height: 10),
-
-            if (hotel.rooms.isEmpty)
-              Text(loc.comingSoon, style: TextStyle(color: Colors.grey.shade700))
-            else
-              ...hotel.rooms.map((r) {
-                // ✅ Room-level i18n
-                final roomName = i18n.tHotelRoomName(context, hotel.id, r.key, r.name);
-                final roomDesc = i18n.tHotelRoomDesc(context, hotel.id, r.key, r.description);
-
-                return Padding(
+            ...f.items.map((it) => Padding(
                   padding: const EdgeInsets.only(bottom: 10),
                   child: Container(
                     padding: const EdgeInsets.all(12),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(14),
                       color: cs.surface,
-                      border: Border.all(color: cs.outlineVariant.withOpacity(0.30)),
+                      border: Border.all(
+                          color:
+                              cs.outlineVariant.withOpacity(0.30)),
                     ),
-                    child: Column(
+                    child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(roomName, style: const TextStyle(fontWeight: FontWeight.w900)),
-                        if (roomDesc.trim().isNotEmpty)
-                          Padding(
-                            padding: const EdgeInsets.only(top: 2),
-                            child: Text(roomDesc, style: TextStyle(color: Colors.grey.shade700)),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment:
+                                CrossAxisAlignment.start,
+                            children: [
+                              Text(it.name,
+                                  style: const TextStyle(
+                                      fontWeight: FontWeight.w900)),
+                              if (it.description.trim().isNotEmpty)
+                                Padding(
+                                  padding:
+                                      const EdgeInsets.only(top: 2),
+                                  child: Text(it.description,
+                                      style: TextStyle(
+                                          color:
+                                              Colors.grey.shade700)),
+                                ),
+                            ],
                           ),
-                        const SizedBox(height: 8),
-                        Wrap(
-                          spacing: 8,
-                          runSpacing: 8,
-                          children: [
-                            _SoftBadge(
-                              icon: Icons.euro,
-                              text: '€ ${r.pricePerNight.toStringAsFixed(0)} / ${loc.night}',
-                            ),
-                            _SoftBadge(
-                              icon: r.breakfastIncluded
-                                  ? Icons.free_breakfast
-                                  : Icons.no_food,
-                              text: r.breakfastIncluded
-                                  ? loc.breakfastIncluded
-                                  : loc.breakfastNotIncluded,
-                            ),
-                          ],
                         ),
+                        const SizedBox(width: 10),
+                        Text(it.price.toStringAsFixed(2),
+                            style: const TextStyle(
+                                fontWeight: FontWeight.w900)),
                       ],
                     ),
                   ),
-                );
-              }),
+                )),
+             const SizedBox(height: 24),
+            const Divider(),
+            const SizedBox(height: 12),
+            Text('Reviews',
+                style: Theme.of(context)
+                    .textTheme
+                    .titleLarge
+                    ?.copyWith(fontWeight: FontWeight.w900)),
+            const SizedBox(height: 14),
+            ReviewsSection(
+              parkId: widget.parkId,
+              itemId: f.id,
+            ),
           ],
         ),
       ),
     );
   }
 }
+
+// ===============================================================
+// HOTELS TAB
+// ===============================================================
+
+enum _HotelSort { recommended, closest, cheapest }
+
+class _HotelsTab extends StatefulWidget {
+  final Park park;
+  final List<Hotel> hotels;
+  final I18nContent i18n;
+  final void Function(Hotel hotel) onDirections;
+
+  const _HotelsTab({
+    super.key,
+    required this.park,
+    required this.hotels,
+    required this.i18n,
+    required this.onDirections,
+  });
+
+  @override
+  State<_HotelsTab> createState() => _HotelsTabState();
+}
+
+class _HotelsTabState extends State<_HotelsTab> {
+  _HotelSort _sort = _HotelSort.recommended;
+
+  static double _dist2(
+      double aLat, double aLng, double bLat, double bLng) {
+    final dx = aLat - bLat;
+    final dy = aLng - bLng;
+    return dx * dx + dy * dy;
+  }
+
+  List<Hotel> _sorted(List<Hotel> items) {
+    final list = [...items];
+    int compareNullableNum(num? a, num? b) {
+      if (a == null && b == null) return 0;
+      if (a == null) return 1;
+      if (b == null) return -1;
+      return a.compareTo(b);
+    }
+
+    if (_sort == _HotelSort.closest) {
+      final pLat = widget.park.lat;
+      final pLng = widget.park.lng;
+      list.sort((a, b) {
+        final da = _dist2(pLat, pLng, a.lat, a.lng);
+        final db = _dist2(pLat, pLng, b.lat, b.lng);
+        return da.compareTo(db);
+      });
+      return list;
+    }
+
+    if (_sort == _HotelSort.cheapest) {
+      list.sort((a, b) {
+        final c = compareNullableNum(a.lowestNightPrice, b.lowestNightPrice);
+        if (c != 0) return c;
+        final r = b.rating.compareTo(a.rating);
+        if (r != 0) return r;
+        return a.name.compareTo(b.name);
+      });
+      return list;
+    }
+
+    list.sort((a, b) {
+      final at = a.topPick ? 0 : 1;
+      final bt = b.topPick ? 0 : 1;
+      if (at != bt) return at.compareTo(bt);
+      final r = b.rating.compareTo(a.rating);
+      if (r != 0) return r;
+      final c = compareNullableNum(a.lowestNightPrice, b.lowestNightPrice);
+      if (c != 0) return c;
+      return a.name.compareTo(b.name);
+    });
+    return list;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
+    final list = _sorted(widget.hotels);
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(12, 10, 12, 14),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Text(loc.hotels,
+                  style: Theme.of(context)
+                      .textTheme
+                      .titleLarge
+                      ?.copyWith(fontWeight: FontWeight.w900)),
+              const Spacer(),
+              _HotelSortMenu(
+                  value: _sort,
+                  onChanged: (v) => setState(() => _sort = v)),
+            ],
+          ),
+          const SizedBox(height: 10),
+          if (list.isEmpty)
+            Expanded(child: Center(child: Text(loc.comingSoon)))
+          else
+            Expanded(
+              child: ListView.separated(
+                itemCount: list.length,
+                separatorBuilder: (_, __) =>
+                    const SizedBox(height: 10),
+                itemBuilder: (context, index) {
+                  final h = list[index];
+                  return _HotelRow(
+                    hotel: h,
+                    i18n: widget.i18n,
+                    onDirections: () => widget.onDirections(h),
+                    onOpen: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (_) => _HotelDetailScreen(
+                              hotel: h, i18n: widget.i18n)));
+                    },
+                  );
+                },
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+}
+
+class _HotelSortMenu extends StatelessWidget {
+  final _HotelSort value;
+  final ValueChanged<_HotelSort> onChanged;
+
+  const _HotelSortMenu(
+      {required this.value, required this.onChanged});
+
+  @override
+  Widget build(BuildContext context) {
+    String label(_HotelSort s) {
+      switch (s) {
+        case _HotelSort.recommended:
+          return 'Recommended';
+        case _HotelSort.closest:
+          return 'Closest';
+        case _HotelSort.cheapest:
+          return 'Cheapest';
+      }
+    }
+
+    return DropdownButton<_HotelSort>(
+      value: value,
+      onChanged: (v) {
+        if (v == null) return;
+        onChanged(v);
+      },
+      items: _HotelSort.values
+          .map((s) => DropdownMenuItem(value: s, child: Text(label(s))))
+          .toList(),
+    );
+  }
+}
+
+class _HotelToggleText extends StatefulWidget {
+  final String english;
+  final String translated;
+
+  const _HotelToggleText(
+      {required this.english, required this.translated});
+
+  @override
+  State<_HotelToggleText> createState() => _HotelToggleTextState();
+}
+
+class _HotelToggleTextState extends State<_HotelToggleText> {
+  bool _showTranslated = true;
+
+  @override
+  Widget build(BuildContext context) {
+    final text =
+        _showTranslated ? widget.translated : widget.english;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(text),
+        Align(
+          alignment: Alignment.centerLeft,
+          child: TextButton(
+            onPressed: () =>
+                setState(() => _showTranslated = !_showTranslated),
+            child: Text(_showTranslated ? 'EN' : 'Translate'),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _HotelTopCard extends StatelessWidget {
+  final String title;
+  final String subtitle;
+
+  const _HotelTopCard(
+      {required this.title, required this.subtitle});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(16),
+        color:
+            Theme.of(context).colorScheme.surfaceContainerHighest,
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(title,
+              style: const TextStyle(
+                  fontWeight: FontWeight.w900, fontSize: 16)),
+          const SizedBox(height: 6),
+          Text(subtitle),
+        ],
+      ),
+    );
+  }
+}
+
+class _HotelActionPill extends StatelessWidget {
+  final IconData icon;
+  final String text;
+
+  const _HotelActionPill(
+      {required this.icon, required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding:
+          const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(999),
+        color:
+            Theme.of(context).colorScheme.surfaceContainerHighest,
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(icon, size: 16),
+          const SizedBox(width: 6),
+          Text(text,
+              style: const TextStyle(
+                  fontWeight: FontWeight.w800, fontSize: 12)),
+        ],
+      ),
+    );
+  }
+}
+
+class _HotelActionPillButton extends StatelessWidget {
+  final IconData icon;
+  final String text;
+  final VoidCallback onTap;
+
+  const _HotelActionPillButton(
+      {required this.icon,
+      required this.text,
+      required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      borderRadius: BorderRadius.circular(999),
+      onTap: onTap,
+      child: _HotelActionPill(icon: icon, text: text),
+    );
+  }
+}
+
+class _HotelRow extends StatelessWidget {
+  final Hotel hotel;
+  final I18nContent i18n;
+  final VoidCallback onDirections;
+  final VoidCallback onOpen;
+
+  const _HotelRow(
+      {required this.hotel,
+      required this.i18n,
+      required this.onDirections,
+      required this.onOpen});
+
+  @override
+  Widget build(BuildContext context) {
+    final descPair =
+        _hotelDescPair(context, i18n, hotel.id, hotel.description);
+
+    return Material(
+      elevation: 0,
+      borderRadius: BorderRadius.circular(16),
+      color: Theme.of(context).colorScheme.surface,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(16),
+        onTap: onOpen,
+        child: Padding(
+          padding: const EdgeInsets.all(14),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Icon(Icons.hotel, size: 26),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(hotel.name,
+                        style: const TextStyle(
+                            fontWeight: FontWeight.w900,
+                            fontSize: 15)),
+                    const SizedBox(height: 6),
+                    _HotelToggleText(
+                        english: descPair.en,
+                        translated: descPair.translated),
+                    const SizedBox(height: 10),
+                    Wrap(spacing: 8, runSpacing: 8, children: [
+                      _HotelActionPillButton(
+                          icon: Icons.directions,
+                          text: 'Directions',
+                          onTap: onDirections),
+                      Consumer<AppState>(
+                        builder: (context, app, _) {
+                          final inMyDay = app.isInMyDayUnified(hotel.id);
+                          return _HotelActionPillButton(
+                            icon: inMyDay ? Icons.favorite : Icons.favorite_border,
+                            text: inMyDay ? 'Remove from My Day' : 'Add to My Day',
+                            onTap: () async {
+                              if (inMyDay) {
+                                await app.removeFromMyDay(hotel.id);
+                              } else {
+                                await app.addToMyDay(MyDayItem(
+                                  id: hotel.id,
+                                  name: hotel.name,
+                                  type: MyDayItemType.hotel,
+                                  estimatedMinutes: MyDayItem.defaultMinutes(MyDayItemType.hotel),
+                                ));
+                              }
+                            },
+                          );
+                        },
+                      ),
+                    ]),
+                  ],
+                ),
+              ),
+              const SizedBox(width: 6),
+              const Icon(Icons.chevron_right),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+// ===============================================================
+// HOTEL DETAIL SCREEN  (single definition — StatefulWidget)
+// ===============================================================
+
+class _HotelDetailScreen extends StatefulWidget {
+  final Hotel hotel;
+  final I18nContent i18n;
+
+  const _HotelDetailScreen(
+      {required this.hotel, required this.i18n});
+
+  @override
+  State<_HotelDetailScreen> createState() =>
+      _HotelDetailScreenState();
+}
+
+class _HotelDetailScreenState extends State<_HotelDetailScreen> {
+  @override
+  Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
+    final hotel = widget.hotel;
+    final i18n = widget.i18n;
+    final hotelDescPair =
+        _hotelDescPair(context, i18n, hotel.id, hotel.description);
+
+    return Scaffold(
+      appBar: AppBar(title: Text(hotel.name)),
+      body: ListView(
+        padding: const EdgeInsets.all(14),
+        children: [
+          if (hotel.image.trim().isNotEmpty) ...[
+            ClipRRect(
+              borderRadius: BorderRadius.circular(16),
+              child: AspectRatio(
+                aspectRatio: 16 / 9,
+                child: ParkImage(image: hotel.image, fit: BoxFit.cover),
+              ),
+            ),
+            const SizedBox(height: 12),
+          ],
+          _HotelToggleText(
+              english: hotelDescPair.en,
+              translated: hotelDescPair.translated),
+          const SizedBox(height: 14),
+          Text('Rooms',
+              style: Theme.of(context)
+                  .textTheme
+                  .titleMedium
+                  ?.copyWith(fontWeight: FontWeight.w900)),
+          const SizedBox(height: 10),
+          if (hotel.rooms.isEmpty)
+            _HotelTopCard(
+              title: loc.comingSoon,
+              subtitle:
+                  'We will add rooms, prices, photos, and booking links here.',
+            )
+          else
+            ...hotel.rooms.map((r) {
+              final namePair = _hotelRoomNamePair(
+                  context, i18n, hotel.id, r.key, r.name);
+              final descPair = _hotelRoomDescPair(
+                  context, i18n, hotel.id, r.key, r.description);
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 10),
+                child: Container(
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(14),
+                    color: Theme.of(context).colorScheme.surface,
+                    border: Border.all(
+                        color: Theme.of(context)
+                            .colorScheme
+                            .outlineVariant
+                            .withOpacity(0.30)),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(namePair.translated,
+                          style: const TextStyle(
+                              fontWeight: FontWeight.w900)),
+                      const SizedBox(height: 6),
+                      _HotelToggleText(
+                          english: descPair.en,
+                          translated: descPair.translated),
+                      const SizedBox(height: 8),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              '${r.pricePerNight.toStringAsFixed(0)} / night',
+                              style: const TextStyle(
+                                  fontWeight: FontWeight.w900),
+                            ),
+                          ),
+                          if (r.breakfastIncluded)
+                            const _HotelActionPill(
+                                icon: Icons.free_breakfast,
+                                text: 'Breakfast'),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            }).toList(),
+        ],
+      ),
+    );
+  }
+}
+
+// ===============================================================
+// PUBLIC WIDGETS (used from outside this file)
+// ===============================================================
+
+class ParkSettingsAction extends StatelessWidget {
+  const ParkSettingsAction({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return IconButton(
+      tooltip: 'Settings',
+      icon: const Icon(Icons.settings),
+      onPressed: () {
+        showModalBottomSheet(
+          context: context,
+          showDragHandle: true,
+          builder: (_) => const ParkSettingsSheet(),
+        );
+      },
+    );
+  }
+}
+
+class ParkSettingsSheet extends StatelessWidget {
+  const ParkSettingsSheet({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final app = context.watch<AppState>();
+
+    const languages = <(String, String)>[
+      ('en', 'English'),
+      ('es', 'Español'),
+      ('fr', 'Français'),
+      ('de', 'Deutsch'),
+      ('it', 'Italiano'),
+      ('nl', 'Nederlands'),
+      ('pt', 'Português'),
+      ('ru', 'Русский'),
+      ('zh', '中文'),
+      ('ar', 'العربية'),
+    ];
+
+    const currencies = <String>['EUR', 'USD', 'GBP', 'CHF'];
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 8, 16, 20),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Row(
+            children: [
+              const Icon(Icons.language),
+              const SizedBox(width: 8),
+              const Text('Language',
+                  style: TextStyle(fontWeight: FontWeight.bold)),
+              const Spacer(),
+              DropdownButton<String>(
+                value: app.languageCode,
+                items: languages
+                    .map((e) => DropdownMenuItem<String>(
+                        value: e.$1, child: Text(e.$2)))
+                    .toList(),
+                onChanged: (v) {
+                  if (v != null) context.read<AppState>().setLanguage(v);
+                },
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          Row(
+            children: [
+              const Icon(Icons.currency_exchange),
+              const SizedBox(width: 8),
+              const Text('Currency',
+                  style: TextStyle(fontWeight: FontWeight.bold)),
+              const Spacer(),
+              DropdownButton<String>(
+                value: app.currencyCode,
+                items: currencies
+                    .map((c) => DropdownMenuItem<String>(
+                        value: c, child: Text(c)))
+                    .toList(),
+                onChanged: (v) {
+                  if (v != null)
+                    context.read<AppState>().setCurrency(v);
+                },
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class ParkHeroImage extends StatelessWidget {
+  final String imagePath;
+  final double height;
+
+  const ParkHeroImage(
+      {super.key, required this.imagePath, this.height = 180});
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: height,
+      width: double.infinity,
+      child: ClipRRect(
+        borderRadius:
+            const BorderRadius.vertical(bottom: Radius.circular(16)),
+        child: ParkImage(image: imagePath, fit: BoxFit.cover),
+      ),
+    );
+  }
+}
+
+class ParkTranslateButton extends StatelessWidget {
+  final List<String> supportedLanguages;
+  const ParkTranslateButton(
+      {super.key,
+      this.supportedLanguages = const [
+        'en', 'es', 'fr', 'de', 'it', 'nl', 'pt', 'ru', 'zh', 'ar'
+      ]});
+
+  @override
+  Widget build(BuildContext context) {
+    final app = context.watch<AppState>();
+    return PopupMenuButton<String>(
+      tooltip: 'Translate',
+      icon: const Icon(Icons.translate),
+      initialValue: app.languageCode,
+      onSelected: (code) => context.read<AppState>().setLanguage(code),
+      itemBuilder: (context) => supportedLanguages
+          .map((code) => PopupMenuItem<String>(
+                value: code,
+                child: Row(
+                  children: [
+                    Expanded(child: Text(code.toUpperCase())),
+                    if (code == app.languageCode)
+                      const Icon(Icons.check, size: 18),
+                  ],
+                ),
+              ))
+          .toList(),
+    );
+  }
+}
+
+class AddToPlanButton extends StatelessWidget {
+  final String itemId;
+  final String labelWhenOff;
+  final String labelWhenOn;
+
+  const AddToPlanButton(
+      {super.key,
+      required this.itemId,
+      this.labelWhenOff = 'Add to…',
+      this.labelWhenOn = 'Added'});
+
+  @override
+  Widget build(BuildContext context) {
+    final app = context.watch<AppState>();
+    final isOn = app.isHotelPlanned(itemId);
+    return TextButton(
+      onPressed: () =>
+          context.read<AppState>().toggleHotelPlanned(itemId),
+      child: Text(isOn ? labelWhenOn : labelWhenOff),
+    );
+  }
+}
+

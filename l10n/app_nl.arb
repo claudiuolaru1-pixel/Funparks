@@ -1,40 +1,95 @@
 {
   "@@locale": "nl",
+
+  "favoritesTitle": "Favorieten",
+  "noFavoritesYet": "Nog geen favorieten",
+  "removeFromFavorites": "Verwijderen uit favorieten",
+
   "appTitle": "Funparks",
+  "viewPark": "Park bekijken",
   "overview": "Overzicht",
   "attractions": "Attracties",
   "foodAndPrices": "Eten & prijzen",
-  "hours": "Openingstijden",
+  "hotels": "Hotels",
+
   "entryFrom": "Entree vanaf",
+  "hours": "Openingstijden",
   "location": "Locatie",
   "parkMap": "Parkkaart",
-  "highlights": "Hoogtepunten",
+  "highlights": "Highlights",
+
   "translate": "Vertalen",
-  "thrill": "Thrill",
+  "adult": "Volwassene",
+  "child": "Kind",
+  "website": "Website",
+  "comingSoon": "Binnenkort",
+
+  "settings": "Instellingen",
+  "language": "Taal",
+  "currency": "Valuta",
+  "nearbyParks": "Parken in de buurt",
+
+  "thrill": "Spanning",
   "family": "Familie",
   "water": "Water",
   "simulator": "Simulator",
+
   "topPick": "Topkeuze",
   "recommended": "Aanbevolen",
-  "lowestWait": "Laagste wachttijd",
+  "lowestWait": "Kortste wachttijd",
   "highestRated": "Best beoordeeld",
   "tapCardForDetails": "Tik voor details",
-  "addToMyDay": "Toevoegen aan Mijn Dag",
-  "removeFromMyDay": "Verwijderen uit Mijn Dag",
-  "addToMyFood": "Toevoegen aan Mijn Eten",
-  "removeFromMyFood": "Verwijderen uit Mijn Eten",
+
+  "addToMyDay": "Toevoegen aan Mijn dag",
+  "removeFromMyDay": "Verwijderen uit Mijn dag",
+  "addToMyFood": "Toevoegen aan Mijn eten",
+  "removeFromMyFood": "Verwijderen uit Mijn eten",
+
   "directions": "Route",
   "liveWait": "Live wachttijd",
   "setMyWait": "Mijn wachttijd",
+
   "yourRating": "Jouw beoordeling",
   "yourComment": "Jouw reactie",
-  "commentHint": "Tips, beste plaatsen, enz…",
-  "commentHintFood": "Tips (beste waarde, favoriete gerechten)…",
+  "commentHint": "Tips, beste plekken, etc…",
+  "commentHintFood": "Tips (prijs-kwaliteit, favoriete gerechten)…",
+
   "myWaitTimeOptional": "Mijn wachttijd (optioneel)",
   "minutesHint": "Minuten (bijv. 25)",
+
   "menuAndPrices": "Menu & prijzen",
   "share": "Delen",
   "save": "Opslaan",
   "saved": "Opgeslagen!",
-  "comingSoon": "Binnenkort"
+
+  "rooms": "Kamers",
+  "night": "nacht",
+  "price": "Prijs",
+  "rating": "Beoordeling",
+  "breakfastIncluded": "Ontbijt inbegrepen",
+  "breakfastNotIncluded": "Ontbijt niet inbegrepen",
+
+  "addToMyStay": "Toevoegen aan Mijn verblijf",
+  "removeFromMyStay": "Verwijderen uit Mijn verblijf",
+  "lowestPrice": "Laagste prijs",
+
+  "didYouKnow": "Wist je dat",
+  "plan": "Plan",
+  "photos": "Foto's",
+  "route": "Route",
+
+  "closest": "Dichtstbij",
+  "cheapest": "Goedkoopst",
+
+  "myDayRouteTitle": "Mijn dag-route",
+  "myDayRouteEmpty": "Voeg attracties toe aan Mijn dag om een route te maken.",
+
+  "templateInfoPortAventura": "Dit park gebruikt de PortAventura-template. Attracties, eten en hotels worden geladen uit lokale JSON.",
+  "hotelRoomsComingSoon": "We voegen hier binnenkort kamers, prijzen, foto's en boekingslinks toe.",
+
+  "facts": "Feiten",
+  "speed": "Snelheid",
+  "height": "Hoogte",
+  "inversions": "Inversies",
+  "opened": "Geopend"
 }

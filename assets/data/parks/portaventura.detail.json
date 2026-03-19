@@ -1,0 +1,64 @@
+ {
+  "id": "portaventura",
+  "lastUpdated": "2026-02-26",
+  "tagline": "Mediterranean adventure with world-class coasters and themed lands.",
+  "description": "PortAventura Park is a major theme park resort near Salou, Spain, featuring multiple themed areas, roller coasters, family rides, and seasonal events.",
+  "timeNeeded": {
+    "recommendedDays": 1,
+    "minimumHours": 6
+  },
+  "zones": [
+    { "id": "mediterrania", "name": "Mediterrània" },
+    { "id": "polynesia", "name": "Polynesia" },
+    { "id": "china", "name": "China" },
+    { "id": "mexico", "name": "México" },
+    { "id": "farwest", "name": "Far West" },
+    { "id": "sesame", "name": "SésamoAventura" }
+  ],
+  "rides": [
+    {
+      "id": "shambhala",
+      "name": "Shambhala",
+      "zoneId": "china",
+      "category": "coaster",
+      "thrill": 5,
+      "familyFriendly": false,
+      "minHeightCm": 140,
+      "durationMin": 3,
+      "tags": ["top_pick", "thrill", "airtime"],
+      "shortDescription": "Hypercoaster with big drops and lots of airtime.",
+      "tips": [
+        "Ride early or late to avoid peak queues.",
+        "Front row gives stronger wind; back row gives stronger airtime."
+      ],
+      "thumbnail": "assets/images/portaventura/rides/shambhala.png"
+    }
+  ],
+  "tips": {
+    "firstTimer": [
+      "Arrive 30–45 minutes before opening to get a head start.",
+      "Prioritize top coasters early; family areas later."
+    ],
+    "crowdStrategy": [
+      "Do the most popular rides at rope-drop and during parades/shows.",
+      "Eat lunch earlier than usual to avoid queues."
+    ],
+    "withKids": [
+      "Start in SésamoAventura for shorter waits early.",
+      "Bring snacks/water; lines can be long in the afternoon."
+    ],
+    "rainyDay": [
+      "Focus on indoor shows/attractions and restaurants until weather improves."
+    ]
+  },
+  "practical": {
+    "bestMonths": ["April", "May", "September", "October"],
+    "transport": [
+      "Train to Salou/PortAventura station (depending on season/services).",
+      "Car: paid parking typically available on-site."
+    ],
+    "accessibilityNotes": [
+      "Check the park’s accessibility guide for ride restrictions and services."
+    ]
+  }
+}

@@ -1,19 +1,30 @@
 // lib/services/portaventura_i18n_repository.dart
+
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 
 class PortAventuraI18nRepository {
-  static const String _assetPath = 'assets/data/portaventura_i18n.json';
+  // ✅ correct path
+  static const String _assetPath = 'assets/i18n/portaventura.json';
 
   static Future<Map<String, dynamic>> load() async {
-    final raw = await rootBundle.loadString(_assetPath);
+    try {
+      final raw = await rootBundle.loadString(_assetPath);
 
-    final decoded = json.decode(raw);
+      if (raw.trim().isEmpty) {
+        throw Exception('Asset is empty: $_assetPath');
+      }
 
-    if (decoded is Map<String, dynamic>) return decoded;
-    if (decoded is Map) return Map<String, dynamic>.from(decoded);
+      final decoded = jsonDecode(raw);
 
-    // If JSON is not a Map, return empty (but it means file structure is wrong)
-    return <String, dynamic>{};
+      if (decoded is Map<String, dynamic>) return decoded;
+      if (decoded is Map) return Map<String, dynamic>.from(decoded);
+
+      throw Exception('Expected a JSON object (Map) in $_assetPath');
+    } catch (e) {
+      throw Exception(
+        'PortAventuraI18nRepository.load failed: Unable to load asset: "$_assetPath". $e',
+      );
+    }
   }
 }

@@ -1,0 +1,408 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Phantasialand is one of Germany's most beloved theme parks located in Brühl, near Cologne, North Rhine-Westphalia. Opened in 1967, it attracts approximately 2 million visitors annually and is world-renowned for its extraordinary theming detail across six immersive themed worlds rivalling Disney and Universal.",
+      "es": "Phantasialand es uno de los parques temáticos más queridos de Alemania, ubicado en Brühl, cerca de Colonia. Inaugurado en 1967, atrae aproximadamente 2 millones de visitantes anuales y es mundialmente conocido por su extraordinario nivel de ambientación en seis mundos temáticos.",
+      "fr": "Phantasialand est l'un des parcs à thème les plus aimés d'Allemagne, situé à Brühl, près de Cologne. Ouvert en 1967, il attire environ 2 millions de visiteurs par an et est mondialement reconnu pour sa qualité de theming extraordinaire.",
+      "de": "Phantasialand ist einer der beliebtesten Freizeitparks Deutschlands in Brühl bei Köln. Seit 1967 geöffnet zieht er rund 2 Millionen Besucher jährlich an und ist weltbekannt für seine ausserordentliche Themengestaltung in sechs immersiven Themenwelten.",
+      "it": "Phantasialand è uno dei parchi a tema più amati della Germania, situato a Brühl, vicino a Colonia. Aperto nel 1967, attrae circa 2 milioni di visitatori annui ed è rinomato a livello mondiale per la straordinaria qualità del theming.",
+      "nl": "Phantasialand is een van de meest geliefde pretparken van Duitsland in Brühl bij Keulen. Geopend in 1967 trekt het jaarlijks circa 2 miljoen bezoekers en staat wereldwijd bekend om zijn buitengewone thematisering.",
+      "pt": "Phantasialand é um dos parques temáticos mais amados da Alemanha, situado em Brühl, perto de Colónia. Aberto em 1967, atrai cerca de 2 milhões de visitantes anuais e é mundialmente reconhecido pela sua extraordinária qualidade de tematização.",
+      "ru": "Phantasialand — один из самых любимых парков Германии в Брюле под Кёльном. С 1967 года принимает около 2 миллионов посетителей ежегодно и всемирно известен исключительным качеством тематического оформления шести миров.",
+      "zh": "梦幻乐园是德国最受喜爱的主题公园之一，位于科隆附近的布吕尔。1967年开放，每年吸引约200万游客，以六个沉浸式主题世界的卓越主题设计享誉全球。",
+      "ar": "فانتازيالاند هو أحد أكثر المتنزهات الترفيهية محبوبة في ألمانيا، يقع في برول بالقرب من كولونيا. افتُتح عام 1967 ويستقطب نحو 2 مليون زائر سنوياً وهو معروف عالمياً بتفاصيل التصميم الاستثنائية في ستة عوالم غامرة."
+    },
+    "ov_highlights_body": {
+      "en": "Taron is the world's longest multi-launch coaster at 2,100 metres and 117 km/h through the medieval Klugheim. F.L.Y. is the world's first launched flying coaster soaring through Rookburgh. Black Mamba is a world-class B&M inverted coaster. Chiapas is the world's most modern log flume with the steepest drop. Talocan is Europe's only Suspended Top Spin with fire and water effects.",
+      "es": "Taron es el multi-launch coaster más largo del mundo a 117 km/h por Klugheim medieval. F.L.Y. es el primer flying coaster lanzado del mundo en Rookburgh. Black Mamba es un inverted coaster B&M de clase mundial. Chiapas es el tobogán más moderno del mundo.",
+      "fr": "Taron est le multi-launch coaster le plus long du monde à 117 km/h dans Klugheim médiéval. F.L.Y. est le premier flying coaster lancé du monde dans Rookburgh. Black Mamba est un inverted coaster B&M de classe mondiale. Chiapas est le log flume le plus moderne du monde.",
+      "de": "Taron ist der längste Multi-Launch-Coaster der Welt bei 117 km/h durch das mittelalterliche Klugheim. F.L.Y. ist der erste Launch-Flying-Coaster der Welt in Rookburgh. Black Mamba ist ein weltklasse B&M invertierter Coaster. Chiapas ist die modernste Log-Flume der Welt.",
+      "it": "Taron è il multi-launch coaster più lungo del mondo a 117 km/h attraverso il medievale Klugheim. F.L.Y. è il primo flying coaster lanciato del mondo in Rookburgh. Black Mamba è un inverted coaster B&M di classe mondiale. Chiapas è il log flume più moderno del mondo.",
+      "nl": "Taron is de langste multi-launch coaster ter wereld op 117 km/h door het middeleeuwse Klugheim. F.L.Y. is 's werelds eerste gelanceerde flying coaster in Rookburgh. Black Mamba is een wereldklasse B&M inverted coaster. Chiapas is de modernste log flume ter wereld.",
+      "pt": "Taron é o multi-launch coaster mais longo do mundo a 117 km/h pelo Klugheim medieval. F.L.Y. é o primeiro flying coaster lançado do mundo em Rookburgh. Black Mamba é um inverted coaster B&M de classe mundial. Chiapas é o log flume mais moderno do mundo.",
+      "ru": "Taron — самый длинный мультизапускаемый коастер мира 117 км/ч через средневековый Klugheim. F.L.Y. — первый в мире запускаемый летающий коастер в Rookburgh. Black Mamba — коастер B&M мирового класса. Chiapas — самый современный лог-флюм мира.",
+      "zh": "塔龙是世界最长多发射过山车，117公里/时穿越中世纪克鲁格海姆。F.L.Y.是世界第一座发射式飞行过山车，穿越鲁克堡。黑曼巴是世界级B&M倒置过山车。奇亚帕斯是世界最现代化的木材漂流。",
+      "ar": "تارون هو أطول أفعوانية متعددة الإطلاق في العالم بسرعة 117 كم/ساعة عبر كلوغهايم القروسطي. F.L.Y. هو أول أفعوانية طائرة ذات إطلاق في العالم في روكبورغ. بلاك مامبا أفعوانية B&M عالمية. تشياباس هو أحدث زحليقة خشبية في العالم."
+    },
+    "ov_did_you_know_body": {
+      "en": "Phantasialand was founded in 1967 by Gottlieb Löffelhardt and Richard Schmidt. The park has been voted Germany's Best Theme Park at the Parkscout Audience Award 2025/26 with awards for Best Roller Coasters, Best Water Attractions and Best Gastronomy. Rookburgh, opened in 2020, is considered one of the most immersively themed areas ever created anywhere in the world.",
+      "es": "Phantasialand fue fundado en 1967 por Gottlieb Löffelhardt y Richard Schmidt. El parque fue votado como el Mejor Parque Temático de Alemania en los Parkscout 2025/26. Rookburgh, inaugurado en 2020, es considerado una de las áreas más inmersivas jamás creadas.",
+      "fr": "Phantasialand a été fondé en 1967 par Gottlieb Löffelhardt et Richard Schmidt. Le parc a été élu Meilleur Parc à Thème d'Allemagne aux Parkscout 2025/26. Rookburgh, ouvert en 2020, est considéré comme l'une des zones les plus immersives jamais créées.",
+      "de": "Phantasialand wurde 1967 von Gottlieb Löffelhardt und Richard Schmidt gegründet. Der Park wurde beim Parkscout-Publikumspreis 2025/26 zum besten Freizeitpark Deutschlands gewählt. Rookburgh, 2020 eröffnet, gilt als eine der immersivsten Themenwelten der Welt.",
+      "it": "Phantasialand è stato fondato nel 1967 da Gottlieb Löffelhardt e Richard Schmidt. Il parco è stato votato Miglior Parco a Tema della Germania ai Parkscout 2025/26. Rookburgh, aperto nel 2020, è considerato una delle aree più immersive mai create.",
+      "nl": "Phantasialand werd in 1967 opgericht door Gottlieb Löffelhardt en Richard Schmidt. Het park werd verkozen tot Duitslands Beste Pretpark bij de Parkscout Publieksprijs 2025/26. Rookburgh, geopend in 2020, geldt als een van de meest immersieve themagebieden ter wereld.",
+      "pt": "Phantasialand foi fundado em 1967 por Gottlieb Löffelhardt e Richard Schmidt. O parque foi eleito Melhor Parque Temático da Alemanha nos Parkscout 2025/26. Rookburgh, aberto em 2020, é considerado uma das áreas mais imersivas jamais criadas.",
+      "ru": "Phantasialand основан в 1967 году Готтлибом Лёффельхардтом и Рихардом Шмидтом. Парк признан лучшим в Германии на Parkscout 2025/26. Rookburgh, открытый в 2020 году, считается одной из самых иммерсивных тематических зон в мире.",
+      "zh": "梦幻乐园由戈特利布·勒费尔哈特和理查德·施密特于1967年创立。公园荣获2025/26年Parkscout观众奖德国最佳主题公园。2020年开放的鲁克堡被认为是世界上有史以来创建的最具沉浸感的主题区域之一。",
+      "ar": "تأسس فانتازيالاند عام 1967 على يد غوتليب لوفلهاردت وريتشارد شميدت. فاز المتنزه بجائزة أفضل متنزه ترفيهي في ألمانيا في جوائز Parkscout 2025/26. روكبورغ المفتوح عام 2020 يُعدّ من أكثر المناطق المصممة بعمق في العالم."
+    },
+    "ov_plan_body": {
+      "en": "Head to Taron first as it draws the longest queues. F.L.Y. and Black Mamba are best mid-morning. Chiapas is perfect for the hottest afternoon. Mystery Castle and River Quest are great for mid-afternoon. The park is compact but very detailed so take time to explore each themed world. Hotel guests enjoy exclusive early entry.",
+      "es": "Ve a Taron primero ya que tiene las colas más largas. F.L.Y. y Black Mamba a media mañana. Chiapas es perfecto para la tarde más calurosa. Los huéspedes del hotel disfrutan de entrada anticipada exclusiva.",
+      "fr": "Allez d'abord à Taron car il a les plus longues files. F.L.Y. et Black Mamba en milieu de matinée. Chiapas est parfait pour l'après-midi le plus chaud. Les clients de l'hôtel bénéficient d'une entrée anticipée exclusive.",
+      "de": "Zuerst zu Taron, da er die längsten Warteschlangen hat. F.L.Y. und Black Mamba am Vormittag. Chiapas perfekt für den heissesten Nachmittag. Hotelgäste geniessen exklusiven Früheinlass.",
+      "it": "Prima Taron poiché ha le code più lunghe. F.L.Y. e Black Mamba a metà mattina. Chiapas è perfetto per il pomeriggio più caldo. Gli ospiti dell'hotel godono di un ingresso anticipato esclusivo.",
+      "nl": "Ga eerst naar Taron want die heeft de langste rijen. F.L.Y. en Black Mamba halverwege de ochtend. Chiapas is perfect voor de heetste middag. Hotelgasten genieten van exclusieve vroege toegang.",
+      "pt": "Va primeiro ao Taron pois tem as filas mais longas. F.L.Y. e Black Mamba a meio da manhã. Chiapas é perfeito para a tarde mais quente. Os hóspedes do hotel desfrutam de entrada antecipada exclusiva.",
+      "ru": "Сначала Taron — у него самые длинные очереди. F.L.Y. и Black Mamba утром. Chiapas идеален для самого жаркого полудня. Гости отеля получают эксклюзивный ранний вход.",
+      "zh": "先去塔龙，因为它排队时间最长。上午玩F.L.Y.和黑曼巴。奇亚帕斯最适合最热的下午。酒店客人享受独家提前入园。",
+      "ar": "اذهب أولاً إلى تارون لأنه يجذب أطول الطوابير. F.L.Y. وبلاك مامبا في منتصف الصباح. تشياباس مثالي لأكثر فترات بعد الظهر حرارة. نزلاء الفندق يستمتعون بدخول مبكر حصري."
+    },
+    "ov_photos_body": {
+      "en": "Rookburgh is one of the most photogenic theme park areas in the world — every corner is a perfect shot. Taron photographed from inside the Klugheim basalt rock formations is spectacular. Black Mamba through the Africa jungle creates great action shots. Chiapas's 53-degree drop from the side is iconic. Both hotels are stunning at night when fully illuminated.",
+      "es": "Rookburgh es una de las zonas más fotogénicas del mundo en parques temáticos. Taron fotografiado dentro de las formaciones rocosas de Klugheim es espectacular. Black Mamba por la jungla africana crea grandes fotos de acción.",
+      "fr": "Rookburgh est l'une des zones les plus photogéniques du monde dans les parcs à thème. Taron photographié dans les formations rocheuses de Klugheim est spectaculaire. Black Mamba dans la jungle africaine crée de superbes photos d'action.",
+      "de": "Rookburgh ist einer der fotogensten Freizeitparkbereiche der Welt. Taron in den Basaltfelsen von Klugheim fotografiert ist spektakulär. Black Mamba durch den Afrikaschungel schafft grossartige Aktionsfotos.",
+      "it": "Rookburgh è una delle zone più fotogeniche del mondo nei parchi a tema. Taron fotografato nelle formazioni rocciose di Klugheim è spettacolare. Black Mamba nella giungla africana crea grandi foto d'azione.",
+      "nl": "Rookburgh is een van de meest fotogenieke pretparkgebieden ter wereld. Taron gefotografeerd in de basaltrotsformaties van Klugheim is spectaculair. Black Mamba door de Afrikaanse jungle levert geweldige actiefoto's op.",
+      "pt": "Rookburgh é uma das zonas mais fotogénicas do mundo nos parques temáticos. Taron fotografado nas formações rochosas de Klugheim é espectacular. Black Mamba pela selva africana cria óptimas fotos de acção.",
+      "ru": "Rookburgh — одна из самых фотогеничных зон тематических парков мира. Taron среди базальтовых скал Klugheim — захватывающий кадр. Black Mamba через джунгли Африки создаёт отличные экшн-фото.",
+      "zh": "鲁克堡是世界上主题公园中最上镜的区域之一。在克鲁格海姆玄武岩岩石构造中拍摄的塔龙壮观无比。黑曼巴穿越非洲丛林创造出精彩的动作照片。",
+      "ar": "روكبورغ هو أحد أكثر مناطق المتنزهات الترفيهية جمالاً للتصوير في العالم. تارون بين تشكيلات الصخر البازلتي في كلوغهايم مذهل. بلاك مامبا عبر غابة أفريقيا يوفر صوراً رائعة للحركة."
+    }
+  },
+  "attractions": {
+    "taron": {
+      "desc": {
+        "en": "The world's longest multi-launch coaster racing 2,100 metres at 117 km/h past medieval buildings and imposing basalt rock formations in the immersive Klugheim themed world.",
+        "es": "El multi-launch coaster más largo del mundo con 2.100 metros a 117 km/h por edificios medievales y formaciones de roca basáltica en Klugheim.",
+        "fr": "Le multi-launch coaster le plus long du monde avec 2.100 mètres à 117 km/h à travers des bâtiments médiévaux dans Klugheim.",
+        "de": "Der längste Multi-Launch-Coaster der Welt mit 2.100 Metern bei 117 km/h durch mittelalterliche Gebäude in Klugheim.",
+        "it": "Il multi-launch coaster più lungo del mondo con 2.100 metri a 117 km/h attraverso edifici medievali in Klugheim.",
+        "nl": "De langste multi-launch coaster ter wereld met 2.100 meter op 117 km/h langs middeleeuwse gebouwen in Klugheim.",
+        "pt": "O multi-launch coaster mais longo do mundo com 2.100 metros a 117 km/h através de edifícios medievais em Klugheim.",
+        "ru": "Самый длинный мультизапускаемый коастер мира — 2100 м при 117 км/ч мимо средневековых зданий в Klugheim.",
+        "zh": "世界最长多发射过山车，2100米轨道，时速117公里，穿越沉浸式克鲁格海姆主题世界的中世纪建筑和玄武岩岩石。",
+        "ar": "أطول أفعوانية متعددة الإطلاق في العالم بمسافة 2100 متر وسرعة 117 كم/ساعة عبر المباني القروسطية وتشكيلات الصخر البازلتي في كلوغهايم."
+      }
+    },
+    "fly": {
+      "desc": {
+        "en": "The world's first launched flying coaster and longest flying coaster on Earth at 1,236 metres with two launches, two inversions and a unique lying position soaring through the steampunk Rookburgh world.",
+        "es": "El primer flying coaster lanzado del mundo y el más largo con 1.236 metros, dos lanzamientos, dos inversiones en el mundo steampunk de Rookburgh.",
+        "fr": "Le premier flying coaster lancé du monde et le plus long avec 1.236 mètres, deux lancements et deux inversions dans le monde steampunk de Rookburgh.",
+        "de": "Der erste gestartete Flying-Coaster der Welt und längste Flying-Coaster der Erde mit 1.236 Metern durch die Steampunk-Welt Rookburgh.",
+        "it": "Il primo flying coaster lanciato del mondo e il più lungo con 1.236 metri attraverso il mondo steampunk di Rookburgh.",
+        "nl": "De eerste gelanceerde flying coaster ter wereld en de langste met 1.236 meter door de steampunk wereld Rookburgh.",
+        "pt": "O primeiro flying coaster lançado do mundo e o mais longo com 1.236 metros pelo mundo steampunk de Rookburgh.",
+        "ru": "Первый в мире запускаемый летающий коастер и самый длинный — 1236 м с двумя запусками через стимпанковый мир Rookburgh.",
+        "zh": "世界第一座发射式飞行过山车，也是地球上最长的飞行过山车，1236米轨道，两次发射，两次翻转，穿越蒸汽朋克鲁克堡世界。",
+        "ar": "أول أفعوانية طائرة ذات إطلاق في العالم وأطولها بـ 1236 متراً مع إطلاقين وانقلابين في عالم روكبورغ ذي الطراز البخاري."
+      }
+    },
+    "black_mamba": {
+      "desc": {
+        "en": "A world-class B&M inverted coaster coiling through tunnels, caves and ravines deep in the Africa jungle at 80 km/h with four intense inversions and immersive African theming.",
+        "es": "Inverted coaster B&M de clase mundial serpenteando por túneles y barrancos de la jungla africana a 80 km/h con cuatro inversiones.",
+        "fr": "Inverted coaster B&M de classe mondiale serpentant dans des tunnels et ravins de la jungle africaine à 80 km/h avec quatre inversions.",
+        "de": "Weltklasse B&M invertierter Coaster durch Tunnel, Höhlen und Schluchten des Afrikaschungels bei 80 km/h mit vier Inversionen.",
+        "it": "Inverted coaster B&M di classe mondiale che si snoda attraverso tunnel e burroni della giungla africana a 80 km/h con quattro inversioni.",
+        "nl": "Wereldklasse B&M inverted coaster door tunnels en ravijnen in de Afrikaanse jungle op 80 km/h met vier inversies.",
+        "pt": "Inverted coaster B&M de classe mundial serpenteando por túneis e ravinas da selva africana a 80 km/h com quatro inversões.",
+        "ru": "Коастер B&M мирового класса, петляющий через тоннели и ущелья джунглей Африки при 80 км/ч с четырьмя инверсиями.",
+        "zh": "世界级B&M倒置过山车，以80公里/时蜿蜒穿越非洲丛林的隧道、山洞和峡谷，四次翻转，非洲主题沉浸感极强。",
+        "ar": "أفعوانية B&M مقلوبة عالمية المستوى تلتف عبر الأنفاق والكهوف والوديان في عمق غابة أفريقيا بسرعة 80 كم/ساعة وأربع انقلابات."
+      }
+    },
+    "chiapas": {
+      "desc": {
+        "en": "The world's most modern log flume with five levels, forward and backward sections and a breathtaking 53-degree final drop through a highly detailed Mexican canyon excavation site with an irresistible soundtrack.",
+        "es": "El tobogán de agua más moderno del mundo con cinco niveles, secciones hacia adelante y atrás y una impresionante caída final de 53 grados en un detallado cañón mexicano.",
+        "fr": "Le log flume le plus moderne du monde avec cinq niveaux et une chute finale époustouflante à 53 degrés dans un canyon mexicain très détaillé.",
+        "de": "Die modernste Log-Flume der Welt mit fünf Ebenen und einem atemberaubenden 53-Grad-Endabfall durch einen detaillierten mexikanischen Canyon.",
+        "it": "Il log flume più moderno del mondo con cinque livelli e una mozzafiato caduta finale a 53 gradi in un dettagliatissimo canyon messicano.",
+        "nl": "De modernste log flume ter wereld met vijf niveaus en een adembenemende eindval van 53 graden door een gedetailleerde Mexicaanse canyon.",
+        "pt": "O log flume mais moderno do mundo com cinco níveis e uma queda final de 53 graus num detalhado canyon mexicano.",
+        "ru": "Самый современный лог-флюм мира с пятью уровнями и захватывающим конечным падением 53 градуса через детальный мексиканский каньон.",
+        "zh": "世界最现代化的木材漂流，五层结构，正向和反向路段，以及令人窒息的53度最终落差，穿越高度精细的墨西哥峡谷考古现场。",
+        "ar": "أحدث زحليقة خشبية في العالم بخمسة مستويات وقسمين أماميين وخلفيين وانخفاض نهائي مذهل بزاوية 53 درجة عبر موقع حفريات وادٍ مكسيكي مفصّل."
+      }
+    },
+    "talocan": {
+      "desc": {
+        "en": "Europe's only Suspended Top Spin by Huss Rides in the Mexico area. Riders are flipped and rotated for over two minutes while jets of fire and water erupt around them to a dramatic Aztec weather god soundtrack.",
+        "es": "El único Suspended Top Spin de Europa en la zona México. Los riders son volteados y rotados durante más de dos minutos mientras chorros de fuego y agua estallan a su alrededor.",
+        "fr": "Le seul Suspended Top Spin d'Europe dans la zone Mexique. Les riders sont renversés et tournés pendant plus de deux minutes tandis que des jets de feu et d'eau explosent autour d'eux.",
+        "de": "Europas einziger Suspended Top Spin in der Mexiko-Zone. Fahrer werden über zwei Minuten umgekippt und gedreht während Feuer- und Wasserstrahlen explodieren.",
+        "it": "L'unico Suspended Top Spin d'Europa nella zona Messico. I rider vengono ribaltati e ruotati per oltre due minuti mentre getti di fuoco e acqua esplodono intorno.",
+        "nl": "Europa's enige Suspended Top Spin in de Mexico zone. Riders worden meer dan twee minuten omgekeerd en gedraaid terwijl vuur- en waterstralen exploderen.",
+        "pt": "O único Suspended Top Spin da Europa na zona México. Os riders são virados e rodados durante mais de dois minutos enquanto jatos de fogo e água explodem.",
+        "ru": "Единственный Suspended Top Spin Европы в зоне Мексики. Пассажиры переворачиваются и вращаются более двух минут под струями огня и воды.",
+        "zh": "欧洲唯一的悬挂顶旋机，位于墨西哥区域。乘客被翻转旋转超过两分钟，同时周围喷射出火焰和水柱，配以戏剧性的阿兹特克气候之神配乐。",
+        "ar": "المحور العلوي المعلق الوحيد في أوروبا في منطقة المكسيك. يُقلب الركاب ويدورون لأكثر من دقيقتين بينما تنفجر حولهم نفاثات النار والماء."
+      }
+    },
+    "mystery_castle": {
+      "desc": {
+        "en": "A 65-metre indoor Intamin bungee drop tower concealed within a haunted castle. Guests walk through eerie castle corridors before sudden launches, darkness and unsettling music build to a terrifying freefall.",
+        "es": "Torre de caída bungee Intamin de 65 metros oculta en un castillo encantado. Los visitantes caminan por espeluznantes corredores del castillo antes de lanzamientos repentinos.",
+        "fr": "Tour de chute bungee Intamin de 65 mètres cachée dans un château hanté. Les visiteurs parcourent des couloirs sinistres avant des lancements soudains.",
+        "de": "65-Meter Intamin Bungee-Fallturm versteckt in einem Geisterschloss. Besucher gehen durch gruselige Schlosskorridore vor plötzlichen Abschüssen.",
+        "it": "Torre a caduta bungee Intamin di 65 metri nascosta in un castello infestato. I visitatori camminano per corridoi del castello prima di lanci improvvisi.",
+        "nl": "65 meter Intamin bungee valtoren verborgen in een spookkasteel. Bezoekers lopen door griezelige kasteelgangen voor plotselinge lanceringen.",
+        "pt": "Torre de queda bungee Intamin de 65 metros escondida num castelo assombrado. Os visitantes caminham por corredores assustadores antes de lançamentos repentinos.",
+        "ru": "65-метровая башня Intamin Bungee Drop, скрытая внутри замка с привидениями. Гости проходят через жуткие коридоры замка перед внезапными запусками.",
+        "zh": "65米高的内置Intamin弹跳落体塔，隐藏在鬼魂城堡内。客人穿越阴森的城堡走廊，然后突然发射、黑暗和令人不安的音乐逐渐积累至恐怖自由落体。",
+        "ar": "برج سقوط بنجي Intamin بارتفاع 65 متراً مخفي داخل قلعة مسكونة. يمشي الضيوف عبر ممرات القلعة المرعبة قبل إطلاقات مفاجئة وظلام وموسيقى مزعجة."
+      }
+    },
+    "river_quest": {
+      "desc": {
+        "en": "A thrilling river rapids ride by Hafema with two vertical lifts, heart-pounding drops and the world's biggest splash on a rafting ride. One of the most intense white water experiences ever built.",
+        "es": "Emocionante aventura de rápidos por Hafema con dos elevadores verticales, caídas y el splash más grande del mundo en una atracción de rafting.",
+        "fr": "Aventure de rapides passionnante de Hafema avec deux ascenseurs verticaux et le plus grand splash du monde sur un manège de rafting.",
+        "de": "Aufregende Wildwasserfahrt von Hafema mit zwei vertikalen Lifts und dem weltgrössten Splash einer Rafting-Fahrt.",
+        "it": "Emozionante rafting di Hafema con due ascensori verticali e il più grande splash del mondo su un'attrazione di rafting.",
+        "nl": "Spannende wildwaterrit van Hafema met twee verticale liften en de grootste plons ter wereld op een raftingrit.",
+        "pt": "Emocionante aventura de rápidos da Hafema com dois elevadores verticais e o maior splash do mundo numa atração de rafting.",
+        "ru": "Захватывающий рафтинг от Hafema с двумя вертикальными лифтами и крупнейшим плеском в мире на аттракционе.",
+        "zh": "Hafema制造的刺激激流漂流，两个垂直升降机，令人心跳加速的落差，以及漂流类游乐设施中世界最大的水花。",
+        "ar": "مغامرة مياه سريعة مثيرة من Hafema مع مصعدين عموديين وانخفاضات مثيرة وأكبر رشة في العالم على لعبة التجديف."
+      }
+    },
+    "colorado_adventure": {
+      "desc": {
+        "en": "A classic mine train roller coaster winding through the western mountains of Phantasialand. A beloved family favourite praised by Michael Jackson himself with exciting drops and fast sweeping curves.",
+        "es": "Clásica montaña rusa de tren minero serpenteando por las montañas del oeste de Phantasialand. Elogiada por el propio Michael Jackson con emocionantes bajadas.",
+        "fr": "Classique coaster de train minier serpentant dans les montagnes westerns de Phantasialand. Un favori familial loué par Michael Jackson lui-même.",
+        "de": "Klassische Minenbahnachterbahn durch die Westernberge von Phantasialand. Ein beliebter Familienfavorit der von Michael Jackson selbst gelobt wurde.",
+        "it": "Classico coaster trenino minerario che serpeggia tra le montagne western di Phantasialand. Un classico familiare elogiato da Michael Jackson.",
+        "nl": "Klassieke mijntreinachterbaan door de western bergen van Phantasialand. Een geliefde familielievelinge geprezen door Michael Jackson zelf.",
+        "pt": "Clássico coaster de comboio de mina pelas montanhas western de Phantasialand. Um favorito familiar elogiado pelo próprio Michael Jackson.",
+        "ru": "Классический шахтный поезд через западные горы Phantasialand. Любимый семейный аттракцион, высоко оценённый самим Майклом Джексоном.",
+        "zh": "经典矿山车过山车，蜿蜒穿越梦幻乐园的西部山脉。深受家庭喜爱，迈克尔·杰克逊亲自称赞的经典项目。",
+        "ar": "أفعوانية قطار منجم كلاسيكية تلتف عبر جبال الغرب في فانتازيالاند. من أكثر الألعاب العائلية محبوبة وقد أثنى عليها مايكل جاكسون نفسه."
+      }
+    },
+    "maus_au_chocolat": {
+      "desc": {
+        "en": "An interactive dark ride in Alt-Berlin where guests grab a pastry bag shooter and compete to hit mischievous mice in a magical candy factory. Competitive, fast-paced and surprisingly intense.",
+        "es": "Dark ride interactivo en Alt-Berlin donde los visitantes cogen una pistola de pastelería y compiten por golpear ratones traviesos en una fábrica de dulces mágica.",
+        "fr": "Dark ride interactif dans Alt-Berlin où les visiteurs prennent un pistolet à pâtisserie et s'affrontent pour toucher des souris malicieuses dans une fabrique de bonbons.",
+        "de": "Interaktiver Dark-Ride in Alt-Berlin, bei dem Gäste einen Spritzbeutel-Shooter nehmen und um mischievöse Mäuse in einer magischen Süssigkeitenfabrik konkurrieren.",
+        "it": "Dark ride interattivo in Alt-Berlin dove gli ospiti prendono una sparapassatelli e competono per colpire topi dispettosi in una magica fabbrica di dolci.",
+        "nl": "Interactieve dark ride in Alt-Berlin waarbij gasten een gebakszak-shooter pakken en strijden om ondeugende muizen te raken in een magische snoepfabriek.",
+        "pt": "Dark ride interativo em Alt-Berlin onde os visitantes pegam um atirador de saco de pastelaria e competem para acertar ratos travessos numa fábrica de doces.",
+        "ru": "Интерактивный тёмный аттракцион в Альт-Берлине, где гости берут стреляющий кондитерский мешок и соревнуются, поражая проказливых мышей на волшебной фабрике конфет.",
+        "zh": "在老柏林的互动暗室游乐，客人拿起糕点袋射击器，在神奇糖果工厂中竞相射击调皮的老鼠，竞争激烈，节奏快，出乎意料地激烈。",
+        "ar": "لعبة مظلمة تفاعلية في ألت-برلين حيث يأخذ الضيوف مسدساً بشكل كيس معجنات ويتنافسون على إصابة الفئران المشاغبة في مصنع حلوى سحري."
+      }
+    },
+    "winjas_force": {
+      "desc": {
+        "en": "Two unique indoor spinning coasters by Maurer Rides in Wuze Town with tilting tracks, vertical lifts and creative layouts. Winja's Fear reaches 66 km/h over 465 metres and Winja's Force 60 km/h over 420 metres.",
+        "es": "Dos únicos coasters giratorios interiores por Maurer Rides en Wuze Town con vías inclinadas y ascensores verticales. Winja's Fear alcanza 66 km/h en 465 metros.",
+        "fr": "Deux uniques coasters tournants intérieurs de Maurer Rides à Wuze Town avec voies inclinées et ascenseurs verticaux. Winja's Fear atteint 66 km/h sur 465 mètres.",
+        "de": "Zwei einzigartige Indoor-Spinning-Coaster von Maurer Rides in Wuze Town mit Kipptracks und Vertikallifts. Winja's Fear erreicht 66 km/h auf 465 Metern.",
+        "it": "Due unici coaster rotanti indoor di Maurer Rides a Wuze Town con binari inclinabili e ascensori verticali. Winja's Fear raggiunge 66 km/h su 465 metri.",
+        "nl": "Twee unieke indoor spincoasters van Maurer Rides in Wuze Town met kantelende banen en verticale liften. Winja's Fear bereikt 66 km/h op 465 meter.",
+        "pt": "Dois únicos coasters giratórios interiores da Maurer Rides em Wuze Town com trilhos inclinados e elevadores verticais. Winja's Fear atinge 66 km/h em 465 metros.",
+        "ru": "Два уникальных закрытых вращающихся коастера от Maurer Rides в Wuze Town с наклоняющимися рельсами и вертикальными лифтами.",
+        "zh": "Maurer Rides在Wuze Town的两座独特室内旋转过山车，倾斜轨道和垂直升降机。维姬的恐惧达到66公里/时465米，力量达到60公里/时420米。",
+        "ar": "أفعوانيتان دواريتان داخليتان فريدتان من Maurer Rides في مدينة ووز بمسارات قابلة للإمالة ومصاعد عمودية. تصل Winja's Fear إلى 66 كم/ساعة على 465 متراً."
+      }
+    },
+    "raik": {
+      "desc": {
+        "en": "A Vekoma family boomerang coaster in Klugheim that was the world's longest and fastest of its type when opened. The train goes backwards up the lift then races forward and reverses the layout again.",
+        "es": "Coaster boomerang familiar Vekoma en Klugheim que fue el más largo y rápido de su tipo al abrirse. El tren va hacia atrás en el ascensor y luego avanza y reversa el recorrido.",
+        "fr": "Coaster boomerang familial Vekoma dans Klugheim qui était le plus long et rapide de son type à l'ouverture. Le train monte en arrière puis avance et parcourt le layout en sens inverse.",
+        "de": "Vekoma Familien-Boomerang-Coaster in Klugheim, der bei der Eröffnung der längste und schnellste seiner Art war. Zug rückwärts hoch dann vorwärts und umgekehrt.",
+        "it": "Coaster boomerang familiare Vekoma in Klugheim che era il più lungo e veloce del suo tipo all'apertura. Il treno va in su al contrario poi in avanti e ripercorre il layout.",
+        "nl": "Vekoma familie boomerang coaster in Klugheim die bij opening de langste en snelste van zijn soort was. De trein gaat achteruit omhoog dan vooruit en rijdt het layout omgekeerd.",
+        "pt": "Coaster boomerang familiar Vekoma em Klugheim que era o mais longo e rápido do seu tipo na abertura. O comboio vai para trás no elevador e depois avança e percorre o layout ao contrário.",
+        "ru": "Семейный бумеранг Vekoma в Klugheim — при открытии самый длинный и быстрый своего типа. Поезд тянется назад на подъёме, затем мчится вперёд и снова в обратном направлении.",
+        "zh": "克鲁格海姆的Vekoma家庭回旋镖过山车，开放时是同类型中世界最长最快的。火车倒着上升轨道，然后向前冲并再次反向穿越整个布局。",
+        "ar": "أفعوانية Vekoma العائلية البوميرانج في كلوغهايم كانت الأطول والأسرع من نوعها عند الافتتاح. يصعد القطار عكسياً ثم يتسارع للأمام ويقطع المسار بشكل معكوس."
+      }
+    },
+    "crazy_bats": {
+      "desc": {
+        "en": "A VR-enhanced roller coaster in the Berlin area that immerses riders in a colourful animated world of flying bats. Virtual reality headsets transform every twist and turn into a whole new dimension.",
+        "es": "Coaster mejorado con VR en la zona Berlin que sumerge a los riders en un colorido mundo animado de murciélagos voladores.",
+        "fr": "Coaster VR dans la zone Berlin qui immerge les riders dans un coloré monde animé de chauves-souris volantes.",
+        "de": "VR-verbesserter Coaster in der Berlin-Zone, der Fahrer in eine bunte animierte Welt fliegender Fledermäuse eintaucht.",
+        "it": "Coaster potenziato con VR nella zona Berlin che immerge i rider in un colorato mondo animato di pipistrelli volanti.",
+        "nl": "VR-verbeterde achterbaan in de Berlin zone die riders onderdompelt in een kleurrijke geanimeerde wereld van vliegende vleermuizen.",
+        "pt": "Coaster VR na zona Berlin que mergulha os riders num colorido mundo animado de morcegos voadores.",
+        "ru": "VR-коастер в зоне Берлина, погружающий пассажиров в красочный анимированный мир летающих летучих мышей.",
+        "zh": "柏林区域的VR增强过山车，将乘客沉浸在充满飞翔蝙蝠的多彩动画世界中，虚拟现实头盔将每个转弯都变成全新维度。",
+        "ar": "أفعوانية محسّنة بالواقع الافتراضي في منطقة برلين تغمر الركاب في عالم رسوم متحركة ملون من الخفافيش الطائرة."
+      }
+    },
+    "wakobato": {
+      "desc": {
+        "en": "A fun splash battle water ride on the park lake where riders in boats fire water cannons at each other and at bystanders on the shore for a completely soaking interactive experience.",
+        "es": "Divertida batalla acuática en el lago del parque donde los riders en botes disparan cañones de agua entre sí y a los espectadores en la orilla.",
+        "fr": "Amusante bataille aquatique sur le lac du parc où les riders en bateaux tirent des canons à eau les uns sur les autres et sur les spectateurs.",
+        "de": "Spassige Wasserspritzschlacht auf dem Parksee, wo Fahrer in Booten Wasserkanonen aufeinander und auf Zuschauer am Ufer abschiessen.",
+        "it": "Divertente battaglia acquatica sul lago del parco dove i rider sparano cannoni ad acqua l'uno sull'altro e sui passanti sulla riva.",
+        "nl": "Leuke waterspektakel op het parkmeer waarbij riders in boten waterkanonnen op elkaar en op toeschouwers op de oever afvuren.",
+        "pt": "Divertida batalha aquática no lago do parque onde os riders em barcos disparam canhões de água uns nos outros e nos espectadores.",
+        "ru": "Весёлая водная битва на озере парка, где пассажиры в лодках стреляют из водяных пушек друг в друга и в зрителей на берегу.",
+        "zh": "公园湖泊上有趣的水战游乐，乘船的乘客可以用水炮互相喷射，也可以喷射岸边的旁观者，完全湿透的互动体验。",
+        "ar": "لعبة معركة مائية ممتعة على بحيرة المتنزه حيث يطلق الركاب في القوارب مدافع المياه على بعضهم وعلى المتفرجين على الشاطئ."
+      }
+    },
+    "vogel_rok": {
+      "desc": {
+        "en": "A thrilling indoor roller coaster launched in complete darkness through an ancient Persian palace with powerful exotic music. A Phantasialand classic delivering surprise and intensity since 1994.",
+        "es": "Emocionante coaster interior lanzado en completa oscuridad por un palacio persa antiguo con música exótica. Un clásico de Phantasialand desde 1994.",
+        "fr": "Passionnant coaster intérieur lancé dans l'obscurité complète à travers un ancien palais persan avec une musique exotique puissante.",
+        "de": "Aufregender Innencoaster im Dunkeln durch einen alten persischen Palast mit kraftvoller exotischer Musik. Ein Klassiker seit 1994.",
+        "it": "Emozionante coaster indoor lanciato nel buio completo attraverso un antico palazzo persiano con potente musica esotica.",
+        "nl": "Spannende indoor achterbaan gelanceerd in complete duisternis door een oud Perzisch paleis met krachtige exotische muziek.",
+        "pt": "Emocionante coaster interior lançado em escuridão completa por um antigo palácio persa com música exótica poderosa.",
+        "ru": "Захватывающий закрытый коастер в полной темноте через древний персидский дворец с мощной экзотической музыкой. Классика с 1994 года.",
+        "zh": "在完全黑暗中穿越古波斯宫殿发射的刺激室内过山车，配以强力异域音乐。自1994年以来梦幻乐园的经典项目。",
+        "ar": "أفعوانية داخلية مثيرة تنطلق في الظلام الدامس عبر قصر فارسي قديم مع موسيقى غريبة قوية. كلاسيكية فانتازيالاند منذ 1994."
+      }
+    },
+    "temple_of_the_night_hawk": {
+      "desc": {
+        "en": "A classic indoor roller coaster adventure through a dark ancient temple. One of the longest indoor coasters in Europe with atmospheric theming and exciting twists through the darkness.",
+        "es": "Aventura clásica de coaster interior a través de un oscuro templo antiguo. Uno de los coasters interiores más largos de Europa.",
+        "fr": "Aventure classique de coaster intérieur à travers un sombre temple ancien. L'un des coasters intérieurs les plus longs d'Europe.",
+        "de": "Klassisches Innencoaster-Abenteuer durch einen dunklen alten Tempel. Einer der längsten Innencoaster Europas.",
+        "it": "Avventura classica di coaster indoor attraverso un oscuro antico tempio. Uno dei coaster indoor più lunghi d'Europa.",
+        "nl": "Klassiek indoor coaster avontuur door een donkere oude tempel. Een van de langste indoor coasters van Europa.",
+        "pt": "Aventura clássica de coaster interior por um templo antigo escuro. Um dos coasters interiores mais longos da Europa.",
+        "ru": "Классическое приключение на закрытом коастере через тёмный древний храм. Один из самых длинных закрытых коастеров Европы.",
+        "zh": "穿越黑暗古老神庙的经典室内过山车冒险。欧洲最长的室内过山车之一，气氛主题设计和黑暗中令人兴奋的曲折。",
+        "ar": "مغامرة أفعوانية داخلية كلاسيكية عبر معبد قديم مظلم. واحدة من أطول الأفعوانيات الداخلية في أوروبا مع تصميم جوي مثير."
+      }
+    }
+  },
+  "food": {
+    "restaurant_uhrwerk": {
+      "desc": {
+        "en": "The culinary soul of Rookburgh serving homemade Poke Bowls, Rook-Burgers, Pilot's Pasta and creative sauces in a stunning steampunk factory atmosphere. Voted best gastronomy in a German theme park.",
+        "es": "El alma culinaria de Rookburgh con Poke Bowls caseros, Rook-Burgers, Pasta del Piloto y salsas creativas en una impresionante atmósfera de fábrica steampunk.",
+        "fr": "L'âme culinaire de Rookburgh avec Poke Bowls maison, Rook-Burgers, Pasta du Pilote et sauces créatives dans une atmosphère steampunk spectaculaire.",
+        "de": "Die kulinarische Seele von Rookburgh mit hausgemachten Poke Bowls, Rook-Burgern, Pilot's Pasta und kreativen Saucen in einer beeindruckenden Steampunk-Fabrik.",
+        "it": "L'anima culinaria di Rookburgh con Poke Bowls homemade, Rook-Burger, Pasta del Pilota e salse creative in una spettacolare atmosfera di fabbrica steampunk.",
+        "nl": "De culinaire ziel van Rookburgh met huisgemaakte Poke Bowls, Rook-Burgers, Pilot's Pasta en creatieve sauzen in een spectaculaire steampunk fabriek.",
+        "pt": "A alma culinária de Rookburgh com Poke Bowls caseiros, Rook-Burgers, Pasta do Piloto e molhos criativos numa atmosfera de fábrica steampunk espectacular.",
+        "ru": "Кулинарная душа Rookburgh с домашними Poke Bowl, Rook-Burger, Pasta Pilot и творческими соусами в потрясающей стимпанк-фабрике.",
+        "zh": "鲁克堡的烹饪灵魂，供应自制海鲜碗、鲁克堡汉堡、飞行员意面和创意酱料，在令人惊叹的蒸汽朋克工厂氛围中。荣获德国主题公园最佳美食奖。",
+        "ar": "روح روكبورغ الطهوية تقدم أطباق بوك بول المصنوعة محلياً ورووك برغر ومعكرونة الطيار وصلصات إبداعية في أجواء مصنع بخاري رائع."
+      }
+    },
+    "rutmors_tavern": {
+      "desc": {
+        "en": "A hearty medieval-themed tavern in the Berlin area serving traditional German dishes including veal schnitzel, hearty platters and vegetarian options in a cosy rustic atmosphere.",
+        "es": "Acogedora taberna medieval en la zona Berlin con platos alemanes tradicionales como Wiener Schnitzel, platos contundentes y opciones vegetarianas.",
+        "fr": "Chaleureuse taverne médiévale dans la zone Berlin avec plats allemands traditionnels dont la escalope de veau, des plateaux copieux et des options végétariennes.",
+        "de": "Gemütliche mittelalterliche Taverne in der Berlin-Zone mit traditionellen deutschen Gerichten wie Wiener Schnitzel, herzhaften Platten und vegetarischen Optionen.",
+        "it": "Accogliente taverna medievale nella zona Berlin con piatti tedeschi tradizionali tra cui scaloppina di vitello, piatti abbondanti e opzioni vegetariane.",
+        "nl": "Gezellige middeleeuwse taverne in de Berlin zone met traditionele Duitse gerechten waaronder kalfschnitzel, stevige schotels en vegetarische opties.",
+        "pt": "Acolhedora taberna medieval na zona Berlin com pratos alemães tradicionais incluindo escalope de vitela, travessas fartas e opções vegetarianas.",
+        "ru": "Уютная средневековая таверна в зоне Берлина с традиционными немецкими блюдами, включая телячий шницель, сытные тарелки и вегетарианские варианты.",
+        "zh": "柏林区域的温馨中世纪主题小酒馆，供应传统德国菜肴，包括小牛排、丰盛拼盘和素食选项，舒适的田园氛围。",
+        "ar": "حانة قروسطية دافئة في منطقة برلين تقدم الأطباق الألمانية التقليدية بما في ذلك شنيتزل العجل والأطباق الشهية والخيارات النباتية."
+      }
+    },
+    "la_cantina_tacana": {
+      "desc": {
+        "en": "A colourful and festive Mexican restaurant in the Mexico area serving authentic tacos, burritos, nachos, churros and vegetarian options with a lively atmosphere and Aztec inspired decor.",
+        "es": "Colorido y festivo restaurante mexicano en la zona México con tacos auténticos, burritos, nachos, churros y opciones vegetarianas con decoración azteca.",
+        "fr": "Coloré et festif restaurant mexicain dans la zone Mexique avec tacos authentiques, burritos, nachos, churros et options végétariennes.",
+        "de": "Buntes und festliches mexikanisches Restaurant in der Mexico-Zone mit authentischen Tacos, Burritos, Nachos und aztekischer Dekoration.",
+        "it": "Colorato e festoso ristorante messicano nella zona Messico con tacos autentici, burrito, nachos e decorazione azteca.",
+        "nl": "Kleurrijk en feestelijk Mexicaans restaurant in de Mexico zone met authentieke taco's, burrito's, nachos en Azteekse decoratie.",
+        "pt": "Colorido e festivo restaurante mexicano na zona México com tacos autênticos, burritos, nachos e decoração asteca.",
+        "ru": "Красочный мексиканский ресторан в зоне Мексики с аутентичными тако, буррито, начос и вегетарианскими вариантами в весёлой атмосфере.",
+        "zh": "墨西哥区域色彩缤纷的节日墨西哥餐厅，供应正宗塔可、墨西哥卷饼、玉米片、油条和素食选项，阿兹特克风格装饰。",
+        "ar": "مطعم مكسيكي ملون وحفلي في منطقة المكسيك يقدم التاكو والبوريتو والناتشوز والتشوروس والخيارات النباتية بأجواء نابضة بالحياة."
+      }
+    },
+    "mandschu": {
+      "desc": {
+        "en": "An authentic Asian restaurant in China Town serving vegan stir-fries, noodle dishes, Thai curry and Asian street food in a fully immersive oriental atmosphere with stunning Chinese architecture.",
+        "es": "Restaurante asiático auténtico en China Town con woks veganos, fideos, curry tailandés y street food asiático en ambiente oriental totalmente inmersivo.",
+        "fr": "Restaurant asiatique authentique en Chinatown avec woks vegan, nouilles, curry thaï et street food asiatique dans une atmosphère orientale immersive.",
+        "de": "Authentisches asiatisches Restaurant in China Town mit veganen Wok-Gerichten, Nudeln, Thai-Curry und asiatischem Street Food.",
+        "it": "Ristorante asiatico autentico in China Town con wok vegan, noodle, curry thai e street food asiatico in un'atmosfera orientale immersiva.",
+        "nl": "Authentiek Aziatisch restaurant in China Town met vegan wokgerechten, noedels, Thaise curry en Aziatisch street food.",
+        "pt": "Restaurante asiático autêntico em China Town com wok vegano, noodles, caril tailandês e street food asiático.",
+        "ru": "Аутентичный азиатский ресторан в Чайна-тауне с веганскими блюдами вок, лапшой, тайским карри и уличной едой.",
+        "zh": "中国城的正宗亚洲餐厅，供应纯素炒菜、面条、泰式咖喱和亚洲街头美食，完全沉浸式的东方氛围，配以令人惊叹的中国建筑。",
+        "ar": "مطعم آسيوي أصيل في حي الصين يقدم المقليات النباتية والمعكرونة والكاري التايلاندي والوجبات الخفيفة الآسيوية في أجواء شرقية غامرة."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_charles_lindbergh": {
+      "desc": {
+        "en": "The world's most immersive hotel built directly into the Rookburgh steampunk theme world. Guests sleep metres from the F.L.Y. roller coaster with exclusive Explorer benefits, Restaurant Uhrwerk and Bar 1919.",
+        "es": "El hotel más inmersivo del mundo construido directamente en el mundo temático steampunk de Rookburgh. Los huéspedes duermen a metros de la montaña rusa F.L.Y.",
+        "fr": "L'hôtel le plus immersif du monde construit directement dans le monde thématique steampunk de Rookburgh. Les clients dorment à quelques mètres du coaster F.L.Y.",
+        "de": "Das immersivste Hotel der Welt, direkt in die Steampunk-Themenwelt Rookburgh gebaut. Gäste schlafen Meter neben der F.L.Y.-Achterbahn.",
+        "it": "L'hotel più immersivo del mondo costruito direttamente nel mondo tematico steampunk di Rookburgh. Gli ospiti dormono a pochi metri dalla montagna russa F.L.Y.",
+        "nl": "Het meest immersieve hotel ter wereld gebouwd direct in de steampunk themawereld Rookburgh. Gasten slapen meters van de F.L.Y. achterbaan.",
+        "pt": "O hotel mais imersivo do mundo construído directamente no mundo temático steampunk de Rookburgh. Os hóspedes dormem a metros da montanha-russa F.L.Y.",
+        "ru": "Самый иммерсивный отель мира, построенный прямо в стимпанковом мире Rookburgh. Гости спят в метрах от коастера F.L.Y.",
+        "zh": "世界上最具沉浸感的酒店，直接建造在鲁克堡蒸汽朋克主题世界中。客人在距F.L.Y.过山车几米处入睡，享受独家探险家特权。",
+        "ar": "أكثر فندق غامر في العالم مبني مباشرة في عالم روكبورغ ذي الطراز البخاري. ينام الضيوف على مسافة أمتار من أفعوانية F.L.Y. مع مزايا مستكشف حصرية."
+      },
+      "rooms": {
+        "explorer_room": {
+          "name": { "en": "Explorer Room", "es": "Habitación Explorer", "fr": "Chambre Explorer", "de": "Explorer Zimmer", "it": "Camera Explorer", "nl": "Explorer Kamer", "pt": "Quarto Explorer", "ru": "Номер Исследователя", "zh": "探险家客房", "ar": "غرفة المستكشف" },
+          "desc": { "en": "Steampunk themed room with F.L.Y. views, exclusive Explorer early ride benefits and full breakfast.", "es": "Habitación steampunk con vistas a F.L.Y., beneficios exclusivos Explorer y desayuno completo.", "fr": "Chambre steampunk avec vue F.L.Y., avantages Explorer exclusifs et petit-déjeuner complet.", "de": "Steampunk-Zimmer mit F.L.Y.-Blick, exklusiven Explorer-Vorteilen und vollem Frühstück.", "it": "Camera steampunk con vista F.L.Y., benefici esclusivi Explorer e colazione completa.", "nl": "Steampunk kamer met F.L.Y. zicht, exclusieve Explorer voordelen en volledig ontbijt.", "pt": "Quarto steampunk com vista F.L.Y., benefícios Explorer exclusivos e pequeno-almoço completo.", "ru": "Стимпанк-номер с видом на F.L.Y., эксклюзивными привилегиями Explorer и завтраком.", "zh": "蒸汽朋克主题客房，F.L.Y.景观，独家探险家早乘特权，全套早餐。", "ar": "غرفة بطراز بخاري مع إطلالات على F.L.Y. ومزايا المستكشف الحصرية وإفطار كامل." }
+        },
+        "navigator_suite": {
+          "name": { "en": "Navigator Suite", "es": "Suite Navegador", "fr": "Suite Navigateur", "de": "Navigator Suite", "it": "Suite Navigatore", "nl": "Navigator Suite", "pt": "Suite Navegador", "ru": "Люкс Навигатор", "zh": "领航员套房", "ar": "جناح الملاح" },
+          "desc": { "en": "Premium suite with panoramic Rookburgh views, private terrace and full Explorer package including Bar 1919 access.", "es": "Suite premium con vistas panorámicas de Rookburgh, terraza privada y paquete Explorer completo.", "fr": "Suite premium avec vues panoramiques sur Rookburgh, terrasse privée et package Explorer complet.", "de": "Premium-Suite mit Panoramablick auf Rookburgh, Privatteasse und vollem Explorer-Paket.", "it": "Suite premium con viste panoramiche su Rookburgh, terrazza privata e pacchetto Explorer completo.", "nl": "Premium suite met panoramisch Rookburgh zicht, privéterras en volledig Explorer pakket.", "pt": "Suite premium com vistas panorâmicas de Rookburgh, terraço privado e pacote Explorer completo.", "ru": "Премиум-люкс с панорамными видами на Rookburgh, частной террасой и полным пакетом Explorer.", "zh": "高级套房，鲁克堡全景，私人露台，完整探险家套餐，含Bar 1919通道。", "ar": "جناح فاخر مع إطلالات بانورامية على روكبورغ وتراس خاص وحزمة مستكشف كاملة." }
+        }
+      }
+    },
+    "hotel_ling_bao": {
+      "desc": {
+        "en": "A stunning authentic Chinese pagoda hotel immersed in the China Town theme world with Asian inspired rooms, a rooftop bar with panoramic views, Restaurant Ling Bao and direct park access.",
+        "es": "Impresionante hotel pagoda china auténtica inmerso en China Town con habitaciones de inspiración asiática, bar en la azotea y acceso directo al parque.",
+        "fr": "Superbe hôtel pagode chinoise authentique immergé dans China Town avec chambres d'inspiration asiatique, bar sur le toit et accès direct au parc.",
+        "de": "Atemberaubendes authentisches chinesisches Pagoden-Hotel in China Town mit asiatisch inspirierten Zimmern, Dachbar und direktem Parkzugang.",
+        "it": "Splendido hotel pagoda cinese autentica immerso in China Town con camere di ispirazione asiatica, bar sul tetto e accesso diretto al parco.",
+        "nl": "Prachtig authentiek Chinees pagode hotel ondergedompeld in China Town met Aziatisch geïnspireerde kamers, dakteras bar en directe parktoegang.",
+        "pt": "Deslumbrante hotel pagode chinês autêntico imerso em China Town com quartos de inspiração asiática, bar na cobertura e acesso directo ao parque.",
+        "ru": "Потрясающий аутентичный китайский пагода-отель в Чайна-тауне с номерами в азиатском стиле, баром на крыше и прямым доступом в парк.",
+        "zh": "令人惊叹的正宗中国宝塔酒店，沉浸在中国城主题世界中，亚洲风格客房，全景屋顶酒吧，凌宝餐厅，直通公园。",
+        "ar": "فندق رائع بطراز برج صيني أصيل غارق في عالم حي الصين مع غرف مستوحاة من الطراز الآسيوي وبار على السطح وإمكانية دخول مباشر للمتنزه."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitación Estándar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Elegant Asian themed room sleeping up to 4 with rooftop bar access, breakfast and park entry.", "es": "Elegante habitación asiática para 4 con acceso al bar de azotea, desayuno y entrada al parque.", "fr": "Élégante chambre asiatique pour 4 avec accès bar toit, petit-déjeuner et entrée parc.", "de": "Elegantes asiatisches Zimmer fuer 4 mit Dachbar-Zugang, Frühstück und Parkeinlass.", "it": "Elegante camera asiatica per 4 con accesso bar tetto, colazione e ingresso parco.", "nl": "Elegante Aziatische kamer voor 4 met dakteras bar toegang, ontbijt en parktoegang.", "pt": "Elegante quarto asiático para 4 com acesso ao bar da cobertura, pequeno-almoço e entrada no parque.", "ru": "Элегантный азиатский номер для 4 с доступом к бару на крыше, завтраком и входом в парк.", "zh": "优雅的亚洲主题客房，可容纳4人，屋顶酒吧通道，早餐，公园入场。", "ar": "غرفة أنيقة ذات طابع آسيوي تتسع لـ 4 أشخاص مع إمكانية الوصول لبار السطح وإفطار ودخول المتنزه." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitación Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious Asian themed family room sleeping up to 6 with garden and pagoda views.", "es": "Habitación familiar asiática para 6 con vistas al jardín y pagoda.", "fr": "Chambre familiale asiatique pour 6 avec vue jardin et pagode.", "de": "Geraeumigers asiatisches Familienzimmer fuer 6 mit Garten- und Pagodenblick.", "it": "Camera familiare asiatica spaziosa per 6 con vista giardino e pagoda.", "nl": "Ruime Aziatische familiekamer voor 6 met tuin en pagode zicht.", "pt": "Quarto familiar asiático espaçoso para 6 com vista jardim e pagode.", "ru": "Просторный азиатский семейный номер для 6 с видом на сад и пагоду.", "zh": "宽敞的亚洲主题家庭客房，可容纳6人，花园和宝塔景观。", "ar": "غرفة عائلية آسيوية فسيحة تتسع لـ 6 أشخاص مع إطلالات على الحديقة والبرج." }
+        }
+      }
+    },
+    "hotel_matamba": {
+      "desc": {
+        "en": "An immersive African lodge hotel in the Deep in Africa theme world with beautifully decorated rooms, lush tropical gardens, Restaurant Zambesi serving African BBQ and the outdoor Braai Grill experience.",
+        "es": "Hotel lodge africano inmersivo en el mundo temático Deep in Africa con habitaciones bellamente decoradas, jardines tropicales y el Restaurante Zambesi.",
+        "fr": "Hôtel lodge africain immersif dans le monde Deep in Africa avec chambres magnifiquement décorées, jardins tropicaux et Restaurant Zambesi.",
+        "de": "Immersives afrikanisches Lodge-Hotel in der Deep-in-Africa-Themenwelt mit wunderschön dekorierten Zimmern, üppigen Gärten und Restaurant Zambesi.",
+        "it": "Hotel lodge africano immersivo nel mondo Deep in Africa con camere magnificamente decorate, giardini tropicali e Ristorante Zambesi.",
+        "nl": "Immersief Afrikaans lodge hotel in de Deep in Africa themawereld met prachtig ingerichte kamers, weelderige tuinen en Restaurant Zambesi.",
+        "pt": "Hotel lodge africano imersivo no mundo Deep in Africa com quartos magnificamente decorados, jardins tropicais e Restaurante Zambesi.",
+        "ru": "Иммерсивный африканский лодж-отель в мире Deep in Africa с красиво украшенными номерами, тропическими садами и рестораном Zambesi.",
+        "zh": "深入非洲主题世界的沉浸式非洲小屋酒店，精美装饰的客房，郁郁葱葱的热带花园，赞比西河餐厅供应非洲烧烤和户外Braai烧烤体验。",
+        "ar": "فندق لودج أفريقي غامر في عالم عمق أفريقيا مع غرف مزينة بشكل جميل وحدائق استوائية خصبة ومطعم زامبيزي يقدم الشواء الأفريقي."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitación Estándar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "African themed room sleeping up to 4 with jungle garden views, breakfast and early park entry.", "es": "Habitación africana para 4 con vistas al jardín selva, desayuno y entrada anticipada.", "fr": "Chambre africaine pour 4 avec vue jardin jungle, petit-déjeuner et entrée anticipée.", "de": "Afrikanisches Zimmer fuer 4 mit Dschungelgartenblick, Frühstück und frühem Einlass.", "it": "Camera africana per 4 con vista giardino giungla, colazione e ingresso anticipato.", "nl": "Afrikaanse kamer voor 4 met jungletuin zicht, ontbijt en vroege parktoegang.", "pt": "Quarto africano para 4 com vista jardim selva, pequeno-almoço e entrada antecipada.", "ru": "Африканский номер для 4 с видом на тропический сад, завтраком и ранним входом.", "zh": "非洲主题客房，可容纳4人，丛林花园景观，早餐，早入场特权。", "ar": "غرفة ذات طابع أفريقي تتسع لـ 4 أشخاص مع إطلالات على حديقة الغابة وإفطار ودخول مبكر." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitación Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious African lodge family room sleeping up to 6 with private outdoor terrace and jungle views.", "es": "Habitación familiar lodge africano para 6 con terraza exterior privada y vistas a la selva.", "fr": "Chambre familiale lodge africain pour 6 avec terrasse extérieure privée et vues jungle.", "de": "Geraeumigers afrikanisches Familienzimmer fuer 6 mit privater Terrasse und Dschungelblick.", "it": "Camera familiare lodge africano per 6 con terrazza esterna privata e viste sulla giungla.", "nl": "Ruime Afrikaanse lodge familiekamer voor 6 met privé buitenterras en junglezicht.", "pt": "Quarto familiar lodge africano para 6 com terraço exterior privado e vistas para a selva.", "ru": "Просторный африканский семейный номер для 6 с частной террасой и видом на джунгли.", "zh": "宽敞的非洲小屋家庭客房，可容纳6人，私人室外露台，丛林景观。", "ar": "غرفة عائلية لودج أفريقية فسيحة تتسع لـ 6 أشخاص مع تراس خارجي خاص وإطلالات على الغابة." }
+        }
+      }
+    }
+  }
+}

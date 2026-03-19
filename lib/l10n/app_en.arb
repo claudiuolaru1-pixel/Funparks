@@ -1,7 +1,17 @@
-{
+﻿{
   "@@locale": "en",
+  "continueWithoutAccount": "Continue without an account",
+  "registerAccount": "Register an account",
+  "login": "Login",
+  "welcomeTitle": "Discover theme parks",
+  "welcomeSubtitle": "Plan your visit, track wait times, and explore parks around the world.",
+
+  "favoritesTitle": "Favorites",
+  "noFavoritesYet": "No favorites yet",
+  "removeFromFavorites": "Remove from favorites",
+
   "appTitle": "Funparks",
-  "viewPark": "View Park",
+  "viewPark": "View park",
   "overview": "Overview",
   "attractions": "Attractions",
   "foodAndPrices": "Food & Prices",
@@ -12,17 +22,18 @@
   "location": "Location",
   "parkMap": "Park map",
   "highlights": "Highlights",
-  "translate": "Translate",
 
+  "translate": "Translate",
+  "original": "Original",
   "adult": "Adult",
   "child": "Child",
   "website": "Website",
-
   "comingSoon": "Coming soon",
+
   "settings": "Settings",
   "language": "Language",
   "currency": "Currency",
-  "nearbyParks": "Nearby Parks",
+  "nearbyParks": "Nearby parks",
 
   "thrill": "Thrill",
   "family": "Family",
@@ -33,7 +44,7 @@
   "recommended": "Recommended",
   "lowestWait": "Lowest wait",
   "highestRated": "Highest rated",
-  "tapCardForDetails": "Tap a card for full details",
+  "tapCardForDetails": "Tap for details",
 
   "addToMyDay": "Add to My Day",
   "removeFromMyDay": "Remove from My Day",
@@ -42,16 +53,17 @@
 
   "directions": "Directions",
   "liveWait": "Live wait",
-  "setMyWait": "Set my wait",
+  "setMyWait": "My wait",
 
   "yourRating": "Your rating",
   "yourComment": "Your comment",
-  "commentHint": "Share tips, what to expect, best seats, etc…",
-  "commentHintFood": "Share tips (best value, favorite dishes, good spots)…",
+  "commentHint": "Tips, best seats, etc…",
+  "commentHintFood": "Tips (value for money, favorite dishes)…",
+
   "myWaitTimeOptional": "My wait time (optional)",
   "minutesHint": "Minutes (e.g. 25)",
-  "menuAndPrices": "Menu & prices",
 
+  "menuAndPrices": "Menu & prices",
   "share": "Share",
   "save": "Save",
   "saved": "Saved!",
@@ -61,9 +73,34 @@
   "price": "Price",
   "rating": "Rating",
   "breakfastIncluded": "Breakfast included",
-  "breakfastNotIncluded": "Breakfast not included",
+  "breakfastNotIncluded": "No breakfast",
 
   "addToMyStay": "Add to My Stay",
   "removeFromMyStay": "Remove from My Stay",
-  "lowestPrice": "Lowest price"
+  "lowestPrice": "Lowest price",
+
+  "didYouKnow": "Did you know",
+  "plan": "Plan",
+  "photos": "Photos",
+  "facts": "Facts",
+  "route": "Route",
+  "myDayRoute": "My Day Route",
+  "routeEmpty": "Add attractions to My Day to build a route.",
+  "descriptionTitle": "Description",
+  "detailsTitle": "Details",
+  "roomTitle": "Room",
+  "addToEllipsis": "Add to…",
+  "added": "Added",
+  "closest": "Closest",
+  "cheapest": "Cheapest",
+  "couldNotOpenMaps": "Could not open Maps",
+  "couldNotOpenWebsite": "Could not open website",
+  "speed": "Speed",
+  "height": "Height",
+  "inversions": "Inversions",
+  "opened": "Opened",
+  "openMap": "Open map",
+  "templateInfoPortAventura": "PortAventura World is one of the largest resort destinations in Europe, located in Salou, Spain.",
+  "restaurants": "Restaurants",
+  "hotelRoomsComingSoon": "Room details coming soon"
 }

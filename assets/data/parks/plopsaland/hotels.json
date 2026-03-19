@@ -1,0 +1,56 @@
+ [
+  {
+    "id": "hotel_plopsaland",
+    "name": "Hotel Plopsaland",
+    "description": "The official on-site hotel at Plopsaland De Panne, themed around the park's beloved characters. Perfect for families wanting to be steps from the rides.",
+    "image": "assets/images/plopsaland/hotel_plopsaland.png",
+    "lat": 51.1078,
+    "lng": 2.5990,
+    "rating": 4.3,
+    "topPick": true,
+    "website": "https://www.plopsaland.be/en/hotel",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable room for up to 4 guests with character theming.",
+        "pricePerNight": 159.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_suite",
+        "name": "Family Suite",
+        "description": "Spacious suite with separate sleeping areas for kids and parents.",
+        "pricePerNight": 219.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "camping_plopsaland",
+    "name": "Camping Plopsaland",
+    "description": "A fun and affordable camping option adjacent to the park, with glamping pods and pitches for tents and caravans. Great for budget-conscious families.",
+    "image": "assets/images/plopsaland/camping_plopsaland.png",
+    "lat": 51.1065,
+    "lng": 2.5978,
+    "rating": 4.0,
+    "topPick": false,
+    "website": "https://www.plopsaland.be/en/camping",
+    "rooms": [
+      {
+        "key": "glamping_pod",
+        "name": "Glamping Pod",
+        "description": "Cosy furnished pod sleeping up to 4 with electricity and heating.",
+        "pricePerNight": 89.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "camping_pitch",
+        "name": "Camping Pitch",
+        "description": "Standard pitch for tent or caravan with access to shared facilities.",
+        "pricePerNight": 35.0,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

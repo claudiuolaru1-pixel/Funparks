@@ -1,7 +1,12 @@
 {
   "@@locale": "en",
+
+  "favoritesTitle": "Favorites",
+  "noFavoritesYet": "No favorites yet",
+  "removeFromFavorites": "Remove from favorites",
+
   "appTitle": "Funparks",
-  "viewPark": "View Park",
+  "viewPark": "View park",
   "overview": "Overview",
   "attractions": "Attractions",
   "foodAndPrices": "Food & Prices",
@@ -22,7 +27,7 @@
   "settings": "Settings",
   "language": "Language",
   "currency": "Currency",
-  "nearbyParks": "Nearby Parks",
+  "nearbyParks": "Nearby parks",
 
   "thrill": "Thrill",
   "family": "Family",
@@ -33,7 +38,7 @@
   "recommended": "Recommended",
   "lowestWait": "Lowest wait",
   "highestRated": "Highest rated",
-  "tapCardForDetails": "Tap a card for full details",
+  "tapCardForDetails": "Tap a card for details",
 
   "addToMyDay": "Add to My Day",
   "removeFromMyDay": "Remove from My Day",
@@ -46,8 +51,8 @@
 
   "yourRating": "Your rating",
   "yourComment": "Your comment",
-  "commentHint": "Share tips, what to expect, best seats, etc…",
-  "commentHintFood": "Share tips (best value, favorite dishes, good spots)…",
+  "commentHint": "Tips, best seats, etc…",
+  "commentHintFood": "Tips (value, favorite dishes)…",
 
   "myWaitTimeOptional": "My wait time (optional)",
   "minutesHint": "Minutes (e.g. 25)",
@@ -62,5 +67,29 @@
   "price": "Price",
   "rating": "Rating",
   "breakfastIncluded": "Breakfast included",
-  "breakfastNotIncluded": "Breakfast not included"
+  "breakfastNotIncluded": "Breakfast not included",
+
+  "addToMyStay": "Add to My Stay",
+  "removeFromMyStay": "Remove from My Stay",
+  "lowestPrice": "Lowest price",
+
+  "didYouKnow": "Did you know",
+  "plan": "Plan",
+  "photos": "Photos",
+  "route": "Route",
+
+  "closest": "Closest",
+  "cheapest": "Cheapest",
+
+  "myDayRouteTitle": "My Day Route",
+  "myDayRouteEmpty": "Add attractions to My Day to build a route.",
+
+  "templateInfoPortAventura": "This park uses the PortAventura template. Attractions, food, and hotels are loaded from local JSON.",
+  "hotelRoomsComingSoon": "We’ll add rooms, prices, photos, and booking links here.",
+
+  "facts": "Facts",
+  "speed": "Speed",
+  "height": "Height",
+  "inversions": "Inversions",
+  "opened": "Opened"
 }

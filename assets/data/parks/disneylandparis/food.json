@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "blue_lagoon",
+    "name": "Blue Lagoon Restaurant",
+    "type": "Caribbean & International",
+    "image": "assets/images/disneyland/food_blue_lagoon.png",
+    "lat": 48.8688,
+    "lng": 2.7805,
+    "rating": 4.6,
+    "description": "One of the most romantic and unique restaurants in any Disney park worldwide. Guests dine on Caribbean cuisine beside the lagoon inside the Pirates of the Caribbean attraction with boats floating past.",
+    "topPick": true,
+    "items": [
+      { "name": "Caribbean Lobster", "description": "Fresh lobster with tropical butter sauce and seasonal vegetables", "price": 38.00 },
+      { "name": "Beef Tenderloin", "description": "Grilled beef tenderloin with Caribbean spices and rice", "price": 34.00 },
+      { "name": "Vegetarian Curry", "description": "Fragrant Caribbean vegetable curry with jasmine rice", "price": 24.00 },
+      { "name": "Rum Punch", "description": "Classic Caribbean rum punch with tropical fruit", "price": 12.00 }
+    ]
+  },
+  {
+    "id": "plaza_gardens",
+    "name": "Plaza Gardens Restaurant",
+    "type": "Buffet",
+    "image": "assets/images/disneyland/food_plaza_gardens.png",
+    "lat": 48.8675,
+    "lng": 2.7836,
+    "rating": 4.3,
+    "description": "An elegant Victorian-style buffet restaurant on Main Street USA offering a wide selection of hot and cold dishes, salads, desserts and character dining experiences.",
+    "topPick": false,
+    "items": [
+      { "name": "Buffet Adult", "description": "Full access to hot and cold buffet including starters, mains and desserts", "price": 42.00 },
+      { "name": "Buffet Child", "description": "Children's buffet with dedicated kids section and desserts", "price": 28.00 },
+      { "name": "Character Breakfast", "description": "Breakfast buffet with Disney character meet and greet", "price": 38.00 },
+      { "name": "Soft Drink", "description": "Selection of soft drinks and juices", "price": 5.50 }
+    ]
+  },
+  {
+    "id": "walts_restaurant",
+    "name": "Walt's Restaurant",
+    "type": "Fine Dining",
+    "image": "assets/images/disneyland/food_walts_restaurant.png",
+    "lat": 48.8674,
+    "lng": 2.7834,
+    "rating": 4.5,
+    "description": "The finest table service restaurant at Disneyland Paris on Main Street USA, dedicated to Walt Disney himself. Each room tells a story from Walt's life with premium French and international cuisine.",
+    "topPick": true,
+    "items": [
+      { "name": "French Beef Fillet", "description": "Premium French beef fillet with truffle sauce and seasonal vegetables", "price": 45.00 },
+      { "name": "Pan-Seared Salmon", "description": "Fresh Atlantic salmon with lemon butter and asparagus", "price": 38.00 },
+      { "name": "Vegetarian Risotto", "description": "Creamy truffle risotto with seasonal mushrooms and parmesan", "price": 28.00 },
+      { "name": "French Wine", "description": "Glass of selected French wine", "price": 14.00 }
+    ]
+  },
+  {
+    "id": "agrabah_cafe",
+    "name": "Agrabah Cafe",
+    "type": "Middle Eastern Buffet",
+    "image": "assets/images/disneyland/food_agrabah_cafe.png",
+    "lat": 48.8686,
+    "lng": 2.7810,
+    "rating": 4.1,
+    "description": "An Aladdin themed buffet restaurant in Adventureland serving Middle Eastern and North African inspired dishes in a colourful bazaar atmosphere inspired by the city of Agrabah.",
+    "topPick": false,
+    "items": [
+      { "name": "Buffet Adult", "description": "Full Middle Eastern buffet with tagines, couscous and grilled meats", "price": 36.00 },
+      { "name": "Buffet Child", "description": "Children's buffet with familiar favourites and desserts", "price": 24.00 },
+      { "name": "Lamb Tagine", "description": "Slow-cooked Moroccan lamb tagine with couscous", "price": 22.00 },
+      { "name": "Baklava", "description": "Traditional honey and pistachio baklava", "price": 6.00 }
+    ]
+  }
+]

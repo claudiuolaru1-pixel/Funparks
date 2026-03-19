@@ -1,5 +1,6 @@
-name: funparks
+﻿name: funparks
 description: A playful, map-first theme park discovery app (MVP).
+version: 2.0.0+107
 publish_to: "none"
 
 environment:
@@ -25,7 +26,7 @@ dependencies:
 
   # Firebase
   firebase_core: ^3.5.0
-  cloud_firestore: ^5.4.4
+  cloud_firestore: ^5.6.12
   firebase_auth: ^5.3.1
   firebase_storage: ^12.3.3
 
@@ -47,34 +48,31 @@ flutter:
 
   assets:
     - assets/data/
+    - assets/data/parks/
+    - assets/data/parks/portaventura/
+    - assets/data/parks/altontowers/
+    - assets/data/parks/europapark/
+    - assets/data/parks/plopsaland/
+    - assets/data/parks/gardaland/
+    - assets/data/parks/parcasterix/
+    - assets/data/parks/energylandia/
+    - assets/data/parks/efteling/
+    - assets/data/parks/phantasialand/
+    - assets/data/parks/disneylandparis/
+    - assets/i18n/
     - assets/maps/
-    - assets/images/start_bg.png
-
-    # Force include PortAventura images (fix “grey images” on release/AAB)
-    - assets/images/portaventura/dragon_khan.png
-    - assets/images/portaventura/el_diablo_tren_mina.png
-    - assets/images/portaventura/food_epi.png
-    - assets/images/portaventura/food_iron_horse.png
-    - assets/images/portaventura/food_raco_de_mar.png
-    - assets/images/portaventura/food_vinosfera.png
-    - assets/images/portaventura/furius_baco.png
-    - assets/images/portaventura/grand_canyon_rapids.png
-    - assets/images/portaventura/hurakan_condor.png
-    - assets/images/portaventura/katanga.png
-    - assets/images/portaventura/menu_prices.png
-    - assets/images/portaventura/park_map.png
-    - assets/images/portaventura/red_force.png
-    - assets/images/portaventura/sea_odyssey.png
-    - assets/images/portaventura/shambhala.png
-    - assets/images/portaventura/silver_river_flume.png
-    - assets/images/portaventura/stampida.png
-    - assets/images/portaventura/tami_tami.png
-    - assets/images/portaventura/tomahawk.png
-    - assets/images/portaventura/tutuki_splash.png
-    - assets/images/portaventura/volpaiute.png
-    - assets/images/portaventura/hotel_portaventura.png
-    - assets/images/portaventura/hotel_gold_river.png
-
+    - assets/images/portaventura/
+    - assets/images/altontowers/
+    - assets/images/europapark/
+    - assets/images/plopsaland/
+    - assets/images/gardaland/
+    - assets/images/parcasterix/
+    - assets/images/energylandia/
+    - assets/images/efteling/
+    - assets/images/
+    - assets/splash/
+    - assets/icons/
+    
 flutter_native_splash:
   color: "#72C8FF"
   color_dark: "#2A2A2A"
@@ -91,3 +89,4 @@ flutter_icons:
   image_path: assets/icons/icon_1024.png
   adaptive_icon_background: "#72C8FF"
   adaptive_icon_foreground: assets/icons/icon_1024.png
+

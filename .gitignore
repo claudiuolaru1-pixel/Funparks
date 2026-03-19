@@ -60,3 +60,5 @@ tmp_aab/
 **/google-services.json
 **/GoogleService-Info.plist
 **/firebase_options.dart
+
+serviceAccountKey.json

@@ -1,72 +1,43 @@
-import 'dart:async';
-import 'dart:ui' as ui;
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:provider/provider.dart';
-
 import 'package:firebase_core/firebase_core.dart';
+import 'package:google_maps_flutter_android/google_maps_flutter_android.dart';
+import 'package:google_maps_flutter_platform_interface/google_maps_flutter_platform_interface.dart';
+import 'package:provider/provider.dart';
+import 'app_state.dart';
+import 'models/park.dart';
+import 'screens/start_screen.dart';
+import 'screens/home_map_screen.dart';
+import 'screens/park_detail_screen.dart';
+import 'screens/my_day_screen.dart';
+import 'screens/settings_screen.dart';
+import 'screens/sign_in_screen.dart';
+import 'l10n/app_localizations.dart';
 import 'firebase_options.dart';
 
-import 'app_state.dart';
-import 'l10n/app_localizations.dart';
-import 'screens/start_screen.dart';
-
-import 'package:google_maps_flutter_platform_interface/google_maps_flutter_platform_interface.dart';
-import 'package:google_maps_flutter_android/google_maps_flutter_android.dart';
-
-/// Stores last Flutter error so we can show it even in release builds.
-class _LastErrorStore {
-  static FlutterErrorDetails? last;
-}
+bool _mapsRendererInitialized = false;
 
 Future<void> main() async {
-  runZonedGuarded(() async {
-    WidgetsFlutterBinding.ensureInitialized();
-
-    // ---- Google Maps Android renderer/platform-view fixes ----
-    if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android) {
-      final platform = GoogleMapsFlutterPlatform.instance;
-      if (platform is GoogleMapsFlutterAndroid) {
-        // Force legacy renderer (fixes grey/blank map on some devices)
-        await platform.initializeWithRenderer(AndroidMapRenderer.legacy);
-
-        // Force hybrid composition (usually most stable with platform views)
-        platform.useAndroidViewSurface = true;
-      }
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  if (!_mapsRendererInitialized &&
+      !kIsWeb &&
+      defaultTargetPlatform == TargetPlatform.android) {
+    final platform = GoogleMapsFlutterPlatform.instance;
+    if (platform is GoogleMapsFlutterAndroid) {
+      await platform.initializeWithRenderer(AndroidMapRenderer.legacy);
+      platform.useAndroidViewSurface = true;
+      _mapsRendererInitialized = true;
     }
-    // ---------------------------------------------------------
-
-    // Firebase init
-    try {
-      await Firebase.initializeApp(
-        options: DefaultFirebaseOptions.currentPlatform,
-      );
-    } catch (e, st) {
-      debugPrint('Firebase initializeApp failed: $e');
-      debugPrint('$st');
-    }
-
-    FlutterError.onError = (FlutterErrorDetails details) {
-      _LastErrorStore.last = details;
-      FlutterError.dumpErrorToConsole(details);
-    };
-
-    ErrorWidget.builder = (FlutterErrorDetails details) {
-      _LastErrorStore.last = details;
-      return _PrettyErrorScreen(details: details);
-    };
-
-    runApp(const FunparksApp());
-  }, (error, stack) {
-    _LastErrorStore.last = FlutterErrorDetails(
-      exception: error,
-      stack: stack,
-      library: 'runZonedGuarded',
-      context: ErrorDescription('Uncaught async error'),
-    );
-  });
+  }
+  runApp(
+    ChangeNotifierProvider<AppState>(
+      create: (_) => AppState(),
+      child: const FunparksApp(),
+    ),
+  );
 }
 
 class FunparksApp extends StatelessWidget {
@@ -74,114 +45,63 @@ class FunparksApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final colorScheme = ColorScheme.fromSeed(seedColor: const Color(0xFF72C8FF));
-
-    return ChangeNotifierProvider(
-      create: (_) => AppState(),
-      child: Consumer<AppState>(
-        builder: (context, appState, _) {
-          return FutureBuilder<void>(
-            future: appState.ensureInitialized(_deviceLocale(), _defaultCurrency()),
-            builder: (context, snap) {
-              if (snap.connectionState != ConnectionState.done) {
-                return const MaterialApp(home: _BootSplash());
-              }
-
-              return MaterialApp(
-                title: 'Funparks',
-                locale: appState.locale,
-                supportedLocales: AppLocalizations.supportedLocales,
-                localizationsDelegates: const [
-                  AppLocalizations.delegate,
-                  GlobalMaterialLocalizations.delegate,
-                  GlobalWidgetsLocalizations.delegate,
-                  GlobalCupertinoLocalizations.delegate,
-                ],
-                theme: ThemeData(
-                  colorScheme: colorScheme,
-                  useMaterial3: true,
-                  fontFamily: 'Roboto',
+    return Consumer<AppState>(
+      builder: (context, appState, _) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          supportedLocales: AppLocalizations.supportedLocales,
+          locale: appState.locale,
+          onGenerateTitle: (context) => AppLocalizations.of(context)!.appTitle,
+          initialRoute: '/start',
+          routes: {
+            '/start': (_) => const StartScreen(),
+            '/home': (_) => const HomeMapScreen(),
+            '/settings': (_) => const SettingsScreen(),
+            '/my_day': (_) => const MyDayScreen(),
+          },
+          onGenerateRoute: (settings) {
+            if (settings.name == '/signin') {
+              final arg = settings.arguments;
+              return MaterialPageRoute(
+                builder: (_) => SignInScreen(
+                  startOnRegister: arg == 'register',
                 ),
-                home: const StartScreen(),
               );
-            },
-          );
-        },
-      ),
-    );
-  }
-
-  Locale _deviceLocale() {
-    final l = ui.PlatformDispatcher.instance.locale;
-    return Locale(l.languageCode);
-  }
-
-  String _defaultCurrency() {
-    final region = ui.PlatformDispatcher.instance.locale.countryCode ?? 'EU';
-    if (region == 'GB') return 'GBP';
-    if (region == 'US') return 'USD';
-    return 'EUR';
-  }
-}
-
-class _BootSplash extends StatelessWidget {
-  const _BootSplash();
-
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: CircularProgressIndicator()),
+            }
+            if (settings.name == '/park') {
+              final arg = settings.arguments;
+              if (arg is Park) {
+                return MaterialPageRoute(
+                  builder: (_) => ParkDetailScreen(park: arg),
+                );
+              }
+              return MaterialPageRoute(
+                builder: (_) => const _RouteErrorScreen(
+                  message: 'Missing/invalid Park argument for /park route.',
+                ),
+              );
+            }
+            return null;
+          },
+        );
+      },
     );
   }
 }
 
-class _PrettyErrorScreen extends StatelessWidget {
-  final FlutterErrorDetails details;
-  const _PrettyErrorScreen({required this.details});
+class _RouteErrorScreen extends StatelessWidget {
+  final String message;
+  const _RouteErrorScreen({required this.message});
 
   @override
   Widget build(BuildContext context) {
-    final msg = details.exceptionAsString();
-    final stack = details.stack?.toString() ?? '(no stack)';
-
-    return Material(
-      color: Colors.white,
-      child: SafeArea(
+    return Scaffold(
+      appBar: AppBar(title: const Text('Navigation error')),
+      body: Center(
         child: Padding(
-          padding: const EdgeInsets.all(14),
-          child: SingleChildScrollView(
-            child: DefaultTextStyle(
-              style: const TextStyle(fontSize: 13, color: Colors.black87),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const Text(
-                    'Funparks Debug Info (Temporary)',
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
-                  ),
-                  const SizedBox(height: 10),
-                  const Text(
-                    'The app hit an error. Please copy everything below and send it:',
-                    style: TextStyle(fontWeight: FontWeight.w700),
-                  ),
-                  const SizedBox(height: 10),
-                  Container(
-                    width: double.infinity,
-                    padding: const EdgeInsets.all(12),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(12),
-                      border: Border.all(color: Colors.black12),
-                      color: const Color(0xFFF7F7F7),
-                    ),
-                    child: Text(
-                      'ERROR:\n$msg\n\nSTACK:\n$stack',
-                      style: const TextStyle(fontFamily: 'monospace'),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ),
+          padding: const EdgeInsets.all(16),
+          child: Text(message),
         ),
       ),
     );

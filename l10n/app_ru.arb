@@ -1,40 +1,101 @@
 {
   "@@locale": "ru",
+  
+  "continueWithoutAccount": "Продолжить без аккаунта",
+  "registerAccount": "Создать аккаунт",
+  "login": "Войти",
+  "welcomeTitle": "Откройте тематические парки",
+  "welcomeSubtitle": "Планируйте визит, отслеживайте время ожидания и исследуйте парки по всему миру.",
+
+  "favoritesTitle": "Избранное",
+  "noFavoritesYet": "Пока нет избранного",
+  "removeFromFavorites": "Удалить из избранного",
+
   "appTitle": "Funparks",
+  "viewPark": "Открыть парк",
   "overview": "Обзор",
   "attractions": "Аттракционы",
   "foodAndPrices": "Еда и цены",
-  "hours": "Часы работы",
+  "hotels": "Отели",
+
   "entryFrom": "Вход от",
+  "hours": "Часы работы",
   "location": "Местоположение",
   "parkMap": "Карта парка",
   "highlights": "Главное",
+
   "translate": "Перевести",
+  "adult": "Взрослый",
+  "child": "Ребёнок",
+  "website": "Сайт",
+  "comingSoon": "Скоро",
+
+  "settings": "Настройки",
+  "language": "Язык",
+  "currency": "Валюта",
+  "nearbyParks": "Парки рядом",
+
   "thrill": "Экстрим",
   "family": "Семейные",
   "water": "Вода",
   "simulator": "Симулятор",
+
   "topPick": "Топ выбор",
   "recommended": "Рекомендуемое",
   "lowestWait": "Минимальная очередь",
   "highestRated": "Лучшие оценки",
   "tapCardForDetails": "Нажмите для деталей",
+
   "addToMyDay": "Добавить в Мой день",
   "removeFromMyDay": "Убрать из Моего дня",
   "addToMyFood": "Добавить в Мою еду",
   "removeFromMyFood": "Убрать из Моей еды",
+
   "directions": "Маршрут",
   "liveWait": "Очередь сейчас",
   "setMyWait": "Моя очередь",
+
   "yourRating": "Ваша оценка",
   "yourComment": "Ваш комментарий",
   "commentHint": "Советы, лучшие места и т.д.…",
   "commentHintFood": "Советы (лучшее соотношение цена/качество, любимые блюда)…",
+
   "myWaitTimeOptional": "Моя очередь (необязательно)",
   "minutesHint": "Минуты (например, 25)",
+
   "menuAndPrices": "Меню и цены",
   "share": "Поделиться",
   "save": "Сохранить",
   "saved": "Сохранено!",
-  "comingSoon": "Скоро"
+
+  "rooms": "Номера",
+  "night": "ночь",
+  "price": "Цена",
+  "rating": "Рейтинг",
+  "breakfastIncluded": "Завтрак включён",
+  "breakfastNotIncluded": "Завтрак не включён",
+
+  "addToMyStay": "Добавить к Моему проживанию",
+  "removeFromMyStay": "Убрать из Моего проживания",
+  "lowestPrice": "Минимальная цена",
+
+  "didYouKnow": "Знаете ли вы",
+  "plan": "План",
+  "photos": "Фото",
+  "route": "Маршрут",
+
+  "closest": "Ближе всего",
+  "cheapest": "Дешевле всего",
+
+  "myDayRouteTitle": "Маршрут моего дня",
+  "myDayRouteEmpty": "Добавьте аттракционы в «Мой день», чтобы построить маршрут.",
+
+  "templateInfoPortAventura": "Этот парк использует шаблон PortAventura. Аттракционы, еда и отели загружаются из локального JSON.",
+  "hotelRoomsComingSoon": "Скоро добавим номера, цены, фото и ссылки на бронирование.",
+
+  "facts": "Факты",
+  "speed": "Скорость",
+  "height": "Высота",
+  "inversions": "Инверсии",
+  "opened": "Открыт"
 }
