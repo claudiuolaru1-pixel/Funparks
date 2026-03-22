@@ -59,16 +59,12 @@ flutter:
     - assets/data/parks/efteling/
     - assets/data/parks/phantasialand/
     - assets/data/parks/disneylandparis/
+    - assets/data/parks/gronalund/
+    - assets/data/parks/tivoli/
+    - assets/data/parks/siampark/
+    - assets/data/parks/toverland/
     - assets/i18n/
     - assets/maps/
-    - assets/images/portaventura/
-    - assets/images/altontowers/
-    - assets/images/europapark/
-    - assets/images/plopsaland/
-    - assets/images/gardaland/
-    - assets/images/parcasterix/
-    - assets/images/energylandia/
-    - assets/images/efteling/
     - assets/images/
     - assets/splash/
     - assets/icons/

@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "food_the_flaming_feather",
+    "name": "The Flaming Feather",
+    "type": "A La Carte Restaurant",
+    "image": "assets/images/toverland/food_the_flaming_feather.png",
+    "lat": 51.4172,
+    "lng": 6.0334,
+    "rating": 4.5,
+    "description": "Toverland's finest dining experience — a beautifully themed medieval inn nestled in the heart of Avalon offering full table service and an impressive a la carte menu of Burgundian meat and fish dishes, vegetarian options and seasonal specials. With crackling fireplaces, long wooden tables and warm candlelight, The Flaming Feather feels like genuine medieval hospitality and is completely unlike a typical theme park restaurant. With 130 seats across an impressive indoor dining hall and outdoor terraces, this is the place for a proper sit-down meal between adventures.",
+    "topPick": true,
+    "items": [
+      { "name": "Spare Ribs", "description": "Slow-cooked Burgundian spare ribs with seasonal sides", "price": 22.5 },
+      { "name": "Fish of the Day", "description": "Freshly prepared fish dish with vegetables and potatoes", "price": 19.5 },
+      { "name": "Vegetarian Dish", "description": "Seasonal vegetarian main course", "price": 17.0 },
+      { "name": "Dessert", "description": "Selection of desserts and sweet treats", "price": 8.5 }
+    ]
+  },
+  {
+    "id": "food_katara_plaza",
+    "name": "Katara Plaza",
+    "type": "Outdoor Food Court",
+    "image": "assets/images/toverland/food_katara_plaza.png",
+    "lat": 51.4165,
+    "lng": 6.0331,
+    "rating": 4.2,
+    "description": "A vibrant outdoor food court in the Magische Vallei area with an exotic terrace overlooking the spectacular Katara water show. Katara Plaza serves tropical-inspired dishes, snacks and refreshing drinks in a colourful open-air setting that is one of the liveliest dining spots in the park. The combination of good food and the dramatic Katara water show backdrop makes this a memorable lunch or dinner stop especially on sunny days.",
+    "topPick": false,
+    "items": [
+      { "name": "Tropical Meal", "description": "Tropical-inspired main dish with rice or fries", "price": 14.0 },
+      { "name": "Snack Platter", "description": "Selection of snacks and nibbles", "price": 9.5 },
+      { "name": "Cold Drinks", "description": "Selection of soft drinks and juices", "price": 4.0 },
+      { "name": "Ice Cream", "description": "Selection of ice creams and frozen treats", "price": 5.0 }
+    ]
+  },
+  {
+    "id": "food_waldstube",
+    "name": "Waldstube",
+    "type": "Food Court",
+    "image": "assets/images/toverland/food_waldstube.png",
+    "lat": 51.4163,
+    "lng": 6.0329,
+    "rating": 4.1,
+    "description": "A cosy food court nestled in the Wunderwald forest area serving freshly made Italian pizzas, burgers and sandwiches in a warm woodland lodge atmosphere. Waldstube is one of the most popular quick-service dining spots in the park thanks to its freshly prepared food and welcoming forest setting. The wood-panelled interior with forest theming makes it feel like a genuine woodland retreat rather than a standard theme park canteen.",
+    "topPick": false,
+    "items": [
+      { "name": "Italian Pizza", "description": "Freshly made pizza with choice of toppings", "price": 13.0 },
+      { "name": "Burger", "description": "Classic burger with fries", "price": 14.0 },
+      { "name": "Fresh Sandwich", "description": "Freshly made sandwich with choice of fillings", "price": 9.0 },
+      { "name": "Soft Drink", "description": "Cold beverage", "price": 3.5 }
+    ]
+  },
+  {
+    "id": "food_hungry_harry",
+    "name": "Hungry Harry",
+    "type": "Takeaway",
+    "image": "assets/images/toverland/food_hungry_harry.png",
+    "lat": 51.4171,
+    "lng": 6.0335,
+    "rating": 4.0,
+    "description": "A popular takeaway in the Avalon area offering tasty sandwiches, wraps, pulled pork burgers and crispy fries alongside sweet treats including soft ice cream, milkshakes and cotton candy. Hungry Harry is the perfect quick stop between rides in the Avalon area, with fast service and a wide variety of grab-and-go options. Its location near Fenix and Troy makes it one of the most visited food stops in the park.",
+    "topPick": false,
+    "items": [
+      { "name": "Pulled Pork Burger", "description": "Slow-cooked pulled pork in a brioche bun with fries", "price": 13.5 },
+      { "name": "Wrap", "description": "Freshly filled wrap with choice of fillings", "price": 10.0 },
+      { "name": "Soft Ice Cream", "description": "Classic soft serve ice cream cone", "price": 4.0 },
+      { "name": "Milkshake", "description": "Thick creamy milkshake in various flavours", "price": 6.0 }
+    ]
+  }
+]

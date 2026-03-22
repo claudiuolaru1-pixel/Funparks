@@ -1,0 +1,394 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Toverland is the Netherlands' most beloved and fastest-growing theme park — a magical, immersive world set in the lush green landscape of Sevenum in northern Limburg, just a short drive from the Dutch-German border. Founded in 2001 as a modest indoor adventure park, Toverland has grown into one of the most ambitious and beautifully themed amusement parks in the whole of the Benelux region, now spanning over 40 attractions and shows across six magnificently designed themed worlds. The park's transformation has been nothing short of extraordinary — culminating in the 2018 opening of Avalon, a fully realised Arthurian kingdom with its own castle, harbour, medieval inn and soaring wing coaster Fenix. Toverland is home to Troy, the tallest, fastest and longest wooden roller coaster in the entire Benelux, reaching 90 km/h through its twisting Great Coasters International structure. Booster Bike, the world's first motorbike roller coaster, was born here in 2004 and won international awards for innovation. The park is open year-round including a spectacular Winter Feelings season with Christmas decorations, shows and seasonal magic that draws huge crowds. For families, the beloved Land van Toos children's world and the enchanting Merlin's Quest boat ride through Avalon provide unforgettable gentle experiences alongside the park's five roller coasters.",
+      "es": "Toverland es el parque de atracciones mas querido y de mas rapido crecimiento de los Paises Bajos — un mundo magico e inmersivo en el paisaje verde de Sevenum en el norte de Limburgo. Fundado en 2001 como modesto parque de aventura interior, Toverland ha crecido hasta convertirse en uno de los parques de atracciones mas ambiciosos y bellamente tematizados del Benelux con mas de 40 atracciones en seis mundos tematicos. Troy es la montana rusa de madera mas alta rapida y larga del Benelux alcanzando 90 km/h. Booster Bike fue la primera montana rusa de moto del mundo en 2004. El parque abre todo el ano incluyendo la espectacular temporada Winter Feelings.",
+      "fr": "Toverland est le parc d'attractions le plus aime et le plus en croissance des Pays-Bas — un monde magique et immersif dans le paysage verdoyant de Sevenum en Limbourg du Nord. Fonde en 2001 comme modeste parc d'aventure interieur, Toverland est devenu l'un des parcs d'attractions les plus ambitieux et les mieux thematises du Benelux avec plus de 40 attractions dans six mondes thematiques. Troy est le plus grand, le plus rapide et le plus long montagnes russes en bois du Benelux atteignant 90 km/h. Booster Bike etait la premiere montagne russe moto au monde en 2004. Le parc est ouvert toute l'annee.",
+      "de": "Toverland ist der beliebteste und am schnellsten wachsende Freizeitpark der Niederlande — eine magische immersive Welt in der grunen Landschaft von Sevenum in Nordlimburg. Gegrundet 2001 als bescheidener Innenadventurepark ist Toverland zu einem der ehrgeizigsten und schon gestalteten Vergungungsparks im gesamten Benelux-Raum gewachsen mit uber 40 Attraktionen in sechs prachtig gestalteten Themenwelten. Troy ist die hochste schnellste und langste Holzachterbahn im gesamten Benelux mit 90 km/h. Booster Bike war 2004 die erste Motorradachterbahn der Welt. Der Park ist ganzjahrig geoffnet.",
+      "it": "Toverland e il parco divertimenti piu amato e in piu rapida crescita dei Paesi Bassi — un mondo magico e immersivo nel verde paesaggio di Sevenum nel Limburgo settentrionale. Fondato nel 2001 come modesto parco avventura al chiuso, Toverland e cresciuto fino a diventare uno dei parchi divertimenti piu ambiziosi e ben tematizzati del Benelux con oltre 40 attrazioni in sei mondi tematici magnificamente progettati. Troy e la montagna russa in legno piu alta veloce e lunga dell'intero Benelux raggiungendo 90 km/h. Booster Bike e stata la prima montagna russa motocicletta al mondo nel 2004.",
+      "nl": "Toverland is het meest geliefde en snelst groeiende attractiepark van Nederland — een magische meeslepende wereld in het groene landschap van Sevenum in Noord-Limburg. Opgericht in 2001 als bescheiden indoor avonturenpark is Toverland uitgegroeid tot een van de meest ambitieuze en prachtig vormgegeven pretparken in de gehele Benelux met meer dan 40 attracties verdeeld over zes magnifiek ontworpen themawerelden. Troy is de hoogste snelste en langste houten achtbaan in de gehele Benelux en bereikt 90 km/h. Booster Bike was in 2004 's werelds eerste motorfietsenachtbaan. Het park is het hele jaar geopend.",
+      "pt": "Toverland e o parque de diversoes mais querido e de mais rapido crescimento dos Paises Baixos — um mundo magico e imersivo na paisagem verdejante de Sevenum no norte de Limburgo. Fundado em 2001 como modesto parque de aventura interior, Toverland cresceu ate se tornar um dos parques de diversoes mais ambiciosos e bem tematizados do Benelux com mais de 40 atracoes em seis mundos tematicos magnificamente concebidos. Troy e a montanha-russa de madeira mais alta rapida e longa de todo o Benelux atingindo 90 km/h. Booster Bike foi a primeira montanha-russa de mota do mundo em 2004.",
+      "ru": "Toverland — самый любимый и быстро растущий тематический парк Нидерландов — волшебный захватывающий мир в зелёном ландшафте Северного Лимбурга. Основанный в 2001 году как скромный крытый приключенческий парк, Toverland вырос в один из самых амбициозных и красиво оформленных парков развлечений Бенилюкса с более чем 40 аттракционами в шести великолепно спроектированных тематических мирах. Troy — самые высокие, быстрые и длинные деревянные американские горки во всём Бенилюксе, развивающие скорость 90 км/ч. Booster Bike в 2004 году стали первыми в мире горками на мотоцикле. Парк открыт круглый год.",
+      "zh": "托弗兰德是荷兰最受喜爱、增长最快的主题乐园——位于北林堡省塞韦纳姆郁郁葱葱的绿色景观中，是一个神奇而身临其境的世界。2001年作为一个小型室内冒险公园创立，托弗兰德已成长为比荷卢地区最有雄心和精美主题的游乐园之一，拥有六个宏伟主题世界中的40多个项目。特洛伊是整个比荷卢地区最高、最快、最长的木质过山车，时速达90公里。助推摩托车在2004年是世界上第一辆摩托车过山车。公园全年开放。",
+      "ar": "توفرلاند هو متنزه الترفيه الاكثر شعبية والاسرع نموا في هولندا — عالم ساحر وغامر في المناظر الخضراء لمقاطعة ليمبورغ الشمالية. تاسس عام 2001 كمتنزه مغامرات داخلي متواضع ونما ليصبح واحدا من اكثر متنزهات الترفيه طموحا وجمالا في منطقة بنيلوكس مع اكثر من 40 جاذبية في ستة عوالم موضوعية مصممة بروعة. تروي هي اطول واسرع وابطأ ترين خشبي في بنيلوكس بالكامل بسرعة 90 كم/ساعة. بوستر بايك كان اول اوتوستراد دراجة نارية في العالم عام 2004. المتنزه مفتوح طوال العام."
+    },
+    "ov_highlights_body": {
+      "en": "Troy is the crown jewel — the tallest, fastest wooden coaster in the Benelux at 90 km/h with relentless airtime and banking turns. Fenix, the B&M Wing Coaster, soars 40 metres above Avalon delivering four inversions with nothing below your feet. Booster Bike, the world's first motorbike coaster, launches from 0 to 75 km/h in 3 seconds. The entire Avalon themed world is one of Europe's most beautifully realised theme park environments. Merlin's Quest boat ride takes guests through a stunning atmospheric recreation of Arthurian legend. The Dwervelwind and Dragon's Fury spinning coasters deliver family thrills. The Winter Feelings season transforms the entire park into a Christmas wonderland. And for the youngest guests, Land van Toos and Toos-Express provide perfect gentle introductions to the magic of Toverland.",
+      "es": "Troy es la joya de la corona — la montana rusa de madera mas alta y rapida del Benelux a 90 km/h. Fenix el Wing Coaster de B&M se eleva 40 metros sobre Avalon con cuatro inversiones. Booster Bike lanza de 0 a 75 km/h en 3 segundos. El mundo tematico Avalon es uno de los entornos mas hermosos de Europa. Merlin's Quest lleva a los visitantes por una recreacion atmosferica de la leyenda arthurica. La temporada Winter Feelings transforma el parque en un paraiso navideno.",
+      "fr": "Troy est le joyau de la couronne — la montagnes russes en bois la plus haute et la plus rapide du Benelux a 90 km/h. Fenix le Wing Coaster de B&M s'eleve a 40 metres au-dessus d'Avalon avec quatre inversions. Booster Bike lance de 0 a 75 km/h en 3 secondes. Le monde thematique Avalon est l'un des environnements de parc les plus beaux d'Europe. La saison Winter Feelings transforme le parc en paradis de Noel.",
+      "de": "Troy ist das Kronjuwel — die hochste schnellste Holzachterbahn im Benelux bei 90 km/h. Fenix der B&M Wing Coaster erhebt sich 40 Meter uber Avalon mit vier Inversionen. Booster Bike beschleunigt in 3 Sekunden von 0 auf 75 km/h. Die Themenwelt Avalon ist eine der schonsten Parkumgebungen Europas. Die Winter Feelings Saison verwandelt den Park in ein Weihnachtswunderland.",
+      "it": "Troy e il gioiello della corona — la montagna russa in legno piu alta e veloce del Benelux a 90 km/h. Fenix il Wing Coaster di B&M si eleva a 40 metri sopra Avalon con quattro inversioni. Booster Bike accelera da 0 a 75 km/h in 3 secondi. Il mondo tematico Avalon e uno dei piu belli d'Europa. La stagione Winter Feelings trasforma il parco in un paradiso natalizio.",
+      "nl": "Troy is het kronjuweel — de hoogste snelste houten achtbaan in de Benelux bij 90 km/h. Fenix de B&M Wing Coaster rijst 40 meter boven Avalon uit met vier inversies. Booster Bike accelereert in 3 seconden van 0 naar 75 km/h. De themawereld Avalon is een van de mooiste parkomgevingen van Europa. Het Winter Feelings seizoen verandert het park in een kerstwonderland.",
+      "pt": "Troy e a joia da coroa — a montanha-russa de madeira mais alta e rapida do Benelux a 90 km/h. Fenix o Wing Coaster da B&M eleva-se 40 metros acima de Avalon com quatro inversoes. Booster Bike acelera de 0 a 75 km/h em 3 segundos. O mundo tematico Avalon e um dos mais belos da Europa. A temporada Winter Feelings transforma o parque num paraiso de Natal.",
+      "ru": "Troy — жемчужина парка: самые высокие и быстрые деревянные горки в Бенилюксе со скоростью 90 км/ч. Fenix — Wing Coaster от B&M — взмывает на 40 метров над Авалоном с четырьмя инверсиями. Booster Bike разгоняется с 0 до 75 км/ч за 3 секунды. Тематический мир Avalon — одна из красивейших парковых сред Европы. Сезон Winter Feelings превращает весь парк в рождественский рай.",
+      "zh": "特洛伊是皇冠上的明珠——比荷卢地区最高、最快的木质过山车，时速90公里。芬尼克斯B&M翼式过山车高耸在阿瓦隆上方40米，有四个翻转。助推摩托车在3秒内从0加速到75公里每小时。阿瓦隆主题世界是欧洲最美丽的公园环境之一。冬季情怀季节将整个公园变成圣诞仙境。",
+      "ar": "تروي هي جوهرة التاج — اطول واسرع ترين خشبي في بنيلوكس بسرعة 90 كم/ساعة. فينيكس Wing Coaster من B&M يحلق 40 مترا فوق افالون مع اربع انقلابات. بوستر بايك يسرع من 0 الى 75 كم/ساعة في 3 ثوان. عالم افالون الموضوعي هو واحد من ابدع بيئات المنتزهات في اوروبا. موسم Winter Feelings يحول المتنزه الى جنة عيد الميلاد."
+    },
+    "ov_did_you_know_body": {
+      "en": "Toverland started life in 2001 as an entirely indoor theme park in a large hall — making it one of the very few theme parks in the world originally built under a roof. The park's transformation into an outdoor park began in 2004 with the opening of Booster Bike, the world's first motorbike roller coaster, which won the Best Idea Award at the Euro Amusement Show in Paris. Troy, the park's signature wooden coaster, reaches speeds of 90 km/h and is still considered one of the finest wooden coasters ever built in Europe. The 2018 Avalon expansion cost tens of millions of euros and included Fenix, which at 40 metres became the tallest ride in the park. Toverland is entirely family-owned and operated by the Gelissen family, giving it a personal warmth that larger corporate parks often lack. The park's beloved mascot Merlin the Wizard and his apprentice Arlene appear throughout the park in shows, meet-and-greets and seasonal events.",
+      "es": "Toverland comenzo en 2001 como un parque tematico completamente interior — uno de los pocos del mundo construidos originalmente bajo techo. La transformacion en parque exterior comenzo en 2004 con Booster Bike la primera montana rusa de moto del mundo ganadora del Premio a la Mejor Idea en Paris. Troy alcanza 90 km/h y sigue siendo uno de los mejores montanas rusas de madera de Europa. La expansion Avalon de 2018 incluyo Fenix de 40 metros. Toverland es de propiedad y operacion familiar por la familia Gelissen.",
+      "fr": "Toverland a commence en 2001 comme un parc d'attractions entierement interieur — l'un des rares au monde construits a l'origine sous un toit. La transformation en parc exterieur a commence en 2004 avec Booster Bike premier montagnes russes moto au monde gagnant le Prix de la Meilleure Idee a Paris. Troy atteint 90 km/h et reste l'une des meilleures montagnes russes en bois d'Europe. L'expansion Avalon de 2018 comprenait Fenix de 40 metres. Toverland appartient a la famille Gelissen.",
+      "de": "Toverland begann 2001 als vollstandig uberdachter Freizeitpark — einer der wenigen der Welt die ursprunglich unter einem Dach gebaut wurden. Die Umwandlung in einen Aussenpark begann 2004 mit Booster Bike der ersten Motorradachterbahn der Welt Gewinner des Besten Ideen-Preises in Paris. Troy erreicht 90 km/h und gilt als eine der feinsten Holzachterbahnen Europas. Die Avalon-Erweiterung von 2018 umfasste das 40 Meter hohe Fenix. Toverland ist im Familienbesitz der Familie Gelissen.",
+      "it": "Toverland e iniziato nel 2001 come parco a tema completamente al coperto — uno dei pochi al mondo costruiti originariamente sotto un tetto. La trasformazione in parco esterno e iniziata nel 2004 con Booster Bike la prima montagna russa motocicletta del mondo vincitrice del Premio Migliore Idea a Parigi. Troy raggiunge 90 km/h ed e ancora considerata una delle piu belle montagne russe in legno d'Europa. L'espansione Avalon del 2018 includeva Fenix di 40 metri. Toverland e di proprieta familiare della famiglia Gelissen.",
+      "nl": "Toverland begon in 2001 als een volledig overdekt pretpark — een van de weinige ter wereld die oorspronkelijk onder een dak zijn gebouwd. De omvorming tot buitenpark begon in 2004 met Booster Bike 's werelds eerste motorfietsachtbaan winnaar van de Beste Idee Prijs in Parijs. Troy bereikt 90 km/h en wordt nog steeds beschouwd als een van de mooiste houten achtbanen ooit in Europa gebouwd. De Avalon-uitbreiding van 2018 omvatte het 40 meter hoge Fenix. Toverland is volledig familiebezit van de familie Gelissen.",
+      "pt": "Toverland comecou em 2001 como um parque tematico completamente interior — um dos poucos no mundo construidos originalmente sob um telhado. A transformacao num parque exterior comecou em 2004 com Booster Bike a primeira montanha-russa de mota do mundo vencedora do Premio de Melhor Ideia em Paris. Troy atinge 90 km/h e e considerada uma das melhores montanhas-russas de madeira da Europa. A expansao Avalon de 2018 incluiu o Fenix de 40 metros. Toverland e de propriedade familiar da familia Gelissen.",
+      "ru": "Toverland начинал в 2001 году как полностью крытый тематический парк — один из немногих в мире, изначально построенных под крышей. Преобразование в открытый парк началось в 2004 году с Booster Bike — первых в мире горок на мотоцикле, победителей премии «Лучшая идея» в Париже. Troy развивает 90 км/ч и считается одними из лучших деревянных горок Европы. Расширение Avalon 2018 года включало 40-метровый Fenix. Toverland находится в собственности семьи Gelissen.",
+      "zh": "托弗兰德于2001年作为完全室内主题乐园起步——是世界上少数几个最初建于屋顶下的主题乐园之一。2004年随着助推摩托车的开放，向户外公园的转型开始，这是世界上第一辆摩托车过山车，赢得了巴黎最佳创意奖。特洛伊达到90公里每小时的速度，至今仍被认为是欧洲有史以来建造的最好的木质过山车之一。2018年阿瓦隆扩建包括40米高的芬尼克斯。托弗兰德完全是格利森家族的家族所有和经营。",
+      "ar": "بدأ توفرلاند عام 2001 كمتنزه ترفيه مغطى بالكامل — واحد من القليل في العالم الذي بني اصلا تحت سقف. بدأ التحول الى متنزه خارجي عام 2004 مع بوستر بايك اول اوتوستراد دراجة نارية في العالم الفائز بجائزة افضل فكرة في باريس. يصل تروي الى 90 كم/ساعة ولا يزال يعتبر واحدا من افضل قطارات التلال الخشبية في اوروبا. شمل توسع افالون 2018 فينيكس البالغ ارتفاعه 40 مترا. توفرلاند مملوك بالكامل لعائلة غيليسن."
+    },
+    "ov_plan_body": {
+      "en": "Arrive early and go straight to Troy — it draws the park's longest queues and is best experienced before 10:30am. Then head immediately to Fenix in Avalon before that queue builds. Booster Bike in the afternoon when Troy and Fenix queues have settled. Merlin's Quest is a must-do at any time of day — queue rarely exceeds 20 minutes. For families with young children, start in Land van Toos where queues are shortest early in the morning. The Flaming Feather is the best lunch spot in the park — book a table if possible or arrive at 11:30am before the lunch rush. If visiting in winter, the Winter Feelings evening programme is spectacular and worth staying for. Download the Toverland app to check live wait times. Parking is available directly at the park.",
+      "es": "Llega temprano y ve directamente a Troy — tiene las colas mas largas y es mejor antes de las 10:30. Luego ve a Fenix en Avalon antes de que la cola crezca. Booster Bike por la tarde. Merlin's Quest es imprescindible. Para familias con ninos pequenos empieza en Land van Toos. The Flaming Feather es el mejor almuerzo del parque. Si visitas en invierno el programa vespertino Winter Feelings es espectacular.",
+      "fr": "Arrivez tot et allez directement a Troy — il a les queues les plus longues et est mieux experience avant 10h30. Puis direction Fenix dans Avalon avant que la queue ne grossisse. Booster Bike l'apres-midi. Merlin's Quest est incontournable. Pour les familles avec jeunes enfants commencez dans Land van Toos. The Flaming Feather est le meilleur dejeuner du parc. En hiver le programme vesperal Winter Feelings est spectaculaire.",
+      "de": "Kommen Sie fruh und gehen Sie direkt zu Troy — er hat die langsten Warteschlangen und wird am besten vor 10:30 Uhr erlebt. Dann zu Fenix in Avalon bevor sich die Schlange aufbaut. Booster Bike am Nachmittag. Merlin's Quest ist ein Muss. Fur Familien mit kleinen Kindern beginnen Sie in Land van Toos. The Flaming Feather ist das beste Mittagessen im Park. Im Winter ist das Abendprogramm Winter Feelings spektakuler.",
+      "it": "Arriva presto e vai direttamente a Troy — ha le code piu lunghe ed e meglio vissuto prima delle 10:30. Poi a Fenix in Avalon prima che la coda cresca. Booster Bike nel pomeriggio. Merlin's Quest e imprescindibile. Per famiglie con bambini piccoli inizia in Land van Toos. The Flaming Feather e il miglior pranzo del parco. In inverno il programma serale Winter Feelings e spettacolare.",
+      "nl": "Kom vroeg aan en ga direct naar Troy — hij heeft de langste wachtrijen en wordt het best beleefd voor 10:30 uur. Dan naar Fenix in Avalon voordat de rij opbouwt. Booster Bike in de middag. Merlin's Quest is een aanrader. Voor gezinnen met jonge kinderen begin in Land van Toos. The Flaming Feather is de beste lunch in het park. In de winter is het avondprogramma Winter Feelings spectaculair.",
+      "pt": "Chega cedo e vai diretamente ao Troy — tem as filas mais longas e e melhor experimentado antes das 10:30. Depois vai ao Fenix em Avalon antes que a fila cresça. Booster Bike de tarde. Merlin's Quest e imperdivel. Para familias com criancas pequenas comeca em Land van Toos. The Flaming Feather e o melhor almoco do parque. No inverno o programa vespertino Winter Feelings e espetacular.",
+      "ru": "Приходите рано и сразу идите к Troy — там самые длинные очереди, лучше всего кататься до 10:30. Затем сразу к Fenix в Авалоне, пока очередь не выросла. Booster Bike лучше послеобеденное время. Merlin's Quest — обязательно. Для семей с маленькими детьми начните в Land van Toos. The Flaming Feather — лучший обед в парке. Зимой вечерняя программа Winter Feelings великолепна.",
+      "zh": "早到，直奔特洛伊——它的队伍最长，最好在上午10:30前体验。然后立即前往阿瓦隆的芬尼克斯，趁队伍还没排长。助推摩托车下午去。梅林的任务任何时候都值得一去。带小朋友的家庭，早晨先从托斯之地开始，那里队伍最短。熊熊火羽是公园里最好的午餐地点。如果冬季来访，冬季情怀的夜间节目非常壮观。",
+      "ar": "وصل مبكرا واذهب مباشرة الى تروي — له اطول طوابير ويفضل تجربته قبل الساعة 10:30. ثم اذهب مباشرة الى فينيكس في افالون قبل ان يطول الطابور. بوستر بايك في بعد الظهر. رحلة ميرلين لا تفوتها. للعائلات مع الاطفال الصغار ابدا في لاند فان توس. ذا فلامينج فيذر افضل غداء في المتنزه. في الشتاء برنامج Winter Feelings المسائي رائع."
+    },
+    "ov_photos_body": {
+      "en": "The iconic view from below Fenix as it banks over the Avalon castle is one of the most photographed theme park images in the Netherlands. Troy's first drop through the wooden structure creates dramatic action shots from the dedicated photo spots along the track. The full Avalon castle landscape at dusk with Fenix flying overhead is breathtaking. The Katara water show in the Magische Vallei provides spectacular water and light photography opportunities. The Winter Feelings decorations create magical golden-lit photographs of the entire park. Merlin's Quest exit through the waterfall offers perfect candid family photographs.",
+      "es": "La vista iconica desde abajo de Fenix mientras vira sobre el castillo de Avalon es una de las imagenes de parque tematico mas fotografiadas de los Paises Bajos. La primera caida de Troy crea dramaticas fotos de accion. El paisaje completo del castillo Avalon al anochecer es impresionante. El espectaculo de agua Katara ofrece oportunidades fotograficas espectaculares. Las decoraciones Winter Feelings crean fotos magicas.",
+      "fr": "La vue iconique depuis le bas de Fenix alors qu'il vire au-dessus du chateau d'Avalon est l'une des images de parc d'attractions les plus photographiees des Pays-Bas. La premiere descente de Troy cree des photos d'action dramatiques. Le paysage complet du chateau Avalon au crepuscule est epoustouflant. Le spectacle aquatique Katara offre des opportunites photographiques spectaculaires.",
+      "de": "Die ikonische Ansicht von unten auf Fenix als es uber das Avalon-Schloss schwebt ist eines der meistfotografierten Freizeitparkbilder der Niederlande. Troys erster Sturz durch die Holzkonstruktion schafft dramatische Aktionsfotos. Die vollstandige Avalon-Schlosslandschaft in der Abenddammerung ist atemberaubend. Die Katara-Wassershow bietet spektakulare Fotomoglichkeiten.",
+      "it": "La vista iconica dal basso di Fenix mentre vira sopra il castello di Avalon e una delle immagini di parco divertimenti piu fotografate nei Paesi Bassi. La prima discesa di Troy crea spettacolari foto d'azione. Il paesaggio completo del castello Avalon al crepuscolo e mozzafiato. Lo spettacolo acquatico Katara offre opportunita fotografiche spettacolari.",
+      "nl": "Het iconische uitzicht van onderaf op Fenix terwijl het over het Avalon kasteel zweeft is een van de meest gefotografeerde pretparkbeelden van Nederland. Troys eerste daling door de houten structuur creert dramatische actiefoto's. Het volledige Avalon kasteel landschap bij schemering is adembenemend. De Katara watershow biedt spectaculaire fotografische mogelijkheden.",
+      "pt": "A vista iconica de baixo de Fenix enquanto vira sobre o castelo de Avalon e uma das imagens de parque de diversoes mais fotografadas dos Paises Baixos. A primeira descida de Troy cria dramaticas fotos de acao. A paisagem completa do castelo Avalon ao crepusculo e impressionante. O espetaculo de agua Katara oferece oportunidades fotograficas espetaculares.",
+      "ru": "Культовый вид снизу на Fenix, когда он разворачивается над замком Авалона — один из самых фотографируемых парковых образов в Нидерландах. Первое падение Troy через деревянную конструкцию создаёт драматичные экшн-снимки. Полный пейзаж замка Авалона в сумерках захватывает дух. Водное шоу Katara предоставляет великолепные фотографические возможности.",
+      "zh": "芬尼克斯在阿瓦隆城堡上方盘旋时从下方望去的标志性景色，是荷兰最受拍摄的主题公园图像之一。特洛伊穿越木结构的第一个下坡创造戏剧性的动作照片。黄昏时分完整的阿瓦隆城堡景观令人叹为观止。卡塔拉水上秀提供壮观的摄影机会。冬季情怀装饰创造整个公园的神奇金色灯光照片。",
+      "ar": "المنظر الايقوني من اسفل فينيكس وهو ينعطف فوق قلعة افالون هو واحد من اكثر صور متنزهات الترفيه تصويرا في هولندا. اول انحدار تروي عبر الهيكل الخشبي يخلق صور عمل درامية. المشهد الكامل لقلعة افالون عند الغسق رائع الجمال. عرض الماء كاتارا يوفر فرص تصوير رائعة."
+    }
+  },
+  "attractions": {
+    "troy": {
+      "desc": {
+        "en": "The tallest, fastest wooden coaster in the Benelux — 32m high, 90 km/h, inspired by the legend of the Trojan Horse. One of Europe's finest wooden coasters.",
+        "es": "La montana rusa de madera mas alta y rapida del Benelux — 32m de altura, 90 km/h, inspirada en la leyenda del Caballo de Troya. Una de las mejores de Europa.",
+        "fr": "La montagnes russes en bois la plus haute et la plus rapide du Benelux — 32m de hauteur, 90 km/h, inspiree de la legende du Cheval de Troie. Une des meilleures d'Europe.",
+        "de": "Die hochste schnellste Holzachterbahn im Benelux — 32m hoch, 90 km/h, inspiriert von der Legende des Trojanischen Pferdes. Eine der besten Europas.",
+        "it": "La montagna russa in legno piu alta e veloce del Benelux — 32m di altezza, 90 km/h, ispirata alla leggenda del Cavallo di Troia. Una delle migliori d'Europa.",
+        "nl": "De hoogste snelste houten achtbaan in de Benelux — 32m hoog, 90 km/h, geïnspireerd op de legende van het Paard van Troje. Een van de beste van Europa.",
+        "pt": "A montanha-russa de madeira mais alta e rapida do Benelux — 32m de altura, 90 km/h, inspirada na lenda do Cavalo de Troia. Uma das melhores da Europa.",
+        "ru": "Самая высокая и быстрая деревянная горка в Бенилюксе — 32м высотой, 90 км/ч, вдохновлённая легендой о Троянском коне. Одна из лучших в Европе.",
+        "zh": "比荷卢地区最高最快的木质过山车——高32米，时速90公里，以特洛伊木马传说为灵感。欧洲最佳木质过山车之一。",
+        "ar": "اطول واسرع ترين خشبي في بنيلوكس — ارتفاع 32م، 90 كم/ساعة، مستوحى من اسطورة حصان طروادة. واحد من افضل ارجاء اوروبا."
+      }
+    },
+    "fenix": {
+      "desc": {
+        "en": "A spectacular B&M Wing Coaster soaring 40m above Avalon with four inversions — riders sit beyond both sides of the track with nothing below their feet for the sensation of true flight.",
+        "es": "Un espectacular Wing Coaster de B&M que se eleva 40m sobre Avalon con cuatro inversiones — los riders se sientan mas alla de ambos lados de la via sin nada debajo de los pies.",
+        "fr": "Un spectaculaire Wing Coaster de B&M s'elevant a 40m au-dessus d'Avalon avec quatre inversions — les riders s'assoient au-dela des deux cotes de la voie sans rien sous les pieds.",
+        "de": "Ein spektakularer B&M Wing Coaster der sich 40m uber Avalon erhebt mit vier Inversionen — Fahrer sitzen jenseits beider Seiten des Gleises ohne etwas unter den Fussen.",
+        "it": "Uno spettacolare Wing Coaster di B&M che si eleva a 40m sopra Avalon con quattro inversioni — i rider siedono oltre entrambi i lati del binario senza niente sotto i piedi.",
+        "nl": "Een spectaculaire B&M Wing Coaster die 40m boven Avalon rijst met vier inversies — reizigers zitten voorbij beide zijden van het spoor zonder iets onder hun voeten.",
+        "pt": "Um espetacular Wing Coaster da B&M elevando-se a 40m acima de Avalon com quatro inversoes — os riders sentam-se alem de ambos os lados da via sem nada debaixo dos pes.",
+        "ru": "Захватывающий Wing Coaster от B&M, взмывающий на 40м над Авалоном с четырьмя инверсиями — гости сидят по обе стороны рельса без ничего под ногами.",
+        "zh": "壮观的B&M翼式过山车，高耸在阿瓦隆上方40米，有四个翻转——乘客坐在轨道两侧之外，脚下什么都没有，感受真正飞翔的感觉。",
+        "ar": "Wing Coaster رائع من B&M يحلق على ارتفاع 40م فوق افالون مع اربع انقلابات — الركاب يجلسون خارج كلا جانبي المسار دون شيء تحت اقدامهم."
+      }
+    },
+    "booster_bike": {
+      "desc": {
+        "en": "The world's first motorbike roller coaster — a Vekoma launch coaster accelerating from 0 to 75 km/h in 3 seconds on motorbike-styled seats. A piece of theme park history.",
+        "es": "La primera montana rusa de moto del mundo — un lanzador Vekoma que acelera de 0 a 75 km/h en 3 segundos en asientos estilo moto. Una pieza de la historia de los parques tematicos.",
+        "fr": "La premiere montagnes russes moto au monde — un lanceur Vekoma accelerant de 0 a 75 km/h en 3 secondes sur des sieges style moto. Une piece d'histoire des parcs a themes.",
+        "de": "Die weltweit erste Motorradachterbahn — ein Vekoma-Launcher der in 3 Sekunden von 0 auf 75 km/h beschleunigt auf Motorrad-Sitzen. Ein Stuck Freizeitparkgeschichte.",
+        "it": "La prima montagna russa motocicletta del mondo — un lanciatore Vekoma che accelera da 0 a 75 km/h in 3 secondi su sedili stile moto. Un pezzo di storia dei parchi a tema.",
+        "nl": "De eerste motorfietsenachtbaan ter wereld — een Vekoma launcher die in 3 seconden versnelt van 0 naar 75 km/h op motorfiets-gestileerde zitplaatsen. Een stuk attractieparkgeschiedenis.",
+        "pt": "A primeira montanha-russa de mota do mundo — um lancador Vekoma acelerando de 0 a 75 km/h em 3 segundos em assentos estilo mota. Uma peca da historia dos parques tematicos.",
+        "ru": "Первые в мире горки на мотоцикле — запускной аттракцион Vekoma, разгоняющийся с 0 до 75 км/ч за 3 секунды на сиденьях в стиле мотоцикла. Кусочек истории тематических парков.",
+        "zh": "世界上第一辆摩托车过山车——Vekoma发射式过山车，在摩托车风格座椅上3秒内从0加速到75公里每小时。主题公园历史的一部分。",
+        "ar": "اول اوتوستراد دراجة نارية في العالم — مقذوفة فيكوما تسرع من 0 الى 75 كم/ساعة في 3 ثوان على مقاعد بتصميم دراجة نارية. قطعة من تاريخ متنزهات الترفيه."
+      }
+    },
+    "dwervelwind": {
+      "desc": {
+        "en": "A unique spinning family coaster in the Wunderwald forest where individual cars rotate freely, making every ride completely different. Great family thrills with older children.",
+        "es": "Una unica montana rusa familiar giratoria en el bosque Wunderwald donde los coches individuales giran libremente haciendo cada viaje completamente diferente.",
+        "fr": "Un montagnes russes familiales tournantes uniques dans la foret Wunderwald ou les wagons individuels tournent librement rendant chaque trajet completement different.",
+        "de": "Eine einzigartige Familien-Drehachterbahn im Wunderwald wo einzelne Wagen sich frei drehen und jede Fahrt vollig anders macht.",
+        "it": "Una unica montagna russa familiare rotante nel bosco Wunderwald dove i carrelli individuali ruotano liberamente rendendo ogni giro completamente diverso.",
+        "nl": "Een unieke draaiende familieachtbaan in het Wunderwald bos waar individuele wagentjes vrij ronddraaien waardoor elke rit compleet anders is.",
+        "pt": "Uma unica montanha-russa familiar giratoria no floresta Wunderwald onde os carros individuais rodam livremente tornando cada viagem completamente diferente.",
+        "ru": "Уникальные вращающиеся семейные горки в лесу Wunderwald, где отдельные вагончики свободно вращаются, делая каждую поездку совершенно другой.",
+        "zh": "旺德瓦尔德森林中独特的旋转家庭过山车，个别车厢自由旋转，使每次乘坐完全不同。",
+        "ar": "ترين عائلي دوار فريد في غابة Wunderwald حيث تدور السيارات الفردية بحرية مما يجعل كل رحلة مختلفة تماما."
+      }
+    },
+    "dragons_fury": {
+      "desc": {
+        "en": "A fast spinning coaster themed to dragons delivering exciting twists and unpredictable rotations — accessible family thrills with genuine coaster excitement.",
+        "es": "Una montana rusa giratoria rapida tematizada con dragones que ofrece emocionantes giros y rotaciones impredecibles.",
+        "fr": "Un montagnes russes tournantes rapides thematises aux dragons offrant des twists excitants et des rotations imprevisibles.",
+        "de": "Eine schnelle Drehachterbahn mit Drachen-Thema die aufregende Kurven und unvorhersehbare Drehungen bietet.",
+        "it": "Una montagna russa rotante veloce a tema drago con emozionanti giri e rotazioni imprevedibili.",
+        "nl": "Een snelle draaiende achtbaan met drakenthema die opwindende draaien en onvoorspelbare rotaties biedt.",
+        "pt": "Uma montanha-russa giratoria rapida tematizada com dragoes oferecendo giros emocionantes e rotacoes imprevisiveis.",
+        "ru": "Быстрые вращающиеся горки с тематикой дракона, доставляющие увлекательные повороты и непредсказуемые вращения.",
+        "zh": "以龙为主题的快速旋转过山车，带来令人兴奋的扭转和不可预测的旋转——适合家庭的真实过山车刺激。",
+        "ar": "ترين دوار سريع بموضوع التنانين يقدم التواءات مثيرة ودورانا غير متوقعا."
+      }
+    },
+    "maximus_blitz": {
+      "desc": {
+        "en": "An electric bobkart track winding indoors and outdoors through Ithaka — fast-paced racing in individual karts. Enjoy it while it lasts — a new attraction will eventually replace it.",
+        "es": "Una pista de bobkart electrica que serpentea por interiores y exteriores de Ithaka — carreras rapidas en karts individuales. Disfrutalo mientras dura.",
+        "fr": "Une piste de bobkart electrique serpentant en interieur et exterieur a travers Ithaka — des courses rapides dans des karts individuels. Profitez-en tant que c'est possible.",
+        "de": "Eine elektrische Bobkart-Bahn die drinnen und draussen durch Ithaka windet — schnelles Fahren in individuellen Karts. Geniessen Sie es solange es noch da ist.",
+        "it": "Una pista di bobkart elettrica che si snoda in interno ed esterno attraverso Ithaka — corse veloci in kart individuali. Goditela finche dura.",
+        "nl": "Een elektrische bobkartbaan die binnen en buiten door Ithaka kronkelt — snel racen in individuele karts. Geniet ervan zolang het duurt.",
+        "pt": "Uma pista de bobkart eletrico que serpenteia no interior e exterior por Ithaka — corridas rapidas em karts individuais. Aproveite enquanto dura.",
+        "ru": "Электрическая трасса для боб-картов, петляющая внутри и снаружи через Итаку — быстрые гонки в индивидуальных картах. Наслаждайтесь, пока он работает.",
+        "zh": "穿越伊萨卡室内外蜿蜒的电动雪橇卡丁车赛道——在个人卡丁车中进行快节奏竞速。趁还在时享受它。",
+        "ar": "مسار بوبكارت كهربائي يتعرج داخل وخارج ايثاكا — سباق سريع في كارتات فردية. استمتع به طالما هو موجود."
+      }
+    },
+    "scorpios": {
+      "desc": {
+        "en": "A giant swinging ship in Port Laguna tilting to 75 degrees — one of the most intense non-coaster thrills at Toverland. Front and back rows deliver powerful negative g-forces.",
+        "es": "Un barco gigante oscilante en Port Laguna inclinandose hasta 75 grados — uno de los entretenimientos mas intensos de Toverland. Las filas delantera y trasera ofrecen potentes fuerzas g negativas.",
+        "fr": "Un navire oscillant geant dans Port Laguna s'inclinant a 75 degres — l'une des sensations les plus intenses de Toverland. Les rangees avant et arriere delivrent de puissantes forces g negatives.",
+        "de": "Ein riesiges Schaukelschiff in Port Laguna das sich bis zu 75 Grad neigt — einer der intensivsten Nichtachterbahn-Thrills in Toverland. Vordere und hintere Reihen bieten starke negative g-Krafte.",
+        "it": "Una nave oscillante gigante in Port Laguna che si inclina fino a 75 gradi — uno dei brividi non-coaster piu intensi di Toverland.",
+        "nl": "Een reusachtig schommelschip in Port Laguna dat kantelt tot 75 graden — een van de meest intense niet-achtbaan thrills in Toverland.",
+        "pt": "Um navio oscilante gigante em Port Laguna inclinando-se ate 75 graus — um dos brinquedos mais intensos sem montanha-russa em Toverland.",
+        "ru": "Гигантский качающийся корабль в Port Laguna, наклоняющийся на 75 градусов — один из самых интенсивных аттракционов Toverland не на горках.",
+        "zh": "拉古纳港的巨型摇摆船，倾斜角度达75度——托弗兰德最激烈的非过山车刺激项目之一。",
+        "ar": "سفينة تأرجح عملاقة في بورت لاغونا تميل حتى 75 درجة — واحدة من اكثر ركوبات توفرلاند اثارة غير القطار."
+      }
+    },
+    "pixarus": {
+      "desc": {
+        "en": "A thrilling launch and freefall tower in Avalon — riders are shot upward then dropped back down in a stomach-dropping plunge against the backdrop of the Avalon castle.",
+        "es": "Una torre de lanzamiento y caida libre en Avalon — los riders son disparados hacia arriba y luego caen en una caida que revuelve el estomago.",
+        "fr": "Une tour de lancement et de chute libre dans Avalon — les riders sont propulses vers le haut puis tombes en un plongeon qui chavire l'estomac.",
+        "de": "Ein aufregender Start- und Freifall-Turm in Avalon — Fahrer werden nach oben geschossen und dann in einem magenverkehrenden Sturz fallen gelassen.",
+        "it": "Una torre di lancio e caduta libera in Avalon — i rider vengono sparati verso l'alto e poi fatti cadere in un tuffo che capovolge lo stomaco.",
+        "nl": "Een spannende lanceer- en vrije valtoren in Avalon — reizigers worden omhoog geschoten en dan naar beneden laten vallen in een maagomkerende duik.",
+        "pt": "Uma torre de lancamento e queda livre em Avalon — os riders sao lancados para cima e depois caem numa mergulho que vira o estomago.",
+        "ru": "Захватывающая башня запуска и свободного падения в Авалоне — гостей стреляют вверх, а затем опускают в захватывающее падение.",
+        "zh": "阿瓦隆的刺激发射和自由落体塔——乘客被向上射出，然后以令胃翻腾的方式落下，背景是阿瓦隆城堡。",
+        "ar": "برج اطلاق وسقوط حر في افالون — الركاب يطلقون للاعلى ثم يسقطون في غطسة تقلب المعدة."
+      }
+    },
+    "merlin": {
+      "desc": {
+        "en": "A magical boat ride through the atmospheric world of Avalon past enchanted forests, ruins and Arthurian scenes. Toverland's most beautifully themed and immersive experience.",
+        "es": "Un magico paseo en bote por el mundo atmosferico de Avalon pasando bosques encantados, ruinas y escenas artUricas. La experiencia mas hermosamente tematizada de Toverland.",
+        "fr": "Un magique tour en bateau a travers le monde atmospherique d'Avalon passe des forets enchantees des ruines et des scenes arthuriennes. L'experience la plus magnifiquement thematisee de Toverland.",
+        "de": "Eine magische Bootsfahrt durch die atmospharische Welt von Avalon vorbei an verzauberten Waldern Ruinen und arthurischen Szenen. Toverlands am schonsten gestaltetes Erlebnis.",
+        "it": "Un magico giro in barca attraverso il mondo atmosferico di Avalon passando boschi incantati rovine e scene arturiane. L'esperienza piu magnificamente tematizzata di Toverland.",
+        "nl": "Een magische boottocht door de sfeervolle wereld van Avalon langs betoverde bossen ruines en Arthurische taferelen. Toverlands meest prachtig vormgegeven en meeslepende ervaring.",
+        "pt": "Um magico passeio de barco pelo mundo atmosferico de Avalon passando florestas encantadas ruinas e cenas artUricas. A experiencia mais magnificamente tematizada de Toverland.",
+        "ru": "Волшебное путешествие на лодке через атмосферный мир Авалона мимо зачарованных лесов, руин и артурийских сцен. Самый красиво оформленный опыт Toverland.",
+        "zh": "穿越阿瓦隆大气世界的神奇船游，经过魔法森林、废墟和亚瑟王场景。托弗兰德主题最精美、最身临其境的体验。",
+        "ar": "رحلة قارب سحرية عبر عالم افالون الجوي بجانب غابات مسحورة وانقاض ومشاهد آرثورية. تجربة توفرلاند الاكثر جمالا من الناحية الموضوعية."
+      }
+    },
+    "toos_express": {
+      "desc": {
+        "en": "A charming family coaster in the Land van Toos children's world — a gentle first coaster experience for young guests in a perfectly themed magical environment.",
+        "es": "Una encantadora montana rusa familiar en el mundo infantil Land van Toos — una primera experiencia suave en montana rusa para los jovenes visitantes.",
+        "fr": "Un charmant montagnes russes familiales dans le monde pour enfants Land van Toos — une douce premiere experience de montagnes russes pour les jeunes visiteurs.",
+        "de": "Eine charmante Familienachterbahn in der Kinderwelt Land van Toos — ein sanftes erstes Achterbahnerlenis fur junge Besucher in einer perfekt gestalteten magischen Umgebung.",
+        "it": "Una deliziosa montagna russa familiare nel mondo dei bambini Land van Toos — una dolce prima esperienza su montagna russa per i giovani visitatori.",
+        "nl": "Een charmante familieachtbaan in de kinderwereld Land van Toos — een zachte eerste achtbaanervaring voor jonge bezoekers in een perfect vormgegeven magische omgeving.",
+        "pt": "Uma encantadora montanha-russa familiar no mundo infantil Land van Toos — uma primeira experiencia suave de montanha-russa para jovens visitantes.",
+        "ru": "Очаровательные семейные горки в детском мире Land van Toos — мягкий первый опыт горок для маленьких гостей в идеально оформленной волшебной обстановке.",
+        "zh": "托斯之地儿童世界中迷人的家庭过山车——在完美主题的魔法环境中为年幼访客提供温和的首次过山车体验。",
+        "ar": "ترين عائلي ساحر في عالم الاطفال Land van Toos — تجربة ترين لطيفة اولى للضيوف الصغار في بيئة سحرية ذات موضوع مثالي."
+      }
+    },
+    "land_van_toos": {
+      "desc": {
+        "en": "Toverland's magical children's world filled with gentle rides, climbing structures and interactive play areas all themed around the beloved mascot Toos. Perfect for under-8s.",
+        "es": "El mundo magico infantil de Toverland lleno de atracciones suaves estructuras de escalar y zonas de juego interactivas tematizadas alrededor de la querida mascota Toos. Perfecto para menores de 8 anos.",
+        "fr": "Le monde magique pour enfants de Toverland rempli d'attractions douces de structures d'escalade et de zones de jeu interactives autour de la mascotte bien-aimee Toos. Parfait pour les moins de 8 ans.",
+        "de": "Toverlands magische Kinderwelt gefallt mit sanften Attraktionen Kletterstrukturen und interaktiven Spielbereichen rund um das geliebte Maskottchen Toos. Perfekt fur unter 8-Jahrige.",
+        "it": "Il mondo magico per bambini di Toverland pieno di attrazioni delicate strutture per arrampicarsi e aree giochi interattive intorno alla mascotte amata Toos. Perfetto per i bambini sotto gli 8 anni.",
+        "nl": "Toverlands magische kinderwereld vol zachte attracties klimmstructuren en interactieve speelgebieden rondom het geliefde mascotte Toos. Perfect voor kinderen onder de 8 jaar.",
+        "pt": "O mundo magico infantil de Toverland cheio de atracoes suaves estruturas de escalada e areas de jogo interativas em torno da adorada mascote Toos. Perfeito para menores de 8 anos.",
+        "ru": "Волшебный детский мир Toverland с мягкими аттракционами, лазалками и интерактивными игровыми зонами вокруг любимого талисмана Toos. Идеально для детей до 8 лет.",
+        "zh": "托弗兰德的神奇儿童世界，充满温和游乐设施、攀爬结构和以心爱吉祥物托斯为主题的互动游乐区。非常适合8岁以下儿童。",
+        "ar": "عالم الاطفال السحري لتوفرلاند مليء بالركوبات اللطيفة وهياكل التسلق ومناطق اللعب التفاعلية حول التميمة المحبوبة توس. مثالي لمن هم دون 8 سنوات."
+      }
+    },
+    "avalon": {
+      "desc": {
+        "en": "Toverland's most breathtaking themed world — a fully realised Arthurian kingdom with its own castle, harbour, medieval inn and soaring wing coaster. One of Europe's finest themed areas.",
+        "es": "El mundo tematico mas impresionante de Toverland — un reino arturiano completamente realizado con su propio castillo puerto posada medieval y wing coaster. Una de las mejores areas tematicas de Europa.",
+        "fr": "Le monde thematique le plus epoustouflant de Toverland — un royaume arthurien entierement realise avec son propre chateau port auberge medievale et wing coaster. Une des meilleures zones thematiques d'Europe.",
+        "de": "Toverlands beeindruckendste Themenwelt — ein vollstandig verwirklichtes arthurisches Konigreich mit eigenem Schloss Hafen Mittelalterlicher Herberge und Wing Coaster. Eine der besten Themenbereiche Europas.",
+        "it": "Il mondo tematico piu mozzafiato di Toverland — un regno arturiano completamente realizzato con il proprio castello porto locanda medievale e wing coaster. Una delle migliori aree tematiche d'Europa.",
+        "nl": "Toverlands meest adembenemende themawereld — een volledig gerealiseerd Arthuriaansk koninkrijk met zijn eigen kasteel haven middeleeuwse herberg en wing coaster. Een van de beste themagebieden van Europa.",
+        "pt": "O mundo tematico mais deslumbrante de Toverland — um reino arturiano totalmente realizado com seu proprio castelo porto hospedaria medieval e wing coaster. Uma das melhores areas tematicas da Europa.",
+        "ru": "Самый захватывающий тематический мир Toverland — полностью реализованное Артуровское королевство с собственным замком, гаванью, средневековой таверной и Wing Coaster. Один из лучших тематических районов Европы.",
+        "zh": "托弗兰德最令人叹为观止的主题世界——完全实现的亚瑟王国度，拥有自己的城堡、港口、中世纪客栈和翼式过山车。欧洲最好的主题区之一。",
+        "ar": "عالم توفرلاند الموضوعي الاكثر روعة — مملكة آرثورية متكاملة مع قلعتها الخاصة وميناء ونزل قرون وسطى وترين جناح. واحدة من افضل المناطق الموضوعية في اوروبا."
+      }
+    },
+    "dragon_watch": {
+      "desc": {
+        "en": "An elevated observation gondola offering stunning panoramic views across all of Toverland and the beautiful Limburg countryside. Perfect for getting your bearings and planning your day.",
+        "es": "Una gondola de observacion elevada con impresionantes vistas panoramicas sobre todo Toverland y la hermosa campiña de Limburgo. Perfecta para orientarse y planificar el dia.",
+        "fr": "Une gondole d'observation elevee offrant de superbes vues panoramiques sur tout Toverland et la belle campagne du Limbourg. Parfait pour s'orienter et planifier sa journee.",
+        "de": "Eine erhohte Beobachtungsgondel mit atemberaubenden Panoramablicken auf ganz Toverland und die schone Limburger Landschaft. Perfekt um sich zu orientieren und den Tag zu planen.",
+        "it": "Una gondola di osservazione elevata con viste panoramiche mozzafiato su tutto Toverland e la bella campagna del Limburgo. Perfetta per orientarsi e pianificare la giornata.",
+        "nl": "Een verhoogde observatiegondel met verbluffende panoramische uitzichten over heel Toverland en het mooie Limburgse landschap. Perfect om je te orienteren en je dag te plannen.",
+        "pt": "Uma gondola de observacao elevada oferecendo vistas panoramicas deslumbrantes sobre todo Toverland e a bela paisagem de Limburgo. Perfeita para se orientar e planear o dia.",
+        "ru": "Поднятая наблюдательная гондола с потрясающими панорамными видами на весь Toverland и красивый ландшафт Лимбурга. Идеально для ориентирования и планирования дня.",
+        "zh": "高架观光缆车，提供俯瞰整个托弗兰德和美丽林堡乡村的壮观全景视野。非常适合了解布局和规划全天行程。",
+        "ar": "جندول مراقبة مرتفع يوفر مناظر بانورامية مذهلة على كامل توفرلاند والمناظر الريفية الجميلة لليمبورغ. مثالي لتحديد الاتجاه والتخطيط ليومك."
+      }
+    },
+    "port_laguna": {
+      "desc": {
+        "en": "A thrilling water attraction in the Port Laguna harbour area delivering dramatic splashes and soakings in a beautifully themed nautical setting. Essential on warm summer days.",
+        "es": "Una emocionante atraccion acuatica en el area del puerto Port Laguna con salpicaduras dramaticas en un hermoso entorno nautico tematico. Esencial en los calidos dias de verano.",
+        "fr": "Une attraction aquatique palpitante dans la zone du port Port Laguna avec des eclaboussures dramatiques dans un beau cadre nautique thematise. Essentielle les chaudes journees d'ete.",
+        "de": "Eine aufregende Wasserattraktion im Hafenbereich Port Laguna mit dramatischen Spritzern in einer schon gestalteten nautischen Umgebung. Unverzichtbar an warmen Sommertagen.",
+        "it": "Una emozionante attrazione acquatica nell'area del porto Port Laguna con spettacolari spruzzi in un bellissimo ambiente nautico tematizzato. Essenziale nelle calde giornate estive.",
+        "nl": "Een spannende waterattractie in het havengebied Port Laguna met dramatische plonzen in een mooi nautisch themagezicht. Essentieel op warme zomerdagen.",
+        "pt": "Uma atracaoaquat ica emocionante na area do porto Port Laguna com salpicos dramaticos num belo cenario nautico tematizado. Essencial nos quentes dias de verao.",
+        "ru": "Захватывающий водный аттракцион в портовой зоне Port Laguna с драматическими всплесками в красиво оформленной морской обстановке. Незаменим в жаркие летние дни.",
+        "zh": "拉古纳港区域的刺激水上景点，在精美主题的航海环境中带来戏剧性的水花和浑身湿透。温暖夏日必玩。",
+        "ar": "اثارة مائية في منطقة ميناء بورت لاغونا مع رشقات مائية درامية في اجواء بحرية ذات طابع جميل. ضرورية في ايام الصيف الدافئة."
+      }
+    }
+  },
+  "food": {
+    "food_the_flaming_feather": {
+      "desc": {
+        "en": "Toverland's finest dining — a medieval inn in Avalon with table service, Burgundian meat and fish dishes and 130 seats indoors and on outdoor terraces. Worth booking ahead.",
+        "es": "La mejor gastronomia de Toverland — una posada medieval en Avalon con servicio de mesa platos de carne y pescado borgoña y 130 asientos en interior y terrazas exteriores.",
+        "fr": "La meilleure gastronomie de Toverland — une auberge medievale dans Avalon avec service a table plats de viande et poisson bourguignons et 130 places en interieur et terrasses.",
+        "de": "Toverlands feinste Kueche — eine mittelalterliche Herberge in Avalon mit Tischservice burgundischen Fleisch- und Fischgerichten und 130 Sitzplatzen drinnen und auf Aussentrerrassen.",
+        "it": "La migliore ristorazione di Toverland — una locanda medievale in Avalon con servizio al tavolo piatti borgognoni di carne e pesce e 130 posti al coperto e sulle terrazze esterne.",
+        "nl": "Toverlands beste eetervaring — een middeleeuws herberg in Avalon met bediening aan tafel Bourgondische vlees- en visgerechten en 130 zitplaatsen binnen en op buitenterrassen.",
+        "pt": "A melhor gastronomia de Toverland — uma estalagem medieval em Avalon com servico de mesa pratos borgonheses de carne e peixe e 130 lugares no interior e em esplanadas exteriores.",
+        "ru": "Лучшая кухня Toverland — средневековая таверна в Авалоне с обслуживанием за столом, бургундскими мясными и рыбными блюдами и 130 местами внутри и на открытых террасах.",
+        "zh": "托弗兰德最好的餐饮——阿瓦隆的中世纪客栈，提供桌边服务，有勃艮第肉类和鱼类菜肴，室内和户外露台共130个座位。建议提前预订。",
+        "ar": "افضل تجربة طعام في توفرلاند — نزل قرون وسطى في افالون مع خدمة الطاولة وأطباق اللحوم والسمك البورغندية و130 مقعدا في الداخل والشرفات الخارجية."
+      }
+    },
+    "food_katara_plaza": {
+      "desc": {
+        "en": "A vibrant outdoor food court in Magische Vallei with an exotic terrace overlooking the Katara water show. Tropical dishes, snacks and drinks in a lively open-air setting.",
+        "es": "Un animado patio de comidas al aire libre en Magische Vallei con una terraza exotica con vistas al espectaculo acuatico Katara. Platos tropicales bocadillos y bebidas.",
+        "fr": "Une cour de restauration exterieure animee dans Magische Vallei avec une terrasse exotique donnant sur le spectacle aquatique Katara. Plats tropicaux snacks et boissons.",
+        "de": "Ein lebhafter Outdoor-Foodcourt in Magische Vallei mit einer exotischen Terrasse mit Blick auf die Katara-Wassershow. Tropische Gerichte Snacks und Getranke.",
+        "it": "Un vivace food court all'aperto in Magische Vallei con una terrazza esotica con vista sullo spettacolo acquatico Katara. Piatti tropicali snack e bevande.",
+        "nl": "Een levendig outdoor foodcourt in Magische Vallei met een exotisch terras met uitzicht op de Katara watershow. Tropische gerechten snacks en drankjes.",
+        "pt": "Um animado espaco de alimentacao ao ar livre em Magische Vallei com um teraco exotico com vistas para o espetaculo aquatico Katara. Pratos tropicais lanches e bebidas.",
+        "ru": "Яркий уличный фуд-корт в Magische Vallei с экзотической террасой с видом на водное шоу Katara. Тропические блюда, закуски и напитки.",
+        "zh": "Magische Vallei中充满活力的室外美食广场，有异国情调的露台，可俯瞰卡塔拉水上秀。热带菜肴、小食和饮品。",
+        "ar": "ساحة طعام خارجية نابضة في Magische Vallei مع شرفة استوائية مطلة على عرض المياه كاتارا. أطباق استوائية وسناكس ومشروبات."
+      }
+    },
+    "food_waldstube": {
+      "desc": {
+        "en": "A cosy food court in the Wunderwald forest serving freshly made Italian pizzas, burgers and sandwiches in a warm woodland lodge setting.",
+        "es": "Un acogedor patio de comidas en el bosque Wunderwald que sirve pizzas italianas frescas hamburguesas y sandwiches en un calido ambiente de cabana forestal.",
+        "fr": "Une cour de restauration confortable dans la foret Wunderwald servant des pizzas italiennes fraichement preparees burgers et sandwiches dans une ambiance de chalet forestier.",
+        "de": "Ein gemutlicher Foodcourt im Wunderwald der frisch zubereitete italienische Pizzen Burger und Sandwiches in einer warmen Waldhutten-Atmosphare serviert.",
+        "it": "Un accogliente food court nella foresta Wunderwald che serve pizze italiane fresche hamburger e panini in una calda atmosfera di lodge forestale.",
+        "nl": "Een gezellig foodcourt in het Wunderwald bos dat vers gemaakte Italiaanse pizza's burgers en sandwiches serveert in een warme boslodge-sfeer.",
+        "pt": "Um aconchegante espaco de alimentacao na floresta Wunderwald servindo pizzas italianas frescas hamburgueres e sanduiches numa atmosfera de cabana florestal.",
+        "ru": "Уютный фуд-корт в лесу Wunderwald, подающий свежеприготовленные итальянские пиццы, бургеры и сэндвичи в тёплой атмосфере лесного домика.",
+        "zh": "旺德瓦尔德森林中温馨的美食广场，在温暖的林中小屋氛围中供应新鲜意大利披萨、汉堡和三明治。",
+        "ar": "ساحة طعام مريحة في غابة Wunderwald تقدم بيتزا ايطالية طازجة وبرغر وسندويشات في جو دافئ من كوخ الغابة."
+      }
+    },
+    "food_hungry_harry": {
+      "desc": {
+        "en": "A popular Avalon takeaway serving sandwiches, wraps, pulled pork burgers, fries, soft ice cream, milkshakes and cotton candy. Fast service near Fenix and Troy.",
+        "es": "Un popular para llevar de Avalon que sirve sandwiches wraps hamburguesas de cerdo desmenuzado papas fritas helado soft batidos y algodon de azucar. Servicio rapido cerca de Fenix y Troy.",
+        "fr": "Un emporter populaire d'Avalon servant sandwiches wraps burgers au porc effile frites glace molle milkshakes et barbe a papa. Service rapide pres de Fenix et Troy.",
+        "de": "Ein beliebtes Avalon-Takeaway das Sandwiches Wraps Pulled-Pork-Burger Pommes Softeis Milkshakes und Zuckerwatte serviert. Schneller Service in der Nahe von Fenix und Troy.",
+        "it": "Un popolare takeaway di Avalon che serve panini wrap hamburger di maiale sfilacciato patatine fritte gelato morbido frullati e zucchero filato. Servizio rapido vicino a Fenix e Troy.",
+        "nl": "Een populaire Avalon afhaalmaaltijd die sandwiches wraps pulled pork burgers frietjes soft ijs milkshakes en suikerspin serveert. Snelle service bij Fenix en Troy.",
+        "pt": "Um popular takeaway de Avalon servindo sanduiches wraps hamburgueres de porco desfiado batatas fritas gelado soft milkshakes e algodao doce. Servico rapido perto de Fenix e Troy.",
+        "ru": "Популярный авалонский навынос, подающий сэндвичи, роллы, бургеры с тушёной свининой, картофель фри, мягкое мороженое, молочные коктейли и сахарную вату. Быстрое обслуживание рядом с Fenix и Troy.",
+        "zh": "受欢迎的阿瓦隆外带食品，供应三明治、卷饼、拉猪肉汉堡、薯条、软冰淇淋、奶昔和棉花糖。芬尼克斯和特洛伊附近提供快速服务。",
+        "ar": "وجبات خفيفة شعبية في افالون تقدم سندويشات ولفائف وبرغر لحم خنزير مسحوب وبطاطس مقلية وآيس كريم ناعم ومخفوقات حليبية وحلوى القطن. خدمة سريعة بالقرب من فينيكس وتروي."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_resort_arcen": {
+      "desc": {
+        "en": "Toverland's most popular partner resort — Resort Arcen by Roompot on the banks of the Maas river, rated 8.7/10 by guests, with holiday homes and chalets amid stunning Limburg nature.",
+        "es": "El resort socio mas popular de Toverland — Resort Arcen by Roompot a orillas del rio Maas puntuado 8.7/10 por los huespedes con casas de vacaciones y chalets en la naturaleza de Limburgo.",
+        "fr": "Le complexe partenaire le plus populaire de Toverland — Resort Arcen by Roompot sur les berges de la Maas note 8.7/10 par les clients avec maisons de vacances et chalets au coeur de la nature du Limbourg.",
+        "de": "Toverlands beliebtestes Partnerresort — Resort Arcen by Roompot am Ufer der Maas von Gasten mit 8.7/10 bewertet mit Ferienhauser und Chalets inmitten der wunderschonen Limburger Natur.",
+        "it": "Il resort partner piu popolare di Toverland — Resort Arcen by Roompot sulle rive della Mosa valutato 8.7/10 dai clienti con case vacanza e chalet nella splendida natura del Limburgo.",
+        "nl": "Toverlands populairste partnerresort — Resort Arcen by Roompot aan de oevers van de Maas beoordeeld met 8.7/10 door gasten met vakantiehuizen en chalets midden in de prachtige Limburgse natuur.",
+        "pt": "O resort parceiro mais popular de Toverland — Resort Arcen by Roompot nas margens do rio Maas com nota 8.7/10 pelos hospedes com casas de ferias e chalés na deslumbrante natureza de Limburgo.",
+        "ru": "Самый популярный партнерский курорт Toverland — Resort Arcen от Roompot на берегах реки Маас, оцененный гостями на 8.7/10, с загородными домами и шале среди прекрасной природы Лимбурга.",
+        "zh": "托弗兰德最受欢迎的合作度假村——Roompot旗下的阿尔岑度假村，坐落在马斯河岸边，客人评分8.7/10，在壮美的林堡自然环境中提供度假屋和小木屋。",
+        "ar": "اكثر منتجعات شراكة توفرلاند شعبية — منتجع Arcen بواسطة Roompot على ضفاف نهر الماس بتقييم 8.7/10 من الضيوف مع منازل عطلات وشاليهات وسط طبيعة ليمبورغ الخلابة."
+      },
+      "rooms": {
+        "holiday_home": {
+          "name": { "en": "Holiday Home", "es": "Casa de Vacaciones", "fr": "Maison de Vacances", "de": "Ferienhaus", "it": "Casa Vacanze", "nl": "Vakantiehuis", "pt": "Casa de Ferias", "ru": "Загородный дом", "zh": "度假屋", "ar": "منزل عطلات" },
+          "desc": { "en": "Self-catering holiday home with garden terrace and access to all resort facilities near the Maas river.", "es": "Casa de vacaciones autoservicio con terraza de jardin y acceso a todas las instalaciones del resort.", "fr": "Maison de vacances en self-catering avec terrasse de jardin et acces a toutes les installations.", "de": "Selbstversorgungsferienhaus mit Gartenterrasse und Zugang zu allen Resorteinrichtungen.", "it": "Casa vacanze autoservizio con terrazza giardino e accesso a tutte le strutture del resort.", "nl": "Zelfvoorzienend vakantiehuis met tuinterras en toegang tot alle resortfaciliteiten.", "pt": "Casa de ferias autoservico com terraço jardim e acesso a todas as instalacoes do resort.", "ru": "Самообслуживаемый загородный дом с садовой террасой и доступом ко всем удобствам курорта.", "zh": "自助式度假屋，带花园露台，可使用所有度假村设施。", "ar": "منزل عطلات بخدمة ذاتية مع شرفة حديقة والوصول الى جميع مرافق المنتجع." }
+        },
+        "comfort_chalet": {
+          "name": { "en": "Comfort Chalet", "es": "Chalet Confort", "fr": "Chalet Confort", "de": "Komfort Chalet", "it": "Chalet Comfort", "nl": "Comfort Chalet", "pt": "Chalet Conforto", "ru": "Комфорт Шале", "zh": "舒适小木屋", "ar": "شاليه كومفورت" },
+          "desc": { "en": "Spacious comfort chalet with extra amenities, outdoor terrace and green surroundings near Toverland.", "es": "Amplio chalet confort con comodidades extra terraza exterior y entorno verde cerca de Toverland.", "fr": "Spacieux chalet confort avec amenites supplementaires terrasse exterieure et environnement vert pres de Toverland.", "de": "Geraumiges Komfort-Chalet mit Extra-Ausstattung Aussenterrasse und gruner Umgebung nahe Toverland.", "it": "Spazioso chalet comfort con servizi extra terrazza esterna e verde circostante vicino a Toverland.", "nl": "Ruim comfort chalet met extra voorzieningen buitenterras en groene omgeving nabij Toverland.", "pt": "Amplo chalet de conforto com comodidades extra terraço exterior e arredores verdes perto de Toverland.", "ru": "Просторный комфортный шале с дополнительными удобствами, открытой террасой и зелёным окружением рядом с Toverland.", "zh": "宽敞舒适的小木屋，有额外设施、户外露台和绿色环境，靠近托弗兰德。", "ar": "شاليه راحة فسيح مع وسائل راحة اضافية وشرفة خارجية ومحيط اخضر بالقرب من توفرلاند." }
+        }
+      }
+    },
+    "hotel_the_treasure_mountain": {
+      "desc": {
+        "en": "A 5-star holiday park 5km from Toverland — De Schatberg offers cosy log houses at the Treasure Mountain, luxury chalets and glamping in a stunning forest setting with pools and restaurants.",
+        "es": "Un parque vacacional de 5 estrellas a 5km de Toverland — De Schatberg ofrece acogedoras casas de troncos en la Treasure Mountain chalets de lujo y glamping en un entorno forestal con piscinas.",
+        "fr": "Un parc de vacances 5 etoiles a 5km de Toverland — De Schatberg propose des maisons en rondins confortables a la Treasure Mountain des chalets luxueux et du glamping dans un cadre forestier avec piscines.",
+        "de": "Ein 5-Sterne-Ferienpark 5km von Toverland — De Schatberg bietet gemutliche Blockhauschen am Treasure Mountain Luxus-Chalets und Glamping in einer wunderschonen Waldkulisse mit Pools.",
+        "it": "Un parco vacanze 5 stelle a 5km da Toverland — De Schatberg offre accoglienti case di tronchi alla Treasure Mountain lussuosi chalet e glamping in una splendida cornice forestale con piscine.",
+        "nl": "Een 5-sterren vakantiepark op 5km van Toverland — De Schatberg biedt gezellige blokhutten op de Treasure Mountain luxe chalets en glamping in een prachtige bosomgeving met zwembaden.",
+        "pt": "Um parque de ferias 5 estrelas a 5km de Toverland — De Schatberg oferece acolhedoras casas de troncos na Treasure Mountain chalets de luxo e glamping num deslumbrante cenario florestal com piscinas.",
+        "ru": "5-звёздочный парк отдыха в 5 км от Toverland — De Schatberg предлагает уютные бревенчатые домики на Treasure Mountain, роскошные шале и глэмпинг в потрясающих лесных условиях с бассейнами.",
+        "zh": "距托弗兰德5公里的5星级度假公园——宝山的De Schatberg提供舒适的木屋、豪华小木屋和豪华露营，环境优美，有游泳池和餐厅。",
+        "ar": "حديقة عطلات 5 نجوم على بعد 5 كم من توفرلاند — يقدم De Schatberg منازل خشب مريحة في Treasure Mountain وشاليهات فاخرة وغلامبينغ في بيئة غابات رائعة مع مسابح."
+      },
+      "rooms": {
+        "log_house": {
+          "name": { "en": "Log House", "es": "Casa de Troncos", "fr": "Maison en Rondins", "de": "Blockhaus", "it": "Casa in Tronchi", "nl": "Blokhut", "pt": "Casa de Troncos", "ru": "Бревенчатый домик", "zh": "木屋", "ar": "منزل خشبي" },
+          "desc": { "en": "Cosy log house at the Treasure Mountain with forest views, private terrace and access to resort pools.", "es": "Acogedora casa de troncos en la Treasure Mountain con vistas al bosque terraza privada y acceso a las piscinas.", "fr": "Maison en rondins confortable a la Treasure Mountain avec vues sur la foret terrasse privee et acces aux piscines.", "de": "Gemutliches Blockhaus am Treasure Mountain mit Waldblick privater Terrasse und Zugang zu den Resort-Pools.", "it": "Accogliente casa in tronchi alla Treasure Mountain con vista sulla foresta terrazza privata e accesso alle piscine.", "nl": "Gezellige blokhut op de Treasure Mountain met uitzicht op het bos prive terras en toegang tot de resortpools.", "pt": "Acolhedora casa de troncos na Treasure Mountain com vistas para a floresta terraço privado e acesso as piscinas.", "ru": "Уютный бревенчатый домик на Treasure Mountain с видом на лес, частной террасой и доступом к бассейнам курорта.", "zh": "宝山的舒适木屋，可欣赏森林景色，有私人露台，可使用度假村游泳池。", "ar": "منزل خشبي مريح في Treasure Mountain مع اطلالات على الغابة وشرفة خاصة والوصول الى مسابح المنتجع." }
+        },
+        "luxury_chalet": {
+          "name": { "en": "Luxury Chalet", "es": "Chalet de Lujo", "fr": "Chalet de Luxe", "de": "Luxus Chalet", "it": "Chalet di Lusso", "nl": "Luxe Chalet", "pt": "Chalet de Luxo", "ru": "Люкс Шале", "zh": "豪华小木屋", "ar": "شاليه فاخر" },
+          "desc": { "en": "Spacious luxury chalet with premium fittings, private sauna option and beautiful forest views near Toverland.", "es": "Amplio chalet de lujo con acabados premium opcion de sauna privada y hermosas vistas al bosque cerca de Toverland.", "fr": "Spacieux chalet de luxe avec equipements haut de gamme option sauna prive et belles vues sur la foret pres de Toverland.", "de": "Geraumiges Luxus-Chalet mit Premium-Ausstattung privater Sauna-Option und schonen Waldblicken nahe Toverland.", "it": "Spazioso chalet di lusso con finiture premium opzione sauna privata e belle viste sulla foresta vicino a Toverland.", "nl": "Ruim luxe chalet met premium afwerking prive sauna optie en prachtige bosweergaven nabij Toverland.", "pt": "Amplo chalet de luxo com acabamentos premium opcao de sauna privada e belas vistas para a floresta perto de Toverland.", "ru": "Просторный люкс шале с премиальной отделкой, возможностью частной сауны и красивыми видами на лес рядом с Toverland.", "zh": "宽敞豪华小木屋，高级装修，可选私人桑拿，靠近托弗兰德，可欣赏美丽的森林景色。", "ar": "شاليه فاخر فسيح مع تجهيزات متميزة وخيار ساونا خاصة ومناظر غابات جميلة بالقرب من توفرلاند." }
+        }
+      }
+    },
+    "hotel_toverland": {
+      "desc": {
+        "en": "The closest hotel to Toverland — Gr8 Hotel Sevenum is 1.7km from the park with a direct bus connection, free parking, modern rooms with 55-inch TVs and rain showers. Simple, convenient and officially recommended.",
+        "es": "El hotel mas cercano a Toverland — Gr8 Hotel Sevenum esta a 1.7km del parque con conexion directa en autobus aparcamiento gratuito habitaciones modernas con TV de 55 pulgadas y duchas lluvia.",
+        "fr": "L'hotel le plus proche de Toverland — Gr8 Hotel Sevenum est a 1.7km du parc avec connexion directe en bus parking gratuit chambres modernes avec TV 55 pouces et douches pluie.",
+        "de": "Das nachstgelegene Hotel zu Toverland — Gr8 Hotel Sevenum liegt 1.7km vom Park mit direkter Busverbindung kostenlosem Parkplatz modernen Zimmern mit 55-Zoll-TVs und Regenduschen.",
+        "it": "L'hotel piu vicino a Toverland — Gr8 Hotel Sevenum e a 1.7km dal parco con collegamento diretto in autobus parcheggio gratuito camere moderne con TV 55 pollici e docce pioggia.",
+        "nl": "Het dichtstbijzijnde hotel bij Toverland — Gr8 Hotel Sevenum ligt op 1.7km van het park met directe busverbinding gratis parkeren moderne kamers met 55-inch TV's en regendouches.",
+        "pt": "O hotel mais proximo de Toverland — Gr8 Hotel Sevenum fica a 1.7km do parque com ligacao direta de autocarros estacionamento gratuito quartos modernos com TV de 55 polegadas e chuveiros chuva.",
+        "ru": "Ближайший отель к Toverland — Gr8 Hotel Sevenum находится в 1.7 км от парка с прямым автобусным сообщением, бесплатной парковкой, современными номерами с телевизорами 55 дюймов и дождевыми душами.",
+        "zh": "离托弗兰德最近的酒店——Gr8酒店塞韦纳姆距公园1.7公里，有直接巴士连接，免费停车，现代客房配备55英寸电视和雨淋式淋浴。简单、便利，官方推荐。",
+        "ar": "اقرب فندق الى توفرلاند — فندق Gr8 سيفينوم على بعد 1.7 كم من المتنزه مع اتصال مباشر بالحافلة وموقف سيارات مجاني وغرف حديثة بتلفزيونات 55 بوصة ودشات مطر."
+      },
+      "rooms": {
+        "gr8_room": {
+          "name": { "en": "Gr8 Room", "es": "Habitacion Gr8", "fr": "Chambre Gr8", "de": "Gr8 Zimmer", "it": "Camera Gr8", "nl": "Gr8 Kamer", "pt": "Quarto Gr8", "ru": "Номер Gr8", "zh": "Gr8客房", "ar": "غرفة Gr8" },
+          "desc": { "en": "Modern room with two single beds, 55-inch TV, rain shower and free parking. Clean and comfortable.", "es": "Habitacion moderna con dos camas individuales TV de 55 pulgadas ducha lluvia y aparcamiento gratuito. Limpia y comoda.", "fr": "Chambre moderne avec deux lits simples TV 55 pouces douche pluie et parking gratuit. Propre et confortable.", "de": "Modernes Zimmer mit zwei Einzelbetten 55-Zoll-TV Regendusche und kostenlosem Parkplatz. Sauber und komfortabel.", "it": "Camera moderna con due letti singoli TV 55 pollici doccia pioggia e parcheggio gratuito. Pulita e confortevole.", "nl": "Moderne kamer met twee eenpersoonsbedden 55-inch TV regendouche en gratis parkeren. Schoon en comfortabel.", "pt": "Quarto moderno com duas camas individuais TV de 55 polegadas duche chuva e estacionamento gratuito. Limpo e confortavel.", "ru": "Современный номер с двумя односпальными кроватями, телевизором 55 дюймов, дождевым душем и бесплатной парковкой.", "zh": "现代客房，配有两张单人床、55英寸电视、雨淋浴室和免费停车。干净舒适。", "ar": "غرفة حديثة مع سريرين فرديين وتلفزيون 55 بوصة ودش مطر وموقف سيارات مجاني. نظيفة ومريحة." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious family room for up to 4 guests with breakfast included — ideal for families visiting Toverland.", "es": "Amplia habitacion familiar para hasta 4 huespedes con desayuno incluido — ideal para familias que visitan Toverland.", "fr": "Spacieuse chambre familiale pour jusqu'a 4 clients avec petit dejeuner inclus — ideale pour les familles visitant Toverland.", "de": "Geraumiges Familienzimmer fur bis zu 4 Gaste mit Fruhstuck inklusive — ideal fur Familien die Toverland besuchen.", "it": "Spaziosa camera familiare per fino a 4 ospiti con colazione inclusa — ideale per le famiglie che visitano Toverland.", "nl": "Ruime familiekamer voor maximaal 4 gasten met ontbijt inbegrepen — ideaal voor gezinnen die Toverland bezoeken.", "pt": "Quarto familiar espacioso para ate 4 hospedes com pequeno-almoco incluido — ideal para familias que visitam Toverland.", "ru": "Просторный семейный номер для 4 гостей с включённым завтраком — идеально для семей, посещающих Toverland.", "zh": "宽敞的家庭客房，最多容纳4位客人，含早餐——非常适合参观托弗兰德的家庭。", "ar": "غرفة عائلية فسيحة لـ 4 ضيوف مع إفطار مشمول — مثالية للعائلات التي تزور توفرلاند." }
+        }
+      }
+    }
+  }
+}

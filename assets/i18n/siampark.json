@@ -1,0 +1,394 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Siam Park is the number one water park in the world — a title it has held for an extraordinary ten consecutive years on TripAdvisor — and it is not difficult to understand why. Located in Costa Adeje on the sun-drenched southern coast of Tenerife, this breathtaking paradise spans 185,000 square metres of immaculately maintained tropical landscape inspired by the ancient Kingdom of Siam and the stunning architecture of Thailand. From the moment guests pass through the ornate golden entrance gates, they enter a world of extraordinary beauty and heart-stopping thrills that simply does not exist anywhere else on earth. Siam Park holds the world record for the largest artificial wave in the world — the three-metre waves of the Wave Palace can actually be surfed by professional surfers. The park's Tower of Power sends riders through a transparent tube submerged in a shark lagoon at 80 km/h. The Mai Thai River is among the world's longest lazy rivers, winding 600 metres through lush tropical scenery and a living aquarium. Tenerife's exceptional year-round climate means Siam Park is open every single day of the year, making it genuinely one of the most accessible and extraordinary theme park experiences on the planet.",
+      "es": "Siam Park es el parque acuatico numero uno del mundo — un titulo que ha mantenido durante diez anos consecutivos en TripAdvisor. Ubicado en Costa Adeje en la soleada costa sur de Tenerife, este paraiso impresionante abarca 185.000 metros cuadrados de paisaje tropical inspirado en el antiguo Reino de Siam. El parque tiene el record mundial de la ola artificial mas grande del mundo en el Wave Palace. La Tower of Power envia a los riders a traves de un tubo transparente sumergido en una laguna de tiburones a 80 km/h. Abierto los 365 dias del ano gracias al excepcional clima de Tenerife.",
+      "fr": "Siam Park est le parc aquatique numero un au monde — un titre qu'il detient depuis dix annees consecutives sur TripAdvisor. Situe a Costa Adeje sur la cote sud ensoleilee de Tenerife, ce paradis epoustouflant s'etend sur 185.000 metres carres de paysage tropical inspire par l'ancien Royaume de Siam. Le parc detient le record mondial de la plus grande vague artificielle au monde dans le Wave Palace. La Tour of Power envoie les riders a travers un tube transparent immerge dans une lagune de requins a 80 km/h. Ouvert 365 jours par an grace au climat exceptionnel de Tenerife.",
+      "de": "Siam Park ist der weltweit beste Wasserpark — ein Titel den er seit zehn aufeinanderfolgenden Jahren auf TripAdvisor halt. In Costa Adeje an der sonnenverwohnten Sudkuste Teneriffas gelegen erstreckt sich dieses atemberaubende Paradies uber 185.000 Quadratmeter tropischer Landschaft inspiriert vom alten Konigreich Siam. Der Park halt den Weltrekord fur die grosste kunstliche Welle der Welt im Wave Palace. Der Tower of Power schickt Fahrer durch ein transparentes Rohr das in einer Haifisch-Lagune versenkt ist bei 80 km/h. Ganzjahrig geoffnet dank des aussergewohnlichen Klimas von Teneriffa.",
+      "it": "Siam Park e il parco acquatico numero uno al mondo — un titolo che detiene da dieci anni consecutivi su TripAdvisor. Situato a Costa Adeje sulla soleggiata costa sud di Tenerife, questo paradiso mozzafiato si estende su 185.000 metri quadrati di paesaggio tropicale ispirato all'antico Regno di Siam. Il parco detiene il record mondiale per la piu grande onda artificiale al mondo nel Wave Palace. Il Tower of Power manda i rider attraverso un tubo trasparente immerso in una laguna con squali a 80 km/h. Aperto 365 giorni all'anno grazie all'eccezionale clima di Tenerife.",
+      "nl": "Siam Park is het nummer een waterpark ter wereld — een titel die het tien opeenvolgende jaren op TripAdvisor heeft gehouden. Gelegen in Costa Adeje aan de zonnige zuidkust van Tenerife beslaat dit adembenemende paradijs 185.000 vierkante meter tropisch landschap geinspireerd door het oude Koninkrijk Siam. Het park houdt het wereldrecord voor de grootste kunstmatige golf ter wereld in het Wave Palace. De Tower of Power stuurt riders door een transparante buis ondergedompeld in een haaienlagune op 80 km/u. Het hele jaar door geopend dankzij het uitzonderlijke klimaat van Tenerife.",
+      "pt": "Siam Park e o parque aquatico numero um do mundo — um titulo que manteve durante dez anos consecutivos no TripAdvisor. Localizado em Costa Adeje na ensolarada costa sul de Tenerife, este paraiso deslumbrante abrange 185.000 metros quadrados de paisagem tropical inspirada no antigo Reino de Siam. O parque detm o record mundial pela maior onda artificial do mundo no Wave Palace. A Tower of Power envia os riders atraves de um tubo transparente submerso numa lagoa de tubaroes a 80 km/h. Aberto 365 dias por ano gracas ao clima excepcional de Tenerife.",
+      "ru": "Siam Park — водный парк номер один в мире, удерживающий этот титул десять лет подряд на TripAdvisor. Расположенный в Коста-Адехе на солнечном южном побережье Тенерифе, этот захватывающий рай занимает 185 000 квадратных метров тропического ландшафта, вдохновлённого древним королевством Сиам. Парк владеет мировым рекордом по самой большой искусственной волне в мире в Wave Palace. Tower of Power отправляет гостей через прозрачную трубу, погружённую в акулий лагун, со скоростью 80 км/ч. Открыт 365 дней в году благодаря исключительному климату Тенерифе.",
+      "zh": "暹罗公园是世界第一水上乐园——这个头衔已在TripAdvisor上连续保持十年之久。位于特内里费岛阳光明媚的南部海岸科斯塔阿德赫，这个令人叹为观止的天堂占地18.5万平方米，以古暹罗王国和泰国壮丽建筑为灵感的热带景观。公园保持着世界上最大人造波浪的世界纪录——波浪宫的3米高波浪甚至可以冲浪。力量塔以80公里每小时的速度将乘客通过浸入鲨鱼泻湖的透明管道。由于特内里费岛全年卓越的气候，暹罗公园全年365天开放。",
+      "ar": "سيام بارك هو متنزه المياه الاول في العالم — لقب احتفظ به لعشر سنوات متتالية على TripAdvisor. يقع في كوستا أديخي على الساحل الجنوبي المشمس لتينيريفي، ويمتد هذا الجنة الرائعة على 185000 متر مربع من المناظر الاستوائية مستوحاة من مملكة سيام القديمة. يحتفظ المتنزه بالرقم القياسي العالمي لاكبر موجة اصطناعية في قصر الامواج. برج القوة يرسل الركاب عبر انبوب شفاف مغموس في بحيرة اسماك القرش بسرعة 80 كم/ساعة. مفتوح 365 يوما في السنة بفضل المناخ الاستثنائي لجزيرة تينيريفي."
+    },
+    "ov_highlights_body": {
+      "en": "The Tower of Power is the most talked-about water slide on earth — a near-vertical transparent plunge through a shark lagoon that has made Siam Park world-famous. The Wave Palace wave pool generates three-metre surfable waves and holds a World Record. The Mai Thai River is one of the world's longest lazy rivers, floating through an aquarium of tropical fish. New Kinanaree is a 200-metre hybrid ride delivering three experiences in one. The Dragon's zero-gravity CannonBowl funnel creates sensations found nowhere else in European water parks. For families, The Lost City with 120 interactive water games and the heated Sawasdee children's area ensure that visitors of every age have an unforgettable experience.",
+      "es": "Tower of Power es la tobogan acuatica mas famosa del mundo. El Wave Palace genera olas de 3 metros que se pueden surfear. Mai Thai River es uno de los rios perezosos mas largos del mundo. El nuevo Kinanaree es un tobogan hibrido de 200 metros. Para familias, The Lost City con 120 juegos acuaticos y la zona infantil Sawasdee son imprescindibles.",
+      "fr": "Tower of Power est le toboggan aquatique le plus connu au monde. Le Wave Palace genere des vagues de 3 metres surfables. Mai Thai River est l'un des fleuves paresseux les plus longs du monde. Le nouveau Kinanaree est un toboggan hybride de 200 metres. Pour les familles La Cite Perdue et la zone enfants Sawasdee sont incontournables.",
+      "de": "Tower of Power ist die beruhmteste Wasserrutsche der Welt. Der Wave Palace erzeugt 3-Meter-Surfwellen. Mai Thai River ist einer der langsten Lazy Rivers der Welt. Das neue Kinanaree ist eine 200-Meter-Hybrid-Rutsche. Fur Familien sind The Lost City und der Sawasdee-Kinderbereich unverzichtbar.",
+      "it": "Tower of Power e lo scivolo acquatico piu famoso al mondo. Il Wave Palace genera onde da 3 metri surfabili. Mai Thai River e uno dei lazy river piu lunghi del mondo. Il nuovo Kinanaree e uno scivolo ibrido da 200 metri. Per le famiglie The Lost City e l'area bambini Sawasdee sono imprescindibili.",
+      "nl": "Tower of Power is de beroemdste waterglijbaan ter wereld. Het Wave Palace genereert surfbare golven van 3 meter. Mai Thai River is een van de langste lazy rivers ter wereld. Het nieuwe Kinanaree is een 200-meter hybride glijbaan. Voor families zijn The Lost City en het Sawasdee kindergebied onmisbaar.",
+      "pt": "Tower of Power e o toboga aquatico mais famoso do mundo. O Wave Palace gera ondas surfaveis de 3 metros. Mai Thai River e um dos lazy rivers mais longos do mundo. O novo Kinanaree e um toboga hibrido de 200 metros. Para familias The Lost City e a area infantil Sawasdee sao imprescindíveis.",
+      "ru": "Tower of Power — самая известная водная горка в мире. Wave Palace генерирует волны для сёрфинга высотой 3 метра. Mai Thai River — один из самых длинных ленивых рек в мире. Новый Kinanaree — 200-метровая гибридная горка. Для семей The Lost City и детская зона Sawasdee незаменимы.",
+      "zh": "力量塔是世界上最著名的水上滑梯。波浪宫产生可以冲浪的3米高波浪。麦太河是世界上最长的懒人河之一。全新Kinanaree是200米混合滑梯。对于家庭，拥有120个互动水上游戏的失落之城和加热的Sawasdee儿童区必不可少。",
+      "ar": "برج القوة هو أشهر زحليقة مائية في العالم. قصر الامواج يولد امواجا للتزلج بارتفاع 3 امتار. نهر ماي تاي هو واحد من اطول الانهار الكسولة في العالم. Kinanaree الجديد زحليقة هجينة 200 متر. للعائلات المدينة المفقودة ومنطقة الاطفال Sawasdee لا غنى عنها."
+    },
+    "ov_did_you_know_body": {
+      "en": "Siam Park has been voted the world's best water park on TripAdvisor for ten consecutive years — a record in the theme park industry. The Wave Palace holds the Guinness World Record for the world's largest artificial wave machine, generating waves up to three metres high in water heated to 24 degrees year-round. The park covers 185,000 square metres of landscaped gardens and is open every single day of the year including Christmas and New Year's Day thanks to Tenerife's exceptional climate. Tower of Power, the park's most famous ride, sends riders through a transparent tube submerged in a real shark lagoon containing sharks, stingrays and tropical fish — a world first when it opened in 2008. Over one million visitors pass through Siam Park's golden gates every year.",
+      "es": "Siam Park ha sido votado el mejor parque acuatico del mundo en TripAdvisor durante diez anos consecutivos. El Wave Palace tiene el Record Guinness de la maquina de olas artificiales mas grande del mundo generando olas de hasta 3 metros. El parque cubre 185.000 metros cuadrados y abre los 365 dias del ano. Tower of Power fue el primero del mundo en enviar riders a traves de una laguna de tiburones real.",
+      "fr": "Siam Park a ete elu meilleur parc aquatique au monde sur TripAdvisor pendant dix annees consecutives. Le Wave Palace detient le Record Guinness de la plus grande machine a vagues artificielles au monde generant des vagues de 3 metres. Le parc couvre 185.000 metres carres et est ouvert 365 jours par an. Tower of Power a ete le premier au monde a envoyer des riders a travers une lagune de requins reels.",
+      "de": "Siam Park wurde zehn Jahre in Folge zum weltweit besten Wasserpark auf TripAdvisor gewahlt. Der Wave Palace halt den Guinness-Weltrekord fur die grosste kunstliche Wellenmaschine der Welt mit Wellen bis zu 3 Metern. Der Park erstreckt sich uber 185.000 Quadratmeter und ist 365 Tage im Jahr geoffnet. Tower of Power war der weltweit erste der Fahrer durch eine echte Haifisch-Lagune schickte.",
+      "it": "Siam Park e stato eletto miglior parco acquatico al mondo su TripAdvisor per dieci anni consecutivi. Il Wave Palace detiene il Record Guinness per la piu grande macchina per onde artificiali al mondo con onde fino a 3 metri. Il parco copre 185.000 metri quadrati ed e aperto 365 giorni all'anno. Tower of Power e stato il primo al mondo a mandare i rider attraverso una vera laguna con squali.",
+      "nl": "Siam Park is tien opeenvolgende jaren verkozen tot het beste waterpark ter wereld op TripAdvisor. Het Wave Palace houdt het Guinness Wereldrecord voor de grootste kunstmatige golfmachine ter wereld met golven tot 3 meter. Het park beslaat 185.000 vierkante meter en is 365 dagen per jaar geopend. Tower of Power was 's werelds eerste die riders door een echte haaienlagune stuurde.",
+      "pt": "Siam Park foi eleito o melhor parque aquatico do mundo no TripAdvisor por dez anos consecutivos. O Wave Palace detm o Record Guinness para a maior maquina de ondas artificiais do mundo gerando ondas ate 3 metros. O parque cobre 185.000 metros quadrados e esta aberto 365 dias por ano. Tower of Power foi o primeiro do mundo a enviar riders atraves de uma lagoa real de tubaroes.",
+      "ru": "Siam Park был признан лучшим водным парком мира на TripAdvisor десять лет подряд. Wave Palace держит рекорд Гиннесса как самая большая в мире машина для создания искусственных волн высотой до 3 метров. Парк занимает 185 000 квадратных метров и открыт 365 дней в году. Tower of Power был первым в мире аттракционом, проводящим гостей через настоящий акулий лагун.",
+      "zh": "暹罗公园已连续十年被TripAdvisor评为世界最佳水上乐园。波浪宫保持着世界上最大人造波浪机的吉尼斯世界纪录，产生高达3米的波浪。公园占地18.5万平方米，全年365天开放。力量塔是世界上第一个让乘客穿过真实鲨鱼泻湖的项目，2008年开放时创造了世界先例。",
+      "ar": "فاز سيام بارك بلقب افضل متنزه مائي في العالم على TripAdvisor لعشر سنوات متتالية. يحتفظ قصر الامواج بالرقم القياسي لغينيس لاكبر آلة امواج اصطناعية في العالم بامواج تصل الى 3 امتار. يغطي المتنزه 185000 متر مربع ويفتح 365 يوما في السنة. كان برج القوة الاول عالمياً في ارسال الركاب عبر بحيرة اسماك قرش حقيقية."
+    },
+    "ov_plan_body": {
+      "en": "Arrive before 10am and head directly to Tower of Power — it draws the park's longest queues and is best experienced early in the day before the line grows. Then tackle The Dragon and The Giant before crowds build mid-morning. The Wave Palace is best enjoyed in the afternoon when the sun is at its peak — the 24-degree heated water feels perfect. Mai Thai River is ideal for late afternoon when energy levels drop. The Floating Market and Beach Club are perfect for lunch. Book a VIP Cabana in advance if you want the ultimate experience — Fast Pass access makes a huge difference on busy days. Note that Tower of Power and Mai Thai River are not included in Fast Pass. Free shuttle buses run from Los Cristianos, Playa de las Americas and Costa Adeje.",
+      "es": "Llega antes de las 10 y ve directamente a Tower of Power. Luego tackle The Dragon y The Giant antes de que lleguen las multitudes. El Wave Palace es mejor en la tarde. Mai Thai River es ideal para la tarde. Reserva un VIP Cabana con antelacion. Los autobuses gratuitos salen de Los Cristianos, Playa de las Americas y Costa Adeje.",
+      "fr": "Arrivez avant 10h et allez directement a Tower of Power. Ensuite The Dragon et The Giant avant l'affluence. Le Wave Palace est mieux l'apres-midi. Mai Thai River est ideal en fin d'apres-midi. Reservez un VIP Cabana a l'avance. Les navettes gratuites partent de Los Cristianos, Playa de las Americas et Costa Adeje.",
+      "de": "Kommen Sie vor 10 Uhr an und gehen Sie direkt zum Tower of Power. Dann The Dragon und The Giant bevor sich die Massen aufbauen. Der Wave Palace ist am Nachmittag am besten. Mai Thai River ist ideal am spaten Nachmittag. Buchen Sie im Voraus eine VIP Cabana. Kostenlose Shuttles fahren von Los Cristianos, Playa de las Americas und Costa Adeje.",
+      "it": "Arriva prima delle 10 e vai direttamente al Tower of Power. Poi The Dragon e The Giant prima della folla. Il Wave Palace e meglio nel pomeriggio. Mai Thai River e ideale nel tardo pomeriggio. Prenota un VIP Cabana in anticipo. Navette gratuite partono da Los Cristianos, Playa de las Americas e Costa Adeje.",
+      "nl": "Kom voor 10 uur aan en ga direct naar Tower of Power. Dan The Dragon en The Giant voor de drukte. Het Wave Palace is het beste in de middag. Mai Thai River is ideaal in de late middag. Reserveer vooraf een VIP Cabana. Gratis shuttles vertrekken vanuit Los Cristianos, Playa de las Americas en Costa Adeje.",
+      "pt": "Chega antes das 10h e vai diretamente ao Tower of Power. Depois The Dragon e The Giant antes das multidoes. O Wave Palace e melhor de tarde. Mai Thai River e ideal no final da tarde. Reserva um VIP Cabana com antecedencia. Autoccarros gratuitos partem de Los Cristianos, Playa de las Americas e Costa Adeje.",
+      "ru": "Приходите до 10 утра и идите прямо к Tower of Power. Затем The Dragon и The Giant до прибытия толп. Wave Palace лучше всего во второй половине дня. Mai Thai River идеален в конце дня. Заранее забронируйте VIP Cabana. Бесплатные шаттлы из Лос-Кристианоса, Плайя-де-лас-Америкас и Коста-Адехе.",
+      "zh": "上午10点前到达，直奔力量塔。然后在人群聚集前游玩龙和巨人。下午阳光最强时享受波浪宫。麦太河适合下午晚些时候体验。提前预订VIP小屋。免费班车从洛斯克里斯蒂亚诺斯、美洲海滩和科斯塔阿德赫出发。",
+      "ar": "اوصل قبل الساعة 10 وتوجه مباشرة الى برج القوة. ثم التنين والعملاق قبل تجمع الحشود. قصر الامواج افضل في بعد الظهر. نهر ماي تاي مثالي في اواخر بعد الظهر. احجز VIP Cabana مسبقاً. حافلات مجانية تنطلق من Los Cristianos وPlaya de las Americas وCosta Adeje."
+    },
+    "ov_photos_body": {
+      "en": "The Tower of Power's transparent shark tube is one of the most photographed water park moments in the world — the park provides ride photos so you can capture the exact moment of terror. The Wave Palace at sunset with the golden light reflecting off three-metre waves is extraordinary. The entrance gates with their ornate Thai golden architecture against the Tenerife sky create stunning arrival photographs. The Floating Market with its canal boats and authentic Thai village architecture is a photographer's paradise. Views from the top of the park over the entire Costa Adeje coastline and the Atlantic Ocean are simply unforgettable.",
+      "es": "El tubo transparente de tiburones del Tower of Power es uno de los momentos mas fotografiados. El Wave Palace al atardecer con la luz dorada es extraordinario. Las puertas de entrada con arquitectura tai dorada crean fotos espectaculares. El Floating Market es un paraiso fotografico. Las vistas desde la cima del parque sobre Costa Adeje son inolvidables.",
+      "fr": "Le tube transparent aux requins du Tower of Power est l'un des moments les plus photographies. Le Wave Palace au coucher du soleil est extraordinaire. Les portes d'entree avec l'architecture thai doree creent des photos spectaculaires. Le Floating Market est un paradis photographique. Les vues depuis le sommet du parc sont inoubliables.",
+      "de": "Das transparente Haifish-Rohr des Tower of Power ist einer der meistfotografierten Wasserpark-Momente. Der Wave Palace bei Sonnenuntergang ist aussergewohnlich. Die Eingangstore mit goldener Thai-Architektur schaffen spektakulare Fotos. Der Floating Market ist ein fotografisches Paradies. Die Aussicht vom Gipfel des Parks ist unvergesslich.",
+      "it": "Il tubo trasparente degli squali del Tower of Power e uno dei momenti piu fotografati. Il Wave Palace al tramonto e straordinario. I cancelli d'ingresso con architettura tai dorata creano foto spettacolari. Il Floating Market e un paradiso fotografico. Le viste dalla cima del parco sono indimenticabili.",
+      "nl": "De transparante haaienruim van Tower of Power is een van de meest gefotografeerde waterpark-momenten. Het Wave Palace bij zonsondergang is buitengewoon. De ingangshekken met gouden Thaise architectuur maken spectaculaire aankomstfotos. De Floating Market is een fotografisch paradijs. De uitzichten van de top van het park zijn onvergetelijk.",
+      "pt": "O tubo transparente de tubaroes do Tower of Power e um dos momentos mais fotografados. O Wave Palace ao por do sol e extraordinario. Os portoes de entrada com arquitetura tailandesa dourada criam fotos espetaculares. O Floating Market e um paraiso fotografico. As vistas do topo do parque sao inesqueciveis.",
+      "ru": "Прозрачная акулья труба Tower of Power — один из самых фотографируемых моментов в водных парках. Wave Palace на закате с золотым светом невероятен. Входные ворота с золотой тайской архитектурой создают потрясающие фотографии. Плавучий рынок — фотографический рай. Виды с вершины парка незабываемы.",
+      "zh": "力量塔的透明鲨鱼管是世界上最受拍摄的水上乐园时刻之一。日落时分波浪宫的金光非凡壮观。金色泰国建筑的入口大门创造令人惊叹的到达照片。漂浮市场是摄影师的天堂。从公园顶部俯瞰整个科斯塔阿德赫海岸线的景色令人难忘。",
+      "ar": "انبوب اسماك القرش الشفاف في برج القوة هو احد اكثر اللحظات تصويراً في متنزهات المياه. قصر الامواج عند الغروب مع الضوء الذهبي رائع. بوابات المدخل بمعمارها التايلاندي الذهبي تخلق صوراً رائعة. السوق العائم جنة للمصورين. المناظر من قمة المتنزه لا تُنسى."
+    }
+  },
+  "attractions": {
+    "tower_of_power": {
+      "desc": {
+        "en": "The world's most famous water slide — a near-vertical transparent plunge through a shark lagoon at 80 km/h. Riders see sharks and stingrays centimetres away through the tube. Unmissable.",
+        "es": "El tobogan acuatico mas famoso del mundo — una caida casi vertical transparente a traves de una laguna de tiburones a 80 km/h. Imprescindible.",
+        "fr": "Le toboggan aquatique le plus connu — une plongee presque verticale transparente a travers une lagune de requins a 80 km/h. Incontournable.",
+        "de": "Die beruhmteste Wasserrutsche der Welt — ein nahezu vertikaler transparenter Sturz durch eine Haifish-Lagune bei 80 km/h. Unverzichtbar.",
+        "it": "Lo scivolo acquatico piu famoso al mondo — una caduta quasi verticale trasparente attraverso una laguna con squali a 80 km/h. Da non perdere.",
+        "nl": "De beroemdste waterglijbaan ter wereld — een bijna verticale transparante plons door een haaienlagune op 80 km/u. Niet te missen.",
+        "pt": "O toboga aquatico mais famoso do mundo — uma queda quase vertical transparente atraves de uma lagoa de tubaroes a 80 km/h. Imperdivel.",
+        "ru": "Самая известная водная горка в мире — почти вертикальное прозрачное погружение через акулий лагун на 80 км/ч. Незабываемо.",
+        "zh": "世界上最著名的水上滑梯——以80公里每小时的速度几乎垂直穿越透明鲨鱼泻湖。必玩。",
+        "ar": "اشهر زحليقة مائية في العالم — انزلاق شبه عمودي شفاف عبر بحيرة اسماك القرش بسرعة 80 كم/ساعة. لا يمكن تفويتها."
+      }
+    },
+    "dragon": {
+      "desc": {
+        "en": "A spectacular CannonBowl ride through dragon jaws into an enormous spinning funnel delivering zero-gravity sensations unlike anything else in European water parks.",
+        "es": "Un espectacular CannonBowl a traves de las mandibulas del dragon hacia un enorme embudo giratorio con sensaciones de gravedad cero.",
+        "fr": "Un spectaculaire CannonBowl a travers les machoires du dragon vers un enorme entonnoir tournant avec des sensations de zero gravite.",
+        "de": "Ein spektakularer CannonBowl durch Drachenkiefer in einen riesigen rotierenden Trichter mit Schwerelosigkeitserlebnissen.",
+        "it": "Uno spettacolare CannonBowl attraverso le fauci del drago verso un enorme imbuto rotante con sensazioni di gravita zero.",
+        "nl": "Een spectaculaire CannonBowl door drakenkaak in een enorme draaiende trechter met gewichtloosheidsgevoelens.",
+        "pt": "Um espetacular CannonBowl atraves das mandibulas do dragao para um enorme funil giratório com sensacoes de gravidade zero.",
+        "ru": "Захватывающий CannonBowl через челюсти дракона в огромную вращающуюся воронку с ощущениями невесомости.",
+        "zh": "穿越龙颌进入巨大旋转漏斗的壮观CannonBowl项目，带来欧洲水上公园中前所未有的失重感。",
+        "ar": "ركوبة CannonBowl رائعة عبر فكي التنين الى قمع دوار ضخم يمنح احساسا بانعدام الجاذبية."
+      }
+    },
+    "tsunami": {
+      "desc": {
+        "en": "The world record holder for largest artificial wave — 15,000 square metres of warm water generating surfable three-metre waves. The beating heart of Siam Park.",
+        "es": "El poseedor del record mundial de la ola artificial mas grande — 15.000 metros cuadrados de agua calida generando olas surfables de tres metros.",
+        "fr": "Le detenteur du record mondial de la plus grande vague artificielle — 15.000 metres carres d'eau chaude generant des vagues surfables de trois metres.",
+        "de": "Der Weltrekordhalter fur die grosste kunstliche Welle — 15.000 Quadratmeter warmes Wasser erzeugt surfbare Drei-Meter-Wellen.",
+        "it": "Il detentore del record mondiale per la piu grande onda artificiale — 15.000 metri quadrati di acqua calda che genera onde da tre metri surfabili.",
+        "nl": "De wereldrecordhouder voor de grootste kunstmatige golf — 15.000 vierkante meter warm water genereert surfbare golven van drie meter.",
+        "pt": "O detentor do record mundial pela maior onda artificial — 15.000 metros quadrados de agua quente gerando ondas surfaveis de tres metros.",
+        "ru": "Рекордсмен мира по самой большой искусственной волне — 15 000 квадратных метров тёплой воды генерируют волны для сёрфинга высотой три метра.",
+        "zh": "世界上最大人造波浪的世界纪录保持者——15000平方米温水产生可以冲浪的3米高波浪。暹罗公园跳动的心脏。",
+        "ar": "حامل الرقم القياسي العالمي لاكبر موجة اصطناعية — 15000 متر مربع من المياه الدافئة تولد امواجا قابلة للتزلج بارتفاع ثلاثة امتار."
+      }
+    },
+    "mai_thai_river": {
+      "desc": {
+        "en": "One of the world's longest lazy rivers at 600 metres, floating through tropical scenery, waterfalls and a spectacular aquarium of sharks and tropical fish at the world's highest elevation.",
+        "es": "Uno de los rios perezosos mas largos del mundo con 600 metros, flotando por paisajes tropicales, cascadas y un espectacular acuario de tiburones.",
+        "fr": "L'un des plus longs fleuves paresseux du monde avec 600 metres, flottant a travers des paysages tropicaux, cascades et un spectaculaire aquarium de requins.",
+        "de": "Einer der langsten Lazy Rivers der Welt mit 600 Metern, durch tropische Landschaften, Wasserfalle und ein spektakulardes Aquarium mit Haifischen.",
+        "it": "Uno dei lazy river piu lunghi del mondo con 600 metri attraverso paesaggi tropicali cascate e un spettacolare acquario di squali.",
+        "nl": "Een van de langste lazy rivers ter wereld met 600 meter door tropische landschappen watervallen en een spectaculair aquarium met haaien.",
+        "pt": "Um dos lazy rivers mais longos do mundo com 600 metros flutuando por paisagens tropicais cascatas e um espetacular aquario de tubaroes.",
+        "ru": "Один из самых длинных ленивых рек в мире — 600 метров через тропические пейзажи, водопады и захватывающий акварий с акулами.",
+        "zh": "世界上最长的懒人河之一，全长600米，漂流穿过热带风景、瀑布和壮观的鲨鱼及热带鱼水族馆，海拔高度创世界纪录。",
+        "ar": "واحد من اطول الانهار الكسولة في العالم بطول 600 متر يطفو عبر مناظر استوائية وشلالات وحوض سمك رائع من اسماك القرش."
+      }
+    },
+    "the_giant": {
+      "desc": {
+        "en": "Twin ProSlide CannonBowl funnels spinning in opposite directions delivering zero-gravity thrills for two riders simultaneously. A must-ride for groups and couples.",
+        "es": "Twin ProSlide CannonBowl que giran en direcciones opuestas proporcionando emociones de gravedad cero para dos riders simultaneamente.",
+        "fr": "Twin ProSlide CannonBowl tournant dans des directions opposees offrant des sensations de zero gravite pour deux riders simultanement.",
+        "de": "Twin ProSlide CannonBowl in entgegengesetzten Richtungen drehend bietet Schwerelosigkeitserlebnisse fur zwei Fahrer gleichzeitig.",
+        "it": "Twin ProSlide CannonBowl che girano in direzioni opposte offrendo emozioni di gravita zero per due rider simultaneamente.",
+        "nl": "Twin ProSlide CannonBowl die in tegengestelde richtingen draaien met gewichtloosheidssensaties voor twee riders tegelijk.",
+        "pt": "Twin ProSlide CannonBowl girando em direcoes opostas proporcionando sensacoes de gravidade zero para dois riders simultaneamente.",
+        "ru": "Twin ProSlide CannonBowl, вращающиеся в противоположных направлениях, обеспечивают ощущения невесомости для двух гостей одновременно.",
+        "zh": "双向旋转的Twin ProSlide CannonBowl漏斗，为两名乘客同时带来失重刺激。团体和情侣必玩。",
+        "ar": "قمعان CannonBowl مزدوجان يدوران في اتجاهين متعاكسين يمنحان احساسا بانعدام الجاذبية لراكبين في وقت واحد."
+      }
+    },
+    "volcano": {
+      "desc": {
+        "en": "A dark ride through a living volcano combining complete darkness, mist effects and dramatic light shows as riders descend through the crater on rubber rings.",
+        "es": "Una atraccion oscura a traves de un volcan vivo combinando oscuridad total efectos de niebla y espectaculares shows de luces.",
+        "fr": "Une attraction sombre a travers un volcan vivant combinant obscurite totale effets de brouillard et spectaculaires shows lumineux.",
+        "de": "Ein Dark Ride durch einen lebendigen Vulkan mit totaler Dunkelheit Nebeleffekten und dramatischen Lichtshows.",
+        "it": "Un dark ride attraverso un vulcano vivo combinando oscurita totale effetti nebbia e spettacolari show di luci.",
+        "nl": "Een dark ride door een levende vulkaan met totale duisternis misteffecten en dramatische lichtshows.",
+        "pt": "Um dark ride atraves de um vulcao vivo combinando escuridao total efeitos de nevoa e espetaculares shows de luzes.",
+        "ru": "Тёмный аттракцион через живой вулкан с полной темнотой, туманными эффектами и драматическими световыми шоу.",
+        "zh": "穿越活火山的暗室游乐，结合完全黑暗、雾气效果和戏剧性灯光秀，乘客乘坐橡皮圈穿越火山口。",
+        "ar": "ركوبة مظلمة عبر بركان حي تجمع الظلام التام وتاثيرات الضباب والعروض الضوئية الدرامية."
+      }
+    },
+    "jungle_snakes": {
+      "desc": {
+        "en": "Four parallel ProSlide tube slides — Cobra, Boa, Viper and Python — winding through tropical jungle. Two standard and two turbo speed versions for racing friends and family.",
+        "es": "Cuatro toboganes tubulares paralelos — Cobra, Boa, Viper y Python — serpenteando por la jungla tropical. Dos estandar y dos de velocidad turbo.",
+        "fr": "Quatre toboggans tubulaires paralleles — Cobra, Boa, Viper et Python — serpentant dans la jungle tropicale. Deux standard et deux a vitesse turbo.",
+        "de": "Vier parallele ProSlide Rohrrutschen — Cobra, Boa, Viper und Python — durch tropischen Dschungel. Zwei Standard und zwei Turbo-Geschwindigkeit.",
+        "it": "Quattro scivoli tubolari paralleli — Cobra, Boa, Viper e Python — che serpeggiano nella giungla tropicale. Due standard e due a velocita turbo.",
+        "nl": "Vier parallele ProSlide buisglijbanen — Cobra, Boa, Viper en Python — kronkelend door tropisch oerwoud. Twee standaard en twee turbosnelheid.",
+        "pt": "Quatro tobogas tubulares paralelos — Cobra, Boa, Viper e Python — serpenteando pela selva tropical. Dois estandar e dois de velocidade turbo.",
+        "ru": "Четыре параллельные трубчатые горки — Cobra, Boa, Viper и Python — петляющие через тропические джунгли. Две стандартные и две турбо.",
+        "zh": "四条平行ProSlide管道滑梯——眼镜蛇、蟒蛇、毒蛇和蟒蛇——蜿蜒穿越热带丛林。两条标准速度，两条涡轮速度。",
+        "ar": "اربع زحاليق انبوبية متوازية — Cobra وBoa وViper وPython — تلتف عبر الغابة الاستوائية. نسختان قياسيتان ونسختان توربو."
+      }
+    },
+    "mekong_rapids": {
+      "desc": {
+        "en": "A ProSlide Mammoth four-person family raft ride through exciting white water rapids. The most accessible group ride in the park, suitable for the whole family.",
+        "es": "Un ProSlide Mammoth de rafting familiar para cuatro personas a traves de emocionantes rapidos. La atraccion familiar mas accesible del parque.",
+        "fr": "Un ProSlide Mammoth de rafting familial pour quatre personnes a travers des rapides palpitants. L'attraction familiale la plus accessible du parc.",
+        "de": "Ein ProSlide Mammoth Familien-Raftingfahrt fur vier Personen durch aufregende Wildwasser. Die zuganiglichste Gruppenattraktion im Park.",
+        "it": "Un ProSlide Mammoth di rafting familiare per quattro persone attraverso emozionanti rapide. L'attrazione di gruppo piu accessibile del parco.",
+        "nl": "Een ProSlide Mammoth familie raften voor vier personen door opwindende stroomversnellingen. De meest toegankelijke groepsattractie in het park.",
+        "pt": "Um ProSlide Mammoth de rafting familiar para quatro pessoas atraves de rapidos emocionantes. A atracao de grupo mais acessivel do parque.",
+        "ru": "Семейный рафтинг ProSlide Mammoth для четырёх человек через захватывающие пороги. Самый доступный групповой аттракцион в парке.",
+        "zh": "ProSlide Mammoth四人家庭橡皮艇漂流，穿越激动人心的白水急流。公园中最适合全家的团体项目。",
+        "ar": "رافتينغ عائلي ProSlide Mammoth لاربعة اشخاص عبر منحدرات المياه المثيرة. اكثر ركوبة جماعية في المتنزه."
+      }
+    },
+    "naga_racer": {
+      "desc": {
+        "en": "Six-lane racing mat slides where the whole family competes to reach the bottom first. Simple, fast and endlessly fun — the park's most sociable competitive ride.",
+        "es": "Toboganes de esterilla de seis carriles donde toda la familia compite para llegar primero. Simple rapido y divertido sin fin.",
+        "fr": "Toboggans a tapis de six couloirs ou toute la famille compete pour arriver en premier. Simple rapide et infiniment amusant.",
+        "de": "Sechs-Spur Mattenrutschen wo die ganze Familie um den ersten Platz konkurriert. Einfach schnell und endlos spassig.",
+        "it": "Scivoli a stuoia a sei corsie dove tutta la famiglia gareggia per arrivare prima. Semplice veloce e infinitamente divertente.",
+        "nl": "Zes-baans matglijbanen waar de hele familie concurreert om als eerste beneden te zijn. Eenvoudig snel en eindeloos leuk.",
+        "pt": "Tobogas de esteira de seis pistas onde toda a familia compete para chegar primeiro. Simples rapido e infinitamente divertido.",
+        "ru": "Шестиполосные матрасные горки, где вся семья соревнуется кто первый достигнет дна. Просто, быстро и бесконечно весело.",
+        "zh": "六通道竞速垫子滑梯，全家竞争谁先到达底部。简单、快速，乐趣无穷——公园中最具社交性的竞争项目。",
+        "ar": "زحاليق حصيرة بست مسارات حيث تتنافس العائلة كلها للوصول اولاً. بسيطة وسريعة ومرحة لا نهاية لها."
+      }
+    },
+    "kinanaree": {
+      "desc": {
+        "en": "A 200-metre hybrid water slide delivering three experiences in one — one of Siam Park's newest and most exciting attractions with unexpected speed changes and curves.",
+        "es": "Un tobogan acuatico hibrido de 200 metros que ofrece tres experiencias en una — una de las atracciones mas nuevas y emocionantes de Siam Park.",
+        "fr": "Un toboggan aquatique hybride de 200 metres offrant trois experiences en une — l'une des nouvelles et plus excitantes attractions de Siam Park.",
+        "de": "Eine 200-Meter-Hybrid-Wasserrutsche mit drei Erlebnissen in einem — eine der neuesten und aufregendsten Attraktionen von Siam Park.",
+        "it": "Uno scivolo acquatico ibrido di 200 metri che offre tre esperienze in una — una delle attrazioni piu nuove ed emozionanti di Siam Park.",
+        "nl": "Een 200-meter hybride waterglijbaan die drie ervaringen in een biedt — een van Siam Parks nieuwste en meest opwindende attracties.",
+        "pt": "Um toboga aquatico hibrido de 200 metros oferecendo tres experiencias numa so — uma das atraces mais novas e emocionantes de Siam Park.",
+        "ru": "200-метровая гибридная водная горка, предлагающая три ощущения в одном — один из новейших и самых захватывающих аттракционов Siam Park.",
+        "zh": "200米混合水上滑梯，三种体验合一——暹罗公园最新、最令人兴奋的项目之一，充满意想不到的速度变化和弯道。",
+        "ar": "زحليقة مائية هجينة بطول 200 متر تقدم ثلاث تجارب في واحدة — واحدة من اجدد واكثر جاذبيات سيام بارك اثارة."
+      }
+    },
+    "bodhi_trail": {
+      "desc": {
+        "en": "An aerial adventure trail above the park with zip lines and obstacle courses offering panoramic views over Siam Park and the Tenerife coastline. A unique dry attraction.",
+        "es": "Un sendero de aventura aereo sobre el parque con tirolinas y circuitos de obstaculos con vistas panoramicas sobre Siam Park y la costa de Tenerife.",
+        "fr": "Un parcours d'aventure aerien au-dessus du parc avec tyroliennes et parcours d'obstacles offrant des vues panoramiques sur Siam Park et la cote.",
+        "de": "Ein Luftabenteuer-Trail uber dem Park mit Seilrutschen und Hindernisparcours mit Panoramablick uber Siam Park und die Kuste Teneriffas.",
+        "it": "Un sentiero d'avventura aereo sopra il parco con zipline e percorsi ostacoli con viste panoramiche su Siam Park e la costa di Tenerife.",
+        "nl": "Een luchtavonturenpad boven het park met ziplines en hindernisbanen met panoramisch uitzicht over Siam Park en de kust van Tenerife.",
+        "pt": "Um percurso de aventura aereo sobre o parque com ziplines e circuitos de obstaculos com vistas panoramicas sobre Siam Park e a costa.",
+        "ru": "Воздушная приключенческая тропа над парком с зиплайнами и полосами препятствий с панорамными видами на Siam Park и побережье.",
+        "zh": "公园上方的空中探险步道，设有滑索和障碍课程，提供暹罗公园和特内里费海岸线的全景视野。独特的陆地景点。",
+        "ar": "مسار مغامرات جوي فوق المتنزه مع خطوط التزلج ومسارات العقبات يوفر مناظر بانورامية على سيام بارك وساحل تينيريفي."
+      }
+    },
+    "sawasdee": {
+      "desc": {
+        "en": "A dedicated children's water fortress with 24-degree heated water, four child-sized slides and countless splash features. Safe, supervised and perfect for young children.",
+        "es": "Una fortaleza acuatica dedicada a los ninos con agua calentada a 24 grados cuatro toboganes y numerosas funciones de chapoteo. Segura y perfecta para ninos pequenos.",
+        "fr": "Une forteresse aquatique dediee aux enfants avec eau chauffee a 24 degres quatre toboggans et nombreuses fonctionnalites splash. Securisee et parfaite pour les jeunes enfants.",
+        "de": "Eine Kinderwasserburg mit 24 Grad warmem Wasser vier Rutschen und zahlreichen Spritzfunktionen. Sicher und ideal fur kleine Kinder.",
+        "it": "Una fortezza acquatica dedicata ai bambini con acqua riscaldata a 24 gradi quattro scivoli e numerose funzioni splash. Sicura e perfetta per i bambini piccoli.",
+        "nl": "Een speciaal kinderwatervesting met water op 24 graden vier glijbanen en talloze spatfuncties. Veilig en perfect voor jonge kinderen.",
+        "pt": "Uma fortaleza aquatica dedicada as criancas com agua aquecida a 24 graus quatro tobogas e numerosas funcoes splash. Segura e perfeita para criancas.",
+        "ru": "Детская водная крепость с подогретой водой 24 градуса, четырьмя горками и многочисленными брызгальными элементами. Безопасна для маленьких детей.",
+        "zh": "专属儿童水上城堡，24度加热水温，四条儿童尺寸滑梯和无数水上游戏。安全、有监督，非常适合小朋友。",
+        "ar": "حصن مائي مخصص للاطفال بمياه مدفاة على 24 درجة واربع زحاليق وميزات رش لا تعد. آمن ومثالي للاطفال الصغار."
+      }
+    },
+    "the_lost_city": {
+      "desc": {
+        "en": "An enormous children's adventure fortress with over 120 interactive water games, slides, cannons and tipping buckets. The most extensive children's water play structure in Europe.",
+        "es": "Una enorme fortaleza de aventura para ninos con mas de 120 juegos acuaticos interactivos toboganes canones y cubos que se vuelcan. La estructura de juego mas extensa de Europa.",
+        "fr": "Une immense forteresse d'aventure pour enfants avec plus de 120 jeux aquatiques interactifs toboggans canons et seaux basculants. La plus grande structure aquatique pour enfants d'Europe.",
+        "de": "Eine riesige Kinderwasserspielanlage mit uber 120 interaktiven Wasserspielen Rutschen Kanonen und Kippeimern. Die grosste Kinderwasserspielanlage Europas.",
+        "it": "Un'enorme fortezza avventura per bambini con oltre 120 giochi acquatici interattivi scivoli cannoni e secchi ribaltabili. La piu estesa struttura acquatica per bambini in Europa.",
+        "nl": "Een enorme kinder-avonturenfort met meer dan 120 interactieve waterspelen glijbanen kanonnen en kanteleemmers. De meest uitgebreide kinderwaterspeel-structuur in Europa.",
+        "pt": "Uma enorme fortaleza aventura para criancas com mais de 120 jogos aquaticos interativos tobogas canoes e baldes que tombam. A mais extensa estrutura aquatica infantil da Europa.",
+        "ru": "Огромная детская водная крепость с более чем 120 интерактивными водными играми, горками, пушками и опрокидывающимися вёдрами. Самая масштабная детская водная структура в Европе.",
+        "zh": "拥有超过120个互动水上游戏、滑梯、水炮和倾斜水桶的巨型儿童探险城堡。欧洲规模最大的儿童水上游乐结构。",
+        "ar": "حصن مغامرات ضخم للاطفال مع اكثر من 120 لعبة مائية تفاعلية وزحاليق ومدافع ودلاء قابلة للقلب. اكبر هيكل مائي للاطفال في اوروبا."
+      }
+    },
+    "leones_marinos": {
+      "desc": {
+        "en": "A charming sea lion show near the park entrance, popular with families seeking a relaxed break from the water slides. An entertaining educational performance for young children.",
+        "es": "Un encantador espectaculo de leones marinos cerca de la entrada del parque, popular entre las familias. Una actuacion educativa entretenida para ninos pequenos.",
+        "fr": "Un charmant spectacle d'otaries pres de l'entree du parc, populaire aupres des familles. Une performance educative divertissante pour les jeunes enfants.",
+        "de": "Eine charmante Seelowenshow nahe dem Parkeingang, beliebt bei Familien die eine entspannte Pause von den Wasserrutschen suchen.",
+        "it": "Un incantevole spettacolo di leoni marini vicino all'ingresso del parco, popolare tra le famiglie. Una performance educativa divertente per i bambini piccoli.",
+        "nl": "Een charmante zeeleeuwenshow bij de parkentree, populair bij families. Een entertainende educatieve voorstelling voor jonge kinderen.",
+        "pt": "Um encantador espetaculo de leoes marinhos perto da entrada do parque, popular entre as familias. Uma atuacao educativa divertida para criancas.",
+        "ru": "Очаровательное шоу морских львов у входа в парк, популярное у семей. Развлекательное образовательное представление для маленьких детей.",
+        "zh": "靠近公园入口的迷人海狮表演，深受寻求休息的家庭欢迎。为幼儿提供有趣的教育性表演。",
+        "ar": "عرض اسود البحر الساحر بالقرب من مدخل المتنزه يحظى بشعبية بين العائلات. اداء تعليمي ترفيهي للاطفال الصغار."
+      }
+    }
+  },
+  "food": {
+    "food_beach_club": {
+      "desc": {
+        "en": "Siam Park's premium restaurant on the shores of the Wave Palace, serving an international buffet and grilled dishes in a spectacular open-air setting. Included in all VIP packages.",
+        "es": "El restaurante premium de Siam Park en las orillas del Wave Palace, con buffet internacional y platos a la parrilla. Incluido en todos los paquetes VIP.",
+        "fr": "Le restaurant premium de Siam Park sur les rives du Wave Palace, servant un buffet international et des plats grilles. Inclus dans tous les packages VIP.",
+        "de": "Siam Parks Premium-Restaurant an den Ufern des Wave Palace mit internationalem Buffet und gegrillten Gerichten. In allen VIP-Paketen enthalten.",
+        "it": "Il ristorante premium di Siam Park sulle rive del Wave Palace con buffet internazionale e piatti alla griglia. Incluso in tutti i pacchetti VIP.",
+        "nl": "Siam Parks premium restaurant aan de oever van het Wave Palace met internationaal buffet en gegrilde gerechten. Inbegrepen in alle VIP-pakketten.",
+        "pt": "O restaurante premium de Siam Park nas margens do Wave Palace com buffet internacional e pratos grelhados. Incluido em todos os pacotes VIP.",
+        "ru": "Премиальный ресторан Siam Park на берегу Wave Palace с международным буфетом и блюдами на гриле. Включён во все VIP-пакеты.",
+        "zh": "暹罗公园位于波浪宫海岸的精品餐厅，提供国际自助餐和烤制菜肴。所有VIP套餐均包含。",
+        "ar": "مطعم سيام بارك الفاخر على ضفاف قصر الامواج يقدم بوفيه دولياً واطباقاً مشوية. مشمول في جميع باقات VIP."
+      }
+    },
+    "food_coco_bar": {
+      "desc": {
+        "en": "A vibrant tropical bar serving refreshing cocktails, cold beers, fresh fruit drinks and light snacks in the heart of the park. Included in VIP packages for unlimited drinks.",
+        "es": "Un vibrante bar tropical que sirve cocteleria refrescante cervezas frias bebidas de frutas y snacks en el corazon del parque. Incluido en paquetes VIP.",
+        "fr": "Un bar tropical vibrant servant cocktails rafraichissants bieres fraiches boissons aux fruits et snacks au coeur du parc. Inclus dans les packages VIP.",
+        "de": "Eine lebhafte Tropikbar mit erfrischenden Cocktails kalten Bieren Fruchtgetranken und Snacks im Herzen des Parks. In VIP-Paketen enthalten.",
+        "it": "Un vibrante bar tropicale con cocktail rinfrescanti birre fredde bevande di frutta e snack nel cuore del parco. Incluso nei pacchetti VIP.",
+        "nl": "Een levendige tropische bar met verfrissende cocktails koude bieren fruitdranken en snacks in het hart van het park. Inbegrepen in VIP-pakketten.",
+        "pt": "Um vibrante bar tropical com cocktails refrescantes cervejas frias bebidas de fruta e snacks no coracao do parque. Incluido nos pacotes VIP.",
+        "ru": "Яркий тропический бар с освежающими коктейлями, холодным пивом, фруктовыми напитками и закусками в сердце парка. Включён в VIP-пакеты.",
+        "zh": "充满活力的热带酒吧，在公园中心供应清爽鸡尾酒、冰镇啤酒、新鲜果汁和小食。VIP套餐包含无限饮品。",
+        "ar": "بار استوائي نابض بالحياة يقدم كوكتيلات منعشة وبيرة باردة ومشروبات فواكه وسناكس في قلب المتنزه. مشمول في باقات VIP."
+      }
+    },
+    "food_floating_market": {
+      "desc": {
+        "en": "A recreated Thai floating market village serving authentic street food, tropical fruits and traditional sweets from canal gondola boats. The most unique dining experience in European theme parks.",
+        "es": "Un mercado flotante tai recreado que sirve autentica comida callejera frutas tropicales y dulces tradicionales desde gondolas en el canal. La experiencia gastronomica mas unica de los parques europeos.",
+        "fr": "Un marche flottant thai recree servant de la street food authentique fruits tropicaux et sucreries traditionnelles depuis des gondoles sur le canal. L'experience gastronomique la plus unique des parcs europeens.",
+        "de": "Ein nachgebauter thailandischer Schwimmmarkt mit authentischem Strassenfood tropischen Fruchten und traditionellen Susskigkeiten von Kanalbooten. Das einzigartigste Speiseerlebnis in europaischen Parks.",
+        "it": "Un mercato galleggiante thai ricreato con autentico street food frutti tropicali e dolci tradizionali da gondole sul canale. L'esperienza gastronomica piu unica nei parchi europei.",
+        "nl": "Een nagebootste Thaise drijvende markt met authentiek straateten tropisch fruit en traditionele snoepjes van kanaalondolas. De meest unieke eetervaring in Europese themaparken.",
+        "pt": "Um mercado flutuante tailandes recriado com comida de rua autentica frutas tropicais e doces tradicionais de gondolas no canal. A experiencia gastronomica mais unica dos parques europeus.",
+        "ru": "Воссозданный тайский плавучий рынок с аутентичной уличной едой, тропическими фруктами и традиционными сладостями с гондол на канале. Самый уникальный ресторанный опыт в европейских парках.",
+        "zh": "仿制泰国水上漂浮市场，从运河贡多拉船只供应正宗街头小食、热带水果和传统甜品。欧洲主题公园中最独特的餐饮体验。",
+        "ar": "سوق عائم تايلاندي معاد انشاؤه يقدم طعاماً شارعياً اصيلاً وفواكه استوائية وحلوى تقليدية من قوارب جندول على القناة."
+      }
+    },
+    "food_thai_bar": {
+      "desc": {
+        "en": "A stylish Thai restaurant and bar serving authentic Thai cuisine and refreshing drinks in a beautifully decorated traditional setting. Included in VIP all-inclusive packages.",
+        "es": "Un elegante restaurante bar tailandes que sirve autentica cocina thai y bebidas refrescantes en un entorno tradicional bellamente decorado. Incluido en paquetes todo incluido VIP.",
+        "fr": "Un elegant restaurant bar thai servant une cuisine authentique et des boissons rafraichissantes dans un cadre traditionnel magnifiquement decore. Inclus dans les packages tout inclus VIP.",
+        "de": "Ein stilvolles Thai-Restaurant und Bar mit authentischer Thai-Kuche und erfrischenden Getranken in wunderschon dekorierter traditioneller Umgebung. In VIP-All-Inclusive-Paketen enthalten.",
+        "it": "Un elegante ristorante bar thai con cucina autentica e bevande rinfrescanti in una splendida ambientazione tradizionale. Incluso nei pacchetti tutto compreso VIP.",
+        "nl": "Een stijlvol Thais restaurant en bar met authentieke Thai keuken en verfrissende dranken in een prachtig gedecoreerde traditionele omgeving. Inbegrepen in VIP all-inclusive pakketten.",
+        "pt": "Um elegante restaurante bar tailandes com culinaria autentica e bebidas refrescantes em ambiente tradicional lindamente decorado. Incluido nos pacotes tudo incluido VIP.",
+        "ru": "Стильный тайский ресторан и бар с аутентичной тайской кухней и освежающими напитками в красиво украшенной традиционной обстановке. Включён в VIP пакеты all-inclusive.",
+        "zh": "时尚的泰国餐厅酒吧，在精美装饰的传统环境中供应正宗泰国菜和清爽饮品。VIP全包套餐包含。",
+        "ar": "مطعم بار تايلاندي انيق يقدم مأكولات تايلاندية اصيلة ومشروبات منعشة في محيط تقليدي مزين بجمال. مشمول في باقات VIP الشاملة."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_bahia_del_duque": {
+      "desc": {
+        "en": "One of Tenerife's finest luxury resorts — a stunning collection of Canarian villas in manicured gardens leading to a private beach, just minutes from Siam Park. World-class spa, multiple award-winning restaurants and impeccable service.",
+        "es": "Uno de los mejores resorts de lujo de Tenerife — una impresionante coleccion de villas canarias en jardines cuidados que llevan a una playa privada, a minutos de Siam Park. Spa de clase mundial y multiples restaurantes premiados.",
+        "fr": "L'un des meilleurs complexes luxueux de Tenerife — une collection impressionnante de villas canariennes dans des jardins soignes menant a une plage privee, a quelques minutes de Siam Park. Spa de classe mondiale et restaurants primés.",
+        "de": "Eines der feinsten Luxusresorts Teneriffas — eine beeindruckende Sammlung kanarischer Villen in gepflegten Garten die zu einem Privatstrand fuhren, Minuten von Siam Park entfernt. Weltklasse-Spa und preisgekronte Restaurants.",
+        "it": "Uno dei piu raffinati resort di lusso di Tenerife — un'impressionante collezione di ville canarie in giardini curati che portano a una spiaggia privata, a pochi minuti da Siam Park. Spa di classe mondiale e ristoranti premiati.",
+        "nl": "Een van Tenerife's mooiste luxe resorts — een indrukwekkende collectie Canarische villa's in verzorgde tuinen die naar een prive strand leiden, op minuten van Siam Park. Wereldklasse spa en bekroonde restaurants.",
+        "pt": "Um dos mais finos resorts de luxo de Tenerife — uma impressionante colecao de vilas canarias em jardins cuidados que levam a uma praia privada, a minutos de Siam Park. Spa de classe mundial e restaurantes premiados.",
+        "ru": "Один из лучших роскошных курортов Тенерифе — впечатляющая коллекция канарских вилл в ухоженных садах, ведущих к частному пляжу, в минутах от Siam Park. Спа мирового класса и отмеченные наградами рестораны.",
+        "zh": "特内里费岛最精致的豪华度假村之一——令人惊叹的加那利风格别墅群，坐落于精心维护的花园中，延伸至私人海滩，距暹罗公园仅数分钟。世界级水疗中心和多家获奖餐厅。",
+        "ar": "واحد من ارقى منتجعات تينيريفي الفاخرة — مجموعة رائعة من الفيلات الكنارية في حدائق مصممة تؤدي الى شاطئ خاص على بعد دقائق من سيام بارك. منتجع صحي عالمي المستوى ومطاعم حائزة على جوائز."
+      },
+      "rooms": {
+        "deluxe_room": {
+          "name": { "en": "Deluxe Room", "es": "Habitacion Deluxe", "fr": "Chambre Deluxe", "de": "Deluxe Zimmer", "it": "Camera Deluxe", "nl": "Deluxe Kamer", "pt": "Quarto Deluxe", "ru": "Делюкс номер", "zh": "豪华客房", "ar": "غرفة ديلوكس" },
+          "desc": { "en": "Elegantly appointed room in a Canarian villa with garden or sea views and private terrace.", "es": "Habitacion elegante en villa canaria con vistas al jardin o al mar y terraza privada.", "fr": "Chambre elegante dans une villa canarienne avec vue jardin ou mer et terrasse privee.", "de": "Elegantes Zimmer in einer kanarischen Villa mit Garten- oder Meerblick und privater Terrasse.", "it": "Camera elegante in villa canaria con vista giardino o mare e terrazza privata.", "nl": "Elegant ingericht kamer in een Canarische villa met tuin- of zeezicht en prive terras.", "pt": "Quarto elegante numa villa canaria com vista jardim ou mar e varanda privada.", "ru": "Элегантный номер в канарской вилле с видом на сад или море и частной террасой.", "zh": "加那利风格别墅中优雅客房，花园或海景，私人露台。", "ar": "غرفة انيقة في فيلا كنارية مع اطلالات على الحديقة او البحر وشرفة خاصة." }
+        },
+        "junior_suite": {
+          "name": { "en": "Junior Suite", "es": "Junior Suite", "fr": "Junior Suite", "de": "Junior Suite", "it": "Junior Suite", "nl": "Junior Suite", "pt": "Junior Suite", "ru": "Джуниор Сьют", "zh": "小型套房", "ar": "جونيور سويت" },
+          "desc": { "en": "Spacious junior suite with panoramic Atlantic Ocean views, private terrace, premium amenities and spa access.", "es": "Junior suite espaciosa con vistas panoramicas al Atlantico terraza privada y acceso al spa.", "fr": "Junior suite spacieuse avec vue panoramique sur l'Atlantique terrasse privee et acces spa.", "de": "Geraumige Junior Suite mit Panoramablick auf den Atlantik privater Terrasse und Spa-Zugang.", "it": "Junior suite spaziosa con vista panoramica sull'Atlantico terrazza privata e accesso spa.", "nl": "Ruime junior suite met panoramisch Atlantisch uitzicht prive terras en spa toegang.", "pt": "Junior suite espaciosa com vista panoramica para o Atlantico varanda privada e acesso ao spa.", "ru": "Просторный джуниор-люкс с панорамными видами на Атлантику, частной террасой и доступом в спа.", "zh": "宽敞小型套房，大西洋全景，私人露台，高级设施和水疗通道。", "ar": "جونيور سويت فسيح مع اطلالات بانورامية على المحيط الاطلسي وشرفة خاصة ووصول للسبا." }
+        }
+      }
+    },
+    "hotel_villa_mandi": {
+      "desc": {
+        "en": "A beautiful boutique golf resort minutes from Siam Park, offering spacious apartments and private villas surrounded by lush gardens and a 9-hole golf course. Perfect for families wanting more space and privacy.",
+        "es": "Un hermoso resort de golf boutique a minutos de Siam Park con apartamentos espaciosos y villas privadas rodeadas de jardines y un campo de golf de 9 hoyos. Perfecto para familias que quieren mas espacio y privacidad.",
+        "fr": "Un beau resort de golf boutique a quelques minutes de Siam Park avec de spacieux appartements et villas privees entourees de jardins luxuriants et un golf 9 trous. Parfait pour les familles voulant plus d'espace et d'intimite.",
+        "de": "Ein wunderschones Boutique-Golfresort Minuten von Siam Park mit geraumigen Apartments und privaten Villen umgeben von uppigen Garten und einem 9-Loch-Golfplatz. Ideal fur Familien die mehr Platz und Privatsphare wollen.",
+        "it": "Un bellissimo boutique resort da golf a pochi minuti da Siam Park con ampi appartamenti e ville private circondati da giardini rigogliosi e un campo golf a 9 buche. Perfetto per famiglie che vogliono piu spazio e privacy.",
+        "nl": "Een prachtig boutique golfresort op minuten van Siam Park met ruime appartementen en prive villa's omgeven door weelderige tuinen en een 9-holes golfbaan. Perfect voor families die meer ruimte en privacy willen.",
+        "pt": "Um belo resort de golfe boutique a minutos de Siam Park com apartamentos espaciosos e villas privadas rodeadas de jardins exuberantes e um campo de golfe de 9 buracos. Perfeito para familias que querem mais espaco e privacidade.",
+        "ru": "Красивый бутик-гольф-курорт в минутах от Siam Park с просторными апартаментами и частными виллами в окружении пышных садов и 9-луночного поля для гольфа. Идеально для семей, желающих больше пространства и уединения.",
+        "zh": "距暹罗公园仅数分钟的精美精品高尔夫度假村，提供宽敞公寓和私人别墅，周围环绕着郁郁葱葱的花园和9洞高尔夫球场。非常适合需要更多空间和私密性的家庭。",
+        "ar": "منتجع غولف بوتيك جميل على بعد دقائق من سيام بارك مع شقق فسيحة وفيلات خاصة محاطة بحدائق خضراء وملعب غولف 9 حفرات. مثالي للعائلات التي تريد مساحة وخصوصية أكثر."
+      },
+      "rooms": {
+        "apartment": {
+          "name": { "en": "Garden Apartment", "es": "Apartamento Jardin", "fr": "Appartement Jardin", "de": "Garten Apartment", "it": "Appartamento Giardino", "nl": "Tuin Appartement", "pt": "Apartamento Jardim", "ru": "Апартаменты Сад", "zh": "花园公寓", "ar": "شقة الحديقة" },
+          "desc": { "en": "Spacious self-catering apartment with terrace, garden views and pool and golf course access.", "es": "Apartamento espacioso con terraza vistas al jardin y acceso a piscina y campo de golf.", "fr": "Appartement spacieux avec terrasse vue jardin et acces piscine et golf.", "de": "Geraumiges Apartment mit Terrasse Gartenblick und Zugang zu Pool und Golfplatz.", "it": "Appartamento spazioso con terrazza vista giardino e accesso a piscina e campo golf.", "nl": "Ruim zelfvoorzienend appartement met terras tuinzicht en toegang tot zwembad en golfbaan.", "pt": "Apartamento espacoso com varanda vistas jardim e acesso a piscina e campo de golfe.", "ru": "Просторные апартаменты с террасой, видом на сад и доступом к бассейну и полю для гольфа.", "zh": "宽敞自助式公寓，露台，花园景观，游泳池和高尔夫球场通道。", "ar": "شقة فسيحة للاعتماد الذاتي مع شرفة ومناظر على الحديقة واستخدام المسبح وملعب الغولف." }
+        },
+        "villa": {
+          "name": { "en": "Private Villa", "es": "Villa Privada", "fr": "Villa Privee", "de": "Private Villa", "it": "Villa Privata", "nl": "Prive Villa", "pt": "Villa Privada", "ru": "Частная Вилла", "zh": "私人别墅", "ar": "فيلا خاصة" },
+          "desc": { "en": "Luxurious private villa with own pool, garden and full kitchen — ideal for families near Siam Park.", "es": "Villa privada lujosa con piscina propia jardin y cocina completa — ideal para familias cerca de Siam Park.", "fr": "Villa privee luxueuse avec piscine propre jardin et cuisine complete — ideale pour les familles pres de Siam Park.", "de": "Luxuriose Privatvilla mit eigenem Pool Garten und voller Kuche — ideal fur Familien nahe Siam Park.", "it": "Villa privata lussuosa con piscina propria giardino e cucina completa — ideale per famiglie vicino a Siam Park.", "nl": "Luxueuze prive villa met eigen zwembad tuin en volledige keuken — ideaal voor families bij Siam Park.", "pt": "Villa privada luxuosa com piscina propria jardim e cozinha completa — ideal para familias perto de Siam Park.", "ru": "Роскошная частная вилла с собственным бассейном, садом и полной кухней — идеально для семей рядом с Siam Park.", "zh": "豪华私人别墅，自有游泳池、花园和全套厨房——非常适合暹罗公园附近的家庭。", "ar": "فيلا خاصة فاخرة مع مسبح خاص وحديقة ومطبخ كامل — مثالية للعائلات بالقرب من سيام بارك." }
+        }
+      }
+    },
+    "hotel_vip_cabanas": {
+      "desc": {
+        "en": "The ultimate on-site Siam Park VIP experience — private Cabanas, Houses and Villas inside the park with unlimited Fast Pass, all-inclusive food and drinks, private sun loungers, minibar, TV and shower. The Villa adds an outdoor jacuzzi overlooking Siam Beach.",
+        "es": "La maxima experiencia VIP de Siam Park — Cabanas, Casas y Villas privadas dentro del parque con Fast Pass ilimitado comida y bebida todo incluido. La Villa anade un jacuzzi exterior con vistas a Siam Beach.",
+        "fr": "L'ultime experience VIP on-site de Siam Park — Cabanas, Maisons et Villas privees dans le parc avec Fast Pass illimite nourriture et boissons tout inclus. La Villa ajoute un jacuzzi exterieur vue sur Siam Beach.",
+        "de": "Das ultimative VIP-Erlebnis vor Ort in Siam Park — private Cabanas Hauser und Villen im Park mit unbegrenztem Fast Pass All-Inclusive-Essen und Getranken. Die Villa fugt einen Outdoor-Jacuzzi mit Blick auf Siam Beach hinzu.",
+        "it": "La massima esperienza VIP in loco di Siam Park — Cabanas, Case e Ville private nel parco con Fast Pass illimitato cibo e bevande tutto incluso. La Villa aggiunge un jacuzzi esterno con vista su Siam Beach.",
+        "nl": "De ultieme on-site VIP-ervaring van Siam Park — prive Cabanas, Huizen en Villa's in het park met onbeperkt Fast Pass all-inclusive eten en drinken. De Villa voegt een buiten jacuzzi toe met uitzicht op Siam Beach.",
+        "pt": "A maxima experiencia VIP no local de Siam Park — Cabanas, Casas e Villas privadas no parque com Fast Pass ilimitado comida e bebida tudo incluido. A Villa adiciona uma jacuzzi exterior com vista para Siam Beach.",
+        "ru": "Максимальный VIP-опыт в Siam Park — частные Кабаны, Дома и Виллы внутри парка с неограниченным Fast Pass, едой и напитками all-inclusive. Вилла добавляет открытое джакузи с видом на Siam Beach.",
+        "zh": "暹罗公园终极现场VIP体验——公园内私人小屋、别墅和豪华别墅，包含无限快速通道、全包餐饮、私人躺椅、迷你酒吧、电视和淋浴。豪华别墅额外提供俯瞰暹罗海滩的室外按摩浴缸。",
+        "ar": "التجربة VIP الافضل في سيام بارك — كبائن ومنازل وفيلات خاصة داخل المتنزه مع تصريح Fast Pass غير محدود وطعام ومشروبات شاملة. تضيف الفيلا جاكوزي خارجي مطل على شاطئ سيام."
+      },
+      "rooms": {
+        "cabana": {
+          "name": { "en": "VIP Cabana", "es": "VIP Cabana", "fr": "VIP Cabana", "de": "VIP Cabana", "it": "VIP Cabana", "nl": "VIP Cabana", "pt": "VIP Cabana", "ru": "VIP Кабана", "zh": "VIP小屋", "ar": "كابانا VIP" },
+          "desc": { "en": "Private cabana for up to 4 guests with unlimited Fast Pass, all-inclusive drinks and food, hammocks, minibar, TV and shower deck.", "es": "Cabana privada para 4 huespedes con Fast Pass ilimitado comida y bebida todo incluido hamacas minibar TV y ducha.", "fr": "Cabana privee pour 4 clients avec Fast Pass illimite nourriture et boissons tout inclus hamacs minibar TV et douche.", "de": "Private Cabana fur bis zu 4 Gaste mit unbegrenztem Fast Pass All-Inclusive Essen und Trinken Hangematten Minibar TV und Dusche.", "it": "Cabana privata per 4 ospiti con Fast Pass illimitato cibo e bevande tutto incluso amache minibar TV e doccia.", "nl": "Prive cabana voor maximaal 4 gasten met onbeperkt Fast Pass all-inclusive eten en drinken hangmatten minibar TV en douchedek.", "pt": "Cabana privada para 4 hospedes com Fast Pass ilimitado comida e bebida tudo incluido redes minibar TV e duche.", "ru": "Частная кабана для 4 гостей с неограниченным Fast Pass, едой и напитками all-inclusive, гамаками, мини-баром, ТВ и душем.", "zh": "私人小屋，最多4位客人，无限快速通道，全包饮食，吊床，迷你酒吧，电视和淋浴甲板。", "ar": "كابانا خاصة لـ 4 ضيوف مع تصريح Fast Pass غير محدود وطعام ومشروبات شاملة وأرائح وميني بار وتلفزيون وشرفة استحمام." }
+        },
+        "villa": {
+          "name": { "en": "VIP Villa", "es": "VIP Villa", "fr": "VIP Villa", "de": "VIP Villa", "it": "VIP Villa", "nl": "VIP Villa", "pt": "VIP Villa", "ru": "VIP Вилла", "zh": "VIP别墅", "ar": "فيلا VIP" },
+          "desc": { "en": "Ultimate VIP Villa for up to 8 guests with outdoor jacuzzi overlooking Siam Beach, all-inclusive dining and unlimited Fast Pass on all rides.", "es": "La maxima VIP Villa para 8 huespedes con jacuzzi exterior con vistas a Siam Beach todo incluido y Fast Pass ilimitado.", "fr": "L'ultime VIP Villa pour 8 clients avec jacuzzi exterieur vue sur Siam Beach tout inclus et Fast Pass illimite.", "de": "Ultimative VIP Villa fur 8 Gaste mit Outdoor-Jacuzzi mit Blick auf Siam Beach All-Inclusive und unbegrenztem Fast Pass.", "it": "La massima VIP Villa per 8 ospiti con jacuzzi esterno vista Siam Beach tutto incluso e Fast Pass illimitato.", "nl": "Ultieme VIP Villa voor 8 gasten met buiten jacuzzi met uitzicht op Siam Beach all-inclusive en onbeperkt Fast Pass.", "pt": "A maxima VIP Villa para 8 hospedes com jacuzzi exterior vista Siam Beach tudo incluido e Fast Pass ilimitado.", "ru": "Максимальная VIP Вилла для 8 гостей с открытым джакузи с видом на Siam Beach, all-inclusive и неограниченным Fast Pass.", "zh": "终极VIP别墅，最多8位客人，室外按摩浴缸俯瞰暹罗海滩，全包餐饮，所有项目无限快速通道。", "ar": "فيلا VIP القصوى لـ 8 ضيوف مع جاكوزي خارجي مطل على شاطئ سيام وخدمة شاملة وتصريح Fast Pass غير محدود." }
+        }
+      }
+    }
+  }
+}

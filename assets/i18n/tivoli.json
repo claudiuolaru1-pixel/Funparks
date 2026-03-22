@@ -1,0 +1,380 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Tivoli Gardens is one of the most extraordinary places on earth — a magical fusion of amusement park, concert venue, fine dining destination and beautifully landscaped garden that has enchanted visitors in the very heart of Copenhagen since 1843. As the second-oldest operating amusement park in the world, Tivoli carries with it an almost unimaginable depth of history and cultural significance. H.C. Andersen was a regular visitor and drew inspiration from its fairy tale atmosphere. Walt Disney visited multiple times in the 1950s and was so captivated that he used Tivoli as a direct inspiration for Disneyland — meaning that every Disney park in the world carries a little piece of Copenhagen within it. Today Tivoli welcomes over four million visitors each year across its seasonal openings: the blooming summer season, the atmospheric Halloween edition, and the world-famous Christmas market that transforms the gardens into a glowing winter wonderland.",
+      "es": "Tivoli Gardens es uno de los lugares más extraordinarios del mundo — una fusión mágica de parque de atracciones, sala de conciertos, destino gastronómico y jardín bellamente diseñado que ha encantado a los visitantes en el corazón de Copenhague desde 1843. Como el segundo parque de atracciones más antiguo del mundo en funcionamiento, Tivoli lleva consigo una profundidad de historia y significado cultural casi inimaginable. Walt Disney lo visitó varias veces en los años 50 y quedó tan cautivado que usó Tivoli como inspiración directa para Disneyland.",
+      "fr": "Tivoli Gardens est l'un des endroits les plus extraordinaires au monde — une fusion magique de parc d'attractions, salle de concerts, destination gastronomique et jardin magnifiquement aménagé qui enchante les visiteurs au cœur de Copenhague depuis 1843. Walt Disney a visité plusieurs fois dans les années 1950 et a été tellement captivé qu'il a utilisé Tivoli comme inspiration directe pour Disneyland.",
+      "de": "Tivoli Gardens ist einer der außergewöhnlichsten Orte der Welt — eine magische Fusion aus Freizeitpark, Konzerthalle, Feinschmecker-Destination und wunderschön gestalteten Gärten, die Besucher seit 1843 im Herzen Kopenhagens verzaubert. Walt Disney besuchte den Park mehrmals in den 1950er Jahren und war so begeistert, dass er Tivoli als direkte Inspiration für Disneyland nutzte.",
+      "it": "Tivoli Gardens è uno dei luoghi più straordinari della terra — una magica fusione di parco divertimenti, sala concerti, destinazione gastronomica e giardino meravigliosamente paesaggistico che incanta i visitatori nel cuore di Copenaghen dal 1843. Walt Disney visitò più volte negli anni 50 e fu così affascinato da usare Tivoli come ispirazione diretta per Disneyland.",
+      "nl": "Tivoli Gardens is een van de meest buitengewone plekken ter wereld — een magische fusie van pretpark, concertzaal, gastronomische bestemming en prachtig aangelegde tuin die bezoekers in het hart van Kopenhagen heeft betoverd sinds 1843. Walt Disney bezocht het park meerdere keren in de jaren 1950 en was zo geboeid dat hij Tivoli gebruikte als directe inspiratie voor Disneyland.",
+      "pt": "Tivoli Gardens é um dos lugares mais extraordinários da Terra — uma fusão mágica de parque de diversões, sala de concertos, destino gastronômico e jardim lindamente paisagístico que tem encantado visitantes no coração de Copenhague desde 1843. Walt Disney visitou várias vezes na década de 1950 e ficou tão cativado que usou o Tivoli como inspiração direta para a Disneyland.",
+      "ru": "Tivoli Gardens — одно из самых удивительных мест на земле: волшебное слияние парка развлечений, концертного зала, ресторанного направления и великолепно озеленённого сада, которое очаровывает посетителей в самом сердце Копенгагена с 1843 года. Уолт Дисней неоднократно посещал парк в 1950-х и был настолько покорён, что использовал Tivoli в качестве прямого вдохновения для Disneyland.",
+      "zh": "蒂沃利花园是地球上最非凡的地方之一——游乐园、音乐厅、精致餐饮目的地和风景如画的美丽花园的神奇融合，自1843年以来一直在哥本哈根市中心迷住游客。沃尔特·迪士尼在1950年代多次到访，深受吸引，以蒂沃利作为迪士尼乐园的直接灵感，意味着世界上每个迪士尼乐园都带有一点哥本哈根的印记。",
+      "ar": "حدائق تيفولي هي من أكثر الأماكن استثنائية على وجه الأرض — مزيج سحري من متنزه الملاهي وقاعة الحفلات الموسيقية ووجهة المطاعم الراقية والحدائق المنسقة التي سحرت الزوار في قلب كوبنهاغن منذ عام 1843. زار والت ديزني المتنزه عدة مرات في الخمسينيات وأُسر به لدرجة أنه استخدم تيفولي كمصدر إلهام مباشر لإنشاء ديزني لاند."
+    },
+    "ov_highlights_body": {
+      "en": "The unmissable Rutschebanen wooden roller coaster from 1914 remains the park's most iconic attraction — and uniquely, it still has a trained brakeman riding in every train to manually control the speed. Himmelskibet the Star Flyer at 80 metres delivers the most spectacular views of any ride in Copenhagen. The Demon provides modern looping coaster thrills, while the enchanting Flying Trunk dark ride based on H.C. Andersen's fairy tales offers pure magic for all ages. The Golden Tower free-fall, the Aquila giant swing and the breathtaking carousel round out a ride lineup that perfectly balances history and excitement. Beyond rides, Tivoli hosts over 100 live events each season including Friday Rock concerts, ballet at the Pantomime Theatre and magical seasonal events.",
+      "es": "Rutschebanen desde 1914 sigue siendo la atracción más icónica del parque, con un operador de frenos a bordo. Himmelskibet a 80 metros ofrece las vistas más espectaculares de Copenhague. El Demon ofrece emociones modernas. El Flying Trunk basado en los cuentos de Andersen encanta a todas las edades. Tivoli acoge más de 100 eventos en vivo cada temporada.",
+      "fr": "Rutschebanen depuis 1914 reste l'attraction la plus emblématique avec un freineur à bord. Himmelskibet à 80 mètres offre les vues les plus spectaculaires de Copenhague. Le Demon propose des sensations modernes. Le Flying Trunk basé sur les contes d'Andersen enchante tous les âges. Tivoli accueille plus de 100 événements par saison.",
+      "de": "Rutschebanen aus 1914 bleibt die ikonischste Attraktion mit einem Bremser an Bord. Himmelskibet auf 80 Metern bietet die spektakulärsten Ausblicke auf Kopenhagen. Der Demon liefert moderne Thrills. Der Flying Trunk nach Andersens Märchen bezaubert alle Altersgruppen. Tivoli veranstaltet über 100 Events pro Saison.",
+      "it": "Rutschebanen dal 1914 rimane l'attrazione più iconica con un frenatore a bordo. Himmelskibet a 80 metri offre le viste più spettacolari di Copenaghen. Il Demon offre emozioni moderne. Il Flying Trunk basato sulle fiabe di Andersen incanta tutte le età. Tivoli ospita oltre 100 eventi per stagione.",
+      "nl": "Rutschebanen uit 1914 blijft de meest iconische attractie met een remmer aan boord. Himmelskibet op 80 meter biedt de meest spectaculaire uitzichten op Kopenhagen. De Demon levert moderne sensaties. De Flying Trunk gebaseerd op Andersens sprookjes betoverd alle leeftijden. Tivoli organiseert meer dan 100 evenementen per seizoen.",
+      "pt": "Rutschebanen de 1914 continua a ser a atração mais icónica com um operador de travões a bordo. Himmelskibet a 80 metros oferece as vistas mais espetaculares de Copenhague. O Demon proporciona emoções modernas. O Flying Trunk baseado nos contos de Andersen encanta todas as idades. Tivoli acolhe mais de 100 eventos por temporada.",
+      "ru": "Rutschebanen с 1914 года остаётся самой культовой аттракцией с тормозным оператором. Himmelskibet на 80 метрах предлагает самые захватывающие виды на Копенгаген. Demon дарит современные ощущения. Flying Trunk по сказкам Андерсена очаровывает всех возрастов. Tivoli проводит более 100 мероприятий за сезон.",
+      "zh": "1914年的Rutschebanen木制过山车仍是最具标志性的景点，每列车上仍有制动员。80米高的Himmelskibet提供哥本哈根最壮观视野。Demon提供现代刺激，基于安徒生童话的Flying Trunk为所有年龄带来魔法。蒂沃利每季举办100多场活动。",
+      "ar": "روتشيبانين منذ 1914 لا تزال الأكثر أيقونية مع مشغل مكابح على متنها. هيملسكيبيت على 80 متراً يقدم أروع المناظر في كوبنهاغن. الديمون يوفر متعة حديثة. صندوق الطيران المستوحى من أندرسن يأسر كل الأعمار. تيفولي تستضيف أكثر من 100 حدث كل موسم."
+    },
+    "ov_did_you_know_body": {
+      "en": "Tivoli Gardens opened on 15 August 1843, making it 182 years old and the second-oldest amusement park in the world still in operation. The park spans just 8.3 hectares, making it one of the most densely packed amusement parks on earth. Walt Disney visited Tivoli twice before opening Disneyland in 1955, specifically studying the park's design, lighting, cleanliness and guest experience. The Rutschebanen wooden roller coaster has been running continuously since 1914 — over 110 years — and remains one of only a handful of operational wooden coasters worldwide that still uses a human brakeman on every run. Each summer, Tivoli plants over 400,000 flowers across its gardens, and on Saturdays a spectacular fireworks display lights up the Copenhagen sky at 11:45pm.",
+      "es": "Tivoli abrió el 15 de agosto de 1843 con 182 años es el segundo parque más antiguo del mundo. Ocupa solo 8.3 hectáreas. Walt Disney lo visitó dos veces antes de abrir Disneyland en 1955. Rutschebanen lleva más de 110 años en funcionamiento con un operador de frenos humano. Cada verano se plantan más de 400.000 flores.",
+      "fr": "Tivoli a ouvert le 15 août 1843 avec 182 ans c'est le deuxième parc le plus ancien du monde. Il ne couvre que 8,3 hectares. Walt Disney l'a visité deux fois avant d'ouvrir Disneyland en 1955. Rutschebanen fonctionne depuis plus de 110 ans avec un freineur humain. Chaque été plus de 400.000 fleurs sont plantées.",
+      "de": "Tivoli öffnete am 15. August 1843 und ist mit 182 Jahren der zweitälteste Park der Welt. Er umfasst nur 8,3 Hektar. Walt Disney besuchte ihn zweimal vor der Eröffnung von Disneyland 1955. Rutschebanen läuft seit über 110 Jahren mit einem menschlichen Bremser. Jeden Sommer werden über 400.000 Blumen gepflanzt.",
+      "it": "Tivoli aprì il 15 agosto 1843 con 182 anni è il secondo parco più antico del mondo. Copre solo 8,3 ettari. Walt Disney lo visitò due volte prima di aprire Disneyland nel 1955. Rutschebanen funziona da oltre 110 anni con un frenatore umano. Ogni estate vengono piantati oltre 400.000 fiori.",
+      "nl": "Tivoli opende op 15 augustus 1843 en is het op een na oudste park ter wereld. Het beslaat slechts 8,3 hectare. Walt Disney bezocht het twee keer voor Disneyland in 1955. Rutschebanen draait al meer dan 110 jaar met menselijke remmer. Elke zomer worden meer dan 400.000 bloemen geplant.",
+      "pt": "Tivoli abriu a 15 de agosto de 1843 com 182 anos é o segundo parque mais antigo do mundo. Cobre apenas 8,3 hectares. Walt Disney visitou-o duas vezes antes de Disneyland em 1955. Rutschebanen funciona há mais de 110 anos com operador de travões humano. Cada verão são plantadas mais de 400.000 flores.",
+      "ru": "Tivoli открылся 15 августа 1843 года — второй старейший парк мира. Занимает всего 8,3 гектара. Уолт Дисней дважды посещал его до Disneyland в 1955 году. Rutschebanen работает более 110 лет с живым тормозным оператором. Каждое лето высаживается более 400.000 цветов.",
+      "zh": "蒂沃利花园于1843年8月15日开放，已有182年历史，是世界第二古老的游乐园。面积仅8.3公顷。沃尔特·迪士尼在1955年开放迪士尼乐园前两次参观。Rutschebanen运行超过110年仍有人工制动员。每年夏季种植超过40万朵鲜花，周六晚11点45分有烟花秀。",
+      "ar": "افتُتحت تيفولي في 15 أغسطس 1843 وبعمر 182 عاماً هي ثاني أقدم متنزه في العالم. تمتد على 8.3 هكتار. زار والت ديزني المتنزه مرتين قبل ديزني لاند 1955. روتشيبانين تعمل منذ أكثر من 110 سنوات مع مشغل مكابح بشري. كل صيف تُزرع أكثر من 400.000 زهرة."
+    },
+    "ov_plan_body": {
+      "en": "Arrive when the gates open to ride Rutschebanen and Demon before queues build. Himmelskibet is best experienced in the late afternoon when the Copenhagen skyline glows in golden hour light. The Flying Trunk and carousel are perfect for mid-afternoon when energy levels need a gentle recharge. Book dinner at Groften or Nimb Brasserie well in advance — tables are hard to come by in summer. Stay until after dark: Tivoli after sunset is a completely different and utterly magical experience as thousands of lights transform the gardens. On Saturday evenings a spectacular fireworks display at 11:45pm makes a perfect finale.",
+      "es": "Llega a la apertura para Rutschebanen y Demon antes de las colas. Himmelskibet es mejor a última hora de la tarde. Reserva cena en Groften o Nimb con antelación. Quédate hasta después del anochecer: Tivoli de noche es absolutamente mágico.",
+      "fr": "Arrivez à l'ouverture pour Rutschebanen et Demon avant les files. Himmelskibet est mieux en fin d'après-midi. Réservez le dîner chez Groften ou Nimb à l'avance. Restez après la nuit tombée: Tivoli le soir est absolument magique.",
+      "de": "Bei Öffnung ankommen für Rutschebanen und Demon. Himmelskibet am späten Nachmittag am besten. Abendessen bei Groften oder Nimb frühzeitig reservieren. Nach Einbruch der Dunkelheit bleiben: Tivoli bei Nacht ist absolut magisch.",
+      "it": "Arriva all'apertura per Rutschebanen e Demon. Himmelskibet è meglio nel tardo pomeriggio. Prenota la cena al Groften o Nimb in anticipo. Rimani dopo il tramonto: Tivoli di notte è assolutamente magico.",
+      "nl": "Kom bij opening voor Rutschebanen en Demon. Himmelskibet het beste in de late middag. Reserveer diner bij Groften of Nimb van tevoren. Blijf na het donker: Tivoli s nachts is absoluut magisch.",
+      "pt": "Chega à abertura para Rutschebanen e Demon. Himmelskibet é melhor ao final da tarde. Reserva jantar no Groften ou Nimb com antecedência. Fica até depois do escurecer: Tivoli à noite é absolutamente mágico.",
+      "ru": "Приходите к открытию для Rutschebanen и Demon. Himmelskibet лучше во второй половине дня. Заранее забронируйте ужин в Groften или Nimb. Оставайтесь после темноты — Tivoli ночью абсолютно волшебный.",
+      "zh": "开园时到达，在排队之前乘坐Rutschebanen和Demon。Himmelskibet下午晚些时候最佳。提前预订Groften或Nimb餐厅晚餐。天黑后留下来——黑夜中的蒂沃利是完全不同且绝对神奇的体验。周六晚11点45分的烟花秀是完美收尾。",
+      "ar": "اصل عند الافتتاح لروتشيبانين والديمون قبل الطوابير. هيملسكيبيت أفضل في أواخر بعد الظهر. احجز العشاء في غروفتن أو نيمب مسبقاً. ابق حتى بعد الغسق: تيفولي ليلاً ساحر تماماً."
+    },
+    "ov_photos_body": {
+      "en": "The view of Tivoli from the top of Himmelskibet at 80 metres is one of the most remarkable photographs you can take in Scandinavia — Copenhagen's rooftops, harbour and royal buildings spread in every direction. The Rutschebanen wooden coaster photographed emerging from the mountain tunnel is a classic. The illuminated carousel at night surrounded by coloured lights creates one of Tivoli's most magical images. The Nimb Hotel's Moorish facade reflected in the lake at dusk is breathtaking. For architecture lovers, every corner of Tivoli offers a photographic treasure — from Chinese pagodas to Renaissance pavilions and the gleaming golden tower reaching into the Copenhagen sky.",
+      "es": "La vista desde Himmelskibet a 80 metros es una de las fotografías más notables de Escandinavia. Rutschebanen emergiendo del túnel es una imagen clásica. El carrusel iluminado de noche es mágico. La fachada morisca del Nimb reflejada en el lago al atardecer es impresionante.",
+      "fr": "La vue depuis Himmelskibet à 80 mètres est l'une des plus remarquables de Scandinavie. Rutschebanen émergeant du tunnel est un classique. Le carrousel illuminé la nuit est magique. La façade mauresque du Nimb reflétée dans le lac est époustouflante.",
+      "de": "Der Blick von Himmelskibet auf 80 Metern ist eines der bemerkenswertesten Fotos Skandinaviens. Rutschebanen beim Herausfahren aus dem Tunnel ist ein Klassiker. Das beleuchtete Karussell bei Nacht ist magisch. Die maurische Nimb-Fassade im Seespiegel ist atemberaubend.",
+      "it": "La vista da Himmelskibet a 80 metri è una delle più notevoli della Scandinavia. Rutschebanen che emerge dal tunnel è un classico. Il carosello illuminato di notte è magico. La facciata moresca del Nimb riflessa nel lago è mozzafiato.",
+      "nl": "Het uitzicht vanaf Himmelskibet op 80 meter is een van de meest opmerkelijke foto's van Scandinavie. Rutschebanen die uit de tunnel tevoorschijn komt is klassiek. De verlichte carrousel s nachts is magisch. De Moorse gevel van het Nimb weerspiegeld in het meer is adembenemend.",
+      "pt": "A vista de Himmelskibet a 80 metros é uma das mais notáveis da Escandinávia. Rutschebanen emergindo do túnel é um clássico. O carrossel iluminado à noite é mágico. A fachada mourisca do Nimb refletida no lago ao entardecer é deslumbrante.",
+      "ru": "Вид с Himmelskibet на 80 метрах — одна из самых замечательных фотографий Скандинавии. Rutschebanen, выезжающий из туннеля — классика. Освещённая карусель ночью магична. Мавританский фасад Nimb, отражённый в озере — захватывает дух.",
+      "zh": "从80米高的Himmelskibet俯瞰的景色是斯堪的纳维亚最非凡的照片之一。Rutschebanen从山洞驶出是经典画面。夜晚被彩灯环绕的旋转木马是最魔幻的画面之一。黄昏时Nimb酒店的摩尔式外墙倒映在湖中令人叹为观止。",
+      "ar": "المنظر من هيملسكيبيت على 80 متراً هو من أكثر الصور مذهلة في اسكندنافيا. روتشيبانين تخرج من النفق صورة كلاسيكية. الخيل الدوارة المضاءة ليلاً ساحرة. واجهة نيمب المورية المنعكسة في البحيرة رائعة."
+    }
+  },
+  "attractions": {
+    "rutschebanen": {
+      "desc": {
+        "en": "One of the world's oldest wooden coasters since 1914 with a live brakeman controlling speed on every run. Winds through a snow-capped mountain and delivers classic rattling thrills — a living piece of theme park history.",
+        "es": "Una de las montanas rusas de madera mas antiguas desde 1914 con un operador de frenos en vivo. Atraviesa una montana nevada. Una pieza viva de la historia de los parques tematicos.",
+        "fr": "L'un des plus anciens coasters en bois depuis 1914 avec un freineur en direct. Traverse une montagne enneigee. Une piece vivante de l'histoire des parcs d'attractions.",
+        "de": "Einer der altesten Holzcoaster seit 1914 mit einem Live-Bremser. Windet sich durch einen schneebedeckten Berg. Ein lebendes Stuck Freizeitparkgeschichte.",
+        "it": "Uno dei piu antichi coaster in legno dal 1914 con un frenatore dal vivo. Attraversa una montagna innevata. Un pezzo vivente della storia dei parchi divertimenti.",
+        "nl": "Een van de oudste houten achterbanen sinds 1914 met een live remmer. Kronkelt door een besneeuwd berggebied. Een levend stuk pretparkgeschiedenis.",
+        "pt": "Uma das montanhas-russas de madeira mais antigas desde 1914 com operador de travoes ao vivo. Serpenteia por uma montanha nevada. Uma peca viva da historia dos parques.",
+        "ru": "Один из старейших деревянных коастеров с 1914 года с живым тормозным оператором. Извивается через заснеженную гору. Живой кусок истории парков развлечений.",
+        "zh": "世界上最古老的木制过山车之一，自1914年起有现场制动员控制速度，穿越白雪皑皑的山峰，带来经典颠簸刺激——游乐园历史的活遗产。",
+        "ar": "واحدة من اقدم الافعوانيات الخشبية منذ 1914 مع مشغل مكابح حي. تلتف عبر جبل مكسو بالثلج. قطعة حية من تاريخ المتنزهات."
+      }
+    },
+    "himmelskibet": {
+      "desc": {
+        "en": "Tivoli's tallest ride at 80 metres, swinging riders on cables with breathtaking 360-degree panoramic views over Copenhagen's rooftops, harbour and royal buildings. Spectacular at golden hour.",
+        "es": "La atraccion mas alta de Tivoli a 80 metros, balanceando a los riders en cables con vistas panoramicas de 360 grados sobre los tejados de Copenhague. Espectacular en la hora dorada.",
+        "fr": "La plus haute attraction de Tivoli a 80 metres, balancant les riders sur des cables avec des vues panoramiques a 360 degres sur les toits de Copenhague. Spectaculaire a l'heure doree.",
+        "de": "Tivolisas hochste Attraktion auf 80 Metern, schwingend auf Kabeln mit 360-Grad-Panorama uber Kopenhagens Dacher. Spektakular zur goldenen Stunde.",
+        "it": "L'attrazione piu alta di Tivoli a 80 metri, oscillando i rider su cavi con viste panoramiche a 360 gradi sui tetti di Copenaghen. Spettacolare all'ora d'oro.",
+        "nl": "Tivoli's hoogste attractie op 80 meter, zwaaiend aan kabels met 360 graden panoramisch uitzicht over de daken van Kopenhagen. Spectaculair tijdens het gouden uur.",
+        "pt": "A atracao mais alta de Tivoli a 80 metros, balancando os riders em cabos com vistas panoramicas de 360 graus sobre os telhados de Copenhague. Espetacular na hora dourada.",
+        "ru": "Самая высокая аттракция Tivoli на 80 метрах, раскачивающая пассажиров на тросах с 360-градусными видами на крыши Копенгагена. Захватывает дух в золотой час.",
+        "zh": "蒂沃利最高游乐设施80米，在钢缆上将乘客向外甩出，俯瞰哥本哈根屋顶、港口和皇家建筑的360度全景。黄金时刻格外壮观。",
+        "ar": "اعلى جاذبية في تيفولي على 80 متراً تأرجح الركاب على الكابلات مع مناظر بانورامية 360 درجة على اسطح كوبنهاغن. رائع في ساعة الذهب."
+      }
+    },
+    "demon": {
+      "desc": {
+        "en": "Tivoli's most intense modern coaster with three inversions at 80 km/h. A thrilling contrast to the historic surroundings and the park's go-to ride for dedicated thrill seekers.",
+        "es": "La montana rusa moderna mas intensa de Tivoli con tres inversiones a 80 km/h. Un contraste emocionante con el entorno historico.",
+        "fr": "Le coaster moderne le plus intense de Tivoli avec trois inversions a 80 km/h. Un contraste palpitant avec l'environnement historique.",
+        "de": "Tivolisas intensivster moderner Coaster mit drei Inversionen bei 80 km/h. Ein aufregender Kontrast zur historischen Umgebung.",
+        "it": "Il coaster moderno piu intenso di Tivoli con tre inversioni a 80 km/h. Un contrasto emozionante con il contesto storico.",
+        "nl": "Tivoli's meest intense moderne achterbaan met drie inversies op 80 km/u. Een spannend contrast met de historische omgeving.",
+        "pt": "A montanha-russa moderna mais intensa de Tivoli com tres inversoes a 80 km/h. Um contraste emocionante com o ambiente historico.",
+        "ru": "Самый интенсивный современный коастер Tivoli с тремя инверсиями при 80 км/ч. Захватывающий контраст с историческим окружением.",
+        "zh": "蒂沃利最刺激的现代过山车，时速80公里三次翻转，与历史环境形成令人兴奋的对比。",
+        "ar": "اكثر افعوانية حديثة مكثفة في تيفولي مع ثلاثة انقلابات بسرعة 80 كم/ساعة. تناقض مثير مع المحيط التاريخي."
+      }
+    },
+    "golden_tower": {
+      "desc": {
+        "en": "A 63-metre free-fall drop ride where a peaceful ascent revealing the Copenhagen skyline ends in a sudden heart-stopping plunge. One of Tivoli's most popular thrill attractions.",
+        "es": "Una atraccion de caida libre de 63 metros donde un ascenso tranquilo termina en una repentina caida impresionante.",
+        "fr": "Une attraction de chute libre de 63 metres ou une ascension paisible se termine par une soudaine chute a couper le souffle.",
+        "de": "Eine 63 Meter hohe Freifallanlage wo ein friedlicher Aufstieg in einem plotzlichen atemberaubenden Sturz endet.",
+        "it": "Un'attrazione a caduta libera di 63 metri dove una tranquilla ascesa si conclude con un improvviso tuffo mozzafiato.",
+        "nl": "Een 63-meter vrije val attractie waarbij een vredige klim eindigt in een plotselinge hartekloppende duik.",
+        "pt": "Uma atracao de queda livre de 63 metros onde uma subida pacifica termina numa queda subita de parar o coracao.",
+        "ru": "63-метровый аттракцион свободного падения, где мирный подъём заканчивается внезапным захватывающим падением.",
+        "zh": "63米自由落体游乐设施，平静上升中哥本哈根天际线尽收眼底，随后突然令人心跳停止的坠落。",
+        "ar": "جاذبية سقوط حر بارتفاع 63 متراً حيث يتحول صعود هادئ الى هبوط مفاجئ يوقف القلب."
+      }
+    },
+    "aquila": {
+      "desc": {
+        "en": "A powerful giant swing generating intense G-forces as it hurls riders high into the air against the backdrop of Tivoli's illuminated gardens.",
+        "es": "Un poderoso columpio gigante que genera intensas fuerzas G mientras lanza a los riders alto en el aire.",
+        "fr": "Un puissant balancier geant generant d'intenses forces G en propulsant les riders haut dans les airs.",
+        "de": "Ein kraftvolles Riesenschaukelgeschaft das intensive G-Krafte erzeugt und Fahrer hoch in die Luft schleudert.",
+        "it": "Un potente dondolo gigante che genera intense G-force mentre lancia i rider in alto nell'aria.",
+        "nl": "Een krachtig reuzenschommelrijke die intense G-krachten genereert en riders hoog de lucht in slingert.",
+        "pt": "Um poderoso balanco gigante que gera forcas G intensas enquanto lanca os riders alto no ar.",
+        "ru": "Мощные гигантские качели, генерирующие интенсивные перегрузки и бросающие пассажиров высоко в воздух.",
+        "zh": "强大的巨型秋千，在蒂沃利灯光花园背景下以宽阔弧度将乘客高高抛向空中，产生强烈G力。",
+        "ar": "لعبة ارجوحة عملاقة قوية تولد قوى جاذبية مكثفة وترمي الركاب عالياً في الهواء."
+      }
+    },
+    "monsunen": {
+      "desc": {
+        "en": "A thrilling water ride through tropical jungle scenery ending in a splashdown that virtually guarantees a soaking. Tivoli's most popular summer cool-down attraction.",
+        "es": "Un emocionante paseo acuatico por escenarios de selva tropical que termina en un chapuzon que garantiza un remojón.",
+        "fr": "Un passionnant toboggan aquatique a travers des decors de jungle tropicale se terminant par une eclaboussure.",
+        "de": "Eine aufregende Wasserfahrt durch tropische Dschungel-Kulissen mit einem Splash der eine Durchnassung garantiert.",
+        "it": "Un emozionante percorso acquatico attraverso scenari di giungla tropicale che si conclude con uno splash.",
+        "nl": "Een spannende waterrit door tropisch junglescenario eindigend in een splashdown die doorweking garandeert.",
+        "pt": "Um emocionante percurso aquatico atraves de cenarios de selva tropical terminando num splashdown.",
+        "ru": "Захватывающий водный аттракцион через тропическую сценерию с финальным всплеском.",
+        "zh": "穿越热带丛林风景的刺激水上游乐，以飞溅结束，蒂沃利夏季最受欢迎的降温景点。",
+        "ar": "رحلة مائية مثيرة عبر مشاهد الغابة الاستوائية تنتهي بتناثر الماء المضمون تقريبا."
+      }
+    },
+    "flying_trunk": {
+      "desc": {
+        "en": "A magical dark ride through H.C. Andersen fairy tale scenes including The Little Mermaid and The Snow Queen. One of Tivoli's most beloved attractions for families and romantics.",
+        "es": "Un magico dark ride a traves de escenas de cuentos de H.C. Andersen. Una de las atracciones mas queridas de Tivoli.",
+        "fr": "Un dark ride magique a travers des scenes de contes d'H.C. Andersen. L'une des attractions les plus aimees de Tivoli.",
+        "de": "Eine magische Dark Ride durch H.C. Andersens Marchenszenen. Eine der beliebtesten Attraktionen Tivolisas.",
+        "it": "Un magico dark ride attraverso scene delle fiabe di H.C. Andersen. Una delle attrazioni piu amate di Tivoli.",
+        "nl": "Een magische dark ride door H.C. Andersen sprookjesscenes. Een van Tivoli's meest geliefde attracties.",
+        "pt": "Uma magica dark ride atraves de cenas de contos de H.C. Andersen. Uma das atraces mais queridas de Tivoli.",
+        "ru": "Волшебный тёмный аттракцион через сцены из сказок Г.К. Андерсена. Одна из самых любимых аттракций Tivoli.",
+        "zh": "穿越安徒生童话场景的魔幻暗室游乐，包括小美人鱼和冰雪女王。蒂沃利最受喜爱的景点之一。",
+        "ar": "رحلة مظلمة سحرية عبر مشاهد حكايات اندرسن. واحدة من اكثر جاذبيات تيفولي محبوبة."
+      }
+    },
+    "carousel": {
+      "desc": {
+        "en": "Tivoli's historic ornate carousel with beautifully decorated horses spinning to classic fairground music. At night, illuminated by hundreds of lights, it becomes one of the most photographed sights in Copenhagen.",
+        "es": "El historico carrusel ornamentado de Tivoli. De noche, iluminado por cientos de luces, se convierte en uno de los lugares mas fotografiados de Copenhague.",
+        "fr": "Le carrousel historique et orne de Tivoli. La nuit, illumine par des centaines de lumieres, il devient l'un des sites les plus photographies de Copenhague.",
+        "de": "Tivolisas historisches verziertes Karussell. Nachts, von Hunderten von Lichtern beleuchtet, eines der meistfotografierten Anblicke Kopenhagens.",
+        "it": "La storica giostra ornata di Tivoli. Di notte, illuminata da centinaia di luci, diventa uno dei luoghi piu fotografati di Copenaghen.",
+        "nl": "Tivoli's historische sierlijke carrousel. 's Nachts, verlicht door honderden lichten, een van de meest gefotografeerde bezienswaardigheden.",
+        "pt": "O historico e ornamentado carrossel de Tivoli. A noite, iluminado por centenas de luzes, torna-se um dos locais mais fotografados.",
+        "ru": "Исторически богато украшенная карусель Tivoli. Ночью, освещённая сотнями огней, одна из самых фотографируемых достопримечательностей.",
+        "zh": "蒂沃利历史性华丽旋转木马。夜晚被数百盏灯点亮时，成为哥本哈根最受拍摄的景象之一。",
+        "ar": "خيل تيفولي التاريخية المزخرفة. ليلاً وهي مضاءة بمئات الاضواء تصبح من اكثر المشاهد تصويراً في كوبنهاغن."
+      }
+    },
+    "ferris_wheel": {
+      "desc": {
+        "en": "Tivoli's classic Ferris wheel offering gentle romantic views over the illuminated gardens, lake and Copenhagen rooftops. Especially magical after dark when thousands of coloured lights create a fairytale landscape below.",
+        "es": "La clasica noria de Tivoli con suaves vistas romanticas sobre los jardines iluminados. Especialmente magica despues del anochecer.",
+        "fr": "La classique grande roue de Tivoli avec de douces vues romantiques sur les jardins illumines. Particulierement magique apres la tombee de la nuit.",
+        "de": "Tivolisas klassisches Riesenrad mit sanften romantischen Blicken uber die beleuchteten Garten. Besonders magisch nach Einbruch der Dunkelheit.",
+        "it": "La classica ruota panoramica di Tivoli con dolci vedute romantiche sui giardini illuminati. Particolarmente magica dopo il tramonto.",
+        "nl": "Tivoli's klassiek reuzenrad met zachte romantische uitzichten over de verlichte tuinen. Bijzonder magisch na het donker.",
+        "pt": "A classica roda gigante de Tivoli com suaves vistas romanticas sobre os jardins iluminados. Especialmente magica depois do escurecer.",
+        "ru": "Классическое колесо обозрения Tivoli с мягкими романтическими видами на освещённые сады. Особенно волшебное после темноты.",
+        "zh": "蒂沃利经典摩天轮，提供俯瞰灯光花园、湖泊和哥本哈根屋顶的温柔浪漫景色。尤其是夜幕降临后格外神奇。",
+        "ar": "عجلة الفيريس الكلاسيكية في تيفولي مع مناظر رومانسية هادئة على الحدائق المضاءة. ساحرة بشكل خاص بعد الغسق."
+      }
+    },
+    "the_astronomer": {
+      "desc": {
+        "en": "A family-friendly spinning ride with planet-shaped vehicles orbiting under a star canopy. Captures Tivoli's whimsical imagination in a gentle cheerful experience for families.",
+        "es": "Un paseo familiar giratorio con vehiculos en forma de planeta. Captura la imaginacion peculiar de Tivoli en una experiencia suave y alegre.",
+        "fr": "Un tour familial tournant avec des vehicules en forme de planete. Capture l'imagination fantaisiste de Tivoli dans une experience douce et joyeuse.",
+        "de": "Eine familienfreundliche Drehfahrt mit planetenformigen Fahrzeugen. Fangt Tivolisas skurrile Phantasie in einem sanften Erlebnis.",
+        "it": "Un giro familiare rotante con veicoli a forma di pianeta. Cattura l'immaginazione bizzarra di Tivoli in un'esperienza dolce.",
+        "nl": "Een gezinsvriendelijke draaiende attractie met planetvormige voertuigen. Vangt Tivoli's grillige verbeelding in een zachte ervaring.",
+        "pt": "Um passeio familiar giratorio com veiculos em forma de planeta. Captura a imaginacao de Tivoli numa experiencia suave.",
+        "ru": "Семейный вращающийся аттракцион с планетообразными транспортными средствами. Воплощает причудливую фантазию Tivoli.",
+        "zh": "以行星形状车辆在星空华盖下运行的家庭旋转游乐设施，以温和愉快的体验捕捉蒂沃利奇思妙想。",
+        "ar": "لعبة دوارة عائلية مع مركبات على شكل كواكب. تجسد الخيال المميز لتيفولي في تجربة هادئة ومبهجة."
+      }
+    },
+    "the_swing_carousel": {
+      "desc": {
+        "en": "A classic swinging chair ride lifting riders gently above Tivoli's beautiful flower beds for a breezy carefree spin. Simple, joyful and timeless.",
+        "es": "Un clasico paseo de silla oscilante que levanta suavemente a los riders sobre los hermosos jardines de Tivoli.",
+        "fr": "Un classique tour de chaise oscillante soulevant doucement les riders au-dessus des beaux parterres de Tivoli.",
+        "de": "Eine klassische Schaukelsessel-Fahrt die Fahrer sanft uber Tivolisas schone Blumenbeete hebt.",
+        "it": "Un classico giro su sedie oscillanti che solleva dolcemente i rider sui bellissimi aiuole di Tivoli.",
+        "nl": "Een klassieke schommelstoel rit die riders zachtjes boven Tivoli's mooie bloemperken tilt.",
+        "pt": "Um classico passeio de cadeira oscilante que levanta suavemente os riders acima dos jardins de Tivoli.",
+        "ru": "Классический аттракцион качающихся стульев, мягко поднимающий пассажиров над цветниками Tivoli.",
+        "zh": "经典摇椅游乐设施，将乘客轻柔地提升到蒂沃利美丽花坛上方，享受轻松惬意的旋转。简单、欢乐而永恒。",
+        "ar": "لعبة الكرسي المتارجح الكلاسيكية ترفع الركاب برفق فوق احواض زهور تيفولي الجميلة."
+      }
+    },
+    "maelkevejen": {
+      "desc": {
+        "en": "Tivoli's beloved children's roller coaster — a gentle cosmic journey that has been the first coaster experience for generations of Danish children.",
+        "es": "La querida montana rusa infantil de Tivoli — un suave viaje cosmico que ha sido la primera experiencia para generaciones de ninos daneses.",
+        "fr": "Le bien-aime coaster pour enfants de Tivoli — un doux voyage cosmique qui a ete la premiere experience pour des generations d'enfants danois.",
+        "de": "Tivolisas geliebter Kinder-Coaster — eine sanfte kosmische Reise die fur Generationen danischer Kinder das erste Erlebnis war.",
+        "it": "Il coaster per bambini amato di Tivoli — un dolce viaggio cosmico prima esperienza per generazioni di bambini danesi.",
+        "nl": "Tivoli's geliefde kinderachterbaan — een zachte kosmische reis die de eerste achterbaanervaring was voor generaties Deense kinderen.",
+        "pt": "A amada montana-russa infantil de Tivoli — uma suave jornada cosmica primeira experiencia para geracoes de criancas dinamarquesas.",
+        "ru": "Любимый детский коастер Tivoli — нежное космическое путешествие, первый опыт для поколений датских детей.",
+        "zh": "蒂沃利深受喜爱的儿童过山车——温和的宇宙之旅，是几代丹麦儿童过山车体验的开端。",
+        "ar": "افعوانية الاطفال المحبوبة في تيفولي — رحلة كونية هادئة كانت اول تجربة لاجيال من الاطفال الدنماركيين."
+      }
+    },
+    "tik_tak": {
+      "desc": {
+        "en": "A classic family spinning flat ride delivering simple fairground fun in the heart of one of the world's greatest amusement parks. A Tivoli staple for decades.",
+        "es": "Un clasico paseo plano giratorio familiar con diversion simple de feria en el corazon de uno de los mejores parques del mundo.",
+        "fr": "Un classique tour plat tournant familial offrant un amusement simple de fete foraine au coeur de Tivoli.",
+        "de": "Eine klassische rotierende Familien-Flachfahrt mit einfachem Jahrmarktsspass im Herzen Tivolisas.",
+        "it": "Un classico gioco piatto rotante familiare con semplice divertimento da fiera nel cuore di Tivoli.",
+        "nl": "Een klassieke roterende familievlakke rit met eenvoudig kermisplezier in het hart van Tivoli.",
+        "pt": "Um classico passeio plano giratorio familiar com diversao simples de feira no coracao de Tivoli.",
+        "ru": "Классический вращающийся семейный аттракцион с простым ярмарочным весельем в сердце Tivoli.",
+        "zh": "经典家庭旋转平板游乐设施，在蒂沃利核心地带带来简单游乐场乐趣。数十年来的蒂沃利常驻项目。",
+        "ar": "لعبة عائلية دوارة كلاسيكية مع متعة الملاهي البسيطة في قلب تيفولي."
+      }
+    }
+  },
+  "food": {
+    "food_nimb": {
+      "desc": {
+        "en": "Tivoli's most prestigious restaurant inside the stunning 1909 Moorish Nimb palace, serving exceptional French-Danish cuisine in an atmosphere of unrivalled elegance. One of Copenhagen's finest dining experiences.",
+        "es": "El restaurante mas prestigioso de Tivoli en el palacio morisco Nimb de 1909. Cocina francesa-danesa excepcional en una atmosfera de elegancia inigualable.",
+        "fr": "Le restaurant le plus prestigieux de Tivoli dans le palais mauresque Nimb de 1909. Cuisine exceptionnelle dans une elegance inegalee.",
+        "de": "Tivolisas prestigiosestes Restaurant im maurischen Nimb-Palast von 1909. Aussergewohnliche Kuche in unvergleichlicher Eleganz.",
+        "it": "Il ristorante piu prestigioso di Tivoli nel palazzo moresco Nimb del 1909. Cucina eccezionale in un'atmosfera di eleganza ineguagliabile.",
+        "nl": "Tivoli's meest prestigieuze restaurant in het Moorse Nimb paleis uit 1909. Uitzonderlijke keuken in ongeevenaarde elegantie.",
+        "pt": "O restaurante mais prestigioso de Tivoli no palacio Mourisco Nimb de 1909. Cozinha excecional em atmosfera de elegancia inigualavel.",
+        "ru": "Самый престижный ресторан Tivoli в мавританском дворце Nimb 1909 года. Исключительная кухня в непревзойдённой элегантности.",
+        "zh": "蒂沃利最负盛名的餐厅，位于1909年摩尔式Nimb宫殿内，在无与伦比的优雅氛围中提供卓越的法丹混合菜肴。",
+        "ar": "اكثر مطاعم تيفولي مرموقية داخل قصر نيمب المورية 1909. مأكولات فرنسية-دانماركية استثنائية في اناقة لا مثيل لها."
+      }
+    },
+    "food_groften": {
+      "desc": {
+        "en": "One of Tivoli's oldest restaurants since 1874, serving traditional Danish classics with lake views and live folk music. The soul of Danish food culture in the heart of the gardens.",
+        "es": "Uno de los restaurantes mas antiguos de Tivoli desde 1874, sirviendo clasicos daneses con vistas al lago y musica folk en vivo.",
+        "fr": "L'un des plus anciens restaurants de Tivoli depuis 1874, servant des classiques danois avec vue sur le lac et musique folk.",
+        "de": "Eines der altesten Restaurants Tivolisas seit 1874, mit traditionellen danischen Klassikern, Seeblick und Folk-Musik.",
+        "it": "Uno dei piu antichi ristoranti di Tivoli dal 1874, con classici danesi, vista lago e musica folk dal vivo.",
+        "nl": "Een van Tivoli's oudste restaurants sinds 1874, met traditionele Deense klassiekers, meerzicht en folk muziek.",
+        "pt": "Um dos restaurantes mais antigos de Tivoli desde 1874, com classicos dinamarqueses, vista lago e musica folk.",
+        "ru": "Один из старейших ресторанов Tivoli с 1874 года с традиционными датскими классиками, видом на озеро и народной музыкой.",
+        "zh": "蒂沃利自1874年起最古老的餐厅之一，供应传统丹麦经典菜肴，可欣赏湖景并有现场民谣音乐。",
+        "ar": "احد اقدم مطاعم تيفولي منذ 1874 يقدم كلاسيكيات دانماركية تقليدية مع اطلالات على البحيرة وموسيقى فولك."
+      }
+    },
+    "food_wagamama": {
+      "desc": {
+        "en": "The beloved Asian restaurant chain bringing signature ramen, noodles and fresh flavours to Tivoli. Casual communal dining with generous portions of katsu curry and gyoza.",
+        "es": "La querida cadena asiatica con ramen, fideos y sabores frescos en Tivoli. Cenas comunales casuales con generosas porciones.",
+        "fr": "La chaine de restaurants asiatiques bien-aimee avec ramen et nouilles a Tivoli. Restauration communautaire avec de genereux plats.",
+        "de": "Die beliebte asiatische Restaurantkette mit Ramen und Nudeln in Tivoli. Lockeres Gemeinschaftsessen mit grosszugigen Portionen.",
+        "it": "La amata catena asiatica con ramen e noodles a Tivoli. Cene comunitarie casual con generose porzioni.",
+        "nl": "De geliefde Aziatische restaurantketen met ramen en noodles in Tivoli. Casual communal eten met royale porties.",
+        "pt": "A amada cadeia asiatica com ramen e noodles no Tivoli. Refeicoes comunitarias casuais com generosas porcoes.",
+        "ru": "Любимая азиатская ресторанная сеть с рамен и лапшой в Tivoli. Непринуждённые общественные ужины.",
+        "zh": "深受喜爱的亚洲餐厅连锁品牌将标志性拉面、面条和新鲜口味带到蒂沃利，大份炸鸡咖喱和饺子深受欢迎。",
+        "ar": "سلسلة المطاعم الاسيوية المحبوبة مع رامين ومعكرونة في تيفولي. تناول طعام مجتمعي مع حصص سخية."
+      }
+    },
+    "food_gasoline_grill": {
+      "desc": {
+        "en": "Copenhagen's legendary cult burger restaurant bringing award-winning smash burgers from premium Danish beef to Tivoli. Consistently ranked among the best burgers in Scandinavia.",
+        "es": "El legendario restaurante de hamburguesas de culto de Copenhague con premiadas smash burgers de carne danesa premium en Tivoli.",
+        "fr": "Le legendaire restaurant de burgers culte de Copenhague avec des smash burgers primees de boeuf danois premium a Tivoli.",
+        "de": "Kopenhagens legendares Kult-Burger-Restaurant mit preisgekronten Smash-Burgern aus Premium-Danischem Rindfleisch.",
+        "it": "Il leggendario ristorante di burger cult di Copenaghen con premiati smash burger di manzo danese premium a Tivoli.",
+        "nl": "Kopenhagen's legendarische cult-burgerrestaurant met bekroonde smash burgers van premium Deens rundvlees in Tivoli.",
+        "pt": "O lendario restaurante de hamburguer cult de Copenhague com smash burgers premiados de carne bovina dinamarquesa.",
+        "ru": "Легендарный культовый бургерный ресторан Копенгагена с удостоенными наград смэш-бургерами из датской говядины.",
+        "zh": "哥本哈根传奇邪典汉堡餐厅，将屡获殊荣的优质丹麦牛肉压扁汉堡带到蒂沃利，始终被列为斯堪的纳维亚最佳汉堡之一。",
+        "ar": "مطعم البرغر الاسطوري في كوبنهاغن يجلب برغر سماش الحائز على جوائز من لحم البقر الدانماركي الفاخر الى تيفولي."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_nimb": {
+      "desc": {
+        "en": "One of the most extraordinary hotels in Scandinavia — just 17 uniquely designed rooms inside Tivoli's iconic 1909 Moorish palace. Guests sleep inside the park with magic just beyond their windows, with access to the Nimb Bar and rooftop terrace.",
+        "es": "Uno de los hoteles mas extraordinarios de Escandinavia — solo 17 habitaciones unicas dentro del palacio morisco de 1909. Los huespedes duermen dentro del parque.",
+        "fr": "L'un des hotels les plus extraordinaires de Scandinavie — seulement 17 chambres uniques dans le palais mauresque de 1909. Les clients dorment dans le parc.",
+        "de": "Eines der aussergewohnlichsten Hotels Skandinaviens — nur 17 einzigartige Zimmer im maurischen Palast von 1909. Gaste schlafen im Park.",
+        "it": "Uno degli hotel piu straordinari della Scandinavia — solo 17 camere uniche nel palazzo moresco del 1909. Gli ospiti dormono nel parco.",
+        "nl": "Een van de meest buitengewone hotels in Scandinavie — slechts 17 unieke kamers in het Moorse paleis uit 1909. Gasten slapen in het park.",
+        "pt": "Um dos hoteis mais extraordinarios da Escandinavia — apenas 17 quartos unicos no palacio Mourisco de 1909. Os hospedes dormem no parque.",
+        "ru": "Один из самых удивительных отелей Скандинавии — всего 17 уникально оформленных номеров в мавританском дворце 1909 года. Гости спят в самом парке.",
+        "zh": "斯堪的纳维亚最非凡的酒店之一——蒂沃利标志性1909年摩尔式宫殿内仅有17间独特设计客房。客人在公园内入睡，窗外就是神奇的蒂沃利世界。",
+        "ar": "واحد من اكثر الفنادق استثنائية في اسكندنافيا — 17 غرفة مصممة بشكل فريد داخل قصر تيفولي المورية 1909. ينام الضيوف داخل المتنزه نفسه."
+      },
+      "rooms": {
+        "classic_room": {
+          "name": { "en": "Classic Room", "es": "Habitacion Clasica", "fr": "Chambre Classique", "de": "Classic Zimmer", "it": "Camera Classic", "nl": "Classic Kamer", "pt": "Quarto Classico", "ru": "Классический номер", "zh": "经典客房", "ar": "غرفة كلاسيكية" },
+          "desc": { "en": "Individually designed room with antique furnishings, garden views and breakfast included.", "es": "Habitacion con muebles antiguos, vistas al jardin y desayuno incluido.", "fr": "Chambre avec mobilier ancien, vue jardin et petit-dejeuner inclus.", "de": "Zimmer mit antiken Mobeln, Gartenblick und Fruhstuck inklusive.", "it": "Camera con mobili antichi, vista giardino e colazione inclusa.", "nl": "Kamer met antieke meubels, tuinzicht en ontbijt inbegrepen.", "pt": "Quarto com mobiliario antigo, vista jardim e pequeno-almoco incluido.", "ru": "Номер с антикварной мебелью, видом на сад и завтраком.", "zh": "独特设计客房，古典家具，花园景观，含早餐。", "ar": "غرفة مصممة بشكل فردي مع اثاث عتيق واطلالات على الحديقة وافطار مشمول." }
+        },
+        "suite": {
+          "name": { "en": "Suite", "es": "Suite", "fr": "Suite", "de": "Suite", "it": "Suite", "nl": "Suite", "pt": "Suite", "ru": "Люкс", "zh": "套房", "ar": "جناح" },
+          "desc": { "en": "Magnificent suite with panoramic Tivoli views, premium antique decor and butler service.", "es": "Suite magnifica con vistas panoramicas de Tivoli y servicio de mayordomo.", "fr": "Suite magnifique avec vues panoramiques sur Tivoli et service de majordome.", "de": "Prächtige Suite mit Panorama-Tivoli-Blick und Butler-Service.", "it": "Magnifica suite con viste panoramiche su Tivoli e servizio di maggiordomo.", "nl": "Prachtige suite met panoramisch Tivoli uitzicht en butlerservice.", "pt": "Suite magnifica com vistas panoramicas de Tivoli e servico de mordomo.", "ru": "Великолепный люкс с панорамными видами на Tivoli и дворецким.", "zh": "壮观套房，蒂沃利全景，高级古典装饰和管家服务。", "ar": "جناح رائع مع اطلالات بانورامية على تيفولي وخدمة الكونسيرج." }
+        }
+      }
+    },
+    "hotel_tivoli": {
+      "desc": {
+        "en": "A stylish four-star hotel directly adjacent to Tivoli with a dedicated bridge for exclusive park access. Features a rooftop pool, multiple restaurants and contemporary Scandinavian design.",
+        "es": "Un elegante hotel de cuatro estrellas con un puente exclusivo a Tivoli. Piscina en azotea y diseno escandinavo contemporaneo.",
+        "fr": "Un hotel quatre etoiles elegant avec un pont exclusif vers Tivoli. Piscine sur le toit et design scandinave contemporain.",
+        "de": "Ein stilvolles Vier-Sterne-Hotel mit exklusivem Bruckenzugang zu Tivoli. Dachpool und skandinavisches Design.",
+        "it": "Un elegante hotel quattro stelle con ponte esclusivo a Tivoli. Piscina sul tetto e design scandinavo contemporaneo.",
+        "nl": "Een stijlvol viersterrenhotel met exclusieve brug naar Tivoli. Dakzwembad en Scandinavisch design.",
+        "pt": "Um elegante hotel de quatro estrelas com uma ponte exclusiva para o Tivoli. Piscina no telhado e design escandinavo.",
+        "ru": "Стильный четырёхзвёздочный отель с выделенным мостом для эксклюзивного доступа к Tivoli. Крышный бассейн.",
+        "zh": "时尚四星级酒店，专用桥梁直通蒂沃利，设有屋顶游泳池和当代斯堪的纳维亚设计。",
+        "ar": "فندق انيق اربع نجوم مع جسر حصري الى تيفولي. مسبح على السطح وتصميم اسكندنافي معاصر."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Modern Scandinavian room with city or park views and bridge access to Tivoli.", "es": "Habitacion escandinava moderna con vistas y acceso por puente a Tivoli.", "fr": "Chambre scandinave moderne avec vue et acces pont a Tivoli.", "de": "Modernes skandinavisches Zimmer mit Blick und Bruckenzugang zu Tivoli.", "it": "Camera scandinava moderna con vista e accesso ponte a Tivoli.", "nl": "Moderne Scandinavische kamer met zicht en bruggangtoegang tot Tivoli.", "pt": "Quarto escandinavo moderno com vista e acesso por ponte ao Tivoli.", "ru": "Современный скандинавский номер с мостовым доступом к Tivoli.", "zh": "现代斯堪的纳维亚客房，城市或公园景观，桥梁通道直达蒂沃利。", "ar": "غرفة اسكندنافية حديثة مع اطلالات وجسر للوصول الى تيفولي." }
+        },
+        "superior_room": {
+          "name": { "en": "Superior Room", "es": "Habitacion Superior", "fr": "Chambre Superieure", "de": "Superior Zimmer", "it": "Camera Superior", "nl": "Superior Kamer", "pt": "Quarto Superior", "ru": "Улучшенный номер", "zh": "高级客房", "ar": "غرفة سوبيريور" },
+          "desc": { "en": "Larger room with Tivoli garden views, breakfast included and rooftop pool access.", "es": "Habitacion mas grande con vistas al jardin, desayuno incluido y acceso a piscina.", "fr": "Grande chambre avec vue jardin Tivoli, petit-dejeuner inclus et piscine.", "de": "Grosseres Zimmer mit Tivoli-Gartenblick, Fruhstuck und Dachpool.", "it": "Camera piu grande con vista giardino Tivoli, colazione e piscina.", "nl": "Grotere kamer met Tivoli tuinzicht, ontbijt en dakzwembad.", "pt": "Quarto maior com vista jardim Tivoli, pequeno-almoco e piscina.", "ru": "Просторный номер с видом на сады Tivoli, завтрак и крышный бассейн.", "zh": "较大客房，蒂沃利花园景观，含早餐，屋顶游泳池通道。", "ar": "غرفة اكبر مع اطلالة على حدائق تيفولي وافطار مشمول وامكانية الوصول للمسبح." }
+        }
+      }
+    },
+    "hotel_cabinn": {
+      "desc": {
+        "en": "A smart affordable hotel minutes from Tivoli and Copenhagen Central Station, offering cleverly designed compact cabins. Ideal for families who want to spend their money on experiences rather than accommodation.",
+        "es": "Un hotel asequible a minutos de Tivoli, con cabinas compactas inteligentemente disenadas. Ideal para familias que quieren gastar en experiencias.",
+        "fr": "Un hotel abordable a minutes de Tivoli avec des cabines compactes bien concues. Ideal pour les familles qui veulent depenser en experiences.",
+        "de": "Ein erschwingliches Hotel Minuten von Tivoli mit clever gestalteten kompakten Kabinen. Ideal fur Familien die ihr Geld fur Erlebnisse ausgeben wollen.",
+        "it": "Un hotel conveniente a minuti da Tivoli con cabine compatte intelligentemente progettate. Ideale per famiglie che vogliono spendere in esperienze.",
+        "nl": "Een betaalbaar hotel op minuten van Tivoli met slim ontworpen compacte cabines. Ideaal voor families die hun geld aan ervaringen willen besteden.",
+        "pt": "Um hotel acessivel a minutos do Tivoli com cabines compactas inteligentemente concebidas. Ideal para familias que querem gastar em experiencias.",
+        "ru": "Доступный отель в минутах от Tivoli с продуманно спроектированными компактными каютами. Идеально для семей, предпочитающих впечатления.",
+        "zh": "距蒂沃利数分钟的实惠酒店，提供精心设计的紧凑舱房。适合想把钱花在体验上而非住宿的家庭。",
+        "ar": "فندق بأسعار معقولة على بعد دقائق من تيفولي مع كبائن مدمجة مصممة بذكاء. مثالي للعائلات التي تريد انفاق اموالها على التجارب."
+      },
+      "rooms": {
+        "economy_cabin": {
+          "name": { "en": "Economy Cabin", "es": "Cabina Economica", "fr": "Cabine Economique", "de": "Economy Kabine", "it": "Cabina Economy", "nl": "Economy Hut", "pt": "Cabine Economy", "ru": "Эконом-каюта", "zh": "经济舱房", "ar": "كابينة اقتصادية" },
+          "desc": { "en": "Compact economy cabin with all essential amenities at an affordable price near Tivoli.", "es": "Cabina economica compacta con todas las comodidades esenciales cerca de Tivoli.", "fr": "Cabine economique compacte avec toutes les commodites essentielles pres de Tivoli.", "de": "Kompakte Economy-Kabine mit allen Annehmlichkeiten nahe Tivoli.", "it": "Cabina economy compatta con tutti i servizi essenziali vicino a Tivoli.", "nl": "Compacte economy cabin met alle essentiële voorzieningen bij Tivoli.", "pt": "Cabine economy compacta com todas as comodidades essenciais perto do Tivoli.", "ru": "Компактная эконом-каюта со всеми основными удобствами рядом с Tivoli.", "zh": "紧凑经济舱房，配备所有基本设施，价格实惠，近蒂沃利。", "ar": "كابينة اقتصادية مدمجة مع جميع المرافق الاساسية بسعر معقول بالقرب من تيفولي." }
+        },
+        "family_cabin": {
+          "name": { "en": "Family Cabin", "es": "Cabina Familiar", "fr": "Cabine Familiale", "de": "Familienkabine", "it": "Cabina Familiare", "nl": "Familie Hut", "pt": "Cabine Familiar", "ru": "Семейная каюта", "zh": "家庭舱房", "ar": "كابينة عائلية" },
+          "desc": { "en": "Larger family cabin sleeping up to 4 with bunk beds and easy walking access to Tivoli Gardens.", "es": "Cabina familiar para 4 personas con literas y acceso a pie a Tivoli.", "fr": "Grande cabine familiale pour 4 personnes avec lits superposes et acces a pied a Tivoli.", "de": "Grossere Familienkabine fur 4 Personen mit Etagenbetten und Fussweg zu Tivoli.", "it": "Cabina familiare per 4 persone con letti a castello e accesso a piedi a Tivoli.", "nl": "Grotere familiecabin voor 4 personen met stapelbedden en loopafstand tot Tivoli.", "pt": "Cabine familiar para 4 pessoas com beliches e acesso a pe ao Tivoli.", "ru": "Просторная семейная каюта на 4 человека с двухъярусными кроватями и пешей доступностью к Tivoli.", "zh": "较大家庭舱房，可容纳4人，上下铺，步行即可到达蒂沃利花园。", "ar": "كابينة عائلية اكبر تتسع لـ 4 اشخاص مع اسرة بطابقين وسهولة الوصول سيراً الى تيفولي." }
+        }
+      }
+    }
+  }
+}

@@ -19,6 +19,7 @@ import '../services/wait_time_service.dart';
 import '../services/i18n_content.dart';
 import '../models/hotel.dart';
 import '../widgets/park_image.dart';
+import '../widgets/ai_assistant_widget.dart';
 import '../services/portaventura_hotels_repository.dart';
 
 // ===============================================================
@@ -669,7 +670,8 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
                       child: Text('Error:\n\n$_error'),
                     ),
                   )
-                : TabBarView(
+                : Stack(children: [
+                    TabBarView(
                     controller: _tabController,
                     children: [
                       _OverviewTab(
@@ -723,9 +725,26 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
                           : _ComingSoonTab(
                               title: loc.hotels,
                               subtitle: 'Hotels will appear here soon.',
-                            ),
+                             ),
                     ],
                   ),
+                  AnimatedBuilder(
+                    animation: _tabController,
+                    builder: (context, _) => Positioned(
+                      bottom: 16,
+                      right: 16,
+                      child: AiAssistantButton(
+                        parkName: park.name,
+                        parkWebsite: park.website ?? '',
+                        currentTab: ['overview','attractions','restaurants','hotels'][_tabController.index],
+                        attractions: _attractions,
+                        food: _food,
+                        hotels: _hotels,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
       ),
     );
   }

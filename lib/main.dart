@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+﻿import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:google_maps_flutter_android/google_maps_flutter_android.dart';
@@ -11,6 +11,7 @@ import 'screens/home_map_screen.dart';
 import 'screens/park_detail_screen.dart';
 import 'screens/my_day_screen.dart';
 import 'screens/settings_screen.dart';
+import 'screens/privacy_screen.dart';
 import 'screens/sign_in_screen.dart';
 import 'l10n/app_localizations.dart';
 import 'firebase_options.dart';
@@ -58,6 +59,7 @@ class FunparksApp extends StatelessWidget {
             '/start': (_) => const StartScreen(),
             '/home': (_) => const HomeMapScreen(),
             '/settings': (_) => const SettingsScreen(),
+            '/privacy': (_) => const PrivacyScreen(),
             '/my_day': (_) => const MyDayScreen(),
           },
           onGenerateRoute: (settings) {

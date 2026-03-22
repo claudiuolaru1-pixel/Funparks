@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_radisson_blu",
+    "name": "Radisson Blu Waterfront Hotel",
+    "description": "A premium waterfront hotel in central Stockholm with stunning harbour views. Just a short walk or boat ride from Gröna Lund with world-class amenities, multiple restaurants and easy access to all Stockholm attractions.",
+    "image": "assets/images/gronalund/hotel_radisson_blu.png",
+    "lat": 59.3320,
+    "lng": 18.0580,
+    "rating": 4.6,
+    "lowestNightPrice": 2200.0,
+    "breakfastIncluded": false,
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Modern room with harbour or city views, premium amenities and easy access to Gröna Lund.",
+        "pricePerNight": 2200.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "harbour_suite",
+        "name": "Harbour Suite",
+        "description": "Luxurious suite with panoramic Stockholm harbour views and premium hotel benefits.",
+        "pricePerNight": 4500.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_af_chapman",
+    "name": "STF af Chapman Hostel",
+    "description": "A unique and iconic hostel aboard a historic tall ship moored in central Stockholm, just minutes from Gröna Lund. One of the most memorable places to stay in Stockholm with stunning views of the Old Town and Royal Palace.",
+    "image": "assets/images/gronalund/hotel_af_chapman.png",
+    "lat": 59.3248,
+    "lng": 18.0762,
+    "rating": 4.3,
+    "lowestNightPrice": 650.0,
+    "breakfastIncluded": false,
+    "rooms": [
+      {
+        "key": "dorm_room",
+        "name": "Dorm Room",
+        "description": "Affordable shared cabin aboard the historic ship with stunning Stockholm harbour views.",
+        "pricePerNight": 650.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "private_cabin",
+        "name": "Private Cabin",
+        "description": "Private cabin on the ship with Old Town views and a unique nautical atmosphere.",
+        "pricePerNight": 1400.0,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_lydmar",
+    "name": "Lydmar Hotel",
+    "description": "A stylish luxury boutique hotel on Strandvägen, one of Stockholm's most prestigious addresses. Features individually designed rooms, a popular restaurant and bar, and is within easy reach of Gröna Lund via tram or boat.",
+    "image": "assets/images/gronalund/hotel_lydmar.png",
+    "lat": 59.3318,
+    "lng": 18.0812,
+    "rating": 4.7,
+    "lowestNightPrice": 2800.0,
+    "breakfastIncluded": false,
+    "rooms": [
+      {
+        "key": "classic_room",
+        "name": "Classic Room",
+        "description": "Individually designed room on prestigious Strandvägen with premium amenities and city views.",
+        "pricePerNight": 2800.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Spacious superior room with harbour views and access to the acclaimed Lydmar restaurant and bar.",
+        "pricePerNight": 3800.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_resort_arcen",
+    "name": "Resort Arcen",
+    "description": "The most popular partner accommodation for Toverland visitors — a beautifully located holiday resort in the charming village of Arcen on the banks of the river Maas, officially recommended by Toverland on their overnight stay page. Resort Arcen by Roompot offers a range of comfortable holiday homes, chalets and apartments surrounded by stunning Limburg countryside, with the famous Kasteeltuinen Arcen castle gardens just a short walk away. Guests consistently rate it 8.7 out of 10. Toverland is just a short drive away, making it the ideal base for a multi-day visit combining the park with the natural beauty of North Limburg.",
+    "image": "assets/images/toverland/hotel_resort_arcen.png",
+    "lat": 51.4887,
+    "lng": 6.1997,
+    "rating": 4.4,
+    "topPick": true,
+    "website": "https://www.roompot.nl/aanbiedingen/toverland/accommodaties-resort-arcen/",
+    "rooms": [
+      {
+        "key": "holiday_home",
+        "name": "Holiday Home",
+        "description": "Comfortable self-catering holiday home with garden terrace, fully equipped kitchen and access to all resort facilities.",
+        "pricePerNight": 120.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "comfort_chalet",
+        "name": "Comfort Chalet",
+        "description": "Spacious comfort chalet with extra amenities, outdoor terrace and views over the resort's green surroundings.",
+        "pricePerNight": 175.0,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_the_treasure_mountain",
+    "name": "De Schatberg — Treasure Mountain",
+    "description": "A magnificent 5-star holiday park located just 5 kilometres from Toverland — one of the closest and most luxurious partner accommodations near the park. De Schatberg offers cosy log houses at the Treasure Mountain, luxury chalets, spacious family apartments and glamping options in a stunning natural forest setting. The resort features multiple swimming pools, sports facilities and restaurants, making it a complete holiday destination in its own right. The combination of Toverland's theme park thrills with De Schatberg's forest luxury is a favourite of Dutch and Belgian families.",
+    "image": "assets/images/toverland/hotel_the_treasure_mountain.png",
+    "lat": 51.3978,
+    "lng": 5.9867,
+    "rating": 4.6,
+    "topPick": true,
+    "website": "https://www.landal.nl/parken/domein-de-schatberg",
+    "rooms": [
+      {
+        "key": "log_house",
+        "name": "Log House",
+        "description": "Cosy log house at the Treasure Mountain with forest views, private terrace and access to resort pools and facilities.",
+        "pricePerNight": 150.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "luxury_chalet",
+        "name": "Luxury Chalet",
+        "description": "Spacious luxury chalet with premium fittings, private sauna option and beautiful views over the natural forest landscape.",
+        "pricePerNight": 250.0,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_toverland",
+    "name": "Gr8 Hotel Sevenum",
+    "description": "The most convenient hotel for Toverland visitors — a comfortable modern hotel located directly on the A67 motorway in Sevenum, just 1.7 kilometres from the park entrance and officially listed as a partner accommodation on Toverland's website. Gr8 Hotel Sevenum offers clean, well-appointed rooms with large flat-screen TVs, rain showers and free parking, alongside a terrace and restaurant. A bus stop directly opposite the hotel provides a direct connection to Toverland, making this the easiest and most practical overnight option for guests who want to maximise their time at the park.",
+    "image": "assets/images/toverland/hotel_toverland.png",
+    "lat": 51.4189,
+    "lng": 6.0412,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.gr8hotels.nl/sevenum",
+    "rooms": [
+      {
+        "key": "gr8_room",
+        "name": "Gr8 Room",
+        "description": "Comfortable standard room with two single beds, 55-inch TV, rain shower and free parking. Modern and clean with everything you need.",
+        "pricePerNight": 89.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room accommodating up to 4 guests with extra beds, ideal for families visiting Toverland for a full day.",
+        "pricePerNight": 129.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

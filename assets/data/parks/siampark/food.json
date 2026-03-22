@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "food_beach_club",
+    "name": "Beach Club",
+    "type": "International Buffet",
+    "image": "assets/images/siampark/food_beach_club.png",
+    "lat": 28.0783,
+    "lng": -16.7242,
+    "rating": 4.5,
+    "description": "Siam Park's premium restaurant located on the shores of the Wave Palace beach, offering a spectacular setting overlooking the world record wave pool and Siam Beach. The Beach Club serves an extensive buffet of international dishes alongside grilled meats and fresh salads in a relaxed open-air pavilion with Thai architectural details. Included in VIP Cabana, House and Villa packages — the perfect place to recharge between rides while enjoying the sound of the waves.",
+    "topPick": true,
+    "items": [
+      { "name": "International Buffet", "description": "Full hot and cold buffet with international dishes, salads and desserts", "price": 22.0 },
+      { "name": "Grilled Chicken Platter", "description": "Freshly grilled chicken with roasted vegetables and rice", "price": 18.0 },
+      { "name": "Fresh Salad Bowl", "description": "Large mixed salad with grilled protein and dressings", "price": 14.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 4.5 }
+    ]
+  },
+  {
+    "id": "food_coco_bar",
+    "name": "Coco Bar",
+    "type": "Bar and Snacks",
+    "image": "assets/images/siampark/food_coco_bar.png",
+    "lat": 28.0785,
+    "lng": -16.7247,
+    "rating": 4.2,
+    "description": "A vibrant tropical bar and snack stop serving refreshing cocktails, cold beers, fresh fruit drinks and light bites throughout the day. The Coco Bar's laid-back Caribbean-meets-Thai atmosphere makes it the ideal pit stop between rides, and its location in the heart of the park means there is always something to watch. Included in VIP packages for unlimited drinks.",
+    "topPick": false,
+    "items": [
+      { "name": "Tropical Cocktail", "description": "Fresh fruit cocktail with or without alcohol", "price": 9.0 },
+      { "name": "Cold Beer", "description": "Selection of Spanish and international beers", "price": 5.5 },
+      { "name": "Fresh Fruit Smoothie", "description": "Freshly blended tropical fruit smoothie", "price": 7.0 },
+      { "name": "Nachos", "description": "Classic tortilla chips with salsa and guacamole", "price": 8.0 }
+    ]
+  },
+  {
+    "id": "food_floating_market",
+    "name": "Floating Market",
+    "type": "Thai Street Food",
+    "image": "assets/images/siampark/food_floating_market.png",
+    "lat": 28.0784,
+    "lng": -16.7244,
+    "rating": 4.4,
+    "description": "One of the most unique dining experiences in any theme park in Europe — a recreated Thai floating market village where vendors sell authentic Thai street food, fresh snacks, tropical fruits and traditional sweets from market stalls and gondola boats on the water. You can also enjoy a traditional Thai massage here and browse unique handcrafted souvenirs while sampling food from across Thailand in a genuinely atmospheric setting.",
+    "topPick": true,
+    "items": [
+      { "name": "Pad Thai", "description": "Classic Thai stir-fried rice noodles with prawns and peanuts", "price": 12.0 },
+      { "name": "Thai Spring Rolls", "description": "Crispy vegetable spring rolls with sweet chilli dipping sauce", "price": 8.0 },
+      { "name": "Fresh Mango with Sticky Rice", "description": "Traditional Thai dessert with coconut cream", "price": 7.0 },
+      { "name": "Coconut Water", "description": "Fresh coconut water served in the shell", "price": 5.0 }
+    ]
+  },
+  {
+    "id": "food_thai_bar",
+    "name": "Thai Bar",
+    "type": "Thai Restaurant",
+    "image": "assets/images/siampark/food_thai_bar.png",
+    "lat": 28.0782,
+    "lng": -16.7246,
+    "rating": 4.3,
+    "description": "A stylish Thai-inspired restaurant and bar serving authentic Thai cuisine alongside refreshing drinks in a beautifully decorated traditional setting. The Thai Bar is one of the four restaurants included in VIP all-inclusive packages and serves both Thai classics and international dishes throughout the day. Its shaded terrace and authentic decor make it one of the most atmospheric dining spots in the park.",
+    "topPick": false,
+    "items": [
+      { "name": "Green Thai Curry", "description": "Fragrant green curry with chicken and jasmine rice", "price": 16.0 },
+      { "name": "Tom Yum Soup", "description": "Traditional spicy Thai soup with prawns and lemongrass", "price": 12.0 },
+      { "name": "Mango Lassi", "description": "Refreshing yoghurt and mango drink", "price": 6.0 },
+      { "name": "Thai Iced Tea", "description": "Classic Thai iced tea with condensed milk", "price": 5.0 }
+    ]
+  }
+]

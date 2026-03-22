@@ -1,4 +1,5 @@
 ﻿import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:provider/provider.dart';
 import '../app_state.dart';
 import '../l10n/app_localizations.dart';
@@ -170,6 +171,21 @@ class SettingsScreen extends StatelessWidget {
                       DropdownMenuItem(value: c, child: Text(c)))
                   .toList(),
             ),
+          ),
+          const Divider(),
+          ListTile(
+            leading: const Icon(Icons.email_outlined),
+            title: const Text('Contact Us', style: TextStyle(fontWeight: FontWeight.w800)),
+            subtitle: const Text('funparksfun@gmail.com'),
+            onTap: () async {
+              final uri = Uri(scheme: 'mailto', path: 'funparksfun@gmail.com', queryParameters: {'subject': 'Funparks App Feedback'});
+              if (await canLaunchUrl(uri)) await launchUrl(uri);
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.privacy_tip_outlined),
+            title: const Text('Privacy Policy', style: TextStyle(fontWeight: FontWeight.w800)),
+            onTap: () => Navigator.pushNamed(context, '/privacy'),
           ),
           const SizedBox(height: 24),
           const Padding(

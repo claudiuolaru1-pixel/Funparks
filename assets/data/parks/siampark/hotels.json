@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_bahia_del_duque",
+    "name": "Hotel Bahia del Duque",
+    "description": "One of the finest luxury hotels in all of Tenerife and the most prestigious accommodation near Siam Park, the Gran Hotel Bahia del Duque Resort is a stunning collection of 19th-century Canarian-style villas spread across manicured gardens leading to a private beach in Costa Adeje. Just minutes from Siam Park, the hotel offers world-class spa facilities, multiple award-winning restaurants, private pools, and the kind of impeccable service that has made it a favourite of discerning travellers for decades. A genuinely extraordinary base for a Tenerife holiday combining luxury relaxation with easy access to the world's best water park.",
+    "image": "assets/images/siampark/hotel_bahia_del_duque.png",
+    "lat": 28.0734,
+    "lng": -16.7312,
+    "rating": 4.9,
+    "lowestNightPrice": 450.0,
+    "breakfastIncluded": false,
+    "rooms": [
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Elegantly appointed room in a Canarian-style villa with garden or sea views, private terrace and full hotel amenities.",
+        "pricePerNight": 450.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "junior_suite",
+        "name": "Junior Suite",
+        "description": "Spacious junior suite with panoramic Atlantic Ocean views, private terrace, premium amenities and spa access.",
+        "pricePerNight": 750.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_villa_mandi",
+    "name": "Villa Mandi Golf Resort",
+    "description": "A beautiful boutique golf resort just minutes from Siam Park in Costa Adeje, offering spacious apartments and villas surrounded by lush gardens and an immaculate 9-hole golf course. Villa Mandi combines the relaxed atmosphere of a private villa with full hotel services including a pool, restaurant and spa. The perfect choice for families and couples seeking more space, privacy and a quieter base for exploring both Siam Park and the south Tenerife coastline.",
+    "image": "assets/images/siampark/hotel_villa_mandi.png",
+    "lat": 28.0812,
+    "lng": -16.7198,
+    "rating": 4.4,
+    "lowestNightPrice": 180.0,
+    "breakfastIncluded": false,
+    "rooms": [
+      {
+        "key": "apartment",
+        "name": "Garden Apartment",
+        "description": "Spacious self-catering apartment with terrace, garden views and access to pool and golf course.",
+        "pricePerNight": 180.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "villa",
+        "name": "Private Villa",
+        "description": "Luxurious private villa with own pool, garden and full kitchen — ideal for families wanting ultimate privacy near Siam Park.",
+        "pricePerNight": 420.0,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_vip_cabanas",
+    "name": "Siam Park VIP Cabanas",
+    "description": "The ultimate on-site Siam Park experience — private VIP Cabanas, Houses and Villas located within the park itself, offering the most exclusive and convenient way to enjoy a full day. Available in three configurations: the Cabana (up to 4 guests), the Casa House (up to 6 guests) and the Villa (up to 8 guests, with jacuzzi and solarium). All include unlimited Fast Pass on nearly all rides, all-inclusive food and drinks at the Beach Club, Thai House and Coco Bar, private sun loungers, towels, minibar, TV, fan and shower deck. The Villa additionally features an outdoor jacuzzi overlooking Siam Beach — the most luxurious way to experience the world's number one water park.",
+    "image": "assets/images/siampark/hotel_vip_cabanas.png",
+    "lat": 28.0785,
+    "lng": -16.7243,
+    "rating": 4.8,
+    "lowestNightPrice": 400.0,
+    "breakfastIncluded": true,
+    "rooms": [
+      {
+        "key": "cabana",
+        "name": "VIP Cabana",
+        "description": "Private cabana for up to 4 guests with Fast Pass, all-inclusive food and drinks, minibar, hammocks, TV and shower deck.",
+        "pricePerNight": 400.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "villa",
+        "name": "VIP Villa",
+        "description": "Ultimate VIP Villa for up to 8 guests with outdoor jacuzzi, solarium, all-inclusive dining and unlimited Fast Pass.",
+        "pricePerNight": 1320.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "restaurang_kaskad",
+    "name": "Restaurang Kaskad",
+    "type": "International Buffet",
+    "image": "assets/images/gronalund/food_restaurang_kaskad.png",
+    "lat": 59.3234,
+    "lng": 18.0965,
+    "rating": 4.3,
+    "description": "Gröna Lund's main restaurant serving food from all corners of the world in a vibrant atmosphere. A great spot for families looking for a hearty meal in the heart of the park.",
+    "topPick": true,
+    "items": [
+      { "name": "World Buffet", "description": "Selection of international dishes from around the world", "price": 195.0 },
+      { "name": "Swedish Meatballs", "description": "Classic Swedish meatballs with mash and lingonberries", "price": 149.0 },
+      { "name": "Pasta Bolognese", "description": "Classic Italian pasta with rich meat sauce", "price": 129.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 45.0 }
+    ]
+  },
+  {
+    "id": "hekto",
+    "name": "Hekto BBQ",
+    "type": "BBQ & Grill",
+    "image": "assets/images/gronalund/food_hekto.png",
+    "lat": 59.3232,
+    "lng": 18.0963,
+    "rating": 4.4,
+    "description": "A fantastic waterfront BBQ restaurant with spectacular views over Stockholm's harbour. Serving large portions of grilled meats and sides with a cold beer in hand — the perfect park dining experience.",
+    "topPick": true,
+    "items": [
+      { "name": "BBQ Ribs", "description": "Slow-cooked pork ribs with BBQ sauce and coleslaw", "price": 225.0 },
+      { "name": "Grilled Chicken", "description": "Half grilled chicken with herb butter and fries", "price": 189.0 },
+      { "name": "Pulled Pork Burger", "description": "Slow-cooked pulled pork in a brioche bun with pickles", "price": 165.0 },
+      { "name": "Craft Beer", "description": "Selection of Swedish craft beers", "price": 89.0 }
+    ]
+  },
+  {
+    "id": "holy_monkey",
+    "name": "Holy Monkey",
+    "type": "Asian",
+    "image": "assets/images/gronalund/food_holy_monkey.png",
+    "lat": 59.3235,
+    "lng": 18.0967,
+    "rating": 4.2,
+    "description": "A vibrant Asian restaurant serving sushi, noodles and bibimbap with amazing views over the park and water. A popular choice for guests looking for lighter and fresh flavours between rides.",
+    "topPick": false,
+    "items": [
+      { "name": "Sushi Platter", "description": "Selection of fresh sushi rolls and nigiri", "price": 195.0 },
+      { "name": "Ramen Noodles", "description": "Rich Japanese ramen with pork belly and soft boiled egg", "price": 165.0 },
+      { "name": "Bibimbap", "description": "Korean rice bowl with mixed vegetables and gochujang sauce", "price": 155.0 },
+      { "name": "Miso Soup", "description": "Traditional Japanese miso soup", "price": 45.0 }
+    ]
+  },
+  {
+    "id": "kryddhyllan",
+    "name": "Kryddhyllan",
+    "type": "Swedish Cafe",
+    "image": "assets/images/gronalund/food_kryddhylan.png",
+    "lat": 59.3236,
+    "lng": 18.0966,
+    "rating": 4.1,
+    "description": "A cosy Swedish cafe and restaurant with panoramic views over the entire park. Serving traditional Swedish dishes, coffee and cakes in a relaxed atmosphere — perfect for a break between rides.",
+    "topPick": false,
+    "items": [
+      { "name": "Swedish Pancakes", "description": "Traditional Swedish pancakes with jam and whipped cream", "price": 95.0 },
+      { "name": "Baked Potato", "description": "Loaded baked potato with various toppings", "price": 115.0 },
+      { "name": "Coffee & Cake", "description": "Swedish fika with coffee and cinnamon bun", "price": 75.0 },
+      { "name": "Smörgås", "description": "Open-faced Swedish sandwich with various toppings", "price": 85.0 }
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "food_nimb",
+    "name": "Nimb Brasserie",
+    "type": "Fine Dining",
+    "image": "assets/images/tivoli/food_nimb.png",
+    "lat": 55.6737,
+    "lng": 12.5675,
+    "rating": 4.8,
+    "description": "Tivoli's most prestigious dining destination, housed inside the stunning Moorish-inspired Nimb palace building dating from 1909. The Nimb Brasserie is one of Copenhagen's finest restaurants, serving exceptional French-Danish cuisine with seasonal ingredients in an atmosphere of unrivalled elegance. The palatial interior with its vaulted ceilings, rich fabrics and warm lighting creates an extraordinary setting for a meal, and the menu celebrates the finest produce Denmark has to offer. Booking well in advance is essential, particularly during summer.",
+    "topPick": true,
+    "items": [
+      { "name": "Danish Smorrebrod", "description": "Traditional open-faced rye bread with premium Danish toppings", "price": 195.0 },
+      { "name": "Grilled Turbot", "description": "Fresh Danish turbot with seasonal vegetables and herb butter", "price": 395.0 },
+      { "name": "Beef Tenderloin", "description": "Premium Danish beef with truffle sauce and roasted root vegetables", "price": 425.0 },
+      { "name": "Nimb Wine Pairing", "description": "Curated wine pairing from the Nimb cellar", "price": 495.0 }
+    ]
+  },
+  {
+    "id": "food_groften",
+    "name": "Groften",
+    "type": "Traditional Danish",
+    "image": "assets/images/tivoli/food_groften.png",
+    "lat": 55.6733,
+    "lng": 12.5679,
+    "rating": 4.5,
+    "description": "One of Tivoli's oldest and most beloved restaurants, Groften has been serving traditional Danish food since 1874 in a charming pavilion setting with views over the park's beautiful lake. This is quintessential Tivoli dining — hearty Danish classics including frikadeller, smorrebrod and flaeskesteg served in a warm, relaxed atmosphere with live folk music in the evenings. A Tivoli institution that captures the soul of Danish food culture and the spirit of the gardens perfectly.",
+    "topPick": true,
+    "items": [
+      { "name": "Frikadeller", "description": "Traditional Danish meatballs with potato salad and pickled beetroot", "price": 175.0 },
+      { "name": "Flaeskesteg", "description": "Classic Danish roast pork with crackling, red cabbage and boiled potatoes", "price": 195.0 },
+      { "name": "Smorrebrod Platter", "description": "Selection of traditional Danish open-faced sandwiches on rye bread", "price": 165.0 },
+      { "name": "Danish Beer", "description": "Fresh draught Danish lager", "price": 75.0 }
+    ]
+  },
+  {
+    "id": "food_wagamama",
+    "name": "Wagamama",
+    "type": "Asian",
+    "image": "assets/images/tivoli/food_wagamama.png",
+    "lat": 55.6735,
+    "lng": 12.5683,
+    "rating": 4.2,
+    "description": "The beloved international Asian restaurant chain brings its signature ramen, noodle dishes and fresh flavours to the heart of Tivoli Gardens. Wagamama's open kitchen philosophy and communal bench seating offer a lively and casual dining experience. The menu's generous portions of katsu curry, teppanyaki and gyoza are consistently popular with families and solo diners alike.",
+    "topPick": false,
+    "items": [
+      { "name": "Chicken Katsu Curry", "description": "Crispy chicken katsu with fragrant Japanese curry sauce and rice", "price": 175.0 },
+      { "name": "Chilli Chicken Ramen", "description": "Rich chicken broth ramen with chilli oil, soft boiled egg and spring onion", "price": 165.0 },
+      { "name": "Vegetable Gyoza", "description": "Pan-fried vegetable dumplings with ponzu dipping sauce", "price": 89.0 },
+      { "name": "Mango and Ginger Juice", "description": "Fresh pressed mango and ginger juice", "price": 65.0 }
+    ]
+  },
+  {
+    "id": "food_gasoline_grill",
+    "name": "Gasoline Grill",
+    "type": "Burgers",
+    "image": "assets/images/tivoli/food_gasoline_grill.png",
+    "lat": 55.6732,
+    "lng": 12.5681,
+    "rating": 4.4,
+    "description": "Copenhagen's legendary cult burger restaurant brings its award-winning smash burgers to Tivoli Gardens. Gasoline Grill has built a devoted following across Denmark for its perfectly crafted burgers made from premium Danish beef, fresh buns and quality toppings — consistently ranked among the best burgers in Scandinavia. A casual, delicious counter-service experience that delivers serious food credentials in the most magical of settings.",
+    "topPick": false,
+    "items": [
+      { "name": "Double Smash Burger", "description": "Two smashed beef patties with American cheese, pickles and special sauce", "price": 175.0 },
+      { "name": "Chicken Burger", "description": "Crispy fried chicken with coleslaw and sriracha mayo", "price": 155.0 },
+      { "name": "Fries", "description": "Classic crispy fries with dipping sauce", "price": 65.0 },
+      { "name": "Milkshake", "description": "Thick creamy milkshake in vanilla, chocolate or strawberry", "price": 85.0 }
+    ]
+  }
+]

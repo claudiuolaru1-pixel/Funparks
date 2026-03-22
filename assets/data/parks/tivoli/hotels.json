@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_nimb",
+    "name": "Nimb Hotel",
+    "description": "One of the most extraordinary and romantic hotels in all of Scandinavia, the Nimb Hotel occupies the iconic Moorish fantasy palace that has dominated Tivoli's skyline since 1909. With only 17 exquisitely designed rooms and suites, each uniquely decorated with antiques, fine art and luxurious fabrics, Nimb offers an intimacy and exclusivity that is virtually unmatched in Copenhagen. Guests sleep inside Tivoli itself, with the park's music, lights and magic just beyond their windows. The hotel includes access to the Nimb Bar and a rooftop terrace with extraordinary views over the gardens and city.",
+    "image": "assets/images/tivoli/hotel_nimb.png",
+    "lat": 55.6737,
+    "lng": 12.5675,
+    "rating": 4.9,
+    "lowestNightPrice": 4500.0,
+    "breakfastIncluded": true,
+    "rooms": [
+      {
+        "key": "classic_room",
+        "name": "Classic Room",
+        "description": "An individually designed room inside the Nimb palace with antique furnishings, garden views and Tivoli breakfast included.",
+        "pricePerNight": 4500.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "A magnificent suite with panoramic Tivoli views, premium antique decor, butler service and full Nimb privileges.",
+        "pricePerNight": 9500.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_tivoli",
+    "name": "Tivoli Hotel and Congress Center",
+    "description": "A stylish and modern four-star hotel directly adjacent to Tivoli Gardens, connected to the park by a dedicated bridge giving guests exclusive quick access. The hotel features contemporary Scandinavian design, a rooftop pool, fitness centre and multiple restaurants. Rooms offer views over the park or the city skyline, and the hotel's convenient location steps from Copenhagen Central Station makes it perfect for both families and business travellers.",
+    "image": "assets/images/tivoli/hotel_tivoli.png",
+    "lat": 55.6725,
+    "lng": 12.5668,
+    "rating": 4.5,
+    "lowestNightPrice": 1800.0,
+    "breakfastIncluded": false,
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Modern Scandinavian designed room with city or park views, premium amenities and direct bridge access to Tivoli.",
+        "pricePerNight": 1800.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Larger superior room with Tivoli garden views, premium furnishings, breakfast included and rooftop pool access.",
+        "pricePerNight": 2400.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_cabinn",
+    "name": "Cabinn Copenhagen",
+    "description": "A smart and affordable hotel just minutes from Tivoli Gardens and Copenhagen Central Station. Cabinn offers compact but cleverly designed cabins that maximise comfort and practicality at a budget-friendly price point, ideal for families and travellers who want to spend their money on experiences rather than accommodation. The central location gives easy walking access to Tivoli, Stroget shopping street and Copenhagen's main sights.",
+    "image": "assets/images/tivoli/hotel_cabinn.png",
+    "lat": 55.6718,
+    "lng": 12.5658,
+    "rating": 4.0,
+    "lowestNightPrice": 650.0,
+    "breakfastIncluded": false,
+    "rooms": [
+      {
+        "key": "economy_cabin",
+        "name": "Economy Cabin",
+        "description": "Compact and cleverly designed economy cabin with all essential amenities at an affordable price near Tivoli.",
+        "pricePerNight": 650.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_cabin",
+        "name": "Family Cabin",
+        "description": "Larger family cabin sleeping up to 4 with bunk beds and easy walking access to Tivoli Gardens.",
+        "pricePerNight": 950.0,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

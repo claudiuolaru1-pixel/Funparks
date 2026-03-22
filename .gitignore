@@ -1,4 +1,4 @@
-# Flutter/Dart/Pub
+﻿# Flutter/Dart/Pub
 .dart_tool/
 .packages
 .pub/
@@ -62,3 +62,5 @@ tmp_aab/
 **/firebase_options.dart
 
 serviceAccountKey.json
+
+functions/.env

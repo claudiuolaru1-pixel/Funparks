@@ -1,0 +1,366 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Grona Lund is one of the most atmospheric and unique amusement parks in the world — a compact island of joy and excitement rising from the waters of central Stockholm since 1883. Unlike any other park in Europe, Grona Lund is built on a tiny island of just 13,000 square metres on Djurgarden, one of Stockholm's most beloved green islands, surrounded by the shimmering waters of the Swedish archipelago. Every ride, every restaurant and every corner of the park offers a breathtaking backdrop of Stockholm's iconic skyline, the royal palace, the old town and the endless archipelago stretching to the horizon. The park is also Sweden's longest running music festival, hosting over 50 live concerts each summer on its famous outdoor stages — major international and Swedish artists have launched careers here, including ABBA. Founded by German immigrant James Schultheiss, Grona Lund has grown over 140 years from a simple fairground into one of Scandinavia's most visited and cherished entertainment destinations, beloved by Stockholmers of all generations.",
+      "es": "Grona Lund es uno de los parques de atracciones mas atmosfericos y unicos del mundo — una compacta isla de alegria y emocion que se alza de las aguas del centro de Estocolmo desde 1883. Construido en una pequena isla de solo 13.000 metros cuadrados en Djurgarden, cada rincon del parque ofrece un impresionante telon de fondo del horizonte de Estocolmo, el palacio real y el infinito archipielago. El parque es tambien el festival de musica mas antiguo de Suecia con mas de 50 conciertos en vivo cada verano, incluyendo artistas como ABBA. Fundado por el inmigrante aleman James Schultheiss, Grona Lund ha crecido durante 140 anos hasta convertirse en uno de los destinos de entretenimiento mas visitados y queridos de Escandinavia.",
+      "fr": "Grona Lund est l'un des parcs d'attractions les plus atmospheriques et uniques au monde — une ile compacte de joie et d'excitation qui s'eleve des eaux du centre de Stockholm depuis 1883. Construit sur une petite ile de seulement 13 000 metres carres a Djurgarden, chaque coin du parc offre un arriere-plan epoustouflant sur la skyline de Stockholm, le palais royal et l'archipel infini. Le parc est aussi le plus long festival de musique de Suede avec plus de 50 concerts en direct chaque ete, incluant des artistes comme ABBA. Fonde par l'immigrant allemand James Schultheiss, Grona Lund a grandi pendant 140 ans pour devenir l'une des destinations de divertissement les plus visitees de Scandinavie.",
+      "de": "Grona Lund ist einer der atmospharischsten und einzigartigsten Vergnugungsparks der Welt — eine kompakte Insel der Freude und Aufregung, die seit 1883 aus den Gewassern des Stockholmer Zentrums aufragt. Auf einer winzigen Insel von nur 13.000 Quadratmetern auf Djurgarden gebaut, bietet jede Ecke des Parks einen atemberaubenden Hintergrund der Stockholmer Skyline, des Konigpalastes und des endlosen Archipels. Der Park ist auch Schwedens langstes Musikfestival mit uber 50 Live-Konzerten jeden Sommer, darunter Kunstler wie ABBA. Gegrundet von dem deutschen Einwanderer James Schultheiss, ist Grona Lund zu einem der meistbesuchten Unterhaltungsziele Skandinaviens gewachsen.",
+      "it": "Grona Lund e uno dei parchi divertimenti piu atmosferici e unici del mondo — una compatta isola di gioia ed emozione che si erge dalle acque del centro di Stoccolma dal 1883. Costruito su una piccola isola di soli 13.000 metri quadrati a Djurgarden, ogni angolo del parco offre uno sfondo mozzafiato dello skyline di Stoccolma, del palazzo reale e dell'infinito arcipelago. Il parco e anche il festival musicale piu lungo della Svezia con oltre 50 concerti dal vivo ogni estate, tra cui artisti come ABBA. Fondato dall'immigrante tedesco James Schultheiss, Grona Lund e cresciuto in 140 anni diventando una delle destinazioni di intrattenimento piu visitate della Scandinavia.",
+      "nl": "Grona Lund is een van de meest atmosferische en unieke pretparken ter wereld — een compact eiland van vreugde en opwinding dat sinds 1883 uit de wateren van het centrum van Stockholm rijst. Gebouwd op een klein eiland van slechts 13.000 vierkante meter op Djurgarden biedt elke hoek van het park een adembenemende achtergrond van Stockholms skyline, het koninklijk paleis en de eindeloze archipel. Het park is ook Zweden's langstlopende muziekfestival met meer dan 50 liveconcerten elke zomer waaronder artiesten als ABBA. Opgericht door de Duitse immigrant James Schultheiss is Grona Lund uitgegroeid tot een van de meest bezochte entertainmentbestemmingen in Scandinavie.",
+      "pt": "Grona Lund e um dos parques de diversoes mais atmosfericos e unicos do mundo — uma ilha compacta de alegria e emocao que se ergue das aguas do centro de Estocolmo desde 1883. Construido numa pequena ilha de apenas 13.000 metros quadrados em Djurgarden, cada canto do parque oferece um deslumbrante pano de fundo do horizonte de Estocolmo, o palacio real e o infinito arquipelago. O parque e tambem o festival de musica mais longo da Suecia com mais de 50 concertos ao vivo cada verao, incluindo artistas como ABBA. Fundado pelo imigrante alemao James Schultheiss, Grona Lund cresceu ao longo de 140 anos tornando-se um dos destinos de entretenimento mais visitados da Escandinavia.",
+      "ru": "Grona Lund — один из самых атмосферных и уникальных парков развлечений в мире — компактный остров радости и волнения, поднимающийся из вод центрального Стокгольма с 1883 года. Построенный на крошечном острове площадью всего 13 000 квадратных метров на Юргордене, каждый уголок парка предлагает захватывающий фон стокгольмского горизонта, королевского дворца и бесконечного архипелага. Парк является также самым длинным музыкальным фестивалем Швеции с более чем 50 живыми концертами каждым летом, включая ABBA. Основанный немецким иммигрантом Джеймсом Шультхайсом, Grona Lund вырос за 140 лет в одно из самых посещаемых развлекательных направлений Скандинавии.",
+      "zh": "格罗纳隆德是世界上最具氛围感和独特性的游乐园之一——自1883年以来从斯德哥尔摩市中心水域升起的紧凑欢乐与刺激之岛。建在于尔格尔登岛上仅13000平方米的小岛上，公园的每个角落都提供斯德哥尔摩标志性天际线、皇宫、老城区和延伸至地平线的无尽群岛的令人叹为观止的背景。该公园也是瑞典历史最悠久的音乐节，每年夏季举办50多场现场音乐会，包括ABBA在内的众多传奇艺术家曾在此演出。由德国移民詹姆斯·舒尔泰斯创立，格罗纳隆德在140年间成长为斯堪的纳维亚最受欢迎的娱乐目的地之一。",
+      "ar": "جروناه لوند هو واحد من اكثر متنزهات الملاهي جواً وتفرداً في العالم — جزيرة مدمجة من البهجة والاثارة ترتفع من مياه وسط ستوكهولم منذ عام 1883. مبني على جزيرة صغيرة مساحتها 13000 متر مربع فقط في دورغاردن، يوفر كل ركن في المتنزه خلفية رائعة لافق ستوكهولم الايقوني والقصر الملكي والارخبيل اللانهائي. يعد المتنزه ايضاً اطول مهرجان موسيقي في السويد مع اكثر من 50 حفلة موسيقية حية كل صيف شملت فناني ABBA. تاسس على يد المهاجر الالماني جيمس شولتهايس ونما جروناه لوند على مدى 140 عاماً ليصبح واحداً من اكثر وجهات الترفيه زيارة في اسكندنافيا."
+    },
+    "ov_highlights_body": {
+      "en": "The unmissable Ikaros giant swing soars 93 metres above Stockholm delivering extraordinary panoramic views over the city, harbour and archipelago — one of the world's tallest gyro swing rides. Insane is a unique vertical spinning roller coaster unlike anything else in Europe. Twister is a beloved classic wooden coaster along the waterfront, while Eclipse offers stunning views from its giant wave swinger. Brand new for 2026 is Spindeln, Sweden's first Super Jumper family ride. The park also hosts over 50 live concerts each summer on its famous outdoor stage, making it Sweden's longest running music festival.",
+      "es": "Ikaros sube a 93 metros sobre Estocolmo con vistas panoramicas extraordinarias. Insane es una coaster giratoria vertical unica en Europa. Twister es el clasico coaster de madera frente al mar. Eclipse ofrece vistas impresionantes. Nuevo para 2026: Spindeln. El parque tambien acoge mas de 50 conciertos en vivo cada verano.",
+      "fr": "Ikaros monte a 93 metres au-dessus de Stockholm avec des vues panoramiques extraordinaires. Insane est un coaster tournant vertical unique en Europe. Twister est le classique coaster en bois en bord de mer. Eclipse offre des vues magnifiques. Nouveau 2026: Spindeln. Le parc accueille aussi plus de 50 concerts en direct chaque ete.",
+      "de": "Ikaros steigt auf 93 Meter uber Stockholm mit aussergewohnlichem Panoramablick. Insane ist ein einzigartiger vertikaler Dreh-Coaster. Twister ist der geliebte Holzcoaster am Wasser. Eclipse bietet atemberaubende Aussichten. Neu 2026: Spindeln. Der Park beherbergt auch uber 50 Live-Konzerte jeden Sommer.",
+      "it": "Ikaros sale a 93 metri sopra Stoccolma con viste panoramiche straordinarie. Insane e un coaster rotante verticale unico in Europa. Twister e il classico coaster in legno sul lungomare. Eclipse offre viste mozzafiato. Nuovo 2026: Spindeln. Il parco ospita anche oltre 50 concerti dal vivo ogni estate.",
+      "nl": "Ikaros rijst 93 meter boven Stockholm met buitengewoon panoramisch uitzicht. Insane is een unieke verticale draaiende achterbaan. Twister is de geliefde houten achterbaan langs het water. Eclipse biedt verbluffend uitzicht. Nieuw 2026: Spindeln. Het park organiseert ook meer dan 50 liveconcerten elke zomer.",
+      "pt": "Ikaros sobe a 93 metros acima de Estocolmo com vistas panoramicas extraordinarias. Insane e uma montana-russa giratoria vertical unica na Europa. Twister e a classica montana-russa de madeira a beira-mar. Eclipse oferece vistas deslumbrantes. Novo 2026: Spindeln. O parque tambem acolhe mais de 50 concertos ao vivo cada verao.",
+      "ru": "Ikaros поднимается на 93 метра над Стокгольмом с экстраординарными панорамными видами. Insane — уникальный вертикальный вращающийся коастер. Twister — любимый деревянный коастер у воды. Eclipse предлагает захватывающие виды. Новинка 2026: Spindeln. Парк также принимает более 50 живых концертов каждым летом.",
+      "zh": "Ikaros秋千塔高达斯德哥尔摩上空93米，俯瞰城市、港口和群岛的非凡全景。Insane是欧洲独一无二的垂直旋转过山车。Twister是海滨经典木制过山车。Eclipse提供壮观视野。2026新项目：Spindeln。公园每年夏季还举办50多场现场音乐会。",
+      "ar": "يرتفع Ikaros 93 متراً فوق ستوكهولم بمناظر بانورامية استثنائية. Insane افعوانية دوارة عمودية فريدة في اوروبا. Twister افعوانية خشبية كلاسيكية على الواجهة البحرية. Eclipse يوفر مناظر رائعة. جديد 2026: Spindeln. يستضيف المتنزه ايضاً اكثر من 50 حفلة موسيقية حية كل صيف."
+    },
+    "ov_did_you_know_body": {
+      "en": "Grona Lund was founded in 1883 by a German immigrant named James Schultheiss, making it one of the oldest amusement parks in the world still in operation. It is built on a tiny island of just 13,000 square metres in central Stockholm, making it one of the most compact amusement parks in Europe. The park has been the launchpad for many major Swedish music careers, with both ABBA and many other legendary Swedish artists having performed on its famous outdoor stage. Ikaros, opened in 2019, is one of the world's tallest gyro swing rides at 93 metres. Monster, opened in 2016, is the park's most intense roller coaster with multiple inversions.",
+      "es": "Grona Lund fue fundado en 1883 por James Schultheiss. Esta construido en una isla de solo 13.000 metros cuadrados. ABBA y muchos artistas suecos han actuado en su famoso escenario. Ikaros, abierto en 2019, es uno de los columpios giratorios mas altos del mundo. Monster, abierto en 2016, es la montana rusa mas intensa del parque.",
+      "fr": "Grona Lund a ete fonde en 1883 par James Schultheiss. Il est construit sur une ile de seulement 13 000 metres carres. ABBA et de nombreux artistes suedois ont joue sur sa scene celebre. Ikaros ouvert en 2019 est l'un des plus hauts balancoires gyroscopiques du monde. Monster ouvert en 2016 est le coaster le plus intense du parc.",
+      "de": "Grona Lund wurde 1883 von James Schultheiss gegrundet. Er ist auf einer Insel von nur 13.000 Quadratmetern gebaut. ABBA und viele schwedische Kunstler haben auf seiner Buhne gespielt. Ikaros 2019 eroffnet ist eine der hochsten Gyro-Schaukeln der Welt. Monster 2016 eroffnet ist der intensivste Coaster des Parks.",
+      "it": "Grona Lund fu fondato nel 1883 da James Schultheiss. E costruito su un'isola di soli 13.000 metri quadrati. ABBA e molti artisti svedesi si sono esibiti sul suo famoso palco. Ikaros aperto nel 2019 e una delle altalene giroscopiche piu alte del mondo. Monster aperto nel 2016 e il coaster piu intenso del parco.",
+      "nl": "Grona Lund werd in 1883 opgericht door James Schultheiss. Het is gebouwd op een eiland van slechts 13.000 vierkante meter. ABBA en vele Zweedse artiesten hebben op het podium gespeeld. Ikaros geopend in 2019 is een van de hoogste gyro-schommels ter wereld. Monster geopend in 2016 is de meest intense achterbaan.",
+      "pt": "Grona Lund foi fundado em 1883 por James Schultheiss. E construido numa ilha de apenas 13.000 metros quadrados. ABBA e muitos artistas suecos atuaram no seu famoso palco. Ikaros aberto em 2019 e um dos maiores balancos giroscopicos do mundo. Monster aberto em 2016 e a montana-russa mais intensa do parque.",
+      "ru": "Grona Lund был основан в 1883 году Джеймсом Шультхайсом. Расположен на острове площадью 13 000 квадратных метров. ABBA и многие шведские артисты выступали на его сцене. Ikaros открытый в 2019 — одни из самых высоких гиро-качелей. Monster открытый в 2016 — самый интенсивный коастер парка.",
+      "zh": "格罗纳隆德由詹姆斯·舒尔泰斯于1883年创立。建在仅13000平方米的小岛上。ABBA和众多瑞典艺术家曾在其舞台上演出。2019年开放的Ikaros是世界最高陀螺秋千之一。2016年开放的Monster是公园最刺激的过山车。",
+      "ar": "تاسس جروناه لوند عام 1883 من قبل جيمس شولتهايس. مبني على جزيرة 13000 متر مربع. ابا وكثير من الفنانين السويديين احيوا حفلات على مسرحه. Ikaros الذي افتتح 2019 من اطول الاراجيح الدوارة. Monster الذي افتتح 2016 هو اكثر افعوانية مكثفة في المتنزه."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head straight to Ikaros and Insane as these draw the longest queues on busy days. Twister and Monster are best tackled in the morning before crowds build. The park is remarkably compact so all attractions are within easy walking distance. Evening visits are truly magical: as the sun sets over Stockholm harbour and the park lights up, Grona Lund transforms into something utterly special. If visiting during summer, check the concert schedule in advance as major shows sell out quickly and the atmosphere on concert nights is electric.",
+      "es": "Llega a la apertura y ve directo a Ikaros e Insane. Twister y Monster son mejores por la manana. El parque es muy compacto. Las visitas nocturnas son magicas. Consulta el calendario de conciertos con antelacion.",
+      "fr": "Arrivez a l'ouverture et allez directement a Ikaros et Insane. Twister et Monster sont mieux le matin. Le parc est tres compact. Les visites nocturnes sont magiques. Consultez le programme des concerts a l'avance.",
+      "de": "Bei Offnung ankommen und direkt zu Ikaros und Insane. Twister und Monster morgens am besten. Der Park ist sehr kompakt. Abendbesuche sind magisch. Konzertprogramm im Voraus prufen.",
+      "it": "Arriva all'apertura e vai direttamente a Ikaros e Insane. Twister e Monster sono meglio al mattino. Il parco e molto compatto. Le visite serali sono magiche. Controlla il programma dei concerti in anticipo.",
+      "nl": "Kom bij opening aan en ga direct naar Ikaros en Insane. Twister en Monster zijn het beste in de ochtend. Het park is erg compact. Avondbezoeken zijn magisch. Controleer van tevoren het concertprogramma.",
+      "pt": "Chega a abertura e vai direto ao Ikaros e Insane. Twister e Monster sao melhores de manha. O parque e muito compacto. As visitas noturnas sao magicas. Verifica o programa de concertos com antecedencia.",
+      "ru": "Приходите к открытию и сразу к Ikaros и Insane. Twister и Monster лучше утром. Парк очень компактный. Вечерние посещения волшебны. Заранее проверьте расписание концертов.",
+      "zh": "开园时到达，直奔Ikaros和Insane。Twister和Monster上午游玩最佳。公园非常紧凑。夜晚参观真正神奇。如果夏季参观，请提前查看音乐会日程。",
+      "ar": "اصل عند الافتتاح وتوجه مباشرة الى Ikaros وInsane. Twister وMonster افضل في الصباح. المتنزه صغير جداً. الزيارات المسائية ساحرة. تحقق من جدول الحفلات مسبقاً."
+    },
+    "ov_photos_body": {
+      "en": "Ikaros at 93 metres provides extraordinary aerial photographs of Stockholm's skyline, the royal palace, the old town and the archipelago. Eclipse over the water at sunset creates breathtaking images. The classic wooden Twister coaster photographed from the waterfront with Stockholm's city hall in the background is iconic. The park lit up at night during concerts, with boats gliding past on the dark water and the city lights of Stockholm twinkling in the distance, creates some of the most atmospheric amusement park photography in the world.",
+      "es": "Ikaros a 93 metros proporciona fotografias aereas extraordinarias del horizonte de Estocolmo. Eclipse sobre el agua al atardecer crea imagenes impresionantes. El parque iluminado de noche durante los conciertos crea algunas de las fotografias mas atmosfericas del mundo.",
+      "fr": "Ikaros a 93 metres fournit des photographies aeriennes extraordinaires de l'horizon de Stockholm. Eclipse sur l'eau au coucher du soleil cree des images epoustouflantes. Le parc illumine la nuit pendant les concerts cree certaines des photographies de parcs les plus atmospheriques du monde.",
+      "de": "Ikaros auf 93 Metern liefert aussergewohnliche Luftfotos der Stockholmer Skyline. Eclipse uber dem Wasser bei Sonnenuntergang schafft atemberaubende Bilder. Der bei Nacht beleuchtete Park wahrend Konzerten schafft einige der atmospharischsten Vergnugungsparkfotos der Welt.",
+      "it": "Ikaros a 93 metri fornisce fotografie aeree straordinarie dell'orizzonte di Stoccolma. Eclipse sull'acqua al tramonto crea immagini mozzafiato. Il parco illuminato di notte durante i concerti crea alcune delle fotografie di parchi piu suggestive del mondo.",
+      "nl": "Ikaros op 93 meter levert buitengewone luchtfotos van de skyline van Stockholm. Eclipse over het water bij zonsondergang creert adembenemende beelden. Het verlichte park tijdens concerten creert enkele van de meest sfeervolle pretparkfotos ter wereld.",
+      "pt": "Ikaros a 93 metros fornece fotografias aereas extraordinarias do horizonte de Estocolmo. Eclipse sobre a agua ao por do sol cria imagens deslumbrantes. O parque iluminado a noite durante os concertos cria algumas das fotografias mais atmosfericas do mundo.",
+      "ru": "Ikaros на 93 метрах даёт экстраординарные воздушные снимки горизонта Стокгольма. Eclipse над водой на закате создаёт захватывающие образы. Парк, освещённый ночью во время концертов, создаёт одни из самых атмосферных фотографий парков развлечений в мире.",
+      "zh": "Ikaros在93米高处提供斯德哥尔摩天际线、皇宫和群岛的非凡航拍照片。日落时分Eclipse悬于水面创造令人叹为观止的画面。夜晚音乐会时灯火辉煌的公园创造世界上最有氛围的游乐园摄影作品之一。",
+      "ar": "يوفر Ikaros على ارتفاع 93 متراً صوراً جوية استثنائية لافق ستوكهولم. Eclipse فوق الماء عند الغروب يخلق صوراً مذهلة. المتنزه المضاء ليلاً خلال الحفلات يخلق بعضاً من اكثر صور متنزهات الملاهي جواً في العالم."
+    }
+  },
+  "attractions": {
+    "ikaros": {
+      "desc": {
+        "en": "A breathtaking giant swing reaching 93 metres above Stockholm with panoramic views over the city, harbour and archipelago. One of the world's tallest gyro swing rides and Grona Lund's most iconic attraction.",
+        "es": "Un impresionante columpio gigante que alcanza 93 metros sobre Estocolmo con vistas panoramicas sobre la ciudad y el archipielago.",
+        "fr": "Une balancoire geante atteignant 93 metres au-dessus de Stockholm avec des vues panoramiques sur la ville et l'archipel.",
+        "de": "Eine Riesenschaukel die 93 Meter uber Stockholm aufsteigt mit Panoramablick auf Stadt und Scharen.",
+        "it": "Un'altalena gigante che raggiunge 93 metri sopra Stoccolma con viste panoramiche sulla citta e l'arcipelago.",
+        "nl": "Een reuzenschommel die 93 meter boven Stockholm reikt met panoramisch uitzicht over de stad en de archipel.",
+        "pt": "Um balanco gigante que atinge 93 metros acima de Estocolmo com vistas panoramicas sobre a cidade e o arquipelago.",
+        "ru": "Гигантские качели, достигающие 93 метров над Стокгольмом с панорамными видами на город и архипелаг.",
+        "zh": "令人叹为观止的巨型秋千，在斯德哥尔摩上空93米处，俯瞰城市、港口和群岛的全景。",
+        "ar": "ارجوحة عملاقة ترتفع 93 متراً فوق ستوكهولم مع مناظر بانورامية على المدينة والارخبيل."
+      }
+    },
+    "insane": {
+      "desc": {
+        "en": "A unique vertical spinning roller coaster where riders sit in cars that rotate 360 degrees freely as the train navigates the twisted track. A disorienting and thrilling experience unique to Grona Lund.",
+        "es": "Una unica montana rusa giratoria vertical donde los riders se sientan en coches que rotan 360 grados libremente.",
+        "fr": "Un coaster tournant vertical unique ou les riders s'assoient dans des voitures qui tournent librement a 360 degres.",
+        "de": "Ein einzigartiger vertikaler Dreh-Coaster bei dem Fahrer in Wagen sitzen die sich frei 360 Grad drehen.",
+        "it": "Un coaster rotante verticale unico dove i rider siedono in auto che ruotano liberamente a 360 gradi.",
+        "nl": "Een unieke verticale draaiende achterbaan waarbij riders in wagons zitten die vrij 360 graden draaien.",
+        "pt": "Uma montana-russa giratoria vertical unica onde os riders sentam em carros que rodam livremente 360 graus.",
+        "ru": "Уникальный вертикальный вращающийся коастер, где пассажиры сидят в вагонах, свободно вращающихся на 360 градусов.",
+        "zh": "独特的垂直旋转过山车，乘客坐在可自由360度旋转的车厢中，格罗纳隆德独有的刺激体验。",
+        "ar": "افعوانية دوارة عمودية فريدة حيث يجلس الركاب في سيارات تدور بحرية 360 درجة."
+      }
+    },
+    "twister": {
+      "desc": {
+        "en": "A classic wooden roller coaster twisting along the Stockholm waterfront since 1985, delivering traditional wooden coaster thrills with stunning harbour views.",
+        "es": "Una clasica montana rusa de madera que serpentea a lo largo del frente del agua de Estocolmo desde 1985.",
+        "fr": "Un classique coaster en bois serpentant le long du front de mer de Stockholm depuis 1985.",
+        "de": "Ein klassischer Holzcoaster der seit 1985 entlang der Stockholmer Uferpromenade schlangelt.",
+        "it": "Un classico coaster in legno che si snoda lungo il lungomare di Stoccolma dal 1985.",
+        "nl": "Een klassieke houten achterbaan die sinds 1985 langs de Stockholmse waterkant slingert.",
+        "pt": "Uma classica montana-russa de madeira que serpenteia ao longo da orla de Estocolmo desde 1985.",
+        "ru": "Классический деревянный коастер вьющийся вдоль набережной Стокгольма с 1985 года.",
+        "zh": "自1985年起沿斯德哥尔摩海滨蜿蜒的经典木制过山车，提供传统刺激和壮观港口景色。",
+        "ar": "افعوانية خشبية كلاسيكية تلتف على طول واجهة ستوكهولم البحرية منذ عام 1985."
+      }
+    },
+    "jetline": {
+      "desc": {
+        "en": "A classic steel looping coaster thrilling visitors since 1988, featuring a full loop and multiple twists with spectacular Stockholm views.",
+        "es": "Una clasica montana rusa de acero con loop que ha emocionado a los visitantes desde 1988 con vistas espectaculares.",
+        "fr": "Un classique coaster en acier avec boucle excitant les visiteurs depuis 1988 avec des vues spectaculaires.",
+        "de": "Ein klassischer Stahllooping-Coaster der seit 1988 Besucher begeistert mit spektakularem Stockholmer Panorama.",
+        "it": "Un classico coaster in acciaio con loop che entusiasma i visitatori dal 1988 con viste spettacolari.",
+        "nl": "Een klassieke stalen looping achterbaan die bezoekers since 1988 vervoert met spectaculair uitzicht op Stockholm.",
+        "pt": "Uma classica montana-russa de aco com loop que entusiasma visitantes desde 1988 com vistas espetaculares.",
+        "ru": "Классический стальной петлевой коастер восхищающий посетителей с 1988 года со зрелищными видами на Стокгольм.",
+        "zh": "自1988年起令游客惊叹的经典钢铁环形过山车，有完整环形和多次翻转，可欣赏斯德哥尔摩壮观景色。",
+        "ar": "افعوانية فولاذية كلاسيكية ذات حلقة اثارت الزوار منذ عام 1988 مع مناظر رائعة لستوكهولم."
+      }
+    },
+    "fritt_fall": {
+      "desc": {
+        "en": "A giant freefall drop tower with a tilting version that leans riders forward before the drop, overlooking Stockholm harbour. Pure terror and pure fun.",
+        "es": "Una torre de caida libre gigante con version inclinable que inclina a los riders hacia adelante antes de la caida.",
+        "fr": "Une tour de chute libre geante avec version inclinable qui incline les riders vers l'avant avant la chute.",
+        "de": "Ein riesiger Freifallturm mit kippender Version die Fahrer vor dem Fall nach vorne kippt mit Blick auf den Stockholmer Hafen.",
+        "it": "Una torre a caduta libera gigante con versione inclinabile che inclina i rider in avanti prima della caduta.",
+        "nl": "Een reusachtige vrije val toren met kantelvarsie die riders voor de val naar voren kantelt.",
+        "pt": "Uma torre de queda livre gigante com versao inclinavel que inclina os riders para a frente antes da queda.",
+        "ru": "Гигантская башня свободного падения с наклонной версией которая наклоняет пассажиров вперёд перед падением.",
+        "zh": "巨型自由落体降落塔，倾斜版本在下落前将乘客向前倾斜，俯瞰斯德哥尔摩港口。",
+        "ar": "برج سقوط حر عملاق مع نسخة مائلة تميل الركاب للامام قبل السقوط فوق ميناء ستوكهولم."
+      }
+    },
+    "monster": {
+      "desc": {
+        "en": "An intense looping coaster with multiple inversions delivering powerful G-forces. One of Grona Lund's most thrilling coasters for experienced riders.",
+        "es": "Un coaster intenso con multiples inversiones que genera poderosas fuerzas G. Uno de los coasters mas emocionantes de Grona Lund.",
+        "fr": "Un coaster intense avec plusieurs inversions generant de puissantes G-forces. L'un des coasters les plus palpitants de Grona Lund.",
+        "de": "Ein intensiver Looping-Coaster mit mehreren Inversionen. Einer der aufregendsten Coaster von Grona Lund.",
+        "it": "Un coaster intenso con multiple inversioni che genera potenti G-force. Uno dei coaster piu emozionanti di Grona Lund.",
+        "nl": "Een intense looping achterbaan met meerdere inversies. Een van Grona Lunds meest spannende achterbanen.",
+        "pt": "Uma montana-russa intensa com multiples inversoes. Uma das montana-russas mais emocionantes de Grona Lund.",
+        "ru": "Интенсивный петлевой коастер с несколькими инверсиями. Один из самых захватывающих аттракционов Grona Lund.",
+        "zh": "拥有多次翻转的高强度环形过山车，产生强大G力。格罗纳隆德最刺激的过山车之一。",
+        "ar": "افعوانية دوارة مكثفة مع انقلابات متعددة تولد قوى جاذبية قوية. واحدة من اكثر الافعوانيات اثارة في جروناه لوند."
+      }
+    },
+    "eclipse": {
+      "desc": {
+        "en": "A spectacular Star Flyer giant wave swinger with stunning views over Stockholm harbour and archipelago. Riders swing out over the water in a breathtaking 360-degree experience.",
+        "es": "Un espectacular balancin de ondas gigante con impresionantes vistas sobre el puerto de Estocolmo.",
+        "fr": "Un spectaculaire balancier geant avec de superbes vues sur le port de Stockholm.",
+        "de": "Ein spektakularer Riesenwellenschaukler mit atemberaubenden Blicken uber den Stockholmer Hafen.",
+        "it": "Uno spettacolare dondolo a onde gigante con viste mozzafiato sul porto di Stoccolma.",
+        "nl": "Een spectaculaire reuzenwave swinger met prachtig uitzicht over de haven van Stockholm.",
+        "pt": "Um espetacular balanco de ondas gigante com vistas deslumbrantes sobre o porto de Estocolmo.",
+        "ru": "Зрелищные гигантские качели с захватывающими видами на гавань Стокгольма.",
+        "zh": "壮观的Star Flyer巨型波浪秋千，俯瞰斯德哥尔摩港口和群岛，乘客在水面上360度旋转。",
+        "ar": "ارجوحة امواج عملاقة رائعة مع مناظر خلابة على ميناء ستوكهولم."
+      }
+    },
+    "pumpen": {
+      "desc": {
+        "en": "A thrilling giant swinging ship ride that swings riders high into the air with powerful G-forces. A classic fairground experience at Grona Lund.",
+        "es": "Un emocionante barco columpio gigante que balancea a los riders alto en el aire con poderosas fuerzas G.",
+        "fr": "Un passionnant bateau balancoire geant qui balance les riders haut dans les airs avec de puissantes G-forces.",
+        "de": "Ein aufregendes Riesenschaukelschiff das Fahrer mit kraftvollen G-Kraften hoch in die Luft schwingt.",
+        "it": "Un emozionante battello oscillante gigante che fa oscillare i rider in alto con potenti G-force.",
+        "nl": "Een spannend reusachtig schommelschip dat riders hoog de lucht in slingert met krachtige G-krachten.",
+        "pt": "Um emocionante navio balanco gigante que balanca os riders alto no ar com forcas G poderosas.",
+        "ru": "Захватывающий гигантский корабль-качели раскачивающий пассажиров высоко в воздухе.",
+        "zh": "令人兴奋的巨型摇摆船，将乘客高高送入空中，产生强大G力。格罗纳隆德经典游乐场体验。",
+        "ar": "قارب تارجح عملاق مثير يرجح الركاب عالياً في الهواء بقوى جاذبية قوية."
+      }
+    },
+    "kvasten": {
+      "desc": {
+        "en": "A fun suspended family coaster themed as a magical broomstick ride. Riders dangle freely below the track as the train sweeps through turns and dips.",
+        "es": "Una divertida coaster familiar suspendida con tema de escoba magica. Los riders cuelgan libremente bajo la via.",
+        "fr": "Un amusant coaster familial suspendu a theme de balai magique. Les riders pendent librement sous la voie.",
+        "de": "Ein lustiger hangender Familien-Coaster mit Besenstiel-Thema. Fahrer baumeln frei unter der Schiene.",
+        "it": "Un divertente coaster familiare sospeso a tema scopa magica. I rider pendono liberamente sotto il binario.",
+        "nl": "Een leuke hangende familieachterbaan met magische bezemsteel thema. Riders bungelen vrij onder het spoor.",
+        "pt": "Uma divertida montana-russa familiar suspensa com tema de vassoura magica. Os riders ficam pendurados livremente.",
+        "ru": "Весёлый подвесной семейный коастер на тему волшебной метлы. Пассажиры свободно свисают под рельсами.",
+        "zh": "以魔法扫帚为主题的有趣悬挂家庭过山车。乘客在轨道下方自由悬挂。",
+        "ar": "افعوانية عائلية معلقة ممتعة ذات طابع مكنسة سحرية. يتدلى الركاب بحرية اسفل المسار."
+      }
+    },
+    "spokhuset": {
+      "desc": {
+        "en": "Grona Lund's classic haunted house dark ride taking visitors through creepy corridors and spooky scenes. A traditional ghost train beloved by generations of visitors.",
+        "es": "El clasico dark ride de casa encantada de Grona Lund que lleva a los visitantes por corredores escalofriantes.",
+        "fr": "Le classique dark ride de maison hantee de Grona Lund emmenant les visiteurs dans des couloirs effrayants.",
+        "de": "Grona Lunds klassischer Geisterbahn-Dark-Ride durch gruselige Korridore.",
+        "it": "Il classico dark ride della casa stregata di Grona Lund attraverso corridoi inquietanti.",
+        "nl": "Grona Lunds klassieke spookhuis dark ride door griezelige gangen.",
+        "pt": "O classico dark ride de casa assombrada de Grona Lund por corredores assustadores.",
+        "ru": "Классический тёмный аттракцион дома с привидениями Grona Lund через жуткие коридоры.",
+        "zh": "格罗纳隆德经典鬼屋暗室游乐，带领游客穿越阴森走廊和恐怖场景。",
+        "ar": "لعبة المنزل المسكون المظلمة الكلاسيكية في جروناه لوند عبر ممرات مرعبة."
+      }
+    },
+    "spindeln": {
+      "desc": {
+        "en": "Brand new for 2026! Sweden's first Super Jumper ride themed as a giant spider, combining bouncing, spinning and speed for the whole family with space for 42 riders.",
+        "es": "Nuevo para 2026. El primer Super Jumper de Suecia con tema de arana gigante. Combina rebotes, giros y velocidad.",
+        "fr": "Tout nouveau pour 2026. Le premier Super Jumper de Suede a theme araignee geante. Combine rebonds, rotations et vitesse.",
+        "de": "Brandneu 2026. Schwedens erste Super Jumper mit Riesenspinnen-Thema. Kombiniert Federn, Drehen und Geschwindigkeit.",
+        "it": "Nuovo per il 2026. Il primo Super Jumper della Svezia a tema ragno gigante. Combina rimbalzi, rotazioni e velocita.",
+        "nl": "Gloednieuw voor 2026. Zweden's eerste Super Jumper met reuzenspinnethema. Combineert stuiteren, draaien en snelheid.",
+        "pt": "Novidade para 2026. O primeiro Super Jumper da Suecia com tema aranha gigante. Combina saltos, rotacoes e velocidade.",
+        "ru": "Новинка 2026. Первый в Швеции Super Jumper с темой гигантского паука сочетающий прыжки вращение и скорость.",
+        "zh": "2026年全新！瑞典第一个以巨型蜘蛛为主题的Super Jumper，结合弹跳、旋转和速度，可容纳42名乘客。",
+        "ar": "جديد تماماً لعام 2026. اول Super Jumper في السويد بطابع العنكبوت العملاق يجمع الارتداد والدوران والسرعة."
+      }
+    },
+    "vilda_musen": {
+      "desc": {
+        "en": "A classic wild mouse family coaster with sharp turns and surprising drops. Fun for the whole family with unexpected twists at every corner.",
+        "es": "Una clasica coaster familiar de raton salvaje con giros bruscos y caidas sorprendentes.",
+        "fr": "Un classique coaster familial de souris sauvage avec des virages serres et des chutes surprenantes.",
+        "de": "Ein klassischer Wild Mouse Familien-Coaster mit scharfen Kurven und uberraschenden Abfahrten.",
+        "it": "Un classico coaster familiare wild mouse con curve brusche e cadute sorprendenti.",
+        "nl": "Een klassieke wilde muis familieachterbaan met scherpe bochten en verrassende dalingen.",
+        "pt": "Uma classica montana-russa familiar wild mouse com curvas bruscas e quedas surpreendentes.",
+        "ru": "Классический семейный коастер дикая мышь с резкими поворотами и неожиданными спусками.",
+        "zh": "经典野鼠家庭过山车，急转弯和令人惊喜的下降，每个转角都有意外惊喜。",
+        "ar": "افعوانية عائلية كلاسيكية للفار البري مع منعطفات حادة وانخفاضات مفاجئة."
+      }
+    }
+  },
+  "food": {
+    "restaurang_kaskad": {
+      "desc": {
+        "en": "Grona Lund's main restaurant serving food from all corners of the world in a vibrant atmosphere. Perfect for families seeking a hearty meal in the heart of the park.",
+        "es": "El restaurante principal de Grona Lund que sirve comida de todos los rincones del mundo en un ambiente vibrante.",
+        "fr": "Le restaurant principal de Grona Lund servant de la nourriture des quatre coins du monde dans une atmosphere vibrante.",
+        "de": "Grona Lunds Hauptrestaurant mit Speisen aus aller Welt in lebendiger Atmosphare.",
+        "it": "Il ristorante principale di Grona Lund che serve cibo da ogni angolo del mondo in atmosfera vivace.",
+        "nl": "Grona Lunds hoofdrestaurant dat eten van over de hele wereld serveert in een levendige sfeer.",
+        "pt": "O restaurante principal de Grona Lund que serve comida de todos os cantos do mundo numa atmosfera vibrante.",
+        "ru": "Главный ресторан Grona Lund с едой со всего мира в яркой атмосфере.",
+        "zh": "格罗纳隆德的主餐厅，在充满活力的氛围中供应来自世界各地的美食。",
+        "ar": "المطعم الرئيسي في جروناه لوند يقدم طعاماً من جميع انحاء العالم في اجواء نابضة بالحياة."
+      }
+    },
+    "hekto": {
+      "desc": {
+        "en": "A fantastic waterfront BBQ restaurant with spectacular views over Stockholm harbour. Large portions of grilled meats with a cold beer — the perfect Grona Lund dining experience.",
+        "es": "Fantastico restaurante BBQ frente al mar con vistas espectaculares sobre el puerto de Estocolmo.",
+        "fr": "Fantastique restaurant BBQ en bord de mer avec des vues spectaculaires sur le port de Stockholm.",
+        "de": "Fantastisches Waterfront-BBQ-Restaurant mit spektakularem Blick auf den Stockholmer Hafen.",
+        "it": "Fantastico ristorante BBQ sul lungomare con viste spettacolari sul porto di Stoccolma.",
+        "nl": "Fantastisch waterfront BBQ restaurant met spectaculair uitzicht op de haven van Stockholm.",
+        "pt": "Fantastico restaurante BBQ a beira-mar com vistas espetaculares sobre o porto de Estocolmo.",
+        "ru": "Замечательный ресторан BBQ на набережной со зрелищными видами на гавань Стокгольма.",
+        "zh": "绝佳的海滨烧烤餐厅，可欣赏斯德哥尔摩港口的壮观景色，大份烤肉配冰啤酒。",
+        "ar": "مطعم شواء رائع على الواجهة البحرية مع مناظر رائعة على ميناء ستوكهولم."
+      }
+    },
+    "holy_monkey": {
+      "desc": {
+        "en": "A vibrant Asian restaurant serving sushi, noodles and bibimbap with amazing views over the park and water. Popular for lighter fresh flavours between rides.",
+        "es": "Un vibrante restaurante asiatico que sirve sushi, fideos y bibimbap con vistas increibles sobre el parque.",
+        "fr": "Un restaurant asiatique vibrant servant sushis, nouilles et bibimbap avec de superbes vues sur le parc.",
+        "de": "Ein lebendiges asiatisches Restaurant mit Sushi, Nudeln und Bibimbap und toller Aussicht auf Park und Wasser.",
+        "it": "Un vibrante ristorante asiatico che serve sushi, noodles e bibimbap con viste incredibili sul parco.",
+        "nl": "Een levendig Aziatisch restaurant dat sushi, noodles en bibimbap serveert met geweldig uitzicht op het park.",
+        "pt": "Um vibrante restaurante asiatico que serve sushi, noodles e bibimbap com vistas incriveis sobre o parque.",
+        "ru": "Яркий азиатский ресторан с суши лапшой и пибимпапом с потрясающими видами на парк и воду.",
+        "zh": "充满活力的亚洲餐厅，供应寿司、面条和拌饭，可俯瞰公园和水面的美丽景色。",
+        "ar": "مطعم اسيوي نابض بالحياة يقدم السوشي والمعكرونة والبيبيمباب مع مناظر رائعة على المتنزه."
+      }
+    },
+    "kryddhyllan": {
+      "desc": {
+        "en": "A cosy Swedish cafe with panoramic views over the entire park, serving traditional Swedish dishes, coffee and cakes. Perfect for a relaxed break between rides.",
+        "es": "Un acogedor cafe sueco con vistas panoramicas sobre todo el parque. Platos suecos tradicionales, cafe y pasteles.",
+        "fr": "Un cafe suedois douillet avec des vues panoramiques sur tout le parc. Plats suedois traditionnels, cafe et gateaux.",
+        "de": "Ein gemutliches schwedisches Cafe mit Panoramablick uber den gesamten Park. Traditionelle Gerichte, Kaffee und Kuchen.",
+        "it": "Un accogliente cafe svedese con viste panoramiche su tutto il parco. Piatti svedesi tradizionali, caffe e dolci.",
+        "nl": "Een gezellig Zweeds cafe met panoramisch uitzicht over het hele park. Traditionele gerechten, koffie en gebak.",
+        "pt": "Um acolhedor cafe sueco com vistas panoramicas sobre todo o parque. Pratos suecos tradicionais, cafe e bolos.",
+        "ru": "Уютное шведское кафе с панорамными видами на весь парк. Традиционные блюда кофе и пирожные.",
+        "zh": "舒适的瑞典咖啡厅，可俯瞰整个公园全景，供应传统瑞典菜肴、咖啡和蛋糕。",
+        "ar": "مقهى سويدي مريح مع مناظر بانورامية على المتنزه باكمله. اطباق سويدية تقليدية وقهوة وكعك."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_radisson_blu": {
+      "desc": {
+        "en": "A premium waterfront hotel in central Stockholm with stunning harbour views, just a short walk or boat ride from Grona Lund. World-class amenities, multiple restaurants and easy access to all Stockholm attractions.",
+        "es": "Un hotel premium frente al mar en el centro de Estocolmo con impresionantes vistas al puerto. A poca distancia de Grona Lund.",
+        "fr": "Un hotel premium en bord de mer au centre de Stockholm avec de superbes vues sur le port. A quelques minutes de Grona Lund.",
+        "de": "Ein Premium-Waterfront-Hotel im Zentrum Stockholms mit atemberaubendem Hafenblick. Wenige Minuten von Grona Lund entfernt.",
+        "it": "Un hotel premium sul lungomare nel centro di Stoccolma con splendide viste sul porto. A pochi minuti da Grona Lund.",
+        "nl": "Een premium waterfront hotel in het centrum van Stockholm met prachtig uitzicht op de haven. Op loopafstand van Grona Lund.",
+        "pt": "Um hotel premium a beira-mar no centro de Estocolmo com vistas deslumbrantes sobre o porto. A poucos minutos de Grona Lund.",
+        "ru": "Премиальный отель на набережной в центре Стокгольма с потрясающими видами на гавань. В нескольких минутах от Grona Lund.",
+        "zh": "斯德哥尔摩市中心的高档海滨酒店，拥有令人惊叹的港口景观，步行或乘船即可到达格罗纳隆德。",
+        "ar": "فندق فاخر على الواجهة البحرية في وسط ستوكهولم مع مناظر خلابة على الميناء. على بعد دقائق من جروناه لوند."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Modern room with harbour or city views and premium amenities.", "es": "Habitacion moderna con vistas al puerto o la ciudad.", "fr": "Chambre moderne avec vue port ou ville.", "de": "Modernes Zimmer mit Hafen- oder Stadtblick.", "it": "Camera moderna con vista porto o citta.", "nl": "Moderne kamer met haven- of stadszicht.", "pt": "Quarto moderno com vista porto ou cidade.", "ru": "Современный номер с видом на гавань или город.", "zh": "现代客房，港口或城市景观，高级设施。", "ar": "غرفة حديثة مع اطلالات على الميناء او المدينة." }
+        },
+        "harbour_suite": {
+          "name": { "en": "Harbour Suite", "es": "Suite Puerto", "fr": "Suite Harbour", "de": "Harbour Suite", "it": "Suite Porto", "nl": "Haven Suite", "pt": "Suite Harbour", "ru": "Люкс Гавань", "zh": "港湾套房", "ar": "جناح الميناء" },
+          "desc": { "en": "Luxurious suite with panoramic Stockholm harbour views and premium hotel benefits.", "es": "Suite lujosa con vistas panoramicas al puerto de Estocolmo.", "fr": "Suite luxueuse avec vues panoramiques sur le port de Stockholm.", "de": "Luxuriose Suite mit Panoramablick auf den Stockholmer Hafen.", "it": "Suite lussuosa con viste panoramiche sul porto di Stoccolma.", "nl": "Luxueuze suite met panoramisch uitzicht op de haven van Stockholm.", "pt": "Suite luxuosa com vistas panoramicas sobre o porto de Estocolmo.", "ru": "Роскошный люкс с панорамными видами на гавань Стокгольма.", "zh": "豪华套房，斯德哥尔摩港口全景和高级酒店特权。", "ar": "جناح فاخر مع اطلالات بانورامية على ميناء ستوكهولم." }
+        }
+      }
+    },
+    "hotel_af_chapman": {
+      "desc": {
+        "en": "A unique and iconic hostel aboard a historic tall ship moored in central Stockholm, minutes from Grona Lund. One of the most memorable places to stay in Stockholm with stunning views of the Old Town and Royal Palace.",
+        "es": "Un albergue unico e iconico a bordo de un barco historico en el centro de Estocolmo, a minutos de Grona Lund.",
+        "fr": "Une auberge unique et iconique a bord d'un navire historique au centre de Stockholm, a quelques minutes de Grona Lund.",
+        "de": "Eine einzigartige und ikonische Herberge an Bord eines historischen Segelschiffs im Zentrum Stockholms, Minuten von Grona Lund.",
+        "it": "Un ostello unico e iconico a bordo di una storica nave nel centro di Stoccolma, a pochi minuti da Grona Lund.",
+        "nl": "Een uniek en iconisch hostel aan boord van een historisch schip in het centrum van Stockholm, minuten van Grona Lund.",
+        "pt": "Um albergue unico e iconico a bordo de um navio historico no centro de Estocolmo, a minutos de Grona Lund.",
+        "ru": "Уникальный и культовый хостел на борту исторического парусника в центре Стокгольма, в минутах от Grona Lund.",
+        "zh": "独特标志性的青旅，位于停泊在斯德哥尔摩市中心的历史帆船上，距格罗纳隆德数分钟。",
+        "ar": "نزل فريد وايقوني على متن سفينة تاريخية راسية في وسط ستوكهولم، على بعد دقائق من جروناه لوند."
+      },
+      "rooms": {
+        "dorm_room": {
+          "name": { "en": "Dorm Room", "es": "Habitacion Compartida", "fr": "Dortoir", "de": "Schlafsaal", "it": "Dormitorio", "nl": "Slaapzaal", "pt": "Dormitorio", "ru": "Общая каюта", "zh": "宿舍间", "ar": "غرفة مشتركة" },
+          "desc": { "en": "Affordable shared cabin on the historic ship with Stockholm harbour views.", "es": "Cabina compartida asequible con vistas al puerto.", "fr": "Cabine partagee abordable avec vues sur le port.", "de": "Erschwingliche Gemeinschaftskabine mit Hafenblick.", "it": "Cabina condivisa conveniente con viste sul porto.", "nl": "Betaalbare gedeelde hut met havenzicht.", "pt": "Cabine partilhada acessivel com vistas para o porto.", "ru": "Доступная общая каюта с видом на гавань.", "zh": "历史帆船上经济实惠的共享舱房，可欣赏港口景色。", "ar": "كابينة مشتركة باسعار معقولة مع اطلالات على الميناء." }
+        },
+        "private_cabin": {
+          "name": { "en": "Private Cabin", "es": "Cabina Privada", "fr": "Cabine Privee", "de": "Privatkabine", "it": "Cabina Privata", "nl": "Prive Hut", "pt": "Cabine Privada", "ru": "Частная каюта", "zh": "私人舱房", "ar": "كابينة خاصة" },
+          "desc": { "en": "Private cabin on the ship with Old Town views and a unique nautical atmosphere.", "es": "Cabina privada con vistas a la Ciudad Vieja y atmosfera nautica unica.", "fr": "Cabine privee avec vue sur la vieille ville et atmosphere nautique unique.", "de": "Privatkabine mit Altstadtblick und einzigartiger nautischer Atmosphare.", "it": "Cabina privata con vista sulla citta vecchia e atmosfera nautica unica.", "nl": "Prive hut met uitzicht op de oude stad en unieke nautische sfeer.", "pt": "Cabine privada com vistas para a cidade velha e atmosfera nautica unica.", "ru": "Частная каюта с видом на Старый город и уникальной морской атмосферой.", "zh": "船上私人舱房，可欣赏老城区景色，独特的航海氛围。", "ar": "كابينة خاصة مع اطلالات على المدينة القديمة واجواء بحرية فريدة." }
+        }
+      }
+    },
+    "hotel_lydmar": {
+      "desc": {
+        "en": "A stylish luxury boutique hotel on Strandvagen, one of Stockholm's most prestigious addresses. Features individually designed rooms, a popular restaurant and bar, within easy reach of Grona Lund by tram or boat.",
+        "es": "Un elegante hotel boutique de lujo en Strandvagen, una de las direcciones mas prestigiosas de Estocolmo. Facil acceso a Grona Lund.",
+        "fr": "Un elegant hotel boutique de luxe sur Strandvagen, l'une des adresses les plus prestigieuses de Stockholm. Acces facile a Grona Lund.",
+        "de": "Ein stilvolles Luxus-Boutique-Hotel am Strandvagen, einer der prestigiosesten Adressen Stockholms. Einfacher Zugang zu Grona Lund.",
+        "it": "Un elegante hotel boutique di lusso su Strandvagen, uno degli indirizzi piu prestigiosi di Stoccolma. Facile accesso a Grona Lund.",
+        "nl": "Een stijlvol luxe boutiquehotel aan de Strandvagen, een van Stockholms meest prestigieuze adressen. Gemakkelijke toegang tot Grona Lund.",
+        "pt": "Um elegante hotel boutique de luxo na Strandvagen, um dos enderecos mais prestigiados de Estocolmo. Facil acesso a Grona Lund.",
+        "ru": "Стильный роскошный бутик-отель на Страндвэген, одном из самых престижных адресов Стокгольма. Лёгкий доступ к Grona Lund.",
+        "zh": "斯德哥尔摩最负盛名地址之一Strandvagen上的时尚豪华精品酒店。独特设计客房，乘坐有轨电车或船只即可轻松到达格罗纳隆德。",
+        "ar": "فندق بوتيك فاخر انيق في ستراندفاغن احد اكثر العناوين مرموقية في ستوكهولم. سهولة الوصول الى جروناه لوند."
+      },
+      "rooms": {
+        "classic_room": {
+          "name": { "en": "Classic Room", "es": "Habitacion Clasica", "fr": "Chambre Classique", "de": "Classic Zimmer", "it": "Camera Classic", "nl": "Classic Kamer", "pt": "Quarto Classico", "ru": "Классический номер", "zh": "经典客房", "ar": "غرفة كلاسيكية" },
+          "desc": { "en": "Individually designed room on prestigious Strandvagen with premium amenities and city views.", "es": "Habitacion disenada individualmente en el prestigioso Strandvagen con vistas a la ciudad.", "fr": "Chambre au design individuel sur le prestigieux Strandvagen avec vue sur la ville.", "de": "Individuell gestaltetes Zimmer am prestigiosen Strandvagen mit Stadtblick.", "it": "Camera dal design individuale sul prestigioso Strandvagen con vista citta.", "nl": "Individueel ontworpen kamer aan het prestigieuze Strandvagen met stadszicht.", "pt": "Quarto com design individual no prestigioso Strandvagen com vistas para a cidade.", "ru": "Индивидуально оформленный номер на престижном Страндвэген с видом на город.", "zh": "位于尊贵Strandvagen大道的独特设计客房，高级设施和城市景观。", "ar": "غرفة مصممة بشكل فردي في ستراندفاغن المرموق مع اطلالات على المدينة." }
+        },
+        "superior_room": {
+          "name": { "en": "Superior Room", "es": "Habitacion Superior", "fr": "Chambre Superieure", "de": "Superior Zimmer", "it": "Camera Superior", "nl": "Superior Kamer", "pt": "Quarto Superior", "ru": "Улучшенный номер", "zh": "高级客房", "ar": "غرفة سوبيريور" },
+          "desc": { "en": "Spacious superior room with harbour views and access to the acclaimed Lydmar restaurant and bar.", "es": "Habitacion superior espaciosa con vistas al puerto y acceso al aclamado restaurante Lydmar.", "fr": "Chambre superieure spacieuse avec vue port et acces au restaurant Lydmar.", "de": "Geraumiges Superior-Zimmer mit Hafenblick und Zugang zum gefeierten Lydmar Restaurant.", "it": "Camera superior spaziosa con vista porto e accesso al rinomato ristorante Lydmar.", "nl": "Ruime superior kamer met havenzicht en toegang tot het gelauwerde Lydmar restaurant.", "pt": "Quarto superior espacoso com vista porto e acesso ao aclamado restaurante Lydmar.", "ru": "Просторный улучшенный номер с видом на гавань и доступом к известному ресторану Lydmar.", "zh": "宽敞高级客房，港口景观，可享用备受好评的Lydmar餐厅和酒吧。", "ar": "غرفة سوبيريور فسيحة مع اطلالات على الميناء والوصول الى مطعم ليدمار الشهير." }
+        }
+      }
+    }
+  }
+}
