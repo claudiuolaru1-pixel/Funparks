@@ -63,6 +63,7 @@ flutter:
     - assets/data/parks/tivoli/
     - assets/data/parks/siampark/
     - assets/data/parks/toverland/
+    - assets/data/parks/walibibelgium/
     - assets/i18n/
     - assets/maps/
     - assets/images/

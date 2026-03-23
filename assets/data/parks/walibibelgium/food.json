@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "food_dalton_burger",
+    "name": "Dalton Burger",
+    "type": "Burger Restaurant",
+    "image": "assets/images/walibi_belgium/food_dalton_burger.png",
+    "lat": 50.6985,
+    "lng": 4.5890,
+    "rating": 4.1,
+    "description": "The park's most popular burger restaurant located in the heart of the Western-themed area near Dalton Terror, serving generous Belgian-style burgers, chicken sandwiches, fries and soft drinks. Dalton Burger is a Walibi Belgium institution — the go-to lunch stop for families wanting a hearty, satisfying meal between rides. The Western saloon atmosphere and outdoor terrace make it one of the most atmospheric dining spots in the park.",
+    "topPick": true,
+    "items": [
+      { "name": "Classic Burger", "description": "Beef burger with lettuce, tomato and fries", "price": 14.0 },
+      { "name": "Chicken Burger", "description": "Crispy chicken fillet burger with fries", "price": 13.5 },
+      { "name": "Kids Meal", "description": "Small burger or nuggets with fries and drink", "price": 10.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 4.0 }
+    ]
+  },
+  {
+    "id": "food_delhicious",
+    "name": "Delhicious",
+    "type": "Indian Street Food",
+    "image": "assets/images/walibi_belgium/food_delhicious.png",
+    "lat": 50.6988,
+    "lng": 4.5878,
+    "rating": 4.3,
+    "description": "One of the most unique and popular dining options at Walibi Belgium — Delhicious brings authentic Indian street food flavours to the park with fragrant curries, naan breads, samosas and spiced rice dishes that stand out from the typical theme park burger-and-fries fare. A refreshing and flavourful alternative that draws long queues on busy days, particularly popular with adult visitors seeking something different.",
+    "topPick": true,
+    "items": [
+      { "name": "Chicken Tikka Masala", "description": "Classic Indian curry with basmati rice and naan", "price": 15.0 },
+      { "name": "Vegetable Samosas", "description": "Crispy pastry parcels filled with spiced vegetables", "price": 8.0 },
+      { "name": "Mango Lassi", "description": "Refreshing yoghurt and mango drink", "price": 5.5 },
+      { "name": "Naan Bread", "description": "Freshly baked naan with dipping sauce", "price": 6.0 }
+    ]
+  },
+  {
+    "id": "food_nsoso",
+    "name": "N'Soso",
+    "type": "African Street Food",
+    "image": "assets/images/walibi_belgium/food_nsoso.png",
+    "lat": 50.6971,
+    "lng": 4.5862,
+    "rating": 4.2,
+    "description": "An exciting and distinctive African street food concept that brings the vibrant flavours of West African cuisine to Walibi Belgium — grilled meats, plantain, jollof rice and flavourful stews served in a colourfully themed setting. N'Soso is one of the most culturally interesting dining stops in any Belgian theme park and reflects Walibi's commitment to diverse dining options that go well beyond the usual theme park menu.",
+    "topPick": false,
+    "items": [
+      { "name": "Grilled Chicken", "description": "Marinated grilled chicken with jollof rice and plantain", "price": 15.0 },
+      { "name": "Stew Bowl", "description": "Rich flavourful African stew with rice", "price": 13.0 },
+      { "name": "Plantain", "description": "Fried sweet plantain with dipping sauce", "price": 6.0 },
+      { "name": "African Spiced Drink", "description": "Traditional spiced cold beverage", "price": 4.5 }
+    ]
+  },
+  {
+    "id": "food_pizza_solo",
+    "name": "Pizza Solo",
+    "type": "Pizza Restaurant",
+    "image": "assets/images/walibi_belgium/food_pizza_solo.png",
+    "lat": 50.6998,
+    "lng": 4.5910,
+    "rating": 4.0,
+    "description": "A straightforward and reliable pizza restaurant offering freshly baked individual and sharing pizzas with a range of classic toppings — the perfect solution for families with varying tastes who want a universally popular meal without queuing at multiple food stands. Pizza Solo is centrally located and offers a decent-sized indoor and outdoor seating area making it one of the easier places to find a table on busy days.",
+    "topPick": false,
+    "items": [
+      { "name": "Margherita Pizza", "description": "Classic tomato and mozzarella pizza", "price": 12.0 },
+      { "name": "Pepperoni Pizza", "description": "Tomato, mozzarella and pepperoni", "price": 14.0 },
+      { "name": "Vegetarian Pizza", "description": "Tomato, mozzarella and roasted vegetables", "price": 13.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 4.0 }
+    ]
+  }
+]

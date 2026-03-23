@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_novotel_wavre",
+    "name": "Novotel Wavre Brussels East",
+    "description": "The most prestigious and convenient partner hotel for Walibi Belgium — Novotel Wavre Brussels East is an 11-minute walk from the park entrance and officially featured on Walibi's own accommodation page. This 4-star hotel offers 102 modern and spacious rooms with premium bedding and blackout curtains, a restaurant and bar, outdoor seasonal swimming pool, fitness centre, and 6 meeting rooms. With 200kW EV charging stations, free parking and a warm, family-friendly welcome from the team, Novotel Wavre is the finest overnight option for visitors combining a Walibi day with Belgian comfort. Guests consistently rate it 8.3 out of 10.",
+    "image": "assets/images/walibi_belgium/hotel_novotel_wavre.png",
+    "lat": 50.7001,
+    "lng": 4.5872,
+    "rating": 4.2,
+    "topPick": true,
+    "website": "https://all.accor.com/hotel/B2N6/index.en.shtml",
+    "rooms": [
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Modern superior room with king or twin beds, premium bedding, sofa bed option, laptop workspace and all Novotel amenities.",
+        "pricePerNight": 129.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room with communicating door option, large TV and all amenities. Ideal for families visiting Walibi Belgium.",
+        "pricePerNight": 159.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_ibis_wavre",
+    "name": "ibis Wavre Brussels East",
+    "description": "A smart, budget-friendly hotel officially featured on Walibi Belgium's accommodation page — entirely renovated since 2017, ibis Wavre is located just 2 kilometres from Walibi directly off the E411 motorway, making it one of the most accessible and affordable overnight options near the park. With clean, modern rooms, a 24-hour bar serving snacks, free parking and a location close to a Carrefour supermarket, ibis Wavre is the ideal practical choice for families wanting to maximise their park budget without sacrificing comfort.",
+    "image": "assets/images/walibi_belgium/hotel_ibis_wavre.png",
+    "lat": 50.7018,
+    "lng": 4.5834,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://all.accor.com/hotel/9958/index.en.shtml",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable modern ibis room with double or twin beds, free WiFi and private bathroom. Clean and practical.",
+        "pricePerNight": 79.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Larger room with additional beds for children, ideal for families visiting Walibi Belgium on a budget.",
+        "pricePerNight": 109.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_ferme_de_lhoste",
+    "name": "B&B La Ferme de l'Hoste",
+    "description": "A charming and peaceful bed and breakfast officially featured on Walibi Belgium's accommodation page — La Ferme de l'Hoste is less than 4 kilometres from Walibi by car or train from Basse-Wavre station, set in a tranquil green countryside setting overlooking farm fields. After a long and exciting day at Walibi, guests can relax in the calm and welcoming atmosphere of this authentic Belgian farmhouse B&B, with comfortable rooms, local breakfast and the kind of personal hospitality that no chain hotel can provide. A wonderful contrast to the park's excitement.",
+    "image": "assets/images/walibi_belgium/hotel_ferme_de_lhoste.png",
+    "lat": 50.6891,
+    "lng": 4.5721,
+    "rating": 4.4,
+    "topPick": true,
+    "website": "https://www.walibi.be/en/plan-your-visit/accommodation",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable farmhouse double room with garden views and local Belgian breakfast included.",
+        "pricePerNight": 95.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_apartment",
+        "name": "Family Apartment",
+        "description": "Spacious three-bedroom house suitable for families, with private garden and full kitchen facilities.",
+        "pricePerNight": 180.0,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

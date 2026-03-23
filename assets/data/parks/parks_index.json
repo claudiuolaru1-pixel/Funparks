@@ -233,5 +233,22 @@
     "entryPrices": { "adult": 35, "child": 25 },
     "currency": "EUR",
     "queueTimesId": 31
+  },
+  {
+    "id": "walibibelgium",
+    "name": "Walibi Belgium",
+    "city": "Wavre",
+    "country": "Belgium",
+    "type": "Theme Park",
+    "lat": 50.6983,
+    "lng": 4.5912,
+    "thumbnail": "assets/images/walibi_belgium/park_thumbnail.png",
+    "website": "https://www.walibi.be/en",
+    "ticketsUrl": "https://www.walibi.be/en/tickets",
+    "detailAsset": "",
+    "openingHours": "10:00 - 18:00",
+    "entryPrices": { "adult": 56, "child": 46 },
+    "currency": "EUR",
+    "queueTimesId": 11
   }
 ]

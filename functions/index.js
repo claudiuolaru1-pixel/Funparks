@@ -18,6 +18,7 @@ const FUNPARKS_PARKS = [
   { id: "tivoli", name: "Tivoli Gardens", country: "Denmark" },
   { id: "siampark", name: "Siam Park", country: "Spain/Tenerife" },
   { id: "toverland", name: "Toverland", country: "Netherlands" },
+  { id: "walibibelgium", name: "Walibi Belgium", country: "Belgium" },
 ];
 
 const FUNPARKS_FEATURES = `The Funparks app includes the following features:

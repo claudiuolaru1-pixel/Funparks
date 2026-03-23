@@ -1,0 +1,394 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Walibi Belgium is the largest and most thrilling amusement park in Belgium — a 64-hectare powerhouse of adrenaline, family fun and Belgian heritage located in Wavre, just 30 minutes south of Brussels by train. Founded in 1975 by entrepreneur Eddy Meeùs, Walibi has grown from a modest riverside park into one of the most exciting and continuously evolving theme parks in the Benelux region, celebrating its 50th anniversary in 2025 with the spectacular opening of the Dock World themed area. The park is home to Kondaa — a world-class Intamin Mega Coaster featuring the planet's only non-inverting cobra roll — and Pulsar, winner of the Best New Attraction in the World award, which catapults riders from a 45-metre tower at 100 km/h. Loup-Garou, the legendary wooden coaster, has been rattling Belgian bones since 1998, while Dalton Terror, one of Europe's tallest drop towers at 77 metres, continues to terrify even the bravest visitors. Walibi Belgium is open from spring through autumn with spectacular seasonal events including the world-famous Ibilaw Halloween festival, one of the most visited Halloween events in all of Europe. Adjacent to the park, Aqualibi indoor water park offers year-round tropical water fun, and a direct train from Brussels to Bierges-Walibi station makes the park one of the most accessible major theme parks on the continent.",
+      "es": "Walibi Belgica es el parque de atracciones mas grande y emocionante de Belgica — una potencia de 64 hectareas de adrenalina, diversion familiar y patrimonio belga ubicada en Wavre, a solo 30 minutos al sur de Bruselas en tren. Fundada en 1975 por el empresario Eddy Meeus, Walibi ha crecido hasta convertirse en uno de los parques tematicos mas emocionantes del Benelux, celebrando su 50 aniversario en 2025 con la apertura del area tematica Dock World. El parque alberga Kondaa con la unica cobra roll no invertida del planeta y Pulsar ganador del premio a la Mejor Nueva Atraccion del Mundo. El legendario Loup-Garou de madera lleva emocionando desde 1998 y el Dalton Terror de 77 metros sigue aterrorizando a los visitantes.",
+      "fr": "Walibi Belgique est le plus grand et le plus palpitant parc d'attractions de Belgique — une puissance de 64 hectares d'adrenaline, de fun familial et de patrimoine belge situee a Wavre, a seulement 30 minutes au sud de Bruxelles en train. Fondee en 1975 par l'entrepreneur Eddy Meeus, Walibi est devenue l'un des parcs a themes les plus passionnants du Benelux, celebrant son 50e anniversaire en 2025 avec l'ouverture spectaculaire de la zone Dock World. Le parc abrite Kondaa avec le seul cobra roll non inversant de la planete et Pulsar laureat du prix de la Meilleure Nouvelle Attraction du Monde. Le legendaire Loup-Garou en bois fait frissonner depuis 1998 et la Dalton Terror de 77 metres continue de terroriser les visiteurs les plus courageux.",
+      "de": "Walibi Belgien ist der grosste und aufregendste Freizeitpark Belgiens — ein 64-Hektar-Kraftpaket aus Adrenalin Familienspass und belgischem Erbe in Wavre nur 30 Minuten sudlich von Brussel mit dem Zug. Gegrundet 1975 von Unternehmer Eddy Meeus ist Walibi zu einem der spannendsten Freizeitparks im Benelux gewachsen und feierte 2025 sein 50-jahriges Jubilaum mit der spektakularen Eroffnung des Dock World Themenbereichs. Der Park beheimatet Kondaa mit dem einzigen nicht-invertierenden Cobra Roll der Welt und Pulsar Gewinner des Preises fur die Beste Neue Attraktion der Welt. Der legendare Holzcoaster Loup-Garou erschuttert seit 1998 belgische Knochen und der 77 Meter hohe Dalton Terror terrorisiert weiterhin selbst die mutigsten Besucher.",
+      "it": "Walibi Belgio e il piu grande e avvincente parco divertimenti del Belgio — una potenza di 64 ettari di adrenalina divertimento familiare e patrimonio belga situata a Wavre a soli 30 minuti a sud di Bruxelles in treno. Fondata nel 1975 dall'imprenditore Eddy Meeus Walibi e cresciuta fino a diventare uno dei parchi a tema piu entusiasmanti del Benelux celebrando il suo 50° anniversario nel 2025 con la spettacolare apertura dell'area Dock World. Il parco ospita Kondaa con l'unico cobra roll non invertente del pianeta e Pulsar vincitore del premio come Migliore Nuova Attrazione del Mondo.",
+      "nl": "Walibi Belgie is het grootste en meest opwindende pretpark van Belgie — een 64-hectare krachtpatser van adrenaline familieplezier en Belgisch erfgoed gelegen in Waver op slechts 30 minuten ten zuiden van Brussel per trein. Opgericht in 1975 door ondernemer Eddy Meeus is Walibi uitgegroeid tot een van de meest opwindende pretparken in de Benelux en vierde in 2025 zijn 50-jarig jubileum met de spectaculaire opening van het Dock World themagebied. Het park herbergt Kondaa met de enige niet-inverterende cobra roll ter wereld en Pulsar winnaar van de prijs voor de Beste Nieuwe Attractie ter Wereld. De legendarische houten achtbaan Loup-Garou schudt Belgische botten al sinds 1998 en de 77 meter hoge Dalton Terror blijft zelfs de dapperste bezoekers terroriseren.",
+      "pt": "Walibi Belgica e o maior e mais emocionante parque de diversoes da Belgica — uma potencia de 64 hectares de adrenalina diversao familiar e patrimonio belga localizada em Wavre a apenas 30 minutos a sul de Bruxelas de comboio. Fundada em 1975 pelo empresario Eddy Meeus a Walibi cresceu ate se tornar um dos parques tematicos mais emocionantes do Benelux celebrando o seu 50 aniversario em 2025 com a espetacular abertura da area Dock World. O parque alberga Kondaa com a unica cobra roll nao inversora do planeta e Pulsar vencedor do premio de Melhor Nova Atracao do Mundo.",
+      "ru": "Walibi Бельгия — крупнейший и самый захватывающий парк развлечений Бельгии — 64-гектарный центр адреналина, семейного веселья и бельгийского наследия в Вавре, всего в 30 минутах к югу от Брюсселя на поезде. Основанный в 1975 году предпринимателем Эдди Меусом, Walibi вырос в один из самых захватывающих тематических парков Бенилюкса, отметив своё 50-летие в 2025 году с открытием тематической зоны Dock World. Парк является домом для Kondaa с единственным в мире не-инвертирующим кобра-роллом и Pulsar — победителя премии «Лучший новый аттракцион мира».",
+      "zh": "瓦利比比利时是比利时最大、最刺激的游乐园——一个64公顷的肾上腺素、家庭乐趣和比利时遗产的力量，位于瓦夫尔，距布鲁塞尔以南仅30分钟火车程。1975年由企业家Eddy Meeùs创立，瓦利比已成长为比荷卢地区最令人兴奋和不断发展的主题乐园之一，2025年以壮观的Dock World主题区开放庆祝50周年。公园拥有Kondaa——世界上唯一配备非翻转眼镜蛇滚动的Intamin超级过山车——以及获得世界最佳新景点奖的Pulsar。",
+      "ar": "وalibi بلجيكا هو اكبر واكثر متنزهات الترفيه اثارة في بلجيكا — قوة 64 هكتار من الادرينالين والمرح العائلي والتراث البلجيكي في وافر على بعد 30 دقيقة فقط جنوب بروكسل بالقطار. تاسست عام 1975 من قبل رجل الاعمال ايدي مييوس ونمت لتصبح واحدة من اكثر متنزهات الترفيه الموضوعية اثارة في بنيلوكس احتفلت بذكراها الخمسين عام 2025 مع افتتاح منطقة Dock World الرائعة. يضم المتنزه Kondaa مع لفة الكوبرا غير المعكوسة الوحيدة على الكوكب وبولسار الفائز بجائزة افضل اثارة جديدة في العالم."
+    },
+    "ov_highlights_body": {
+      "en": "Kondaa is in a league of its own — the world's only coaster with a non-inverting cobra roll, 15 airtime moments and 113 km/h of pure Intamin intensity. Pulsar is the award-winning PowerSplash that combines roller coaster speed with a 100 km/h water plunge — the most unique ride experience in Belgium. Loup-Garou is the classic wooden coaster that has defined Walibi for a generation. Dalton Terror's 77-metre drop is one of Europe's most terrifying freefall experiences. The brand new Mecalodon in Dock World is the longest family coaster in the Benelux at 925 metres. Tiki Waka is consistently voted one of the best family coasters in Belgium. The Halloween Ibilaw festival transforms the park every October into one of Europe's most spectacular scare events.",
+      "es": "Kondaa es en una liga propia — el unico coaster del mundo con una cobra roll no invertida 15 momentos de airtime y 113 km/h de intensidad Intamin. Pulsar es el PowerSplash premiado que combina velocidad de coaster con una zambullida de agua a 100 km/h. Loup-Garou es el clasico coaster de madera que ha definido Walibi durante una generacion. El Dalton Terror de 77 metros es una de las experiencias de caida libre mas terrorificas de Europa. El nuevo Mecalodon en Dock World es el coaster familiar mas largo del Benelux con 925 metros.",
+      "fr": "Kondaa est dans une categorie a part — le seul coaster au monde avec un cobra roll non inversant 15 moments d'airtime et 113 km/h d'intensite Intamin. Pulsar est le PowerSplash primee qui combine la vitesse d'un coaster avec une plongee aquatique a 100 km/h. Loup-Garou est le classique coaster en bois qui a defini Walibi pendant une generation. La Dalton Terror de 77 metres est l'une des experiences de chute libre les plus terrifiantes d'Europe. Le nouveau Mecalodon dans Dock World est le coaster familial le plus long du Benelux avec 925 metres.",
+      "de": "Kondaa ist in einer eigenen Liga — der einzige Coaster der Welt mit einem nicht-invertierenden Cobra Roll 15 Airtime-Momente und 113 km/h Intamin-Intensitat. Pulsar ist der preisgekronte PowerSplash der Coaster-Geschwindigkeit mit einem 100 km/h Wasserplunge kombiniert. Loup-Garou ist der klassische Holzcoaster der Walibi eine Generation lang definiert hat. Der 77 Meter hohe Dalton Terror ist eines der terrorisierendsten Freifallerlebnisse Europas. Das neue Mecalodon in Dock World ist der langste Familiencoaster im Benelux mit 925 Metern.",
+      "it": "Kondaa e in una categoria a parte — l'unico coaster al mondo con un cobra roll non invertente 15 momenti di airtime e 113 km/h di intensita Intamin. Pulsar e il PowerSplash premiato che combina velocita da coaster con un tuffo d'acqua a 100 km/h. Loup-Garou e il classico coaster in legno che ha definito Walibi per una generazione. La Dalton Terror di 77 metri e una delle esperienze di caduta libera piu terrificanti d'Europa. Il nuovo Mecalodon in Dock World e il coaster familiare piu lungo del Benelux con 925 metri.",
+      "nl": "Kondaa staat in een eigen klasse — de enige achtbaan ter wereld met een niet-inverterende cobra roll 15 airtime-momenten en 113 km/h Intamin-intensiteit. Pulsar is de bekroonde PowerSplash die achtbaansnelheid combineert met een 100 km/h waterplons. Loup-Garou is de klassieke houten achtbaan die Walibi een generatie lang heeft gedefinieerd. De 77 meter hoge Dalton Terror is een van de meest terroriserende vrije val-ervaringen van Europa. Het nieuwe Mecalodon in Dock World is de langste familieachtbaan in de Benelux met 925 meter.",
+      "pt": "Kondaa esta numa liga propria — o unico coaster do mundo com uma cobra roll nao inversora 15 momentos de airtime e 113 km/h de intensidade Intamin. Pulsar e o PowerSplash premiado que combina velocidade de coaster com um mergulho aquatico a 100 km/h. Loup-Garou e o classico coaster de madeira que definiu a Walibi durante uma geracao. O Dalton Terror de 77 metros e uma das experiencias de queda livre mais aterrorizantes da Europa.",
+      "ru": "Kondaa стоит особняком — единственный в мире американский горки с не-инвертирующим кобра-роллом, 15 моментами невесомости и 113 км/ч интенсивности Intamin. Pulsar — отмеченный наградами PowerSplash, сочетающий скорость горок с погружением в воду на 100 км/ч. Loup-Garou — классические деревянные горки, определявшие Walibi целое поколение. 77-метровый Dalton Terror — один из самых пугающих опытов свободного падения в Европе.",
+      "zh": "Kondaa独树一帜——世界上唯一配备非翻转眼镜蛇滚动的过山车，15个失重时刻和113公里每小时的纯Intamin强度。Pulsar是获奖的PowerSplash，将过山车速度与100公里每小时的水上俯冲结合在一起。狼人是经典的木质过山车，定义了瓦利比一代人。77米高的Dalton Terror是欧洲最恐怖的自由落体体验之一。Dock World的全新Mecalodon是比荷卢地区最长的家庭过山车，全长925米。",
+      "ar": "Kondaa في فئة خاصة به — النشوة الوحيدة في العالم مع لفة كوبرا غير معكوسة و15 لحظة هواء و113 كم/ساعة من كثافة Intamin. بولسار هو PowerSplash الحائز على الجوائز الذي يجمع سرعة الاوتوستراد مع غطسة مائية بسرعة 100 كم/ساعة. لو-غارو هو الاوتوستراد الخشبي الكلاسيكي الذي عرف واليبي لجيل. برج Dalton Terror البالغ ارتفاعه 77 مترا هو واحد من اكثر تجارب السقوط الحر رعبا في اوروبا."
+    },
+    "ov_did_you_know_body": {
+      "en": "Walibi Belgium's name comes from the three villages that were partially flooded to create the park's lakes — WAvre, LIxhe and BIerges — making it one of the most uniquely named parks in the world. The park opened on 26 July 1975 and welcomed its 50 millionth visitor sometime in the mid-2010s. In 2025, Walibi celebrated its 50th anniversary with the opening of Dock World, including Mecalodon — the longest family coaster in the Benelux at 925 metres. Kondaa, which opened in 2021, features the world's first and only non-inverting cobra roll — an element specifically designed by Intamin for Walibi Belgium and found nowhere else on earth. Pulsar won the Best New Attraction in the World award from the International Association of Amusement Parks and Attractions when it opened in 2017. The Ibilaw Halloween event, held every October, is consistently ranked among the top 5 Halloween events in all of Europe. A direct train runs from Brussels to Bierges-Walibi station, making Walibi one of the most public-transport-accessible major theme parks in Europe.",
+      "es": "El nombre de Walibi Belgica proviene de los tres pueblos que fueron parcialmente inundados para crear los lagos del parque — WAvre, LIxhe y BIerges. El parque abrio el 26 de julio de 1975. En 2025 Walibi celebro su 50 aniversario con la apertura de Dock World con Mecalodon el coaster familiar mas largo del Benelux con 925 metros. Kondaa inaugurado en 2021 presenta la primera y unica cobra roll no invertida del mundo. Pulsar gano el premio a la Mejor Nueva Atraccion del Mundo en 2017. El evento Halloween Ibilaw se clasifica constantemente entre los 5 mejores de Europa.",
+      "fr": "Le nom de Walibi Belgique vient des trois villages partiellement inondes pour creer les lacs du parc — WAvre LIxhe et BIerges. Le parc a ouvert le 26 juillet 1975. En 2025 Walibi a celebre son 50e anniversaire avec l'ouverture de Dock World avec Mecalodon le plus long coaster familial du Benelux avec 925 metres. Kondaa ouvert en 2021 comporte le premier et unique cobra roll non inversant du monde. Pulsar a remporte le prix de la Meilleure Nouvelle Attraction du Monde en 2017. L'evenement Halloween Ibilaw se classe regulierement dans le top 5 europeen.",
+      "de": "Der Name Walibi Belgien kommt von den drei Dorfern die teilweise uberflutet wurden um die Parkteiche zu schaffen — WAvre LIxhe und BIerges. Der Park offnete am 26. Juli 1975. 2025 feierte Walibi sein 50-jahriges Jubilaum mit der Eroffnung von Dock World mit Mecalodon dem langsten Familien-Coaster im Benelux mit 925 Metern. Kondaa 2021 eroffnet enthalt den ersten und einzigen nicht-invertierenden Cobra Roll der Welt. Pulsar gewann 2017 den Preis fur die Beste Neue Attraktion der Welt. Das Halloween Ibilaw-Event wird regelmassig unter den Top 5 Europas gelistet.",
+      "it": "Il nome Walibi Belgio deriva dai tre villaggi parzialmente allagati per creare i laghi del parco — WAvre LIxhe e BIerges. Il parco aprì il 26 luglio 1975. Nel 2025 Walibi celebrò il suo 50° anniversario con l'apertura di Dock World con Mecalodon il coaster familiare piu lungo del Benelux con 925 metri. Kondaa aperto nel 2021 presenta il primo e unico cobra roll non invertente al mondo. Pulsar vinse il premio Miglior Nuova Attrazione del Mondo nel 2017. L'evento Halloween Ibilaw si classifica regolarmente tra i top 5 europei.",
+      "nl": "De naam Walibi Belgie komt van de drie dorpen die gedeeltelijk werden overspoeld om de parkmeren te creeren — WAvre LIxhe en BIerges. Het park opende op 26 juli 1975. In 2025 vierde Walibi zijn 50-jarig jubileum met de opening van Dock World met Mecalodon de langste familieachtbaan in de Benelux met 925 meter. Kondaa geopend in 2021 heeft de eerste en enige niet-inverterende cobra roll ter wereld. Pulsar won in 2017 de prijs voor de Beste Nieuwe Attractie ter Wereld. Het Halloween Ibilaw-evenement wordt regelmatig in de Europese top 5 gerangschikt.",
+      "pt": "O nome Walibi Belgica vem das tres aldeias parcialmente inundadas para criar os lagos do parque — WAvre LIxhe e BIerges. O parque abriu a 26 de julho de 1975. Em 2025 a Walibi celebrou o seu 50 aniversario com a abertura do Dock World com Mecalodon o coaster familiar mais longo do Benelux com 925 metros. Kondaa inaugurado em 2021 apresenta a primeira e unica cobra roll nao inversora do mundo. Pulsar ganhou o premio de Melhor Nova Atracao do Mundo em 2017. O evento Halloween Ibilaw classifica-se regularmente no top 5 europeu.",
+      "ru": "Название Walibi Бельгия происходит от трёх деревень, частично затопленных при создании парковых озёр — WAvre, LIxhe и BIerges. Парк открылся 26 июля 1975 года. В 2025 году Walibi отпраздновал своё 50-летие открытием Dock World с Mecalodon — самыми длинными семейными горками Бенилюкса в 925 метров. Kondaa, открытый в 2021 году, имеет первый и единственный в мире не-инвертирующий кобра-ролл. Pulsar в 2017 году выиграл премию «Лучший новый аттракцион мира». Хэллоуинское событие Ibilaw неизменно входит в топ-5 европейских.",
+      "zh": "瓦利比比利时的名字来自三个部分被淹没以建造公园湖泊的村庄——WAvre、LIxhe和BIerges——使其成为世界上名字最独特的公园之一。公园于1975年7月26日开放。2025年，瓦利比以开放Dock World庆祝50周年，包括Mecalodon——比荷卢地区最长的家庭过山车，全长925米。2021年开放的Kondaa拥有世界首个也是唯一一个非翻转眼镜蛇滚动。Pulsar在2017年赢得世界最佳新景点奖。",
+      "ar": "يأتي اسم Walibi بلجيكا من ثلاث قرى غُمرت جزئياً لإنشاء بحيرات المتنزه — WAvre وLIxhe وBIerges. افتتح المتنزه في 26 يوليو 1975. عام 2025 احتفل Walibi بذكراه الخمسين بافتتاح Dock World مع Mecalodon اطول نشوة عائلية في بنيلوكس بطول 925 مترا. Kondaa المفتوحة عام 2021 تحتوي على اول وحيد لفة كوبرا غير معكوسة في العالم. فاز Pulsar بجائزة افضل اثارة جديدة في العالم عام 2017."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and go straight to Kondaa — it is by far the most popular ride and queues build to over an hour within 30 minutes of opening. The single rider queue at Kondaa can save significant time. Then tackle Pulsar and Loup-Garou in the morning. Dalton Terror queues are manageable throughout the day. The brand new Mecalodon in Dock World is best visited at lunchtime when other guests are eating. Delhicious and N'Soso offer excellent lunch alternatives to standard theme park food. A direct train from Brussels to Bierges-Walibi station makes day trips from the capital very easy — no car needed. The Speedy Fast Pass is good value at 45 euros and covers most major rides. Buy tickets online in advance for significant savings versus door price.",
+      "es": "Llega a la apertura y ve directamente a Kondaa — tiene las colas mas largas que se forman en 30 minutos. La cola de rider individual en Kondaa puede ahorrar mucho tiempo. Luego Pulsar y Loup-Garou por la manana. El nuevo Mecalodon en Dock World es mejor visitarlo a la hora del almuerzo. El Speedy Fast Pass tiene buen valor a 45 euros. Compra entradas online para ahorrar significativamente.",
+      "fr": "Arrivez a l'ouverture et allez directement a Kondaa — c'est de loin le manege le plus populaire et les queues atteignent plus d'une heure en 30 minutes. La file rider individuel de Kondaa peut faire gagner beaucoup de temps. Ensuite Pulsar et Loup-Garou le matin. Le nouveau Mecalodon dans Dock World est mieux visite a l'heure du dejeuner. Le Speedy Fast Pass est un bon rapport qualite-prix a 45 euros. Achetez les billets en ligne pour des economies significatives.",
+      "de": "Kommen Sie zur Offnung und gehen Sie direkt zu Kondaa — es ist bei weitem die beliebteste Attraktion und Warteschlangen bilden sich innerhalb von 30 Minuten uber eine Stunde. Die Einzelfahrer-Warteschlange bei Kondaa kann erheblich Zeit sparen. Dann Pulsar und Loup-Garou am Morgen. Das neue Mecalodon in Dock World wird am besten zur Mittagszeit besucht. Der Speedy Fast Pass ist mit 45 Euro gut investiert.",
+      "it": "Arriva all'apertura e vai direttamente a Kondaa — e di gran lunga il piu popolare e le code si formano in 30 minuti. La fila single rider a Kondaa puo far risparmiare molto tempo. Poi Pulsar e Loup-Garou la mattina. Il nuovo Mecalodon in Dock World e meglio visitarlo all'ora di pranzo. Il Speedy Fast Pass ha un buon rapporto qualita-prezzo a 45 euro.",
+      "nl": "Kom bij de opening en ga direct naar Kondaa — het is verreweg de populairste attractie en wachtrijen van meer dan een uur ontstaan binnen 30 minuten. De single rider rij bij Kondaa kan aanzienlijk tijd besparen. Dan Pulsar en Loup-Garou in de ochtend. Het nieuwe Mecalodon in Dock World wordt het beste bezocht tijdens de lunch. De Speedy Fast Pass is een goede investering voor 45 euro.",
+      "pt": "Chega na abertura e vai diretamente ao Kondaa — e de longe o mais popular e as filas formam-se em 30 minutos. A fila de rider individual no Kondaa pode poupar muito tempo. Depois Pulsar e Loup-Garou de manha. O novo Mecalodon no Dock World e melhor visitado na hora do almoco. O Speedy Fast Pass tem bom valor a 45 euros.",
+      "ru": "Приходите к открытию и сразу идите к Kondaa — это самый популярный аттракцион, и очереди превышают час в течение 30 минут. Очередь одиночных гостей у Kondaa может сэкономить значительное время. Затем Pulsar и Loup-Garou утром. Новый Mecalodon в Dock World лучше всего посещать в обеденное время. Speedy Fast Pass стоит 45 евро и является хорошей инвестицией.",
+      "zh": "在开门时到达，直奔Kondaa——它是迄今为止最受欢迎的项目，开园30分钟内队伍超过一小时。Kondaa的单人骑行队伍可以节省大量时间。然后上午体验Pulsar和狼人。Dock World的全新Mecalodon最好在午餐时间参观。Delhicious和N'Soso提供标准主题公园食品的绝佳午餐替代选择。从布鲁塞尔到Bierges-Walibi站的直通火车使当天往返非常方便。",
+      "ar": "وصل عند الفتح وتوجه مباشرة الى Kondaa — انه الاكثر شعبية بكثير وتتشكل طوابير تزيد عن ساعة في غضون 30 دقيقة. طابور الراكب المفرد في Kondaa يمكن ان يوفر وقتا كبيرا. ثم Pulsar ولو-غارو في الصباح. Mecalodon الجديد في Dock World يفضل زيارته وقت الغداء. Speedy Fast Pass بقيمة 45 يورو يستحق الاستثمار."
+    },
+    "ov_photos_body": {
+      "en": "The iconic view of Kondaa's non-inverting cobra roll element is one of the most photographed roller coaster moments in Europe — the park has dedicated photography viewing areas nearby. Pulsar's 45-metre tower with riders at the peak before the plunge creates dramatic silhouette shots against the Belgian sky. Loup-Garou's wooden structure photographed from below during the first drop delivers classic wooden coaster imagery. The new Dock World area with its industrial port cranes, containers and maritime theming is visually striking and highly photographable. The Ibilaw Halloween decorations transform the entire park into an atmosphere of extraordinary darkness and spectacle — October evenings create magical photography opportunities.",
+      "es": "La vista iconica del elemento cobra roll no invertida de Kondaa es uno de los momentos de coaster mas fotografiados de Europa. La torre de 45 metros de Pulsar con los riders en la cima antes del descenso crea dramaticas siluetas. La estructura de madera de Loup-Garou fotografiada desde abajo durante la primera caida ofrece imagenes clasicas. La nueva area Dock World con sus grus industriales y ambientacion maritima es visualmente impresionante.",
+      "fr": "La vue iconique de l'element cobra roll non inversant de Kondaa est l'un des moments de coaster les plus photographies d'Europe. La tour de 45 metres de Pulsar avec les riders au sommet avant la plongee cree des silhouettes dramatiques. La structure en bois de Loup-Garou photographiee depuis le bas pendant la premiere chute offre des images classiques. Le nouveau Dock World avec ses grues industrielles est visuellement saisissant.",
+      "de": "Die ikonische Ansicht von Kondaas nicht-invertierendem Cobra Roll ist einer der meistfotografierten Coaster-Momente Europas. Pulsars 45-Meter-Turm mit Fahrern an der Spitze vor dem Sturzflug schafft dramatische Silhouetten. Loup-Garouos Holzstruktur von unten fotografiert wahrend des ersten Sturzes liefert klassische Holzcoaster-Bilder. Das neue Dock World mit seinen Industriekranen ist visuell beeindruckend.",
+      "it": "La vista iconica dell'elemento cobra roll non invertente di Kondaa e uno dei momenti di coaster piu fotografati d'Europa. La torre di 45 metri di Pulsar con i rider in cima prima del tuffo crea silhouette drammatiche. La struttura in legno di Loup-Garou fotografata dal basso durante la prima discesa offre immagini classiche. Il nuovo Dock World con le sue gru industriali e visivamente sorprendente.",
+      "nl": "De iconische blik op Kondaa's niet-inverterende cobra roll is een van de meest gefotografeerde achtbaanmomenten van Europa. De 45 meter hoge toren van Pulsar met rijders op de top voor de plons creert dramatische silhouetten. Loup-Garou's houten structuur van onderaf gefotografeerd tijdens de eerste daling levert klassieke beelden op. Het nieuwe Dock World met zijn industriele kranen is visueel indrukwekkend.",
+      "pt": "A vista iconica do elemento cobra roll nao inversor de Kondaa e um dos momentos de coaster mais fotografados da Europa. A torre de 45 metros de Pulsar com os riders no topo antes do mergulho cria silhuetas dramaticas. A estrutura de madeira do Loup-Garou fotografada de baixo durante a primeira queda oferece imagens classicas.",
+      "ru": "Культовый вид элемента Kondaa с не-инвертирующим кобра-роллом — один из самых фотографируемых моментов горок в Европе. 45-метровая башня Pulsar с гостями на вершине перед падением создаёт драматические силуэты. Деревянная конструкция Loup-Garou, сфотографированная снизу во время первого падения, даёт классические снимки.",
+      "zh": "Kondaa非翻转眼镜蛇滚动元素的标志性景观是欧洲最受拍摄的过山车时刻之一——公园附近有专门的摄影观景区。Pulsar 45米高塔上乘客在俯冲前的剪影创造出戏剧性画面。从下方拍摄狼人木结构在第一个下坡时的照片呈现经典木质过山车图像。Dock World新区域的工业港口吊车、集装箱和海洋主题在视觉上引人注目。",
+      "ar": "المنظر الايقوني لعنصر لفة الكوبرا غير المعكوسة في Kondaa هو واحد من اكثر لحظات الاوتوستراد تصويرا في اوروبا. برج بولسار البالغ ارتفاعه 45 مترا مع الركاب على القمة قبل الغطسة يخلق ظلالا درامية. هيكل Loup-Garou الخشبي الملتقط من الاسفل اثناء الانحدار الاول يوفر صور اوتوستراد خشبي كلاسيكية."
+    }
+  },
+  "attractions": {
+    "kondaa": {
+      "desc": {
+        "en": "The crown jewel of Walibi Belgium — an Intamin Mega Coaster with the world's only non-inverting cobra roll, 15 airtime moments and 113 km/h. Minimum height: 130cm.",
+        "es": "La joya de la corona de Walibi Belgica — un Intamin Mega Coaster con la unica cobra roll no invertida del mundo 15 momentos de airtime y 113 km/h. Altura minima: 130cm.",
+        "fr": "Le joyau de la couronne de Walibi Belgique — un Intamin Mega Coaster avec le seul cobra roll non inversant au monde 15 moments d'airtime et 113 km/h. Hauteur minimum: 130cm.",
+        "de": "Das Kronjuwel von Walibi Belgien — ein Intamin Mega Coaster mit dem einzigen nicht-invertierenden Cobra Roll der Welt 15 Airtime-Momente und 113 km/h. Mindestgrosse: 130cm.",
+        "it": "Il gioiello della corona di Walibi Belgio — un Intamin Mega Coaster con l'unico cobra roll non invertente al mondo 15 momenti di airtime e 113 km/h. Altezza minima: 130cm.",
+        "nl": "Het kroonjuweel van Walibi Belgie — een Intamin Mega Coaster met de enige niet-inverterende cobra roll ter wereld 15 airtime-momenten en 113 km/h. Minimumgrootte: 130cm.",
+        "pt": "A joia da coroa de Walibi Belgica — um Intamin Mega Coaster com a unica cobra roll nao inversora do mundo 15 momentos de airtime e 113 km/h. Altura minima: 130cm.",
+        "ru": "Жемчужина Walibi Бельгии — Intamin Mega Coaster с единственным в мире не-инвертирующим кобра-роллом, 15 моментами невесомости и 113 км/ч. Минимальный рост: 130см.",
+        "zh": "瓦利比比利时的皇冠明珠——Intamin超级过山车，拥有世界唯一非翻转眼镜蛇滚动，15个失重时刻和113公里每小时。最低身高：130厘米。",
+        "ar": "جوهرة تاج واليبي بلجيكا — Intamin Mega Coaster مع لفة الكوبرا غير المعكوسة الوحيدة في العالم و15 لحظة هواء و113 كم/ساعة. الحد الادنى للطول: 130 سم."
+      }
+    },
+    "pulsar": {
+      "desc": {
+        "en": "Award-winning Mack Rides PowerSplash — a 45m tower drop at 100 km/h combining roller coaster forces with a spectacular water plunge. Winner of Best New Attraction in the World. Min height: 120cm.",
+        "es": "PowerSplash premiado de Mack Rides — caida de torre de 45m a 100 km/h combinando fuerzas de coaster con una espectacular zambullida acuatica. Ganador de la Mejor Nueva Atraccion del Mundo. Altura min: 120cm.",
+        "fr": "PowerSplash primee de Mack Rides — chute de tour de 45m a 100 km/h combinant des forces de coaster avec une plongee aquatique spectaculaire. Gagnant de la Meilleure Nouvelle Attraction du Monde. Hauteur min: 120cm.",
+        "de": "Preisgekronter Mack Rides PowerSplash — Turmsturz von 45m bei 100 km/h kombiniert Coaster-Krafte mit einem spektakularen Wasserplunge. Gewinner der Besten Neuen Attraktion der Welt. Mindestgrosse: 120cm.",
+        "it": "PowerSplash premiato di Mack Rides — caduta torre di 45m a 100 km/h che combina forze da coaster con una spettacolare immersione nell'acqua. Vincitore Migliore Nuova Attrazione del Mondo. Altezza min: 120cm.",
+        "nl": "Bekroonde Mack Rides PowerSplash — 45m torenstort bij 100 km/h combineert achtbaankrachten met een spectaculaire waterplons. Winnaar Beste Nieuwe Attractie ter Wereld. Min grootte: 120cm.",
+        "pt": "PowerSplash premiado da Mack Rides — queda de torre de 45m a 100 km/h combinando forcas de coaster com um espetacular mergulho aquatico. Vencedor da Melhor Nova Atracao do Mundo. Altura min: 120cm.",
+        "ru": "Отмеченный наградами Mack Rides PowerSplash — падение с 45-метровой башни на 100 км/ч, сочетающее силы горок со зрелищным погружением в воду. Победитель премии «Лучший новый аттракцион мира». Мин. рост: 120 см.",
+        "zh": "获奖Mack Rides PowerSplash——45米塔楼以100公里每小时下落，将过山车力与壮观的水上俯冲相结合。荣获世界最佳新景点。最低身高：120厘米。",
+        "ar": "PowerSplash الحائز على الجوائز من Mack Rides — سقوط برج 45 مترا بسرعة 100 كم/ساعة يجمع قوى الاوتوستراد مع غطسة مائية رائعة. فائز بجائزة افضل اثارة جديدة في العالم. الحد الادنى للطول: 120 سم."
+      }
+    },
+    "loup_garou": {
+      "desc": {
+        "en": "The legendary Werewolf — Walibi's iconic wooden coaster delivering thundering speed and classic wooden thrills since 1998. One of the finest wooden coasters in the Benelux. Min height: 120cm.",
+        "es": "El legendario Hombre Lobo — el iconico coaster de madera de Walibi que ofrece velocidad atronadora y emocion clasica de madera desde 1998. Min altura: 120cm.",
+        "fr": "Le legendaire Loup-Garou — le coaster en bois iconique de Walibi offrant une vitesse tonnante et des sensations classiques en bois depuis 1998. Hauteur min: 120cm.",
+        "de": "Der legendare Werwolf — Walibis ikonischer Holzcoaster mit donnernder Geschwindigkeit und klassischen Holzcoaster-Thrills seit 1998. Mindestgrosse: 120cm.",
+        "it": "Il leggendario Lupo Mannaro — il coaster in legno iconico di Walibi con velocita tuonante e classici brividi in legno dal 1998. Altezza min: 120cm.",
+        "nl": "De legendarische Weerwolf — Walibi's iconische houten achtbaan met donderend tempo en klassieke houten thrills sinds 1998. Min grootte: 120cm.",
+        "pt": "O lendario Lobisomem — o iconico coaster de madeira da Walibi com velocidade trovejante e classicos brinquedos de madeira desde 1998. Altura min: 120cm.",
+        "ru": "Легендарный Оборотень — культовые деревянные горки Walibi, обеспечивающие грохочущую скорость и классические деревянные ощущения с 1998 года. Мин. рост: 120 см.",
+        "zh": "传奇狼人——瓦利比标志性的木质过山车，自1998年以来提供雷霆般的速度和经典木质刺激。最低身高：120厘米。",
+        "ar": "المستذئب الاسطوري — اوتوستراد خشبي ايقوني لواليبي يقدم سرعة رعدية وفروسية خشبية كلاسيكية منذ 1998. الحد الادنى للطول: 120 سم."
+      }
+    },
+    "dalton_terror": {
+      "desc": {
+        "en": "One of Europe's most terrifying drop towers — 77 metres of slow ascent and brutal freefall at 106 km/h. Named after the Lucky Luke villains. Min height: 120cm.",
+        "es": "Una de las torres de caida mas aterradoras de Europa — 77 metros de lento ascenso y brutal caida libre a 106 km/h. Altura min: 120cm.",
+        "fr": "L'une des tours de chute les plus terrifiantes d'Europe — 77 metres de montee lente et chute libre brutale a 106 km/h. Hauteur min: 120cm.",
+        "de": "Einer der terrorisierendsten Falltурme Europas — 77 Meter langsamer Aufstieg und brutaler Freifall bei 106 km/h. Mindestgrosse: 120cm.",
+        "it": "Una delle torri di caduta piu terrificanti d'Europa — 77 metri di lenta ascesa e brutale caduta libera a 106 km/h. Altezza min: 120cm.",
+        "nl": "Een van de meest terroriserende valtorens van Europa — 77 meter langzame opstijging en brutale vrije val bij 106 km/h. Min grootte: 120cm.",
+        "pt": "Uma das torres de queda mais aterrorizantes da Europa — 77 metros de subida lenta e brutal queda livre a 106 km/h. Altura min: 120cm.",
+        "ru": "Одна из самых устрашающих башен свободного падения в Европе — 77 метров медленного подъёма и жестокого свободного падения на 106 км/ч. Мин. рост: 120 см.",
+        "zh": "欧洲最恐怖的落塔之一——77米缓慢上升和以106公里每小时的残酷自由落体。最低身高：120厘米。",
+        "ar": "واحدة من ابراج السقوط الاكثر رعبا في اوروبا — 77 مترا من الصعود البطيء والسقوط الحر الوحشي بسرعة 106 كم/ساعة. الحد الادنى للطول: 120 سم."
+      }
+    },
+    "mecalodon": {
+      "desc": {
+        "en": "Brand new for 2025 — the longest family coaster in the Benelux at 925m with triple launches in the spectacular Dock World themed area. Min height: 120cm.",
+        "es": "Nuevo en 2025 — el coaster familiar mas largo del Benelux con 925m y triple lanzamiento en el espectacular area tematica Dock World. Altura min: 120cm.",
+        "fr": "Nouveau en 2025 — le plus long coaster familial du Benelux a 925m avec triple lanceur dans le spectaculaire Dock World. Hauteur min: 120cm.",
+        "de": "Neu 2025 — der langste Familien-Coaster im Benelux mit 925m und dreifachem Start im spektakularen Dock World Themenbereich. Mindestgrosse: 120cm.",
+        "it": "Nuovo per il 2025 — il piu lungo coaster familiare del Benelux a 925m con triplo lancio nello spettacolare Dock World. Altezza min: 120cm.",
+        "nl": "Nieuw voor 2025 — de langste familieachtbaan in de Benelux met 925m en drievoudige lancering in het spectaculaire Dock World. Min grootte: 120cm.",
+        "pt": "Novo em 2025 — o coaster familiar mais longo do Benelux com 925m com triple lancamento no espetacular Dock World. Altura min: 120cm.",
+        "ru": "Новинка 2025 года — самые длинные семейные горки Бенилюкса в 925 м с тройным запуском в зрелищной тематической зоне Dock World. Мин. рост: 120 см.",
+        "zh": "2025年全新推出——比荷卢地区最长的家庭过山车，全长925米，在壮观的Dock World主题区有三次发射。最低身高：120厘米。",
+        "ar": "جديد لعام 2025 — اطول نشوة عائلية في بنيلوكس بطول 925 متر مع اطلاق ثلاثي في منطقة Dock World الموضوعية الرائعة. الحد الادنى للطول: 120 سم."
+      }
+    },
+    "wampire": {
+      "desc": {
+        "en": "A classic Vekoma suspended looping coaster with riders hanging beneath the track through loops and inversions — one of Europe's last remaining stand-up and suspended coasters. Min height: 140cm.",
+        "es": "Un clasico coaster suspendido Vekoma con riders colgando debajo de la via a traves de lazos e inversiones. Altura min: 140cm.",
+        "fr": "Un coaster suspendu classique Vekoma avec des riders suspendus sous la voie a travers des boucles et inversions. Hauteur min: 140cm.",
+        "de": "Ein klassischer aufgehangter Vekoma-Looping-Coaster mit Fahrern die unter dem Gleis durch Schleifen und Inversionen hangen. Mindestgrosse: 140cm.",
+        "it": "Un classico coaster sospeso Vekoma con i rider appesi sotto il binario attraverso loop e inversioni. Altezza min: 140cm.",
+        "nl": "Een klassieke Vekoma hangende looping achtbaan met rijders die onder het spoor hangen door loops en inversies. Min grootte: 140cm.",
+        "pt": "Um classico coaster suspenso Vekoma com riders suspensos sob a via atraves de loops e inversoes. Altura min: 140cm.",
+        "ru": "Классические подвесные петлевые горки Vekoma с гостями, свисающими под рельсами через петли и инверсии. Мин. рост: 140 см.",
+        "zh": "经典Vekoma悬挂式环形过山车，乘客悬挂在轨道下方穿越环形和翻转——欧洲最后几个悬挂式过山车之一。最低身高：140厘米。",
+        "ar": "اوتوستراد Vekoma المعلق الكلاسيكي مع الركاب معلقين تحت المسار عبر حلقات وانقلابات. الحد الادنى للطول: 140 سم."
+      }
+    },
+    "buzzsaw": {
+      "desc": {
+        "en": "A ferocious Gerstlauer Euro-Fighter with a beyond-vertical drop of more than 90 degrees — compact but brutally intense. Min height: 140cm.",
+        "es": "Un feroz Euro-Fighter de Gerstlauer con una caida de mas de 90 grados — compacto pero brutalmente intenso. Altura min: 140cm.",
+        "fr": "Un feroce Euro-Fighter de Gerstlauer avec une chute de plus de 90 degres — compact mais brutalement intense. Hauteur min: 140cm.",
+        "de": "Ein wilder Gerstlauer Euro-Fighter mit einem uber-vertikalen Abfall von mehr als 90 Grad — kompakt aber brutal intensiv. Mindestgrosse: 140cm.",
+        "it": "Un feroce Euro-Fighter di Gerstlauer con una caduta oltre verticale di piu di 90 gradi — compatto ma brutalmente intenso. Altezza min: 140cm.",
+        "nl": "Een woeste Gerstlauer Euro-Fighter met een valhoek van meer dan 90 graden — compact maar wreed intensief. Min grootte: 140cm.",
+        "pt": "Um feroz Euro-Fighter da Gerstlauer com uma queda alem-vertical de mais de 90 graus — compacto mas brutalmente intenso. Altura min: 140cm.",
+        "ru": "Жестокий Gerstlauer Euro-Fighter с запредельно-вертикальным падением более 90 градусов — компактный, но жестоко интенсивный. Мин. рост: 140 см.",
+        "zh": "凶猛的Gerstlauer Euro-Fighter，超垂直下坡超过90度——紧凑但极为激烈。最低身高：140厘米。",
+        "ar": "Euro-Fighter شرس من Gerstlauer مع انحدار ما بعد العمودي يتجاوز 90 درجة — مدمج ولكن شديد الوحشية. الحد الادنى للطول: 140 سم."
+      }
+    },
+    "tiki_waka": {
+      "desc": {
+        "en": "One of the best family coasters in Belgium — a brilliant Gerstlauer Bobsled that dips and banks through pathways and waterways. Fast, fun and accessible. Min height: 100cm with adult, 120cm alone.",
+        "es": "Uno de los mejores coasters familiares de Belgica — un brillante Gerstlauer Bobsled que se zambulle y se inclina por caminos y vias fluviales. Altura min: 100cm con adulto 120cm solo.",
+        "fr": "L'un des meilleurs coasters familiaux de Belgique — un brillant Gerstlauer Bobsled qui plonge et vire par des chemins et des voies navigables. Hauteur min: 100cm avec adulte 120cm seul.",
+        "de": "Einer der besten Familien-Coaster in Belgien — ein brillanter Gerstlauer Bobsled der durch Wege und Wasserwege taucht und kurvt. Mindestgrosse: 100cm mit Erwachsenem 120cm allein.",
+        "it": "Uno dei migliori coaster familiari del Belgio — un brillante Gerstlauer Bobsled che si immerge e scivola attraverso sentieri e vie d'acqua. Altezza min: 100cm con adulto 120cm da solo.",
+        "nl": "Een van de beste familieachtbanen van Belgie — een briljante Gerstlauer Bobsled die duikt en slingert door paden en waterwegen. Min grootte: 100cm met volwassene 120cm alleen.",
+        "pt": "Um dos melhores coasters familiares da Belgica — um brilhante Gerstlauer Bobsled que mergulha e inclina por caminhos e vias navegaveis. Altura min: 100cm com adulto 120cm sozinho.",
+        "ru": "Одни из лучших семейных горок в Бельгии — блестящий Gerstlauer Bobsled, ныряющий и накреняющийся через тропинки и водные пути. Мин. рост: 100 см со взрослым, 120 см одному.",
+        "zh": "比利时最好的家庭过山车之一——精彩的Gerstlauer雪橇车穿越小路和水道的起伏倾斜。最低身高：有成人陪同100厘米，独自120厘米。",
+        "ar": "واحدة من افضل نشوات الاسرة في بلجيكا — Gerstlauer Bobsled رائع يغوص ويميل عبر المسارات والممرات المائية. الحد الادنى للطول: 100 سم مع بالغ 120 سم وحده."
+      }
+    },
+    "cobra": {
+      "desc": {
+        "en": "A rare stand-up roller coaster where riders experience the unique sensation of coasting while standing — one of the last few stand-up coasters still operating in Europe. Min height: 140cm.",
+        "es": "Un raro coaster de pie donde los riders experimentan la unica sensacion de montar de pie — uno de los ultimos coasters de pie en operacion en Europa. Altura min: 140cm.",
+        "fr": "Un rare coaster debout ou les riders experimentent la sensation unique de monter debout — l'un des derniers coasters debout encore en service en Europe. Hauteur min: 140cm.",
+        "de": "Ein seltener Stand-up-Coaster wo Fahrer die einzigartige Sensation erleben wahrend des Stehens zu fahren — einer der letzten noch in Betrieb befindlichen Stand-up-Coaster in Europa. Mindestgrosse: 140cm.",
+        "it": "Un raro coaster in piedi dove i rider sperimentano l'unica sensazione di scorrere in piedi — uno degli ultimi coaster in piedi ancora in funzione in Europa. Altezza min: 140cm.",
+        "nl": "Een zeldzame staande achtbaan waar rijders de unieke sensatie ervaren van rijden terwijl ze staan — een van de laatste nog opererende staande achtbanen in Europa. Min grootte: 140cm.",
+        "pt": "Um raro coaster em pe onde os riders experimentam a unica sensacao de andar em pe — um dos ultimos coasters em pe ainda em operacao na Europa. Altura min: 140cm.",
+        "ru": "Редкие горки стоя, где гости испытывают уникальное ощущение езды в стоячем положении — одни из последних горок стоя, ещё работающих в Европе. Мин. рост: 140 см.",
+        "zh": "罕见的站立式过山车，乘客可以体验站立乘坐的独特感觉——欧洲为数不多仍在运营的站立式过山车之一。最低身高：140厘米。",
+        "ar": "اوتوستراد وقوف نادر حيث يختبر الركاب احساسا فريدا بالانزلاق اثناء الوقوف — واحد من اخر قطارات الوقوف لا تزال تعمل في اوروبا. الحد الادنى للطول: 140 سم."
+      }
+    },
+    "calamity_mine": {
+      "desc": {
+        "en": "A beloved classic mine train coaster winding through the Western area since 1992 — the perfect first coaster for families and young riders. Min height: 100cm.",
+        "es": "Un clasico adorado coaster de tren minero que serpentea por el area occidental desde 1992 — el primer coaster perfecto para familias y jovenes riders. Altura min: 100cm.",
+        "fr": "Un coaster de train minier classique bien-aime serpentant dans la zone occidentale depuis 1992 — le premier coaster parfait pour les familles et les jeunes riders. Hauteur min: 100cm.",
+        "de": "Ein geliebter klassischer Minencoaster der seit 1992 durch den Westernbereich windet — der perfekte erste Coaster fur Familien und junge Fahrer. Mindestgrosse: 100cm.",
+        "it": "Un amato coaster di treno minerario classico che si snoda attraverso l'area occidentale dal 1992 — il primo coaster perfetto per famiglie e giovani rider. Altezza min: 100cm.",
+        "nl": "Een geliefde klassieke mijntreinachtbaan die zich sinds 1992 door het westerngebied kronkelt — de perfecte eerste achtbaan voor families en jonge rijders. Min grootte: 100cm.",
+        "pt": "Um classico adorado coaster de comboio mineiro que serpenteia pela area ocidental desde 1992 — o primeiro coaster perfeito para familias e jovens riders. Altura min: 100cm.",
+        "ru": "Любимые классические горки шахтного поезда, петляющие по западной зоне с 1992 года — идеальные первые горки для семей и молодых гостей. Мин. рост: 100 см.",
+        "zh": "自1992年以来蜿蜒穿越西部区域的心爱经典矿山列车过山车——适合家庭和年轻乘客的完美首次过山车体验。最低身高：100厘米。",
+        "ar": "اوتوستراد قطار منجم كلاسيكي محبوب يتعرج عبر المنطقة الغربية منذ 1992 — الاوتوستراد الاول المثالي للعائلات والركاب الشباب. الحد الادنى للطول: 100 سم."
+      }
+    },
+    "radja_river": {
+      "desc": {
+        "en": "Classic river rapids with guaranteed soakings in circular rafts through churning white water. A summer favourite for the whole family. Min height: 100cm.",
+        "es": "Rapidos de rio clasicos con zambullidas garantizadas en balsas circulares a traves del agua blanca revuelta. Un favorito veraniego para toda la familia. Altura min: 100cm.",
+        "fr": "Rapides de riviere classiques avec des trempes garanties dans des radeaux circulaires a travers les eaux vives tourbillonnantes. Un favori estival pour toute la famille. Hauteur min: 100cm.",
+        "de": "Klassische Flussschnellen mit garantierten Nassungen in runden Flosse durch quirlendes Wildwasser. Ein Sommerliebling fur die ganze Familie. Mindestgrosse: 100cm.",
+        "it": "Classiche rapide del fiume con bagni garantiti in zattere circolari attraverso le acque bianche turbinanti. Un preferito estivo per tutta la famiglia. Altezza min: 100cm.",
+        "nl": "Klassieke rivierstroomversnellingen met gegarandeerde nat worden in ronde vlotten door kolkend wild water. Een zomerfavoriet voor het hele gezin. Min grootte: 100cm.",
+        "pt": "Rapidos de rio classicos com molhadelas garantidas em balsas circulares atraves de aguas turbulentas. Um favorito de verao para toda a familia. Altura min: 100cm.",
+        "ru": "Классические речные пороги с гарантированными промоканиями в круглых плотах через бурлящую белую воду. Летний фаворит для всей семьи. Мин. рост: 100 см.",
+        "zh": "经典的河流急流，在圆形橡皮艇中穿越翻腾的急流，保证全身湿透。适合全家老小的夏日最爱。最低身高：100厘米。",
+        "ar": "منحدرات نهرية كلاسيكية مع ضمان البلل في طوافات دائرية عبر المياه البيضاء المتلاطمة. المفضل الصيفي للعائلة بأكملها. الحد الادنى للطول: 100 سم."
+      }
+    },
+    "flash_back": {
+      "desc": {
+        "en": "Three dramatic drops including one in reverse plus a spectacular final splash — rethemed as part of the new Dock World area in 2025. Min height: 110cm.",
+        "es": "Tres caidas dramaticas incluyendo una en marcha atras mas un espectacular splash final — retematizado como parte de la nueva area Dock World en 2025. Altura min: 110cm.",
+        "fr": "Trois chutes dramatiques dont une en marche arriere plus un spectaculaire splash final — retematise dans le cadre du nouveau Dock World en 2025. Hauteur min: 110cm.",
+        "de": "Drei dramatische Abfalle einschliesslich eines in umgekehrter Richtung plus ein spektakularer finaler Platscher — 2025 als Teil des neuen Dock World umgestaltet. Mindestgrosse: 110cm.",
+        "it": "Tre cadute drammatiche inclusa una in retromarcia piu un spettacolare splash finale — ritemazizzato come parte della nuova area Dock World nel 2025. Altezza min: 110cm.",
+        "nl": "Drie dramatische dalingen inclusief een achteruit plus een spectaculaire laatste plons — herbestemd als onderdeel van het nieuwe Dock World in 2025. Min grootte: 110cm.",
+        "pt": "Tres quedas dramaticas incluindo uma em marcha atras mais um espetacular splash final — retematizado como parte da nova area Dock World em 2025. Altura min: 110cm.",
+        "ru": "Три драматических спуска, включая один в обратном направлении, плюс зрелищный финальный всплеск — переосмыслен как часть новой зоны Dock World в 2025 году. Мин. рост: 110 см.",
+        "zh": "三次戏剧性下坡，包括一次倒退，加上壮观的最终水花——2025年作为新Dock World区域的一部分重新主题化。最低身高：110厘米。",
+        "ar": "ثلاثة انحدارات درامية بما فيها واحد عكسي بالإضافة إلى رشة نهائية رائعة — أعيد تصميمه كجزء من منطقة Dock World الجديدة عام 2025. الحد الادنى للطول: 110 سم."
+      }
+    },
+    "challenge_of_tutankhamon": {
+      "desc": {
+        "en": "An atmospheric dark ride through the tomb of Tutankhamun with hieroglyphs, mummies and surprises. Perfect for families wanting atmosphere over pure thrills. Min height: 100cm.",
+        "es": "Un oscuro paseo atmosferico a traves de la tumba de Tutankamon con jeroglificos momias y sorpresas. Perfecto para familias que quieren atmosfera sobre puras emociones. Altura min: 100cm.",
+        "fr": "Un dark ride atmospherique a travers la tombe de Toutankhamon avec hieroglyphes momies et surprises. Parfait pour les familles qui veulent de l'atmosphere plutot que de pures sensations. Hauteur min: 100cm.",
+        "de": "Eine atmospharische Dunkelfahrt durch das Grab von Tutanchamun mit Hieroglyphen Mumien und Überraschungen. Perfekt fur Familien die Atmosphare uber reine Thrills wollen. Mindestgrosse: 100cm.",
+        "it": "Un dark ride atmosferico attraverso la tomba di Tutankhamen con geroglifici mummie e sorprese. Perfetto per le famiglie che vogliono atmosfera piuttosto che pure emozioni. Altezza min: 100cm.",
+        "nl": "Een sfeervolle dark ride door het graf van Toetanchamon met hierogliefen mummies en verrassingen. Perfect voor families die sfeer willen boven pure thrills. Min grootte: 100cm.",
+        "pt": "Um dark ride atmosferico atraves da tumba de Tutankamon com hieroglifos mumias e surpresas. Perfeito para familias que querem atmosfera acima de puras emocoes. Altura min: 100cm.",
+        "ru": "Атмосферный тёмный аттракцион через гробницу Тутанхамона с иероглифами, мумиями и сюрпризами. Идеально для семей, ищущих атмосферу. Мин. рост: 100 см.",
+        "zh": "穿越图坦卡蒙陵墓的大气暗室游乐，有象形文字、木乃伊和惊喜。非常适合追求气氛而非纯刺激的家庭。最低身高：100厘米。",
+        "ar": "ركوبة مظلمة جوية عبر مقبرة توت عنخ آمون مع الهيروغليفية والمومياوات والمفاجآت. مثالية للعائلات التي تريد الأجواء أكثر من المتعة الخالصة. الحد الادنى للطول: 100 سم."
+      }
+    },
+    "palais_du_genie": {
+      "desc": {
+        "en": "An immersive 4D experience with the spirits Zanzar and Babas leading visitors through illusions and magic effects. Suitable for all ages.",
+        "es": "Una experiencia 4D inmersiva con los espiritus Zanzar y Babas guiando a los visitantes a traves de ilusiones y efectos magicos. Apto para todas las edades.",
+        "fr": "Une experience 4D immersive avec les esprits Zanzar et Babas guidant les visiteurs a travers des illusions et des effets magiques. Convient a tous les ages.",
+        "de": "Ein immersives 4D-Erlebnis mit den Geistern Zanzar und Babas die Besucher durch Illusionen und magische Effekte fuhren. Fur alle Altersgruppen geeignet.",
+        "it": "Un'esperienza 4D immersiva con gli spiriti Zanzar e Babas che guidano i visitatori attraverso illusioni ed effetti magici. Adatto a tutte le eta.",
+        "nl": "Een meeslepende 4D ervaring met de geesten Zanzar en Babas die bezoekers door illusies en magische effecten leiden. Geschikt voor alle leeftijden.",
+        "pt": "Uma experiencia 4D imersiva com os espiritos Zanzar e Babas guiando os visitantes atraves de ilusoes e efeitos magicos. Adequado para todas as idades.",
+        "ru": "Захватывающий 4D опыт с духами Зазаром и Бабасом, ведущими посетителей через иллюзии и магические эффекты. Подходит для всех возрастов.",
+        "zh": "身临其境的4D体验，精灵Zanzar和Babas带领游客穿越幻觉和魔法效果。适合所有年龄段。",
+        "ar": "تجربة 4D غامرة مع الارواح Zanzar وBabas تقود الزوار عبر الاوهام والتأثيرات السحرية. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_dalton_burger": {
+      "desc": {
+        "en": "The park's most popular burger stop in the Western area near Dalton Terror — Belgian-style burgers, chicken sandwiches and fries in a saloon atmosphere.",
+        "es": "La parada de hamburguesas mas popular del parque en el area occidental cerca de Dalton Terror — hamburguesas estilo belga y papas fritas en ambiente de salon.",
+        "fr": "L'arret burger le plus populaire du parc dans la zone occidentale pres de Dalton Terror — burgers style belge et frites dans une atmosphere de saloon.",
+        "de": "Der beliebteste Burger-Stop des Parks im Westernbereich nahe Dalton Terror — belgische Burger Huhnchen-Sandwiches und Pommes in Saloon-Atmosphare.",
+        "it": "La fermata burger piu popolare del parco nell'area western vicino a Dalton Terror — burger stile belga e patatine in atmosfera saloon.",
+        "nl": "De populairste burgersstop van het park in het westerngebied bij Dalton Terror — Belgische burgers kippenbroodjes en friet in saloonsfeeer.",
+        "pt": "A paragem de hamburguer mais popular do parque na area ocidental perto de Dalton Terror — hamburguer estilo belga e batatas fritas em atmosfera saloon.",
+        "ru": "Самая популярная бургерная парка в западной зоне рядом с Dalton Terror — бельгийские бургеры, куриные сэндвичи и картофель фри в атмосфере салуна.",
+        "zh": "公园最受欢迎的汉堡站，位于Dalton Terror附近的西部区域——比利时风格汉堡、鸡肉三明治和薯条，沙龙氛围。",
+        "ar": "اكثر محطات البرغر شعبية في المتنزه في المنطقة الغربية بالقرب من Dalton Terror — برغر بلجيكي وسندويشات دجاج وبطاطس مقلية في جو صالون."
+      }
+    },
+    "food_delhicious": {
+      "desc": {
+        "en": "Authentic Indian street food at Walibi — fragrant curries, naan breads and samosas that stand out from typical theme park fare. One of the most popular food stops in the park.",
+        "es": "Autentica comida callejera india en Walibi — curries fragantes panes naan y samosas que se destacan de la comida tipica de parque. Una de las paradas de comida mas populares.",
+        "fr": "Cuisine de rue indienne authentique a Walibi — currys parfumes pains naan et samosas qui se distinguent de la nourriture typique des parcs. L'un des arrets repas les plus populaires.",
+        "de": "Authentisches indisches Strassenfood bei Walibi — duftende Currys Naan-Brote und Samosas die sich von der typischen Parknahrung abheben. Einer der beliebtesten Essensstops.",
+        "it": "Autentico cibo da strada indiano a Walibi — curry profumati pani naan e samosas che si distinguono dal solito cibo del parco. Una delle fermate cibo piu popolari.",
+        "nl": "Authentiek Indisch straatvoedsel bij Walibi — geurige kerriegerechten naanbrood en samosa's die opvallen naast typisch parkvoedsel. Een van de populairste eetstops.",
+        "pt": "Autentica comida de rua indiana na Walibi — caril aromaticos pao naan e samosas que se destacam da comida tipica de parque. Uma das paragens de comida mais populares.",
+        "ru": "Аутентичная индийская уличная еда в Walibi — ароматные карри, лепёшки наан и самосы, выделяющиеся на фоне типичной парковой еды. Одна из самых популярных точек питания.",
+        "zh": "瓦利比的正宗印度街头食品——芳香咖喱、馕面包和萨摩萨，在典型主题公园食品中脱颖而出。公园最受欢迎的餐饮停靠站之一。",
+        "ar": "طعام الشارع الهندي الاصيل في واليبي — كاري عطري وخبز نان وسموسة تبرز عن الطعام النموذجي للمتنزهات. واحدة من اكثر محطات الطعام شعبية في المتنزه."
+      }
+    },
+    "food_nsoso": {
+      "desc": {
+        "en": "Vibrant West African street food — grilled meats, plantain and jollof rice in a colourfully themed setting. One of the most culturally interesting dining stops in Belgian theme parks.",
+        "es": "Vibrante comida callejera de Africa Occidental — carnes a la parrilla platano y arroz jollof en un entorno coloridamente tematico. Una de las paradas gastronomicas mas culturalmente interesantes.",
+        "fr": "Street food africain de l'Ouest vibrant — viandes grillees plantain et riz jollof dans un cadre colore. L'un des arrets gastronomiques les plus culturellement interessants des parcs belges.",
+        "de": "Lebhaftes westafrikanisches Strassenfood — gegrilltes Fleisch Kochbanane und Jollof-Reis in bunter Themenumgebung. Einer der kulturell interessantesten Essensstops belgischer Parks.",
+        "it": "Vivace street food dell'Africa Occidentale — carni alla griglia plantano e riso jollof in un ambiente coloratamente tematizzato. Una delle fermate gastronomiche culturalmente piu interessanti.",
+        "nl": "Levendig West-Afrikaans straatvoedsel — gegrild vlees plantain en jollof rijst in een kleurrijke themaomgeving. Een van de meest cultureel interessante eetstops in Belgische pretparken.",
+        "pt": "Street food vibrante da Africa Ocidental — carnes grelhadas platano e arroz jollof num cenario colorido. Uma das paragens gastronomicas culturalmente mais interessantes dos parques belgas.",
+        "ru": "Яркая уличная еда Западной Африки — жареное мясо, подорожник и рис джолоф в красочной тематической обстановке. Одна из самых культурно интересных точек питания в бельгийских парках.",
+        "zh": "充满活力的西非街头食品——烤肉、大蕉和豆腐饭，在色彩缤纷的主题环境中供应。比利时主题公园中最具文化趣味的餐饮停靠站之一。",
+        "ar": "طعام الشارع الغرب أفريقي النابض بالحياة — لحوم مشوية وموز وأرز جولوف في بيئة ملونة ذات طابع. واحدة من أكثر محطات الطعام إثارة ثقافياً في متنزهات بلجيكا."
+      }
+    },
+    "food_pizza_solo": {
+      "desc": {
+        "en": "Freshly baked individual and sharing pizzas with classic toppings — a reliable and universally popular choice for families with varied tastes.",
+        "es": "Pizzas individuales y para compartir horneadas frescas con coberturas clasicas — una opcion fiable y universalmente popular para familias con gustos variados.",
+        "fr": "Pizzas individuelles et a partager cuites fraichement avec des garnitures classiques — un choix fiable et universellement populaire pour les familles aux gouts varies.",
+        "de": "Frisch gebackene Einzel- und Sharing-Pizzen mit klassischen Bellagen — eine zuverlassige und allgemein beliebte Wahl fur Familien mit unterschiedlichen Geschmackern.",
+        "it": "Pizze individuali e da condividere cotte freschemente con condimenti classici — una scelta affidabile e universalmente popolare per le famiglie con gusti variati.",
+        "nl": "Vers gebakken individuele en deel-pizza's met klassieke toppings — een betrouwbare en universeel populaire keuze voor gezinnen met gevarieerde smaken.",
+        "pt": "Pizzas individuais e para partilhar cozidas frescas com coberturas classicas — uma escolha confiavel e universalmente popular para familias com gostos variados.",
+        "ru": "Свежеиспечённые индивидуальные и совместные пиццы с классическими начинками — надёжный и повсеместно популярный выбор для семей с разными вкусами.",
+        "zh": "新鲜烘焙的个人和分享披萨，配有经典配料——对于口味各异的家庭来说，可靠且广受欢迎的选择。",
+        "ar": "بيتزا فردية ومشتركة مخبوزة طازجة مع إضافات كلاسيكية — خيار موثوق وشعبي للعائلات ذات الأذواق المتنوعة."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_novotel_wavre": {
+      "desc": {
+        "en": "The premier partner hotel for Walibi Belgium — 4-star Novotel Wavre is an 11-minute walk from the park with 102 modern rooms, outdoor pool, restaurant, free parking and EV charging. Rated 8.3/10.",
+        "es": "El hotel socio principal de Walibi Belgica — Novotel Wavre de 4 estrellas a 11 minutos a pie del parque con 102 habitaciones modernas piscina exterior restaurante y aparcamiento gratuito. Puntuacion 8.3/10.",
+        "fr": "L'hotel partenaire principal de Walibi Belgique — Novotel Wavre 4 etoiles a 11 minutes a pied du parc avec 102 chambres modernes piscine exterieure restaurant et parking gratuit. Note 8.3/10.",
+        "de": "Das premiere Partnerhotel von Walibi Belgien — 4-Sterne Novotel Wavre 11 Gehminuten vom Park entfernt mit 102 modernen Zimmern Aussenpool Restaurant und kostenlosem Parkplatz. Bewertet 8.3/10.",
+        "it": "L'hotel partner principale di Walibi Belgio — Novotel Wavre 4 stelle a 11 minuti a piedi dal parco con 102 camere moderne piscina esterna ristorante e parcheggio gratuito. Valutazione 8.3/10.",
+        "nl": "Het premier partnerhotel voor Walibi Belgie — 4-sterren Novotel Wavre op 11 minuten lopen van het park met 102 moderne kamers buitenzwembad restaurant en gratis parkeren. Beoordeeld 8.3/10.",
+        "pt": "O hotel parceiro principal da Walibi Belgica — Novotel Wavre 4 estrelas a 11 minutos a pe do parque com 102 quartos modernos piscina exterior restaurante e estacionamento gratuito. Avaliacao 8.3/10.",
+        "ru": "Ведущий партнерский отель Walibi Бельгии — 4-звёздочный Novotel Wavre в 11 минутах ходьбы от парка со 102 современными номерами, открытым бассейном, рестораном и бесплатной парковкой. Рейтинг 8.3/10.",
+        "zh": "瓦利比比利时的首席合作酒店——四星级瓦夫尔诺富特距公园步行11分钟，有102间现代客房、室外泳池、餐厅、免费停车场和电动汽车充电站。评分8.3/10。",
+        "ar": "الفندق الشريك الرئيسي لواليبي بلجيكا — نوفوتيل وافر 4 نجوم على بعد 11 دقيقة سيرا من المتنزه مع 102 غرفة حديثة وحمام سباحة خارجي ومطعم ومواقف مجانية. تقييم 8.3/10."
+      },
+      "rooms": {
+        "superior_room": {
+          "name": { "en": "Superior Room", "es": "Habitacion Superior", "fr": "Chambre Superieure", "de": "Superior Zimmer", "it": "Camera Superior", "nl": "Superior Kamer", "pt": "Quarto Superior", "ru": "Номер Superior", "zh": "高级客房", "ar": "غرفة سوبيريور" },
+          "desc": { "en": "Modern room with king or twin beds, premium bedding, sofa bed option and full Novotel amenities.", "es": "Habitacion moderna con camas king o twin ropa de cama premium opcion sofa cama y servicios completos.", "fr": "Chambre moderne avec lits king ou twin literie premium option canape-lit et services complets.", "de": "Modernes Zimmer mit King- oder Zwillingsbetten Premium-Bettwäsche Schlafsofa-Option und vollen Annehmlichkeiten.", "it": "Camera moderna con letti king o twin biancheria da letto premium opzione divano letto e servizi completi.", "nl": "Moderne kamer met king- of tweepersoonsbed premium beddengoed slaapbank optie en alle Novotel voorzieningen.", "pt": "Quarto moderno com camas king ou twin roupa de cama premium opcao sofa-cama e comodidades completas.", "ru": "Современный номер с кроватью king или twin, премиальным постельным бельём, диваном-кроватью и всеми удобствами.", "zh": "现代客房，配有大床或双床、高级床上用品、沙发床选项和完整诺富特设施。", "ar": "غرفة حديثة مع أسرة كينغ أو توين وبياضات متميزة وخيار أريكة سرير وجميع مرافق نوفوتيل." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious family room with communicating door option, large TV and all amenities including breakfast. Ideal for Walibi families.", "es": "Amplia habitacion familiar con opcion de puerta comunicante TV grande y desayuno incluido.", "fr": "Spacieuse chambre familiale avec option de porte communicante grande TV et petit dejeuner inclus.", "de": "Geraumiges Familienzimmer mit Verbindungsturoption grossem TV und Frühstück. Ideal fur Walibi-Familien.", "it": "Camera familiare spaziosa con opzione porta comunicante TV grande e colazione inclusa.", "nl": "Ruime familiekamer met verbindingsdeur optie grote TV en ontbijt inbegrepen.", "pt": "Quarto familiar espacioso com opcao de porta de comunicacao TV grande e pequeno-almoco incluido.", "ru": "Просторный семейный номер с возможностью смежных дверей, большим телевизором и завтраком.", "zh": "宽敞家庭客房，有相通门选项、大电视和含早餐的所有设施。", "ar": "غرفة عائلية فسيحة مع خيار باب توصيل وتلفزيون كبير وإفطار مشمول." }
+        }
+      }
+    },
+    "hotel_ibis_wavre": {
+      "desc": {
+        "en": "Budget-friendly partner hotel 2km from Walibi — renovated ibis Wavre with clean modern rooms, 24-hour bar, free parking and easy motorway access. The smart choice for value.",
+        "es": "Hotel socio economico a 2km de Walibi — ibis Wavre renovado con habitaciones modernas limpias bar 24 horas aparcamiento gratuito y facil acceso a la autopista.",
+        "fr": "Hotel partenaire economique a 2km de Walibi — ibis Wavre renove avec des chambres modernes propres bar 24h parking gratuit et acces facile a l'autoroute.",
+        "de": "Gunstigespartnerhotel 2km von Walibi — renoviertes ibis Wavre mit sauberen modernen Zimmern 24-Stunden-Bar kostenlosem Parkplatz und einfachem Autobahnzugang.",
+        "it": "Hotel partner economico a 2km da Walibi — ibis Wavre ristrutturato con camere moderne pulite bar 24 ore parcheggio gratuito e facile accesso all'autostrada.",
+        "nl": "Betaalbaar partnerhotel op 2km van Walibi — gerenoveerd ibis Wavre met schone moderne kamers 24-uursbar gratis parkeren en eenvoudige snelwegtoegang.",
+        "pt": "Hotel parceiro economico a 2km da Walibi — ibis Wavre renovado com quartos modernos limpos bar 24 horas estacionamento gratuito e facil acesso a autoestrada.",
+        "ru": "Доступный партнерский отель в 2 км от Walibi — отремонтированный ibis Wavre с чистыми современными номерами, баром 24/7, бесплатной парковкой и удобным выездом на шоссе.",
+        "zh": "距瓦利比2公里的经济型合作酒店——翻新的伊比斯瓦夫尔，拥有干净的现代客房、24小时酒吧、免费停车场和便捷的高速公路通道。明智的性价比选择。",
+        "ar": "فندق شريك اقتصادي على بعد 2 كم من واليبي — إيبيس وافر المجدد مع غرف حديثة نظيفة وبار 24 ساعة ومواقف مجانية وسهولة الوصول إلى الطريق السريع."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaard Kamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Comfortable modern ibis room with double or twin beds, free WiFi and private bathroom.", "es": "Comoda habitacion ibis moderna con camas dobles o twin WiFi gratuito y bano privado.", "fr": "Confortable chambre ibis moderne avec lits doubles ou jumeaux WiFi gratuit et salle de bain privee.", "de": "Komfortables modernes ibis Zimmer mit Doppel- oder Zwillingsbetten kostenlosem WLAN und eigenem Bad.", "it": "Confortevole camera ibis moderna con letti doppi o twin WiFi gratuito e bagno privato.", "nl": "Comfortabele moderne ibis kamer met twee- of tweepersoonsbedden gratis WiFi en eigen badkamer.", "pt": "Confortavel quarto ibis moderno com camas casal ou twin WiFi gratuito e casa de banho privada.", "ru": "Удобный современный номер ibis с двуспальной или двойной кроватью, бесплатным WiFi и отдельной ванной.", "zh": "舒适现代伊比斯客房，配有双人或双床、免费WiFi和独立浴室。", "ar": "غرفة إيبيس حديثة مريحة مع أسرة مزدوجة أو توين وواي فاي مجاني وحمام خاص." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Larger room with extra beds for children and breakfast included — ideal for budget-conscious families visiting Walibi.", "es": "Habitacion mas grande con camas adicionales para ninos y desayuno incluido.", "fr": "Chambre plus grande avec lits supplementaires pour enfants et petit dejeuner inclus.", "de": "Grosseres Zimmer mit zusatzlichen Betten fur Kinder und Fruhstuck inbegriffen.", "it": "Camera piu grande con letti aggiuntivi per bambini e colazione inclusa.", "nl": "Grotere kamer met extra bedden voor kinderen en ontbijt inbegrepen.", "pt": "Quarto maior com camas extra para criancas e pequeno-almoco incluido.", "ru": "Большой номер с дополнительными кроватями для детей и включённым завтраком.", "zh": "更大的客房，有儿童加床和含早餐，非常适合预算有限的家庭参观瓦利比。", "ar": "غرفة أكبر مع أسرة إضافية للأطفال وإفطار مشمول — مثالية للعائلات الاقتصادية." }
+        }
+      }
+    },
+    "hotel_ferme_de_lhoste": {
+      "desc": {
+        "en": "A charming B&B officially on Walibi's accommodation page — La Ferme de l'Hoste is less than 4km from Walibi in a tranquil green countryside setting. Perfect for relaxing after a Walibi day.",
+        "es": "Un encantador B&B oficialmente en la pagina de alojamiento de Walibi — La Ferme de l'Hoste esta a menos de 4km de Walibi en un tranquilo entorno campestre verde. Perfecto para relajarse.",
+        "fr": "Un charmant B&B officiellement sur la page d'hebergement de Walibi — La Ferme de l'Hoste est a moins de 4km de Walibi dans un cadre champetre vert tranquille. Parfait pour se detendre.",
+        "de": "Ein charmantes B&B das offiziell auf Walibis Unterkunftsseite steht — La Ferme de l'Hoste liegt weniger als 4km von Walibi entfernt in einer ruhigen grunen Landschaft. Perfekt zum Entspannen.",
+        "it": "Un affascinante B&B ufficialmente sulla pagina alloggi di Walibi — La Ferme de l'Hoste e a meno di 4km da Walibi in un tranquillo ambiente di campagna verde. Perfetto per rilassarsi.",
+        "nl": "Een charmant B&B dat officieel op Walibi's accommodatiepagina staat — La Ferme de l'Hoste ligt minder dan 4km van Walibi in een rustige groene landelijke omgeving. Perfect om te ontspannen.",
+        "pt": "Um encantador B&B oficialmente na pagina de alojamento da Walibi — La Ferme de l'Hoste fica a menos de 4km da Walibi num tranquilo ambiente de campo verde. Perfeito para relaxar.",
+        "ru": "Очаровательный B&B, официально представленный на странице размещения Walibi — La Ferme de l'Hoste находится менее чем в 4 км от Walibi в тихой зелёной сельской местности. Идеально для отдыха.",
+        "zh": "瓦利比住宿页面上官方推荐的迷人民宿——La Ferme de l'Hoste距瓦利比不到4公里，位于宁静的绿色乡村环境中。瓦利比游览后放松的完美选择。",
+        "ar": "نزل وإفطار ساحر موجود رسمياً على صفحة الإقامة في واليبي — La Ferme de l'Hoste على بعد أقل من 4 كم من واليبي في محيط ريفي أخضر هادئ. مثالي للاسترخاء بعد يوم في واليبي."
+      },
+      "rooms": {
+        "double_room": {
+          "name": { "en": "Double Room", "es": "Habitacion Doble", "fr": "Chambre Double", "de": "Doppelzimmer", "it": "Camera Doppia", "nl": "Tweepersoonskamer", "pt": "Quarto Duplo", "ru": "Двухместный номер", "zh": "双人间", "ar": "غرفة مزدوجة" },
+          "desc": { "en": "Comfortable farmhouse double room with garden views and local Belgian breakfast included.", "es": "Comoda habitacion doble de granja con vistas al jardin y desayuno belga local incluido.", "fr": "Confortable chambre double de ferme avec vue jardin et petit dejeuner belge local inclus.", "de": "Komfortables Bauernhof-Doppelzimmer mit Gartenblick und lokalem belgischem Fruhstuck inklusive.", "it": "Confortevole camera doppia di fattoria con vista giardino e colazione belga locale inclusa.", "nl": "Comfortabele boerderij tweepersoonskamer met tuinzicht en lokaal Belgisch ontbijt inbegrepen.", "pt": "Confortavel quarto duplo de quinta com vista jardim e pequeno-almoco belga local incluido.", "ru": "Уютный двухместный номер в фермерском доме с видом на сад и включённым местным бельгийским завтраком.", "zh": "舒适的农舍双人间，有花园景观，含本地比利时早餐。", "ar": "غرفة مزدوجة مريحة في مزرعة مع مناظر على الحديقة وإفطار بلجيكي محلي مشمول." }
+        },
+        "family_apartment": {
+          "name": { "en": "Family Apartment", "es": "Apartamento Familiar", "fr": "Appartement Familial", "de": "Familienwohnung", "it": "Appartamento Familiare", "nl": "Familieappartement", "pt": "Apartamento Familiar", "ru": "Семейные апартаменты", "zh": "家庭公寓", "ar": "شقة عائلية" },
+          "desc": { "en": "Spacious three-bedroom house with private garden and full kitchen — ideal for families wanting space and privacy near Walibi.", "es": "Espaciosa casa de tres dormitorios con jardin privado y cocina completa — ideal para familias que quieren espacio y privacidad.", "fr": "Spacieuse maison de trois chambres avec jardin prive et cuisine complete — ideale pour les familles voulant espace et intimite.", "de": "Geraumiges Drei-Schlafzimmer-Haus mit privatem Garten und vollstandiger Kuche — ideal fur Familien die Platz und Privatsphare wollen.", "it": "Spaziosa casa con tre camere da letto giardino privato e cucina completa — ideale per le famiglie che vogliono spazio e privacy.", "nl": "Ruim huis met drie slaapkamers prive tuin en volledige keuken — ideaal voor gezinnen die ruimte en privacy willen.", "pt": "Espaciosa casa de tres quartos com jardim privado e cozinha completa — ideal para familias que querem espaco e privacidade.", "ru": "Просторный дом с тремя спальнями, частным садом и полной кухней — идеально для семей, желающих простора и уединения.", "zh": "宽敞的三卧室房屋，有私人花园和全套厨房——非常适合需要空间和私密性的家庭。", "ar": "منزل فسيح بثلاث غرف نوم مع حديقة خاصة ومطبخ كامل — مثالي للعائلات التي تريد المساحة والخصوصية." }
+        }
+      }
+    }
+  }
+}
