@@ -2,6 +2,8 @@
 import '../l10n/app_localizations.dart';
 import 'app_tour_screen.dart';
 import '../widgets/ai_assistant_widget.dart';
+import 'package:speech_to_text/speech_to_text.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 import '../services/ai_assistant_service.dart';
 
 class StartScreen extends StatelessWidget {
@@ -181,9 +183,29 @@ class _GlobalAiSheetState extends State<_GlobalAiSheet> {
   String? _answer;
   bool _loading = false;
   String? _error;
+  final SpeechToText _speech = SpeechToText();
+  bool _speechAvailable = false;
+  bool _isListening = false;
+  final FlutterTts _tts = FlutterTts();
+  bool _isSpeaking = false;
+
+  @override
+  void initState() {
+    super.initState();
+    Future.microtask(() async {
+      _speechAvailable = await _speech.initialize(onError: (e) => setState(() => _isListening = false), onStatus: (s) { if (s == 'done' || s == 'notListening') setState(() => _isListening = false); });
+      await _tts.setLanguage('en-US');
+      await _tts.setSpeechRate(0.5);
+      _tts.setCompletionHandler(() => setState(() => _isSpeaking = false));
+      _tts.setStartHandler(() => setState(() => _isSpeaking = true));
+      setState(() {});
+    });
+  }
 
   @override
   void dispose() {
+    _speech.cancel();
+    _tts.stop();
     _controller.dispose();
     super.dispose();
   }
@@ -290,6 +312,14 @@ class _GlobalAiSheetState extends State<_GlobalAiSheet> {
                         label: const Text('Ask another question'),
                       ),
                     ],
+                      TextButton.icon(
+                        onPressed: () async {
+                          if (_isSpeaking) { await _tts.stop(); setState(() => _isSpeaking = false); }
+                          else { await _tts.speak(_answer!); }
+                        },
+                        icon: Icon(_isSpeaking ? Icons.stop : Icons.volume_up, size: 16),
+                        label: Text(_isSpeaking ? 'Stop' : 'Read aloud'),
+                      ),
                     if (_error != null) ...[
                       Container(
                         width: double.infinity,
@@ -355,6 +385,32 @@ class _GlobalAiSheetState extends State<_GlobalAiSheet> {
               ),
               child: Row(
                 children: [
+                  if (_speechAvailable)
+                    Container(
+                      margin: const EdgeInsets.only(right: 8),
+                      decoration: BoxDecoration(
+                        color: _isListening ? Colors.red.shade100 : Colors.grey.shade200,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: IconButton(
+                        icon: Icon(_isListening ? Icons.mic_off : Icons.mic,
+                            color: _isListening ? Colors.red : Colors.grey.shade700),
+                        onPressed: () async {
+                          if (_isListening) {
+                            await _speech.stop();
+                            setState(() => _isListening = false);
+                          } else {
+                            _controller.clear();
+                            setState(() => _isListening = true);
+                            await _speech.listen(
+                              onResult: (r) => setState(() => _controller.text = r.recognizedWords),
+                              listenFor: const Duration(seconds: 30),
+                              pauseFor: const Duration(seconds: 3),
+                            );
+                          }
+                        },
+                      ),
+                    ),
                   Expanded(
                     child: TextField(
                       controller: _controller,
