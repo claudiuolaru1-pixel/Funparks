@@ -1,6 +1,7 @@
 ﻿[
   {
     "id": "rutschebanen",
+    "minHeightCm": 0,
     "name": "Rutschebanen",
     "description": "One of the world's oldest wooden roller coasters still in operation, thrilling riders since 1914. What makes Rutschebanen truly unique is the brakeman who rides in every train, manually controlling the speed throughout the journey — one of only seven roller coasters in the world to still feature this extraordinary tradition. A rattling, exhilarating ride through a painted mountain that has delighted generations of Danes.",
     "image": "assets/images/tivoli/rutschebanen.png",
@@ -17,6 +18,7 @@
   },
   {
     "id": "demon",
+    "minHeightCm": 120,
     "name": "Demon",
     "description": "Tivoli's most intense roller coaster featuring three full loops and a range of twisting inversions at 80 km/h. Opened in 1985, Demon remains the park's premier thrill machine, delivering powerful G-forces and heart-stopping loops against the backdrop of Tivoli's illuminated gardens.",
     "image": "assets/images/tivoli/demon.png",
@@ -33,6 +35,7 @@
   },
   {
     "id": "himmelskibet",
+    "minHeightCm": 120,
     "name": "Himmelskibet",
     "description": "Tivoli's tallest attraction soaring 80 metres above the rooftops of Copenhagen — the world's tallest carousel ride. As the arms extend and riders spin outward, the entire Copenhagen cityscape unfolds in a breathtaking 360-degree panorama. On a clear day you can see the Øresund Bridge stretching towards Sweden. An unmissable Tivoli experience.",
     "image": "assets/images/tivoli/himmelskibet.png",
@@ -49,6 +52,7 @@
   },
   {
     "id": "golden_tower",
+    "minHeightCm": 120,
     "name": "Golden Tower",
     "description": "A thrilling 63-metre freefall tower that launches riders skyward before dropping them in a stomach-churning plummet back to earth. The Golden Tower is visible across Tivoli's skyline and offers spectacular aerial views of the gardens below during the ascent before the terrifying drop.",
     "image": "assets/images/tivoli/golden_tower.png",
@@ -65,6 +69,7 @@
   },
   {
     "id": "aquila",
+    "minHeightCm": 100,
     "name": "Aquila",
     "description": "A spectacular giant swing ride that rotates riders high above Tivoli's gardens at exhilarating speed. Aquila delivers powerful G-forces and sweeping aerial views of the park's illuminated landscape — a thrilling experience that combines the beauty of Tivoli's gardens with pure adrenaline.",
     "image": "assets/images/tivoli/aquila.png",
@@ -81,6 +86,7 @@
   },
   {
     "id": "monsunen",
+    "minHeightCm": 100,
     "name": "Monsunen",
     "description": "A thrilling water ride that takes riders on a journey through exotic scenes before plunging down a dramatic waterfall drop. Perfect for cooling off on a warm Copenhagen summer day, Monsunen guarantees a soaking and delivers screams and laughter in equal measure.",
     "image": "assets/images/tivoli/monsunen.png",

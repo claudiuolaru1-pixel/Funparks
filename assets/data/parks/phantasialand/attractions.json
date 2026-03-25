@@ -1,6 +1,7 @@
 ﻿[
   {
     "id": "taron",
+    "minHeightCm": 120,
     "name": "Taron",
     "description": "The world's third fastest multi-launch coaster racing through 2,100 metres of track at 117 km/h past imposing basalt rock formations and medieval Klugheim buildings.",
     "image": "assets/images/phantasialand/taron.png",
@@ -17,6 +18,7 @@
   },
   {
     "id": "fly",
+    "minHeightCm": 140,
     "name": "F.L.Y.",
     "description": "The world's first flying coaster with launch propulsion and the longest flying coaster on earth at 1,236 metres. Two launches and two inversions through the incredible Rookburgh steampunk world.",
     "image": "assets/images/phantasialand/fly.png",
@@ -33,6 +35,7 @@
   },
   {
     "id": "black_mamba",
+    "minHeightCm": 140,
     "name": "Black Mamba",
     "description": "A world-class B&M inverted coaster coiling through tunnels, caves and ravines in the Deep in Africa jungle at 80 km/h with four intense inversions.",
     "image": "assets/images/phantasialand/black_mamba.png",
@@ -49,6 +52,7 @@
   },
   {
     "id": "chiapas",
+    "minHeightCm": 100,
     "name": "Chiapas",
     "description": "The world's most modern log flume with five levels, forward and backward sections and a spectacular 53-degree drop through an elaborate Mexican canyon excavation site.",
     "image": "assets/images/phantasialand/chiapas.png",
@@ -65,6 +69,7 @@
   },
   {
     "id": "talocan",
+    "minHeightCm": 120,
     "name": "Talocan",
     "description": "Europe's only Suspended Top Spin by Huss Rides in the Mexico area. Riders are spun through the air for over two minutes surrounded by dramatic fire and water effects with an epic Aztec soundtrack.",
     "image": "assets/images/phantasialand/talocan.png",
@@ -81,6 +86,7 @@
   },
   {
     "id": "mystery_castle",
+    "minHeightCm": 120,
     "name": "Mystery Castle",
     "description": "A 65-metre Intamin bungee drop tower hidden inside a haunted castle. Guests walk through eerie castle corridors before multiple sudden launches and drops in total darkness.",
     "image": "assets/images/phantasialand/mystery_castle.png",
@@ -97,6 +103,7 @@
   },
   {
     "id": "river_quest",
+    "minHeightCm": 100,
     "name": "River Quest",
     "description": "A record-breaking river rapids ride with two lifts, massive drops and the world's biggest splash. A completely soaking adventure through the dramatic Klugheim landscape.",
     "image": "assets/images/phantasialand/river_quest.png",
@@ -113,6 +120,7 @@
   },
   {
     "id": "colorado_adventure",
+    "minHeightCm": 100,
     "name": "Colorado Adventure",
     "description": "A legendary mine train coaster winding through the Wild West mountains at 65 km/h. One of Germany's best family coasters famously praised by Michael Jackson.",
     "image": "assets/images/phantasialand/colorado_adventure.png",
@@ -129,6 +137,7 @@
   },
   {
     "id": "maus_au_chocolat",
+    "minHeightCm": 100,
     "name": "Maus au Chocolat",
     "description": "An interactive dark ride through a giant chocolate factory where guests use pastry bags as shooters to hit mice targets. Competitive, fast-paced and fun for all ages.",
     "image": "assets/images/phantasialand/maus_au_chocolat.png",
@@ -145,6 +154,7 @@
   },
   {
     "id": "winjas_force",
+    "minHeightCm": 120,
     "name": "Winja's Fear & Force",
     "description": "Two unique indoor spinning coasters by Maurer Rides in Wuze Town featuring tilting tracks, vertical lifts and creative layouts. Fear reaches 66 km/h over 465 metres, Force reaches 60 km/h over 420 metres.",
     "image": "assets/images/phantasialand/winjas_force.png",
@@ -161,6 +171,7 @@
   },
   {
     "id": "raik",
+    "minHeightCm": 90,
     "name": "Raik",
     "description": "A Vekoma family boomerang coaster in the Klugheim area. The train is pulled backwards up a lift then races forward and back through the entire layout — short, sharp and surprisingly thrilling.",
     "image": "assets/images/phantasialand/raik.png",
@@ -177,6 +188,7 @@
   },
   {
     "id": "crazy_bats",
+    "minHeightCm": 100,
     "name": "Crazy Bats",
     "description": "A VR-enhanced roller coaster in the Berlin area that immerses riders in a colourful animated world with bats flying all around for a unique and disorienting experience.",
     "image": "assets/images/phantasialand/crazy_bats.png",
@@ -193,6 +205,7 @@
   },
   {
     "id": "wakobato",
+    "minHeightCm": 90,
     "name": "Wakobato",
     "description": "A fun splash battle ride on the park lake where riders aboard circular boats can soak each other and bystanders with powerful water cannons for a refreshing family duel.",
     "image": "assets/images/phantasialand/wakobato.png",
@@ -209,6 +222,7 @@
   },
   {
     "id": "winja_express",
+    "minHeightCm": 90,
     "name": "Würmling Express",
     "description": "A charming family monorail journey through Wuze Town offering relaxing elevated views over the colourful themed area, perfect for young children and families.",
     "image": "assets/images/phantasialand/wurmling_express.png",

@@ -1,6 +1,7 @@
 ﻿[
   {
     "id": "hyperion",
+    "minHeightCm": 140,
     "name": "Hyperion",
     "description": "Europe's tallest lift hill coaster soaring 77 metres at 142 km/h. An Intamin hyper coaster delivering breathtaking drops and airtime.",
     "image": "assets/images/energylandia/hyperion.png",
@@ -17,6 +18,7 @@
   },
   {
     "id": "zadra",
+    "minHeightCm": 130,
     "name": "Zadra",
     "description": "The world's largest hybrid wooden roller coaster reaching 63 metres with thrilling drops, inversions and RMC engineering.",
     "image": "assets/images/energylandia/zadra.png",
@@ -97,6 +99,7 @@
   },
   {
     "id": "abyssus",
+    "minHeightCm": 120,
     "name": "Abyssus",
     "description": "A dive coaster plunging riders into an underground abyss with a beyond-vertical drop and intense water effects.",
     "image": "assets/images/energylandia/abyssus.png",
@@ -161,6 +164,7 @@
   },
   {
     "id": "formula",
+    "minHeightCm": 120,
     "name": "Formula",
     "description": "A Vekoma launched coaster racing through a high-speed track with twists and turns inspired by Formula racing.",
     "image": "assets/images/energylandia/formula.png",

@@ -17,6 +17,7 @@
   },
   {
     "id": "oziris",
+    "minHeightCm": 140,
     "name": "OzIris",
     "description": "A world-class inverted roller coaster soaring 40 metres high through multiple inversions in an Egyptian setting.",
     "image": "assets/images/parcasterix/oziris.png",
@@ -49,6 +50,7 @@
   },
   {
     "id": "goudurix",
+    "minHeightCm": 140,
     "name": "Goudurix",
     "description": "A legendary multi-looping roller coaster with seven breathtaking inversions.",
     "image": "assets/images/parcasterix/goudurix.png",

@@ -1,6 +1,7 @@
 ﻿[
   {
     "id": "big_thunder_mountain",
+    "minHeightCm": 102,
     "name": "Big Thunder Mountain",
     "description": "A classic Wild West mine train roller coaster thundering through red rock canyons and flooded mines at 60 km/h. One of Disneyland Paris's most iconic and beloved attractions.",
     "image": "assets/images/disneyland/big_thunder_mountain.png",
@@ -113,6 +114,7 @@
   },
   {
     "id": "tower_of_terror",
+    "minHeightCm": 102,
     "name": "The Twilight Zone Tower of Terror",
     "description": "A thrilling drop tower inside the haunted Hollywood Tower Hotel. Guests enter the Twilight Zone before plunging in a free-falling elevator at terrifying speed in one of Disney's greatest attractions.",
     "image": "assets/images/disneyland/tower_of_terror.png",
@@ -129,6 +131,7 @@
   },
   {
     "id": "frozen_ever_after",
+    "minHeightCm": 0,
     "name": "Frozen Ever After",
     "description": "A brand new magical boat ride through the Kingdom of Arendelle opened March 2026. Journey through iconic scenes from Frozen with state-of-the-art Audio-Animatronics and stunning projection technology.",
     "image": "assets/images/disneyland/frozen_ever_after.png",
@@ -145,6 +148,7 @@
   },
   {
     "id": "crush_coaster",
+    "minHeightCm": 107,
     "name": "Crush's Coaster",
     "description": "A thrilling spinning roller coaster through the ocean world of Finding Nemo. Riders spin freely in turtle shells through underwater tunnels and exciting drops at 70 km/h.",
     "image": "assets/images/disneyland/crush_coaster.png",

@@ -1,6 +1,7 @@
 ﻿[
   {
     "id": "tower_of_power",
+    "minHeightCm": 140,
     "name": "Tower of Power",
     "description": "The most iconic and talked-about ride in any water park in the world. A near-vertical transparent freefall slide that plunges riders from 28 metres at breakneck speed directly through a lagoon filled with sharks, stingrays and tropical fish. The transparent tube section means you see the sharks swimming just centimetres from your body as you shoot through at over 80 km/h. Terrifying, exhilarating and utterly unforgettable — Tower of Power is the reason people visit Siam Park.",
     "image": "assets/images/siampark/tower_of_power.png",
@@ -17,6 +18,7 @@
   },
   {
     "id": "dragon",
+    "minHeightCm": 120,
     "name": "The Dragon",
     "description": "A spectacular ProSlide CannonBowl ride that sends riders hurtling into the jaws of a giant dragon before dropping into an enormous spinning funnel bowl. The sensation of zero gravity as you circle the inside of the bowl is unlike anything else in water park riding — riders are flung from one side to the other before being swallowed by the drain. One of the most intense and physically demanding water rides in Europe.",
     "image": "assets/images/siampark/dragon.png",
@@ -65,6 +67,7 @@
   },
   {
     "id": "the_giant",
+    "minHeightCm": 110,
     "name": "The Giant",
     "description": "Twin ProSlide CannonBowl 40 rides side by side — one spinning clockwise, one counterclockwise — sending riders in giant rubber rings through enormous bowl funnels. The Giant is Siam Park's most exhilarating group ride, perfect for two riders who want to compete as they spin in opposite directions at terrifying speed before plunging into the exit pool together.",
     "image": "assets/images/siampark/the_giant.png",
@@ -81,6 +84,7 @@
   },
   {
     "id": "volcano",
+    "minHeightCm": 110,
     "name": "The Volcano",
     "description": "A thrilling dark ride through the heart of a tropical volcano combining complete darkness with dramatic mist effects and stunning light shows. Riders descend through the crater of the volcano aboard rubber rings, surrounded by rumbling sounds and atmospheric effects that recreate the sensation of being swallowed by a living volcano. A unique experience that blends spectacle with genuine water slide thrills.",
     "image": "assets/images/siampark/volcano.png",
@@ -97,6 +101,7 @@
   },
   {
     "id": "jungle_snakes",
+    "minHeightCm": 110,
     "name": "Jungle Snakes",
     "description": "Four individual ProSlide PipeLine tube slides — Cobra, Boa, Viper and Python — winding through the park's tropical terrain like enormous snakes through the jungle. Two are standard PipeLine slides and two are high-speed Turbo PipeLine versions for extra adrenaline. The perfect ride for groups who want to race each other down four parallel snaking tubes through lush tropical scenery.",
     "image": "assets/images/siampark/jungle_snakes.png",
@@ -129,6 +134,7 @@
   },
   {
     "id": "naga_racer",
+    "minHeightCm": 100,
     "name": "Naga Racer",
     "description": "A six-lane ProSlide racing mat slide where the whole family grabs a mat and launches simultaneously down parallel lanes to see who reaches the bottom first. With six lanes to compete, Naga Racer is the most fun and sociable competitive ride in the park — simple, fast, and endlessly rerideable as families argue over who really won.",
     "image": "assets/images/siampark/naga_racer.png",
@@ -145,6 +151,7 @@
   },
   {
     "id": "kinanaree",
+    "minHeightCm": 120,
     "name": "Kinanaree",
     "description": "A 200-metre long water hybrid ride slide — one of the newest additions to Siam Park — delivering three experiences in one thrilling journey. Combining open sections, enclosed tubes and dramatic speed changes across its full length, Kinanaree is packed with surprises and curves that make each run feel different from the last.",
     "image": "assets/images/siampark/kinanaree.png",

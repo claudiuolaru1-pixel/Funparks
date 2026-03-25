@@ -13,7 +13,8 @@
     "speedKmh": 113,
     "heightM": 50,
     "inversions": 0,
-    "openedYear": 2021
+    "openedYear": 2021,
+    "minHeightCm": 130
   },
   {
     "id": "pulsar",
@@ -29,7 +30,8 @@
     "speedKmh": 100,
     "heightM": 45,
     "inversions": 0,
-    "openedYear": 2017
+    "openedYear": 2017,
+    "minHeightCm": 120
   },
   {
     "id": "loup_garou",
@@ -77,7 +79,8 @@
     "speedKmh": 65,
     "heightM": 15,
     "inversions": 0,
-    "openedYear": 2025
+    "openedYear": 2025,
+    "minHeightCm": 120
   },
   {
     "id": "wampire",
@@ -93,7 +96,8 @@
     "speedKmh": 75,
     "heightM": 28,
     "inversions": 5,
-    "openedYear": 1991
+    "openedYear": 1991,
+    "minHeightCm": 140
   },
   {
     "id": "buzzsaw",
@@ -109,7 +113,8 @@
     "speedKmh": 72,
     "heightM": 25,
     "inversions": 3,
-    "openedYear": 2008
+    "openedYear": 2008,
+    "minHeightCm": 140
   },
   {
     "id": "tiki_waka",
@@ -125,7 +130,8 @@
     "speedKmh": 55,
     "heightM": 12,
     "inversions": 0,
-    "openedYear": 2018
+    "openedYear": 2018,
+    "minHeightCm": 100
   },
   {
     "id": "cobra",
@@ -141,7 +147,8 @@
     "speedKmh": 70,
     "heightM": 24,
     "inversions": 2,
-    "openedYear": 2001
+    "openedYear": 2001,
+    "minHeightCm": 140
   },
   {
     "id": "calamity_mine",
@@ -157,7 +164,8 @@
     "speedKmh": 45,
     "heightM": 10,
     "inversions": 0,
-    "openedYear": 1992
+    "openedYear": 1992,
+    "minHeightCm": 100
   },
   {
     "id": "radja_river",
@@ -173,7 +181,8 @@
     "speedKmh": 0,
     "heightM": 8,
     "inversions": 0,
-    "openedYear": 1995
+    "openedYear": 1995,
+    "minHeightCm": 100
   },
   {
     "id": "flash_back",
@@ -205,7 +214,8 @@
     "speedKmh": 0,
     "heightM": 0,
     "inversions": 0,
-    "openedYear": 1994
+    "openedYear": 1994,
+    "minHeightCm": 100
   },
   {
     "id": "palais_du_genie",

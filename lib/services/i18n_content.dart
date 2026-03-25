@@ -1,11 +1,14 @@
-import 'package:flutter/widgets.dart';
+﻿import 'package:flutter/widgets.dart';
+import 'package:provider/provider.dart';
+import '../app_state.dart';
 
 class I18nContent {
   final Map<String, dynamic> root;
   const I18nContent(this.root);
 
-  String _lang(BuildContext context) =>
-      Localizations.localeOf(context).languageCode.toLowerCase();
+  String _lang(BuildContext context) {
+    try { return context.read<AppState>().languageCode.toLowerCase(); } catch (_) { return Localizations.localeOf(context).languageCode.toLowerCase(); }
+  }
 
   String _pickText({
     required BuildContext context,

@@ -1,6 +1,7 @@
 ﻿[
   {
     "id": "baron_1898",
+    "minHeightCm": 130,
     "name": "Baron 1898",
     "description": "A spectacular dive coaster themed around a 19th century gold mine, plunging 37.5 metres beyond vertical at 90 km/h with incredible theming and a haunting soundtrack.",
     "image": "assets/images/efteling/baron_1898.png",
@@ -17,6 +18,7 @@
   },
   {
     "id": "joris_en_de_draak",
+    "minHeightCm": 120,
     "name": "Joris en de Draak",
     "description": "A world-class duelling wooden roller coaster where two trains race side by side through 1.1 kilometres of track at 75 km/h in a thrilling medieval dragon battle.",
     "image": "assets/images/efteling/joris_en_de_draak.png",
@@ -33,6 +35,7 @@
   },
   {
     "id": "de_vliegende_hollander",
+    "minHeightCm": 100,
     "name": "De Vliegende Hollander",
     "description": "A thrilling combination ride blending a roller coaster with a dramatic water finale based on the legend of the Flying Dutchman, ending in a spectacular splash.",
     "image": "assets/images/efteling/de_vliegende_hollander.png",
@@ -97,6 +100,7 @@
   },
   {
     "id": "python",
+    "minHeightCm": 120,
     "name": "Python",
     "description": "A classic looping roller coaster with multiple inversions that has thrilled generations of park visitors since 1981, still delivering exciting G-forces.",
     "image": "assets/images/efteling/python.png",
@@ -113,6 +117,7 @@
   },
   {
     "id": "vogel_rok",
+    "minHeightCm": 100,
     "name": "Vogel Rok",
     "description": "A thrilling indoor roller coaster launched in complete darkness through an ancient Persian palace with a powerful soundtrack and exotic theming.",
     "image": "assets/images/efteling/vogel_rok.png",

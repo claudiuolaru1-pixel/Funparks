@@ -1,4 +1,4 @@
-// lib/models/attraction.dart
+﻿// lib/models/attraction.dart
 
 class Attraction {
   final String id;
@@ -21,6 +21,7 @@ class Attraction {
   final int? heightM;
   final int? inversions;
   final int? openedYear;
+  final int? minHeightCm;
 
   Attraction({
     required this.id,
@@ -37,6 +38,7 @@ class Attraction {
     this.heightM,
     this.inversions,
     this.openedYear,
+    this.minHeightCm,
   });
 
   static double _parseDouble(dynamic v, double fallback) {
@@ -97,6 +99,7 @@ class Attraction {
       heightM: _parseIntNullable(j['heightM']),
       inversions: _parseIntNullable(j['inversions']),
       openedYear: _parseIntNullable(j['openedYear']),
+      minHeightCm: _parseIntNullable(j['minHeightCm']),
     );
   }
 
@@ -115,5 +118,6 @@ class Attraction {
         'heightM': heightM,
         'inversions': inversions,
         'openedYear': openedYear,
+        'minHeightCm': minHeightCm,
       };
 }

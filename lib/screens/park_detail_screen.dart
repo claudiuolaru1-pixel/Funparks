@@ -1699,6 +1699,8 @@ class _AttractionRow extends StatelessWidget {
                     ),
                     if (attraction.topPick)
                       _SoftBadge(icon: Icons.star, text: loc.topPick),
+                    if ((attraction.minHeightCm ?? 0) > 0)
+                      _SoftBadge(icon: Icons.height, text: '${attraction.minHeightCm} cm+'),
                   ]),
                 ],
               ),
@@ -2030,6 +2032,7 @@ class _AttractionDetailScreenState
         '${loc.height}: ${a.heightM!.toStringAsFixed(0)} m',
       if (a.inversions != null) '${loc.inversions}: ${a.inversions}',
       if (a.openedYear != null) '${loc.opened}: ${a.openedYear}',
+      if ((a.minHeightCm ?? 0) > 0) 'Min. height: ${a.minHeightCm} cm',
     ];
 
     return Scaffold(
@@ -2082,6 +2085,8 @@ class _AttractionDetailScreenState
                 const SizedBox(height: 10),
                 Wrap(spacing: 8, runSpacing: 8, children: [
                   _Pill(icon: Icons.category, text: cat),
+                  if (a.minHeightCm != null)
+                    _Pill(icon: Icons.height, text: '${a.minHeightCm} cm+'),
                   StreamBuilder<WaitTimeReading?>(
                     stream: service.streamLiveWaitReading(
                         parkId: widget.parkId,

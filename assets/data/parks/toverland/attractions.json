@@ -1,6 +1,7 @@
 ﻿[
   {
     "id": "troy",
+    "minHeightCm": 120,
     "name": "Troy",
     "description": "The undisputed king of Toverland and the tallest, fastest and longest wooden roller coaster in the entire Benelux region. Troy stands 32 metres tall and reaches a terrifying top speed of 90 km/h through its twisting, banking wooden structure, inspired by the ancient story of the Trojan Horse. Great Coasters International built this masterpiece of wooden coaster engineering, and every element is designed to maximise airtime and lateral forces. The combination of steep drops, banked turns and relentless speed makes Troy one of the finest wooden coasters in Europe — an absolute must-ride.",
     "image": "assets/images/toverland/troy.png",
@@ -17,6 +18,7 @@
   },
   {
     "id": "fenix",
+    "minHeightCm": 120,
     "name": "Fenix",
     "description": "A spectacular B&M Wing Coaster soaring 40 metres above Toverland's Avalon themed area — the tallest and most impressive roller coaster at the park. On a Wing Coaster, riders sit in pairs extending beyond both sides of the track with nothing above or below their feet, creating the extraordinary sensation of true flight as the coaster banks, dives and loops through its layout. Themed to the mythical phoenix rising from the flames of King Arthur's realm, Fenix cost 17 million euros and opened in 2018 as the centrepiece of the Avalon expansion. Four inversions deliver moments of genuine weightlessness.",
     "image": "assets/images/toverland/fenix.png",
@@ -33,6 +35,7 @@
   },
   {
     "id": "booster_bike",
+    "minHeightCm": 140,
     "name": "Booster Bike",
     "description": "The world's first motorbike roller coaster — a genuine piece of theme park history that launched Toverland onto the international stage when it opened in 2004. Built by Dutch manufacturer Vekoma and winner of the Best Idea Award at Euro Amusement Show Paris, Booster Bike seats riders on motorbike-styled seats leaning forward in a racing position, then catapults them from 0 to 75 km/h in just 3 seconds via hydraulic cable launch. The out-and-back layout tears through hills, a horseshoe and a horizontal loop in 55 exhilarating seconds. A prototype that inspired motorbike coasters worldwide.",
     "image": "assets/images/toverland/booster_bike.png",
@@ -49,6 +52,7 @@
   },
   {
     "id": "dwervelwind",
+    "minHeightCm": 100,
     "name": "Dwervelwind",
     "description": "A unique spinning family coaster set in the heart of the Wunderwald forest area, where individual cars rotate freely throughout the ride giving every journey a completely different experience. No two rides on Dwervelwind are ever the same as the spinning cars are influenced by the track layout, rider weight distribution and pure chance. Perfect for families with older children seeking genuine thrills without the intensity of Troy or Fenix.",
     "image": "assets/images/toverland/dwervelwind.png",
@@ -65,6 +69,7 @@
   },
   {
     "id": "dragons_fury",
+    "minHeightCm": 100,
     "name": "Dragon's Fury",
     "description": "A fast-paced spinning coaster themed to dragons in Toverland's magical world, delivering exciting twists and unpredictable rotations as the car spins through the layout. Dragon's Fury combines genuine coaster thrills with the disorienting fun of free spinning, making it accessible to families while still providing real excitement. The dragon theming and dramatic colour scheme make this one of the most visually striking rides in the park.",
     "image": "assets/images/toverland/dragons_fury.png",
@@ -97,6 +102,7 @@
   },
   {
     "id": "scorpios",
+    "minHeightCm": 120,
     "name": "Scorpios",
     "description": "A spectacular giant swinging ship located in Toverland's Port Laguna harbour area, tilting to a terrifying 75 degrees as it swings higher and higher above the crowd below. Scorpios is one of the most intense non-coaster thrills in the park, with the front and back rows delivering powerful negative g-forces at the peak of each swing. The nautical theming and harbourside setting make it one of the most atmospheric rides in the entire park.",
     "image": "assets/images/toverland/scorpios.png",
@@ -113,6 +119,7 @@
   },
   {
     "id": "pixarus",
+    "minHeightCm": 120,
     "name": "Pixarus",
     "description": "A thrilling tower ride in the Avalon area that launches riders upward and then free-falls them back down in a stomach-dropping plunge. Pixarus delivers intense vertical thrills in a compact footprint, with the Avalon castle backdrop creating a dramatic visual experience. The combination of the launch upward and freefall back down makes Pixarus one of the most intense single experiences in the park for those who want pure vertical thrills.",
     "image": "assets/images/toverland/pixarus.png",

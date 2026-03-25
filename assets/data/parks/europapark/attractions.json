@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "voltron_nevera",
     "name": "Voltron Nevera",
@@ -17,6 +17,7 @@
   },
   {
     "id": "silver_star",
+    "minHeightCm": 120,
     "name": "Silver Star",
     "description": "One of Europe's tallest and fastest steel roller coasters, built by B&M. A classic hypercoaster with airtime hills and sweeping turns.",
     "image": "assets/images/europapark/silver_star.png",
@@ -33,6 +34,7 @@
   },
   {
     "id": "blue_fire",
+    "minHeightCm": 120,
     "name": "Blue Fire Megacoaster",
     "description": "A launched steel coaster by Mack Rides featuring a powerful electromagnetic launch and four inversions through a futuristic industrial theme.",
     "image": "assets/images/europapark/blue_fire.png",
@@ -49,6 +51,7 @@
   },
   {
     "id": "wodan",
+    "minHeightCm": 120,
     "name": "Wodan Timburcoaster",
     "description": "A thrilling wooden roller coaster themed around Norse mythology. One of the best wooden coasters in Europe with intense airtime and fast turns.",
     "image": "assets/images/europapark/wodan.png",
@@ -81,6 +84,7 @@
   },
   {
     "id": "poseidon",
+    "minHeightCm": 100,
     "name": "Poseidon",
     "description": "A water roller coaster themed around the Greek god of the sea. Combine the thrill of a coaster with the splash of a water ride through ancient ruins.",
     "image": "assets/images/europapark/poseidon.png",
@@ -113,6 +117,7 @@
   },
   {
     "id": "arthur",
+    "minHeightCm": 100,
     "name": "Arthur – In the Minimoys Kingdom",
     "description": "A magical indoor dark ride and roller coaster hybrid based on the Arthur and the Minimoys films. Perfect for families with younger children.",
     "image": "assets/images/europapark/arthur.png",
@@ -145,6 +150,7 @@
   },
   {
     "id": "euromir",
+    "minHeightCm": 100,
     "name": "Euromir",
     "description": "A unique spinning roller coaster taking guests on a journey through a Soviet space station. Riders face backwards as their car rotates through the scenes.",
     "image": "assets/images/europapark/euromir.png",
