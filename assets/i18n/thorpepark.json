@@ -1,0 +1,394 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Thorpe Park is the United Kingdom's most thrilling theme park — a uniquely water-surrounded island destination located in Surrey, just 20 miles southwest of Central London, that has been delivering world-class thrills since it opened on 24 May 1979. Originally built on the site of a flooded gravel pit, Thorpe Park's distinctive landscape of lakes and waterways gives it an atmosphere unlike any other theme park in Britain. Now operated by Merlin Entertainments, the park is home to an extraordinary lineup of eight roller coasters including Hyperia — the UK's tallest coaster at 236 feet and fastest at 81 mph, opened in 2024 — alongside the iconic Stealth hydraulic launch coaster, Colossus with its world-record ten inversions, the UK's only Wing Coaster The Swarm, the horror masterpiece SAW — The Ride, and the ferocious B&M inverted coaster Nemesis Inferno. Thorpe Park's collection of coasters generates a combined height of over 860 feet and features 23 inversions across the lineup — making it Europe's most intense theme park experience. The park is open from late March to early November with spectacular seasonal events including the globally renowned Fright Nights — one of the most celebrated Halloween events in Europe. The on-site Thorpe Shark Cabins offer unique shipping container accommodation steps from the world-famous coasters.",
+      "es": "Thorpe Park es el parque tematico mas emocionante del Reino Unido — un destino isla rodeado de agua en Surrey a solo 32 km al suroeste del centro de Londres. Operado por Merlin Entertainments alberga ocho montanas rusas incluyendo Hyperia la mas alta del Reino Unido con 72 metros y la mas rapida a 130 km/h inaugurada en 2024. Junto a ella estan el icónico Stealth, Colossus con sus diez inversiones record mundial, la unica Wing Coaster del Reino Unido The Swarm, la obra maestra del horror SAW - The Ride y el feroz Nemesis Inferno. Thorpe Park esta abierto desde finales de marzo hasta principios de noviembre.",
+      "fr": "Thorpe Park est le parc d'attractions le plus palpitant du Royaume-Uni — une destination insulaire entouree d'eau dans le Surrey a seulement 32 km au sud-ouest du centre de Londres. Opere par Merlin Entertainments il abrite huit montagnes russes dont Hyperia le plus haut a 72 metres et le plus rapide a 130 km/h inaugure en 2024. A cote se trouvent le legendaire Stealth Colossus avec ses dix inversions record mondial la seule Wing Coaster du Royaume-Uni The Swarm le chef-d'oeuvre horrifique SAW et le feroce Nemesis Inferno. Thorpe Park est ouvert de fin mars a debut novembre.",
+      "de": "Thorpe Park ist der aufregendste Freizeitpark des Vereinigten Konigreichs — ein von Wasser umgebenes Inselziel in Surrey nur 32 km sudwestlich des Londoner Zentrums. Betrieben von Merlin Entertainments beherbergt es acht Achterbahnen darunter Hyperia die hochste im Vereinigten Konigreich mit 72 Metern und schnellste mit 130 km/h eroffnet 2024. Daneben befinden sich der legendare Stealth Colossos mit seinen zehn Inversionen Weltrekord die einzige Wing Coaster des Vereinigten Konigreichs The Swarm das Horror-Meisterwerk SAW und der wilde Nemesis Inferno. Thorpe Park ist von Ende Marz bis Anfang November geoffnet.",
+      "it": "Thorpe Park e il piu emozionante parco a tema del Regno Unito — una destinazione isola circondata d'acqua nel Surrey a soli 32 km a sud-ovest del centro di Londra. Gestito da Merlin Entertainments ospita otto montagne russe tra cui Hyperia la piu alta nel Regno Unito con 72 metri e la piu veloce a 130 km/h inaugurata nel 2024. Accanto si trovano il leggendario Stealth Colossus con le sue dieci inversioni record mondiale l'unico Wing Coaster del Regno Unito The Swarm il capolavoro horror SAW e il feroce Nemesis Inferno. Thorpe Park e aperto da fine marzo a inizio novembre.",
+      "nl": "Thorpe Park is het meest opwindende attractiepark van het Verenigd Koninkrijk — een door water omgeven eilandbestemming in Surrey slechts 32 km ten zuidwesten van het centrum van Londen. Beheerd door Merlin Entertainments herbergt het acht achtbanen waaronder Hyperia de hoogste in het VK met 72 meter en snelste met 130 km/h geopend in 2024. Daarnaast zijn er de legendarische Stealth Colossus met zijn tien inversies wereldrecord de enige Wing Coaster van het VK The Swarm het horrormasterwerk SAW en de wilde Nemesis Inferno. Thorpe Park is open van eind maart tot begin november.",
+      "pt": "Thorpe Park e o parque tematico mais emocionante do Reino Unido — um destino ilha rodeado de agua em Surrey a apenas 32 km a sudoeste do centro de Londres. Operado pela Merlin Entertainments alberga oito montanhas-russas incluindo Hyperia a mais alta no Reino Unido com 72 metros e a mais rapida a 130 km/h inaugurada em 2024. Ao lado estao o legendario Stealth Colossus com as suas dez inversoes recorde mundial a unica Wing Coaster do Reino Unido The Swarm a obra-prima do horror SAW e o feroz Nemesis Inferno. Thorpe Park esta aberto de finais de marco a inicio de novembro.",
+      "ru": "Thorpe Park — самый захватывающий тематический парк Соединённого Королевства — уникальный окружённый водой островной парк в Суррее всего в 32 км к юго-западу от центра Лондона. Управляемый Merlin Entertainments парк является домом для восьми горок включая Hyperia — самую высокую в Великобритании на высоте 72 метра и самую быструю на скорости 130 км/ч открытую в 2024 году. Рядом находятся легендарный Stealth, Colossus с рекордными десятью инверсиями, единственный Wing Coaster Великобритании The Swarm, хоррор-шедевр SAW и свирепый Nemesis Inferno. Thorpe Park открыт с конца марта по начало ноября.",
+      "zh": "索普公园是英国最刺激的主题乐园——一个独特的被水环绕的岛屿目的地，位于萨里郡，距伦敦市中心以西南仅32公里。由Merlin娱乐集团运营，园内有八座过山车，包括2024年开放的英国最高（72米）和最快（130公里每小时）的Hyperia，以及标志性的Stealth液压发射过山车、拥有世界纪录十个翻转的巨兽、英国唯一的翼式过山车The Swarm、恐怖杰作锯子之旅和凶猛的Nemesis Inferno。索普公园从三月底开放至十一月初。",
+      "ar": "Thorpe Park هو متنزه الترفيه الموضوعي الاكثر اثارة في المملكة المتحدة — وجهة جزيرة محاطة بالمياه في سوري على بعد 32 كم فقط جنوب غرب وسط لندن. تديره Merlin Entertainments ويضم ثمانية قطارات ترفيه بما فيها Hyperia الاعلى في المملكة المتحدة بارتفاع 72 مترا والاسرع بسرعة 130 كم/ساعة تم افتتاحه عام 2024. بجانبه Stealth الاسطوري وColossus بعشرة انعكاسات سجل عالمي وThe Swarm Wing Coaster الوحيد في المملكة المتحدة والرائع SAW و Nemesis Inferno الشرس. Thorpe Park مفتوح من اواخر مارس الى مطلع نوفمبر."
+    },
+    "ov_highlights_body": {
+      "en": "Hyperia is the undisputed centrepiece — 236 feet, 81 mph, Europe's tallest inversion and the world's first outer-banked airtime hill. Opened in 2024 it is the UK's most extreme roller coaster ever built. Stealth's hydraulic launch from 0 to 80 mph in 1.9 seconds remains one of the most visceral experiences in European theme parks. Colossus's ten inversions held the world record and still define the park's identity decades on. The Swarm is the UK's only Wing Coaster — five inversions with nothing above or below your feet. SAW — The Ride delivers Europe's first horror-movie roller coaster with a beyond-vertical 100-degree drop inside a dark building. Ghost Train is one of the most innovative dark rides in the UK blending physical sets, live actors and VR. Tidal Wave is Europe's tallest water ride. Fright Nights every October is one of the most celebrated Halloween events in Europe.",
+      "es": "Hyperia es la pieza central indiscutible — 72 metros, 130 km/h, la inversion mas alta de Europa y el primer outer-banked airtime hill del mundo. Stealth de 0 a 130 km/h en 1.9 segundos. Colossus con diez inversiones record mundial. The Swarm la unica Wing Coaster del Reino Unido. SAW - The Ride la primera montana rusa de pelicula de terror de Europa. Ghost Train una dark ride innovadora. Tidal Wave la atraccion de agua mas alta de Europa. Fright Nights es uno de los mejores eventos de Halloween de Europa.",
+      "fr": "Hyperia est la piece centrale indiscutable — 72 metres, 130 km/h, l'inversion la plus haute d'Europe et le premier outer-banked airtime hill mondial. Stealth de 0 a 130 km/h en 1.9 secondes. Colossus avec ses dix inversions record mondial. The Swarm l'unique Wing Coaster du Royaume-Uni. SAW les premieres montagnes russes de film d'horreur d'Europe. Ghost Train l'une des dark rides les plus innovantes du Royaume-Uni. Tidal Wave l'attraction aquatique la plus haute d'Europe. Fright Nights est l'un des meilleurs evenements d'Halloween d'Europe.",
+      "de": "Hyperia ist das unbestrittene Herzstuck — 72 Meter, 130 km/h, Europas hochste Inversion und der weltweit erste outer-banked Airtime Hill. Stealth von 0 auf 130 km/h in 1.9 Sekunden. Colossos mit zehn Inversionen Weltrekord. The Swarm der einzige Wing Coaster des Vereinigten Konigreichs. SAW Europas erste Horrorfilm-Achterbahn. Ghost Train eine der innovativsten Dark Rides des Vereinigten Konigreichs. Tidal Wave Europas hochste Wasserattraktion. Fright Nights ist eines der besten Halloween-Events Europas.",
+      "it": "Hyperia e il pezzo centrale indiscusso — 72 metri, 130 km/h, l'inversione piu alta d'Europa e il primo outer-banked airtime hill mondiale. Stealth da 0 a 130 km/h in 1.9 secondi. Colossus con dieci inversioni record mondiale. The Swarm l'unico Wing Coaster del Regno Unito. SAW le prime montagne russe di film horror d'Europa. Ghost Train una delle dark ride piu innovative del Regno Unito. Tidal Wave l'attrazione acquatica piu alta d'Europa. Fright Nights e uno dei migliori eventi Halloween d'Europa.",
+      "nl": "Hyperia is het onbetwiste middelpunt — 72 meter, 130 km/h, de hoogste inversie van Europa en de 's werelds eerste outer-banked airtime hill. Stealth van 0 naar 130 km/h in 1.9 seconden. Colossus met tien inversies wereldrecord. The Swarm de enige Wing Coaster van het Verenigd Koninkrijk. SAW Europa's eerste horrorfilm achtbaan. Ghost Train een van de meest innovatieve dark rides van het VK. Tidal Wave Europa's hoogste waterattractie. Fright Nights is een van de beste Halloween-evenementen van Europa.",
+      "pt": "Hyperia e a peca central indiscutivel — 72 metros, 130 km/h, a inversao mais alta da Europa e o primeiro outer-banked airtime hill mundial. Stealth de 0 a 130 km/h em 1.9 segundos. Colossus com dez inversoes recorde mundial. The Swarm a unica Wing Coaster do Reino Unido. SAW a primeira montanha-russa de filme de terror da Europa. Ghost Train uma das dark rides mais inovadoras do Reino Unido. Tidal Wave a atracao de agua mais alta da Europa. Fright Nights e um dos melhores eventos de Halloween da Europa.",
+      "ru": "Hyperia — несомненный центральный элемент: 72 метра, 130 км/ч, самая высокая инверсия в Европе и первый в мире outer-banked airtime hill. Stealth: от 0 до 130 км/ч за 1.9 секунды. Colossus с десятью инверсиями — мировой рекорд. The Swarm — единственный Wing Coaster в Великобритании. SAW — первые в Европе горки-ужасы по мотивам фильма. Ghost Train — один из самых инновационных тёмных аттракционов Великобритании. Tidal Wave — самый высокий водный аттракцион Европы. Fright Nights — один из лучших хэллоуинских событий Европы.",
+      "zh": "Hyperia是无可争议的核心——72米、130公里每小时、欧洲最高翻转和世界首个外倾失重翻转。Stealth在1.9秒内从0加速到130公里每小时。巨兽十个翻转创世界纪录。The Swarm是英国唯一的翼式过山车。锯子之旅是欧洲第一个恐怖电影主题过山车。鬼魂列车是英国最具创新性的暗室游乐之一。海浪是欧洲最高的水上项目。万圣节惊魂夜是欧洲最著名的万圣节活动之一。",
+      "ar": "Hyperia هي القطعة المركزية الراسخة — 72 مترا، 130 كم/ساعة، اعلى انعكاس في اوروبا وأول outer-banked airtime hill في العالم. Stealth من 0 الى 130 كم/ساعة في 1.9 ثانية. Colossus بعشرة انعكاسات سجل عالمي. The Swarm Wing Coaster الوحيد في المملكة المتحدة. SAW اول اوتوستراد فيلم رعب في اوروبا. Ghost Train واحدة من اكثر Dark Rides ابتكارا في المملكة المتحدة. Tidal Wave اعلى جاذبية مائية في اوروبا. Fright Nights من افضل فعاليات الهالوين في اوروبا."
+    },
+    "ov_did_you_know_body": {
+      "en": "Thorpe Park was formally opened on 24 May 1979 by Lord Mountbatten — in what turned out to be his final public appearance before he was assassinated later that year. The park was originally built on the site of flooded gravel pits that had been excavated from 1941 until 1970. Colossus held the world record for most inversions on a roller coaster when it opened in 2002 with ten loops — a record that stood until The Smiler at Alton Towers opened with 14 in 2013. Flying Fish, still operating at Thorpe Park, is the park's original roller coaster from 1984. The Walking Dead: The Ride was originally X: No Way Out — the world's first backwards-in-the-dark roller coaster — when it opened in 1996. Hyperia, which opened in 2024 to celebrate the park's 45th anniversary, features the world's first outer-banked airtime hill and Europe's tallest inversion at 168 feet. Tidal Wave was Europe's tallest water ride when it opened in 2000. The Thorpe Shark Cabins are converted shipping containers — one of the most unusual hotel concepts at any theme park in Europe.",
+      "es": "Thorpe Park fue inaugurado el 24 de mayo de 1979 por Lord Mountbatten en lo que resulto ser su ultima aparicion publica. El parque fue construido sobre gravas inundadas. Colossus tenia el record mundial de inversiones con diez cuando abrio en 2002. Flying Fish el original de 1984 aun funciona. The Walking Dead: The Ride fue originalmente el primer coaster hacia atras en la oscuridad del mundo en 1996. Hyperia inaugurada en 2024 tiene el primer outer-banked airtime hill del mundo.",
+      "fr": "Thorpe Park a ete inaugure le 24 mai 1979 par Lord Mountbatten dans ce qui s'est avere etre sa derniere apparition publique. Le parc a ete construit sur des graviers inondees. Colossus detenait le record mondial d'inversions avec dix a son ouverture en 2002. Flying Fish l'original de 1984 fonctionne encore. The Walking Dead: The Ride etait a l'origine le premier coaster a reculons dans l'obscurite au monde en 1996. Hyperia inauguree en 2024 possede le premier outer-banked airtime hill au monde.",
+      "de": "Thorpe Park wurde am 24. Mai 1979 von Lord Mountbatten eroffnet in dem was sich als sein letzter offentlicher Auftritt herausstellte. Der Park wurde auf uberschwemmten Kiesgruben errichtet. Colossos hielt den Weltrekord fur Inversionen mit zehn bei seiner Eroffnung 2002. Flying Fish das Original von 1984 ist noch in Betrieb. The Walking Dead: The Ride war ursprunglich die weltweit erste Achterbahn ruckwarts im Dunkeln von 1996. Hyperia 2024 eroffnet hat den weltweit ersten outer-banked Airtime Hill.",
+      "it": "Thorpe Park e stato inaugurato il 24 maggio 1979 da Lord Mountbatten in quella che si e rivelata essere la sua ultima apparizione pubblica. Il parco e stato costruito su ghiaie allagate. Colossus deteneva il record mondiale di inversioni con dieci alla sua apertura nel 2002. Flying Fish l'originale del 1984 funziona ancora. The Walking Dead: The Ride era originariamente il primo coaster al contrario nel buio al mondo nel 1996. Hyperia inaugurata nel 2024 ha il primo outer-banked airtime hill mondiale.",
+      "nl": "Thorpe Park werd op 24 mei 1979 geopend door Lord Mountbatten in wat zijn laatste publieke optreden bleek te zijn. Het park werd gebouwd op overstroomde grindputten. Colossus hield het wereldrecord voor inversies met tien bij opening in 2002. Flying Fish het origineel van 1984 is nog steeds actief. The Walking Dead: The Ride was oorspronkelijk de 's werelds eerste achterbaan achteruit in het donker van 1996. Hyperia geopend in 2024 heeft de 's werelds eerste outer-banked airtime hill.",
+      "pt": "Thorpe Park foi inaugurado a 24 de maio de 1979 por Lord Mountbatten naquilo que se revelou ser a sua ultima aparicao publica. O parque foi construido sobre cascalho inundado. Colossus detinha o recorde mundial de inversoes com dez aquando da abertura em 2002. Flying Fish o original de 1984 ainda funciona. The Walking Dead: The Ride era originalmente o primeiro coaster ao contrario no escuro do mundo em 1996. Hyperia inaugurada em 2024 tem o primeiro outer-banked airtime hill mundial.",
+      "ru": "Thorpe Park был официально открыт 24 мая 1979 года лордом Маунтбэттеном — в том, что оказалось его последним публичным выступлением. Парк был построен на затопленных гравийных карьерах. Colossus держал мировой рекорд по инверсиям с десятью при открытии в 2002 году. Flying Fish — оригинал 1984 года — всё ещё работает. The Walking Dead: The Ride был первоначально первыми в мире горками назад в темноте в 1996 году. Hyperia, открытая в 2024 году, имеет первый в мире outer-banked airtime hill.",
+      "zh": "索普公园于1979年5月24日由蒙巴顿勋爵正式开幕——这证明是他被暗杀前最后一次公开亮相。公园建在被洪水淹没的砾石坑上。巨兽在2002年开放时以十个翻转创造世界纪录。飞鱼——1984年的原版——至今仍在运营。行尸走肉之旅最初是1996年世界上第一个向后在黑暗中的过山车。2024年开放的Hyperia拥有世界首个外倾失重翻转。",
+      "ar": "افتتح Thorpe Park رسميا في 24 مايو 1979 من قبل لورد مونتباتن فيما تبين انه آخر ظهور علني له. بني المتنزه على حصى مغمورة. احتفظ Colossus بالرقم القياسي العالمي لعدد الانعكاسات بعشرة عند افتتاحه عام 2002. Flying Fish اصل عام 1984 لا يزال يعمل. كان The Walking Dead: The Ride في الاصل اول اوتوستراد للخلف في الظلام في العالم عام 1996. تمتلك Hyperia المفتوحة عام 2024 اول outer-banked airtime hill في العالم."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head straight to Hyperia — it consistently draws 90-minute queues within the first hour of the park opening. Then rush to SAW — The Ride before that builds. Stealth and Colossus are best tackled mid-morning before the main crowd surge. Nemesis Inferno and The Swarm can be left for the afternoon as queues often ease later in the day. Ghost Train requires timed entry booking in advance. Tidal Wave is best saved for a warm afternoon. The Spice Kitchen and Cape Cod are the best food stops — avoid eating between 11am and 1pm when queues are longest. Download the Thorpe Park app for live wait times. Fastrack passes are available and strongly recommended on busy days. If staying in the Shark Cabins you get early park access which makes a huge difference.",
+      "es": "Llega a la apertura y ve directamente a Hyperia — tiene colas de 90 minutos en la primera hora. Luego SAW - The Ride. Stealth y Colossus son mejores a media manana. Ghost Train requiere reserva de entrada anticipada. Tidal Wave es mejor guardarla para una tarde calida. La aplicacion Thorpe Park muestra los tiempos de espera en vivo. Si te quedas en los Shark Cabins obtienes acceso temprano al parque.",
+      "fr": "Arrivez a l'ouverture et allez directement a Hyperia — des queues de 90 minutes dans la premiere heure. Ensuite SAW - The Ride. Stealth et Colossus sont mieux en milieu de matinee. Ghost Train necessite une reservation d'entree anticipee. Tidal Wave est mieux gardee pour un apres-midi chaud. L'application Thorpe Park montre les temps d'attente en direct.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Hyperia — innerhalb der ersten Stunde entstehen 90-Minuten-Warteschlangen. Dann SAW - The Ride. Stealth und Colossos sind am Vormittag am besten. Ghost Train erfordert eine Vorab-Eintrittsbuchung. Tidal Wave ist am besten fur einen warmen Nachmittag aufzuheben. Die Thorpe Park App zeigt Live-Wartezeiten.",
+      "it": "Arriva all'apertura e vai direttamente a Hyperia — code di 90 minuti nella prima ora. Poi SAW - The Ride. Stealth e Colossus sono meglio a meta mattina. Ghost Train richiede prenotazione anticipata. Tidal Wave e meglio tenerla per un pomeriggio caldo. L'app Thorpe Park mostra i tempi di attesa in tempo reale.",
+      "nl": "Kom bij de opening en ga direct naar Hyperia — binnen het eerste uur 90-minuten wachtrijen. Dan SAW - The Ride. Stealth en Colossus zijn het beste in de ochtend. Ghost Train vereist vooraf boeken. Tidal Wave is het beste bewaard voor een warme middag. De Thorpe Park app toont live wachttijden.",
+      "pt": "Chega na abertura e vai diretamente ao Hyperia — filas de 90 minutos na primeira hora. Depois SAW - The Ride. Stealth e Colossus sao melhores a meio da manha. Ghost Train requer reserva antecipada. Tidal Wave e melhor guardada para uma tarde quente. A app Thorpe Park mostra os tempos de espera em tempo real.",
+      "ru": "Приходите к открытию и сразу идите к Hyperia — в первый час выстраиваются очереди на 90 минут. Затем SAW — The Ride. Stealth и Colossus лучше всего посещать в середине утра. Ghost Train требует предварительного бронирования. Tidal Wave лучше оставить на тёплый день. Приложение Thorpe Park показывает время ожидания в реальном времени.",
+      "zh": "在开园时到达，直奔Hyperia——在开园第一小时内就会有90分钟的队伍。然后赶去锯子之旅。Stealth和巨兽最好在上午中段攻克。鬼魂列车需要提前预订入场。海浪最好留在温暖的下午。索普公园应用程序显示实时等待时间。如果住在鲨鱼小屋，可以提前进入公园，效果显著。",
+      "ar": "وصل عند الفتح وتوجه مباشرة الى Hyperia — طوابير 90 دقيقة في الساعة الاولى. ثم SAW - The Ride. Stealth وColossus افضل في منتصف الصباح. Ghost Train تتطلب حجزا مسبقا. Tidal Wave افضل للاحتفاظ بها ليوم دافئ. تطبيق Thorpe Park يظهر اوقات الانتظار المباشرة."
+    },
+    "ov_photos_body": {
+      "en": "Hyperia's 236-foot drop photographed from below as riders plummet toward the lake is one of the most dramatic theme park images in the UK. Stealth's launch sequence with the iconic red top hat against the Surrey sky is unmistakeable. The Swarm photographed from the viewing bridge during its low fly-over delivers stunning wing coaster imagery. Colossus's ten-inversion layout photographed from the lakeside reveals the extraordinary complexity of the ride. Ghost Train's atmospheric queue through the haunted station creates incredible photography before you even board. The lake views across the park from the top of any of the major coasters are beautiful, particularly at golden hour. Fright Nights scare zones transform the park into an atmosphere of extraordinary darkness and spectacle.",
+      "es": "La caida de 72 metros de Hyperia fotografiada desde abajo es una de las imagenes de parque tematico mas dramaticas del Reino Unido. El lanzamiento de Stealth con el icónico sombrero rojo. The Swarm fotografiado desde el puente de observacion durante su vuelo rasante. Las vistas del lago desde la cima de cualquier gran montana rusa son hermosas especialmente a la hora dorada.",
+      "fr": "La chute de 72 metres d'Hyperia photographiee depuis le bas est l'une des images de parc d'attractions les plus dramatiques du Royaume-Uni. La sequence de lancement de Stealth avec l'iconique chapeau rouge. The Swarm photographie depuis le pont d'observation lors de son survol a basse altitude. Les vues sur le lac depuis le sommet de n'importe quelle grande montagnes russes sont belles surtout a l'heure doree.",
+      "de": "Hyperias 72-Meter-Sturz von unten fotografiert ist eines der dramatischsten Freizeitparkbilder im Vereinigten Konigreich. Stealths Startsequenz mit dem ikonischen roten Top Hat. The Swarm von der Beobachtungsbucke fotografiert wahrend seines Tiefflugs. Die Seeansichten von der Spitze jeder grossen Achterbahn sind schon besonders zur goldenen Stunde.",
+      "it": "La caduta di 72 metri di Hyperia fotografata dal basso e una delle immagini di parco divertimenti piu drammatiche del Regno Unito. La sequenza di lancio di Stealth con l'iconico cappello rosso. The Swarm fotografato dal ponte di osservazione durante il suo volo radente. Le viste sul lago dalla cima di qualsiasi grande montagna russa sono bellissime specialmente all'ora d'oro.",
+      "nl": "Hyperia's val van 72 meter gefotografeerd van onderaf is een van de meest dramatische attractieparkbeelden in het Verenigd Koninkrijk. Stealth's startsequentie met de iconische rode top hat. The Swarm gefotografeerd van de observatiebrug tijdens zijn lage vlucht. De meerzichten van de top van elke grote achtbaan zijn prachtig vooral bij gouden uur.",
+      "pt": "A queda de 72 metros de Hyperia fotografada de baixo e uma das imagens de parque tematico mais dramaticas do Reino Unido. A sequencia de lancamento de Stealth com o iconico chapeu vermelho. The Swarm fotografado da ponte de observacao durante o seu voo rasante. As vistas do lago do topo de qualquer grande montanha-russa sao belas especialmente na hora dourada.",
+      "ru": "Падение Hyperia с высоты 72 метров, сфотографированное снизу — один из самых драматичных образов тематического парка в Великобритании. Последовательность запуска Stealth с культовым красным цилиндром. The Swarm, сфотографированный с наблюдательного моста во время низкого пролёта. Виды на озеро с вершины любой крупной горки прекрасны особенно в золотой час.",
+      "zh": "Hyperia从下方拍摄的72米俯冲是英国最戏剧性的主题公园图像之一。Stealth发射序列配上标志性红色顶帽。The Swarm在观景桥低空飞越时拍摄的图像令人惊叹。从任何大型过山车顶部俯瞰湖景都很美，尤其是在黄金时刻。",
+      "ar": "سقوط Hyperia البالغ 72 مترا الملتقط من الاسفل هو واحد من اكثر صور متنزهات الترفيه درامية في المملكة المتحدة. تسلسل اطلاق Stealth مع القبعة العلوية الحمراء الايقونية. The Swarm ملتقط من جسر المشاهدة اثناء التحليق المنخفض. مناظر البحيرة من قمة اي اوتوستراد كبير جميلة خاصة في الساعة الذهبية."
+    }
+  },
+  "attractions": {
+    "hyperia": {
+      "desc": {
+        "en": "The UK's tallest (236ft/72m), fastest (81mph/130km/h) and most weightless coaster — with Europe's tallest inversion and the world's first outer-banked airtime hill. Opened 2024. Min. height: 130cm.",
+        "es": "La montana rusa mas alta (72m), rapida (130km/h) y sin gravedad del Reino Unido — con la inversion mas alta de Europa y el primer outer-banked airtime hill del mundo. Inaugurada 2024. Min: 130cm.",
+        "fr": "La plus haute (72m), la plus rapide (130km/h) et la plus apesanteur du Royaume-Uni — avec l'inversion la plus haute d'Europe et le premier outer-banked airtime hill mondial. Ouverte 2024. Min: 130cm.",
+        "de": "Die hochste (72m) schnellste (130km/h) und schwerelos ste Achterbahn des Vereinigten Konigreichs — mit Europas hochster Inversion und dem weltweit ersten outer-banked Airtime Hill. Eroffnet 2024. Mindestgrosse: 130cm.",
+        "it": "La montagna russa piu alta (72m) piu veloce (130km/h) e piu priva di gravita del Regno Unito — con l'inversione piu alta d'Europa e il primo outer-banked airtime hill mondiale. Aperta 2024. Altezza min: 130cm.",
+        "nl": "De hoogste (72m) snelste (130km/h) en meest gewichtloze achtbaan van het VK — met de hoogste inversie van Europa en de 's werelds eerste outer-banked airtime hill. Geopend 2024. Min: 130cm.",
+        "pt": "A mais alta (72m) rapida (130km/h) e sem gravidade do Reino Unido — com a inversao mais alta da Europa e o primeiro outer-banked airtime hill mundial. Inaugurada 2024. Min: 130cm.",
+        "ru": "Самые высокие (72м), быстрые (130км/ч) и невесомые горки Великобритании — с самой высокой инверсией Европы и первым в мире outer-banked airtime hill. Открыты 2024. Мин. рост: 130 см.",
+        "zh": "英国最高（72米）、最快（130公里每小时）和最失重的过山车——拥有欧洲最高翻转和世界首个外倾失重翻转。2024年开放。最低身高：130厘米。",
+        "ar": "اعلى (72م) واسرع (130كم/ساعة) واكثر انعداما للجاذبية في المملكة المتحدة — مع اعلى انعكاس في اوروبا وأول outer-banked airtime hill في العالم. افتتحت 2024. الحد الادنى: 130 سم."
+      }
+    },
+    "stealth": {
+      "desc": {
+        "en": "A hydraulic launch from 0 to 80mph in 1.9 seconds over a 205ft top hat — 17 seconds of pure adrenaline. The UK's fastest launch coaster. Min. height: 140cm.",
+        "es": "Lanzamiento hidraulico de 0 a 130km/h en 1.9 segundos sobre un sombrero de copa de 62m. La launch coaster mas rapida del Reino Unido. Min: 140cm.",
+        "fr": "Lancement hydraulique de 0 a 130km/h en 1.9 secondes sur un chapeau haut de forme de 62m. Le launch coaster le plus rapide du Royaume-Uni. Min: 140cm.",
+        "de": "Hydraulischer Start von 0 auf 130km/h in 1.9 Sekunden uber einen 62m Zylinderhut. Der schnellste Launch Coaster des Vereinigten Konigreichs. Mindestgrosse: 140cm.",
+        "it": "Lancio idraulico da 0 a 130km/h in 1.9 secondi su un cilindro di 62m. Il launch coaster piu veloce del Regno Unito. Min: 140cm.",
+        "nl": "Hydraulische lancering van 0 naar 130km/h in 1.9 seconden over een 62m hoge hoed. De snelste launch coaster van het VK. Min: 140cm.",
+        "pt": "Lancamento hidraulico de 0 a 130km/h em 1.9 segundos sobre um chapeu de copa de 62m. O launch coaster mais rapido do Reino Unido. Min: 140cm.",
+        "ru": "Гидравлический запуск от 0 до 130 км/ч за 1.9 секунды над цилиндром высотой 62 м. Самый быстрый launch coaster Великобритании. Мин. рост: 140 см.",
+        "zh": "在1.9秒内液压发射从0到130公里每小时，越过62米的顶帽——17秒纯肾上腺素。英国最快的发射过山车。最低身高：140厘米。",
+        "ar": "اطلاق هيدروليكي من 0 الى 130كم/ساعة في 1.9 ثانية فوق قبعة عالية 62م. اسرع launch coaster في المملكة المتحدة. الحد الادنى: 140 سم."
+      }
+    },
+    "colossus": {
+      "desc": {
+        "en": "A world-record ten inversions when it opened in 2002 — the most of any coaster on earth at the time. Still one of the most intense and visually spectacular rides in the UK. Min. height: 140cm.",
+        "es": "Un record mundial de diez inversiones cuando abrio en 2002 — las mas de cualquier montana rusa en el mundo en ese momento. Min: 140cm.",
+        "fr": "Un record mondial de dix inversions a son ouverture en 2002 — le plus de n'importe quel coaster au monde a l'epoque. Min: 140cm.",
+        "de": "Ein Weltrekord von zehn Inversionen bei seiner Eroffnung 2002 — die meisten jeder Achterbahn auf der Welt zu dieser Zeit. Mindestgrosse: 140cm.",
+        "it": "Un record mondiale di dieci inversioni alla sua apertura nel 2002 — le piu di qualsiasi coaster al mondo all'epoca. Min: 140cm.",
+        "nl": "Een wereldrecord van tien inversies bij opening in 2002 — de meeste van elke achtbaan ter wereld op dat moment. Min: 140cm.",
+        "pt": "Um recorde mundial de dez inversoes quando abriu em 2002 — as mais de qualquer coaster no mundo na epoca. Min: 140cm.",
+        "ru": "Мировой рекорд — десять инверсий при открытии в 2002 году — больше всего в мире на тот момент. Мин. рост: 140 см.",
+        "zh": "2002年开放时创造世界纪录的十个翻转——当时地球上任何过山车中最多的。最低身高：140厘米。",
+        "ar": "سجل عالمي بعشرة انعكاسات عند افتتاحه عام 2002 — الاكثر لاي اوتوستراد في العالم في ذلك الوقت. الحد الادنى: 140 سم."
+      }
+    },
+    "the_swarm": {
+      "desc": {
+        "en": "The UK's only Wing Coaster — 5 inversions with riders sitting beyond the track with nothing above or below their feet. Post-apocalyptic themed masterpiece. Min. height: 140cm.",
+        "es": "La unica Wing Coaster del Reino Unido — 5 inversiones con riders sentados mas alla de la via sin nada sobre o bajo los pies. Min: 140cm.",
+        "fr": "Le seul Wing Coaster du Royaume-Uni — 5 inversions avec des riders assis au-dela de la voie sans rien au-dessus ou en dessous des pieds. Min: 140cm.",
+        "de": "Der einzige Wing Coaster des Vereinigten Konigreichs — 5 Inversionen mit Fahrern die jenseits des Gleises sitzen ohne etwas uber oder unter den Fussen. Mindestgrosse: 140cm.",
+        "it": "Il solo Wing Coaster del Regno Unito — 5 inversioni con i rider seduti oltre il binario senza niente sopra o sotto i piedi. Min: 140cm.",
+        "nl": "De enige Wing Coaster van het VK — 5 inversies met rijders die buiten het spoor zitten zonder niets boven of onder hun voeten. Min: 140cm.",
+        "pt": "A unica Wing Coaster do Reino Unido — 5 inversoes com riders sentados alem da via sem nada acima ou abaixo dos pes. Min: 140cm.",
+        "ru": "Единственный Wing Coaster Великобритании — 5 инверсий, гости сидят за пределами рельса без ничего над или под ногами. Мин. рост: 140 см.",
+        "zh": "英国唯一的翼式过山车——5个翻转，乘客坐在轨道之外，脚下什么都没有。末世后主题杰作。最低身高：140厘米。",
+        "ar": "Wing Coaster الوحيد في المملكة المتحدة — 5 انعكاسات مع الركاب جالسين خارج المسار دون شيء فوق او تحت اقدامهم. الحد الادنى: 140 سم."
+      }
+    },
+    "saw_the_ride": {
+      "desc": {
+        "en": "Europe's first horror movie roller coaster — dark indoor section with beyond-vertical 100-degree drop inside a Saw-themed building. Genuinely terrifying. Min. height: 140cm.",
+        "es": "La primera montana rusa de pelicula de terror de Europa — seccion interior oscura con caida mas alla de la vertical de 100 grados en un edificio tematico de Saw. Min: 140cm.",
+        "fr": "La premiere montagnes russes de film d'horreur d'Europe — section interieure sombre avec chute au-dela de la verticale de 100 degres dans un batiment theme Saw. Min: 140cm.",
+        "de": "Europas erste Horrorfilm-Achterbahn — dunkler Innenbereich mit uberwertikalem 100-Grad-Abfall in einem Saw-Themen Gebaude. Mindestgrosse: 140cm.",
+        "it": "La prima montagna russa di film horror d'Europa — sezione interna oscura con caduta oltre verticale di 100 gradi in un edificio a tema Saw. Min: 140cm.",
+        "nl": "Europa's eerste horrorfilm achtbaan — donker binnengedeelte met een meer dan verticale val van 100 graden in een Saw-thematisch gebouw. Min: 140cm.",
+        "pt": "A primeira montanha-russa de filme de terror da Europa — secao interior escura com queda alem-vertical de 100 graus num edificio tematico Saw. Min: 140cm.",
+        "ru": "Первые в Европе горки ужасов — тёмная внутренняя секция с падением за вертикаль на 100 градусов внутри здания в стиле Saw. Мин. рост: 140 см.",
+        "zh": "欧洲第一个恐怖电影主题过山车——黑暗室内区域内有超过垂直100度的俯冲，在锯子主题建筑内。最低身高：140厘米。",
+        "ar": "اول اوتوستراد فيلم رعب في اوروبا — قسم داخلي مظلم مع انحدار ما بعد عمودي 100 درجة داخل مبنى ذو طابع Saw. الحد الادنى: 140 سم."
+      }
+    },
+    "nemesis_inferno": {
+      "desc": {
+        "en": "A ferocious B&M Inverted Coaster with 6 inversions and dangling legs — one of the smoothest and most consistently thrilling coasters in the UK. Volcanic jungle themed. Min. height: 140cm.",
+        "es": "Un feroz B&M Inverted Coaster con 6 inversiones y piernas colgando — uno de los mas suaves y consistentemente emocionantes del Reino Unido. Min: 140cm.",
+        "fr": "Un feroce B&M Inverted Coaster avec 6 inversions et jambes pendantes — l'un des plus lisses et des plus coheremment palpitants du Royaume-Uni. Min: 140cm.",
+        "de": "Ein wilder B&M Inverted Coaster mit 6 Inversionen und hangenden Beinen — einer der glattesten und gleichmassigstem aufregenden Achterbahnen im Vereinigten Konigreich. Mindestgrosse: 140cm.",
+        "it": "Un feroce B&M Inverted Coaster con 6 inversioni e gambe pendenti — uno dei piu lisci e costantemente emozionanti del Regno Unito. Min: 140cm.",
+        "nl": "Een woeste B&M Inverted Coaster met 6 inversies en hangende benen — een van de gladste en meest consistent opwindende achtbanen in het VK. Min: 140cm.",
+        "pt": "Um feroz B&M Inverted Coaster com 6 inversoes e pernas penduradas — um dos mais suaves e consistentemente emocionantes do Reino Unido. Min: 140cm.",
+        "ru": "Свирепый B&M Inverted Coaster с 6 инверсиями и свисающими ногами — один из самых плавных и стабильно захватывающих горок Великобритании. Мин. рост: 140 см.",
+        "zh": "凶猛的B&M倒挂过山车，6个翻转，双腿自由悬空——英国最流畅、最持续刺激的过山车之一。火山丛林主题。最低身高：140厘米。",
+        "ar": "B&M Inverted Coaster شرس مع 6 انعكاسات والارجل معلقة — واحد من اكثر الاوتوسترادات سلاسة واثارة مستمرة في المملكة المتحدة. الحد الادنى: 140 سم."
+      }
+    },
+    "tidal_wave": {
+      "desc": {
+        "en": "Europe's tallest water ride when it opened — 85ft drop with a legendary guaranteed soaking for everyone in the boat and watching from the bridge. Essential on warm days. Min. height: 110cm.",
+        "es": "La atraccion acuatica mas alta de Europa cuando abrio — caida de 26m con un legendario empapamiento garantizado. Esencial en dias calidos. Min: 110cm.",
+        "fr": "La plus haute attraction aquatique d'Europe a son ouverture — chute de 26m avec un trempage garanti legendaire. Essentielle les jours chauds. Min: 110cm.",
+        "de": "Europas hochste Wasserattraktion bei der Eroffnung — 26m Sturz mit garantierter legendarer Nassungen. Unverzichtbar an warmen Tagen. Mindestgrosse: 110cm.",
+        "it": "La piu alta attrazione acquatica d'Europa all'apertura — caduta di 26m con un leggendario bagno garantito. Essenziale nelle giornate calde. Min: 110cm.",
+        "nl": "Europa's hoogste waterattractie bij opening — val van 26m met een legendarisch gegarandeerd doorweekt worden. Essentieel op warme dagen. Min: 110cm.",
+        "pt": "A mais alta atracao aquatica da Europa aquando da abertura — queda de 26m com um lendario empapamento garantido. Essencial em dias quentes. Min: 110cm.",
+        "ru": "Самый высокий водный аттракцион Европы при открытии — 26-метровое падение с легендарным гарантированным промоканием. Незаменим в тёплые дни. Мин. рост: 110 см.",
+        "zh": "开放时欧洲最高的水上项目——26米下落，传奇般保证船上所有人和从桥上观看的人都会被浸湿。温暖天气必玩。最低身高：110厘米。",
+        "ar": "اعلى جاذبية مائية في اوروبا عند افتتاحها — انحدار 26م مع بلل مضمون اسطوري. ضرورية في الايام الدافئة. الحد الادنى: 110 سم."
+      }
+    },
+    "detonator": {
+      "desc": {
+        "en": "A classic 30-metre drop tower delivering sudden brutal freefall — one of the most consistently screamed-at attractions at Thorpe Park with great views from the top. Min. height: 130cm.",
+        "es": "Una clasica torre de caida de 30 metros con caida libre brutal repentina. Min: 130cm.",
+        "fr": "Une tour de chute classique de 30 metres avec chute libre brutale soudaine. Min: 130cm.",
+        "de": "Ein klassischer 30-Meter Fallturm mit plotzlichem brutalem Freifall. Mindestgrosse: 130cm.",
+        "it": "Una classica torre di caduta di 30 metri con improvvisa brutale caduta libera. Min: 130cm.",
+        "nl": "Een klassieke 30-meter valtoren met plotselinge brutale vrije val. Min: 130cm.",
+        "pt": "Uma classica torre de queda de 30 metros com queda livre brutal repentina. Min: 130cm.",
+        "ru": "Классическая 30-метровая башня свободного падения с внезапным жестоким падением. Мин. рост: 130 см.",
+        "zh": "经典30米落塔，带来突然残酷的自由落体——索普公园最持续引发尖叫的项目之一，从顶部可欣赏美景。最低身高：130厘米。",
+        "ar": "برج سقوط كلاسيكي 30 متر مع سقوط حر وحشي مفاجئ. الحد الادنى: 130 سم."
+      }
+    },
+    "rush": {
+      "desc": {
+        "en": "A massive pendulum swing through 360 degrees at terrifying speed — intense positive and negative g-forces at the peak of each swing. Min. height: 130cm.",
+        "es": "Un enorme pendulo oscilante de 360 grados a velocidad aterradora — intensas fuerzas g positivas y negativas. Min: 130cm.",
+        "fr": "Un enorme pendule oscillant sur 360 degres a une vitesse terrifiante — forces g positives et negatives intenses. Min: 130cm.",
+        "de": "Ein riesiges Pendelschiff durch 360 Grad bei erschreckender Geschwindigkeit — intensive positive und negative g-Krafte. Mindestgrosse: 130cm.",
+        "it": "Un enorme pendolo oscillante di 360 gradi a velocita terrificante — intense forze g positive e negative. Min: 130cm.",
+        "nl": "Een massieve slingerbeweging van 360 graden op angstaanjagende snelheid — intense positieve en negatieve g-krachten. Min: 130cm.",
+        "pt": "Um enorme pendulo oscilante de 360 graus a velocidade aterrorizante — intensas forcas g positivas e negativas. Min: 130cm.",
+        "ru": "Массивный маятник на 360 градусов с пугающей скоростью — интенсивные положительные и отрицательные g-силы. Мин. рост: 130 см.",
+        "zh": "以恐怖速度摆动360度的巨型钟摆——在每次摆动顶点产生强烈的正负G力。最低身高：130厘米。",
+        "ar": "تأرجح بندول ضخم 360 درجة بسرعة مرعبة — قوى g إيجابية وسلبية مكثفة. الحد الادنى: 130 سم."
+      }
+    },
+    "storm_surge": {
+      "desc": {
+        "en": "A spinning water ride with guaranteed soakings — unpredictable spinning boats swept over a dramatic finale drop. Popular summer favourite. Min. height: 110cm.",
+        "es": "Una atraccion acuatica giratoria con empapamientos garantizados — barcas giratorias impredecibles sobre una caida final dramatica. Min: 110cm.",
+        "fr": "Une attraction aquatique tournante avec baignades garanties — bateaux tournants imprevisibles sur une chute finale dramatique. Min: 110cm.",
+        "de": "Eine Dreh-Wasserfahrt mit garantierten Nassungen — unvorhersehbare Drehboote uber einem dramatischen finalen Abfall. Mindestgrosse: 110cm.",
+        "it": "Un'attrazione acquatica rotante con bagni garantiti — barche rotanti imprevedibili su una caduta finale drammatica. Min: 110cm.",
+        "nl": "Een draaiende waterattractie met gegarandeerd nat worden — onvoorspelbare draaiende boten over een dramatische eindval. Min: 110cm.",
+        "pt": "Uma atracão acuatica giratoria com empapamentos garantidos — barcos giratórios imprevisíveis sobre uma queda final dramatica. Min: 110cm.",
+        "ru": "Вращающийся водный аттракцион с гарантированным промоканием — непредсказуемые вращающиеся лодки над драматическим финальным падением. Мин. рост: 110 см.",
+        "zh": "旋转水上游乐，保证湿透——不可预测的旋转船只被带过戏剧性的终极下落。夏季热门项目。最低身高：110厘米。",
+        "ar": "ركوبة مائية دوارة مع ضمان البلل — قوارب دوارة غير متوقعة على انحدار نهائي درامي. الحد الادنى: 110 سم."
+      }
+    },
+    "vortex": {
+      "desc": {
+        "en": "Suspended chair swings that spin outward while the entire platform tilts — a disorienting combination of spinning and rocking. Popular flat ride. Min. height: 140cm.",
+        "es": "Columpios suspendidos que giran hacia afuera mientras toda la plataforma se inclina. Altura min: 140cm.",
+        "fr": "Balancoires suspendues qui tournent vers l'exterieur pendant que toute la plateforme s'incline. Hauteur min: 140cm.",
+        "de": "Hangende Schaukeln die sich nach aussen drehen wahrend sich die gesamte Plattform neigt. Mindestgrosse: 140cm.",
+        "it": "Altalene sospese che ruotano verso l'esterno mentre l'intera piattaforma si inclina. Min: 140cm.",
+        "nl": "Hangende stoelschommels die naar buiten draaien terwijl het hele platform kantelt. Min: 140cm.",
+        "pt": "Cadeiras suspensas que giram para fora enquanto toda a plataforma inclina. Min: 140cm.",
+        "ru": "Подвесные качели-цепи, вращающиеся наружу, пока вся платформа наклоняется. Мин. рост: 140 см.",
+        "zh": "悬挂式秋千在整个平台倾斜的同时向外旋转——旋转与摇晃的迷失方向组合。最低身高：140厘米。",
+        "ar": "ارجوحات معلقة تدور للخارج بينما تميل المنصة بأكملها. الحد الادنى: 140 سم."
+      }
+    },
+    "walking_dead_the_ride": {
+      "desc": {
+        "en": "Originally the world's first backwards-in-the-dark coaster — now a Walking Dead themed horror experience with zombies, jump scares and backwards travel. Min. height: 140cm.",
+        "es": "Originalmente la primera montana rusa hacia atras en la oscuridad del mundo — ahora una experiencia de terror tematica de Walking Dead. Min: 140cm.",
+        "fr": "A l'origine le premier coaster a reculons dans l'obscurite au monde — maintenant une experience d'horreur thematique Walking Dead. Min: 140cm.",
+        "de": "Ursprunglich die weltweit erste Achterbahn ruckwarts im Dunkeln — jetzt ein Walking Dead Themen-Horror-Erlebnis. Mindestgrosse: 140cm.",
+        "it": "Originariamente il primo coaster al contrario nel buio al mondo — ora un'esperienza horror a tema Walking Dead. Min: 140cm.",
+        "nl": "Oorspronkelijk de 's werelds eerste achtbaan achteruit in het donker — nu een Walking Dead thematische horrorervaring. Min: 140cm.",
+        "pt": "Originalmente o primeiro coaster ao contrario no escuro do mundo — agora uma experiencia de horror tematica de Walking Dead. Min: 140cm.",
+        "ru": "Изначально первые в мире горки назад в темноте — теперь тематический ужас-аттракцион Walking Dead с зомби и прыжковыми пугалками. Мин. рост: 140 см.",
+        "zh": "最初是世界上第一个在黑暗中向后行驶的过山车——现在是行尸走肉主题恐怖体验，有僵尸和突然恐吓。最低身高：140厘米。",
+        "ar": "في الاصل اول اوتوستراد للخلف في الظلام في العالم — الان تجربة رعب موضوعية من Walking Dead. الحد الادنى: 140 سم."
+      }
+    },
+    "ghost_train": {
+      "desc": {
+        "en": "Thorpe Park's acclaimed immersive dark ride — physical sets, live actors and VR creating a genuinely terrifying haunted underground train journey. One of the UK's most innovative attractions. Min. height: 130cm.",
+        "es": "La aclamada dark ride inmersiva de Thorpe Park — decorados fisicos actores reales y VR creando un genuinamente terrorífico viaje en tren subterraneo. Min: 130cm.",
+        "fr": "Le dark ride immersif acclamee de Thorpe Park — decors physiques acteurs reels et VR creant un voyage en train souterrain vraiment terrifiant. Min: 130cm.",
+        "de": "Thorpe Parks gefeierter immersiver Dark Ride — physische Kulissen Live-Schauspieler und VR schaffen eine wirklich erschreckende unterirdische Zugreise. Mindestgrosse: 130cm.",
+        "it": "Il pluripremiato dark ride immersivo di Thorpe Park — set fisici attori reali e VR che creano un viaggio in treno sotterraneo davvero terrificante. Min: 130cm.",
+        "nl": "Thorpe Parks geprezen meeslepende dark ride — fysieke sets live acteurs en VR die een werkelijk angstaanjagende ondergrondse treinreis creeren. Min: 130cm.",
+        "pt": "O aclamado dark ride imersivo de Thorpe Park — cenarios fisicos atores reais e VR criando uma viagem de comboio subterraneo verdadeiramente aterrorizante. Min: 130cm.",
+        "ru": "Отмеченный наградами иммерсивный тёмный аттракцион Thorpe Park — физические декорации, живые актёры и VR создают по-настоящему пугающее путешествие на подземном поезде. Мин. рост: 130 см.",
+        "zh": "索普公园备受赞誉的沉浸式暗室游乐——物理布景、真人演员和VR创造出真正令人恐惧的地下鬼魂列车之旅。英国最具创新性的景点之一。最低身高：130厘米。",
+        "ar": "Dark ride الغامرة المشهودة في Thorpe Park — مجموعات مادية وممثلون حيون وVR تخلق رحلة قطار تحت الارض مرعبة بحق. الحد الادنى: 130 سم."
+      }
+    },
+    "flying_fish": {
+      "desc": {
+        "en": "Thorpe Park's original roller coaster from 1984 — now a gentle family coaster perfect as a first coaster experience for young riders. Suitable from 90cm.",
+        "es": "La montana rusa original de Thorpe Park de 1984 — ahora una suave coaster familiar perfecta como primera experiencia. Apta desde 90cm.",
+        "fr": "Le coaster original de Thorpe Park de 1984 — maintenant un doux coaster familial parfait comme premiere experience. Adapte des 90cm.",
+        "de": "Thorpe Parks originale Achterbahn von 1984 — jetzt ein sanfter Familiencoaster als erste Coaster-Erfahrung. Ab 90cm geeignet.",
+        "it": "Il coaster originale di Thorpe Park del 1984 — ora un dolce coaster familiare perfetto come prima esperienza. Adatto dai 90cm.",
+        "nl": "Thorpe Parks originele achtbaan uit 1984 — nu een zachte familieachtbaan perfect als eerste achtbaanervaring. Geschikt vanaf 90cm.",
+        "pt": "O coaster original de Thorpe Park de 1984 — agora um suave coaster familiar perfeito como primeira experiencia. Adequado a partir de 90cm.",
+        "ru": "Оригинальные горки Thorpe Park с 1984 года — теперь мягкие семейные горки, идеальные как первый опыт. Подходит от 90 см.",
+        "zh": "索普公园1984年的原版过山车——现在是温和的家庭过山车，非常适合作为年幼乘客的首次过山车体验。最低身高：90厘米。",
+        "ar": "اوتوستراد Thorpe Park الاصلي منذ 1984 — الان نشوة عائلية لطيفة مثالية كتجربة اوتوستراد اولى. مناسب من 90 سم."
+      }
+    }
+  },
+  "food": {
+    "food_vibes": {
+      "desc": {
+        "en": "Thorpe Park's central dining hub in the Dome — breakfast buffet 8-10am for cabin guests, evening buffet dinner 5-9pm, live entertainment and a park quiz in the evenings.",
+        "es": "El hub de comedor central de Thorpe Park en el Dome — buffet de desayuno de 8-10am para huespedes de cabana buffet de cena vespertino de 5-9pm entretenimiento en vivo y quiz.",
+        "fr": "Le hub de restauration central de Thorpe Park dans le Dome — buffet petit dejeuner 8-10h pour les clients des cabines buffet diner du soir 17-21h divertissements en direct et quiz.",
+        "de": "Thorpe Parks zentraler Speisesaal im Dome — Fruhstucksbuffet 8-10 Uhr fur Hutten-Gaste Abendbuffet 17-21 Uhr Live-Entertainment und Park-Quiz.",
+        "it": "Il centro ristorativo centrale di Thorpe Park nel Dome — buffet colazione 8-10 per gli ospiti delle cabine buffet cena serale 17-21 intrattenimento dal vivo e quiz.",
+        "nl": "Thorpe Parks centrale eetgelegenheid in de Dome — ontbijtbuffet 8-10u voor cabinegasten avondbuffet 17-21u live entertainment en parkquiz.",
+        "pt": "O hub de refeicoes central de Thorpe Park no Dome — buffet de pequeno-almoco 8-10h para hospedes de cabana buffet de jantar ao fim da tarde 17-21h entretenimento ao vivo e quiz.",
+        "ru": "Центральный ресторанный центр Thorpe Park в Доме — завтрак-буфет 8-10 для гостей кабин, вечерний буфет ужина 17-21, живые развлечения и вечерняя викторина.",
+        "zh": "索普公园在圆顶中心的餐饮中心——小屋住客早餐自助8-10点，晚餐自助17-21点，现场娱乐和公园知识竞赛。",
+        "ar": "مركز الطعام المركزي لـ Thorpe Park في القبة — بوفيه فطور 8-10 لضيوف الكابينة بوفيه عشاء مسائي 17-21 ترفيه مباشر ومسابقة."
+      }
+    },
+    "food_cape_cod": {
+      "desc": {
+        "en": "Classic American diner-style fast food near Amity with burgers, hot dogs and loaded fries — one of the most popular lunchtime stops near Tidal Wave and Stealth.",
+        "es": "Comida rapida estilo diner americano clasico cerca de Amity con hamburguesas perros calientes y papas cargadas — una de las paradas del almuerzo mas populares.",
+        "fr": "Restauration rapide style diner americain classique pres d'Amity avec burgers hot dogs et frites chargees — l'un des arrets dejeuner les plus populaires.",
+        "de": "Klassisches amerikanisches Diner-Fastfood in der Nahe von Amity mit Burgern Hot Dogs und beladenen Pommes — einer der beliebtesten Mittagspausen-Stopps.",
+        "it": "Fast food in stile diner americano classico vicino ad Amity con hamburger hot dog e patatine caricate — uno dei piu popolari punti di pranzo.",
+        "nl": "Klassiek Amerikaans diner-stijl fastfood bij Amity met burgers hotdogs en beladen frietjes — een van de populairste lunchstops.",
+        "pt": "Comida rapida estilo diner americano classico perto de Amity com hamburgueres cachorros quentes e batatas carregadas — uma das paragens de almoco mais populares.",
+        "ru": "Классический американский фастфуд в стиле дайнера у Amity с бургерами, хот-догами и загруженной картошкой фри — один из самых популярных обеденных остановок.",
+        "zh": "Amity附近经典美式小餐馆风格快餐，有汉堡、热狗和满载薯条——海浪和Stealth附近最受欢迎的午餐停靠站之一。",
+        "ar": "وجبات سريعة بأسلوب مطعم امريكي كلاسيكي بالقرب من Amity مع برغر وهوت دوج وبطاطس محملة — واحدة من اكثر محطات الغداء شعبية."
+      }
+    },
+    "food_spice_kitchen": {
+      "desc": {
+        "en": "One of the most distinctive food options at Thorpe Park — fragrant Asian noodle boxes, rice bowls and curries that stand out from standard theme park fare.",
+        "es": "Una de las opciones alimentarias mas distintivas de Thorpe Park — fragrantes noodle boxes asiaticos cuencos de arroz y curries.",
+        "fr": "L'une des options alimentaires les plus distinctives de Thorpe Park — des boites de nouilles asiatiques parfumees des bols de riz et des currys.",
+        "de": "Eine der unverwechselbarsten Speiseoptionen in Thorpe Park — duftende asiatische Nudelboxen Reisschuesseln und Currys.",
+        "it": "Una delle opzioni culinarie piu distintive di Thorpe Park — fragranti noodle box asiatiche ciotole di riso e curry.",
+        "nl": "Een van de meest onderscheidende voedselopties bij Thorpe Park — geurige Aziatische noedelboxen rijstschotels en kerriegerechten.",
+        "pt": "Uma das opcoes alimentares mais distintivas de Thorpe Park — fragantes noodle boxes asiaticas tigelas de arroz e caril.",
+        "ru": "Один из самых самобытных вариантов питания в Thorpe Park — ароматные азиатские коробки с лапшой, рисовые миски и карри.",
+        "zh": "索普公园最具特色的餐饮选择之一——芳香的亚洲面条盒、米饭碗和咖喱，在标准主题公园食品中脱颖而出。",
+        "ar": "واحدة من اكثر خيارات الطعام تميزا في Thorpe Park — صناديق نودل آسيوية عطرية وأطباق أرز وكاري."
+      }
+    },
+    "food_amity_kebab": {
+      "desc": {
+        "en": "Freshly grilled chicken and meat kebabs, shawarma wraps and salad bowls near Amity Beach — generous portions at reasonable prices for a theme park.",
+        "es": "Kebabs de pollo y carne a la parrilla frescos envolturas de shawarma y cuencos de ensalada cerca de Amity Beach — porciones generosas.",
+        "fr": "Kebabs de poulet et de viande fraichement grilles wraps shawarma et bols de salade pres d'Amity Beach — portions genereux.",
+        "de": "Frisch gegrillte Huhnchen- und Fleisch-Kebabs Shawarma-Wraps und Salatschuesseln in der Nahe von Amity Beach — grosszugige Portionen.",
+        "it": "Kebab di pollo e carne freschi wrap shawarma e ciotole di insalata vicino ad Amity Beach — porzioni generose.",
+        "nl": "Vers gegrilde kip- en vleeskebabs shawarma wraps en slakommen bij Amity Beach — royale porties.",
+        "pt": "Kebabs de frango e carne grelhados frescos wraps shawarma e tigelas de salada perto de Amity Beach — porcoes generosas.",
+        "ru": "Свежеприготовленные куриные и мясные кебабы, шаурма-роллы и салатные миски у пляжа Amity — щедрые порции.",
+        "zh": "Amity海滩附近新鲜烧烤的鸡肉和肉类烤串、沙瓦尔马卷饼和沙拉碗——对主题公园来说价格合理的丰盛份量。",
+        "ar": "كباب دجاج ولحم مشوي طازج ولفائف شاورما وأطباق سلطة بالقرب من شاطئ Amity — حصص سخية."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_shark_cabins": {
+      "desc": {
+        "en": "The ultimate Thorpe Park stay — 90 shipping container cabins inside the park gates with ride-themed rooms (Hyperia, Colossus, Stealth, Swarm, Nemesis), breakfast, 2-day tickets and Fastrack included.",
+        "es": "La estancia definitiva en Thorpe Park — 90 cabanas contenedoras dentro de las puertas del parque con habitaciones tematicas de atracciones desayuno entradas de 2 dias y Fastrack incluidos.",
+        "fr": "Le sejour Thorpe Park definitif — 90 cabines conteneurs a l'interieur des portes du parc avec chambres thematiques attractions petit dejeuner billets 2 jours et Fastrack inclus.",
+        "de": "Der ultimative Thorpe Park Aufenthalt — 90 Containerhutten innerhalb der Parktore mit fahrttematischen Zimmern Fruhstuck 2-Tages-Tickets und Fastrack inklusive.",
+        "it": "Il soggiorno definitivo a Thorpe Park — 90 cabine container all'interno dei cancelli del parco con camere a tema attrazioni colazione biglietti 2 giorni e Fastrack inclusi.",
+        "nl": "Het ultieme Thorpe Park verblijf — 90 containerhutten binnen de parkpoorten met rit-thematische kamers ontbijt 2-daagse tickets en Fastrack inbegrepen.",
+        "pt": "A estadia definitiva em Thorpe Park — 90 cabanas de contentores dentro das portas do parque com quartos tematicos de atracoes pequeno-almoco bilhetes de 2 dias e Fastrack incluidos.",
+        "ru": "Максимальный отдых в Thorpe Park — 90 кабин из контейнеров внутри ворот парка с тематическими номерами аттракционов, завтраком, двухдневными билетами и Fastrack.",
+        "zh": "终极索普公园住宿——公园大门内的90个集装箱小屋，配有游乐主题房间（Hyperia、巨兽、Stealth、The Swarm、Nemesis），含早餐、2天门票和快速通道。",
+        "ar": "المقام المثالي في Thorpe Park — 90 كابينة حاوية داخل بوابات المتنزه مع غرف ذات طابع ركوبة وإفطار وتذاكر يومين و Fastrack مشمولة."
+      },
+      "rooms": {
+        "standard_cabin": {
+          "name": { "en": "Standard Shark Cabin", "es": "Cabana Tiburon Estandar", "fr": "Cabine Requin Standard", "de": "Standard Haifisch-Hutte", "it": "Cabina Squalo Standard", "nl": "Standaard Haai Hut", "pt": "Cabana Tubarao Standard", "ru": "Стандартная Кабина Акула", "zh": "标准鲨鱼小屋", "ar": "كابينة القرش القياسية" },
+          "desc": { "en": "Compact nautical-themed cabin with comfortable bedding, en-suite bathroom and breakfast included.", "es": "Cabana nautica compacta con ropa de cama comoda bano en suite y desayuno incluido.", "fr": "Cabine nautique compacte avec literie confortable salle de bain attenante et petit dejeuner inclus.", "de": "Kompakte nautisch gestaltete Hutte mit bequemer Bettwäsche eigenem Bad und Fruhstuck inklusive.", "it": "Cabina nautica compatta con biancheria da letto comoda bagno en suite e colazione inclusa.", "nl": "Compacte nautische hut met comfortabel beddengoed eigen badkamer en ontbijt inbegrepen.", "pt": "Cabana nautica compacta com roupa de cama confortavel casa de banho en suite e pequeno-almoco incluido.", "ru": "Компактная кабина в морском стиле с удобным постельным бельём, отдельной ванной и завтраком.", "zh": "紧凑的航海主题小屋，有舒适的寝具、独立浴室和含早餐。", "ar": "كابينة بحرية مدمجة مع بياضات مريحة وحمام خاص وإفطار مشمول." }
+        },
+        "themed_cabin": {
+          "name": { "en": "Ride Themed Cabin", "es": "Cabana Tematica de Atraccion", "fr": "Cabine Thematique Attraction", "de": "Fahrt-Themen-Hutte", "it": "Cabina a Tema Attrazione", "nl": "Rit-Thematische Hut", "pt": "Cabana Tematica de Atracao", "ru": "Тематическая Кабина Аттракциона", "zh": "游乐主题小屋", "ar": "كابينة ذات طابع ركوبة" },
+          "desc": { "en": "Immersively themed cabin (Hyperia, Colossus, Stealth, Swarm or Nemesis) with Coasters Fastrack, exclusive theming and breakfast.", "es": "Cabana tematizada (Hyperia Colossus Stealth Swarm o Nemesis) con Coasters Fastrack tematizacion exclusiva y desayuno.", "fr": "Cabine thematisee (Hyperia Colossus Stealth Swarm ou Nemesis) avec Coasters Fastrack thematisation exclusive et petit dejeuner.", "de": "Immersiv gestaltete Hutte (Hyperia Colossus Stealth Swarm oder Nemesis) mit Coasters Fastrack exklusiver Gestaltung und Fruhstuck.", "it": "Cabina immersivamente tematizzata (Hyperia Colossus Stealth Swarm o Nemesis) con Coasters Fastrack tematizzazione esclusiva e colazione.", "nl": "Meeslepend thematische hut (Hyperia Colossus Stealth Swarm of Nemesis) met Coasters Fastrack exclusieve theming en ontbijt.", "pt": "Cabana imersivamente tematizada (Hyperia Colossus Stealth Swarm ou Nemesis) com Coasters Fastrack tematizacao exclusiva e pequeno-almoco.", "ru": "Тематическая кабина (Hyperia, Colossus, Stealth, Swarm или Nemesis) с Coasters Fastrack, эксклюзивным оформлением и завтраком.", "zh": "沉浸式主题小屋（Hyperia、巨兽、Stealth、The Swarm或Nemesis），含过山车快速通道、独家主题和早餐。", "ar": "كابينة ذات طابع غامر (Hyperia وColossus وStealth وSwarm أو Nemesis) مع Coasters Fastrack وطابع حصري وإفطار." }
+        }
+      }
+    },
+    "hotel_thorpe_park": {
+      "desc": {
+        "en": "Thorpe Park's partner hotels in Surrey and London offer comfortable 3 and 4-star accommodation at lower prices than the on-site Shark Cabins — ideal for families wanting more space.",
+        "es": "Los hoteles asociados de Thorpe Park en Surrey y Londres ofrecen alojamiento confortable de 3 y 4 estrellas a precios mas bajos que las cabanas en el sitio.",
+        "fr": "Les hotels partenaires de Thorpe Park dans le Surrey et Londres offrent un hebergement confortable 3 et 4 etoiles a des prix inferieurs aux cabines sur place.",
+        "de": "Thorpe Parks Partnerhotels in Surrey und London bieten komfortable 3- und 4-Sterne-Unterkunfte zu niedrigeren Preisen als die Vor-Ort-Hutten.",
+        "it": "Gli hotel partner di Thorpe Park nel Surrey e a Londra offrono sistemazioni confortevoli a 3 e 4 stelle a prezzi inferiori rispetto alle cabine in loco.",
+        "nl": "Thorpe Parks partnerhotels in Surrey en Londen bieden comfortabele 3- en 4-sterren accommodatie tegen lagere prijzen dan de hutten ter plaatse.",
+        "pt": "Os hoteis parceiros de Thorpe Park em Surrey e Londres oferecem alojamento confortavel de 3 e 4 estrelas a precos mais baixos do que as cabanas no local.",
+        "ru": "Отели-партнёры Thorpe Park в Суррее и Лондоне предлагают комфортное проживание 3 и 4 звезды по более низким ценам, чем кабины на месте.",
+        "zh": "索普公园在萨里和伦敦的合作酒店提供舒适的三星和四星住宿，价格低于园内鲨鱼小屋——非常适合需要更多空间的家庭。",
+        "ar": "تقدم فنادق شريكة Thorpe Park في سوري ولندن إقامة مريحة من فئة 3 و4 نجوم بأسعار أقل من الكابينات الموجودة في الموقع."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaard Kamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Comfortable hotel room with double or twin beds, free WiFi and free parking near Thorpe Park.", "es": "Habitacion de hotel conoda con camas dobles o twin WiFi gratuito y aparcamiento gratuito.", "fr": "Chambre d'hotel confortable avec lits doubles ou jumeaux WiFi gratuit et parking gratuit.", "de": "Komfortables Hotelzimmer mit Doppel- oder Zwillingsbetten kostenlosem WLAN und kostenlosem Parkplatz.", "it": "Camera d'albergo confortevole con letti doppi o twin WiFi gratuito e parcheggio gratuito.", "nl": "Comfortabele hotelkamer met twee- of tweepersoonsbedden gratis WiFi en gratis parkeren.", "pt": "Quarto de hotel confortavel com camas casal ou twin WiFi gratuito e estacionamento gratuito.", "ru": "Удобный гостиничный номер с двуспальной или двойной кроватью, бесплатным WiFi и парковкой.", "zh": "舒适酒店客房，有双人或双床、免费WiFi和免费停车场。", "ar": "غرفة فندقية مريحة مع أسرة مزدوجة أو توين وواي فاي مجاني ومواقف مجانية." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious family room with extra beds for children and breakfast included — ideal for families visiting Thorpe Park.", "es": "Amplia habitacion familiar con camas adicionales para ninos y desayuno incluido.", "fr": "Spacieuse chambre familiale avec lits supplementaires pour enfants et petit dejeuner inclus.", "de": "Geraumiges Familienzimmer mit zusatzlichen Betten fur Kinder und Fruhstuck inklusive.", "it": "Camera familiare spaziosa con letti aggiuntivi per bambini e colazione inclusa.", "nl": "Ruime familiekamer met extra bedden voor kinderen en ontbijt inbegrepen.", "pt": "Quarto familiar espacioso com camas extra para criancas e pequeno-almoco incluido.", "ru": "Просторный семейный номер с дополнительными кроватями для детей и включённым завтраком.", "zh": "宽敞家庭客房，有儿童加床和含早餐——非常适合参观索普公园的家庭。", "ar": "غرفة عائلية فسيحة مع أسرة إضافية للأطفال وإفطار مشمول." }
+        }
+      }
+    },
+    "hotel_holiday_inn_staines": {
+      "desc": {
+        "en": "A popular 4-star hotel in Staines-upon-Thames just a short drive from Thorpe Park with modern rooms, restaurant, swimming pool and free parking.",
+        "es": "Un popular hotel de 4 estrellas en Staines-upon-Thames a poca distancia de Thorpe Park con habitaciones modernas restaurante piscina y aparcamiento gratuito.",
+        "fr": "Un populaire hotel 4 etoiles a Staines-upon-Thames a courte distance de Thorpe Park avec des chambres modernes restaurant piscine et parking gratuit.",
+        "de": "Ein beliebtes 4-Sterne Hotel in Staines-upon-Thames in kurzer Fahrt von Thorpe Park mit modernen Zimmern Restaurant Schwimmbad und kostenlosem Parkplatz.",
+        "it": "Un popolare hotel 4 stelle a Staines-upon-Thames a breve distanza da Thorpe Park con camere moderne ristorante piscina e parcheggio gratuito.",
+        "nl": "Een populair 4-sterren hotel in Staines-upon-Thames op korte rijafstand van Thorpe Park met moderne kamers restaurant zwembad en gratis parkeren.",
+        "pt": "Um popular hotel de 4 estrelas em Staines-upon-Thames a curta distancia de Thorpe Park com quartos modernos restaurante piscina e estacionamento gratuito.",
+        "ru": "Популярный 4-звёздочный отель в Стейнс-апон-Темз в коротком заезде от Thorpe Park с современными номерами, рестораном, бассейном и бесплатной парковкой.",
+        "zh": "位于泰晤士河畔斯坦斯的受欢迎四星级酒店，距索普公园仅几分钟车程，有现代客房、餐厅、游泳池和免费停车场。",
+        "ar": "فندق 4 نجوم شعبي في ستينز أون ثيمز على بعد قيادة قصيرة من Thorpe Park مع غرف حديثة ومطعم ومسبح ومواقف مجانية."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaard Kamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Modern 4-star room with king or twin beds, free WiFi, TV and pool access.", "es": "Habitacion moderna de 4 estrellas con camas king o twin WiFi gratuito TV y acceso a la piscina.", "fr": "Chambre moderne 4 etoiles avec lits king ou jumeaux WiFi gratuit TV et acces piscine.", "de": "Modernes 4-Sterne Zimmer mit King- oder Zwillingsbetten kostenlosem WLAN TV und Poolzugang.", "it": "Camera moderna 4 stelle con letti king o twin WiFi gratuito TV e accesso alla piscina.", "nl": "Moderne 4-sterren kamer met king- of tweepersoonsbed gratis WiFi TV en toegang tot het zwembad.", "pt": "Quarto moderno de 4 estrelas com camas king ou twin WiFi gratuito TV e acesso a piscina.", "ru": "Современный 4-звёздочный номер с кроватью king или twin, бесплатным WiFi, ТВ и доступом к бассейну.", "zh": "现代四星级客房，有大床或双床、免费WiFi、电视和泳池通道。", "ar": "غرفة 4 نجوم حديثة مع أسرة كينغ أو توين وواي فاي مجاني وتلفزيون والوصول إلى المسبح." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious family room with extra beds for children, breakfast included and pool access.", "es": "Amplia habitacion familiar con camas adicionales desayuno incluido y acceso a la piscina.", "fr": "Spacieuse chambre familiale avec lits supplementaires petit dejeuner inclus et acces piscine.", "de": "Geraumiges Familienzimmer mit zusatzlichen Kinderbetten Fruhstuck inklusive und Poolzugang.", "it": "Camera familiare spaziosa con letti aggiuntivi per bambini colazione inclusa e accesso alla piscina.", "nl": "Ruime familiekamer met extra kinderbedden ontbijt inbegrepen en zwembadtoegang.", "pt": "Quarto familiar espacioso com camas extra para criancas pequeno-almoco incluido e acesso a piscina.", "ru": "Просторный семейный номер с дополнительными детскими кроватями, завтраком и доступом к бассейну.", "zh": "宽敞家庭客房，有儿童加床、含早餐和泳池通道。", "ar": "غرفة عائلية فسيحة مع أسرة إضافية للأطفال وإفطار مشمول والوصول إلى المسبح." }
+        }
+      }
+    }
+  }
+}

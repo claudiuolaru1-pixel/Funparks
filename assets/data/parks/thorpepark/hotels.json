@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_shark_cabins",
+    "name": "Thorpe Shark Cabins",
+    "description": "The ultimate Thorpe Park overnight experience — 90 unique cabin rooms converted from shipping containers and located directly inside the park gates, just seconds from the world-famous roller coasters. The Shark Cabins are available in standard configuration or in spectacular themed versions inspired by the park's biggest rides: Hyperia, Colossus, Stealth, The Swarm and Nemesis Inferno — each with exclusive theming, easter eggs and immersive details. All stays include buffet breakfast at Vibes Bar & Kitchen, 2-day park tickets and early park access with Fastrack on selected coasters. Themed cabin guests receive an additional Coasters Fastrack pass. Live entertainment and a themed quiz run in the Dome every evening. From around £199 for two adults.",
+    "image": "assets/images/thorpepark/hotel_shark_cabins.png",
+    "lat": 51.4028,
+    "lng": -0.5148,
+    "rating": 4.3,
+    "topPick": true,
+    "website": "https://www.thorpepark.com/short-breaks/accommodation/thorpe-shark-cabins/",
+    "rooms": [
+      {
+        "key": "standard_cabin",
+        "name": "Standard Shark Cabin",
+        "description": "Compact nautical-themed cabin with comfortable bedding, en-suite bathroom, free WiFi and breakfast included. Perfect for two.",
+        "pricePerNight": 99.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "themed_cabin",
+        "name": "Ride Themed Cabin",
+        "description": "Immersively themed cabin (Hyperia, Colossus, Stealth, Swarm or Nemesis Inferno) with exclusive theming, Coasters Fastrack and breakfast included.",
+        "pricePerNight": 149.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_thorpe_park",
+    "name": "Thorpe Park Partner Hotels",
+    "description": "Thorpe Park works with a selection of partner hotels in the surrounding Surrey and London area — including comfortable 3 and 4-star options in Chertsey, Staines and Heathrow — that offer easy access to the park by car or taxi. While these partner hotels do not have direct park access, they provide significantly more space and comfort than the on-site Shark Cabins and are ideal for families wanting a more traditional hotel experience. Rates at partner hotels are generally lower than the on-site cabins and many offer family rooms. Check the Thorpe Park website for current partner hotel listings and package deals.",
+    "image": "assets/images/thorpepark/hotel_thorpe_park.png",
+    "lat": 51.3989,
+    "lng": -0.5067,
+    "rating": 4.0,
+    "topPick": false,
+    "website": "https://www.thorpepark.com/short-breaks/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Hotel Room",
+        "description": "Comfortable standard room at a partner hotel near Thorpe Park with double or twin beds and free parking.",
+        "pricePerNight": 85.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room at a partner hotel with extra beds for children, breakfast optional and easy park access.",
+        "pricePerNight": 120.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_holiday_inn_staines",
+    "name": "Holiday Inn Staines-upon-Thames",
+    "description": "A popular 4-star hotel just a short drive from Thorpe Park in Staines-upon-Thames, offering comfortable modern rooms, a restaurant, swimming pool, fitness centre and free parking. The Holiday Inn Staines is one of the most convenient and well-reviewed hotels for Thorpe Park visitors who prefer the space and amenities of a full-service hotel over the on-site cabins. With good transport links to London and easy access to the M25, it is also an excellent base for exploring Surrey and London before or after a park visit.",
+    "image": "assets/images/thorpepark/park_thumbnail.png",
+    "lat": 51.4311,
+    "lng": -0.5101,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.thorpepark.com/short-breaks/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Modern 4-star room with king or twin beds, free WiFi, TV and access to pool and fitness centre.",
+        "pricePerNight": 110.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room with extra beds, pool access and breakfast included — ideal for families visiting Thorpe Park.",
+        "pricePerNight": 150.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

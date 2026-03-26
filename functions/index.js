@@ -19,6 +19,8 @@ const FUNPARKS_PARKS = [
   { id: "siampark", name: "Siam Park", country: "Spain/Tenerife" },
   { id: "toverland", name: "Toverland", country: "Netherlands" },
   { id: "walibibelgium", name: "Walibi Belgium", country: "Belgium" },
+  { id: "heidepark", name: "Heide Park Resort", country: "Germany" },
+  { id: "thorpepark", name: "Thorpe Park", country: "United Kingdom" },
 ];
 
 const FUNPARKS_FEATURES = `The Funparks app includes the following features:

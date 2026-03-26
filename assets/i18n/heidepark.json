@@ -1,0 +1,394 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Heide Park Resort is the largest amusement park in Northern Germany and one of the most thrilling theme park destinations in the entire country — an 85-hectare powerhouse of world-class roller coasters, family attractions and immersive themed worlds set in the beautiful Luneburg Heath landscape near Soltau, Lower Saxony. Founded in 1978 as a modest woodland adventure park, Heide Park has grown under the ownership of Merlin Entertainments into a genuine European thrill destination renowned for its extraordinary coaster lineup. The park is home to Colossos, one of the tallest and fastest wooden roller coasters ever built at 58 metres and 120 km/h. Flug der Damonen — Flight of the Demons — was Germany's first wing coaster and features the unique Demonic Knot inversion found nowhere else on earth. Krake is Germany's first Dive Coaster, suspended riders above the park's lake before plunging them vertically. Desert Race was Germany's first hydraulic launch coaster, firing riders from 0 to 100 km/h in under two seconds. The park is open from late March through November with special seasonal events including a spectacular Halloween season and Christmas Winter Wonderland. The on-site Abenteuerhotel and Holiday Camp offer incredible themed overnight experiences that transform a day trip into a full multi-day adventure in the Luneburg Heath.",
+      "es": "Heide Park Resort es el parque de atracciones mas grande del norte de Alemania y uno de los destinos de parques tematicos mas emocionantes del pais. Fundado en 1978 y actualmente bajo la propiedad de Merlin Entertainments, alberga Colossos una de las montanas rusas de madera mas altas y rapidas jamas construidas con 58 metros y 120 km/h. Flug der Damonen fue la primera wing coaster de Alemania. Krake es la primera Dive Coaster de Alemania. Desert Race fue la primera coaster de lanzamiento hidraulico de Alemania.",
+      "fr": "Heide Park Resort est le plus grand parc d'attractions du nord de l'Allemagne et l'une des destinations les plus palpitantes du pays. Fonde en 1978 et actuellement sous la propriete de Merlin Entertainments, il abrite Colossos l'une des montagnes russes en bois les plus hautes et rapides jamais construites avec 58 metres et 120 km/h. Flug der Damonen etait le premier wing coaster d'Allemagne. Krake est le premier Dive Coaster d'Allemagne. Desert Race etait le premier coaster hydraulique d'Allemagne.",
+      "de": "Heide Park Resort ist der grosste Freizeitpark Norddeutschlands und eines der aufregendsten Themenpark-Reiseziele im ganzen Land. Gegrundet 1978 und heute im Besitz von Merlin Entertainments beherbergt er Colossos eine der hochsten und schnellsten je gebauten Holzachterbahnen mit 58 Metern und 120 km/h. Flug der Damonen war Deutschlands erster Wing Coaster. Krake ist Deutschlands erster Dive Coaster. Desert Race war Deutschlands erster hydraulischer Launch Coaster.",
+      "it": "Heide Park Resort e il piu grande parco divertimenti della Germania settentrionale e una delle destinazioni di parchi a tema piu emozionanti del paese. Fondato nel 1978 e attualmente di proprieta di Merlin Entertainments ospita Colossos una delle montagne russe in legno piu alte e veloci mai costruite con 58 metri e 120 km/h. Flug der Damonen e stato il primo Wing Coaster della Germania. Krake e il primo Dive Coaster della Germania.",
+      "nl": "Heide Park Resort is het grootste pretpark van Noord-Duitsland en een van de meest opwindende pretparkbestemmingen van het land. Opgericht in 1978 en nu eigendom van Merlin Entertainments herbergt het Colossos een van de hoogste en snelste houten achtbanen ooit gebouwd met 58 meter en 120 km/h. Flug der Damonen was Duitslands eerste Wing Coaster. Krake is Duitslands eerste Dive Coaster. Desert Race was Duitslands eerste hydraulische launch coaster.",
+      "pt": "Heide Park Resort e o maior parque de diversoes do norte da Alemanha e um dos destinos de parques tematicos mais emocionantes do pais. Fundado em 1978 e actualmente propriedade da Merlin Entertainments alberga Colossos uma das montanhas-russas de madeira mais altas e rapidas alguma vez construidas com 58 metros e 120 km/h. Flug der Damonen foi o primeiro Wing Coaster da Alemanha. Krake e o primeiro Dive Coaster da Alemanha.",
+      "ru": "Heide Park Resort — крупнейший парк развлечений Северной Германии и один из самых захватывающих тематических парков страны. Основанный в 1978 году и сейчас принадлежащий Merlin Entertainments, парк является домом для Colossos — одних из самых высоких и быстрых деревянных горок в мире высотой 58 метров и скоростью 120 км/ч. Flug der Damonen был первым в Германии Wing Coaster. Krake — первый Dive Coaster Германии. Desert Race — первый гидравлический launch coaster Германии.",
+      "zh": "海德公园度假村是德国北部最大的游乐园，也是全国最刺激的主题公园目的地之一。创立于1978年，现由Merlin娱乐集团拥有，园内有巨兽——有史以来建造的最高最快木质过山车之一，高58米、时速120公里。飞魔是德国第一个翼式过山车。克拉肯是德国第一个俯冲过山车。沙漠赛是德国第一个液压发射过山车。",
+      "ar": "Heide Park Resort هو اكبر متنزه ترفيهي في شمال المانيا وواحد من اكثر وجهات المتنزهات الموضوعية اثارة في البلاد. تاسس عام 1978 وهو الان ملك Merlin Entertainments يضم Colossos واحدا من اطول واسرع قطارات التلال الخشبية التي بنيت على الاطلاق بارتفاع 58 مترا وسرعة 120 كم/ساعة. كان Flug der Damonen اول Wing Coaster في المانيا. Krake هو اول Dive Coaster في المانيا."
+    },
+    "ov_highlights_body": {
+      "en": "Colossos is Europe's legendary wooden giant — 58 metres, 120 km/h and an Intamin engineering marvel that has thrilled riders since 2001. Flug der Damonen is Germany's first wing coaster with the unique Demonic Knot inversion and an IMAscore soundtrack that puts visitors in a genuinely immersive world. Krake suspends riders over the lake before vertical plunge at 120 km/h — Germany's first Dive Coaster. Desert Race fires from 0 to 100 km/h in under 2 seconds — Germany's first launch coaster. Ghostbusters 5D is the most popular family attraction. The Abenteuerhotel's themed rooms including Peppa Pig and Ghostbusters make overnight stays truly magical. The Bounty Land pirate area with live shows and the Wirtshaus des Admirals restaurant create a complete atmospheric experience.",
+      "es": "Colossos es el gigante de madera legendario de Europa con 58 metros y 120 km/h. Flug der Damonen es la primera wing coaster de Alemania con la unica inversion Demonic Knot. Krake suspende a los riders sobre el lago antes de la caida vertical. Desert Race dispara de 0 a 100 km/h en menos de 2 segundos. Ghostbusters 5D es la atraccion familiar mas popular.",
+      "fr": "Colossos est le geant de bois legendaire d'Europe avec 58 metres et 120 km/h. Flug der Damonen est le premier wing coaster d'Allemagne avec l'inversion unique Demonic Knot. Krake suspend les riders au-dessus du lac avant la plongee verticale. Desert Race tire de 0 a 100 km/h en moins de 2 secondes. Ghostbusters 5D est l'attraction familiale la plus populaire.",
+      "de": "Colossos ist der legendare Holzriese Europas mit 58 Metern und 120 km/h. Flug der Damonen ist Deutschlands erster Wing Coaster mit der einzigartigen Demonic Knot Inversion. Krake hangt Fahrer uber dem See vor dem vertikalen Sturz. Desert Race schiesst von 0 auf 100 km/h in unter 2 Sekunden. Ghostbusters 5D ist die beliebteste Familienattraktion.",
+      "it": "Colossos e il leggendario gigante di legno d'Europa con 58 metri e 120 km/h. Flug der Damonen e il primo wing coaster della Germania con l'inversione unica Demonic Knot. Krake sospende i rider sul lago prima del tuffo verticale. Desert Race spara da 0 a 100 km/h in meno di 2 secondi. Ghostbusters 5D e l'attrazione familiare piu popolare.",
+      "nl": "Colossos is de legendarische houten reus van Europa met 58 meter en 120 km/h. Flug der Damonen is Duitslands eerste wing coaster met de unieke Demonic Knot inversie. Krake hangt rijders boven het meer voor de verticale plons. Desert Race schiet van 0 naar 100 km/h in minder dan 2 seconden. Ghostbusters 5D is de meest populaire familieattractie.",
+      "pt": "Colossos e o lendario gigante de madeira da Europa com 58 metros e 120 km/h. Flug der Damonen e o primeiro wing coaster da Alemanha com a inversao unica Demonic Knot. Krake suspende os riders sobre o lago antes do mergulho vertical. Desert Race dispara de 0 a 100 km/h em menos de 2 segundos. Ghostbusters 5D e a atracao familiar mais popular.",
+      "ru": "Colossos — легендарный деревянный гигант Европы высотой 58 метров и скоростью 120 км/ч. Flug der Damonen — первый в Германии Wing Coaster с уникальной инверсией Demonic Knot. Krake удерживает гостей над озером перед вертикальным падением. Desert Race разгоняется от 0 до 100 км/ч менее чем за 2 секунды. Ghostbusters 5D — самый популярный семейный аттракцион.",
+      "zh": "巨兽是欧洲传奇的木质巨人，高58米、时速120公里。飞魔是德国第一个翼式过山车，拥有独特的恶魔结翻转。克拉肯在湖面上方悬挂乘客，然后垂直俯冲。沙漠赛在不到2秒内从0加速到100公里每小时。幽灵克星5D是最受欢迎的家庭景点。",
+      "ar": "Colossos هو عملاق الخشب الاسطوري في اوروبا بارتفاع 58 مترا وسرعة 120 كم/ساعة. Flug der Damonen هو اول Wing Coaster في المانيا مع انعكاس Demonic Knot الفريد. Krake يعلق الركاب فوق البحيرة قبل الغطسة العمودية. Desert Race يطلق من 0 الى 100 كم/ساعة في اقل من ثانيتين. Ghostbusters 5D هي اكثر جاذبية عائلية شعبية."
+    },
+    "ov_did_you_know_body": {
+      "en": "Heide Park opened on 19 August 1978 as a small woodland park with just six rides — it is one of the oldest continuously operating theme parks in Germany. Colossos, which opened in 2001, was the steepest wooden roller coaster in the world when it launched, until Balder at Liseberg in Sweden opened in 2003. The park sits on over 850,000 square metres — making it physically larger than many better-known European parks. Flug der Damonen's unique inversion — the Demonic Knot — was specifically designed by B&M for Heide Park and exists nowhere else on earth. Desert Race was Germany's first hydraulic launch coaster when it opened in 2002, and the 4.7G forces it generates are comparable to those experienced by Formula 1 drivers. Heide Park is part of Merlin Entertainments, the world's second-largest visitor attraction operator, which also owns Alton Towers, Thorpe Park and LEGOLAND.",
+      "es": "Heide Park abrio el 19 de agosto de 1978 como un pequeno parque de bosque con solo seis atracciones. Colossos que abrio en 2001 fue la montana rusa de madera mas empinada del mundo al inaugurarse. El parque ocupa mas de 850.000 metros cuadrados. La inversion unica de Flug der Damonen el Demonic Knot fue disenada especificamente por B&M para Heide Park. Desert Race fue la primera launch coaster hidraulica de Alemania en 2002.",
+      "fr": "Heide Park a ouvert le 19 aout 1978 comme un petit parc forestier avec seulement six attractions. Colossos ouvert en 2001 etait la montagnes russes en bois la plus raide du monde a son inauguration. Le parc s'etend sur plus de 850.000 metres carres. L'inversione unique de Flug der Damonen le Demonic Knot a ete concue specifiquement par B&M pour Heide Park. Desert Race etait le premier launch coaster hydraulique d'Allemagne en 2002.",
+      "de": "Heide Park eroffnete am 19. August 1978 als kleiner Waldpark mit nur sechs Attraktionen. Colossos das 2001 eroffnete war die steilste Holzachterbahn der Welt bei seiner Eroffnung. Der Park erstreckt sich uber mehr als 850.000 Quadratmeter. Die einzigartige Inversion von Flug der Damonen der Demonic Knot wurde speziell von B&M fur Heide Park entworfen. Desert Race war 2002 Deutschlands erster hydraulischer Launch Coaster.",
+      "it": "Heide Park ha aperto il 19 agosto 1978 come piccolo parco boschivo con solo sei attrazioni. Colossos aperto nel 2001 era la montagna russa in legno piu ripida del mondo alla sua apertura. Il parco si estende su oltre 850.000 metri quadrati. L'inversione unica di Flug der Damonen il Demonic Knot e stata progettata specificamente da B&M per Heide Park. Desert Race era il primo launch coaster idraulico della Germania nel 2002.",
+      "nl": "Heide Park opende op 19 augustus 1978 als een klein bospark met slechts zes attracties. Colossos geopend in 2001 was de steilste houten achtbaan ter wereld bij de opening. Het park beslaat meer dan 850.000 vierkante meter. De unieke inversie van Flug der Damonen de Demonic Knot werd speciaal door B&M ontworpen voor Heide Park. Desert Race was in 2002 Duitslands eerste hydraulische launch coaster.",
+      "pt": "Heide Park abriu a 19 de agosto de 1978 como um pequeno parque florestal com apenas seis atracoes. Colossos inaugurado em 2001 foi a montanha-russa de madeira mais inclinada do mundo na sua abertura. O parque ocupa mais de 850.000 metros quadrados. A inversao unica de Flug der Damonen o Demonic Knot foi especificamente concebida pela B&M para Heide Park. Desert Race foi o primeiro launch coaster hidraulico da Alemanha em 2002.",
+      "ru": "Heide Park открылся 19 августа 1978 года как небольшой лесной парк всего с шестью аттракционами. Colossos, открытый в 2001 году, был самыми крутыми деревянными горками в мире на момент открытия. Парк занимает более 850 000 квадратных метров. Уникальная инверсия Flug der Damonen — Demonic Knot — была специально разработана B&M для Heide Park. Desert Race в 2002 году стал первым гидравлическим launch coaster Германии.",
+      "zh": "海德公园于1978年8月19日作为只有六个项目的小型林地公园开放。2001年开放的巨兽在开放时是世界上最陡峭的木质过山车。公园占地超过850,000平方米。飞魔的独特翻转——恶魔结——是B&M专门为海德公园设计的。沙漠赛在2002年是德国第一个液压发射过山车。",
+      "ar": "افتتح Heide Park في 19 اغسطس 1978 كحديقة غابة صغيرة بست جاذبيات فقط. كان Colossos الذي افتتح عام 2001 اكثر قطارات التلال الخشبية انحداراً في العالم عند افتتاحه. تمتد الحديقة على اكثر من 850000 متر مربع. انعكاس Demonic Knot الفريد لـ Flug der Damonen صمم خصيصا بواسطة B&M لـ Heide Park."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and go straight to Colossos — it builds the longest queues fastest and is best experienced early. Then Desert Race before that queue grows. Flug der Damonen and Krake are best mid-morning. Ghostbusters 5D is popular throughout the day but queues move quickly due to high capacity. The Wirtshaus des Admirals is perfect for lunch — arrive by 11:30am to beat the rush. For families with young children, Bountyland and Grottenblitz are always popular and relatively quick. The park's Heide Express train is a useful way to travel between areas. Download the Heide Park app to check live wait times. An overnight stay at the Abenteuerhotel or Holiday Camp is strongly recommended — the park is very large and two days allows you to experience everything without rushing.",
+      "es": "Llega a la apertura y ve directamente a Colossos — construye las colas mas largas mas rapido. Luego Desert Race. Flug der Damonen y Krake son mejores a media manana. Ghostbusters 5D es popular todo el dia. El Wirtshaus des Admirals es perfecto para almorzar. Se recomienda encarecidamente una estancia nocturna en el Abenteuerhotel o Holiday Camp.",
+      "fr": "Arrivez a l'ouverture et allez directement a Colossos. Ensuite Desert Race. Flug der Damonen et Krake sont mieux en milieu de matinee. Ghostbusters 5D est populaire toute la journee. Le Wirtshaus des Admirals est parfait pour le dejeuner. Un sejour nocturne a l'Abenteuerhotel ou au Holiday Camp est fortement recommande.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Colossos. Dann Desert Race. Flug der Damonen und Krake sind am besten am Vormittag. Ghostbusters 5D ist den ganzen Tag uber beliebt. Das Wirtshaus des Admirals ist perfekt fur das Mittagessen. Ein Ubernachtungsaufenthalt im Abenteuerhotel oder Holiday Camp wird dringend empfohlen.",
+      "it": "Arriva all'apertura e vai direttamente a Colossos. Poi Desert Race. Flug der Damonen e Krake sono meglio a meta mattina. Ghostbusters 5D e popolare tutto il giorno. Il Wirtshaus des Admirals e perfetto per pranzo. Si consiglia vivamente un soggiorno notturno all'Abenteuerhotel o al Holiday Camp.",
+      "nl": "Kom bij de opening en ga direct naar Colossos. Dan Desert Race. Flug der Damonen en Krake zijn het beste in de ochtend. Ghostbusters 5D is de hele dag populair. Het Wirtshaus des Admirals is perfect voor lunch. Een overnachting in het Abenteuerhotel of Holiday Camp wordt sterk aanbevolen.",
+      "pt": "Chega na abertura e vai diretamente ao Colossos. Depois Desert Race. Flug der Damonen e Krake sao melhores a meio da manha. Ghostbusters 5D e popular durante todo o dia. O Wirtshaus des Admirals e perfeito para almoco. Recomenda-se vivamente uma estadia nocturna no Abenteuerhotel ou Holiday Camp.",
+      "ru": "Приходите к открытию и сразу идите к Colossos. Затем Desert Race. Flug der Damonen и Krake лучше всего посещать в середине утра. Ghostbusters 5D популярен весь день. Wirtshaus des Admirals идеален для обеда. Настоятельно рекомендуется ночевка в Abenteuerhotel или Holiday Camp.",
+      "zh": "在开门时到达，直奔巨兽。然后是沙漠赛。飞魔和克拉肯最好在上午中段体验。幽灵克星5D全天都很受欢迎。海军上将客栈是午餐的完美选择。强烈建议在冒险酒店或假日营地过夜——公园非常大，两天才能不急忙地体验所有项目。",
+      "ar": "وصل عند الفتح وتوجه مباشرة الى Colossos. ثم Desert Race. Flug der Damonen وKrake افضل في منتصف الصباح. Ghostbusters 5D شعبي طوال اليوم. Wirtshaus des Admirals مثالي للغداء. يوصى بشدة بالمبيت في Abenteuerhotel او Holiday Camp."
+    },
+    "ov_photos_body": {
+      "en": "The aerial view of Colossos towering over the Luneburg Heath forest is one of the most dramatic roller coaster photographs in Germany. Krake photographed from below as it plunges over the lake creates spectacular water and coaster imagery. Desert Race's launch sequence with the dramatic desert theming is highly photogenic. Flug der Damonen banking over the treetops against the sky is a classic wing coaster photograph. The Bounty Land pirate harbour at dusk with warm lantern light creates atmospheric evening photography. The Abenteuerhotel's elaborately themed rooms including Peppa Pig and Ghostbusters are incredibly photographable for families.",
+      "es": "La vista aerea de Colossos dominando el bosque de Luneburg es una de las fotografias de coaster mas dramaticas de Alemania. Krake fotografiado desde abajo mientras se zambulle sobre el lago crea imagenes espectaculares. El Bounty Land al anochecer con luz calida de faroles crea fotografia atmosferica vespertina.",
+      "fr": "La vue aerienne de Colossos dominant la foret du Luneburg est l'une des photographies de coaster les plus dramatiques d'Allemagne. Krake photographie depuis le bas alors qu'il plonge au-dessus du lac cree des images spectaculaires. Bounty Land au crepuscule avec la lumiere chaude des lanternes cree une photographie atmospherique vesperal.",
+      "de": "Die Luftansicht von Colossos uber dem Luneburgischen Heidewald ist eines der dramatischsten Achterbahnfotos Deutschlands. Krake von unten fotografiert wahrend er uber dem See sturzt schafft spektakulare Bilder. Bounty Land in der Abenddammerung mit warmem Laternenlicht schafft atmospharische Abendfotos.",
+      "it": "La vista aerea di Colossos che domina la foresta della Luneburg Heath e una delle fotografie di coaster piu drammatiche della Germania. Krake fotografato dal basso mentre si tuffa sul lago crea immagini spettacolari. Bounty Land al crepuscolo con luce calda delle lanterne crea fotografia atmosferica serale.",
+      "nl": "Het luchtaanzicht van Colossos die uittorent boven het Luneburgse heidelandschap is een van de meest dramatische achtbaanfoto's in Duitsland. Krake gefotografeerd van onderaf terwijl het boven het meer duikt creert spectaculaire beelden. Bounty Land bij schemering met warm lantaarnlicht creert sfeervolle avondfotografie.",
+      "pt": "A vista aerea de Colossos dominando a floresta de Luneburg e uma das fotografias de coaster mais dramaticas da Alemanha. Krake fotografado de baixo enquanto mergulha sobre o lago cria imagens espetaculares. Bounty Land ao crepusculo com luz quente de lanternas cria fotografia atmosferica noturna.",
+      "ru": "Вид с воздуха на Colossos, возвышающийся над лесом Люнебургской пустоши — одна из самых драматичных фотографий горок в Германии. Krake, сфотографированный снизу в момент погружения над озером, создаёт зрелищные снимки. Bounty Land в сумерках с тёплым светом фонарей создаёт атмосферные вечерние фотографии.",
+      "zh": "巨兽高耸于吕讷堡石南森林上空的鸟瞰图是德国最戏剧性的过山车照片之一。从下方拍摄克拉肯在湖面上俯冲的照片创造出壮观的影像。海盗土地在黄昏时分温暖的灯笼光下创造出大气的夜间摄影。",
+      "ar": "المنظر الجوي لـ Colossos يطغى على غابة Luneburg Heath هو واحد من اكثر صور الاوتوستراد درامية في المانيا. Krake ملتقط من الاسفل اثناء غطسته فوق البحيرة يخلق صورا رائعة. Bounty Land عند الغسق مع الضوء الدافئ للفوانيس يخلق تصويرا جويا مسائيا."
+    }
+  },
+  "attractions": {
+    "colossos": {
+      "desc": {
+        "en": "One of Europe's legendary wooden coasters — 58m tall, 120 km/h and an Intamin engineering marvel. The tallest and fastest wooden coaster in Northern Germany. Min. height: 130cm.",
+        "es": "Una de las legendarias montanas rusas de madera de Europa — 58m de altura, 120 km/h. La mas alta y rapida del norte de Alemania. Altura min: 130cm.",
+        "fr": "L'un des legendaires coasters en bois d'Europe — 58m de hauteur, 120 km/h. Le plus haut et le plus rapide du nord de l'Allemagne. Hauteur min: 130cm.",
+        "de": "Eine der legendaren Holzachterbahnen Europas — 58m hoch, 120 km/h. Die hochste und schnellste Holzachterbahn Norddeutschlands. Mindestgrosse: 130cm.",
+        "it": "Una delle leggendarie montagne russe in legno d'Europa — 58m di altezza, 120 km/h. La piu alta e veloce del nord della Germania. Altezza min: 130cm.",
+        "nl": "Een van de legendarische houten achtbanen van Europa — 58m hoog, 120 km/h. De hoogste en snelste houten achtbaan van Noord-Duitsland. Min grootte: 130cm.",
+        "pt": "Uma das lendarias montanhas-russas de madeira da Europa — 58m de altura, 120 km/h. A mais alta e rapida do norte da Alemanha. Altura min: 130cm.",
+        "ru": "Одни из легендарных деревянных горок Европы — 58 м высотой, 120 км/ч. Самые высокие и быстрые деревянные горки Северной Германии. Мин. рост: 130 см.",
+        "zh": "欧洲传奇木质过山车之一——高58米，时速120公里。德国北部最高最快的木质过山车。最低身高：130厘米。",
+        "ar": "واحد من قطارات التلال الخشبية الاسطورية في اوروبا — 58م ارتفاعا 120 كم/ساعة. الاعلى والاسرع في شمال المانيا. الحد الادنى للطول: 130 سم."
+      }
+    },
+    "flug_der_damonen": {
+      "desc": {
+        "en": "Germany's first Wing Coaster with 5 inversions including the unique Demonic Knot found nowhere else on earth. 40m tall with an immersive demonic soundtrack. Min. height: 140cm.",
+        "es": "El primer Wing Coaster de Alemania con 5 inversiones incluyendo el unico Demonic Knot. 40m de altura con banda sonora demoniaca inmersiva. Altura min: 140cm.",
+        "fr": "Le premier Wing Coaster d'Allemagne avec 5 inversions dont le Demonic Knot unique au monde. 40m de hauteur avec une bande son demoniaque immersive. Hauteur min: 140cm.",
+        "de": "Deutschlands erster Wing Coaster mit 5 Inversionen einschliesslich des einzigartigen Demonic Knot den es nirgendwo sonst auf der Welt gibt. 40m hoch mit immersivem damonischem Soundtrack. Mindestgrosse: 140cm.",
+        "it": "Il primo Wing Coaster della Germania con 5 inversioni incluso il Demonic Knot unico al mondo. 40m di altezza con colonna sonora demoniaca immersiva. Altezza min: 140cm.",
+        "nl": "Duitslands eerste Wing Coaster met 5 inversies inclusief de unieke Demonic Knot die nergens anders op aarde bestaat. 40m hoog met meeslepende demonische soundtrack. Min grootte: 140cm.",
+        "pt": "O primeiro Wing Coaster da Alemanha com 5 inversoes incluindo o unico Demonic Knot do mundo. 40m de altura com banda sonora demoniaca imersiva. Altura min: 140cm.",
+        "ru": "Первый в Германии Wing Coaster с 5 инверсиями, включая уникальный Demonic Knot, не существующий нигде больше на Земле. 40 м высотой с атмосферным демоническим саундтреком. Мин. рост: 140 см.",
+        "zh": "德国第一个翼式过山车，有5个翻转，包括世界上独一无二的恶魔结。40米高，配有沉浸式恶魔配乐。最低身高：140厘米。",
+        "ar": "اول Wing Coaster في المانيا مع 5 انعكاسات بما فيها Demonic Knot الفريد الذي لا يوجد في اي مكان اخر على الارض. 40م ارتفاعا مع موسيقى شيطانية غامرة. الحد الادنى للطول: 140 سم."
+      }
+    },
+    "krake": {
+      "desc": {
+        "en": "Germany's first Dive Coaster — riders are suspended above the lake for agonising seconds before plunging vertically at 120 km/h. An absolutely world-class experience. Min. height: 140cm.",
+        "es": "La primera Dive Coaster de Alemania — los riders se suspenden sobre el lago durante segundos agonizantes antes de zambullirse verticalmente a 120 km/h. Min altura: 140cm.",
+        "fr": "Le premier Dive Coaster d'Allemagne — les riders sont suspendus au-dessus du lac pendant des secondes agonisantes avant de plonger verticalement a 120 km/h. Hauteur min: 140cm.",
+        "de": "Deutschlands erster Dive Coaster — Fahrer werden fur qualvolle Sekunden uber dem See gehalten bevor sie vertikal mit 120 km/h stürzen. Mindestgrosse: 140cm.",
+        "it": "Il primo Dive Coaster della Germania — i rider vengono sospesi sul lago per agonizzanti secondi prima di tuffarsi verticalmente a 120 km/h. Altezza min: 140cm.",
+        "nl": "Duitslands eerste Dive Coaster — rijders worden boven het meer gehangen voor kwellende seconden voor ze verticaal plonzen op 120 km/h. Min grootte: 140cm.",
+        "pt": "O primeiro Dive Coaster da Alemanha — os riders ficam suspensos sobre o lago por segundos agonizantes antes de mergulharem verticalmente a 120 km/h. Altura min: 140cm.",
+        "ru": "Первый Dive Coaster Германии — гостей удерживают над озером на мучительные секунды перед вертикальным падением на 120 км/ч. Мин. рост: 140 см.",
+        "zh": "德国第一个俯冲过山车——乘客在湖面上方被痛苦地悬挂数秒，然后以120公里每小时垂直俯冲。绝对是世界级体验。最低身高：140厘米。",
+        "ar": "اول Dive Coaster في المانيا — الركاب معلقون فوق البحيرة لثوان مؤلمة قبل الغطس العمودي بسرعة 120 كم/ساعة. الحد الادنى للطول: 140 سم."
+      }
+    },
+    "desert_race": {
+      "desc": {
+        "en": "Germany's first launch coaster — 0 to 100 km/h in under 2 seconds generating 4.7G forces comparable to a Formula 1 car. An unforgettable adrenaline rush. Min. height: 140cm.",
+        "es": "La primera launch coaster de Alemania — de 0 a 100 km/h en menos de 2 segundos generando 4.7G. Min altura: 140cm.",
+        "fr": "Le premier launch coaster d'Allemagne — de 0 a 100 km/h en moins de 2 secondes generant 4.7G. Hauteur min: 140cm.",
+        "de": "Deutschlands erster Launch Coaster — von 0 auf 100 km/h in unter 2 Sekunden mit 4.7G Kraeften vergleichbar einem Formel-1-Auto. Mindestgrosse: 140cm.",
+        "it": "Il primo launch coaster della Germania — da 0 a 100 km/h in meno di 2 secondi generando 4.7G. Altezza min: 140cm.",
+        "nl": "Duitslands eerste launch coaster — van 0 naar 100 km/h in minder dan 2 seconden met 4.7G krachten. Min grootte: 140cm.",
+        "pt": "O primeiro launch coaster da Alemanha — de 0 a 100 km/h em menos de 2 segundos gerando 4.7G. Altura min: 140cm.",
+        "ru": "Первый launch coaster Германии — от 0 до 100 км/ч менее чем за 2 секунды с силой 4.7G сравнимой с автомобилем Формулы 1. Мин. рост: 140 см.",
+        "zh": "德国第一个发射过山车——在不到2秒内从0加速到100公里每小时，产生4.7G的力，堪比一级方程式赛车。最低身高：140厘米。",
+        "ar": "اول launch coaster في المانيا — من 0 الى 100 كم/ساعة في اقل من ثانيتين مولدا قوى 4.7G مماثلة لسيارة فورمولا 1. الحد الادنى للطول: 140 سم."
+      }
+    },
+    "limit": {
+      "desc": {
+        "en": "A classic Vekoma suspended looping coaster with 5 inversions and freely dangling legs — Germany's first suspended looping coaster still delivering genuine thrills. Min. height: 130cm.",
+        "es": "Un clasico Vekoma suspended looping coaster con 5 inversiones y piernas colgando libremente. Altura min: 130cm.",
+        "fr": "Un classique Vekoma suspended looping coaster avec 5 inversions et jambes pendantes librement. Hauteur min: 130cm.",
+        "de": "Ein klassischer Vekoma aufgehangter Looping-Coaster mit 5 Inversionen und frei hangenden Beinen. Mindestgrosse: 130cm.",
+        "it": "Un classico Vekoma suspended looping coaster con 5 inversioni e gambe che pendono liberamente. Altezza min: 130cm.",
+        "nl": "Een klassieke Vekoma suspended looping coaster met 5 inversies en vrij hangende benen. Min grootte: 130cm.",
+        "pt": "Um classico Vekoma suspended looping coaster com 5 inversoes e pernas pendendo livremente. Altura min: 130cm.",
+        "ru": "Классический подвесной петлевой Vekoma с 5 инверсиями и свободно свисающими ногами. Мин. рост: 130 см.",
+        "zh": "经典Vekoma悬挂式环形过山车，5个翻转，双腿自由悬空。最低身高：130厘米。",
+        "ar": "Vekoma suspended looping coaster كلاسيكي مع 5 انعكاسات والارجل تتدلى بحرية. الحد الادنى للطول: 130 سم."
+      }
+    },
+    "big_loop": {
+      "desc": {
+        "en": "A classic Vekoma looping coaster with 4 inversions located near Heide Park's beautiful lake — two loops and a double corkscrew in a photogenic lakeside setting. Min. height: 130cm.",
+        "es": "Un clasico Vekoma looping coaster con 4 inversiones junto al hermoso lago. Min altura: 130cm.",
+        "fr": "Un classique Vekoma looping coaster avec 4 inversions pres du beau lac. Hauteur min: 130cm.",
+        "de": "Ein klassischer Vekoma Looping-Coaster mit 4 Inversionen am schonen See. Mindestgrosse: 130cm.",
+        "it": "Un classico Vekoma looping coaster con 4 inversioni vicino al bello lago. Altezza min: 130cm.",
+        "nl": "Een klassieke Vekoma looping coaster met 4 inversies bij het mooie meer. Min grootte: 130cm.",
+        "pt": "Um classico Vekoma looping coaster com 4 inversoes perto do belo lago. Altura min: 130cm.",
+        "ru": "Классический Vekoma looping coaster с 4 инверсиями у красивого озера. Мин. рост: 130 см.",
+        "zh": "经典Vekoma环形过山车，4个翻转，位于美丽湖边——两个环形和双重螺旋。最低身高：130厘米。",
+        "ar": "Vekoma looping coaster كلاسيكي مع 4 انعكاسات بالقرب من البحيرة الجميلة. الحد الادنى للطول: 130 سم."
+      }
+    },
+    "scream": {
+      "desc": {
+        "en": "A towering giant drop ride visible from across the park — slow ascent to terrifying heights then sudden brutal freefall. One of Heide Park's most screamed-about attractions. Min. height: 140cm.",
+        "es": "Una enorme atraccion de caida visible desde todo el parque — ascenso lento a alturas terrorificas luego caida libre brutal. Min altura: 140cm.",
+        "fr": "Une grande attraction de chute visible depuis tout le parc — montee lente a des hauteurs terrifiantes puis chute libre brutale. Hauteur min: 140cm.",
+        "de": "Eine riesige Fallturmfahrt vom ganzen Park aus sichtbar — langsamer Aufstieg auf terrifizierende Hohen dann brutaler Freifall. Mindestgrosse: 140cm.",
+        "it": "Una grande attrazione di caduta visibile da tutto il parco — lenta salita ad altezze terrificanti poi brutale caduta libera. Altezza min: 140cm.",
+        "nl": "Een torenhoge valtoren zichtbaar vanuit het hele park — langzame stijging naar angstaanjagende hoogte dan brutale vrije val. Min grootte: 140cm.",
+        "pt": "Uma gigantesca atracão de queda visivel de todo o parque — subida lenta a alturas aterrorizantes depois queda livre brutal. Altura min: 140cm.",
+        "ru": "Огромный аттракцион свободного падения, видный со всего парка — медленный подъём на пугающую высоту, затем жестокое свободное падение. Мин. рост: 140 см.",
+        "zh": "从公园各处可见的巨型跳楼机——缓慢上升到令人恐惧的高度，然后突然残酷地自由落体。最低身高：140厘米。",
+        "ar": "ركوبة سقوط عملاقة مرئية من جميع انحاء المتنزه — صعود بطيء الى ارتفاعات مرعبة ثم سقوط حر وحشي مفاجئ. الحد الادنى للطول: 140 سم."
+      }
+    },
+    "sturmfahrt": {
+      "desc": {
+        "en": "Classic river rapids delivering white water thrills and guaranteed soakings for the whole family. One of Heide Park's most popular summer attractions. Min. height: 100cm.",
+        "es": "Rapidos de rio clasicos con emocionantes aguas blancas y empapadas garantizadas para toda la familia. Min altura: 100cm.",
+        "fr": "Rapides de riviere classiques avec sensations d'eaux vives et baignades garanties pour toute la famille. Hauteur min: 100cm.",
+        "de": "Klassische Stromschnellen mit Wildwasserthrills und garantierten Nassungen fur die ganze Familie. Mindestgrosse: 100cm.",
+        "it": "Classiche rapide del fiume con brividi di acque bianche e garanzia di bagni per tutta la famiglia. Altezza min: 100cm.",
+        "nl": "Klassieke rivierstroomversnellingen met wildwaterthills en gegarandeerd nat worden voor het hele gezin. Min grootte: 100cm.",
+        "pt": "Classicos rapidos de rio com brividos de aguas bravas e empapados garantidos para toda a familia. Altura min: 100cm.",
+        "ru": "Классические речные пороги с адреналином белой воды и гарантированным промоканием для всей семьи. Мин. рост: 100 см.",
+        "zh": "经典河流急流，为全家提供白水刺激和保证湿透的体验。最低身高：100厘米。",
+        "ar": "منحدرات نهرية كلاسيكية مع اثارة المياه البيضاء وضمان البلل للعائلة بأكملها. الحد الادنى للطول: 100 سم."
+      }
+    },
+    "bobbahn": {
+      "desc": {
+        "en": "One of the world's largest Mack bobsled coasters — 3,250 feet of swooping, banking excitement. A beloved Heide Park classic since 1981. Min. height: 110cm.",
+        "es": "Una de las mayores bobsled coasters de Mack del mundo — 991 metros de emocion inclinada. Un clasico amado de Heide Park desde 1981. Altura min: 110cm.",
+        "fr": "L'un des plus grands coasters bobsleigh de Mack au monde — 991 metres d'excitement incline. Un classique bien-aime de Heide Park depuis 1981. Hauteur min: 110cm.",
+        "de": "Eine der grossten Mack Bobsled Coaster der Welt — 991 Meter schwungvoller aufregender Fahrt. Ein geliebter Heide Park Klassiker seit 1981. Mindestgrosse: 110cm.",
+        "it": "Una delle piu grandi Mack bobsled coaster al mondo — 991 metri di eccitazione inclinata. Un amato classico di Heide Park dal 1981. Altezza min: 110cm.",
+        "nl": "Een van de grootste Mack bobsled coasters ter wereld — 991 meter zwierige opwindende rit. Een geliefde Heide Park klassieker sinds 1981. Min grootte: 110cm.",
+        "pt": "Uma das maiores Mack bobsled coasters do mundo — 991 metros de emocionante inclinacao. Um amado classico de Heide Park desde 1981. Altura min: 110cm.",
+        "ru": "Один из крупнейших в мире бобслейных Mack coasters — 991 метр захватывающего скольжения. Любимая классика Heide Park с 1981 года. Мин. рост: 110 см.",
+        "zh": "世界上最大的Mack雪橇过山车之一——991米的俯冲倾斜刺激。自1981年以来深受喜爱的海德公园经典项目。最低身高：110厘米。",
+        "ar": "واحدة من اكبر Mack bobsled coasters في العالم — 991 مترا من الاثارة المنحنية. كلاسيكية Heide Park المحبوبة منذ 1981. الحد الادنى للطول: 110 سم."
+      }
+    },
+    "ghostbusters": {
+      "desc": {
+        "en": "An exciting 5D interactive dark ride — join the Ghostbusters to hunt and blast ghosts competing for the highest score. The most popular family attraction at Heide Park. Suitable for all ages.",
+        "es": "Una emocionante dark ride 5D interactiva — unete a los Ghostbusters para cazar y disparar fantasmas. La atraccion familiar mas popular en Heide Park. Apto para todas las edades.",
+        "fr": "Une dark ride 5D interactive passionnante — rejoindre les Ghostbusters pour chasser et tirer sur des fantomes. L'attraction familiale la plus populaire a Heide Park. Convient a tous les ages.",
+        "de": "Ein aufregender interaktiver 5D Dark Ride — schliesse dich den Ghostbusters an um Geister zu jagen und abzuschiessen. Die beliebteste Familienattraktion in Heide Park. Fur alle Altersgruppen geeignet.",
+        "it": "Un emozionante dark ride 5D interattivo — unisciti ai Ghostbusters per cacciare e sparare fantasmi. L'attrazione familiare piu popolare a Heide Park. Adatto a tutti i tipi.",
+        "nl": "Een spannende interactieve 5D dark ride — sluit je aan bij de Ghostbusters om geesten te jagen en te schieten. De meest populaire familieattractie in Heide Park. Geschikt voor alle leeftijden.",
+        "pt": "Um emocionante dark ride 5D interativo — junta-te aos Ghostbusters para cacas e atirar a fantasmas. A atracao familiar mais popular em Heide Park. Adequado para todas as idades.",
+        "ru": "Захватывающий интерактивный 5D тёмный аттракцион — присоединяйтесь к Ghostbusters для охоты и стрельбы по призракам. Самый популярный семейный аттракцион в Heide Park. Подходит для всех возрастов.",
+        "zh": "刺激的5D互动暗室游乐——加入幽灵克星团队猎杀幽灵，争夺最高分。海德公园最受欢迎的家庭景点。适合所有年龄段。",
+        "ar": "Dark ride تفاعلي 5D مثير — انضم الى Ghostbusters لصيد الاشباح وإطلاق النار عليها. اكثر جاذبية عائلية شعبية في Heide Park. مناسب لجميع الاعمار."
+      }
+    },
+    "grottenblitz": {
+      "desc": {
+        "en": "A classic log flume through atmospheric dark grottos and caverns with a splashing final drop. A beloved Heide Park family favourite since 1984. Min. height: 90cm.",
+        "es": "Un tobogan acuatico clasico a traves de oscuras grutas y cavernas con un splash final. Un querido clasico familiar de Heide Park desde 1984. Altura min: 90cm.",
+        "fr": "Un toboggan aquatique classique a travers d'atmospheriques grottes sombres avec un splash final. Un classique familial bien-aime de Heide Park depuis 1984. Hauteur min: 90cm.",
+        "de": "Eine klassische Logflume durch atmospharische dunkle Grotten und Hohlen mit abschliessendem Splash. Ein geliebter Heide Park Familienklassiker seit 1984. Mindestgrosse: 90cm.",
+        "it": "Un classico log flume attraverso atmosferiche grotte oscure con un splash finale. Un amato classico familiare di Heide Park dal 1984. Altezza min: 90cm.",
+        "nl": "Een klassieke log flume door sfeervolle donkere grotten met een spetterende finale. Een geliefde Heide Park familieklassieker sinds 1984. Min grootte: 90cm.",
+        "pt": "Um classico log flume atraves de atmosfericas grutas escuras com um splash final. Um amado classico familiar de Heide Park desde 1984. Altura min: 90cm.",
+        "ru": "Классический лодочный аттракцион через атмосферные тёмные гроты с финальным всплеском. Любимая семейная классика Heide Park с 1984 года. Мин. рост: 90 см.",
+        "zh": "经典独木舟穿越大气黑暗石窟和洞穴，以壮观的终极水花收尾。自1984年以来深受喜爱的海德公园家庭经典项目。最低身高：90厘米。",
+        "ar": "جذع خشبي كلاسيكي عبر كهوف مظلمة جوية مع رشة نهائية. كلاسيكية Heide Park العائلية المحبوبة منذ 1984. الحد الادنى للطول: 90 سم."
+      }
+    },
+    "wilde_maus": {
+      "desc": {
+        "en": "A classic wild mouse with sharp hairpin turns and unexpected drops — fast enough to excite older children while manageable for families. Min. height: 100cm.",
+        "es": "Un clasico wild mouse con curvas cerradas y caidas inesperadas. Altura min: 100cm.",
+        "fr": "Un classique wild mouse avec des virages serres et des chutes inattendues. Hauteur min: 100cm.",
+        "de": "Eine klassische Wilde Maus mit scharfen Haarnadelkurven und unerwarteten Abfallen. Mindestgrosse: 100cm.",
+        "it": "Un classico wild mouse con curve a gomito e cadute inaspettate. Altezza min: 100cm.",
+        "nl": "Een klassieke wilde muis met scherpe haarbochten en onverwachte dalingen. Min grootte: 100cm.",
+        "pt": "Um classico wild mouse com curvas fechadas e quedas inesperadas. Altura min: 100cm.",
+        "ru": "Классическая дикая мышь с резкими поворотами и неожиданными падениями. Мин. рост: 100 см.",
+        "zh": "经典野鼠，有急转弯和意外下坡——对年长儿童足够刺激，但家庭也能驾驭。最低身高：100厘米。",
+        "ar": "Wild mouse كلاسيكي مع منعطفات حادة وانحدارات غير متوقعة. الحد الادنى للطول: 100 سم."
+      }
+    },
+    "indy_blitz": {
+      "desc": {
+        "en": "A family adventure coaster with exciting twists and turns — perfect for older children seeking first real coaster thrills in an adventurous themed setting. Min. height: 100cm.",
+        "es": "Una coaster familiar de aventura con giros y curvas emocionantes. Altura min: 100cm.",
+        "fr": "Un coaster familial d'aventure avec des tours et des virages passionnants. Hauteur min: 100cm.",
+        "de": "Ein Familienabenteuercoaster mit aufregenden Kurven und Drehungen. Mindestgrosse: 100cm.",
+        "it": "Un coaster familiare d'avventura con curve ed entusiasmanti svoltate. Altezza min: 100cm.",
+        "nl": "Een familieavonturencoaster met spannende bochten en draaien. Min grootte: 100cm.",
+        "pt": "Um coaster familiar de aventura com curvas e giros emocionantes. Altura min: 100cm.",
+        "ru": "Семейный приключенческий coaster с захватывающими поворотами и изгибами. Мин. рост: 100 см.",
+        "zh": "冒险家庭过山车，有刺激的扭转和转弯——非常适合寻找首次真正过山车刺激的年长儿童。最低身高：100厘米。",
+        "ar": "اوتوستراد عائلي مغامر مع منعطفات واثارة مثيرة. الحد الادنى للطول: 100 سم."
+      }
+    },
+    "bountyland": {
+      "desc": {
+        "en": "The atmospheric pirate harbour area at the heart of Heide Park with swinging ship, live shows and the Wirtshaus des Admirals restaurant. Min. height: 120cm for ship ride.",
+        "es": "El atmosferico area de puerto pirata en el corazon de Heide Park con barco oscilante espectaculos en vivo y el restaurante Wirtshaus des Admirals. Altura min: 120cm.",
+        "fr": "La zone atmosferique du port pirate au coeur de Heide Park avec navire oscillant spectacles en direct et le restaurant Wirtshaus des Admirals. Hauteur min: 120cm.",
+        "de": "Das atmospharische Piratenhafen-Areal im Herzen von Heide Park mit Schaukelschiff Live-Shows und dem Wirtshaus des Admirals. Mindestgrosse: 120cm.",
+        "it": "La zona atmosferica del porto pirata nel cuore di Heide Park con nave oscillante spettacoli dal vivo e il ristorante Wirtshaus des Admirals. Altezza min: 120cm.",
+        "nl": "Het sfeervolle piratenhavengebied in het hart van Heide Park met schommelend schip live shows en het Wirtshaus des Admirals restaurant. Min grootte: 120cm.",
+        "pt": "A atmosferica area do porto pirata no coracao de Heide Park com navio oscilante espetaculos ao vivo e o restaurante Wirtshaus des Admirals. Altura min: 120cm.",
+        "ru": "Атмосферная пиратская гаванная зона в сердце Heide Park с качающимся кораблём, живыми шоу и рестораном Wirtshaus des Admirals. Мин. рост: 120 см.",
+        "zh": "海德公园心脏地带充满气氛的海盗港区域，有摇摆船、现场表演和海军上将客栈餐厅。最低身高：120厘米。",
+        "ar": "منطقة ميناء القراصنة الجوية في قلب Heide Park مع سفينة تتأرجح وعروض مباشرة ومطعم Wirtshaus des Admirals. الحد الادنى للطول: 120 سم."
+      }
+    },
+    "panoramabahn": {
+      "desc": {
+        "en": "A relaxing scenic railway looping through the entire park with beautiful views over the lake and Luneburg Heath landscape. Perfect for young children and a peaceful break between thrills. Suitable for all ages.",
+        "es": "Un relajante ferrocarril escenico que recorre todo el parque con hermosas vistas sobre el lago. Perfecto para ninos pequenos. Apto para todas las edades.",
+        "fr": "Un chemin de fer pittoresque relaxant qui fait le tour de tout le parc avec de belles vues sur le lac. Parfait pour les jeunes enfants. Convient a tous les ages.",
+        "de": "Eine entspannende Panoramabahn durch den gesamten Park mit schonen Blicken uber den See. Perfekt fur kleine Kinder. Fur alle Altersgruppen geeignet.",
+        "it": "Una rilassante ferrovia panoramica che attraversa tutto il parco con belle viste sul lago. Perfetta per i bambini piccoli. Adatto a tutte le eta.",
+        "nl": "Een ontspannende panoramische spoorweg door het hele park met prachtig uitzicht over het meer. Perfect voor jonge kinderen. Geschikt voor alle leeftijden.",
+        "pt": "Uma relaxante ferrovia panoramica que percorre todo o parque com belas vistas sobre o lago. Perfeita para criancas pequenas. Adequado para todas as idades.",
+        "ru": "Расслабляющая панорамная железная дорога, объезжающая весь парк с красивыми видами на озеро. Идеально для маленьких детей. Подходит для всех возрастов.",
+        "zh": "轻松的观光铁路环绕整个公园，提供美丽的湖景和吕讷堡石南景色。非常适合幼儿和刺激之间的平静休息。适合所有年龄段。",
+        "ar": "سكة حديد ترفيهية مريحة تدور حول المتنزه بأكمله مع مناظر جميلة على البحيرة. مثالية للاطفال الصغار. مناسبة لجميع الاعمار."
+      }
+    }
+  },
+  "food": {
+    "food_wirtshaus_des_admirals": {
+      "desc": {
+        "en": "Heide Park's finest restaurant — a beautifully themed Admiral's Inn in Bounty Land with table service, hearty German and European dishes and atmospheric pirate decor.",
+        "es": "El mejor restaurante de Heide Park — una hermosamente tematizada posada del Almirante en Bounty Land con servicio de mesa platos alemanes y europeos y decoracion pirata.",
+        "fr": "Le meilleur restaurant de Heide Park — une auberge de l'Amiral magnifiquement thematisee dans Bounty Land avec service a table plats allemands et europeens et decor pirate.",
+        "de": "Heide Parks bestes Restaurant — ein wunderschon gestaltetes Wirtshaus des Admirals in Bounty Land mit Tischservice herzhafter deutscher und europaischer Kuche und Piratendekor.",
+        "it": "Il miglior ristorante di Heide Park — una splendidamente tematizzata locanda dell'Ammiraglio in Bounty Land con servizio al tavolo piatti tedeschi ed europei e decor pirata.",
+        "nl": "Heide Parks beste restaurant — een prachtig themed Wirtshaus des Admirals in Bounty Land met bediening aan tafel stevige Duitse en Europese gerechten en piratendekor.",
+        "pt": "O melhor restaurante de Heide Park — uma lindamente tematizada estalagem do Almirante em Bounty Land com servico de mesa pratos alemaes e europeus e decor pirata.",
+        "ru": "Лучший ресторан Heide Park — великолепно оформленная таверна Адмирала в Bounty Land со столовым обслуживанием, немецкими и европейскими блюдами и пиратским декором.",
+        "zh": "海德公园最好的餐厅——海盗土地中精美主题的海军上将客栈，提供桌边服务、丰盛的德国和欧洲菜肴以及海盗装饰氛围。",
+        "ar": "افضل مطعم في Heide Park — نزل الامير ذو الطابع الرائع في Bounty Land مع خدمة الطاولة والاطباق الالمانية والاوروبية والديكور القرصاني."
+      }
+    },
+    "food_piraten_burger": {
+      "desc": {
+        "en": "A lively pirate-themed burger restaurant centrally located serving generous burgers, chicken strips and loaded fries. Fast, satisfying and always popular with families.",
+        "es": "Un animado restaurante de hamburguesas con tema pirata centralmente ubicado con generosas hamburguesas tiras de pollo y papas cargadas.",
+        "fr": "Un animé restaurant burger a theme pirate bien place servant des burgers genereux lanières de poulet et frites chargees.",
+        "de": "Ein lebhaftes Piraten-Themen-Burger-Restaurant zentral gelegen mit grosszugigen Burgern Huhnchenstripps und beladenen Pommes.",
+        "it": "Un vivace ristorante burger a tema pirata centralmente ubicato con generosi burger strisce di pollo e patatine caricate.",
+        "nl": "Een levendig piratenthema burgerrestaurant centraal gelegen met royale burgers kipstrips en beladen frietjes.",
+        "pt": "Um animado restaurante de hamburguer com tema pirata centralmente localizado com generosos hamburgueres tiras de frango e batatas carregadas.",
+        "ru": "Живой бургерный ресторан в пиратской тематике в центре парка с щедрыми бургерами, куриными полосками и загруженной картошкой фри.",
+        "zh": "活泼的海盗主题汉堡餐厅，位于中心位置，提供丰盛汉堡、鸡肉条和满载薯条。快速、令人满足，深受家庭欢迎。",
+        "ar": "مطعم برغر ذو طابع قراصنة نابض بالحياة في موقع مركزي يقدم برغر سخيا وشرائح دجاج وبطاطس محملة."
+      }
+    },
+    "food_bulls_and_bandits": {
+      "desc": {
+        "en": "A rugged Western grill in the Desert Race area serving smoky BBQ ribs, pulled pork and cowboy platters — the most distinctive dining concept at Heide Park.",
+        "es": "Un robusto grill occidental en el area de Desert Race con costillas BBQ ahumadas cerdo desmenuzado y platos de vaquero.",
+        "fr": "Un grill occidental robuste dans la zone Desert Race avec des cotes BBQ fumees du porc effile et des plateaux de cowboy.",
+        "de": "Ein rustikaler Western-Grill im Desert Race Bereich mit rauchigen BBQ-Ribs gezogenem Schweinefleisch und Cowboy-Tellern.",
+        "it": "Un robusto grill western nell'area Desert Race con costine BBQ affumicate maiale sfilacciato e piatti da cowboy.",
+        "nl": "Een ruige Western grill in het Desert Race gebied met rokerige BBQ-ribs pulled pork en cowboy schotels.",
+        "pt": "Um rustico grill ocidental na area do Desert Race com costelas BBQ fumadas porco desfiado e pratos de cowboy.",
+        "ru": "Грубый западный гриль в зоне Desert Race с копчёными BBQ рёбрышками, тянутой свининой и тарелками ковбоя.",
+        "zh": "沙漠赛区域粗犷的西部烧烤餐厅，供应烟熏BBQ排骨、拉猪肉和牛仔拼盘——海德公园最独特的餐饮理念。",
+        "ar": "شواية غربية متينة في منطقة Desert Race تقدم ضلوع BBQ مدخنة ولحم خنزير مسحوب وطبق الكاوبوي."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_abenteuer": {
+      "desc": {
+        "en": "The ultimate Heide Park experience — an elaborately themed hotel with direct park access, Peppa Pig, Ghostbusters and Dragon Taming rooms, pool, indoor playground and dinner buffet. From 99 euros per person including park tickets.",
+        "es": "La maxima experiencia de Heide Park — un hotel elaboradamente tematizado con acceso directo al parque habitaciones de Peppa Pig Ghostbusters y Drachenzahmen piscina patio de recreo interior y buffet de cena.",
+        "fr": "L'ultime experience Heide Park — un hotel elaborement theme avec acces direct au parc chambres Peppa Pig Ghostbusters et Dragon Taming piscine jardin d'enfants interieur et buffet diner.",
+        "de": "Das ultimative Heide Park Erlebnis — ein aufwendig gestaltetes Hotel mit direktem Parkzugang Peppa Pig Ghostbusters und Drachenzahmen Zimmern Pool Kinderspielplatz und Abendbuffet.",
+        "it": "L'esperienza Heide Park definitiva — un hotel elaboratamente tematizzato con accesso diretto al parco camere Peppa Pig Ghostbusters e Drachenzahmen piscina parco giochi interno e buffet cena.",
+        "nl": "De ultieme Heide Park ervaring — een uitgebreid thematisch hotel met directe parktoegang Peppa Pig Ghostbusters en Dragon Taming kamers zwembad binnenspeelplaats en dinerbuffet.",
+        "pt": "A experiencia maxima do Heide Park — um hotel elaboradamente tematizado com acesso direto ao parque quartos Peppa Pig Ghostbusters e Drachenzahmen piscina parque infantil interior e buffet de jantar.",
+        "ru": "Максимальный опыт Heide Park — тщательно тематически оформленный отель с прямым доступом в парк, номерами Peppa Pig, Ghostbusters и Dragon Taming, бассейном, крытой игровой площадкой и буфетом на ужин.",
+        "zh": "终极海德公园体验——精心主题化的酒店，直接进入公园，有粉红猪小妹、幽灵克星和驯龙记主题房间、游泳池、室内游乐场和晚餐自助餐。每人99欧元起包含公园门票。",
+        "ar": "تجربة Heide Park القصوى — فندق ذو طابع متقن مع دخول مباشر للمتنزه وغرف Peppa Pig وGhostbusters وDragon Taming ومسبح وملعب داخلي وبوفيه عشاء."
+      },
+      "rooms": {
+        "themed_room": {
+          "name": { "en": "Themed Adventure Room", "es": "Habitacion de Aventura Tematizada", "fr": "Chambre d'Aventure Thematisee", "de": "Thematisiertes Abenteuerzimmer", "it": "Camera Avventura Tematizzata", "nl": "Thematische Avontuurkamer", "pt": "Quarto de Aventura Tematizado", "ru": "Тематический номер Приключений", "zh": "主题冒险客房", "ar": "غرفة مغامرة ذات طابع" },
+          "desc": { "en": "Elaborately themed room (Peppa Pig, Ghostbusters or Dragon Taming) with breakfast and direct park access.", "es": "Habitacion elaboradamente tematizada con desayuno y acceso directo al parque.", "fr": "Chambre elaborement thematisee avec petit dejeuner et acces direct au parc.", "de": "Aufwendig gestaltetes Zimmer mit Fruhstuck und direktem Parkzugang.", "it": "Camera elaboratamente tematizzata con colazione e accesso diretto al parco.", "nl": "Uitgebreid thematische kamer met ontbijt en directe parktoegang.", "pt": "Quarto elaboradamente tematizado com pequeno-almoco e acesso direto ao parque.", "ru": "Тщательно тематический номер с завтраком и прямым доступом в парк.", "zh": "精心主题化客房（粉红猪小妹、幽灵克星或驯龙记），含早餐和直接公园通道。", "ar": "غرفة ذات طابع متقن مع الإفطار والدخول المباشر للمتنزه." }
+        },
+        "all_inclusive": {
+          "name": { "en": "All-Round Carefree Package", "es": "Paquete Todo Incluido sin Preocupaciones", "fr": "Forfait Tout Compris sans Souci", "de": "Rundum-Sorglos-Paket", "it": "Pacchetto Tutto Compreso Senza Pensieri", "nl": "Alles-in-een Zorgeloos Pakket", "pt": "Pacote Tudo Incluido sem Preocupacoes", "ru": "Пакет Все Включено без Забот", "zh": "全包无忧套餐", "ar": "باقة كل شيء مشمول بلا هموم" },
+          "desc": { "en": "Full package with themed room, breakfast and dinner buffet with drinks and 2-day park tickets.", "es": "Paquete completo con habitacion tematizada buffet de desayuno y cena con bebidas y tickets de 2 dias.", "fr": "Forfait complet avec chambre thematisee buffet petit dejeuner et diner avec boissons et billets 2 jours.", "de": "Vollstandiges Paket mit thematisiertem Zimmer Fruhstucks- und Abendbuffet mit Getranken und 2-Tage-Tickets.", "it": "Pacchetto completo con camera tematizzata buffet colazione e cena con bevande e biglietti 2 giorni.", "nl": "Volledig pakket met thematische kamer ontbijt- en dinerbuffet met dranken en 2-daagse tickets.", "pt": "Pacote completo com quarto tematizado buffet de pequeno-almoco e jantar com bebidas e bilhetes de 2 dias.", "ru": "Полный пакет с тематическим номером, буфетами завтрака и ужина с напитками и двухдневными билетами.", "zh": "完整套餐，含主题客房、早餐和晚餐自助餐（含饮品）及2天公园门票。", "ar": "باقة كاملة مع غرفة ذات طابع وبوفيه إفطار وعشاء مع مشروبات وتذاكر يومين." }
+        }
+      }
+    },
+    "hotel_holiday_camp": {
+      "desc": {
+        "en": "Caribbean-style holiday camp directly next to Heide Park with 158 colourful wooden cabins, buffet restaurant Acapulco, beach bar and direct park access. From 71 euros per person.",
+        "es": "Campamento de vacaciones estilo caribeno directamente junto a Heide Park con 158 coloridas cabanas de madera restaurante buffet Acapulco bar de playa y acceso directo al parque.",
+        "fr": "Camp de vacances style caribeen directement a cote de Heide Park avec 158 cabanes en bois colorees restaurant buffet Acapulco bar de plage et acces direct au parc.",
+        "de": "Karibisch gestaltetes Feriencamp direkt neben Heide Park mit 158 bunten Holzhutten Buffetrestaurant Acapulco Strandbar und direktem Parkzugang.",
+        "it": "Campo vacanze in stile caraibico direttamente accanto a Heide Park con 158 colorate capanne in legno ristorante buffet Acapulco bar sulla spiaggia e accesso diretto al parco.",
+        "nl": "Caribisch stijl vakantiekamp direct naast Heide Park met 158 kleurrijke houten hutten buffetrestaurant Acapulco strandbar en directe parktoegang.",
+        "pt": "Acampamento de ferias estilo caribenho diretamente ao lado de Heide Park com 158 coloridas cabanas de madeira restaurante buffet Acapulco bar de praia e acesso direto ao parque.",
+        "ru": "Карибский лагерь отдыха прямо рядом с Heide Park со 158 красочными деревянными хижинами, буфетным рестораном Acapulco, пляжным баром и прямым доступом в парк.",
+        "zh": "加勒比风格假日营地，直接毗邻海德公园，有158间彩色木屋、自助餐厅阿卡普尔科、沙滩酒吧和直接公园通道。每人71欧元起。",
+        "ar": "مخيم عطلات بأسلوب كاريبي مباشرة بجانب Heide Park مع 158 كابينة خشبية ملونة ومطعم بوفيه Acapulco وبار الشاطئ والدخول المباشر للمتنزه."
+      },
+      "rooms": {
+        "basic_cabin": {
+          "name": { "en": "Basic Cabin", "es": "Cabana Basica", "fr": "Cabine de Base", "de": "Basis-Hutte", "it": "Cabina Base", "nl": "Basishut", "pt": "Cabana Basica", "ru": "Базовая хижина", "zh": "基础小屋", "ar": "كابينة أساسية" },
+          "desc": { "en": "Cosy wooden cabin with bunk beds, free WiFi and access to all Holiday Camp facilities.", "es": "Acogedora cabana de madera con literas WiFi gratuito y acceso a todas las instalaciones.", "fr": "Confortable cabine en bois avec lits superposes WiFi gratuit et acces a toutes les installations.", "de": "Gemutliche Holzhutte mit Etagenbetten kostenlosem WLAN und Zugang zu allen Einrichtungen.", "it": "Accogliente capanna in legno con letti a castello WiFi gratuito e accesso a tutte le strutture.", "nl": "Gezellige houten hut met stapelbedden gratis WiFi en toegang tot alle faciliteiten.", "pt": "Aconchegante cabana de madeira com beliches WiFi gratuito e acesso a todas as instalacoes.", "ru": "Уютная деревянная хижина с двухъярусными кроватями, бесплатным WiFi и доступом ко всем удобствам.", "zh": "舒适木屋，有双层床、免费WiFi和所有假日营地设施通道。", "ar": "كابينة خشبية مريحة مع أسرة بطابقين وواي فاي مجاني والوصول إلى جميع مرافق المخيم." }
+        },
+        "themed_cabin": {
+          "name": { "en": "Themed Cabin", "es": "Cabana Tematizada", "fr": "Cabine Thematisee", "de": "Thematisierte Hutte", "it": "Capanna Tematizzata", "nl": "Thematische Hut", "pt": "Cabana Tematizada", "ru": "Тематическая хижина", "zh": "主题小屋", "ar": "كابينة ذات طابع" },
+          "desc": { "en": "Fun themed wooden cabin with extra decorations, bunk beds and breakfast included — perfect for families.", "es": "Divertida cabana tematizada con decoraciones extras literas y desayuno incluido.", "fr": "Amusante cabine thematisee avec decorations supplementaires lits superposes et petit dejeuner inclus.", "de": "Spassige thematisierte Holzhutte mit extra Dekorationen Etagenbetten und Fruhstuck inklusive.", "it": "Divertente capanna tematizzata con decorazioni extra letti a castello e colazione inclusa.", "nl": "Leuke thematische houten hut met extra decoraties stapelbedden en ontbijt inbegrepen.", "pt": "Divertida cabana tematizada com decoracoes extra beliches e pequeno-almoco incluido.", "ru": "Весёлая тематическая деревянная хижина с дополнительными украшениями, двухъярусными кроватями и включённым завтраком.", "zh": "有趣的主题木屋，有额外装饰、双层床和含早餐——非常适合家庭。", "ar": "كابينة خشبية ذات طابع ممتعة مع ديكورات إضافية وأسرة بطابقين وإفطار مشمول." }
+        }
+      }
+    },
+    "hotel_park_soltau": {
+      "desc": {
+        "en": "A comfortable 4-star hotel in Soltau town centre a short drive from Heide Park — spacious rooms, restaurant, wellness and free parking at lower prices than on-site resort hotels.",
+        "es": "Un confortable hotel de 4 estrellas en el centro de Soltau a poca distancia de Heide Park — habitaciones espaciosas restaurante bienestar y aparcamiento gratuito.",
+        "fr": "Un confortable hotel 4 etoiles au centre de Soltau a courte distance de Heide Park — chambres spacieuses restaurant wellness et parking gratuit.",
+        "de": "Ein komfortables 4-Sterne Hotel in der Soltauer Innenstadt in kurzer Fahrt von Heide Park — geraumige Zimmer Restaurant Wellness und kostenloser Parkplatz.",
+        "it": "Un confortevole hotel 4 stelle nel centro di Soltau a breve distanza da Heide Park — camere spaziose ristorante wellness e parcheggio gratuito.",
+        "nl": "Een comfortabel 4-sterren hotel in het centrum van Soltau op korte rijafstand van Heide Park — ruime kamers restaurant wellness en gratis parkeren.",
+        "pt": "Um confortavel hotel de 4 estrelas no centro de Soltau a curta distancia de Heide Park — quartos espaciosos restaurante wellness e estacionamento gratuito.",
+        "ru": "Комфортабельный 4-звёздочный отель в центре Зольтау в коротком заезде от Heide Park — просторные номера, ресторан, велнес и бесплатная парковка.",
+        "zh": "位于索尔陶市中心舒适的四星级酒店，距海德公园仅几分钟车程——宽敞客房、餐厅、健康中心和免费停车场，价格比园内度假村酒店更低。",
+        "ar": "فندق 4 نجوم مريح في وسط مدينة سولتاو على بعد قيادة قصيرة من Heide Park — غرف فسيحة ومطعم ومنتجع صحي ومواقف مجانية."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaard Kamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Comfortable modern room with double or twin beds, en-suite bathroom and free parking.", "es": "Comoda habitacion moderna con camas dobles o twin bano en suite y aparcamiento gratuito.", "fr": "Confortable chambre moderne avec lits doubles ou jumeaux salle de bain attenante et parking gratuit.", "de": "Komfortables modernes Zimmer mit Doppel- oder Zwillingsbetten eigenem Bad und kostenlosem Parkplatz.", "it": "Camera moderna confortevole con letti doppi o twin bagno en suite e parcheggio gratuito.", "nl": "Comfortabele moderne kamer met twee- of tweepersoonsbedden eigen badkamer en gratis parkeren.", "pt": "Quarto moderno confortavel com camas casal ou twin casa de banho en suite e estacionamento gratuito.", "ru": "Удобный современный номер с двуспальной или двойной кроватью, отдельной ванной и бесплатной парковкой.", "zh": "舒适现代客房，有双人或双床、独立浴室和免费停车场。", "ar": "غرفة حديثة مريحة مع أسرة مزدوجة أو توين وحمام خاص ومواقف مجانية." }
+        },
+        "superior_room": {
+          "name": { "en": "Superior Room", "es": "Habitacion Superior", "fr": "Chambre Superieure", "de": "Superior Zimmer", "it": "Camera Superior", "nl": "Superior Kamer", "pt": "Quarto Superior", "ru": "Номер Superior", "zh": "高级客房", "ar": "غرفة سوبيريور" },
+          "desc": { "en": "Spacious superior room with extra amenities, larger bathroom and breakfast included.", "es": "Amplia habitacion superior con comodidades adicionales bano mas grande y desayuno incluido.", "fr": "Spacieuse chambre superieure avec amenites supplementaires plus grande salle de bain et petit dejeuner inclus.", "de": "Geraumiges Superior-Zimmer mit zusatzlichen Annehmlichkeiten grosserem Bad und Fruhstuck inklusive.", "it": "Camera superior spaziosa con servizi aggiuntivi bagno piu grande e colazione inclusa.", "nl": "Ruime superior kamer met extra voorzieningen grotere badkamer en ontbijt inbegrepen.", "pt": "Quarto superior espacioso com comodidades adicionais casa de banho maior e pequeno-almoco incluido.", "ru": "Просторный номер Superior с дополнительными удобствами, большей ванной и включённым завтраком.", "zh": "宽敞高级客房，有额外设施、更大浴室和含早餐。", "ar": "غرفة سوبيريور فسيحة مع مرافق إضافية وحمام أكبر وإفطار مشمول." }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+﻿[
+  {
+    "id": "food_wirtshaus_des_admirals",
+    "name": "Wirtshaus des Admirals",
+    "type": "A La Carte Restaurant",
+    "image": "assets/images/heidepark/food_wirtshaus_des_admirals.png",
+    "lat": 52.9959,
+    "lng": 9.8619,
+    "rating": 4.4,
+    "description": "The Admiral's Inn — Heide Park's finest sit-down restaurant located in the heart of the atmospheric Bounty Land pirate area, serving hearty German and European dishes in a beautifully themed tavern setting with wooden beams, nautical decorations and the warm glow of lanterns. The Wirtshaus des Admirals is the place for a proper sit-down meal with table service, a wide menu of meat dishes, fish, salads and desserts, and a selection of German beers and wines. The pirate-themed ambiance makes it one of the most memorable dining experiences in any German theme park.",
+    "topPick": true,
+    "items": [
+      { "name": "Schnitzel", "description": "Classic breaded Wiener Schnitzel with potato salad and cranberry sauce", "price": 18.0 },
+      { "name": "Grilled Fish", "description": "Fresh grilled fish with seasonal vegetables and potatoes", "price": 17.0 },
+      { "name": "Pirate Burger", "description": "Large beef burger with bacon, cheese and fries", "price": 15.0 },
+      { "name": "German Beer", "description": "Selection of draught German beers", "price": 5.5 }
+    ]
+  },
+  {
+    "id": "food_piraten_burger",
+    "name": "Piraten Burger",
+    "type": "Burger Restaurant",
+    "image": "assets/images/heidepark/food_piraten_burger.png",
+    "lat": 52.9961,
+    "lng": 9.8613,
+    "rating": 4.1,
+    "description": "A lively pirate-themed burger restaurant serving generous portions of freshly made burgers, chicken strips, loaded fries and soft drinks in a fun swashbuckling setting. Piraten Burger is one of the most popular quick-service dining options at Heide Park — centrally located, reliably good and always busy on peak days. Perfect for families wanting a fast, satisfying meal between rides.",
+    "topPick": false,
+    "items": [
+      { "name": "Pirate Double Burger", "description": "Double beef patty burger with all the toppings and fries", "price": 14.5 },
+      { "name": "Chicken Strips", "description": "Crispy chicken strips with dipping sauces and fries", "price": 13.0 },
+      { "name": "Kids Meal", "description": "Small burger or nuggets with fries and drink", "price": 9.5 },
+      { "name": "Loaded Fries", "description": "Crispy fries topped with cheese and bacon", "price": 7.0 }
+    ]
+  },
+  {
+    "id": "food_bulls_and_bandits",
+    "name": "Bulls and Bandits",
+    "type": "Western Grill",
+    "image": "assets/images/heidepark/food_bulls_and_bandits.png",
+    "lat": 52.9963,
+    "lng": 9.8609,
+    "rating": 4.2,
+    "description": "A rugged Western-themed grill restaurant located in the Desert Race area serving smoky grilled meats, ribs, pulled pork and hearty cowboy-style sides in a dramatic frontier setting complete with saloon decor and country atmosphere. Bulls and Bandits is Heide Park's most distinctive food concept — a real alternative to standard theme park fare with authentic barbecue flavours and generous portions that satisfy even the hungriest thrill-seeker.",
+    "topPick": true,
+    "items": [
+      { "name": "BBQ Ribs", "description": "Slow-smoked pork ribs with barbecue sauce and coleslaw", "price": 19.0 },
+      { "name": "Pulled Pork Burger", "description": "Slow-cooked pulled pork in a brioche bun with fries", "price": 14.0 },
+      { "name": "Cowboy Platter", "description": "Mixed grill platter with chicken, ribs and sausage", "price": 22.0 },
+      { "name": "Corn on the Cob", "description": "Grilled corn with herb butter", "price": 5.0 }
+    ]
+  }
+]

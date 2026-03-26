@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_abenteuer",
+    "name": "Heide Park Abenteuerhotel",
+    "description": "The ultimate Heide Park Resort experience — the Adventure Hotel is a magnificent themed hotel located directly adjacent to the park with its own exclusive park entrance, offering a truly magical overnight experience for families. Rooms are elaborately themed around Heide Park's biggest attractions including Peppa Pig, Ghostbusters, and Dragon Taming — every detail is designed to transport children into a world of imagination. The hotel features a swimming pool, indoor playground, laser game, digital magic treasure hunt, restaurants serving breakfast and dinner buffets, and a lively bar. Guests consistently rave about the extraordinary level of theming and the warmth of the staff. From 99 euros per person including park tickets.",
+    "image": "assets/images/heidepark/hotel_abenteuer.png",
+    "lat": 52.9970,
+    "lng": 9.8615,
+    "rating": 4.6,
+    "topPick": true,
+    "website": "https://www.heide-park.de/en/short-breaks/abenteuerhotel/",
+    "rooms": [
+      {
+        "key": "themed_room",
+        "name": "Themed Adventure Room",
+        "description": "Elaborately themed room (Peppa Pig, Ghostbusters or Dragon Taming) with breakfast buffet included and direct park access.",
+        "pricePerNight": 99.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "all_inclusive",
+        "name": "All-Round Carefree Package",
+        "description": "Full package including themed room, breakfast and dinner buffet, evening buffet with drinks and 2-day park tickets.",
+        "pricePerNight": 149.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_holiday_camp",
+    "name": "Heide Park Holiday Camp",
+    "description": "A colourful Caribbean-style holiday camp located right next to Heide Park with direct access to the resort — 158 cheerfully painted wooden cabins spread across an 8-hectare site with buffet restaurant Acapulco, beach bar, playground and relaxed outdoor atmosphere. The Holiday Camp is the flexible and affordable alternative to the Adventure Hotel, perfect for groups and families who want the convenience of sleeping right next to the park in a fun, informal setting. Basic cabins or fully themed cabins available. From 71 euros per person.",
+    "image": "assets/images/heidepark/hotel_holiday_camp.png",
+    "lat": 52.9968,
+    "lng": 9.8620,
+    "rating": 4.3,
+    "topPick": true,
+    "website": "https://www.heide-park.de/en/short-breaks/holiday-camp/",
+    "rooms": [
+      {
+        "key": "basic_cabin",
+        "name": "Basic Cabin",
+        "description": "Cosy wooden cabin with single or bunk beds, free WiFi and access to all Holiday Camp facilities including the Acapulco restaurant.",
+        "pricePerNight": 71.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "themed_cabin",
+        "name": "Themed Cabin",
+        "description": "Themed wooden cabin with fun decorations, bunk beds and extra amenities — perfect for families wanting something special.",
+        "pricePerNight": 99.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_park_soltau",
+    "name": "Park Hotel Soltau",
+    "description": "A comfortable 4-star hotel in Soltau town centre just a short drive from Heide Park Resort — Park Hotel Soltau offers spacious modern rooms, a restaurant, wellness area and free parking at significantly lower prices than the on-site resort hotels. An excellent choice for visitors who prefer the independence of a town-centre location while still being close enough to reach Heide Park easily by car. Popular with adult couples and groups visiting the park without children.",
+    "image": "assets/images/heidepark/park_thumbnail.png",
+    "lat": 52.9879,
+    "lng": 9.8412,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.heide-park.de/en/short-breaks/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable modern room with double or twin beds, en-suite bathroom, free WiFi and free parking.",
+        "pricePerNight": 89.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Spacious superior room with extra amenities, larger bathroom and breakfast included.",
+        "pricePerNight": 119.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

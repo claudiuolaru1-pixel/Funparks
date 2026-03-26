@@ -66,6 +66,8 @@ flutter:
     - assets/data/parks/siampark/
     - assets/data/parks/toverland/
     - assets/data/parks/walibibelgium/
+    - assets/data/parks/heidepark/
+    - assets/data/parks/thorpepark/
     - assets/i18n/
     - assets/maps/
     - assets/images/

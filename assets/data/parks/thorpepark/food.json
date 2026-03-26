@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "food_vibes",
+    "name": "Vibes Bar & Kitchen",
+    "type": "Bar and Restaurant",
+    "image": "assets/images/thorpepark/food_vibes.png",
+    "lat": 51.4029,
+    "lng": -0.5147,
+    "rating": 4.2,
+    "description": "Thorpe Park's central dining hub located inside the iconic Dome at the heart of the park — Vibes Bar & Kitchen serves a hot and cold breakfast buffet from 8am to 10am for overnight cabin guests and an evening buffet dinner from 5pm to 9pm with a selection of hot and cold dishes. Vibes is the social heart of the resort, offering live entertainment, interactive games and a park quiz in the evenings. The stylish interior, lively atmosphere and central location make it the most popular dining spot across the entire resort.",
+    "topPick": true,
+    "items": [
+      { "name": "Full English Breakfast", "description": "Hot buffet full English with all the classics", "price": 15.0 },
+      { "name": "Evening Buffet", "description": "Hot and cold evening buffet with wide selection of dishes", "price": 20.0 },
+      { "name": "Cocktail", "description": "Selection of themed cocktails and mocktails", "price": 9.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 4.0 }
+    ]
+  },
+  {
+    "id": "food_cape_cod",
+    "name": "Cape Cod",
+    "type": "American Fast Food",
+    "image": "assets/images/thorpepark/food_cape_cod.png",
+    "lat": 51.4033,
+    "lng": -0.5137,
+    "rating": 4.0,
+    "description": "A classic American diner-style fast food restaurant in the Amity area serving Thorpe Park's most popular lunchtime options including burgers, chicken, hot dogs and loaded fries with a relaxed retro American atmosphere. Located near Tidal Wave and Stealth making it perfectly positioned for a lunch break between the park's biggest water and launch coaster thrills. Cape Cod is one of the most visited food outlets in the park on busy days.",
+    "topPick": false,
+    "items": [
+      { "name": "Classic Burger", "description": "Beef burger with all the toppings and fries", "price": 13.5 },
+      { "name": "Hot Dog", "description": "Classic American hot dog with mustard and ketchup", "price": 10.0 },
+      { "name": "Loaded Fries", "description": "Crispy fries loaded with cheese and bacon", "price": 7.5 },
+      { "name": "Milkshake", "description": "Thick American-style milkshake", "price": 6.0 }
+    ]
+  },
+  {
+    "id": "food_spice_kitchen",
+    "name": "Spice Kitchen",
+    "type": "Asian Street Food",
+    "image": "assets/images/thorpepark/food_spice_kitchen.png",
+    "lat": 51.4026,
+    "lng": -0.5152,
+    "rating": 4.2,
+    "description": "One of the most distinctive and popular dining options at Thorpe Park — Spice Kitchen brings fragrant Asian flavours to the park with noodle boxes, rice bowls, curries and stir-fries that provide a genuinely satisfying and flavoursome alternative to standard theme park burgers and fries. Particularly popular with adult visitors and anyone looking for something with more depth and spice. The takeaway format is convenient for eating on the go between rides.",
+    "topPick": true,
+    "items": [
+      { "name": "Noodle Box", "description": "Stir-fried noodles with your choice of protein and vegetables", "price": 13.0 },
+      { "name": "Rice Bowl", "description": "Fragrant rice with curry sauce and toppings", "price": 12.0 },
+      { "name": "Spring Rolls", "description": "Crispy vegetable spring rolls with sweet chilli sauce", "price": 6.0 },
+      { "name": "Asian Soft Drink", "description": "Selection of Asian-inspired cold beverages", "price": 4.0 }
+    ]
+  },
+  {
+    "id": "food_amity_kebab",
+    "name": "Amity Kebab",
+    "type": "Kebab and Grill",
+    "image": "assets/images/thorpepark/food_amity_kebab.png",
+    "lat": 51.4032,
+    "lng": -0.5134,
+    "rating": 3.9,
+    "description": "A quick-service kebab and grill stand in the Amity Beach area serving freshly grilled chicken and meat kebabs, shawarma wraps and salad bowls — one of the most generous portions available at Thorpe Park and a solid choice for anyone wanting a filling, protein-rich meal before tackling the park's bigger rides. The outdoor setting next to Amity Beach makes it a pleasant spot for an informal lunch.",
+    "topPick": false,
+    "items": [
+      { "name": "Chicken Kebab", "description": "Grilled chicken kebab with salad and pitta", "price": 12.0 },
+      { "name": "Meat Shawarma Wrap", "description": "Slow-cooked meat in a warm wrap with salad and sauce", "price": 11.0 },
+      { "name": "Salad Bowl", "description": "Fresh salad with grilled protein", "price": 10.0 },
+      { "name": "Chips", "description": "Freshly cooked chips", "price": 4.5 }
+    ]
+  }
+]
