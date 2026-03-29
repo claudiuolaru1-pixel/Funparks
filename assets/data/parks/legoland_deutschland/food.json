@@ -1,0 +1,104 @@
+﻿[
+  {
+    "id": "food_castle_restaurant",
+    "name": "Castle Restaurant",
+    "type": "Medieval Buffet Restaurant",
+    "image": "assets/images/legoland_deutschland/food_castle_restaurant.png",
+    "lat": 48.4548,
+    "lng": 10.2694,
+    "rating": 4.3,
+    "description": "The finest dining experience at LEGOLAND Deutschland — the Castle Restaurant is a beautifully themed medieval hall in the Knights Kingdom area serving generous hot and cold buffet lunches and dinners in a spectacular setting decorated with LEGO knights, heraldic banners and castle stonework. The Castle Restaurant is part of the LEGOLAND Holiday Village Zur Tafelrunde restaurant complex and is consistently rated the best and most atmospheric dining option for families visiting the resort. The all-you-can-eat format is ideal for hungry families after a morning of rides.",
+    "topPick": true,
+    "items": [
+      { "name": "Buffet Adult", "description": "All-you-can-eat hot and cold buffet with soup, main courses and salad bar", "price": 19.0 },
+      { "name": "Buffet Child", "description": "Children's all-you-can-eat buffet (under 12)", "price": 11.0 },
+      { "name": "Stone-Oven Pizza", "description": "Fresh stone-baked pizza with classic toppings", "price": 14.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 4.0 }
+    ]
+  },
+  {
+    "id": "food_hungry_bear",
+    "name": "Hungry Bear",
+    "type": "Family Restaurant",
+    "image": "assets/images/legoland_deutschland/food_hungry_bear.png",
+    "lat": 48.4546,
+    "lng": 10.2692,
+    "rating": 4.2,
+    "description": "A warm and inviting restaurant in the LEGOLAND Holiday Village where the whole family gathers around the LEGO campfire for cozy meals and delicious favourite dishes. Hungry Bear serves hearty Bavarian-inspired and international family food in a rustic woodland-themed setting that is perfectly suited to the LEGOLAND Holiday Village atmosphere. Particularly popular in the evenings for families staying overnight at the resort who want a relaxed dinner after a full day in the park.",
+    "topPick": true,
+    "items": [
+      { "name": "Bavarian Schnitzel", "description": "Classic breaded schnitzel with potato salad and mixed salad", "price": 17.0 },
+      { "name": "Bear Burger", "description": "Hearty beef burger with Bavarian toppings and fries", "price": 14.0 },
+      { "name": "Children's Plate", "description": "Pasta or nuggets with fries and vegetables", "price": 9.0 },
+      { "name": "Bavarian Beer or Soft Drink", "description": "Local Bavarian beer or selection of soft drinks", "price": 5.0 }
+    ]
+  },
+  {
+    "id": "food_ninja_kitchen",
+    "name": "Ninja Kitchen",
+    "type": "Asian Street Food",
+    "image": "assets/images/legoland_deutschland/food_ninja_kitchen.png",
+    "lat": 48.4556,
+    "lng": 10.2712,
+    "rating": 4.1,
+    "description": "A fun and lively Asian-inspired fast food outlet in the NINJAGO World area serving noodle boxes, Asian rice dishes, spring rolls and dumplings alongside soft drinks. The Ninja Kitchen perfectly matches the high-energy NINJAGO theme and is particularly popular with children and young adults who want something different from the standard theme park burger and schnitzel offerings. The themed decor with NINJAGO characters throughout creates an immersive dining atmosphere.",
+    "topPick": false,
+    "items": [
+      { "name": "Ninja Noodle Box", "description": "Stir-fried noodles with vegetables and choice of chicken or tofu", "price": 13.0 },
+      { "name": "Asian Rice Bowl", "description": "Steamed rice with teriyaki chicken and vegetables", "price": 12.0 },
+      { "name": "Spring Roll Set", "description": "Three crispy spring rolls with sweet chilli dipping sauce", "price": 7.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 3.5 }
+    ]
+  },
+  {
+    "id": "food_piraten_taverne",
+    "name": "Pirates Taverne",
+    "type": "Pirate Restaurant",
+    "image": "assets/images/legoland_deutschland/food_piraten_taverne.png",
+    "lat": 48.4543,
+    "lng": 10.2688,
+    "rating": 4.2,
+    "description": "The most atmospheric restaurant in the LEGOLAND Holiday Village — Pirates Taverne serves pirate-themed menus and snacks in a spectacular pirate setting directly connected to the Pirate Island Hotel. Breakfasts at the Pirates Taverne are included with all Pirate Island Hotel stays and are among the most enjoyable theme park breakfasts in Germany — hearty buffets served in an immersive pirate setting that gets the day off to a memorable start before the park opens.",
+    "topPick": false,
+    "items": [
+      { "name": "Pirate Breakfast Buffet", "description": "Full breakfast buffet with hot and cold options, included with Pirate Island Hotel stay", "price": 16.0 },
+      { "name": "Captain's Platter", "description": "Grilled chicken, sausage and roasted vegetables with pirate bread", "price": 16.0 },
+      { "name": "Pirate Burger", "description": "Beef burger with pickles, cheese and buccaneer sauce", "price": 13.0 },
+      { "name": "Grog (Soft Drink)", "description": "Themed non-alcoholic grog drink or selection of soft drinks", "price": 4.0 }
+    ]
+  },
+  {
+    "id": "food_pizza_mania",
+    "name": "Pizza Mania",
+    "type": "Pizza Restaurant",
+    "image": "assets/images/legoland_deutschland/food_pizza_mania.png",
+    "lat": 48.4554,
+    "lng": 10.2697,
+    "rating": 4.0,
+    "description": "One of the most accessible and reliably good food options in LEGOLAND Deutschland — Pizza Mania serves freshly baked pizzas with classic toppings alongside pasta dishes and salads at reasonable prices. Pizza Mania is included in the LEGOLAND combination ticket meal deals and is centrally located in the park making it one of the most convenient lunch stops. The outdoor seating area has pleasant views of the surrounding themed zones.",
+    "topPick": false,
+    "items": [
+      { "name": "Margherita Pizza", "description": "Classic tomato and mozzarella pizza", "price": 11.0 },
+      { "name": "Salami Pizza", "description": "Tomato, mozzarella and salami", "price": 13.0 },
+      { "name": "Pasta Bolognese", "description": "Classic pasta with meat sauce", "price": 11.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 3.5 }
+    ]
+  },
+  {
+    "id": "food_stars_grill_house",
+    "name": "Stars Grill House",
+    "type": "Grill Restaurant",
+    "image": "assets/images/legoland_deutschland/food_stars_grill_house.png",
+    "lat": 48.4559,
+    "lng": 10.2704,
+    "rating": 4.1,
+    "description": "A popular grill restaurant serving freshly grilled burgers, steaks, chicken and sausages alongside fries, salads and cold drinks. Stars Grill House is the best option at LEGOLAND Deutschland for guests who want a proper grilled meal rather than pizza or buffet food — the quality of the grilled items is consistently well above standard theme park levels and makes this a worthwhile lunch destination on longer park days.",
+    "topPick": false,
+    "items": [
+      { "name": "Stars Burger", "description": "Grilled beef burger with all toppings and fries", "price": 14.0 },
+      { "name": "Grilled Chicken", "description": "Half grilled chicken with fries and salad", "price": 16.0 },
+      { "name": "Bratwurst", "description": "Classic Bavarian bratwurst with bread and mustard", "price": 8.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 3.5 }
+    ]
+  }
+]

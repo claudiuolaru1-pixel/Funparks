@@ -21,6 +21,10 @@ const FUNPARKS_PARKS = [
   { id: "walibibelgium", name: "Walibi Belgium", country: "Belgium" },
   { id: "heidepark", name: "Heide Park Resort", country: "Germany" },
   { id: "thorpepark", name: "Thorpe Park", country: "United Kingdom" },
+  { id: "moviepark", name: "Movie Park Germany", country: "Germany" },
+  { id: "lego_billund", name: "LEGOLAND Billund", country: "Denmark" },
+  { id: "walibinl", name: "Walibi Netherlands", country: "Netherlands" },
+  { id: "legoland_deutschland", name: "LEGOLAND Deutschland", country: "Germany" },
 ];
 
 const FUNPARKS_FEATURES = `The Funparks app includes the following features:

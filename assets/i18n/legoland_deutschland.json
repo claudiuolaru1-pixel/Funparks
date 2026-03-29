@@ -1,0 +1,436 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "LEGOLAND Deutschland Resort is Germany's most beloved LEGO-themed family park — a spectacular destination located in Gunzburg, Bavaria, conveniently situated on the A8 motorway roughly halfway between Stuttgart and Munich. Opened on 17 May 2002 by the LEGO Group, LEGOLAND Deutschland was the first LEGOLAND park to open in Germany and quickly became one of the four most visited theme parks in the country. The park spans over 43 hectares and features 68 attractions across 11 vividly themed worlds including Knights Kingdom, Adventure Land, NINJAGO World, Pirate Land, LEGO City, LEGO X-treme, LEGO MYTHICA and the legendary Miniland — a breathtaking 1:20 scale recreation of European cities and landscapes built from 25 million LEGO bricks. The undisputed crown jewel is MAXIMUS, a Bolliger and Mabillard Wing Coaster that opened in 2023 as the world's first and only LEGOLAND roller coaster to feature inversions — a genuinely remarkable achievement. Fire Dragon has delighted families in Knights Kingdom since opening day. The Power Builder robotic arm ride is one of the most uniquely innovative attractions at any European theme park. The LEGO City Driving School is the most universally beloved children's experience. The LEGOLAND Holiday Village directly adjacent to the park offers spectacular on-site accommodation in the Pirate Island Hotel, three themed castles, NINJAGO Quarter and themed cottages. LEGOLAND Deutschland is best for families with children aged 2 to 12 and is open from late March through early November.",
+      "es": "LEGOLAND Deutschland Resort es el parque tematico LEGO mas querido de Alemania — ubicado en Gunzburg Baviera en la autopista A8 entre Stuttgart y Munich. Inaugurado el 17 de mayo de 2002 con 68 atracciones en 11 mundos tematicos incluyendo Knights Kingdom Adventure Land NINJAGO World y Pirate Land. MAXIMUS es la unica montana rusa de cualquier LEGOLAND con inversiones. El Power Builder es uno de los atracciones mas innovadoras de Europa. LEGOLAND Holiday Village ofrece alojamiento en el Pirate Island Hotel tres castillos tematicos y bungalows. Abierto de finales de marzo a principios de noviembre.",
+      "fr": "LEGOLAND Deutschland Resort est le parc a theme LEGO le plus aime d'Allemagne — situe a Gunzburg en Baviere sur l'autoroute A8 entre Stuttgart et Munich. Ouvert le 17 mai 2002 avec 68 attractions dans 11 mondes thematiques dont Knights Kingdom Adventure Land NINJAGO World et Pirate Land. MAXIMUS est le seul coaster de tout LEGOLAND avec inversions. Power Builder est l'une des attractions les plus innovantes d'Europe. LEGOLAND Holiday Village propose un hebergement au Pirate Island Hotel trois chateaux thematiques et des chalets. Ouvert de fin mars a debut novembre.",
+      "de": "LEGOLAND Deutschland Resort ist Deutschlands beliebtester LEGO-Themenpark — in Gunzburg Bayern an der A8 zwischen Stuttgart und Munchen. Eroffnet am 17. Mai 2002 mit 68 Attraktionen in 11 lebhaften Themenwelten darunter Knights Kingdom Adventure Land NINJAGO World und Pirate Land. MAXIMUS ist der einzige Coaster in jedem LEGOLAND-Park weltweit mit Inversionen. Power Builder ist eine der innovativsten Attraktionen in Europa. LEGOLAND Holiday Village bietet Unterkunft im Pirate Island Hotel drei thematischen Schlossern und Bungalows. Geoffnet von Ende Marz bis Anfang November.",
+      "it": "LEGOLAND Deutschland Resort e il piu amato parco a tema LEGO della Germania — situato a Gunzburg in Baviera sull'autostrada A8 tra Stoccarda e Monaco. Aperto il 17 maggio 2002 con 68 attrazioni in 11 mondi tematici tra cui Knights Kingdom Adventure Land NINJAGO World e Pirate Land. MAXIMUS e l'unico coaster in qualsiasi LEGOLAND con inversioni. Power Builder e una delle attrazioni piu innovative d'Europa. LEGOLAND Holiday Village offre alloggio al Pirate Island Hotel tre castelli tematici e bungalow. Aperto da fine marzo a inizio novembre.",
+      "nl": "LEGOLAND Deutschland Resort is Duitsland's meest geliefde LEGO-themapark — gelegen in Gunzburg Beieren aan de A8 snelweg tussen Stuttgart en Munchen. Geopend op 17 mei 2002 met 68 attracties in 11 levendige themawerelden waaronder Knights Kingdom Adventure Land NINJAGO World en Pirate Land. MAXIMUS is de enige coaster in elk LEGOLAND park ter wereld met inversies. Power Builder is een van de meest innovatieve attracties van Europa. LEGOLAND Holiday Village biedt accommodatie in het Pirate Island Hotel drie thematische kastelen en bungalows. Open van eind maart tot begin november.",
+      "pt": "LEGOLAND Deutschland Resort e o parque tematico LEGO mais querido da Alemanha — localizado em Gunzburg Baviera na autoestrada A8 entre Stuttgart e Munique. Inaugurado a 17 de maio de 2002 com 68 atracoes em 11 mundos tematicos incluindo Knights Kingdom Adventure Land NINJAGO World e Pirate Land. MAXIMUS e o unico coaster de qualquer LEGOLAND com inversoes. Power Builder e uma das atracoes mais inovadoras da Europa. LEGOLAND Holiday Village oferece alojamento no Pirate Island Hotel tres castelos tematicos e bungalows. Aberto de finais de marco a inicio de novembro.",
+      "ru": "LEGOLAND Deutschland Resort — самый любимый LEGO-тематический парк Германии — расположен в Гюнцбурге, Бавария, на автобане A8 между Штутгартом и Мюнхеном. Открыт 17 мая 2002 года с 68 аттракционами в 11 ярко тематических мирах, включая Knights Kingdom, Adventure Land, NINJAGO World и Pirate Land. MAXIMUS — единственный коастер в любом парке LEGOLAND в мире с инверсиями. Power Builder — один из самых инновационных аттракционов в Европе. LEGOLAND Holiday Village предлагает проживание в Pirate Island Hotel, трёх тематических замках и бунгало. Открыт с конца марта по начало ноября.",
+      "zh": "乐高乐园德国度假村是德国最受欢迎的乐高主题公园——位于巴伐利亚州贡茨堡，坐落在斯图加特和慕尼黑之间的A8高速公路上。2002年5月17日开放，在11个主题世界中有68个项目，包括骑士王国、冒险乐园、忍者道世界和海盗乐园。极速守护者是世界上任何乐高乐园公园中唯一有翻转的过山车。能量建造者是欧洲最具创新性的景点之一。乐高度假村提供海盗岛酒店、三个主题城堡和度假屋住宿。从三月底到十一月初开放。",
+      "ar": "LEGOLAND Deutschland Resort هو متنزه LEGO الاكثر محبوبية في المانيا — يقع في Gunzburg بافاريا على طريق A8 السريع بين شتوتغارت وميونيخ. افتتح في 17 مايو 2002 مع 68 جاذبية في 11 عالما موضوعيا بما في ذلك Knights Kingdom وAdventure Land وNINJAGO World وPirate Land. MAXIMUS هو اوتوستراد الوحيد في اي LEGOLAND في العالم بانعكاسات. Power Builder من اكثر الجاذبيات ابتكارا في اوروبا. LEGOLAND Holiday Village يوفر الاقامة في Pirate Island Hotel وثلاثة قلاع موضوعية وبنغالوات. مفتوح من اواخر مارس الى مطلع نوفمبر."
+    },
+    "ov_highlights_body": {
+      "en": "MAXIMUS is the world's only LEGOLAND roller coaster with inversions — a B&M Wing Coaster with 2 inversions, 90 km/h and breathtaking LEGO MYTHICA theming. Fire Dragon is the iconic park classic combining dark ride castle storytelling with outdoor coaster thrills. Power Builder lets guests programme their own robotic arm ride — one of the most innovative attractions at any European theme park. LEGO City Driving School grants children an official driving licence — the most treasured park souvenir. Captain Nick's Splash Battle and Aquazone Wave Racers are the best interactive water attractions in Bavaria. Dragon Hunt is an immersive laser dark ride shooter in a spectacular medieval castle. Fire Academy creates unforgettable family competition. Miniland recreates European cities from 25 million LEGO bricks. The LEGOLAND Holiday Village with Pirate Island Hotel and Castle Hotel creates the complete immersive overnight experience.",
+      "es": "MAXIMUS es el unico coaster LEGOLAND del mundo con inversiones — B&M Wing Coaster con 90 km/h y tematizacion MYTHICA. Fire Dragon combina dark ride de castillo con emocion de coaster exterior. Power Builder permite programar tu propio viaje robotico. La Escuela de Conduccion da a los ninos una licencia oficial. Captain Nick's Splash Battle y Aquazone Wave Racers son las mejores atracciones acuaticas. Dragon Hunt es un tirador oscuro con laser. Fire Academy crea competicion familiar. Miniland recrea ciudades europeas con 25 millones de ladrillos.",
+      "fr": "MAXIMUS est le seul coaster LEGOLAND au monde avec inversions — B&M Wing Coaster a 90 km/h avec tematisation MYTHICA. Fire Dragon combine dark ride de chateau avec thrills de coaster exterieur. Power Builder permet de programmer votre propre bras robotique. L'Ecole de Conduite donne aux enfants un permis officiel. Captain Nick's Splash Battle et Aquazone Wave Racers sont les meilleures attractions aquatiques. Dragon Hunt est un tireur sombre au laser. Fire Academy cree de la competition familiale. Miniland recrée les villes europeennes avec 25 millions de briques.",
+      "de": "MAXIMUS ist der einzige LEGOLAND-Coaster der Welt mit Inversionen — B&M Wing Coaster mit 90 km/h und MYTHICA-Thematisierung. Fire Dragon kombiniert Schloss-Dark-Ride mit Outdoor-Coaster-Thrills. Power Builder lasst Gaste ihre eigene Roboterarmfahrt programmieren. Die Fahrschule verleiht Kindern einen offiziellen Fuhrerschein. Captain Nick's Splash Battle und Aquazone Wave Racers sind die besten Wasserattraktionen. Dragon Hunt ist ein Laser-Dark-Ride-Shooter. Fire Academy schafft Familienkonkurrenz. Miniland bildet europaische Stadte mit 25 Millionen Steinen nach.",
+      "it": "MAXIMUS e l'unico coaster LEGOLAND al mondo con inversioni — B&M Wing Coaster a 90 km/h con tematizzazione MYTHICA. Fire Dragon combina dark ride del castello con thrills di coaster esterno. Power Builder permette di programmare il proprio braccio robotico. La Scuola Guida da ai bambini una patente ufficiale. Captain Nick's Splash Battle e Aquazone Wave Racers sono le migliori attrazioni acquatiche. Dragon Hunt e uno sparatutto dark ride laser. Fire Academy crea competizione familiare. Miniland ricrea citta europee con 25 milioni di mattoncini.",
+      "nl": "MAXIMUS is de enige LEGOLAND coaster ter wereld met inversies — B&M Wing Coaster met 90 km/h en MYTHICA theming. Fire Dragon combineert kasteel dark ride met buiten coaster thrills. Power Builder laat gasten hun eigen robotarmrit programmeren. De Rijschool geeft kinderen een officieel rijbewijs. Captain Nick's Splash Battle en Aquazone Wave Racers zijn de beste waterattracties. Dragon Hunt is een laser dark ride shooter. Fire Academy creert familiecompetitie. Miniland recreert Europese steden met 25 miljoen stenen.",
+      "pt": "MAXIMUS e o unico coaster LEGOLAND do mundo com inversoes — B&M Wing Coaster a 90 km/h com tematizacao MYTHICA. Fire Dragon combina dark ride de castelo com thrills de coaster exterior. Power Builder permite programar o proprio braco robotico. A Escola de Conducao da as criancas uma carta de conducao oficial. Captain Nick's Splash Battle e Aquazone Wave Racers sao as melhores atracoes aquaticas. Dragon Hunt e um atirador dark ride laser. Fire Academy cria competicao familiar. Miniland recria cidades europeias com 25 milhoes de tijolos.",
+      "ru": "MAXIMUS — единственный коастер LEGOLAND в мире с инверсиями — B&M Wing Coaster со скоростью 90 км/ч и тематикой MYTHICA. Fire Dragon сочетает тёмный аттракцион замка с уличными коастерными ощущениями. Power Builder позволяет гостям программировать собственный аттракцион с роботизированной рукой. Автошкола выдаёт детям официальные водительские права. Captain Nick's Splash Battle и Aquazone Wave Racers — лучшие водные аттракционы. Dragon Hunt — лазерный тёмный аттракцион. Fire Academy создаёт семейное соревнование. Miniland воссоздаёт европейские города из 25 миллионов кирпичиков.",
+      "zh": "极速守护者是世界上唯一有翻转的乐高乐园过山车——B&M翼式过山车，时速90公里，有神话主题。火龙将城堡暗室游乐故事与户外过山车刺激结合在一起。能量建造者让客人编程自己的机械臂游乐——欧洲任何主题公园中最具创新性的景点之一。乐高城市驾驶学校授予儿童官方驾驶执照。尼克船长水上大战和水上赛车手是巴伐利亚最好的互动水上景点。猎龙是壮观中世纪城堡中的激光暗室射击游乐。消防学院创造难忘的家庭竞争。迷你世界用2500万块积木重现欧洲城市。",
+      "ar": "MAXIMUS هو قطار التلال LEGOLAND الوحيد في العالم بانعكاسات — B&M Wing Coaster بسرعة 90 كم/ساعة وطابع MYTHICA. Fire Dragon يجمع Dark ride القلعة مع اثارة الاوتوستراد الخارجي. Power Builder يتيح للضيوف برمجة رحلة ذراع روبوتية خاصة بهم. مدرسة القيادة تمنح الاطفال رخصة قيادة رسمية. Captain Nick's Splash Battle وAquazone Wave Racers افضل الجاذبيات المائية. Dragon Hunt هو قناص Dark ride ليزر. Fire Academy تخلق منافسة عائلية. Miniland يعيد بناء المدن الاوروبية من 25 مليون قرميد."
+    },
+    "ov_did_you_know_body": {
+      "en": "LEGOLAND Deutschland was opened by the LEGO Group on 17 May 2002 — nine months earlier than originally planned — after an extraordinarily fast construction process. During its first season the park welcomed 1.35 million visitors. In 2005 the four Legoland parks were sold to Merlin Entertainments in a 375 million Euro deal. The park uses a staggering 56 million LEGO bricks in total across all its models, decorations and theming — more than any other LEGOLAND park. Miniland contains 25 million bricks alone and recreates Berlin, Frankfurt, Venice, Hamburg Harbour, Neuschwanstein Castle and dozens of other European landmarks in 1:20 scale. MAXIMUS, which opened in 2023, is the first and only roller coaster at any LEGOLAND park in the world to feature inversions — a B&M Wing Coaster originally designed as Mythica for LEGOLAND Windsor. The park was the first LEGOLAND to introduce Power Builder — the programmable robotic arm ride that has since become one of the most talked-about family attractions in German theme park history. Germany's first Peppa Pig Park opened directly adjacent to LEGOLAND Deutschland in 2024. LEGOLAND Deutschland is located on the A8 motorway making it one of the most accessible theme parks in Germany — just under an hour from both Munich and Stuttgart.",
+      "es": "LEGOLAND Deutschland fue inaugurado por el Grupo LEGO el 17 de mayo de 2002 — nueve meses antes de lo previsto. En su primera temporada recibio 1.35 millones de visitantes. En 2005 los cuatro parques Legoland fueron vendidos a Merlin Entertainments por 375 millones de euros. El parque usa 56 millones de ladrillos LEGO en total. Miniland contiene 25 millones de ladrillos recreando ciudades europeas en escala 1:20. MAXIMUS abierto en 2023 es el primer y unico coaster en cualquier LEGOLAND con inversiones. El primer Peppa Pig Park de Alemania abrio junto a LEGOLAND Deutschland en 2024.",
+      "fr": "LEGOLAND Deutschland a ete inaugure par le groupe LEGO le 17 mai 2002 — neuf mois plus tot que prevu. Lors de sa premiere saison le parc a accueilli 1.35 million de visiteurs. En 2005 les quatre parcs Legoland ont ete vendus a Merlin Entertainments pour 375 millions d'euros. Le parc utilise 56 millions de briques LEGO au total. Miniland contient 25 millions de briques recreant des villes europeennes a l'echelle 1:20. MAXIMUS ouvert en 2023 est le premier et seul coaster dans tout LEGOLAND avec inversions. Le premier Peppa Pig Park d'Allemagne a ouvert a cote de LEGOLAND Deutschland en 2024.",
+      "de": "LEGOLAND Deutschland wurde vom LEGO-Konzern am 17. Mai 2002 eroffnet — neun Monate fruher als geplant. In seiner ersten Saison begruBte der Park 1.35 Millionen Besucher. 2005 wurden die vier Legoland-Parks in einem 375-Millionen-Euro-Deal an Merlin Entertainments verkauft. Der Park verwendet insgesamt 56 Millionen LEGO-Steine. Miniland enthalt allein 25 Millionen Steine und bildet europaische Stadte im Mastab 1:20 nach. MAXIMUS 2023 eroffnet ist der erste und einzige Coaster in jedem LEGOLAND mit Inversionen. Deutschlands erster Peppa Pig Park eroffnete 2024 direkt neben LEGOLAND Deutschland.",
+      "it": "LEGOLAND Deutschland e stato inaugurato dal Gruppo LEGO il 17 maggio 2002 — nove mesi prima del previsto. Nella sua prima stagione il parco ha accolto 1.35 milioni di visitatori. Nel 2005 i quattro parchi Legoland furono venduti a Merlin Entertainments per 375 milioni di euro. Il parco usa 56 milioni di mattoncini LEGO in totale. Miniland contiene 25 milioni di mattoncini ricreando citta europee in scala 1:20. MAXIMUS aperto nel 2023 e il primo e unico coaster in qualsiasi LEGOLAND con inversioni. Il primo Peppa Pig Park della Germania ha aperto accanto a LEGOLAND Deutschland nel 2024.",
+      "nl": "LEGOLAND Deutschland werd geopend door de LEGO Group op 17 mei 2002 — negen maanden eerder dan gepland. In zijn eerste seizoen verwelkomde het park 1.35 miljoen bezoekers. In 2005 werden de vier Legoland parken verkocht aan Merlin Entertainments voor 375 miljoen euro. Het park gebruikt in totaal 56 miljoen LEGO-stenen. Miniland bevat alleen al 25 miljoen stenen en recreert Europese steden op schaal 1:20. MAXIMUS geopend in 2023 is de eerste en enige coaster in elk LEGOLAND met inversies. Duitsland's eerste Peppa Pig Park opende in 2024 direct naast LEGOLAND Deutschland.",
+      "pt": "LEGOLAND Deutschland foi inaugurado pelo Grupo LEGO a 17 de maio de 2002 — nove meses antes do previsto. Na sua primeira temporada o parque recebeu 1.35 milhoes de visitantes. Em 2005 os quatro parques Legoland foram vendidos a Merlin Entertainments por 375 milhoes de euros. O parque usa 56 milhoes de tijolos LEGO no total. Miniland contem 25 milhoes de tijolos recriando cidades europeias em escala 1:20. MAXIMUS aberto em 2023 e o primeiro e unico coaster em qualquer LEGOLAND com inversoes. O primeiro Peppa Pig Park da Alemanha abriu junto ao LEGOLAND Deutschland em 2024.",
+      "ru": "LEGOLAND Deutschland был открыт группой LEGO 17 мая 2002 года — на девять месяцев раньше запланированного. В первом сезоне парк принял 1.35 миллиона посетителей. В 2005 году четыре парка Legoland были проданы Merlin Entertainments за 375 миллионов евро. Парк использует в общей сложности 56 миллионов кирпичиков LEGO. Miniland содержит 25 миллионов кирпичиков, воссоздавая европейские города в масштабе 1:20. MAXIMUS, открытый в 2023 году, — первый и единственный коастер в любом LEGOLAND с инверсиями. Первый немецкий Peppa Pig Park открылся рядом с LEGOLAND Deutschland в 2024 году.",
+      "zh": "乐高乐园德国由乐高集团于2002年5月17日开放——比原计划提前9个月。第一个赛季接待了135万名游客。2005年，四个乐高乐园以3.75亿欧元出售给美林娱乐公司。公园共使用5600万块乐高积木。迷你世界仅包含2500万块积木，以1:20的比例重现欧洲城市。2023年开放的极速守护者是世界上任何乐高乐园公园中第一个也是唯一一个有翻转的过山车。德国第一个佩奇猪乐园于2024年在乐高乐园德国旁边开放。",
+      "ar": "افتتحت LEGOLAND Deutschland من قبل مجموعة LEGO في 17 مايو 2002 — قبل تسعة اشهر من الموعد المقرر. في موسمه الاول استقبل المتنزه 1.35 مليون زائر. في 2005 بيعت الحدائق الاربع LEGOLAND لـ Merlin Entertainments بـ 375 مليون يورو. يستخدم المتنزه 56 مليون قرميد LEGO إجمالا. يحتوي Miniland على 25 مليون قرميد وحده يعيد بناء المدن الاوروبية بمقياس 1:20. MAXIMUS المفتوح في 2023 هو اول وحيد اوتوستراد في اي LEGOLAND بانعكاسات. افتتح اول Peppa Pig Park في المانيا بجانب LEGOLAND Deutschland في 2024."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and go straight to MAXIMUS in LEGO MYTHICA — it builds the longest queues fastest and is best experienced within the first 30 minutes. Then Fire Dragon in Knights Kingdom before midday. Power Builder is best tackled mid-morning when it opens fully. Dragon Hunt and Flying NINJAGO have manageable queues throughout the day. Miniland is best explored at a relaxed pace — allow at least 45 minutes. Captain Nick's Splash Battle and Aquazone Wave Racers are perfect for warm afternoons. LEGO City Driving School has a minimum age of 6 — book your slot early as it fills up quickly. Fire Academy is best with children aged 4-10. The Castle Restaurant and Hungry Bear are the best dining options — aim for 11:30am to beat the lunch rush. Download the LEGOLAND Deutschland app for live wait times and Express Pass availability. LEGOLAND Deutschland is best experienced over two days — combination tickets are excellent value. Children under 11 staying at the on-site hotels receive 2-day park tickets free.",
+      "es": "Llega a la apertura y ve directamente a MAXIMUS en LEGO MYTHICA. Luego Fire Dragon en Knights Kingdom antes del mediodia. Power Builder es mejor a media manana. Dragon Hunt y Flying NINJAGO tienen colas manejables. Miniland merece al menos 45 minutos. Captain Nick's Splash Battle y Aquazone Wave Racers son perfectas para la tarde. La Escuela de Conduccion tiene edad minima 6 anos. Castle Restaurant y Hungry Bear son las mejores opciones de comida. LEGOLAND Deutschland se disfruta mejor en dos dias.",
+      "fr": "Arrivez a l'ouverture et allez directement a MAXIMUS dans LEGO MYTHICA. Ensuite Fire Dragon dans Knights Kingdom avant midi. Power Builder est mieux en milieu de matinee. Dragon Hunt et Flying NINJAGO ont des files gérables. Miniland merite au moins 45 minutes. Captain Nick's Splash Battle et Aquazone Wave Racers sont parfaits pour l'apres-midi. L'Ecole de Conduite a un age minimum de 6 ans. Castle Restaurant et Hungry Bear sont les meilleures options. LEGOLAND Deutschland se decouvre mieux sur deux jours.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu MAXIMUS in LEGO MYTHICA. Dann Fire Dragon in Knights Kingdom vor dem Mittag. Power Builder ist am besten am Vormittag. Dragon Hunt und Flying NINJAGO haben handhabbare Warteschlangen. Miniland verdient mindestens 45 Minuten. Captain Nick's Splash Battle und Aquazone Wave Racers sind perfekt fur warme Nachmittage. Die Fahrschule hat ein Mindestalter von 6 Jahren. Castle Restaurant und Hungry Bear sind die besten Essensoptionen. LEGOLAND Deutschland geniesst man am besten uber zwei Tage.",
+      "it": "Arriva all'apertura e vai direttamente a MAXIMUS in LEGO MYTHICA. Poi Fire Dragon in Knights Kingdom prima di mezzogiorno. Power Builder e meglio a meta mattina. Dragon Hunt e Flying NINJAGO hanno code gestibili. Miniland merita almeno 45 minuti. Captain Nick's Splash Battle e Aquazone Wave Racers sono perfetti per il pomeriggio. La Scuola Guida ha eta minima 6 anni. Castle Restaurant e Hungry Bear sono le migliori opzioni. LEGOLAND Deutschland si gode meglio in due giorni.",
+      "nl": "Kom bij de opening en ga direct naar MAXIMUS in LEGO MYTHICA. Dan Fire Dragon in Knights Kingdom voor de middag. Power Builder is het beste in de ochtend. Dragon Hunt en Flying NINJAGO hebben beheersbare wachtrijen. Miniland verdient minstens 45 minuten. Captain Nick's Splash Battle en Aquazone Wave Racers zijn perfect voor warme middagen. De Rijschool heeft een minimumleeftijd van 6 jaar. Castle Restaurant en Hungry Bear zijn de beste eetopties. LEGOLAND Deutschland geniet je het beste over twee dagen.",
+      "pt": "Chega na abertura e vai diretamente ao MAXIMUS em LEGO MYTHICA. Depois Fire Dragon em Knights Kingdom antes do meio-dia. Power Builder e melhor a meio da manha. Dragon Hunt e Flying NINJAGO tem filas geríveis. Miniland merece pelo menos 45 minutos. Captain Nick's Splash Battle e Aquazone Wave Racers sao perfeitos para a tarde. A Escola de Conducao tem idade minima 6 anos. Castle Restaurant e Hungry Bear sao as melhores opcoes. LEGOLAND Deutschland aprecia-se melhor em dois dias.",
+      "ru": "Приходите к открытию и сразу идите к MAXIMUS в LEGO MYTHICA. Затем Fire Dragon в Knights Kingdom до полудня. Power Builder лучше всего в середине утра. Dragon Hunt и Flying NINJAGO имеют управляемые очереди. Miniland заслуживает минимум 45 минут. Captain Nick's Splash Battle и Aquazone Wave Racers идеальны для тёплых послеполудней. Автошкола имеет минимальный возраст 6 лет. Castle Restaurant и Hungry Bear — лучшие варианты питания. LEGOLAND Deutschland лучше всего наслаждаться в течение двух дней.",
+      "zh": "在开园时到达，直奔乐高神话中的极速守护者。然后在中午前体验骑士王国的火龙。能量建造者最好在上午中段体验。猎龙和飞行忍者道的队伍全天可控。迷你世界至少需要45分钟。尼克船长水上大战和水上赛车手非常适合温暖的下午。乐高城市驾驶学校最低年龄6岁。城堡餐厅和饥饿熊是最好的餐饮选择。乐高乐园德国最好花两天时间体验。",
+      "ar": "وصل عند الفتح وتوجه مباشرة الى MAXIMUS في LEGO MYTHICA. ثم Fire Dragon في Knights Kingdom قبل الظهر. Power Builder افضل في منتصف الصباح. Dragon Hunt وFlying NINJAGO لديهم طوابير قابلة للإدارة. Miniland يستحق 45 دقيقة على الاقل. Captain Nick's Splash Battle وAquazone Wave Racers مثاليان لبعد الظهر الدافئ. مدرسة القيادة لها حد ادنى للسن 6 سنوات. Castle Restaurant وHungry Bear افضل خيارات الطعام. LEGOLAND Deutschland يُستمتع به بشكل افضل على مدى يومين."
+    },
+    "ov_photos_body": {
+      "en": "MAXIMUS photographed during its wing coaster inversion sequence against the LEGO MYTHICA backdrop is one of the most visually spectacular theme park images in Germany. Fire Dragon's medieval castle exterior with LEGO battlements is beautifully photogenic from the approach path in Knights Kingdom. Miniland rewards patient and close-up photography — the extraordinary 1:20 scale detail of landmarks like Neuschwanstein Castle and Hamburg Harbour is best captured in soft morning light. The Pirate Island Hotel exterior with its LEGO pirate ship and bold pirate theming creates striking resort photography. The pirate ship playground in front of the Pirate Island Hotel is one of the finest themed playground photography opportunities in any European resort. MAXIMUS and the Fire and Ice Tower photographed together at dusk in LEGO MYTHICA create dramatic combined theme park imagery.",
+      "es": "MAXIMUS fotografiado durante su secuencia de inversion contra el fondo de LEGO MYTHICA es una de las imagenes de parques tematicos mas espectaculares de Alemania. El exterior de castillo medieval de Fire Dragon es muy fotogenico. Miniland recompensa la fotografia cercana y paciente. El exterior del Pirate Island Hotel con su barco pirata LEGO crea imagenes llamativas del resort.",
+      "fr": "MAXIMUS photographie pendant sa sequence d'inversion contre le fond de LEGO MYTHICA est l'une des images de parcs a theme les plus spectaculaires d'Allemagne. L'exterieur du chateau medieval de Fire Dragon est tres photogenique. Miniland recompense la photographie patiente et de pres. L'exterieur de l'hotel Pirate Island avec son bateau pirate LEGO cree des images frappantes du resort.",
+      "de": "MAXIMUS wahrend seiner Inversionssequenz vor dem LEGO MYTHICA Hintergrund fotografiert ist eines der visuell spektakularsten Freizeitpark-Bilder in Deutschland. Das mittelalterliche Schloss-Exterieur von Fire Dragon ist sehr fotogen. Miniland belohnt geduldige Nahaufnahme-Fotografie. Das Pirate Island Hotel Exterieur mit seinem LEGO-Piratenschiff schafft auffallende Resort-Bilder.",
+      "it": "MAXIMUS fotografato durante la sua sequenza di inversione contro lo sfondo di LEGO MYTHICA e una delle immagini di parchi a tema piu spettacolari della Germania. L'esteriore del castello medievale di Fire Dragon e molto fotogenico. Miniland premia la fotografia ravvicinata e paziente. L'esterno dell'hotel Pirate Island con la sua nave pirata LEGO crea immagini sorprendenti del resort.",
+      "nl": "MAXIMUS gefotografeerd tijdens zijn inversievolgorde tegen de LEGO MYTHICA achtergrond is een van de meest visueel spectaculaire pretparkbeelden in Duitsland. Het middeleeuwse kasteelexterieur van Fire Dragon is zeer fotogeniek. Miniland beloont geduldige close-up fotografie. Het exterieur van het Pirate Island Hotel met zijn LEGO piratenschip creert opvallende resort beelden.",
+      "pt": "MAXIMUS fotografado durante a sua sequencia de inversao contra o fundo de LEGO MYTHICA e uma das imagens de parques tematicos mais espetaculares da Alemanha. O exterior do castelo medieval de Fire Dragon e muito fotogenico. Miniland recompensa a fotografia proxima e paciente. O exterior do Pirate Island Hotel com o seu barco pirata LEGO cria imagens marcantes do resort.",
+      "ru": "MAXIMUS, сфотографированный во время последовательности инверсий на фоне LEGO MYTHICA — один из самых визуально впечатляющих образов тематических парков Германии. Средневековый замковый экстерьер Fire Dragon очень фотогеничен. Miniland вознаграждает терпеливую крупноплановую фотографию. Экстерьер Pirate Island Hotel с пиратским кораблём LEGO создаёт яркие курортные образы.",
+      "zh": "在乐高神话背景下拍摄极速守护者翻转序列是德国最具视觉冲击力的主题公园图像之一。火龙的中世纪城堡外观在骑士王国的入口道路上非常上镜。迷你世界用耐心的近距离摄影回报——软光清晨最适合捕捉新天鹅堡和汉堡港口等地标的1:20比例细节。海盗岛酒店外观配上乐高海盗船创造了引人注目的度假村摄影机会。",
+      "ar": "MAXIMUS الملتقط اثناء تسلسل انعكاساته امام خلفية LEGO MYTHICA هو واحد من اكثر صور متنزهات الترفيه روعة بصريا في المانيا. الواجهة الخارجية لقلعة Fire Dragon القروسطية مصورة بشكل جميل. Miniland يكافئ التصوير الصبور والمقرب. الواجهة الخارجية لفندق Pirate Island مع سفينة القراصنة LEGO تخلق صور منتجع لافتة."
+    }
+  },
+  "attractions": {
+    "maximus": {
+      "desc": {
+        "en": "The world's only LEGOLAND coaster with inversions — B&M Wing Coaster with 2 inversions, 90 km/h, nearly 30m tall. The most thrilling ride at any LEGOLAND globally. Min. height: 120cm with adult, 130cm alone.",
+        "es": "El unico coaster LEGOLAND del mundo con inversiones — B&M Wing Coaster con 2 inversiones 90 km/h casi 30m de altura. Min: 120cm con adulto 130cm solo.",
+        "fr": "Le seul coaster LEGOLAND au monde avec inversions — B&M Wing Coaster avec 2 inversions 90 km/h presque 30m de hauteur. Min: 120cm avec adulte 130cm seul.",
+        "de": "Der einzige LEGOLAND-Coaster der Welt mit Inversionen — B&M Wing Coaster mit 2 Inversionen 90 km/h fast 30m Hohe. Mindestgrosse: 120cm mit Erwachsenem 130cm allein.",
+        "it": "L'unico coaster LEGOLAND al mondo con inversioni — B&M Wing Coaster con 2 inversioni 90 km/h quasi 30m di altezza. Min: 120cm con adulto 130cm da solo.",
+        "nl": "De enige LEGOLAND coaster ter wereld met inversies — B&M Wing Coaster met 2 inversies 90 km/h bijna 30m hoog. Min: 120cm met volwassene 130cm alleen.",
+        "pt": "O unico coaster LEGOLAND do mundo com inversoes — B&M Wing Coaster com 2 inversoes 90 km/h quase 30m de altura. Min: 120cm com adulto 130cm sozinho.",
+        "ru": "Единственный в мире коастер LEGOLAND с инверсиями — B&M Wing Coaster с 2 инверсиями, 90 км/ч, почти 30 м высотой. Мин. рост: 120 см со взрослым, 130 см одному.",
+        "zh": "世界上唯一有翻转的乐高乐园过山车——B&M翼式过山车，2个翻转、90公里每小时、近30米高。全球任何乐高乐园中最刺激的游乐项目。有成人陪同最低120厘米，独自最低130厘米。",
+        "ar": "اوتوستراد LEGOLAND الوحيد في العالم بانعكاسات — B&M Wing Coaster مع انعكاسين 90 كم/ساعة قرابة 30م ارتفاعا. الحد الادنى: 120 سم مع بالغ 130 سم وحده."
+      }
+    },
+    "dragon_coaster": {
+      "desc": {
+        "en": "The beloved park classic — magical indoor castle dark ride followed by an exciting outdoor coaster. Knights Kingdom's iconic family attraction since 2002. Min. height: 100cm with adult, 120cm alone.",
+        "es": "El clasico amado del parque — dark ride de castillo magico interior seguido de un emocionante coaster exterior. Min: 100cm con adulto 120cm solo.",
+        "fr": "Le classique bien-aime du parc — dark ride de chateau magique interieur suivi d'un excitant coaster exterieur. Min: 100cm avec adulte 120cm seul.",
+        "de": "Der geliebte Parkklassiker — magische Indoor-Schloss-Dark-Ride gefolgt von einem aufregenden Outdoor-Coaster. Mindestgrosse: 100cm mit Erwachsenem 120cm allein.",
+        "it": "Il classico amato del parco — dark ride di castello magico indoor seguito da un emozionante coaster esterno. Min: 100cm con adulto 120cm da solo.",
+        "nl": "De geliefde parkklassieker — magische indoor kasteel dark ride gevolgd door een spannende buiten coaster. Min: 100cm met volwassene 120cm alleen.",
+        "pt": "O classico amado do parque — dark ride de castelo magico interior seguido de um emocionante coaster exterior. Min: 100cm com adulto 120cm sozinho.",
+        "ru": "Любимая классика парка — волшебный закрытый тёмный аттракцион замка, за которым следует захватывающий открытый коастер. Мин. рост: 100 см со взрослым, 120 см одному.",
+        "zh": "深受喜爱的公园经典——神奇的室内城堡暗室游乐，随后是令人兴奋的室外过山车。自2002年起骑士王国的标志性家庭景点。有成人陪同最低100厘米，独自最低120厘米。",
+        "ar": "الكلاسيكي المحبوب للمتنزه — Dark ride القلعة السحرية الداخلية تليها اوتوستراد خارجي مثير. الحد الادنى: 100 سم مع بالغ 120 سم وحده."
+      }
+    },
+    "technic_coaster": {
+      "desc": {
+        "en": "A classic wild mouse family coaster in LEGO X-treme — sharp hairpins, sudden drops and surprising directional changes. Highly rerideable fun. Min. height: 100cm.",
+        "es": "Un clasico coaster familiar wild mouse en LEGO X-treme — curvas cerradas caidas repentinas y cambios de direccion sorprendentes. Min: 100cm.",
+        "fr": "Un classique coaster familial wild mouse dans LEGO X-treme — virages en epingle brusques chutes soudaines et changements de direction surprenants. Min: 100cm.",
+        "de": "Ein klassischer Wild-Mouse-Familiencoaster in LEGO X-treme — scharfe Haarnadelkurven plotzliche Abfalle und uberraschende Richtungswechsel. Mindestgrosse: 100cm.",
+        "it": "Un classico coaster familiare wild mouse in LEGO X-treme — tornanti stretti cadute improvvise e cambi di direzione sorprendenti. Min: 100cm.",
+        "nl": "Een klassieke wild mouse familiecoaster in LEGO X-treme — scherpe haarspeldbochten plotselinge dalingen en verrassende richtingsveranderingen. Min: 100cm.",
+        "pt": "Um classico coaster familiar wild mouse em LEGO X-treme — curvas fechadas quedas repentinas e mudancas de direcao surpreendentes. Min: 100cm.",
+        "ru": "Классический семейный коастер дикой мыши в LEGO X-treme — резкие шпильки, внезапные падения и удивительные изменения направления. Мин. рост: 100 см.",
+        "zh": "乐高极限区的经典野鼠家庭过山车——急发夹弯、突然下落和令人惊喜的方向改变。极高的可重复游玩乐趣。最低身高：100厘米。",
+        "ar": "اوتوستراد عائلي wild mouse كلاسيكي في LEGO X-treme — منعطفات دبوسية حادة وانحدارات مفاجئة وتغييرات اتجاه مفاجئة. الحد الادنى: 100 سم."
+      }
+    },
+    "flying_ninjago": {
+      "desc": {
+        "en": "A state-of-the-art motion simulator in NINJAGO World delivering convincing aerial flight alongside NINJAGO heroes. Not recommended for motion sickness sufferers. Min. height: 100cm.",
+        "es": "Un simulador de movimiento de ultima generacion en NINJAGO World que ofrece vuelo aereo convincente junto a los heroes NINJAGO. Min: 100cm.",
+        "fr": "Un simulateur de mouvement de pointe dans NINJAGO World offrant un vol aerien convaincant aux cotes des heros NINJAGO. Min: 100cm.",
+        "de": "Ein hochmoderner Bewegungssimulator in NINJAGO World der uberzeugendes Luftfliegen neben NINJAGO-Helden bietet. Mindestgrosse: 100cm.",
+        "it": "Un simulatore di movimento all'avanguardia in NINJAGO World che offre un volo aereo convincente accanto agli eroi NINJAGO. Min: 100cm.",
+        "nl": "Een geavanceerde bewegingssimulator in NINJAGO World die overtuigend luchtverkeer naast NINJAGO-helden biedt. Min: 100cm.",
+        "pt": "Um simulador de movimento de ultima geracao em NINJAGO World que proporciona voo aereo convincente ao lado dos herois NINJAGO. Min: 100cm.",
+        "ru": "Современный симулятор движения в NINJAGO World, создающий убедительный авиационный полёт рядом с героями NINJAGO. Мин. рост: 100 см.",
+        "zh": "NINJAGO世界的顶尖运动模拟器，在忍者道英雄陪伴下提供令人信服的空中飞行体验。不建议容易晕车的游客乘坐。最低身高：100厘米。",
+        "ar": "محاكي حركة متطور في NINJAGO World يقدم رحلة جوية مقنعة الى جانب ابطال NINJAGO. الحد الادنى: 100 سم."
+      }
+    },
+    "kingdom_quest": {
+      "desc": {
+        "en": "An immersive laser dark ride shooter through a medieval castle — hunt the dragon across spectacular chambers and dungeons with competitive scoring. Highly replayable. Min. height: 90cm with adult.",
+        "es": "Un tirador oscuro con laser inmersivo a traves de un castillo medieval — caza el dragon en camaras espectaculares con puntuacion competitiva. Min: 90cm con adulto.",
+        "fr": "Un tireur de dark ride laser immersif a travers un chateau medieval — chassez le dragon dans des chambres spectaculaires avec des scores competitifs. Min: 90cm avec adulte.",
+        "de": "Ein immersiver Laser-Dark-Ride-Shooter durch eine mittelalterliche Burg — jagen Sie den Drachen durch spektakulare Kammern und Verlies mit Wettbewerbs-Scoring. Mindestgrosse: 90cm mit Erwachsenem.",
+        "it": "Uno sparatutto dark ride laser immersivo attraverso un castello medievale — caccia il drago attraverso camere spettacolari con punteggi competitivi. Min: 90cm con adulto.",
+        "nl": "Een meeslepende laser dark ride shooter door een middeleeuws kasteel — jaag de draak door spectaculaire kamers en kelders met competitieve scoring. Min: 90cm met volwassene.",
+        "pt": "Um atirador dark ride laser imersivo atraves de um castelo medieval — caca o dragao em camaras espetaculares com pontuacao competitiva. Min: 90cm com adulto.",
+        "ru": "Погружающий лазерный тёмный аттракцион через средневековый замок — охотьтесь на дракона по впечатляющим залам и подземельям с соревновательным счётом. Мин. рост: 90 см со взрослым.",
+        "zh": "穿越中世纪城堡的沉浸式激光暗室射击游乐——在壮观的房间和地牢中猎龙，有竞技得分。极高可重复游玩性。有成人陪同最低身高：90厘米。",
+        "ar": "قناص Dark ride ليزر غامر عبر قلعة قروسطية — اصطد التنين عبر حجرات مذهلة وسجون مع نقاط تنافسية. الحد الادنى: 90 سم مع بالغ."
+      }
+    },
+    "power_builder": {
+      "desc": {
+        "en": "Riders programme their own robotic arm ride experience — one of the most uniquely innovative family attractions at any European theme park. Min. height: 100cm.",
+        "es": "Los riders programan su propia experiencia de brazo robotico — una de las atracciones familiares mas innovadoras de cualquier parque tematico europeo. Min: 100cm.",
+        "fr": "Les riders programment leur propre experience de bras robotique — l'une des attractions familiales les plus innovantes de tout parc a theme europeen. Min: 100cm.",
+        "de": "Fahrer programmieren ihre eigene Roboterarmerfahrung — eine der einzigartig innovativsten Familienattraktionen in jedem europaischen Freizeitpark. Mindestgrosse: 100cm.",
+        "it": "I rider programmano la propria esperienza di braccio robotico — una delle attrazioni familiari piu innovative di qualsiasi parco a tema europeo. Min: 100cm.",
+        "nl": "Rijders programmeren hun eigen robotarmervaring — een van de meest uniek innovatieve familieattracties in elk Europees pretpark. Min: 100cm.",
+        "pt": "Os riders programam a sua propria experiencia de braco robotico — uma das atracoes familiares mais inovadoras de qualquer parque tematico europeu. Min: 100cm.",
+        "ru": "Гости программируют собственный опыт с роботизированной рукой — один из самых уникально инновационных семейных аттракционов в любом европейском тематическом парке. Мин. рост: 100 см.",
+        "zh": "乘客编程自己的机械臂游乐体验——欧洲任何主题公园中最独特创新的家庭景点之一。最低身高：100厘米。",
+        "ar": "يبرمج الركاب تجربة ذراع روبوتية خاصة بهم — واحدة من اكثر جاذبيات الاسرة ابتكارا في اي متنزه موضوعي اوروبي. الحد الادنى: 100 سم."
+      }
+    },
+    "jungle_expedition": {
+      "desc": {
+        "en": "An immersive jeep adventure through the LEGO jungle with atmospheric wildlife scenery and ancient ruins. Min. height: 90cm with adult.",
+        "es": "Una aventura en jeep inmersiva a traves de la jungla LEGO con animales y ruinas antiguas. Min: 90cm con adulto.",
+        "fr": "Une aventure en jeep immersive a travers la jungle LEGO avec des animaux et des ruines antiques. Min: 90cm avec adulte.",
+        "de": "Ein immersives Jeep-Abenteuer durch den LEGO-Dschungel mit atmospharischen Tieren und alten Ruinen. Mindestgrosse: 90cm mit Erwachsenem.",
+        "it": "Un'avventura in jeep immersiva attraverso la giungla LEGO con animali atmosferici e rovine antiche. Min: 90cm con adulto.",
+        "nl": "Een meeslepend jeep-avontuur door de LEGO jungle met atmosferisch dierenleven en oude ruines. Min: 90cm met volwassene.",
+        "pt": "Uma imersiva aventura de jipe atraves da selva LEGO com vida selvagem atmosferica e ruinas antigas. Min: 90cm com adulto.",
+        "ru": "Захватывающее приключение на джипе через джунгли LEGO с атмосферной дикой природой и древними руинами. Мин. рост: 90 см со взрослым.",
+        "zh": "穿越乐高丛林的沉浸式吉普冒险，有大气的野生动物场景和古代遗迹。有成人陪同最低身高：90厘米。",
+        "ar": "مغامرة جيب غامرة عبر الادغال LEGO مع مشاهد حيوانات برية وانقاض قديمة. الحد الادنى: 90 سم مع بالغ."
+      }
+    },
+    "splash_safari": {
+      "desc": {
+        "en": "Interactive pirate boats with water cannons — drench other boats and spectators while being shot back. Joyful aquatic warfare guaranteed. Min. height: 90cm.",
+        "es": "Barcos piratas interactivos con canones de agua — empapar otros barcos y espectadores mientras te disparan. Min: 90cm.",
+        "fr": "Bateaux pirates interactifs avec canons a eau — tremper d'autres bateaux et spectateurs tout en etant tire dessus. Min: 90cm.",
+        "de": "Interaktive Piratenschiffe mit Wasserkanonen — andere Boote und Zuschauer nassspritzen wahrend man selbst beschossen wird. Mindestgrosse: 90cm.",
+        "it": "Barche pirata interattive con cannoni ad acqua — inzuppare altre barche e spettatori mentre si viene sparati. Min: 90cm.",
+        "nl": "Interactieve piratenboten met waterkanonnen — andere boten en toeschouwers doorweken terwijl je zelf beschoten wordt. Min: 90cm.",
+        "pt": "Barcos piratas interativos com canoes de agua — ensopar outros barcos e espetadores enquanto e disparado de volta. Min: 90cm.",
+        "ru": "Интерактивные пиратские лодки с водяными пушками — обстреливайте другие лодки и зрителей, пока стреляют в вас. Мин. рост: 90 см.",
+        "zh": "互动海盗船配备水炮——向其他船只和旁观者猛烈喷水，同时也会被对方攻击。保证欢乐的水战体验。最低身高：90厘米。",
+        "ar": "قوارب قراصنة تفاعلية مع مدافع مياه — ابلل القوارب الاخرى والمتفرجين بينما تُطلق عليك المياه. الحد الادنى: 90 سم."
+      }
+    },
+    "wave_racers": {
+      "desc": {
+        "en": "Jet ski-style boats racing through waves while spectators operate shore-based water cannons — unpredictable interactive soaking fun. Min. height: 100cm.",
+        "es": "Motos acuaticas corriendo entre olas mientras los espectadores operan canones de agua en la orilla. Min: 100cm.",
+        "fr": "Des bateaux style jet ski courant dans les vagues pendant que les spectateurs operent des canons a eau au bord. Min: 100cm.",
+        "de": "Jetski-Boote die durch Wellen rasen wahrend Zuschauer uferseitige Wasserkanonen bedienen. Mindestgrosse: 100cm.",
+        "it": "Barche in stile jet ski che corrono tra le onde mentre i spectatori operano cannoni d'acqua sulla riva. Min: 100cm.",
+        "nl": "Jetski-achtige boten die door golven racen terwijl toeschouwers waterkanonnen op de oever bedienen. Min: 100cm.",
+        "pt": "Barcos estilo jet ski a correr pelas ondas enquanto espetadores operam canoes de agua na margem. Min: 100cm.",
+        "ru": "Лодки в стиле гидроцикла, мчащиеся через волны, пока зрители управляют береговыми водяными пушками. Мин. рост: 100 см.",
+        "zh": "水上摩托式船只在波浪中竞速，旁观者操控岸边水炮——不可预测的互动湿身乐趣。最低身高：100厘米。",
+        "ar": "قوارب على غرار الجت سكي تسابق الامواج بينما يشغل المتفرجون مدافع مياه على الشاطئ. الحد الادنى: 100 سم."
+      }
+    },
+    "pirate_land": {
+      "desc": {
+        "en": "The atmospheric pirate zone — LEGO pirate ships, harbour scenes and the magnificent pirate ship climbing structure. Perfect for families with young children. Suitable for all ages.",
+        "es": "La zona pirata atmosferica — barcos piratas LEGO escenas de puerto y la magnifica estructura de escalada de barco pirata. Apto para todas las edades.",
+        "fr": "La zone pirate atmospherique — bateaux pirates LEGO scenes de port et magnifique structure d'escalade de bateau pirate. Convient a tous les ages.",
+        "de": "Die atmospharische Piratenzone — LEGO-Piratenschiffe Hafenszenen und die herrliche Piratenschiff-Kletterstruktur. Fur alle Altersgruppen.",
+        "it": "La zona pirata atmosferica — navi pirata LEGO scene di porto e magnifica struttura da arrampicata di nave pirata. Adatto a tutte le eta.",
+        "nl": "De atmosferische piratenzone — LEGO piratenschepen havenscenes en de prachtige piratenschip klimstructuur. Geschikt voor alle leeftijden.",
+        "pt": "A zona pirata atmosferica — navios piratas LEGO cenas de porto e magnifica estrutura de escalada de navio pirata. Adequado para todas as idades.",
+        "ru": "Атмосферная пиратская зона — пиратские корабли LEGO, портовые сцены и великолепная конструкция для лазания в виде пиратского корабля. Подходит для всех возрастов.",
+        "zh": "大气的海盗区——乐高海盗船、港口场景和壮观的海盗船攀爬结构。非常适合有幼儿的家庭。适合所有年龄段。",
+        "ar": "منطقة القراصنة الجوية — سفن القراصنة LEGO ومشاهد الميناء وهيكل تسلق سفينة القراصنة الرائع. مناسب لجميع الاعمار."
+      }
+    },
+    "pirate_school": {
+      "desc": {
+        "en": "Young recruits train as pirates through ropes, climbing nets and balance challenges, earning an official pirate certificate on completion. Min. height: 90cm.",
+        "es": "Los jovenes reclutas se entrenan como piratas a traves de cuerdas redes de escalada y desafios de equilibrio ganando un certificado oficial de pirata. Min: 90cm.",
+        "fr": "Les jeunes recrues s'entrainent en tant que pirates a travers des cordes des filets d'escalade et des defis d'equilibre gagnant un certificat officiel de pirate. Min: 90cm.",
+        "de": "Junge Rekruten trainieren als Piraten durch Seile Kletternetze und Gleichgewichtsherausforderungen und erhalten bei Abschluss ein offizielles Piraten-Zertifikat. Mindestgrosse: 90cm.",
+        "it": "Le giovani reclute si addestrano come pirati attraverso funi reti da arrampicata e sfide di equilibrio guadagnando un certificato pirata ufficiale. Min: 90cm.",
+        "nl": "Jonge rekruten trainen als piraten door touwen klimnetten en evenwichtsuitdagingen en verdienen bij voltooiing een officieel piratencertificaat. Min: 90cm.",
+        "pt": "Os jovens recrutas treinam como piratas atraves de cordas redes de escalada e desafios de equilibrio ganhando um certificado pirata oficial na conclusao. Min: 90cm.",
+        "ru": "Молодые рекруты тренируются как пираты через верёвки, сети для лазания и испытания на равновесие, получая официальный пиратский сертификат. Мин. рост: 90 см.",
+        "zh": "年幼新兵通过绳索、攀爬网和平衡挑战训练成为海盗，完成后获得官方海盗证书。最低身高：90厘米。",
+        "ar": "المجندون الصغار يتدربون كقراصنة من خلال حبال وشبكات تسلق وتحديات توازن ويكسبون شهادة قراصنة رسمية عند الاكمال. الحد الادنى: 90 سم."
+      }
+    },
+    "kids_power_tower": {
+      "desc": {
+        "en": "Children pull a rope to control their own ascent then bounce back down — interactive junior drop tower teaching effort and reward. Min. height: 90cm.",
+        "es": "Los ninos jalan una cuerda para controlar su propio ascenso luego rebotan — torre de caida junior interactiva. Min: 90cm.",
+        "fr": "Les enfants tirent une corde pour controler leur propre ascension puis rebondissent vers le bas — tour de chute junior interactive. Min: 90cm.",
+        "de": "Kinder ziehen an einem Seil um ihren eigenen Aufstieg zu steuern und springen dann zuruck — interaktiver Junior-Fallturm. Mindestgrosse: 90cm.",
+        "it": "I bambini tirano una corda per controllare la propria ascesa poi rimbalzano verso il basso — torre di caduta junior interattiva. Min: 90cm.",
+        "nl": "Kinderen trekken aan een touw om hun eigen klimtocht te besturen en stuiteren dan terug — interactieve junior valtoren. Min: 90cm.",
+        "pt": "As criancas puxam uma corda para controlar a propria ascensao e depois ricocheteiam para baixo — torre de queda junior interativa. Min: 90cm.",
+        "ru": "Дети тянут верёвку, чтобы контролировать собственный подъём, а затем прыгают обратно вниз — интерактивная юниорская башня свободного падения. Мин. рост: 90 см.",
+        "zh": "儿童拉绳控制自己上升，然后弹跳而下——互动初级落塔，教导努力与奖励的关系。最低身高：90厘米。",
+        "ar": "يسحب الاطفال حبلا للتحكم في صعودهم الخاص ثم يرتدون للأسفل — برج سقوط صغير تفاعلي. الحد الادنى: 90 سم."
+      }
+    },
+    "driving_school": {
+      "desc": {
+        "en": "Children aged 6-13 drive real battery-powered cars on a road network and earn an official LEGOLAND driving licence — the most treasured park souvenir. Min. age: 6 years.",
+        "es": "Ninos de 6 a 13 anos conducen coches reales de bateria en una red de carreteras y obtienen una licencia oficial LEGOLAND. Edad minima: 6 anos.",
+        "fr": "Les enfants de 6 a 13 ans conduisent de vraies voitures a batterie sur un reseau routier et obtiennent un permis LEGOLAND officiel. Age minimum: 6 ans.",
+        "de": "Kinder von 6-13 Jahren fahren echte Batterieautos auf einem Strassennetz und erhalten einen offiziellen LEGOLAND-Fuhrerschein. Mindestalter: 6 Jahre.",
+        "it": "Bambini dai 6 ai 13 anni guidano vere auto a batteria su una rete stradale e ottengono una patente LEGOLAND ufficiale. Eta minima: 6 anni.",
+        "nl": "Kinderen van 6-13 jaar besturen echte batterij-aangedreven auto's op een wegennet en verdienen een officieel LEGOLAND rijbewijs. Minimumleeftijd: 6 jaar.",
+        "pt": "Criancas de 6-13 anos conduzem carros reais a bateria numa rede de estradas e ganham uma carta de conducao LEGOLAND oficial. Idade minima: 6 anos.",
+        "ru": "Дети 6-13 лет водят настоящие автомобили на батарейках по дорожной сети и получают официальные водительские права LEGOLAND. Минимальный возраст: 6 лет.",
+        "zh": "6-13岁儿童在道路网络上驾驶真实电池驱动汽车，获得官方乐高乐园驾驶执照——公园最珍贵的纪念品。最低年龄：6岁。",
+        "ar": "الاطفال من 6 الى 13 سنة يقودون سيارات بطاريات حقيقية على شبكة طرق ويكسبون رخصة LEGOLAND رسمية. الحد الادنى للسن: 6 سنوات."
+      }
+    },
+    "flughafen": {
+      "desc": {
+        "en": "Spinning LEGO aeroplanes where riders control their own altitude with a joystick — a timeless and charming LEGOLAND classic. Suitable for all ages.",
+        "es": "Aviones LEGO giratorios donde los riders controlan su propia altitud con un joystick. Apto para todas las edades.",
+        "fr": "Des avions LEGO en rotation ou les riders controlent leur propre altitude avec un joystick. Convient a tous les ages.",
+        "de": "Rotierende LEGO-Flugzeuge bei denen Fahrer ihre eigene Hohe mit einem Joystick steuern. Fur alle Altersgruppen.",
+        "it": "Aerei LEGO rotanti dove i rider controllano la propria altitudine con un joystick. Adatto a tutte le eta.",
+        "nl": "Draaiende LEGO vliegtuigen waarbij rijders hun eigen hoogte besturen met een joystick. Geschikt voor alle leeftijden.",
+        "pt": "Avioes LEGO giratorios onde os riders controlam a propria altitude com um joystick. Adequado para todas as idades.",
+        "ru": "Вращающиеся самолёты LEGO, где гости управляют собственной высотой с помощью джойстика. Подходит для всех возрастов.",
+        "zh": "旋转乐高飞机，乘客用操纵杆控制自己的飞行高度——永恒而迷人的乐高乐园经典。适合所有年龄段。",
+        "ar": "طائرات LEGO دوارة حيث يتحكم الركاب في ارتفاعهم الخاص بعصا تحكم. مناسب لجميع الاعمار."
+      }
+    },
+    "fire_academy": {
+      "desc": {
+        "en": "Families pump fire trucks to a fire and battle the flames with hoses — competing against other teams for the fastest extinguishment. Unforgettable teamwork fun. Min. height: 90cm.",
+        "es": "Las familias bombean camiones de bomberos a un incendio y combaten las llamas con mangueras compitiendo contra otros equipos. Min: 90cm.",
+        "fr": "Les familles pompent des camions de pompiers vers un feu et combattent les flammes avec des tuyaux en competant contre d'autres equipes. Min: 90cm.",
+        "de": "Familien pumpen Feuerwehrautos zu einem Brand und bekampfen die Flammen mit Schlauchen im Wettbewerb mit anderen Teams. Mindestgrosse: 90cm.",
+        "it": "Le famiglie pompano camion dei pompieri verso un incendio e combattono le fiamme con tubi in gara contro altri team. Min: 90cm.",
+        "nl": "Families pompen brandweerauto's naar een brand en bestrijden de vlammen met slangen in competitie met andere teams. Min: 90cm.",
+        "pt": "As familias bombam camioes de bombeiros para um incendio e combatem as chamas com mangueiras competindo contra outras equipas. Min: 90cm.",
+        "ru": "Семьи качают пожарные машины к пожару и тушат пламя шлангами, соревнуясь с другими командами на скорость тушения. Мин. рост: 90 см.",
+        "zh": "家庭成员手动抽泵消防车赶赴火场，用水管与其他队伍竞争最快扑灭火焰。难忘的团队协作乐趣。最低身高：90厘米。",
+        "ar": "العائلات تضخ شاحنات الاطفاء الى الحريق وتكافح النيران بالخراطيم منافسة الفرق الاخرى لأسرع اخماد. الحد الادنى: 90 سم."
+      }
+    }
+  },
+  "food": {
+    "food_castle_restaurant": {
+      "desc": {
+        "en": "The finest dining in the resort — medieval castle buffet with all-you-can-eat hot and cold options in a spectacular Knights Kingdom setting.",
+        "es": "La mejor cena del resort — buffet de castillo medieval con opciones de todo lo que puedas comer en un espectacular entorno de Knights Kingdom.",
+        "fr": "La meilleure experience culinaire du resort — buffet de chateau medieval a volonte dans un cadre spectaculaire de Knights Kingdom.",
+        "de": "Das beste Speiseangebot des Resorts — mittelalterliches Schloss-Buffet mit All-you-can-eat-Optionen in einem spektakularen Knights Kingdom Ambiente.",
+        "it": "Il miglior pranzo del resort — buffet di castello medievale con opzioni a volonta in uno spettacolare ambiente di Knights Kingdom.",
+        "nl": "Het beste eten van het resort — middeleeuws kasteel buffet met all-you-can-eat opties in een spectaculaire Knights Kingdom omgeving.",
+        "pt": "O melhor jantar do resort — buffet de castelo medieval com opcoes a vontade num espetacular ambiente Knights Kingdom.",
+        "ru": "Лучшее питание в курорте — средневековый замковый буфет с горячими и холодными блюдами без ограничений в великолепной обстановке Knights Kingdom.",
+        "zh": "度假村最佳餐饮体验——在壮观的骑士王国环境中提供中世纪城堡无限量冷热自助餐。",
+        "ar": "افضل تناول طعام في المنتجع — بوفيه قلعة قرون وسطى مع خيارات كل ما يمكنك تناوله في بيئة Knights Kingdom رائعة."
+      }
+    },
+    "food_hungry_bear": {
+      "desc": {
+        "en": "Warm family dining around the LEGO campfire — hearty Bavarian and international dishes in a rustic woodland setting in the Holiday Village.",
+        "es": "Comidas familiares calidas alrededor de la hoguera LEGO — platos bavarianos e internacionales en un entorno rustico de bosque en el Holiday Village.",
+        "fr": "Repas en famille chaleureux autour du feu de camp LEGO — plats bavarois et internationaux dans un cadre rustique de foret dans le Holiday Village.",
+        "de": "Warmes Familienessen am LEGO-Lagerfeuer — herzhafte bayerische und internationale Gerichte in einer rustikalen Waldkulisse im Holiday Village.",
+        "it": "Pasti familiari caldi intorno al fuoco di campo LEGO — piatti bavaresi e internazionali in un rustico ambiente boschivo nel Holiday Village.",
+        "nl": "Warme gezinsmaaltijden rondom het LEGO kampvuur — stevige Beierse en internationale gerechten in een rustiek bosachtig Holiday Village.",
+        "pt": "Refeicoes familiares calorosas em torno da fogueira LEGO — pratos bavarianos e internacionais num rustico cenario de floresta no Holiday Village.",
+        "ru": "Тёплые семейные обеды у костра LEGO — сытные баварские и международные блюда в деревенской лесной обстановке Деревни отдыха.",
+        "zh": "围坐在乐高篝火旁的温馨家庭餐饮——度假村中质朴森林环境里供应丰盛的巴伐利亚和国际菜肴。",
+        "ar": "تناول طعام عائلي دافئ حول نار المخيم LEGO — اطباق بافارية ودولية شهية في محيط غابة ريفية في قرية العطلات."
+      }
+    },
+    "food_ninja_kitchen": {
+      "desc": {
+        "en": "Asian-inspired fast food in NINJAGO World — noodle boxes, rice bowls and spring rolls with full NINJAGO theming throughout.",
+        "es": "Comida rapida inspirada en Asia en NINJAGO World — cajas de fideos cuencos de arroz y rollitos de primavera con tematizacion NINJAGO.",
+        "fr": "Restauration rapide inspiree de l'Asie dans NINJAGO World — boites de nouilles bols de riz et rouleaux de printemps avec tematisation NINJAGO.",
+        "de": "Asiatisch inspiriertes Fast Food in NINJAGO World — Nudelboxen Reisschussel und Fruhllingsrollen mit vollstandiger NINJAGO-Thematisierung.",
+        "it": "Fast food ispirato all'Asia in NINJAGO World — scatole di noodle ciotole di riso e involtini primavera con tematizzazione NINJAGO.",
+        "nl": "Aziatisch geïnspireerde fast food in NINJAGO World — noedelboxen rijstkommen en loempia's met volledige NINJAGO theming.",
+        "pt": "Fast food inspirado na Asia em NINJAGO World — caixas de noodles tigelas de arroz e rolinhos primavera com tematizacao NINJAGO.",
+        "ru": "Азиатский фастфуд в NINJAGO World — коробки с лапшой, миски с рисом и яичные рулетики с полной тематикой NINJAGO.",
+        "zh": "NINJAGO世界的亚洲风味快餐——面条盒、米饭碗和春卷，全程NINJAGO主题装饰。",
+        "ar": "وجبات سريعة مستوحاة من اسيا في NINJAGO World — صناديق نودل وأوعية أرز ولفائف ربيع مع طابع NINJAGO كامل."
+      }
+    },
+    "food_piraten_taverne": {
+      "desc": {
+        "en": "Pirate-themed breakfast buffet and hearty menus at the Pirate Island Hotel — breakfast included with all Pirate Island Hotel stays.",
+        "es": "Buffet de desayuno tematico pirata y menus abundantes en el Pirate Island Hotel — desayuno incluido con todas las estancias en el Pirate Island Hotel.",
+        "fr": "Buffet de petit dejeuner a theme pirate et menus copieux au Pirate Island Hotel — petit dejeuner inclus pour tous les sejours au Pirate Island Hotel.",
+        "de": "Piraten-thematisiertes Fruhstucksbuffet und herzhafte Menus im Pirate Island Hotel — Fruhstuck inklusive bei allen Aufenthalten im Pirate Island Hotel.",
+        "it": "Buffet colazione a tema pirata e menu abbondanti al Pirate Island Hotel — colazione inclusa con tutti i soggiorni al Pirate Island Hotel.",
+        "nl": "Piraten-thematisch ontbijtbuffet en stevige menu's bij het Pirate Island Hotel — ontbijt inbegrepen bij alle verblijven in het Pirate Island Hotel.",
+        "pt": "Buffet de pequeno-almoco com tema pirata e menus fartos no Pirate Island Hotel — pequeno-almoco incluido em todas as estadias no Pirate Island Hotel.",
+        "ru": "Пиратский тематический буфет завтрака и сытные меню в Pirate Island Hotel — завтрак включён во все пребывания в Pirate Island Hotel.",
+        "zh": "海盗主题早餐自助和丰盛菜单，位于海盗岛酒店——所有海盗岛酒店住宿均含早餐。",
+        "ar": "بوفيه إفطار ذو طابع قراصنة وقوائم طعام وفيرة في Pirate Island Hotel — الإفطار مشمول مع جميع الإقامات في Pirate Island Hotel."
+      }
+    },
+    "food_pizza_mania": {
+      "desc": {
+        "en": "Freshly baked pizzas and pasta centrally located in the park — included in LEGOLAND combination meal tickets and great value for families.",
+        "es": "Pizzas frescas y pasta en el centro del parque — incluido en los tickets combinados de comida LEGOLAND.",
+        "fr": "Pizzas fraiches et pates au centre du parc — inclus dans les billets de repas combines LEGOLAND.",
+        "de": "Frisch gebackene Pizzen und Pasta zentral im Park — in LEGOLAND-Kombitickets fur Mahlzeiten enthalten.",
+        "it": "Pizze fresche e pasta nel centro del parco — incluse nei ticket combinati LEGOLAND per i pasti.",
+        "nl": "Vers gebakken pizza's en pasta centraal in het park — inbegrepen in LEGOLAND combi-maaltijdkaartjes.",
+        "pt": "Pizzas frescas e massa no centro do parque — incluidas nos bilhetes combinados de refeicao LEGOLAND.",
+        "ru": "Свежеиспечённые пиццы и паста в центре парка — включены в комбинированные билеты LEGOLAND на питание.",
+        "zh": "位于公园中心的新鲜烤披萨和意面——包含在乐高乐园组合餐券中，对家庭来说物超所值。",
+        "ar": "بيتزا طازجة ومعكرونة في وسط المتنزه — مشمولة في تذاكر الوجبات المركبة LEGOLAND."
+      }
+    },
+    "food_stars_grill_house": {
+      "desc": {
+        "en": "Freshly grilled burgers, steaks, chicken and Bavarian bratwurst — the best grilled food option in the park.",
+        "es": "Hamburgesas bistecs pollo y bratwurst bavaros a la parrilla — la mejor opcion de comida a la parrilla del parque.",
+        "fr": "Burgers steaks poulet et bratwurst bavarois fraichement grilles — la meilleure option de nourriture grillee du parc.",
+        "de": "Frisch gegrillte Burger Steaks Huhnchen und bayerische Bratwurst — die beste Grillessen-Option im Park.",
+        "it": "Hamburger bistecche pollo e bratwurst bavaro freschi alla griglia — la migliore opzione di cibo grigliato nel parco.",
+        "nl": "Vers gegrilde burgers steaks kip en Beierse bratwurst — de beste gegrilde voedseloptie in het park.",
+        "pt": "Hamburgeres bifes frango e bratwurst bavaros grelhados frescos — a melhor opcao de comida grelhada no parque.",
+        "ru": "Свежеприготовленные на гриле бургеры, стейки, курица и баварские колбаски — лучший вариант жареной еды в парке.",
+        "zh": "新鲜烤制的汉堡、牛排、鸡肉和巴伐利亚烤香肠——公园内最好的烧烤餐饮选择。",
+        "ar": "برغر وشرائح لحم ودجاج وبراتفورست بافاري مشوي طازج — افضل خيار طعام مشوي في المتنزه."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_pirate_island": {
+      "desc": {
+        "en": "The most immersive hotel at LEGOLAND Deutschland — pirate-themed rooms with LEGO models, separate children's area, magnificent pirate ship playground, breakfast at Pirates Taverne. Children under 11 get 2-day tickets free.",
+        "es": "El hotel mas inmersivo de LEGOLAND Deutschland — habitaciones tematicas piratas con modelos LEGO area infantil separada magnifico parque de barco pirata desayuno en Pirates Taverne. Ninos menores de 11 reciben entradas de 2 dias gratis.",
+        "fr": "L'hotel le plus immersif de LEGOLAND Deutschland — chambres a theme pirate avec modeles LEGO espace enfants separe magnifique jeu de bateau pirate petit dejeuner au Pirates Taverne. Enfants de moins de 11 ans recoivent des billets 2 jours gratuits.",
+        "de": "Das immersivste Hotel in LEGOLAND Deutschland — Piraten-thematisierte Zimmer mit LEGO-Modellen separater Kinderbereich herrlicher Piratenschiff-Spielplatz Fruhstuck im Pirates Taverne. Kinder unter 11 erhalten kostenlose 2-Tages-Tickets.",
+        "it": "L'hotel piu immersivo di LEGOLAND Deutschland — camere a tema pirata con modelli LEGO area bambini separata magnifico parco giochi nave pirata colazione al Pirates Taverne. Bambini sotto 11 anni ricevono biglietti 2 giorni gratuiti.",
+        "nl": "Het meest meeslepende hotel bij LEGOLAND Deutschland — piraten-thematische kamers met LEGO modellen aparte kinderruimte prachtig piratenschip speelplaats ontbijt bij Pirates Taverne. Kinderen onder 11 ontvangen gratis 2-daagse tickets.",
+        "pt": "O hotel mais imersivo de LEGOLAND Deutschland — quartos tematicos piratas com modelos LEGO area infantil separada magnifico parque infantil de navio pirata pequeno-almoco no Pirates Taverne. Criancas menores de 11 recebem bilhetes de 2 dias gratis.",
+        "ru": "Самый погружающий отель LEGOLAND Deutschland — пиратские тематические номера с моделями LEGO, отдельной детской зоной, великолепной игровой площадкой с пиратским кораблём, завтраком в Pirates Taverne. Дети до 11 лет получают двухдневные билеты бесплатно.",
+        "zh": "乐高乐园德国最沉浸式的酒店——有乐高模型的海盗主题客房、独立儿童区、壮观的海盗船游乐场、海盗酒馆早餐。11岁以下儿童免费获赠2日门票。",
+        "ar": "الفندق الاكثر غمرا في LEGOLAND Deutschland — غرف ذات طابع قراصنة مع نماذج LEGO ومنطقة اطفال منفصلة وملعب سفينة قراصنة رائع وإفطار في Pirates Taverne. الاطفال دون 11 عاما يحصلون على تذاكر يومين مجانا."
+      },
+      "rooms": {
+        "pirate_family_room": {
+          "name": { "en": "Pirate Family Room", "es": "Habitacion Familiar Pirata", "fr": "Chambre Familiale Pirate", "de": "Piraten-Familienzimmer", "it": "Camera Familiare Pirata", "nl": "Piraten Familiekamer", "pt": "Quarto Familiar Pirata", "ru": "Пиратский семейный номер", "zh": "海盗家庭客房", "ar": "غرفة عائلية قراصنة" },
+          "desc": { "en": "Themed pirate room with LEGO models, separate children's sleeping area, breakfast and pirate ship playground access.", "es": "Habitacion pirata tematizada con modelos LEGO area de dormir infantil separada desayuno y acceso al parque de barco pirata.", "fr": "Chambre pirate thematisee avec modeles LEGO espace de sommeil enfants separe petit dejeuner et acces au jeu de bateau pirate.", "de": "Thematisiertes Piratenzimmer mit LEGO-Modellen separatem Kinderschlafbereich Fruhstuck und Zugang zum Piratenschiff-Spielplatz.", "it": "Camera pirata tematizzata con modelli LEGO area nanna bambini separata colazione e accesso al parco giochi nave pirata.", "nl": "Thematische piratenkamer met LEGO modellen aparte kinderslaapruimte ontbijt en toegang tot piratenschip speeltuin.", "pt": "Quarto pirata tematizado com modelos LEGO area de dormir infantil separada pequeno-almoco e acesso ao parque infantil de navio pirata.", "ru": "Тематический пиратский номер с моделями LEGO, отдельной детской спальной зоной, завтраком и доступом к площадке с пиратским кораблём.", "zh": "主题海盗客房，有乐高模型、独立儿童睡眠区、早餐和海盗船游乐场通道。", "ar": "غرفة قراصنة ذات طابع مع نماذج LEGO ومنطقة نوم اطفال منفصلة وإفطار وصول الى ملعب سفينة القراصنة." }
+        },
+        "pirate_superior_room": {
+          "name": { "en": "Pirate Superior Room", "es": "Habitacion Superior Pirata", "fr": "Chambre Superieure Pirate", "de": "Piraten-Superior-Zimmer", "it": "Camera Superior Pirata", "nl": "Piraten Superior Kamer", "pt": "Quarto Superior Pirata", "ru": "Пиратский номер Superior", "zh": "海盗高级客房", "ar": "غرفة سوبيريور قراصنة" },
+          "desc": { "en": "Superior pirate room for up to 5 guests with Nintendo Switch, enhanced LEGO pirate decor, children's sleeping area and breakfast.", "es": "Habitacion pirata superior para hasta 5 huespedes con Nintendo Switch decoracion LEGO mejorada area de dormir infantil y desayuno.", "fr": "Chambre pirate superieure pour jusqu'a 5 personnes avec Nintendo Switch decor LEGO ameliore espace sommeil enfants et petit dejeuner.", "de": "Superior-Piratenzimmer fur bis zu 5 Gaste mit Nintendo Switch erweitertem LEGO-Dekor Kinderschlafbereich und Fruhstuck.", "it": "Camera pirata superior per fino a 5 ospiti con Nintendo Switch decor LEGO potenziato area nanna bambini e colazione.", "nl": "Superior piratenkamer voor maximaal 5 gasten met Nintendo Switch verbeterd LEGO decor kinderslaapruimte en ontbijt.", "pt": "Quarto pirata superior para ate 5 hospedes com Nintendo Switch decor LEGO melhorado area de dormir infantil e pequeno-almoco.", "ru": "Номер Superior с пиратской тематикой для до 5 гостей с Nintendo Switch, улучшенным декором LEGO, детской спальной зоной и завтраком.", "zh": "可容纳5人的高级海盗客房，配有Nintendo Switch、增强型乐高海盗装饰、儿童睡眠区和早餐。", "ar": "غرفة قراصنة سوبيريور لما يصل الى 5 ضيوف مع Nintendo Switch وديكور LEGO محسن ومنطقة نوم اطفال وإفطار." }
+        }
+      }
+    },
+    "hotel_castle": {
+      "desc": {
+        "en": "An enchanted castle at the Holiday Village — King's, Knight's and Dragon Castle rooms with LEGO models, castle courtyard playgrounds, restaurant and breakfast. Children under 11 get 2-day tickets free.",
+        "es": "Un castillo encantado en el Holiday Village — habitaciones del Rey Caballero y Castillo Dragon con modelos LEGO patios de juego del castillo restaurante y desayuno. Ninos menores de 11 reciben entradas de 2 dias gratis.",
+        "fr": "Un chateau enchante au Holiday Village — chambres du Roi Chevalier et Chateau Dragon avec modeles LEGO cours du chateau terrains de jeux restaurant et petit dejeuner. Enfants de moins de 11 ans recoivent des billets 2 jours gratuits.",
+        "de": "Ein verzaubertes Schloss im Holiday Village — Konig- Ritter- und Drachen-Schloss-Zimmer mit LEGO-Modellen Schlosshof-Spielplatzen Restaurant und Fruhstuck. Kinder unter 11 erhalten kostenlose 2-Tages-Tickets.",
+        "it": "Un castello incantato nel Holiday Village — camere del Re Cavaliere e Castello Drago con modelli LEGO cortili del castello parchi giochi ristorante e colazione. Bambini sotto 11 anni ricevono biglietti 2 giorni gratuiti.",
+        "nl": "Een betoverd kasteel in het Holiday Village — kamers van de Koning Ridder en Draakkasteel met LEGO modellen kasteelhofspeelplaatsen restaurant en ontbijt. Kinderen onder 11 ontvangen gratis 2-daagse tickets.",
+        "pt": "Um castelo encantado no Holiday Village — quartos do Rei Cavaleiro e Castelo Dragao com modelos LEGO patios de castelo parques infantis restaurante e pequeno-almoco. Criancas menores de 11 recebem bilhetes de 2 dias gratis.",
+        "ru": "Зачарованный замок в деревне отдыха — номера Короля, Рыцаря и Дракона с моделями LEGO, замковыми дворовыми площадками, рестораном и завтраком. Дети до 11 лет получают двухдневные билеты бесплатно.",
+        "zh": "度假村中的魔法城堡——国王、骑士和龙城堡客房，有乐高模型、城堡庭院游乐场、餐厅和早餐。11岁以下儿童免费获赠2日门票。",
+        "ar": "قلعة مسحورة في قرية العطلات — غرف الملك والفارس وقلعة التنين مع نماذج LEGO وملاعب فناء القلعة ومطعم وإفطار. الاطفال دون 11 عاما يحصلون على تذاكر يومين مجانا."
+      },
+      "rooms": {
+        "castle_family_room": {
+          "name": { "en": "Castle Family Room", "es": "Habitacion Familiar del Castillo", "fr": "Chambre Familiale du Chateau", "de": "Schloss-Familienzimmer", "it": "Camera Familiare del Castello", "nl": "Kasteel Familiekamer", "pt": "Quarto Familiar do Castelo", "ru": "Семейный номер замка", "zh": "城堡家庭客房", "ar": "غرفة عائلية القلعة" },
+          "desc": { "en": "Medieval-themed room with LEGO models, castle courtyard playground, breakfast and 2-day tickets for under-11s free.", "es": "Habitacion tematizada medieval con modelos LEGO patio de juego del castillo desayuno y entradas de 2 dias gratis para menores de 11.", "fr": "Chambre a theme medieval avec modeles LEGO terrain de jeux de la cour du chateau petit dejeuner et billets 2 jours gratuits pour les moins de 11 ans.", "de": "Mittelalterlich thematisiertes Zimmer mit LEGO-Modellen Schlosshof-Spielplatz Fruhstuck und kostenlosen 2-Tages-Tickets fur unter 11-Jahrige.", "it": "Camera a tema medievale con modelli LEGO parco giochi nel cortile del castello colazione e biglietti 2 giorni gratuiti per under 11.", "nl": "Middeleeuws thematische kamer met LEGO modellen kasteel hofplaats speeltuin ontbijt en gratis 2-daagse tickets voor onder 11.", "pt": "Quarto tematizado medieval com modelos LEGO parque infantil no patio do castelo pequeno-almoco e bilhetes de 2 dias gratis para menores de 11.", "ru": "Средневековый тематический номер с моделями LEGO, детской площадкой во дворе замка, завтраком и бесплатными двухдневными билетами для детей до 11 лет.", "zh": "中世纪主题客房，有乐高模型、城堡庭院游乐场、早餐和11岁以下免费2日门票。", "ar": "غرفة ذات طابع قرون وسطى مع نماذج LEGO وملعب فناء القلعة وإفطار وتذاكر يومين مجانا لمن دون 11 عاما." }
+        },
+        "castle_superior_room": {
+          "name": { "en": "Castle Superior Room", "es": "Habitacion Superior del Castillo", "fr": "Chambre Superieure du Chateau", "de": "Schloss-Superior-Zimmer", "it": "Camera Superior del Castello", "nl": "Kasteel Superior Kamer", "pt": "Quarto Superior do Castelo", "ru": "Номер Superior замка", "zh": "城堡高级客房", "ar": "غرفة سوبيريور القلعة" },
+          "desc": { "en": "Superior castle room for up to 5 with Nintendo Switch, enhanced LEGO medieval decor, children's area and breakfast.", "es": "Habitacion superior del castillo para hasta 5 con Nintendo Switch decoracion medieval LEGO mejorada area infantil y desayuno.", "fr": "Chambre superieure du chateau pour jusqu'a 5 avec Nintendo Switch decor medieval LEGO ameliore espace enfants et petit dejeuner.", "de": "Superior-Schlosszimmer fur bis zu 5 mit Nintendo Switch erweitertem mittelalterlichem LEGO-Dekor Kinderbereich und Fruhstuck.", "it": "Camera superior del castello per fino a 5 con Nintendo Switch decor medievale LEGO potenziato area bambini e colazione.", "nl": "Superior kasteel kamer voor maximaal 5 met Nintendo Switch verbeterd middeleeuws LEGO decor kinderruimte en ontbijt.", "pt": "Quarto superior do castelo para ate 5 com Nintendo Switch decor medieval LEGO melhorado area infantil e pequeno-almoco.", "ru": "Номер Superior замка до 5 гостей с Nintendo Switch, улучшенным средневековым декором LEGO, детской зоной и завтраком.", "zh": "可容纳5人的高级城堡客房，配有Nintendo Switch、增强型乐高中世纪装饰、儿童区和早餐。", "ar": "غرفة سوبيريور القلعة لما يصل الى 5 مع Nintendo Switch وديكور قرون وسطى LEGO محسن ومنطقة اطفال وإفطار." }
+        }
+      }
+    },
+    "hotel_linde": {
+      "desc": {
+        "en": "A well-regarded 3-star hotel in central Gunzburg, a short drive from LEGOLAND — comfortable rooms, traditional Bavarian restaurant, beer garden and free parking at excellent value.",
+        "es": "Un hotel de 3 estrellas bien considerado en el centro de Gunzburg a corta distancia de LEGOLAND — habitaciones comodas restaurante bavaros tradicional jardin de cerveza y aparcamiento gratuito.",
+        "fr": "Un hotel 3 etoiles bien considere au centre de Gunzburg a courte distance de LEGOLAND — chambres confortables restaurant bavarois traditionnel jardin de biere et parking gratuit.",
+        "de": "Ein angesehenes 3-Sterne Hotel im Zentrum von Gunzburg kurze Fahrt von LEGOLAND — komfortable Zimmer traditionelles bayerisches Restaurant Biergarten und kostenloser Parkplatz.",
+        "it": "Un ben considerato hotel 3 stelle nel centro di Gunzburg a breve distanza da LEGOLAND — camere confortevoli ristorante bavarese tradizionale birreria all'aperto e parcheggio gratuito.",
+        "nl": "Een goed aangeschreven 3-sterren hotel in het centrum van Gunzburg op korte afstand van LEGOLAND — comfortabele kamers traditioneel Beiers restaurant biertuin en gratis parkeren.",
+        "pt": "Um hotel de 3 estrelas bem considerado no centro de Gunzburg a curta distancia de LEGOLAND — quartos confortaveis restaurante bavarano tradicional jardim de cerveja e estacionamento gratuito.",
+        "ru": "Уважаемый 3-звёздочный отель в центре Гюнцбурга в короткой поездке от LEGOLAND — уютные номера, традиционный баварский ресторан, пивной сад и бесплатная парковка.",
+        "zh": "位于贡茨堡市中心备受好评的三星级酒店，距乐高乐园很近——舒适客房、传统巴伐利亚餐厅、啤酒花园和免费停车场，性价比极高。",
+        "ar": "فندق 3 نجوم مرموق في وسط Gunzburg على بعد قصير من LEGOLAND — غرف مريحة ومطعم بافاري تقليدي وحديقة بيرة ومواقف مجانية."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaard Kamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Comfortable 3-star room with free WiFi, TV and private bathroom. Traditional Bavarian breakfast available. Free parking.", "es": "Comoda habitacion de 3 estrellas con WiFi gratuito TV y bano privado. Desayuno bavaros disponible. Aparcamiento gratuito.", "fr": "Confortable chambre 3 etoiles avec WiFi gratuit TV et salle de bain privee. Petit dejeuner bavarois disponible. Parking gratuit.", "de": "Komfortables 3-Sterne Zimmer mit kostenlosem WLAN TV und eigenem Bad. Traditionelles bayerisches Fruhstuck verfugbar. Kostenloser Parkplatz.", "it": "Camera confortevole 3 stelle con WiFi gratuito TV e bagno privato. Colazione bavarese disponibile. Parcheggio gratuito.", "nl": "Comfortabele 3-sterren kamer met gratis WiFi TV en prive badkamer. Traditioneel Beiers ontbijt beschikbaar. Gratis parkeren.", "pt": "Quarto confortavel de 3 estrelas com WiFi gratuito TV e casa de banho privada. Pequeno-almoco bavarano disponivel. Estacionamento gratuito.", "ru": "Уютный 3-звёздочный номер с бесплатным WiFi, ТВ и отдельной ванной. Традиционный баварский завтрак по желанию. Бесплатная парковка.", "zh": "舒适三星级客房，有免费WiFi、电视和独立浴室。可提供传统巴伐利亚早餐。免费停车场。", "ar": "غرفة 3 نجوم مريحة مع واي فاي مجاني وتلفزيون وحمام خاص. إفطار بافاري تقليدي متاح. مواقف مجانية." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious family room with extra beds for children, breakfast included and free parking near LEGOLAND Deutschland.", "es": "Amplia habitacion familiar con camas adicionales para ninos desayuno incluido y aparcamiento gratuito cerca de LEGOLAND Deutschland.", "fr": "Spacieuse chambre familiale avec lits supplementaires pour enfants petit dejeuner inclus et parking gratuit pres de LEGOLAND Deutschland.", "de": "Geraumiges Familienzimmer mit zusatzlichen Kinderbetten Fruhstuck inklusive und kostenlosem Parkplatz bei LEGOLAND Deutschland.", "it": "Camera familiare spaziosa con letti aggiuntivi per bambini colazione inclusa e parcheggio gratuito vicino a LEGOLAND Deutschland.", "nl": "Ruime familiekamer met extra bedden voor kinderen ontbijt inbegrepen en gratis parkeren bij LEGOLAND Deutschland.", "pt": "Quarto familiar espacoso com camas extra para criancas pequeno-almoco incluido e estacionamento gratuito perto de LEGOLAND Deutschland.", "ru": "Просторный семейный номер с дополнительными кроватями для детей, завтраком и бесплатной парковкой рядом с LEGOLAND Deutschland.", "zh": "宽敞家庭客房，有儿童加床、含早餐和乐高乐园德国附近免费停车场。", "ar": "غرفة عائلية فسيحة مع أسرة إضافية للأطفال وإفطار مشمول ومواقف مجانية بالقرب من LEGOLAND Deutschland." }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_pirate_island",
+    "name": "LEGOLAND Pirate Island Hotel",
+    "description": "The most exciting and immersive hotel at LEGOLAND Deutschland — the Pirate Island Hotel is a spectacular LEGO pirate-themed hotel directly connected to the LEGOLAND Holiday Village, just a short walk from the park entrance. Rooms are lovingly decorated with incredible LEGO pirate models and feature a separate children's sleeping area in every family room, ensuring parents and children each have their own space after an exciting day at the park. The magnificent pirate ship playground right outside the hotel is a highlight — one of the finest themed playgrounds at any European theme park resort. Breakfast at the Pirates Taverne is included with every stay. Children under 11 receive 2-day park tickets free. From approximately 180 euros per room per night.",
+    "image": "assets/images/legoland_deutschland/hotel_pirate_island.png",
+    "lat": 48.4540,
+    "lng": 10.2682,
+    "rating": 4.5,
+    "topPick": true,
+    "website": "https://www.legoland.de/en/short-breaks/accommodation/pirate-island-hotel/",
+    "rooms": [
+      {
+        "key": "pirate_family_room",
+        "name": "Pirate Family Room",
+        "description": "Themed room with LEGO pirate models, separate children's sleeping area, breakfast buffet at Pirates Taverne and pirate ship playground access.",
+        "pricePerNight": 180.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "pirate_superior_room",
+        "name": "Pirate Superior Room",
+        "description": "Superior themed room for up to 5 guests with Nintendo Switch, LEGO pirate decor, children's sleeping area and breakfast included.",
+        "pricePerNight": 230.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_castle",
+    "name": "LEGOLAND Castle Hotel",
+    "description": "An enchanted medieval castle experience at the LEGOLAND Holiday Village — guests of all ages become lords and ladies of the castle in elaborately themed rooms surrounded by breathtaking LEGO models. Choose between the King's Castle, Knight's Castle and Dragon Castle — each offering immersive medieval theming, atmospheric castle courtyards with numerous playgrounds and the magnificent castle restaurant for breakfast and dinner. The Castle Hotel complex is the most visually dramatic accommodation at LEGOLAND Deutschland and the preferred choice for families who want a proper fairy tale overnight experience. Children under 11 receive 2-day park tickets free. From approximately 160 euros per room per night.",
+    "image": "assets/images/legoland_deutschland/hotel_castle.png",
+    "lat": 48.4542,
+    "lng": 10.2685,
+    "rating": 4.4,
+    "topPick": true,
+    "website": "https://www.legoland.de/en/short-breaks/accommodation/the-castles/",
+    "rooms": [
+      {
+        "key": "castle_family_room",
+        "name": "Castle Family Room",
+        "description": "Medieval-themed room with LEGO models, castle courtyard playground access, breakfast at the castle restaurant and 2-day tickets for under-11s free.",
+        "pricePerNight": 160.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "castle_superior_room",
+        "name": "Castle Superior Room",
+        "description": "Superior castle room for up to 5 guests with Nintendo Switch, enhanced LEGO decor, children's sleeping area and breakfast included.",
+        "pricePerNight": 210.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_linde",
+    "name": "Hotel Linde Gunzburg",
+    "description": "A well-regarded and conveniently located 3-star hotel in the centre of Gunzburg, just a short drive from LEGOLAND Deutschland, offering comfortable rooms, a traditional Bavarian restaurant, beer garden and free parking at significantly lower prices than the on-site LEGOLAND hotels. Hotel Linde is the best value partner hotel for families visiting LEGOLAND Deutschland who want a comfortable and typically Bavarian overnight experience without the premium price of themed accommodation. The hotel is popular with European families driving through Bavaria who combine a LEGOLAND visit with broader regional sightseeing.",
+    "image": "assets/images/legoland_deutschland/hotel_linde.png",
+    "lat": 48.4567,
+    "lng": 10.2751,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.legoland.de/en/short-breaks/more-accommodation-hotel-partners/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable 3-star room with free WiFi, TV and private bathroom. Traditional Bavarian breakfast available. Free parking.",
+        "pricePerNight": 85.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room with extra beds for children, breakfast included and free parking near LEGOLAND Deutschland.",
+        "pricePerNight": 120.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

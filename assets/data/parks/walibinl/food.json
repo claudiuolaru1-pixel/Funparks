@@ -1,0 +1,87 @@
+﻿[
+  {
+    "id": "food_cock_a_doodle_doo",
+    "name": "Cock-A-Doodle-Doo",
+    "type": "Chicken Restaurant",
+    "image": "assets/images/walibi_netherlands/food_cock_a_doodle_doo.png",
+    "lat": 52.4491,
+    "lng": 5.6928,
+    "rating": 4.3,
+    "description": "The most popular food stop at Walibi Netherlands — Cock-A-Doodle-Doo is a fun and lively chicken restaurant in the Wilderness area serving crispy fried chicken, chicken burgers, wraps and sides that consistently attract the longest lunchtime queues in the park. The quality is notably above standard theme park chicken fare and the fun barnyard atmosphere makes it one of the most enjoyable and talked-about dining stops in the Dutch theme park scene.",
+    "topPick": true,
+    "items": [
+      { "name": "Crispy Chicken Box", "description": "Crispy fried chicken pieces with fries and dipping sauce", "price": 15.0 },
+      { "name": "Chicken Burger", "description": "Crispy chicken fillet burger with lettuce and sauce", "price": 13.0 },
+      { "name": "Chicken Wrap", "description": "Grilled chicken wrap with salad and sauce", "price": 12.5 },
+      { "name": "Kids Box", "description": "Small chicken nuggets with fries and drink", "price": 10.0 }
+    ]
+  },
+  {
+    "id": "food_hacienda",
+    "name": "La Hacienda",
+    "type": "Mexican Restaurant",
+    "image": "assets/images/walibi_netherlands/food_hacienda.png",
+    "lat": 52.4494,
+    "lng": 5.6922,
+    "rating": 4.2,
+    "description": "A vibrant Mexican-themed restaurant serving burritos, tacos, nachos and quesadillas in a colourful hacienda setting with outdoor terrace seating. La Hacienda is one of the most distinctively flavoured food options at Walibi Netherlands and particularly popular with older visitors and young adults who appreciate Mexican street food flavours rather than standard theme park burger fare. The outdoor terrace is a pleasant spot for lunch on a warm day.",
+    "topPick": true,
+    "items": [
+      { "name": "Burrito", "description": "Large flour tortilla filled with chicken or beef, rice, beans and salsa", "price": 14.0 },
+      { "name": "Nachos", "description": "Tortilla chips with cheese sauce, guacamole and salsa", "price": 9.0 },
+      { "name": "Taco Box", "description": "Three tacos with your choice of filling and toppings", "price": 13.0 },
+      { "name": "Mexican Beer", "description": "Cold Mexican beer or non-alcoholic alternative", "price": 5.0 }
+    ]
+  },
+  {
+    "id": "food_flavors",
+    "name": "Flavors",
+    "type": "International Street Food",
+    "image": "assets/images/walibi_netherlands/food_flavors.png",
+    "lat": 52.4497,
+    "lng": 5.6931,
+    "rating": 4.1,
+    "description": "A diverse street food concept at the heart of the Festivalization theme — Flavors brings together international street food flavours including Asian noodles, Mediterranean wraps and Dutch snacks in a lively outdoor food court atmosphere that perfectly captures the festival spirit of Walibi Netherlands. One of the most interesting and varied dining options in the park.",
+    "topPick": false,
+    "items": [
+      { "name": "Noodle Box", "description": "Stir-fried noodles with vegetables and choice of protein", "price": 13.0 },
+      { "name": "Falafel Wrap", "description": "Warm pita with falafel, hummus and fresh salad", "price": 11.0 },
+      { "name": "Dutch Fries", "description": "Traditional Dutch fries with mayonnaise or satay sauce", "price": 6.0 },
+      { "name": "Stroopwafel", "description": "Classic Dutch caramel waffle", "price": 3.5 }
+    ]
+  },
+  {
+    "id": "food_doner_kebab",
+    "name": "Doner Kebab",
+    "type": "Turkish Grill",
+    "image": "assets/images/walibi_netherlands/food_doner_kebab.png",
+    "lat": 52.4500,
+    "lng": 5.6917,
+    "rating": 4.0,
+    "description": "A popular quick-service Turkish grill stand serving freshly sliced doner kebab in pita or as a platter alongside fries, salad and sauces. The Doner Kebab stand is one of the most generously portioned and consistently satisfying food options at Walibi Netherlands — particularly popular with hungry teenagers and young adults who need substantial fuel between the park's thrill rides.",
+    "topPick": false,
+    "items": [
+      { "name": "Doner Pita", "description": "Freshly sliced doner kebab in warm pita with salad and sauce", "price": 11.0 },
+      { "name": "Doner Platter", "description": "Generous doner kebab with fries and salad", "price": 14.0 },
+      { "name": "Falafel Pita", "description": "Vegetarian falafel in warm pita with salad and hummus", "price": 10.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 3.5 }
+    ]
+  },
+  {
+    "id": "food_toastn_wrap",
+    "name": "Toast N Wrap",
+    "type": "Sandwiches and Wraps",
+    "image": "assets/images/walibi_netherlands/food_toastn_wrap.png",
+    "lat": 52.4502,
+    "lng": 5.6937,
+    "rating": 3.9,
+    "description": "A convenient quick-service sandwich and wrap outlet serving freshly made toasted sandwiches, wraps and light bites throughout the day — a reliable option for visitors wanting something lighter than a full meal between rides. Toast N Wrap is one of the most accessible and family-friendly food stops in the park with a wide selection of fillings to suit different tastes.",
+    "topPick": false,
+    "items": [
+      { "name": "Club Sandwich", "description": "Toasted club sandwich with chicken, bacon, lettuce and tomato", "price": 11.0 },
+      { "name": "Veggie Wrap", "description": "Warm wrap with roasted vegetables and hummus", "price": 10.0 },
+      { "name": "Tuna Melt", "description": "Toasted sandwich with tuna, cheese and salad", "price": 10.5 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 3.5 }
+    ]
+  }
+]

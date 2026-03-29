@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_van_der_valk",
+    "name": "Van der Valk Hotel Gladbeck",
+    "description": "The most popular and highly rated hotel for Movie Park Germany visitors — Van der Valk Hotel Gladbeck is a superb 4-star Dutch chain hotel located in Gladbeck just a 10-minute drive from Movie Park on the A2 motorway. With 183 beautifully appointed rooms and exclusive suites, a restaurant with terrace, bar, fireplace lounge, free parking and exceptional breakfast buffet, the Van der Valk Gladbeck is the finest overnight option in the region. The hotel even offers package deals including Movie Park tickets alongside the overnight stay, making it the most convenient choice for families planning a park visit. Highly rated by both couples and families. From around 90 euros per room per night.",
+    "image": "assets/images/moviepark/hotel_van_der_valk.png",
+    "lat": 51.5749,
+    "lng": 6.9868,
+    "rating": 4.5,
+    "topPick": true,
+    "website": "https://gladbeck.vandervalk.de/en",
+    "rooms": [
+      {
+        "key": "comfort_room",
+        "name": "Comfort Room",
+        "description": "Spacious 4-star comfort room with satellite TV, desk, minibar, free WiFi and large bathroom. Excellent breakfast buffet available.",
+        "pricePerNight": 90.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "moviepark_package",
+        "name": "Movie Park Package",
+        "description": "Overnight stay in a comfort room with breakfast buffet and Movie Park Germany day tickets included — the ultimate convenience package.",
+        "pricePerNight": 145.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_welcome_genselkirchen",
+    "name": "Welcome Hotel Gelsenkirchen",
+    "description": "A well-regarded 4-star business and leisure hotel in Gelsenkirchen approximately 15 minutes from Movie Park Germany by car — Welcome Hotel Gelsenkirchen offers modern, spacious rooms, a full-service restaurant, bar, fitness centre and free parking at prices that undercut the Van der Valk while still offering excellent comfort. Located near the famous Veltins-Arena football stadium, the hotel is ideal for visitors combining a Movie Park trip with a Schalke 04 match or exploring the wider Ruhr region. Consistently well-reviewed for cleanliness and friendly service.",
+    "image": "assets/images/moviepark/hotel_welcome_genselkirchen.png",
+    "lat": 51.5459,
+    "lng": 7.0856,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.welcome-hotels.com/en/hotels/gelsenkirchen/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Modern 4-star room with double or twin beds, free WiFi, flat-screen TV and en-suite bathroom.",
+        "pricePerNight": 80.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Spacious superior room with extra amenities, larger bathroom and breakfast buffet included.",
+        "pricePerNight": 105.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_bei_yasemin_dorsten",
+    "name": "Hotel bei Yasemin Dorsten",
+    "description": "A charming and affordable family-run hotel in Dorsten, just 10 kilometres from Movie Park Germany in a quiet suburban setting — Hotel bei Yasemin is one of the best-value accommodation options near the park, offering clean, comfortable rooms with a warm personal welcome that chain hotels cannot provide. Perfect for families visiting Movie Park on a budget who want a more intimate and relaxed overnight experience. Free parking, home-cooked breakfast and genuinely hospitable service make this a hidden gem near Movie Park.",
+    "image": "assets/images/moviepark/hotel_bei_yasemin_dorsten.png",
+    "lat": 51.6603,
+    "lng": 6.9742,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.movieparkgermany.de/en/visit/hotels",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable double room with free WiFi, private bathroom and home-cooked breakfast included.",
+        "pricePerNight": 65.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room with bunk beds for children, free WiFi and breakfast included.",
+        "pricePerNight": 90.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

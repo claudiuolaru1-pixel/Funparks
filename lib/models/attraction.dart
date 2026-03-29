@@ -22,6 +22,7 @@ class Attraction {
   final int? inversions;
   final int? openedYear;
   final int? minHeightCm;
+  final bool temporarilyClosed;
 
   Attraction({
     required this.id,
@@ -39,6 +40,7 @@ class Attraction {
     this.inversions,
     this.openedYear,
     this.minHeightCm,
+    this.temporarilyClosed = false,
   });
 
   static double _parseDouble(dynamic v, double fallback) {
@@ -100,6 +102,7 @@ class Attraction {
       inversions: _parseIntNullable(j['inversions']),
       openedYear: _parseIntNullable(j['openedYear']),
       minHeightCm: _parseIntNullable(j['minHeightCm']),
+      temporarilyClosed: j['temporarilyClosed'] == true,
     );
   }
 
@@ -119,5 +122,6 @@ class Attraction {
         'inversions': inversions,
         'openedYear': openedYear,
         'minHeightCm': minHeightCm,
+        'temporarilyClosed': temporarilyClosed,
       };
 }

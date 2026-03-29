@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_legoland",
+    "name": "Hotel LEGOLAND",
+    "description": "The ultimate LEGOLAND Billund experience — a spectacular 4-star hotel located directly next to the park with 0 metres between your room and the rides. Hotel LEGOLAND offers elaborately themed rooms inspired by LEGO NINJAGO, LEGO Friends, pirates, kingdoms and more — every room is a fully immersive adventure with LEGO sets, themed decor and in-room surprises. Guests enjoy the magnificent Panorama Restaurant with breakfast, lunch and dinner buffets, LEGO building zones, a gym, lounge areas and the LEGO Shop. Children up to and including 12 years old receive 2-day LEGOLAND tickets at no extra cost when booking. Breakfast included in all stays. Achiever Travellers' Choice 2025 status from TripAdvisor. From 1,400 DKK per room per night.",
+    "image": "assets/images/legoland_billund/hotel_legoland.png",
+    "lat": 55.7366,
+    "lng": 9.1259,
+    "rating": 4.6,
+    "topPick": true,
+    "website": "https://www.legoland.dk/en/short-break/you-can-stay-here/hotel-legoland/",
+    "rooms": [
+      {
+        "key": "themed_room",
+        "name": "LEGO Themed Room",
+        "description": "Elaborately themed room (NINJAGO, Friends, Pirate or Kingdom) with LEGO sets, themed decor, breakfast buffet and park access steps away.",
+        "pricePerNight": 1400.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_package",
+        "name": "Family Short Break Package",
+        "description": "Themed room with breakfast, 2-day park tickets for children under 12 at no extra cost and in-room LEGO welcome gifts.",
+        "pricePerNight": 1800.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_castle",
+    "name": "LEGOLAND Castle Hotel",
+    "description": "An enchanted castle rising beside LEGOLAND Billund — the LEGOLAND Castle Hotel is a spectacular themed hotel where the King and Queen of LEGOLAND invite families as their special guests. Guests sleep in beautifully designed Princess, Wizard or Dragon Knight rooms filled with LEGO sets, treasure hunts and magical surprises. The Knights' Tavern Restaurant serves breakfast and dinner buffets in a magnificent castle dining hall. Multiple playrooms, playgrounds and LEGO building zones surround the castle. Children up to 12 receive 2-day park tickets free. Located a 2-minute walk from the LEGOLAND entrance with free parking. Breakfast included. From 1,200 DKK per room per night.",
+    "image": "assets/images/legoland_billund/hotel_castle.png",
+    "lat": 55.7344,
+    "lng": 9.1228,
+    "rating": 4.5,
+    "topPick": true,
+    "website": "https://www.legoland.dk/en/short-break/you-can-stay-here/legoland-castle-hotel/",
+    "rooms": [
+      {
+        "key": "princess_room",
+        "name": "Princess or Wizard Room",
+        "description": "Magical themed room with LEGO sets, treasure hunt activity, breakfast buffet and 2-minute walk to LEGOLAND entrance.",
+        "pricePerNight": 1200.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "dragon_knights_room",
+        "name": "Dragon Knight's Room",
+        "description": "Bold dragon-themed room with bunk beds for children, LEGO sets, castle playground access and breakfast included.",
+        "pricePerNight": 1350.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_village",
+    "name": "LEGOLAND Holiday Village",
+    "description": "A cosy nature-filled holiday village right next to LEGOLAND Billund offering a uniquely outdoor and relaxed alternative to the themed hotels. The LEGOLAND Holiday Village features charming wooden cabins and pirate-themed rooms surrounded by trees and outdoor play areas with a pirate restaurant serving delicious breakfast and dinner buffets. Perfect for families who want more space, a connection to nature and a slightly lower price point while still being steps from the park. Children under 12 receive 2-day park tickets free. From 700 DKK per cabin per night.",
+    "image": "assets/images/legoland_billund/hotel_village.png",
+    "lat": 55.7370,
+    "lng": 9.1262,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.legoland.dk/en/short-break/you-can-stay-here/legoland-holiday-village/",
+    "rooms": [
+      {
+        "key": "basic_cabin",
+        "name": "Nature Cabin",
+        "description": "Comfortable wooden cabin surrounded by trees with outdoor play areas and easy access to LEGOLAND. Breakfast not included.",
+        "pricePerNight": 700.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "pirate_room",
+        "name": "Pirate Room",
+        "description": "Fun pirate-themed cabin with LEGO pirate decor, bunk beds and access to the pirate restaurant breakfast and dinner buffets.",
+        "pricePerNight": 950.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

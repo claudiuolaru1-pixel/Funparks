@@ -1,0 +1,408 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "LEGOLAND Billund Resort is the original LEGOLAND — the park that started it all. Opened on 7 June 1968 by the LEGO company in the small Danish town of Billund, the home of the LEGO brick, LEGOLAND Billund is one of the most historically significant and emotionally resonant theme parks on earth. Built on the vision of Godtfred Kirk Christiansen to showcase what could be created from LEGO bricks, the park opened with the legendary Miniland — an extraordinary 1:20 scale recreation of Denmark and world landmarks assembled from millions of LEGO bricks — and has grown over 58 years into a spectacular 45-hectare resort with over 45 rides across 12 themed lands. Today LEGOLAND Billund is the most visited tourist attraction in Jutland and the third most visited in all of Denmark. The park is home to Polar X-plorer — the fastest and most thrilling coaster in any European LEGOLAND — The Dragon which has delighted families since 1985 with its iconic castle dark ride and outdoor coaster finale, and NINJAGO: The Ride which uses groundbreaking gesture-control technology. Brand new for 2026 is Minifigure Speedway — Denmark's first-ever duelling roller coaster racing both forwards and backwards. Three exceptional LEGO-themed hotels sit directly beside the park offering the complete immersive LEGOLAND overnight experience. LEGOLAND Billund is open from late March through October. Billund Airport is just 4 kilometres away with direct connections across Europe.",
+      "es": "LEGOLAND Billund Resort es el LEGOLAND original — el parque que lo inicio todo. Inaugurado el 7 de junio de 1968 por la empresa LEGO en el pequeno pueblo danes de Billund hogar del ladrillo LEGO. Hoy es la atraccion turistica mas visitada de Jutlandia con mas de 45 atracciones en 12 tierras tematicas. Polar X-plorer es la montanna rusa mas rapida de cualquier LEGOLAND europeo. El Dragon deleita a las familias desde 1985. NINJAGO: The Ride utiliza tecnologia de control gestual revolucionaria. Nuevo en 2026: Minifigure Speedway — el primer duelo de montanna rusa de Dinamarca. Tres hoteles tematicos LEGO estan directamente junto al parque.",
+      "fr": "LEGOLAND Billund Resort est le LEGOLAND original — le parc qui a tout commence. Ouvert le 7 juin 1968 par la societe LEGO dans la petite ville danoise de Billund berceau de la brique LEGO. Aujourd'hui c'est l'attraction touristique la plus visitee du Jutland avec plus de 45 attractions dans 12 mondes thematiques. Polar X-plorer est le coaster le plus rapide de tout LEGOLAND europeen. Le Dragon enchante les familles depuis 1985. NINJAGO: The Ride utilise une technologie de controle gestuel revolutionnaire. Nouveau en 2026: Minifigure Speedway — le premier dueling coaster du Danemark. Trois hotels a theme LEGO sont directement a cote du parc.",
+      "de": "LEGOLAND Billund Resort ist das originale LEGOLAND — der Park der alles begann. Eroffnet am 7. Juni 1968 vom LEGO-Unternehmen im kleinen danischen Stadtchen Billund der Heimat des LEGO-Steins. Heute ist es die meistbesuchte Touristenattraktion Jutlands mit uber 45 Attraktionen in 12 Themenwelten. Polar X-plorer ist der schnellste und aufregendste Coaster jedes europaischen LEGOLANDs. Der Drache erfreut Familien seit 1985. NINJAGO: The Ride nutzt bahnbrechende Gestensteuerungstechnologie. Neu 2026: Minifigure Speedway — Danemarks erster duellierender Achterbahn. Drei LEGO-Themenhotels befinden sich direkt neben dem Park.",
+      "it": "LEGOLAND Billund Resort e il LEGOLAND originale — il parco che ha dato inizio a tutto. Aperto il 7 giugno 1968 dalla societa LEGO nel piccolo paese danese di Billund la casa del mattoncino LEGO. Oggi e l'attrazione turistica piu visitata dello Jutland con oltre 45 attrazioni in 12 mondi tematici. Polar X-plorer e il coaster piu veloce ed emozionante di qualsiasi LEGOLAND europeo. Il Drago delizia le famiglie dal 1985. NINJAGO: The Ride usa la tecnologia di controllo gestuale rivoluzionaria. Nuovo nel 2026: Minifigure Speedway — la prima dueling coaster della Danimarca. Tre hotel a tema LEGO sono direttamente accanto al parco.",
+      "nl": "LEGOLAND Billund Resort is het originele LEGOLAND — het park dat alles begon. Geopend op 7 juni 1968 door het LEGO-bedrijf in het kleine Deense stadje Billund de thuisbasis van de LEGO-steen. Vandaag is het de meest bezochte toeristische attractie van Jutland met meer dan 45 attracties in 12 themawerelden. Polar X-plorer is de snelste en meest opwindende coaster in elk Europees LEGOLAND. De Draak verblijdt families al sinds 1985. NINJAGO: The Ride gebruikt baanbrekende gebarenbesturingstechnologie. Nieuw in 2026: Minifigure Speedway — Denemarken's eerste duellerende achtbaan. Drie LEGO-themahotels staan direct naast het park.",
+      "pt": "LEGOLAND Billund Resort e o LEGOLAND original — o parque que iniciou tudo. Aberto a 7 de junho de 1968 pela empresa LEGO na pequena cidade dinamarquesa de Billund a casa do tijolo LEGO. Hoje e a atracao turistica mais visitada da Jutlandia com mais de 45 atracoes em 12 mundos tematicos. Polar X-plorer e o coaster mais rapido e emocionante de qualquer LEGOLAND europeu. O Dragao deleita familias desde 1985. NINJAGO: The Ride usa tecnologia de controlo gestual revolucionaria. Novo em 2026: Minifigure Speedway — a primeira dueling coaster da Dinamarca. Tres hoteis tematicos LEGO ficam diretamente ao lado do parque.",
+      "ru": "LEGOLAND Billund Resort — оригинальный LEGOLAND — парк, с которого всё началось. Открытый 7 июня 1968 года компанией LEGO в маленьком датском городке Биллунде — родине кирпичика LEGO. Сегодня это самая посещаемая туристическая достопримечательность Ютландии с более чем 45 аттракционами в 12 тематических мирах. Polar X-plorer — самый быстрый и захватывающий коастер любого европейского LEGOLAND. Дракон радует семьи с 1985 года. NINJAGO: The Ride использует революционную технологию управления жестами. Новинка 2026: Minifigure Speedway — первый дуэльный коастер Дании. Три LEGO-тематических отеля стоят прямо рядом с парком.",
+      "zh": "乐高乐园比隆度假村是原版乐高乐园——开创一切的公园。由乐高公司于1968年6月7日在丹麦小城比隆（乐高积木的发源地）开放。如今是日德兰半岛参观人数最多的旅游景点，拥有12个主题区域逾45个项目。极地探险者是任何欧洲乐高乐园中最快最刺激的过山车。龙自1985年以来深受家庭喜爱。忍者道之旅使用突破性的手势控制技术。2026年新增：迷你人偶赛车道——丹麦首个对决过山车。三家乐高主题酒店直接毗邻公园。",
+      "ar": "LEGOLAND Billund Resort هو LEGOLAND الاصلي — المتنزه الذي بدأ كل شيء. افتتحت شركة LEGO في 7 يونيو 1968 في المدينة الدانمركية الصغيرة Billund موطن قرميد LEGO. اليوم هو اكثر جاذبية سياحية زيارة في جوتلاند مع اكثر من 45 جاذبية في 12 عالما موضوعيا. Polar X-plorer هو اسرع واكثر اثارة اوتوستراد في اي LEGOLAND اوروبي. التنين يسعد العائلات منذ 1985. NINJAGO: The Ride يستخدم تقنية التحكم بالإيماءات الثورية. جديد 2026: Minifigure Speedway — اول قطار تلال مبارز في الدانمارك. ثلاثة فنادق ذات طابع LEGO تقع مباشرة بجانب المتنزه."
+    },
+    "ov_highlights_body": {
+      "en": "Polar X-plorer is the must-ride coaster — the fastest and most thrilling in any European LEGOLAND with a dramatic arctic theme and a genuine surprise ending. The Dragon is the park's iconic classic — a magical indoor castle dark ride followed by a real outdoor coaster. NINJAGO: The Ride uses gesture controls making it one of the most innovative interactive dark rides in Europe. Miniland is the heart of LEGOLAND — 20 million LEGO bricks recreating Denmark and world landmarks in breathtaking 1:20 scale. Pirates Splash Battle is the most joyfully interactive attraction — water cannon warfare with other boats and spectators. Fire Academy creates unforgettable family competition — pump your fire truck to the fire and battle the flames faster than rival teams. New in 2026: Minifigure Speedway — Denmark's first duelling coaster. Three on-site LEGO themed hotels create the complete LEGOLAND overnight experience. Billund is also home to LEGO House — the ultimate LEGO fan experience just 1km from the park.",
+      "es": "Polar X-plorer es la montana rusa imprescindible — la mas rapida de cualquier LEGOLAND europeo con tema artico dramatico y final sorprendente. El Dragon es el clasico iconico. NINJAGO: The Ride usa controles gestuales. Miniland es el corazon con 20 millones de ladrillos LEGO. Pirates Splash Battle es la mas interactiva. Fire Academy crea competicion familiar. Nuevo en 2026: Minifigure Speedway. Tres hoteles LEGO en el sitio.",
+      "fr": "Polar X-plorer est le coaster incontournable — le plus rapide de tout LEGOLAND europeen avec theme arctique dramatique et finale surprenante. Le Dragon est le classique iconique. NINJAGO: The Ride utilise des commandes gestuelles. Miniland est le coeur avec 20 millions de briques LEGO. Pirates Splash Battle est la plus interactive. Fire Academy cree une competition familiale. Nouveau en 2026: Minifigure Speedway. Trois hotels LEGO sur place.",
+      "de": "Polar X-plorer ist der unverzichtbare Coaster — der schnellste jedes europaischen LEGOLANDs mit dramatischem Arktis-Thema und echtem Überraschungsende. Der Drache ist der ikonische Klassiker. NINJAGO: The Ride verwendet Gestensteuerung. Miniland ist das Herz mit 20 Millionen LEGO-Steinen. Pirates Splash Battle ist am interaktivsten. Fire Academy schafft Familienkonkurrenz. Neu 2026: Minifigure Speedway. Drei LEGO-Hotels vor Ort.",
+      "it": "Polar X-plorer e il coaster imperdibile — il piu veloce di qualsiasi LEGOLAND europeo con tema artico drammatico e finale sorprendente. Il Drago e il classico iconico. NINJAGO: The Ride usa controlli gestuali. Miniland e il cuore con 20 milioni di mattoncini LEGO. Pirates Splash Battle e la piu interattiva. Fire Academy crea competizione familiare. Nuovo nel 2026: Minifigure Speedway. Tre hotel LEGO in loco.",
+      "nl": "Polar X-plorer is de onmisbare coaster — de snelste van elk Europees LEGOLAND met dramatisch arctisch thema en echte verrassende finale. De Draak is de iconische klassieker. NINJAGO: The Ride gebruikt gebarenbesturing. Miniland is het hart met 20 miljoen LEGO-stenen. Pirates Splash Battle is de meest interactieve. Fire Academy creert familiecompetitie. Nieuw in 2026: Minifigure Speedway. Drie LEGO-hotels ter plaatse.",
+      "pt": "Polar X-plorer e o coaster imprescindivel — o mais rapido de qualquer LEGOLAND europeu com tema arctico dramatico e final surpreendente. O Dragao e o classico iconico. NINJAGO: The Ride usa controlos gestuais. Miniland e o coracao com 20 milhoes de tijolos LEGO. Pirates Splash Battle e a mais interativa. Fire Academy cria competicao familiar. Novo em 2026: Minifigure Speedway. Tres hoteis LEGO no local.",
+      "ru": "Polar X-plorer — обязательный коастер — самый быстрый в любом европейском LEGOLAND с драматической арктической темой и настоящим сюрпризным финалом. Дракон — культовая классика. NINJAGO: The Ride использует управление жестами. Miniland — сердце с 20 миллионами кирпичиков LEGO. Pirates Splash Battle — самый интерактивный. Fire Academy создаёт семейное соревнование. Новинка 2026: Minifigure Speedway. Три LEGO-отеля на месте.",
+      "zh": "极地探险者是必玩过山车——任何欧洲乐高乐园中最快的，有戏剧性的北极主题和真正的惊喜结局。龙是标志性经典。忍者道之旅使用手势控制。迷你世界是拥有2000万乐高积木的心脏。海盗水上大战是最具互动性的项目。消防学院创造难忘的家庭竞争。2026年新增：迷你人偶赛车道。三家乐高主题酒店在现场。",
+      "ar": "Polar X-plorer هو الاوتوستراد الضروري — الاسرع في اي LEGOLAND اوروبي مع طابع قطبي شمالي درامي ونهاية مفاجئة حقيقية. التنين هو الكلاسيكي الايقوني. NINJAGO: The Ride يستخدم ادوات التحكم الايمائية. Miniland هو القلب بـ 20 مليون قرميد LEGO. Pirates Splash Battle هو الاكثر تفاعلية. Fire Academy تخلق منافسة عائلية. جديد 2026: Minifigure Speedway. ثلاثة فنادق LEGO في الموقع."
+    },
+    "ov_did_you_know_body": {
+      "en": "LEGOLAND Billund is the world's original LEGOLAND — the very first theme park built around the LEGO concept, opened by the LEGO company itself on 7 June 1968. The name LEGO comes from the Danish phrase leg godt meaning play well — coined by Billund carpenter Ole Kirk Christiansen who founded the company in 1932. The park was originally built to showcase what LEGO enthusiasts could create from the bricks and attract visitors to the LEGO factory. Over 50 million guests have visited the park since it opened in 1968. Miniland — the heart of LEGOLAND — was built using more than 20 million LEGO bricks and the original structures took years to assemble by specialist LEGO model builders. In May 2024, a fire caused by an electric rail car charging overnight destroyed several Miniland structures — the park has been progressively restoring the area since. Billund Airport, just 4 kilometres from the park, is Denmark's second-busiest airport with direct connections across Europe. The nearby LEGO House opened in 2017 — designed by Bjarke Ingels and shaped like a giant stack of LEGO bricks — offering the ultimate LEGO fan experience just 1 kilometre from LEGOLAND.",
+      "es": "LEGOLAND Billund es el LEGOLAND original del mundo — el primer parque tematico construido alrededor del concepto LEGO abierto el 7 de junio de 1968. El nombre LEGO viene de la frase danesa leg godt que significa jugar bien. Mas de 50 millones de visitantes han visitado el parque desde su apertura. Miniland fue construido con mas de 20 millones de ladrillos LEGO. En mayo de 2024 un incendio destruyo varias estructuras de Miniland que se estan restaurando. El aeropuerto de Billund a solo 4 km es el segundo mas concurrido de Dinamarca.",
+      "fr": "LEGOLAND Billund est le LEGOLAND original au monde — le tout premier parc a theme construit autour du concept LEGO ouvert le 7 juin 1968. Le nom LEGO vient de l'expression danoise leg godt signifiant bien jouer. Plus de 50 millions de visiteurs ont visite le parc depuis son ouverture. Miniland a ete construit avec plus de 20 millions de briques LEGO. En mai 2024 un incendie a detruit plusieurs structures de Miniland en cours de restauration. L'aeroport de Billund a seulement 4 km est le deuxieme plus frequente du Danemark.",
+      "de": "LEGOLAND Billund ist das originale LEGOLAND der Welt — der erste Themenpark rund um das LEGO-Konzept eroffnet am 7. Juni 1968. Der Name LEGO stammt aus dem danischen Ausdruck leg godt was gut spielen bedeutet. Uber 50 Millionen Besucher haben den Park seit seiner Eroffnung besucht. Miniland wurde mit uber 20 Millionen LEGO-Steinen gebaut. Im Mai 2024 zerstorte ein Brand mehrere Miniland-Strukturen die restauriert werden. Der Billund Flughafen nur 4 km entfernt ist Danemarks zweitgrosstes Flughafen.",
+      "it": "LEGOLAND Billund e il LEGOLAND originale al mondo — il primo parco a tema costruito intorno al concetto LEGO aperto il 7 giugno 1968. Il nome LEGO deriva dalla frase danese leg godt che significa giocare bene. Piu di 50 milioni di visitatori hanno visitato il parco dalla sua apertura. Miniland e stato costruito con piu di 20 milioni di mattoncini LEGO. Nel maggio 2024 un incendio ha distrutto diverse strutture di Miniland in corso di restauro. L'aeroporto di Billund a soli 4 km e il secondo piu trafficato della Danimarca.",
+      "nl": "LEGOLAND Billund is het originele LEGOLAND ter wereld — het allereerste pretpark gebouwd rond het LEGO-concept geopend op 7 juni 1968. De naam LEGO komt van de Deense uitdrukking leg godt wat goed spelen betekent. Meer dan 50 miljoen bezoekers hebben het park bezocht sinds de opening. Miniland werd gebouwd met meer dan 20 miljoen LEGO-stenen. In mei 2024 vernietigde een brand meerdere Miniland-structuren die worden gerestaureerd. De luchthaven van Billund op slechts 4 km is Denemarken's op een na drukste luchthaven.",
+      "pt": "LEGOLAND Billund e o LEGOLAND original do mundo — o primeiro parque tematico construido em torno do conceito LEGO aberto a 7 de junho de 1968. O nome LEGO vem da expressao dinamarquesa leg godt que significa jogar bem. Mais de 50 milhoes de visitantes visitaram o parque desde a abertura. Miniland foi construido com mais de 20 milhoes de tijolos LEGO. Em maio de 2024 um incendio destruiu varias estruturas de Miniland que estao a ser restauradas. O aeroporto de Billund a apenas 4 km e o segundo mais movimentado da Dinamarca.",
+      "ru": "LEGOLAND Billund — оригинальный LEGOLAND мира — первый в мире тематический парк, построенный вокруг концепции LEGO, открытый 7 июня 1968 года. Название LEGO происходит от датского выражения leg godt, означающего хорошо играть. Более 50 миллионов гостей посетили парк с момента открытия. Miniland был построен из более 20 миллионов кирпичиков LEGO. В мае 2024 года пожар уничтожил несколько конструкций Miniland, которые постепенно восстанавливаются. Аэропорт Биллунда всего в 4 км является вторым по загруженности в Дании.",
+      "zh": "乐高乐园比隆是世界原版乐高乐园——第一个以乐高概念为核心的主题公园，于1968年6月7日开放。乐高这个名字来自丹麦语短语leg godt，意思是玩得好。自开放以来已有超过5000万访客参观。迷你世界用超过2000万块乐高积木建造。2024年5月，一场火灾摧毁了迷你世界的几个建筑，正在逐步修复。比隆机场距公园仅4公里，是丹麦第二繁忙的机场。",
+      "ar": "LEGOLAND Billund هو LEGOLAND الاصلي في العالم — اول متنزه ترفيهي موضوعي مبني حول مفهوم LEGO افتتح في 7 يونيو 1968. يأتي اسم LEGO من العبارة الدانمركية leg godt التي تعني العب جيدا. زار اكثر من 50 مليون زائر المتنزه منذ افتتاحه. Miniland بني من اكثر من 20 مليون قرميد LEGO. في مايو 2024 دمر حريق هياكل Miniland عدة تتم استعادتها تدريجيا. مطار Billund على بعد 4 كم فقط هو ثاني اكثر مطارات الدانمارك ازدحاما."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and go straight to Polar X-plorer — it consistently draws the longest queues and is best experienced first thing. Then The Dragon before midday. NINJAGO: The Ride builds long queues from mid-morning — tackle it early or late in the day. Miniland is best explored at a relaxed pace — allow at least 45 minutes to take in the extraordinary detail. Pirates Splash Battle is perfect for a warm afternoon. Fire Academy is best with children aged 4-10 — allow 30 minutes. The Castle Restaurant is the best lunch option — aim for 11:30am to avoid the peak rush. Tuesdays and Wednesdays are the busiest days — visit on a Saturday when summer house changeover reduces park numbers. Download the LEGOLAND Billund app for live wait times. If staying at one of the three on-site hotels, book in advance for the best room themes and early park access benefits. LEGO House is just 1km away and worth combining with a LEGOLAND visit for dedicated LEGO fans.",
+      "es": "Llega a la apertura y ve directamente a Polar X-plorer. Luego El Dragon antes del mediodia. NINJAGO: The Ride se llena desde media manana — hazlo temprano o tarde. Miniland merece al menos 45 minutos. Pirates Splash Battle es perfecta para la tarde. The Castle Restaurant es la mejor opcion para almorzar. Los martes y miercoles son los dias mas concurridos. El sabado es ideal cuando el cambio de casas de verano reduce el numero. Descarga la app de LEGOLAND Billund. LEGO House esta a solo 1 km.",
+      "fr": "Arrivez a l'ouverture et allez directement a Polar X-plorer. Ensuite Le Dragon avant midi. NINJAGO: The Ride se remplit en milieu de matinee — faites-le tot ou tard. Miniland merite au moins 45 minutes. Pirates Splash Battle est parfait l'apres-midi. Le Castle Restaurant est la meilleure option pour le dejeuner. Les mardis et mercredis sont les jours les plus charges. Le samedi est ideal. Telechargez l'application LEGOLAND Billund. LEGO House est a seulement 1 km.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Polar X-plorer. Dann Der Drache vor dem Mittag. NINJAGO: The Ride fullt sich ab Vormittag — erledigen Sie ihn fruh oder spat. Miniland verdient mindestens 45 Minuten. Pirates Splash Battle ist perfekt fur den Nachmittag. Das Castle Restaurant ist die beste Mittagsoption. Dienstag und Mittwoch sind die belebtesten Tage. Samstag ist ideal. Laden Sie die LEGOLAND Billund App herunter. LEGO House ist nur 1 km entfernt.",
+      "it": "Arriva all'apertura e vai direttamente a Polar X-plorer. Poi Il Drago prima di mezzogiorno. NINJAGO: The Ride si riempie dalla meta mattina — affrontalo presto o tardi. Miniland merita almeno 45 minuti. Pirates Splash Battle e perfetto nel pomeriggio. Il Castle Restaurant e la migliore opzione per pranzo. Martedi e mercoledi sono i giorni piu affollati. Il sabato e ideale. Scarica l'app LEGOLAND Billund. LEGO House e a solo 1 km.",
+      "nl": "Kom bij de opening en ga direct naar Polar X-plorer. Dan De Draak voor de middag. NINJAGO: The Ride vult zich vanaf de ochtend — doe het vroeg of laat. Miniland verdient minstens 45 minuten. Pirates Splash Battle is perfect voor de middag. Het Castle Restaurant is de beste lunchoptie. Dinsdag en woensdag zijn de drukste dagen. Zaterdag is ideaal. Download de LEGOLAND Billund app. LEGO House is slechts 1 km verderop.",
+      "pt": "Chega na abertura e vai diretamente ao Polar X-plorer. Depois O Dragao antes do meio-dia. NINJAGO: The Ride enche-se a partir de meio da manha — faz-o cedo ou tarde. Miniland merece pelo menos 45 minutos. Pirates Splash Battle e perfeito para a tarde. O Castle Restaurant e a melhor opcao para almoco. Terca e quarta sao os dias mais movimentados. Sabado e ideal. Descarrega a app LEGOLAND Billund. LEGO House fica a apenas 1 km.",
+      "ru": "Приходите к открытию и сразу идите к Polar X-plorer. Затем Дракон до полудня. NINJAGO: The Ride заполняется с середины утра — делайте его рано или поздно. Miniland заслуживает минимум 45 минут. Pirates Splash Battle идеален для тёплого полудня. Castle Restaurant — лучший вариант для обеда. Вторник и среда — самые загруженные дни. Суббота идеальна. Скачайте приложение LEGOLAND Billund. LEGO House всего в 1 км.",
+      "zh": "在开园时到达，直奔极地探险者。然后在中午前体验龙。忍者道之旅从上午中段开始排长队——早或晚体验。迷你世界至少需要45分钟细细品味。海盗水上大战非常适合温暖的下午。城堡餐厅是最好的午餐选择。周二和周三最繁忙。夏日小屋换客期间的周六游客较少。下载乐高乐园比隆应用查看实时等待时间。乐高之家距公园仅1公里。",
+      "ar": "وصل عند الفتح وتوجه مباشرة الى Polar X-plorer. ثم التنين قبل الظهر. NINJAGO: The Ride يمتلئ من منتصف الصباح — انجزه مبكرا او متاخرا. Miniland يستحق 45 دقيقة على الاقل. Pirates Splash Battle مثالي لبعد الظهر. Castle Restaurant افضل خيار للغداء. الثلاثاء والاربعاء اكثر ايام الازدحام. السبت مثالي. حمل تطبيق LEGOLAND Billund. LEGO House على بعد 1 كم فقط."
+    },
+    "ov_photos_body": {
+      "en": "Polar X-plorer photographed from below during its outdoor section against the arctic-themed landscape is one of the most striking coaster images at any LEGOLAND worldwide. The Dragon's castle exterior with its battlements and LEGO dragon details is highly photogenic from the approach path. Miniland creates extraordinary photography opportunities — the 1:20 scale detail of Danish cities and international landmarks rewards close examination and patience. The Polar Land area with its ice and snow LEGO scenery is particularly striking in morning light. Pirates Splash Battle photographed from the shore as boats drench each other captures the joyful chaos perfectly. Hotel LEGOLAND and LEGOLAND Castle Hotel photographed at dusk with warm LEGO-coloured lighting create magical evening images. The 9-metre Roxie Minifigure in front of the new Minifigure Speedway will be one of the most photographed structures at any European theme park in 2026.",
+      "es": "Polar X-plorer fotografiado desde abajo durante su seccion exterior es una de las imagenes de coaster mas llamativas de cualquier LEGOLAND mundial. El Dragon con su exterior de castillo es muy fotogenico. Miniland crea extraordinarias oportunidades fotograficas. La nueva Minifigura Roxie de 9 metros sera una de las estructuras mas fotografiadas en Europa en 2026.",
+      "fr": "Polar X-plorer photographie depuis le bas pendant sa section exterieure est l'une des images de coaster les plus frappantes de tout LEGOLAND mondial. L'exterieur du chateau du Dragon est tres photogenique. Miniland cree d'extraordinaires opportunites photographiques. Le nouveau Roxie Minifigure de 9 metres sera l'une des structures les plus photographiees en Europe en 2026.",
+      "de": "Polar X-plorer von unten fotografiert wahrend seines Aussenabschnitts ist eines der auffalligsten Coaster-Bilder jedes weltweiten LEGOLANDs. Das Drachen-Schloss-Exterieur ist sehr fotogen. Miniland schafft aussergewohnliche Fotomoglichkeiten. Die neue 9-Meter Roxie Minifigur wird 2026 eine der meistfotografierten Strukturen in Europa sein.",
+      "it": "Polar X-plorer fotografato dal basso durante la sezione esterna e una delle immagini di coaster piu sorprendenti di qualsiasi LEGOLAND mondiale. L'esterno del castello del Drago e molto fotogenico. Miniland crea straordinarie opportunita fotografiche. Il nuovo Roxie Minifigure di 9 metri sara una delle strutture piu fotografate in Europa nel 2026.",
+      "nl": "Polar X-plorer van onderaf gefotografeerd tijdens het buitengedeelte is een van de meest opvallende coasterbeelden van elk wereldwijd LEGOLAND. Het kasteelexterieur van de Draak is zeer fotogeniek. Miniland biedt buitengewone fotografische mogelijkheden. De nieuwe 9-meter Roxie Minifigur zal in 2026 een van de meest gefotografeerde structuren in Europa zijn.",
+      "pt": "Polar X-plorer fotografado de baixo durante a sua secao exterior e uma das imagens de coaster mais marcantes de qualquer LEGOLAND mundial. O exterior do castelo do Dragao e muito fotogenico. Miniland cria extraordinarias oportunidades fotograficas. A nova Roxie Minifigure de 9 metros sera uma das estruturas mais fotografadas na Europa em 2026.",
+      "ru": "Polar X-plorer, сфотографированный снизу во время внешнего участка — один из самых впечатляющих снимков горок любого LEGOLAND в мире. Замковый экстерьер Дракона очень фотогеничен. Miniland создаёт невероятные фотографические возможности. Новая 9-метровая Минифигурка Рокси станет одной из самых фотографируемых конструкций в Европе в 2026 году.",
+      "zh": "从下方拍摄极地探险者室外区段是任何世界级乐高乐园最引人注目的过山车图像之一。龙的城堡外观非常上镜。迷你世界创造出非凡的摄影机会。2026年迷你人偶赛车道前的9米高罗克西迷你人偶将成为欧洲任何主题公园中最受拍摄的建筑之一。",
+      "ar": "Polar X-plorer الملتقط من الاسفل اثناء قسمه الخارجي هو واحد من اكثر صور الاوتوستراد لفتا للانتباه في اي LEGOLAND عالمي. الواجهة الخارجية لقلعة التنين مصورة بشكل جميل. Miniland يخلق فرصا تصويرية رائعة. ستكون Roxie Minifigure البالغة ارتفاعها 9 امتار من اكثر الهياكل تصويرا في اوروبا عام 2026."
+    }
+  },
+  "attractions": {
+    "polar_x_plorer": {
+      "desc": {
+        "en": "The fastest and most thrilling coaster at LEGOLAND Billund — an arctic-themed indoor/outdoor coaster with a genuine surprise ending. Lonely Planet's top recommendation. Min. height: 110cm.",
+        "es": "La montana rusa mas rapida de LEGOLAND Billund — un coaster interior/exterior con tema artico y un genuino final sorprendente. Min: 110cm.",
+        "fr": "Le coaster le plus rapide de LEGOLAND Billund — un coaster interieur/exterieur a theme arctique avec une veritable finale surprenante. Min: 110cm.",
+        "de": "Der schnellste Coaster von LEGOLAND Billund — ein arktisch-thematisierter Indoor/Outdoor-Coaster mit einem echten Überraschungsende. Mindestgrosse: 110cm.",
+        "it": "Il coaster piu veloce di LEGOLAND Billund — un coaster interno/esterno a tema artico con un genuino finale sorprendente. Min: 110cm.",
+        "nl": "De snelste coaster bij LEGOLAND Billund — een arctisch-thematische indoor/outdoor coaster met een echte verrassende finale. Min: 110cm.",
+        "pt": "O coaster mais rapido de LEGOLAND Billund — um coaster interior/exterior com tema arctico e um genuino final surpreendente. Min: 110cm.",
+        "ru": "Самый быстрый и захватывающий коастер LEGOLAND Billund — арктический тематический закрытый/открытый коастер с настоящим сюрпризным финалом. Мин. рост: 110 см.",
+        "zh": "乐高乐园比隆最快最刺激的过山车——北极主题的室内外过山车，有真正的惊喜结局。孤独星球最推荐项目。最低身高：110厘米。",
+        "ar": "اسرع واكثر اثارة اوتوستراد في LEGOLAND Billund — اوتوستراد داخلي/خارجي بطابع قطبي شمالي مع نهاية مفاجئة حقيقية. الحد الادنى: 110 سم."
+      }
+    },
+    "dragon": {
+      "desc": {
+        "en": "The beloved park icon — an enchanted castle dark ride followed by a real outdoor coaster. Magical indoor storytelling meets genuine outdoor thrills. Min. height: 100cm with adult, 120cm alone.",
+        "es": "El icono amado del parque — un dark ride de castillo encantado seguido de un coaster exterior real. Min: 100cm con adulto 120cm solo.",
+        "fr": "L'icone bien-aimee du parc — un dark ride de chateau enchante suivi d'un vrai coaster exterieur. Min: 100cm avec adulte 120cm seul.",
+        "de": "Die geliebte Parkikone — eine verzauberte Schloss-Dunkelfahrt gefolgt von einem echten Aussencoaster. Mindestgrosse: 100cm mit Erwachsenem 120cm allein.",
+        "it": "L'icona amata del parco — un dark ride di castello incantato seguito da un vero coaster esterno. Min: 100cm con adulto 120cm da solo.",
+        "nl": "Het geliefde parkicoon — een betoverde kasteel dark ride gevolgd door een echte buiten coaster. Min: 100cm met volwassene 120cm alleen.",
+        "pt": "O icone amado do parque — um dark ride de castelo encantado seguido de um verdadeiro coaster exterior. Min: 100cm com adulto 120cm sozinho.",
+        "ru": "Любимая икона парка — тёмный аттракцион зачарованного замка, за которым следует настоящий открытый коастер. Мин. рост: 100 см со взрослым, 120 см одному.",
+        "zh": "深受喜爱的公园标志——迷人城堡暗室游乐，随后是真正的室外过山车。有成人陪同最低身高100厘米，独自最低120厘米。",
+        "ar": "الايقونة المحبوبة للمتنزه — Dark ride القلعة المسحورة تليها نشوة خارجية حقيقية. الحد الادنى: 100 سم مع بالغ 120 سم وحده."
+      }
+    },
+    "ninjago_ride": {
+      "desc": {
+        "en": "Groundbreaking gesture-control dark ride — use real hand movements to shoot elemental powers at targets without any handheld device. One of Europe's most innovative interactive rides. Suitable for all ages.",
+        "es": "Dark ride de control gestual revolucionario — usa movimientos reales de manos para disparar poderes elementales sin ningun dispositivo. Apto para todas las edades.",
+        "fr": "Dark ride a commande gestuelle revolutionnaire — utilisez de vrais mouvements de mains pour tirer des pouvoirs elementaires sans aucun appareil. Convient a tous les ages.",
+        "de": "Bahnbrechender Gestensteuerungs-Dark-Ride — echte Handbewegungen nutzen um Elementarkrafte ohne Handheld zu schiessen. Fur alle Altersgruppen geeignet.",
+        "it": "Dark ride a controllo gestuale rivoluzionario — usa i movimenti reali delle mani per sparare poteri elementali senza dispositivo. Adatto a tutte le eta.",
+        "nl": "Baanbrekende gebarenbesturings dark ride — gebruik echte handbewegingen om elementaire krachten op doelen te schieten zonder handheld. Geschikt voor alle leeftijden.",
+        "pt": "Dark ride de controlo gestual revolucionario — usa movimentos reais das maos para disparar poderes elementais sem dispositivo. Adequado para todas as idades.",
+        "ru": "Революционный тёмный аттракцион с управлением жестами — используйте настоящие движения рук для стрельбы элементарными силами без устройства. Подходит для всех возрастов.",
+        "zh": "突破性的手势控制暗室游乐——无需任何手持设备，用真实的手部动作向目标发射元素力量。欧洲最具创新性的互动游乐之一。适合所有年龄段。",
+        "ar": "Dark ride التحكم الايمائي الثوري — استخدم حركات اليد الحقيقية لإطلاق قوى عنصرية على الاهداف دون اي جهاز. مناسب لجميع الاعمار."
+      }
+    },
+    "miniland": {
+      "desc": {
+        "en": "The heart of LEGOLAND — 20 million LEGO bricks recreating Denmark and world landmarks in breathtaking 1:20 scale. The most historically significant area of any LEGOLAND park. Note: being progressively restored after 2024 fire. Suitable for all ages.",
+        "es": "El corazon de LEGOLAND — 20 millones de ladrillos LEGO recreando Dinamarca y monumentos mundiales en escala 1:20. Nota: en restauracion tras incendio 2024. Apto para todas las edades.",
+        "fr": "Le coeur de LEGOLAND — 20 millions de briques LEGO recreant le Danemark et des monuments mondiaux a l'echelle 1:20. Note: en cours de restauration apres l'incendie 2024. Convient a tous les ages.",
+        "de": "Das Herz von LEGOLAND — 20 Millionen LEGO-Steine die Danemark und Weltsehenswurdigkeiten im Massstab 1:20 nachbilden. Hinweis: wird nach Brand 2024 schrittweise restauriert. Fur alle Altersgruppen.",
+        "it": "Il cuore di LEGOLAND — 20 milioni di mattoncini LEGO che ricreano la Danimarca e monumenti mondiali in scala 1:20. Nota: ripristino progressivo dopo l'incendio del 2024. Adatto a tutte le eta.",
+        "nl": "Het hart van LEGOLAND — 20 miljoen LEGO-stenen die Denemarken en wereldmonumenten op schaal 1:20 nabootsen. Opmerking: progressief herstel na brand 2024. Geschikt voor alle leeftijden.",
+        "pt": "O coracao de LEGOLAND — 20 milhoes de tijolos LEGO recriando a Dinamarca e marcos mundiais na escala 1:20. Nota: a ser restaurado progressivamente apos incendio 2024. Adequado para todas as idades.",
+        "ru": "Сердце LEGOLAND — 20 миллионов кирпичиков LEGO, воссоздающих Данию и мировые достопримечательности в масштабе 1:20. Примечание: постепенно восстанавливается после пожара 2024 года. Подходит для всех возрастов.",
+        "zh": "乐高乐园的心脏——2000万块乐高积木以令人叹为观止的1:20比例重现丹麦和世界地标。注意：2024年火灾后正在逐步修复。适合所有年龄段。",
+        "ar": "قلب LEGOLAND — 20 مليون قرميد LEGO يعيد بناء الدانمارك والمعالم العالمية بمقياس 1:20. ملاحظة: يجري ترميمه تدريجيا بعد حريق 2024. مناسب لجميع الاعمار."
+      }
+    },
+    "temple_ride": {
+      "desc": {
+        "en": "An immersive Egyptian dark ride where riders in Explorer SUVs shoot laser guns at 11 animated scenes — replayable competitive gameplay in a beautifully themed temple setting. Min. height: 100cm.",
+        "es": "Un dark ride egipcio inmersivo donde riders en SUVs Explorer disparan con pistolas laser en 11 escenas animadas. Min: 100cm.",
+        "fr": "Un dark ride egyptien immersif ou les riders dans des SUV Explorer tirent avec des pistolets laser dans 11 scenes animees. Min: 100cm.",
+        "de": "Ein immersiver agyptischer Dark Ride wo Fahrer in Explorer-SUVs in 11 animierten Szenen Laserpistolen schiessen. Mindestgrosse: 100cm.",
+        "it": "Un dark ride egiziano immersivo dove i rider in SUV Explorer sparano con pistole laser in 11 scene animate. Min: 100cm.",
+        "nl": "Een meeslepende Egyptische dark ride waar rijders in Explorer SUV's met laserpistolen in 11 geanimeerde scenes schieten. Min: 100cm.",
+        "pt": "Um dark ride egipcio imersivo onde riders em SUVs Explorer disparam com pistolas laser em 11 cenas animadas. Min: 100cm.",
+        "ru": "Погружающий египетский тёмный аттракцион, где гости в Explorer SUV стреляют из лазерных пистолетов в 11 анимированных сценах. Мин. рост: 100 см.",
+        "zh": "沉浸式埃及暗室游乐，乘客乘坐探险SUV在11个动态场景中用激光枪射击——主题精美的神庙环境中可重玩的竞技游戏。最低身高：100厘米。",
+        "ar": "Dark ride مصري غامر حيث يطلق الركاب في SUVs المستكشف بمسدسات الليزر في 11 مشهدا متحركا. الحد الادنى: 100 سم."
+      }
+    },
+    "haunted_house": {
+      "desc": {
+        "en": "An interactive monster party dark ride with shooting gameplay and colourful LEGO monster theming — festive rather than frightening, perfect for families with young children. Min. height: 90cm.",
+        "es": "Un dark ride interactivo de fiesta de monstruos con juego de disparos y tematizacion colorida de monstruos LEGO. Min: 90cm.",
+        "fr": "Un dark ride de fete de monstres interactif avec gameplay de tir et tematisation coloree de monstres LEGO. Min: 90cm.",
+        "de": "Ein interaktiver Monster-Party-Dark-Ride mit Schiess-Gameplay und bunter LEGO-Monster-Thematisierung. Mindestgrosse: 90cm.",
+        "it": "Un dark ride interattivo di monster party con gameplay di tiro e tematizzazione colorata di mostri LEGO. Min: 90cm.",
+        "nl": "Een interactieve monster party dark ride met schietgameplay en kleurrijke LEGO-monster theming. Min: 90cm.",
+        "pt": "Um dark ride interativo de festa de monstros com gameplay de tiro e tematizacao colorida de monstros LEGO. Min: 90cm.",
+        "ru": "Интерактивный тёмный аттракцион вечеринки монстров со стрелковым геймплеем и красочной тематикой LEGO монстров. Мин. рост: 90 см.",
+        "zh": "互动怪物派对暗室游乐，有射击游戏和色彩缤纷的乐高怪物主题——节日气氛而非恐怖，非常适合有幼儿的家庭。最低身高：90厘米。",
+        "ar": "Dark ride تفاعلي لحفلة الوحوش مع لعب الاطلاق وطابع ملون لوحوش LEGO. الحد الادنى: 90 سم."
+      }
+    },
+    "vikings_river_splash": {
+      "desc": {
+        "en": "A classic log flume through a Viking-themed landscape of Norse settlements and longboats — guaranteed soaking with atmospheric Nordic scenery. Min. height: 100cm.",
+        "es": "Un tobogan acuatico clasico a traves de un paisaje vikingo de asentamientos nordicos y barcos largos. Min: 100cm.",
+        "fr": "Un toboggan aquatique classique a travers un paysage viking d'etablissements nordiques et de drakkars. Min: 100cm.",
+        "de": "Eine klassische Logflume durch eine Wikinger-thematisierte Landschaft nordischer Siedlungen und Langboote. Mindestgrosse: 100cm.",
+        "it": "Un classico log flume attraverso un paesaggio vichingo di insediamenti nordici e navi longhe. Min: 100cm.",
+        "nl": "Een klassieke log flume door een Vikingen-thematisch landschap van Noordse nederzettingen en langschepen. Min: 100cm.",
+        "pt": "Um classico log flume atraves de uma paisagem vikinga de assentamentos nordicos e longboats. Min: 100cm.",
+        "ru": "Классический аттракцион через тематический викинговский ландшафт со скандинавскими поселениями и драккарами. Мин. рост: 100 см.",
+        "zh": "穿越维京主题景观的经典独木舟，有北欧定居点和维京战船——保证湿透，大气的北欧风景。最低身高：100厘米。",
+        "ar": "جذع خشبي كلاسيكي عبر منظر فايكنج من المستوطنات الاسكندنافية والسفن الطويلة. الحد الادنى: 100 سم."
+      }
+    },
+    "pirates_splash_battle": {
+      "desc": {
+        "en": "Interactive pirate boats with water cannons to drench other boats and shore-side spectators while being shot back — joyful aquatic warfare for the whole family. Min. height: 90cm.",
+        "es": "Barcos piratas interactivos con canones de agua para empapar otros barcos y espectadores en la orilla mientras te disparan. Min: 90cm.",
+        "fr": "Bateaux pirates interactifs avec canons a eau pour tremper d'autres bateaux et spectateurs sur le rivage tout en etant tire dessus. Min: 90cm.",
+        "de": "Interaktive Piratenschiffe mit Wasserkanonen um andere Boote und Ufer-Zuschauer zu durchnassen wahrend man selbst beschossen wird. Mindestgrosse: 90cm.",
+        "it": "Barche pirata interattive con cannoni ad acqua per inzuppare altre barche e spettatori sulla riva mentre si viene sparati. Min: 90cm.",
+        "nl": "Interactieve piratenboten met waterkanonnen om andere boten en toeschouwers op de oever te doorweken terwijl je zelf beschoten wordt. Min: 90cm.",
+        "pt": "Barcos piratas interativos com canoes de agua para ensopar outros barcos e espetadores na margem enquanto e disparado de volta. Min: 90cm.",
+        "ru": "Интерактивные пиратские лодки с водяными пушками для обстрела других лодок и зрителей на берегу, пока стреляют в тебя. Мин. рост: 90 см.",
+        "zh": "互动海盗船配备水炮，可向其他船只和岸边旁观者猛烈喷水，同时也会被对方攻击——全家老少的欢乐水战。最低身高：90厘米。",
+        "ar": "قوارب قراصنة تفاعلية مع مدافع مياه لإبلال القوارب الاخرى والمتفرجين على الشاطئ بينما تُطلق عليك المياه. الحد الادنى: 90 سم."
+      }
+    },
+    "aquadome": {
+      "desc": {
+        "en": "A spectacular 360-degree water ride inside an aquatic dome with panoramic views of an underwater LEGO world — visually unique and unlike any other water attraction in Europe. Min. height: 90cm.",
+        "es": "Una espectacular atraccion acuatica de 360 grados dentro de una cupula acuatica con vistas panoramicas de un mundo LEGO submarino. Min: 90cm.",
+        "fr": "Une spectaculaire attraction aquatique de 360 degres dans un dome aquatique avec vues panoramiques d'un monde LEGO sous-marin. Min: 90cm.",
+        "de": "Eine spektakulare 360-Grad-Wasserfahrt in einer Wasserkuppel mit Panoramablick auf eine Unterwasser-LEGO-Welt. Mindestgrosse: 90cm.",
+        "it": "Una spettacolare attrazione acquatica a 360 gradi all'interno di una cupola acquatica con viste panoramiche di un mondo LEGO sottomarino. Min: 90cm.",
+        "nl": "Een spectaculaire 360-graden waterattractie in een aquatische koepel met panoramisch uitzicht op een onderwater LEGO wereld. Min: 90cm.",
+        "pt": "Uma espetacular atracao aquatica de 360 graus dentro de uma cupula aquatica com vistas panoramicas de um mundo LEGO subaquatico. Min: 90cm.",
+        "ru": "Захватывающий 360-градусный водный аттракцион внутри водного купола с панорамным видом на подводный мир LEGO. Мин. рост: 90 см.",
+        "zh": "水上圆顶内壮观的360度水上游乐，可全景欣赏水下乐高世界——视觉上独一无二，欧洲其他地方没有类似的水上项目。最低身高：90厘米。",
+        "ar": "جاذبية مائية رائعة بزاوية 360 درجة داخل قبة مائية مع مناظر بانورامية لعالم LEGO تحت الماء. الحد الادنى: 90 سم."
+      }
+    },
+    "flying_eagle": {
+      "desc": {
+        "en": "Eagle-shaped gondolas that sweep outward as the ride spins — delivering the sensation of soaring above the LEGOREDO Wild West landscape. Min. height: 100cm.",
+        "es": "Gondolas en forma de aguila que se balancean hacia afuera al girar — dando la sensacion de volar sobre el paisaje del Viejo Oeste. Min: 100cm.",
+        "fr": "Des gondoles en forme d'aigle qui se balancent vers l'exterieur en tournant — donnant la sensation de voler au-dessus du paysage du Vieux Ouest. Min: 100cm.",
+        "de": "Adlerformige Gondeln die beim Drehen nach aussen schwingen — vermitteln das Gefuhl uber die LEGOREDO Wildwest-Landschaft zu fliegen. Mindestgrosse: 100cm.",
+        "it": "Gondole a forma di aquila che si bilanciano verso l'esterno durante la rotazione — dando la sensazione di volare sopra il paesaggio del Vecchio West. Min: 100cm.",
+        "nl": "Adelaar-vormige gondels die naar buiten zwaaien bij het draaien — gevende het gevoel over het LEGOREDO Wilde Westen landschap te zweven. Min: 100cm.",
+        "pt": "Gondolas em forma de aguia que se inclinam para fora enquanto giram — transmitindo a sensacao de voar sobre a paisagem do Velho Oeste. Min: 100cm.",
+        "ru": "Гондолы в форме орла, которые выдвигаются наружу при вращении — создавая ощущение полёта над ландшафтом Дикого Запада LEGOREDO. Мин. рост: 100 см.",
+        "zh": "鹰形吊舱在游乐旋转时向外扩展——给人凌驾于LEGOREDO西部景观之上翱翔的感觉。最低身高：100厘米。",
+        "ar": "كابينات على شكل نسر تتأرجح للخارج اثناء الدوران — تعطي احساس التحليق فوق منظر الغرب الوحشي LEGOREDO. الحد الادنى: 100 سم."
+      }
+    },
+    "apocalypse": {
+      "desc": {
+        "en": "A freefall drop tower delivering the most intense standalone thrill at LEGOLAND Billund — slow ascent to 25 metres then sudden brutal plunge. Min. height: 120cm.",
+        "es": "Una torre de caida libre que ofrece la emocion mas intensa de LEGOLAND Billund. Min: 120cm.",
+        "fr": "Une tour de chute libre offrant le frisson autonome le plus intense de LEGOLAND Billund. Min: 120cm.",
+        "de": "Ein Freifall-Turm der den intensivsten eigenstandigen Thrill bei LEGOLAND Billund bietet. Mindestgrosse: 120cm.",
+        "it": "Una torre di caduta libera che offre il brivido piu intenso di LEGOLAND Billund. Min: 120cm.",
+        "nl": "Een vrije val toren die de meest intense zelfstandige thrill bij LEGOLAND Billund levert. Min: 120cm.",
+        "pt": "Uma torre de queda livre que oferece o thrill mais intenso de LEGOLAND Billund. Min: 120cm.",
+        "ru": "Башня свободного падения, обеспечивающая наиболее интенсивный самостоятельный адреналин в LEGOLAND Billund. Мин. рост: 120 см.",
+        "zh": "自由落体落塔，提供乐高乐园比隆最强烈的独立刺激体验——缓慢上升至25米，然后突然猛烈俯冲。最低身高：120厘米。",
+        "ar": "برج سقوط حر يقدم اشد اثارة مستقلة في LEGOLAND Billund. الحد الادنى: 120 سم."
+      }
+    },
+    "jungle_racers": {
+      "desc": {
+        "en": "Jungle-themed jet ski ride in Adventure Land — spinning and racing through a vibrant jungle landscape, bridging the gap between gentle and intense rides. Min. height: 100cm.",
+        "es": "Atraccion de moto acuatica con tema de jungla en Adventure Land — girando y corriendo a traves de un vibrante paisaje de jungla. Min: 100cm.",
+        "fr": "Attraction de jet ski a theme jungle dans Adventure Land — tournant et courant a travers un paysage de jungle vibrant. Min: 100cm.",
+        "de": "Dschungel-thematisierte Jetski-Attraktion in Adventure Land — drehen und rasen durch eine lebendige Dschungellandschaft. Mindestgrosse: 100cm.",
+        "it": "Attrazione jet ski a tema giungla in Adventure Land — girando e correndo attraverso un vivace paesaggio giungla. Min: 100cm.",
+        "nl": "Jungle-thematische jetski attractie in Adventure Land — draaien en racen door een levendig junglelandschap. Min: 100cm.",
+        "pt": "Atracao de jet ski com tema de selva em Adventure Land — girando e correndo atraves de uma selva vibrante. Min: 100cm.",
+        "ru": "Аттракцион джет-ски с джунглевой тематикой в Adventure Land — кружение и гонка через яркий джунглевый пейзаж. Мин. рост: 100 см.",
+        "zh": "冒险乐园的丛林主题水上摩托游乐——在充满活力的丛林景观中旋转竞速，完美衔接温和与激烈项目之间。最低身高：100厘米。",
+        "ar": "جاذبية زوارق الادغال في Adventure Land — التدوير والتسابق عبر منظر ادغال نابض بالحياة. الحد الادنى: 100 سم."
+      }
+    },
+    "frog_hopper": {
+      "desc": {
+        "en": "A gentle bouncing frog-themed junior drop ride in Duplo Land — delightful first thrills for children aged 3 and above. Min. height: 80cm.",
+        "es": "Una suave atraccion de salto de ranas en Duplo Land — primeras emociones encantadoras para ninos de 3 anos en adelante. Min: 80cm.",
+        "fr": "Une douce attraction de saut de grenouilles dans Duplo Land — premiers frissons delicieux pour les enfants de 3 ans et plus. Min: 80cm.",
+        "de": "Eine sanfte springende Frosch-thematisierte Junior-Fallfahrt in Duplo Land — entzuckende erste Thrills fur Kinder ab 3 Jahren. Mindestgrosse: 80cm.",
+        "it": "Un'allegra attrazione junior di salto di rane a tema in Duplo Land — deliziosi primi brividi per bambini dai 3 anni in su. Min: 80cm.",
+        "nl": "Een zachte springende kikker-thematische junior valattractie in Duplo Land — heerlijke eerste thrills voor kinderen vanaf 3 jaar. Min: 80cm.",
+        "pt": "Uma suave atracao junior de salto de ras com tema em Duplo Land — primeiras emocoes deliciosas para criancas a partir dos 3 anos. Min: 80cm.",
+        "ru": "Нежный прыгающий лягушачий тематический юниорский аттракцион в Duplo Land — восхитительные первые острые ощущения для детей от 3 лет. Мин. рост: 80 см.",
+        "zh": "Duplo乐园中温和的弹跳青蛙主题初级落塔——3岁及以上儿童令人愉快的首次刺激体验。最低身高：80厘米。",
+        "ar": "جاذبية قفز الضفادع الناعمة لمرحلة الطفولة في Duplo Land — اول مغامرات ساحرة للاطفال من 3 سنوات فاكثر. الحد الادنى: 80 سم."
+      }
+    },
+    "fire_academy": {
+      "desc": {
+        "en": "The most beloved participatory attraction — families pump fire trucks to a fire and battle the flames with hoses, competing against other teams. Unforgettable family fun. Min. height: 90cm.",
+        "es": "La atraccion participativa mas amada — las familias bombean camiones de bomberos a un incendio y combaten las llamas con mangueras compitiendo contra otros equipos. Min: 90cm.",
+        "fr": "L'attraction participative la plus aimee — les familles pompent des camions de pompiers vers un feu et combattent les flammes avec des tuyaux en competant contre d'autres equipes. Min: 90cm.",
+        "de": "Die beliebteste Mitmahattraktion — Familien pumpen Feuerwehrautos zu einem Brand und bekampfen die Flammen mit Schlauchen im Wettbewerb mit anderen Teams. Mindestgrosse: 90cm.",
+        "it": "L'attrazione partecipativa piu amata — le famiglie pompano camion dei pompieri verso un incendio e combattono le fiamme con tubi in gara contro altri team. Min: 90cm.",
+        "nl": "De meest geliefde participatieve attractie — families pompen brandweerauto's naar een brand en bestrijden de vlammen met slangen in competitie met andere teams. Min: 90cm.",
+        "pt": "A atracao participativa mais amada — as familias bombam camioes de bombeiros para um incendio e combatem as chamas com mangueiras competindo contra outras equipas. Min: 90cm.",
+        "ru": "Самый любимый участвующий аттракцион — семьи качают пожарные машины к пожару и тушат пламя шлангами, соревнуясь с другими командами. Мин. рост: 90 см.",
+        "zh": "最受喜爱的参与性项目——家庭成员手动抽泵消防车赶赴火场，用水管与其他队伍竞争扑灭火焰。令人难忘的家庭乐趣。最低身高：90厘米。",
+        "ar": "اكثر الجاذبيات التشاركية حبا — العائلات تضخ شاحنات الاطفاء الى الحريق وتكافح النيران بالخراطيم منافسة الفرق الاخرى. الحد الادنى: 90 سم."
+      }
+    },
+    "city_airport": {
+      "desc": {
+        "en": "An interactive LEGO City experience where children pilot their own aircraft through take-off, flight and landing — the ultimate LEGO City fantasy for young aviation fans. Suitable for all ages.",
+        "es": "Una experiencia interactiva de LEGO City donde los ninos pilotan su propio avion a traves del despegue vuelo y aterrizaje. Apto para todas las edades.",
+        "fr": "Une experience LEGO City interactive ou les enfants pilotent leur propre avion a travers le decollage le vol et l'atterrissage. Convient a tous les ages.",
+        "de": "Ein interaktives LEGO-City-Erlebnis bei dem Kinder ihr eigenes Flugzeug durch Start Flug und Landung steuern. Fur alle Altersgruppen.",
+        "it": "Un'esperienza LEGO City interattiva dove i bambini pilotano il proprio aereo attraverso decollo volo e atterraggio. Adatto a tutte le eta.",
+        "nl": "Een interactieve LEGO City ervaring waar kinderen hun eigen vliegtuig door take-off vlucht en landing besturen. Geschikt voor alle leeftijden.",
+        "pt": "Uma experiencia LEGO City interativa onde as criancas pilotam o seu proprio aviao atraves da descolagem voo e aterragem. Adequado para todas as idades.",
+        "ru": "Интерактивный опыт LEGO City, где дети управляют собственным самолётом через взлёт, полёт и посадку. Подходит для всех возрастов.",
+        "zh": "互动乐高城市体验，儿童可以驾驶自己的飞机完成起飞、飞行和降落——年轻航空爱好者的终极乐高城市梦想。适合所有年龄段。",
+        "ar": "تجربة LEGO City تفاعلية حيث يقود الاطفال طائرتهم الخاصة عبر الاقلاع والطيران والهبوط. مناسب لجميع الاعمار."
+      }
+    }
+  },
+  "food": {
+    "food_castle_restaurant": {
+      "desc": {
+        "en": "The park's finest dining — a medieval castle buffet restaurant in Knights' Kingdom with hot and cold all-you-can-eat options. Best value and most atmospheric dining at LEGOLAND Billund.",
+        "es": "La mejor cena del parque — un restaurante buffet de castillo medieval en el Reino de los Caballeros con opciones de todo lo que puedas comer.",
+        "fr": "La meilleure experience culinaire du parc — un restaurant buffet de chateau medieval dans le Royaume des Chevaliers avec des options a volonte.",
+        "de": "Das beste Speiseangebot des Parks — ein mittelalterliches Schloss-Buffetrestaurant im Konigreich der Ritter mit All-you-can-eat-Optionen.",
+        "it": "Il miglior pranzo del parco — un ristorante buffet medievale nel Regno dei Cavalieri con opzioni a volonta.",
+        "nl": "Het beste eten van het park — een middeleeuws kasteel buffetrestaurant in het Ridderkoninkrijk met all-you-can-eat opties.",
+        "pt": "O melhor jantar do parque — um restaurante buffet de castelo medieval no Reino dos Cavaleiros com opcoes a vontade.",
+        "ru": "Лучшее питание в парке — средневековый замковый буфет в Королевстве рыцарей с горячими и холодными блюдами на выбор.",
+        "zh": "公园最好的餐饮——骑士王国中世纪城堡自助餐厅，提供热食和冷食无限量选择。乐高乐园比隆性价比最高、氛围最佳的餐饮体验。",
+        "ar": "افضل تناول طعام في المتنزه — مطعم بوفيه قلعة قرون وسطى في مملكة الفرسان مع خيارات كل ما يمكنك تناوله ساخنة وباردة."
+      }
+    },
+    "food_burger_kitchen": {
+      "desc": {
+        "en": "Centrally located quick-service burgers, chicken and fries in a LEGO-themed setting — the most popular fast food outlet in the park on busy days.",
+        "es": "Hamburgesas rapidas centralmente ubicadas con pollo y papas fritas en un ambiente tematico LEGO.",
+        "fr": "Burgers rapides centralement situes poulet et frites dans un cadre theme LEGO.",
+        "de": "Zentral gelegene Schnellservice-Burger Huhnchen und Pommes in einem LEGO-thematisierten Ambiente.",
+        "it": "Burger centralmente posizionati con pollo e patatine in un ambiente tematico LEGO.",
+        "nl": "Centraal gelegen snelservice burgers kip en frietjes in een LEGO-thematische omgeving.",
+        "pt": "Hamburgeres rapidos centralmente localizados frango e batatas fritas num ambiente tematico LEGO.",
+        "ru": "Централизованный быстрый сервис бургеров, курицы и картошки фри в LEGO-тематическом оформлении.",
+        "zh": "位于中心位置的快速服务汉堡、鸡肉和薯条，乐高主题环境——繁忙日子里公园最受欢迎的快餐摊位。",
+        "ar": "برغر سريع الخدمة في موقع مركزي دجاج وبطاطس في بيئة ذات طابع LEGO."
+      }
+    },
+    "food_outpost_burger": {
+      "desc": {
+        "en": "A fun jungle-themed burger and snack bar in Adventure Land — burgers, Danish hot dogs and loaded fries in a colourful explorer setting.",
+        "es": "Un divertido bar de hamburgesas con tema de jungla en Adventure Land — hamburgesas perros calientes daneses y papas fritas cargadas.",
+        "fr": "Un amusant bar a burgers a theme jungle dans Adventure Land — burgers hot dogs danois et frites chargees.",
+        "de": "Eine spassige Dschungel-thematisierte Burger- und Snackbar in Adventure Land — Burger danische Hot Dogs und beladene Pommes.",
+        "it": "Un divertente bar burger a tema giungla in Adventure Land — hamburger hot dog danesi e patatine caricate.",
+        "nl": "Een leuke jungle-thematische burger en snackbar in Adventure Land — burgers Deense hotdogs en beladen frietjes.",
+        "pt": "Um divertido bar de hamburgeres com tema de selva em Adventure Land — hamburgeres cachorros quentes dinamarqueses e batatas fritas carregadas.",
+        "ru": "Весёлый бургерный и закусочный бар с тематикой джунглей в Adventure Land — бургеры, датские хот-доги и загруженная картошка фри.",
+        "zh": "冒险乐园有趣的丛林主题汉堡小吃吧——汉堡、丹麦热狗和满载薯条，在色彩缤纷的探险家环境中供应。",
+        "ar": "بار برغر وخفيف موضوعي ممتع في Adventure Land — برغر وهوت دوج دانماركي وبطاطس محملة."
+      }
+    },
+    "food_saloon": {
+      "desc": {
+        "en": "A lively Western saloon in LEGOREDO Town with hearty cowboy dishes and live country music from The Rattlesnakes — the most atmospheric dining stop in the park.",
+        "es": "Un animado salon occidental en LEGOREDO Town con platos de vaquero y musica country en vivo de The Rattlesnakes.",
+        "fr": "Un salon occidental anime dans LEGOREDO Town avec des plats de cowboy et de la musique country live de The Rattlesnakes.",
+        "de": "Ein lebhafter Western-Saloon in LEGOREDO Town mit herzhaften Cowboy-Gerichten und Live-Country-Musik von The Rattlesnakes.",
+        "it": "Un vivace saloon western nella LEGOREDO Town con abbondanti piatti da cowboy e musica country live dei Rattlesnakes.",
+        "nl": "Een levendig Western saloon in LEGOREDO Town met stevige cowboy gerechten en live country muziek van The Rattlesnakes.",
+        "pt": "Um animado saloon ocidental em LEGOREDO Town com pratos fartos de cowboy e musica country ao vivo dos Rattlesnakes.",
+        "ru": "Живой западный салун в LEGOREDO Town с сытными блюдами ковбоя и живой кантри-музыкой от The Rattlesnakes.",
+        "zh": "LEGOREDO小镇活泼的西部沙龙，供应丰盛的牛仔菜肴，响尾蛇乐队现场演奏乡村音乐——公园最有气氛的餐饮停靠站。",
+        "ar": "صالون غربي حيوي في LEGOREDO Town مع اطباق كاوبوي وفيرة وموسيقى كانتري مباشرة من The Rattlesnakes."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_legoland": {
+      "desc": {
+        "en": "The ultimate LEGOLAND experience — 4-star Hotel LEGOLAND directly next to the park with elaborately themed NINJAGO, Friends, Pirate and Kingdom rooms. Breakfast included, children under 12 get 2-day tickets free.",
+        "es": "La maxima experiencia LEGOLAND — Hotel LEGOLAND de 4 estrellas directamente junto al parque con habitaciones elaboradamente tematicas. Desayuno incluido ninos menores de 12 reciben entradas de 2 dias gratis.",
+        "fr": "L'experience LEGOLAND ultime — Hotel LEGOLAND 4 etoiles directement a cote du parc avec des chambres elaborement thematisees. Petit dejeuner inclus enfants de moins de 12 ans recoivent des billets 2 jours gratuits.",
+        "de": "Das ultimative LEGOLAND-Erlebnis — 4-Sterne Hotel LEGOLAND direkt neben dem Park mit aufwendig gestalteten Zimmern. Fruhstuck inklusive Kinder unter 12 erhalten kostenlose 2-Tages-Tickets.",
+        "it": "L'esperienza LEGOLAND definitiva — Hotel LEGOLAND 4 stelle direttamente accanto al parco con camere elaboratamente tematizzate. Colazione inclusa bambini sotto 12 anni ricevono biglietti 2 giorni gratuiti.",
+        "nl": "De ultieme LEGOLAND ervaring — 4-sterren Hotel LEGOLAND direct naast het park met uitgebreid thematische kamers. Ontbijt inbegrepen kinderen onder 12 ontvangen gratis 2-daagse tickets.",
+        "pt": "A experiencia LEGOLAND definitiva — Hotel LEGOLAND de 4 estrelas diretamente ao lado do parque com quartos elaboradamente tematizados. Pequeno-almoco incluido criancas menores de 12 recebem bilhetes de 2 dias gratis.",
+        "ru": "Максимальный опыт LEGOLAND — 4-звёздочный Hotel LEGOLAND прямо рядом с парком с тщательно тематическими номерами. Завтрак включён, дети до 12 лет получают двухдневные билеты бесплатно.",
+        "zh": "终极乐高乐园体验——四星级乐高乐园酒店紧邻公园，有精心设计的忍者道、好朋友、海盗和王国主题房间。含早餐，12岁以下儿童免费获赠2日门票。",
+        "ar": "تجربة LEGOLAND القصوى — فندق LEGOLAND 4 نجوم مباشرة بجانب المتنزه مع غرف ذات طابع متقن. الإفطار مشمول الاطفال دون 12 يحصلون على تذاكر يومين مجانا."
+      },
+      "rooms": {
+        "themed_room": {
+          "name": { "en": "LEGO Themed Room", "es": "Habitacion Tematica LEGO", "fr": "Chambre Thematique LEGO", "de": "LEGO Thematisches Zimmer", "it": "Camera Tematica LEGO", "nl": "LEGO Thematische Kamer", "pt": "Quarto Tematico LEGO", "ru": "Тематический номер LEGO", "zh": "乐高主题客房", "ar": "غرفة ذات طابع LEGO" },
+          "desc": { "en": "Elaborately themed room (NINJAGO, Friends, Pirate or Kingdom) with LEGO sets, breakfast and park steps away.", "es": "Habitacion elaboradamente tematizada con juegos LEGO desayuno y parque a pasos.", "fr": "Chambre elaborement thematisee avec jeux LEGO petit dejeuner et parc a deux pas.", "de": "Aufwendig gestaltetes Zimmer mit LEGO-Sets Fruhstuck und Park direkt daneben.", "it": "Camera elaboratamente tematizzata con set LEGO colazione e parco a due passi.", "nl": "Uitgebreid thematische kamer met LEGO sets ontbijt en park op loopafstand.", "pt": "Quarto elaboradamente tematizado com conjuntos LEGO pequeno-almoco e parque a dois passos.", "ru": "Тщательно тематический номер с наборами LEGO, завтраком и парком в шаговой доступности.", "zh": "精心主题化客房（忍者道、好朋友、海盗或王国），含乐高套装、早餐，公园就在门前。", "ar": "غرفة ذات طابع متقن مع مجموعات LEGO وإفطار والمتنزه على بعد خطوات." }
+        },
+        "family_package": {
+          "name": { "en": "Family Short Break Package", "es": "Paquete de Estancia Corta Familiar", "fr": "Forfait Court Sejour Familial", "de": "Familien-Kurzurlaub-Paket", "it": "Pacchetto Soggiorno Breve Familiare", "nl": "Familie Korte Verblijf Pakket", "pt": "Pacote de Estadia Curta Familiar", "ru": "Семейный пакет короткого отдыха", "zh": "家庭短暂休假套餐", "ar": "باقة إجازة قصيرة عائلية" },
+          "desc": { "en": "Themed room with breakfast, 2-day tickets for under-12s free and in-room LEGO welcome gifts — the complete LEGOLAND family package.", "es": "Habitacion tematizada con desayuno entradas de 2 dias gratis para menores de 12 y regalos LEGO de bienvenida.", "fr": "Chambre thematisee avec petit dejeuner billets 2 jours gratuits pour les moins de 12 ans et cadeaux LEGO de bienvenue.", "de": "Thematisiertes Zimmer mit Fruhstuck kostenlosen 2-Tages-Tickets fur unter 12-Jahrige und LEGO-Willkommensgeschenken.", "it": "Camera tematizzata con colazione biglietti 2 giorni gratuiti per under 12 e regali LEGO di benvenuto.", "nl": "Thematische kamer met ontbijt gratis 2-daagse tickets voor onder 12 en LEGO welkomstcadeaus.", "pt": "Quarto tematizado com pequeno-almoco bilhetes de 2 dias gratuitos para menores de 12 e presentes LEGO de boas-vindas.", "ru": "Тематический номер с завтраком, бесплатными двухдневными билетами для детей до 12 лет и приветственными подарками LEGO.", "zh": "主题客房含早餐、12岁以下儿童免费2日门票和房间内乐高欢迎礼物——完整的乐高乐园家庭套餐。", "ar": "غرفة ذات طابع مع إفطار وتذاكر يومين مجانا لمن دون 12 عاما وهدايا ترحيبية LEGO." }
+        }
+      }
+    },
+    "hotel_castle": {
+      "desc": {
+        "en": "An enchanted castle right beside LEGOLAND — Princess, Wizard and Dragon Knight rooms with treasure hunts, breakfast buffet, Knights' Tavern restaurant and playground. Children under 12 get 2-day tickets free.",
+        "es": "Un castillo encantado junto a LEGOLAND — habitaciones Princesa Mago y Caballero Dragon con cazas del tesoro buffet de desayuno restaurante Knights Tavern y parque infantil.",
+        "fr": "Un chateau enchante juste a cote de LEGOLAND — chambres Princesse Sorcier et Chevalier Dragon avec chasses au tresor buffet petit dejeuner restaurant Knights Tavern et aire de jeux.",
+        "de": "Ein verzaubertes Schloss direkt neben LEGOLAND — Prinzessin- Zauberer- und Drachenkitter-Zimmer mit Schatzsuchen Fruhstucksbuffet Knights Tavern Restaurant und Spielplatz.",
+        "it": "Un castello incantato accanto a LEGOLAND — camere Principessa Mago e Cavaliere Drago con cacce al tesoro buffet colazione ristorante Knights Tavern e parco giochi.",
+        "nl": "Een betoverd kasteel naast LEGOLAND — Prinses- Tovenaar- en Drakenkamers met schatzochten ontbijtbuffet Knights Tavern restaurant en speeltuin.",
+        "pt": "Um castelo encantado ao lado de LEGOLAND — quartos Princesa Mago e Cavaleiro Dragao com cacas ao tesouro buffet de pequeno-almoco restaurante Knights Tavern e parque infantil.",
+        "ru": "Зачарованный замок прямо рядом с LEGOLAND — номера Принцессы, Волшебника и Рыцаря Дракона с охотой за сокровищами, буфетом завтрака, рестораном Knights Tavern и детской площадкой.",
+        "zh": "紧邻乐高乐园的魔法城堡——公主、巫师和龙骑士房间，有寻宝活动、早餐自助、骑士酒馆餐厅和游乐场。12岁以下儿童免费获赠2日门票。",
+        "ar": "قلعة مسحورة بجانب LEGOLAND — غرف الاميرة والساحر وفارس التنين مع مطاردات الكنوز وبوفيه الإفطار ومطعم Knights Tavern وملعب. الاطفال دون 12 يحصلون على تذاكر يومين مجانا."
+      },
+      "rooms": {
+        "princess_room": {
+          "name": { "en": "Princess or Wizard Room", "es": "Habitacion Princesa o Mago", "fr": "Chambre Princesse ou Sorcier", "de": "Prinzessin- oder Zauberer-Zimmer", "it": "Camera Principessa o Mago", "nl": "Prinses of Tovenarskamer", "pt": "Quarto Princesa ou Mago", "ru": "Номер Принцессы или Волшебника", "zh": "公主或巫师客房", "ar": "غرفة الاميرة او الساحر" },
+          "desc": { "en": "Magical themed room with LEGO sets, treasure hunt activity, breakfast buffet and 2-minute walk to LEGOLAND.", "es": "Habitacion tematizada magica con juegos LEGO actividad de caza del tesoro buffet de desayuno y 2 minutos a pie a LEGOLAND.", "fr": "Chambre thematisee magique avec jeux LEGO activite de chasse au tresor buffet petit dejeuner et 2 minutes a pied de LEGOLAND.", "de": "Magisch thematisiertes Zimmer mit LEGO-Sets Schatzsuchaktivitat Fruhstucksbuffet und 2 Gehminuten zu LEGOLAND.", "it": "Camera magica tematizzata con set LEGO attivita di caccia al tesoro buffet colazione e 2 minuti a piedi da LEGOLAND.", "nl": "Magisch thematische kamer met LEGO sets schatzochtactiviteit ontbijtbuffet en 2 minuten lopen naar LEGOLAND.", "pt": "Quarto tematizado magico com conjuntos LEGO atividade de caca ao tesouro buffet de pequeno-almoco e 2 minutos a pe de LEGOLAND.", "ru": "Волшебный тематический номер с наборами LEGO, охотой за сокровищами, буфетом завтрака в 2 минутах ходьбы от LEGOLAND.", "zh": "魔法主题客房，含乐高套装、寻宝活动、早餐自助，步行2分钟到乐高乐园。", "ar": "غرفة سحرية ذات طابع مع مجموعات LEGO ونشاط مطاردة الكنوز وبوفيه الإفطار وعلى بعد دقيقتين مشيا من LEGOLAND." }
+        },
+        "dragon_knights_room": {
+          "name": { "en": "Dragon Knight's Room", "es": "Habitacion del Caballero Dragon", "fr": "Chambre du Chevalier Dragon", "de": "Drachenkitter-Zimmer", "it": "Camera del Cavaliere Drago", "nl": "Drakenkamer", "pt": "Quarto do Cavaleiro Dragao", "ru": "Номер Рыцаря Дракона", "zh": "龙骑士客房", "ar": "غرفة فارس التنين" },
+          "desc": { "en": "Bold dragon-themed room with bunk beds for children, LEGO sets, castle playground access and breakfast included.", "es": "Atrevida habitacion de dragones con literas para ninos juegos LEGO acceso al patio del castillo y desayuno incluido.", "fr": "Chambre audacieuse a theme dragon avec lits superposes pour enfants jeux LEGO acces au terrain de jeux du chateau et petit dejeuner inclus.", "de": "Kuhnes Drachenzimmer mit Etagenbetten fur Kinder LEGO-Sets Zugang zum Schloss-Spielplatz und Fruhstuck inklusive.", "it": "Coraggiosa camera a tema drago con letti a castello per bambini set LEGO accesso al parco giochi del castello e colazione inclusa.", "nl": "Stoutmoedige draken-thematische kamer met stapelbedden voor kinderen LEGO sets toegang tot kasteel speeltuin en ontbijt inbegrepen.", "pt": "Quarto ousado com tema dragao com beliches para criancas conjuntos LEGO acesso ao parque infantil do castelo e pequeno-almoco incluido.", "ru": "Смелый номер с тематикой дракона с двухъярусными кроватями для детей, наборами LEGO, доступом к замковой площадке и завтраком.", "zh": "大胆的龙主题客房，有儿童双层床、乐高套装、城堡游乐场通道和含早餐。", "ar": "غرفة التنين الجريئة مع أسرة بطابقين للأطفال ومجموعات LEGO والوصول إلى ملعب القلعة والإفطار المشمول." }
+        }
+      }
+    },
+    "hotel_village": {
+      "desc": {
+        "en": "A cosy nature-filled holiday village right next to LEGOLAND with wooden cabins, outdoor play areas and a pirate restaurant. Perfect for families wanting space and nature at lower prices. Children under 12 get 2-day tickets free.",
+        "es": "Un acogedor pueblo de vacaciones lleno de naturaleza junto a LEGOLAND con cabanas de madera areas de juego al aire libre y un restaurante pirata.",
+        "fr": "Un village de vacances douillet plein de nature juste a cote de LEGOLAND avec des cabanes en bois des aires de jeux en plein air et un restaurant pirate.",
+        "de": "Ein gemutliches naturgefiilltes Feriendorf direkt neben LEGOLAND mit Holzhutten Aussenspielplatzen und einem Piraten-Restaurant.",
+        "it": "Un accogliente villaggio vacanze pieno di natura accanto a LEGOLAND con cabine in legno aree giochi all'aperto e un ristorante pirata.",
+        "nl": "Een gezellig natuur vol vakantiedorp naast LEGOLAND met houten hutten buitenspeelplaatsen en een piratenrestaurant.",
+        "pt": "Uma aconchegante aldeia de ferias repleta de natureza ao lado de LEGOLAND com cabanas de madeira areas de recreio ao ar livre e um restaurante pirata.",
+        "ru": "Уютная деревня отдыха, наполненная природой, прямо рядом с LEGOLAND с деревянными кабинами, открытыми игровыми площадками и пиратским рестораном.",
+        "zh": "紧邻乐高乐园充满自然气息的舒适假日村，有木屋、户外游乐区和海盗餐厅。非常适合想要更多空间和自然环境、价格较低的家庭。12岁以下儿童免费获赠2日门票。",
+        "ar": "قرية عطلات مريحة مليئة بالطبيعة بجانب LEGOLAND مع كابينات خشبية ومناطق لعب خارجية ومطعم قراصنة. مثالية للعائلات التي تريد المساحة والطبيعة بأسعار أقل."
+      },
+      "rooms": {
+        "basic_cabin": {
+          "name": { "en": "Nature Cabin", "es": "Cabana Natural", "fr": "Cabine Nature", "de": "Natur-Hutte", "it": "Cabina Natura", "nl": "Natuur Hut", "pt": "Cabana Natura", "ru": "Природная хижина", "zh": "自然小屋", "ar": "كابينة طبيعية" },
+          "desc": { "en": "Comfortable wooden cabin surrounded by trees with outdoor play areas and easy access to LEGOLAND. Breakfast not included.", "es": "Comoda cabana de madera rodeada de arboles con areas de juego al aire libre y facil acceso a LEGOLAND.", "fr": "Confortable cabine en bois entouree d'arbres avec des aires de jeux en plein air et acces facile a LEGOLAND.", "de": "Gemutliche Holzhutte umgeben von Baumen mit Aussenspielplatzen und einfachem Zugang zu LEGOLAND.", "it": "Confortevole cabina in legno circondata da alberi con aree giochi all'aperto e facile accesso a LEGOLAND.", "nl": "Comfortabele houten hut omgeven door bomen met buitenspeelplaatsen en eenvoudige toegang tot LEGOLAND.", "pt": "Cabana de madeira confortavel rodeada de arvores com areas de recreio ao ar livre e facil acesso a LEGOLAND.", "ru": "Уютная деревянная хижина в окружении деревьев с открытыми игровыми площадками и удобным доступом к LEGOLAND.", "zh": "舒适木屋，四周环树，有户外游乐区和便捷的乐高乐园通道。不含早餐。", "ar": "كابينة خشبية مريحة محاطة بالأشجار مع مناطق لعب خارجية وسهولة الوصول إلى LEGOLAND." }
+        },
+        "pirate_room": {
+          "name": { "en": "Pirate Room", "es": "Habitacion Pirata", "fr": "Chambre Pirate", "de": "Piraten-Zimmer", "it": "Camera Pirata", "nl": "Piraten Kamer", "pt": "Quarto Pirata", "ru": "Пиратский номер", "zh": "海盗客房", "ar": "غرفة القراصنة" },
+          "desc": { "en": "Fun pirate-themed cabin with LEGO pirate decor, bunk beds and access to the pirate restaurant breakfast and dinner buffets.", "es": "Divertida cabana tematica pirata con decoracion LEGO pirata literas y acceso a buffets de desayuno y cena del restaurante pirata.", "fr": "Amusante cabine a theme pirate avec decor LEGO pirate lits superposes et acces aux buffets petit dejeuner et diner du restaurant pirate.", "de": "Spassige Piraten-thematisierte Hutte mit LEGO-Piraten-Dekor Etagenbetten und Zugang zu Fruhstucks- und Abendbuffets des Piraten-Restaurants.", "it": "Divertente cabina a tema pirata con decor LEGO pirata letti a castello e accesso ai buffet colazione e cena del ristorante pirata.", "nl": "Leuke piraten-thematische hut met LEGO piraten decor stapelbedden en toegang tot de ontbijt- en dinerbuffetten van het piratenrestaurant.", "pt": "Divertida cabana tematica pirata com decor LEGO pirata beliches e acesso a buffets de pequeno-almoco e jantar do restaurante pirata.", "ru": "Весёлая пиратская тематическая хижина с декором LEGO пиратов, двухъярусными кроватями и доступом к буфетам завтрака и ужина пиратского ресторана.", "zh": "有趣的海盗主题小屋，有乐高海盗装饰、双层床和海盗餐厅早餐和晚餐自助的通道。", "ar": "كابينة ذات طابع قراصنة ممتعة مع ديكور LEGO قراصنة وأسرة بطابقين والوصول إلى بوفيه الإفطار والعشاء في مطعم القراصنة." }
+        }
+      }
+    }
+  }
+}

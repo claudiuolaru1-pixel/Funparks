@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "food_castle_restaurant",
+    "name": "Castle Restaurant",
+    "type": "Buffet Restaurant",
+    "image": "assets/images/legoland_billund/food_castle_restaurant.png",
+    "lat": 55.7349,
+    "lng": 9.1237,
+    "rating": 4.4,
+    "description": "LEGOLAND Billund's most atmospheric dining experience — a beautifully themed medieval castle restaurant in the Knights' Kingdom area serving generous hot and cold buffet lunches and dinners in a spectacular setting decorated with LEGO knights, castle battlements and royal banners. The Castle Restaurant is widely regarded as the best value and most enjoyable dining option in the park — the all-you-can-eat buffet format allows families to satisfy even the hungriest riders without multiple trips to different food outlets.",
+    "topPick": true,
+    "items": [
+      { "name": "Lunch Buffet Adult", "description": "All-you-can-eat hot and cold buffet with soup, main courses and salad bar", "price": 175.0 },
+      { "name": "Lunch Buffet Child", "description": "Children's all-you-can-eat buffet (under 12)", "price": 95.0 },
+      { "name": "Pizza & Pasta Buffet", "description": "All-you-can-eat pizza and pasta with salad bar", "price": 149.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 40.0 }
+    ]
+  },
+  {
+    "id": "food_burger_kitchen",
+    "name": "Burger Kitchen",
+    "type": "Burger Restaurant",
+    "image": "assets/images/legoland_billund/food_burger_kitchen.png",
+    "lat": 55.7356,
+    "lng": 9.1248,
+    "rating": 4.1,
+    "description": "A popular quick-service burger restaurant located centrally in the park serving freshly made burgers, chicken, fries and soft drinks in a fun LEGO-themed setting. Burger Kitchen is one of the most visited food outlets in the park on busy days — reliably good, centrally located and fast enough to get families back on the rides without a long lunch break. The outdoor seating has pleasant views of the surrounding themed areas.",
+    "topPick": false,
+    "items": [
+      { "name": "Classic Burger", "description": "Beef burger with lettuce, tomato and fries", "price": 120.0 },
+      { "name": "Chicken Burger", "description": "Crispy chicken fillet burger with fries", "price": 115.0 },
+      { "name": "Kids Meal", "description": "Small burger or nuggets with fries and drink", "price": 85.0 },
+      { "name": "Milkshake", "description": "Thick milkshake in various flavours", "price": 55.0 }
+    ]
+  },
+  {
+    "id": "food_outpost_burger",
+    "name": "Outpost Burger",
+    "type": "Jungle Burger Bar",
+    "image": "assets/images/legoland_billund/food_outpost_burger.png",
+    "lat": 55.7358,
+    "lng": 9.1246,
+    "rating": 4.0,
+    "description": "A fun jungle-themed burger and snack bar in the Adventure Land area — serving burgers, hot dogs, loaded fries and soft drinks in a colourful explorer-themed setting that fits perfectly within the surrounding Adventure Land atmosphere. Outpost Burger is the most convenient food stop for families spending time on the Adventure Land rides and a solid quick-service option for an informal lunch or snack between rides.",
+    "topPick": false,
+    "items": [
+      { "name": "Explorer Burger", "description": "Beef or chicken burger with jungle-themed toppings and fries", "price": 115.0 },
+      { "name": "Hot Dog", "description": "Classic Danish hot dog with remoulade and crispy onions", "price": 75.0 },
+      { "name": "Loaded Fries", "description": "Crispy fries with cheese sauce and toppings", "price": 65.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 38.0 }
+    ]
+  },
+  {
+    "id": "food_saloon",
+    "name": "LEGOREDO Saloon",
+    "type": "Western Restaurant",
+    "image": "assets/images/legoland_billund/food_saloon.png",
+    "lat": 55.7354,
+    "lng": 9.1228,
+    "rating": 4.2,
+    "description": "A lively Western-themed restaurant in the LEGOREDO Town area serving hearty cowboy-inspired dishes including chicken, ribs, burgers and Danish hot dogs alongside cold beers and soft drinks in a colourful saloon setting complete with country music from The Rattlesnakes — the park's own resident country band who play live throughout the day. The LEGOREDO Saloon is one of the most atmospheric and enjoyable dining stops at LEGOLAND Billund.",
+    "topPick": true,
+    "items": [
+      { "name": "Cowboy Chicken", "description": "Grilled chicken with cowboy seasoning, corn and fries", "price": 145.0 },
+      { "name": "LEGOREDO Burger", "description": "Generous beef burger with Western sauce and fries", "price": 130.0 },
+      { "name": "Danish Hot Dog", "description": "Classic Danish red sausage with remoulade, mustard and crispy onions", "price": 75.0 },
+      { "name": "Beer or Soft Drink", "description": "Danish beer or selection of cold beverages", "price": 50.0 }
+    ]
+  }
+]

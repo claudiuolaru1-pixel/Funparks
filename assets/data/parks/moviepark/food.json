@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "food_van_helsings_club",
+    "name": "Van Helsing's Club",
+    "type": "Themed Restaurant",
+    "image": "assets/images/moviepark/food_van_helsings_club.png",
+    "lat": 51.6065,
+    "lng": 6.9817,
+    "rating": 4.3,
+    "description": "Movie Park Germany's most atmospheric dining experience — a beautifully themed restaurant located directly within the Van Helsing factory area, serving hearty German and international dishes in a dramatic steampunk-gothic setting filled with vampire hunter props, dark wood furnishings and atmospheric lighting. Van Helsing's Club is the finest sit-down dining option in the park and the most immersive restaurant atmosphere of any attraction at Movie Park Germany. Perfect for a proper lunch between the major rides.",
+    "topPick": true,
+    "items": [
+      { "name": "Schnitzel mit Pommes", "description": "Classic breaded Wiener Schnitzel with potato salad and fries", "price": 17.0 },
+      { "name": "Vampire Burger", "description": "Large beef burger with dark bun, bacon and blood orange sauce", "price": 14.5 },
+      { "name": "Pasta Arrabbiata", "description": "Spicy tomato pasta with garlic and chilli", "price": 13.0 },
+      { "name": "Dark Lager", "description": "German dark beer in the gothic spirit of Van Helsing", "price": 5.5 }
+    ]
+  },
+  {
+    "id": "food_hollywood_snacks",
+    "name": "Hollywood Snacks",
+    "type": "Fast Food Court",
+    "image": "assets/images/moviepark/food_hollywood_snacks.png",
+    "lat": 51.6069,
+    "lng": 6.9822,
+    "rating": 4.0,
+    "description": "The park's main fast food hub located in the Hollywood Street area near the entrance — serving a wide selection of burgers, chicken, hot dogs, fries and soft drinks in a classic Hollywood diner-inspired setting. Hollywood Snacks is the most accessible and centrally located food option for guests wanting a quick, satisfying meal without committing to a sit-down restaurant. The outdoor seating area has views of the main park boulevard.",
+    "topPick": false,
+    "items": [
+      { "name": "Hollywood Burger", "description": "Classic beef burger with all toppings and fries", "price": 13.0 },
+      { "name": "Chicken Wrap", "description": "Grilled chicken in a warm tortilla with salad and sauce", "price": 12.0 },
+      { "name": "Nachos", "description": "Tortilla chips with cheese sauce and salsa", "price": 7.0 },
+      { "name": "Milkshake", "description": "Thick Hollywood-style milkshake in various flavours", "price": 6.0 }
+    ]
+  },
+  {
+    "id": "food_pizza_depot",
+    "name": "Pizza Depot",
+    "type": "Pizza Restaurant",
+    "image": "assets/images/moviepark/food_pizza_depot.png",
+    "lat": 51.6058,
+    "lng": 6.9815,
+    "rating": 4.1,
+    "description": "A reliable and popular pizza restaurant near the Old West area serving freshly baked individual and sharing pizzas with classic toppings alongside pasta dishes and salads. Pizza Depot is one of the best value food options at Movie Park Germany — the portions are generous and the quality is consistently good compared to typical theme park dining. The indoor and outdoor seating makes it a pleasant lunch spot whatever the weather.",
+    "topPick": false,
+    "items": [
+      { "name": "Margherita Pizza", "description": "Classic tomato and mozzarella pizza", "price": 11.5 },
+      { "name": "Pepperoni Pizza", "description": "Tomato, mozzarella and pepperoni", "price": 13.5 },
+      { "name": "Spaghetti Bolognese", "description": "Classic pasta with meat sauce", "price": 12.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 3.5 }
+    ]
+  },
+  {
+    "id": "food_spirello",
+    "name": "Spirello",
+    "type": "Ice Cream and Snacks",
+    "image": "assets/images/moviepark/food_spirello.png",
+    "lat": 51.6064,
+    "lng": 6.9811,
+    "rating": 4.2,
+    "description": "Movie Park Germany's most popular sweet snack stop — Spirello serves spiral-cut potato snacks, churros, crepes, ice cream and a variety of sweet and savoury handheld treats that are perfect for eating while walking between attractions. Located near the centre of the park, Spirello is the go-to stop for an afternoon treat and consistently has some of the shortest wait times of any food outlet in the park.",
+    "topPick": true,
+    "items": [
+      { "name": "Spiral Potato", "description": "Crispy spiral-cut potato on a stick with seasoning", "price": 6.0 },
+      { "name": "Churros", "description": "Fried dough pastry with sugar and chocolate dipping sauce", "price": 5.0 },
+      { "name": "Soft Ice Cream", "description": "Creamy soft serve ice cream in cone or cup", "price": 4.0 },
+      { "name": "Crepe", "description": "Fresh crepe with Nutella or jam", "price": 5.5 }
+    ]
+  }
+]

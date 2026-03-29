@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": "hotel_walibi_village",
+    "name": "Walibi Village",
+    "description": "The only accommodation directly on the Walibi Netherlands site — Walibi Village is a charming holiday village of comfortable cottages located just 200 metres from the park entrance, offering the ultimate convenience of sleeping steps from the world's best RMC coaster. The village features a heated indoor swimming pool with free access for all guests, a relaxing lounge with bar and fireplace, and cottages sleeping 4, 8 or 16 people in varying configurations. After an exhilarating day at Walibi Netherlands, guests can unwind in the pool, relax in the lounge and wake up refreshed for another day of riding. Walibi Village is the preferred choice for groups, families and anyone wanting the maximum theme park overnight experience. From approximately 298 euros per cottage per stay.",
+    "image": "assets/images/walibi_netherlands/hotel_walibi_village.png",
+    "lat": 52.4504,
+    "lng": 5.6910,
+    "rating": 4.3,
+    "topPick": true,
+    "website": "https://www.walibi.nl/en/walibi-village",
+    "rooms": [
+      {
+        "key": "four_person_cottage",
+        "name": "4-Person Cottage",
+        "description": "Comfortable cottage for up to 4 guests with free indoor pool access, lounge and bar — just 200 metres from the park entrance.",
+        "pricePerNight": 149.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "eight_person_cottage",
+        "name": "8-Person Cottage",
+        "description": "Spacious cottage for up to 8 guests — ideal for larger families or groups visiting Walibi Netherlands together.",
+        "pricePerNight": 249.0,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_van_der_valk",
+    "name": "Van der Valk Hotel Lelystad",
+    "description": "The finest hotel option near Walibi Netherlands — Van der Valk Hotel Lelystad is a modern and comfortable 4-star hotel located 25 minutes from Walibi by car, offering spacious rooms, a full restaurant with 3-course dinner options, fitness centre, extensive breakfast buffet and a special Walibi package that includes overnight stay, breakfast and Walibi entrance tickets. The hotel is particularly popular with couples and families who want the comfort of a full-service hotel while visiting the park and is consistently well-reviewed for its friendly service and quality dining.",
+    "image": "assets/images/walibi_netherlands/hotel_van_der_valk.png",
+    "lat": 52.5081,
+    "lng": 5.4753,
+    "rating": 4.4,
+    "topPick": true,
+    "website": "https://www.vandervalkhotellelystad.nl/en/surroundings/amusement-and-adventure-parks/walibi-holland",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Modern 4-star room with double or twin beds, free WiFi, flat-screen TV and en-suite bathroom.",
+        "pricePerNight": 95.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "walibi_package",
+        "name": "Walibi Package",
+        "description": "Overnight stay with extensive breakfast, 3-course dinner and Walibi Netherlands entrance tickets for 2 persons included.",
+        "pricePerNight": 195.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_marktzicht",
+    "name": "Hotel Marktzicht Harderwijk",
+    "description": "A charming and affordable 3-star hotel in the historic centre of Harderwijk — the nearest town to Walibi Netherlands, just 13 kilometres from the park — offering comfortable rooms, a cosy restaurant and free parking at prices well below the Van der Valk. Hotel Marktzicht is ideally situated for exploring the historic Hanseatic harbour city of Harderwijk before or after a Walibi visit and provides easy access to the park by car along the A28 motorway. A great value choice for independent travellers and families on a budget.",
+    "image": "assets/images/walibi_netherlands/hotel_marktzicht.png",
+    "lat": 52.3428,
+    "lng": 5.6179,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.walibi.nl/en/plan-your-visit/getting-here",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable 3-star room in historic Harderwijk town centre with free WiFi, breakfast available and free parking.",
+        "pricePerNight": 75.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room with extra beds for children and breakfast included.",
+        "pricePerNight": 110.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

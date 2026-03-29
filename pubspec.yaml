@@ -68,6 +68,10 @@ flutter:
     - assets/data/parks/walibibelgium/
     - assets/data/parks/heidepark/
     - assets/data/parks/thorpepark/
+    - assets/data/parks/moviepark/
+    - assets/data/parks/lego_billund/
+    - assets/data/parks/walibinl/
+    - assets/data/parks/legoland_deutschland/
     - assets/i18n/
     - assets/maps/
     - assets/images/

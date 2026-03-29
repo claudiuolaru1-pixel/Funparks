@@ -1,0 +1,506 @@
+﻿{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Walibi Netherlands — officially known as Walibi Holland — is the Netherlands' most thrilling and celebrated theme park, a spectacular 140-hectare destination located in Biddinghuizen in the flat polder landscape of Flevoland, approximately one hour from Amsterdam by car. Originally established in 1971 as the educational Flevohof agricultural park before transforming into an amusement destination in 1992 under the Walibi Group, the park subsequently became Six Flags Holland in 2000 before returning to the Walibi brand under Compagnie des Alpes ownership in 2010. Today Walibi Netherlands is home to one of the finest collections of roller coasters of any medium-sized European theme park — a lineup that has been dramatically elevated since 2018 by a bold Festivalization transformation and a series of world-class investments. The undisputed centrepiece is Untamed — a Rocky Mountain Construction hybrid coaster built on the structure of the former Robin Hood wooden coaster, widely regarded as one of the best RMC coasters on the planet, delivering 14 airtime moments and 5 inversions at 92 km/h. Goliath remains the tallest coaster in the Netherlands at 47 metres and 107 km/h. Lost Gravity was a prototype Mack Rides coaster when it opened in 2016. Xpress: Platform 13 launches riders to 5G in 2.8 seconds. Condor was the world's first Suspended Looping Coaster. New in 2025: YoY — Europe's tallest, steepest and fastest duelling coaster from RMC. Walibi Village offers comfortable cottage accommodation just 200 metres from the park entrance.",
+      "es": "Walibi Paises Bajos es el parque tematico mas emocionante de Holanda — 140 hectareas en Biddinghuizen Flevoland a una hora de Amsterdam. Untamed de RMC es considerado uno de los mejores coasters de Europa. Goliath es el coaster mas alto de Holanda con 47 metros y 107 km/h. Lost Gravity fue un prototipo de Mack Rides. Xpress: Platform 13 lanza a los riders a 5G en 2.8 segundos. Condor fue el primer Suspended Looping Coaster del mundo. Nuevo en 2025: YoY — el dueling coaster mas alto de Europa.",
+      "fr": "Walibi Pays-Bas est le parc d'attractions le plus palpitant des Pays-Bas — 140 hectares a Biddinghuizen Flevoland a une heure d'Amsterdam. Untamed de RMC est considere comme l'un des meilleurs coasters d'Europe. Goliath est le coaster le plus haut des Pays-Bas avec 47 metres et 107 km/h. Lost Gravity etait un prototype Mack Rides. Xpress: Platform 13 lance les riders a 5G en 2.8 secondes. Condor etait le premier Suspended Looping Coaster au monde. Nouveau en 2025: YoY — le dueling coaster le plus haut d'Europe.",
+      "de": "Walibi Niederlande ist der aufregendste Freizeitpark der Niederlande — 140 Hektar in Biddinghuizen Flevoland etwa eine Stunde von Amsterdam entfernt. Untamed von RMC gilt als einer der besten Coaster Europas. Goliath ist der hochste Coaster der Niederlande mit 47 Metern und 107 km/h. Lost Gravity war ein Mack Rides-Prototyp. Xpress: Platform 13 beschleunigt Fahrer in 2.8 Sekunden auf 5G. Condor war der erste Suspended Looping Coaster der Welt. Neu 2025: YoY — der hochste schnellste und steilste duellierender Coaster Europas.",
+      "it": "Walibi Paesi Bassi e il parco a tema piu emozionante dei Paesi Bassi — 140 ettari a Biddinghuizen Flevoland a un'ora da Amsterdam. Untamed di RMC e considerato uno dei migliori coaster d'Europa. Goliath e il coaster piu alto dei Paesi Bassi con 47 metri e 107 km/h. Lost Gravity era un prototipo Mack Rides. Xpress: Platform 13 lancia i rider a 5G in 2.8 secondi. Condor era il primo Suspended Looping Coaster al mondo. Nuovo nel 2025: YoY — il dueling coaster piu alto d'Europa.",
+      "nl": "Walibi Nederland is het meest opwindende pretpark van Nederland — 140 hectare in Biddinghuizen Flevoland op ongeveer een uur van Amsterdam. Untamed van RMC wordt beschouwd als een van de beste coasters van Europa. Goliath is de hoogste coaster van Nederland met 47 meter en 107 km/h. Lost Gravity was een Mack Rides prototype. Xpress: Platform 13 lanceert rijders naar 5G in 2.8 seconden. Condor was de eerste Suspended Looping Coaster ter wereld. Nieuw in 2025: YoY — de hoogste steilste en snelste duellerende coaster van Europa.",
+      "pt": "Walibi Paises Baixos e o parque tematico mais emocionante da Holanda — 140 hectares em Biddinghuizen Flevoland a cerca de uma hora de Amsterdao. Untamed da RMC e considerado um dos melhores coasters da Europa. Goliath e o coaster mais alto da Holanda com 47 metros e 107 km/h. Lost Gravity foi um prototipo Mack Rides. Xpress: Platform 13 lanca os riders a 5G em 2.8 segundos. Condor foi o primeiro Suspended Looping Coaster do mundo. Novo em 2025: YoY — o dueling coaster mais alto da Europa.",
+      "ru": "Walibi Netherlands — самый захватывающий тематический парк Нидерландов — 140 гектаров в Биддингхёйзене, Флеволанд, примерно в часе езды от Амстердама. Untamed от RMC считается одним из лучших коастеров Европы. Goliath — самый высокий коастер Нидерландов высотой 47 метров и скоростью 107 км/ч. Lost Gravity был прототипом Mack Rides. Xpress: Platform 13 разгоняет гостей до 5G за 2.8 секунды. Condor был первым Suspended Looping Coaster в мире. Новинка 2025: YoY — самый высокий, крутой и быстрый дуэльный коастер Европы.",
+      "zh": "瓦利比荷兰是荷兰最刺激的主题公园——140公顷，位于弗莱福兰省比丁豪森，距阿姆斯特丹约一小时车程。RMC的狂野无羁被广泛认为是欧洲最好的过山车之一。巨兽是荷兰最高的过山车，高47米、时速107公里。失重是Mack Rides的原型过山车。13号站台急速在2.8秒内将乘客加速到5G。秃鹰是世界第一个悬挂式环形过山车。2025年新增：YoY——欧洲最高最陡最快的对决过山车。",
+      "ar": "Walibi Netherlands هو متنزه الترفيه الموضوعي الاكثر اثارة في هولندا — 140 هكتارا في Biddinghuizen Flevoland على بعد ساعة تقريبا من أمستردام. Untamed من RMC يعتبر واحدا من افضل الاوتوسترادات في اوروبا. Goliath هو اعلى اوتوستراد في هولندا بارتفاع 47 مترا وسرعة 107 كم/ساعة. Lost Gravity كان نموذجا اوليا من Mack Rides. Xpress: Platform 13 يطلق الركاب الى 5G في 2.8 ثانية. Condor كان اول Suspended Looping Coaster في العالم. جديد 2025: YoY — اعلى واسرع واكثر انحدارا قطار تلال مبارز في اوروبا."
+    },
+    "ov_highlights_body": {
+      "en": "Untamed is one of the best roller coasters in Europe — RMC hybrid perfection with 14 airtime moments, 5 inversions and 92 km/h. Goliath towers at 47 metres delivering 107 km/h and 7 airtime moments on the tallest coaster in the Netherlands. Lost Gravity is a prototype Mack Rides coaster with one of the most intense first drops in the country. Xpress: Platform 13 fires riders to 5G in 2.8 seconds. Condor is the world's first SLC — a historically significant landmark attraction. New YoY in 2025 is Europe's tallest duelling RMC Raptor coaster. Crazy River and El Rio Grande are the best water rides for warm summer days. Merlin's Magic Castle is the most charming family dark ride. The Festivalization theme creates a unique street art and festival atmosphere unlike any other Dutch theme park. Walibi Village sits 200 metres from the entrance for the ultimate overnight experience.",
+      "es": "Untamed es uno de los mejores coasters de Europa con 14 momentos de airtime 5 inversiones y 92 km/h. Goliath es el mas alto de Holanda con 47 metros y 107 km/h. Lost Gravity es un prototipo con una de las caidas mas intensas. Xpress: Platform 13 dispara a 5G en 2.8 segundos. Condor es el primer SLC del mundo. YoY 2025 es el dueling coaster RMC mas alto de Europa. El tema Festivalization crea una atmosfera unica.",
+      "fr": "Untamed est l'un des meilleurs coasters d'Europe avec 14 moments d'airtime 5 inversions et 92 km/h. Goliath est le plus haut des Pays-Bas avec 47 metres et 107 km/h. Lost Gravity est un prototype avec l'une des premieres chutes les plus intenses. Xpress: Platform 13 tire a 5G en 2.8 secondes. Condor est le premier SLC au monde. YoY 2025 est le plus haut dueling coaster RMC d'Europe. Le theme Festivalization cree une atmosphere unique.",
+      "de": "Untamed ist einer der besten Coaster Europas mit 14 Airtime-Momenten 5 Inversionen und 92 km/h. Goliath ist der hochste der Niederlande mit 47 Metern und 107 km/h. Lost Gravity ist ein Prototyp mit einem der intensivsten ersten Abfalle. Xpress: Platform 13 schiesst in 2.8 Sekunden auf 5G. Condor ist der erste SLC der Welt. YoY 2025 ist der hochste duellierender RMC Raptor Coaster Europas. Das Festivalization-Thema schafft eine einzigartige Atmosphare.",
+      "it": "Untamed e uno dei migliori coaster d'Europa con 14 momenti di airtime 5 inversioni e 92 km/h. Goliath e il piu alto dei Paesi Bassi con 47 metri e 107 km/h. Lost Gravity e un prototipo con una delle prime cadute piu intense. Xpress: Platform 13 spara a 5G in 2.8 secondi. Condor e il primo SLC al mondo. YoY 2025 e il piu alto dueling coaster RMC d'Europa. Il tema Festivalization crea un'atmosfera unica.",
+      "nl": "Untamed is een van de beste coasters van Europa met 14 airtime-momenten 5 inversies en 92 km/h. Goliath is de hoogste van Nederland met 47 meter en 107 km/h. Lost Gravity is een prototype met een van de meest intense eerste dalingen. Xpress: Platform 13 schiet in 2.8 seconden naar 5G. Condor is de eerste SLC ter wereld. YoY 2025 is de hoogste duellerende RMC Raptor coaster van Europa. Het Festivalization thema creert een unieke sfeer.",
+      "pt": "Untamed e um dos melhores coasters da Europa com 14 momentos de airtime 5 inversoes e 92 km/h. Goliath e o mais alto da Holanda com 47 metros e 107 km/h. Lost Gravity e um prototipo com uma das primeiras quedas mais intensas. Xpress: Platform 13 dispara a 5G em 2.8 segundos. Condor e o primeiro SLC do mundo. YoY 2025 e o dueling coaster RMC mais alto da Europa. O tema Festivalization cria uma atmosfera unica.",
+      "ru": "Untamed — один из лучших коастеров Европы с 14 моментами невесомости, 5 инверсиями и 92 км/ч. Goliath — самый высокий в Нидерландах на 47 метрах и 107 км/ч. Lost Gravity — прототип с одним из самых интенсивных первых падений. Xpress: Platform 13 разгоняет до 5G за 2.8 секунды. Condor — первый SLC в мире. YoY 2025 — самый высокий дуэльный RMC Raptor коастер Европы. Тема Festivalization создаёт уникальную атмосферу.",
+      "zh": "狂野无羁是欧洲最好的过山车之一，有14个失重时刻、5个翻转和92公里每小时。巨兽是荷兰最高的，47米、107公里每小时。失重是一个原型，有最强烈的首次下落之一。13号站台急速在2.8秒内达到5G。秃鹰是世界第一个SLC。2025年的YoY是欧洲最高的对决RMC猛禽过山车。节庆主题创造了独特的氛围。",
+      "ar": "Untamed هو واحد من افضل الاوتوسترادات في اوروبا مع 14 لحظة هواء و5 انعكاسات و92 كم/ساعة. Goliath هو الاعلى في هولندا بـ 47 مترا و107 كم/ساعة. Lost Gravity نموذج اولي مع احدى اكثر الانحدارات الاولى شدة. Xpress: Platform 13 يطلق الى 5G في 2.8 ثانية. Condor هو اول SLC في العالم. YoY 2025 اعلى قطار تلال مبارز RMC Raptor في اوروبا. طابع Festivalization يخلق جوا فريدا."
+    },
+    "ov_did_you_know_body": {
+      "en": "Walibi Netherlands began life in 1971 as the Flevohof — an agricultural and educational exhibition park in the newly reclaimed polder land of Flevoland. The park was acquired by the Walibi Group in 1992 and renamed Walibi Flevo, then became Six Flags Holland in 2000 under American ownership before returning to Compagnie des Alpes as Walibi Holland in 2010. Condor, which opened in 1994, was the world's very first Suspended Looping Coaster — a landmark in coaster engineering that spawned dozens of clones worldwide. Untamed, which opened in 2019, was transformed from the beloved Robin Hood wooden coaster which had operated since 1995. The park hosts two major music festivals on its adjacent grounds each year — Defqon.1 and Lowlands — which attract tens of thousands of visitors to the Biddinghuizen area. The park's Festivalization transformation beginning in 2018 introduced street art, food trucks and festival culture throughout the park creating a uniquely Dutch urban vibe unlike any other European theme park. YoY, opened in 2025, holds the record as Europe's tallest, steepest and fastest duelling coaster.",
+      "es": "Walibi Paises Bajos empezo en 1971 como Flevohof — un parque agricola en las tierras polderizadas de Flevoland. Se convirtio en Six Flags Holland en 2000 y volvio a ser Walibi Holland en 2010. Condor abierto en 1994 fue el primer Suspended Looping Coaster del mundo. Untamed abierto en 2019 fue transformado del amado Robin Hood de madera desde 1995. El parque alberga dos festivales de musica Defqon.1 y Lowlands. YoY abierto en 2025 tiene el record como el dueling coaster mas alto de Europa.",
+      "fr": "Walibi Pays-Bas a commence en 1971 comme le Flevohof — un parc agricole dans les terres polderisees de Flevoland. Il est devenu Six Flags Holland en 2000 et est revenu a Walibi Holland en 2010. Condor ouvert en 1994 etait le premier Suspended Looping Coaster au monde. Untamed ouvert en 2019 a ete transforme du bien-aime Robin Hood en bois depuis 1995. Le parc accueille deux festivals de musique Defqon.1 et Lowlands. YoY ouvert en 2025 detient le record du plus haut dueling coaster d'Europe.",
+      "de": "Walibi Niederlande begann 1971 als Flevohof — ein Landwirtschafts- und Bildungspark im neu gewonnenen Polderland Flevolandes. Es wurde 2000 zu Six Flags Holland und kehrte 2010 als Walibi Holland zuruck. Condor 1994 eroffnet war der erste Suspended Looping Coaster der Welt. Untamed 2019 eroffnet wurde aus dem geliebten Robin Hood Holzcoaster seit 1995 umgewandelt. Der Park beherbergt zwei Musikfestivals Defqon.1 und Lowlands. YoY 2025 eroffnet halt den Rekord als hochster duellierender Coaster Europas.",
+      "it": "Walibi Paesi Bassi inizio nel 1971 come Flevohof — un parco agricolo nelle terre polderizzate del Flevoland. Divento Six Flags Holland nel 2000 e torno a essere Walibi Holland nel 2010. Condor aperto nel 1994 era il primo Suspended Looping Coaster al mondo. Untamed aperto nel 2019 fu trasformato dall'amato Robin Hood in legno dal 1995. Il parco ospita due festival musicali Defqon.1 e Lowlands. YoY aperto nel 2025 detiene il record come il piu alto dueling coaster d'Europa.",
+      "nl": "Walibi Nederland begon in 1971 als de Flevohof — een landbouw- en educatief tentoonstellingspark in het nieuw gewonnen polderland van Flevoland. Het werd Six Flags Holland in 2000 en keerde terug als Walibi Holland in 2010. Condor geopend in 1994 was de eerste Suspended Looping Coaster ter wereld. Untamed geopend in 2019 werd getransformeerd uit de geliefde Robin Hood houten coaster sinds 1995. Het park organiseert twee muziekfestivals Defqon.1 en Lowlands. YoY geopend in 2025 heeft het record als de hoogste duellerende coaster van Europa.",
+      "pt": "Walibi Paises Baixos comecou em 1971 como Flevohof — um parque agricola nas terras polderizadas de Flevoland. Tornou-se Six Flags Holland em 2000 e voltou a ser Walibi Holland em 2010. Condor aberto em 1994 foi o primeiro Suspended Looping Coaster do mundo. Untamed aberto em 2019 foi transformado do amado Robin Hood de madeira desde 1995. O parque alberga dois festivais de musica Defqon.1 e Lowlands. YoY aberto em 2025 detém o recorde como o dueling coaster mais alto da Europa.",
+      "ru": "Walibi Netherlands начал своё существование в 1971 году как Flevohof — сельскохозяйственный и образовательный парк на вновь осушённых польдерных землях Флеволанда. Он стал Six Flags Holland в 2000 году и вернулся как Walibi Holland в 2010 году. Condor, открытый в 1994 году, был первым в мире Suspended Looping Coaster. Untamed, открытый в 2019 году, был преобразован из любимого деревянного Robin Hood, работавшего с 1995 года. Парк принимает два музыкальных фестиваля Defqon.1 и Lowlands. YoY, открытый в 2025 году, держит рекорд самого высокого дуэльного коастера Европы.",
+      "zh": "瓦利比荷兰于1971年以弗莱沃霍夫的名称起步——弗莱福兰省新开垦圩田上的农业教育展览公园。2000年成为六旗荷兰，2010年回归瓦利比荷兰。1994年开放的秃鹰是世界第一个悬挂式环形过山车。2019年开放的狂野无羁从1995年起运营的深受喜爱的罗宾汉木质过山车改造而来。公园每年举办两大音乐节Defqon.1和Lowlands。2025年开放的YoY保持欧洲最高对决过山车纪录。",
+      "ar": "Walibi Netherlands بدأت في عام 1971 كـ Flevohof — متنزه زراعي وتعليمي في أراضي البولدر المستصلحة حديثا في Flevoland. أصبح Six Flags Holland في 2000 وعاد كـ Walibi Holland في 2010. Condor المفتوح في 1994 كان أول Suspended Looping Coaster في العالم. Untamed المفتوح في 2019 تم تحويله من الحبيب Robin Hood الخشبي منذ 1995. يستضيف المتنزه مهرجانين موسيقيين Defqon.1 وLowlands. YoY المفتوح في 2025 يحتفظ بالرقم القياسي كأعلى قطار تلال مبارز في أوروبا."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and go straight to Untamed — it consistently draws the longest queues of any ride in the park and is best experienced within the first 30 minutes. Then Goliath, then Lost Gravity before the midday rush. Xpress: Platform 13 queues are manageable throughout the day. YoY is best tackled after lunch when the opening rush subsides. Merlin's Magic Castle is ideal for families with young children — use it as a break between the major coasters. Crazy River and El Rio Grande are perfect for warm afternoons. Cock-A-Doodle-Doo and La Hacienda are the best food options — aim for 11:30am or after 1:30pm to avoid peak rush. Download the Walibi app for live wait times. Fast Lane passes are available and strongly recommended on busy summer weekends. Tuesday and Wednesday tend to be quieter than weekends. Walibi Village is the best overnight option — book well in advance for summer dates.",
+      "es": "Llega a la apertura y ve directamente a Untamed. Luego Goliath y Lost Gravity antes de la avalancha del mediodia. YoY es mejor despues del almuerzo. Merlin's Magic Castle es ideal para familias con ninos pequenos. Crazy River y El Rio Grande son perfectas para tardes calidas. Cock-A-Doodle-Doo y La Hacienda son las mejores opciones de comida. Descarga la app de Walibi para tiempos de espera en vivo. Walibi Village es la mejor opcion de alojamiento.",
+      "fr": "Arrivez a l'ouverture et allez directement a Untamed. Ensuite Goliath et Lost Gravity avant la ruee de midi. YoY est mieux apres le dejeuner. Merlin's Magic Castle est ideal pour les familles avec de jeunes enfants. Crazy River et El Rio Grande sont parfaits pour les apres-midi chauds. Cock-A-Doodle-Doo et La Hacienda sont les meilleures options alimentaires. Telechargez l'application Walibi pour les temps d'attente en direct. Walibi Village est la meilleure option d'hebergement.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Untamed. Dann Goliath und Lost Gravity vor dem Mittagsansturm. YoY ist nach dem Mittagessen besser. Merlin's Magic Castle ist ideal fur Familien mit kleinen Kindern. Crazy River und El Rio Grande sind perfekt fur warme Nachmittage. Cock-A-Doodle-Doo und La Hacienda sind die besten Essensmoglichkeiten. Laden Sie die Walibi App fur Live-Wartezeiten herunter. Walibi Village ist die beste Übernachtungsoption.",
+      "it": "Arriva all'apertura e vai direttamente a Untamed. Poi Goliath e Lost Gravity prima della ressa di mezzogiorno. YoY e meglio dopo pranzo. Merlin's Magic Castle e ideale per famiglie con bambini piccoli. Crazy River e El Rio Grande sono perfetti per pomeriggi caldi. Cock-A-Doodle-Doo e La Hacienda sono le migliori opzioni alimentari. Scarica l'app Walibi per i tempi di attesa in diretta. Walibi Village e la migliore opzione di alloggio.",
+      "nl": "Kom bij de opening en ga direct naar Untamed. Dan Goliath en Lost Gravity voor de middagdrukte. YoY is het beste na de lunch. Merlin's Magic Castle is ideaal voor gezinnen met jonge kinderen. Crazy River en El Rio Grande zijn perfect voor warme middagen. Cock-A-Doodle-Doo en La Hacienda zijn de beste eetopties. Download de Walibi app voor live wachttijden. Walibi Village is de beste overnachtingsoptie.",
+      "pt": "Chega na abertura e vai diretamente ao Untamed. Depois Goliath e Lost Gravity antes da corrida do meio-dia. YoY e melhor depois do almoco. Merlin's Magic Castle e ideal para familias com criancas pequenas. Crazy River e El Rio Grande sao perfeitos para tardes quentes. Cock-A-Doodle-Doo e La Hacienda sao as melhores opcoes de comida. Descarrega a app Walibi para tempos de espera em direto. Walibi Village e a melhor opcao de alojamento.",
+      "ru": "Приходите к открытию и сразу идите к Untamed. Затем Goliath и Lost Gravity до полуденного ажиотажа. YoY лучше всего после обеда. Merlin's Magic Castle идеален для семей с маленькими детьми. Crazy River и El Rio Grande идеальны для тёплых послеполудней. Cock-A-Doodle-Doo и La Hacienda — лучшие варианты питания. Скачайте приложение Walibi для живого времени ожидания. Walibi Village — лучший вариант ночёвки.",
+      "zh": "在开园时到达，直奔狂野无羁。然后在中午高峰前体验巨兽和失重。YoY最好在午餐后体验。梅林魔法城堡非常适合有幼儿的家庭。疯狂河和里奥格兰德非常适合温暖的下午。公鸡餐厅和哈西恩达是最好的餐饮选择。下载瓦利比应用查看实时等待时间。瓦利比村是最佳过夜选择。",
+      "ar": "وصل عند الفتح وتوجه مباشرة الى Untamed. ثم Goliath وLost Gravity قبل ازدحام الظهيرة. YoY افضل بعد الغداء. Merlin's Magic Castle مثالي للعائلات مع الاطفال الصغار. Crazy River وEl Rio Grande مثاليتان لفترات ما بعد الظهر الدافئة. Cock-A-Doodle-Doo وLa Hacienda هي افضل خيارات الطعام. حمل تطبيق Walibi لاوقات الانتظار المباشرة. Walibi Village هو افضل خيار للمبيت."
+    },
+    "ov_photos_body": {
+      "en": "Untamed photographed from below during its most intense inversion section is one of the most dramatic roller coaster images in the Netherlands. Goliath towering over the flat Flevoland polder landscape against the open Dutch sky creates classic hypercoaster photography. Lost Gravity's unique first drop photographed from the lakeside viewing area is stunning. The street art murals throughout the Festivalization zones create vibrant and colourful photography backdrops unlike any other Dutch theme park. Merlin's Magic Castle exterior at dusk with warm lighting is beautifully atmospheric. Walibi Village cottages among the trees photographed in evening light create charming accommodation imagery.",
+      "es": "Untamed fotografiado desde abajo durante su seccion de inversiones es una de las imagenes de coaster mas dramaticas de Holanda. Goliath dominando el paisaje plano de Flevoland crea fotografia clasica de hypercoaster. Los murales de arte callejero crean coloridos fondos fotograficos unicos. Walibi Village al atardecer crea imagenes encantadoras.",
+      "fr": "Untamed photographie depuis le bas pendant sa section d'inversions est l'une des images de coaster les plus dramatiques des Pays-Bas. Goliath dominant le paysage plat du polder Flevoland cree une photographie classique d'hypercoaster. Les murales de street art creent des fonds photographiques colores uniques. Walibi Village au crepuscule cree des images charmantes.",
+      "de": "Untamed von unten fotografiert wahrend seines intensivsten Inversionsabschnitts ist eines der dramatischsten Achterbahn-Bilder in den Niederlanden. Goliath uber der flachen Flevoland-Pollandschaft thronend schafft klassische Hypercoaster-Fotografie. Die Strassenkunst-Wandmalereien schaffen bunte und farbenfrohe Fotohintergurunde. Walibi Village in der Abenddammerung schafft charmante Unterkunftsbilder.",
+      "it": "Untamed fotografato dal basso durante la sua sezione di inversioni piu intensa e una delle immagini di coaster piu drammatiche nei Paesi Bassi. Goliath che domina il paesaggio pianeggiante del polder Flevoland crea fotografia classica di hypercoaster. I murales di street art creano sfondi fotografici colorati unici. Walibi Village al crepuscolo crea immagini di alloggio incantevoli.",
+      "nl": "Untamed van onderaf gefotografeerd tijdens zijn meest intense inversiedeel is een van de meest dramatische achtbaanbeelden in Nederland. Goliath die boven het vlakke Flevolandse polderlandschap uittorent creert klassieke hypercoaster fotografie. De street art muurschilderingen creeren kleurrijke en levendige fotografische achtergronden. Walibi Village cottages in avondlicht creeren charmante accommodatiebeelden.",
+      "pt": "Untamed fotografado de baixo durante a sua secao de inversoes mais intensa e uma das imagens de coaster mais dramaticas da Holanda. Goliath dominando a paisagem plana do polder Flevoland cria fotografia classica de hypercoaster. Os murais de street art criam fundos fotograficos coloridos unicos. As casas de Walibi Village ao anoitecer criam imagens de alojamento encantadoras.",
+      "ru": "Untamed, сфотографированный снизу во время наиболее интенсивной секции инверсий — один из самых драматичных образов горок в Нидерландах. Goliath, возвышающийся над плоским польдерным ландшафтом Флеволанда, создаёт классическую фотографию гиперкоастера. Стрит-арт муралы создают яркие и красочные фотографические фоны. Домики Walibi Village в вечернем свете создают очаровательные изображения.",
+      "zh": "从下方拍摄狂野无羁最强烈的翻转区段是荷兰最戏剧性的过山车图像之一。巨兽俯瞰弗莱福兰平坦圩田景观对荷兰开阔天空创造了经典的超级过山车摄影。节庆化区域的街头艺术壁画创造了独特的色彩丰富的摄影背景。瓦利比村小屋在暮色中的拍摄创造了迷人的住宿图像。",
+      "ar": "Untamed الملتقط من الاسفل اثناء قسمه الانعكاسي الاكثر كثافة هو واحد من اكثر صور الاوتوستراد درامية في هولندا. Goliath يطغى على المنظر الطبيعي المسطح لبولدر Flevoland خلق تصوير hypercoaster كلاسيكي. جداريات الفن الشارعي تخلق خلفيات فوتوغرافية ملونة وحيوية. بيوت Walibi Village في الضوء المسائي تخلق صور اقامة ساحرة."
+    }
+  },
+  "attractions": {
+    "untamed": {
+      "desc": {
+        "en": "One of Europe's best roller coasters — RMC hybrid perfection with 14 airtime moments, 5 inversions and 92 km/h on 1,085 metres. Built on the Robin Hood structure. Min. height: 140cm.",
+        "es": "Uno de los mejores coasters de Europa — perfeccion hibrida RMC con 14 momentos de airtime 5 inversiones y 92 km/h en 1085 metros. Min: 140cm.",
+        "fr": "L'un des meilleurs coasters d'Europe — perfection hybride RMC avec 14 moments d'airtime 5 inversions et 92 km/h sur 1085 metres. Min: 140cm.",
+        "de": "Einer der besten Coaster Europas — RMC-Hybrid-Perfektion mit 14 Airtime-Momenten 5 Inversionen und 92 km/h auf 1085 Metern. Mindestgrosse: 140cm.",
+        "it": "Uno dei migliori coaster d'Europa — perfezione ibrida RMC con 14 momenti di airtime 5 inversioni e 92 km/h su 1085 metri. Min: 140cm.",
+        "nl": "Een van de beste coasters van Europa — RMC hybride perfectie met 14 airtime-momenten 5 inversies en 92 km/h over 1085 meter. Min: 140cm.",
+        "pt": "Um dos melhores coasters da Europa — perfeicao hibrida RMC com 14 momentos de airtime 5 inversoes e 92 km/h em 1085 metros. Min: 140cm.",
+        "ru": "Один из лучших коастеров Европы — гибридное совершенство RMC с 14 моментами невесомости, 5 инверсиями и 92 км/ч на 1085 метрах. Мин. рост: 140 см.",
+        "zh": "欧洲最好的过山车之一——RMC混合完美之作，在1085米上有14个失重时刻、5个翻转和92公里每小时。最低身高：140厘米。",
+        "ar": "واحد من افضل الاوتوسترادات في اوروبا — كمال RMC الهجين مع 14 لحظة هواء و5 انعكاسات و92 كم/ساعة على 1085 مترا. الحد الادنى: 140 سم."
+      }
+    },
+    "goliath": {
+      "desc": {
+        "en": "The tallest coaster in the Netherlands — 47m, 107 km/h, 1,214m of Intamin excellence with 7 airtime moments and the legendary Stengel Dive. Min. height: 140cm.",
+        "es": "El coaster mas alto de Holanda — 47m 107 km/h 1214m de excelencia Intamin con 7 momentos de airtime y el legendario Stengel Dive. Min: 140cm.",
+        "fr": "Le coaster le plus haut des Pays-Bas — 47m 107 km/h 1214m d'excellence Intamin avec 7 moments d'airtime et le legendaire Stengel Dive. Min: 140cm.",
+        "de": "Der hochste Coaster der Niederlande — 47m 107 km/h 1214m Intamin-Exzellenz mit 7 Airtime-Momenten und dem legendaren Stengel Dive. Mindestgrosse: 140cm.",
+        "it": "Il coaster piu alto dei Paesi Bassi — 47m 107 km/h 1214m di eccellenza Intamin con 7 momenti di airtime e il leggendario Stengel Dive. Min: 140cm.",
+        "nl": "De hoogste coaster van Nederland — 47m 107 km/h 1214m Intamin excellentie met 7 airtime-momenten en de legendarische Stengel Dive. Min: 140cm.",
+        "pt": "O coaster mais alto da Holanda — 47m 107 km/h 1214m de excelencia Intamin com 7 momentos de airtime e o lendario Stengel Dive. Min: 140cm.",
+        "ru": "Самый высокий коастер Нидерландов — 47 м, 107 км/ч, 1214 м совершенства Intamin с 7 моментами невесомости и легендарным Stengel Dive. Мин. рост: 140 см.",
+        "zh": "荷兰最高的过山车——47米、107公里每小时、1214米的Intamin卓越之作，有7个失重时刻和传奇的斯滕格尔俯冲。最低身高：140厘米。",
+        "ar": "اعلى اوتوستراد في هولندا — 47م 107 كم/ساعة 1214م من التميز Intamin مع 7 لحظات هواء و Stengel Dive الاسطوري. الحد الادنى: 140 سم."
+      }
+    },
+    "lost_gravity": {
+      "desc": {
+        "en": "A Mack Rides prototype when it opened in 2016 — 32m tall, 87 km/h, 2 inversions and one of the most intense first drops in the Netherlands. Min. height: 140cm.",
+        "es": "Un prototipo de Mack Rides cuando abrio en 2016 — 32m de altura 87 km/h 2 inversiones y una de las caidas primeras mas intensas de Holanda. Min: 140cm.",
+        "fr": "Un prototype Mack Rides a son ouverture en 2016 — 32m de hauteur 87 km/h 2 inversions et l'une des premieres chutes les plus intenses des Pays-Bas. Min: 140cm.",
+        "de": "Ein Mack Rides-Prototyp bei seiner Eroffnung 2016 — 32m hoch 87 km/h 2 Inversionen und einer der intensivsten ersten Abfalle in den Niederlanden. Mindestgrosse: 140cm.",
+        "it": "Un prototipo Mack Rides alla sua apertura nel 2016 — 32m di altezza 87 km/h 2 inversioni e una delle prime cadute piu intense dei Paesi Bassi. Min: 140cm.",
+        "nl": "Een Mack Rides prototype bij de opening in 2016 — 32m hoog 87 km/h 2 inversies en een van de meest intense eerste dalingen in Nederland. Min: 140cm.",
+        "pt": "Um prototipo Mack Rides na abertura em 2016 — 32m de altura 87 km/h 2 inversoes e uma das primeiras quedas mais intensas da Holanda. Min: 140cm.",
+        "ru": "Прототип Mack Rides при открытии в 2016 году — 32 м высотой, 87 км/ч, 2 инверсии и одно из самых интенсивных первых падений в Нидерландах. Мин. рост: 140 см.",
+        "zh": "2016年开放时是Mack Rides的原型——32米高、87公里每小时、2个翻转，以及荷兰最强烈的首次下落之一。最低身高：140厘米。",
+        "ar": "نموذج اولي من Mack Rides عند افتتاحه في 2016 — 32م ارتفاعا 87 كم/ساعة انعكاسان واحد من اكثر الانحدارات الاولى شدة في هولندا. الحد الادنى: 140 سم."
+      }
+    },
+    "xpress_platform_13": {
+      "desc": {
+        "en": "0 to 90 km/h in 2.8 seconds generating 5G — one of the most violent and exciting launches of any coaster in the Netherlands. Min. height: 140cm.",
+        "es": "De 0 a 90 km/h en 2.8 segundos generando 5G — uno de los lanzamientos mas violentos de cualquier coaster en Holanda. Min: 140cm.",
+        "fr": "De 0 a 90 km/h en 2.8 secondes generant 5G — l'un des lancements les plus violents de tout coaster aux Pays-Bas. Min: 140cm.",
+        "de": "Von 0 auf 90 km/h in 2.8 Sekunden mit 5G — einer der gewaltigsten Starts jedes Coasters in den Niederlanden. Mindestgrosse: 140cm.",
+        "it": "Da 0 a 90 km/h in 2.8 secondi generando 5G — uno dei lanci piu violenti di qualsiasi coaster nei Paesi Bassi. Min: 140cm.",
+        "nl": "Van 0 naar 90 km/h in 2.8 seconden met 5G — een van de meest gewelddadige lanceringen van elke coaster in Nederland. Min: 140cm.",
+        "pt": "De 0 a 90 km/h em 2.8 segundos gerando 5G — um dos lançamentos mais violentos de qualquer coaster na Holanda. Min: 140cm.",
+        "ru": "От 0 до 90 км/ч за 2.8 секунды с перегрузкой 5G — один из самых жестоких и захватывающих запусков любого коастера в Нидерландах. Мин. рост: 140 см.",
+        "zh": "在2.8秒内从0加速到90公里每小时，产生5G力——荷兰任何过山车中最猛烈和激动人心的发射之一。最低身高：140厘米。",
+        "ar": "من 0 الى 90 كم/ساعة في 2.8 ثانية مولدا 5G — واحد من اكثر الاطلاقات عنفا لاي اوتوستراد في هولندا. الحد الادنى: 140 سم."
+      }
+    },
+    "speed_of_sound": {
+      "desc": {
+        "en": "A Vekoma Boomerang with on-board soundtrack — forwards then backwards through 6 inversions at 75 km/h with 5.2G forces made even more powerful by the music. Min. height: 140cm.",
+        "es": "Un Boomerang Vekoma con banda sonora a bordo — adelante y atras a traves de 6 inversiones a 75 km/h con fuerzas 5.2G. Min: 140cm.",
+        "fr": "Un Vekoma Boomerang avec bande son a bord — en avant puis en arriere a travers 6 inversions a 75 km/h avec des forces 5.2G. Min: 140cm.",
+        "de": "Ein Vekoma Boomerang mit On-Board Soundtrack — vorwarts dann ruckwarts durch 6 Inversionen bei 75 km/h mit 5.2G Kraften. Mindestgrosse: 140cm.",
+        "it": "Un Vekoma Boomerang con colonna sonora a bordo — avanti poi indietro attraverso 6 inversioni a 75 km/h con forze 5.2G. Min: 140cm.",
+        "nl": "Een Vekoma Boomerang met on-board soundtrack — vooruit dan achteruit door 6 inversies bij 75 km/h met 5.2G krachten. Min: 140cm.",
+        "pt": "Um Vekoma Boomerang com banda sonora a bordo — para a frente depois para tras atraves de 6 inversoes a 75 km/h com forcas 5.2G. Min: 140cm.",
+        "ru": "Vekoma Boomerang с бортовым саундтреком — вперёд, затем назад через 6 инверсий при 75 км/ч с силами 5.2G. Мин. рост: 140 см.",
+        "zh": "Vekoma回力镖，配有车载配乐——以75公里每小时前进然后后退穿越6个翻转，5.2G的力因音乐而更加强烈。最低身高：140厘米。",
+        "ar": "Vekoma Boomerang مع موسيقى على متن الاوتوستراد — للأمام ثم للخلف عبر 6 انعكاسات بسرعة 75 كم/ساعة مع قوى 5.2G. الحد الادنى: 140 سم."
+      }
+    },
+    "condor": {
+      "desc": {
+        "en": "The world's first Suspended Looping Coaster — a historic landmark attraction. 5 inversions, 80 km/h, legs dangling freely 32m up. Min. height: 140cm.",
+        "es": "El primer Suspended Looping Coaster del mundo — una atraccion hito historico. 5 inversiones 80 km/h piernas colgando libremente a 32m. Min: 140cm.",
+        "fr": "Le premier Suspended Looping Coaster au monde — une attraction historique. 5 inversions 80 km/h jambes pendantes librement a 32m. Min: 140cm.",
+        "de": "Der erste Suspended Looping Coaster der Welt — eine historische Sehenswürdigkeit. 5 Inversionen 80 km/h Beine frei hangelnd 32m hoch. Mindestgrosse: 140cm.",
+        "it": "Il primo Suspended Looping Coaster al mondo — un'attrazione storica. 5 inversioni 80 km/h gambe che pendono liberamente a 32m. Min: 140cm.",
+        "nl": "De eerste Suspended Looping Coaster ter wereld — een historisch monument. 5 inversies 80 km/h benen vrij hangend 32m omhoog. Min: 140cm.",
+        "pt": "O primeiro Suspended Looping Coaster do mundo — uma atracção historica. 5 inversoes 80 km/h pernas pendendo livremente a 32m. Min: 140cm.",
+        "ru": "Первый в мире Suspended Looping Coaster — исторический знаковый аттракцион. 5 инверсий, 80 км/ч, ноги свободно свисают на высоте 32 м. Мин. рост: 140 см.",
+        "zh": "世界第一个悬挂式环形过山车——历史性的里程碑景点。5个翻转、80公里每小时，双腿在32米高处自由悬空。最低身高：140厘米。",
+        "ar": "اول Suspended Looping Coaster في العالم — جاذبية معلم تاريخي. 5 انعكاسات 80 كم/ساعة ارجل تتدلى بحرية على ارتفاع 32م. الحد الادنى: 140 سم."
+      }
+    },
+    "blast": {
+      "desc": {
+        "en": "A high-energy launch ride firing riders in a sudden explosive burst — pure launch thrills in a compact accessible package. Min. height: 120cm.",
+        "es": "Una atraccion de lanzamiento de alta energia disparando a los riders en una explosion repentina. Min: 120cm.",
+        "fr": "Une attraction de lancement haute energie tirant les riders dans une explosion soudaine. Min: 120cm.",
+        "de": "Eine energetische Startfahrt die Fahrer in einem plotzlichen explosiven Ausbruch abfeuert. Mindestgrosse: 120cm.",
+        "it": "Un'attrazione di lancio ad alta energia che spara i rider in un'esplosione improvvisa. Min: 120cm.",
+        "nl": "Een hoogenergetische lanceerattractie die rijders in een plotselinge explosieve uitbarsting wegschiet. Min: 120cm.",
+        "pt": "Uma atracção de lançamento de alta energia disparando os riders numa explosão repentina. Min: 120cm.",
+        "ru": "Высокоэнергетический аттракцион запуска, стреляющий гостями во внезапном взрывном порыве. Мин. рост: 120 см.",
+        "zh": "高能量发射游乐，在突然爆炸性的冲劲中将乘客发射出去——紧凑易达的纯发射刺激。最低身高：120厘米。",
+        "ar": "جاذبية اطلاق عالية الطاقة تطلق الركاب في انفجار مفاجئ. الحد الادنى: 120 سم."
+      }
+    },
+    "space_shot": {
+      "desc": {
+        "en": "A pneumatic launch tower that fires riders upward before bouncing them down — the unique upward freefall sensation unlike any traditional drop tower. Min. height: 130cm.",
+        "es": "Una torre de lanzamiento neumatico que dispara a los riders hacia arriba antes de hacerlos rebotar. Min: 130cm.",
+        "fr": "Une tour de lancement pneumatique qui tire les riders vers le haut avant de les faire rebondir. Min: 130cm.",
+        "de": "Ein pneumatischer Startturm der Fahrer nach oben schiesst bevor er sie nach unten springen lasst. Mindestgrosse: 130cm.",
+        "it": "Una torre di lancio pneumatica che spara i rider verso l'alto prima di farli rimbalzare verso il basso. Min: 130cm.",
+        "nl": "Een pneumatische lanceertoren die rijders omhoog schiet voordat ze terugveren. Min: 130cm.",
+        "pt": "Uma torre de lançamento pneumatica que dispara os riders para cima antes de os fazer ricocheteiar para baixo. Min: 130cm.",
+        "ru": "Пневматическая башня запуска, стреляющая гостями вверх перед возвратными прыжками вниз. Мин. рост: 130 см.",
+        "zh": "气动发射塔将乘客向上发射，然后让他们弹跳而下——与传统落塔截然不同的独特向上自由落体感觉。最低身高：130厘米。",
+        "ar": "برج اطلاق هوائي يطلق الركاب لأعلى قبل ارتدادهم للأسفل. الحد الادنى: 130 سم."
+      }
+    },
+    "g_force": {
+      "desc": {
+        "en": "A powerful flat ride delivering intense sustained g-forces — a firm favourite with riders wanting g-force sensations between coasters. Min. height: 140cm.",
+        "es": "Una potente atraccion plana que ofrece intensas fuerzas g sostenidas. Min: 140cm.",
+        "fr": "Une puissante attraction plate delivrant des forces g intenses soutenues. Min: 140cm.",
+        "de": "Eine kraftige Flachfahrt die intensive anhaltende g-Krafte liefert. Mindestgrosse: 140cm.",
+        "it": "Un'attraente attrazione piatta che offre forze g intense e sostenute. Min: 140cm.",
+        "nl": "Een krachtige flatride die intense aanhoudende g-krachten levert. Min: 140cm.",
+        "pt": "Uma poderosa atracção plana que oferece forcas g intensas e sustentadas. Min: 140cm.",
+        "ru": "Мощный плоский аттракцион, обеспечивающий интенсивные длительные g-силы. Мин. рост: 140 см.",
+        "zh": "强力平面游乐，提供强烈持续的G力——深受想要在过山车之间体验G力感觉的乘客喜爱。最低身高：140厘米。",
+        "ar": "جاذبية مستوية قوية تقدم قوى g مكثفة ومستدامة. الحد الادنى: 140 سم."
+      }
+    },
+    "super_swing": {
+      "desc": {
+        "en": "A soaring swing carousel lifting riders high above the park with panoramic views of flat Flevoland and the festival grounds. Min. height: 120cm.",
+        "es": "Un tiovivo de columpio que eleva a los riders sobre el parque con vistas panoramicas de Flevoland. Min: 120cm.",
+        "fr": "Un manege tournant qui eleve les riders au-dessus du parc avec des vues panoramiques sur le plat Flevoland. Min: 120cm.",
+        "de": "Ein Schaukelkarussell das Fahrer hoch uber den Park mit Panoramablick uber das flache Flevoland hebt. Mindestgrosse: 120cm.",
+        "it": "Un carosello oscillante che solleva i rider sopra il parco con viste panoramiche sul piatto Flevoland. Min: 120cm.",
+        "nl": "Een zwevend schommelcarrousel dat rijders hoog boven het park tilt met panoramisch uitzicht over het vlakke Flevoland. Min: 120cm.",
+        "pt": "Um carrossel oscilante que eleva os riders acima do parque com vistas panoramicas do plano Flevoland. Min: 120cm.",
+        "ru": "Парящая карусель-качели, поднимающая гостей высоко над парком с панорамным видом на плоский Флеволанд. Мин. рост: 120 см.",
+        "zh": "翱翔的秋千旋转木马，将乘客高高举起，可欣赏弗莱福兰平坦景色和节日场地的全景。最低身高：120厘米。",
+        "ar": "دوامة أرجوحة تحلق ترفع الركاب عاليا فوق المتنزه مع مناظر بانورامية لـ Flevoland المسطحة. الحد الادنى: 120 سم."
+      }
+    },
+    "sky_diver": {
+      "desc": {
+        "en": "Free-spinning gondolas that flip and rotate unpredictably at height — every ride feels completely different. Min. height: 120cm.",
+        "es": "Gondolas de giro libre que voltean y rotan de forma impredecible en altura. Min: 120cm.",
+        "fr": "Gondoles a rotation libre qui se retournent et tournent de maniere impredictible en hauteur. Min: 120cm.",
+        "de": "Frei rotierende Gondeln die unvorhersehbar in der Hohe kippen und drehen. Mindestgrosse: 120cm.",
+        "it": "Gondole a rotazione libera che si capovolgono e ruotano in modo imprevedibile ad altezza. Min: 120cm.",
+        "nl": "Vrijdraaiende gondels die onvoorspelbaar kantelen en draaien op hoogte. Min: 120cm.",
+        "pt": "Gondolas de rotacao livre que tombam e rodam de forma imprevisivel a altura. Min: 120cm.",
+        "ru": "Свободно вращающиеся гондолы, непредсказуемо переворачивающиеся и вращающиеся на высоте. Мин. рост: 120 см.",
+        "zh": "自由旋转的吊舱在高处不可预测地翻转和旋转——每次乘坐感觉完全不同。最低身高：120厘米。",
+        "ar": "كابينات تدوير حر تنقلب وتدور بشكل غير متوقع على الارتفاع. الحد الادنى: 120 سم."
+      }
+    },
+    "spinning_vibe": {
+      "desc": {
+        "en": "A fun spinning flat ride with festival music and atmosphere — perfectly capturing the Festivalization spirit of Walibi Netherlands. Min. height: 120cm.",
+        "es": "Una divertida atraccion plana giratoria con musica y ambiente de festival. Min: 120cm.",
+        "fr": "Une amusante attraction plate tournante avec musique et atmosphere de festival. Min: 120cm.",
+        "de": "Eine spassige Dreh-Flachfahrt mit Festivalmusik und Atmosphare. Mindestgrosse: 120cm.",
+        "it": "Un'attraente attrazione piatta rotante con musica e atmosfera da festival. Min: 120cm.",
+        "nl": "Een leuke draaiende flatride met festivalmuziek en sfeer. Min: 120cm.",
+        "pt": "Uma divertida atracção plana giratoria com musica e atmosfera de festival. Min: 120cm.",
+        "ru": "Весёлый вращающийся плоский аттракцион с фестивальной музыкой и атмосферой. Мин. рост: 120 см.",
+        "zh": "有趣的旋转平面游乐，配有节日音乐和氛围——完美捕捉瓦利比荷兰的节庆化精神。最低身高：120厘米。",
+        "ar": "جاذبية مستوية دوارة ممتعة مع موسيقى وجو المهرجان. الحد الادنى: 120 سم."
+      }
+    },
+    "tomahawk": {
+      "desc": {
+        "en": "A classic pendulum swing ride sweeping through a dramatic arc at speed — popular and accessible for families with older children. Min. height: 120cm.",
+        "es": "Un clasico columpio pendulo que barre un arco dramatico a velocidad. Min: 120cm.",
+        "fr": "Un classique pendule balancoire qui balaie un arc dramatique a toute vitesse. Min: 120cm.",
+        "de": "Eine klassische Pendelschaukel die mit Geschwindigkeit durch einen dramatischen Bogen schwenkt. Mindestgrosse: 120cm.",
+        "it": "Un classico pendolo oscillante che spazza un arco drammatico a velocita. Min: 120cm.",
+        "nl": "Een klassieke slingerrit die met snelheid door een dramatische boog slingert. Min: 120cm.",
+        "pt": "Um classico pendulo oscilante varrendo um arco dramatico em velocidade. Min: 120cm.",
+        "ru": "Классический маятник, sweeping through a dramatic arc at speed. Мин. рост: 120 см.",
+        "zh": "经典钟摆摇摆游乐，以速度扫过戏剧性弧线——对有年长儿童的家庭来说通俗易懂。最低身高：120厘米。",
+        "ar": "ركوبة بندول تأرجح كلاسيكية تتأرجح بقوس درامي بسرعة. الحد الادنى: 120 سم."
+      }
+    },
+    "crazy_river": {
+      "desc": {
+        "en": "Classic river rapids with guaranteed soakings in circular rafts — one of the best summer attractions at Walibi Netherlands. Min. height: 100cm.",
+        "es": "Rapidos de rio clasicos con empapamientos garantizados en balsas circulares. Min: 100cm.",
+        "fr": "Rapides de riviere classiques avec baignades garanties dans des radeaux circulaires. Min: 100cm.",
+        "de": "Klassische Flussstromschnellen mit garantierten Nassungen in runden Flosse. Mindestgrosse: 100cm.",
+        "it": "Rapide del fiume classiche con bagni garantiti in zattere circolari. Min: 100cm.",
+        "nl": "Klassieke rivierstroomversnellingen met gegarandeerd nat worden in ronde vlotten. Min: 100cm.",
+        "pt": "Rapidos de rio classicos com empapamentos garantidos em balsas circulares. Min: 100cm.",
+        "ru": "Классические речные пороги с гарантированным промоканием в круглых плотах. Мин. рост: 100 см.",
+        "zh": "经典河流急流，在圆形橡皮艇中保证湿透——瓦利比荷兰最好的夏季项目之一。最低身高：100厘米。",
+        "ar": "منحدرات نهرية كلاسيكية مع ضمان البلل في طوافات دائرية. الحد الادنى: 100 سم."
+      }
+    },
+    "el_rio_grande": {
+      "desc": {
+        "en": "A Wild West log flume with a dramatic final drop — classic splashing summer fun. Min. height: 100cm.",
+        "es": "Un tobogan acuatico del Viejo Oeste con una dramatica caida final. Min: 100cm.",
+        "fr": "Un toboggan aquatique du Vieux Ouest avec une chute finale dramatique. Min: 100cm.",
+        "de": "Eine Wildwest-Logflume mit dramatischem Endabfall. Mindestgrosse: 100cm.",
+        "it": "Un log flume del Vecchio West con una caduta finale drammatica. Min: 100cm.",
+        "nl": "Een Wild West log flume met een dramatische eindval. Min: 100cm.",
+        "pt": "Um log flume do Velho Oeste com uma queda final dramatica. Min: 100cm.",
+        "ru": "Дикозападный аттракцион с бревном и драматическим финальным падением. Мин. рост: 100 см.",
+        "zh": "西部风格独木舟，有戏剧性的终极下落——经典的夏季水上乐趣。最低身高：100厘米。",
+        "ar": "جذع خشبي بطابع الغرب الوحشي مع انحدار نهائي درامي. الحد الادنى: 100 سم."
+      }
+    },
+    "merlins_magic_castle": {
+      "desc": {
+        "en": "A charming family dark ride through Merlin's magic castle with special effects and theatrical surprises — the most atmospheric family attraction at Walibi Netherlands. Suitable for all ages.",
+        "es": "Un encantador dark ride familiar a traves del castillo magico de Merlin con efectos especiales. Apto para todas las edades.",
+        "fr": "Un charmant dark ride familial a travers le chateau magique de Merlin avec des effets speciaux. Convient a tous les ages.",
+        "de": "Eine charmante Familien-Dunkelfahrt durch Merlins Zauberschloss mit Spezialeffekten. Fur alle Altersgruppen.",
+        "it": "Un affascinante dark ride familiare attraverso il castello magico di Merlino con effetti speciali. Adatto a tutte le eta.",
+        "nl": "Een charmante familie dark ride door Merlin's magische kasteel met speciale effecten. Geschikt voor alle leeftijden.",
+        "pt": "Um encantador dark ride familiar atraves do castelo magico de Merlin com efeitos especiais. Adequado para todas as idades.",
+        "ru": "Очаровательный семейный тёмный аттракцион через волшебный замок Мерлина со спецэффектами. Подходит для всех возрастов.",
+        "zh": "迷人的家庭暗室游乐，穿越梅林的魔法城堡，有特效和戏剧性惊喜——瓦利比荷兰最有气氛的家庭景点。适合所有年龄段。",
+        "ar": "Dark ride عائلي ساحر عبر قلعة Merlin السحرية مع مؤثرات خاصة ومفاجآت مسرحية. مناسب لجميع الاعمار."
+      }
+    },
+    "robin_hood": {
+      "desc": {
+        "en": "The legendary wooden coaster whose structure gave rise to Untamed — a classic out-and-back with genuine wooden coaster airtime. Min. height: 120cm.",
+        "es": "El legendario coaster de madera cuya estructura dio lugar a Untamed — un clasico de ida y vuelta con airtime genuino. Min: 120cm.",
+        "fr": "Le legendaire coaster en bois dont la structure a donne naissance a Untamed — un classique aller-retour avec airtime genuins. Min: 120cm.",
+        "de": "Der legendare Holzcoaster dessen Struktur Untamed hervorbrachte — ein klassischer Hin-und-Her-Coaster mit echtem Airtime. Mindestgrosse: 120cm.",
+        "it": "Il leggendario coaster in legno la cui struttura ha dato vita a Untamed — un classico andata e ritorno con airtime genuino. Min: 120cm.",
+        "nl": "De legendarische houten coaster wiens structuur Untamed voortbracht — een klassieke heen-en-weer achtbaan met echte airtime. Min: 120cm.",
+        "pt": "O lendario coaster de madeira cuja estrutura deu origem a Untamed — um classico de ida e volta com airtime genuino. Min: 120cm.",
+        "ru": "Легендарный деревянный коастер, чья структура породила Untamed — классический туда-обратно с настоящей невесомостью. Мин. рост: 120 см.",
+        "zh": "传奇的木质过山车，其结构催生了狂野无羁——经典的往返布局，有真正的木质过山车失重感。最低身高：120厘米。",
+        "ar": "اوتوستراد خشبي اسطوري تركيبته ولدت Untamed — كلاسيكي ذهابا وايابا مع airtime حقيقي. الحد الادنى: 120 سم."
+      }
+    },
+    "boomerang": {
+      "desc": {
+        "en": "A gentle family coaster with a fun boomerang element — perfect for families introducing younger children to coasters. Min. height: 100cm.",
+        "es": "Un suave coaster familiar con un divertido elemento bumeran. Min: 100cm.",
+        "fr": "Un doux coaster familial avec un element boomerang amusant. Min: 100cm.",
+        "de": "Ein sanfter Familiencoaster mit einem Spass-Bumerang-Element. Mindestgrosse: 100cm.",
+        "it": "Un dolce coaster familiare con un divertente elemento boomerang. Min: 100cm.",
+        "nl": "Een zachte familiecoaster met een leuk boomerang element. Min: 100cm.",
+        "pt": "Um suave coaster familiar com um divertido elemento bumerangue. Min: 100cm.",
+        "ru": "Мягкий семейный коастер с весёлым элементом бумеранга. Мин. рост: 100 см.",
+        "zh": "温和的家庭过山车，有有趣的回旋镖元素——非常适合家庭向幼儿介绍过山车。最低身高：100厘米。",
+        "ar": "اوتوستراد عائلي لطيف مع عنصر بوميرانج ممتع. الحد الادنى: 100 سم."
+      }
+    },
+    "eat_my_dust": {
+      "desc": {
+        "en": "A Zamperla family quad-coaster in Speed Zone Off-Road — the perfect first coaster for families with children from 4 years old. Min. height: 100cm.",
+        "es": "Un coaster familiar Zamperla de quad en Speed Zone Off-Road. Min: 100cm.",
+        "fr": "Un coaster familial Zamperla de quad dans Speed Zone Off-Road. Min: 100cm.",
+        "de": "Ein Zamperla Familien-Quad-Coaster in Speed Zone Off-Road. Mindestgrosse: 100cm.",
+        "it": "Un Zamperla family quad-coaster in Speed Zone Off-Road. Min: 100cm.",
+        "nl": "Een Zamperla familie quad-coaster in Speed Zone Off-Road. Min: 100cm.",
+        "pt": "Um Zamperla family quad-coaster em Speed Zone Off-Road. Min: 100cm.",
+        "ru": "Семейный квадроцикл-коастер Zamperla в Speed Zone Off-Road. Мин. рост: 100 см.",
+        "zh": "Speed Zone越野区的Zamperla家庭四轮越野过山车——非常适合4岁以上儿童的首次过山车体验。最低身高：100厘米。",
+        "ar": "Zamperla family quad-coaster في Speed Zone Off-Road. الحد الادنى: 100 سم."
+      }
+    },
+    "drako": {
+      "desc": {
+        "en": "A charming dragon-themed junior coaster for the very youngest riders — the perfect first coaster experience. Min. height: 90cm.",
+        "es": "Un encantador coaster junior con tema de dragon para los riders mas jovenes. Min: 90cm.",
+        "fr": "Un charmant coaster junior a theme dragon pour les riders les plus jeunes. Min: 90cm.",
+        "de": "Ein charmanter Drachen-thematisierter Junior-Coaster fur die jungsten Fahrer. Mindestgrosse: 90cm.",
+        "it": "Un affascinante coaster junior a tema drago per i rider piu giovani. Min: 90cm.",
+        "nl": "Een charmante draken-thematische junior coaster voor de allerkleinste rijders. Min: 90cm.",
+        "pt": "Um encantador coaster junior com tema de dragao para os riders mais jovens. Min: 90cm.",
+        "ru": "Очаровательный тематический коастер с драконом для самых юных гостей. Мин. рост: 90 см.",
+        "zh": "迷人的龙主题初级过山车，专为最年幼的乘客设计——完美的首次过山车体验。最低身高：90厘米。",
+        "ar": "اوتوستراد صغير ذو طابع تنين ساحر للركاب الاصغر سنا. الحد الادنى: 90 سم."
+      }
+    },
+    "space_kidz": {
+      "desc": {
+        "en": "A fun space-themed children's ride where kids pilot their own rocket ship — one of the most popular interactive children's attractions at Walibi Netherlands. Min. height: 90cm.",
+        "es": "Una divertida atraccion infantil con tema espacial donde los ninos pilotan su propia nave. Min: 90cm.",
+        "fr": "Une amusante attraction spatiale pour enfants ou les enfants pilotent leur propre vaisseau. Min: 90cm.",
+        "de": "Eine spassige Weltraum-thematisierte Kinderattraktion wo Kinder ihr eigenes Raumschiff steuern. Mindestgrosse: 90cm.",
+        "it": "Un'attraente attrazione spaziale per bambini dove i bambini pilotano la propria navicella. Min: 90cm.",
+        "nl": "Een leuke ruimte-thematische kinderattractie waar kinderen hun eigen raket besturen. Min: 90cm.",
+        "pt": "Uma divertida atracção espacial infantil onde as criancas pilotam a sua propria nave. Min: 90cm.",
+        "ru": "Весёлый космический тематический детский аттракцион, где дети управляют собственным ракетным кораблём. Мин. рост: 90 см.",
+        "zh": "有趣的太空主题儿童游乐，孩子们可以驾驶自己的火箭飞船——瓦利比荷兰最受欢迎的互动儿童景点之一。最低身高：90厘米。",
+        "ar": "جاذبية اطفال ذات طابع فضائي ممتعة حيث يقود الاطفال سفينتهم الصاروخية الخاصة. الحد الادنى: 90 سم."
+      }
+    }
+  },
+  "food": {
+    "food_cock_a_doodle_doo": {
+      "desc": {
+        "en": "The most popular food stop in the park — crispy fried chicken, burgers and wraps in a fun barnyard atmosphere. Consistently the longest food queues at Walibi Netherlands.",
+        "es": "La parada de comida mas popular del parque — pollo frito crujiente hamburgesas y wraps en un divertido ambiente de granja.",
+        "fr": "L'arret alimentaire le plus populaire du parc — poulet frit croustillant burgers et wraps dans une atmosphere de grange amusante.",
+        "de": "Der beliebteste Essensstop des Parks — knuspriges Brathähnchen Burger und Wraps in einer lustigen Bauernhofatmosphare.",
+        "it": "La fermata cibo piu popolare del parco — pollo fritto croccante hamburger e wrap in un divertente ambiente fattoria.",
+        "nl": "De meest populaire eetstop van het park — krokant gebakken kip burgers en wraps in een leuke boerderijsfeer.",
+        "pt": "A paragem de comida mais popular do parque — frango frito crocante hamburgeres e wraps num divertido ambiente de fazenda.",
+        "ru": "Самый популярный ресторан парка — хрустящая жареная курица, бургеры и роллы в весёлой деревенской атмосфере.",
+        "zh": "公园最受欢迎的餐饮站——在有趣的农场气氛中供应脆皮炸鸡、汉堡和卷饼。始终是瓦利比荷兰最长的餐饮队伍。",
+        "ar": "اكثر محطات الطعام شعبية في المتنزه — دجاج مقلي مقرمش وبرغر وغليف في جو مزرعة ممتع."
+      }
+    },
+    "food_hacienda": {
+      "desc": {
+        "en": "Vibrant Mexican flavours — burritos, tacos and nachos in a colourful hacienda setting with outdoor terrace. Popular with older visitors and young adults.",
+        "es": "Sabores mexicanos vibrantes — burritos tacos y nachos en un colorido ambiente de hacienda con terraza exterior.",
+        "fr": "Saveurs mexicaines vibrantes — burritos tacos et nachos dans un cadre hacienda colore avec terrasse exterieure.",
+        "de": "Lebendige mexikanische Aromen — Burritos Tacos und Nachos in einem bunten Hazienda-Ambiente mit Aussentetrasse.",
+        "it": "Sapori messicani vibranti — burrito tacos e nachos in un colorato ambiente hacienda con terrazza esterna.",
+        "nl": "Levendige Mexicaanse smaken — burritos tacos en nachos in een kleurrijke hacienda omgeving met buitenterras.",
+        "pt": "Sabores mexicanos vibrantes — burritos tacos e nachos num colorido ambiente hacienda com esplanada exterior.",
+        "ru": "Яркие мексиканские вкусы — буррито, тако и начос в красочной обстановке асьенды с открытой террасой.",
+        "zh": "充满活力的墨西哥风味——彩色庄园环境中供应卷饼、玉米卷和玉米片，有室外露台。深受年长访客和年轻成人欢迎。",
+        "ar": "نكهات مكسيكية نابضة بالحياة — بوريتو وتاكو وناتشوز في بيئة هاسيندا ملونة مع تراس خارجي."
+      }
+    },
+    "food_flavors": {
+      "desc": {
+        "en": "International street food in the festival spirit — Asian noodles, Mediterranean wraps and Dutch classics in a lively outdoor food court atmosphere.",
+        "es": "Comida callejera internacional en espiritu de festival — fideos asiaticos wraps mediterraneos y clasicos holandeses en un animado patio de comidas.",
+        "fr": "Street food international dans l'esprit du festival — nouilles asiatiques wraps mediterraneens et classiques hollandais dans une atmosphere de food court animee.",
+        "de": "Internationales Strassenfood im Festival-Geist — asiatische Nudeln mediterrane Wraps und niederlandische Klassiker in einer lebhaften Aussenessen-Atmosphare.",
+        "it": "Street food internazionale nello spirito del festival — noodle asiatici wrap mediterranei e classici olandesi in un'atmosfera vivace di food court.",
+        "nl": "Internationaal straatvoedsel in festivalgeest — Aziatische noodles Mediterrane wraps en Nederlandse klassiekers in een levendige buitenrestaurant sfeer.",
+        "pt": "Street food internacional no espiritu do festival — noodles asiaticos wraps mediterraneos e classicos holandeses numa atmosfera animada de food court.",
+        "ru": "Международная уличная еда в духе фестиваля — азиатская лапша, средиземноморские роллы и голландская классика в оживлённой атмосфере фуд-корта.",
+        "zh": "节日精神中的国际街头食品——在充满活力的户外美食广场氛围中供应亚洲面条、地中海卷饼和荷兰经典美食。",
+        "ar": "طعام الشارع الدولي في روح المهرجان — نودل آسيوي ولفائف متوسطية وكلاسيكيات هولندية في جو فناء طعام خارجي حيوي."
+      }
+    },
+    "food_doner_kebab": {
+      "desc": {
+        "en": "Freshly sliced doner kebab in pita or as a platter with fries and salad — generous portions at reasonable prices, popular with teens and young adults.",
+        "es": "Doner kebab recien cortado en pita o como plato con papas y ensalada — porciones generosas.",
+        "fr": "Doner kebab fraichement tranche en pita ou en plat avec frites et salade — portions genereux.",
+        "de": "Frisch geschnittenes Doner Kebab in Pita oder als Teller mit Pommes und Salat — grosszugige Portionen.",
+        "it": "Doner kebab tagliato fresco in pita o come piatto con patatine e insalata — porzioni generose.",
+        "nl": "Vers gesneden doner kebab in pita of als bord met friet en salade — royale porties.",
+        "pt": "Doner kebab fatiado fresco em pita ou como prato com batatas fritas e salada — porcoes generosas.",
+        "ru": "Свежесрезанный дёнер-кебаб в пите или в тарелке с картошкой фри и салатом — щедрые порции.",
+        "zh": "新鲜切片多纳烤肉，放在皮塔饼中或作为配薯条和沙拉的拼盘——份量丰盛价格合理，深受青少年和年轻成人欢迎。",
+        "ar": "كباب دونر مقطع طازج في خبز البيتا او كطبق مع بطاطس وسلطة — حصص سخية."
+      }
+    },
+    "food_toastn_wrap": {
+      "desc": {
+        "en": "Freshly made toasted sandwiches and wraps — a lighter and convenient option for families wanting something quick between rides.",
+        "es": "Sandwiches tostados y wraps recien preparados — una opcion mas ligera y conveniente para las familias.",
+        "fr": "Sandwichs grilles et wraps fraichement prepares — une option plus legere et pratique pour les familles.",
+        "de": "Frisch zubereitete gegrillte Sandwiches und Wraps — eine leichtere und bequeme Option fur Familien.",
+        "it": "Panini tostati e wrap freschi — un'opzione piu leggera e comoda per le famiglie.",
+        "nl": "Vers gemaakte geroosterde sandwiches en wraps — een lichtere en handige optie voor gezinnen.",
+        "pt": "Sanduiches torradas e wraps recentemente preparados — uma opcao mais leve e conveniente para familias.",
+        "ru": "Свежеприготовленные тосты и роллы — лёгкий и удобный вариант для семей, желающих что-то быстрое между аттракционами.",
+        "zh": "新鲜制作的烤三明治和卷饼——对希望在游乐项目间快速吃点东西的家庭来说更轻便方便的选择。",
+        "ar": "شطائر محمصة ولفائف طازجة — خيار اخف وأكثر ملاءمة للعائلات التي تريد شيئا سريعا."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_walibi_village": {
+      "desc": {
+        "en": "The only accommodation on the Walibi site — cottages for 4, 8 or 16 guests just 200 metres from the park entrance with heated indoor pool, lounge and bar.",
+        "es": "El unico alojamiento en el sitio de Walibi — casas para 4 8 o 16 huespedes a solo 200 metros de la entrada del parque con piscina cubierta climatizada salon y bar.",
+        "fr": "Le seul hebergement sur le site de Walibi — cottages pour 4 8 ou 16 personnes a seulement 200 metres de l'entree du parc avec piscine couverte chauffee salon et bar.",
+        "de": "Die einzige Unterkunft auf dem Walibi-Gelande — Cottages fur 4 8 oder 16 Gaste nur 200 Meter vom Parkeingang entfernt mit beheiztem Hallenbad Lounge und Bar.",
+        "it": "L'unico alloggio sul sito Walibi — cottage per 4 8 o 16 ospiti a soli 200 metri dall'ingresso del parco con piscina coperta riscaldata lounge e bar.",
+        "nl": "De enige accommodatie op het Walibi terrein — cottages voor 4 8 of 16 gasten op slechts 200 meter van de parkentree met verwarmd overdekt zwembad lounge en bar.",
+        "pt": "O unico alojamento no sitio de Walibi — casas para 4 8 ou 16 hospedes a apenas 200 metros da entrada do parque com piscina coberta aquecida sala de estar e bar.",
+        "ru": "Единственное жильё на территории Walibi — коттеджи для 4, 8 или 16 гостей всего в 200 метрах от входа в парк с крытым бассейном с подогревом, лаунжем и баром.",
+        "zh": "瓦利比场地内唯一住宿——距公园入口仅200米的4、8或16人小屋，有温水室内游泳池、休息室和酒吧。",
+        "ar": "الإقامة الوحيدة في موقع Walibi — كوخ لـ 4 أو 8 أو 16 ضيفا على بعد 200 متر فقط من مدخل المتنزه مع مسبح مغطى مدفأ وصالة وبار."
+      },
+      "rooms": {
+        "four_person_cottage": {
+          "name": { "en": "4-Person Cottage", "es": "Casa de 4 Personas", "fr": "Cottage 4 Personnes", "de": "4-Personen-Hutte", "it": "Cottage 4 Persone", "nl": "4-Persoons Huisje", "pt": "Cabana de 4 Pessoas", "ru": "Коттедж на 4 человека", "zh": "4人小屋", "ar": "كوخ 4 أشخاص" },
+          "desc": { "en": "Comfortable cottage for up to 4 with free heated indoor pool access, lounge, bar and direct path to LEGOLAND.", "es": "Comodo cottage para hasta 4 personas con acceso gratuito a piscina cubierta climatizada salon y bar.", "fr": "Confortable cottage pour jusqu'a 4 personnes avec acces gratuit a la piscine couverte chauffee salon et bar.", "de": "Komfortables Cottage fur bis zu 4 mit kostenlosem Zugang zum beheizten Hallenbad Lounge und Bar.", "it": "Confortevole cottage per fino a 4 con accesso gratuito alla piscina coperta riscaldata lounge e bar.", "nl": "Comfortabel huisje voor maximaal 4 met gratis toegang tot verwarmd overdekt zwembad lounge en bar.", "pt": "Confortavel cabana para ate 4 com acesso gratuito a piscina coberta aquecida sala e bar.", "ru": "Удобный коттедж до 4 человек с бесплатным доступом в крытый бассейн с подогревом, лаунж и бар.", "zh": "舒适的最多4人小屋，有免费的温水室内游泳池、休息室和酒吧通道。", "ar": "كوخ مريح لما يصل الى 4 أشخاص مع مسبح مغطى مدفأ مجاني وصالة وبار." }
+        },
+        "eight_person_cottage": {
+          "name": { "en": "8-Person Cottage", "es": "Casa de 8 Personas", "fr": "Cottage 8 Personnes", "de": "8-Personen-Hutte", "it": "Cottage 8 Persone", "nl": "8-Persoons Huisje", "pt": "Cabana de 8 Pessoas", "ru": "Коттедж на 8 человек", "zh": "8人小屋", "ar": "كوخ 8 أشخاص" },
+          "desc": { "en": "Spacious cottage for up to 8 guests — ideal for larger families or groups visiting Walibi Netherlands together.", "es": "Espacioso cottage para hasta 8 huespedes ideal para familias o grupos mas grandes.", "fr": "Spacieux cottage pour jusqu'a 8 personnes ideal pour les grandes familles ou groupes.", "de": "Geraumiges Cottage fur bis zu 8 Gaste — ideal fur grossere Familien oder Gruppen.", "it": "Capace cottage per fino a 8 ospiti ideale per famiglie piu grandi o gruppi.", "nl": "Ruim huisje voor maximaal 8 gasten ideaal voor grotere gezinnen of groepen.", "pt": "Cabana espacosa para ate 8 hospedes ideal para familias maiores ou grupos.", "ru": "Просторный коттедж до 8 гостей — идеально для больших семей или групп.", "zh": "宽敞的最多8人小屋——非常适合一起参观瓦利比荷兰的大家庭或团体。", "ar": "كوخ فسيح لما يصل الى 8 ضيوف مثالي للعائلات الكبيرة أو المجموعات." }
+        }
+      }
+    },
+    "hotel_van_der_valk": {
+      "desc": {
+        "en": "Modern 4-star hotel 25 minutes from Walibi with restaurant, fitness, extensive breakfast and a special Walibi package including entrance tickets for 2 persons.",
+        "es": "Hotel moderno de 4 estrellas a 25 minutos de Walibi con restaurante fitness desayuno extenso y paquete especial Walibi con entradas para 2 personas.",
+        "fr": "Hotel moderne 4 etoiles a 25 minutes de Walibi avec restaurant fitness petit dejeuner extensif et forfait special Walibi avec billets d'entree pour 2 personnes.",
+        "de": "Modernes 4-Sterne Hotel 25 Minuten von Walibi mit Restaurant Fitness ausgiebigem Fruhstuck und speziellem Walibi-Paket mit Eintrittskarten fur 2 Personen.",
+        "it": "Hotel moderno 4 stelle a 25 minuti da Walibi con ristorante fitness colazione estesa e pacchetto speciale Walibi con biglietti d'ingresso per 2 persone.",
+        "nl": "Modern 4-sterren hotel 25 minuten van Walibi met restaurant fitness uitgebreid ontbijt en speciaal Walibi pakket met toegangskaartjes voor 2 personen.",
+        "pt": "Hotel moderno de 4 estrelas a 25 minutos de Walibi com restaurante fitness pequeno-almoco extenso e pacote especial Walibi com bilhetes de entrada para 2 pessoas.",
+        "ru": "Современный 4-звёздочный отель в 25 минутах от Walibi с рестораном, фитнесом, обширным завтраком и специальным пакетом Walibi со входными билетами для 2 человек.",
+        "zh": "距瓦利比25分钟的现代四星级酒店，有餐厅、健身中心、丰盛早餐和特别瓦利比套餐（含2人门票）。",
+        "ar": "فندق 4 نجوم حديث على بعد 25 دقيقة من Walibi مع مطعم ولياقة بدنية وإفطار واسع وباقة خاصة Walibi مع تذاكر الدخول لشخصين."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaard Kamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Modern 4-star room with double or twin beds, free WiFi, TV and en-suite bathroom.", "es": "Habitacion moderna de 4 estrellas con camas dobles o twin WiFi gratuito TV y bano.", "fr": "Chambre moderne 4 etoiles avec lits doubles ou jumeaux WiFi gratuit TV et salle de bain.", "de": "Modernes 4-Sterne Zimmer mit Doppel- oder Zwillingsbetten kostenlosem WLAN TV und Bad.", "it": "Camera moderna 4 stelle con letti doppi o twin WiFi gratuito TV e bagno.", "nl": "Moderne 4-sterren kamer met twee- of tweepersoonsbedden gratis WiFi TV en badkamer.", "pt": "Quarto moderno de 4 estrelas com camas casal ou twin WiFi gratuito TV e casa de banho.", "ru": "Современный 4-звёздочный номер с двуспальной или двойной кроватью, бесплатным WiFi, ТВ и ванной.", "zh": "现代四星级客房，有双人或双床、免费WiFi、电视和独立浴室。", "ar": "غرفة 4 نجوم حديثة مع أسرة مزدوجة أو توين وواي فاي مجاني وتلفزيون وحمام." }
+        },
+        "walibi_package": {
+          "name": { "en": "Walibi Package", "es": "Paquete Walibi", "fr": "Forfait Walibi", "de": "Walibi Paket", "it": "Pacchetto Walibi", "nl": "Walibi Pakket", "pt": "Pacote Walibi", "ru": "Пакет Walibi", "zh": "瓦利比套餐", "ar": "باقة Walibi" },
+          "desc": { "en": "Overnight stay with extensive breakfast, 3-course dinner and Walibi Netherlands entrance tickets for 2 persons.", "es": "Estancia nocturna con desayuno extenso cena de 3 platos y entradas de Walibi para 2 personas.", "fr": "Sejour d'une nuit avec petit dejeuner extensif diner 3 plats et billets d'entree Walibi pour 2 personnes.", "de": "Übernachtung mit ausgiebigem Fruhstuck 3-Gang-Abendessen und Walibi-Eintrittskarten fur 2 Personen.", "it": "Soggiorno di una notte con colazione estesa cena di 3 portate e biglietti d'ingresso Walibi per 2 persone.", "nl": "Overnachting met uitgebreid ontbijt 3-gangendiner en Walibi toegangskaartjes voor 2 personen.", "pt": "Estadia de uma noite com pequeno-almoco extenso jantar de 3 cursos e bilhetes de entrada Walibi para 2 pessoas.", "ru": "Ночёвка с обширным завтраком, ужином из 3 блюд и входными билетами Walibi для 2 человек.", "zh": "含丰盛早餐、3道菜晚餐和2人瓦利比荷兰门票的一晚住宿。", "ar": "إقامة ليلية مع إفطار واسع وعشاء 3 أطباق وتذاكر دخول Walibi لشخصين." }
+        }
+      }
+    },
+    "hotel_marktzicht": {
+      "desc": {
+        "en": "Affordable 3-star hotel in historic Harderwijk town centre, 13km from Walibi — great value with cosy restaurant, free parking and easy motorway access.",
+        "es": "Hotel asequible de 3 estrellas en el centro historico de Harderwijk a 13km de Walibi — gran valor con restaurante acogedor aparcamiento gratuito y facil acceso a autopista.",
+        "fr": "Hotel abordable 3 etoiles dans le centre historique de Harderwijk a 13km de Walibi — excellent rapport qualite-prix avec restaurant confortable parking gratuit et acces facile a l'autoroute.",
+        "de": "Erschwingliches 3-Sterne Hotel im historischen Stadtzentrum von Harderwijk 13km von Walibi — gutes Preis-Leistungs-Verhaltnis mit gemutlichem Restaurant kostenlosem Parkplatz und einfachem Autobahnzugang.",
+        "it": "Hotel conveniente 3 stelle nel centro storico di Harderwijk a 13km da Walibi — ottimo valore con ristorante accogliente parcheggio gratuito e facile accesso all'autostrada.",
+        "nl": "Betaalbaar 3-sterren hotel in historisch Harderwijk centrum 13km van Walibi — geweldige prijs-kwaliteitsverhouding met gezellig restaurant gratis parkeren en eenvoudige snelwegtoegang.",
+        "pt": "Hotel acessivel de 3 estrelas no centro historico de Harderwijk a 13km de Walibi — otimo valor com restaurante acolhedor estacionamento gratuito e facil acesso a autoestrada.",
+        "ru": "Доступный 3-звёздочный отель в историческом центре Хардервейка в 13 км от Walibi — отличное соотношение цены и качества с уютным рестораном, бесплатной парковкой и удобным выездом на шоссе.",
+        "zh": "位于哈尔德韦克历史中心的经济型三星级酒店，距瓦利比13公里——性价比极高，有温馨餐厅、免费停车场和便捷的高速公路通道。",
+        "ar": "فندق 3 نجوم ميسور التكلفة في مركز مدينة Harderwijk التاريخية على بعد 13كم من Walibi — قيمة ممتازة مع مطعم مريح ومواقف مجانية وسهولة الوصول إلى الطريق السريع."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaard Kamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
+          "desc": { "en": "Comfortable 3-star room with free WiFi, breakfast available and free parking in historic Harderwijk.", "es": "Comoda habitacion de 3 estrellas con WiFi gratuito desayuno disponible y aparcamiento gratuito.", "fr": "Confortable chambre 3 etoiles avec WiFi gratuit petit dejeuner disponible et parking gratuit.", "de": "Komfortables 3-Sterne Zimmer mit kostenlosem WLAN Fruhstuck verfugbar und kostenlosem Parkplatz.", "it": "Camera confortevole 3 stelle con WiFi gratuito colazione disponibile e parcheggio gratuito.", "nl": "Comfortabele 3-sterren kamer met gratis WiFi ontbijt beschikbaar en gratis parkeren.", "pt": "Quarto confortavel de 3 estrelas com WiFi gratuito pequeno-almoco disponivel e estacionamento gratuito.", "ru": "Удобный 3-звёздочный номер с бесплатным WiFi, завтраком по желанию и бесплатной парковкой.", "zh": "舒适三星级客房，有免费WiFi、可选早餐和历史悠久的哈尔德韦克免费停车场。", "ar": "غرفة 3 نجوم مريحة مع واي فاي مجاني وإفطار متاح ومواقف مجانية." }
+        },
+        "family_room": {
+          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
+          "desc": { "en": "Spacious family room with extra beds for children, breakfast included and free parking.", "es": "Amplia habitacion familiar con camas adicionales para ninos desayuno incluido y aparcamiento gratuito.", "fr": "Spacieuse chambre familiale avec lits supplementaires pour enfants petit dejeuner inclus et parking gratuit.", "de": "Geraumiges Familienzimmer mit zusatzlichen Kinderbetten Fruhstuck inklusive und kostenlosem Parkplatz.", "it": "Camera familiare spaziosa con letti aggiuntivi per bambini colazione inclusa e parcheggio gratuito.", "nl": "Ruime familiekamer met extra bedden voor kinderen ontbijt inbegrepen en gratis parkeren.", "pt": "Quarto familiar espacoso com camas extra para criancas pequeno-almoco incluido e estacionamento gratuito.", "ru": "Просторный семейный номер с дополнительными кроватями для детей, завтраком и бесплатной парковкой.", "zh": "宽敞家庭客房，有儿童加床、含早餐和免费停车场。", "ar": "غرفة عائلية فسيحة مع أسرة إضافية للأطفال وإفطار مشمول ومواقف مجانية." }
+        }
+      }
+    }
+  }
+}
