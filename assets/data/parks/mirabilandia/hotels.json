@@ -1,0 +1,110 @@
+﻿[
+  {
+    "id": "hotel_agriturismo_savio",
+    "name": "Agriturismo Vista Parco",
+    "description": "The most charming and unique accommodation option near Mirabilandia — Agriturismo Vista Parco is a traditional Italian farmhouse agriturismo located just a short walk from the park entrance in the peaceful agricultural countryside surrounding Savio. Guests sleep in beautifully furnished rustic rooms decorated with local antiques and Romagna crafts, enjoy homemade breakfasts using fresh farm produce and dine in the evening on authentic Romagna regional cuisine cooked from scratch using vegetables and herbs grown on the farm. The combination of genuine Italian rural hospitality, delicious home cooking and extraordinary value makes Agriturismo Vista Parco the most beloved accommodation recommendation for Mirabilandia visitors who want something completely different from a chain hotel. From approximately 75 euros per room per night.",
+    "image": "assets/images/mirabilandia/hotel_agriturismo_savio.png",
+    "lat": 44.3298,
+    "lng": 12.2805,
+    "rating": 4.5,
+    "topPick": true,
+    "website": "https://www.mirabilandia.it/en/plan-your-visit/hotels",
+    "rooms": [
+      {
+        "key": "rustic_room",
+        "name": "Rustic Farm Room",
+        "description": "Comfortable room with Romagna antique decor, homemade breakfast using farm produce and walking distance to Mirabilandia.",
+        "pricePerNight": 75.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_suite",
+        "name": "Family Farm Suite",
+        "description": "Spacious suite for families with separate sleeping area for children, farm breakfast and evening dinner of authentic Romagna cuisine.",
+        "pricePerNight": 120.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_grand_hotel_mattei",
+    "name": "Grand Hotel Mattei Ravenna",
+    "description": "The finest hotel in the Ravenna area and the most prestigious accommodation option for Mirabilandia visitors — Grand Hotel Mattei is a magnificent 4-star hotel in the heart of historic Ravenna city centre offering spacious and elegantly furnished rooms, an excellent restaurant serving traditional Romagna cuisine, fitness centre, garden terrace and impeccable service. Ravenna is one of Italy's most extraordinary historic cities — a UNESCO World Heritage city famous for its Byzantine mosaics and early Christian monuments — making Grand Hotel Mattei the ideal base for families combining a Mirabilandia visit with cultural sightseeing. The park is approximately 10 kilometres from the hotel along the Adriatica state road. From approximately 110 euros per room per night.",
+    "image": "assets/images/mirabilandia/hotel_grand_hotel_mattei.png",
+    "lat": 44.4184,
+    "lng": 12.1971,
+    "rating": 4.4,
+    "topPick": true,
+    "website": "https://www.grandhotelmattei.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Classic Room",
+        "description": "Elegant 4-star room in historic Ravenna with breakfast buffet, garden views and 10km from Mirabilandia.",
+        "pricePerNight": 110.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Spacious superior room with enhanced furnishings, garden terrace access, full breakfast and concierge service.",
+        "pricePerNight": 150.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_cesenatico",
+    "name": "Hotel Cesenatico Riviera",
+    "description": "The most popular choice for families combining Mirabilandia with an Adriatic beach holiday — Hotel Cesenatico Riviera is a charming 3-star hotel in the beautiful coastal resort town of Cesenatico, approximately 20 kilometres south of Mirabilandia along the Romagna Riviera. Cesenatico is one of the most beloved Adriatic seaside towns in Italy — famous for its historic canal harbour designed by Leonardo da Vinci, its excellent fish restaurants and its long sandy beaches. Guests at Hotel Cesenatico Riviera enjoy direct beach access, excellent seafood dining and easy day trips to Mirabilandia making it the ideal base for a complete Romagna Riviera family holiday. From approximately 90 euros per room per night.",
+    "image": "assets/images/mirabilandia/hotel_cesenatico.png",
+    "lat": 44.2065,
+    "lng": 12.3968,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.mirabilandia.it/en/plan-your-visit/hotels",
+    "rooms": [
+      {
+        "key": "sea_view_room",
+        "name": "Sea View Room",
+        "description": "Comfortable 3-star room with Adriatic sea views, beach access, breakfast and easy access to Mirabilandia.",
+        "pricePerNight": 90.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room with sea views, extra beds for children, breakfast and direct beach access.",
+        "pricePerNight": 130.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_rosa_gateo",
+    "name": "Hotel Rosa Gateo Mare",
+    "description": "A delightful family-run 3-star hotel directly on the Adriatic coast at Lido di Savio — Hotel Rosa Gateo Mare is the closest beach hotel to Mirabilandia, located just 3 kilometres from the park entrance and offering direct beach access, a pleasant swimming pool, a restaurant serving fresh Adriatic seafood and the warm Italian family hospitality that makes Romagna Riviera hotels so beloved by returning guests. The combination of extraordinary convenience for Mirabilandia visits, immediate beach access and genuine value for money makes Hotel Rosa Gateo Mare the most popular accommodation choice for families visiting the park. From approximately 80 euros per room per night.",
+    "image": "assets/images/mirabilandia/hotel_rosa_gateo.png",
+    "lat": 44.3105,
+    "lng": 12.3248,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.mirabilandia.it/en/plan-your-visit/hotels",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable room 3km from Mirabilandia with beach access, pool, breakfast and fresh Adriatic seafood dinner option.",
+        "pricePerNight": 80.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room with extra beds, breakfast, pool and direct beach access — the most convenient family option near Mirabilandia.",
+        "pricePerNight": 115.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

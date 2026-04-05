@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "food_bamboo",
+    "name": "Restaurant Bamboo",
+    "type": "All-You-Can-Eat Buffet",
+    "image": "assets/images/zoomarine/food_bamboo.png",
+    "lat": 37.1390,
+    "lng": -8.3052,
+    "rating": 4.2,
+    "description": "The main and most popular restaurant at Zoomarine — Restaurant Bamboo is a generous all-you-can-eat self-service buffet restaurant offering a wide selection of hot and cold dishes catering to all tastes and dietary requirements. The buffet features grilled meats, fresh salads, pasta, rice dishes, soups, fresh vegetables, breads, desserts and a variety of beverages in a spacious tropical-themed dining room with indoor and outdoor seating. The quality and variety consistently exceed visitor expectations for a theme park buffet and the all-you-can-eat format makes it particularly good value for hungry families after a morning of shows and water rides. A vegetarian lasagna made with local vegetables has become something of a Zoomarine speciality. Advance table booking available.",
+    "topPick": true,
+    "items": [
+      { "name": "All-You-Can-Eat Buffet Adult", "description": "Full buffet access with hot dishes salads pasta grilled meats and desserts", "price": 18.0 },
+      { "name": "All-You-Can-Eat Buffet Child", "description": "Full buffet access for children under 10", "price": 11.0 },
+      { "name": "Vegetarian Lasagna", "description": "House speciality vegetarian lasagna layered with local Algarve vegetables", "price": 13.0 },
+      { "name": "Fresh Juice", "description": "Freshly squeezed orange juice from Portuguese oranges", "price": 4.5 }
+    ]
+  },
+  {
+    "id": "food_captains_kitchen",
+    "name": "Captain's Kitchen",
+    "type": "Seafood and Grill Restaurant",
+    "image": "assets/images/zoomarine/food_captains_kitchen.png",
+    "lat": 37.1388,
+    "lng": -8.3049,
+    "rating": 4.3,
+    "description": "The most atmospheric and authentically Portuguese dining option at Zoomarine — Captain's Kitchen is a nautically themed seafood and grill restaurant serving fresh grilled fish, cataplana seafood stew, grilled sardines, gambas al ajillo and classic Portuguese dishes in a warm and convivial setting decorated with fishing nets, maritime antiques and blue azulejo tiles. The quality of the seafood at Captain's Kitchen is genuinely impressive for a theme park restaurant and reflects Zoomarine's marine conservation focus in celebrating and respecting Algarve maritime culture. The grilled fish of the day changes with season and availability. Captain's Kitchen is the best sit-down dining experience at Zoomarine and is particularly popular with Portuguese visitors.",
+    "topPick": true,
+    "items": [
+      { "name": "Grilled Fish of the Day", "description": "Fresh Algarve fish grilled with lemon olive oil and herbs served with rice and salad", "price": 16.0 },
+      { "name": "Cataplana de Mariscos", "description": "Traditional Portuguese copper pot seafood stew with clams prawns and fish", "price": 18.0 },
+      { "name": "Grilled Sardines", "description": "Classic Portuguese grilled sardines with bread and salad", "price": 12.0 },
+      { "name": "Vinho Verde", "description": "Glass of chilled Portuguese Vinho Verde white wine", "price": 5.0 }
+    ]
+  },
+  {
+    "id": "food_splash_burger",
+    "name": "Splash Burger",
+    "type": "Burger and Fast Food",
+    "image": "assets/images/zoomarine/food_splash_burger.png",
+    "lat": 37.1386,
+    "lng": -8.3047,
+    "rating": 4.0,
+    "description": "The most convenient and family-friendly quick service option at Zoomarine — Splash Burger is a lively beach-themed burger and fast food outlet conveniently located near the water attractions serving generously loaded burgers, hot dogs, wraps, chicken nuggets, fries and a range of cold drinks. Splash Burger is the fastest food option in the park and particularly well-positioned for families who want to grab a quick lunch between water slides and shows without sacrificing too much time. Portions are generous and the outdoor seating area provides pleasant views of the surrounding park.",
+    "topPick": false,
+    "items": [
+      { "name": "Zoomarine Burger", "description": "Double beef burger with lettuce tomato cheese and house sauce", "price": 11.0 },
+      { "name": "Chicken Wrap", "description": "Grilled chicken wrap with salad avocado and yoghurt dressing", "price": 10.0 },
+      { "name": "Fish and Chips", "description": "Battered Portuguese fish fillet with fries and tartare sauce", "price": 11.0 },
+      { "name": "Cold Soft Drink", "description": "Selection of cold beverages and juices", "price": 3.5 }
+    ]
+  },
+  {
+    "id": "food_aqua",
+    "name": "Aqua Beach Bar",
+    "type": "Beach Bar and Snacks",
+    "image": "assets/images/zoomarine/food_aqua.png",
+    "lat": 37.1383,
+    "lng": -8.3053,
+    "rating": 4.1,
+    "description": "The most relaxed and atmospheric food and drink option at Zoomarine — Aqua Beach Bar is positioned directly on the Zoomarine Beach wave pool area serving cold drinks, ice creams, fresh fruit, light snacks, grilled items and the essential Portuguese pastel de nata custard tart in a genuinely tropical beach bar setting with sunbeds, palm trees and the gentle sound of the wave pool in the background. Aqua is the ideal spot for a refreshing break between shows — grab a cold Super Bock beer or fresh fruit juice, settle into a sunbed and soak up the Algarve atmosphere before heading back to the next dolphin show. The most popular afternoon destination in the park.",
+    "topPick": false,
+    "items": [
+      { "name": "Pastel de Nata", "description": "Classic Portuguese custard tart fresh from the oven", "price": 2.5 },
+      { "name": "Super Bock Beer", "description": "Cold Portuguese Super Bock lager — the perfect Algarve refreshment", "price": 4.0 },
+      { "name": "Fresh Fruit Salad", "description": "Seasonal fresh fruit salad with mint", "price": 5.0 },
+      { "name": "Ice Cream", "description": "Portuguese artisan ice cream in seasonal flavours", "price": 3.5 }
+    ]
+  }
+]

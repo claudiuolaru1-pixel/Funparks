@@ -1,0 +1,110 @@
+﻿[
+  {
+    "id": "hotel_occidental",
+    "name": "Occidental Madrid Este",
+    "description": "The most conveniently located official partner hotel for Parque Warner Madrid visitors — Occidental Madrid Este is a well-appointed 4-star hotel in the Vallecas area of Madrid, approximately 20 minutes by car from the park and easily accessible via the A-4 motorway. The hotel offers comfortable modern rooms, an outdoor pool, gym, restaurant and bar with the reliable Occidental brand standard of service and facilities. Competitive hotel-plus-park packages are available combining accommodation with discounted Parque Warner tickets making this an excellent choice for families planning a full Parque Warner Madrid experience over one or two days. From approximately 85 euros per room per night.",
+    "image": "assets/images/parque_warner_madrid/hotel_occidental.png",
+    "lat": 40.3742,
+    "lng": -3.6219,
+    "rating": 4.2,
+    "topPick": true,
+    "website": "https://www.barcelo.com/en-gb/occidental-madrid-este/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Double Room",
+        "description": "Comfortable 4-star room with pool access, breakfast option and 20 minutes from Parque Warner Madrid.",
+        "pricePerNight": 85.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room with extra beds, pool access, breakfast and complimentary park shuttle on request.",
+        "pricePerNight": 120.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_posadas",
+    "name": "Hotel Posadas de Espana Pinto",
+    "description": "The most practical and best-value accommodation option for Parque Warner Madrid visitors — Hotel Posadas de Espana Pinto is a comfortable 3-star hotel in the town of Pinto, just 15 minutes from the park by car, that provides a dedicated shuttle service to Parque Warner Madrid for guests making it the most convenient transport-independent accommodation choice. The hotel has direct access from the A-4 motorway and M-50 ring road, comfortable well-maintained rooms, a bar and restaurant and the reliable Posadas brand standard of friendly service. The shuttle service eliminates the stress of driving to the park and finding parking making this the most hassle-free overnight option for Parque Warner visitors. From approximately 70 euros per room per night.",
+    "image": "assets/images/parque_warner_madrid/hotel_posadas.png",
+    "lat": 40.2432,
+    "lng": -3.7051,
+    "rating": 4.1,
+    "topPick": true,
+    "website": "https://www.posadas.com/hotel-posadas-de-espana-pinto/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable 3-star room with free parking, complimentary park shuttle and 15 minutes from Parque Warner.",
+        "pricePerNight": 70.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room with extra beds, breakfast, free parking and complimentary shuttle to Parque Warner Madrid.",
+        "pricePerNight": 100.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_la_caminera",
+    "name": "Hotel La Caminera",
+    "description": "The closest hotel to Parque Warner Madrid — Hotel La Caminera is a pleasant rural hotel and restaurant located just minutes from the park entrance on the road between Pinto and San Martin de la Vega, making it the most convenient choice for visitors who want to minimise travel time to and from the park. The hotel offers comfortable rooms, an excellent traditional Spanish restaurant serving classic Castilian cuisine and a relaxed rural atmosphere that provides a welcome contrast to the excitement of the park. Particularly popular with families returning from evening events at Parque Warner Madrid during the Halloween and Christmas seasonal events. From approximately 75 euros per room per night.",
+    "image": "assets/images/parque_warner_madrid/hotel_la_caminera.png",
+    "lat": 40.2198,
+    "lng": -3.5592,
+    "rating": 4.0,
+    "topPick": false,
+    "website": "https://www.hotel-lacaminera.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Classic Room",
+        "description": "Comfortable rural hotel room closest to Parque Warner Madrid with traditional Spanish restaurant on site.",
+        "pricePerNight": 75.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Larger family room with extra beds, breakfast included and immediate proximity to the park entrance.",
+        "pricePerNight": 105.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_madrid_gran_via",
+    "name": "Hotel Madrid Gran Via",
+    "description": "The ideal hotel for visitors combining Parque Warner Madrid with a full Madrid city break — a comfortable 4-star hotel on the iconic Gran Via in the heart of Madrid city centre within walking distance of the Prado Museum, Retiro Park, Puerta del Sol and the city's finest shopping, restaurants and nightlife. Madrid's Gran Via is the most vibrant and architecturally spectacular boulevard in Spain and staying here gives visitors the full Madrid experience alongside their Parque Warner day out. The park is approximately 35 minutes away by car or public transport. From approximately 100 euros per room per night.",
+    "image": "assets/images/parque_warner_madrid/hotel_madrid_gran_via.png",
+    "lat": 40.4194,
+    "lng": -3.7033,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.booking.com/city/es/madrid.html",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Gran Via Double Room",
+        "description": "4-star room on Madrid's iconic Gran Via with city views, breakfast and 35 minutes from Parque Warner.",
+        "pricePerNight": 100.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Gran Via Room",
+        "description": "Superior room with Gran Via panoramic views, breakfast, early check-in and late check-out.",
+        "pricePerNight": 140.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

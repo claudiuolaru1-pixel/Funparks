@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_palazzo_versace",
+    "name": "Palazzo Versace Gold Coast",
+    "description": "The most glamorous hotel on the Gold Coast — Palazzo Versace is a magnificent 5-star Italian palazzo resort on the Broadwater in Hope Island, 25 minutes from Movie World. Designed in collaboration with the Versace fashion house with marble interiors, Versace-furnished rooms and suites, lagoon pools, a world-class spa and multiple award-winning restaurants. The ultimate luxury base for a Movie World visit.",
+    "image": "assets/images/movie_world_australia/hotel_palazzo_versace.png",
+    "lat": -27.8601,
+    "lng": 153.3708,
+    "rating": 4.8,
+    "topPick": true,
+    "website": "https://www.palazzoversace.com.au/",
+    "rooms": [
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Versace-furnished deluxe room with Broadwater or garden views, marble bathroom and premium amenities.",
+        "pricePerNight": 450,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Versace Suite",
+        "description": "Lavish suite with separate living area, full Versace furnishings and panoramic Broadwater views.",
+        "pricePerNight": 850,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "lagoon_room",
+        "name": "Lagoon Room",
+        "description": "Elegant room with direct lagoon pool access and Versace bathroom amenities.",
+        "pricePerNight": 550,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_jwmariott",
+    "name": "JW Marriott Gold Coast Resort and Spa",
+    "description": "A magnificent 5-star beachfront resort in Surfers Paradise, 20 minutes from Movie World — JW Marriott Gold Coast offers stunning Pacific Ocean views, multiple outdoor pools, a full-service spa, award-winning dining and the acclaimed Niwa Japanese restaurant. One of the finest luxury hotel experiences on the Gold Coast.",
+    "image": "assets/images/movie_world_australia/hotel_jwmariott.png",
+    "lat": -27.9943,
+    "lng": 153.4301,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.marriott.com/hotels/travel/oolj-jw-marriott-gold-coast-resort-and-spa/",
+    "rooms": [
+      {
+        "key": "ocean_view_room",
+        "name": "Ocean View Room",
+        "description": "Spacious room with stunning Pacific Ocean views, king bed and marble bathroom.",
+        "pricePerNight": 380,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "ocean_suite",
+        "name": "Ocean Suite",
+        "description": "Generous suite with panoramic ocean views, separate living area and premium spa bathroom.",
+        "pricePerNight": 650,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Elegant deluxe room with resort or city views and premium JW Marriott amenities.",
+        "pricePerNight": 280,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_intercontinental_sanctuary_cove",
+    "name": "InterContinental Sanctuary Cove Resort",
+    "description": "A prestigious 5-star resort set within the exclusive Sanctuary Cove gated community, 15 minutes from Movie World. Features two championship golf courses, multiple pools, a full spa, tennis courts and waterfront dining in one of Queensland most beautiful resort settings.",
+    "image": "assets/images/movie_world_australia/hotel_intercontinental_sanctuary_cove.png",
+    "lat": -27.8601,
+    "lng": 153.3708,
+    "rating": 4.6,
+    "topPick": false,
+    "website": "https://www.ihg.com/intercontinental/hotels/gb/en/hope-island/oolha/hoteldetail",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable resort room with garden or pool views, free WiFi and resort access.",
+        "pricePerNight": 220,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "golf_view_room",
+        "name": "Golf View Room",
+        "description": "Room overlooking the championship golf course with premium amenities.",
+        "pricePerNight": 280,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Spacious suite with separate living area, garden views and complimentary breakfast.",
+        "pricePerNight": 380,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_mantra_at_view",
+    "name": "Mantra at Sharks",
+    "description": "A well-appointed 4-star hotel in Broadbeach, 15 minutes from Movie World — Mantra at Sharks offers comfortable rooms, an outdoor pool, gymnasium and easy access to Broadbeach dining and entertainment precinct. Excellent value for families visiting the Gold Coast theme parks.",
+    "image": "assets/images/movie_world_australia/hotel_mantra_at_view.png",
+    "lat": -28.0351,
+    "lng": 153.4301,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.mantra.com.au/queensland/gold-coast/broadbeach/accommodation/hotels/mantra-at-sharks/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable 4-star room with free WiFi, flat-screen TV and en-suite bathroom.",
+        "pricePerNight": 130,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room with extra beds, ideal for families visiting Gold Coast theme parks.",
+        "pricePerNight": 175,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "studio_apartment",
+        "name": "Studio Apartment",
+        "description": "Self-contained studio apartment with kitchenette and separate sleeping area.",
+        "pricePerNight": 155,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

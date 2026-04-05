@@ -1,0 +1,121 @@
+﻿[
+  {
+    "id": "food_fosters_hollywood",
+    "name": "Foster's Hollywood",
+    "type": "American Restaurant",
+    "image": "assets/images/parque_warner_madrid/food_fosters_hollywood.png",
+    "lat": 40.2308,
+    "lng": -3.5619,
+    "rating": 4.3,
+    "description": "The flagship dining experience at Parque Warner Madrid and one of the most recognisable American restaurant brands in Spain — Foster's Hollywood brings its celebrated formula of generous American classic cooking to the Hollywood Boulevard area of the park in a magnificent recreation of a classic Los Angeles diner complete with red leather booths, chequered floors, vintage Hollywood photographs and the warm convivial atmosphere of an authentic American restaurant. The menu covers all the great American classics — burgers, ribs, steaks, nachos, onion rings and the legendary Foster's milkshakes that have become iconic across Spain. The most popular sit-down dining destination in the park and the best choice for families wanting a full American meal in genuinely atmospheric surroundings.",
+    "topPick": true,
+    "items": [
+      { "name": "Classic American Burger", "description": "Double beef patty with all the Foster's toppings, lettuce, tomato, pickles and fries", "price": 16.0 },
+      { "name": "Baby Back Ribs", "description": "Full rack of slow-cooked BBQ pork ribs with coleslaw and fries", "price": 22.0 },
+      { "name": "Foster's Milkshake", "description": "Legendary thick American milkshake in chocolate vanilla or strawberry", "price": 7.0 },
+      { "name": "Nachos Grande", "description": "Loaded nachos with cheese sauce guacamole sour cream and jalenos", "price": 10.0 }
+    ]
+  },
+  {
+    "id": "food_hollywood_grill",
+    "name": "Hollywood Grill",
+    "type": "Grill and Buffet",
+    "image": "assets/images/parque_warner_madrid/food_hollywood_grill.png",
+    "lat": 40.2311,
+    "lng": -3.5621,
+    "rating": 4.1,
+    "description": "A spacious and versatile grill and buffet restaurant on Hollywood Boulevard serving a broad range of grilled meats, pasta, pizza, salads and Mediterranean dishes in a bright and comfortable dining room decorated with Hollywood memorabilia and golden age cinema imagery. Hollywood Grill is the most practical all-day dining option at Parque Warner Madrid for families with diverse tastes — the buffet format ensures that every member of the group finds something appealing and the quality of the grilled dishes in particular is consistently reliable. Well-positioned on the main boulevard for easy access from all park zones.",
+    "topPick": false,
+    "items": [
+      { "name": "Grilled Chicken", "description": "Half grilled chicken with roasted potatoes and seasonal salad", "price": 14.0 },
+      { "name": "Pasta Arrabiata", "description": "Classic pasta with spicy tomato and garlic sauce and parmesan", "price": 12.0 },
+      { "name": "Mixed Grill", "description": "Selection of grilled meats with vegetables and fries", "price": 17.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 4.0 }
+    ]
+  },
+  {
+    "id": "food_gotham_city_grill",
+    "name": "Gotham City Grill",
+    "type": "DC Superhero Themed Grill",
+    "image": "assets/images/parque_warner_madrid/food_gotham_city_grill.png",
+    "lat": 40.2333,
+    "lng": -3.5639,
+    "rating": 4.2,
+    "description": "The most atmospherically themed restaurant at Parque Warner Madrid — Gotham City Grill is a dark, dramatic and visually immersive DC Comics-themed grill restaurant in the heart of DC Super Heroes World serving burgers, hot dogs, wraps and American grill classics in a spectacular recreation of a Gotham City restaurant complete with neon signs, gargoyles, newspaper front pages and the gothic urban aesthetic of the world's most famous fictional city. Positioned perfectly between Batman Gotham City Escape and Superman for maximum convenience during thrill-seeking sessions.",
+    "topPick": true,
+    "items": [
+      { "name": "Gotham Dark Burger", "description": "Triple-stacked dark bun burger with smoked cheese and black garlic sauce", "price": 14.0 },
+      { "name": "Hero Dog", "description": "Jumbo hot dog with mustard relish and crispy onions", "price": 9.0 },
+      { "name": "Villain Wings", "description": "Crispy chicken wings with choice of BBQ or spicy sauce", "price": 12.0 },
+      { "name": "Kryptonite Slushie", "description": "Green apple flavoured frozen slushie drink", "price": 5.0 }
+    ]
+  },
+  {
+    "id": "food_el_rancho",
+    "name": "El Rancho",
+    "type": "Wild West Restaurant",
+    "image": "assets/images/parque_warner_madrid/food_el_rancho.png",
+    "lat": 40.2313,
+    "lng": -3.5633,
+    "rating": 4.0,
+    "description": "The most atmospheric restaurant in the Old West Territory — El Rancho is a classic frontier steakhouse and BBQ serving hearty western-inspired dishes including ribs, chicken, burgers and Tex-Mex platters in a magnificent saloon setting with wooden beams, wagon wheels, wanted posters, country music and the convivial energy of an authentic frontier ranch. El Rancho is the ideal refuelling stop for visitors spending the day in the Old West area between sessions on Coaster-Express, Wild Falls and Canyon Mine.",
+    "topPick": false,
+    "items": [
+      { "name": "Cowboy Ribs", "description": "BBQ pork ribs with smoky ranch sauce, corn and coleslaw", "price": 18.0 },
+      { "name": "Rancho Burger", "description": "Western burger with smoked bacon, cheddar and BBQ sauce", "price": 13.0 },
+      { "name": "Tex-Mex Platter", "description": "Sharing platter with nachos quesadillas and chicken strips", "price": 16.0 },
+      { "name": "Root Beer", "description": "Authentic American root beer or cold soft drink", "price": 4.0 }
+    ]
+  },
+  {
+    "id": "food_la_cantina_de_los_forajidos",
+    "name": "La Cantina de los Forajidos",
+    "type": "Tex-Mex Cantina",
+    "image": "assets/images/parque_warner_madrid/food_la_cantina_de_los_forajidos.png",
+    "lat": 40.2310,
+    "lng": -3.5630,
+    "rating": 4.0,
+    "description": "A lively Tex-Mex cantina in the Old West Territory serving burritos, tacos, quesadillas and Mexican street food in a colourful bandit hideout setting decorated with wanted posters, bandoliers, cacti and the cheerful chaos of a frontier outlaws cantina. La Cantina de los Forajidos is the most fun and informal eating option in the Old West area and particularly popular with teenagers and young adults who want Mexican flavours rather than burgers and ribs between the western-themed rides.",
+    "topPick": false,
+    "items": [
+      { "name": "Burrito del Forajido", "description": "Large flour tortilla with chicken or beef, rice, beans and salsa", "price": 12.0 },
+      { "name": "Taco Box", "description": "Three tacos with choice of filling fresh coriander and lime", "price": 11.0 },
+      { "name": "Quesadilla", "description": "Grilled quesadilla with cheese and chicken or vegetables", "price": 10.0 },
+      { "name": "Horchata", "description": "Traditional Spanish horchata or cold soft drink", "price": 3.5 }
+    ]
+  },
+  {
+    "id": "food_embarcadero",
+    "name": "El Embarcadero",
+    "type": "Seafood and Mediterranean",
+    "image": "assets/images/parque_warner_madrid/food_embarcadero.png",
+    "lat": 40.2316,
+    "lng": -3.5623,
+    "rating": 4.1,
+    "description": "The most distinctively Spanish dining option at Parque Warner Madrid — El Embarcadero is a pleasant Mediterranean and seafood restaurant in the Movie World Studios area serving fresh grilled fish, paella, tapas, gazpacho and classic Spanish dishes alongside a selection of Spanish wines and craft beers. El Embarcadero provides a welcome and high-quality alternative to the American-dominated food offerings elsewhere in the park and is particularly popular with Spanish visitors who want authentic home cooking rather than theme park burgers.",
+    "topPick": false,
+    "items": [
+      { "name": "Paella de Mariscos", "description": "Classic Valencian seafood paella for one with saffron rice and fresh seafood", "price": 17.0 },
+      { "name": "Grilled Sea Bass", "description": "Fresh sea bass with olive oil lemon and roasted vegetables", "price": 16.0 },
+      { "name": "Patatas Bravas", "description": "Classic Spanish fried potatoes with spicy brava and alioli sauces", "price": 7.0 },
+      { "name": "Vino de la Casa", "description": "Glass of Spanish house wine red or white", "price": 5.0 }
+    ]
+  },
+  {
+    "id": "food_beverly_hills_bakery",
+    "name": "Beverly Hills Bakery",
+    "type": "Bakery and Cafe",
+    "image": "assets/images/parque_warner_madrid/food_beverly_hills_bakery.png",
+    "lat": 40.2307,
+    "lng": -3.5617,
+    "rating": 4.2,
+    "description": "The most pleasant and relaxing food stop on Hollywood Boulevard — Beverly Hills Bakery is a charming California-style bakery and cafe serving freshly baked croissants, muffins, cakes, sandwiches, wraps, coffees and fresh juices in a bright and airy setting with palm trees, pastel colours and the elegant architectural flourishes of a Beverly Hills patisserie. Beverly Hills Bakery is the ideal spot for breakfast on arrival, a mid-morning coffee break or a lighter lunch when the main restaurants are at their busiest. The coffee quality is notably above average for a theme park food outlet.",
+    "topPick": false,
+    "items": [
+      { "name": "Croissant de Mantequilla", "description": "Classic butter croissant fresh from the oven", "price": 3.5 },
+      { "name": "Club Sandwich", "description": "Triple-decker club sandwich with turkey bacon and salad", "price": 11.0 },
+      { "name": "Cafe con Leche", "description": "Classic Spanish cafe con leche or flat white coffee", "price": 3.5 },
+      { "name": "Fresh Orange Juice", "description": "Freshly squeezed Valencia orange juice", "price": 4.5 }
+    ]
+  }
+]

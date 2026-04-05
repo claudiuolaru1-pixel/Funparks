@@ -72,6 +72,17 @@ flutter:
     - assets/data/parks/lego_billund/
     - assets/data/parks/walibinl/
     - assets/data/parks/legoland_deutschland/
+    - assets/data/parks/puydufou/
+    - assets/data/parks/mirabilandia/
+    - assets/data/parks/zoomarine/
+    - assets/data/parks/parque_warner_madrid/
+    - assets/data/parks/tokyo_disneyland/
+    - assets/data/parks/shanghai_disneyland/
+    - assets/data/parks/movie_world_australia/
+    - assets/data/parks/gold_reef_city/
+    - assets/data/parks/ferrari_world/
+    - assets/data/parks/lotte_world/
+    - assets/data/parks/sea_world_gold_coast/
     - assets/i18n/
     - assets/maps/
     - assets/images/

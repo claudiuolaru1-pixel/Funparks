@@ -1,0 +1,164 @@
+﻿[
+  {
+    "id": "hotel_villa_gallo_romaine",
+    "name": "La Villa Gallo-Romaine",
+    "description": "The original Puy du Fou hotel opened 2007 — a Roman villa in Gaul with mosaics, frescoes and colonnaded courtyard. Dramatically expanded in 2025 with a full Gallo-Roman street. Children under 11 get 2-day park tickets free. Breakfast included. From approximately 190 euros per room per night.",
+    "image": "assets/images/puydufou/hotel_villa_gallo_romaine.png",
+    "lat": 46.8995,
+    "lng": -0.8940,
+    "rating": 4.6,
+    "topPick": true,
+    "website": "https://www.puydufou.com/france/en/short-breaks/hotels/la-villa-gallo-romaine",
+    "rooms": [
+      {
+        "key": "chambre_romaine",
+        "name": "Roman Chamber",
+        "description": "Room with Roman mosaic decor, courtyard views, breakfast buffet and 2-day park tickets for under-11s free.",
+        "pricePerNight": 190.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite_imperiale",
+        "name": "Imperial Suite",
+        "description": "Spacious suite with separate living area, terrace, enhanced Roman decor and priority show seating.",
+        "pricePerNight": 280.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_citadelle",
+    "name": "La Citadelle",
+    "description": "A full-scale medieval castle hotel — four-poster beds, stone walls, tapestries and armour. Castle courtyard playgrounds and the medieval banquet restaurant L Ecuyer Tranchant by torchlight. Children under 11 get 2-day tickets free. From approximately 220 euros per room per night.",
+    "image": "assets/images/puydufou/hotel_citadelle.png",
+    "lat": 46.8977,
+    "lng": -0.8963,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.puydufou.com/france/en/short-breaks/hotels/la-citadelle",
+    "rooms": [
+      {
+        "key": "chambre_chevalier",
+        "name": "Knights Chamber",
+        "description": "Medieval castle room with stone walls, tapestries, four-poster bed, breakfast and medieval banquet dinner.",
+        "pricePerNight": 220.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "tour_seigneuriale",
+        "name": "Seigneurial Tower Suite",
+        "description": "Tower suite with 360-degree views over the Vendee, private sitting room and full medieval banquet package.",
+        "pricePerNight": 320.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_grand_siecle",
+    "name": "Le Grand Siecle",
+    "description": "The only 4-star hotel at Puy du Fou — a Versailles-era royal chateau opened 2020, expanding to over 200 rooms in 2026. Gilded interiors, formal gardens and the most luxurious overnight experience in the resort. Children under 11 get 2-day tickets free. From approximately 270 euros per room per night.",
+    "image": "assets/images/puydufou/hotel_grand_siecle.png",
+    "lat": 46.8992,
+    "lng": -0.8944,
+    "rating": 4.8,
+    "topPick": true,
+    "website": "https://www.puydufou.com/france/en/short-breaks/hotels/le-grand-siecle",
+    "rooms": [
+      {
+        "key": "chambre_royale",
+        "name": "Royal Chamber",
+        "description": "4-star Louis XIV style room with gilded decor, garden views, breakfast and priority evening show access.",
+        "pricePerNight": 270.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "appartement_noble",
+        "name": "Noble Apartment",
+        "description": "Luxurious apartment suite with separate salon, private terrace and full board dining package.",
+        "pricePerNight": 400.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_iles_de_clovis",
+    "name": "Les Iles de Clovis",
+    "description": "50 Merovingian stilt houses above tranquil ponds — the most unique overnight experience at any European theme park. Fall asleep to frogs and birds, wake to misty dawn views over the reeds. Children under 11 get 2-day tickets free. From approximately 200 euros per room per night.",
+    "image": "assets/images/puydufou/hotel_iles_de_clovis.png",
+    "lat": 46.8974,
+    "lng": -0.8968,
+    "rating": 4.7,
+    "topPick": false,
+    "website": "https://www.puydufou.com/france/en/short-breaks/hotels/les-iles-de-clovis",
+    "rooms": [
+      {
+        "key": "maison_lacustre",
+        "name": "Merovingian Lake House",
+        "description": "Stilt house above the pond with Merovingian decor, wooden walkway access, breakfast and 2-day tickets free for under-11s.",
+        "pricePerNight": 200.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "maison_royale",
+        "name": "Royal Lake House",
+        "description": "Larger stilt house with king's chamber for two adults and children's sleeping area, enhanced decor and breakfast.",
+        "pricePerNight": 260.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_camp_drap_dor",
+    "name": "Le Camp du Drap d Or",
+    "description": "The finest luxury glamping in Europe — Renaissance pavilion tents with velvet furnishings, Persian rugs and four-poster beds recreating the legendary 1520 Field of the Cloth of Gold. Children under 11 get 2-day tickets free. From approximately 310 euros per pavilion per night.",
+    "image": "assets/images/puydufou/hotel_camp_drap_dor.png",
+    "lat": 46.8971,
+    "lng": -0.8972,
+    "rating": 4.8,
+    "topPick": false,
+    "website": "https://www.puydufou.com/france/en/short-breaks/hotels/le-camp-du-drap-dor",
+    "rooms": [
+      {
+        "key": "pavillon_royal",
+        "name": "Royal Pavilion Tent",
+        "description": "Luxurious Renaissance canvas pavilion with four-poster bed, velvet furnishings, silver decor and breakfast.",
+        "pricePerNight": 310.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "grande_tente",
+        "name": "Grande Tente Familiale",
+        "description": "Larger family pavilion with separate children's sleeping area, enhanced Renaissance furnishings and full board.",
+        "pricePerNight": 390.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_logis_lescure",
+    "name": "Le Logis de Lescure",
+    "description": "The most exclusive accommodation at Puy du Fou — just 4 luxury suites in an 18th century Vendean manor. Each suite named after a Vendean hero. Ultimate privacy and luxury. Children under 11 get 2-day tickets free. From approximately 350 euros per suite per night.",
+    "image": "assets/images/puydufou/hotel_logis_lescure.png",
+    "lat": 46.8969,
+    "lng": -0.8975,
+    "rating": 4.9,
+    "topPick": false,
+    "website": "https://www.puydufou.com/france/en/short-breaks/hotels/le-logis-de-lescure",
+    "rooms": [
+      {
+        "key": "suite_lescure",
+        "name": "Suite Lescure",
+        "description": "One of four exclusive suites in this intimate 18th century manor — antique furnishings, fine art and breakfast.",
+        "pricePerNight": 350.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite_deluxe",
+        "name": "Suite Deluxe",
+        "description": "The largest suite with private sitting room, garden terrace and full board dining package.",
+        "pricePerNight": 450.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

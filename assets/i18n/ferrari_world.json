@@ -1,0 +1,392 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Ferrari World Abu Dhabi is the world's largest indoor theme park and the first Ferrari-branded theme park on earth, located on Yas Island in Abu Dhabi. Opened in 2010 under the iconic red roof — the largest space frame structure ever built — Ferrari World is home to Formula Rossa, the fastest roller coaster on the planet at 240 km/h, as well as Flying Aces, Turbo Track and Fiorano GT Challenge. Every attraction celebrates the passion, performance and heritage of Ferrari — from the prancing horse's origins in 1947 Maranello to the pinnacle of modern Formula 1 racing. Attracts over one million visitors annually.",
+      "es": "Ferrari World Abu Dhabi es el parque tematico cubierto mas grande del mundo y el primer parque de la marca Ferrari en la tierra, ubicado en Yas Island en Abu Dhabi. Inaugurado en 2010, alberga Formula Rossa, la montana rusa mas rapida del planeta a 240 km/h. Cada atraccion celebra la pasion y el patrimonio de Ferrari. Atrae mas de un millon de visitantes anuales.",
+      "fr": "Ferrari World Abu Dhabi est le plus grand parc a themes couvert du monde et le premier parc de marque Ferrari sur terre, situe sur Yas Island a Abu Dhabi. Ouvert en 2010, il abrite Formula Rossa, la montagne russe la plus rapide de la planete a 240 km/h. Chaque attraction celebre la passion et le patrimoine Ferrari. Accueille plus d un million de visiteurs par an.",
+      "de": "Ferrari World Abu Dhabi ist der weltweit grosste uberdachte Themenpark und der erste Ferrari-Marken-Themenpark der Erde, auf Yas Island in Abu Dhabi gelegen. 2010 eroffnet beherbergt er Formula Rossa, den schnellsten Achterbahn der Welt bei 240 km/h. Jede Attraktion feiert die Leidenschaft und das Erbe von Ferrari. Uber eine Million Besucher jahrlich.",
+      "it": "Ferrari World Abu Dhabi e il piu grande parco a tema coperto del mondo e il primo parco del marchio Ferrari sulla terra, situato sull isola di Yas ad Abu Dhabi. Aperto nel 2010, ospita Formula Rossa, la montagna russa piu veloce del pianeta a 240 km/h. Oltre un milione di visitatori annui.",
+      "nl": "Ferrari World Abu Dhabi is het grootste overdekte themapark ter wereld en het eerste Ferrari-merkthemapark op aarde, gelegen op Yas Island in Abu Dhabi. Geopend in 2010 herbergt het Formula Rossa, de snelste achtbaan ter wereld bij 240 km/h. Meer dan een miljoen bezoekers per jaar.",
+      "pt": "Ferrari World Abu Dhabi e o maior parque tematico coberto do mundo e o primeiro parque de marca Ferrari na terra, localizado na Ilha de Yas em Abu Dhabi. Aberto em 2010, abriga a Formula Rossa, a montanha-russa mais rapida do planeta a 240 km/h. Mais de um milhao de visitantes anuais.",
+      "ru": "Ferrari World Abu Dhabi — крупнейший крытый тематический парк в мире и первый тематический парк Ferrari, на острове Яс в Абу-Даби. Дом Ferrari Rossa — самого быстрого коастера планеты. Более одного млн посетителей в год.",
+      "zh": "费拉利世界主题公园是全球最大的室内主题公园，也是地球上第一个费拉利品牌主题公园，位于阿布扔比亚豢岛。拥有地球上最快的过山车公式赛车，运行速度达240公里/小时。每年吸引逾100万游客。",
+      "ar": "Ferrari World Abu Dhabi هو أكبر متنزه ترفيهي مغلق في العالم، يقع على جزيرة ياس في أبوظبي. افتتح 2010 ويضم Formula Rossa أسرع اوتوستراد في العالم. أكثر من مليون زائر سنويا."
+    },
+    "ov_highlights_body": {
+      "en": "Formula Rossa is the fastest roller coaster on earth at 240 km/h — faster than a Formula 1 car at full acceleration. Flying Aces features the world's tallest non-inverting loop and steepest drop. Turbo Track fires riders vertically through the iconic Ferrari World roof. Fiorano GT Challenge puts two coasters in a head-to-head race. The Ferrari Gallery is the world's most comprehensive Ferrari exhibition. Bell Italia takes guests on a journey through the Italian countryside in replica Ferrari vehicles. Scuderia Challenge offers authentic F1 simulators.",
+      "es": "Formula Rossa es la montana rusa mas rapida de la tierra a 240 km/h. Flying Aces presenta el bucle no invertido mas alto del mundo. Turbo Track lanza a los pasajeros verticalmente a traves del techo. La Galeria Ferrari es la exposicion de Ferrari mas completa del mundo. Bell Italia lleva a los visitantes por la campiña italiana en replicas de Ferrari.",
+      "fr": "Formula Rossa est la montagne russe la plus rapide de la terre a 240 km/h. Flying Aces presente la boucle non-inversante la plus haute du monde. Turbo Track lance les passagers verticalement a travers le toit. La Galerie Ferrari est l exposition Ferrari la plus complete au monde. Bell Italia emmene les visiteurs a travers la campagne italienne dans des replicas Ferrari.",
+      "de": "Formula Rossa ist der schnellste Achterbahn der Erde bei 240 km/h. Flying Aces hat die weltgroesste nicht-invertierende Schleife. Turbo Track schiesst Fahrer vertikal durch das Dach. Die Ferrari Galerie ist die umfassendste Ferrari-Ausstellung der Welt. Bell Italia nimmt Besucher auf eine Reise durch die italienische Landschaft in Ferrari-Repliken.",
+      "it": "Formula Rossa e la montagna russa piu veloce della terra a 240 km/h. Flying Aces presenta il loop non invertente piu alto del mondo. Turbo Track spara i passeggeri verticalmente attraverso il tetto. La Galleria Ferrari e la mostra Ferrari piu completa del mondo. Bell Italia porta i visitatori attraverso la campagna italiana su repliche Ferrari.",
+      "nl": "Formula Rossa is de snelste achtbaan op aarde bij 240 km/h. Flying Aces heeft de hoogste niet-inverterende lus ter wereld. Turbo Track schiet rijders verticaal door het dak. De Ferrari Galerij is de meest uitgebreide Ferrari tentoonstelling ter wereld. Bell Italia neemt bezoekers mee door het Italiaanse platteland in Ferrari replica's.",
+      "pt": "Formula Rossa e a montanha-russa mais rapida da terra a 240 km/h. Flying Aces tem o loop nao invertido mais alto do mundo. Turbo Track dispara passageiros verticalmente pelo telhado. A Galeria Ferrari e a mais completa exposicao Ferrari do mundo. Bell Italia leva os visitantes pelo campo italiano em replicas Ferrari.",
+      "ru": "Formula Rossa — самый быстрый коастер на земле при 240 км/ч. Flying Aces — самая высокая неинвертирующая петля. Turbo Track запускает вертикально через крышу. Галерея Ferrari — самая полная выставка в мире.",
+      "zh": "公式赛车是地球上最快的过山车，速度达240公里/小时。飞行王牌拥有全球最高的非翻转圆环和最陕的下坡。测试踱挑战让两辆过山车对决。费拉利画廸是全球最全面的费拉利展览。",
+      "ar": "Formula Rossa هو أسرع اوتوستراد على الأرض بسرعة 240 كم/س. Flying Aces لديه أعلى حلقة غير معكوسة في العالم. Turbo Track يطلق الركاب عموديا عبر السقف."
+    },
+    "ov_did_you_know_body": {
+      "en": "Ferrari World's iconic red roof covers 200,000 square metres — the largest space frame structure ever built — and the distinctive Ferrari red colour required 200,000 litres of paint. Formula Rossa at 240 km/h accelerates faster than a Eurofighter Typhoon jet. The park's flying aces theming honours Francesco Baracca, the World War I Italian ace whose prancing horse emblem was given to Enzo Ferrari by Baracca's mother and became the Ferrari logo. Ferrari World was the first theme park in the world to be built around a single automotive brand. The park sits on Yas Island alongside the Yas Marina Formula 1 circuit.",
+      "es": "El icónico techo rojo de Ferrari World cubre 200.000 metros cuadrados — la mayor estructura espacial jamas construida. Formula Rossa a 240 km/h acelera mas rapido que un avion de combate. La tematica de los ases del vuelo honra a Francesco Baracca cuyo emblema del caballo encabritado fue dado a Enzo Ferrari por la madre de Baracca.",
+      "fr": "Le toit rouge emblematique de Ferrari World couvre 200 000 metres carres — la plus grande structure spatiale jamais construite. Formula Rossa a 240 km/h accelere plus vite qu un avion de combat. Le theme des as de l aviation honore Francesco Baracca dont l embleme du cheval cabré fut donne a Enzo Ferrari par la mere de Baracca.",
+      "de": "Das ikonische rote Dach von Ferrari World bedeckt 200.000 Quadratmeter — die grosste Raumkonstruktion die je gebaut wurde. Formula Rossa bei 240 km/h beschleunigt schneller als ein Kampfjet. Das Fliegende-Asse-Thema ehrt Francesco Baracca dessen aufsteigendes Pferd-Emblem der Ferrari-Mutter von Baracca an Enzo Ferrari gegeben wurde.",
+      "it": "Il tetto rosso iconico di Ferrari World copre 200.000 metri quadrati — la piu grande struttura spaziale mai costruita. Formula Rossa a 240 km/h accelera piu velocemente di un aereo da combattimento. Il tema degli assi volanti onora Francesco Baracca il cui emblema del cavallino rampante fu dato a Enzo Ferrari dalla madre di Baracca.",
+      "nl": "Ferrari World's iconische rode dak beslaat 200.000 vierkante meter — de grootste ruimtestructuur ooit gebouwd. Formula Rossa bij 240 km/h accelereert sneller dan een straaljager. Het vliegende assen thema eert Francesco Baracca wiens steigerende paard embleem door Baracca's moeder aan Enzo Ferrari werd gegeven.",
+      "pt": "O icónico tecto vermelho de Ferrari World cobre 200.000 metros quadrados — a maior estrutura espacial alguma vez construida. Formula Rossa a 240 km/h acelera mais rapido do que um aviao de combate. O tema dos ases voadores homenageia Francesco Baracca cujo emblema do cavalo encabritado foi dado a Enzo Ferrari pela mae de Baracca.",
+      "ru": "Иконическая красная крыша Ferrari World покрывает 200 000 квадратных метров. Formula Rossa при 240 км/ч разгоняется быстрее истребителя. Тематика летчиков чтит Baracca — вдохновителя эмблемы Ferrari.",
+      "zh": "费拉利世界的标志性红色屋顶覆盖20万平方米——有史以来建造的最大空间框架结构。公式赛车在240公里/小时的加速度胜过战斗机。飞行王牌主题源自巴拉卡——其葵马徍标志成为费拉利logo的由来。",
+      "ar": "يغطي السقف الأحمر 200,000 متر مربع. Formula Rossa بسرعة 240 كم/س تتسارع أسرع من طائرة حربية. موضوع الطيارين يكرم Baracca مصدر شعار Ferrari."
+    },
+    "ov_plan_body": {
+      "en": "Ferrari World opens at 11am — arrive early and head straight to Formula Rossa before the queue builds. Flying Aces and Turbo Track second and third before noon. Fiorano GT Challenge mid-morning. Book Scuderia Challenge simulator slots early as they fill up. Bell Italia is ideal for early afternoon when Formula Rossa queues exceed 90 minutes. The Ferrari Gallery is best in the peak heat of midday when outdoor-adjacent rides are busiest. Cavallino Restaurant requires advance booking — reserve before your visit. Check the Paddock Stage Show schedule at the entrance.",
+      "es": "Ferrari World abre a las 11am — llega temprano y ve directamente a Formula Rossa. Flying Aces y Turbo Track segundo y tercero antes del mediodia. Reserva los simuladores de Scuderia Challenge temprano. La Galeria Ferrari es ideal al mediodia. Cavallino requiere reserva anticipada.",
+      "fr": "Ferrari World ouvre a 11h — arrivez tot et allez directement a Formula Rossa. Flying Aces et Turbo Track deuxieme et troisieme avant midi. Reservez les simulateurs Scuderia Challenge tot. La Galerie Ferrari est ideale a midi. Cavallino necessite une reservation anticipee.",
+      "de": "Ferrari World offnet um 11 Uhr — kommen Sie frueh und gehen Sie direkt zu Formula Rossa. Flying Aces und Turbo Track zweiter und dritter vor Mittag. Buchen Sie Scuderia Challenge Simulatoren frueh. Die Ferrari Galerie ist ideal um Mittag. Cavallino erfordert Vorabreservierung.",
+      "it": "Ferrari World apre alle 11 — arrivate presto e andate direttamente a Formula Rossa. Flying Aces e Turbo Track secondo e terzo prima di mezzogiorno. Prenotate i simulatori Scuderia Challenge presto. La Galleria Ferrari e ideale a mezzogiorno. Cavallino richiede prenotazione anticipata.",
+      "nl": "Ferrari World opent om 11 uur — kom vroeg en ga direct naar Formula Rossa. Flying Aces en Turbo Track tweede en derde voor de middag. Boek Scuderia Challenge simulatoren vroeg. De Ferrari Galerij is ideaal op het middaguur. Cavallino vereist vooraf boeken.",
+      "pt": "Ferrari World abre as 11h — chegue cedo e va directamente a Formula Rossa. Flying Aces e Turbo Track segundo e terceiro antes do meio-dia. Reserve os simuladores Scuderia Challenge cedo. A Galeria Ferrari e ideal ao meio-dia. Cavallino requer reserva antecipada.",
+      "ru": "Ferrari World открывается в 11 утра. Сразу к Formula Rossa. Flying Aces и Turbo Track вторыми. Симуляторы Scuderia Challenge надо бронировать. Галерея Ferrari — идеально днём.",
+      "zh": "费拉利世界上呈11点开放——尽早到达直接前往公式赛车。飞行王牌和测试踱追尾。尽早预订车队挑战模拟器。费拉利画廸在正午最佳。提前预订卡瓦利诺餐厅。",
+      "ar": "يفتح Ferrari World الساعة 11 صباحا. اذهب مباشرة لـ Formula Rossa. Flying Aces وTurbo Track ثانيا وثالثا. احجز محاكيات Scuderia Challenge مبكرا."
+    },
+    "ov_photos_body": {
+      "en": "Formula Rossa photographed from the trackside at the moment of launch — the white smoke and blur of 240 km/h creates one of the most extraordinary action images in theme park photography. The Ferrari World roof photographed from outside at sunset with Turbo Track piercing through it is an iconic Yas Island image. The Ferrari Gallery photographed as a panorama shows the most spectacular collection of road and race cars ever assembled. Bell Italia photographed from the vehicle looking out creates beautiful Italian countryside imagery. The Flying Aces biplane theming photographed against the Abu Dhabi sky is uniquely atmospheric.",
+      "es": "Formula Rossa fotografiada desde la pista en el momento del lanzamiento es una de las imagenes de accion mas extraordinarias. El techo de Ferrari World al atardecer con Turbo Track atravesandolo es una imagen iconica de Yas Island. La Galeria Ferrari como panorama muestra la coleccion mas espectacular de coches.",
+      "fr": "Formula Rossa photographiee depuis la piste au moment du lancement est l une des images d action les plus extraordinaires. Le toit de Ferrari World au coucher du soleil avec Turbo Track le traversant est une image emblematique de Yas Island. La Galerie Ferrari en panorama montre la collection la plus spectaculaire.",
+      "de": "Formula Rossa vom Streckenrand beim Start fotografiert ist eines der aussergewohnlichsten Aktionsbilder. Das Ferrari World Dach bei Sonnenuntergang mit Turbo Track der hindurchschiesst ist ein ikonisches Yas Island Bild. Die Ferrari Galerie als Panorama zeigt die spektakularste Sammlung.",
+      "it": "Formula Rossa fotografata dal bordo pista al momento del lancio e una delle immagini d azione piu straordinarie. Il tetto di Ferrari World al tramonto con Turbo Track che lo attraversa e un immagine iconica. La Galleria Ferrari come panorama mostra la collezione piu spettacolare.",
+      "nl": "Formula Rossa gefotografeerd vanaf de baan bij de start is een van de meest buitengewone actiebeelden. Het Ferrari World dak bij zonsondergang met Turbo Track dat erdoorheen schiet is een iconisch Yas Island beeld. De Ferrari Galerij als panorama toont de meest spectaculaire collectie.",
+      "pt": "Formula Rossa fotografada do lado da pista no momento do lancamento e uma das imagens de acao mais extraordinarias. O tecto de Ferrari World ao por do sol com Turbo Track a atravessa-lo e uma imagem iconica. A Galeria Ferrari como panorama mostra a colecao mais espetacular.",
+      "ru": "Formula Rossa сфотографированная в момент запуска — одно из самых эффектных фото в тематических парках. Крыша Ferrari World на закате с Turbo Track — иконический образ.",
+      "zh": "公式赛车在发射瞬间从赛道旁拍摄——240公里/小时的白烟和模糊创造了最不可思议的动态影像。费拉利世界屋顶日落时拍摄，测试踱穿破屋顶是谢岛的标志性画面。",
+      "ar": "Formula Rossa مصورة من جانب المضمار لحظة الانطلاق هي من أكثر صور الحركة إثارة. سقف Ferrari World عند الغروب صورة أيقونية."
+    }
+  },
+  "attractions": {
+    "formula_rossa": {
+      "desc": {
+        "en": "The fastest roller coaster on earth — 0 to 240 km/h in 4.9 seconds. Riders must wear protective goggles. The defining experience of Ferrari World. Min 140cm.",
+        "es": "La montana rusa mas rapida de la tierra — 0 a 240 km/h en 4.9 segundos. Los pasajeros deben usar gafas protectoras. Min 140cm.",
+        "fr": "La montagne russe la plus rapide de la terre — 0 a 240 km/h en 4.9 secondes. Les passagers doivent porter des lunettes de protection. Min 140cm.",
+        "de": "Der schnellste Achterbahn der Erde — 0 auf 240 km/h in 4,9 Sekunden. Fahrer mussen Schutzbrille tragen. Mindestgrosse 140cm.",
+        "it": "La montagna russa piu veloce della terra — 0 a 240 km/h in 4,9 secondi. I passeggeri devono indossare occhiali protettivi. Min 140cm.",
+        "nl": "De snelste achtbaan op aarde — 0 naar 240 km/h in 4,9 seconden. Rijders moeten beschermende bril dragen. Min 140cm.",
+        "pt": "A montanha-russa mais rapida da terra — 0 a 240 km/h em 4,9 segundos. Os passageiros devem usar oculos de protecao. Min 140cm.",
+        "ru": "Самый быстрый коастер на земле — 0 до 240 км/ч за 4,9 секунды. Мин 140 см.",
+        "zh": "地球上最快的过山车——劙4.9秒内加速至240公里/小时。骑乘者必须使用防护镜。最低身高140厘米。",
+        "ar": "أسرع اوتوستراد على الأرض — 0 إلى 240 كم/س في 4.9 ثوان. الحد الادنى 140 سم."
+      }
+    },
+    "turbo_track": {
+      "desc": {
+        "en": "Vertical launch coaster firing riders straight up through the Ferrari World roof at 105 km/h — weightlessness at the apex then a plunge back down. Min 120cm.",
+        "es": "Coaster de lanzamiento vertical que dispara a los pasajeros a traves del techo a 105 km/h. Min 120cm.",
+        "fr": "Coaster a lancement vertical tirant les passagers a travers le toit a 105 km/h. Min 120cm.",
+        "de": "Vertikaler Start-Coaster der Fahrer durch das Dach bei 105 km/h schiesst. Mindestgrosse 120cm.",
+        "it": "Coaster a lancio verticale che spara i passeggeri attraverso il tetto a 105 km/h. Min 120cm.",
+        "nl": "Verticale lanceer achtbaan die rijders door het dak bij 105 km/h schiet. Min 120cm.",
+        "pt": "Coaster de lancamento vertical que dispara passageiros pelo tecto a 105 km/h. Min 120cm.",
+        "ru": "Вертикальный коастер через крышу при 105 км/ч. Мин 120 см.",
+        "zh": "垂直发射过山车，以105公里/小时的速度穿破费拉利世界屋顶。最低身高120厘米。",
+        "ar": "اوتوستراد انطلاق عمودي يطلق الركاب عبر السقف بسرعة 105 كم/س. الحد الادنى 120 سم."
+      }
+    },
+    "flying_aces": {
+      "desc": {
+        "en": "Record-breaking coaster with the world's tallest non-inverting loop and steepest 120-degree drop — themed to WWI flying ace Francesco Baracca whose prancing horse inspired the Ferrari logo. Min 130cm.",
+        "es": "Coaster record con el bucle no invertido mas alto del mundo y la caida mas pronunciada — tematizado al as volador Francesco Baracca. Min 130cm.",
+        "fr": "Coaster record avec la boucle non-inversante la plus haute du monde et la descente la plus prononcee — theme a l as volant Francesco Baracca. Min 130cm.",
+        "de": "Rekord-Coaster mit der weltgroessten nicht-invertierenden Schlaufe und steilsten Abfahrt — Thema ist der Flieger-Ass Francesco Baracca. Mindestgrosse 130cm.",
+        "it": "Coaster record con il loop non invertente piu alto del mondo e la discesa piu ripida — tema dedicato all asso aviatore Francesco Baracca. Min 130cm.",
+        "nl": "Record achtbaan met de hoogste niet-inverterende lus en steilste afdaling ter wereld — thema is vliegend ass Francesco Baracca. Min 130cm.",
+        "pt": "Coaster record com o loop nao invertido mais alto do mundo e a descida mais inclinada — tema do as aviador Francesco Baracca. Min 130cm.",
+        "ru": "Рекордный коастер с мировым рекордом. Мин 130 см.",
+        "zh": "兵创纪录的过山车，拥有全球最高的非翻转圆环和120度最陕下坡。最低身高130厘米。",
+        "ar": "اوتوستراد قياسي مع أعلى حلقة غير معكوسة وأحد الانحدارات. الحد الادنى 130 سم."
+      }
+    },
+    "fiorano_gt_challenge": {
+      "desc": {
+        "en": "Twin racing coasters in a head-to-head race modelled on Ferrari's legendary Fiorano test track. Uniquely competitive experience. Min 120cm.",
+        "es": "Coasters gemelos en una carrera cara a cara modelada en el legendario circuito de pruebas Fiorano de Ferrari. Min 120cm.",
+        "fr": "Coasters jumeaux en course face a face sur le legendaire circuit d essais Fiorano de Ferrari. Min 120cm.",
+        "de": "Zwillingscoaster in einem Kopf-an-Kopf-Rennen nach Ferraris legendarem Fiorano Testtrack. Mindestgrosse 120cm.",
+        "it": "Coaster gemelli in gara testa a testa sul leggendario circuito di prova Fiorano della Ferrari. Min 120cm.",
+        "nl": "Tweelingachtbanen in een kop-aan-kop race gebaseerd op Ferrari's legendarische Fiorano testcircuit. Min 120cm.",
+        "pt": "Coasters gemeos em corrida cara a cara baseada no lendario circuito de testes Fiorano da Ferrari. Min 120cm.",
+        "ru": "Двойные гоночные коастеры по мотивам трассы Ferrari Fiorano. Мин 120 см.",
+        "zh": "双组赛车过山车，仿照费拉利传奇性的Fiorano测试距进行对決。最低身高120厘米。",
+        "ar": "اوتوسترادان متوازيان في سباق. الحد الادنى 120 سم."
+      }
+    },
+    "bell_italia": {
+      "desc": {
+        "en": "Scenic indoor drive through a recreation of the Italian countryside in replica Ferrari vehicles. One of the most atmospheric experiences at Ferrari World. Suitable for all ages.",
+        "es": "Viaje escenico en interior a traves de una recreacion de la campiña italiana en replicas de Ferrari. Apto para todas las edades.",
+        "fr": "Voyage scenique interieur a travers une recreation de la campagne italienne dans des replicas Ferrari. Convient a tous les ages.",
+        "de": "Malerische Innenfahrt durch eine Nachbildung der italienischen Landschaft in Ferrari-Repliken. Fur alle Altersgruppen.",
+        "it": "Viaggio scenico interno attraverso una ricreazione della campagna italiana su repliche Ferrari. Adatto a tutte le eta.",
+        "nl": "Schilderachtige binnenrit door een recreatie van het Italiaanse platteland in Ferrari replica's. Geschikt voor alle leeftijden.",
+        "pt": "Viagem cenografica interior atraves de uma recreacao da campanha italiana em replicas Ferrari. Adequado para todas as idades.",
+        "ru": "Живописное путешествие по итальянской деревне на репликах Ferrari. Подходит для всех.",
+        "zh": "乘坐费拉利喐车穿越室内意大利遠郊景观的屏幕驾驶之旅。适合所有年龄。",
+        "ar": "جولة داخلية خلابة عبر الريف الإيطالي في سيارات Ferrari. مناسب لجميع الأعمار."
+      }
+    },
+    "maranello_race": {
+      "desc": {
+        "en": "High-speed family racing simulator in a Ferrari through Maranello — combining motion simulation with stunning Ferrari racing visuals. Min 105cm.",
+        "es": "Simulador de carreras familiar de alta velocidad en un Ferrari por Maranello. Min 105cm.",
+        "fr": "Simulateur de course familial haute vitesse dans une Ferrari a travers Maranello. Min 105cm.",
+        "de": "Hochgeschwindigkeits-Familienrennsimulator in einem Ferrari durch Maranello. Mindestgrosse 105cm.",
+        "it": "Simulatore di corsa familiare ad alta velocita in una Ferrari attraverso Maranello. Min 105cm.",
+        "nl": "Hoge snelheid familie racesimulator in een Ferrari door Maranello. Min 105cm.",
+        "pt": "Simulador de corridas familiar de alta velocidade numa Ferrari por Maranello. Min 105cm.",
+        "ru": "Семейный разагонный симулятор Ferrari по Маранелло. Мин 105 см.",
+        "zh": "驾驶费拉利穿越马兰罗的高速家庭赛车模拟器。最低身高105厘米。",
+        "ar": "محاكي سباق عائلي في Ferrari عبر Maranello. الحد الادنى 105 سم."
+      }
+    },
+    "scuderia_challenge": {
+      "desc": {
+        "en": "Authentic Ferrari F1 driving simulator on iconic racing circuits. The most technically impressive simulator at Ferrari World. Min 110cm.",
+        "es": "Simulador de conduccion Ferrari F1 autentico en circuitos de carrera iconicos. El simulador mas tecnicamente impresionante. Min 110cm.",
+        "fr": "Simulateur de conduite Ferrari F1 authentique sur circuits de course emblematiques. Le simulateur le plus techniquement impressionnant. Min 110cm.",
+        "de": "Authentischer Ferrari F1 Fahrsimulator auf ikonischen Rennstrecken. Der technisch beeindruckendste Simulator. Mindestgrosse 110cm.",
+        "it": "Simulatore di guida Ferrari F1 autentico su circuiti di gara iconici. Il simulatore piu tecnicamente impressionante. Min 110cm.",
+        "nl": "Authentieke Ferrari F1 rijsimulator op iconische racecircuits. De technisch meest indrukwekkende simulator. Min 110cm.",
+        "pt": "Simulador de conducao Ferrari F1 autentico em circuitos de corrida iconicos. O simulador mais tecnicamente impressionante. Min 110cm.",
+        "ru": "Подлинный симулятор F1 Ferrari. Мин 110 см.",
+        "zh": "在标志性赛道上的正宗费拉利F1驾驶模拟器。最低身高110厘米。",
+        "ar": "محاكي قيادة Ferrari F1 أصيل على حلبات سباق أيقونية. الحد الادنى 110 سم."
+      }
+    },
+    "junior_gt": {
+      "desc": {
+        "en": "Children drive their own small Ferrari GT car around a dedicated track — one of the most special childhood experiences at any theme park. Min 100cm.",
+        "es": "Los ninos conducen su propio pequeño Ferrari GT por una pista dedicada. Una de las experiencias mas especiales para los ninos. Min 100cm.",
+        "fr": "Les enfants conduisent leur propre petite Ferrari GT sur une piste dediee. Une des experiences les plus speciales pour les enfants. Min 100cm.",
+        "de": "Kinder fahren ihren eigenen kleinen Ferrari GT auf einer dedizierten Strecke. Eines der speziellsten Kindheitserlebnisse. Mindestgrosse 100cm.",
+        "it": "I bambini guidano la loro piccola Ferrari GT su una pista dedicata. Una delle esperienze infantili piu speciali. Min 100cm.",
+        "nl": "Kinderen rijden hun eigen kleine Ferrari GT op een speciaal circuit. Een van de meest bijzondere kinderervaringen. Min 100cm.",
+        "pt": "Criancas conduzem o seu proprio pequeno Ferrari GT numa pista dedicada. Uma das experiencias mais especiais para criancas. Min 100cm.",
+        "ru": "Дети управляют маленьким Ferrari GT. Одно из самых особенных детских переживаний. Мин 100 см.",
+        "zh": "孩子们小费拉利GT车绕着专用奋路驾驶。任何主题公园中最特别的小孩体验之一。最低身高100厘米。",
+        "ar": "يقود الأطفال Ferrari GT صغيرة خاصة بهم. من أكثر تجارب الطفولة تميزا. الحد الادنى 100 سم."
+      }
+    },
+    "bennos_great_race": {
+      "desc": {
+        "en": "Delightful interactive dark ride for families following Ferrari mechanic Benno through classic Italian racing scenes. Perfect for families with young children. Suitable for all ages.",
+        "es": "Encantadora atraccion familiar interactiva siguiendo al mecanico Ferrari Benno en escenas de carreras italianas clasicas. Apto para todas las edades.",
+        "fr": "Charmante attraction interactive familiale suivant le mecanicien Ferrari Benno dans des scenes de course italiennes classiques. Convient a tous les ages.",
+        "de": "Reizvolle interaktive Familienfahrt nach Ferrari-Mechaniker Benno durch klassische italienische Rennszenen. Fur alle Altersgruppen.",
+        "it": "Deliziosa attrazione interattiva familiare che segue il meccanico Ferrari Benno attraverso scene di gara italiane classiche. Adatto a tutte le eta.",
+        "nl": "Heerlijke interactieve familie dark ride na Ferrari monteur Benno door klassieke Italiaanse racescenes. Geschikt voor alle leeftijden.",
+        "pt": "Deliciosa atracao interativa familiar seguindo o mecanico Ferrari Benno em cenas de corrida italianas classicas. Adequado para todas as idades.",
+        "ru": "Семейный интерактивный аттракцион с механиком Ferrari Бенно. Подходит для всех.",
+        "zh": "跨越费拉利技师本诺经历意大利经典赛车场景的家庭互动暗室游乐项目。适合所有年龄。",
+        "ar": "اتراكشن عائلي تفاعلي رائع بطابع ميكانيكي Ferrari. مناسب لجميع الأعمار."
+      }
+    },
+    "rc_challenge": {
+      "desc": {
+        "en": "Fun interactive RC car racing where guests race remote-controlled Ferrari cars against each other. One of the most entertaining family experiences at Ferrari World. Suitable for all ages.",
+        "es": "Divertidas carreras de coches RC interactivos donde los visitantes compiten entre si con coches Ferrari. Apto para todas las edades.",
+        "fr": "Courses de voitures RC interactives amusantes ou les visiteurs s affrontent avec des voitures Ferrari. Convient a tous les ages.",
+        "de": "Spassige interaktive RC-Autorennen wo Besucher mit Ferrari-Autos gegeneinander fahren. Fur alle Altersgruppen.",
+        "it": "Divertenti corse di auto RC interattive dove i visitatori gareggiano tra loro con auto Ferrari. Adatto a tutte le eta.",
+        "nl": "Leuke interactieve RC auto races waar bezoekers met Ferrari auto's tegen elkaar rijden. Geschikt voor alle leeftijden.",
+        "pt": "Corridas de carros RC interativas divertidas onde os visitantes correm uns contra os outros com carros Ferrari. Adequado para todas as idades.",
+        "ru": "Весёлые гонки на радиоуправляемых Ferrari. Подходит для всех.",
+        "zh": "驾驶遥控费拉利赛车相互比拼的趣味互动体验。适合所有年龄。",
+        "ar": "سباقات سيارات RC تفاعلية. مناسب لجميع الأعمار."
+      }
+    },
+    "tyre_twist": {
+      "desc": {
+        "en": "Spinning family ride themed to Ferrari pit stop tyres — fun and accessible for younger visitors. Min 90cm.",
+        "es": "Atraccion familiar giratoria con tematica de neumaticos de boxes Ferrari. Min 90cm.",
+        "fr": "Attraction familiale tournante theme pneus Ferrari. Min 90cm.",
+        "de": "Drehende Familienatraktion mit Ferrari Reifen Thema. Mindestgrosse 90cm.",
+        "it": "Attrazione familiare rotante a tema pneumatici pit stop Ferrari. Min 90cm.",
+        "nl": "Draaiende familie attractie met Ferrari band thema. Min 90cm.",
+        "pt": "Atracao familiar giratoria com tema de pneus de pit stop Ferrari. Min 90cm.",
+        "ru": "Вращающаяся семейная аттракция. Мин 90 см.",
+        "zh": "费拉利换轮胎主题的旋转家庭游乐项目。最低身高90厘米。",
+        "ar": "اتراكشن عائلي دوار بطابع إطارات Ferrari. الحد الادنى 90 سم."
+      }
+    },
+    "paddock_stage_show": {
+      "desc": {
+        "en": "Spectacular live show with stunt driving, pyrotechnics and Ferrari performance sequences. One of the most exciting live shows in the Middle East. Suitable for all ages.",
+        "es": "Espectacular espectaculo en vivo con conduccion acrobatica, pirotecnia y secuencias de actuaciones Ferrari. Apto para todas las edades.",
+        "fr": "Spectaculaire spectacle en direct avec conduite de cascade, pyrotechnie et sequences Ferrari. Convient a tous les ages.",
+        "de": "Spektakulare Live-Show mit Stuntfahren, Pyrotechnik und Ferrari-Performance-Sequenzen. Fur alle Altersgruppen.",
+        "it": "Spettacolare show dal vivo con stunt driving, pirotecnia e sequenze di performance Ferrari. Adatto a tutte le eta.",
+        "nl": "Spectaculaire live show met stuntrij-acts, vuurwerk en Ferrari performance sequenties. Geschikt voor alle leeftijden.",
+        "pt": "Espetacular espetaculo ao vivo com conducao de acrobacias, pirotecnia e sequencias de performance Ferrari. Adequado para todas as idades.",
+        "ru": "Зрелищное шоу с трюками и пиротехникой. Подходит для всех.",
+        "zh": "壮观的现场表演，包括特技驾驶、烟火和费拉利表演环节。适合所有年龄。",
+        "ar": "عرض حي مذهل مع قيادة حيلة وألعاب نارية. مناسب لجميع الأعمار."
+      }
+    },
+    "ferrari_gallery": {
+      "desc": {
+        "en": "The world's most comprehensive Ferrari exhibition spanning the entire history from 1947 to today. Unmissable for any Ferrari enthusiast. Suitable for all ages.",
+        "es": "La exposicion de Ferrari mas completa del mundo que abarca toda la historia desde 1947. Imperdible para cualquier entusiasta de Ferrari. Apto para todas las edades.",
+        "fr": "L exposition Ferrari la plus complete du monde couvrant toute l histoire de 1947 a aujourd hui. Incontournable pour tout fan de Ferrari. Convient a tous les ages.",
+        "de": "Die umfassendste Ferrari-Ausstellung der Welt von 1947 bis heute. Ein Muss fur jeden Ferrari-Enthusiasten. Fur alle Altersgruppen.",
+        "it": "La mostra Ferrari piu completa del mondo che abbraccia tutta la storia dal 1947 ad oggi. Imperdibile per qualsiasi appassionato di Ferrari. Adatto a tutte le eta.",
+        "nl": "De meest uitgebreide Ferrari tentoonstelling ter wereld van 1947 tot heden. Een must voor elke Ferrari liefhebber. Geschikt voor alle leeftijden.",
+        "pt": "A mais completa exposicao Ferrari do mundo abrangendo toda a historia desde 1947. Imperdivel para qualquer entusiasta de Ferrari. Adequado para todas as idades.",
+        "ru": "Самая полная выставка Ferrari с 1947 года по сегодняшний день. Подходит для всех.",
+        "zh": "全球最全面的费拉利展览，涵盖1947年至今的完整历史。适合所有年龄。",
+        "ar": "أشمل معرض Ferrari في العالم من 1947 حتى اليوم. مناسب لجميع الأعمار."
+      }
+    },
+    "gallery": {
+      "desc": {
+        "en": "4D flying theatre taking riders on a magical journey through the world of Ferrari — motion simulation with stunning visuals and the Ferrari story. Min 105cm.",
+        "es": "Teatro 4D volador que lleva a los pasajeros en un viaje magico por el mundo Ferrari. Min 105cm.",
+        "fr": "Theatre volant 4D emmenant les passagers dans un voyage magique a travers le monde Ferrari. Min 105cm.",
+        "de": "4D-Flugtheater das Besucher auf eine magische Reise durch die Ferrari-Welt mitnimmt. Mindestgrosse 105cm.",
+        "it": "Teatro volante 4D che porta i passeggeri in un viaggio magico attraverso il mondo Ferrari. Min 105cm.",
+        "nl": "4D vliegtheater dat rijders meeneemt op een magische reis door de Ferrari wereld. Min 105cm.",
+        "pt": "Teatro voador 4D levando passageiros numa viagem magica pelo mundo Ferrari. Min 105cm.",
+        "ru": "4D-летающий театр по миру Ferrari. Мин 105 см.",
+        "zh": "4D飞行山剥剧场，带您踏上费拉利世界的魔法之旅。最低身高105厘米。",
+        "ar": "مسرح 4D طائر يأخذ الركاب في رحلة سحرية عبر عالم Ferrari. الحد الادنى 105 سم."
+      }
+    }
+  },
+  "food": {
+    "food_cavallino": {
+      "desc": {
+        "en": "Upscale Italian restaurant inspired by Enzo Ferrari's favourite Maranello restaurant — handmade pasta, risotto, premium grilled meats and fine Italian wines in an elegant Ferrari-themed setting.",
+        "es": "Restaurante italiano de lujo inspirado en el restaurante favorito de Enzo Ferrari en Maranello — pasta artesanal, risotto y carnes a la parrilla en un elegante ambiente Ferrari.",
+        "fr": "Restaurant italien haut de gamme inspire du restaurant prefere d Enzo Ferrari a Maranello — pates artisanales, risotto et viandes grillees dans un cadre Ferrari elegant.",
+        "de": "Gehobenes italienisches Restaurant inspiriert von Enzo Ferraris Lieblingsrestaurant in Maranello — handgemachte Pasta, Risotto und Grillsteaks.",
+        "it": "Ristorante italiano raffinato ispirato al ristorante preferito di Enzo Ferrari a Maranello — pasta fatta a mano, risotto e carni alla griglia.",
+        "nl": "Luxe Italiaans restaurant gebaseerd op Enzo Ferrari's favoriete restaurant in Maranello — handgemaakte pasta, risotto en gegrild vlees.",
+        "pt": "Restaurante italiano sofisticado inspirado no restaurante favorito de Enzo Ferrari em Maranello — massa artesanal, risotto e carnes grelhadas.",
+        "ru": "Изысканный итальянский ресторан, вдохновленный любимым рестораном Энцо Ferrari.",
+        "zh": "以恩佐·费拉利居常光顾的马兰罗餐厅为选题的高级意大利餐厅。",
+        "ar": "مطعم إيطالي راقي مستوحى من مطعم Enzo Ferrari المفضل."
+      }
+    },
+    "food_gran_tour_emilia": {
+      "desc": {
+        "en": "Generous Italian buffet celebrating the food of Emilia-Romagna — home of Ferrari and some of the world's greatest food including Parmigiano, Prosciutto di Parma and Modena Balsamic.",
+        "es": "Generoso buffet italiano celebrando la gastronomia de Emilia-Romagna — cuna de Ferrari y de algunos de los mejores alimentos del mundo.",
+        "fr": "Genereux buffet italien celebrant la gastronomie d Emilie-Romagne — berceau de Ferrari et de certains des meilleurs aliments du monde.",
+        "de": "Grosszugiges italienisches Buffet zur Feier der Kueche der Emilia-Romagna — Heimat von Ferrari und einigen der besten Lebensmittel der Welt.",
+        "it": "Generoso buffet italiano in celebrazione del cibo dell Emilia-Romagna — patria di Ferrari e di alcuni dei migliori alimenti del mondo.",
+        "nl": "Genereus Italiaans buffet ter ere van het eten uit Emilia-Romagna — geboortestreek van Ferrari en enkele van de beste voedingsmiddelen ter wereld.",
+        "pt": "Generoso buffet italiano celebrando a gastronomia da Emilia-Romagna — lar da Ferrari e alguns dos melhores alimentos do mundo.",
+        "ru": "Щедрый итальянский буфет в честь кухни Эмилии-Романьи.",
+        "zh": "庆祝艾米利亚-罗马涅约罗美食的丰盛意大利自助餐——费拉利的故乡。",
+        "ar": "بوفيه إيطالي سخي يحتفل بطعام إقليم إيميليا-روماغنيا."
+      }
+    },
+    "food_il_podio": {
+      "desc": {
+        "en": "Lively quick-service Italian restaurant with pizza, pasta and Italian snacks in a Ferrari race podium atmosphere.",
+        "es": "Animado restaurante italiano de servicio rapido con pizza, pasta y aperitivos en una atmosfera de podio de carreras Ferrari.",
+        "fr": "Vivant restaurant italien rapide avec pizza, pates et snacks dans une atmosphere de podium de course Ferrari.",
+        "de": "Lebhaftes Schnellservice-Restaurant mit Pizza, Pasta und Snacks in Ferrari-Rennpodium-Atmosphare.",
+        "it": "Vivace ristorante italiano rapido con pizza, pasta e snack in un atmosfera di podio di gara Ferrari.",
+        "nl": "Levendig snelservice Italiaans restaurant met pizza, pasta en snacks in Ferrari race podium sfeer.",
+        "pt": "Animado restaurante italiano rapido com pizza, massa e snacks numa atmosfera de podio de corridas Ferrari.",
+        "ru": "Быстрый итальянский ресторан в атмосфере пьедестала Ferrari.",
+        "zh": "尅活的快餐意大利餐厅，供应披萨、意面和意大利小吃，浓情资赛灯台氛围。",
+        "ar": "مطعم إيطالي سريع مع بيتزا ومعكرونة في أجواء منصة Ferrari."
+      }
+    },
+    "food_mama_rossella": {
+      "desc": {
+        "en": "Warm family Italian trattoria with generous home-style cooking — lasagne, pizza, pasta and traditional Italian desserts in a cheerful family kitchen atmosphere.",
+        "es": "Calida trattoria italiana familiar con cocina casera generosa — lasana, pizza, pasta y postres tradicionales italianos.",
+        "fr": "Chaleureuse trattoria italienne familiale avec cuisine maison genereuse — lasagne, pizza, pates et desserts italiens traditionnels.",
+        "de": "Warme Familientrattoria mit grosszugiger Hausmannskost — Lasagne, Pizza, Pasta und traditionelle italienische Desserts.",
+        "it": "Calda trattoria italiana familiare con cucina casalinga generosa — lasagne, pizza, pasta e dolci italiani tradizionali.",
+        "nl": "Warm familiare Italiaanse trattoria met royale huisgemaakte keuken — lasagne, pizza, pasta en traditionele Italiaanse desserts.",
+        "pt": "Calorosa trattoria italiana familiar com culinaria caseira generosa — lasanha, pizza, massa e sobremesas italianas tradicionais.",
+        "ru": "Тёплая семейная траттория с домашней итальянской кухней.",
+        "zh": "温馨的家庭式意大利艹酒馆，供应丰盛的家常菜肴——娃娃宽面、披萨和意大利传统甜点。",
+        "ar": "تراتوريا إيطالية عائلية دافئة بطعام منزلية سخية."
+      }
+    },
+    "food_officers_food_quarters": {
+      "desc": {
+        "en": "Casual international dining near Flying Aces themed to WWI aviators — burgers, wraps and international snacks in a lively aviator atmosphere.",
+        "es": "Comedor internacional casual cerca de Flying Aces con tematica de aviadores de la Primera Guerra Mundial — hamburgesas, wraps y aperitivos.",
+        "fr": "Restauration internationale casual pres de Flying Aces theme aux aviateurs de la Premiere Guerre mondiale — burgers, wraps et snacks.",
+        "de": "Entspannte internationale Gastronomie in der Nahe von Flying Aces mit Ersten Weltkrieg Aviator Thema.",
+        "it": "Ristorazione internazionale casual vicino a Flying Aces con tema aviatori Prima Guerra Mondiale.",
+        "nl": "Casual internationale eetgelegenheid bij Flying Aces met WO1 aviateur thema.",
+        "pt": "Restauracao internacional casual perto de Flying Aces com tema aviadores da Primeira Guerra Mundial.",
+        "ru": "Неформальное международное кафе в тематике лётчиков.",
+        "zh": "近非航王牌周边以一战飞行员为主题的休闲国际餐厅。",
+        "ar": "طعام دولي غير رسمي بالقرب من Flying Aces بطابع طياريِ الحرب العالمية الأولى."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_yas_viceroy": {
+      "desc": {
+        "en": "Iconic hotel straddling the Yas Marina F1 circuit with LED canopy — track-facing rooms watch F1 cars race beneath during the Abu Dhabi Grand Prix. Directly connected to Ferrari World.",
+        "es": "Icónico hotel a horcajadas sobre el circuito F1 de Yas Marina con dosel LED — habitaciones frente a la pista ven los coches F1 durante el Gran Premio. Conectado directamente a Ferrari World.",
+        "fr": "Hotel iconique enjambant le circuit F1 de Yas Marina avec baldaquin LED — les chambres face a la piste voient les voitures F1 pendant le Grand Prix. Connecte directement a Ferrari World.",
+        "de": "Ikonisches Hotel das uber dem Yas Marina F1-Kurs mit LED-Baldachin steht — Rennstrecken-Zimmer sehen F1-Autos beim Grand Prix. Direkt mit Ferrari World verbunden.",
+        "it": "Hotel iconico a cavalcioni del circuito F1 di Yas Marina con baldacchino LED — le camere sul circuito vedono le auto F1 durante il Gran Premio. Collegato direttamente a Ferrari World.",
+        "nl": "Iconisch hotel boven het Yas Marina F1-circuit met LED-baldakijn — circuit-kamers kijken naar F1-auto's tijdens de Grand Prix. Direct verbonden met Ferrari World.",
+        "pt": "Hotel iconico sobre o circuito F1 de Yas Marina com baldaquino LED — quartos virados para a pista veem carros F1 durante o Grande Premio. Directamente ligado a Ferrari World.",
+        "ru": "Иконический отель над трассой F1 — вид на гонки из номеров. Прямое сообщение с Ferrari World.",
+        "zh": "标志性酒店横跨亚斯马琴F1赛道——面对赛道的房间在阿布扔比亚大奖赛期间可看到F1车在脚下穿梭。直接连接费拉利世界。",
+        "ar": "فندق أيقوني يمتد فوق حلبة F1 — غرف مطلة على الحلبة تشاهد سيارات F1. متصل مباشرة بـ Ferrari World."
+      }
+    },
+    "hotel_crowne_plaza_yas_island": {
+      "desc": {
+        "en": "Premium 5-star hotel directly on Yas Island, steps from Ferrari World — elegant rooms, multiple pools, full spa and dining in a beautifully landscaped resort.",
+        "es": "Hotel de 5 estrellas directamente en Yas Island, a pasos de Ferrari World — habitaciones elegantes, multiples piscinas, spa completo y restaurantes.",
+        "fr": "Hotel 5 etoiles directement sur Yas Island, a deux pas de Ferrari World — chambres elegantes, piscines, spa complet et restauration.",
+        "de": "Premium 5-Sterne-Hotel direkt auf Yas Island, Schritte von Ferrari World entfernt — elegante Zimmer, mehrere Pools, Vollservice-Spa.",
+        "it": "Hotel 5 stelle direttamente su Yas Island, a pochi passi da Ferrari World — camere eleganti, piscine, spa completa e ristorazione.",
+        "nl": "Premium 5-sterrenhotel direct op Yas Island, stappen van Ferrari World — elegante kamers, meerdere zwembaden, volledig spa.",
+        "pt": "Hotel premium de 5 estrelas directamente na Ilha de Yas, a passos de Ferrari World — quartos elegantes, piscinas, spa completo.",
+        "ru": "Премиальный 5-звёздный отель на острове Яс, в нескольких шагах от Ferrari World.",
+        "zh": "谢岛上的顶级五星级酒店，离费拉利世界仅几步之遥。",
+        "ar": "فندق 5 نجوم مباشرة على جزيرة ياس، خطوات من Ferrari World."
+      }
+    },
+    "hotel_radisson_blue_yas_island": {
+      "desc": {
+        "en": "Well-appointed 5-star hotel on Yas Island with three outdoor pools, spa, fitness centre and multiple dining venues — walking distance from Ferrari World.",
+        "es": "Hotel de 5 estrellas bien equipado en Yas Island con tres piscinas, spa y multiples restaurantes — a distancia a pie de Ferrari World.",
+        "fr": "Hotel 5 etoiles bien equipe sur Yas Island avec trois piscines, spa et plusieurs restaurants — a distance a pied de Ferrari World.",
+        "de": "Gut ausgestattetes 5-Sterne-Hotel auf Yas Island mit drei Pools, Spa und mehreren Restaurants — Gehweite von Ferrari World.",
+        "it": "Hotel 5 stelle ben attrezzato su Yas Island con tre piscine, spa e diversi ristoranti — a piedi da Ferrari World.",
+        "nl": "Goed uitgerust 5-sterrenhotel op Yas Island met drie zwembaden, spa en meerdere restaurants — loopafstand van Ferrari World.",
+        "pt": "Hotel de 5 estrelas bem equipado na Ilha de Yas com tres piscinas, spa e varios restaurantes — a pe de Ferrari World.",
+        "ru": "Хорошо оборудованный 5-звёздный отель на острове Яс с тремя бассейнами.",
+        "zh": "谢岛配备完善的五星级酒店，设有三个户外泳池和Spa。步行可到费拉利世界。",
+        "ar": "فندق 5 نجوم جيد التجهيز على جزيرة ياس مع ثلاثة مسابح — مسافة مشي من Ferrari World."
+      }
+    },
+    "hotel_staybridge_suites_yas_island": {
+      "desc": {
+        "en": "Comfortable extended-stay hotel with spacious apartment-style suites and full kitchens — ideal for families. Free shuttle to Yas Island theme parks.",
+        "es": "Comodo hotel de estancia prolongada con suites tipo apartamento y cocinas completas — ideal para familias. Traslado gratuito a los parques tematicos.",
+        "fr": "Hotel d hebergement confortable avec suites type appartement et cuisines completes — ideal pour les familles. Navette gratuite vers les parcs.",
+        "de": "Komfortables Hotel fur langeren Aufenthalt mit geraumigen Apartmentsuiten und vollstandigen Kuchen — ideal fur Familien. Kostenloser Shuttle zu den Parks.",
+        "it": "Hotel confortevole per soggiorni prolungati con suite tipo appartamento e cucine complete — ideale per famiglie. Navetta gratuita per i parchi.",
+        "nl": "Comfortabel langer verblijf hotel met ruime appartementsuites en volledig uitgeruste keukens — ideaal voor gezinnen. Gratis shuttle naar de parken.",
+        "pt": "Hotel confortavel para estadias prolongadas com suites tipo apartamento e cozinhas completas — ideal para familias. Shuttle gratuito para os parques.",
+        "ru": "Удобный отель с просторными апартаментами для семей. Бесплатный шаттл.",
+        "zh": "舒适的长期入住酒店，设有全套厨房的公寓式套房——适合家庭。提供谢岛主题公园免费班车。",
+        "ar": "فندق إقامة طويلة مريح بأجنحة شقق ومطابخ كاملة — مثالي للعائلات. شاتل مجاني."
+      }
+    }
+  }
+}

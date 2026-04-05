@@ -25,6 +25,10 @@ const FUNPARKS_PARKS = [
   { id: "lego_billund", name: "LEGOLAND Billund", country: "Denmark" },
   { id: "walibinl", name: "Walibi Netherlands", country: "Netherlands" },
   { id: "legoland_deutschland", name: "LEGOLAND Deutschland", country: "Germany" },
+  { id: "puydufou", name: "Puy du Fou", country: "France" },
+  { id: "mirabilandia", name: "Mirabilandia", country: "Italy" },
+  { id: "zoomarine", name: "Zoomarine", country: "Portugal" },
+  { id: "parque_warner_madrid", name: "Parque Warner Madrid", country: "Spain" },
 ];
 
 const FUNPARKS_FEATURES = `The Funparks app includes the following features:

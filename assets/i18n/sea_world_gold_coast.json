@@ -1,0 +1,420 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Sea World Gold Coast is Australia's premier marine theme park, located on a peninsula in the Broadwater at Main Beach on the Gold Coast in Queensland. Opened in 1971, Sea World combines world-class marine wildlife experiences with thrilling rides and spectacular live shows. Home to polar bears, penguins, dolphins, sharks, rays and an extraordinary range of marine life alongside the record-breaking Leviathan roller coaster, Sea World offers a uniquely diverse experience that cannot be found anywhere else in Australia. Attracts over 1.5 million visitors annually.",
+      "es": "Sea World Gold Coast es el principal parque tematico marino de Australia, ubicado en una peninsula en Broadwater en Main Beach en la Costa de Oro de Queensland. Inaugurado en 1971, Sea World combina experiencias de vida marina de clase mundial con atracciones emocionantes y espectaculos en vivo. Hogar de osos polares, pinguinos, delfines, tiburones y rayas. Atrae mas de 1.5 millones de visitantes anuales.",
+      "fr": "Sea World Gold Coast est le principal parc a themes marin d Australie, situe sur une peninsule dans le Broadwater a Main Beach sur la Gold Coast du Queensland. Ouvert en 1971, Sea World combine des experiences de vie marine de classe mondiale avec des attractions palpitantes. Accueille plus de 1,5 million de visiteurs par an.",
+      "de": "Sea World Gold Coast ist Australiens fuhrende Meeres-Themenpark, auf einer Halbinsel im Broadwater in Main Beach an der Gold Coast von Queensland gelegen. 1971 eroffnet kombiniert Sea World weltklasse Meeresleben-Erlebnisse mit aufregenden Fahrten. Uber 1,5 Millionen Besucher jahrlich.",
+      "it": "Sea World Gold Coast e il principale parco a tema marino d Australia, situato su una penisola nel Broadwater a Main Beach sulla Gold Coast del Queensland. Aperto nel 1971, Sea World combina esperienze di vita marina di livello mondiale con attrazioni emozionanti. Oltre 1,5 milioni di visitatori annui.",
+      "nl": "Sea World Gold Coast is het toonaangevende mariene themapark van Australie, gelegen op een schiereiland in de Broadwater bij Main Beach aan de Gold Coast van Queensland. Geopend in 1971 combineert Sea World wereldklasse zeeleven ervaringen met spannende attracties. Meer dan 1,5 miljoen bezoekers per jaar.",
+      "pt": "Sea World Gold Coast e o principal parque tematico marinho da Australia, localizado numa peninsula no Broadwater em Main Beach na Gold Coast de Queensland. Aberto em 1971, Sea World combina experiencias de vida marinha de classe mundial com atracoes emocionantes. Mais de 1,5 milhoes de visitantes anuais.",
+      "ru": "Sea World Gold Coast — ведущий морской тематический парк Австралии, расположенный на полуострове на Голд Кост. Открыт в 1971 году. Более 1,5 млн посетителей ежегодно.",
+      "zh": "黄金海岸海洋世界是澳大利亚首屈海洋主题公园，位于明尼苏达州黄金海岸广湿半岛上。它于1971年开放，将世界级海洋生物体验与刺激游乐项目和壮观表演融为一体。每年吸引逾150万游客。",
+      "ar": "Sea World Gold Coast هو المتنزه البحري الرائد في أستراليا، يقع على شبه جزيرة في Gold Coast. افتتح 1971 ويستقبل أكثر من 1.5 مليون زائر سنويا."
+    },
+    "ov_highlights_body": {
+      "en": "Leviathan is the Gold Coast's most intense roller coaster — a world-class inverted coaster opened in 2023. Jet Rescue launched coaster delivers thrills at 72 km/h. Storm Coaster is a unique water coaster concept. Dolphin Show is the most beloved marine presentation in the Southern Hemisphere. Penguin Encounter houses a remarkable colony of gentoo and king penguins. Polar Bear Shores is one of only a handful of polar bear habitats in the Southern Hemisphere. Shark Bay offers snorkelling with nurse sharks. Sea World Helicopters provide breathtaking Gold Coast scenic flights.",
+      "es": "Leviathan es el coaster mas intenso de la Costa de Oro abierto en 2023. El Espectaculo de Delfines es la presentacion marina mas amada del hemisferio sur. Penguin Encounter alberga una notable colonia de pinguinos. Polar Bear Shores es uno de los pocos habitats de osos polares del hemisferio sur. Shark Bay ofrece buceo con tiburones.",
+      "fr": "Leviathan est le coaster le plus intense de la Gold Coast ouvert en 2023. Le Spectacle de Dauphins est la presentation marine la plus aimee de l hemisphere sud. Penguin Encounter abrite une remarquable colonie de manchots. Polar Bear Shores est l un des rares habitats d ours polaires de l hemisphere sud. Shark Bay offre la plongee avec des requins.",
+      "de": "Leviathan ist der intensivste Achterbahn der Gold Coast, 2023 eroffnet. Die Delfinshow ist die beliebteste Meeresprasentation der Sudlichen Hemisphare. Penguin Encounter beherbergt eine bemerkenswerte Pinguinkolonie. Polar Bear Shores ist einer der wenigen Eisbarenlebensraume der Sudlichen Hemisphare. Shark Bay bietet Schnorcheln mit Haien.",
+      "it": "Leviathan e il coaster piu intenso della Gold Coast aperto nel 2023. Lo Spettacolo dei Delfini e la presentazione marina piu amata dell emisfero australe. Penguin Encounter ospita una notevole colonia di pinguini. Polar Bear Shores e uno dei pochi habitat di orsi polari dell emisfero australe. Shark Bay offre snorkeling con gli squali.",
+      "nl": "Leviathan is de meest intense achtbaan van de Gold Coast geopend in 2023. De Dolfijnenshow is de meest geliefde mariene presentatie van het zuidelijk halfrond. Penguin Encounter herbergt een opmerkelijke pinguinkolonie. Polar Bear Shores is een van de weinige ijsbeerhabitats van het zuidelijk halfrond. Shark Bay biedt snorkelen met haaien.",
+      "pt": "Leviathan e o coaster mais intenso da Gold Coast aberto em 2023. O Espetaculo de Golfinhos e a apresentacao marinha mais amada do hemisferio sul. Penguin Encounter alberga uma notavel colonia de pinguins. Polar Bear Shores e um dos poucos habitats de ursos polares do hemisferio sul. Shark Bay oferece mergulho com tubaroes.",
+      "ru": "Leviathan — самый интенсивный коастер Gold Coast, открыт в 2023 году. Шоу дельфинов — любимое мероприятие Южного полушария. Penguin Encounter и Polar Bear Shores — уникальные возможности для встречи с дикой природой.",
+      "zh": "利维坦是2023年开放的黄金海岸最刺激过山车。海豚表演是南半球最受欢迎的海洋表演。企鹅乐园和极地熊海岸是南半球极少数的极地熊棱息地之一。鲨鱼湾提供与护士鲨一起潜水的体验。",
+      "ar": "Leviathan هو أكثر اوتوستراد كثافة في Gold Coast افتتح 2023. عرض الدلافين هو أكثر عروض بحرية محبوبية في نصف الكرة الجنوبي."
+    },
+    "ov_did_you_know_body": {
+      "en": "Sea World was the first theme park to open on the Gold Coast in 1971 — predating Warner Bros. Movie World by 20 years. The park is built on reclaimed land on a peninsula in the Broadwater and is surrounded on three sides by water. Sea World has the only colony of gentoo penguins in Queensland and one of only two polar bear habitats in Australia. Leviathan opened in 2023 as the Gold Coast's most intense roller coaster. Sea World helicopters have been operating scenic flights over the Gold Coast for over 30 years making it one of the longest-running helicopter tour operations in Australia.",
+      "es": "Sea World fue el primer parque tematico en abrir en la Costa de Oro en 1971. El parque esta construido en tierra reclamada en una peninsula en el Broadwater. Sea World tiene la unica colonia de pinguinos Gentoo de Queensland. Leviathan abrio en 2023 como el coaster mas intenso de la Costa de Oro.",
+      "fr": "Sea World etait le premier parc a themes a ouvrir sur la Gold Coast en 1971. Le parc est construit sur terrain reclamé sur une peninsule dans le Broadwater. Sea World a la seule colonie de manchots Gentoo du Queensland. Leviathan a ouvert en 2023 comme le coaster le plus intense de la Gold Coast.",
+      "de": "Sea World war der erste Themenpark der Gold Coast und offnete 1971. Der Park ist auf zuruckgewonnenem Land auf einer Halbinsel im Broadwater gebaut. Sea World hat die einzige Gentoo-Pinguinkolonie in Queensland. Leviathan offnete 2023 als intensivster Achterbahn der Gold Coast.",
+      "it": "Sea World e stato il primo parco a tema ad aprire sulla Gold Coast nel 1971. Il parco e costruito su terreno bonificato su una penisola nel Broadwater. Sea World ha l unica colonia di pinguini Gentoo del Queensland. Leviathan ha aperto nel 2023 come il coaster piu intenso della Gold Coast.",
+      "nl": "Sea World was het eerste themapark op de Gold Coast dat opende in 1971. Het park is gebouwd op teruggewonnen land op een schiereiland in de Broadwater. Sea World heeft de enige Gentoo pinguinkolonie in Queensland. Leviathan opende in 2023 als de meest intense achtbaan van de Gold Coast.",
+      "pt": "Sea World foi o primeiro parque tematico a abrir na Gold Coast em 1971. O parque e construido em terra reclamada numa peninsula no Broadwater. Sea World tem a unica colonia de pinguins Gentoo de Queensland. Leviathan abriu em 2023 como o coaster mais intenso da Gold Coast.",
+      "ru": "Sea World был первым тематическим парком Gold Coast в 1971 году. Единственная колония пингвинов дженту в Куинсленде. Leviathan открылся в 2023 году.",
+      "zh": "海洋世界是1971年黄金海岸第一个开放的主题公园。它建在广湿半岛的围地上，三面环水。黄金海岸唯一的源间企鹅色半岛手本板兰地就在此。利维坦于2023年开放。",
+      "ar": "Sea World كان أول متنزه على Gold Coast افتتح 1971. المستعمرة الوحيدة لبطاريق Gentoo في Queensland. افتتح Leviathan 2023."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head straight to Leviathan — the queue builds to 90 minutes by 10am. Jet Rescue and Storm Coaster second and third. Check the dolphin show and live show schedules at the entrance — prime viewing spots fill 30 minutes before the show. Penguin Encounter is best early morning when penguins are most active. Polar Bear Shores feeding times are posted daily — plan around these for the best viewing. Shark Bay snorkelling requires separate booking. Castaway Bay is best in the afternoon heat. Sea World helicopters book up fast — reserve online before visiting.",
+      "es": "Llega a la apertura y ve directamente a Leviathan. Jet Rescue y Storm Coaster despues. Comprueba los horarios del espectaculo de delfines y los shows en vivo. Penguin Encounter es mejor de manana. Los horarios de alimentacion de Polar Bear Shores se publican diariamente. El buceo en Shark Bay requiere reserva separada.",
+      "fr": "Arrivez a l ouverture et allez directement a Leviathan. Jet Rescue et Storm Coaster ensuite. Consultez les horaires du spectacle de dauphins. Penguin Encounter est ideal le matin. Les horaires de nourrissage de Polar Bear Shores sont publies chaque jour. Shark Bay necessite une reservation separee.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Leviathan. Jet Rescue und Storm Coaster danach. Prufen Sie die Delfinsshow-Zeiten. Penguin Encounter ist am besten am Morgen. Futerzeiten von Polar Bear Shores werden taglich bekannt gegeben. Shark Bay Schnorcheln erfordert separate Buchung.",
+      "it": "Arriva all apertura e vai direttamente a Leviathan. Jet Rescue e Storm Coaster dopo. Controlla gli orari dello spettacolo dei delfini. Penguin Encounter e meglio al mattino. Gli orari di alimentazione di Polar Bear Shores sono pubblicati giornalmente. Lo snorkeling a Shark Bay richiede prenotazione separata.",
+      "nl": "Kom bij opening en ga direct naar Leviathan. Jet Rescue en Storm Coaster daarna. Controleer de dolfijnenshow tijden. Penguin Encounter is het beste in de ochtend. Voedertijden van Polar Bear Shores worden dagelijks bekendgemaakt. Shark Bay snorkelen vereist aparte boeking.",
+      "pt": "Chega na abertura e vai directamente a Leviathan. Jet Rescue e Storm Coaster a seguir. Consulta os horarios do espetaculo de golfinhos. Penguin Encounter e melhor de manha. Os horarios de alimentacao de Polar Bear Shores sao publicados diariamente. O mergulho em Shark Bay requer reserva separada.",
+      "ru": "Приходите к открытию и сразу к Leviathan. Jet Rescue и Storm Coaster затем. Узнайте расписание шоу дельфинов. Penguin Encounter лучше утром. Shark Bay требует отдельной брони.\n",
+      "zh": "开园时到达直接前往利维坦。救援喜气车和风暴过山车接蹵而至。在入口查看海豚表演时间表。企鹅乐园在早晨活跃度最高。鲨鱼湾潜水需预先预约。",
+      "ar": "صل عند الافتتاح واذهب مباشرة لـ Leviathan. Jet Rescue وStorm Coaster بعدها. تحقق من مواعيد عروض الدلافين."
+    },
+    "ov_photos_body": {
+      "en": "Leviathan photographed from below during an inversion creates one of the most dramatic coaster images on the Gold Coast. The dolphin show photographed mid-leap against the Broadwater backdrop is the defining image of Sea World. Penguin Encounter photographed through the underwater viewing windows creates extraordinary wildlife photography. Polar Bear Shores bears photographed swimming underwater through the viewing windows is unique in Australian photography. Sunset helicopter photographs over the Gold Coast skyline and Broadwater are among the finest aerial photography opportunities in Queensland.",
+      "es": "Leviathan fotografiado desde abajo durante una inversion crea una de las imagenes de coaster mas dramaticas de la Costa de Oro. El espectaculo de delfines fotografiado en pleno salto es la imagen definitoria de Sea World. Las fotos a traves de las ventanas subacuaticas de Penguin Encounter son extraordinarias.",
+      "fr": "Leviathan photographie depuis le dessous lors d une inversion cree l une des images de coaster les plus dramatiques. Le spectacle de dauphins photographie en saut est l image definissante de Sea World. Les photos a travers les vitres sous-marines de Penguin Encounter sont extraordinaires.",
+      "de": "Leviathan von unten wahrend einer Inversion fotografiert schafft eines der dramatischsten Achterbahnbilder. Die Delfinsshow beim Sprung fotografiert ist das prasentierende Bild von Sea World. Fotos durch die Unterwasserfenster von Penguin Encounter sind aussergewohnlich.",
+      "it": "Leviathan fotografato dal basso durante un inversione crea una delle immagini di coaster piu drammatiche. Lo spettacolo dei delfini fotografato in salto e l immagine definitiva di Sea World. Le foto attraverso le finestre subacquee di Penguin Encounter sono straordinarie.",
+      "nl": "Leviathan van onderaf gefotografeerd tijdens een inversie creert een van de meest dramatische achtbaanbeelden. De dolfijnenshow gefotografeerd tijdens een sprong is het bepalende beeld van Sea World. Foto's door de onderwaterramen van Penguin Encounter zijn buitengewoon.",
+      "pt": "Leviathan fotografado de baixo durante uma inversao cria uma das imagens de coaster mais dramaticas. O espetaculo de golfinhos fotografado em salto e a imagem definitiva de Sea World. As fotos atraves das janelas subaquaticas de Penguin Encounter sao extraordinarias.",
+      "ru": "Leviathan снизу во время инверсии — один из самых драматичных снимков Gold Coast. Шоу дельфинов в прыжке — символ Sea World.",
+      "zh": "利维坦在翻转时仿佛从正下方拍摄，创造了黄金海岸最壮观的过山车影像。海豚表演躊跃时的拍摄是海洋世界的标志性画面。透过水下观察窗拍摄的企鹅照片面极为独特。",
+      "ar": "Leviathan مصور من الأسفل أثناء الانعكاس هو من أكثر صور الاوتوستراد درامية. عرض الدلافين أثناء القفز هو الصورة المحددة لـ Sea World."
+    }
+  },
+  "attractions": {
+    "leviathan": {
+      "desc": {
+        "en": "The Gold Coast's most intense roller coaster — world-class inverted coaster with 4 inversions at 95 km/h. Opened 2023. The crown jewel of Sea World. Min 130cm.",
+        "es": "El coaster mas intenso de la Costa de Oro — coaster invertido con 4 inversiones a 95 km/h. Abierto 2023. Min 130cm.",
+        "fr": "Le coaster le plus intense de la Gold Coast — coaster inverse avec 4 inversions a 95 km/h. Ouvert 2023. Min 130cm.",
+        "de": "Der intensivste Achterbahn der Gold Coast — invertierter Coaster mit 4 Inversionen bei 95 km/h. 2023 eroffnet. Mindestgrosse 130cm.",
+        "it": "Il coaster piu intenso della Gold Coast — coaster invertito con 4 inversioni a 95 km/h. Aperto 2023. Min 130cm.",
+        "nl": "De meest intense achtbaan van de Gold Coast — inverted coaster met 4 inversies bij 95 km/h. Geopend 2023. Min 130cm.",
+        "pt": "O coaster mais intenso da Gold Coast — coaster invertido com 4 inversoes a 95 km/h. Aberto 2023. Min 130cm.",
+        "ru": "Самый интенсивный коастер Gold Coast с 4 инверсиями. Открыт в 2023 г. Мин 130 см.",
+        "zh": "黄金海岸最刺激的过山车——带䜀4个翻转的倒挂过山车，速度达95公里/小时。2023年开放。最低身高130厘米。",
+        "ar": "أكثر اوتوستراد كثافة في Gold Coast بسرعة 95 كم/س. افتتح 2023. الحد الادنى 130 سم."
+      }
+    },
+    "jet_rescue": {
+      "desc": {
+        "en": "Launched coaster themed to rescue jets speeding over ocean waves at 72 km/h. One of the most exciting family-thrill coasters in Australia. Min 110cm.",
+        "es": "Coaster lanzado tematizado en jets de rescate a 72 km/h. Uno de los coasters de emocion familiar mas emocionantes de Australia. Min 110cm.",
+        "fr": "Coaster lance theme a des jets de sauvetage a 72 km/h. L un des coasters familiaux les plus excitants d Australie. Min 110cm.",
+        "de": "Gestarteter Coaster mit Rettungsjet-Thema bei 72 km/h. Einer der aufregendsten Familien-Thrill-Coaster Australiens. Mindestgrosse 110cm.",
+        "it": "Coaster lanciato tema jet di salvataggio a 72 km/h. Uno dei coaster famiglia-brivido piu eccitanti d Australia. Min 110cm.",
+        "nl": "Gelanceerde coaster met reddingsjet thema bij 72 km/h. Een van de meest opwindende familie thrill coasters in Australie. Min 110cm.",
+        "pt": "Coaster lancado com tema de jatos de resgate a 72 km/h. Um dos coasters de emocao familiar mais emocionantes da Australia. Min 110cm.",
+        "ru": "Запускаемый коастер при 72 км/ч. Один из лучших семейных коастеров Австралии. Мин 110 см.",
+        "zh": "以60公里/小时模拟救援飞機岁海渚飞驰的发射过山车。最低身高110厘米。",
+        "ar": "اوتوستراد بثيمة طائرات إنقاذ بسرعة 72 كم/س. الحد الادنى 110 سم."
+      }
+    },
+    "storm_coaster": {
+      "desc": {
+        "en": "Unique water coaster using powerful water jets to propel riders uphill then releasing them in a dramatic plunge. One of the most original ride concepts in Australia. Min 110cm.",
+        "es": "Unico coaster de agua usando potentes chorros de agua para propulsar a los pasajeros colina arriba. Min 110cm.",
+        "fr": "Unique coaster d eau utilisant des jets d eau puissants pour propulser les passagers en montee. Min 110cm.",
+        "de": "Einzigartiger Wassercoaster der kraftige Wasserstrahlen verwendet um Fahrer bergauf zu treiben. Mindestgrosse 110cm.",
+        "it": "Unico coaster acquatico che usa potenti getti d acqua per spingere i passeggeri in salita. Min 110cm.",
+        "nl": "Unieke watercoaster die krachtige waterstralen gebruikt om rijders omhoog te stuwen. Min 110cm.",
+        "pt": "Unico coaster de agua usando poderosos jatos de agua para propulsionar passageiros morro acima. Min 110cm.",
+        "ru": "Уникальный водный коастер. Мин 110 см.",
+        "zh": "独特的水上过山车，利用强力水柱推动骑乘者向上峨坏。最低身高110厘米。",
+        "ar": "اوتوستسراد مائي فريد يستخدم نفاثات مائية. الحد الادنى 110 سم."
+      }
+    },
+    "vortex": {
+      "desc": {
+        "en": "Suspended looping coaster with riders hanging beneath the track through 3 inversions. A Sea World institution. Min 130cm.",
+        "es": "Coaster de bucle suspendido con pasajeros colgando bajo la via en 3 inversiones. Una institucion de Sea World. Min 130cm.",
+        "fr": "Coaster a boucle suspendu avec passagers pendant sous la voie en 3 inversions. Une institution de Sea World. Min 130cm.",
+        "de": "Haengeloopingcoaster mit Fahrern die unter der Schiene durch 3 Inversionen hangen. Eine Sea World Institution. Mindestgrosse 130cm.",
+        "it": "Coaster a giro sospeso con i passeggeri appesi sotto la rotaia attraverso 3 inversioni. Un istituzione di Sea World. Min 130cm.",
+        "nl": "Hangende looping achtbaan met rijders die onder de baan door 3 inversies hangen. Een Sea World instituut. Min 130cm.",
+        "pt": "Coaster de loop suspenso com passageiros pendurados sob a via em 3 inversoes. Uma instituicao de Sea World. Min 130cm.",
+        "ru": "Перевернутый коастер с 3 инверсиями. Мин 130 см.",
+        "zh": "悬挂式循环过山车，骑乘者悬挂在轨道下方穿蜴3个翻转。最低身高130厘米。",
+        "ar": "اوتوستراد معلق بالحلقة مع 3 انعكاسات. الحد الادنى 130 سم."
+      }
+    },
+    "sky_flyer": {
+      "desc": {
+        "en": "Giant swing ride delivering breathtaking views of the Gold Coast coastline, Sea World lagoon and Broadwater before a terrifying free swing. Min 120cm.",
+        "es": "Atraccion de columpio gigante con vistas impresionantes de la costa de la Costa de Oro y la laguna de Sea World. Min 120cm.",
+        "fr": "Grande attraction de balancoire avec vues spectaculaires sur le littoral de la Gold Coast et le lagon de Sea World. Min 120cm.",
+        "de": "Riesige Schaukelatttraktion mit atemberaubenden Aussichten auf die Kuste der Gold Coast und die Sea World Lagune. Mindestgrosse 120cm.",
+        "it": "Grande attrazione di dondolo con viste mozzafiato sulla costa della Gold Coast e la laguna di Sea World. Min 120cm.",
+        "nl": "Reuzenscnommelattractie met adembenemend uitzicht over de Gold Coast kustlijn en Sea World lagune. Min 120cm.",
+        "pt": "Grande atracao de balanco com vistas deslumbrantes sobre o litoral da Gold Coast e a lagoa de Sea World. Min 120cm.",
+        "ru": "Огромные качели с видом на побережье Gold Coast. Мин 120 см.",
+        "zh": "巨型摇荡项目，俳瞰黄金海岸海岸线、海洋世界泵湖和广湿湿的广阔景色。最低身高120厘米。",
+        "ar": "أرجوحة ضخمة مع مناظر رائعة لساحل Gold Coast. الحد الادنى 120 سم."
+      }
+    },
+    "vikings_revenge": {
+      "desc": {
+        "en": "Classic Viking ship pendulum ride swinging at increasing height. Crowd-pleasing accessible thrill experience. Min 120cm.",
+        "es": "Clasico barco vikingo que columpia con altura creciente. Min 120cm.",
+        "fr": "Classique bateau viking balancant a hauteur croissante. Min 120cm.",
+        "de": "Klassisches Wikingerschiff bei zunehmender Hohe schaukelnd. Mindestgrosse 120cm.",
+        "it": "Classica nave vichinga che dondola ad altezza crescente. Min 120cm.",
+        "nl": "Klassieke Viking schip bij toenemende hoogte slingerend. Min 120cm.",
+        "pt": "Classico barco viking balancando com altura crescente. Min 120cm.",
+        "ru": "Классический маятник. Мин 120 см.",
+        "zh": "经典维京船项目，随着殯人高度的不断增加。最低身高120厘米。",
+        "ar": "سفينة فايكينج كلاسيكية. الحد الادنى 120 سم."
+      }
+    },
+    "castaway_bay": {
+      "desc": {
+        "en": "Spectacular water play area with slides, splash zones and a beautifully themed tropical shipwreck environment. Most popular area for families with young children. Min 90cm for slides.",
+        "es": "Espectacular area de juegos acuaticos con toboganes y zonas de chapuzones en un entorno tropical de naufragio. Min 90cm para toboganes.",
+        "fr": "Spectaculaire aire de jeux aquatiques avec toboggans et zones de jets dans un environnement tropical d epave. Min 90cm pour toboggans.",
+        "de": "Spektakularer Wasserpark mit Rutschen und Spritzbereich in tropischer Schiffbruch-Umgebung. Mindestgrosse 90cm fur Rutschen.",
+        "it": "Spettacolare area giochi acquatica con scivoli e zone splash in ambiente tropicale naufragio. Min 90cm per gli scivoli.",
+        "nl": "Spectaculaire waterplay area met glijbanen en spatzones in tropische scheepswrak omgeving. Min 90cm voor glijbanen.",
+        "pt": "Espetacular area de jogos aquaticos com escorregadores e zonas de salpicos em ambiente tropical de naufragio. Min 90cm para escorregadores.",
+        "ru": "Зрелищная водная площадка с горками и зонами брызг в тропической обстановке.",
+        "zh": "壮观的水上玩耗区，设有滚水道、水花区和精心制作的热带沉船环境。滋水道最低身高90厘米。",
+        "ar": "منطقة لعب مائية مذهلة. الحد الادنى 90 سم للزحاليق."
+      }
+    },
+    "dolphin_show": {
+      "desc": {
+        "en": "The iconic Sea World dolphin show — bottlenose dolphins perform extraordinary behaviours in the magnificent 3000-seat theatre. One of the most beloved marine presentations in the Southern Hemisphere. Suitable for all ages.",
+        "es": "El iconico espectaculo de delfines de Sea World — delfines nariz de botella en el magnifico teatro de 3000 asientos. Apto para todas las edades.",
+        "fr": "Le legendaire spectacle de dauphins de Sea World — dauphins dans le magnifique theatre de 3000 places. Convient a tous les ages.",
+        "de": "Die ikonische Sea World Delfinsshow — Tummler im magnificenten 3000-Platze-Theater. Fur alle Altersgruppen.",
+        "it": "L iconico spettacolo dei delfini di Sea World — delfini tursiopi nel magnifico teatro da 3000 posti. Adatto a tutte le eta.",
+        "nl": "De iconische Sea World dolfijnenshow — tuimelaars in het magnifice 3000-plaatsen theater. Geschikt voor alle leeftijden.",
+        "pt": "O iconico espetaculo de golfinhos de Sea World — golfinhos nariz-de-garrafa no magnifico teatro de 3000 lugares. Adequado para todas as idades.",
+        "ru": "Иконическое шоу дельфинов Sea World в 3000-местном театре. Подходит для всех.",
+        "zh": "标志性的海洋世界海豚表演——瓶鼻海豚在壮观3000座唦展示惊人行为。适合所有年龄。",
+        "ar": "عرض الدلافين الأيقوني في مسرح 3000 مقعد. مناسب لجميع الأعمار."
+      }
+    },
+    "penguin_encounter": {
+      "desc": {
+        "en": "Temperature-controlled indoor habitat housing gentoo and king penguins — walk through and watch them swim and play in conditions replicating their natural environment. One of the finest penguin exhibits in the world. Suitable for all ages.",
+        "es": "Habitat interior con control de temperatura para pinguinos Gentoo y rey — camina y observalos nadar en condiciones que replican su entorno natural. Apto para todas las edades.",
+        "fr": "Habitat interieur a temperature controlee pour manchots Gentoo et royaux — promenade et observation dans des conditions repliquant leur environnement naturel. Convient a tous les ages.",
+        "de": "Temperaturgesteuerter Innenlebensraum fur Gentoo- und Konigspinguine — wandeln und beobachten Sie sie in Bedingungen die ihre naturliche Umgebung nachbilden. Fur alle Altersgruppen.",
+        "it": "Habitat interno a temperatura controllata per pinguini Gentoo e reali — passeggia e osservali nuotare in condizioni che replicano il loro ambiente naturale. Adatto a tutte le eta.",
+        "nl": "Temperatuurgeregeld binnenhabitat voor Gentoo en koningspinguins — wandel en kijk hoe ze zwemmen in omstandigheden die hun natuurlijke omgeving nabootsen. Geschikt voor alle leeftijden.",
+        "pt": "Habitat interior com temperatura controlada para pinguins Gentoo e rei — caminhe e observe-os nadar em condicoes que replicam o seu ambiente natural. Adequado para todas as idades.",
+        "ru": "Климатический контроль в домашнем зоопарке для пингвинов. Подходит для всех.",
+        "zh": "温度控制的室内展篆，内有源间丁麅和国王企鹅——漫步其中，观察它们在自然生境中游泳玩耗。适合所有年龄。",
+        "ar": "موئل داخلي متحكم فيه بدرجة الحرارة لطيور البطريق. مناسب لجميع الأعمار."
+      }
+    },
+    "polar_bear_shores": {
+      "desc": {
+        "en": "Remarkable polar bear habitat with underwater viewing windows — one of only a handful of polar bear habitats in the Southern Hemisphere. A unique and unforgettable wildlife experience. Suitable for all ages.",
+        "es": "Notable habitat de osos polares con ventanas de observacion subacuatica — uno de los pocos habitats de osos polares del hemisferio sur. Apto para todas las edades.",
+        "fr": "Remarquable habitat d ours polaires avec fenetres d observation sous-marines — l un des rares habitats d ours polaires de l hemisphere sud. Convient a tous les ages.",
+        "de": "Bemerkenswerter Eisbarenlebensraum mit Unterwasserbeobachtungsfenstern — einer der wenigen Eisbarenlebensraume der Sudlichen Hemisphare. Fur alle Altersgruppen.",
+        "it": "Notevole habitat degli orsi polari con finestre di osservazione subacquea — uno dei pochi habitat di orsi polari dell emisfero australe. Adatto a tutte le eta.",
+        "nl": "Opmerkelijk ijsbeerhabitat met onderwaterkijkvensters — een van de weinige ijsbeerhabitats van het zuidelijk halfrond. Geschikt voor alle leeftijden.",
+        "pt": "Notavel habitat de ursos polares com janelas de observacao subaquatica — um dos poucos habitats de ursos polares do hemisferio sul. Adequado para todas as idades.",
+        "ru": "Уникальный ареал с белыми медведями и подводными окнами. Подходит для всех.",
+        "zh": "轰山涵水下观察窗的北极熊栖息地——南半球极少数与北极熊近距接触的地方之一。适合所有年龄。",
+        "ar": "موئل الدبب القطبي مع نوافذ مشاهدة تحت الماء. مناسب لجميع الأعمار."
+      }
+    },
+    "shark_bay": {
+      "desc": {
+        "en": "Open lagoon where guests can snorkel alongside nurse sharks, rays and tropical fish. One of the most exciting wildlife encounters at any Australian theme park. Booking required.",
+        "es": "Laguna abierta donde los visitantes pueden bucear junto a tiburones nodriza, rayas y peces tropicales. Se requiere reserva.",
+        "fr": "Lagon ouvert ou les visiteurs peuvent faire du snorkeling avec des requins nourrices, des raies et des poissons tropicaux. Reservation requise.",
+        "de": "Offene Lagune wo Besucher mit Ammenhaien, Rochen und Tropenfischen schnorcheln konnen. Buchung erforderlich.",
+        "it": "Laguna aperta dove i visitatori possono fare snorkeling con squali nutrice, razze e pesci tropicali. Prenotazione richiesta.",
+        "nl": "Open lagune waar bezoekers kunnen snorkelen met verpleegsterhaai, roggen en tropische vissen. Boeking vereist.",
+        "pt": "Lagoa aberta onde os visitantes podem fazer snorkeling com tubaroes nurse, arraias e peixes tropicais. Reserva necessaria.",
+        "ru": "Открытая лагуна для сноркелинга с акулами и катами. Требуется бронирование.",
+        "zh": "开放潟湖，游客可在护士鲨、魟鱼和热带鱼类旁潜水。需预约。",
+        "ar": "بحيرة مفتوحة للغطس جنب أسماك القرش والشفنين. الحجز مطلوب."
+      }
+    },
+    "ray_touch_pool": {
+      "desc": {
+        "en": "Interactive touch pool where guests can gently touch and feed stingrays in a shallow lagoon. Wonderful tactile experience for children of all ages. Suitable for all ages.",
+        "es": "Piscina de contacto interactiva donde los visitantes pueden tocar y alimentar rayas en una laguna poco profunda. Apto para todas las edades.",
+        "fr": "Piscine tactile interactive ou les visiteurs peuvent toucher et nourrir des raies dans un lagon peu profond. Convient a tous les ages.",
+        "de": "Interaktiver Beruhrungspool wo Besucher Rochen in einer flachen Lagune beruhren und futtern konnen. Fur alle Altersgruppen.",
+        "it": "Vasca interattiva dove i visitatori possono toccare e nutrire razze in una laguna poco profonda. Adatto a tutte le eta.",
+        "nl": "Interactieve aanrakingspoel waar bezoekers roggen kunnen aanraken en voeren in een ondiepe lagune. Geschikt voor alle leeftijden.",
+        "pt": "Piscina tactil interativa onde os visitantes podem tocar e alimentar raias numa lagoa rasa. Adequado para todas as idades.",
+        "ru": "Интерактивный бассейн для скатов с хвостыми хвостами. Подходит для всех.",
+        "zh": "互动触摸池，游客可轻轻触摸浅水潟中的魟鱼并喂食。适合所有年龄。",
+        "ar": "حوض تفاعلي للمس وإطعام الشفنين. مناسب لجميع الأعمار."
+      }
+    },
+    "donatellos_ninja_flyers": {
+      "desc": {
+        "en": "Fun interactive flying ride themed to Teenage Mutant Ninja Turtles where guests control height. Perfect for families with younger children. Min 90cm.",
+        "es": "Divertida atraccion voladora interactiva con tematica de las Tortugas Ninja donde los visitantes controlan la altura. Min 90cm.",
+        "fr": "Amusante attraction volante interactive a theme des Tortues Ninja ou les visiteurs controlent la hauteur. Min 90cm.",
+        "de": "Lustiger interaktiver Flugritt mit TMNT-Thema wo Besucher die Hohe kontrollieren. Mindestgrosse 90cm.",
+        "it": "Divertente attrazione volante interattiva a tema Tartarughe Ninja dove i visitatori controllano l altezza. Min 90cm.",
+        "nl": "Leuke interactieve vliegattractie met TMNT thema waar bezoekers de hoogte bepalen. Min 90cm.",
+        "pt": "Divertida atracao voadora interativa com tema Tartarugas Ninja onde os visitantes controlam a altura. Min 90cm.",
+        "ru": "Интерактивный полёт с Террасами-Ниндзя. Мин 90 см.",
+        "zh": "以青少年对影忍者弹筒山龟为主题的互动飞行游乐项目。最低身高90厘米。",
+        "ar": "رحلة طيران تفاعلية بطابع سلاحف النينجا. الحد الادنى 90 سم."
+      }
+    },
+    "sea_world_live_show": {
+      "desc": {
+        "en": "Spectacular live entertainment show with professional performers and sea-themed theatrical sequences. One of the most entertaining family shows on the Gold Coast. Suitable for all ages.",
+        "es": "Espectacular espectaculo en vivo con artistas profesionales y secuencias teatrales tematicas del mar. Apto para todas las edades.",
+        "fr": "Spectaculaire spectacle en direct avec artistes professionnels et sequences theatrales marines. Convient a tous les ages.",
+        "de": "Spektakulare Live-Show mit professionellen Kunstlern und Meeres-Theatersequenzen. Fur alle Altersgruppen.",
+        "it": "Spettacolare show dal vivo con artisti professionisti e sequenze teatrali a tema marino. Adatto a tutte le eta.",
+        "nl": "Spectaculaire live show met professionele artiesten en zee thematische theatrale sequenties. Geschikt voor alle leeftijden.",
+        "pt": "Espetacular espetaculo ao vivo com artistas profissionais e sequencias teatrais com tema do mar. Adequado para todas as idades.",
+        "ru": "Зрелищное лив-шоу с профессиональными артистами. Подходит для всех.",
+        "zh": "壮观的现场表演，香居专业表演者和海洋主题戒剧场景。适合所有年龄。",
+        "ar": "عرض حي مذهل مع فنانين محترفين. مناسب لجميع الأعمار."
+      }
+    },
+    "sea_world_helicopter": {
+      "desc": {
+        "en": "Breathtaking scenic helicopter flights over the Gold Coast, Broadwater and Queensland coastline. One of the most extraordinary experiences at any Australian theme park. Multiple flight options.",
+        "es": "Vuelos panoramicos en helicoptero sobre la Costa de Oro, el Broadwater y la costa de Queensland. Multiples opciones de vuelo.",
+        "fr": "Vols panoramiques en helicoptere sur la Gold Coast, le Broadwater et la cote du Queensland. Plusieurs options de vol.",
+        "de": "Atemberaubende Hubschrauber-Panoramafluge uber die Gold Coast, den Broadwater und die Queensland-Kuste. Mehrere Flugoptionen.",
+        "it": "Spettacolari voli panoramici in elicottero sulla Gold Coast, il Broadwater e la costa del Queensland. Piu opzioni di volo.",
+        "nl": "Adembenemende panoramische helikoptervluchten over de Gold Coast, Broadwater en Queensland kustlijn. Meerdere vluchtopties.",
+        "pt": "Espetaculares voos panoramicos de helicoptero sobre a Gold Coast, Broadwater e litoral de Queensland. Multiplas opcoes de voo.",
+        "ru": "Духзахватывающие вертолётные полёты. Несколько вариантов.",
+        "zh": "令人叹为观止的黄金海岸和明尼苏达州海岸直升机观光飞行。多种飞行方案可选。",
+        "ar": "رحلات منظرية مذهلة بالمروحية. خيارات متعددة للرحلات."
+      }
+    },
+    "sea_world_live_show2": {
+      "desc": {
+        "en": "Hilarious live show featuring SpongeBob, Dora and the Teenage Mutant Ninja Turtles with spectacular slime sequences and audience participation. Suitable for all ages.",
+        "es": "Hilarante espectaculo en vivo con Bob Esponja, Dora y las Tortugas Ninja con secuencias de slime y participacion del publico. Apto para todas las edades.",
+        "fr": "Hilarant spectacle en direct avec Bob l Eponge, Dora et les Tortues Ninja avec sequences de slime et participation du public. Convient a tous les ages.",
+        "de": "Witzige Live-Show mit SpongeBob, Dora und den Ninja Turtles mit Schleim-Sequenzen und Publikumsbeteiligung. Fur alle Altersgruppen.",
+        "it": "Esilarante show dal vivo con SpongeBob, Dora e le Tartarughe Ninja con sequenze di slime. Adatto a tutte le eta.",
+        "nl": "Hilarische live show met SpongeBob, Dora en de Ninja Turtles met slime sequenties en publiekparticipatie. Geschikt voor alle leeftijden.",
+        "pt": "Hilariante espetaculo ao vivo com SpongeBob, Dora e as Tartarugas Ninja com sequencias de slime. Adequado para todas as idades.",
+        "ru": "Комедийное шоу с Губкой Бобом и Черепашками-Ниндзя. Подходит для всех.",
+        "zh": "以海绵宝、多拉和对影忍者弹筒山龟为主角的滑稽表演加上观众互动。适合所有年龄。",
+        "ar": "عرض مضحك مع شخصيات Nickelodeon. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_dockside_tavern": {
+      "desc": {
+        "en": "Waterfront Australian grill with beautiful lagoon views — generous grilled meats, seafood and Australian favourites in a relaxed maritime atmosphere. The premier dining destination at Sea World.",
+        "es": "Parrilla australiana frente al mar con hermosas vistas a la laguna — generosas carnes a la parrilla y mariscos en un ambiente maritimo relajado.",
+        "fr": "Grill australien en bord de mer avec belles vues sur le lagon — genereuses grillades et fruits de mer dans une ambiance maritime detendue.",
+        "de": "Australisches Grill-Restaurant am Wasser mit schonen Lagunensichten — grosszugige Grillgerichte und Meeresfruchte in entspannter maritimer Atmosphare.",
+        "it": "Grill australiano sul lungomare con belle viste sulla laguna — generose grigliate e frutti di mare in atmosfera marittima rilassata.",
+        "nl": "Australische grill aan het water met prachtig uitzicht op de lagune — royale gegrilde gerechten en zeevruchten in ontspannen maritieme sfeer.",
+        "pt": "Grelha australiana a beira-mar com belas vistas para a lagoa — generosas grelhadas e marisco em ambiente maritimo relaxado.",
+        "ru": "Австралийский гриль у воды с видом на лагуну.",
+        "zh": "澳大利亚海边烧烤餐厅，俳瞰湿湖美景——丰盛的烧肉和海鲜。海洋世界首选饳饰目的地。",
+        "ar": "مشواة أسترالية على الواجهة البحرية مع مناظر رائعة للبحيرة."
+      }
+    },
+    "food_prime_burgers": {
+      "desc": {
+        "en": "Popular quick-service burger bar with premium Angus beef burgers and loaded fries — the most popular quick-service food outlet at Sea World Gold Coast.",
+        "es": "Popular barra de hamburgesas de servicio rapido con hamburgesas de carne Angus premium y patatas fritas cargadas.",
+        "fr": "Populaire bar a burgers rapide avec burgers de boeuf Angus premium et frites chargees.",
+        "de": "Beliebte Schnellservice-Burgertheke mit Premium-Angus-Rindfleischburgern und beladenen Pommes.",
+        "it": "Popolare snack bar a servizio rapido con hamburger di manzo Angus premium e patatine cariche.",
+        "nl": "Populaire snelservice burgerbar met premium Angus rundvlees burgers en beladen friet.",
+        "pt": "Popular bar de hamburgeres de servico rapido com hamburgeres de carne Angus premium e batatas fritas carregadas.",
+        "ru": "Популярный бургер-бар с бургерами из говядины Angus.",
+        "zh": "黄金海岸海洋世界最受欢迎的快餐汉堡餰——供应顶级安格斯牛肉汉堡和莹薄報呓。",
+        "ar": "بار برغر سريع الخدمة مع برغر لحم بقر Angus."
+      }
+    },
+    "food_castaway_tiki_terrace": {
+      "desc": {
+        "en": "Casual tropical-themed outlet serving wraps, snacks and tropical drinks adjacent to Castaway Bay. Perfect for refuelling between water play sessions.",
+        "es": "Puesto casual de tematica tropical con wraps, aperitivos y bebidas tropicales junto a Castaway Bay.",
+        "fr": "Point de restauration tropical decontracte avec wraps, snacks et boissons tropicales adjacent a Castaway Bay.",
+        "de": "Entspannter tropischer Imbiss mit Wraps, Snacks und Tropentranken neben Castaway Bay.",
+        "it": "Punto ristoro tropicale casual con wrap, snack e bevande tropicali vicino a Castaway Bay.",
+        "nl": "Casual tropisch eetpunt met wraps, snacks en tropische dranken naast Castaway Bay.",
+        "pt": "Ponto de alimentacao tropical casual com wraps, snacks e bebidas tropicais adjacente a Castaway Bay.",
+        "ru": "Неформальное тропическое кафе рядом с Castaway Bay.",
+        "zh": "海湾旁的休闲热带风格小吃馗。水上玩耗间隙补充能量的理想选择。",
+        "ar": "منفذ طعام استوائي غير رسمي بجانب Castaway Bay."
+      }
+    },
+    "food_melrose_restaurant": {
+      "desc": {
+        "en": "Generous buffet restaurant in Sea World Resort offering Australian and international dishes for breakfast and dinner. Most relaxed dining option for resort guests.",
+        "es": "Generoso restaurante buffet en Sea World Resort con platos australianos e internacionales para desayuno y cena.",
+        "fr": "Genereux restaurant buffet au Sea World Resort avec plats australiens et internationaux pour le petit-dejeuner et le diner.",
+        "de": "Grosszugiges Buffet-Restaurant im Sea World Resort mit australischen und internationalen Gerichten fur Fruhstuck und Abendessen.",
+        "it": "Generoso ristorante buffet al Sea World Resort con piatti australiani e internazionali per colazione e cena.",
+        "nl": "Royaal buffetrestaurant in Sea World Resort met Australische en internationale gerechten voor ontbijt en diner.",
+        "pt": "Generoso restaurante buffet no Sea World Resort com pratos australianos e internacionais para pequeno-almoco e jantar.",
+        "ru": "Щедрый буфет в Sea World Resort для завтрака и ужина.",
+        "zh": "海洋世界度假村内丰盛的自助餐厅，供应澳大利亚和国际早餐所和晚餐。",
+        "ar": "مطعم بوفيه سخي في Sea World Resort للفطور والعشاء."
+      }
+    },
+    "food_lobby_lounge_restaurant": {
+      "desc": {
+        "en": "Relaxed lobby lounge and bar at Sea World Resort serving coffee, cocktails, light meals and Australian wines. Perfect for unwinding after a day at Sea World.",
+        "es": "Salon lobby relajado en Sea World Resort con cafe, cockteles, comidas ligeras y vinos australianos.",
+        "fr": "Salon lobby decontracte au Sea World Resort avec cafe, cocktails, repas legers et vins australiens.",
+        "de": "Entspannte Lobby-Lounge im Sea World Resort mit Kaffee, Cocktails, leichten Mahlzeiten und australischen Weinen.",
+        "it": "Sala lobby rilassata al Sea World Resort con caffe, cocktail, pasti leggeri e vini australiani.",
+        "nl": "Ontspannen lobby lounge in Sea World Resort met koffie, cocktails, lichte maaltijden en Australische wijnen.",
+        "pt": "Sala lobby relaxada no Sea World Resort com cafe, cocktails, refeicoes ligeiras e vinhos australianos.",
+        "ru": "Лаундж в холле Sea World Resort.",
+        "zh": "海洋世界度假村的休闲大堂酒廖，供应咊啡、鸡尾酒和澳大利亚葡萄酒。",
+        "ar": "صالة استقبال مريحة في Sea World Resort مع قهوة وكوكتيل."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_sea_world_resort": {
+      "desc": {
+        "en": "The only hotel directly on the Sea World theme park site — multiple pools, waterslides, lazy river, restaurants and direct park walkway access. Most family-oriented base for a Sea World visit.",
+        "es": "El unico hotel directamente en el sitio del parque — multiples piscinas, toboganes, rio perezoso y acceso directo al parque. La base mas orientada a familias.",
+        "fr": "Le seul hotel directement sur le site du parc — piscines, toboggans, riviere paresseuse et acces direct au parc. Base la plus familiale.",
+        "de": "Das einzige Hotel direkt auf dem Parkgelande — mehrere Pools, Wasserrutschen, Lazy River und direkter Parkzugang. Familienfreundlichste Basis.",
+        "it": "L unico hotel direttamente nel sito del parco — piscine, scivoli, fiume pigro e accesso diretto al parco. Base piu orientata alle famiglie.",
+        "nl": "Het enige hotel direct op het parkterrein — zwembaden, glijbanen, lazy river en directe parktoegang. Meest gezinsgerichte basis.",
+        "pt": "O unico hotel directamente no local do parque — piscinas, escorregadores, rio preguicoso e acesso directo ao parque. Base mais orientada para familias.",
+        "ru": "Единственный отель непосредственно на территории парка.",
+        "zh": "海洋世界公园内唯一的酒店——多个泳池、滚水道和直接进入公园的步行通道。",
+        "ar": "الفندق الوحيد مباشرة على موقع المتنزه مع مسابح وزحاليق."
+      }
+    },
+    "hotel_sheraton_grand_mirage_resort": {
+      "desc": {
+        "en": "One of Australia's most iconic 5-star beachfront resorts — famous for extraordinary saltwater lagoon pools, tropical gardens and direct beach access. 10 minutes from Sea World.",
+        "es": "Uno de los resorts de playa de 5 estrellas mas iconicos de Australia — famoso por sus extraordinarias piscinas de laguna de agua salada. A 10 minutos de Sea World.",
+        "fr": "L un des resorts de plage 5 etoiles les plus iconiques d Australie — celebre pour ses extraordinaires piscines lagune d eau salee. A 10 minutes de Sea World.",
+        "de": "Eines der ikonischsten 5-Sterne-Strandresorts Australiens — beruhmt fur aussergewohnliche Salzwasserlagunenpools. 10 Minuten von Sea World.",
+        "it": "Uno dei resort balneari 5 stelle piu iconici d Australia — famoso per le straordinarie piscine laguna d acqua salata. A 10 minuti da Sea World.",
+        "nl": "Een van de meest iconische 5-sterren strandresorts van Australie — beroemd om buitengewone zoutwater lagunepoelen. 10 minuten van Sea World.",
+        "pt": "Um dos resorts de praia de 5 estrelas mais iconicos da Australia — famoso pelas extraordinarias piscinas de lagoa de agua salgada. A 10 minutos de Sea World.",
+        "ru": "Один из самых иконических 5-звёздных пляжных курортов Австралии. 10 минут от Sea World.",
+        "zh": "澳大利亚最标志性的五星级海滨度假村之一——以独特的庺内和水湿泳池闻名。海洋世界车程10分钟。",
+        "ar": "أحد أكثر منتجعات الشاطئ 5 نجوم أيقونية في أستراليا. 10 دقائق من Sea World."
+      }
+    },
+    "hotel_marriott_surfers_paradise": {
+      "desc": {
+        "en": "Magnificent 5-star beachfront resort in Surfers Paradise — stunning Pacific Ocean views, multiple pools, full spa and award-winning dining. 15 minutes from Sea World.",
+        "es": "Magnifico resort de playa de 5 estrellas en Surfers Paradise — impresionantes vistas al Pacifico y spa completo. A 15 minutos de Sea World.",
+        "fr": "Magnifique resort de plage 5 etoiles a Surfers Paradise — vues spectaculaires sur le Pacifique et spa complet. A 15 minutes de Sea World.",
+        "de": "Magnificentes 5-Sterne-Strandresort in Surfers Paradise — atemberaubende Pazifikblicke und Vollservice-Spa. 15 Minuten von Sea World.",
+        "it": "Magnifico resort balneare 5 stelle a Surfers Paradise — viste spettacolari sul Pacifico e spa completa. A 15 minuti da Sea World.",
+        "nl": "Prachtig 5-sterren strandresort in Surfers Paradise — prachtige Stille Oceaan uitzichten en volledig spa. 15 minuten van Sea World.",
+        "pt": "Magnifico resort de praia de 5 estrelas em Surfers Paradise — deslumbrantes vistas para o Pacifico e spa completo. A 15 minutos de Sea World.",
+        "ru": "Великолепный 5-звёздный пляжный курорт в Surfers Paradise. 15 минут от Sea World.",
+        "zh": "冫浪天堂壮观的五星级海滨度假村——具有太平洋美景和全套Spa。海洋世界车程15分钟。",
+        "ar": "منتجع 5 نجوم فخم في Surfers Paradise مع إطلالات على المحيط. 15 دقيقة من Sea World."
+      }
+    },
+    "hotel_vibe_hotel_gold_coast": {
+      "desc": {
+        "en": "Stylish 4-star hotel in Surfers Paradise — rooftop pool with spectacular ocean views, gym and vibrant bar. 15 minutes from Sea World. Excellent value for the Gold Coast location.",
+        "es": "Hotel de 4 estrellas moderno en Surfers Paradise — piscina en la azotea con espectaculares vistas al oceano. A 15 minutos de Sea World. Excelente relacion calidad-precio.",
+        "fr": "Hotel 4 etoiles moderne a Surfers Paradise — piscine sur le toit avec vues oceaniques spectaculaires. A 15 minutes de Sea World. Excellent rapport qualite-prix.",
+        "de": "Modernes 4-Sterne-Hotel in Surfers Paradise — Dachpool mit spektakularen Meeresblicken. 15 Minuten von Sea World. Hervorragendes Preis-Leistungs-Verhaltnis.",
+        "it": "Hotel 4 stelle moderno a Surfers Paradise — piscina sul tetto con viste oceaniche spettacolari. A 15 minuti da Sea World. Eccellente rapporto qualita-prezzo.",
+        "nl": "Modern 4-sterrenhotel in Surfers Paradise — dakterras zwembad met spectaculair zeezicht. 15 minuten van Sea World. Uitstekende prijs-kwaliteitverhouding.",
+        "pt": "Hotel moderno de 4 estrelas em Surfers Paradise — piscina no telhado com vistas oceanicas espetaculares. A 15 minutos de Sea World. Excelente valor.",
+        "ru": "Стильный 4-звёздный отель в Surfers Paradise. 15 минут от Sea World.",
+        "zh": "冫浪天堂时尚4星级酒店——屋顶泳池俣瞰壮观海景。海洋世界车程15分钟。性价比高。",
+        "ar": "فندق 4 نجوم أنيق في Surfers Paradise. 15 دقيقة من Sea World. قيمة ممتازة."
+      }
+    }
+  }
+}

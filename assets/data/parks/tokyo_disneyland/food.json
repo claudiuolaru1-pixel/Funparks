@@ -1,0 +1,134 @@
+[
+  {
+    "id": "food_eastside_cafe",
+    "name": "Eastside Cafe",
+    "type": "American Restaurant",
+    "image": "assets/images/tokyo_disneyland/food_eastside_cafe.png",
+    "lat": 35.6331,
+    "lng": 139.8802,
+    "rating": 4.3,
+    "description": "Charming Victorian-style restaurant on World Bazaar serving American comfort food — pasta, baked chicken and seasonal Japanese-influenced set meals in an elegant conservatory setting.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "Pasta with Meat Sauce",
+        "description": "Classic pasta with rich meat sauce and salad",
+        "price": 1600
+      },
+      {
+        "name": "Baked Chicken Set",
+        "description": "Oven-baked chicken with seasonal vegetables and rice",
+        "price": 1700
+      },
+      {
+        "name": "Seasonal Set Meal",
+        "description": "Japanese-influenced seasonal set with soup and dessert",
+        "price": 1800
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Selection of cold beverages",
+        "price": 400
+      }
+    ]
+  },
+  {
+    "id": "food_crystal_palace",
+    "name": "Crystal Palace Restaurant",
+    "type": "Character Buffet",
+    "image": "assets/images/tokyo_disneyland/food_crystal_palace.png",
+    "lat": 35.6328,
+    "lng": 139.88,
+    "rating": 4.7,
+    "description": "The grandest dining experience at Tokyo Disneyland — Victorian greenhouse buffet with character dining featuring Winnie the Pooh, Piglet, Tigger and Eeyore. Advance reservation essential.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "Lunch Buffet",
+        "description": "All-you-can-eat buffet with character meet and greet — Winnie the Pooh and friends",
+        "price": 3500
+      },
+      {
+        "name": "Dinner Buffet",
+        "description": "Evening all-you-can-eat buffet with character meet and greet",
+        "price": 4200
+      },
+      {
+        "name": "Child Lunch Buffet",
+        "description": "All-you-can-eat buffet for children ages 4-6",
+        "price": 1800
+      },
+      {
+        "name": "Child Dinner Buffet",
+        "description": "Evening all-you-can-eat buffet for children ages 4-6",
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "id": "food_plaza_pavilion",
+    "name": "Plaza Pavilion Restaurant",
+    "type": "Japanese-Western Restaurant",
+    "image": "assets/images/tokyo_disneyland/food_plaza_pavilion.png",
+    "lat": 35.6327,
+    "lng": 139.8803,
+    "rating": 4.2,
+    "description": "Relaxed open-air restaurant with beautiful views of Cinderella Castle — Japanese-Western set meals with popular curry dishes, pasta and seasonal Japanese ingredients. Best castle-view dining.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "Curry Rice Set",
+        "description": "Japanese-style curry with rice, salad and soft drink",
+        "price": 1500
+      },
+      {
+        "name": "Pasta Set",
+        "description": "Choice of pasta with garlic bread and salad",
+        "price": 1600
+      },
+      {
+        "name": "Seasonal Japanese Set",
+        "description": "Seasonal Japanese-inspired set meal with miso soup",
+        "price": 1700
+      },
+      {
+        "name": "Kids Meal",
+        "description": "Child-sized set meal with drink and small dessert",
+        "price": 900
+      }
+    ]
+  },
+  {
+    "id": "food_queen_of_hearts",
+    "name": "Queen of Hearts Banquet Hall",
+    "type": "Western Restaurant",
+    "image": "assets/images/tokyo_disneyland/food_queen_of_hearts.png",
+    "lat": 35.6324,
+    "lng": 139.8797,
+    "rating": 4.1,
+    "description": "Large Alice in Wonderland themed restaurant in Fantasyland — roasted chicken, pasta, grilled beef and hearty soups for groups and families.",
+    "topPick": false,
+    "items": [
+      {
+        "name": "Roasted Chicken Set",
+        "description": "Oven-roasted half chicken with fries and salad",
+        "price": 1700
+      },
+      {
+        "name": "Beef Stew Set",
+        "description": "Slow-cooked beef stew with bread and salad",
+        "price": 1800
+      },
+      {
+        "name": "Pasta Bolognese",
+        "description": "Classic Bolognese pasta with garlic bread",
+        "price": 1500
+      },
+      {
+        "name": "Soup and Bread",
+        "description": "Hearty soup of the day with freshly baked bread",
+        "price": 900
+      }
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+﻿[
+  {
+    "id": "food_dinos_pizza_time",
+    "name": "Dino's Pizza Time",
+    "type": "Pizza Restaurant",
+    "image": "assets/images/mirabilandia/food_dinos_pizza_time.png",
+    "lat": 44.3330,
+    "lng": 12.2839,
+    "rating": 4.2,
+    "description": "The most popular and beloved restaurant at Mirabilandia — Dino's Pizza Time is a spectacular dinosaur-themed pizza restaurant in the Dinoland area serving freshly baked pizzas with classic Italian toppings alongside pasta dishes, salads and cold drinks. The theatrical dinosaur theming throughout the dining room creates a memorable atmosphere that children absolutely love and the quality of the pizza is consistently well above standard theme park levels. Dino's Pizza Time is the best value and most family-friendly dining option at Mirabilandia and typically draws the largest lunchtime crowds in the park.",
+    "topPick": true,
+    "items": [
+      { "name": "Pizza Margherita", "description": "Classic Neapolitan pizza with tomato and mozzarella", "price": 12.0 },
+      { "name": "Pizza Dinosauro", "description": "Loaded pizza with salami, mushrooms, peppers and mozzarella", "price": 14.0 },
+      { "name": "Pasta al Pomodoro", "description": "Classic pasta with fresh tomato sauce and basil", "price": 11.0 },
+      { "name": "Soft Drink", "description": "Selection of cold beverages", "price": 4.0 }
+    ]
+  },
+  {
+    "id": "food_toro_seduto_saloon",
+    "name": "Toro Seduto Saloon",
+    "type": "Wild West Restaurant",
+    "image": "assets/images/mirabilandia/food_toro_seduto_saloon.png",
+    "lat": 44.3322,
+    "lng": 12.2828,
+    "rating": 4.1,
+    "description": "The most atmospheric restaurant in Mirabilandia's Far West Valley — Toro Seduto Saloon is a classic American frontier saloon serving hearty western-inspired dishes including grilled chicken, burgers, ribs and fries in a magnificently themed setting complete with saloon bar, wagon wheel decor, country music and costumed staff. Particularly popular with families spending time in the Far West area between rides on El Dorado Falls and Gold Digger, the Toro Seduto Saloon captures the spirit of the American frontier with genuine charm and generous portions.",
+    "topPick": false,
+    "items": [
+      { "name": "Western Burger", "description": "Grilled beef burger with BBQ sauce, bacon and fries", "price": 13.0 },
+      { "name": "Grilled Chicken", "description": "Half grilled chicken with roasted potatoes and salad", "price": 14.0 },
+      { "name": "Ribs and Fries", "description": "Baby back pork ribs with BBQ sauce and fries", "price": 16.0 },
+      { "name": "Cold Beer", "description": "Italian beer or soft drink", "price": 5.0 }
+    ]
+  },
+  {
+    "id": "food_cantina_el_tesoro",
+    "name": "Cantina El Tesoro",
+    "type": "Mexican Restaurant",
+    "image": "assets/images/mirabilandia/food_cantina_el_tesoro.png",
+    "lat": 44.3324,
+    "lng": 12.2830,
+    "rating": 4.0,
+    "description": "A vibrant Mexican-inspired cantina in the adventure area of Mirabilandia serving burritos, tacos, nachos and quesadillas with authentic Mexican flavours and colourful Latin American decor. Cantina El Tesoro is the most distinctively flavoured food option at Mirabilandia and particularly popular with teenagers and young adults who want Mexican street food rather than standard pizza and pasta. The outdoor seating area makes it a pleasant spot for a quick lunch between the park's major thrill rides.",
+    "topPick": false,
+    "items": [
+      { "name": "Burrito", "description": "Large flour tortilla with chicken or beef, rice, beans and salsa", "price": 13.0 },
+      { "name": "Nachos Grande", "description": "Tortilla chips with cheese sauce, guacamole and jalenos", "price": 9.0 },
+      { "name": "Taco Box", "description": "Three tacos with choice of filling and fresh toppings", "price": 12.0 },
+      { "name": "Mexican Agua Fresca", "description": "Fresh fruit drink or cold soft drink", "price": 4.0 }
+    ]
+  },
+  {
+    "id": "food_new_york_deli",
+    "name": "New York Deli",
+    "type": "American Deli",
+    "image": "assets/images/mirabilandia/food_new_york_deli.png",
+    "lat": 44.3329,
+    "lng": 12.2841,
+    "rating": 4.0,
+    "description": "A classic New York-style deli themed to the post-apocalyptic Reset dark ride area — New York Deli serves generous American deli sandwiches, hot dogs, burgers and fries in a gritty urban setting with vintage New York advertising posters, chrome countertops and classic American diner aesthetics. The New York Deli is conveniently located near Reset and The Walking Dead making it the most natural food stop for thrill-seekers tackling the park's most intense attractions. Generous portions at reasonable prices.",
+    "topPick": false,
+    "items": [
+      { "name": "New York Club Sandwich", "description": "Triple-decker club with turkey, bacon, cheese and salad", "price": 12.0 },
+      { "name": "NYC Hot Dog", "description": "Classic New York hot dog with mustard and ketchup", "price": 7.0 },
+      { "name": "Brooklyn Burger", "description": "Double beef patty with all the New York toppings and fries", "price": 14.0 },
+      { "name": "Root Beer Float", "description": "Classic American root beer float or cold soft drink", "price": 5.0 }
+    ]
+  },
+  {
+    "id": "food_paddock_caffe",
+    "name": "Paddock Caffe",
+    "type": "Ducati Themed Cafe",
+    "image": "assets/images/mirabilandia/food_paddock_caffe.png",
+    "lat": 44.3326,
+    "lng": 12.2832,
+    "rating": 4.1,
+    "description": "The restaurant of Ducati World — Paddock Caffe is a stylishly designed motorsport-themed cafe serving Italian espresso, pastries, panini, pasta and light meals in an immersive MotoGP paddock setting surrounded by Ducati racing memorabilia, vintage motorcycles and screens showing race footage. The Paddock Caffe is a genuinely distinctive and atmospheric dining experience for motorsport and coffee lovers who want to fuel up in the spirit of Italian racing culture before or after experiencing Desmo Race and the Ducati World exhibits.",
+    "topPick": false,
+    "items": [
+      { "name": "Espresso Ducati", "description": "Classic Italian espresso or cappuccino", "price": 3.5 },
+      { "name": "Panino Campione", "description": "Italian toasted sandwich with prosciutto and mozzarella", "price": 9.0 },
+      { "name": "Pasta del Paddock", "description": "Daily pasta dish with seasonal Italian sauce", "price": 11.0 },
+      { "name": "Gelato Italiano", "description": "Authentic Italian ice cream in seasonal flavours", "price": 4.0 }
+    ]
+  },
+  {
+    "id": "food_azuki_sushi",
+    "name": "Azuki Sushi",
+    "type": "Asian Restaurant",
+    "image": "assets/images/mirabilandia/food_azuki_sushi.png",
+    "lat": 44.3334,
+    "lng": 12.2844,
+    "rating": 4.2,
+    "description": "A surprisingly excellent sushi and Asian food restaurant offering a genuinely refreshing alternative to the Italian and American food options elsewhere in the park — Azuki Sushi serves fresh sushi rolls, sashimi, maki, noodle bowls and Asian-inspired dishes in a clean and contemporary setting. Azuki is particularly popular with adult visitors who want a lighter and more sophisticated lunch option and has developed a strong reputation for quality that exceeds expectations for a theme park food outlet. The sushi is prepared fresh throughout the day.",
+    "topPick": true,
+    "items": [
+      { "name": "Sushi Box", "description": "Selection of 12 fresh maki and nigiri pieces", "price": 16.0 },
+      { "name": "Ramen Bowl", "description": "Japanese-style ramen with broth, noodles and toppings", "price": 13.0 },
+      { "name": "California Roll", "description": "Classic California roll with avocado and crab", "price": 10.0 },
+      { "name": "Green Tea", "description": "Traditional Japanese green tea hot or iced", "price": 3.5 }
+    ]
+  }
+]

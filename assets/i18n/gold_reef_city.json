@@ -1,0 +1,392 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Gold Reef City is South Africa's premier theme park, located in Johannesburg on the site of a genuine 19th century gold mine that played a central role in the founding of the city. Opened in 1987, the park combines thrilling rides with authentic gold rush heritage including guided underground mine tours, Victorian architecture and the fascinating history of the Witwatersrand gold rush that transformed a dusty highveld settlement into one of Africa's greatest cities. Home to the Tower of Terror drop tower, Anaconda roller coaster and the unique underground mine experience. Attracts over one million visitors annually.",
+      "es": "Gold Reef City es el principal parque tematico de Sudafrica, ubicado en Johannesburgo en el sitio de una autentica mina de oro del siglo XIX. Inaugurado en 1987, combina atracciones emocionantes con el autentico patrimonio de la fiebre del oro, incluyendo tours subterraneos guiados por la mina. Atrae mas de un millon de visitantes anuales.",
+      "fr": "Gold Reef City est le principal parc a themes d Afrique du Sud, situe a Johannesburg sur le site d une veritable mine d or du XIXe siecle. Ouvert en 1987, il combine des manèges palpitants avec un authentique patrimoine de la ruee vers l or, incluant des visites guidees souterraines de la mine. Accueille plus d un million de visiteurs par an.",
+      "de": "Gold Reef City ist Sudafrikas fuhrende Themenpark, in Johannesburg auf dem Gelande einer echten Goldmine aus dem 19. Jahrhundert gelegen. 1987 eroffnet verbindet er aufregende Fahrgeschafte mit authentischem Goldrausch-Erbe einschliesslich gefuhrter unterirdischer Minentouren. Uber eine Million Besucher jahrlich.",
+      "it": "Gold Reef City e il principale parco a tema del Sud Africa, situato a Johannesburg sul sito di una vera miniera d oro del XIX secolo. Aperto nel 1987, combina attrazioni emozionanti con l autentico patrimonio della corsa all oro, inclusi tour sotterranei guidati della miniera. Oltre un milione di visitatori annui.",
+      "nl": "Gold Reef City is het toonaangevende themapark van Zuid-Afrika, gelegen in Johannesburg op de locatie van een echte 19e-eeuwse goudmijn. Geopend in 1987 combineert het spannende attracties met authentiek goudkoorts erfgoed inclusief begeleide ondergrondse mijntours. Meer dan een miljoen bezoekers per jaar.",
+      "pt": "Gold Reef City e o principal parque tematico da Africa do Sul, localizado em Joanesburgo no local de uma autentica mina de ouro do seculo XIX. Aberto em 1987, combina atraccoes emocionantes com autentico patrimonio da corrida ao ouro, incluindo visitas guiadas subterraneas a mina. Mais de um milhao de visitantes anuais.",
+      "ru": "Gold Reef City — ведущий тематический парк Южной Африки, расположенный в Йоганнесбурге на месте настоящей золотой шахты XIX века. Открыт в 1987 году. Более одного млн посетителей в год.",
+      "zh": "黄金城主题公园是南非首屈主题公园，位于约翰内斯堡一座真宙19世纪金矿遗址上。它于1987年开放，将刺激游乐项目与真实的淡金山淡金山金淤山淡金山金碎山混合在一起，包括地下矿井导览。每年吸引逾100万游客。",
+      "ar": "Gold Reef City هو المتنزه الرائد في جنوب أفريقيا، يقع في جوهانسبرغ على موقع منجم ذهب حقيقي من القرن 19. افتتح 1987 أكثر من مليون زائر سنويا."
+    },
+    "ov_highlights_body": {
+      "en": "Tower of Terror is one of the tallest and most intense drop towers in Africa at 80 metres. Anaconda is the premier steel roller coaster experience with inversions. Storm Chaser spinning coaster delivers unpredictable thrills on every ride. The Gold Mine Tour is the most historically significant attraction in South African theme parks — a genuine descent into a 19th century working gold mine. Raging River is the best water ride for hot Johannesburg days. The Victorian-era architecture throughout the park creates a beautifully atmospheric gold rush environment unique in the world.",
+      "es": "Tower of Terror es una de las torres de caida mas altas e intensas de Africa con 80 metros. Anaconda es la principal experiencia de montana rusa de acero con inversiones. La Tour de la Mina de Oro es la atraccion mas historicamente significativa de los parques tematicos sudafricanos. La arquitectura de la era victoriana crea un ambiente unico en el mundo.",
+      "fr": "Tower of Terror est l une des tours de chute les plus hautes et intenses d Afrique avec 80 metres. Anaconda est la principale experience de montagnes russes en acier. La visite de la Mine d Or est l attraction la plus historiquement significative des parcs sud-africains. L architecture de l ere victorienne cree une atmosphere unique.",
+      "de": "Tower of Terror ist einer der hochsten und intensivsten Falltürme Afrikas mit 80 Metern. Anaconda ist das fuhrende Stahlachterbahn-Erlebnis. Der Goldminentour ist die historisch bedeutendste Attraktion in sudafrikanischen Themenparks. Die viktorianische Architektur schafft eine einzigartige Atmosphare.",
+      "it": "Tower of Terror e una delle torri di caduta piu alte e intense dell Africa con 80 metri. Anaconda e la principale esperienza di montagne russe in acciaio. Il Tour della Miniera d Oro e l attrazione piu storicamente significativa nei parchi sudafricani. L architettura vittoriana crea un ambiente unico.",
+      "nl": "Tower of Terror is een van de hoogste en meest intense valtorens in Afrika met 80 meter. Anaconda is de toonaangevende stalen achtbaan ervaring. De Goudmijtour is de meest historisch significante attractie in Zuid-Afrikaanse themaparken. De Victoriaanse architectuur creert een unieke sfeer.",
+      "pt": "Tower of Terror e uma das torres de queda mais altas e intensas de Africa com 80 metros. Anaconda e a principal experiencia de montanha-russa de aco. O Tour da Mina de Ouro e a atracao mais historicamente significativa nos parques sul-africanos. A arquitectura vitoriana cria um ambiente unico.",
+      "ru": "Tower of Terror — одна из высочайших башен свободного падения в Африке высотой 80 м. Anaconda — главный коастер. Тур по золотой шахте — самая значимая исторически аттракция.",
+      "zh": "恐怖之塔是非洲最高、最刺激的落体塔之一，高80米。蛮蘈7是主题公园首选钓轨过山车。金矿参观是南非主题公园中具有最重要历史意义的景点。",
+      "ar": "Tower of Terror هو أحد أطول وأكثر أبراج السقوط كثافة في أفريقيا بارتفاع 80 م. Anaconda هو تجربة الاوتوستراد الرائدة. جولة المنجم هي الأكثر أهمية تاريخية."
+    },
+    "ov_did_you_know_body": {
+      "en": "Gold Reef City is built on the site of Crown Mines, one of the richest gold mines in the history of the Witwatersrand. The gold rush that began in 1886 on the Witwatersrand transformed a farming settlement into Johannesburg, which within a decade became one of the wealthiest cities on earth. The park's mine shaft goes 220 metres underground and was a working gold mine until 1977. Gold Reef City opened in 1987 as one of the first major theme parks in Africa. The Victorian architecture throughout the park is based on buildings that actually stood in 1890s Johannesburg during the height of the gold rush.",
+      "es": "Gold Reef City esta construido en el sitio de Crown Mines, una de las minas de oro mas ricas de la historia del Witwatersrand. La fiebre del oro que comenzo en 1886 transformo un asentamiento agricola en Johannesburgo. El pozo de la mina del parque baja 220 metros bajo tierra y fue una mina de oro activa hasta 1977.",
+      "fr": "Gold Reef City est construit sur le site de Crown Mines, l une des mines d or les plus riches de l histoire du Witwatersrand. La ruee vers l or qui a debute en 1886 a transforme un etablissement agricole en Johannesburg. Le puits de mine du parc descend a 220 metres sous terre et etait une mine d or active jusqu en 1977.",
+      "de": "Gold Reef City ist auf dem Gelande der Crown Mines errichtet, einer der reichsten Goldminen in der Geschichte des Witwatersrand. Der Goldrausch von 1886 verwandelte eine Bauernansiedlung in Johannesburg. Der Minenschacht des Parks geht 220 Meter unter die Erde und war bis 1977 eine aktive Goldmine.",
+      "it": "Gold Reef City e costruita sul sito delle Crown Mines, una delle miniere d oro piu ricche della storia del Witwatersrand. La corsa all oro iniziata nel 1886 trasformo un insediamento agricolo in Johannesburg. Il pozzo della miniera del parco scende a 220 metri sottoterra ed era una miniera d oro attiva fino al 1977.",
+      "nl": "Gold Reef City is gebouwd op de locatie van Crown Mines, een van de rijkste goudmijnen in de geschiedenis van het Witwatersrand. De goudkoorts die in 1886 begon transformeerde een boerenvestiging in Johannesburg. De mijnschacht van het park gaat 220 meter onder de grond en was een actieve goudmijn tot 1977.",
+      "pt": "Gold Reef City e construido no local das Crown Mines, uma das minas de ouro mais ricas da historia do Witwatersrand. A corrida ao ouro que comecou em 1886 transformou um assentamento agricola em Joanesburgo. O poco da mina do parque desce 220 metros abaixo do solo e foi uma mina de ouro activa ate 1977.",
+      "ru": "Gold Reef City построен на месте Crown Mines — одной из богатейших золотых шахт в истории. Шахта уходит на 220 метров под землю и работала до 1977 года.",
+      "zh": "黄金城建在Crown矿山的遗址上，是维特沃特斯兰德地区历史上最丰富的金矿之一。公园的矿井深达220米，直到1977年止一直是活跃的金矿。",
+      "ar": "Gold Reef City مبني على موقع Crown Mines، أحد أغنى مناجم الذهب في تاريخ Witwatersrand. بئر المنجم تصل 220 مترا تحت الأرض وكانت نشطة حتى 1977."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head straight to Tower of Terror and Anaconda — these are the longest queues of the day. Storm Chaser builds quickly — tackle before 11am. Book the Gold Mine Tour early as tour groups fill up — the underground experience is one of a kind and should not be missed. Raging River is best in the heat of the afternoon. The Mine Train and family attractions are less busy mid-morning. Check the entertainment schedule at the entrance for any live shows or cultural performances. The Victorian precinct is beautiful at golden hour — stay for sunset photographs around the mine shaft area.",
+      "es": "Llega a la apertura y ve directamente a Tower of Terror y Anaconda. Reserva el Tour de la Mina de Oro temprano ya que los grupos se llenan. Raging River es mejor por la tarde. Comprueba el horario de entretenimiento en la entrada. El recinto victoriano es hermoso a la hora dorada.",
+      "fr": "Arrivez a l ouverture et allez directement a Tower of Terror et Anaconda. Reservez la Visite de la Mine d Or tot car les groupes se remplissent vite. Raging River est meilleur l apres-midi. Verifiez le programme de divertissement a l entree. Le quartier victorien est magnifique a l heure doree.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Tower of Terror und Anaconda. Buchen Sie die Goldminen-Tour frueh da Reisegruppen sich schnell fullen. Raging River ist am Nachmittag am besten. Prufen Sie den Veranstaltungsplan am Eingang.",
+      "it": "Arriva all apertura e vai direttamente a Tower of Terror e Anaconda. Prenota il Tour della Miniera d Oro presto poiche i gruppi si riempiono velocemente. Raging River e meglio nel pomeriggio. Controlla il programma di intrattenimento all ingresso.",
+      "nl": "Kom bij opening en ga direct naar Tower of Terror en Anaconda. Boek de Goudmijtour vroeg want groepen vullen snel. Raging River is het beste in de middag. Controleer het entertainmentprogramma bij de ingang.",
+      "pt": "Chega na abertura e vai directamente para Tower of Terror e Anaconda. Reserve o Tour da Mina de Ouro cedo pois os grupos enchem rapidamente. Raging River e melhor a tarde. Consulta o programa de entretenimento na entrada.",
+      "ru": "Приходите к открытию и сразу идите к Tower of Terror и Anaconda. Забронируйте тур по золотой шахте заранее. Raging River лучше во второй половине дня.",
+      "zh": "开园时到达直接前往恐怖之塔和蛮蘇。尽早预订金矿参观团。激流探险在下午为佳。在入口查看娱乐表演时间表。",
+      "ar": "صل عند الافتتاح واذهب مباشرة لـ Tower of Terror وAnaconda. احجز جولة المنجم مبكرا. Raging River افضل في المساء."
+    },
+    "ov_photos_body": {
+      "en": "Tower of Terror photographed against the Johannesburg skyline at dusk is the defining image of Gold Reef City. The Victorian mine buildings and period architecture photographed in golden afternoon light create extraordinary atmospheric images unique in world theme park photography. The underground mine shaft with its original equipment and timber supports creates dramatic low-light photography opportunities. Anaconda photographed from below during an inversion creates powerful coaster imagery. The balloon wheel and carousel photographed together at sunset create a nostalgic and beautiful Gold Reef City scene.",
+      "es": "Tower of Terror fotografiado contra el horizonte de Johannesburgo al atardecer es la imagen definitoria de Gold Reef City. Los edificios victorianos de la mina con luz dorada crean imagenes atmosfericas extraordinarias. El pozo de la mina subterraneo ofrece oportunidades fotograficas dramaticas.",
+      "fr": "Tower of Terror photographie contre l horizon de Johannesburg au crepuscule est l image definissante de Gold Reef City. Les batiments victoriens de la mine avec la lumiere doree creent des images atmospheriques extraordinaires. Le puits de mine souterrain offre des opportunites photographiques dramatiques.",
+      "de": "Tower of Terror gegen die Skyline von Johannesburg in der Abenddammerung fotografiert ist das prasentierende Bild von Gold Reef City. Die viktorianischen Minegebaude im goldenen Nachmittagslicht schaffen aussergewohnliche atmospharische Bilder. Der unterirdische Minenschacht bietet dramatische Fotomoglichkeiten.",
+      "it": "Tower of Terror fotografato contro lo skyline di Johannesburg al tramonto e l immagine definitiva di Gold Reef City. Gli edifici vittoriani della miniera con la luce dorada del pomeriggio creano immagini atmosferiche straordinarie. Il pozzo della miniera sotterranea offre opportunita fotografiche drammatiche.",
+      "nl": "Tower of Terror gefotografeerd tegen de skyline van Johannesburg in de schemering is het bepalende beeld van Gold Reef City. De Victoriaanse mijngebouwen in gouden middaglicht creeren buitengewone sfeervolle beelden. De ondergrondse mijnschacht biedt dramatische fotomogelijkheden.",
+      "pt": "Tower of Terror fotografado contra o horizonte de Joanesburgo ao crepusculo e a imagem definitiva de Gold Reef City. Os edificios vitorianos da mina com luz dourada da tarde criam imagens atmosfericas extraordinarias. O poco da mina subterranea oferece oportunidades fotograficas dramaticas.",
+      "ru": "Tower of Terror на фоне скайлайна Йоганнесбурга — главный образ Gold Reef City. Викторианские здания в золотом свете — уникальные снимки.",
+      "zh": "黄金城恐怖之塔在黄昆时与约翰内斯堡天賯线同框拍摄，是黄金城最标志性的一幅画面。维多利亚式矿山建筑在金色午后阳光下拍摄极为大气。",
+      "ar": "Tower of Terror مصور أمام أفق جوهانسبرغ عند الغسق هو الصورة المحددة لـ Gold Reef City. المباني الفيكتورية في ضوء ذهبي تخلق صورا فريدة."
+    }
+  },
+  "attractions": {
+    "tower_of_terror": {
+      "desc": {
+        "en": "One of the tallest and most intense drop towers in Africa at 80 metres — riders are hoisted to the top before a stomach-dropping free fall. A Gold Reef City icon. Min 130cm.",
+        "es": "Una de las torres de caida mas altas e intensas de Africa con 80 metros. Icono de Gold Reef City. Min 130cm.",
+        "fr": "L une des tours de chute les plus hautes d Afrique avec 80 metres. Icone de Gold Reef City. Min 130cm.",
+        "de": "Einer der hochsten Fallturme Afrikas mit 80 Metern. Ikone von Gold Reef City. Mindestgrosse 130cm.",
+        "it": "Una delle torri di caduta piu alte d Africa con 80 metri. Icona di Gold Reef City. Min 130cm.",
+        "nl": "Een van de hoogste valtorens in Afrika met 80 meter. Icoon van Gold Reef City. Min 130cm.",
+        "pt": "Uma das torres de queda mais altas de Africa com 80 metros. Icone de Gold Reef City. Min 130cm.",
+        "ru": "Одна из высочайших башен свободного падения в Африке. Мин 130 см.",
+        "zh": "非洲最高、最刺激的落体塔之一，高80米。最低身高130厘米。",
+        "ar": "إحدى أطول أبراج السقوط في أفريقيا بارتفاع 80 م. الحد الادنى 130 سم."
+      }
+    },
+    "anaconda": {
+      "desc": {
+        "en": "The premier steel roller coaster at Gold Reef City — winds and twists through inversions at 80 km/h. Favourite for thrill-seekers visiting Johannesburg. Min 120cm.",
+        "es": "La principal montana rusa de acero en Gold Reef City — gira y tuerce a traves de inversiones a 80 km/h. Min 120cm.",
+        "fr": "La principale montagne russe en acier de Gold Reef City — virages et inversions a 80 km/h. Min 120cm.",
+        "de": "Der fuhrende Stahlachterbahn in Gold Reef City — Kurven und Inversionen bei 80 km/h. Mindestgrosse 120cm.",
+        "it": "La principale montagna russa in acciaio di Gold Reef City — curve e inversioni a 80 km/h. Min 120cm.",
+        "nl": "De toonaangevende stalen achtbaan in Gold Reef City — bochten en inversies bij 80 km/h. Min 120cm.",
+        "pt": "A principal montanha-russa de aco em Gold Reef City — curvas e inversoes a 80 km/h. Min 120cm.",
+        "ru": "Главный стальной коастер с инверсиями при 80 км/ч. Мин 120 см.",
+        "zh": "黄金城首选钓轨过山车——以80公里/小时穿越翻转。最低身高120厘米。",
+        "ar": "اوتوستراد الفولاذي الرائد مع انعكاسات. الحد الادنى 120 سم."
+      }
+    },
+    "storm_chaser": {
+      "desc": {
+        "en": "High-energy spinning coaster in freely rotating vehicles — no two rides are the same. One of the most popular attractions at Gold Reef City. Min 110cm.",
+        "es": "Coaster giratorio de alta energia en vehiculos de rotacion libre — no hay dos viajes iguales. Min 110cm.",
+        "fr": "Coaster tournant haute energie dans des vehicules a rotation libre — aucun trajet identique. Min 110cm.",
+        "de": "Hochenergetischer Drehcoaster in frei rotierenden Fahrzeugen — keine zwei Fahrten sind gleich. Mindestgrosse 110cm.",
+        "it": "Coaster rotante ad alta energia in veicoli a rotazione libera — nessun giro identico. Min 110cm.",
+        "nl": "Hoogenergetische draaiende achtbaan in vrij roterende voertuigen — geen twee ritten zijn hetzelfde. Min 110cm.",
+        "pt": "Coaster giratoria de alta energia em veiculos de rotacao livre — nenhuma viagem e igual. Min 110cm.",
+        "ru": "Закручивающийся коастер в вращающихся вагонах. Мин 110 см.",
+        "zh": "自由旋转车厢的高能量旋转过山车——每次体验都不一样。最低身高110厘米。",
+        "ar": "اوتوستراد دوار عالي الطاقة. الحد الادنى 110 سم."
+      }
+    },
+    "tornado": {
+      "desc": {
+        "en": "Classic inverted swing ride delivering excellent thrills at height. Popular with older children and adults. Min 120cm.",
+        "es": "Atraccion clasica de columpio invertido a gran altura. Popular entre ninos mayores y adultos. Min 120cm.",
+        "fr": "Attraction classique de balancoire inverse a grande hauteur. Populaire aupres des enfants plus ages et des adultes. Min 120cm.",
+        "de": "Klassische invertierte Schaukelfahrt in grosser Hohe. Beliebt bei alteren Kindern und Erwachsenen. Mindestgrosse 120cm.",
+        "it": "Attrazione classica ad altalena invertita in altezza. Popolare tra bambini piu grandi e adulti. Min 120cm.",
+        "nl": "Klassieke omgekeerde schommelrit op hoogte. Populair bij oudere kinderen en volwassenen. Min 120cm.",
+        "pt": "Atracao classica de balanco invertido a grande altura. Popular com criancas mais velhas e adultos. Min 120cm.",
+        "ru": "Классический перевернутый качельный аттракцион на высоте. Мин 120 см.",
+        "zh": "经典倒置秋千游乐项目，在高空中送上极佳刺激。最低身高120厘米。",
+        "ar": "اتراكشن بندول معكوس على الارتفاع. الحد الادنى 120 سم."
+      }
+    },
+    "raging_river": {
+      "desc": {
+        "en": "Circular river rapids ride sweeping guests through churning white water with unexpected splashes. The best water attraction at Gold Reef City. Min 100cm.",
+        "es": "Atraccion de rapidos circular que lleva a los visitantes a traves de aguas turbulentas con salpicaduras inesperadas. Min 100cm.",
+        "fr": "Attraction de rapides circulaire emmenant les visiteurs a travers des eaux vives avec des eclaboussures inattendues. Min 100cm.",
+        "de": "Kreisformige Wildwasserfahrt durch turbulente Gewasser mit unerwarteten Spritzern. Mindestgrosse 100cm.",
+        "it": "Attrazione circolare di rapide fluviali attraverso acque agitate con schizzi inaspettati. Min 100cm.",
+        "nl": "Ronde wildwaterrit door onstuimig water met onverwachte spatten. Min 100cm.",
+        "pt": "Atracao circular de rapidos fluviais por aguas agitadas com respingos inesperados. Min 100cm.",
+        "ru": "Круговой рафтинг через бурные воды. Мин 100 см.",
+        "zh": "圆形激流山漂流项目，带骑客穿越汹淌的激流和意外水花。最低身高100厘米。",
+        "ar": "مغامرة المياه الدوارة عبر المياه المتقلبة. الحد الادنى 100 سم."
+      }
+    },
+    "mine_tour": {
+      "desc": {
+        "en": "A guided tour 220 metres underground through a genuine 19th century gold mine shaft. The most historically significant attraction in South African theme parks. Suitable for all ages.",
+        "es": "Visita guiada 220 metros bajo tierra a traves de un autentico pozo de mina de oro del siglo XIX. La atraccion mas historicamente significativa de los parques sudafricanos. Apto para todas las edades.",
+        "fr": "Visite guidee a 220 metres sous terre a travers un veritable puits de mine d or du XIXe siecle. L attraction la plus historiquement significative des parcs sud-africains. Convient a tous les ages.",
+        "de": "Gefuhrte Tour 220 Meter unter der Erde durch einen echten Goldminenschacht aus dem 19. Jahrhundert. Die historisch bedeutendste Attraktion in sudafrikanischen Themenparks. Fur alle Altersgruppen.",
+        "it": "Tour guidato a 220 metri sottoterra attraverso un autentico pozzo di miniera d oro del XIX secolo. L attrazione piu storicamente significativa dei parchi sudafricani. Adatto a tutte le eta.",
+        "nl": "Begeleide tour 220 meter ondergronds door een echte 19e-eeuwse goudmijnschacht. De meest historisch significante attractie in Zuid-Afrikaanse themaparken. Geschikt voor alle leeftijden.",
+        "pt": "Visita guiada 220 metros subterraneos atraves de um poco de mina de ouro genuino do seculo XIX. A atracao mais historicamente significativa dos parques sul-africanos. Adequado para todas as idades.",
+        "ru": "Экскурсия 220 метров под землю в настоящую золотую шахту XIX века. Подходит для всех возрастов.",
+        "zh": "深入地下220米的导览参观，穿越真宙19世纪金矿工山。南非主题公园中具有最重要历史意义的景点。适合所有年龄。",
+        "ar": "جولة مصحوبة 220 مترا تحت الأرض في بئر منجم ذهب حقيقي من القرن 19. مناسب لجميع الأعمار."
+      }
+    },
+    "mine_train": {
+      "desc": {
+        "en": "Classic family roller coaster themed to the gold mining heritage of Johannesburg. Gentle hills and turns — ideal first coaster for children. Min 90cm.",
+        "es": "Clasica montana rusa familiar con tematica de la mineria del oro de Johannesburgo. Colinas y curvas suaves. Min 90cm.",
+        "fr": "Classique montagne russe familiale theme a l heritage minier d or de Johannesburg. Collines et virages doux. Min 90cm.",
+        "de": "Klassischer Familien-Achterbahn mit Goldbergbau-Thema von Johannesburg. Sanfte Hugel und Kurven. Mindestgrosse 90cm.",
+        "it": "Classica montagna russa familiare tematizzata sull eredita mineraria aurifera di Johannesburg. Colline e curve dolci. Min 90cm.",
+        "nl": "Klassieke familieachtbaan met goudmijn thema van Johannesburg. Zachte heuvels en bochten. Min 90cm.",
+        "pt": "Classica montanha-russa familiar com tema da mineracao de ouro de Joanesburgo. Colinas e curvas suaves. Min 90cm.",
+        "ru": "Классический семейный коастер с золотодобывающей тематикой. Мин 90 см.",
+        "zh": "以约翰内斯堡金矿遗产为主题的经典家庭过山车。最低身高90厘米。",
+        "ar": "اوتوستراد عائلي كلاسيكي بطابع منجم الذهب. الحد الادنى 90 سم."
+      }
+    },
+    "jozi_express": {
+      "desc": {
+        "en": "Scenic train ride around the park offering views of the entire resort and surrounding Johannesburg landscape. A relaxing way to rest between thrill rides. Suitable for all ages.",
+        "es": "Paseo en tren escenico por el parque con vistas de todo el complejo. Manera relajante de descansar entre atracciones. Apto para todas las edades.",
+        "fr": "Tour en train pittoresque du parc avec vues sur tout le complexe. Maniere relaxante de se reposer. Convient a tous les ages.",
+        "de": "Malerische Zugfahrt um den Park mit Ausblicken auf das gesamte Resort. Eine entspannte Ruhepause. Fur alle Altersgruppen.",
+        "it": "Giro panoramico in treno attorno al parco con viste su tutto il complesso. Modo rilassante di riposarsi. Adatto a tutte le eta.",
+        "nl": "Schilderachtige treinrit rond het park met uitzicht op het hele resort. Een ontspannende manier om te rusten. Geschikt voor alle leeftijden.",
+        "pt": "Passeio panoramico de comboio pelo parque com vistas sobre todo o complexo. Forma relaxante de descansar. Adequado para todas as idades.",
+        "ru": "Живописная поездка вокруг парка. Подходит для всех возрастов.",
+        "zh": "环绕公园的景色火车之旅，饱览整个度假村和周围的约翰内斯堡风光。适合所有年龄。",
+        "ar": "رحلة قطار خلابة حول المتنزه. مناسب لجميع الأعمار."
+      }
+    },
+    "ferris_wheel": {
+      "desc": {
+        "en": "Classic Ferris wheel offering panoramic views over Gold Reef City and the Johannesburg skyline. Perfect for families wanting a relaxed elevated experience. Suitable for all ages.",
+        "es": "Noria clasica con vistas panoramicas sobre Gold Reef City y el horizonte de Johannesburgo. Apto para todas las edades.",
+        "fr": "Grande roue classique offrant des vues panoramiques sur Gold Reef City et l horizon de Johannesburg. Convient a tous les ages.",
+        "de": "Klassisches Riesenrad mit Panoramablick uber Gold Reef City und die Skyline von Johannesburg. Fur alle Altersgruppen.",
+        "it": "Classica ruota panoramica con viste panoramiche su Gold Reef City e lo skyline di Johannesburg. Adatto a tutte le eta.",
+        "nl": "Klassiek reuzenrad met panoramisch uitzicht over Gold Reef City en de skyline van Johannesburg. Geschikt voor alle leeftijden.",
+        "pt": "Classica roda gigante com vistas panoramicas sobre Gold Reef City e o horizonte de Joanesburgo. Adequado para todas as idades.",
+        "ru": "Классическое колесо обозрения с видом на Gold Reef City. Подходит для всех возрастов.",
+        "zh": "经典摩天轮，俩瞰黄金城和约翰内斯堡天賯线的全景。适合所有年龄。",
+        "ar": "عجلة كبيرة كلاسيكية مع مناظر بانورامية. مناسب لجميع الأعمار."
+      }
+    },
+    "balloon_wheel": {
+      "desc": {
+        "en": "Colourful hot air balloon themed Ferris wheel — one of the most photographed landmarks of Gold Reef City. Beloved by families. Suitable for all ages.",
+        "es": "Colorida noria con tematica de globo aerostatico — uno de los monumentos mas fotografiados de Gold Reef City. Apto para todas las edades.",
+        "fr": "Grande roue coloree a theme montgolfiere — l un des monuments les plus photographes de Gold Reef City. Convient a tous les ages.",
+        "de": "Farbenfrohes Heissluftballon-Riesenrad — eines der meistfotografierten Wahrzeichen von Gold Reef City. Fur alle Altersgruppen.",
+        "it": "Colorata ruota panoramica a tema mongolfiera — uno dei monumenti piu fotografati di Gold Reef City. Adatto a tutte le eta.",
+        "nl": "Kleurrijk luchtballon thema reuzenrad — een van de meest gefotografeerde bezienswaardigheden van Gold Reef City. Geschikt voor alle leeftijden.",
+        "pt": "Colorida roda gigante com tema de balao de ar quente — um dos monumentos mais fotografados de Gold Reef City. Adequado para todas as idades.",
+        "ru": "Колорное колесо обозрения с воздушным шаром. Подходит для всех.",
+        "zh": "彩色热气球主题摩天轮——黄金城最具标志性的地标之一。适合所有年龄。",
+        "ar": "عجلة كبيرة ملونة بطابع منطاد. مناسب لجميع الأعمار."
+      }
+    },
+    "high_flyer": {
+      "desc": {
+        "en": "Soaring swing ride lifting riders high above the park with beautiful Johannesburg views and genuine thrills. Min 120cm.",
+        "es": "Atraccion de columpio que eleva a los visitantes por encima del parque con hermosas vistas de Johannesburgo. Min 120cm.",
+        "fr": "Attraction balancoire elevant les visiteurs au-dessus du parc avec de belles vues sur Johannesburg. Min 120cm.",
+        "de": "Hochfliegende Schaukelfahrt die Besucher hoch uber den Park hebt mit schonen Aussichten auf Johannesburg. Mindestgrosse 120cm.",
+        "it": "Attrazione altalena che porta i visitatori in alto sopra il parco con belle vedute di Johannesburg. Min 120cm.",
+        "nl": "Zweefschommel die bezoekers hoog boven het park tilt met prachtig uitzicht op Johannesburg. Min 120cm.",
+        "pt": "Atracao de balanco que eleva os visitantes acima do parque com belas vistas de Joanesburgo. Min 120cm.",
+        "ru": "Высокий качельный аттракцион над парком. Мин 120 см.",
+        "zh": "高空秋千游乐项目，将骑乘者抬升到公园上方。最低身高120厘米。",
+        "ar": "اتراكشن الأرجوحة الطائرة فوق المتنزه. الحد الادنى 120 سم."
+      }
+    },
+    "bumper_cars": {
+      "desc": {
+        "en": "Classic dodgem bumper cars — endlessly entertaining for all ages. One of the most popular family attractions at Gold Reef City.",
+        "es": "Clasicos autos chocadores — entretenidos sin fin para todas las edades. Una de las atracciones familiares mas populares.",
+        "fr": "Classiques autos tamponneuses — divertissantes pour tous les ages. L une des attractions familiales les plus populaires.",
+        "de": "Klassische Autoscooter — endlos unterhaltsam fur alle Altersgruppen. Eine der beliebtesten Familienattraktionen.",
+        "it": "Classiche macchine tamponanti — divertenti all infinito per tutte le eta. Una delle attrazioni familiari piu popolari.",
+        "nl": "Klassieke botsauto's — eindeloos vermakelijk voor alle leeftijden. Een van de meest populaire familieattracties.",
+        "pt": "Classicos carros de choque — infinitamente divertidos para todas as idades. Uma das atracoes familiares mais populares.",
+        "ru": "Классические автодромы. Одна из самых популярных семейных аттракций.",
+        "zh": "经典碰碰车——适合所有年龄，乐趣无穷。",
+        "ar": "سيارات التصادم الكلاسيكية. مناسب لجميع الأعمار."
+      }
+    },
+    "carousel": {
+      "desc": {
+        "en": "Beautifully decorated classic carousel — a beloved Gold Reef City icon that has delighted generations of South African families. Suitable for all ages.",
+        "es": "Carrusel clasico bellamente decorado — un icono amado de Gold Reef City que ha deleitado a generaciones de familias sudafricanas. Apto para todas las edades.",
+        "fr": "Carrousel classique magnifiquement decore — une icone aimee de Gold Reef City qui a ravi des generations de familles sud-africaines. Convient a tous les ages.",
+        "de": "Wunderschon dekoriertes klassisches Karussell — ein geliebtes Wahrzeichen von Gold Reef City. Fur alle Altersgruppen.",
+        "it": "Giostra classica magnificamente decorata — un amato simbolo di Gold Reef City. Adatto a tutte le eta.",
+        "nl": "Prachtig versierd klassiek carrousel — een geliefd Gold Reef City icoon. Geschikt voor alle leeftijden.",
+        "pt": "Classico carrocel lindamente decorado — um amado icone de Gold Reef City. Adequado para todas as idades.",
+        "ru": "Классическая карусель — любимый символ Gold Reef City. Подходит для всех.",
+        "zh": "精心装饰的经典旋转木马——黄金城深受南非家庭喜爱的标志性地标。适合所有年龄。",
+        "ar": "خيول دوار كلاسيكية — رمز محبوب لـ Gold Reef City. مناسب لجميع الأعمار."
+      }
+    },
+    "kids_corner": {
+      "desc": {
+        "en": "Dedicated children's play area with age-appropriate rides, climbing structures and activities designed for younger children. Ideal for families with toddlers. Suitable for all ages.",
+        "es": "Area de juegos dedicada para ninos con atracciones apropiadas para la edad y estructuras de escalada. Ideal para familias con ninos pequenos. Apto para todas las edades.",
+        "fr": "Zone de jeux dediee aux enfants avec des manèges adaptes a l age et structures d escalade. Ideal pour les familles avec de jeunes enfants. Convient a tous les ages.",
+        "de": "Dedizierter Kinderspielbereich mit altersgerechten Fahrten und Kletterstrukturen. Ideal fur Familien mit Kleinkindern. Fur alle Altersgruppen.",
+        "it": "Area giochi dedicata ai bambini con giostre appropriate per l eta e strutture da arrampicata. Ideale per famiglie con bambini piccoli. Adatto a tutte le eta.",
+        "nl": "Speelruimte voor kinderen met leeftijdsgeschikte attracties en klimstructuren. Ideaal voor gezinnen met peuters. Geschikt voor alle leeftijden.",
+        "pt": "Area de jogos dedicada para criancas com atraccoes adequadas a idade e estruturas de escalada. Ideal para familias com criancas pequenas. Adequado para todas as idades.",
+        "ru": "Детская площадка с аттракциями для мальчишей. Подходит для всех возрастов.",
+        "zh": "专为幼小儿童设计的儿童游乐区域，设有适龄游乐项目和攻爬结构。适合所有年龄。",
+        "ar": "منطقة لعب مخصصة للأطفال. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_barneys_restaurant": {
+      "desc": {
+        "en": "Main sit-down restaurant serving generous South African and international meals including grilled meats, burgers and pasta in a relaxed family atmosphere.",
+        "es": "Restaurante principal con comidas sudafricanas e internacionales generosas incluyendo carnes a la parrilla, hamburgesas y pasta en un ambiente familiar relajado.",
+        "fr": "Restaurant principal avec genereux repas sud-africains et internationaux incluant viandes grillees, burgers et pates dans une ambiance familiale detendue.",
+        "de": "Hauptrestaurant mit grosszugigen sudafrikanischen und internationalen Mahlzeiten einschliesslich gegrilltem Fleisch, Burgern und Pasta.",
+        "it": "Ristorante principale con abbondanti pasti sudafricani e internazionali tra cui carni alla griglia, hamburger e pasta.",
+        "nl": "Hoofdrestaurant met royale Zuid-Afrikaanse en internationale maaltijden waaronder gegrild vlees, burgers en pasta.",
+        "pt": "Restaurante principal com generosas refeicoes sul-africanas e internacionais incluindo carnes grelhadas, hamburgeres e massa.",
+        "ru": "Главный ресторан с щедрыми южноафриканскими блюдами.",
+        "zh": "主餐厅，供应丰盛的南非和国际餐食，包括烤肉、汉堡和意面。",
+        "ar": "مطعم رئيسي مع وجبات جنوب أفريقية ودولية سخية."
+      }
+    },
+    "food_panarottis": {
+      "desc": {
+        "en": "Well-known South African pizza and pasta chain — freshly prepared pizzas, pasta and salads in a fun casual atmosphere. Popular choice for families.",
+        "es": "Conocida cadena sudafricana de pizza y pasta — pizzas, pasta y ensaladas recien preparadas en un ambiente casual divertido.",
+        "fr": "Celebre chaine sud-africaine de pizza et pates — pizzas, pates et salades fraichement prepares dans une ambiance casual.",
+        "de": "Bekannte sudafrikanische Pizza- und Pasta-Kette — frisch zubereitete Pizzen, Pasta und Salate in entspannter Atmosphare.",
+        "it": "Nota catena sudafricana di pizza e pasta — pizze, pasta e insalate freschi in un ambiente casual.",
+        "nl": "Bekende Zuid-Afrikaanse pizza en pasta keten — vers bereide pizza, pasta en salades in een leuke casual sfeer.",
+        "pt": "Conhecida cadeia sul-africana de pizza e massa — pizzas, massa e saladas frescos em ambiente casual.",
+        "ru": "Известная южноафриканская сеть пиццерий.",
+        "zh": "知名南非披萨和意面餐饲店——新鲜出炉的披萨和意面。家庭的热门选择。",
+        "ar": "سلسلة بيتزا ومعكرونة جنوب أفريقية معروفة."
+      }
+    },
+    "food_calistos": {
+      "desc": {
+        "en": "Popular South African Portuguese-style flame-grilled peri-peri chicken — one of the most flavourful dining options at Gold Reef City.",
+        "es": "Popular restaurante sudafricano de pollo a la brasa estilo portugues con salsa peri-peri — una de las opciones gastronomicas mas sabrosas.",
+        "fr": "Populaire restaurant sud-africain de poulet grille a la flamme style portugais avec sauce peri-peri.",
+        "de": "Beliebtes sudafrikanisches portugiesisches Flamm-Grill-Peri-Peri-Hahnchen Restaurant.",
+        "it": "Popolare ristorante sudafricano di pollo alla brace in stile portoghese con salsa peri-peri.",
+        "nl": "Populair Zuid-Afrikaans Portugees-stijl vlam-gegrild peri-peri kip restaurant.",
+        "pt": "Popular restaurante sul-africano de frango grelhado na brasa estilo portugues com molho peri-peri.",
+        "ru": "Популярный южноафриканский португальский ресторан.",
+        "zh": "南非点火烤制葾和鸡肌饿餐厅——黄金城最鲜味的用餐选择之一。",
+        "ar": "مطعم دجاج بري بري برتغالي مشهور جنوب أفريقيا."
+      }
+    },
+    "food_oldees_diner": {
+      "desc": {
+        "en": "Retro American-style diner serving hot dogs, burgers and loaded fries in a fun 1950s atmosphere — ideal for a quick satisfying snack.",
+        "es": "Restaurante americano retro con hot dogs, hamburgesas y patatas fritas cargadas en un divertido ambiente de los anos 50.",
+        "fr": "Diner americain retro avec hot dogs, burgers et frites chargees dans une ambiance annees 50.",
+        "de": "Retro amerikanisches Diner mit Hot Dogs, Burgern und beladenen Pommes in 1950er-Atmosphare.",
+        "it": "Diner americano retro con hot dog, hamburger e patatine cariche in una divertente atmosfera anni 50.",
+        "nl": "Retro Amerikaans diner met hotdogs, burgers en beladen friet in een leuke jaren 50 sfeer.",
+        "pt": "Restaurante americano retro com hot dogs, hamburgeres e batatas fritas carregadas em atmosfera anos 50.",
+        "ru": "Ретро-американское кафе с хот-догами и бургерами.",
+        "zh": "复古美式餐厅，供应热狗、汉堡和菊花藯——游玩间隙快速唇馆的理想选择。",
+        "ar": "مطعم أمريكي كلاسيكي مع هوت دوج وبرغر في أجواء الخمسينيات."
+      }
+    },
+    "food_anat": {
+      "desc": {
+        "en": "Popular South African Middle Eastern chain serving freshly made falafel, shawarma and pita wraps — a lighter and flavourful alternative at Gold Reef City.",
+        "es": "Popular cadena sudafricana de comida del Medio Oriente con falafel, shawarma y wraps de pita recien hechos.",
+        "fr": "Populaire chaine sud-africaine moyen-orientale avec falafel, shawarma et wraps pita fraichement prepares.",
+        "de": "Beliebte sudafrikanische Nahost-Kette mit frisch zubereitetem Falafel, Schawarma und Pita-Wraps.",
+        "it": "Popolare catena sud-africana mediorientale con falafel, shawarma e wrap pita freschi.",
+        "nl": "Populaire Zuid-Afrikaanse Midden-Oosterse keten met vers bereide falafel, shawarma en pita wraps.",
+        "pt": "Popular cadeia sul-africana do Medio Oriente com falafel, shawarma e wraps de pita frescos.",
+        "ru": "Популярная южноафриканская сеть ближневосточной кухни.",
+        "zh": "南非很受欢迎的中东餐饿——新鲜制作的油芸菜丸和沙瓦马增。",
+        "ar": "سلسلة شرق أوسط جنوب أفريقية مع فلافل وشاورما طازجين."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_gold_reef_city": {
+      "desc": {
+        "en": "The only hotel directly on the Gold Reef City theme park site — Victorian-themed rooms inspired by the 1890s gold rush, casino, pool and multiple restaurants with direct park access.",
+        "es": "El unico hotel directamente en el sitio del parque tematico Gold Reef City — habitaciones de tematica victoriana inspiradas en la fiebre del oro de la decada de 1890, casino y piscina.",
+        "fr": "Le seul hotel directement sur le site du parc a themes Gold Reef City — chambres a theme victorien inspirees de la ruee vers l or des annees 1890, casino et piscine.",
+        "de": "Das einzige Hotel direkt auf dem Gelaende des Themenparks Gold Reef City — viktorianisch gestaltete Zimmer inspiriert von der Goldrausch-Ara der 1890er, Casino und Pool.",
+        "it": "L unico hotel direttamente nel sito del parco a tema Gold Reef City — camere a tema vittoriano ispirate alla corsa all oro degli anni 1890, casino e piscina.",
+        "nl": "Het enige hotel direct op het Gold Reef City themapark terrein — Victoriaans ingerichte kamers geinsporeerd door de goudkoorts van de jaren 1890, casino en zwembad.",
+        "pt": "O unico hotel directamente no local do parque tematico Gold Reef City — quartos com tema vitoriano inspirados na corrida ao ouro dos anos 1890, casino e piscina.",
+        "ru": "Единственный отель непосредственно на территории парка с викторианскими номерами.",
+        "zh": "黄金城公园内唯一的酒店——维多利亚风格客房回溯1890年代工燓时代，酒店、泳池和多家餐厅。直接通入公园。",
+        "ar": "الفندق الوحيد مباشرة على موقع المتنزه — غرف فيكتورية مستوحاة من حقبة الذهب."
+      }
+    },
+    "hotel_peermont_mondior": {
+      "desc": {
+        "en": "Stylish 4-star hotel at Emperors Palace, 20 minutes from Gold Reef City — elegant rooms, pools, full spa, casino and award-winning restaurants.",
+        "es": "Elegante hotel de 4 estrellas en Emperors Palace a 20 minutos de Gold Reef City — habitaciones elegantes, piscinas, spa completo, casino y restaurantes premiados.",
+        "fr": "Hotel elegant 4 etoiles au Emperors Palace a 20 minutes de Gold Reef City — chambres elegantes, piscines, spa complet et restaurantes primés.",
+        "de": "Stilvolles 4-Sterne-Hotel im Emperors Palace 20 Minuten von Gold Reef City entfernt — elegante Zimmer, Pools, Vollservice-Spa und Restaurants.",
+        "it": "Elegante hotel 4 stelle all Emperors Palace a 20 minuti da Gold Reef City — camere eleganti, piscine, spa completa e ristoranti.",
+        "nl": "Stijlvol 4-sterrenhotel bij Emperors Palace 20 minuten van Gold Reef City — elegante kamers, zwembaden, volledig spa en restaurants.",
+        "pt": "Elegante hotel de 4 estrelas no Emperors Palace a 20 minutos de Gold Reef City — quartos elegantes, piscinas, spa completo e restaurantes.",
+        "ru": "Стильный 4-звёздный отель в Emperors Palace, 20 минут от Gold Reef City.",
+        "zh": "帝王宫殿时尚4星级酒店，展山路黄金城车程20分钟。内设全套Spa和多家获奖餐厅。",
+        "ar": "فندق 4 نجوم أنيق في Emperors Palace على بعد 20 دقيقة من Gold Reef City."
+      }
+    },
+    "hotel_radisson_blue_gautrain": {
+      "desc": {
+        "en": "Sleek modern 4-star hotel connected to Sandton Gautrain station — 15 minutes from Gold Reef City by train. Rooftop pool, gym, spa and multiple dining options in the heart of Sandton.",
+        "es": "Moderno hotel de 4 estrellas conectado a la estacion Gautrain de Sandton — a 15 minutos de Gold Reef City en tren. Piscina en la azotea, gimnasio y spa.",
+        "fr": "Hotel moderne 4 etoiles connecte a la gare Gautrain de Sandton — a 15 minutes de Gold Reef City en train. Piscine sur le toit, salle de gym et spa.",
+        "de": "Modernes 4-Sterne-Hotel verbunden mit dem Sandton Gautrain-Bahnhof — 15 Minuten von Gold Reef City mit dem Zug. Dachpool, Fitnessstudio und Spa.",
+        "it": "Moderno hotel 4 stelle collegato alla stazione Gautrain di Sandton — 15 minuti da Gold Reef City in treno. Piscina sul tetto, palestra e spa.",
+        "nl": "Modern 4-sterrenhotel verbonden met Sandton Gautrain station — 15 minuten van Gold Reef City met de trein. Dakterras zwembad, gym en spa.",
+        "pt": "Hotel moderno de 4 estrelas ligado a estacao Gautrain de Sandton — a 15 minutos de Gold Reef City de comboio. Piscina no telhado, ginasio e spa.",
+        "ru": "Современный 4-звёздный отель у станции Gautrain в Sandton, 15 минут от Gold Reef City.",
+        "zh": "和顿高铁轨道直接相连的时尚4星级酒店——乘火车15分钟就到黄金城。",
+        "ar": "فندق 4 نجوم عصري متصل بمحطة Gautrain في Sandton — 15 دقيقة من Gold Reef City."
+      }
+    },
+    "hotel_southern_sun_hyde_park": {
+      "desc": {
+        "en": "Well-regarded 4-star hotel in upmarket Hyde Park, 20 minutes from Gold Reef City — comfortable rooms, pool, gym and easy access to Hyde Park Corner shopping and dining.",
+        "es": "Reconocido hotel de 4 estrellas en el exclusivo barrio Hyde Park a 20 minutos de Gold Reef City — habitaciones confortables, piscina y facil acceso a tiendas y restaurantes.",
+        "fr": "Hotel 4 etoiles bien considere dans le quartier chic d Hyde Park a 20 minutes de Gold Reef City — chambres confortables, piscine et acces facile aux commerces.",
+        "de": "Angesehenes 4-Sterne-Hotel im exklusiven Hyde Park 20 Minuten von Gold Reef City entfernt — komfortable Zimmer, Pool und einfacher Zugang zu Einkaufen und Restaurants.",
+        "it": "Hotel 4 stelle ben considerato nel quartiere esclusivo Hyde Park a 20 minuti da Gold Reef City — camere confortevoli, piscina e facile accesso a negozi e ristoranti.",
+        "nl": "Goed aangeschreven 4-sterrenhotel in exclusief Hyde Park 20 minuten van Gold Reef City — comfortabele kamers, zwembad en makkelijke toegang tot winkels en restaurants.",
+        "pt": "Hotel de 4 estrelas bem conceituado no exclusivo Hyde Park a 20 minutos de Gold Reef City — quartos confortaveis, piscina e facil acesso a lojas e restaurantes.",
+        "ru": "Уважаемый 4-звёздный отель в престижном Hyde Park, 20 минут от Gold Reef City.",
+        "zh": "海德公园上流居住区受詉的4星级酒店，展示路黄金城车程20分钟。",
+        "ar": "فندق 4 نجوم محترم في Hyde Park الراقية على بعد 20 دقيقة من Gold Reef City."
+      }
+    }
+  }
+}

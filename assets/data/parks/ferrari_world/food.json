@@ -1,0 +1,167 @@
+[
+  {
+    "id": "food_cavallino",
+    "name": "Cavallino Restaurant",
+    "type": "Italian Fine Dining",
+    "image": "assets/images/ferrari_world/food_cavallino.png",
+    "lat": 24.4836,
+    "lng": 54.6081,
+    "rating": 4.6,
+    "description": "The premier dining destination at Ferrari World — Cavallino is an upscale Italian restaurant inspired by the legendary Cavallino restaurant in Maranello that was Enzo Ferrari's personal favourite. Serving authentic Northern Italian cuisine including handmade pasta, risotto, premium grilled meats and the finest Italian wines in an elegant Ferrari-themed setting.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "Tagliatelle al Ragu",
+        "description": "Handmade tagliatelle with slow-cooked Bolognese ragu and Parmigiano",
+        "price": 95
+      },
+      {
+        "name": "Risotto al Funghi",
+        "description": "Creamy Carnaroli risotto with porcini mushrooms and truffle oil",
+        "price": 88
+      },
+      {
+        "name": "Grilled Branzino",
+        "description": "Fresh Mediterranean sea bass with seasonal vegetables and lemon butter",
+        "price": 115
+      },
+      {
+        "name": "Tiramisu",
+        "description": "Classic Italian tiramisu with espresso and mascarpone",
+        "price": 45
+      }
+    ]
+  },
+  {
+    "id": "food_gran_tour_emilia",
+    "name": "Gran Tour Emilia",
+    "type": "Italian Buffet",
+    "image": "assets/images/ferrari_world/food_gran_tour_emilia.png",
+    "lat": 24.4838,
+    "lng": 54.6083,
+    "rating": 4.4,
+    "description": "A generous Italian buffet celebrating the food of Emilia-Romagna — the Italian region that is home to Ferrari, Lamborghini, Ducati and some of the world greatest food including Parmigiano Reggiano, Prosciutto di Parma and Balsamic vinegar of Modena. The most comprehensive Italian dining experience at Ferrari World.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "Buffet Lunch",
+        "description": "All-you-can-eat Italian buffet with antipasti, pasta, mains and dessert",
+        "price": 145
+      },
+      {
+        "name": "Buffet Dinner",
+        "description": "Premium evening buffet with extended selection of Emilian specialities",
+        "price": 175
+      },
+      {
+        "name": "Child Buffet",
+        "description": "All-you-can-eat buffet for children aged 3-11",
+        "price": 75
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Selection of beverages",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": "food_il_podio",
+    "name": "Il Podio",
+    "type": "Quick Service Italian",
+    "image": "assets/images/ferrari_world/food_il_podio.png",
+    "lat": 24.484,
+    "lng": 54.6085,
+    "rating": 4.2,
+    "description": "A lively quick-service Italian restaurant at the heart of Ferrari World serving pizza, pasta and Italian snacks in a Ferrari race podium atmosphere — ideal for a satisfying and quick meal between rides.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "Margherita Pizza",
+        "description": "Classic Neapolitan margherita with San Marzano tomato and fior di latte",
+        "price": 55
+      },
+      {
+        "name": "Pasta Pomodoro",
+        "description": "Spaghetti with fresh tomato sauce and fresh basil",
+        "price": 48
+      },
+      {
+        "name": "Panino Italiano",
+        "description": "Italian focaccia sandwich with prosciutto and mozzarella",
+        "price": 45
+      },
+      {
+        "name": "Espresso",
+        "description": "Short strong Italian espresso",
+        "price": 18
+      }
+    ]
+  },
+  {
+    "id": "food_mama_rossella",
+    "name": "Mama Rossella",
+    "type": "Family Italian Restaurant",
+    "image": "assets/images/ferrari_world/food_mama_rossella.png",
+    "lat": 24.4842,
+    "lng": 54.6087,
+    "rating": 4.3,
+    "description": "A warm and welcoming family Italian trattoria at Ferrari World serving generous home-style Italian cooking — lasagne, pizza, pasta and traditional Italian desserts in a cheerful and relaxed atmosphere inspired by a classic Italian family kitchen.",
+    "topPick": false,
+    "items": [
+      {
+        "name": "Lasagne al Forno",
+        "description": "Classic baked lasagne with Bolognese and bechamel sauce",
+        "price": 68
+      },
+      {
+        "name": "Pizza Diavola",
+        "description": "Spicy salami pizza with chilli and mozzarella",
+        "price": 58
+      },
+      {
+        "name": "Panna Cotta",
+        "description": "Classic Italian panna cotta with berry coulis",
+        "price": 38
+      },
+      {
+        "name": "Fresh Juice",
+        "description": "Freshly squeezed orange or lemon juice",
+        "price": 22
+      }
+    ]
+  },
+  {
+    "id": "food_officers_food_quarters",
+    "name": "Officers Food Quarters",
+    "type": "International Casual",
+    "image": "assets/images/ferrari_world/food_officers_food_quarters.png",
+    "lat": 24.4844,
+    "lng": 54.6089,
+    "rating": 4,
+    "description": "A casual international dining outlet themed to the World War I flying aces heritage of Ferrari World — serving burgers, wraps and international snacks in a lively aviator atmosphere near Flying Aces.",
+    "topPick": false,
+    "items": [
+      {
+        "name": "Classic Burger",
+        "description": "Beef burger with cheese, lettuce, tomato and fries",
+        "price": 62
+      },
+      {
+        "name": "Chicken Wrap",
+        "description": "Grilled chicken wrap with salad and garlic sauce",
+        "price": 55
+      },
+      {
+        "name": "Fish and Chips",
+        "description": "Beer-battered fish with thick-cut chips and tartare sauce",
+        "price": 65
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Selection of cold beverages",
+        "price": 18
+      }
+    ]
+  }
+]

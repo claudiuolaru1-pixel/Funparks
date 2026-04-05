@@ -1,0 +1,104 @@
+﻿[
+  {
+    "id": "food_mijoterie",
+    "name": "La Mijoterie du Roy Henri",
+    "type": "Renaissance Grand Restaurant",
+    "image": "assets/images/puydufou/food_mijoterie.png",
+    "lat": 46.8986,
+    "lng": -0.8948,
+    "rating": 4.5,
+    "description": "The grandest dining venue at Puy du Fou — an 800-seat Renaissance banquet hall serving quality French regional cuisine developed with Michelin-starred chef Yannick Alleno. Advance booking essential.",
+    "topPick": true,
+    "items": [
+      { "name": "Menu Renaissance Adult", "description": "3-course set menu with Vendee regional starter, main course and dessert", "price": 24.0 },
+      { "name": "Menu Enfant", "description": "Children's 3-course menu with smaller portions", "price": 14.0 },
+      { "name": "Plat du Jour", "description": "Daily changing main course using seasonal Vendee produce", "price": 16.0 },
+      { "name": "Muscadet Wine", "description": "Glass of local Loire Valley Muscadet white wine", "price": 6.0 }
+    ]
+  },
+  {
+    "id": "food_cafe_madelon",
+    "name": "Le Cafe de la Madelon",
+    "type": "1914 War Era Themed Cafe",
+    "image": "assets/images/puydufou/food_cafe_madelon.png",
+    "lat": 46.8979,
+    "lng": -0.8958,
+    "rating": 4.6,
+    "description": "The most unique restaurant concept in European theme parks — waitstaff are also performers who break into song and theatre between courses in a perfectly recreated 1914 French village cafe. Book well in advance.",
+    "topPick": true,
+    "items": [
+      { "name": "Formule Madelon", "description": "Set menu — onion soup, cassoulet and tarte tatin", "price": 26.0 },
+      { "name": "Croque Monsieur Soldat", "description": "Classic toasted ham and cheese with salad", "price": 14.0 },
+      { "name": "Tarte Tatin Maison", "description": "Classic French upside-down apple tart with creme fraiche", "price": 8.0 },
+      { "name": "Cidre Vendeen", "description": "Traditional Vendee cider in earthenware pitchers", "price": 5.0 }
+    ]
+  },
+  {
+    "id": "food_bistrot",
+    "name": "Le Bistrot",
+    "type": "French Bistro",
+    "image": "assets/images/puydufou/food_bistrot.png",
+    "lat": 46.8983,
+    "lng": -0.8952,
+    "rating": 4.4,
+    "description": "A classic French bistro serving fresh seasonal dishes, salads and daily specials — the most relaxed and accessible dining at Puy du Fou, ideal for a lighter lunch between shows.",
+    "topPick": false,
+    "items": [
+      { "name": "Planche Charcuterie", "description": "Board of local Vendee charcuterie, pickles, bread and butter", "price": 16.0 },
+      { "name": "Salade Mixte", "description": "Fresh mixed salad with goat cheese, walnuts and honey dressing", "price": 13.0 },
+      { "name": "Croque Madame", "description": "Classic toasted sandwich with ham, cheese and fried egg", "price": 12.0 },
+      { "name": "Cafe Gourmand", "description": "French espresso served with three miniature desserts", "price": 8.0 }
+    ]
+  },
+  {
+    "id": "food_ecuyer_tranchant",
+    "name": "L Ecuyer Tranchant",
+    "type": "Medieval Banquet Restaurant",
+    "image": "assets/images/puydufou/food_ecuyer_tranchant.png",
+    "lat": 46.8977,
+    "lng": -0.8962,
+    "rating": 4.3,
+    "description": "Medieval banquet restaurant in a stone-vaulted great hall by torchlight — roasted meats, rich stews and goblets of wine served by costumed staff. Part of La Citadelle hotel, open to day visitors with advance booking.",
+    "topPick": false,
+    "items": [
+      { "name": "Banquet du Chevalier", "description": "Full medieval menu — herb soup, roasted chicken, vegetable pottage and honey cake", "price": 28.0 },
+      { "name": "Gigot d Agneau", "description": "Slow-roasted Vendee lamb with root vegetables and rosemary jus", "price": 22.0 },
+      { "name": "Soupe des Serfs", "description": "Hearty medieval vegetable and barley soup with crusty bread", "price": 9.0 },
+      { "name": "Hypocras", "description": "Spiced medieval wine in an earthenware goblet", "price": 6.0 }
+    ]
+  },
+  {
+    "id": "food_atrium",
+    "name": "L Atrium",
+    "type": "Gallo-Roman Restaurant",
+    "image": "assets/images/puydufou/food_atrium.png",
+    "lat": 46.8994,
+    "lng": -0.8941,
+    "rating": 4.2,
+    "description": "The Villa Gallo-Romaine hotel restaurant with mosaic floors, frescoes and open courtyard. Expanded in 2026 with authentic Neapolitan wood-fired pizzas alongside the Mediterranean menu.",
+    "topPick": false,
+    "items": [
+      { "name": "Breakfast Buffet", "description": "Full hot and cold breakfast buffet for hotel guests", "price": 17.0 },
+      { "name": "Pizza Napolitaine", "description": "Authentic Neapolitan pizza with wood-fired crust — new 2026", "price": 16.0 },
+      { "name": "Tartare de Saumon", "description": "Fresh salmon tartare with lemon dressing and capers", "price": 14.0 },
+      { "name": "Tiramisu Maison", "description": "Classic homemade tiramisu with espresso and mascarpone", "price": 8.0 }
+    ]
+  },
+  {
+    "id": "food_auberge",
+    "name": "L Auberge du Peuple",
+    "type": "Village Tavern",
+    "image": "assets/images/puydufou/food_auberge.png",
+    "lat": 46.8976,
+    "lng": -0.8965,
+    "rating": 4.1,
+    "description": "A traditional Vendee village tavern serving honest regional cooking — duck confit, buckwheat galettes and artisan cider. The most informally priced restaurant at Puy du Fou, perfect for families.",
+    "topPick": false,
+    "items": [
+      { "name": "Confit de Canard", "description": "Duck confit with Vendee mogettes beans and potatoes sarladaises", "price": 18.0 },
+      { "name": "Galette de Ble Noir", "description": "Traditional buckwheat crepe with cheese, ham and egg", "price": 12.0 },
+      { "name": "Soupe Paysanne", "description": "Rustic country vegetable soup with bread and butter", "price": 8.0 },
+      { "name": "Cidre Artisanal", "description": "Local artisan Vendee cider from the barrel", "price": 4.5 }
+    ]
+  }
+]

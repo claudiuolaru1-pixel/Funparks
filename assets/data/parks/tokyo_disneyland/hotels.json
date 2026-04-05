@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_tokyo_disneyland",
+    "name": "Tokyo Disneyland Hotel",
+    "description": "The most prestigious hotel at Tokyo Disney Resort — magnificent Victorian palace physically connected to the park entrance with direct walkway access. Stunning castle views from upper-floor rooms and unmatched Disney character theming throughout.",
+    "image": "assets/images/tokyo_disneyland/hotel_tokyo_disneyland.png",
+    "lat": 35.634,
+    "lng": 139.8795,
+    "rating": 4.9,
+    "topPick": true,
+    "website": "https://www.tokyodisneyresort.jp/en/hotel/tdh/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant Victorian-styled room with Disney character decor, free WiFi and en-suite bathroom.",
+        "pricePerNight": 60000,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "castle_view_room",
+        "name": "Castle View Room",
+        "description": "Premium room with direct views of Cinderella Castle — the ultimate Tokyo Disneyland experience.",
+        "pricePerNight": 85000,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "character_room",
+        "name": "Character Room",
+        "description": "Specially themed room featuring Disney characters throughout the decor with exclusive amenities.",
+        "pricePerNight": 95000,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_disney_ambassador",
+    "name": "Disney Ambassador Hotel",
+    "description": "Glamorous Hollywood golden age hotel celebrating Disney animation heritage — Mickey-themed suites, art deco ballroom and two themed restaurants. Free shuttle to both parks.",
+    "image": "assets/images/tokyo_disneyland/hotel_disney_ambassador.png",
+    "lat": 35.6345,
+    "lng": 139.882,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.tokyodisneyresort.jp/en/hotel/dah/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Art deco styled room with Disney animation artwork, free WiFi and en-suite bathroom.",
+        "pricePerNight": 40000,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "character_suite",
+        "name": "Character Suite",
+        "description": "Spacious suite themed around Mickey and friends with separate living area and premium amenities.",
+        "pricePerNight": 75000,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Larger deluxe room with upgraded Disney theming and premium bedding.",
+        "pricePerNight": 52000,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_disney_toy_story",
+    "name": "Tokyo Disney Resort Toy Story Hotel",
+    "description": "Colourful family hotel themed around Andy room from Toy Story with cheerful character rooms and giant toy installations. Most popular choice for families with young children.",
+    "image": "assets/images/tokyo_disneyland/hotel_disney_toy_story.png",
+    "lat": 35.635,
+    "lng": 139.883,
+    "rating": 4.5,
+    "topPick": true,
+    "website": "https://www.tokyodisneyresort.jp/en/hotel/tsh/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Cheerful Toy Story themed room sleeping up to 3 guests with Disney character decor.",
+        "pricePerNight": 25000,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Larger Toy Story room with extra space for families with young children.",
+        "pricePerNight": 32000,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room sleeping up to 4 guests with full Toy Story theming.",
+        "pricePerNight": 42000,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_tokyo_disney_celebration",
+    "name": "Tokyo Disney Celebration Hotel",
+    "description": "Budget-friendly Disney hotel with Wish and Discover wings — cheerful Disney theming at accessible prices. Free shuttle to both Tokyo Disneyland and Tokyo DisneySea.",
+    "image": "assets/images/tokyo_disneyland/hotel_tokyo_disney_celebration.png",
+    "lat": 35.6355,
+    "lng": 139.884,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.tokyodisneyresort.jp/en/hotel/tdc/",
+    "rooms": [
+      {
+        "key": "wish_room",
+        "name": "Wish Room",
+        "description": "Dreams-come-true themed room in the Wish wing with Disney decor and free shuttle access.",
+        "pricePerNight": 15000,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "discover_room",
+        "name": "Discover Room",
+        "description": "Adventure themed room in the Discover wing with Disney decor and free shuttle access.",
+        "pricePerNight": 15000,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Larger room in either wing with upgraded furnishings and extra sleeping space.",
+        "pricePerNight": 22000,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

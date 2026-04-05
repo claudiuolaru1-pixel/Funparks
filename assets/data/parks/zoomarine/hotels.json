@@ -1,0 +1,110 @@
+﻿[
+  {
+    "id": "hotel_vila_gale_albufeira",
+    "name": "Vila Gale Albufeira",
+    "description": "The finest official partner hotel for Zoomarine visitors — Vila Gale Albufeira is a magnificent 4-star resort in the heart of Albufeira, one of the Algarve's most beloved and vibrant coastal towns, offering spacious rooms with balconies, multiple outdoor pools, a full spa, gym, entertainment programme and a superb restaurant serving fresh Algarve seafood. Vila Gale is just 10 minutes drive from Zoomarine and the hotel offers convenient park packages combining accommodation with discounted Zoomarine tickets. The combination of exceptional beach resort facilities with easy access to Zoomarine makes Vila Gale Albufeira the most complete and comfortable choice for families building their Algarve holiday around a Zoomarine visit. From approximately 120 euros per room per night.",
+    "image": "assets/images/zoomarine/hotel_vila_gale_albufeira.png",
+    "lat": 37.0883,
+    "lng": -8.2503,
+    "rating": 4.5,
+    "topPick": true,
+    "website": "https://www.vilagale.com/en/hotels/algarve/vila-gale-albufeira",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Classic Room with Balcony",
+        "description": "Spacious 4-star room with balcony views, breakfast buffet, pool access and 10-minute drive to Zoomarine.",
+        "pricePerNight": 120.0,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Large family room with extra beds, enhanced amenities, breakfast buffet and complimentary Zoomarine tickets with packages.",
+        "pricePerNight": 165.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_pine_cliffs",
+    "name": "Pine Cliffs Resort",
+    "description": "The most prestigious and luxurious accommodation near Zoomarine — Pine Cliffs Resort is a spectacular 5-star Autograph Collection resort by Marriott perched dramatically on the famous red sandstone cliffs above a stunning private beach cove near Albufeira. Offering villas, suites and hotel rooms across a magnificent pine-covered clifftop estate, Pine Cliffs features multiple restaurants, a golf course, the outstanding Serenity Spa, tennis courts, several pools and direct cliff elevator access to a private beach. The combination of jaw-dropping Algarve coastal scenery, world-class resort amenities and proximity to Zoomarine makes Pine Cliffs the ultimate luxury base for a premium Algarve family holiday. From approximately 280 euros per room per night.",
+    "image": "assets/images/zoomarine/hotel_pine_cliffs.png",
+    "lat": 37.1072,
+    "lng": -8.2305,
+    "rating": 4.8,
+    "topPick": true,
+    "website": "https://www.pinecliffs.com",
+    "rooms": [
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Luxurious 5-star room with Algarve views, access to multiple pools, golf, spa, and private beach elevator.",
+        "pricePerNight": 280.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Spectacular clifftop suite with panoramic Atlantic views, living room, terrace, breakfast and priority spa access.",
+        "pricePerNight": 420.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_holiday_inn_algarve",
+    "name": "Holiday Inn Algarve",
+    "description": "The most convenient and family-friendly mid-range hotel option for Zoomarine visitors — Holiday Inn Algarve is a well-appointed 4-star hotel in Armacao de Pera, approximately 15 minutes from Zoomarine, offering comfortable rooms, an outdoor pool, children's play area, restaurant, bar and the reliable Holiday Inn standard of family-friendly service. The hotel is particularly popular with British and Irish families visiting the Algarve and benefits from easy access to both Zoomarine and the beautiful beaches of Armacao de Pera. Holiday Inn offers competitive family room rates and breakfast packages that make it excellent value for multi-night Algarve stays. From approximately 90 euros per room per night.",
+    "image": "assets/images/zoomarine/hotel_holiday_inn_algarve.png",
+    "lat": 37.1010,
+    "lng": -8.3385,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.ihg.com/holidayinn/hotels/gb/en/armacao-de-pera/farap/hoteldetail",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable 4-star room with pool access, breakfast option and 15 minutes from Zoomarine.",
+        "pricePerNight": 90.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room with extra beds for children, outdoor pool access and breakfast included.",
+        "pricePerNight": 125.0,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_pestana_algarve",
+    "name": "Pestana Algarve Race Hotel",
+    "description": "A unique and genuinely distinctive hotel choice for Zoomarine visitors — Pestana Algarve Race Hotel is a stylish 4-star hotel built directly alongside the Algarve International Racetrack in Portimao, offering motorsport-themed rooms, an outdoor pool, restaurant, bar and the extraordinary experience of watching racing cars and motorcycles from the hotel grounds during race events. Portimao is approximately 35 minutes from Zoomarine and the combination of the motorsport experience with proximity to the park and the nearby beaches of Portimao makes Pestana Algarve Race a highly original and memorable base for an Algarve family holiday. From approximately 100 euros per room per night.",
+    "image": "assets/images/zoomarine/hotel_pestana_algarve.png",
+    "lat": 37.2271,
+    "lng": -8.6281,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.pestana.com/en/hotel/pestana-algarve-race",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Race Standard Room",
+        "description": "Motorsport-themed 4-star room with racetrack views, pool access and 35 minutes from Zoomarine.",
+        "pricePerNight": 100.0,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Race Superior Room",
+        "description": "Enhanced room with direct racetrack views, breakfast, pool access and priority booking for race event viewing.",
+        "pricePerNight": 135.0,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

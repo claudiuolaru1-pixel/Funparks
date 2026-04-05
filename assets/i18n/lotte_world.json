@@ -1,0 +1,378 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Lotte World is South Korea's premier theme park and one of the largest indoor theme parks on earth, located in the Jamsil district of Seoul. Opened in 1989, Lotte World is built around the extraordinary Magic Island — a fantasy island floating on an artificial lake inside the world's largest indoor theme park dome. The park combines the indoor Magic Island with an outdoor Adventure area and is directly connected to the Lotte World Tower, the fifth tallest building on earth. Attracts over 8 million visitors annually making it one of the most visited theme parks in the world.",
+      "es": "Lotte World es el principal parque tematico de Corea del Sur y uno de los parques tematicos cubiertos mas grandes del mundo, ubicado en el distrito de Jamsil en Seoul. Inaugurado en 1989, se construye alrededor de la extraordinaria Magic Island — una isla fantastica flotando en un lago artificial dentro de la cupula de parque tematico cubierto mas grande del mundo. Atrae mas de 8 millones de visitantes anuales.",
+      "fr": "Lotte World est le principal parc a themes de Coree du Sud et l un des plus grands parcs a themes couverts de la terre, situe dans le quartier de Jamsil a Seoul. Ouvert en 1989, il est construit autour de l extraordinaire Magic Island. Accueille plus de 8 millions de visiteurs par an.",
+      "de": "Lotte World ist Sudkoreas fuhrende Themenpark und einer der grossten uberdachten Themenparks der Erde, im Jamsil-Viertel von Seoul gelegen. 1989 eroffnet ist er um die aussergewohnliche Magic Island gebaut. Uber 8 Millionen Besucher jahrlich.",
+      "it": "Lotte World e il principale parco a tema della Corea del Sud e uno dei piu grandi parchi a tema coperti della terra, situato nel quartiere Jamsil di Seoul. Aperto nel 1989, e costruito attorno alla straordinaria Magic Island. Oltre 8 milioni di visitatori annui.",
+      "nl": "Lotte World is het toonaangevende themapark van Zuid-Korea en een van de grootste overdekte themaparken op aarde, in het Jamsil-district van Seoul gelegen. Geopend in 1989 is het gebouwd rond het buitengewone Magic Island. Meer dan 8 miljoen bezoekers per jaar.",
+      "pt": "Lotte World e o principal parque tematico da Coreia do Sul e um dos maiores parques tematicos cobertos da terra, localizado no distrito de Jamsil em Seoul. Aberto em 1989, e construido em torno da extraordinaria Magic Island. Mais de 8 milhoes de visitantes anuais.",
+      "ru": "Lotte World — ведущий тематический парк Южной Кореи и один из крупнейших крытых тематических парков на земле. Открыт в 1989 году. Более 8 млн посетителей ежегодно.",
+      "zh": "乐天世界是韩国首屈主题公园，也是地球上最大的室内主题公园之一，位于首尔沙尗区。它于1989年开放，围绕神奇的魔法岛建造——一座漂浮在室内人工湖上的幻想岛屿。每年吸引逾800万游客。",
+      "ar": "Lotte World هو المتنزه الرائد في كوريا الجنوبية وأحد أكبر المتنزهات المغلقة على الأرض، في حي Jamsil بسيول. افتتح 1989 ويستقبل أكثر من 8 ملايين زائر سنويا."
+    },
+    "ov_highlights_body": {
+      "en": "Magic Island is the world's largest indoor theme park — a fantasy island floating on an artificial lake beneath an enormous dome. French Revolution is the iconic flagship roller coaster. Gyro Drop at 70 metres delivers breathtaking free falls over Seoul. Atlantis Adventure is the most thrilling indoor dark ride in Korea. The Magic Town Parade is the most spectacular daily parade at any Korean theme park. The hot air balloon ride offers the most unique perspective of any indoor park in the world. Lotte World Tower next door is the fifth tallest building on earth.",
+      "es": "Magic Island es el parque tematico cubierto mas grande del mundo. French Revolution es la montana rusa insignia iconica. Gyro Drop a 70 metros ofrece impresionantes caidas libres sobre Seoul. Atlantis Adventure es la atraccion oscura cubierta mas emocionante de Corea. El desfile Magic Town es el mas espectacular de cualquier parque coreano.",
+      "fr": "Magic Island est le plus grand parc a themes couvert du monde. French Revolution est la montagne russe emblematique. Gyro Drop a 70 metres offre des chutes libres spectaculaires sur Seoul. Atlantis Adventure est l attraction sombre la plus palpitante de Coree. Le defile Magic Town est le plus spectaculaire de tout parc coreen.",
+      "de": "Magic Island ist der weltgroesste uberdachte Themenpark. French Revolution ist der ikonische Flaggschiff-Achterbahn. Gyro Drop bei 70 Metern liefert atemberaubende freie Sturze uber Seoul. Atlantis Adventure ist die aufregendste uberdachte Dark Ride in Korea. Die Magic Town Parade ist die spektakularste tagliche Parade in einem koreanischen Themenpark.",
+      "it": "Magic Island e il piu grande parco a tema coperto del mondo. French Revolution e la montagna russa di punta iconica. Gyro Drop a 70 metri offre emozionanti cadute libere su Seoul. Atlantis Adventure e la piu entusiasmante dark ride al coperto in Corea. La parata Magic Town e la piu spettacolare di qualsiasi parco coreano.",
+      "nl": "Magic Island is het grootste overdekte themapark ter wereld. French Revolution is de iconische vlaggenschip achtbaan. Gyro Drop bij 70 meter levert adembenemende vrije vallen over Seoul. Atlantis Adventure is de meest opwindende overdekte dark ride in Korea. De Magic Town Parade is de meest spectaculaire dagelijkse parade in een Koreaans themapark.",
+      "pt": "Magic Island e o maior parque tematico coberto do mundo. French Revolution e a montanha-russa principal iconica. Gyro Drop a 70 metros oferece quedas livres espetaculares sobre Seoul. Atlantis Adventure e a dark ride coberta mais emocionante da Coreia. O desfile Magic Town e o mais espetacular de qualquer parque coreano.",
+      "ru": "Magic Island — крупнейший крытый тематический парк в мире. French Revolution — иконический коастер. Gyro Drop высотой 70 м. Atlantis Adventure — самый захватывающий крытый аттракцион в Корее.",
+      "zh": "魔法岛是世界最大的室内主题公园。法国大革命是标志性的明星过山车。陷落楚在首尔上空70米高处烂舟自由落体。亚特兰蒂斯冒险是韩国最刺激的室内暗黑游乐项目。魔法城市巡游是任何韩国主题公园中最壮观的每日巡游表演。",
+      "ar": "Magic Island هو أكبر متنزه ترفيهي مغلق في العالم. French Revolution هو اوتوستراد الرائد. Gyro Drop بارتفاع 70 م يوفر سقوطات حرة مذهلة. Atlantis Adventure أكثر dark ride إثارة في كوريا."
+    },
+    "ov_did_you_know_body": {
+      "en": "Lotte World's Magic Island indoor dome is so large that it has its own weather system — on cold days condensation forms clouds inside the dome. Lotte World was the world's largest indoor theme park when it opened in 1989 and held that record for many years. The Lotte World Tower next to the park stands 555 metres tall making it the fifth tallest building on earth. Lotte World attracts more than 8 million visitors per year — more than Disneyland Paris. The park's artificial lake is large enough to host outdoor concerts and fireworks displays on the water surface.",
+      "es": "La cupula interior de Magic Island es tan grande que tiene su propio sistema climatico. Lotte World fue el parque tematico cubierto mas grande del mundo cuando abrio en 1989. La Torre Lotte World con 555 metros es el quinto edificio mas alto de la tierra. Lotte World atrae mas de 8 millones de visitantes al ano.",
+      "fr": "La coupole interieure de Magic Island est si grande qu elle a son propre systeme meteorologique. Lotte World etait le plus grand parc a themes couvert du monde a son ouverture en 1989. La Tour Lotte World avec 555 metres est le cinquieme plus grand batiment de la terre. Lotte World attire plus de 8 millions de visiteurs par an.",
+      "de": "Die Innenkuppel von Magic Island ist so gross dass sie ihr eigenes Wettersystem hat. Lotte World war der weltgroesste uberdachte Themenpark bei seiner Eroffnung 1989. Der Lotte World Tower mit 555 Metern ist das funfthoechste Gebaude der Erde. Lotte World zieht mehr als 8 Millionen Besucher pro Jahr an.",
+      "it": "La cupola interna di Magic Island e cosi grande da avere il proprio sistema meteorologico. Lotte World era il piu grande parco a tema coperto del mondo alla sua apertura nel 1989. La Torre Lotte World con 555 metri e il quinto edificio piu alto della terra. Attrae piu di 8 milioni di visitatori annui.",
+      "nl": "De binnenkupel van Magic Island is zo groot dat het zijn eigen weersysteem heeft. Lotte World was het grootste overdekte themapark ter wereld bij opening in 1989. De Lotte World Tower met 555 meter is het vijfde hoogste gebouw op aarde. Trekt meer dan 8 miljoen bezoekers per jaar.",
+      "pt": "A cupula interior de Magic Island e tao grande que tem o seu proprio sistema meteorologico. Lotte World era o maior parque tematico coberto do mundo na abertura em 1989. A Torre Lotte World com 555 metros e o quinto edificio mais alto da terra. Atrai mais de 8 milhoes de visitantes por ano.",
+      "ru": "Купол Маджик Айленда так велик что у него есть собственная погода. Lotte World Tower 555 м — пятое высочайшее здание на земле. Более 8 млн посетителей в год.",
+      "zh": "魔法岛的室内穹顶如此巨大，甚至内部会形成独特的天气系统。乐天世界塔高达555米，是地球第五高楼。乐天世界每年吸引逾800万游客。",
+      "ar": "قبة Magic Island الداخلية ضخمة لدرجة أن لديها نظام طقس خاص. برج Lotte World بارتفاع 555 م هو خامس أطول مبنى. أكثر من 8 ملايين زائر سنويا."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head straight to French Revolution and Gyro Drop — these build the longest queues. Atlantis Adventure third before 11am. Check the Magic Town Parade schedule at the entrance — the parade is unmissable and the best viewing spots fill early. The balloon ride is best mid-morning before queues build. Pharaoh's Fury and Sindbad's Adventure are ideal for early afternoon. The outdoor Adventure area is best in warm weather. Crystal Palace Restaurant requires advance booking for dinner. Evenings at Lotte World are magical — the indoor lighting and lake reflections create an extraordinary atmosphere.",
+      "es": "Llega a la apertura y ve directamente a French Revolution y Gyro Drop. Atlantis Adventure tercero antes de las 11am. Comprueba el horario del desfile Magic Town — es imperdible. El globo es mejor a media manana. Crystal Palace requiere reserva anticipada para cenar. Las tardes en Lotte World son magicas.",
+      "fr": "Arrivez a l ouverture et allez directement a French Revolution et Gyro Drop. Atlantis Adventure troisieme avant 11h. Consultez le programme du defile Magic Town — incontournable. La montgolfiere est ideale en milieu de matinee. Crystal Palace necessite une reservation anticipee pour le diner. Les soirees a Lotte World sont magiques.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu French Revolution und Gyro Drop. Atlantis Adventure dritter vor 11 Uhr. Prufen Sie den Magic Town Parade-Zeitplan. Die Ballonfahrt ist am besten am Vormittag. Crystal Palace erfordert Vorabreservierung fur das Abendessen. Abende in Lotte World sind magisch.",
+      "it": "Arriva all apertura e vai direttamente a French Revolution e Gyro Drop. Atlantis Adventure terzo prima delle 11. Controlla il programma della parata Magic Town. La mongolfiera e ideale a meta mattina. Crystal Palace richiede prenotazione anticipata per cena. Le serate a Lotte World sono magiche.",
+      "nl": "Kom bij opening en ga direct naar French Revolution en Gyro Drop. Atlantis Adventure derde voor 11 uur. Controleer het Magic Town Parade schema. De ballonrit is het beste midden in de ochtend. Crystal Palace vereist vooraf boeken voor diner. Avonden in Lotte World zijn magisch.",
+      "pt": "Chega na abertura e vai directamente a French Revolution e Gyro Drop. Atlantis Adventure terceiro antes das 11h. Consulta o horario da parada Magic Town. O balao e ideal a meia-manha. Crystal Palace requer reserva antecipada para jantar. As tardes em Lotte World sao magicas.",
+      "ru": "Приходите к открытию и сразу к French Revolution и Gyro Drop. Atlantis Adventure третьим до 11 утра. Узнайте время парада Magic Town. Вечера в Lotte World — магические.",
+      "zh": "开园时到达直接前往法国大革命和陷落楚。亚特兰蒂斯冒险在上呈10点前排第三。查看魔法城市巡游时间表。热气球骑乘在上午中段最佳。晚间的乐天世界充满魔法氛围。",
+      "ar": "صل عند الافتتاح واذهب مباشرة لـ French Revolution وGyro Drop. Atlantis Adventure ثالثا. تحقق من جدول عرض Magic Town. مساءات Lotte World سحرية."
+    },
+    "ov_photos_body": {
+      "en": "The Magic Island balloon ride photographed from above looking down at the entire indoor dome is the most extraordinary and unique image in Korean theme park photography. French Revolution photographed from the lakeside at night with reflections in the artificial lake creates a stunning image. The Magic Town Parade photographed from the upper level walkways with the entire dome and lake below creates spectacular wide-angle parade photography. Gyro Drop photographed from below against the Seoul skyline at dusk is iconic. The indoor dome photographed with all the lights reflected in the lake at night is uniquely beautiful.",
+      "es": "El paseo en globo de Magic Island fotografiado desde arriba es la imagen mas extraordinaria de los parques tematicos coreanos. French Revolution fotografiado desde el lago de noche con reflejos crea una imagen impresionante. El desfile Magic Town fotografiado desde las pasarelas superiores con toda la cupula y el lago abajo crea espectaculares fotos.",
+      "fr": "Le tour en montgolfiere de Magic Island photographie depuis le dessus est l image la plus extraordinaire des parcs coréens. French Revolution photographie depuis le lac la nuit avec reflets cree une image magnifique. Le defile Magic Town photographie depuis les passerelles superieures cree des photos spectaculaires.",
+      "de": "Die Ballonfahrt auf Magic Island von oben fotografiert ist das aussergewohnlichste Bild in koreanischen Themenparks. French Revolution nachts vom Seeufer mit Spiegelungen fotografiert schafft ein atemberaubendes Bild. Die Magic Town Parade von den oberen Gehwegen fotografiert schafft spektakulare Weitwinkelfotos.",
+      "it": "Il giro in mongolfiera di Magic Island fotografato dall alto e l immagine piu straordinaria dei parchi coreani. French Revolution fotografato dal lago di notte con riflessi crea un immagine stupenda. La parata Magic Town fotografata dalle passerelle superiori crea spettacolari foto grandangolari.",
+      "nl": "De ballonrit van Magic Island gefotografeerd van bovenaf is het meest buitengewone beeld in Koreaanse themaparken. French Revolution s nachts gefotografeerd vanuit het meer met reflecties creert een prachtig beeld. De Magic Town Parade gefotografeerd van de bovenste loopbruggen creert spectaculaire groothoekfoto's.",
+      "pt": "A viagem de balao de Magic Island fotografada de cima e a imagem mais extraordinaria dos parques coreanos. French Revolution fotografado do lado do lago a noite com reflexos cria uma imagem deslumbrante. O desfile Magic Town fotografado das passarelas superiores cria espetaculares fotos.",
+      "ru": "Полёт на шаре в Magic Island сфотографированный сверху — самый уникальный кадр в корейских парках. Ночью купол с отражениями в озере — неповторимая красота.",
+      "zh": "魔法岛热气球乘行中仿佛乘鸟俳瞰整个室内穹顶的畫面是韩国主题公园摄影中最独特的一幅。夜晚饿灯展现的穹顶和湖面反射令人叹为观止。",
+      "ar": "صورة رحلة المنطاد في Magic Island من الأعلى هي الأكثر تميزا في صور المتنزهات الكورية. French Revolution ليلا مع انعكاسات البحيرة تخلق صورة رائعة. استعراض Magic Town من الممرات العلوية يخلق صور بانورامية مذهلة."
+    }
+  },
+  "attractions": {
+    "french_revolution": {
+      "desc": {
+        "en": "The flagship roller coaster of Lotte World — a classic looping coaster through inversions at 90 km/h in the outdoor Adventure area. A Korean theme park icon since 1989. Min 130cm.",
+        "es": "La montana rusa insignia de Lotte World — coaster clasico con inversiones a 90 km/h. Un icono de los parques coreanos desde 1989. Min 130cm.",
+        "fr": "La montagne russe principale de Lotte World — coaster classique avec inversions a 90 km/h. Icone des parcs coréens depuis 1989. Min 130cm.",
+        "de": "Der Flaggschiff-Achterbahn von Lotte World — klassischer Loopingcoaster bei 90 km/h. Ikone koreanischer Parks seit 1989. Mindestgrosse 130cm.",
+        "it": "La montagna russa di punta di Lotte World — coaster classico con inversioni a 90 km/h. Icona dei parchi coreani dal 1989. Min 130cm.",
+        "nl": "De vlaggenschip achtbaan van Lotte World — klassieke looping achtbaan bij 90 km/h. Icoon van Koreaanse parken sinds 1989. Min 130cm.",
+        "pt": "A montanha-russa principal de Lotte World — coaster classico com inversoes a 90 km/h. Icone dos parques coreanos desde 1989. Min 130cm.",
+        "ru": "Главный коастер Lotte World с инверсиями при 90 км/ч. Икона парков Кореи с 1989 года. Мин 130 см.",
+        "zh": "乐天世界的明星过山车——户外冒险乐园中以90公里/小时穿越翻转的经典环形过山车。自1989年起便是韩国主题公园的标志。最低身高130厘米。",
+        "ar": "اوتوستراد الرئيسي في Lotte World بسرعة 90 كم/س. رمز المتنزهات الكورية منذ 1989. الحد الادنى 130 سم."
+      }
+    },
+    "gyro_drop": {
+      "desc": {
+        "en": "One of Asia's tallest drop towers at 70 metres — breathtaking free fall with panoramic views of Seoul and the Han River. A Seoul skyline icon. Min 130cm.",
+        "es": "Una de las torres de caida mas altas de Asia con 70 metros — impresionante caida libre con vistas panoramicas de Seoul. Icono del horizonte de Seoul. Min 130cm.",
+        "fr": "L une des tours de chute les plus hautes d Asie a 70 metres — spectaculaire chute libre avec vues panoramiques sur Seoul. Min 130cm.",
+        "de": "Einer der hochsten Fallturme Asiens mit 70 Metern — atemberaubender freier Sturz mit Panoramablick auf Seoul. Mindestgrosse 130cm.",
+        "it": "Una delle torri di caduta piu alte dell Asia a 70 metri — emozionante caduta libera con viste panoramiche su Seoul. Min 130cm.",
+        "nl": "Een van de hoogste valtorens in Azie bij 70 meter — adembenemende vrije val met panoramisch uitzicht over Seoul. Min 130cm.",
+        "pt": "Uma das torres de queda mais altas da Asia a 70 metros — queda livre espetacular com vistas panoramicas sobre Seoul. Min 130cm.",
+        "ru": "Один из высочайших аттракционов в Азии высотой 70 м. Мин 130 см.",
+        "zh": "亚洲最高落体塔之一，70米高。令人叹为观止的自由落体，俱首尔全景。最低身高130厘米。",
+        "ar": "إحدى أعلى أبراج السقوط في آسيا بارتفاع 70 م مع مناظر بانورامية لسيول. الحد الادنى 130 سم."
+      }
+    },
+    "gyro_swing": {
+      "desc": {
+        "en": "Massive pendulum swing in a full 360-degree arc at thrilling speed — one of the most popular outdoor thrill rides with spectacular Seoul views. Min 130cm.",
+        "es": "Masivo columpio pendular en un arco de 360 grados — una de las atracciones mas populares con espectaculares vistas de Seoul. Min 130cm.",
+        "fr": "Enorme balancoire pendulaire en arc de 360 degres — l une des attractions les plus populaires avec vues spectaculaires sur Seoul. Min 130cm.",
+        "de": "Riesiges Pendelschaukel in einem vollen 360-Grad-Bogen — eine der beliebtesten Attraktionen mit spektakularen Seoul-Aussichten. Mindestgrosse 130cm.",
+        "it": "Massiccio dondolo a pendolo in un arco di 360 gradi — una delle attrazioni piu popolari con viste spettacolari su Seoul. Min 130cm.",
+        "nl": "Massieve slingerrek in een volledige 360-graden boog — een van de meest populaire attracties met spectaculair uitzicht op Seoul. Min 130cm.",
+        "pt": "Massivo balanco pendular em arco de 360 graus — uma das atracoes mais populares com vistas espetaculares sobre Seoul. Min 130cm.",
+        "ru": "Огромный маятниковый аттракцион с видом на Сеул. Мин 130 см.",
+        "zh": "巨型钟摩摇荡之旅，在履平线360度圆弧中高速贪卫赎决——首尔全景令人叹为观止。最低身高130厘米。",
+        "ar": "تأرجحة ضخمة بزاوية 360 درجة. الحد الادنى 130 سم."
+      }
+    },
+    "atlantis_adventure": {
+      "desc": {
+        "en": "Thrilling indoor dark ride adventure through the lost city of Atlantis — high-speed drops, water effects and elaborate underwater theming. The most thrilling indoor dark ride in Korea. Min 120cm.",
+        "es": "Emocionante atraccion oscura interior a traves de la ciudad perdida de Atlantis — caidas de alta velocidad y efectos de agua. Min 120cm.",
+        "fr": "Palpitante attraction sombre interieure a travers la cite perdue d Atlantis — descentes rapides et effets d eau. Min 120cm.",
+        "de": "Aufregende Indoor-Darkride-Abenteuerfahrt durch die verlorene Stadt Atlantis — Hochgeschwindigkeitsabfahrten und Wassereffekte. Mindestgrosse 120cm.",
+        "it": "Emozionante attrazione al buio interna attraverso la citta perduta di Atlantide — cadute ad alta velocita ed effetti acquatici. Min 120cm.",
+        "nl": "Spannende indoor dark ride door de verloren stad Atlantis — hoge snelheidsdalingen en watereffecten. Min 120cm.",
+        "pt": "Emocionante dark ride interior pela cidade perdida de Atlantis — quedas de alta velocidade e efeitos de agua. Min 120cm.",
+        "ru": "Захватывающий тёмный аттракцион через потерянную Атлантиду. Мин 120 см.",
+        "zh": "穿越失落的亚特兰蒂斯城的刺激室内暗黑游乐项目——高速下坡和水效果。最低身高120厘米。",
+        "ar": "مغامرة dark ride داخلية عبر مدينة أطلنطس الضائعة. الحد الادنى 120 سم."
+      }
+    },
+    "comet_express": {
+      "desc": {
+        "en": "Classic indoor roller coaster hurtling through the Magic Island dome at 70 km/h. A beloved family coaster and must-ride for first-time visitors. Min 110cm.",
+        "es": "Montana rusa interior clasica a traves de la cupula de Magic Island a 70 km/h. Coaster familiar imprescindible. Min 110cm.",
+        "fr": "Montagne russe interieure classique a travers le dome de Magic Island a 70 km/h. Coaster familial incontournable. Min 110cm.",
+        "de": "Klassischer Innenachterbahn durch die Magic Island Kuppel bei 70 km/h. Beliebter Familiencoaster. Mindestgrosse 110cm.",
+        "it": "Classica montagna russa interna attraverso la cupola di Magic Island a 70 km/h. Coaster familiare imperdibile. Min 110cm.",
+        "nl": "Klassieke binnenachtbaan door de Magic Island koepel bij 70 km/h. Geliefde familieachtbaan. Min 110cm.",
+        "pt": "Montanha-russa interior classica pelo dome de Magic Island a 70 km/h. Coaster familiar imperdivel. Min 110cm.",
+        "ru": "Классический крытый коастер через купол. Мин 110 см.",
+        "zh": "穿越魔法岛穹顶的经典室内过山车，速度达70公里/小时。最低身高110厘米。",
+        "ar": "اوتوستراد داخلي كلاسيكي عبر قبة Magic Island. الحد الادنى 110 سم."
+      }
+    },
+    "flume_ride": {
+      "desc": {
+        "en": "Classic log flume water ride through scenic outdoor waterways with a splashing final drop. Perfect for warm Seoul days. Min 100cm.",
+        "es": "Atraccion de aguas clasica a traves de canales exteriores con una salpicante caida final. Perfecta para los dias calurosos de Seoul. Min 100cm.",
+        "fr": "Atraction flume classique a travers des voies navigables exterieures avec une chute finale eclaboussante. Parfaite pour les journees chaudes de Seoul. Min 100cm.",
+        "de": "Klassische Wasserflume durch malerische Aussengewasser mit platschendem Endabfall. Perfekt fur warme Seoul-Tage. Mindestgrosse 100cm.",
+        "it": "Classica attrazione flume attraverso canali esterni con caduta finale. Perfetta per le calde giornate di Seoul. Min 100cm.",
+        "nl": "Klassieke logflume door schilderachtige buitenwaterways met een spattende eindval. Perfect voor warme Seoul dagen. Min 100cm.",
+        "pt": "Atraccion flume classica por canais exteriores com queda final. Perfeita para dias quentes em Seoul. Min 100cm.",
+        "ru": "Классический водный аттракцион. Мин 100 см.",
+        "zh": "经典欲道漂流，水上资象充满。最后一個下坡会将你全身湿透。最低身高100厘米。",
+        "ar": "اتراكشن مائي flume كلاسيكي. الحد الادنى 100 سم."
+      }
+    },
+    "pharaohs_fury": {
+      "desc": {
+        "en": "Indoor boat ride through ancient Egypt — elaborate pharaoh tomb scenes, hieroglyphic corridors and dramatic special effects. One of the most atmospheric dark rides at Lotte World. Min 100cm.",
+        "es": "Paseo en barco interior a traves del antiguo Egipto — elaboradas escenas de tumbas del faraon y efectos especiales. Min 100cm.",
+        "fr": "Tour en bateau interieure a travers l ancienne Egypte — elaborees scenes de tombeaux de pharaon et effets speciaux. Min 100cm.",
+        "de": "Innen-Bootsfahrt durch das alte Agypten — aufwendige Pharaonen-Gruft-Szenen und Spezialeffekte. Mindestgrosse 100cm.",
+        "it": "Giro in barca interno attraverso l antico Egitto — elaborate scene di tombe del faraone ed effetti speciali. Min 100cm.",
+        "nl": "Binnenbootrit door het oude Egypte — uitgewerkte farao tombe scenes en speciale effecten. Min 100cm.",
+        "pt": "Passeio de barco interior pelo Egipto antigo — elaboradas cenas de tumbas de farao e efeitos especiais. Min 100cm.",
+        "ru": "Крытая лодочная поездка через Древний Египет. Мин 100 см.",
+        "zh": "穿越古埃及的室内船上之旅——精心制作的法老陵墓场景和特效。最低身高100厘米。",
+        "ar": "جولة قارب داخلية عبر مصر القديمة. الحد الادنى 100 سم."
+      }
+    },
+    "sindbads_adventure": {
+      "desc": {
+        "en": "Magical indoor boat journey through Sindbad's adventures — colourful animatronic scenes and enchanting storytelling. One of the most charming family attractions at Lotte World. Suitable for all ages.",
+        "es": "Magico viaje en barco interior a traves de las aventuras de Simbad — coloridas escenas animatronicas. Apto para todas las edades.",
+        "fr": "Magique voyage en bateau interieur a travers les aventures de Sindbad — scenes animatroniques colorees. Convient a tous les ages.",
+        "de": "Magische Innen-Bootsfahrt durch Sindbads Abenteuer — bunte Animatronik-Szenen. Fur alle Altersgruppen.",
+        "it": "Magico viaggio in barca interno attraverso le avventure di Sindbad — colorate scene animatroniche. Adatto a tutte le eta.",
+        "nl": "Magische binnenbootreis door Sindbad's avonturen — kleurrijke animatronic scenes. Geschikt voor alle leeftijden.",
+        "pt": "Magica viagem de barco interior pelas aventuras de Sindbad — coloridas cenas animatronicas. Adequado para todas as idades.",
+        "ru": "Волшебное путешествие по приключениям Синдбада. Подходит для всех.",
+        "zh": "穿越辛巴达冒险的魔法室内船上之旅——彩色的动用小人场景。适合所有年龄。",
+        "ar": "رحلة قارب داخلية سحرية. مناسب لجميع الأعمار."
+      }
+    },
+    "camelot_carousel": {
+      "desc": {
+        "en": "Grand beautifully decorated carousel in the heart of Magic Island — one of the most photographed and iconic attractions. Beloved by families. Suitable for all ages.",
+        "es": "Gran carrusel bellamente decorado en el corazon de Magic Island. Amado por las familias. Apto para todas las edades.",
+        "fr": "Magnifique carrousel dans le coeur de Magic Island. Aime par les familles. Convient a tous les ages.",
+        "de": "Wunderschon dekoriertes Karussell im Herzen von Magic Island. Von Familien geliebt. Fur alle Altersgruppen.",
+        "it": "Magnifico carosello nel cuore di Magic Island. Amato dalle famiglie. Adatto a tutte le eta.",
+        "nl": "Prachtig gedecoreerd carrousel in het hart van Magic Island. Geliefd bij families. Geschikt voor alle leeftijden.",
+        "pt": "Magnifico carrocel no coracaoo de Magic Island. Amado pelas familias. Adequado para todas as idades.",
+        "ru": "Великолепная карусель в сердце Magic Island. Подходит для всех.",
+        "zh": "魔法岛核心的宏伟精美旋转木马。深受家庭喜爱。适合所有年龄。",
+        "ar": "خيول دوار فخم في قلب Magic Island. مناسب لجميع الأعمار."
+      }
+    },
+    "balloon": {
+      "desc": {
+        "en": "Gentle hot air balloon ride lifting guests above the Magic Island dome — the most unique perspective of any indoor park in the world. Breathtaking bird's eye views. Suitable for all ages.",
+        "es": "Suave paseo en globo que eleva a los visitantes sobre la cupula de Magic Island — la perspectiva mas unica de cualquier parque cubierto. Apto para todas las edades.",
+        "fr": "Doux tour en montgolfiere elevant les visiteurs au-dessus du dome de Magic Island — la perspective la plus unique de tout parc couvert. Convient a tous les ages.",
+        "de": "Sanfte Heissluftballonfahrt uber die Magic Island Kuppel — die einzigartigste Perspektive jedes uberdachten Parks. Fur alle Altersgruppen.",
+        "it": "Delicato giro in mongolfiera sopra la cupola di Magic Island — la prospettiva piu unica di qualsiasi parco coperto. Adatto a tutte le eta.",
+        "nl": "Zachte luchtballonrit boven de Magic Island koepel — het meest unieke perspectief van elk overdekt park. Geschikt voor alle leeftijden.",
+        "pt": "Suave passeio de balao acima do dome de Magic Island — a perspectiva mais unica de qualquer parque coberto. Adequado para todas as idades.",
+        "ru": "Полёт на шаре над куполом Magic Island. Уникальная перспектива. Подходит для всех.",
+        "zh": "温和的热气球乘行，将游客抬升至魔法岛穹顶上方——全世界任何室内公园中最独特的视角。适合所有年龄。",
+        "ar": "رحلة منطاد هادئة فوق قبة Magic Island. مناسب لجميع الأعمار."
+      }
+    },
+    "bumper_cars": {
+      "desc": {
+        "en": "Classic dodgem bumper cars inside Magic Island — endlessly entertaining for all ages. One of the most popular family attractions at Lotte World.",
+        "es": "Clasicos autos chocadores dentro de Magic Island — entretenidos para todas las edades.",
+        "fr": "Classiques autos tamponneuses dans Magic Island — divertissantes pour tous les ages.",
+        "de": "Klassische Autoscooter in Magic Island — endlos unterhaltsam fur alle Altersgruppen.",
+        "it": "Classiche macchine tamponanti in Magic Island — divertenti per tutte le eta.",
+        "nl": "Klassieke botsauto's in Magic Island — eindeloos vermakelijk voor alle leeftijden.",
+        "pt": "Classicos carros de choque em Magic Island — infinitamente divertidos para todas as idades.",
+        "ru": "Классические автодромы в Magic Island. Подходит для всех.",
+        "zh": "魔法岛内的经典碰碰车——适合所有年龄，乐趣无穷。",
+        "ar": "سيارات التصادم الكلاسيكية في Magic Island. مناسب لجميع الأعمار."
+      }
+    },
+    "ghost_house": {
+      "desc": {
+        "en": "Classic haunted house walk-through with spooky scenes, startling special effects and atmospheric horror theming. Popular family scare attraction. Min 110cm.",
+        "es": "Clasica casa encantada con escenas escalofriantes y efectos especiales. Atraccion de miedo familiar popular. Min 110cm.",
+        "fr": "Classique maison hantee avec scenes effrayantes et effets speciaux. Attraction d horreur familiale populaire. Min 110cm.",
+        "de": "Klassisches Geisterhaus mit gruseligen Szenen und Spezialeffekten. Beliebte Familien-Horror-Attraktion. Mindestgrosse 110cm.",
+        "it": "Classica casa stregata con scene spaventose ed effetti speciali. Attrazione horror familiare popolare. Min 110cm.",
+        "nl": "Klassiek spookhuis met griezelige scenes en speciale effecten. Populaire familie horror attractie. Min 110cm.",
+        "pt": "Classica casa assombrada com cenas assustadoras e efeitos especiais. Atracao de terror familiar popular. Min 110cm.",
+        "ru": "Классический дом с призраками. Мин 110 см.",
+        "zh": "经典鬼屋穿越体验，充满鄐异场景和惊喇特效。最低身高110厘米。",
+        "ar": "دار الأرواح الكلاسيكية مع مشاهد مخيفة. الحد الادنى 110 سم."
+      }
+    },
+    "the_conquistador": {
+      "desc": {
+        "en": "Classic Viking ship pendulum ride swinging guests at increasing height. One of the most popular thrill rides at Lotte World. Min 120cm.",
+        "es": "Clasico barco vikingo que columpia a los visitantes con altura creciente. Min 120cm.",
+        "fr": "Classique bateau viking balancant les visiteurs a hauteur croissante. Min 120cm.",
+        "de": "Klassisches Wikingerschiff-Pendelschaukel. Mindestgrosse 120cm.",
+        "it": "Classico pendolo nave vichinga. Min 120cm.",
+        "nl": "Klassiek Viking schip pendelschommel. Min 120cm.",
+        "pt": "Classico pendulo barco viking. Min 120cm.",
+        "ru": "Классический маятник. Мин 120 см.",
+        "zh": "经典维京船摩天轮项目。最低身高120厘米。",
+        "ar": "أرجوحة سفينة الفايكينج الكلاسيكية. الحد الادنى 120 سم."
+      }
+    },
+    "magic_town_parade": {
+      "desc": {
+        "en": "The most spectacular daily parade at any Korean theme park — dozens of elaborate floats, costumed performers and dancing through the Magic Island dome. Unmissable. Suitable for all ages.",
+        "es": "El desfile diario mas espectacular de cualquier parque tematico coreano — docenas de carrozas elaboradas y actuantes disfrazados. Imperdible. Apto para todas las edades.",
+        "fr": "Le defile quotidien le plus spectaculaire de tout parc coreen — dizaines de chars elabores et artistes costumes. Incontournable. Convient a tous les ages.",
+        "de": "Die spektakularste tagliche Parade in einem koreanischen Themenpark — Dutzende von aufwendigen Wagen und Kostumkistler. Ein Muss. Fur alle Altersgruppen.",
+        "it": "La parata quotidiana piu spettacolare di qualsiasi parco coreano — dozzine di carri elaborati e artisti in costume. Imperdibile. Adatto a tutte le eta.",
+        "nl": "De meest spectaculaire dagelijkse parade in een Koreaans themapark — tientallen uitgewerkte wagens en kostuum artiesten. Onmisbaar. Geschikt voor alle leeftijden.",
+        "pt": "O desfile diario mais espetacular de qualquer parque coreano — dezenas de carros elaborados e artistas fantasiados. Imperdivel. Adequado para todas as idades.",
+        "ru": "Наиболее зрелищный ежедневный парад в корейских парках. Обязательное мероприятие.",
+        "zh": "任何韩国主题公园中最壮观的每日巡游表演——数十辆精心制作的花车和言服表演者在魔法岛穹顶下巡游。必看表演。适合所有年龄。",
+        "ar": "أكثر استعراض يومي إثارة في أي متنزه كوري. لا يفوت. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_crystal_palace": {
+      "desc": {
+        "en": "Elegant buffet restaurant with Korean and international dishes including Korean BBQ, sushi, pasta and traditional Korean favourites in a grand setting inside Magic Island.",
+        "es": "Elegante restaurante buffet con platos coreanos e internacionales incluyendo BBQ coreano, sushi y pasta en un gran ambiente dentro de Magic Island.",
+        "fr": "Elegant restaurant buffet avec plats coréens et internationaux incluant BBQ coréen, sushi et pates dans un grand cadre a Magic Island.",
+        "de": "Elegantes Buffet-Restaurant mit koreanischen und internationalen Gerichten einschliesslich koreanischem BBQ, Sushi und Pasta in Magic Island.",
+        "it": "Elegante ristorante buffet con piatti coreani e internazionali tra cui BBQ coreano, sushi e pasta in un grande ambiente a Magic Island.",
+        "nl": "Elegant buffetrestaurant met Koreaanse en internationale gerechten waaronder Koreaans BBQ, sushi en pasta in Magic Island.",
+        "pt": "Elegante restaurante buffet com pratos coreanos e internacionais incluindo BBQ coreano, sushi e massa no Magic Island.",
+        "ru": "Элегантный буфет с корейскими и международными блюдами.",
+        "zh": "魔法岛内优雅的自助餐厅，供应韩式烧烤、寿司和意面等韩式和国际美食。",
+        "ar": "مطعم بوفيه أنيق بأطباق كورية ودولية في Magic Island."
+      }
+    },
+    "food_aquagarden_cafe": {
+      "desc": {
+        "en": "Bright cafe with beautiful views over the Lotte World outdoor lake — Korean snacks, light meals, coffee and desserts in a relaxed atmosphere.",
+        "es": "Cafe luminoso con hermosas vistas sobre el lago exterior — aperitivos coreanos, comidas ligeras y cafe en ambiente relajado.",
+        "fr": "Cafe lumineux avec belles vues sur le lac exterieur — snacks coréens, repas legers et cafe dans une ambiance detendue.",
+        "de": "Helles Cafe mit schonen Aussichten uber den Aussensee — koreanische Snacks, leichte Mahlzeiten und Kaffee.",
+        "it": "Cafe luminoso con belle vedute sul lago esterno — snack coreani, pasti leggeri e caffe.",
+        "nl": "Helder cafe met prachtig uitzicht over het buitenmeer — Koreaanse snacks, lichte maaltijden en koffie.",
+        "pt": "Cafe luminoso com belas vistas sobre o lago exterior — snacks coreanos, refeicoes ligeiras e cafe.",
+        "ru": "Светлое кафе с видом на озеро.",
+        "zh": "明亮的咊啡，俣瞰乐天世界户外湖泊美景——韩式小吃、轻食和咊啡。",
+        "ar": "مقهى مشرق مع إطلالات رائعة على البحيرة الخارجية."
+      }
+    },
+    "food_snack_victoria": {
+      "desc": {
+        "en": "Popular quick-service food outlet serving Korean street food classics — corn dogs, chicken skewers and Korean snacks. Perfect for a fast bite between rides.",
+        "es": "Popular puesto de comida rapida con clasicos de la comida callejera coreana — corn dogs, brochetas de pollo y aperitivos coreanos.",
+        "fr": "Populaire point de restauration rapide avec classiques de la nourriture de rue coréenne — corn dogs, brochettes de poulet et snacks.",
+        "de": "Beliebter Schnellservice mit koreanischen Strassenfood-Klassikern — Corn Dogs, Hahnchen-Spiesse und koreanische Snacks.",
+        "it": "Popolare punto di ristoro rapido con classici dello street food coreano — corn dog, spiedini di pollo e snack coreani.",
+        "nl": "Populaire snelservice met Koreaanse street food klassiekers — corn dogs, kip spiessen en Koreaanse snacks.",
+        "pt": "Popular ponto de alimentacao rapida com classicos da comida de rua coreana — corn dogs, espetos de frango e snacks coreanos.",
+        "ru": "Быстрое питание с корейскими уличными лакомствами.",
+        "zh": "供应韩式街头美食的快餐馗——北极虫、烤鸡肉串和韩式小吃。游玩间隙快速唇馆。",
+        "ar": "نقطة طعام سريعة مع كلاسيكيات الطعام الكوري."
+      }
+    },
+    "food_world_tower": {
+      "desc": {
+        "en": "Prestigious restaurant in Lotte World Tower with panoramic Seoul views — premium Korean cuisine including hansik tasting menus and seasonal Korean specialities.",
+        "es": "Prestigioso restaurante en Lotte World Tower con vistas panoramicas de Seoul — cocina coreana premium con menus de degustacion hansik.",
+        "fr": "Prestigieux restaurant dans la Tour Lotte World avec vues panoramiques sur Seoul — cuisine coréenne premium avec menus de degustation.",
+        "de": "Prestigioses Restaurant im Lotte World Tower mit Panoramablick auf Seoul — Premium koreanische Kuche mit Hansik-Degustationsmenu.",
+        "it": "Prestigioso ristorante nella Torre Lotte World con viste panoramiche su Seoul — cucina coreana premium con menu di degustazione hansik.",
+        "nl": "Prestigieus restaurant in Lotte World Tower met panoramisch uitzicht op Seoul — premium Koreaanse keuken met hansik proefmenu.",
+        "pt": "Prestigioso restaurante na Torre Lotte World com vistas panoramicas de Seoul — culinaria coreana premium com menus de degustacao hansik.",
+        "ru": "Престижный ресторан в Lotte World Tower с панорамой.",
+        "zh": "乐天世界塔内的尊贵餐厅，修一避似首尔全景——供应韩式家常菜和季节韩式溫山居北美食。",
+        "ar": "مطعم مرموق في برج Lotte World مع مناظر بانورامية لسيول."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_lotte_world": {
+      "desc": {
+        "en": "The only hotel directly connected to Lotte World — 5-star with direct Magic Island walkway access, multiple restaurants, full spa and indoor pool.",
+        "es": "El unico hotel directamente conectado a Lotte World — 5 estrellas con acceso directo a Magic Island, multiples restaurantes y spa completo.",
+        "fr": "Le seul hotel directement connecte a Lotte World — 5 etoiles avec acces direct a Magic Island, plusieurs restaurants et spa complet.",
+        "de": "Das einzige Hotel direkt mit Lotte World verbunden — 5 Sterne mit direktem Magic Island Zugang, mehreren Restaurants und Vollservice-Spa.",
+        "it": "L unico hotel direttamente collegato a Lotte World — 5 stelle con accesso diretto a Magic Island, ristoranti e spa.",
+        "nl": "Het enige hotel direct verbonden met Lotte World — 5 sterren met directe Magic Island toegang, restaurants en volledig spa.",
+        "pt": "O unico hotel directamente ligado a Lotte World — 5 estrelas com acesso directo a Magic Island, restaurantes e spa.",
+        "ru": "Единственный отель непосредственно связанный с Lotte World. 5 звёзд с прямым доступом.",
+        "zh": "唯一直接与乐天世界相连的酒店——五星级，可直接前往魔法岛。",
+        "ar": "الفندق الوحيد المتصل مباشرة بـ Lotte World — 5 نجوم مع وصول مباشر."
+      }
+    },
+    "hotel_signiel_seoul": {
+      "desc": {
+        "en": "One of Asia's most prestigious hotels occupying floors 76-101 of Lotte World Tower — the world's fifth tallest building. Michelin-starred dining and the most spectacular Seoul views.",
+        "es": "Uno de los hoteles mas prestigiosos de Asia en los pisos 76-101 de Lotte World Tower — quinto edificio mas alto del mundo. Restaurantes Michelin y las vistas mas espectaculares de Seoul.",
+        "fr": "L un des hotels les plus prestigieux d Asie occupant les etages 76-101 de la Tour Lotte World — cinquieme plus grand batiment du monde. Restaurants Michelin et vues spectaculaires sur Seoul.",
+        "de": "Eines der prestigetraechtigsten Hotels Asiens auf den Etagen 76-101 des Lotte World Towers — funfthoechstes Gebaude der Welt. Michelin-Restaurants und spektakularste Seoul-Aussichten.",
+        "it": "Uno degli hotel piu prestigiosi dell Asia ai piani 76-101 della Torre Lotte World — quinto edificio piu alto del mondo. Ristoranti Michelin e le viste piu spettacolari di Seoul.",
+        "nl": "Een van de meest prestigieuze hotels van Azie op verdiepingen 76-101 van Lotte World Tower — vijfde hoogste gebouw ter wereld. Michelin restaurants en meest spectaculaire Seoul uitzichten.",
+        "pt": "Um dos hoteis mais prestigiosos da Asia nos andares 76-101 da Torre Lotte World — quinto edificio mais alto do mundo. Restaurantes Michelin e vistas mais espetaculares de Seoul.",
+        "ru": "Один из самых престижных отелей Азии на этажах 76-101 Lotte World Tower.",
+        "zh": "亚洲最尊贵的酒店之一，位于乐天世界坅76至101层——全球第五高楼。米其林星级餐厅和首尔最壮观的全景。",
+        "ar": "أحد أكثر فنادق آسيا هيبة في الطوابق 76-101 برج Lotte World."
+      }
+    },
+    "hotel_lotte_seoul": {
+      "desc": {
+        "en": "Flagship Lotte Hotel in Myeong-dong — one of Seoul's most celebrated luxury hotels, 20 minutes from Lotte World. Multiple Michelin-starred restaurants and direct shopping district access.",
+        "es": "Hotel Lotte insignia en Myeong-dong — uno de los hoteles de lujo mas celebrados de Seoul a 20 minutos de Lotte World. Restaurantes Michelin y acceso directo al distrito comercial.",
+        "fr": "Hotel Lotte emblematique a Myeong-dong — l un des hotels de luxe les plus celebres de Seoul a 20 minutes de Lotte World. Restaurants Michelin et acces direct au quartier commercial.",
+        "de": "Flaggschiff-Lotte-Hotel in Myeong-dong — eines der gefeiersten Luxushotels Seouls 20 Minuten von Lotte World. Michelin-Restaurants und direkter Zugang zum Einkaufsviertel.",
+        "it": "Hotel Lotte di punta a Myeong-dong — uno dei piu celebrati hotel di lusso di Seoul a 20 minuti da Lotte World. Ristoranti Michelin e accesso diretto al quartiere commerciale.",
+        "nl": "Flagship Lotte Hotel in Myeong-dong — een van Seoul's meest gevierde luxehotels 20 minuten van Lotte World. Michelin restaurants en directe toegang tot winkelwijk.",
+        "pt": "Hotel Lotte principal em Myeong-dong — um dos hoteis de luxo mais celebrados de Seoul a 20 minutos de Lotte World. Restaurantes Michelin e acesso directo ao distrito comercial.",
+        "ru": "Флагманский отель Lotte в Мьондждонге. 20 минут от Lotte World.",
+        "zh": "明洞店的乐天洗牟旗舰酒店——首尔最著名的豪华酒店之一，乐天世界车程20分钟。",
+        "ar": "فندق Lotte الرئيسي في Myeong-dong — 20 دقيقة من Lotte World."
+      }
+    },
+    "hotel_sheraton_seoul_gangnam": {
+      "desc": {
+        "en": "Modern 5-star hotel in Sindorim, 25 minutes from Lotte World — stylish rooms, pools, fitness centre and easy subway access to all Seoul attractions. Excellent value.",
+        "es": "Moderno hotel de 5 estrellas en Sindorim a 25 minutos de Lotte World — habitaciones modernas y facil acceso en metro a todas las atracciones de Seoul.",
+        "fr": "Hotel 5 etoiles moderne a Sindorim a 25 minutes de Lotte World — chambres modernes et acces metro facile a toutes les attractions de Seoul.",
+        "de": "Modernes 5-Sterne-Hotel in Sindorim 25 Minuten von Lotte World — moderne Zimmer und einfacher U-Bahn-Zugang zu allen Seoul-Attraktionen.",
+        "it": "Moderno hotel 5 stelle a Sindorim a 25 minuti da Lotte World — camere moderne e facile accesso metro a tutte le attrazioni di Seoul.",
+        "nl": "Modern 5-sterrenhotel in Sindorim 25 minuten van Lotte World — moderne kamers en makkelijke metro toegang tot alle Seoul attracties.",
+        "pt": "Hotel moderno de 5 estrelas em Sindorim a 25 minutos de Lotte World — quartos modernos e facil acesso de metro a todas as atracoes de Seoul.",
+        "ru": "Современный 5-звёздный отель в 25 минутах от Lotte World.",
+        "zh": "Sindorim的现代五星级酒店，离乐天世界25分钟车程。性价比高。",
+        "ar": "فندق 5 نجوم حديث في Sindorim، 25 دقيقة من Lotte World."
+      }
+    }
+  }
+}
