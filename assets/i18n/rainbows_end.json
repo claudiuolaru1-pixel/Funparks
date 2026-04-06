@@ -1,0 +1,364 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Rainbow's End is New Zealand's only permanent theme park and the country's premier family entertainment destination, located in Manukau, Auckland. Opened in 1982, the park has been the home of New Zealand's most thrilling rides for over 40 years. Home to New Zealand's only corkscrew roller coaster, the iconic Fear Fall drop tower and the legendary Stratosfear giant swing. Rainbow's End holds a special place in New Zealand culture as the theme park that generations of Kiwi families have grown up visiting. Attracts over 450,000 visitors annually.",
+      "es": "Rainbow's End es el unico parque tematico permanente de Nueva Zelanda y el principal destino de entretenimiento familiar del pais, ubicado en Manukau, Auckland. Inaugurado en 1982, el parque ha sido el hogar de las atracciones mas emocionantes de Nueva Zelanda durante mas de 40 anos. Hogar de la unica montana rusa de tornillo de Nueva Zelanda y el legendario Stratosfear. Atrae mas de 450,000 visitantes anuales.",
+      "fr": "Rainbow's End est le seul parc a themes permanent de Nouvelle-Zelande et la principale destination de divertissement familial du pays, situe a Manukau, Auckland. Ouvert en 1982, il a ete le foyer des attractions les plus palpitantes de Nouvelle-Zelande pendant plus de 40 ans. Accueille plus de 450 000 visiteurs par an.",
+      "de": "Rainbow's End ist Neuseelands einziger permanenter Themenpark und das wichtigste Familienunterhaltungsziel des Landes in Manukau, Auckland. 1982 eroffnet war der Park uber 40 Jahre lang die Heimat Neuseelands aufregendster Attraktionen. Uber 450.000 Besucher jahrlich.",
+      "it": "Rainbow's End e l unico parco a tema permanente della Nuova Zelanda e la principale destinazione di intrattenimento familiare del paese, a Manukau, Auckland. Aperto nel 1982 e stato la casa delle attrazioni piu emozionanti della Nuova Zelanda per oltre 40 anni. Oltre 450.000 visitatori annui.",
+      "nl": "Rainbow's End is Nieuw-Zeeland's enige permanente themapark en 's lands voornaamste gezinsvermaakbestemming in Manukau, Auckland. Geopend in 1982 was het park meer dan 40 jaar lang de thuis van Nieuw-Zeeland's spannendste attracties. Meer dan 450.000 bezoekers per jaar.",
+      "pt": "Rainbow's End e o unico parque tematico permanente da Nova Zelandia e o principal destino de entretenimento familiar do pais em Manukau, Auckland. Aberto em 1982 foi o lar das atracoes mais emocionantes da Nova Zelandia por mais de 40 anos. Mais de 450.000 visitantes anuais.",
+      "ru": "Rainbow's End — единственный постоянный тематический парк Новой Зеландии, в Манукау, Окленд. Открыт в 1982 году. Более 450 000 посетителей в год.",
+      "zh": "彩虹尽头是新西兰唯一的永久性主题公园，位于奥克兰马努库。公园于1982年开放，40多年来一直是新西兰最刺激游乐项目的家啲。每年吸引逾45万游客。",
+      "ar": "Rainbow's End هو متنزه الترفيه الدائم الوحيد في نيوزيلندة، في Manukau بأوكلاند. افتتح 1982 ويستقبل أكثر من 450ألف زائر سنويا."
+    },
+    "ov_highlights_body": {
+      "en": "Stratosfear is New Zealand's most thrilling flat ride — a 40-metre giant swing spinning at high speed. The Corkscrew Coaster is New Zealand's only looping roller coaster. Fear Fall delivers a classic 25-metre free-fall experience. The Enchanted Forest is the most beloved family dark ride in New Zealand. Gold Rush is the most popular family coaster. The Log Flume is a summer institution loved by all ages. Rainbow's End is the only theme park in New Zealand — making it a unique and irreplaceable part of Kiwi culture and childhood.",
+      "es": "Stratosfear es la atraccion plana mas emocionante de Nueva Zelanda — un columpio gigante de 40 metros. El Corkscrew Coaster es la unica montana rusa con lazos de Nueva Zelanda. Fear Fall ofrece una experiencia de caida libre clasica. El Enchanted Forest es el dark ride familiar mas querido. Rainbow's End es el unico parque tematico de Nueva Zelanda.",
+      "fr": "Stratosfear est la plus palpitante attraction plate de Nouvelle-Zelande — une grande balancoire de 40 metres. Le Corkscrew Coaster est la seule montagne russe a boucle de Nouvelle-Zelande. Fear Fall offre une chute libre classique. L Enchanted Forest est le dark ride familial le plus aime. Rainbow's End est le seul parc a themes de Nouvelle-Zelande.",
+      "de": "Stratosfear ist Neuseelands aufregendste Flachattraktion — ein 40 Meter grosses Riesenschaukel. Der Korkenziehercoaster ist Neuseelands einzige Loopingachterbahn. Fear Fall bietet einen klassischen Freifall. Enchanted Forest ist der beliebteste Familien-Darkride. Rainbow's End ist der einzige Themenpark Neuseelands.",
+      "it": "Stratosfear e la piu emozionante attrazione piatta della Nuova Zelanda — una grande altalena di 40 metri. Il Corkscrew Coaster e la sola montagna russa con loop. Fear Fall offre una classica caduta libera. Enchanted Forest e il dark ride familiare piu amato. Rainbow's End e l unico parco a tema della Nuova Zelanda.",
+      "nl": "Stratosfear is Nieuw-Zeeland's meest opwindende vlakke attractie — een 40 meter reuzenrij. De Corkscrew Coaster is Nieuw-Zeeland's enige looping achtbaan. Fear Fall biedt een klassieke vrije val. Enchanted Forest is de meest geliefde familie dark ride. Rainbow's End is het enige themapark van Nieuw-Zeeland.",
+      "pt": "Stratosfear e a atracao plana mais emocionante da Nova Zelandia — um gigante columpio de 40 metros. O Corkscrew Coaster e a unica montanha-russa com loop. Fear Fall oferece uma queda livre classica. Enchanted Forest e o dark ride familiar mais amado. Rainbow's End e o unico parque tematico da Nova Zelandia.",
+      "ru": "Stratosfear — самый зрелищный аттракцион Новой Зеландии. Corkscrew — единственный петлеевый коастер. Rainbow's End — единственный парк страны.",
+      "zh": "恐怖飞行是新西兰最刺激的平面游乐项目。软木塞过山车是新西兰唯一的环形过山车。魔法森林是新西兰最深受喜爱的家庭暗黑项目。彩虹尽头是新西兰唯一的主题公园。",
+      "ar": "Stratosfear هو أكثر اتراكشن مسطح إثارة. Corkscrew Coaster هو اوتوستراد الوحيد بحلقات. Rainbow's End المتنزه الوحيد في نيوزيلندة."
+    },
+    "ov_did_you_know_body": {
+      "en": "Rainbow's End is the only permanent theme park in New Zealand — the entire country has just one theme park making it uniquely important to Kiwi culture. The park opened in 1982 in Manukau and has been operating for over 40 years. The Corkscrew Coaster has been operating since 1994 making it one of the longest-running roller coasters in the Southern Hemisphere. Rainbow's End has been voted New Zealand's favourite family attraction multiple times. The park is located adjacent to Manukau City Centre and is easily accessible by train from central Auckland. Stratosfear was added in 2008 and immediately became the park's signature thrill ride.",
+      "es": "Rainbow's End es el unico parque tematico permanente de Nueva Zelanda. El parque abrio en 1982 y ha estado funcionando durante mas de 40 anos. El Corkscrew Coaster ha funcionado desde 1994 siendo uno de los mas antiguos del hemisferio sur. Rainbow's End ha sido votado como el destino familiar favorito de Nueva Zelanda multiples veces.",
+      "fr": "Rainbow's End est le seul parc a themes permanent de Nouvelle-Zelande. Le parc a ouvert en 1982 et fonctionne depuis plus de 40 ans. Le Corkscrew Coaster fonctionne depuis 1994 en faisant l une des plus anciennes montagnes russes de l hemisphere sud. Rainbow's End a ete vote destination familiale preferee de Nouvelle-Zelande plusieurs fois.",
+      "de": "Rainbow's End ist Neuseelands einziger permanenter Themenpark. Der Park offnete 1982 und ist seit uber 40 Jahren in Betrieb. Der Korkenziehercoaster ist seit 1994 in Betrieb und ist eine der am langsten laufenden Achterbahnen der Sudlichen Hemisphare. Rainbow's End wurde mehrmals als Neuseelands liebstes Familienziel gewahlt.",
+      "it": "Rainbow's End e l unico parco a tema permanente della Nuova Zelanda. Il parco ha aperto nel 1982 ed e in funzione da oltre 40 anni. Il Corkscrew Coaster e in funzione dal 1994. Rainbow's End e stato votato piu volte come destinazione familiare preferita della Nuova Zelanda.",
+      "nl": "Rainbow's End is Nieuw-Zeeland's enige permanente themapark. Het park opende in 1982 en is al meer dan 40 jaar in bedrijf. De Corkscrew Coaster is al sinds 1994 in bedrijf. Rainbow's End is meerdere keren verkozen tot Nieuw-Zeeland's favoriete gezinsbestemming.",
+      "pt": "Rainbow's End e o unico parque tematico permanente da Nova Zelandia. O parque abriu em 1982 e esta em funcionamento ha mais de 40 anos. O Corkscrew Coaster esta em funcionamento desde 1994. Rainbow's End foi votado varias vezes como o destino familiar favorito da Nova Zelandia.",
+      "ru": "Rainbow's End — единственный постоянный парк Новой Зеландии. Открыт в 1982 году. Corkscrew работает с 1994 года. Неоднократно признавался любимым семейным аттракционом.",
+      "zh": "彩虹尽头是新西兰唯一的永久性主题公园。它于1982年开放，运营逾40年。软木塞过山车自1994年起运营，是南半球历史最悠久的过山车之一。",
+      "ar": "Rainbow's End هو المتنزه الدائم الوحيد في نيوزيلندة. افتتح 1982 ويعمل منذ أكثر من 40 عاما."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head to Stratosfear first — queues build quickly on busy days. Corkscrew Coaster second and Fear Fall third. The Log Flume is best in the afternoon when the Auckland heat builds. Enchanted Forest is ideal for younger children mid-morning. Little Legends Zone is best in the late morning when young children have maximum energy. Check the park website for show schedules and school holiday specials. Rainbow's End is busiest during Auckland school holidays and weekends — visit on weekdays during term time for the shortest queues.",
+      "es": "Llega a la apertura y ve primero a Stratosfear. Corkscrew segundo y Fear Fall tercero. El Log Flume es mejor por la tarde. El Enchanted Forest es ideal para ninos pequenos a media manana. Rainbow's End es mas concurrido durante las vacaciones escolares de Auckland y los fines de semana.",
+      "fr": "Arrivez a l ouverture et allez d abord a Stratosfear. Corkscrew deuxieme et Fear Fall troisieme. Le Log Flume est mieux l apres-midi. Enchanted Forest est ideal pour les jeunes enfants en milieu de matinee. Rainbow's End est plus anime pendant les vacances scolaires d Auckland et les week-ends.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie zuerst zu Stratosfear. Korkenzieher zweiter und Fear Fall dritter. Wasserflume ist nachmittags am besten. Enchanted Forest ist ideal fur kleine Kinder am Vormittag. Rainbow's End ist wahrend Auklands Schulferien und Wochenenden am belebtesten.",
+      "it": "Arriva all apertura e vai prima a Stratosfear. Corkscrew secondo e Fear Fall terzo. Il Log Flume e meglio nel pomeriggio. Enchanted Forest e ideale per i bambini piccoli a meta mattina. Rainbow's End e piu affollato durante le vacanze scolari di Auckland e nei weekend.",
+      "nl": "Kom bij opening en ga eerst naar Stratosfear. Corkscrew tweede en Fear Fall derde. De Log Flume is s middags het beste. Enchanted Forest is ideaal voor jonge kinderen midden in de ochtend. Rainbow's End is het drukst tijdens Auckland schoolvakanties en weekenden.",
+      "pt": "Chega na abertura e vai primeiro a Stratosfear. Corkscrew segundo e Fear Fall terceiro. O Log Flume e melhor a tarde. Enchanted Forest e ideal para criancas pequenas a meia-manha. Rainbow's End e mais movimentado durante as ferias escolares de Auckland e fins de semana.",
+      "ru": "Приходите к открытию и сразу к Stratosfear. Corkscrew вторым, Fear Fall третьим. Enchanted Forest для маленьких детей. Наиболее многолюдно в школьные каникулы.",
+      "zh": "开园时到达先去恐怖飞行。软木塞第二，恐怖堡第三。木效漂流下午最佳。魔法森林适合小朝小这这全公园最拥挤。",
+      "ar": "صل عند الافتتاح واذهب أولا لـ Stratosfear. Corkscrew ثانيا وFear Fall ثالثا."
+    },
+    "ov_photos_body": {
+      "en": "Stratosfear photographed at full speed from ground level against the Auckland sky creates one of the most dramatic theme park images in the Southern Hemisphere. The Corkscrew photographed from below during the corkscrew inversion is an iconic New Zealand image. Enchanted Forest photographed from the entrance captures the charming fairy tale theming. The Log Flume photographed at the moment of the final splash creates classic water ride photography. Rainbow's End photographed from above shows New Zealand's unique position as a single-park theme park nation surrounded by suburban Auckland.",
+      "es": "Stratosfear fotografiado a plena velocidad desde el suelo contra el cielo de Auckland crea una de las imagenes de parques tematicos mas dramaticas del hemisferio sur. El Corkscrew desde abajo durante la inversion es una imagen iconica de Nueva Zelanda. El Log Flume en el momento del salpicado final crea fotografia clasica de atracciones acuaticas.",
+      "fr": "Stratosfear photographie a pleine vitesse depuis le sol contre le ciel d Auckland cree l une des images les plus dramatiques de l hemisphere sud. Le Corkscrew de dessous pendant l inversion est une image iconique de Nouvelle-Zelande. Le Log Flume au moment de l eclaboussure finale cree une photographie classique.",
+      "de": "Stratosfear in voller Geschwindigkeit vom Boden aus vor dem Auckland-Himmel fotografiert schafft eines der dramatischsten Themenpark-Bilder der Sudlichen Hemisphare. Der Korkenzieher von unten wahrend der Inversion ist ein ikonisches neuseeelandisches Bild.",
+      "it": "Stratosfear fotografato a piena velocita dal suolo contro il cielo di Auckland crea una delle immagini piu drammatiche dell emisfero australe. Il Corkscrew dal basso durante l inversione e un immagine iconica della Nuova Zelanda.",
+      "nl": "Stratosfear op volle snelheid gefotografeerd vanaf de grond tegen de Auckland lucht creert een van de meest dramatische themapark beelden van het zuidelijk halfrond. De Corkscrew van onderaf tijdens de inversie is een iconisch Nieuw-Zeeland beeld.",
+      "pt": "Stratosfear fotografado a plena velocidade do chao contra o ceu de Auckland cria uma das imagens mais dramaticas do hemisferio sul. O Corkscrew de baixo durante a inversao e uma imagem iconica da Nova Zelandia.",
+      "ru": "Stratosfear на полной скорости на фоне неба Окленда — один из самых драматичных снимков.",
+      "zh": "恐怖飞行在奥克兰天空背景下以全速拍摄的照片是南半球最具戴剧性的主题公园影像之一。软木塞翻转时从下方拍摄是新西兰标志性画面。",
+      "ar": "Stratosfear مصور بأقصى سرعة ضد سماء Auckland يخلق صورة رائعة."
+    }
+  },
+  "attractions": {
+    "stratosfear": {
+      "desc": {
+        "en": "New Zealand's most thrilling flat ride — 40-metre giant swing spinning at high speed delivering breathtaking Auckland views. The park's signature thrill. Min 130cm.",
+        "es": "La atraccion plana mas emocionante de Nueva Zelanda — columpio gigante de 40 metros girando a alta velocidad. Min 130cm.",
+        "fr": "L attraction plate la plus palpitante de Nouvelle-Zelande — grande balancoire de 40 metres a haute vitesse. Min 130cm.",
+        "de": "Neuseelands aufregendste Flachattraktion — 40 Meter grosses Riesenschaukel mit hoher Geschwindigkeit. Mindestgrosse 130cm.",
+        "it": "L attrazione piatta piu emozionante della Nuova Zelanda — grande altalena di 40 metri ad alta velocita. Min 130cm.",
+        "nl": "Nieuw-Zeeland's meest opwindende vlakke attractie — 40 meter reuzenrij op hoge snelheid. Min 130cm.",
+        "pt": "A atracao plana mais emocionante da Nova Zelandia — gigante balanco de 40 metros em alta velocidade. Min 130cm.",
+        "ru": "Самый зрелищный аттракцион Новой Зеландии. Мин 130 см.",
+        "zh": "新西兰最刺激的平面项目——高40米的巨型高速旋转摇荡。最低身高130厘米。",
+        "ar": "أكثر اتراكشن مسطح إثارة في نيوزيلندة. الحد الادنى 130 سم."
+      }
+    },
+    "fearfall": {
+      "desc": {
+        "en": "Classic 25-metre free-fall drop tower with spectacular Auckland views. One of the most popular thrill attractions in New Zealand. Min 130cm.",
+        "es": "Clasica torre de caida libre de 25 metros con espectaculares vistas de Auckland. Min 130cm.",
+        "fr": "Classique tour de chute libre de 25 metres avec vues spectaculaires sur Auckland. Min 130cm.",
+        "de": "Klassischer 25-Meter-Fallturm mit spektakularen Auckland-Aussichten. Mindestgrosse 130cm.",
+        "it": "Classica torre di caduta libera di 25 metri con viste spettacolari su Auckland. Min 130cm.",
+        "nl": "Klassieke 25 meter vrije val toren met spectaculair Auckland uitzicht. Min 130cm.",
+        "pt": "Classica torre de queda livre de 25 metros com vistas espetaculares de Auckland. Min 130cm.",
+        "ru": "Классическая башня свободного падения 25 м. Мин 130 см.",
+        "zh": "高25米的经典自由落体塔，具有壮观的奥克兰全景。最低身高130厘米。",
+        "ar": "برج سقوط حر 25 م بمناظر Auckland رائعة. الحد الادنى 130 سم."
+      }
+    },
+    "corkscrew_coaster": {
+      "desc": {
+        "en": "New Zealand's only corkscrew roller coaster — 2 inversions and genuine thrills. The iconic centrepiece of Rainbow's End since 1994 and the most loved coaster in New Zealand. Min 130cm.",
+        "es": "La unica montana rusa de tornillo de Nueva Zelanda — 2 inversiones y verdadera emocion. El centrepiece iconico de Rainbow's End desde 1994. Min 130cm.",
+        "fr": "La seule montagne russe a tire-bouchon de Nouvelle-Zelande — 2 inversions et vraies sensations. Le centrepiece iconique de Rainbow's End depuis 1994. Min 130cm.",
+        "de": "Neuseelands einzige Korkenzieherachterbahn — 2 Inversionen und echte Thrills. Das ikonische Herzstuck von Rainbow's End seit 1994. Mindestgrosse 130cm.",
+        "it": "L unica montagna russa a cavatappi della Nuova Zelanda — 2 inversioni e brividi reali. Il centrepiece iconico di Rainbow's End dal 1994. Min 130cm.",
+        "nl": "Nieuw-Zeeland's enige kurketrekker achtbaan — 2 inversies en echte thrills. Het iconische middelpunt van Rainbow's End sinds 1994. Min 130cm.",
+        "pt": "A unica montanha-russa saca-rolhas da Nova Zelandia — 2 inversoes e thrills reais. O iconico centro de Rainbow's End desde 1994. Min 130cm.",
+        "ru": "Единственный петлеевый коастер Новой Зеландии. Мин 130 см.",
+        "zh": "新西兰唯一的软木塞式过山车——2个翻转。自1994年起彩虹尽头的标志性核心项目。最低身高130厘米。",
+        "ar": "اوتوستراد لولبي الوحيد في نيوزيلندة. الحد الادنى 130 سم."
+      }
+    },
+    "invader": {
+      "desc": {
+        "en": "High-speed spinning coaster delivering intense rotational forces. Popular thrill coaster at Rainbow's End. Min 120cm.",
+        "es": "Coaster giratorio de alta velocidad con intensas fuerzas rotacionales. Min 120cm.",
+        "fr": "Coaster tournant haute vitesse avec forces rotationnelles intenses. Min 120cm.",
+        "de": "Hochgeschwindigkeits-Drehcoaster mit intensiven Rotationskraften. Mindestgrosse 120cm.",
+        "it": "Coaster rotante ad alta velocita con intense forze rotazionali. Min 120cm.",
+        "nl": "Hoge snelheid draaiende achtbaan met intense roterende krachten. Min 120cm.",
+        "pt": "Coaster giratoria de alta velocidade com intensas forcas rotacionais. Min 120cm.",
+        "ru": "Высокоскоростный вращающийся коастер. Мин 120 см.",
+        "zh": "高速旋转过山车。最低身高120厘米。",
+        "ar": "اوتوستراد دوار سريع. الحد الادنى 120 سم."
+      }
+    },
+    "power_surge": {
+      "desc": {
+        "en": "Intense spinning flat ride with powerful multi-axis rotations. Popular with thrill-seeking teenagers at Rainbow's End. Min 130cm.",
+        "es": "Atraccion plana giratoria intensa con rotaciones de multiples ejes. Min 130cm.",
+        "fr": "Attraction plate tournante intense avec rotations multi-axes. Min 130cm.",
+        "de": "Intensive Dreh-Flachattraktion mit kraftvollen Multi-Achsen-Rotationen. Mindestgrosse 130cm.",
+        "it": "Intensa attrazione piatta rotante con potenti rotazioni multi-asse. Min 130cm.",
+        "nl": "Intense draaiende vlakke attractie met krachtige multi-as rotaties. Min 130cm.",
+        "pt": "Intensa atracao plana giratoria com poderosas rotacoes multi-eixo. Min 130cm.",
+        "ru": "Интенсивный аттракцион. Мин 130 см.",
+        "zh": "具有强烈多轴旋转的刺激平面游乐项目。最低身高130厘米。",
+        "ar": "اتراكشن مسطح دوار شديد. الحد الادنى 130 سم."
+      }
+    },
+    "gold_rush": {
+      "desc": {
+        "en": "Fast family coaster themed to the New Zealand gold rush — fun hills and turns accessible to older children. Most popular family coaster at Rainbow's End. Min 110cm.",
+        "es": "Coaster familiar rapido con tematica de la fiebre del oro de Nueva Zelanda. Min 110cm.",
+        "fr": "Coaster familial rapide theme a la ruee vers l or de Nouvelle-Zelande. Min 110cm.",
+        "de": "Schneller Familiencoaster mit Neuseeland-Goldrausch-Thema. Mindestgrosse 110cm.",
+        "it": "Coaster familiare veloce con tema della corsa all oro della Nuova Zelanda. Min 110cm.",
+        "nl": "Snelle familieachtbaan met Nieuw-Zeeland goudkoorts thema. Min 110cm.",
+        "pt": "Coaster familiar rapido com tema da corrida ao ouro da Nova Zelandia. Min 110cm.",
+        "ru": "Быстрый семейный коастер. Мин 110 см.",
+        "zh": "以新西兰淡金翅为主题的家庭过山车。最低身高110厘米。",
+        "ar": "اوتوستراد عائلي سريع بطابع حمى الذهب. الحد الادنى 110 سم."
+      }
+    },
+    "log_flume": {
+      "desc": {
+        "en": "Classic log flume with scenic waterways and a splashing final drop. A beloved New Zealand family institution. Perfect for hot Auckland days. Min 100cm.",
+        "es": "Clasico flume con paisajes escenico y una caida final salpicante. Una querida institucion familiar de Nueva Zelanda. Min 100cm.",
+        "fr": "Classique flume avec voies pittoresques et une chute finale eclaboussante. Une cherie institution familiale de Nouvelle-Zelande. Min 100cm.",
+        "de": "Klassischer Wasserflume mit malerischen Gewassern und einem Abschlussabfall. Eine geliebte neuseelaendische Familieninstitution. Mindestgrosse 100cm.",
+        "it": "Classico flume con vie d acqua pittoresche e una caduta finale spaventosa. Un amata istituzione familiare della Nuova Zelanda. Min 100cm.",
+        "nl": "Klassieke flume met schilderachtige waterwegen en een spetterende eindval. Een geliefde Nieuw-Zeelandse familieinstelling. Min 100cm.",
+        "pt": "Classico flume com vias cenas e uma queda final salpicante. Uma querida instituicao familiar da Nova Zelandia. Min 100cm.",
+        "ru": "Классический водный аттракцион. Мин 100 см.",
+        "zh": "经典欲道漂流，最后水花四溅。最低身高100厘米。",
+        "ar": "اتراكشن مائي كلاسيكي. الحد الادنى 100 سم."
+      }
+    },
+    "motion_master": {
+      "desc": {
+        "en": "Immersive 4D motion simulator theatre with moving seats, surround sound and spectacular visual effects. Suitable for all ages.",
+        "es": "Teatro simulador de movimiento 4D con asientos moviles y efectos visuales espectaculares. Apto para todas las edades.",
+        "fr": "Theatre simulateur de mouvement 4D avec sieges mouvants et effets visuels spectaculaires. Convient a tous les ages.",
+        "de": "Immersives 4D-Bewegungssimulatortheatre mit beweglichen Sitzen und Spezialeffekten. Fur alle Altersgruppen.",
+        "it": "Teatro simulatore di movimento 4D con sedili in movimento ed effetti visivi spettacolari. Adatto a tutte le eta.",
+        "nl": "Meeslepend 4D bewegingssimulator theater met bewegende stoelen en spectaculaire visuele effecten. Geschikt voor alle leeftijden.",
+        "pt": "Teatro simulador de movimento 4D com assentos moveis e efeitos visuais espetaculares. Adequado para todas as idades.",
+        "ru": "Погружающий 4D-симулятор. Подходит для всех.",
+        "zh": "沉浸式4D动感影院。适合所有年龄。",
+        "ar": "مسرح محاكاة حركة 4D. مناسب لجميع الأعمار."
+      }
+    },
+    "pirate_ship": {
+      "desc": {
+        "en": "Classic Viking ship pendulum swinging to increasing heights. Beloved family thrill at Rainbow's End. Min 110cm.",
+        "es": "Clasico barco pirata balanceandose con altura creciente. Min 110cm.",
+        "fr": "Classique bateau pirate se balancant a hauteur croissante. Min 110cm.",
+        "de": "Klassisches Schiff bei zunehmender Hohe schaukelnd. Mindestgrosse 110cm.",
+        "it": "Classica nave pirata che dondola ad altezza crescente. Min 110cm.",
+        "nl": "Klassiek schip bij toenemende hoogte slingerend. Min 110cm.",
+        "pt": "Classico navio pirata balancando com altura crescente. Min 110cm.",
+        "ru": "Классический маятник. Мин 110 см.",
+        "zh": "经典海盗船项目。最低身高110厘米。",
+        "ar": "سفينة كلاسيكية. الحد الادنى 110 سم."
+      }
+    },
+    "wave_swinger": {
+      "desc": {
+        "en": "Classic flying chairs swing ride lifting guests high on spinning chains. One of the most joyful and iconic family rides at Rainbow's End. Min 110cm.",
+        "es": "Clasico paseo de sillas voladoras elevando a los visitantes en cadenas giratorias. Min 110cm.",
+        "fr": "Classique tour de chaises volantes elevant les visiteurs sur des chaines tournantes. Min 110cm.",
+        "de": "Klassische Flugstuhle heben Besucher auf drehenden Ketten hoch. Mindestgrosse 110cm.",
+        "it": "Classico giro di sedie volanti che solleva i visitatori su catene rotanti. Min 110cm.",
+        "nl": "Klassieke vliegende stoelen lift bezoekers hoog op draaiende kettingen. Min 110cm.",
+        "pt": "Classico passeio de cadeiras voadoras elevando visitantes em correntes giratories. Min 110cm.",
+        "ru": "Классические летящие кресла. Мин 110 см.",
+        "zh": "经典飞转椅项目。最低身高110厘米。",
+        "ar": "كراسي طائرة كلاسيكية. الحد الادنى 110 سم."
+      }
+    },
+    "bumper_boats": {
+      "desc": {
+        "en": "Fun splashy bumper boat experience — motorised boats with water squirters. Most popular summer family attraction. Min 100cm.",
+        "es": "Divertida experiencia en botes chocadores con rociadores de agua. Min 100cm.",
+        "fr": "Amusante experience en bateaux tamponnes avec arroseurs d eau. Min 100cm.",
+        "de": "Lustiges Stossboot-Erlebnis mit Wasserspritzern. Mindestgrosse 100cm.",
+        "it": "Divertente esperienza in motoscafi tamponanti con spruzzatori d acqua. Min 100cm.",
+        "nl": "Leuke botsboot ervaring met waterspuiters. Min 100cm.",
+        "pt": "Divertida experiencia em barcos choque com borrifadores de agua. Min 100cm.",
+        "ru": "Водные бамперные лодки. Мин 100 см.",
+        "zh": "有趣的水上碰碰船体验。最低身高100厘米。",
+        "ar": "قوارب متصادمة مرحة. الحد الادنى 100 سم."
+      }
+    },
+    "dodgem_cars": {
+      "desc": {
+        "en": "Classic electric bumper cars delivering endless fun. One of the most universally enjoyed attractions at Rainbow's End. Suitable for all ages.",
+        "es": "Clasicos autos chocadores electricos con diversión sin fin. Apto para todas las edades.",
+        "fr": "Classiques autos tamponneuses electriques avec plaisir sans fin. Convient a tous les ages.",
+        "de": "Klassische elektrische Autoscooter mit endlosem Spass. Fur alle Altersgruppen.",
+        "it": "Classiche macchine tamponanti elettriche con divertimento senza fine. Adatto a tutte le eta.",
+        "nl": "Klassieke elektrische botsauto's met eindeloos plezier. Geschikt voor alle leeftijden.",
+        "pt": "Classicos carros de choque electricos com diversao sem fim. Adequado para todas as idades.",
+        "ru": "Классические автодромы. Подходит для всех.",
+        "zh": "经典碰碰车。适合所有年龄。",
+        "ar": "سيارات تصادم كهربائية. مناسب لجميع الأعمار."
+      }
+    },
+    "enchanted_forest": {
+      "desc": {
+        "en": "Magical dark ride through an enchanted fairy tale forest with animatronic characters and whimsical scenes. The most beloved family ride for young children in New Zealand. Suitable for all ages.",
+        "es": "Magico dark ride a traves de un bosque encantado con personajes animatronicos. El paseo familiar mas querido para ninos pequenos de Nueva Zelanda. Apto para todas las edades.",
+        "fr": "Magique dark ride a travers une foret enchanteee avec personnages animatroniques. Le tour familial le plus aime pour les jeunes enfants de Nouvelle-Zelande. Convient a tous les ages.",
+        "de": "Magischer Darkride durch einen verzauberten Marchenwald mit Animatronik-Figuren. Neuseeland beliebteste Familienfahrt fur kleine Kinder. Fur alle Altersgruppen.",
+        "it": "Magico dark ride attraverso un bosco incantato con personaggi animatronici. Il tour familiare piu amato per i bambini piccoli della Nuova Zelanda. Adatto a tutte le eta.",
+        "nl": "Magische dark ride door een betoverd sprookjesbos met animatronic figuren. De meest geliefde familierit voor jonge kinderen van Nieuw-Zeeland. Geschikt voor alle leeftijden.",
+        "pt": "Magica dark ride por uma floresta encantada com personagens animatronicos. O passeio familiar mais amado para criancas pequenas da Nova Zelandia. Adequado para todas as idades.",
+        "ru": "Волшебный dark ride через зачарованный лес. Подходит для всех.",
+        "zh": "穿越魔法山林的迷人暗黑游乐项目，设有机械动用角色和趣味山包场景。适合所有年龄。",
+        "ar": "رحلة dark سحرية عبر غابة خيالية. الأكثر حبا للأطفال في نيوزيلندة. مناسب لجميع الأعمار."
+      }
+    },
+    "little_legends_zone": {
+      "desc": {
+        "en": "Dedicated toddler and young children's zone with gentle rides, soft play and interactive activities. Essential destination for families with children under 6. Suitable for all ages.",
+        "es": "Zona dedicada a ninos pequenos con atracciones gentiles y juego blando. Destino esencial para familias con ninos menores de 6 anos. Apto para todas las edades.",
+        "fr": "Zone dediee aux tout-petits avec attractions douces et jeu souple. Destination essentielle pour les familles avec enfants de moins de 6 ans. Convient a tous les ages.",
+        "de": "Kleine Kinder Zone mit sanften Attraktionen und Softplay. Wesentliches Ziel fur Familien mit Kindern unter 6 Jahren. Fur alle Altersgruppen.",
+        "it": "Zona dedicata ai bambini piccoli con attrazioni dolci e soft play. Destinazione essenziale per famiglie con bambini sotto i 6 anni. Adatto a tutte le eta.",
+        "nl": "Toegewijde peuterzone met zachte attracties en soft play. Essentieel doel voor gezinnen met kinderen onder de 6 jaar. Geschikt voor alle leeftijden.",
+        "pt": "Zona dedicada a criancas pequenas com atracoes suaves e soft play. Destino essencial para familias com criancas com menos de 6 anos. Adequado para todas as idades.",
+        "ru": "Зона для мальших детей. Подходит для всех.",
+        "zh": "专为幼小儿童设计的小小传奇局及互动活动区域。适合所有年龄。",
+        "ar": "منطقة مخصصة للأطفال الصغار. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_rainbows_end_cafe": {
+      "desc": {
+        "en": "Main family restaurant serving NZ favourites including burgers, hot chips and chicken. The most popular and centrally located food outlet at Rainbow's End.",
+        "es": "Restaurante familiar principal con favoritos de Nueva Zelanda incluyendo hamburgesas y papas fritas calientes.",
+        "fr": "Restaurant familial principal avec les favoris de Nouvelle-Zelande incluant burgers et frites.",
+        "de": "Haupt-Familienrestaurant mit neuseelaendischen Favoriten wie Burgern und Pommes.",
+        "it": "Ristorante familiare principale con i preferiti della Nuova Zelanda tra cui hamburger e patatine.",
+        "nl": "Hoofd gezinsrestaurant met Nieuw-Zeelandse favorieten zoals burgers en friet.",
+        "pt": "Restaurante familiar principal com favoritos da Nova Zelandia incluindo hamburgeres e batatas fritas.",
+        "ru": "Главный семейный ресторан.",
+        "zh": "主要家庭餐厅，供应汉堡和薯条等新西兰经典小食。",
+        "ar": "مطعم عائلي رئيسي مع المفضلات النيوزيلندية."
+      }
+    },
+    "food_small_talk_cafe": {
+      "desc": {
+        "en": "Relaxed cafe with coffee, cakes and light snacks. Best spot for parents to sit and relax while young children enjoy the nearby Little Legends Zone.",
+        "es": "Cafe relajado con cafe, pasteles y aperitivos ligeros. El mejor lugar para que los padres se sienten y relajen.",
+        "fr": "Cafe relaxant avec cafe, gateaux et snacks legers. Meilleur endroit pour que les parents s assoient et se relaxent.",
+        "de": "Entspanntes Cafe mit Kaffee, Kuchen und leichten Snacks. Bester Platz fur Eltern zum Sitzen und Entspannen.",
+        "it": "Cafe rilassato con caffe, dolci e snack leggeri. Il posto migliore per i genitori per sedersi e rilassarsi.",
+        "nl": "Ontspannen cafe met koffie, taarten en lichte snacks. Beste plek voor ouders om te zitten en te ontspannen.",
+        "pt": "Cafe relaxado com cafe, bolos e snacks leves. O melhor lugar para os pais sentarem e relaxarem.",
+        "ru": "Уютное кафе для родителей.",
+        "zh": "休闲咊啡，提供咊啡、蛋糕和轻食。家长放松的最佳场所。",
+        "ar": "مقهى هادئ مع قهوة وحلويات."
+      }
+    },
+    "food_pirate_snacks": {
+      "desc": {
+        "en": "Quick-service snack outlet near the Pirate Ship serving hot dogs, popcorn and ice cream. Most convenient option in the thrill rides area.",
+        "es": "Puesto de aperitivos de servicio rapido cerca del Barco Pirata con hot dogs y palomitas.",
+        "fr": "Point de snacks rapide pres du Bateau Pirate avec hot dogs et popcorn.",
+        "de": "Schnellservice-Snackstand nahe dem Piratenschiff mit Hot Dogs und Popcorn.",
+        "it": "Punto snack rapido vicino alla Nave Pirata con hot dog e popcorn.",
+        "nl": "Snelservice snack stand dicht bij het Piratenschip met hot dogs en popcorn.",
+        "pt": "Ponto de snacks rapido perto do Barco Pirata com hot dogs e pipocas.",
+        "ru": "Быстрый фастфуд рядом с аттракциями.",
+        "zh": "海盗船附近的快餐小吃馗。",
+        "ar": "نقطة وجبات خفيفة سريعة بالقرب من سفينة القراصنة."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_novotel_auckland_airport": {
+      "desc": {
+        "en": "Only hotel directly connected to Auckland Airport by covered walkway — 4-star with pool, gym and dining. 20 minutes from Rainbow's End. Ideal for arrivals and departures.",
+        "es": "Unico hotel directamente conectado al aeropuerto de Auckland — 4 estrellas con piscina y gimnasio. A 20 minutos de Rainbow's End.",
+        "fr": "Seul hotel directement connecte a l aeroport d Auckland — 4 etoiles avec piscine et salle de sport. A 20 minutes de Rainbow's End.",
+        "de": "Einziges Hotel direkt mit dem Auckland-Flughafen verbunden — 4 Sterne mit Pool und Fitnessstudio. 20 Minuten von Rainbow's End.",
+        "it": "Unico hotel direttamente collegato all aeroporto di Auckland — 4 stelle con piscina e palestra. A 20 minuti da Rainbow's End.",
+        "nl": "Enige hotel direct verbonden met Auckland Airport — 4 sterren met zwembad en sportschool. 20 minuten van Rainbow's End.",
+        "pt": "Unico hotel directamente ligado ao Aeroporto de Auckland — 4 estrelas com piscina e ginasio. A 20 minutos de Rainbow's End.",
+        "ru": "Единственный отель с прямым выходом в аэропорт. 20 минут от Rainbow's End.",
+        "zh": "奥克兰机场唯一依母连颇预进入的酒店——四星级，设有泳池和健身庭。彩虹尽头车程20分钟。",
+        "ar": "الفندق الوحيد المتصل مباشرة بمطار Auckland. 20 دقيقة من Rainbow's End."
+      }
+    },
+    "hotel_sudima_auckland_airport": {
+      "desc": {
+        "en": "Modern sustainable 4-star hotel near Auckland Airport with eco-conscious rooms, restaurant, gym and free airport shuttle. 20 minutes from Rainbow's End.",
+        "es": "Moderno hotel sostenible de 4 estrellas cerca del aeropuerto de Auckland con habitaciones eco. A 20 minutos de Rainbow's End.",
+        "fr": "Hotel durable moderne 4 etoiles pres de l aeroport d Auckland avec chambres eco. A 20 minutes de Rainbow's End.",
+        "de": "Modernes nachhaltiges 4-Sterne-Hotel nahe Auckland-Flughafen mit umweltbewussten Zimmern. 20 Minuten von Rainbow's End.",
+        "it": "Hotel sostenibile moderno 4 stelle vicino all aeroporto di Auckland con camere eco. A 20 minuti da Rainbow's End.",
+        "nl": "Modern duurzaam 4-sterrenhotel dicht bij Auckland Airport met eco-bewuste kamers. 20 minuten van Rainbow's End.",
+        "pt": "Hotel sustentavel moderno de 4 estrelas perto do Aeroporto de Auckland com quartos eco. A 20 minutos de Rainbow's End.",
+        "ru": "Современный экологичный 4-звёздный отель. 20 минут от Rainbow's End.",
+        "zh": "奥克兰机场附近现代可持续四星级酒店。彩虹尽头车程20分钟。",
+        "ar": "فندق 4 نجوم حديث مستدام بالقرب من مطار Auckland. 20 دقيقة من Rainbow's End."
+      }
+    },
+    "hotel_ibis_auckland_ellerslie": {
+      "desc": {
+        "en": "Comfortable affordable ibis hotel in Ellerslie, just 5 minutes from Rainbow's End — most conveniently located hotel for visiting New Zealand's premier theme park.",
+        "es": "Comodo y asequible hotel ibis en Ellerslie a solo 5 minutos de Rainbow's End — el hotel mas convenientemente ubicado.",
+        "fr": "Confortable et abordable hotel ibis a Ellerslie a seulement 5 minutes de Rainbow's End — l hotel le plus commodement situe.",
+        "de": "Komfortables erschwingliches ibis Hotel in Ellerslie nur 5 Minuten von Rainbow's End — am bequemsten gelegenes Hotel.",
+        "it": "Confortevole e conveniente hotel ibis a Ellerslie a soli 5 minuti da Rainbow's End — l hotel piu comodamente situato.",
+        "nl": "Comfortabel betaalbaar ibis hotel in Ellerslie slechts 5 minuten van Rainbow's End — meest handig gelegen hotel.",
+        "pt": "Confortavel e acessivel hotel ibis em Ellerslie a apenas 5 minutos de Rainbow's End — hotel mais convenientemente localizado.",
+        "ru": "Удобный ibis в 5 минутах от Rainbow's End.",
+        "zh": "奉艾利斯岔办公寄少少小费酒店，彩虹尽头车程仅5分钟。离彩虹尽头最近的酒店。",
+        "ar": "فندق ibis مريح وبأسعار معقولة في Ellerslie على بعد 5 دقائق فقط من Rainbow's End."
+      }
+    },
+    "hotel_rayland_motel": {
+      "desc": {
+        "en": "Clean affordable motel in Manukau with self-contained kitchenette units and free parking. Best budget option for families visiting Rainbow's End.",
+        "es": "Motel limpio y asequible en Manukau con unidades de cocina integrada y estacionamiento gratuito. La mejor opcion economica para familias.",
+        "fr": "Motel propre et abordable a Manukau avec unites kitchenette integrees et parking gratuit. La meilleure option economique pour les familles.",
+        "de": "Sauberes erschwingliches Motel in Manukau mit Kitchenette-Einheiten und kostenlosem Parken. Beste Budgetoption fur Familien.",
+        "it": "Motel pulito ed economico a Manukau con unita cucina angolare e parcheggio gratuito. La migliore opzione economica per le famiglie.",
+        "nl": "Schoon betaalbaar motel in Manukau met zelfstandige kitchenette eenheden en gratis parkeren. Beste budget optie voor gezinnen.",
+        "pt": "Motel limpo e acessivel em Manukau com unidades kitchenette e estacionamento gratuito. A melhor opcao economica para familias.",
+        "ru": "Чистый бюджетный мотель. Лучший вариант для семей.",
+        "zh": "马努库干净实惠的汽车旅馆，设有自备小厨房单元和免费停车。彩虹尽头最佳实惠选择。",
+        "ar": "نزل مريح بأسعار معقولة في Manukau. أفضل خيار اقتصادي للعائلات."
+      }
+    }
+  }
+}

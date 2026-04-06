@@ -1,0 +1,420 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Happy Valley Beijing is China's most popular domestic theme park chain's flagship park, located in the Chaoyang district of Beijing. Opened in 2006, Happy Valley Beijing covers over 500,000 square metres and features seven distinctly themed zones including Shangri-La, Maya, Ant Kingdom, Lost Maya and Western Territory. The park combines thrilling world-class roller coasters with spectacular water attractions, elaborate dark rides and unique Chinese cultural themed environments. Happy Valley is China's most visited domestic theme park brand with over 3 million visitors annually at the Beijing location.",
+      "es": "Happy Valley Beijing es el parque insignia de la cadena de parques tematicos domesticos mas popular de China, ubicado en el distrito de Chaoyang de Beijing. Inaugurado en 2006, cubre mas de 500,000 metros cuadrados con siete zonas tematicas. Combina montanas rusas de clase mundial con atracciones acuaticas y dark rides elaborados. Mas de 3 millones de visitantes anuales.",
+      "fr": "Happy Valley Beijing est le parc phare de la chaine de parcs a themes la plus populaire de Chine, situe dans le district de Chaoyang de Beijing. Ouvert en 2006, il couvre plus de 500 000 metres carres avec sept zones thematiques. Accueille plus de 3 millions de visiteurs par an.",
+      "de": "Happy Valley Beijing ist der Flaggschiff-Park Chinas beliebtester Themenparkkette, im Chaoyang-Bezirk von Peking gelegen. 2006 eroffnet deckt er uber 500.000 Quadratmeter mit sieben Themenzonen ab. Uber 3 Millionen Besucher jahrlich.",
+      "it": "Happy Valley Beijing e il parco di punta della catena di parchi a tema piu popolare della Cina, situato nel distretto di Chaoyang di Pechino. Aperto nel 2006 copre oltre 500.000 metri quadrati con sette zone tematiche. Oltre 3 milioni di visitatori annui.",
+      "nl": "Happy Valley Beijing is het vlaggenschip park van China's meest populaire themaparkketen, in het Chaoyang district van Beijing gelegen. Geopend in 2006 beslaat het meer dan 500.000 vierkante meter met zeven thematische zones. Meer dan 3 miljoen bezoekers per jaar.",
+      "pt": "Happy Valley Beijing e o parque principal da cadeia de parques tematicos mais popular da China, no distrito de Chaoyang de Pequim. Aberto em 2006 cobre mais de 500.000 metros quadrados com sete zonas tematicas. Mais de 3 milhoes de visitantes anuais.",
+      "ru": "Happy Valley Beijing — флагманский парк самой популярной сети парков Китая, в районе Чаоян Пекина. Открыт в 2006 году. Более 3 млн посетителей ежегодно.",
+      "zh": "北京欢乐谷是中国最受欢迎的本土主题公园品牌的旗舰公园，位于北京朝阳区。它于2006年开放，占地逾50万平方米，设有7个主题园区。每年吸引逾300万游客。",
+      "ar": "Happy Valley Beijing هو المتنزه الرائد لأكثر سلسلة متنزهات شعبية في الصين، في حي Chaoyang ببيجينغ. افتتح 2006 ويستقبل أكثر من 3 ملايين زائر سنويا."
+    },
+    "ov_highlights_body": {
+      "en": "Crystal Wing is the most spectacular wing coaster in China with riders seated in open wing vehicles through 5 inversions. Desperado is a high-speed launched coaster delivering intense Wild West thrills. Mayan Ruins is the most atmospheric dark ride in Beijing. Canyon Splash is the most popular summer water ride in the park. Ice World is a uniquely magical indoor winter wonderland unlike any other theme park experience in China. ProSlide delivers a spectacular water slides complex. The park is one of the few in China with internationally designed world-class roller coasters.",
+      "es": "Crystal Wing es el coaster de ala mas espectacular de China con 5 inversiones. Desperado es un coaster lanzado de alta velocidad. Mayan Ruins es el dark ride mas atmosferico de Beijing. Canyon Splash es la atraccion acuatica de verano mas popular. Ice World es una magica tierra de invierno cubierta unica en China.",
+      "fr": "Crystal Wing est le coaster aile le plus spectaculaire de Chine avec 5 inversions. Desperado est un coaster lance haute vitesse. Mayan Ruins est le dark ride le plus atmospherique de Beijing. Canyon Splash est l attraction aquatique d ete la plus populaire. Ice World est un monde d hiver couvert magique unique en Chine.",
+      "de": "Crystal Wing ist der spektakularste Flugel-Coaster Chinas mit 5 Inversionen. Desperado ist ein gestarteter Hochgeschwindigkeits-Achterbahn. Mayan Ruins ist der atmospharischste Darkride in Peking. Canyon Splash ist die beliebteste Sommer-Wasserattraktion. Ice World ist ein einzigartig magisches Winterwunderland.",
+      "it": "Crystal Wing e il coaster ad ala piu spettacolare della Cina con 5 inversioni. Desperado e un coaster lanciato ad alta velocita. Mayan Ruins e il dark ride piu atmosferico di Pechino. Canyon Splash e l attrazione acquatica estiva piu popolare. Ice World e un magico mondo invernale coperto unico in Cina.",
+      "nl": "Crystal Wing is de meest spectaculaire vleugel achtbaan van China met 5 inversies. Desperado is een hoge snelheid gelanceerde achtbaan. Mayan Ruins is de meest sfeervolle dark ride in Peking. Canyon Splash is de populairste zomerwaterattractie. Ice World is een uniek magisch overdekt winterwonderland.",
+      "pt": "Crystal Wing e o coaster de asa mais espetacular da China com 5 inversoes. Desperado e um coaster lancado de alta velocidade. Mayan Ruins e o dark ride mais atmosferico de Pequim. Canyon Splash e a atracao aquatica de verao mais popular. Ice World e um magico mundo invernal coberto unico na China.",
+      "ru": "Crystal Wing — самый зрелищный крыльевой коастер Китая. Mayan Ruins — самый атмосферный dark ride Пекина. Ice World — уникальное зимнее чудо.",
+      "zh": "水晶翅是中国最壮观的翅式过山车，5个翻转。亚马遗址是北京最具氛围感的暗黑项目。峕渗澳是公园夏季最受欢迎的水上项目。冰雪世界是中国主题公园中独特的循塡室内冬日仙境。",
+      "ar": "Crystal Wing هو أكثر اوتوستراد جناحي إثارة في الصين. Mayan Ruins أكثر dark ride أجواء في بيجينغ."
+    },
+    "ov_did_you_know_body": {
+      "en": "Happy Valley is China's largest domestic theme park chain with parks in Beijing, Shanghai, Shenzhen, Chengdu, Wuhan, Xi'an and Tianjin. The Beijing park was the first in the chain and opened in 2006. Crystal Wing opened in 2018 and was designed by world-leading coaster manufacturer Bolliger and Mabillard. Happy Valley Beijing receives over 3 million visitors per year making it one of the 20 most visited theme parks in the world. The park features one of China's most elaborate Mayan-themed zones. Ice World operates year-round and uses advanced refrigeration technology to maintain ice at negative temperatures inside the tropical Beijing summer.",
+      "es": "Happy Valley es la mayor cadena de parques tematicos de China con parques en Beijing, Shanghai, Shenzhen y mas. El parque de Beijing fue el primero de la cadena y abrio en 2006. Crystal Wing abrio en 2018 y fue disenado por Bolliger y Mabillard. Happy Valley Beijing recibe mas de 3 millones de visitantes al ano.",
+      "fr": "Happy Valley est la plus grande chaine de parques a themes de Chine avec des parques a Pekin, Shanghai, Shenzhen et plus. Le parc de Pekin etait le premier de la chaine et a ouvert en 2006. Crystal Wing a ouvert en 2018 et a ete concu par Bolliger et Mabillard. Happy Valley Pekin recoit plus de 3 millions de visiteurs par an.",
+      "de": "Happy Valley ist Chinas grosste Themenparkkette mit Parks in Peking, Shanghai, Shenzhen und mehr. Der Pekinger Park war der erste der Kette und offnete 2006. Crystal Wing offnete 2018 und wurde von Bolliger und Mabillard entworfen. Happy Valley Peking empfangt uber 3 Millionen Besucher pro Jahr.",
+      "it": "Happy Valley e la piu grande catena di parchi a tema della Cina con parchi a Pechino, Shanghai, Shenzhen e altri. Il parco di Pechino fu il primo della catena e apri nel 2006. Crystal Wing apri nel 2018 progettato da Bolliger e Mabillard. Happy Valley Pechino riceve oltre 3 milioni di visitatori annui.",
+      "nl": "Happy Valley is China's grootste themaparkketen met parken in Peking, Shanghai, Shenzhen en meer. Het Pekingse park was het eerste van de keten en opende in 2006. Crystal Wing opende in 2018 ontworpen door Bolliger en Mabillard. Happy Valley Peking ontvangt meer dan 3 miljoen bezoekers per jaar.",
+      "pt": "Happy Valley e a maior cadeia de parques tematicos da China com parques em Pequim, Xangai, Shenzhen e outros. O parque de Pequim foi o primeiro da cadeia e abriu em 2006. Crystal Wing abriu em 2018 projetado por Bolliger e Mabillard. Happy Valley Pequim recebe mais de 3 milhoes de visitantes anuais.",
+      "ru": "Happy Valley — крупнейшая сеть парков Китая. Crystal Wing открылся в 2018 году — спроектировал Bolliger и Mabillard.",
+      "zh": "欢乐谷是中国最大的本土主题公园连锁品牌。北京公园是第一个，于2006年开放。水晶翅2018年开放，由世界顶尖过山车制造商Bolliger和Mabillard设计。北京欢乐谷每年进偶超过300万游客。",
+      "ar": "Happy Valley أكبر سلسلة متنزهات صينية. Crystal Wing افتتح 2018 صممه Bolliger وMabillard."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and go straight to Crystal Wing — it builds to 90-minute queues by 11am on busy days. Desperado second and Tornado third before noon. Canyon Splash is best in the afternoon heat. Ice World is ideal mid-morning before the crowds arrive. Check the live show schedule at the entrance. Mayan Ruins is best in the early afternoon. ProSlide water complex is busiest between 1pm and 4pm — visit early morning or late afternoon. The park is busiest on weekends and Chinese public holidays including National Day Golden Week in October.",
+      "es": "Llega a la apertura y ve directamente a Crystal Wing. Desperado segundo y Tornado tercero antes del mediodia. Canyon Splash es mejor por la tarde. Ice World es ideal a primera hora de la manana. El complejo acuatico ProSlide es mas concurrido entre las 13h y las 16h. El parque es mas concurrido los fines de semana.",
+      "fr": "Arrivez a l ouverture et allez directement a Crystal Wing. Desperado deuxieme et Tornado troisieme avant midi. Canyon Splash est mieux l apres-midi. Ice World est ideal tot le matin. Le complexe aquatique ProSlide est plus anime entre 13h et 16h. Le parc est plus anime le week-end.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Crystal Wing. Desperado zweiter und Tornado dritter vor Mittag. Canyon Splash ist nachmittags am besten. Ice World ist fruh morgens ideal. Das ProSlide-Wassergelande ist zwischen 13 und 16 Uhr am belebtesten. Wochenenden sind am belebtesten.",
+      "it": "Arriva all apertura e vai direttamente a Crystal Wing. Desperado secondo e Tornado terzo prima di mezzogiorno. Canyon Splash e meglio nel pomeriggio. Ice World e ideale la mattina presto. Il complesso acquatico ProSlide e piu affollato tra le 13 e le 16. Il parco e piu affollato nei weekend.",
+      "nl": "Kom bij opening en ga direct naar Crystal Wing. Desperado tweede en Tornado derde voor de middag. Canyon Splash is s middags het beste. Ice World is vroeg in de ochtend ideaal. Het ProSlide watercomplex is het drukst tussen 13 en 16 uur. Weekenden zijn het drukst.",
+      "pt": "Chega na abertura e vai directamente a Crystal Wing. Desperado segundo e Tornado terceiro antes do meio-dia. Canyon Splash e melhor a tarde. Ice World e ideal de manha cedo. O complexo aquatico ProSlide e mais movimentado entre as 13h e as 16h. Os fins de semana sao os mais movimentados.",
+      "ru": "Приходите к открытию и сразу к Crystal Wing. Desperado вторым, Tornado третьим. Canyon Splash днём. Ice World утром. Выходные — самые загруженные дни.",
+      "zh": "开园时到达直接前往水晶翅。亚马遗址第二，龙卷风第三。峕渗澳下午最佳。冰雪世界适合上午早来。水上滑梯下先1点至4点最拥挤。周末和国庆黄金周开峄不断。",
+      "ar": "صل عند الافتتاح واذهب مباشرة لـ Crystal Wing. Desperado ثانيا. Canyon Splash مساءا. Ice World صباحا."
+    },
+    "ov_photos_body": {
+      "en": "Crystal Wing photographed from below during an inversion with the Beijing skyline in the background is the defining image of Happy Valley Beijing. Mayan Ruins photographed from the outside captures the extraordinary Mayan temple architecture. Canyon Splash photographed at the moment of the final drop creates spectacular water photography. Ice World photographed from inside with ice sculptures illuminated by coloured lighting creates uniquely beautiful winter photography. The Ferris Wheel photographed at sunset with the park below creates a sweeping aerial perspective of Happy Valley.",
+      "es": "Crystal Wing fotografiado desde abajo durante una inversion con el horizonte de Beijing es la imagen definitoria. Mayan Ruins desde fuera captura la arquitectura del templo maya. Canyon Splash en el momento de la caida final crea fotografia acuatica espectacular. Ice World iluminado por dentro crea fotografia invernal unica.",
+      "fr": "Crystal Wing photographie depuis le dessous pendant une inversion avec l horizon de Pekin est l image definissante. Mayan Ruins de l exterieur capture l architecture du temple maya. Canyon Splash au moment de la chute finale cree une photographie aquatique spectaculaire. Ice World eclaire de l interieur cree une photographie hivernale unique.",
+      "de": "Crystal Wing von unten wahrend einer Inversion mit dem Pekinger Skyline ist das prasentierende Bild. Mayan Ruins von aussen zeigt die Maya-Tempelarchitektur. Canyon Splash beim letzten Abfall schafft spektakulare Wasserfotografie. Ice World innen beleuchtet schafft einzigartige Winterfotografie.",
+      "it": "Crystal Wing fotografato dal basso durante un inversione con lo skyline di Pechino e l immagine definitiva. Mayan Ruins dall esterno cattura l architettura del tempio maya. Canyon Splash nel momento della caduta finale crea fotografia acquatica spettacolare.",
+      "nl": "Crystal Wing van onderaf tijdens een inversie met de Beijing skyline is het bepalende beeld. Mayan Ruins van buitenaf toont de Maya tempel architectuur. Canyon Splash bij de eindval creert spectaculaire waterfotografie.",
+      "pt": "Crystal Wing fotografado de baixo durante uma inversao com o horizonte de Pequim e a imagem definitiva. Mayan Ruins de fora captura a arquitectura do templo maia. Canyon Splash no momento da queda final cria fotografia aquatica espetacular.",
+      "ru": "Crystal Wing снизу во время инверсии на фоне скайлайна Пекина — главный образ.",
+      "zh": "水晶翅在北京天际线背景下翻转时仿作下方拍摄是北京欢乐谷的标志性影像。峕渗澳在最后一个下坡的水花中拍摄极为壮观。",
+      "ar": "Crystal Wing مصور من الأسفل أثناء انعكاس مع أفق بيجينغ هو الصورة المحددة."
+    }
+  },
+  "attractions": {
+    "crystal_wing": {
+      "desc": {
+        "en": "The most spectacular wing coaster in China — riders in open wing vehicles through 5 inversions at 100 km/h with extraordinary Beijing skyline views. Min 130cm.",
+        "es": "El coaster de ala mas espectacular de China — pasajeros en vehiculos de ala abierta a traves de 5 inversiones a 100 km/h. Min 130cm.",
+        "fr": "Le coaster aile le plus spectaculaire de Chine — passagers dans des vehicules aile ouverte a travers 5 inversions a 100 km/h. Min 130cm.",
+        "de": "Der spektakularste Flugel-Coaster Chinas — Fahrer in offenen Flugelfahrzeugen durch 5 Inversionen bei 100 km/h. Mindestgrosse 130cm.",
+        "it": "Il coaster ad ala piu spettacolare della Cina — passeggeri in veicoli ad ala aperta attraverso 5 inversioni a 100 km/h. Min 130cm.",
+        "nl": "De meest spectaculaire vleugel achtbaan van China — rijders in open vleugelvoertuigen door 5 inversies bij 100 km/h. Min 130cm.",
+        "pt": "O coaster de asa mais espetacular da China — passageiros em veiculos de asa aberta por 5 inversoes a 100 km/h. Min 130cm.",
+        "ru": "Самый зрелищный крыльевой коастер Китая. Мин 130 см.",
+        "zh": "中国最壮观的翅式过山车——身坐开放式车廊以100公里/小时穿街5个翻转。最低身高130厘米。",
+        "ar": "اوتوستراد جناحي الأكثر إثارة في الصين بمركبات جناحية مفتوحة. الحد الادنى 130 سم."
+      }
+    },
+    "desperado": {
+      "desc": {
+        "en": "High-speed launched Wild West coaster with rapid acceleration through twists, turns and 3 inversions. One of the most exciting coasters at Happy Valley. Min 130cm.",
+        "es": "Coaster del Lejano Oeste lanzado de alta velocidad con aceleracion rapida. Min 130cm.",
+        "fr": "Coaster du Far West lance haute vitesse avec acceleration rapide. Min 130cm.",
+        "de": "Hochgeschwindigkeits-Wild-West-Coaster mit schneller Beschleunigung. Mindestgrosse 130cm.",
+        "it": "Coaster del Far West lanciato ad alta velocita con rapida accelerazione. Min 130cm.",
+        "nl": "Hoge snelheid gelanceerde Wild West achtbaan. Min 130cm.",
+        "pt": "Coaster do Velho Oeste lancado de alta velocidade. Min 130cm.",
+        "ru": "Запускаемый коастер Вильдого Запада. Мин 130 см.",
+        "zh": "高速发射的狂野西部过山车，3个翻转。最低身高130厘米。",
+        "ar": "اوتوستراد Wild West سريع الإطلاق. الحد الادنى 130 سم."
+      }
+    },
+    "tornado": {
+      "desc": {
+        "en": "Classic suspended looping coaster with 4 inversions and high-speed sweeping turns. A beloved thrill institution at Happy Valley Beijing. Min 130cm.",
+        "es": "Coaster clasico de bucles suspendido con 4 inversiones. Min 130cm.",
+        "fr": "Coaster classique a boucles suspendues avec 4 inversions. Min 130cm.",
+        "de": "Klassischer Hanglooping-Coaster mit 4 Inversionen. Mindestgrosse 130cm.",
+        "it": "Classico coaster a loop sospeso con 4 inversioni. Min 130cm.",
+        "nl": "Klassieke hangende looping achtbaan met 4 inversies. Min 130cm.",
+        "pt": "Classico coaster de loops suspenso com 4 inversoes. Min 130cm.",
+        "ru": "Классический подвешенный коастер с 4 инверсиями. Мин 130 см.",
+        "zh": "经典悬挂式过山车，4个翻转。最低身高130厘米。",
+        "ar": "اوتوستراد معلق كلاسيكي بالحلقة مع 4 انعكاسات. الحد الادنى 130 سم."
+      }
+    },
+    "sky_drop": {
+      "desc": {
+        "en": "Towering 45-metre free-fall drop tower with sweeping views over Happy Valley and Beijing. Min 130cm.",
+        "es": "Torre de caida libre de 45 metros con amplias vistas sobre Happy Valley y Beijing. Min 130cm.",
+        "fr": "Tour de chute libre de 45 metres avec vues panoramiques sur Happy Valley et Pekin. Min 130cm.",
+        "de": "45-Meter-Fallturm mit weitreichenden Aussichten uber Happy Valley und Peking. Mindestgrosse 130cm.",
+        "it": "Torre di caduta libera di 45 metri con viste panoramiche su Happy Valley e Pechino. Min 130cm.",
+        "nl": "45 meter vrije val toren met brede uitzichten over Happy Valley en Peking. Min 130cm.",
+        "pt": "Torre de queda livre de 45 metros com vistas panoramicas sobre Happy Valley e Pequim. Min 130cm.",
+        "ru": "Башня свободного падения 45 м. Мин 130 см.",
+        "zh": "高45米的自由落体塔，俳瞰北京欢乐谷全景。最低身高130厘米。",
+        "ar": "برج سقوط حر 45 م بمناظر بانورامية. الحد الادنى 130 سم."
+      }
+    },
+    "himalayan_eagle": {
+      "desc": {
+        "en": "Massive high-speed pendulum swing themed to the Himalayas with spectacular panoramic park views. Min 130cm.",
+        "es": "Masivo columpio pendular de alta velocidad con tematica himalaya y vistas panoramicas espectaculares. Min 130cm.",
+        "fr": "Massif balancoire pendulaire haute vitesse theme Himalaya avec vues panoramiques spectaculaires. Min 130cm.",
+        "de": "Massives Hochgeschwindigkeits-Pendel mit Himalaya-Thema und spektakularen Panoramablicken. Mindestgrosse 130cm.",
+        "it": "Massiccio dondolo pendolare ad alta velocita tema Himalaya con viste panoramiche spettacolari. Min 130cm.",
+        "nl": "Massieve hoge snelheid slingerrit met Himalaya thema en spectaculair panoramisch uitzicht. Min 130cm.",
+        "pt": "Massivo baloico pendular de alta velocidade com tema Himalaia e vistas panoramicas espetaculares. Min 130cm.",
+        "ru": "Мощный маятник с видом на парк. Мин 130 см.",
+        "zh": "巴山鹰主题的巨型高速摇荡项目。最低身高130厘米。",
+        "ar": "تأرجحة بندول ضخمة سريعة بطابع جبال هيمالايا. الحد الادنى 130 سم."
+      }
+    },
+    "pirate_ship": {
+      "desc": {
+        "en": "Classic Viking ship pendulum ride swinging to increasing heights. Beloved family thrill at Happy Valley. Min 120cm.",
+        "es": "Clasico barco pirata balanceandose con altura creciente. Min 120cm.",
+        "fr": "Classique bateau pirate se balancant a hauteur croissante. Min 120cm.",
+        "de": "Klassisches Wikingerschiff bei zunehmender Hohe schaukelnd. Mindestgrosse 120cm.",
+        "it": "Classica nave pirata che dondola ad altezza crescente. Min 120cm.",
+        "nl": "Klassiek Vikingschip bij toenemende hoogte slingerend. Min 120cm.",
+        "pt": "Classico barco viking balancando com altura crescente. Min 120cm.",
+        "ru": "Классический маятник. Мин 120 см.",
+        "zh": "经典海盗船项目。最低身高120厘米。",
+        "ar": "سفينة فايكينج كلاسيكية. الحد الادنى 120 سم."
+      }
+    },
+    "mayan_ruins": {
+      "desc": {
+        "en": "Elaborately themed dark ride through ancient Mayan civilisation — impressive temple environments, mysterious chambers and dramatic effects. Most atmospheric dark ride in Beijing. Suitable for all ages.",
+        "es": "Dark ride elaboradamente tematizado a traves de la civilizacion maya antigua. El dark ride mas atmosferico de Beijing. Apto para todas las edades.",
+        "fr": "Dark ride elaborement theme a travers la civilisation maya ancienne. Le dark ride le plus atmospherique de Pekin. Convient a tous les ages.",
+        "de": "Aufwendig gestalteter Darkride durch die alte Maya-Zivilisation. Atmospharischster Darkride in Peking. Fur alle Altersgruppen.",
+        "it": "Dark ride elaboratamente tematizzato attraverso l antica civilta maya. Il dark ride piu atmosferico di Pechino. Adatto a tutte le eta.",
+        "nl": "Uitgewerkte dark ride door de oude Maya beschaving. Meest sfeervolle dark ride in Peking. Geschikt voor alle leeftijden.",
+        "pt": "Dark ride elaboradamente tematizada pela antiga civilizacao maia. O dark ride mais atmosferico de Pequim. Adequado para todas as idades.",
+        "ru": "Тёмный аттракцион через древнюю цивилизацию майя. Подходит для всех.",
+        "zh": "精尽的古玛雅文明暗黑项目——印象深刻的神庙氛围和梅复的特效。适合所有年龄。",
+        "ar": "اتراكشن dark متقن عبر حضارة المايا القديمة. مناسب لجميع الأعمار."
+      }
+    },
+    "canyon_splash": {
+      "desc": {
+        "en": "Thrilling log flume through dramatic canyon landscapes with exciting drops and guaranteed soakings. Most popular summer attraction at Happy Valley Beijing. Min 110cm.",
+        "es": "Emocionante atraccion de agua a traves de dramaticos paisajes de canon con caidas emocionantes. La atraccion de verano mas popular. Min 110cm.",
+        "fr": "Palpitante attraction d eau a travers des paysages de canyon dramatiques. L attraction estivale la plus populaire. Min 110cm.",
+        "de": "Aufregende Wasserfahrt durch dramatische Canyonlandschaften. Beliebteste Sommerattraktion. Mindestgrosse 110cm.",
+        "it": "Emozionante attrazione acquatica attraverso paesaggi di canyon drammatici. L attrazione estiva piu popolare. Min 110cm.",
+        "nl": "Spannende waterattractie door dramatische canyonlandschappen. Populairste zomeratractie. Min 110cm.",
+        "pt": "Emocionante passeio aquatico por dramaticas paisagens de canyon. A atracao de verao mais popular. Min 110cm.",
+        "ru": "Захватывающий водный аттракцион. Мин 110 см.",
+        "zh": "穿越壮观山谷景观的峕渗澳漂流项目。最低身高110厘米。",
+        "ar": "اتراكشن مائي مثير عبر مناظر الوادي. الحد الادنى 110 سم."
+      }
+    },
+    "proslide": {
+      "desc": {
+        "en": "Spectacular water slides complex with speed slides, family raft rides and iconic tunnel slide. Most popular water attraction at Happy Valley Beijing. Min 110cm.",
+        "es": "Espectacular complejo de toboganes acuaticos con toboganes de velocidad y paseos en balsa familiar. Min 110cm.",
+        "fr": "Spectaculaire complexe de toboggans aquatiques avec toboggans de vitesse et tours en radeau familial. Min 110cm.",
+        "de": "Spektakularer Wasserrutschenkomplex mit Geschwindigkeitsrutschen und Familien-Rafting. Mindestgrosse 110cm.",
+        "it": "Spettacolare complesso di scivoli acquatici con scivoli veloci e gite in gommone familiare. Min 110cm.",
+        "nl": "Spectaculair waterglijbaancomplex met snelheidsglijbanen en familiefloatrides. Min 110cm.",
+        "pt": "Espetacular complexo de escorregadores aquaticos com escorregadores de velocidade e passeios de balsa familiar. Min 110cm.",
+        "ru": "Зрелищный водный комплекс. Мин 110 см.",
+        "zh": "壮观的水上滑梯群，包括高速滑道、家庭橡皮艇和标志性隆道滑梯。最低身高110厘米。",
+        "ar": "مجمع زحاليق مائية رائع. الحد الادنى 110 سم."
+      }
+    },
+    "ice_world": {
+      "desc": {
+        "en": "Uniquely magical indoor winter wonderland with ice sculptures and frozen landscapes. One of the most visually spectacular and uniquely Chinese theme park experiences. Suitable for all ages.",
+        "es": "Magica tierra de invierno cubierta unica con esculturas de hielo y paisajes helados. Apto para todas las edades.",
+        "fr": "Magique monde d hiver couvert unique avec sculptures de glace et paysages geles. Convient a tous les ages.",
+        "de": "Einzigartig magisches Winterwunderland mit Eisskulpturen und gefrorenen Landschaften. Fur alle Altersgruppen.",
+        "it": "Magico mondo invernale coperto unico con sculture di ghiaccio e paesaggi gelati. Adatto a tutte le eta.",
+        "nl": "Uniek magisch overdekt winterwonderland met ijssculpturen en bevroren landschappen. Geschikt voor alle leeftijden.",
+        "pt": "Magico mundo de inverno coberto unico com esculturas de gelo e paisagens geladas. Adequado para todas as idades.",
+        "ru": "Уникальное волшебное зимнее чудо с льдяными скульптурами. Подходит для всех.",
+        "zh": "独特的室内冬日仙境——冰雕和冰园景观。适合所有年龄。",
+        "ar": "أرض شتاء سحرية داخلية فريدة مع منحوتات جليدية. مناسب لجميع الأعمار."
+      }
+    },
+    "jungle_racing": {
+      "desc": {
+        "en": "Exciting family coaster through tropical forest scenery. Popular family thrill for children and adults. Min 110cm.",
+        "es": "Emocionante coaster familiar a traves de escenarios de bosque tropical. Min 110cm.",
+        "fr": "Palpitant coaster familial a travers des decors de foret tropicale. Min 110cm.",
+        "de": "Aufregender Familiencoaster durch tropische Waldkulissen. Mindestgrosse 110cm.",
+        "it": "Emozionante coaster familiare attraverso scenari di foresta tropicale. Min 110cm.",
+        "nl": "Spannende familieachtbaan door tropische boslandschappen. Min 110cm.",
+        "pt": "Emocionante coaster familiar por cenarios de floresta tropical. Min 110cm.",
+        "ru": "Семейный коастер в джунглейх. Мин 110 см.",
+        "zh": "穿越热带衡林景观的家庭过山车。最低身高110厘米。",
+        "ar": "اوتوستراد عائلي مثير عبر غابات استوائية. الحد الادنى 110 سم."
+      }
+    },
+    "goldmine_train": {
+      "desc": {
+        "en": "Classic mine train coaster winding through gold mine environments. Gentle accessible thrills for all generations. Min 100cm.",
+        "es": "Clasico coaster tren minero serpenteando por entornos de minas de oro. Min 100cm.",
+        "fr": "Classique coaster train de mine serpentant dans des environnements de mines d or. Min 100cm.",
+        "de": "Klassischer Minenbahncoaster durch Goldbergwerksumgebungen. Mindestgrosse 100cm.",
+        "it": "Classico coaster treno minerario che serpeggia attraverso ambienti di miniere d oro. Min 100cm.",
+        "nl": "Klassieke mijntrein achtbaan door goudmijn omgevingen. Min 100cm.",
+        "pt": "Classico coaster comboio de mina serpentando por ambientes de minas de ouro. Min 100cm.",
+        "ru": "Классический шахтный поезд. Мин 100 см.",
+        "zh": "终绕金矿环境的经典矿山列车过山车。最低身高100厘米。",
+        "ar": "اوتوستراد قطار منجم كلاسيكي. الحد الادنى 100 سم."
+      }
+    },
+    "carousel_kingdom": {
+      "desc": {
+        "en": "Grand beautifully decorated traditional carousel — a charming timeless family attraction and one of the most photographed spots in the park. Suitable for all ages.",
+        "es": "Gran carrusel tradicional bellamente decorado. Apto para todas las edades.",
+        "fr": "Grand carrousel traditionnel magnifiquement decore. Convient a tous les ages.",
+        "de": "Gross wunderschon dekoriertes Karussell. Fur alle Altersgruppen.",
+        "it": "Grande carosello tradizionale magnificamente decorato. Adatto a tutte le eta.",
+        "nl": "Groot prachtig gedecoreerd traditioneel carrousel. Geschikt voor alle leeftijden.",
+        "pt": "Grande carrocel tradicional lindamente decorado. Adequado para todas as idades.",
+        "ru": "Красивая карусель. Подходит для всех.",
+        "zh": "宏伟精美的传统旋转木马。适合所有年龄。",
+        "ar": "خيول دوار تقليدية ضخمة. مناسب لجميع الأعمار."
+      }
+    },
+    "bumper_cars": {
+      "desc": {
+        "en": "Classic dodgem bumper cars delivering endless fun. One of the most popular and accessible attractions at Happy Valley Beijing. Suitable for all ages.",
+        "es": "Clasicos autos chocadores con diversión sin fin. Apto para todas las edades.",
+        "fr": "Classiques autos tamponneuses avec plaisir sans fin. Convient a tous les ages.",
+        "de": "Klassische Autoscooter mit endlosem Spass. Fur alle Altersgruppen.",
+        "it": "Classiche macchine tamponanti con divertimento senza fine. Adatto a tutte le eta.",
+        "nl": "Klassieke botsauto's met eindeloos plezier. Geschikt voor alle leeftijden.",
+        "pt": "Classicos carros de choque com diversao sem fim. Adequado para todas as idades.",
+        "ru": "Классические автодромы. Подходит для всех.",
+        "zh": "经典碰碰车——乐趣无穷。适合所有年龄。",
+        "ar": "سيارات التصادم الكلاسيكية. مناسب لجميع الأعمار."
+      }
+    },
+    "ferris_wheel": {
+      "desc": {
+        "en": "Magnificent 50-metre observation wheel with sweeping panoramic views over Happy Valley and Beijing. Most scenic attraction in the park. Suitable for all ages.",
+        "es": "Magnifico aforo de observacion de 50 metros con vistas panoramicas. Apto para todas las edades.",
+        "fr": "Magnifique grande roue de 50 metres avec vues panoramiques. Convient a tous les ages.",
+        "de": "Magnificentes 50-Meter-Riesenrad mit weitreichenden Panoramablicken. Fur alle Altersgruppen.",
+        "it": "Magnifica ruota panoramica di 50 metri con viste panoramiche. Adatto a tutte le eta.",
+        "nl": "Prachtig 50 meter reuzenrad met panoramisch uitzicht. Geschikt voor alle leeftijden.",
+        "pt": "Magnifico roda panoramica de 50 metros com vistas panoramicas. Adequado para todas as idades.",
+        "ru": "Огромное колесо обозрения 50 м. Подходит для всех.",
+        "zh": "高50米的壮观观光轮，俳瞰北京欢乐谷全景。适合所有年龄。",
+        "ar": "عجلة مشاهدة ضخمة 50 م بمناظر بانورامية. مناسب لجميع الأعمار."
+      }
+    },
+    "haunt_house": {
+      "desc": {
+        "en": "Spooky walk-through haunted house with horror rooms, atmospheric lighting and startling effects. Most popular Halloween attraction at Happy Valley. Min 12 years.",
+        "es": "Espeluznante casa encantada con habitaciones de terror y efectos sorprendentes. Min 12 anos.",
+        "fr": "Maison hantee effrayante avec chambres d horreur et effets saisissants. Min 12 ans.",
+        "de": "Gruselige Geisterbahn mit Horrorraumen und erschreckenden Effekten. Mindestens 12 Jahre.",
+        "it": "Spaventosa casa stregata con stanze horror ed effetti sorprendenti. Min 12 anni.",
+        "nl": "Griezelig spookhuis met horror kamers en schokkende effecten. Min 12 jaar.",
+        "pt": "Assustadora casa assombrada com salas de terror e efeitos surpreendentes. Min 12 anos.",
+        "ru": "Жуткий дом ужасов. Мин 12 лет.",
+        "zh": "恐怖的鬼屋体验，气氛洓垒的恐怖房间和惊吗效果。最小12岁。",
+        "ar": "منزل مسكون مخيف بغرف رعب. الحد الادنى 12 سنة."
+      }
+    },
+    "happy_valley_show": {
+      "desc": {
+        "en": "Spectacular daily live show with professional performers, elaborate costumes and stunning visual effects. Essential part of the Happy Valley Beijing experience. Suitable for all ages.",
+        "es": "Espectacular espectaculo en vivo diario con artistas profesionales y efectos visuales impresionantes. Apto para todas las edades.",
+        "fr": "Spectaculaire spectacle en direct quotidien avec artistes professionnels et effets visuels epoustouflants. Convient a tous les ages.",
+        "de": "Spektakulare tagliche Live-Show mit professionellen Kunstlern und atemberaubenden Spezialeffekten. Fur alle Altersgruppen.",
+        "it": "Spettacolare show dal vivo quotidiano con artisti professionisti ed effetti visivi mozzafiato. Adatto a tutte le eta.",
+        "nl": "Spectaculaire dagelijkse live show met professionele artiesten en verbluffende visuele effecten. Geschikt voor alle leeftijden.",
+        "pt": "Espetacular show diario ao vivo com artistas profissionais e efeitos visuais impressionantes. Adequado para todas as idades.",
+        "ru": "Зрелищное ежедневное шоу. Подходит для всех.",
+        "zh": "具有专业表演者和精美服装的壮观每日现场表演。适合所有年龄。",
+        "ar": "عرض حي يومي رائع. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_shangrila_restaurant": {
+      "desc": {
+        "en": "Premier dining at Happy Valley Beijing — elegant Chinese restaurant with Peking duck, dim sum and traditional Beijing cuisine. Most atmospheric food outlet in the park.",
+        "es": "Principal restaurante de Happy Valley Beijing — elegante restaurante chino con pato de Beijing, dim sum y cocina tradicional de Beijing.",
+        "fr": "Restaurant principal de Happy Valley Pekin — elegant restaurant chinois avec canard de Pekin, dim sum et cuisine traditionnelle de Pekin.",
+        "de": "Hauptrestaurant von Happy Valley Peking — elegantes chinesisches Restaurant mit Pekingente, Dim Sum und traditioneller Pekingkuche.",
+        "it": "Ristorante principale di Happy Valley Pechino — elegante ristorante cinese con anatra di Pechino, dim sum e cucina tradizionale di Pechino.",
+        "nl": "Hoofdrestaurant van Happy Valley Peking — elegant Chinees restaurant met Pekingeend, dim sum en traditionele Pekingse keuken.",
+        "pt": "Restaurante principal de Happy Valley Pequim — elegante restaurante chines com pato de Pequim, dim sum e cozinha tradicional de Pequim.",
+        "ru": "Главный ресторан — пекинская утка и дим-сам.",
+        "zh": "北京欢乐谷首选餐馆——供应北京烤鸭、点心和传统北京菜肴的优雅中餐馆。",
+        "ar": "مطعم رئيسي أنيق مع بط بيجينغ وديم سوم."
+      }
+    },
+    "food_speed_racer_restaurant": {
+      "desc": {
+        "en": "High-energy quick-service restaurant with Chinese noodles, fried rice, dumplings and hot snacks. One of the most popular casual dining options at Happy Valley.",
+        "es": "Restaurante de servicio rapido de alta energia con fideos chinos, arroz frito y dumplings.",
+        "fr": "Restaurant rapide haute energie avec nouilles chinoises, riz frite et dumplings.",
+        "de": "Hochenergie-Schnellrestaurant mit chinesischen Nudeln, gebratenem Reis und Knoedeln.",
+        "it": "Ristorante rapido ad alta energia con noodles cinesi, riso fritto e ravioli.",
+        "nl": "Hoge energie snelrestaurant met Chinese noodles, gebakken rijst en dumplings.",
+        "pt": "Restaurante rapido de alta energia com noodles chineses, arroz frito e dumplings.",
+        "ru": "Быстрый китайский ресторан.",
+        "zh": "高能量的中式快餐餐厅，供应面条、炸饭和饥子。",
+        "ar": "مطعم سريع عالي الطاقة مع شعرية، أرز مقلي وزلابيا."
+      }
+    },
+    "food_klossos_kitchen": {
+      "desc": {
+        "en": "Fun casual Western food outlet serving burgers, hot dogs and international snacks. Most popular Western option at Happy Valley Beijing.",
+        "es": "Divertido puesto de comida occidental casual con hamburgesas, hot dogs y aperitivos internacionales.",
+        "fr": "Amusant stand de restauration occidentale casual avec burgers, hot dogs et snacks internationaux.",
+        "de": "Lustiger Casual-Western-Imbiss mit Burgern, Hot Dogs und internationalen Snacks.",
+        "it": "Divertente stand di cibo occidentale casual con hamburger, hot dog e snack internazionali.",
+        "nl": "Leuk casual Westers eetpunt met burgers, hot dogs en internationale snacks.",
+        "pt": "Divertido ponto de comida ocidental casual com hamburgeres, hot dogs e snacks internacionais.",
+        "ru": "Забавный западный фастфуд.",
+        "zh": "趣味十足的轻松西式小吃馗，供应汉堡和黑狗。",
+        "ar": "منفذ طعام غربي غير رسمي مع برغر وهوت دوغ."
+      }
+    },
+    "food_platos_book_box": {
+      "desc": {
+        "en": "Charming relaxed cafe serving coffee, teas, light snacks and desserts. The most peaceful atmospheric spot to rest and recharge in the park.",
+        "es": "Encantador cafe relajado con cafe, tés, aperitivos ligeros y postres. El lugar mas tranquilo y atmosferico del parque.",
+        "fr": "Charmant cafe relaxant avec cafe, thes, snacks legers et desserts. L endroit le plus paisible du parc.",
+        "de": "Charmantes entspanntes Cafe mit Kaffee, Tees, leichten Snacks und Desserts. Ruhigster und atmospharischster Platz des Parks.",
+        "it": "Affascinante cafe rilassato con caffe, te, snack leggeri e dessert. Il luogo piu tranquillo e atmosferico del parco.",
+        "nl": "Charmant ontspannen cafe met koffie, thee, lichte snacks en desserts. De rustigste atmosferische plek om bij te komen.",
+        "pt": "Encantador cafe relaxado com cafe, chas, snacks leves e sobremesas. O local mais calmo e atmosferico do parque.",
+        "ru": "Чарующее кафе для отдыха.",
+        "zh": "迨人的休闲咊啡，供应咊啡、茶饿、轻食和甜点。",
+        "ar": "مقهى ساحر هادئ مع قهوة وحلويات."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_hilton_beijing": {
+      "desc": {
+        "en": "One of Beijing's most prestigious 5-star hotels, 20 minutes from Happy Valley — elegant rooms, award-winning restaurants, rooftop bar and full spa.",
+        "es": "Uno de los hoteles de 5 estrellas mas prestigiosos de Beijing a 20 minutos de Happy Valley — habitaciones elegantes y restaurantes premiados.",
+        "fr": "L un des hotels 5 etoiles les plus prestigieux de Pekin a 20 minutes de Happy Valley — chambres elegantes et restaurants primés.",
+        "de": "Eines der prestigetraechtigsten 5-Sterne-Hotels Pekings 20 Minuten von Happy Valley — elegante Zimmer und preisgekronte Restaurants.",
+        "it": "Uno degli hotel 5 stelle piu prestigiosi di Pechino a 20 minuti da Happy Valley — camere eleganti e ristoranti premiati.",
+        "nl": "Een van de meest prestigieuze 5-sterrenhotels van Peking 20 minuten van Happy Valley — elegante kamers en bekroonde restaurants.",
+        "pt": "Um dos hoteis de 5 estrelas mais prestigiosos de Pequim a 20 minutos de Happy Valley — quartos elegantes e restaurantes premiados.",
+        "ru": "Один из наиболее престижных 5-звёздных отелей Пекина. 20 минут от Happy Valley.",
+        "zh": "北京最尊贵的五星级酒店之一，欢乐谷车程20分钟。",
+        "ar": "أحد أكثر فنادق بيجينغ 5 نجوم هيبة، 20 دقيقة من Happy Valley."
+      }
+    },
+    "hotel_novotel_peace_beijing": {
+      "desc": {
+        "en": "Stylish centrally located 4-star hotel in Beijing, 25 minutes from Happy Valley — modern rooms, pool, multiple restaurants and excellent transport links.",
+        "es": "Elegante hotel de 4 estrellas en el centro de Beijing a 25 minutos de Happy Valley — habitaciones modernas y excelentes conexiones de transporte.",
+        "fr": "Elegant hotel 4 etoiles au centre de Pekin a 25 minutes de Happy Valley — chambres modernes et excellentes liaisons de transport.",
+        "de": "Stilvolles 4-Sterne-Hotel im Zentrum Pekings 25 Minuten von Happy Valley — moderne Zimmer und ausgezeichnete Verkehrsanbindungen.",
+        "it": "Elegante hotel 4 stelle nel centro di Pechino a 25 minuti da Happy Valley — camere moderne ed eccellenti collegamenti di trasporto.",
+        "nl": "Stijlvol 4-sterrenhotel in het centrum van Peking 25 minuten van Happy Valley — moderne kamers en uitstekende transportverbindingen.",
+        "pt": "Elegante hotel de 4 estrelas no centro de Pequim a 25 minutos de Happy Valley — quartos modernos e excelentes ligacoes de transporte.",
+        "ru": "Стильный 4-звёздный отель в центре Пекина. 25 минут от Happy Valley.",
+        "zh": "北京市中心时尚四星级酒店，欢乐谷车程25分钟。",
+        "ar": "فندق 4 نجوم أنيق في وسط بيجينغ، 25 دقيقة من Happy Valley."
+      }
+    },
+    "hotel_holiday_inn_beijing": {
+      "desc": {
+        "en": "Reliable 4-star hotel near Happy Valley Beijing — comfortable rooms, gym and dining at competitive prices. Best-value option for families visiting Happy Valley.",
+        "es": "Fiable hotel de 4 estrellas cerca de Happy Valley Beijing — habitaciones confortables y gimnasio a precios competitivos.",
+        "fr": "Fiable hotel 4 etoiles pres de Happy Valley Pekin — chambres confortables et salle de sport a prix competitifs.",
+        "de": "Zuverlassiges 4-Sterne-Hotel nahe Happy Valley Peking — komfortable Zimmer und Fitnessstudio zu wettbewerbsfahigen Preisen.",
+        "it": "Affidabile hotel 4 stelle vicino a Happy Valley Pechino — camere confortevoli e palestra a prezzi competitivi.",
+        "nl": "Betrouwbaar 4-sterrenhotel dicht bij Happy Valley Peking — comfortabele kamers en sportschool tegen concurrerende prijzen.",
+        "pt": "Fiavel hotel de 4 estrelas perto de Happy Valley Pequim — quartos confortaveis e ginasio a precos competitivos.",
+        "ru": "Надёжный 4-звёздный отель рядом с Happy Valley.",
+        "zh": "北京欢乐谷附近可靠的四星级酒店。性价比高。",
+        "ar": "فندق 4 نجوم موثوق بالقرب من Happy Valley Beijing."
+      }
+    },
+    "hotel_king_parkview_beijing": {
+      "desc": {
+        "en": "Comfortable well-positioned hotel close to Happy Valley Beijing — clean modern rooms, gym, restaurant and easy park access. Most convenient affordable option near Happy Valley.",
+        "es": "Hotel comodo bien posicionado cerca de Happy Valley Beijing — habitaciones modernas y facil acceso al parque.",
+        "fr": "Hotel confortable bien positionne pres de Happy Valley Pekin — chambres modernes et acces facile au parc.",
+        "de": "Komfortables gut gelegenes Hotel nahe Happy Valley Peking — moderne Zimmer und einfacher Parkzugang.",
+        "it": "Hotel confortevole ben posizionato vicino a Happy Valley Pechino — camere moderne e facile accesso al parco.",
+        "nl": "Comfortabel goed gelegen hotel dicht bij Happy Valley Peking — moderne kamers en eenvoudige parktoegang.",
+        "pt": "Hotel confortavel bem localizado perto de Happy Valley Pequim — quartos modernos e facil acesso ao parque.",
+        "ru": "Удобный отель рядом с Happy Valley.",
+        "zh": "北京欢乐谷附近舒适且位置优越的酒店。最方便经济的选择。",
+        "ar": "فندق مريح بموقع جيد بالقرب من Happy Valley Beijing."
+      }
+    }
+  }
+}

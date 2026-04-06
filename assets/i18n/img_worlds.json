@@ -1,0 +1,364 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "IMG Worlds of Adventure is the world's largest indoor theme park, located in Dubai, United Arab Emirates. Opened in 2016, the park covers 1.5 million square feet under a single climate-controlled roof — making it entirely protected from the Dubai heat. It features four epic themed zones: Marvel, Cartoon Network, IMG Boulevard and The Lost Valley. Home to the fastest roller coaster in the Middle East, officially licensed Marvel and Cartoon Network attractions and one of the most elaborate dinosaur dark rides in the world. Attracts over 4 million visitors annually.",
+      "es": "IMG Worlds of Adventure es el parque tematico cubierto mas grande del mundo, ubicado en Dubai, Emiratos Arabes Unidos. Inaugurado en 2016, cubre 1.5 millones de pies cuadrados bajo un unico techo con clima controlado. Cuenta con cuatro zonas tematicas: Marvel, Cartoon Network, IMG Boulevard y The Lost Valley. Hogar del coaster mas rapido de Oriente Medio. Atrae mas de 4 millones de visitantes anuales.",
+      "fr": "IMG Worlds of Adventure est le plus grand parc a themes couvert au monde, situe a Dubai, aux Emirats arabes unis. Ouvert en 2016, il couvre 1.5 million de pieds carres sous un toit climatise. Il comprend quatre zones thematiques: Marvel, Cartoon Network, IMG Boulevard et The Lost Valley. Accueille plus de 4 millions de visiteurs par an.",
+      "de": "IMG Worlds of Adventure ist der weltgroesste uberdachte Themenpark, in Dubai, Vereinigte Arabische Emirate gelegen. 2016 eroffnet deckt er 1.5 Millionen Quadratfuss unter einem klimatisierten Dach ab. Mit vier Themenzonen: Marvel, Cartoon Network, IMG Boulevard und The Lost Valley. Uber 4 Millionen Besucher jahrlich.",
+      "it": "IMG Worlds of Adventure e il piu grande parco a tema coperto del mondo, situato a Dubai, Emirati Arabi Uniti. Aperto nel 2016, copre 1.5 milioni di piedi quadrati sotto un unico tetto climatizzato. Con quattro zone tematiche: Marvel, Cartoon Network, IMG Boulevard e The Lost Valley. Oltre 4 milioni di visitatori annui.",
+      "nl": "IMG Worlds of Adventure is het grootste overdekte themapark ter wereld, in Dubai, Verenigde Arabische Emiraten gelegen. Geopend in 2016 beslaat het 1.5 miljoen vierkante voet onder een enkel geklimatiseerd dak. Met vier thematische zones: Marvel, Cartoon Network, IMG Boulevard en The Lost Valley. Meer dan 4 miljoen bezoekers per jaar.",
+      "pt": "IMG Worlds of Adventure e o maior parque tematico coberto do mundo, localizado em Dubai, Emirados Arabes Unidos. Aberto em 2016, cobre 1.5 milhoes de pes quadrados sob um unico teto climatizado. Com quatro zonas tematicas: Marvel, Cartoon Network, IMG Boulevard e The Lost Valley. Mais de 4 milhoes de visitantes anuais.",
+      "ru": "IMG Worlds of Adventure — крупнейший крытый тематический парк в мире, в Дубае. Открыт в 2016 году под одной климатизированной крышей. Более 4 млн посетителей в год.",
+      "zh": "IMG冒险世界是全球最大的入内主题公园，位于阿拉伯联合酋迪拜。公园于2016年开放，在单一空调屋顶下覆盖140万平方米。设有四个主题园区：漫威尔、卡通小屋、IMG大道和失落谷地。每年吸引逾400万游客。",
+      "ar": "IMG Worlds of Adventure هو أكبر متنزه ترفيهي مغلق في العالم، يقع في دبي. افتتح 2016 تحت سقف مكيف واحد. يستقبل أكثر من 4 ملايين زائر سنويا."
+    },
+    "ov_highlights_body": {
+      "en": "Velociraptor is the fastest roller coaster in the Middle East launching from 0 to 100 km/h in 2.5 seconds. The Lost Valley Dinosaur Safari is one of the most elaborate dinosaur dark rides in the world. Haunted Hotel is the most terrifying walk-through horror attraction in Dubai. Spider-Man Doc Ock's Revenge delivers a thrilling spinning dark ride experience. Avengers Flight of the Quinjets soars guests through the Marvel universe. The Cartoon Network zone is a paradise for families with young children. IMG Worlds is entirely indoors — perfectly comfortable year-round regardless of Dubai's extreme heat.",
+      "es": "Velociraptor es el coaster mas rapido de Oriente Medio con 0 a 100 km/h en 2.5 segundos. Lost Valley Dinosaur Safari es uno de los mejores dark rides de dinosaurios del mundo. Haunted Hotel es la atraccion de terror mas aterradora de Dubai. IMG Worlds esta completamente cubierto y es comodo durante todo el ano sin importar el calor extremo de Dubai.",
+      "fr": "Velociraptor est le coaster le plus rapide du Moyen-Orient avec 0 a 100 km/h en 2.5 secondes. Lost Valley Dinosaur Safari est l un des meilleurs dark rides de dinosaures au monde. Haunted Hotel est l attraction d horreur la plus terrifiante de Dubai. IMG Worlds est entierement couvert et confortable toute l annee.",
+      "de": "Velociraptor ist der schnellste Achterbahn des Nahen Ostens mit 0 auf 100 km/h in 2.5 Sekunden. Lost Valley Dinosaur Safari ist einer der besten Dinosaurier-Darkrides der Welt. Haunted Hotel ist die gruseligste Horror-Attraktion in Dubai. IMG Worlds ist vollstandig uberdacht und ganzjahrig angenehm.",
+      "it": "Velociraptor e il coaster piu veloce del Medio Oriente da 0 a 100 km/h in 2.5 secondi. Lost Valley Dinosaur Safari e uno dei migliori dark ride di dinosauri al mondo. Haunted Hotel e la piu terrificante attrazione horror di Dubai. IMG Worlds e completamente al coperto e confortevole tutto l anno.",
+      "nl": "Velociraptor is de snelste achterbaan van het Midden-Oosten van 0 naar 100 km/h in 2.5 seconden. Lost Valley Dinosaur Safari is een van de beste dinosaurus dark rides ter wereld. Haunted Hotel is de meest angstaanjagende horror attractie in Dubai. IMG Worlds is volledig overdekt en het hele jaar comfortabel.",
+      "pt": "Velociraptor e o coaster mais rapido do Oriente Medio de 0 a 100 km/h em 2.5 segundos. Lost Valley Dinosaur Safari e um dos melhores dark rides de dinossauros do mundo. Haunted Hotel e a mais aterrorizante atracao de terror do Dubai. IMG Worlds e completamente coberto e confortavel durante todo o ano.",
+      "ru": "Velociraptor — самый быстрый коастер На Ближнего Востока. Lost Valley — один из лучших аттракционов с динозаврами. IMG Worlds полностью крытый и удобен круглый год.",
+      "zh": "Velocir罗托拉车是中东最快的过山车，2.5秒内从0加速至100公里/小时。失落谷恐龙车是全球最精尽的恐龙暗黑项目之一。鬼屋酒店是迪拜最恐怖的恐怖体验。IMG世界全部室内，全年舒适。",
+      "ar": "Velociraptor هو أسرع اوتوستراد في الشرق الأوسط من 0 إلى 100 كم/س في 2.5 ثانية. IMG Worlds مغلق بالكامل ومريح طوال العام."
+    },
+    "ov_did_you_know_body": {
+      "en": "IMG Worlds of Adventure is so large that it could fit 3 football stadiums inside. The park is the first in the Middle East to have officially licensed Marvel and Cartoon Network zones. Velociraptor accelerates from 0 to 100 km/h in just 2.5 seconds — faster than most supercars. The Lost Valley zone contains over 40 life-size animatronic dinosaurs. IMG Worlds maintains a constant temperature of 23 degrees Celsius throughout the year regardless of outdoor conditions. The park was built at a cost of approximately 1 billion US dollars making it one of the most expensive theme parks ever constructed.",
+      "es": "IMG Worlds of Adventure es tan grande que podrian caber 3 estadios de futbol en su interior. El parque es el primero en Oriente Medio con zonas Marvel y Cartoon Network oficialmente licenciadas. Velociraptor acelera de 0 a 100 km/h en solo 2.5 segundos. La zona Lost Valley contiene mas de 40 dinosaurios animatronicos de tamano real. IMG Worlds mantiene una temperatura constante de 23 grados durante todo el ano.",
+      "fr": "IMG Worlds of Adventure est si grand que 3 stades de football pourraient tenir a l interieur. Le parc est le premier au Moyen-Orient avec des zones Marvel et Cartoon Network officiellement licenciees. Velociraptor accelere de 0 a 100 km/h en seulement 2.5 secondes. La zone Lost Valley contient plus de 40 dinosaures animatroniques grandeur nature.",
+      "de": "IMG Worlds of Adventure ist so gross dass 3 Fussballstadien hineinpassen wurden. Der Park ist der erste im Nahen Osten mit offiziell lizenzierten Marvel- und Cartoon-Network-Zonen. Velociraptor beschleunigt von 0 auf 100 km/h in nur 2.5 Sekunden. Die Lost Valley Zone enthalt uber 40 lebensgrosse Animatronic-Dinosaurier.",
+      "it": "IMG Worlds of Adventure e cosi grande che potrebbero stare dentro 3 stadi di calcio. Il parco e il primo nel Medio Oriente con zone Marvel e Cartoon Network ufficialmente licenziate. Velociraptor accelera da 0 a 100 km/h in soli 2.5 secondi. La zona Lost Valley contiene oltre 40 dinosauri animatronici a grandezza naturale.",
+      "nl": "IMG Worlds of Adventure is zo groot dat er 3 voetbalstadions in passen. Het park is het eerste in het Midden-Oosten met officieel gelicentieerde Marvel en Cartoon Network zones. Velociraptor versnelt van 0 naar 100 km/h in slechts 2.5 seconden. De Lost Valley zone bevat meer dan 40 levensgrote animatronic dinosaurussen.",
+      "pt": "IMG Worlds of Adventure e tao grande que cabem 3 estadios de futebol dentro. O parque e o primeiro no Oriente Medio com zonas Marvel e Cartoon Network oficialmente licenciadas. Velociraptor acelera de 0 a 100 km/h em apenas 2.5 segundos. A zona Lost Valley contem mais de 40 dinossauros animatronicos em tamanho real.",
+      "ru": "IMG Worlds так велик, что внего войдут 3 футбольных стадиона. Velociraptor разгоняется до 100 км/ч за 2.5 секунды. Более 40 динозавров в натуральную величину.",
+      "zh": "IMG冒险世界内部可容3个足球场。它是中东首个拥有漫威尔和卡通小屋官方授权区域的主题公园。失落谷区域拥朆40多只真人大小的机械恐龙。全年保持恒渣23摄氏度。",
+      "ar": "IMG Worlds ضخم لدرجة أنه يسع 3 ملاعب كرة قدم. Velociraptor يتسارع من 0 إلى 100 كم/س في 2.5 ثانية. أكثر من 40 دينصور آلي بالحجم الطبيعي."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head straight to Velociraptor — the queue builds rapidly to 60 minutes by noon. Predator second and Avengers Flight of the Quinjets third before 1pm. Check the Haunted Hotel and Forbidden Territory queue times — these are best experienced in the evening when the atmosphere is more intense. Lost Valley Dinosaur Safari is ideal mid-morning. The Cartoon Network zone is best visited in the afternoon when younger children have energy. Book Wingstop or Mama Scano's for lunch — both get very busy after 1pm. The park is busiest on weekends and UAE public holidays.",
+      "es": "Llega a la apertura y ve directamente a Velociraptor. Predator segundo y Avengers tercero antes de la 1pm. El Haunted Hotel es mejor por la noche. Lost Valley Dinosaur Safari es ideal a media manana. La zona de Cartoon Network es mejor por la tarde. El parque es mas concurrido los fines de semana.",
+      "fr": "Arrivez a l ouverture et allez directement a Velociraptor. Predator deuxieme et Avengers troisieme avant 13h. Haunted Hotel est mieux le soir. Lost Valley Dinosaur Safari est ideal en milieu de matinee. La zone Cartoon Network est mieux l apres-midi. Le parc est plus anime le week-end.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Velociraptor. Predator zweiter und Avengers dritter vor 13 Uhr. Haunted Hotel ist abends am besten. Lost Valley Dinosaur Safari ist ideal am Vormittag. Die Cartoon Network Zone ist nachmittags am besten. Wochenenden sind am belebtesten.",
+      "it": "Arriva all apertura e vai direttamente a Velociraptor. Predator secondo e Avengers terzo prima dell una. Haunted Hotel e meglio la sera. Lost Valley Dinosaur Safari e ideale a meta mattina. La zona Cartoon Network e meglio nel pomeriggio. Il parco e piu affollato nei weekend.",
+      "nl": "Kom bij opening en ga direct naar Velociraptor. Predator tweede en Avengers derde voor 13 uur. Haunted Hotel is s avonds het beste. Lost Valley Dinosaur Safari is ideaal midden in de ochtend. De Cartoon Network zone is s middags het beste. Weekenden zijn het drukst.",
+      "pt": "Chega na abertura e vai directamente a Velociraptor. Predator segundo e Avengers terceiro antes da 1 da tarde. Haunted Hotel e melhor a noite. Lost Valley Dinosaur Safari e ideal a meia-manha. A zona Cartoon Network e melhor a tarde. Os fins de semana sao os mais movimentados.",
+      "ru": "Приходите к открытию и сразу к Velociraptor. Predator вторым, Avengers третьим. Haunted Hotel лучше вечером. Lost Valley утром. Выходные самые загруженные.",
+      "zh": "开园时到达直接前往梗龙。捕食者第二，复仇者联内第三。鬼屋酒店夜间气氛最佳。失落谷冒险在上午最佳。周末人流最多。",
+      "ar": "صل عند الافتتاح واذهب مباشرة لـ Velociraptor. Predator ثانيا وAvengers ثالثا. Haunted Hotel أفضل مساءا."
+    },
+    "ov_photos_body": {
+      "en": "Velociraptor photographed during the full-speed launch with the Dubai skyline in the background creates one of the most dramatic theme park images in the Middle East. The Lost Valley zone photographed with life-size dinosaurs emerging from dense jungle foliage is extraordinary. Haunted Hotel photographed from the entrance at night with atmospheric lighting is iconic. The Marvel zone photographed with the full Avengers mural backdrop creates spectacular superhero photography. Cartoon Network zone photographed with its vivid neon theming makes for colourful family photography.",
+      "es": "Velociraptor fotografiado durante el lanzamiento con el horizonte de Dubai al fondo crea una de las imagenes de parques tematicos mas dramaticas. La zona Lost Valley fotografiada con dinosaurios a tamano real es extraordinaria. Haunted Hotel de noche es iconico.",
+      "fr": "Velociraptor photographie pendant le lancement avec l horizon de Dubai en arriere-plan cree l une des images les plus dramatiques. La zone Lost Valley photographiee avec des dinosaures grandeur nature est extraordinaire. Haunted Hotel de nuit est iconique.",
+      "de": "Velociraptor wahrend des Vollgeschwindigkeitsstarts mit der Dubai-Skyline fotografiert schafft eines der dramatischsten Themenpark-Bilder. Die Lost Valley Zone mit lebensgrossen Dinosauriern ist aussergewohnlich. Haunted Hotel bei Nacht ist ikonisch.",
+      "it": "Velociraptor fotografato durante il lancio con lo skyline di Dubai sullo sfondo crea una delle immagini di parchi tematici piu drammatiche. La zona Lost Valley con dinosauri a grandezza naturale e straordinaria. Haunted Hotel di notte e iconico.",
+      "nl": "Velociraptor gefotografeerd tijdens de lancering met de Dubai skyline op de achtergrond creert een van de meest dramatische themapark beelden. De Lost Valley zone met levensgrote dinosaurussen is buitengewoon. Haunted Hotel s nachts is iconisch.",
+      "pt": "Velociraptor fotografado durante o lancamento com o horizonte de Dubai ao fundo cria uma das imagens de parques tematicos mais dramaticas. A zona Lost Valley com dinossauros em tamanho real e extraordinaria. Haunted Hotel a noite e iconico.",
+      "ru": "Velociraptor во время запуска на фоне скайлайна Дубая — один из самых драматичных снимков.",
+      "zh": "在迪拜天际线背景下拍摄全速发射的梗龙是中东最具戴剧性的主题公园影像之一。失落谷精心制作的真人大小恐龙异常展眼。鬼屋酒店堔上拍摄气氛神秘。",
+      "ar": "Velociraptor مصور أثناء الانطلاق مع أفق دبي يخلق صورة مثيرة."
+    }
+  },
+  "attractions": {
+    "velociraptor": {
+      "desc": {
+        "en": "The fastest roller coaster in the Middle East — launching from 0 to 100 km/h in 2.5 seconds. A record-breaking thrill and the crown jewel of IMG Worlds. Min 130cm.",
+        "es": "El coaster mas rapido de Oriente Medio — lanzando de 0 a 100 km/h en 2.5 segundos. Min 130cm.",
+        "fr": "Le coaster le plus rapide du Moyen-Orient — lancant de 0 a 100 km/h en 2.5 secondes. Min 130cm.",
+        "de": "Der schnellste Achterbahn des Nahen Ostens — von 0 auf 100 km/h in 2.5 Sekunden. Mindestgrosse 130cm.",
+        "it": "Il coaster piu veloce del Medio Oriente — da 0 a 100 km/h in 2.5 secondi. Min 130cm.",
+        "nl": "De snelste achtbaan van het Midden-Oosten — van 0 naar 100 km/h in 2.5 seconden. Min 130cm.",
+        "pt": "O coaster mais rapido do Oriente Medio — de 0 a 100 km/h em 2.5 segundos. Min 130cm.",
+        "ru": "Самый быстрый коастер На Ближнего Востока. Мин 130 см.",
+        "zh": "中东最快过山车——什2.5秒内从0加速至100公里/小时。最低身高130厘米。",
+        "ar": "أسرع اوتوستراد في الشرق الأوسط من 0 إلى 100 كم/س في 2.5 ثانية. الحد الادنى 130 سم."
+      }
+    },
+    "predator": {
+      "desc": {
+        "en": "High-speed spinning indoor coaster with 2 inversions delivering intense forces and exciting surprises. The premier indoor thrill coaster at IMG Worlds. Min 120cm.",
+        "es": "Coaster interior giratorio de alta velocidad con 2 inversiones. El principal coaster de emocion interior. Min 120cm.",
+        "fr": "Coaster interieur tournant a grande vitesse avec 2 inversions. Le principal coaster interieur. Min 120cm.",
+        "de": "Hochgeschwindigkeits-Dreh-Innencoaster mit 2 Inversionen. Mindestgrosse 120cm.",
+        "it": "Coaster interno rotante ad alta velocita con 2 inversioni. Min 120cm.",
+        "nl": "Hoge snelheid draaiende binnenachtbaan met 2 inversies. Min 120cm.",
+        "pt": "Coaster interior giratoria de alta velocidade com 2 inversoes. Min 120cm.",
+        "ru": "Высокоскоростной вращающийся крытый коастер. Мин 120 см.",
+        "zh": "室内高速旋转过山车，拥有2个翻转。最低身高120厘米。",
+        "ar": "اوتوستراد داخلي دوار سريع بانعكاسين. الحد الادنى 120 سم."
+      }
+    },
+    "avengers_flight_of_the_quinjets": {
+      "desc": {
+        "en": "Spectacular Marvel family suspended coaster soaring through the universe in Quinjet vehicles alongside Iron Man, Thor and Captain America. Min 105cm.",
+        "es": "Espectacular coaster familiar Marvel sobrevolando el universo en vehiculos Quinjet. Min 105cm.",
+        "fr": "Spectaculaire coaster familial Marvel survolant l univers dans des vehicules Quinjet. Min 105cm.",
+        "de": "Spektakularer Marvel-Familien-Hangcoaster der durch das Universum in Quinjet-Fahrzeugen fliegt. Mindestgrosse 105cm.",
+        "it": "Spettacolare coaster familiare Marvel che vola nell universo in veicoli Quinjet. Min 105cm.",
+        "nl": "Spectaculaire Marvel familie hangcoaster die door het universum vliegt in Quinjet voertuigen. Min 105cm.",
+        "pt": "Espetacular coaster familiar Marvel a sobrevoar o universo em veiculos Quinjet. Min 105cm.",
+        "ru": "Зрелищный семейный коастер Marvel. Мин 105 см.",
+        "zh": "在死神山包车中穿越漫威尔宇宙的壮观家庭悬挂过山车。最低身高105厘米。",
+        "ar": "اوتوستراد Marvel عائلي رائع عبر الكون. الحد الادنى 105 سم."
+      }
+    },
+    "spiderman_doc_ocks_revenge": {
+      "desc": {
+        "en": "Thrilling spinning dark ride inside a Spider-Man adventure — elaborate sets, special effects and unique spinning vehicles keeping guests constantly rotating through the action. Min 102cm.",
+        "es": "Emocionante dark ride giratoria en una aventura de Spider-Man — elaborados escenarios y vehiculos giratorios unicos. Min 102cm.",
+        "fr": "Palpitante dark ride tournante dans une aventure Spider-Man — decors elabores et vehicules tournants uniques. Min 102cm.",
+        "de": "Aufregende drehende Dark-Ride in einem Spider-Man Abenteuer. Mindestgrosse 102cm.",
+        "it": "Emozionante dark ride rotante in un avventura di Spider-Man. Min 102cm.",
+        "nl": "Spannende draaiende dark ride in een Spider-Man avontuur. Min 102cm.",
+        "pt": "Emocionante dark ride giratoria numa aventura de Spider-Man. Min 102cm.",
+        "ru": "Захватывающий вращающийся аттракцион. Мин 102 см.",
+        "zh": "蜘蛛侠冒险中的刺激旋转暗黑项目。最低身高102厘米。",
+        "ar": "اتراكشن dark دوار مثير في مغامرة Spider-Man. الحد الادنى 102 سم."
+      }
+    },
+    "hulk_epsilon_base_3d": {
+      "desc": {
+        "en": "Dynamic 4D motion simulator inside a Hulk adventure — powerful seat motion, HD visuals and special effects. One of the most immersive simulator experiences in the Middle East. Min 102cm.",
+        "es": "Simulador de movimiento 4D dinamico en una aventura de Hulk. Min 102cm.",
+        "fr": "Simulateur de mouvement 4D dynamique dans une aventure de Hulk. Min 102cm.",
+        "de": "Dynamischer 4D-Bewegungssimulator in einem Hulk-Abenteuer. Mindestgrosse 102cm.",
+        "it": "Simulatore di movimento 4D dinamico in un avventura di Hulk. Min 102cm.",
+        "nl": "Dynamische 4D bewegingssimulator in een Hulk avontuur. Min 102cm.",
+        "pt": "Simulador de movimento 4D dinamico numa aventura de Hulk. Min 102cm.",
+        "ru": "Динамичный 4D-симулятор. Мин 102 см.",
+        "zh": "海克冒险中的动感4D模拟器。最低身高102厘米。",
+        "ar": "محاكي 4D ديناميكي في مغامرة Hulk. الحد الادنى 102 سم."
+      }
+    },
+    "lost_valley_dinosaur_safari": {
+      "desc": {
+        "en": "Extraordinary dark ride safari through a prehistoric valley with over 40 life-size animatronic dinosaurs. One of the most elaborate dark rides in the Middle East. Suitable for all ages.",
+        "es": "Extraordinario safari de dark ride a traves de un valle prehistorico con mas de 40 dinosaurios animatronicos de tamano real. Apto para todas las edades.",
+        "fr": "Extraordinaire safari dark ride a travers une vallee prehistorique avec plus de 40 dinosaures animatroniques grandeur nature. Convient a tous les ages.",
+        "de": "Aussergewohnlicher Dinosaurier-Safari-Darkride durch ein prahistorisches Tal mit uber 40 lebensgrossen Dinosauriern. Fur alle Altersgruppen.",
+        "it": "Straordinario safari dark ride attraverso una valle preistorica con oltre 40 dinosauri animatronici a grandezza naturale. Adatto a tutte le eta.",
+        "nl": "Buitengewone dinosaurus safari dark ride door een prehistorisch dal met meer dan 40 levensgrote animatronic dinosaurussen. Geschikt voor alle leeftijden.",
+        "pt": "Extraordinario safari dark ride por um vale prehistorico com mais de 40 dinossauros animatronicos em tamanho real. Adequado para todas as idades.",
+        "ru": "Уникальный сафари через преисторическую долину. Подходит для всех.",
+        "zh": "穿越拥朆40多只真人大小机械恐龙的史前谷地暗黑游居冒险项目。适合所有年龄。",
+        "ar": "سفاري dark ride مذهل عبر وادي عصور ما قبل التاريخ. مناسب لجميع الأعمار."
+      }
+    },
+    "haunted_hotel": {
+      "desc": {
+        "en": "The most terrifying walk-through horror attraction in Dubai — abandoned hotel filled with jump scares, elaborate horror rooms and genuine fright. Most popular scare attraction in the UAE. Min 12 years.",
+        "es": "La atraccion de terror mas aterradora de Dubai — hotel abandonado lleno de sustos y habitaciones de terror elaboradas. Min 12 anos.",
+        "fr": "L attraction d horreur la plus terrifiante de Dubai — hotel abandonne plein de frayeurs et chambres d horreur elaborees. Min 12 ans.",
+        "de": "Die gruseligste Horror-Attraktion in Dubai — verlassenes Hotel mit Erschreckern und aufwendigen Horrorraumen. Mindestens 12 Jahre.",
+        "it": "La piu terrificante attrazione horror di Dubai — hotel abbandonato pieno di spaventi e stanze horror elaborate. Min 12 anni.",
+        "nl": "De meest angstaanjagende horror attractie in Dubai — verlaten hotel vol jump scares en uitgewerkte horror kamers. Min 12 jaar.",
+        "pt": "A mais aterrorizante atracao de terror do Dubai — hotel abandonado cheio de sustos e salas de terror elaboradas. Min 12 anos.",
+        "ru": "Самая жуткая аттракция ужасов в Дубае. Мин 12 лет.",
+        "zh": "迪拜最恐怖的步行通遇恐怖景点——充满惊吗和精心制作的恐怖房间。最少封12岁。",
+        "ar": "أكثر اتراكشن رعب في دبي إثارة. الحد الادنى 12 سنة."
+      }
+    },
+    "forbidden_territory": {
+      "desc": {
+        "en": "High-intensity haunted walk-through with scare zones, live actors and genuinely frightening environments. One of the most intense horror experiences in the Middle East. Min 12 years.",
+        "es": "Zona de terror de alta intensidad con actores en vivo y entornos aterradores. Min 12 anos.",
+        "fr": "Zone hantee haute intensite avec acteurs vivants et environnements effrayants. Min 12 ans.",
+        "de": "Hochintensive Geisterbahn mit Live-Akteuren und erschreckenden Umgebungen. Mindestens 12 Jahre.",
+        "it": "Zona horror ad alta intensita con attori dal vivo e ambienti spaventosi. Min 12 anni.",
+        "nl": "Hoge intensiteit spookzone met live acteurs en angstaanjagende omgevingen. Min 12 jaar.",
+        "pt": "Zona assombrada de alta intensidade com atores ao vivo e ambientes assustadores. Min 12 anos.",
+        "ru": "Бродилка ужасов с живыми актёрами. Мин 12 лет.",
+        "zh": "高强度层层兜恐怖巡游体验。最小12岁。",
+        "ar": "منطقة رعب عالية الشدة مع ممثلين حقيقيين. الحد الادنى 12 سنة."
+      }
+    },
+    "cartoon_network_amazone": {
+      "desc": {
+        "en": "Spectacular Cartoon Network zone with rides themed to Ben 10, Adventure Time and The Powerpuff Girls. The most colourful family zone at IMG Worlds. Suitable for all ages.",
+        "es": "Espectacular zona de Cartoon Network con atracciones de Ben 10, Hora de Aventura y Las Supernenas. La zona familiar mas colorida. Apto para todas las edades.",
+        "fr": "Spectaculaire zone Cartoon Network avec attractions de Ben 10, Adventure Time et Les Supers Nanas. La zone familiale la plus coloree. Convient a tous les ages.",
+        "de": "Spektakulare Cartoon Network Zone mit Attraktionen von Ben 10, Adventure Time und Die Powerpuff Girls. Die farbenfroheste Familienzone. Fur alle Altersgruppen.",
+        "it": "Spettacolare zona Cartoon Network con attrazioni di Ben 10, Adventure Time e Le Superchicche. La zona familiare piu colorata. Adatto a tutte le eta.",
+        "nl": "Spectaculaire Cartoon Network zone met attracties van Ben 10, Adventure Time en De Powerpuff Girls. De meest kleurrijke gezinszone. Geschikt voor alle leeftijden.",
+        "pt": "Espetacular zona Cartoon Network com atracoes de Ben 10, Adventure Time e As Meninas Superpoderosas. A zona familiar mais colorida. Adequado para todas as idades.",
+        "ru": "Зона Cartoon Network с аттракциями Ben 10 и Adventure Time. Подходит для всех.",
+        "zh": "卡通小屋主题园区，设有本10、冒险时间和飞天小女警等项目。适合所有年龄。",
+        "ar": "منطقة Cartoon Network الرائعة بألوان Ben 10 وAdventure Time. مناسب لجميع الأعمار."
+      }
+    },
+    "dino_carousel": {
+      "desc": {
+        "en": "Beautifully themed carousel in the Lost Valley with dinosaur-shaped vehicles instead of horses. Charming family attraction for young children. Suitable for all ages.",
+        "es": "Carrusel bellamente tematizado en Lost Valley con vehiculos en forma de dinosaurio. Apto para todas las edades.",
+        "fr": "Manege magnifiquement theme dans Lost Valley avec des vehicules en forme de dinosaure. Convient a tous les ages.",
+        "de": "Wunderschon gestaltetes Karussell in Lost Valley mit Dinosaurier-Fahrzeugen. Fur alle Altersgruppen.",
+        "it": "Carosello magnificamente tematizzato nella Lost Valley con veicoli a forma di dinosauro. Adatto a tutte le eta.",
+        "nl": "Prachtig thematisch carrousel in Lost Valley met dinosaurus voertuigen. Geschikt voor alle leeftijden.",
+        "pt": "Carrocel magnificamente tematizado na Lost Valley com veiculos em forma de dinossauro. Adequado para todas as idades.",
+        "ru": "Тематическая карусель с динозаврами. Подходит для всех.",
+        "zh": "失落谷中精心制作的恐龙主题旋转木马。适合所有年龄。",
+        "ar": "خيول دوار مزخرفة في Lost Valley بمركبات دينصورات. مناسب لجميع الأعمار."
+      }
+    },
+    "img_boulevard": {
+      "desc": {
+        "en": "The spectacular main entrance boulevard with Marvel, Cartoon Network and Dinosaur themed shops and character meet and greet locations. Most photographed area of the park. Suitable for all ages.",
+        "es": "El espectacular bulevar de entrada principal con tiendas tematicas de Marvel, Cartoon Network y Dinosaurios. La zona mas fotografiada del parque. Apto para todas las edades.",
+        "fr": "Le spectaculaire boulevard d entree principale avec boutiques Marvel, Cartoon Network et Dinosaures. La zone la plus photographiee du parc. Convient a tous les ages.",
+        "de": "Die spektakulare Haupteingangs-Boulevard mit Marvel, Cartoon Network und Dinosaurier-Themengeschaften. Meistfotografierter Bereich des Parks. Fur alle Altersgruppen.",
+        "it": "Lo spettacolare viale d ingresso principale con negozi a tema Marvel, Cartoon Network e Dinosauri. L area piu fotografata del parco. Adatto a tutte le eta.",
+        "nl": "De spectaculaire hoofdingang boulevard met Marvel, Cartoon Network en Dinosaurus thema winkels. Meest gefotografeerde gebied van het park. Geschikt voor alle leeftijden.",
+        "pt": "O espetacular boulevard principal com lojas de tema Marvel, Cartoon Network e Dinosaurios. A area mais fotografada do parque. Adequado para todas as idades.",
+        "ru": "Главный бульвар с магазинами Marvel и Cartoon Network. Подходит для всех.",
+        "zh": "壮观的主入口大道，设有漫威尔、卡通小屋和恐龙主题商店。适合所有年龄。",
+        "ar": "جادة المدخل الرئيسي مع متاجر بطابع Marvel. مناسب لجميع الأعمار."
+      }
+    },
+    "avengers_team_thor": {
+      "desc": {
+        "en": "Immersive 4D cinema experience in the heart of an epic Avengers battle — motion seats, surround sound and spectacular visuals. Suitable for all ages.",
+        "es": "Experiencia de cine 4D inmersiva en el corazon de una batalla epica de los Vengadores. Apto para todas las edades.",
+        "fr": "Experience de cinema 4D immersive au coeur d une bataille epique des Vengeurs. Convient a tous les ages.",
+        "de": "Immersives 4D-Kinoerlebnis im Herzen einer epischen Avengers-Schlacht. Fur alle Altersgruppen.",
+        "it": "Immersiva esperienza di cinema 4D nel cuore di una battaglia epica degli Avengers. Adatto a tutte le eta.",
+        "nl": "Meeslepende 4D bioscoop ervaring midden in een epische Avengers slag. Geschikt voor alle leeftijden.",
+        "pt": "Imersiva experiencia de cinema 4D no centro de uma batalha epica dos Avengers. Adequado para todas as idades.",
+        "ru": "Погружающее 4D-кино. Подходит для всех.",
+        "zh": "史诗山包勇山包山包山包震撃山包战斗的沉浸式4D影院。适合所有年龄。",
+        "ar": "تجربة سينما 4D في معركة Avengers. مناسب لجميع الأعمار."
+      }
+    },
+    "marvel_character_experience": {
+      "desc": {
+        "en": "Exclusive Marvel character meet and greet with Spider-Man, Iron Man and Captain America — one of the only places in the Middle East to meet official Marvel characters. Suitable for all ages.",
+        "es": "Exclusivo encuentro con personajes Marvel incluyendo Spider-Man, Iron Man y Capitan America. Uno de los pocos lugares en Oriente Medio. Apto para todas las edades.",
+        "fr": "Rencontre exclusive avec des personnages Marvel dont Spider-Man, Iron Man et Captain America. L un des rares endroits au Moyen-Orient. Convient a tous les ages.",
+        "de": "Exklusives Marvel-Charaktertreffen mit Spider-Man, Iron Man und Captain America. Einer der wenigen Orte im Nahen Osten. Fur alle Altersgruppen.",
+        "it": "Incontro esclusivo con personaggi Marvel tra cui Spider-Man, Iron Man e Captain America. Uno dei pochi posti nel Medio Oriente. Adatto a tutte le eta.",
+        "nl": "Exclusieve Marvel karakter ontmoeting met Spider-Man, Iron Man en Captain America. Een van de weinige plekken in het Midden-Oosten. Geschikt voor alle leeftijden.",
+        "pt": "Encontro exclusivo com personagens Marvel incluindo Spider-Man, Iron Man e Capitao America. Um dos poucos lugares no Oriente Medio. Adequado para todas as idades.",
+        "ru": "Встреча с персонажами Marvel. Подходит для всех.",
+        "zh": "与蜘蛛侠、锁铁侠和美尼队长穿退的漫威尔角色见面。中东极少数地点之一。适合所有年龄。",
+        "ar": "لقاء حصري مع شخصيات Marvel. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_wing_stop": {
+      "desc": {
+        "en": "The most popular quick-service restaurant at IMG Worlds — legendary crispy chicken wings in flavours including lemon pepper, Louisiana rub and classic buffalo.",
+        "es": "El restaurante de servicio rapido mas popular de IMG Worlds — legendarias alitas de pollo crujientes en una variedad de sabores.",
+        "fr": "Le restaurant rapide le plus populaire d IMG Worlds — legendaires ailes de poulet croustillantes dans une variete de saveurs.",
+        "de": "Das beliebteste Schnellrestaurant in IMG Worlds — legendare knusprige Huhnerflugel in einer Auswahl von Geschmacksrichtungen.",
+        "it": "Il ristorante rapido piu popolare di IMG Worlds — leggendarie ali di pollo croccanti in una varieta di sapori.",
+        "nl": "Het meest populaire snelrestaurant in IMG Worlds — legendarische knapperige kippenvleugels in een variatie aan smaken.",
+        "pt": "O restaurante rapido mais popular do IMG Worlds — lendarias asas de frango crocantes numa variedade de sabores.",
+        "ru": "Самый популярный фастфуд. Легендарные крылья.",
+        "zh": "IMG世界最受欢迎的快餐餐厅——传奇香脎鸡翅。",
+        "ar": "أكثر مطعم سريع شعبية في IMG Worlds — أجنحة دجاج مقرمشة أسطورية."
+      }
+    },
+    "food_mama_scanos": {
+      "desc": {
+        "en": "Warm Italian-American restaurant serving hearty pasta, pizza and classics — the most relaxed family-friendly dining option at IMG Worlds.",
+        "es": "Calido restaurante italoamericano con pasta, pizza y clasicos abundantes — la opcion de comida familiar mas relajada.",
+        "fr": "Chaleureux restaurant italo-americain avec pates, pizza et classiques genereux — l option de restauration familiale la plus detendue.",
+        "de": "Warmes italienisch-amerikanisches Restaurant mit herzhafter Pasta, Pizza und Klassikern — die entspannteste Familienoption.",
+        "it": "Caldo ristorante italoamericano con pasta, pizza e classici abbondanti — l opzione di ristorazione familiare piu rilassata.",
+        "nl": "Warm Italiaans-Amerikaans restaurant met stevige pasta, pizza en klassiekers — de meest ontspannen gezinsoptie.",
+        "pt": "Acolhedor restaurante italiano-americano com massa, pizza e classicos fartos — a opcao de refeicao familiar mais relaxada.",
+        "ru": "Уютный итальянско-американский ресторан.",
+        "zh": "温馨的意大利美式餐厅，供应美味意面和披萨。",
+        "ar": "مطعم إيطالي أمريكي دافئ مع معكرونة وبيتزا."
+      }
+    },
+    "food_downtown_shawarma": {
+      "desc": {
+        "en": "Popular Middle Eastern outlet serving freshly made shawarma wraps and falafel. The most authentic food outlet at IMG Worlds and a must-try for genuine Middle Eastern street food.",
+        "es": "Popular puesto de Oriente Medio con shawarma fresco y falafel. El puesto de comida mas autentico de IMG Worlds.",
+        "fr": "Populaire stand du Moyen-Orient avec shawarma frais et falafel. Le stand le plus authentique d IMG Worlds.",
+        "de": "Beliebter Nahost-Stand mit frisch gemachten Shawarma-Wraps und Falafel. Der authentischste Essensstand in IMG Worlds.",
+        "it": "Popolare stand del Medio Oriente con shawarma fresco e falafel. Lo stand di cibo piu autentico di IMG Worlds.",
+        "nl": "Populaire Midden-Oosten stand met vers gemaakte shawarma wraps en falafel. Het meest authentieke eetpunt in IMG Worlds.",
+        "pt": "Popular ponto do Oriente Medio com shawarma fresco e falafel. O ponto de comida mais autentico do IMG Worlds.",
+        "ru": "Популярный ближневосточный фастфуд. Шаурма и фалафель.",
+        "zh": "中东风味小屋，供应现做沙小卷饭和芦豆拉山。",
+        "ar": "منفذ شرق أوسطي شعبي مع شاورما طازج وفلافل."
+      }
+    },
+    "food_mr_smoothy": {
+      "desc": {
+        "en": "Vibrant smoothie and snack bar with freshly blended fruit smoothies, milkshakes and ice cream. The most refreshing pit stop in the park.",
+        "es": "Vibrante bar de smoothies y aperitivos con batidos de frutas frescos y helados. La parada mas refrescante del parque.",
+        "fr": "Vibrant bar a smoothies et snacks avec des smoothies de fruits frais et des glaces. L arret le plus rafraichissant du parc.",
+        "de": "Lebhafter Smoothie- und Snackbar mit frisch gemixten Obstsmoothies und Eis. Die erfrischendste Pause im Park.",
+        "it": "Vivace bar di smoothie e snack con frullati di frutta freschi e gelati. La sosta piu rinfrescante del parco.",
+        "nl": "Levendige smoothie en snack bar met vers gemixte vruchtensmoothies en ijs. De meest verfrissende stop in het park.",
+        "pt": "Vibrante bar de smoothies e snacks com smoothies de fruta frescos e gelados. A paragem mais refrescante do parque.",
+        "ru": "Яркий смузи-бар. Свежие смузи и мороженое.",
+        "zh": "活泼的果氁和雪糕小屋——公园里最清爽的补充点。",
+        "ar": "بار عصائر ووجبات خفيفة نابض. أكثر محطة منعشة في المتنزه."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_city_centre_al_zahia": {
+      "desc": {
+        "en": "Premium shopping and hospitality destination in Sharjah, 20 minutes from IMG Worlds — world-class retail, multiple dining options and easy highway access to Dubai. Most convenient base from Sharjah.",
+        "es": "Destino premium de compras y hospitalidad en Sharjah a 20 minutos de IMG Worlds. La base mas conveniente desde Sharjah.",
+        "fr": "Destination premium de shopping et d hospitalite a Sharjah a 20 minutes d IMG Worlds. La base la plus pratique depuis Sharjah.",
+        "de": "Premium-Einkaufs- und Gastgewerbe-Destination in Sharjah 20 Minuten von IMG Worlds. Praktischste Basis von Sharjah.",
+        "it": "Destinazione premium di shopping e ospitalita a Sharjah a 20 minuti da IMG Worlds. La base piu conveniente da Sharjah.",
+        "nl": "Premium winkel- en gastvrij heidsbestemming in Sharjah 20 minuten van IMG Worlds. Meest handige basis vanuit Sharjah.",
+        "pt": "Destino premium de compras e hospitalidade em Sharjah a 20 minutos do IMG Worlds. A base mais conveniente de Sharjah.",
+        "ru": "Премиальный торговый центр в Шардже. 20 минут от IMG Worlds.",
+        "zh": "沙迦高端购物和接待目的地，IMG世界车程20分钟。",
+        "ar": "وجهة تسوق فاخرة في الشارقة، 20 دقيقة من IMG Worlds."
+      }
+    },
+    "hotel_pullman_sharjah": {
+      "desc": {
+        "en": "Sleek 5-star hotel in Sharjah, 25 minutes from IMG Worlds — stylish rooms, rooftop pool, full fitness centre and multiple restaurants. Excellent value for a 5-star property.",
+        "es": "Elegante hotel de 5 estrellas en Sharjah a 25 minutos de IMG Worlds — habitaciones elegantes, piscina en la azotea y varios restaurantes. Excelente relacion calidad-precio.",
+        "fr": "Elegant hotel 5 etoiles a Sharjah a 25 minutes d IMG Worlds — chambres elegantes, piscine sur le toit et plusieurs restaurants. Excellent rapport qualite-prix.",
+        "de": "Schlankes 5-Sterne-Hotel in Sharjah 25 Minuten von IMG Worlds — stilvolle Zimmer, Dachpool und mehrere Restaurants. Hervorragendes Preis-Leistungs-Verhaltnis.",
+        "it": "Elegante hotel 5 stelle a Sharjah a 25 minuti da IMG Worlds — camere eleganti, piscina sul tetto e ristoranti multipli. Eccellente rapporto qualita-prezzo.",
+        "nl": "Strak 5-sterrenhotel in Sharjah 25 minuten van IMG Worlds — stijlvolle kamers, dakteras zwembad en meerdere restaurants. Uitstekende prijs-kwaliteitverhouding.",
+        "pt": "Elegante hotel de 5 estrelas em Sharjah a 25 minutos do IMG Worlds — quartos elegantes, piscina no telhado e varios restaurantes. Excelente relacao qualidade-preco.",
+        "ru": "Чистый 5-звёздный отель в 25 минутах от IMG Worlds.",
+        "zh": "沙迦时尚五星级酒店，离IMG世界25分钟。性价比高。",
+        "ar": "فندق 5 نجوم أنيق في الشارقة، 25 دقيقة من IMG Worlds."
+      }
+    },
+    "hotel_holiday_inn_sharjah": {
+      "desc": {
+        "en": "Reliable 4-star hotel in Sharjah, 25 minutes from IMG Worlds — well-appointed rooms, pool, gym and multiple dining at competitive prices. Best value for families visiting IMG Worlds.",
+        "es": "Fiable hotel de 4 estrellas en Sharjah a 25 minutos de IMG Worlds — habitaciones bien equipadas, piscina y gimnasio a precios competitivos.",
+        "fr": "Fiable hotel 4 etoiles a Sharjah a 25 minutes d IMG Worlds — chambres bien equipees, piscine et salle de sport a prix competitifs.",
+        "de": "Zuverlassiges 4-Sterne-Hotel in Sharjah 25 Minuten von IMG Worlds — gut ausgestattete Zimmer, Pool und Fitnessstudio zu wettbewerbsfahigen Preisen.",
+        "it": "Affidabile hotel 4 stelle a Sharjah a 25 minuti da IMG Worlds — camere ben arredate, piscina e palestra a prezzi competitivi.",
+        "nl": "Betrouwbaar 4-sterrenhotel in Sharjah 25 minuten van IMG Worlds — goed ingerichte kamers, zwembad en sportschool tegen concurrerende prijzen.",
+        "pt": "Fiavel hotel de 4 estrelas em Sharjah a 25 minutos do IMG Worlds — quartos bem equipados, piscina e ginasio a precos competitivos.",
+        "ru": "Надёжный 4-звёздный отель в 25 минутах от IMG Worlds.",
+        "zh": "沙迦可靠的四星级酒店，离IMG世界25分钟。",
+        "ar": "فندق 4 نجوم موثوق في الشارقة، 25 دقيقة من IMG Worlds."
+      }
+    },
+    "hotel_premier_inn_dubai_al_jaddaf": {
+      "desc": {
+        "en": "Modern affordable hotel in Dubai Al Jaddaf, 20 minutes from IMG Worlds — comfortable rooms, pool, gym and easy metro access. Best budget base visiting IMG Worlds from central Dubai.",
+        "es": "Moderno hotel asequible en Dubai Al Jaddaf a 20 minutos de IMG Worlds — habitaciones confortables y facil acceso en metro. La mejor base economica desde el centro de Dubai.",
+        "fr": "Hotel moderne abordable a Dubai Al Jaddaf a 20 minutes d IMG Worlds — chambres confortables et acces metro facile. La meilleure base economique depuis le centre de Dubai.",
+        "de": "Modernes erschwingliches Hotel in Dubai Al Jaddaf 20 Minuten von IMG Worlds — komfortable Zimmer und einfacher U-Bahn-Zugang. Beste Budgetbasis vom Stadtzentrum Dubai.",
+        "it": "Moderno hotel economico a Dubai Al Jaddaf a 20 minuti da IMG Worlds — camere confortevoli e facile accesso metro. La migliore base economica dal centro di Dubai.",
+        "nl": "Modern betaalbaar hotel in Dubai Al Jaddaf 20 minuten van IMG Worlds — comfortabele kamers en eenvoudig metro toegang. Beste budget basis vanuit het centrum van Dubai.",
+        "pt": "Hotel moderno acessivel em Dubai Al Jaddaf a 20 minutos do IMG Worlds — quartos confortaveis e facil acesso de metro. A melhor base economica do centro do Dubai.",
+        "ru": "Современный бюджетный отель. 20 минут от IMG Worlds.",
+        "zh": "迪拜济达佟现代实惠酒店，IMG世界车程20分钟。",
+        "ar": "فندق حديث بأسعار معقولة في دبي، 20 دقيقة من IMG Worlds."
+      }
+    }
+  }
+}

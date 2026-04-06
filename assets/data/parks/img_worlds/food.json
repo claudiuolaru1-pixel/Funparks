@@ -1,0 +1,134 @@
+[
+  {
+    "id": "food_wing_stop",
+    "name": "Wingstop",
+    "description": "The most popular quick-service restaurant at IMG Worlds of Adventure — Wingstop serves the legendary American crispy chicken wings in a huge range of flavours including lemon pepper, Louisiana rub, garlic parmesan and classic buffalo. The go-to refuelling stop between thrill rides.",
+    "topPick": true,
+    "type": "American Chicken",
+    "image": "assets/images/img_worlds/food_wing_stop.png",
+    "lat": 25.0723,
+    "lng": 55.288,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Classic Wings",
+        "description": "10 crispy chicken wings in your choice of flavour",
+        "price": 45
+      },
+      {
+        "name": "Boneless Wings",
+        "description": "Boneless crispy chicken pieces in signature sauce",
+        "price": 42
+      },
+      {
+        "name": "Loaded Fries",
+        "description": "Thick-cut fries with cheese sauce and jalapenos",
+        "price": 22
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Selection of cold beverages",
+        "price": 12
+      }
+    ]
+  },
+  {
+    "id": "food_mama_scanos",
+    "name": "Mama Scano's",
+    "description": "A warm and generous Italian-American restaurant at IMG Worlds serving hearty pasta dishes, pizzas and Italian-American classics in a casual and welcoming atmosphere — the most relaxed and family-friendly dining option at the park.",
+    "topPick": true,
+    "type": "Italian American",
+    "image": "assets/images/img_worlds/food_mama_scanos.png",
+    "lat": 25.0724,
+    "lng": 55.2881,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Pepperoni Pizza",
+        "description": "Classic pepperoni pizza with mozzarella and tomato",
+        "price": 52
+      },
+      {
+        "name": "Spaghetti Bolognese",
+        "description": "Spaghetti with slow-cooked beef bolognese sauce",
+        "price": 48
+      },
+      {
+        "name": "Lasagne",
+        "description": "Classic baked layered pasta with meat sauce and bechamel",
+        "price": 52
+      },
+      {
+        "name": "Garlic Bread",
+        "description": "Toasted garlic bread with herb butter",
+        "price": 18
+      }
+    ]
+  },
+  {
+    "id": "food_downtown_shawarma",
+    "name": "Downtown Shawarma",
+    "description": "A popular Middle Eastern quick-service outlet serving freshly made shawarma wraps, falafel and regional favourites — the most authentic and culturally distinctive food outlet at IMG Worlds of Adventure and a must-try for visitors wanting genuine Middle Eastern street food.",
+    "topPick": false,
+    "type": "Middle Eastern",
+    "image": "assets/images/img_worlds/food_downtown_shawarma.png",
+    "lat": 25.0725,
+    "lng": 55.2882,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Chicken Shawarma",
+        "description": "Freshly carved chicken shawarma in flatbread with garlic sauce",
+        "price": 32
+      },
+      {
+        "name": "Meat Shawarma",
+        "description": "Freshly carved lamb and beef shawarma in flatbread",
+        "price": 35
+      },
+      {
+        "name": "Falafel Wrap",
+        "description": "Crispy falafel in flatbread with hummus and salad",
+        "price": 28
+      },
+      {
+        "name": "Fresh Lemonade",
+        "description": "Freshly squeezed mint lemonade",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "food_mr_smoothy",
+    "name": "Mr Smoothy",
+    "description": "A vibrant smoothie and snack bar at IMG Worlds of Adventure serving freshly blended fruit smoothies, milkshakes, healthy snacks and ice cream — the most refreshing pit stop in the park especially welcome in the Dubai heat.",
+    "topPick": false,
+    "type": "Smoothies and Snacks",
+    "image": "assets/images/img_worlds/food_mr_smoothy.png",
+    "lat": 25.0726,
+    "lng": 55.2883,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Mango Smoothie",
+        "description": "Fresh mango blended with yoghurt and honey",
+        "price": 22
+      },
+      {
+        "name": "Berry Blast",
+        "description": "Mixed berry smoothie with banana and almond milk",
+        "price": 22
+      },
+      {
+        "name": "Chocolate Milkshake",
+        "description": "Thick creamy chocolate milkshake",
+        "price": 20
+      },
+      {
+        "name": "Soft Serve",
+        "description": "Creamy soft serve in a waffle cone",
+        "price": 12
+      }
+    ]
+  }
+]

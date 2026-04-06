@@ -1,0 +1,134 @@
+[
+  {
+    "id": "food_thomas_restaurant",
+    "name": "Thomas Land Restaurant",
+    "description": "A charming restaurant in the Thomas Land zone of Fuji-Q Highland themed to Thomas the Tank Engine — serving Japanese set meals, children favourites and themed desserts in a colourful and family-friendly atmosphere beloved by young visitors.",
+    "topPick": true,
+    "type": "Japanese Family",
+    "image": "assets/images/fujiq_highland/food_thomas_restaurant.png",
+    "lat": 35.4889,
+    "lng": 138.7816,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Thomas Curry Set",
+        "description": "Japanese curry rice in a Thomas-themed presentation with salad",
+        "price": 1200
+      },
+      {
+        "name": "Kids Omelette Rice",
+        "description": "Japanese omurice in a Thomas train shape with ketchup sauce",
+        "price": 980
+      },
+      {
+        "name": "Thomas Pancakes",
+        "description": "Fluffy Japanese pancakes decorated as Thomas characters",
+        "price": 850
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Selection of cold beverages",
+        "price": 350
+      }
+    ]
+  },
+  {
+    "id": "food_stadium",
+    "name": "Stadium Restaurant",
+    "description": "The main quick-service dining venue at Fuji-Q Highland serving generous Japanese meals including ramen, udon, katsu curry and Japanese set meals — the most popular and centrally located food outlet at the park with seating for hundreds.",
+    "topPick": true,
+    "type": "Japanese Quick Service",
+    "image": "assets/images/fujiq_highland/food_stadium.png",
+    "lat": 35.4893,
+    "lng": 138.782,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Tonkatsu Curry",
+        "description": "Japanese breaded pork cutlet on rice with rich curry sauce",
+        "price": 1350
+      },
+      {
+        "name": "Shoyu Ramen",
+        "description": "Classic soy sauce broth ramen with chashu pork and nori",
+        "price": 1100
+      },
+      {
+        "name": "Udon Set",
+        "description": "Thick udon noodles in dashi broth with tempura and side",
+        "price": 1050
+      },
+      {
+        "name": "Yakisoba",
+        "description": "Japanese fried soba noodles with pork and vegetables",
+        "price": 950
+      }
+    ]
+  },
+  {
+    "id": "food_mos_burger",
+    "name": "MOS Burger",
+    "description": "Japan beloved MOS Burger fast food chain — serving the iconic Japanese-style rice burgers, teriyaki burgers and signature MOS Burgers that have made it the most loved domestic burger brand in Japan. A quick and satisfying option between rides.",
+    "topPick": false,
+    "type": "Japanese Burger",
+    "image": "assets/images/fujiq_highland/food_mos_burger.png",
+    "lat": 35.4895,
+    "lng": 138.7822,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "MOS Burger",
+        "description": "Signature MOS Burger with tomato sauce and fresh vegetables",
+        "price": 490
+      },
+      {
+        "name": "Rice Burger Kinpira",
+        "description": "Japanese rice bun burger with kinpira burdock filling",
+        "price": 520
+      },
+      {
+        "name": "Teriyaki Burger",
+        "description": "Teriyaki chicken burger with lettuce and mayonnaise",
+        "price": 470
+      },
+      {
+        "name": "Shake",
+        "description": "Creamy thick shake in chocolate or strawberry",
+        "price": 380
+      }
+    ]
+  },
+  {
+    "id": "food_garden_kitchen",
+    "name": "Garden Kitchen",
+    "description": "A pleasant outdoor casual dining area at Fuji-Q Highland serving light meals, snacks and drinks with beautiful views of Mount Fuji — the most scenic dining location at the park and perfect for enjoying the mountain backdrop while resting between attractions.",
+    "topPick": false,
+    "type": "Casual Outdoor Dining",
+    "image": "assets/images/fujiq_highland/food_garden_kitchen.png",
+    "lat": 35.4891,
+    "lng": 138.7818,
+    "rating": 4,
+    "items": [
+      {
+        "name": "Soft Cream",
+        "description": "Japanese soft serve ice cream — plain, matcha or swirl",
+        "price": 450
+      },
+      {
+        "name": "Crepe",
+        "description": "Fresh Japanese crepe with choice of filling",
+        "price": 580
+      },
+      {
+        "name": "Hot Dog",
+        "description": "Classic grilled hot dog in a toasted bun",
+        "price": 520
+      },
+      {
+        "name": "Coffee",
+        "description": "Hot or iced coffee",
+        "price": 380
+      }
+    ]
+  }
+]

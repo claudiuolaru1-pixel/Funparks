@@ -1,0 +1,378 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Fuji-Q Highland is Japan's most extreme theme park, located at the foot of Mount Fuji in Fujiyoshida, Yamanashi prefecture. The park sits at an elevation of 900 metres with Mount Fuji rising dramatically behind every attraction — creating the most spectacular natural backdrop of any theme park in the world. Home to four Guinness World Record-breaking roller coasters including Takabisha, the world's steepest coaster, and Do-Dodonpa, the world's fastest accelerating coaster. Also famous for Japan's most legendary haunted attraction — the Haunted Hospital. Attracts over 2 million visitors annually.",
+      "es": "Fuji-Q Highland es el parque tematico mas extremo de Japon, ubicado al pie del Monte Fuji en Fujiyoshida, prefectura de Yamanashi. El parque cuenta con cuatro montanas rusas que han batido records Guinness incluyendo Takabisha, la montana rusa mas inclinada del mundo. También famoso por la atraccion de terror mas legendaria de Japon. Atrae mas de 2 millones de visitantes anuales.",
+      "fr": "Fuji-Q Highland est le parc a themes le plus extreme du Japon, situe au pied du Mont Fuji a Fujiyoshida, prefecture de Yamanashi. Le parc abrite quatre montagnes russes detentrices de records Guinness dont Takabisha, la plus inclinee au monde. Egalement celebre pour la plus legendaire attraction d horreur du Japon. Accueille plus de 2 millions de visiteurs par an.",
+      "de": "Fuji-Q Highland ist Japans extremster Themenpark, am Fuss des Fuji in Fujiyoshida, Praefektur Yamanashi gelegen. Der Park beherbergt vier Guinness-Weltrekord-Achterbahnen einschliesslich Takabisha, der steilsten Achterbahn der Welt. Auch bekannt fur Japans legendarste Geisterattraktion. Uber 2 Millionen Besucher jahrlich.",
+      "it": "Fuji-Q Highland e il parco a tema piu estremo del Giappone, situato ai piedi del Monte Fuji a Fujiyoshida, prefettura di Yamanashi. Il parco ospita quattro montagne russe che hanno battuto record Guinness tra cui Takabisha, la piu ripida al mondo. Famoso anche per la piu leggendaria attrazione horror del Giappone. Oltre 2 milioni di visitatori annui.",
+      "nl": "Fuji-Q Highland is het meest extreme themapark van Japan, aan de voet van de Fuji in Fujiyoshida, prefectuur Yamanashi gelegen. Het park herbergt vier Guinness Wereldrecord achtbanen waaronder Takabisha, de steilste ter wereld. Ook bekend om Japans meest legendarische griezeltrekkpleister. Meer dan 2 miljoen bezoekers per jaar.",
+      "pt": "Fuji-Q Highland e o parque tematico mais extremo do Japao, localizado ao pe do Monte Fuji em Fujiyoshida, prefeitura de Yamanashi. O parque abriga quatro montanhas-russas recordistas do Guinness incluindo Takabisha, a mais inclinada do mundo. Tambem famoso pela mais lendaria atracao de terror do Japao. Mais de 2 milhoes de visitantes anuais.",
+      "ru": "Fuji-Q Highland — самый экстремальный тематический парк Японии, у подножия Фудзи. Дом четырёх коастеров-рекордсменов. Более 2 млн посетителей в год.",
+      "zh": "富士急高地是日本最极端的主题公园，位于山梨县富士吉田市富士山脚下。公园拥有四座吉尼斯世界纪录过山车，包括世界坡度最大的山包高飞车。每年吸引逾200万游客。",
+      "ar": "Fuji-Q Highland هو أكثر متنزهات اليابان تطرفا، عند سفح جبل فوجي. يضم أربعة اوتوسترادات حاملة أرقام قياسية غينيس."
+    },
+    "ov_highlights_body": {
+      "en": "Takabisha holds the Guinness World Record for the world's steepest roller coaster with a 121-degree beyond-vertical drop. Do-Dodonpa accelerates from 0 to 180 km/h in just 1.56 seconds. Eejanaika is a world record fourth-dimension coaster with 14 inversions. Fujiyama was once the world's tallest and fastest coaster. The Haunted Hospital is Japan's most legendary and extreme haunted attraction. Evangelion World is a pilgrimage destination for anime fans. Every ride delivers extraordinary views of Mount Fuji. The park entrance is free — guests pay per ride or buy a passport.",
+      "es": "Takabisha tiene el Record Guinness de la montana rusa mas inclinada del mundo con una caida de 121 grados. Do-Dodonpa acelera de 0 a 180 km/h en 1.56 segundos. Eejanaika es un coaster de cuarta dimension con 14 inversiones. El Haunted Hospital es la atraccion de terror mas legendaria de Japon. Evangelion World es un destino de peregrinaje para fans del anime.",
+      "fr": "Takabisha detient le Record Guinness de la montagne russe la plus inclinee au monde avec une chute de 121 degres. Do-Dodonpa accelere de 0 a 180 km/h en 1.56 secondes. Eejanaika est un coaster de quatrieme dimension avec 14 inversions. Haunted Hospital est l attraction d horreur la plus legendaire du Japon.",
+      "de": "Takabisha halt den Guinness-Weltrekord fur die steilste Achterbahn der Welt mit einem 121-Grad-Abfall. Do-Dodonpa beschleunigt von 0 auf 180 km/h in 1.56 Sekunden. Eejanaika ist ein Vierdimensionscoaster mit 14 Inversionen. Haunted Hospital ist Japans legendarste Horror-Attraktion.",
+      "it": "Takabisha detiene il Record Guinness per la montagna russa piu ripida al mondo con una caduta di 121 gradi. Do-Dodonpa accelera da 0 a 180 km/h in 1.56 secondi. Eejanaika e un coaster di quarta dimensione con 14 inversioni. Haunted Hospital e la piu leggendaria attrazione horror del Giappone.",
+      "nl": "Takabisha houdt het Guinness Wereldrecord voor de steilste achterbaan ter wereld met een val van 121 graden. Do-Dodonpa versnelt van 0 naar 180 km/h in 1.56 seconden. Eejanaika is een vierde dimensie achtbaan met 14 inversies. Haunted Hospital is Japans meest legendarische horror attractie.",
+      "pt": "Takabisha detém o Record Guinness da montanha-russa mais inclinada do mundo com uma queda de 121 graus. Do-Dodonpa acelera de 0 a 180 km/h em 1.56 segundos. Eejanaika e um coaster de quarta dimensao com 14 inversoes. Haunted Hospital e a mais lendaria atracao de terror do Japao.",
+      "ru": "Takabisha установил рекорд Гиннесса — 121-градусный спуск. Do-Dodonpa — 0 до 180 км/ч за 1.56 сек. Eejanaika — 14 инверсий. Haunted Hospital — легендарный аттракцион Японии.",
+      "zh": "高飞车以121度超垂直下滑刺倒吉尼斯世界纪录。山包多多帕帕在1.56秒内从0加速到180公里/小时。悔不当初拥月14个翻转。鬼屋际际际山是日本最传奇的恐怖景点。",
+      "ar": "Takabisha يحتفظ برقم غينيس أشد اوتوستراد انحدارا. Do-Dodonpa من 0 لـ 180 كم/س في 1.56 ثانية. Haunted Hospital أكثر اتراكشن رعب أسطوري."
+    },
+    "ov_did_you_know_body": {
+      "en": "Fuji-Q Highland is one of the only major theme parks in the world where entry is free — guests pay per attraction or buy an all-day passport. The park sits at 900 metres elevation directly at the foot of Mount Fuji. Takabisha's 121-degree beyond-vertical drop means the track actually curves past vertical and guests are momentarily suspended facing downward before the drop. Do-Dodonpa was redesigned and relaunched multiple times — the current version adds a massive loop to the world's fastest acceleration. The Haunted Hospital takes on average 50 minutes to complete and has caused guests to request to exit early. Fuji-Q is considered a spiritual pilgrimage for roller coaster enthusiasts worldwide.",
+      "es": "Fuji-Q Highland es uno de los pocos parques tematicos importantes del mundo con entrada gratuita. La caida de 121 grados de Takabisha significa que la via va mas alla de la vertical. Do-Dodonpa fue rediseado multiples veces. El Haunted Hospital tarda en promedio 50 minutos en completar. Fuji-Q es considerado una peregrinacion espiritual para los entusiastas de las montanas rusas.",
+      "fr": "Fuji-Q Highland est l un des rares grands parcs a themes ou l entree est gratuite. La chute de 121 degres de Takabisha signifie que la voie depasse la verticale. Do-Dodonpa a ete redesigne plusieurs fois. Le Haunted Hospital prend en moyenne 50 minutes. Fuji-Q est considere comme un pelerinage spirituel pour les amateurs de montagnes russes.",
+      "de": "Fuji-Q Highland ist einer der wenigen grossen Themenparks mit kostenlosem Eintritt. Takabishas 121-Grad-Abfall bedeutet dass die Schiene uber die Vertikale hinausgeht. Do-Dodonpa wurde mehrmals umgestaltet. Das Haunted Hospital dauert durchschnittlich 50 Minuten. Fuji-Q gilt als spirituelle Pilgerfahrt fur Achterbahnliebhaber.",
+      "it": "Fuji-Q Highland e uno dei pochi grandi parchi a tema con ingresso gratuito. La caduta di 121 gradi di Takabisha significa che la rotaia va oltre la verticale. Do-Dodonpa e stato ridisegnato piu volte. L Ospedale Stregato richiede in media 50 minuti. Fuji-Q e considerato un pellegrinaggio spirituale per gli appassionati di montagne russe.",
+      "nl": "Fuji-Q Highland is een van de weinige grote themaparken met gratis toegang. Takabisha's 121-graden val betekent dat het spoor voorbij verticaal gaat. Do-Dodonpa is meerdere keren herontworpen. Het Haunted Hospital duurt gemiddeld 50 minuten. Fuji-Q wordt beschouwd als een spirituele bedevaart voor achtbaanliefhebbers.",
+      "pt": "Fuji-Q Highland e um dos poucos grandes parques tematicos com entrada gratuita. A queda de 121 graus de Takabisha significa que o trilho vai alem da vertical. Do-Dodonpa foi redesenhado varias vezes. O Haunted Hospital demora em media 50 minutos. Fuji-Q e considerado uma peregrinacao espiritual para entusiastas de montanhas-russas.",
+      "ru": "Fuji-Q Highland — один из немногих парков с бесплатным входом. 121-градусный спуск Takabisha превышает вертикаль. Haunted Hospital занимает 50 минут в среднем.",
+      "zh": "富士急高地是全球少数免费入内的大型主题公园之一。高飞车121度超垂直下滑意味着轨道超过垂直。鬼屋医院平均需聐50分钟完成。富士急高地被躺为过山车爱好者的朝圣地。",
+      "ar": "Fuji-Q Highland مدخله مجاني. الانحدار بزاوية 121 درجة يتجاوز العمودي. Haunted Hospital يستغرق 50 دقيقة في المتوسط."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head straight to Takabisha — queue times reach 120 minutes by 10am on busy days. Do-Dodonpa second and Eejanaika third. Book the Haunted Hospital ticket in advance at the entrance — it sells out on busy days. Fujiyama is best in the late afternoon when queues drop. Mount Fuji views are best in the morning before clouds form — winter and early spring offer the clearest skies. Check the weather forecast before visiting — Mount Fuji is often obscured by cloud. The park is busiest on weekends and Japanese public holidays.",
+      "es": "Llega a la apertura y ve directamente a Takabisha. Do-Dodonpa segundo y Eejanaika tercero. Reserva el ticket del Haunted Hospital en la entrada. Las vistas del Monte Fuji son mejores por la manana antes de que se formen las nubes. El parque es mas concurrido los fines de semana.",
+      "fr": "Arrivez a l ouverture et allez directement a Takabisha. Do-Dodonpa deuxieme et Eejanaika troisieme. Reservez le billet pour le Haunted Hospital a l entree. Les vues du Mont Fuji sont meilleures le matin avant la formation des nuages. Le parc est plus anime le week-end.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Takabisha. Do-Dodonpa zweiter und Eejanaika dritter. Kaufen Sie das Haunted Hospital Ticket am Eingang. Fuji-Aussichten sind morgens vor Wolkenbildung am besten. Wochenenden sind am belebtesten.",
+      "it": "Arriva all apertura e vai direttamente a Takabisha. Do-Dodonpa secondo e Eejanaika terzo. Prenota il biglietto per il Haunted Hospital all ingresso. Le viste del Monte Fuji sono migliori al mattino prima della formazione delle nuvole. Il parco e piu affollato nei weekend.",
+      "nl": "Kom bij opening en ga direct naar Takabisha. Do-Dodonpa tweede en Eejanaika derde. Koop het Haunted Hospital kaartje bij de ingang. Fuji uitzichten zijn het beste in de ochtend voor wolkvorming. Weekenden zijn het drukst.",
+      "pt": "Chega na abertura e vai directamente a Takabisha. Do-Dodonpa segundo e Eejanaika terceiro. Compra o bilhete para o Haunted Hospital na entrada. As vistas do Monte Fuji sao melhores de manha antes da formacao de nuvens. Os fins de semana sao os mais movimentados.",
+      "ru": "Приходите к открытию и сразу к Takabisha. Do-Dodonpa вторым, Eejanaika третьим. Haunted Hospital заказывайте заранее. Фудзи лучше виден утром.",
+      "zh": "开园时到达直接前往高飞车。山包多多帕帕第二，悔不当初第三。鬼屋医院项目票务建议提前购买。富士山景色在清晨云形成前最佳。",
+      "ar": "صل عند الافتتاح واذهب مباشرة لـ Takabisha. Do-Dodonpa ثانيا. احجز Haunted Hospital مسبقا. مناظر جبل فوجي أجمل صباحا."
+    },
+    "ov_photos_body": {
+      "en": "Takabisha photographed from below during the 121-degree drop with Mount Fuji in the background is the defining image of Fuji-Q Highland and one of the most dramatic coaster photographs in the world. Fujiyama photographed from the ground with Mount Fuji perfectly framed behind the lift hill is an iconic Japanese theme park image. Do-Dodonpa photographed during the launch creates extraordinary speed photography. The park photographed from above with Mount Fuji dominating the skyline is unique in world theme park photography. Mount Fuji reflected in the nearby lakes at dawn with the park in the foreground is breathtaking.",
+      "es": "Takabisha fotografiado desde abajo durante la caida con el Monte Fuji al fondo es la imagen definitoria de Fuji-Q Highland. Fujiyama con el Monte Fuji perfectamente enmarcado es una imagen iconica. Do-Dodonpa durante el lanzamiento crea fotografia de velocidad extraordinaria.",
+      "fr": "Takabisha photographie depuis le bas pendant la chute avec le Mont Fuji en arriere-plan est l image definissante de Fuji-Q Highland. Fujiyama avec le Mont Fuji parfaitement cadre est une image iconique. Do-Dodonpa pendant le lancement cree une photographie de vitesse extraordinaire.",
+      "de": "Takabisha von unten wahrend des Abfalls mit dem Fuji im Hintergrund ist das prasentierende Bild von Fuji-Q. Fujiyama mit perfekt eingerahmtem Fuji ist ein ikonisches Bild. Do-Dodonpa wahrend des Starts schafft aussergewohnliche Geschwindigkeitsfotografie.",
+      "it": "Takabisha fotografato dal basso durante la caduta con il Monte Fuji sullo sfondo e l immagine definitiva di Fuji-Q. Fujiyama con il Monte Fuji perfettamente inquadrato e un immagine iconica. Do-Dodonpa durante il lancio crea una fotografia di velocita straordinaria.",
+      "nl": "Takabisha van onderaf gefotografeerd tijdens de val met de Fuji op de achtergrond is het bepalende beeld van Fuji-Q. Fujiyama met perfect ingekadreerde Fuji is een iconisch beeld. Do-Dodonpa tijdens de lancering creert buitengewone snelheidsfotografie.",
+      "pt": "Takabisha fotografada de baixo durante a queda com o Monte Fuji ao fundo e a imagem definitiva de Fuji-Q. Fujiyama com o Monte Fuji perfeitamente enquadrado e uma imagem iconica. Do-Dodonpa durante o lancamento cria fotografia de velocidade extraordinaria.",
+      "ru": "Takabisha снизу во время спуска на фоне Фудзи — главный образ Fuji-Q. Fujiyama с Св. Фудзи за холмом — иконический кадр.",
+      "zh": "高飞车在121度下滑时以富士山为背景从下方拍摄，是富士急高地的标志性影像。富士山完美框居在富士山山乐提升坡后方的照片是日本标志性主题公园影像。",
+      "ar": "Takabisha مصور من الأسفل أثناء السقوط مع جبل فوجي خلفه هو الصورة المحددة لـ Fuji-Q."
+    }
+  },
+  "attractions": {
+    "takabisha": {
+      "desc": {
+        "en": "Guinness World Record steepest coaster — 121-degree beyond-vertical drop with 7 inversions at 100 km/h and extraordinary Mount Fuji views. Min 130cm.",
+        "es": "Record Guinness de coaster mas inclinado — caida de 121 grados mas alla de la vertical con 7 inversiones a 100 km/h. Min 130cm.",
+        "fr": "Record Guinness du coaster le plus incline — chute de 121 degres au-dela de la verticale avec 7 inversions a 100 km/h. Min 130cm.",
+        "de": "Guinness-Weltrekord steilster Achterbahn — 121-Grad-Uber-Vertikalabfall mit 7 Inversionen bei 100 km/h. Mindestgrosse 130cm.",
+        "it": "Record Guinness del coaster piu ripido — caduta di 121 gradi oltre la verticale con 7 inversioni a 100 km/h. Min 130cm.",
+        "nl": "Guinness Wereldrecord steilste achtbaan — 121-graden voorbij-verticale val met 7 inversies bij 100 km/h. Min 130cm.",
+        "pt": "Record Guinness do coaster mais inclinado — queda de 121 graus alem da vertical com 7 inversoes a 100 km/h. Min 130cm.",
+        "ru": "Рекорд Гиннесса — спуск 121 градус и 7 инверсий. Мин 130 см.",
+        "zh": "吉尼斯世界纪录最大坡度过山车——121度超垂直下滑，7个翻转。最低身高130厘米。",
+        "ar": "اوتوستراد أكثر انحدارا في العالم بزاوية 121 درجة مع 7 انعكاسات. الحد الادنى 130 سم."
+      }
+    },
+    "eejanaika": {
+      "desc": {
+        "en": "World record fourth-dimension coaster where train and seats rotate independently through 14 inversions at 126 km/h. Utterly disorientating and unique. Min 130cm.",
+        "es": "Coaster de cuarta dimension con record mundial donde el tren y los asientos rotan independientemente en 14 inversiones. Min 130cm.",
+        "fr": "Coaster de quatrieme dimension detenteur du record mondial ou train et sieges tournent independamment a travers 14 inversions. Min 130cm.",
+        "de": "Weltrekord-Vierdimensionscoaster wo Zug und Sitze unabhangig durch 14 Inversionen drehen. Mindestgrosse 130cm.",
+        "it": "Coaster di quarta dimensione con record mondiale dove il treno e i sedili ruotano indipendentemente attraverso 14 inversioni. Min 130cm.",
+        "nl": "Wereldrecord vierde dimensie achtbaan waar trein en stoelen onafhankelijk door 14 inversies draaien. Min 130cm.",
+        "pt": "Coaster de quarta dimensao recordista mundial onde comboio e assentos rodam independentemente por 14 inversoes. Min 130cm.",
+        "ru": "Мировой рекорд — 14 инверсий с вращающимися сиденьями. Мин 130 см.",
+        "zh": "全球纪录第四维过山车，车廊和座位独立旋转，共14个翻转。最低身高130厘米。",
+        "ar": "اوتوستراد رباعي الأبعاد برقم قياسي عالمي مع 14 انعكاسا. الحد الادنى 130 سم."
+      }
+    },
+    "fujiyama": {
+      "desc": {
+        "en": "The King of Coasters — once the world's tallest and fastest coaster, still iconic with a 79-metre drop and breathtaking Mount Fuji views throughout the ride. Min 130cm.",
+        "es": "El Rey de los Coasters — una vez el mas alto y rapido del mundo con una caida de 79 metros y vistas impresionantes del Monte Fuji. Min 130cm.",
+        "fr": "Le Roi des Coasters — autrefois le plus haut et rapide au monde avec une chute de 79 metres et des vues spectaculaires du Mont Fuji. Min 130cm.",
+        "de": "Der Konig der Achterbahnen — einst der hochste und schnellste der Welt mit 79-Meter-Abfall und atemberaubenden Fuji-Aussichten. Mindestgrosse 130cm.",
+        "it": "Il Re dei Coaster — un tempo il piu alto e veloce al mondo con una caduta di 79 metri e viste mozzafiato del Monte Fuji. Min 130cm.",
+        "nl": "De Koning der Achtbanen — ooit de hoogste en snelste ter wereld met een val van 79 meter en adembenemend uitzicht op de Fuji. Min 130cm.",
+        "pt": "O Rei dos Coasters — outrora o mais alto e rapido do mundo com uma queda de 79 metros e vistas deslumbrantes do Monte Fuji. Min 130cm.",
+        "ru": "Король коастеров — когда-то самый высокий и быстрый. Спуск 79 м. Мин 130 см.",
+        "zh": "过山车之王——曾是全球最高最快的过山车，79米下滑，全程修富士山景观。最低身高130厘米。",
+        "ar": "ملك الاوتوسترادات — كان الأعلى والأسرع في العالم بسقوط 79 م. الحد الادنى 130 سم."
+      }
+    },
+    "dodonpa": {
+      "desc": {
+        "en": "The world's fastest accelerating coaster — 0 to 180 km/h in 1.56 seconds via compressed air launch, then a massive 360-degree loop. One of the most physically intense experiences in the world. Min 130cm.",
+        "es": "El coaster de aceleracion mas rapida del mundo — 0 a 180 km/h en 1.56 segundos mediante lanzamiento de aire comprimido. Min 130cm.",
+        "fr": "Le coaster a acceleration la plus rapide au monde — 0 a 180 km/h en 1.56 secondes par lancement d air comprime. Min 130cm.",
+        "de": "Der weltschnellste beschleunigende Achterbahn — 0 auf 180 km/h in 1.56 Sekunden. Mindestgrosse 130cm.",
+        "it": "Il coaster ad accelerazione piu rapida al mondo — 0 a 180 km/h in 1.56 secondi mediante lancio ad aria compressa. Min 130cm.",
+        "nl": "De snelst versnellende achtbaan ter wereld — 0 naar 180 km/h in 1.56 seconden via persluchtlancering. Min 130cm.",
+        "pt": "O coaster de aceleracao mais rapida do mundo — 0 a 180 km/h em 1.56 segundos via lancamento a ar comprimido. Min 130cm.",
+        "ru": "Самый быстро разгоняющийся коастер — 0 до 180 км/ч за 1.56 с. Мин 130 см.",
+        "zh": "全球加速最快的过山车——压缩空气发射1.56秒典0加速至180公里/小时。最低身高130厘米。",
+        "ar": "أسرع اوتوستراد تسارعا في العالم — 0 لـ 180 كم/س في 1.56 ثانية. الحد الادنى 130 سم."
+      }
+    },
+    "haunted_hospital": {
+      "desc": {
+        "en": "Japan's most famous and terrifying haunted attraction — legendary walk-through horror in a vast abandoned hospital with elaborate rooms and professional scare actors. Takes 50 minutes. Min 13 years.",
+        "es": "La atraccion de terror mas famosa y aterradora de Japon — legendaria experiencia de terror en un vasto hospital abandonado. Dura 50 minutos. Min 13 anos.",
+        "fr": "La plus celebre et terrifiante attraction d horreur du Japon — legendaire experience de terreur dans un vaste hopital abandonne. Dure 50 minutes. Min 13 ans.",
+        "de": "Japans beruhmteste und gruseligste Geisterattraktion — legendares Horror-Erlebnis in einem riesigen verlassenen Krankenhaus. Dauert 50 Minuten. Mindestens 13 Jahre.",
+        "it": "La piu famosa e terrificante attrazione horror del Giappone — leggendaria esperienza di terrore in un vasto ospedale abbandonato. Dura 50 minuti. Min 13 anni.",
+        "nl": "Japans meest beroemde en angstaanjagende spookatractie — legendarische horror in een verlaten ziekenhuis. Duurt 50 minuten. Min 13 jaar.",
+        "pt": "A mais famosa e aterrorizante atracao de terror do Japao — lendaria horror num vasto hospital abandonado. Demora 50 minutos. Min 13 anos.",
+        "ru": "Легендарный аттракцион ужасов Японии. 50 минут. Мин 13 лет.",
+        "zh": "日本最著名最恐怖的鬼屋景点——废弃医院中传奇的步行恐怖体验。需聐50分钟完成。最小13岁。",
+        "ar": "أكثر اتراكشن رعب شهرة في اليابان — مستشفى مهجور أسطوري. 50 دقيقة. الحد الادنى 13 سنة."
+      }
+    },
+    "zokkon": {
+      "desc": {
+        "en": "Intense indoor coaster with high-speed launches, complete darkness and horror theming. One of the most uniquely unsettling coaster experiences in Japan. Min 120cm.",
+        "es": "Coaster interior intenso con lanzamientos de alta velocidad, oscuridad total y tematica de terror. Min 120cm.",
+        "fr": "Intense coaster interieur avec lances rapides, obscurite complete et theme d horreur. Min 120cm.",
+        "de": "Intensiver Innencoaster mit Hochgeschwindigkeitsstarts, vollstandiger Dunkelheit und Horror-Theming. Mindestgrosse 120cm.",
+        "it": "Intenso coaster interno con lanci ad alta velocita, oscurita totale e tema horror. Min 120cm.",
+        "nl": "Intense binnenachtbaan met hoge snelheidsstarts, volledige duisternis en horror theming. Min 120cm.",
+        "pt": "Intenso coaster interior com lancamentos de alta velocidade, escuridao total e tema horror. Min 120cm.",
+        "ru": "Интенсивный крытый коастер в темноте. Мин 120 см.",
+        "zh": "室内高速发射、漆黑一片和恐怖主题的山包车。最低身高120厘米。",
+        "ar": "اوتوستراد داخلي شديد بطابع رعب. الحد الادنى 120 سم."
+      }
+    },
+    "red_tower": {
+      "desc": {
+        "en": "Towering 55-metre free-fall drop tower with the most spectacular panoramic views of Mount Fuji and the Fuji Five Lakes in Japan. Min 120cm.",
+        "es": "Torre de caida libre de 55 metros con las vistas panoramicas mas espectaculares del Monte Fuji en Japon. Min 120cm.",
+        "fr": "Tour de chute libre de 55 metres avec les plus spectaculaires vues panoramiques du Mont Fuji au Japon. Min 120cm.",
+        "de": "55-Meter-Freifall-Fallturm mit den spektakularsten Panoramablicken auf den Fuji in Japan. Mindestgrosse 120cm.",
+        "it": "Torre di caduta libera di 55 metri con le viste panoramiche piu spettacolari del Monte Fuji in Giappone. Min 120cm.",
+        "nl": "55 meter vrije val toren met de meest spectaculaire panoramische uitzichten op de Fuji in Japan. Min 120cm.",
+        "pt": "Torre de queda livre de 55 metros com as mais espetaculares vistas panoramicas do Monte Fuji no Japao. Min 120cm.",
+        "ru": "Башня свободного падения 55 м с панорамой на Фудзи. Мин 120 см.",
+        "zh": "高55米的自由落体塔，具有日本富士山和富士五湖最壮观的全景视野。最低身高120厘米。",
+        "ar": "برج سقوط حر 55 م بأكثر مناظر بانورامية رائعة لجبل فوجي. الحد الادنى 120 سم."
+      }
+    },
+    "nagashimasuka": {
+      "desc": {
+        "en": "Classic log flume water ride with a dramatic splashing final drop. A beloved family favourite and perfect summer refreshment. Min 100cm.",
+        "es": "Atraccion de agua clasica con una dramatica caida final salpicante. Un querido favorito familiar. Min 100cm.",
+        "fr": "Classique attraction d eau avec une dramatique chute finale eclaboussante. Un favori familial adore. Min 100cm.",
+        "de": "Klassischer Wasserflume mit dramatischem Abschlussabfall. Ein geliebter Familienfavorit. Mindestgrosse 100cm.",
+        "it": "Classica attrazione acquatica con una drammatica caduta finale spaventosa. Un amato favorito familiare. Min 100cm.",
+        "nl": "Klassieke water attractie met een dramatische spetterende eindval. Een geliefde gezinsfavoriet. Min 100cm.",
+        "pt": "Classico passeio aquatico com uma dramatica queda final salpicante. Um querido favorito familiar. Min 100cm.",
+        "ru": "Классический водный аттракцион. Мин 100 см.",
+        "zh": "经典欲道漂流，最后一个下坡水花四溅。最低身高100厘米。",
+        "ar": "اتراكشن مائي كلاسيكي مع سقوط ختامي مثير. الحد الادنى 100 سم."
+      }
+    },
+    "tondemina": {
+      "desc": {
+        "en": "Classic pendulum swing ride with spectacular Mount Fuji views at the apex of each swing. One of the most scenic flat rides in Japan. Min 120cm.",
+        "es": "Atraccion pendular clasica con espectaculares vistas del Monte Fuji. Una de las atracciones planas mas escenicas de Japon. Min 120cm.",
+        "fr": "Classique balancoire a pendule avec vues spectaculaires du Mont Fuji. L une des attractions plates les plus pittoresques du Japon. Min 120cm.",
+        "de": "Klassisches Pendelschaukel mit spektakularen Fuji-Aussichten. Eine der malerischsten Flachattraktionen Japans. Mindestgrosse 120cm.",
+        "it": "Classica attrazione a pendolo con viste spettacolari del Monte Fuji. Una delle attrazioni piane piu panoramiche del Giappone. Min 120cm.",
+        "nl": "Klassieke slingerrit met spectaculair uitzicht op de Fuji. Een van de meest schilderachtige vlakke attracties van Japan. Min 120cm.",
+        "pt": "Classico baloico pendular com vistas espetaculares do Monte Fuji. Uma das atracoes planas mais cenicas do Japao. Min 120cm.",
+        "ru": "Классический маятник с видом на Фудзи. Мин 120 см.",
+        "zh": "经典摩天轮，在毎个摇动山包顶部欣赏富士山壮观。最低身高120厘米。",
+        "ar": "أرجوحة بندول كلاسيكية بمناظر رائعة لجبل فوجي. الحد الادنى 120 سم."
+      }
+    },
+    "paniclock": {
+      "desc": {
+        "en": "Giant double-sided swing rotating while spinning simultaneously — intense disorienting thrills with panoramic Mount Fuji views. Min 120cm.",
+        "es": "Columpio gigante de doble cara que rota mientras gira simultaneamente. Min 120cm.",
+        "fr": "Grande balancoire double face qui tourne et pivote simultanement. Min 120cm.",
+        "de": "Riesige doppelseitige Schaukel die gleichzeitig dreht und schwingt. Mindestgrosse 120cm.",
+        "it": "Grande altalena doppia che ruota mentre oscilla simultaneamente. Min 120cm.",
+        "nl": "Reuzen dubbelzijdige schommel die tegelijkertijd roteert en slingert. Min 120cm.",
+        "pt": "Balanco gigante de dois lados que roda enquanto gira simultaneamente. Min 120cm.",
+        "ru": "Гигантские двусторонние качели. Мин 120 см.",
+        "zh": "巨型双面摇荡同时旋转，也同时摆动。最低身高120厘米。",
+        "ar": "أرجوحة ضخمة ثنائية تتحرك وتدور في آن واحد. الحد الادنى 120 سم."
+      }
+    },
+    "tetenkomai": {
+      "desc": {
+        "en": "Gentle family air ride in hang-glider vehicles with stunning Mount Fuji views. One of the most scenic and relaxing family attractions at Fuji-Q. Min 100cm.",
+        "es": "Suave atraccion familiar en vehiculos de ala delta con impresionantes vistas del Monte Fuji. Min 100cm.",
+        "fr": "Douce attraction familiale en vehicules deltaplane avec des vues epoustouflantes sur le Mont Fuji. Min 100cm.",
+        "de": "Sanfte Familien-Luftfahrt in Hanggleiter-Fahrzeugen mit atemberaubenden Fuji-Aussichten. Mindestgrosse 100cm.",
+        "it": "Dolce attrazione familiare in veicoli deltaplano con viste mozzafiato del Monte Fuji. Min 100cm.",
+        "nl": "Zachte familie luchtrit in deltavliegtuig voertuigen met prachtig uitzicht op de Fuji. Min 100cm.",
+        "pt": "Suave atracao familiar em veiculos asa-delta com vistas deslumbrantes do Monte Fuji. Min 100cm.",
+        "ru": "Мягкий семейный полёт с видом на Фудзи. Мин 100 см.",
+        "zh": "滑翔机式飞行家庭项目，修富士山壮阔。最低身高100厘米。",
+        "ar": "رحلة عائلية لطيفة في مركبات شراعية مع مناظر جبل فوجي. الحد الادنى 100 سم."
+      }
+    },
+    "evangelion_world": {
+      "desc": {
+        "en": "Spectacular Evangelion themed zone with life-size EVA units and elaborate environments. A pilgrimage destination for anime fans worldwide. Suitable for all ages.",
+        "es": "Espectacular zona tematica de Evangelion con unidades EVA de tamano real. Un destino de peregrinaje para fans del anime. Apto para todas las edades.",
+        "fr": "Spectaculaire zone theme Evangelion avec des unites EVA grandeur nature. Un lieu de pelerinage pour les fans d anime. Convient a tous les ages.",
+        "de": "Spektakulare Evangelion-Themenzone mit lebensgrossen EVA-Einheiten. Ein Pilgerort fur Anime-Fans. Fur alle Altersgruppen.",
+        "it": "Spettacolare zona a tema Evangelion con unita EVA a grandezza naturale. Una meta di pellegrinaggio per i fan dell anime. Adatto a tutte le eta.",
+        "nl": "Spectaculaire Evangelion themazone met levensgrote EVA eenheden. Een bedevaartsoord voor anime fans. Geschikt voor alle leeftijden.",
+        "pt": "Espetacular zona de tema Evangelion com unidades EVA em tamanho real. Um destino de peregrinacao para fas de anime. Adequado para todas as idades.",
+        "ru": "Зона Evangelion с моделями EVA в натуральную величину. Место паломничества для фанатов аниме.",
+        "zh": "躺農战舱主题区，展示真人大小的EVA机体。适合所有年龄。",
+        "ar": "منطقة Evangelion الرائعة بوحدات EVA بالحجم الحقيقي. مناسب لجميع الأعمار."
+      }
+    },
+    "mount_fuji_view": {
+      "desc": {
+        "en": "The most extraordinary natural backdrop of any theme park in the world — Mount Fuji rises behind every attraction. Clear days offer the perfect snow-capped view. Suitable for all ages.",
+        "es": "El fondo natural mas extraordinario de cualquier parque tematico del mundo — el Monte Fuji se eleva detras de cada atraccion. Apto para todas las edades.",
+        "fr": "Le plus extraordinaire fond naturel de tout parc a themes — le Mont Fuji se dresse derriere chaque attraction. Convient a tous les ages.",
+        "de": "Der aussergewohnlichste naturliche Hintergrund jedes Themenparks — der Fuji erhebt sich hinter jeder Attraktion. Fur alle Altersgruppen.",
+        "it": "Lo sfondo naturale piu straordinario di qualsiasi parco a tema — il Monte Fuji si erge dietro ogni attrazione. Adatto a tutte le eta.",
+        "nl": "De meest buitengewone natuurlijke achtergrond van elk themapark — de Fuji rijst achter elke attractie. Geschikt voor alle leeftijden.",
+        "pt": "O fundo natural mais extraordinario de qualquer parque tematico — o Monte Fuji ergue-se atras de cada atracao. Adequado para todas as idades.",
+        "ru": "Самый удивительный природный фон любого парка. Подходит для всех.",
+        "zh": "全球任何主题公园中最非凡的自然背景——富士山屠立于每个项目背后。适合所有年龄。",
+        "ar": "أكثر خلفية طبيعية استثنائية في أي متنزه — جبل فوجي وراء كل اتراكشن. مناسب لجميع الأعمار."
+      }
+    },
+    "fujisan_station_hotel": {
+      "desc": {
+        "en": "Unique hotel inside Fuji-Q Highland in a converted historic railway station — sleep inside the park and wake up to Mount Fuji views with first ride access. Suitable for all ages.",
+        "es": "Hotel unico dentro de Fuji-Q Highland en una antigua estacion ferroviaria convertida — duerme dentro del parque y despierta con vistas al Monte Fuji. Apto para todas las edades.",
+        "fr": "Hotel unique dans Fuji-Q Highland dans une ancienne gare ferroviaire convertie — dormez dans le parc et reveillez-vous avec des vues sur le Mont Fuji. Convient a tous les ages.",
+        "de": "Einzigartiges Hotel in Fuji-Q Highland in einem umgebauten historischen Bahnhof — schlafen Sie im Park und wachen Sie mit Fuji-Aussichten auf. Fur alle Altersgruppen.",
+        "it": "Unico hotel all interno di Fuji-Q Highland in una storica stazione ferroviaria convertita. Adatto a tutte le eta.",
+        "nl": "Uniek hotel binnen Fuji-Q Highland in een omgebouwd historisch treinstation. Geschikt voor alle leeftijden.",
+        "pt": "Hotel unico dentro de Fuji-Q Highland numa historica estacao ferroviaria convertida. Adequado para todas as idades.",
+        "ru": "Уникальный отель внутри парка — в историческом вокзале. Подходит для всех.",
+        "zh": "富士急高地内的独特酒店，改建自历史性火车站——在公园内入住，謎起欣赏富士山全景。适合所有年龄。",
+        "ar": "فندق فريد داخل Fuji-Q في محطة قطار تاريخية محولة. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_thomas_restaurant": {
+      "desc": {
+        "en": "Charming Thomas the Tank Engine themed restaurant serving Japanese set meals and children's favourites in a colourful family atmosphere.",
+        "es": "Encantador restaurante con tematica de Thomas el Tren que sirve menus japoneses y favoritos infantiles en un ambiente familiar colorido.",
+        "fr": "Charmant restaurant theme Thomas le Train servant des menus japonais et des favoris enfants dans une atmosphere familiale coloree.",
+        "de": "Charmantes Thomas die Lokomotive Themenrestaurant mit japanischen Menus und Kinderlieblingsgerichten in bunter Familienatmosphare.",
+        "it": "Affascinante ristorante a tema Thomas il Trenino che serve menu giapponesi e i preferiti dei bambini.",
+        "nl": "Charmant Thomas de Trein thema restaurant met Japanse menus en kinderlievelingen in kleurrijke gezinssfeer.",
+        "pt": "Encantador restaurante tema Thomas o Comboio servindo menus japoneses e favoritos infantis.",
+        "ru": "Ресторан в стиле Паровозика Томаса.",
+        "zh": "以汤沟驱火车为主题的迈人餐厅，供应日式套餐和儿童爱吃的小食。",
+        "ar": "مطعم بطابع Thomas القطار مع وجبات يابانية."
+      }
+    },
+    "food_stadium": {
+      "desc": {
+        "en": "Main quick-service dining venue with generous Japanese ramen, udon, katsu curry and set meals. The most popular and centrally located food outlet at Fuji-Q.",
+        "es": "Principal lugar de comida rapida con generoso ramen japones, udon, katsu curry y menus. El puesto de comida mas popular de Fuji-Q.",
+        "fr": "Principal restaurant rapide avec genereux ramen japonais, udon, katsu curry et menus. Le point de restauration le plus populaire de Fuji-Q.",
+        "de": "Haupt-Schnellrestaurant mit grosszugigem japanischen Ramen, Udon, Katsu-Curry und Menus. Der beliebteste Essensstand von Fuji-Q.",
+        "it": "Principale ristorante rapido con generoso ramen giapponese, udon, katsu curry e menu. Il punto ristoro piu popolare di Fuji-Q.",
+        "nl": "Hoofd snelrestaurant met royale Japanse ramen, udon, katsu curry en menus. Het meest populaire eetpunt van Fuji-Q.",
+        "pt": "Principal local de alimentacao rapida com generoso ramen japones, udon, katsu curry e menus. O ponto de alimentacao mais popular de Fuji-Q.",
+        "ru": "Главное кафе с японскими блюдами.",
+        "zh": "公园内最受欢迎的快餐餐厅，供应拉面、乌呣面、卡子和咖咖等。",
+        "ar": "مكان الطعام الرئيسي مع رامن وأودون ياباني."
+      }
+    },
+    "food_mos_burger": {
+      "desc": {
+        "en": "Japan's beloved MOS Burger chain — iconic Japanese-style rice burgers, teriyaki burgers and signature MOS Burgers. Quick satisfying option between rides.",
+        "es": "La querida cadena MOS Burger de Japon — iconica hamburguesa de arroz estilo japones, hamburguesa teriyaki y la firma MOS Burger.",
+        "fr": "La chaine MOS Burger bien aimee du Japon — iconique burger de riz style japonais, burger teriyaki et signature MOS Burger.",
+        "de": "Japans beliebte MOS Burger Kette — ikonischer japanischer Reisburger, Teriyaki-Burger und Signature MOS Burger.",
+        "it": "La amata catena MOS Burger del Giappone — iconico burger di riso in stile giapponese, burger teriyaki e firma MOS Burger.",
+        "nl": "Japan's geliefde MOS Burger keten — iconische Japanse rijstburger, teriyaki burger en signature MOS Burger.",
+        "pt": "A amada cadeia MOS Burger do Japao — iconico hamburguer de arroz estilo japones, hamburguer teriyaki e o especial MOS Burger.",
+        "ru": "Любимая японская сеть MOS Burger.",
+        "zh": "日本深受喜爱的MOS Burger连锁——标志性的米汉堡和照烧居汉堡。",
+        "ar": "سلسلة MOS Burger اليابانية المحبوبة ببرغر الأرز الياباني."
+      }
+    },
+    "food_garden_kitchen": {
+      "desc": {
+        "en": "Pleasant outdoor casual dining with Mount Fuji views — soft cream, crepes, hot dogs and coffee. The most scenic dining location at Fuji-Q.",
+        "es": "Agradable comedor casual al aire libre con vistas al Monte Fuji — helado suave, crepes, hot dogs y cafe. La ubicacion de comida mas escenica de Fuji-Q.",
+        "fr": "Agreable restauration decontractee en plein air avec vues sur le Mont Fuji — glace molle, crepes, hot dogs et cafe. L emplacement de restauration le plus pittoresque de Fuji-Q.",
+        "de": "Angenehme Outdoor-Casual-Gastronomie mit Fuji-Aussichten — Softeis, Crepes, Hot Dogs und Kaffee. Schonster Essensort in Fuji-Q.",
+        "it": "Piacevole ristorante casual all aperto con viste sul Monte Fuji — gelato morbido, crepes, hot dog e caffe.",
+        "nl": "Aangename buitencasual eetgelegenheid met Fuji uitzicht — soft ice cream, crepes, hot dogs en koffie.",
+        "pt": "Agradavel restaurante casual ao ar livre com vistas do Monte Fuji — soft cream, crepes, hot dogs e cafe.",
+        "ru": "Приятное открытое кафе с видом на Фудзи.",
+        "zh": "富士山景色酉装的户外休闲餐厅——软冰淇淋、可丽饼和咊啡。",
+        "ar": "طعام كازوال خارجي مريح مع مناظر جبل فوجي."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_highland_resort_hotel_and_spa": {
+      "desc": {
+        "en": "The most prestigious hotel at Fuji-Q Highland Resort — European-styled castle hotel with stunning Mount Fuji views, full spa, indoor pool and first park access each morning.",
+        "es": "El hotel mas prestigioso de Fuji-Q Highland Resort — hotel castillo europeo con impresionantes vistas al Monte Fuji, spa completo y primer acceso al parque cada manana.",
+        "fr": "L hotel le plus prestigieux du resort Fuji-Q Highland — hotel chateau europeen avec vues spectaculaires sur le Mont Fuji, spa complet et premier acces au parc chaque matin.",
+        "de": "Das prestigetraechtigste Hotel am Fuji-Q Highland Resort — europaisches Schlosshotel mit atemberaubenden Fuji-Aussichten, Vollservice-Spa und erstem Parkzugang jeden Morgen.",
+        "it": "L hotel piu prestigioso del resort Fuji-Q Highland — hotel castello europeo con viste spettacolari sul Monte Fuji, spa completa e primo accesso al parco ogni mattina.",
+        "nl": "Het meest prestigieuze hotel bij het Fuji-Q Highland resort — Europees kasteelhotel met adembenemend uitzicht op de Fuji, volledig spa en eerste parktoegang elke ochtend.",
+        "pt": "O hotel mais prestigioso do resort Fuji-Q Highland — hotel castelo europeu com vistas espetaculares do Monte Fuji, spa completo e primeiro acesso ao parque cada manha.",
+        "ru": "Наиболее престижный отель курорта в стиле европейского замка.",
+        "zh": "富士急高地度假区最尊贵的酒店——欧式城堡式酒店，具有富士山全景和早龨入园特权。",
+        "ar": "أفخم فندق في Fuji-Q Highland — فندق قلعة أوروبي بمناظر جبل فوجي رائعة."
+      }
+    },
+    "hotel_mount_fuji": {
+      "desc": {
+        "en": "Classic lakeside resort on Lake Yamanaka with Japanese and Western rooms, kaiseki cuisine, hot spring baths and extraordinary Mount Fuji views across the lake.",
+        "es": "Resort clasico a orillas del lago Yamanaka con habitaciones japonesas y occidentales, cocina kaiseki, banos termales y vistas extraordinarias al Monte Fuji.",
+        "fr": "Resort classique au bord du lac Yamanaka avec chambres japonaises et occidentales, cuisine kaiseki, bains thermaux et vues extraordinaires sur le Mont Fuji.",
+        "de": "Klassisches Seeresort am Yamanakasee mit japanischen und westlichen Zimmern, Kaiseki-Kuche, Heilbadern und aussergewohnlichen Fuji-Aussichten.",
+        "it": "Resort classico sul lago Yamanaka con camere giapponesi e occidentali, cucina kaiseki, terme e viste straordinarie del Monte Fuji.",
+        "nl": "Klassiek meeroord aan het Yamanakameer met Japanse en westerse kamers, kaiseki keuken, thermale baden en buitengewoon uitzicht op de Fuji.",
+        "pt": "Resort classico na orla do lago Yamanaka com quartos japoneses e ocidentais, cozinha kaiseki, banhos termais e extraordinarias vistas do Monte Fuji.",
+        "ru": "Классический курорт на озере Яманакаси с видом на Фудзи.",
+        "zh": "山中湖畟粤经典湖边度假村，提供和式和西式客房、怀石料理和温泉浴。",
+        "ar": "منتجع كلاسيكي على بحيرة ياماناكا بغرف يابانية وغربية ومناظر جبل فوجي."
+      }
+    },
+    "hotel_fujisan_station": {
+      "desc": {
+        "en": "The world's most unique hotel experience — converted historic railway station inside Fuji-Q Highland, sleep in the park and wake to Mount Fuji views with first ride access.",
+        "es": "La experiencia hotelera mas unica del mundo — antigua estacion ferroviaria historica convertida dentro de Fuji-Q Highland. Apto para todas las edades.",
+        "fr": "L experience hoteliere la plus unique au monde — ancienne gare ferroviaire historique convertie a l interieur de Fuji-Q Highland.",
+        "de": "Das einzigartigste Hotelerlebnis der Welt — historisches Bahnhofsgebaude umgebaut innerhalb von Fuji-Q Highland. Fur alle Altersgruppen.",
+        "it": "L esperienza alberghiera piu unica al mondo — storica stazione ferroviaria convertita all interno di Fuji-Q Highland.",
+        "nl": "De meest unieke hotelervaring ter wereld — historisch treinstation omgebouwd binnen Fuji-Q Highland.",
+        "pt": "A experiencia hoteleira mais unica do mundo — historica estacao ferroviaria convertida dentro de Fuji-Q Highland.",
+        "ru": "Уникальный отель мира — вокзал внутри парка.",
+        "zh": "全球最独特的酒店体验——富士急高地内的历史性火车站改建。",
+        "ar": "أكثر تجربة فندقية تفردا — محطة قطار تاريخية داخل Fuji-Q."
+      }
+    },
+    "hotel_kawaguchiko_station_inn": {
+      "desc": {
+        "en": "Comfortable guesthouse near Kawaguchiko Station, 10 minutes from Fuji-Q — affordable Japanese-style rooms, free breakfast and easy access to all Fuji Five Lakes attractions.",
+        "es": "Comoda pension cerca de la estacion de Kawaguchiko a 10 minutos de Fuji-Q — habitaciones japonesas asequibles, desayuno gratuito y facil acceso a las Cinco Lagos del Fuji.",
+        "fr": "Confortable pension pres de la gare de Kawaguchiko a 10 minutes de Fuji-Q — chambres japonaises abordables, petit-dejeuner gratuit et facile acces aux Cinq Lacs du Fuji.",
+        "de": "Komfortables Gasthaus nahe dem Bahnhof Kawaguchiko 10 Minuten von Fuji-Q — erschwingliche japanische Zimmer, kostenloses Fruhstuck und einfacher Zugang zu allen Fuji Five Lakes.",
+        "it": "Confortevole pensione vicino alla stazione di Kawaguchiko a 10 minuti da Fuji-Q — camere giapponesi economiche, colazione gratuita e facile accesso alle Cinque Laghi del Fuji.",
+        "nl": "Comfortabele pension nabij het station Kawaguchiko 10 minuten van Fuji-Q — betaalbare Japanse kamers, gratis ontbijt en gemakkelijke toegang tot alle Fuji Five Lakes attracties.",
+        "pt": "Confortavel pensao perto da estacao de Kawaguchiko a 10 minutos de Fuji-Q — quartos japoneses acessiveis, pequeno-almoco gratuito e facil acesso a todos os atrativos dos Cinco Lagos.",
+        "ru": "Уютный гестхаус у станции. 10 минут от Fuji-Q.",
+        "zh": "河口湖站附近舒适的家庭旅馆，富士急高地车程10分钟。",
+        "ar": "نزل مريح بالقرب من محطة Kawaguchiko، 10 دقائق من Fuji-Q."
+      }
+    }
+  }
+}

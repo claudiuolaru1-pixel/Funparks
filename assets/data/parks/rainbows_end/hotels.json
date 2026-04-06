@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_novotel_auckland_airport",
+    "name": "Novotel Auckland Airport",
+    "description": "The only hotel directly connected to Auckland Airport by covered walkway — Novotel Auckland Airport is a premium 4-star hotel ideal for visitors combining a Rainbow's End trip with Auckland arrival or departure. Features comfortable rooms, a pool, gym and multiple dining options. 20 minutes from Rainbow's End.",
+    "image": "assets/images/rainbows_end/hotel_novotel_auckland_airport.png",
+    "lat": -37.0082,
+    "lng": 174.785,
+    "rating": 4.5,
+    "topPick": true,
+    "website": "https://www.novotel.com/auckland-airport",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable 4-star room with free WiFi, flat-screen TV and en-suite bathroom.",
+        "pricePerNight": 280,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Larger superior room with upgraded furnishings and runway or garden views.",
+        "pricePerNight": 340,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Spacious suite with separate living area and complimentary breakfast.",
+        "pricePerNight": 480,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_sudima_auckland_airport",
+    "name": "Sudima Auckland Airport",
+    "description": "A modern and sustainable 4-star hotel near Auckland Airport, 20 minutes from Rainbow's End — featuring comfortable eco-conscious rooms, a restaurant, gym and free airport shuttle. One of the most popular and highly rated hotels for Auckland Airport arrivals visiting Rainbow's End.",
+    "image": "assets/images/rainbows_end/hotel_sudima_auckland_airport.png",
+    "lat": -37.012,
+    "lng": 174.79,
+    "rating": 4.4,
+    "topPick": true,
+    "website": "https://www.sudimahotels.com/auckland-airport",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Eco-conscious room with free WiFi and en-suite bathroom.",
+        "pricePerNight": 220,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Larger eco-friendly room with upgraded furnishings.",
+        "pricePerNight": 270,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room sleeping up to 4 guests.",
+        "pricePerNight": 360,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_ibis_auckland_ellerslie",
+    "name": "ibis Auckland Ellerslie",
+    "description": "A comfortable and affordable ibis hotel in Ellerslie, just 5 minutes from Rainbow's End — making it the most conveniently located hotel for visiting New Zealand's premier theme park. Offers clean modern rooms, free parking and easy motorway access to all Auckland attractions.",
+    "image": "assets/images/rainbows_end/hotel_ibis_auckland_ellerslie.png",
+    "lat": -36.898,
+    "lng": 174.815,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.accorhotels.com/ibis-auckland-ellerslie",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable ibis room with free WiFi, flat-screen TV and en-suite bathroom.",
+        "pricePerNight": 150,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Larger superior room with upgraded furnishings.",
+        "pricePerNight": 185,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Spacious family room sleeping up to 4 guests with complimentary breakfast.",
+        "pricePerNight": 240,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_rayland_motel",
+    "name": "Rayland Motel",
+    "description": "A clean and affordable motel in Manukau near Rainbow's End — offering comfortable self-contained units with kitchenettes, free parking and easy access to Rainbow's End and Auckland's southern attractions. The best budget option for families visiting Rainbow's End.",
+    "image": "assets/images/rainbows_end/hotel_rayland_motel.png",
+    "lat": -36.985,
+    "lng": 174.88,
+    "rating": 3.9,
+    "topPick": false,
+    "website": "https://www.raylandmotel.co.nz/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Clean comfortable room with free WiFi and en-suite bathroom.",
+        "pricePerNight": 110,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "studio_unit",
+        "name": "Studio Unit",
+        "description": "Self-contained studio unit with kitchenette and free parking.",
+        "pricePerNight": 130,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_unit",
+        "name": "Family Unit",
+        "description": "Spacious family unit sleeping up to 5 guests with full kitchen.",
+        "pricePerNight": 175,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

@@ -680,5 +680,77 @@
         "city": "Zhuhai, Guangdong",
         "ticketsUrl": "https://www.chimelong.com/hengqin/ticket/",
         "queueTimesId": 0
+    },
+    {
+        "id": "img_worlds",
+        "thumbnailAsset": "assets/images/img_worlds/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "IMG Worlds of Adventure",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 275,
+            "adult": 345
+        },
+        "currency": "AED",
+        "openingHours": "11:00 - 22:00",
+        "lng": 55.288,
+        "country": "United Arab Emirates",
+        "city": "Dubai",
+        "ticketsUrl": "https://www.imgworlds.com/tickets/",
+        "queueTimesId": 0
+    },
+    {
+        "id": "fujiq_highland",
+        "thumbnailAsset": "assets/images/fujiq_highland/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Fuji-Q Highland",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 2000,
+            "adult": 6000
+        },
+        "currency": "JPY",
+        "openingHours": "09:00 - 17:00",
+        "lng": 138.782,
+        "country": "Japan",
+        "city": "Fujiyoshida, Yamanashi",
+        "ticketsUrl": "https://www.fujiq.jp/en/ticket/",
+        "queueTimesId": 0
+    },
+    {
+        "id": "happy_valley_beijing",
+        "thumbnailAsset": "assets/images/happy_valley_beijing/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Happy Valley Beijing",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 200,
+            "adult": 280
+        },
+        "currency": "CNY",
+        "openingHours": "10:00 - 20:00",
+        "lng": 116.4732,
+        "country": "China",
+        "city": "Beijing",
+        "ticketsUrl": "https://mbj.happyvalley.cn/card/index.shtml",
+        "queueTimesId": 0
+    },
+    {
+        "id": "rainbows_end",
+        "thumbnailAsset": "assets/images/rainbows_end/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Rainbow's End",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 44,
+            "adult": 55
+        },
+        "currency": "NZD",
+        "openingHours": "10:00 - 17:00",
+        "lng": 174.8613,
+        "country": "New Zealand",
+        "city": "Auckland",
+        "ticketsUrl": "https://rainbowsend.co.nz/tickets/buy-tickets-online",
+        "queueTimesId": 0
     }
 ]

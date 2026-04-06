@@ -86,6 +86,10 @@ flutter:
     - assets/data/parks/hong_kong_disneyland/
     - assets/data/parks/universal_studios_singapore/
     - assets/data/parks/chimelong_ocean_kingdom/
+    - assets/data/parks/img_worlds/
+    - assets/data/parks/fujiq_highland/
+    - assets/data/parks/happy_valley_beijing/
+    - assets/data/parks/rainbows_end/
     - assets/i18n/
     - assets/maps/
     - assets/images/
