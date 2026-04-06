@@ -638,5 +638,65 @@
         },
         "currency": "AUD",
         "queueTimesId": 0
+    },
+    {
+        "id": "hong_kong_disneyland",
+        "name": "Hong Kong Disneyland",
+        "city": "Lantau Island",
+        "country": "Hong Kong",
+        "type": "Theme Park",
+        "lat": 22.313,
+        "lng": 114.044,
+        "thumbnail": "assets/images/hong_kong_disneyland/park_thumbnail.png",
+        "website": "https://www.hongkongdisneyland.com/",
+        "ticketsUrl": "https://www.hongkongdisneyland.com/tickets/",
+        "detailAsset": "",
+        "openingHours": "10:00 - 20:00",
+        "entryPrices": {
+            "adult": 639,
+            "child": 419
+        },
+        "currency": "HKD",
+        "queueTimesId": 0
+    },
+    {
+        "id": "universal_studios_singapore",
+        "name": "Universal Studios Singapore",
+        "city": "Sentosa Island",
+        "country": "Singapore",
+        "type": "Theme Park",
+        "lat": 1.2543,
+        "lng": 103.8238,
+        "thumbnail": "assets/images/universal_studios_singapore/park_thumbnail.png",
+        "website": "https://www.rwsentosa.com/en/play/universal-studios-singapore",
+        "ticketsUrl": "https://www.rwsentosa.com/en/reservations/attraction-selection?ThemeParkCode=USS&VisitDate",
+        "detailAsset": "",
+        "openingHours": "10:00 - 19:00",
+        "entryPrices": {
+            "adult": 83,
+            "child": 68
+        },
+        "currency": "SGD",
+        "queueTimesId": 0
+    },
+    {
+        "id": "chimelong_ocean_kingdom",
+        "name": "Chimelong Ocean Kingdom",
+        "city": "Zhuhai, Guangdong",
+        "country": "China",
+        "type": "Theme Park",
+        "lat": 22.11,
+        "lng": 113.562,
+        "thumbnail": "assets/images/chimelong_ocean_kingdom/park_thumbnail.png",
+        "website": "https://www.chimelong.com/hengqin/",
+        "ticketsUrl": "https://www.chimelong.com/hengqin/ticket/",
+        "detailAsset": "",
+        "openingHours": "10:00 - 20:00",
+        "entryPrices": {
+            "adult": 380,
+            "child": 260
+        },
+        "currency": "CNY",
+        "queueTimesId": 0
     }
 ]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "food_penguin_buffet",
+    "name": "Penguin Buffet Restaurant",
+    "type": "International Buffet",
+    "image": "assets/images/chimelong_ocean_kingdom/food_penguin_buffet.png",
+    "lat": 22.1106,
+    "lng": 113.5626,
+    "rating": 4.4,
+    "description": "The most popular dining destination at Chimelong Ocean Kingdom — the Penguin Buffet is a spectacular restaurant with floor-to-ceiling windows overlooking the penguin habitat, serving a generous international and Chinese buffet while hundreds of penguins waddle and swim just metres away. An extraordinary dining experience.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "Lunch Buffet",
+        "description": "All-you-can-eat international and Chinese buffet with penguin views",
+        "price": 198
+      },
+      {
+        "name": "Dinner Buffet",
+        "description": "Premium evening buffet with extended seafood and Chinese specialities",
+        "price": 248
+      },
+      {
+        "name": "Child Buffet",
+        "description": "All-you-can-eat buffet for children aged 3-11",
+        "price": 98
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Selection of beverages",
+        "price": 25
+      }
+    ]
+  },
+  {
+    "id": "food_spaceship_restaurant",
+    "name": "Spaceship Restaurant",
+    "type": "Chinese and International",
+    "image": "assets/images/chimelong_ocean_kingdom/food_spaceship_restaurant.png",
+    "lat": 22.11,
+    "lng": 113.562,
+    "rating": 4.3,
+    "description": "A dramatic futuristic restaurant housed inside the iconic Spaceship structure at the heart of Chimelong Ocean Kingdom — serving Chinese set meals, dim sum and international dishes in a spectacular sci-fi themed environment with views over the entire park.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "Dim Sum Set",
+        "description": "Selection of freshly steamed Cantonese dim sum with tea",
+        "price": 128
+      },
+      {
+        "name": "Chinese Set Meal",
+        "description": "Multi-course Chinese meal with rice, vegetables and protein",
+        "price": 168
+      },
+      {
+        "name": "Noodle Soup",
+        "description": "Rich broth noodle soup with choice of protein and seasonal vegetables",
+        "price": 88
+      },
+      {
+        "name": "Fresh Juice",
+        "description": "Freshly squeezed tropical fruit juice",
+        "price": 35
+      }
+    ]
+  },
+  {
+    "id": "food_seafood_market",
+    "name": "Seafood Market Restaurant",
+    "type": "Chinese Seafood",
+    "image": "assets/images/chimelong_ocean_kingdom/food_seafood_market.png",
+    "lat": 22.1108,
+    "lng": 113.5628,
+    "rating": 4.5,
+    "description": "A vibrant seafood market-style restaurant serving the freshest Cantonese and Guangdong-style seafood dishes — guests choose from tanks of live seafood including prawns, crabs, fish and shellfish prepared in traditional Cantonese styles. One of the most authentic dining experiences at Chimelong Ocean Kingdom.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "Steamed Fish",
+        "description": "Whole fresh fish steamed with ginger, spring onion and soy sauce",
+        "price": 188
+      },
+      {
+        "name": "Garlic Prawns",
+        "description": "Fresh prawns wok-fried with garlic, chilli and spring onion",
+        "price": 158
+      },
+      {
+        "name": "Crab in Black Bean Sauce",
+        "description": "Fresh crab stir-fried in fermented black bean sauce",
+        "price": 228
+      },
+      {
+        "name": "Steamed Rice",
+        "description": "Fragrant steamed jasmine rice",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "food_zhuhai_restaurant_buffet",
+    "name": "Zhuhai Ocean Buffet",
+    "type": "Cantonese Buffet",
+    "image": "assets/images/chimelong_ocean_kingdom/food_zhuhai_restaurant_buffet.png",
+    "lat": 22.1103,
+    "lng": 113.5623,
+    "rating": 4.2,
+    "description": "A generous Cantonese buffet celebrating the seafood traditions of Zhuhai and the Pearl River Delta — serving freshly prepared dim sum, roasted meats, seafood dishes and traditional Cantonese desserts in a comfortable and relaxed dining room.",
+    "topPick": false,
+    "items": [
+      {
+        "name": "Cantonese Buffet Lunch",
+        "description": "All-you-can-eat Cantonese buffet with dim sum, roasted meats and seafood",
+        "price": 168
+      },
+      {
+        "name": "Cantonese Buffet Dinner",
+        "description": "Premium evening Cantonese buffet with extended seafood selection",
+        "price": 218
+      },
+      {
+        "name": "Child Buffet",
+        "description": "Buffet for children aged 3-11",
+        "price": 88
+      },
+      {
+        "name": "Chinese Tea",
+        "description": "Premium Chinese tea selection",
+        "price": 28
+      }
+    ]
+  }
+]

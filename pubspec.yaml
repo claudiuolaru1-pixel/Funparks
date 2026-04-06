@@ -83,6 +83,9 @@ flutter:
     - assets/data/parks/ferrari_world/
     - assets/data/parks/lotte_world/
     - assets/data/parks/sea_world_gold_coast/
+    - assets/data/parks/hong_kong_disneyland/
+    - assets/data/parks/universal_studios_singapore/
+    - assets/data/parks/chimelong_ocean_kingdom/
     - assets/i18n/
     - assets/maps/
     - assets/images/

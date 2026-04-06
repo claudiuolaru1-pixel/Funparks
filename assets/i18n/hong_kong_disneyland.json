@@ -1,0 +1,364 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Hong Kong Disneyland is the most unique and culturally distinctive Disney park in the world, located on Lantau Island in Hong Kong. Opened in 2005, the park blends classic Disney magic with uniquely Asian and specifically Hong Kong cultural influences in a way found nowhere else in the Disney universe. Home to Mystic Manor — widely considered the greatest dark ride ever created by Walt Disney Imagineering — as well as the world first Marvel attraction, the exclusive Big Grizzly Mountain coaster and the beloved Plaza Inn roast duck. Attracts over 6 million visitors annually.",
+      "es": "Hong Kong Disneyland es el parque Disney mas unico y culturalmente distintivo del mundo, ubicado en la Isla Lantau en Hong Kong. Inaugurado en 2005, mezcla la magia Disney clasica con influencias culturales asiaticas y especificamente hongkonesas. Hogar de Mystic Manor — considerado el mejor dark ride jamas creado por Walt Disney Imagineering. Atrae mas de 6 millones de visitantes anuales.",
+      "fr": "Hong Kong Disneyland est le parc Disney le plus unique et culturellement distinctif au monde, situe sur l ile de Lantau a Hong Kong. Ouvert en 2005, il melange la magie Disney classique avec des influences culturelles asiatiques. Accueille plus de 6 millions de visiteurs par an.",
+      "de": "Hong Kong Disneyland ist der einzigartigste und kulturell unverwechselbarste Disney-Park der Welt, auf Lantau Island in Hongkong gelegen. 2005 eroffnet verbindet er klassische Disney-Magie mit asiatischen kulturellen Einfluessen. Uber 6 Millionen Besucher jahrlich.",
+      "it": "Hong Kong Disneyland e il parco Disney piu unico e culturalmente distintivo al mondo, situato sull isola di Lantau a Hong Kong. Aperto nel 2005, mescola la magia Disney classica con influenze culturali asiatiche. Oltre 6 milioni di visitatori annui.",
+      "nl": "Hong Kong Disneyland is het meest unieke en cultureel onderscheidende Disney park ter wereld, gelegen op Lantau Island in Hong Kong. Geopend in 2005 combineert het klassieke Disney magie met Aziatische culturele invloeden. Meer dan 6 miljoen bezoekers per jaar.",
+      "pt": "Hong Kong Disneyland e o parque Disney mais unico e culturalmente distintivo do mundo, localizado na Ilha de Lantau em Hong Kong. Aberto em 2005, mistura a magia Disney classica com influencias culturais asiaticas. Mais de 6 milhoes de visitantes anuais.",
+      "ru": "Hong Kong Disneyland — самый уникальный парк Disney в мире, на острове Лантау в Гонконге. Открыт в 2005 году, сочетает классическую магию Disney с азиатскими культурными влияниями. Более 6 млн посетителей ежегодно.",
+      "zh": "香港迪士尼乐园是全球最独特、最具文化特色的迪士尼乐园，位于香港大屿岛。它于2005年开放，将经典迪士尼魔法与独特的亚洲和香港文化元素完美融合。每年吸引逾600万游客。",
+      "ar": "Hong Kong Disneyland هو أكثر متنزهات Disney تميزا ثقافيا، يقع على جزيرة Lantau في هونغ كونغ. افتتح 2005 ويستقبل أكثر من 6 ملايين زائر سنويا."
+    },
+    "ov_highlights_body": {
+      "en": "Mystic Manor is widely regarded as the greatest dark ride ever built by Disney Imagineering — a trackless masterpiece of imagination and technology. Iron Man Experience was the world first Marvel attraction at any Disney park. Big Grizzly Mountain is a uniquely designed family coaster exclusive to Hong Kong. Hyperspace Mountain delivers Star Wars thrills. The Plaza Inn roast duck set meal is one of the most celebrated dishes at any Disney park in Asia. Fantasy Gardens offers the best Disney character meet and greet experience. The park features the most culturally authentic Asian food in the Disney universe.",
+      "es": "Mystic Manor es considerado el mejor dark ride jamas construido por Disney Imagineering. Iron Man Experience fue la primera atraccion Marvel en cualquier parque Disney. Big Grizzly Mountain es un coaster familiar exclusivo de Hong Kong. El plato de pato asado del Plaza Inn es uno de los mas celebrados en cualquier parque Disney de Asia.",
+      "fr": "Mystic Manor est considere comme le meilleur dark ride jamais construit par Disney Imagineering. Iron Man Experience etait la premiere attraction Marvel dans tout parc Disney. Big Grizzly Mountain est un coaster familial exclusif a Hong Kong. Le plat de canard roti du Plaza Inn est l un des plus celebres de tout parc Disney en Asie.",
+      "de": "Mystic Manor gilt allgemein als der beste Dark Ride der je von Disney Imagineering gebaut wurde. Iron Man Experience war die erste Marvel-Attraktion in einem Disney-Park. Big Grizzly Mountain ist ein exklusiver Familiencoaster in Hongkong. Das Entenbraten-Set des Plaza Inn ist eines der beruhmtesten Gerichte in einem Disney-Park in Asien.",
+      "it": "Mystic Manor e considerato il miglior dark ride mai costruito da Disney Imagineering. Iron Man Experience e stata la prima attrazione Marvel in qualsiasi parco Disney. Big Grizzly Mountain e un coaster familiare esclusivo di Hong Kong. Il piatto di anatra arrosto del Plaza Inn e uno dei piu celebrati in qualsiasi parco Disney in Asia.",
+      "nl": "Mystic Manor wordt algemeen beschouwd als de beste dark ride ooit gebouwd door Disney Imagineering. Iron Man Experience was de eerste Marvel attractie in een Disney park. Big Grizzly Mountain is een exclusieve familieachtbaan in Hong Kong. Het geroosterde eend gerecht van Plaza Inn is een van de meest gevierde gerechten in een Disney park in Azie.",
+      "pt": "Mystic Manor e considerado o melhor dark ride alguma vez construido pela Disney Imagineering. Iron Man Experience foi a primeira atracao Marvel em qualquer parque Disney. Big Grizzly Mountain e um coaster familiar exclusivo de Hong Kong. O prato de pato assado do Plaza Inn e um dos mais celebrados em qualquer parque Disney na Asia.",
+      "ru": "Mystic Manor считается лучшим аттракционом Disney Imagineering. Iron Man Experience — первый Marvel аттракцион. Big Grizzly Mountain — эксклюзивный семейный коастер.",
+      "zh": "神秘山骄被广泛認为是迪士尼想象工程有史以来最佳暗黑游乐项目。阙鐵侠体验是任何迪士尼公园中全球首个漫威尔景点。荒野大山过山车是香港层层兜的独家展项。诺萨山嶮的烧鸭餐是亚洲所有迪士尼公园中最著名的小吃之一。",
+      "ar": "Mystic Manor يعتبر عموما أفضل dark ride بنته Disney Imagineering. Iron Man Experience كان أول اتراكشن Marvel. Big Grizzly Mountain اوتوستراد عائلي حصري."
+    },
+    "ov_did_you_know_body": {
+      "en": "Hong Kong Disneyland was the sixth Disney park in the world and the first built in China. Mystic Manor was created as a replacement for the Haunted Mansion but deliberately designed without any ghosts to respect local cultural sensitivities around supernatural beings — instead featuring a magical music box as the story catalyst. The park underwent a major expansion between 2018 and 2023 adding three entirely new themed areas. Hong Kong Disneyland holds the distinction of being the smallest Disney park in the world by area. The Plaza Inn roast duck recipe was developed specifically for Hong Kong Disneyland.",
+      "es": "Hong Kong Disneyland fue el sexto parque Disney del mundo. Mystic Manor fue creado sin fantasmas para respetar las sensibilidades culturales locales. El parque se sometio a una gran expansion entre 2018 y 2023. Hong Kong Disneyland tiene la distincion de ser el parque Disney mas pequeno del mundo por area.",
+      "fr": "Hong Kong Disneyland etait le sixieme parc Disney au monde. Mystic Manor a ete cree sans fantomes pour respecter les sensibilites culturelles locales. Le parc a subi une grande expansion entre 2018 et 2023. Hong Kong Disneyland a la distinction d etre le plus petit parc Disney du monde par superficie.",
+      "de": "Hong Kong Disneyland war der sechste Disney-Park der Welt. Mystic Manor wurde ohne Geister geschaffen um lokale kulturelle Empfindlichkeiten zu respektieren. Der Park wurde zwischen 2018 und 2023 erheblich erweitert. Hong Kong Disneyland hat die Auszeichnung der kleinste Disney-Park der Welt nach Flache zu sein.",
+      "it": "Hong Kong Disneyland era il sesto parco Disney al mondo. Mystic Manor e stato creato senza fantasmi per rispettare le sensibilita culturali locali. Il parco ha subito una grande espansione tra il 2018 e il 2023. Hong Kong Disneyland ha la distinzione di essere il piu piccolo parco Disney del mondo per area.",
+      "nl": "Hong Kong Disneyland was het zesde Disney park ter wereld. Mystic Manor werd zonder geesten gecreeerd om lokale culturele gevoeligheden te respecteren. Het park onderging een grote uitbreiding tussen 2018 en 2023. Hong Kong Disneyland heeft de onderscheiding het kleinste Disney park ter wereld te zijn qua oppervlakte.",
+      "pt": "Hong Kong Disneyland foi o sexto parque Disney no mundo. Mystic Manor foi criado sem fantasmas para respeitar as sensibilidades culturais locais. O parque passou por uma grande expansao entre 2018 e 2023. Hong Kong Disneyland tem a distincao de ser o menor parque Disney do mundo em area.",
+      "ru": "Hong Kong Disneyland был шестым парком Disney в мире. Mystic Manor был создан без призраков из уважения к местным культурным традициям. Парк расширялся в 2018-2023 годах.",
+      "zh": "香港迪士尼乐园是全球第六个迪士尼乐园。神秘山骄将小鬼设计替换为魔法音乐盒以尊重当地文化。公园在2018至2023年间进行了大规模扩建。香港迪士尼乐园按面积分是全球最小的迪士尼乐园。",
+      "ar": "Hong Kong Disneyland كان الحديقة السادسة. تم تصميم Mystic Manor بدون أرواح لاحترام الحساسيات الثقافية. توسع المتنزه بين 2018 و 2023."
+    },
+    "ov_plan_body": {
+      "en": "Arrive 30 minutes before opening and head straight to Mystic Manor — queues exceed 90 minutes by 10:30am. Iron Man Experience second before 11am. Big Grizzly Mountain third. Check the daily show schedule at the entrance for parade and character meet times. Fantasy Gardens character meets fill up 45 minutes before the session — join the queue early. Plaza Inn and Crystal Lotus require advance dining reservations made through the Hong Kong Disneyland app. The Hyperspace Mountain queue is shortest in the late afternoon. Stay for the nighttime spectacular and Castle of Magical Dreams projection show which runs nightly.",
+      "es": "Llega 30 minutos antes de la apertura y ve directamente a Mystic Manor. Iron Man Experience segundo. Big Grizzly Mountain tercero. Comprueba el horario de espectaculos. Fantasy Gardens se llena 45 minutos antes. Plaza Inn y Crystal Lotus requieren reservas anticipadas. Hyperspace Mountain es menos concurrido por la tarde.",
+      "fr": "Arrivez 30 minutes avant l ouverture et allez directement a Mystic Manor. Iron Man Experience deuxieme. Big Grizzly Mountain troisieme. Consultez le programme des spectacles. Fantasy Gardens se remplit 45 minutes avant. Plaza Inn et Crystal Lotus necessitent des reservations anticipees. La queue de Hyperspace Mountain est la plus courte en fin d apres-midi.",
+      "de": "Kommen Sie 30 Minuten vor Eroffnung und gehen Sie direkt zu Mystic Manor. Iron Man Experience zweiter. Big Grizzly Mountain dritter. Prufen Sie den Showplan. Fantasy Gardens fullt sich 45 Minuten vor der Session. Plaza Inn und Crystal Lotus erfordern Vorabreservierungen. Hyperspace Mountain ist am Nachmittag am ruhigsten.",
+      "it": "Arriva 30 minuti prima dell apertura e vai direttamente a Mystic Manor. Iron Man Experience secondo. Big Grizzly Mountain terzo. Controlla il programma degli spettacoli. Fantasy Gardens si riempie 45 minuti prima. Plaza Inn e Crystal Lotus richiedono prenotazioni anticipate. Hyperspace Mountain e meno affollato nel tardo pomeriggio.",
+      "nl": "Kom 30 minuten voor opening en ga direct naar Mystic Manor. Iron Man Experience tweede. Big Grizzly Mountain derde. Controleer het showschema. Fantasy Gardens vult 45 minuten van tevoren. Plaza Inn en Crystal Lotus vereisen vooraf reserveren. Hyperspace Mountain is het rustigst in de late middag.",
+      "pt": "Chega 30 minutos antes da abertura e vai directamente a Mystic Manor. Iron Man Experience segundo. Big Grizzly Mountain terceiro. Consulta o horario dos espetaculos. Fantasy Gardens enche 45 minutos antes. Plaza Inn e Crystal Lotus requerem reservas antecipadas. Hyperspace Mountain tem menos fila no final da tarde.",
+      "ru": "Приходите за 30 минут до открытия и сразу идите к Mystic Manor. Iron Man Experience вторым. Big Grizzly Mountain третьим. Fantasy Gardens заполняется за 45 минут. Plaza Inn и Crystal Lotus требуют брони.",
+      "zh": "开园前30分钟到达直接前往神秘山骄。阙鐵侠体验第二。荒野大山过山车第三。查看巡游和角色见面时间表。幻想花园在开始前45分钟就会人满为泽。Plaza Inn和水晶莲需提前预订。",
+      "ar": "صل قبل 30 دقيقة واذهب مباشرة لـ Mystic Manor. Iron Man Experience ثانيا. Big Grizzly Mountain ثالثا. Fantasy Gardens يمتلئ قبل 45 دقيقة."
+    },
+    "ov_photos_body": {
+      "en": "The Castle of Magical Dreams photographed at golden hour from the Central Plaza is the defining image of Hong Kong Disneyland — at 47 metres it is one of the most ornate and photographed Disney castles. Mystic Manor photographed from outside captures the extraordinary Victorian mansion architecture. Iron Man Experience photographed with the full Stark Tower facade at night is spectacular. Big Grizzly Mountain photographed mid-launch creates one of the most dynamic coaster images in Asian theme park photography. The nighttime spectacular projection show on the castle creates extraordinary photography opportunities.",
+      "es": "El Castillo de los Suenos Magicos fotografiado a la hora dorada es la imagen definitoria de Hong Kong Disneyland. Mystic Manor desde fuera captura la arquitectura victoriana extraordinaria. Iron Man Experience con la fachada de Stark Tower de noche es espectacular. Big Grizzly Mountain a media velocidad crea imagenes dinamicas.",
+      "fr": "Le Chateau des Reves Magiques photographie a l heure doree est l image definissante de Hong Kong Disneyland. Mystic Manor de l exterieur capture l architecture victorienne extraordinaire. Iron Man Experience avec la facade Stark Tower la nuit est spectaculaire.",
+      "de": "Das Schloss der Magischen Traume in der goldenen Stunde fotografiert ist das prasentierende Bild von Hong Kong Disneyland. Mystic Manor von aussen zeigt die aussergewohnliche viktorianische Architektur. Iron Man Experience mit der Stark Tower Fassade bei Nacht ist spektakular.",
+      "it": "Il Castello dei Sogni Magici fotografato all ora d oro e l immagine definitiva di Hong Kong Disneyland. Mystic Manor dall esterno cattura la straordinaria architettura vittoriana. Iron Man Experience con la facciata Stark Tower di notte e spettacolare.",
+      "nl": "Het Kasteel van Magische Dromen gefotografeerd tijdens het gouden uur is het bepalende beeld van Hong Kong Disneyland. Mystic Manor van buitenaf toont de buitengewone Victoriaanse architectuur. Iron Man Experience met de Stark Tower gevel s nachts is spectaculair.",
+      "pt": "O Castelo dos Sonhos Magicos fotografado a hora dourada e a imagem definitiva de Hong Kong Disneyland. Mystic Manor de fora captura a extraordinaria arquitectura vitoriana. Iron Man Experience com a fachada da Stark Tower de noite e espetacular.",
+      "ru": "Замок Волшебных Сновидений в золотой час — главный образ Hong Kong Disneyland. Mystic Manor снаружи — уникальная викторианская архитектура.",
+      "zh": "魔法奥梦奇幻山嶮在黄金时刻从中央广场拍摄是香港迪士尼乐园的标志性画面。神秘山骄外观展现其独特的维多利亚式山嶮建筑风格。夜音烟火山嶮投影表演是绦丽的摄影机会。",
+      "ar": "Castle of Magical Dreams مصور في الساعة الذهبية هو الصورة المحددة لـ Hong Kong Disneyland. Mystic Manor من الخارج يظهر المبنى الفيكتوري."
+    }
+  },
+  "attractions": {
+    "mystic_manor": {
+      "desc": {
+        "en": "Widely regarded as the greatest dark ride ever created by Disney Imagineering — a trackless masterpiece set in Lord Henry Mystic's manor where magical artefacts come to life. Suitable for all ages.",
+        "es": "Considerado el mejor dark ride jamas creado por Disney Imagineering — obra maestra sin carril en el manor del Lord Henry Mystic. Apto para todas las edades.",
+        "fr": "Considere comme le meilleur dark ride jamais cree par Disney Imagineering — chef-d oeuvre sans rail dans le manoir de Lord Henry Mystic. Convient a tous les ages.",
+        "de": "Gilt allgemein als der beste Dark Ride der je von Disney Imagineering geschaffen wurde — schienenloses Meisterwerk im Herrenhaus von Lord Henry Mystic. Fur alle Altersgruppen.",
+        "it": "Considerato il miglior dark ride mai creato da Disney Imagineering — capolavoro senza binari nel maniero di Lord Henry Mystic. Adatto a tutte le eta.",
+        "nl": "Algemeen beschouwd als de beste dark ride ooit gemaakt door Disney Imagineering — spoorloze meesterwerk in het landhuis van Lord Henry Mystic. Geschikt voor alle leeftijden.",
+        "pt": "Considerado o melhor dark ride alguma vez criado pela Disney Imagineering — obra-prima sem trilhos no solar de Lord Henry Mystic. Adequado para todas as idades.",
+        "ru": "Считается лучшим аттракционом Disney Imagineering. Шедевр в усадьбе лорда Мистика. Подходит для всех.",
+        "zh": "被广泛認为是迪士尼想象工程有史以来创作的最佳暗黑游乐项目——神秘山骄里魔法奇宝套的无轨道杰作。适合所有年龄。",
+        "ar": "يعتبر عموما أفضل dark ride من Disney Imagineering — تحفة بدون مسار ثابت. مناسب لجميع الأعمار."
+      }
+    },
+    "iron_man_experience": {
+      "desc": {
+        "en": "The world's first Marvel attraction at any Disney park — puts guests inside an Iron Man suit for a breathtaking flight over Hong Kong in a state-of-the-art motion simulator. Min 102cm.",
+        "es": "La primera atraccion Marvel en cualquier parque Disney — pone a los visitantes dentro de un traje Iron Man para un vuelo sobre Hong Kong. Min 102cm.",
+        "fr": "La premiere attraction Marvel dans tout parc Disney — met les visiteurs dans un costume Iron Man pour un vol au-dessus de Hong Kong. Min 102cm.",
+        "de": "Die erste Marvel-Attraktion in einem Disney-Park — versetzt Besucher in einen Iron-Man-Anzug fur einen Flug uber Hongkong. Mindestgrosse 102cm.",
+        "it": "La prima attrazione Marvel in qualsiasi parco Disney — mette i visitatori in un abito Iron Man per un volo su Hong Kong. Min 102cm.",
+        "nl": "De eerste Marvel attractie in een Disney park — plaatst bezoekers in een Iron Man pak voor een vlucht over Hong Kong. Min 102cm.",
+        "pt": "A primeira atracao Marvel em qualquer parque Disney — coloca os visitantes dentro de um fato Iron Man para um voo sobre Hong Kong. Min 102cm.",
+        "ru": "Первый Marvel-аттракцион в парках Disney. Полёт над Гонконгом в костюме Железного человека. Мин 102 см.",
+        "zh": "任何迪士尼公园中全球首个漫威尔景点——霁靴全扩广居4D飞行居山骆马也游港。最低身高102厘米。",
+        "ar": "أول اتراكشن Marvel في أي متنزه Disney — تجربة طيران فوق هونغ كونغ. الحد الادنى 102 سم."
+      }
+    },
+    "big_grizzly_mountain_runaway_minecars": {
+      "desc": {
+        "en": "Unique exclusive family coaster with forward and backward launches and a sudden drop-away floor — one of the most original and rerideable family coasters at any Disney park. Min 102cm.",
+        "es": "Unico coaster familiar exclusivo con lanzamientos hacia adelante y atras y un suelo que cae — uno de los coasters familiares mas originales de cualquier parque Disney. Min 102cm.",
+        "fr": "Unique coaster familial exclusif avec lances avant et arriere et plancher escamotable — l un des coasters familiaux les plus originaux de tout parc Disney. Min 102cm.",
+        "de": "Einzigartiger exklusiver Familiencoaster mit Vor- und Ruckwartsstarts und absenkbarem Boden — einer der originellsten Familiencoaster in einem Disney-Park. Mindestgrosse 102cm.",
+        "it": "Unico coaster familiare esclusivo con lanci avanti e indietro e pavimento a scomparsa — uno dei coaster familiari piu originali di qualsiasi parco Disney. Min 102cm.",
+        "nl": "Unieke exclusieve familieachtbaan met voor- en achterwaartse lanceringen en neerklapbare vloer — een van de meest originele familieachtbanen in een Disney park. Min 102cm.",
+        "pt": "Unico coaster familiar exclusivo com lancamentos para a frente e para tras e piso de queda — um dos coasters familiares mais originais em qualquer parque Disney. Min 102cm.",
+        "ru": "Уникальный эксклюзивный семейный коастер с запусками в оба направления. Мин 102 см.",
+        "zh": "独家展入的香港独特家庭过山车，附带前后发射和突然坑陷设计。最低身高102厘米。",
+        "ar": "اوتوستراد عائلي فريد بإطلاق للأمام والخلف. الحد الادنى 102 سم."
+      }
+    },
+    "hyperspace_mountain": {
+      "desc": {
+        "en": "Space Mountain reimagined as an X-Wing vs TIE Fighter Star Wars battle — indoor coaster with immersive Star Wars audio and visual effects. Min 102cm.",
+        "es": "Space Mountain reimaginado como una batalla X-Wing contra TIE Fighter de Star Wars. Min 102cm.",
+        "fr": "Space Mountain reimagine en bataille X-Wing contre TIE Fighter Star Wars. Min 102cm.",
+        "de": "Space Mountain als X-Wing gegen TIE Fighter Star Wars Kampf neu gedacht. Mindestgrosse 102cm.",
+        "it": "Space Mountain reimmaginato come battaglia X-Wing contro TIE Fighter Star Wars. Min 102cm.",
+        "nl": "Space Mountain opnieuw bedacht als X-Wing vs TIE Fighter Star Wars gevecht. Min 102cm.",
+        "pt": "Space Mountain reimaginado como batalha X-Wing contra TIE Fighter Star Wars. Min 102cm.",
+        "ru": "Space Mountain переосмысленный как битва Star Wars. Мин 102 см.",
+        "zh": "太空山重新想象为X翅与TIE战斗机的星球大战对决。最低身高102厘米。",
+        "ar": "Space Mountain معاد تصوره كمعركة X-Wing ضد TIE Fighter. الحد الادنى 102 سم."
+      }
+    },
+    "rc_racer": {
+      "desc": {
+        "en": "Massive half-pipe coaster themed to RC from Toy Story — soaring back and forth reaching 27 metres at the apex. Min 122cm.",
+        "es": "Coaster de half-pipe masivo tematizado con RC de Toy Story — alcanzando 27 metros en el apice. Min 122cm.",
+        "fr": "Immense coaster half-pipe theme a RC de Toy Story — atteignant 27 metres au sommet. Min 122cm.",
+        "de": "Massiver Half-Pipe-Coaster mit RC-Thema aus Toy Story — 27 Meter am Scheitelpunkt erreichend. Mindestgrosse 122cm.",
+        "it": "Massiccio coaster half-pipe tema RC da Toy Story — raggiungendo 27 metri all apice. Min 122cm.",
+        "nl": "Massieve half-pipe achtbaan met RC thema van Toy Story — 27 meter bereikend aan de top. Min 122cm.",
+        "pt": "Coaster half-pipe massivo tema RC do Toy Story — atingindo 27 metros no apice. Min 122cm.",
+        "ru": "Огромный коастер-халфпайп с RC из Toy Story. Мин 122 см.",
+        "zh": "玩具总动员世界 RC主题巨型半管道过山车，在最高点可达27米高度。最低身高122厘米。",
+        "ar": "اوتوستراد half-pipe ضخم بطابع RC من Toy Story. الحد الادنى 122 سم."
+      }
+    },
+    "its_a_small_world": {
+      "desc": {
+        "en": "Classic boat journey past singing dolls from every nation — the Hong Kong version features unique Asian scenes. Suitable for all ages.",
+        "es": "Clasico viaje en barco con munecas cantoras de todas las naciones — la version de Hong Kong tiene escenas asiaticas unicas. Apto para todas las edades.",
+        "fr": "Classique voyage en bateau avec des poupees chantantes de toutes les nations — la version de Hong Kong a des scenes asiatiques uniques. Convient a tous les ages.",
+        "de": "Klassische Bootsfahrt mit singenden Puppen aus aller Welt — die Hongkong-Version hat einzigartige asiatische Szenen. Fur alle Altersgruppen.",
+        "it": "Classico viaggio in barca con bambole cantanti di tutte le nazioni — la versione di Hong Kong ha scene asiatiche uniche. Adatto a tutte le eta.",
+        "nl": "Klassieke bootreis langs zingende poppen van alle naties — de Hong Kong versie heeft unieke Aziatische scenes. Geschikt voor alle leeftijden.",
+        "pt": "Classica viagem de barco com bonecas cantoras de todas as nacoes — a versao de Hong Kong tem cenas asiaticas unicas. Adequado para todas as idades.",
+        "ru": "Классическое путешествие с поющими куколами. Уникальные азиатские сцены. Подходит для всех.",
+        "zh": "经典小小世界船上之旅——香港版本拥有其他乐园没有的独特亚洲场景。适合所有年龄。",
+        "ar": "رحلة قارب كلاسيكية مع دمى مغنية. نسخة هونغ كونغ تتضمن مشاهد آسيوية فريدة. مناسب لجميع الأعمار."
+      }
+    },
+    "cinderella_carousel": {
+      "desc": {
+        "en": "Beautifully decorated classic carousel with hand-painted horses and Disney character details. One of the most charming attractions at Hong Kong Disneyland. Suitable for all ages.",
+        "es": "Carrusel clasico bellamente decorado con caballos pintados a mano. Apto para todas las edades.",
+        "fr": "Carrousel classique magnifiquement decore avec chevaux peints a la main. Convient a tous les ages.",
+        "de": "Wunderschon dekoriertes Karussell mit handbemalten Pferden. Fur alle Altersgruppen.",
+        "it": "Classico carosello magnificamente decorato con cavalli dipinti a mano. Adatto a tutte le eta.",
+        "nl": "Prachtig gedecoreerd klassiek carrousel met handgeschilderde paarden. Geschikt voor alle leeftijden.",
+        "pt": "Classico carrocel lindamente decorado com cavalos pintados a mao. Adequado para todas as idades.",
+        "ru": "Прекрасная карусель. Подходит для всех.",
+        "zh": "精美的经典旋转木马，手工彩绘马匹和迪士尼角色细节。适合所有年龄。",
+        "ar": "خيول دوار مزخرفة جميلة بخيول مرسومة يدويا. مناسب لجميع الأعمار."
+      }
+    },
+    "orbitron": {
+      "desc": {
+        "en": "Classic spinning rocket ride in Tomorrowland where guests control height — a beloved Disneyland classic. Min 81cm.",
+        "es": "Clasico paseo en cohete giratorio en Tomorrowland donde los visitantes controlan la altura. Min 81cm.",
+        "fr": "Classique tour de fusee tournante a Tomorrowland ou les visiteurs controlent la hauteur. Min 81cm.",
+        "de": "Klassischer Drehraketen-Ride in Tomorrowland wo Besucher die Hohe kontrollieren. Mindestgrosse 81cm.",
+        "it": "Classico giro di razzo rotante a Tomorrowland dove i visitatori controllano l altezza. Min 81cm.",
+        "nl": "Klassieke draaiende raketrit in Tomorrowland waar bezoekers de hoogte bepalen. Min 81cm.",
+        "pt": "Classico passeio de foguete giratoria em Tomorrowland onde os visitantes controlam a altura. Min 81cm.",
+        "ru": "Классический ракетный аттракцион. Мин 81 см.",
+        "zh": "未来世界的旋转火箭之旅，游客可自行控制飞行高度。最低身高81厘米。",
+        "ar": "رحلة صاروخ دوارة كلاسيكية في Tomorrowland. الحد الادنى 81 سم."
+      }
+    },
+    "fantasy_gardens": {
+      "desc": {
+        "en": "Beautifully landscaped Fantasyland garden for Disney character meet and greets — the best character experience at Hong Kong Disneyland. Suitable for all ages.",
+        "es": "Jardin de Fantasyland para encuentros con personajes Disney — la mejor experiencia de personajes en Hong Kong Disneyland. Apto para todas las edades.",
+        "fr": "Jardin de Fantasyland pour des rencontres avec des personnages Disney — la meilleure experience de personnages a Hong Kong Disneyland. Convient a tous les ages.",
+        "de": "Wunderschon gestalteter Fantasyland-Garten fur Disney-Charaktertreffen — das beste Charaktererlebnis in Hong Kong Disneyland. Fur alle Altersgruppen.",
+        "it": "Giardino di Fantasyland per incontri con i personaggi Disney — la migliore esperienza di personaggi a Hong Kong Disneyland. Adatto a tutte le eta.",
+        "nl": "Mooi aangelegde Fantasyland tuin voor Disney karakter ontmoetingen — de beste karakterervaring in Hong Kong Disneyland. Geschikt voor alle leeftijden.",
+        "pt": "Jardim de Fantasyland para encontros com personagens Disney — a melhor experiencia de personagens em Hong Kong Disneyland. Adequado para todas as idades.",
+        "ru": "Сад в Fantasyland для встречи с персонажами Disney. Подходит для всех.",
+        "zh": "幻想花园是香港迪士尼最佳的迪士尼角色见面地点。适合所有年龄。",
+        "ar": "حديقة Fantasyland للقاء شخصيات Disney. مناسب لجميع الأعمار."
+      }
+    },
+    "geyser_gulch": {
+      "desc": {
+        "en": "Outdoor water play area in Grizzly Gulch with interactive geysers, water cannons and splash zones. Most popular summer attraction for families. Suitable for all ages.",
+        "es": "Area de juegos acuaticos en Grizzly Gulch con geiseres interactivos. La atraccion de verano mas popular para familias. Apto para todas las edades.",
+        "fr": "Aire de jeux aquatiques en plein air a Grizzly Gulch avec geysers interactifs. L attraction estivale la plus populaire pour les familles. Convient a tous les ages.",
+        "de": "Outdoor-Wasserspielbereich in Grizzly Gulch mit interaktiven Geysiren. Beliebteste Sommerattraktion fur Familien. Fur alle Altersgruppen.",
+        "it": "Area giochi acquatica all aperto a Grizzly Gulch con geyser interattivi. Attrazione estiva piu popolare per famiglie. Adatto a tutte le eta.",
+        "nl": "Buiten waterplay gebied in Grizzly Gulch met interactieve geisers. Populairste zomeratractie voor gezinnen. Geschikt voor alle leeftijden.",
+        "pt": "Area de jogos aquaticos ao ar livre em Grizzly Gulch com geiseres interativos. Atracao de verao mais popular para familias. Adequado para todas as idades.",
+        "ru": "Водная площадка в Grizzly Gulch. Подходит для всех.",
+        "zh": "荒野大山斷屖湿地的户外水上玩耗区，设有互动山泉和水枪。适合所有年龄。",
+        "ar": "منطقة لعب مائي خارجية في Grizzly Gulch. مناسب لجميع الأعمار."
+      }
+    },
+    "animation_academy": {
+      "desc": {
+        "en": "Disney animators teach guests to draw classic Disney characters step by step. One of the most unique family experiences at Hong Kong Disneyland. Suitable for all ages.",
+        "es": "Animadores de Disney ensenan a los visitantes a dibujar personajes clasicos. Una de las experiencias familiares mas unicas. Apto para todas las edades.",
+        "fr": "Des animateurs Disney enseignent aux visiteurs a dessiner des personnages classiques. Une des experiences familiales les plus uniques. Convient a tous les ages.",
+        "de": "Disney-Animatoren bringen Besuchern das Zeichnen klassischer Charaktere bei. Eines der einzigartigsten Familienerlebnisse. Fur alle Altersgruppen.",
+        "it": "Gli animatori Disney insegnano ai visitatori a disegnare i personaggi classici. Una delle esperienze familiari piu uniche. Adatto a tutte le eta.",
+        "nl": "Disney animatoren leren bezoekers klassieke Disney karakters tekenen. Een van de meest unieke gezinservaringen. Geschikt voor alle leeftijden.",
+        "pt": "Animadores Disney ensinam visitantes a desenhar personagens classicos. Uma das experiencias familiares mais unicas. Adequado para todas as idades.",
+        "ru": "Аниматоры Disney учат рисовать персонажей. Подходит для всех.",
+        "zh": "迪士尼动画师手把手教游客如何绘制经典迪士尼角色。适合所有年龄。",
+        "ar": "محركو Disney يعلمون الزوار رسم الشخصيات. مناسب لجميع الأعمار."
+      }
+    },
+    "fantasy_railroad_station": {
+      "desc": {
+        "en": "Steam-powered narrow gauge train circling the entire park — a relaxing scenic journey between lands with beautiful park landscapes. Suitable for all ages.",
+        "es": "Tren de vapor de via estrecha que rodea todo el parque — un relajante viaje escenico entre tierras. Apto para todas las edades.",
+        "fr": "Train a vapeur a voie etroite faisant le tour du parc — un voyage pittoresque relaxant entre les terres. Convient a tous les ages.",
+        "de": "Dampfbetriebener Schmalspurzug der den gesamten Park umrundet — eine entspannte malerische Reise. Fur alle Altersgruppen.",
+        "it": "Treno a vapore a scartamento ridotto che gira intorno all intero parco — un rilassante viaggio panoramico. Adatto a tutte le eta.",
+        "nl": "Stoomkrachttrein die het hele park omcirkelt — een ontspannen schilderachtige reis. Geschikt voor alle leeftijden.",
+        "pt": "Comboio a vapor de via estreita circulando o parque inteiro — uma viagem cenica relaxante. Adequado para todas as idades.",
+        "ru": "Паровой поезд вокруг парка. Подходит для всех.",
+        "zh": "小型许汽火车犯迪士尼乐园一圈——乘着欣赏公园美景的舰慕之旅。适合所有年龄。",
+        "ar": "قطار بخاري خلاب يطوف حول المتنزه بأكمله. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_crystal_lotus": {
+      "desc": {
+        "en": "Award-winning Cantonese fine dining with handmade dim sum, roasted meats and seasonal Hong Kong specialities. Advance reservation strongly recommended.",
+        "es": "Restaurante cantonés de alta cocina con dim sum artesanal y carnes asadas. Reserva anticipada muy recomendada.",
+        "fr": "Gastronomie cantonaise primee avec dim sum fait main et viandes rotis. Reservation anticipee vivement recommandee.",
+        "de": "Preisgekroonte kantonesische Haute Cuisine mit handgefertigtem Dim Sum und Roastgerichten. Vorabreservierung dringend empfohlen.",
+        "it": "Alta cucina cantonese premiata con dim sum fatto a mano e carni arrosto. Prenotazione anticipata vivamente consigliata.",
+        "nl": "Bekroonde Kantonese fine dining met handgemaakte dim sum en geroosterd vlees. Vooraf reserveren sterk aanbevolen.",
+        "pt": "Alta cozinha cantonesa premiada com dim sum artesanal e carnes assadas. Reserva antecipada fortemente recomendada.",
+        "ru": "Удостоенный кантонский ресторан с дим-самом. Бронирование обязательно.",
+        "zh": "获奨的粵式精艰餐厅，供应手工点心和烧儕。强烈建议提前预订。",
+        "ar": "مطعم كانتوني فاخر حائز على جوائز. يُنصح بالحجز مسبقا."
+      }
+    },
+    "food_plaza_inn": {
+      "desc": {
+        "en": "Famous for the most celebrated dish at any Disney park in Asia — the Plaza Inn roast duck set meal. A Hong Kong Disneyland institution. Advance reservation recommended.",
+        "es": "Famoso por el plato mas celebrado en cualquier parque Disney de Asia — el set de pato asado del Plaza Inn. Una institucion de Hong Kong Disneyland.",
+        "fr": "Celebre pour le plat le plus renomme de tout parc Disney en Asie — le set de canard roti du Plaza Inn. Une institution de Hong Kong Disneyland.",
+        "de": "Beruhmt fur das beruhmteste Gericht in einem Disney-Park in Asien — das Entenbrat-Set des Plaza Inn. Eine Hong Kong Disneyland Institution.",
+        "it": "Famoso per il piatto piu celebrato in qualsiasi parco Disney in Asia — il set di anatra arrosta del Plaza Inn. Un istituzione di Hong Kong Disneyland.",
+        "nl": "Beroemd om het meest gevierde gerecht in een Disney park in Azie — het geroosterde eend set van Plaza Inn. Een Hong Kong Disneyland instituut.",
+        "pt": "Famoso pelo prato mais celebrado em qualquer parque Disney na Asia — o set de pato assado do Plaza Inn. Uma instituicao de Hong Kong Disneyland.",
+        "ru": "Знаменит сетом утки — самое знаменитое блюдо в парках Disney Азии.",
+        "zh": "以亚洲任何迪士尼公园中最著名的烧鸭餐而驰名——诺萨山嶮烧鸭餐。建议提前预订。",
+        "ar": "مشهور بطبق البط المشوي الأكثر شهرة في متنزهات Disney في آسيا."
+      }
+    },
+    "food_starliner_diner": {
+      "desc": {
+        "en": "Lively Tomorrowland quick-service restaurant with American and international meals in a retro space-age setting.",
+        "es": "Animado restaurante de servicio rapido en Tomorrowland con comidas americanas e internacionales.",
+        "fr": "Vivant restaurant rapide a Tomorrowland avec repas americains et internationaux.",
+        "de": "Lebhaftes Schnellrestaurant in Tomorrowland mit amerikanischen und internationalen Gerichten.",
+        "it": "Vivace ristorante rapido a Tomorrowland con pasti americani e internazionali.",
+        "nl": "Levendig snelrestaurant in Tomorrowland met Amerikaanse en internationale gerechten.",
+        "pt": "Animado restaurante rapido em Tomorrowland com refeicoes americanas e internacionais.",
+        "ru": "Быстрый ресторан в Tomorrowland.",
+        "zh": "未来世界活泼的快餐餐厅，供应美式和国际美食。",
+        "ar": "مطعم سريع مفعم في Tomorrowland."
+      }
+    },
+    "food_riverview_cafe": {
+      "desc": {
+        "en": "Charming Adventureland cafe with river views — Chinese noodles, rice dishes and light snacks in a relaxed jungle atmosphere.",
+        "es": "Encantador cafe de Adventureland con vistas al rio — fideos chinos y aperitivos en ambiente de jungla relajado.",
+        "fr": "Charmant cafe d Adventureland avec vues sur la riviere — nouilles chinoises et snacks dans une ambiance jungle relaxante.",
+        "de": "Reizvolles Adventureland-Cafe mit Flussblick — chinesische Nudeln und Snacks in entspannter Dschungel-Atmosphare.",
+        "it": "Affascinante caffe di Adventureland con vista sul fiume — noodles cinesi e snacks in atmosfera giungla rilassante.",
+        "nl": "Charmant Adventureland cafe met riviergezicht — Chinese noodles en snacks in ontspannen junglesfeer.",
+        "pt": "Encantador cafe de Adventureland com vistas para o rio — noodles chineses e snacks em ambiente de selva relaxante.",
+        "ru": "Уютное кафе в Adventureland с видом на реку.",
+        "zh": "冒险乐园精心的河景咊啡——在轻松的丛林氛围中享用中式面条和米食。",
+        "ar": "مقهى Adventureland ساحر مع إطلالة على النهر."
+      }
+    },
+    "food_dragon_wind": {
+      "desc": {
+        "en": "Vibrant Asian fusion outlet in Mystic Point with noodles, bubble tea and Asian snacks celebrating the diverse flavours of Asia.",
+        "es": "Vibrante puesto de fusion asiatica en Mystic Point con fideos, bubble tea y aperitivos asiaticos.",
+        "fr": "Vibrant stand de fusion asiatique a Mystic Point avec nouilles, bubble tea et snacks asiatiques.",
+        "de": "Lebhafter asiatischer Fusionsstand in Mystic Point mit Nudeln, Bubble Tea und asiatischen Snacks.",
+        "it": "Vivace punto di fusione asiatica a Mystic Point con noodles, bubble tea e snack asiatici.",
+        "nl": "Levendig Aziatisch fusion punt in Mystic Point met noodles, bubble tea en Aziatische snacks.",
+        "pt": "Ponto de fusao asiatica vibrante em Mystic Point com noodles, bubble tea e snacks asiaticos.",
+        "ru": "Яркая азиатская фузия в Mystic Point.",
+        "zh": "神秘川中活泼的亚洲融合风味小屋，供应面条、珍珠奶茶和亚洲小吃。",
+        "ar": "منفذ اندماج آسيوي نابض في Mystic Point مع شاي الفقاعات."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_hong_kong_disneyland": {
+      "desc": {
+        "en": "The most prestigious hotel at Hong Kong Disneyland Resort — magnificent Victorian castle hotel directly connected to the park with harbour views, multiple pools, full spa and award-winning restaurants.",
+        "es": "El hotel mas prestigioso de Hong Kong Disneyland Resort — magnifico hotel castillo victoriano directamente conectado al parque con vistas al puerto y spa completo.",
+        "fr": "L hotel le plus prestigieux du Hong Kong Disneyland Resort — magnifique hotel chateau victorien directement connecte au parc avec vues sur le port et spa complet.",
+        "de": "Das prestigetraechtigste Hotel im Hong Kong Disneyland Resort — magnificentes viktorianisches Schlosshotel direkt mit dem Park verbunden mit Hafenblick und Vollservice-Spa.",
+        "it": "L hotel piu prestigioso del Hong Kong Disneyland Resort — magnifico hotel castello vittoriano direttamente collegato al parco con viste sul porto e spa completa.",
+        "nl": "Het meest prestigieuze hotel bij Hong Kong Disneyland Resort — prachtig Victoriaans kasteelhotel direct verbonden met het park met havenzicht en volledig spa.",
+        "pt": "O hotel mais prestigioso do Hong Kong Disneyland Resort — magnifico hotel castelo vitoriano directamente ligado ao parque com vistas para o porto e spa completo.",
+        "ru": "Наиболее престижный отель курорта — величественный викторианский замок-отель.",
+        "zh": "香港迪士尼度假区最尊贵的酒店——宏伟的维多利亚式城堡式酒店直接与公园相连。",
+        "ar": "أكثر فنادق منتجع Hong Kong Disneyland هيبة — فندق قلعة فيكتوري رائع متصل بالمتنزه."
+      }
+    },
+    "hotel_disney_hollywood_hotel": {
+      "desc": {
+        "en": "Glamorous Art Deco Hollywood hotel celebrating Disney animation — Mickey-themed suites, spectacular pool, themed restaurants and free shuttle to the park. The most stylish resort hotel.",
+        "es": "Glamuroso hotel Art Deco de Hollywood que celebra la animacion Disney — suites tematicas de Mickey y piscina espectacular. El hotel resort mas elegante.",
+        "fr": "Glamoureux hotel Art Deco Hollywood celebrant l animation Disney — suites Mickey thematiques et piscine spectaculaire. L hotel resort le plus elegante.",
+        "de": "Glamoroses Art-Deco-Hollywood-Hotel das Disney-Animation feiert — Mickey-themierte Suiten und spektakularer Pool. Das stilvollste Resort-Hotel.",
+        "it": "Glamouroso hotel Art Deco Hollywood che celebra l animazione Disney — suite tematiche Mickey e piscina spettacolare. L hotel resort piu elegante.",
+        "nl": "Glamoureus Art Deco Hollywood hotel ter ere van Disney animatie — Mickey thematische suites en spectaculair zwembad. Het meest stijlvolle resort hotel.",
+        "pt": "Glamoroso hotel Art Deco Hollywood que celebra a animacao Disney — suites tematicas de Mickey e piscina espetacular. O hotel resort mais elegante.",
+        "ru": "Гламурный отель Art Deco в стиле Голливуда. Номера с Микки.",
+        "zh": "魅力十足的迣蒂圆式好莱坞酒店，庆祝迪士尼动画精神。",
+        "ar": "فندق هوليود Art Deco يحتفي بالرسوم المتحركة Disney."
+      }
+    },
+    "hotel_disney_explorers_lodge": {
+      "desc": {
+        "en": "Stunning nature-themed hotel with jungle gardens and four world region courtyards — the most visually spectacular hotel at Hong Kong Disneyland Resort.",
+        "es": "Impresionante hotel de tematica natural con jardines de jungla y cuatro patios de regiones del mundo — el hotel visualmente mas espectacular.",
+        "fr": "Magnifique hotel a theme nature avec jardins de jungle et quatre cours de regions du monde — l hotel le plus visuellement spectaculaire.",
+        "de": "Atemberaubendes Natur-Themenhotel mit Dschungelgarten und vier Weltregions-Hofern — das visuell spektakularste Hotel.",
+        "it": "Straordinario hotel a tema naturale con giardini di giungla e quattro cortili di regioni del mondo — l hotel visivamente piu spettacolare.",
+        "nl": "Verbluffend natuur thema hotel met jungletuinen en vier wereldregio binnenplaatsen — het visueel meest spectaculaire hotel.",
+        "pt": "Hotel de tema natural deslumbrante com jardins de selva e quatro patios de regioes do mundo — o hotel visualmente mais espetacular.",
+        "ru": "Удивительный отель в природном стиле.",
+        "zh": "令人叹为观止的自然主题酒店，设有丛林花园和四个世界区坤。",
+        "ar": "فندق طبيعي مذهل مع حدائق غابية وأفنية من أربع مناطق عالمية."
+      }
+    },
+    "hotel_pennys_bay_hotel": {
+      "desc": {
+        "en": "Modern comfortable hotel near Hong Kong Disneyland with easy MTR access to the park and Hong Kong city. Most accessible and budget-friendly base for visiting the park.",
+        "es": "Hotel moderno y comodo cerca de Hong Kong Disneyland con facil acceso en MTR al parque y a la ciudad. La base mas accesible y economica.",
+        "fr": "Hotel moderne et confortable pres de Hong Kong Disneyland avec acces facile en MTR au parc et a la ville. La base la plus accessible et abordable.",
+        "de": "Modernes komfortables Hotel in der Nahe von Hong Kong Disneyland mit einfachem MTR-Zugang zum Park und zur Stadt. Zuganglichste und gunstigste Basis.",
+        "it": "Hotel moderno e confortevole vicino a Hong Kong Disneyland con facile accesso MTR al parco e alla citta. La base piu accessibile ed economica.",
+        "nl": "Modern comfortabel hotel dicht bij Hong Kong Disneyland met gemakkelijke MTR toegang tot het park en de stad. Meest toegankelijke en budgetvriendelijke basis.",
+        "pt": "Hotel moderno e confortavel perto de Hong Kong Disneyland com facil acesso MTR ao parque e a cidade. A base mais acessivel e economica.",
+        "ru": "Современный отель возле Hong Kong Disneyland с удобным доступом на MTR.",
+        "zh": "香港迪士尼附近现代舒适的酒店，可便捷乘地铁前往公园和香港市区。最便捷实惠的选择。",
+        "ar": "فندق حديث مريح بالقرب من Hong Kong Disneyland مع سهولة الوصول بالمترو."
+      }
+    }
+  }
+}

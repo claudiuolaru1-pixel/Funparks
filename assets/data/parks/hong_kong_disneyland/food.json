@@ -1,0 +1,167 @@
+[
+  {
+    "id": "food_crystal_lotus",
+    "name": "Crystal Lotus",
+    "description": "The premier fine dining restaurant at Hong Kong Disneyland — Crystal Lotus is an award-winning Chinese restaurant serving authentic Cantonese cuisine including handmade dim sum, roasted meats and seasonal Hong Kong specialities in an elegant setting with beautiful views over the park. Advance reservation strongly recommended.",
+    "topPick": true,
+    "type": "Cantonese Fine Dining",
+    "image": "assets/images/hong_kong_disneyland/food_crystal_lotus.png",
+    "lat": 22.3131,
+    "lng": 114.0441,
+    "rating": 4.7,
+    "items": [
+      {
+        "name": "Dim Sum Basket",
+        "description": "Selection of freshly steamed Cantonese dim sum including har gow and siu mai",
+        "price": 188
+      },
+      {
+        "name": "Peking Duck",
+        "description": "Crispy Peking duck served with pancakes, spring onion and hoisin sauce",
+        "price": 388
+      },
+      {
+        "name": "Crystal Lotus Set Menu",
+        "description": "Multi-course Cantonese tasting menu with seasonal specialities",
+        "price": 488
+      },
+      {
+        "name": "Chinese Tea",
+        "description": "Premium Chinese tea selection served traditionally",
+        "price": 68
+      }
+    ]
+  },
+  {
+    "id": "food_plaza_inn",
+    "name": "Plaza Inn",
+    "description": "A beloved Mainstreet USA restaurant serving a superb Cantonese roast duck set meal that is one of the most famous dishes at any Disney park in Asia — the Plaza Inn roast duck is a Hong Kong Disneyland institution and a must-try dining experience. Advance reservation recommended.",
+    "topPick": true,
+    "type": "Cantonese Restaurant",
+    "image": "assets/images/hong_kong_disneyland/food_plaza_inn.png",
+    "lat": 22.3141,
+    "lng": 114.0451,
+    "rating": 4.6,
+    "items": [
+      {
+        "name": "Roast Duck Set",
+        "description": "Famous Hong Kong Disneyland roast duck with steamed rice and vegetables",
+        "price": 198
+      },
+      {
+        "name": "Roast Pork Set",
+        "description": "Char siu roast pork with steamed rice and seasonal greens",
+        "price": 168
+      },
+      {
+        "name": "Wonton Noodle Soup",
+        "description": "Classic Hong Kong wonton noodle soup in clear broth",
+        "price": 128
+      },
+      {
+        "name": "Egg Tart",
+        "description": "Classic Hong Kong egg custard tart",
+        "price": 38
+      }
+    ]
+  },
+  {
+    "id": "food_starliner_diner",
+    "name": "Starliner Diner",
+    "description": "A lively Tomorrowland quick-service restaurant serving American and international meals in a retro space-age diner setting — burgers, pasta and set meals for families wanting a quick and satisfying meal between attractions.",
+    "topPick": false,
+    "type": "American Quick Service",
+    "image": "assets/images/hong_kong_disneyland/food_starliner_diner.png",
+    "lat": 22.3133,
+    "lng": 114.0443,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Cheeseburger Set",
+        "description": "Classic cheeseburger with fries and soft drink",
+        "price": 138
+      },
+      {
+        "name": "Pasta Set",
+        "description": "Choice of pasta with garlic bread and salad",
+        "price": 128
+      },
+      {
+        "name": "Kids Set",
+        "description": "Child-sized meal with fries, juice and Disney toy",
+        "price": 98
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Selection of cold beverages",
+        "price": 35
+      }
+    ]
+  },
+  {
+    "id": "food_riverview_cafe",
+    "name": "Riverbend Cafe",
+    "description": "A charming outdoor cafe in Adventureland with scenic views over the river — serving Chinese noodles, rice dishes and light snacks in a relaxed jungle atmosphere. A pleasant spot to rest and refuel between Adventureland attractions.",
+    "topPick": false,
+    "type": "Chinese Casual",
+    "image": "assets/images/hong_kong_disneyland/food_riverview_cafe.png",
+    "lat": 22.3129,
+    "lng": 114.0439,
+    "rating": 4,
+    "items": [
+      {
+        "name": "Beef Noodle Soup",
+        "description": "Braised beef with noodles in rich broth and seasonal vegetables",
+        "price": 118
+      },
+      {
+        "name": "Fried Rice",
+        "description": "Wok-fried rice with egg, spring onion and choice of protein",
+        "price": 108
+      },
+      {
+        "name": "Spring Rolls",
+        "description": "Crispy deep-fried spring rolls with sweet chilli dipping sauce",
+        "price": 78
+      },
+      {
+        "name": "Iced Milk Tea",
+        "description": "Classic Hong Kong-style milk tea served cold",
+        "price": 45
+      }
+    ]
+  },
+  {
+    "id": "food_dragon_wind",
+    "name": "Dragon Wind",
+    "description": "A vibrant quick-service outlet in Mystic Point serving Asian fusion snacks, noodles and bubble tea — one of the most atmospheric food outlets at Hong Kong Disneyland with a menu celebrating the diverse flavours of Asia.",
+    "topPick": false,
+    "type": "Asian Fusion",
+    "image": "assets/images/hong_kong_disneyland/food_dragon_wind.png",
+    "lat": 22.313,
+    "lng": 114.044,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Bubble Tea",
+        "description": "Classic Hong Kong bubble milk tea with tapioca pearls",
+        "price": 55
+      },
+      {
+        "name": "Takoyaki",
+        "description": "Japanese octopus balls with bonito flakes and sweet sauce",
+        "price": 68
+      },
+      {
+        "name": "Curry Fish Ball",
+        "description": "Hong Kong street food classic — curry fish balls on skewers",
+        "price": 48
+      },
+      {
+        "name": "Mango Pudding",
+        "description": "Classic Hong Kong mango pudding with evaporated milk",
+        "price": 55
+      }
+    ]
+  }
+]

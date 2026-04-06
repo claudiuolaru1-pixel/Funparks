@@ -626,5 +626,59 @@
         "city": "Gold Coast, Queensland",
         "ticketsUrl": "https://www.seaworld.com.au/tickets",
         "queueTimesId": 0
+    },
+    {
+        "id": "hong_kong_disneyland",
+        "thumbnailAsset": "assets/images/hong_kong_disneyland/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Hong Kong Disneyland",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 419,
+            "adult": 639
+        },
+        "currency": "HKD",
+        "openingHours": "10:00 - 20:00",
+        "lng": 114.044,
+        "country": "Hong Kong",
+        "city": "Lantau Island",
+        "ticketsUrl": "https://www.hongkongdisneyland.com/tickets/",
+        "queueTimesId": 0
+    },
+    {
+        "id": "universal_studios_singapore",
+        "thumbnailAsset": "assets/images/universal_studios_singapore/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Universal Studios Singapore",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 68,
+            "adult": 83
+        },
+        "currency": "SGD",
+        "openingHours": "10:00 - 19:00",
+        "lng": 103.8238,
+        "country": "Singapore",
+        "city": "Sentosa Island",
+        "ticketsUrl": "https://www.rwsentosa.com/en/reservations/attraction-selection?ThemeParkCode=USS&VisitDate",
+        "queueTimesId": 0
+    },
+    {
+        "id": "chimelong_ocean_kingdom",
+        "thumbnailAsset": "assets/images/chimelong_ocean_kingdom/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Chimelong Ocean Kingdom",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 260,
+            "adult": 380
+        },
+        "currency": "CNY",
+        "openingHours": "10:00 - 20:00",
+        "lng": 113.562,
+        "country": "China",
+        "city": "Zhuhai, Guangdong",
+        "ticketsUrl": "https://www.chimelong.com/hengqin/ticket/",
+        "queueTimesId": 0
     }
 ]

@@ -1,0 +1,392 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Chimelong Ocean Kingdom is the world's largest ocean theme park and holds multiple Guinness World Records, located on Hengqin Island in Zhuhai, Guangdong province. Opened in 2014 as part of the Chimelong International Ocean Tourist Resort, it is home to the largest aquarium on earth with a total water volume of 48.75 million litres, the world's largest collection of whale sharks and the world's largest aquarium viewing panel. Combines extraordinary marine wildlife with thrilling rides, spectacular live shows and world-record breaking facilities in a uniquely immersive ocean experience. Attracts over 10 million visitors annually.",
+      "es": "Chimelong Ocean Kingdom es el parque tematico oceanico mas grande del mundo con multiples Records Guinness, ubicado en la Isla Hengqin en Zhuhai, provincia de Guangdong. Inaugurado en 2014, alberga el acuario mas grande de la tierra con un volumen total de agua de 48.75 millones de litros y la coleccion de tiburones ballena mas grande del mundo. Atrae mas de 10 millones de visitantes anuales.",
+      "fr": "Chimelong Ocean Kingdom est le plus grand parc a themes oceaniques au monde avec plusieurs Records Guinness, situe sur l ile de Hengqin a Zhuhai, province du Guangdong. Ouvert en 2014, il abrite le plus grand aquarium de la terre. Accueille plus de 10 millions de visiteurs par an.",
+      "de": "Chimelong Ocean Kingdom ist der weltgroesste Ozean-Themenpark mit mehreren Guinness-Weltrekorden, auf Hengqin Island in Zhuhai, Provinz Guangdong gelegen. 2014 eroffnet beherbergt er das grosste Aquarium der Erde. Uber 10 Millionen Besucher jahrlich.",
+      "it": "Chimelong Ocean Kingdom e il piu grande parco a tema oceanico del mondo con piu Record Guinness, situato sull isola di Hengqin a Zhuhai, provincia del Guangdong. Aperto nel 2014, ospita il piu grande acquario della terra. Oltre 10 milioni di visitatori annui.",
+      "nl": "Chimelong Ocean Kingdom is het grootste oceaan themapark ter wereld met meerdere Guinness Wereldrecords, gelegen op Hengqin Island in Zhuhai, provincie Guangdong. Geopend in 2014 herbergt het het grootste aquarium op aarde. Meer dan 10 miljoen bezoekers per jaar.",
+      "pt": "Chimelong Ocean Kingdom e o maior parque tematico oceanico do mundo com varios Recordes Guinness, localizado na Ilha Hengqin em Zhuhai, provincia de Guangdong. Aberto em 2014 abriga o maior aquario da terra. Mais de 10 milhoes de visitantes anuais.",
+      "ru": "Chimelong Ocean Kingdom — крупнейший океанический тематический парк в мире с несколькими рекордами Книги рекордов Гиннесса. Дом крупнейшего аквариума на Земле. Более 10 млн посетителей в год.",
+      "zh": "长隆海洋王国是全球最大的海洋主题公园，拥有多项吉尼斯世界纪录，位于广东珠海横琴岛。它于2014年开放，拥有地球上最大的水族馆，总水量达4875万升，以及全球最大的鲸鰨鱼群落。每年吸引逾1000万游客。",
+      "ar": "Chimelong Ocean Kingdom هو أكبر متنزه بحري في العالم مع عدة أرقام قياسية غينيس، على جزيرة هنغقين في زهواي. أكثر من 10 ملايين زائر سنويا."
+    },
+    "ov_highlights_body": {
+      "en": "The World's Largest Aquarium holds a Guinness World Record with 48.75 million litres and a single viewing panel 39.6 metres wide. Whale Shark Voyage takes guests through a 180-degree tunnel completely surrounded by whale sharks. The Penguin Buffet Restaurant serves international food with direct views into the penguin habitat. Dolphin Paradise and Beluga Whale Show are among the finest marine animal presentations in Asia. Aqua Loop Slides feature a breathtaking vertical loop. The Spaceship Hotel is one of the most architecturally extraordinary hotels in the world.",
+      "es": "El Acuario mas Grande del Mundo tiene un Record Guinness con 48.75 millones de litros. Whale Shark Voyage lleva a los visitantes a traves de un tunel de 180 grados rodeado de tiburones ballena. El Restaurante Buffet Pinguino sirve comida con vistas directas al habitat de los pinguinos. El Espectaculo de Delfines y el Espectaculo de Beluga son de los mejores de Asia.",
+      "fr": "Le Plus Grand Aquarium du Monde detient un Record Guinness avec 48.75 millions de litres. Whale Shark Voyage emmene les visiteurs a travers un tunnel a 180 degres entoure de requins baleines. Le Restaurant Buffet Pingouin sert de la nourriture avec des vues directes sur l habitat des pingouins.",
+      "de": "Das Grosste Aquarium der Welt halt einen Guinness-Weltrekord mit 48.75 Millionen Litern. Whale Shark Voyage bringt Besucher durch einen 180-Grad-Tunnel umgeben von Walhaien. Das Pinguin-Buffet-Restaurant serviert Essen mit direktem Blick auf den Pinguinlebensraum.",
+      "it": "Il Piu Grande Acquario del Mondo detiene un Record Guinness con 48.75 milioni di litri. Whale Shark Voyage porta i visitatori attraverso un tunnel a 180 gradi circondato da squali balena. Il Ristorante Buffet Pinguino serve cibo con viste dirette sull habitat dei pinguini.",
+      "nl": "Het Grootste Aquarium ter Wereld heeft een Guinness Wereldrecord met 48.75 miljoen liter. Whale Shark Voyage neemt bezoekers mee door een 180-graden tunnel omgeven door walvishaaien. Het Pinguin Buffet Restaurant serveert eten met direct uitzicht op het pinguinhabitat.",
+      "pt": "O Maior Aquario do Mundo tem um Record Guinness com 48.75 milhoes de litros. Whale Shark Voyage leva os visitantes atraves de um tunel de 180 graus rodeado por tubaroes-baleia. O Restaurante Buffet Pinguim serve comida com vistas directas para o habitat dos pinguins.",
+      "ru": "Крупнейший аквариум в мире вмещает 48,75 млн литров. Whale Shark Voyage — туннель вокруг китовых акул. Буфет с видом на пингвинов — уникальный опыт.",
+      "zh": "全球最大水族馆拥有吉尼斯世界纪录，单块观察面板宽39.6米。鲸鰨鱼之旅让游客穿越180度透明隊道，被鲸鰨鱼围绕。企鹅自助餐厅边用餐边观赏企鹅。海豚表演和白鲸表演是亚洲最佳海洋动物表演之一。",
+      "ar": "aquarium الأكبر في العالم يحتفظ بسجل غينيس. Whale Shark Voyage يأخذك عبر نفق محيط بأسماك الحيتان. مطعم بوفيه البطريق مع مشاهدة مباشرة."
+    },
+    "ov_did_you_know_body": {
+      "en": "Chimelong Ocean Kingdom holds six Guinness World Records including the world's largest aquarium, world's largest aquarium window, world's largest collection of whale sharks and world's largest ocean theme park. The park's whale sharks are among the only captive whale sharks in the world outside of Japan and Georgia USA. The Spaceship Hotel is designed to resemble a flying saucer and has become one of the most photographed hotels in China. Chimelong Ocean Kingdom opened in 2014 on Hengqin Island which is a special economic zone attached to Macau. The park's penguin collection numbers in the hundreds making it one of the largest in the world.",
+      "es": "Chimelong Ocean Kingdom tiene seis Records Guinness incluyendo el acuario mas grande del mundo. Los tiburones ballena del parque son de los pocos en cautiverio fuera de Japon y Georgia. El Hotel Nave Espacial se ha convertido en uno de los hoteles mas fotografiados de China. El parque abrio en 2014 en la Isla Hengqin zona economica especial.",
+      "fr": "Chimelong Ocean Kingdom detient six Records Guinness dont le plus grand aquarium au monde. Les requins baleines du parc sont parmi les seuls en captivite en dehors du Japon et de la Georgie. L Hotel Vaisseau Spatial est devenu l un des hotels les plus photographiés de Chine. Le parc a ouvert en 2014 sur l ile de Hengqin zone economique speciale.",
+      "de": "Chimelong Ocean Kingdom halt sechs Guinness-Weltrekorde einschliesslich des weltgroessten Aquariums. Die Walhaie des Parks zahlen zu den wenigen in Gefangenschaft ausserhalb von Japan und Georgia. Das Raumschiff-Hotel ist zu einem der meistfotografierten Hotels Chinas geworden.",
+      "it": "Chimelong Ocean Kingdom detiene sei Record Guinness tra cui il piu grande acquario del mondo. Gli squali balena del parco sono tra i pochi in cattivita al di fuori del Giappone e della Georgia. L Hotel Astronave e diventato uno degli hotel piu fotografati della Cina.",
+      "nl": "Chimelong Ocean Kingdom houdt zes Guinness Wereldrecords inclusief het grootste aquarium ter wereld. De walvishaaien van het park behoren tot de weinige in gevangenschap buiten Japan en Georgia. Het Ruimteschip Hotel is een van de meest gefotografeerde hotels van China geworden.",
+      "pt": "Chimelong Ocean Kingdom detém seis Recordes Guinness incluindo o maior aquario do mundo. Os tubaroes-baleia do parque estao entre os poucos em cativeiro fora do Japao e da Georgia. O Hotel Nave Espacial tornou-se um dos hoteis mais fotografados da China.",
+      "ru": "Chimelong Ocean Kingdom содержит шесть рекордов Гиннесса. Китовые акулы парка — одни из немногих в неволе. Отель Летающая тарелка — один из самых фотогеничных отелей Китая.",
+      "zh": "长隆海洋王国拥有六项吉尼斯世界纪录。公园的鲸鰨鱼是日本和美国以外为数不多的人工饲养个体之一。宇宙飞船酒店已成为中国拍摄次数最多的酒店之一。公园位于横琴岛经济特区。",
+      "ar": "Chimelong Ocean Kingdom يحتفظ بستة أرقام قياسية غينيس. فندق السفينة الفضائية أصبح من أكثر الفنادق التقاطا في الصين."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head to the World's Largest Aquarium first — it is most atmospheric in the morning before crowds build. Book the Penguin Buffet Restaurant for lunch well in advance as it fills up daily. Check show schedules at the entrance for Dolphin Paradise, Beluga Whale Show and Sea Lion Theater. Walrus World feeding sessions are posted daily — plan around these for the best animal encounters. Aqua Loop Slides and Walrus Mountain water slides are best in the afternoon heat. The Ocean Kingdom Roller Coaster has shortest queues early morning. The park's evening light show over the aquarium is spectacular — stay until closing.",
+      "es": "Llega a la apertura y ve primero al Acuario mas Grande del Mundo. Reserva el Restaurante Buffet Pinguino para el almuerzo con antelacion. Comprueba los horarios de los espectaculos en la entrada. Las sesiones de alimentacion de Walrus World se publican diariamente. El Coaster tiene colas mas cortas por la manana. El espectaculo de luces nocturno es espectacular.",
+      "fr": "Arrivez a l ouverture et allez d abord au Plus Grand Aquarium du Monde. Reservez le Restaurant Buffet Pingouin pour le dejeuner a l avance. Verifiez les horaires des spectacles a l entree. Les sessions de nourrissage de Walrus World sont affichees quotidiennement. Le spectacle de lumieres nocturne est spectaculaire.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie zuerst zum Weltgroessten Aquarium. Reservieren Sie das Pinguin-Buffet-Restaurant fur das Mittagessen im Voraus. Prufen Sie die Showzeiten am Eingang. Walrus World Futerzeiten werden taglich bekannt gegeben. Die Abend-Lichtshow ist spektakular.",
+      "it": "Arriva all apertura e vai prima al Piu Grande Acquario del Mondo. Prenota il Ristorante Buffet Pinguino per il pranzo in anticipo. Controlla gli orari degli spettacoli all ingresso. Le sessioni di alimentazione di Walrus World sono pubblicate giornalmente. Lo spettacolo di luci notturno e spettacolare.",
+      "nl": "Kom bij opening en ga eerst naar het Grootste Aquarium ter Wereld. Reserveer het Pinguin Buffet Restaurant voor de lunch van tevoren. Controleer de showschemas bij de ingang. Walrus World voedertijden worden dagelijks bekendgemaakt. De avondlichtshow is spectaculair.",
+      "pt": "Chega na abertura e vai primeiro ao Maior Aquario do Mundo. Reserve o Restaurante Buffet Pinguim para o almoco com antecedencia. Consulta os horarios dos espetaculos na entrada. Os horarios de alimentacao do Walrus World sao publicados diariamente. O espetaculo de luzes nocturno e espetacular.",
+      "ru": "Приходите к открытию и сразу к аквариуму. Заранее забронируйте буфет с пингвинами. Вечерное световое шоу — неповторимое зрелище.",
+      "zh": "开园时到达先去全球最大水族馆。提前预订企鹅自助餐厅。在入口查看海豚、白鲸和海狮表演时间表。海象世界喂食时间每日公布。夜间水族馆灯光秀，建议留到闭园。",
+      "ar": "صل عند الافتتاح واتجه أولا لأكبر حوض. احجز مطعم بوفيه البطريق مسبقا. عرض الضوء الليلي رائع."
+    },
+    "ov_photos_body": {
+      "en": "The World's Largest Aquarium photographed through the record-breaking viewing panel with whale sharks creates the most extraordinary aquarium photography anywhere on earth. The Spaceship Hotel photographed at night with its illuminated exterior is one of the most dramatic hotel photographs in China. The Penguin Buffet Restaurant photographed from inside with penguins visible through the floor-to-ceiling windows is uniquely charming. The Beluga Whale Show photographed mid-performance creates extraordinary marine action photography. Walrus World walruses photographed through the underwater viewing windows create remarkable wildlife images.",
+      "es": "El Acuario mas Grande del Mundo fotografiado a traves del panel de observacion con tiburones ballena crea la fotografia de acuario mas extraordinaria. El Hotel Nave Espacial fotografiado de noche es uno de los mas dramaticos de China. El Restaurante Buffet Pinguino con pinguinos visibles a traves de las ventanas es encantador.",
+      "fr": "Le Plus Grand Aquarium photographié a travers le panneau record avec requins baleines cree la photographie d aquarium la plus extraordinaire. L Hotel Vaisseau Spatial photographié la nuit est l un des plus dramatiques de Chine. Le Restaurant Buffet Pingouin avec pingouins visibles a travers les fenetres est charmant.",
+      "de": "Das Weltgroesste Aquarium durch die Rekordscheibe mit Walhaien fotografiert schafft die aussergewohnlichsten Aquariumfotos. Das Raumschiff-Hotel nachts fotografiert ist eines der dramatischsten Hotelfotos in China. Das Pinguin-Buffet-Restaurant mit Pinguinen sichtbar durch die Fenster ist einzigartig charmant.",
+      "it": "Il Piu Grande Acquario al mondo fotografato attraverso il pannello record con squali balena crea la fotografia di acquario piu straordinaria. L Hotel Astronave fotografato di notte e uno dei piu drammatici della Cina. Il Ristorante Buffet Pinguino con pinguini visibili attraverso le finestre e delizioso.",
+      "nl": "Het Grootste Aquarium ter Wereld gefotografeerd door het recordpaneel met walvishaaien creert de meest buitengewone aquariumfotografie. Het Ruimteschip Hotel s nachts gefotografeerd is een van de meest dramatische hotelfoto's van China.",
+      "pt": "O Maior Aquario do Mundo fotografado atraves do painel record com tubaroes-baleia cria a fotografia de aquario mais extraordinaria. O Hotel Nave Espacial fotografado de noite e um dos mais dramaticos da China.",
+      "ru": "Аквариум через рекордное стекло с китовыми акулами — самые уникальные фото. Отель ночью — один из самых драматичных отельных снимков Китая.",
+      "zh": "通过纪录观察面板拍摄鲸鰨鱼游展其中，创造地球上最非凡的水族馆摄影。宇宙飞船酒店夕阳下的烧山之主一念成为中国拍摄次数最多的酒店影像。",
+      "ar": "aquarium الأكبر مصور عبر اللوحة القياسية مع أسماك الحيتان يخلق أروع صور aquarium."
+    }
+  },
+  "attractions": {
+    "worlds_largest_aquarium": {
+      "desc": {
+        "en": "Guinness World Record holder — the largest aquarium on earth with 48.75 million litres and a viewing panel 39.6 metres wide housing whale sharks, manta rays and extraordinary marine life. Suitable for all ages.",
+        "es": "Titular del Record Guinness — el acuario mas grande de la tierra con 48.75 millones de litros y un panel de observacion de 39.6 metros de ancho. Apto para todas las edades.",
+        "fr": "Detenteur du Record Guinness — le plus grand aquarium de la terre avec 48.75 millions de litres et un panneau de 39.6 metres de large. Convient a tous les ages.",
+        "de": "Guinness-Weltrekordhalter — das grosste Aquarium der Erde mit 48.75 Millionen Litern und einem 39.6 Meter breiten Sichtfenster. Fur alle Altersgruppen.",
+        "it": "Detentore del Record Guinness — il piu grande acquario della terra con 48.75 milioni di litri e un pannello di 39.6 metri di larghezza. Adatto a tutte le eta.",
+        "nl": "Guinness Wereldrecordhouder — het grootste aquarium op aarde met 48.75 miljoen liter en een 39.6 meter breed kijkpaneel. Geschikt voor alle leeftijden.",
+        "pt": "Detentor do Record Guinness — o maior aquario da terra com 48.75 milhoes de litros e um painel de 39.6 metros de largura. Adequado para todas as idades.",
+        "ru": "Рекорд Гиннесса — крупнейший аквариум земли. Подходит для всех.",
+        "zh": "吉尼斯世界纪录保持者——地球上最大的水族馆，总水量4875万升，观察面板宽39.6米。适合所有年龄。",
+        "ar": "حامل رقم قياسي غينيس — أكبر aquarium على الأرض. مناسب لجميع الأعمار."
+      }
+    },
+    "whale_shark_voyage": {
+      "desc": {
+        "en": "Extraordinary 180-degree underwater tunnel journey completely surrounded by whale sharks — one of the most breathtaking wildlife encounters available at any theme park worldwide. Suitable for all ages.",
+        "es": "Extraordinario viaje por tunel subacuatico de 180 grados completamente rodeado de tiburones ballena. Apto para todas las edades.",
+        "fr": "Extraordinaire voyage en tunnel sous-marin a 180 degres completement entoure de requins baleines. Convient a tous les ages.",
+        "de": "Aussergewohnliche 180-Grad-Unterwassertunnel-Reise vollstandig von Walhaien umgeben. Fur alle Altersgruppen.",
+        "it": "Straordinario viaggio in tunnel subacqueo a 180 gradi completamente circondato da squali balena. Adatto a tutte le eta.",
+        "nl": "Buitengewone 180-graden onderwatergangentunnel volledig omgeven door walvishaaien. Geschikt voor alle leeftijden.",
+        "pt": "Extraordinaria viagem em tunel subaquatico de 180 graus completamente rodeado por tubaroes-baleia. Adequado para todas as idades.",
+        "ru": "Уникальный 180-градусный подводный туннель. Подходит для всех.",
+        "zh": "围绕鲸鰨鱼的180度水下隊道之旅——全球任何主题公园中最令人叹为观止的野生动物邓遇之一。适合所有年龄。",
+        "ar": "رحلة نفق تحت الماء 180 درجة محاطة بأسماك حيتان. مناسب لجميع الأعمار."
+      }
+    },
+    "ocean_kingdom_coaster": {
+      "desc": {
+        "en": "Spectacular roller coaster launching riders over and around the ocean complex with inversions and extraordinary views over Hengqin Island. The premier thrill ride. Min 130cm.",
+        "es": "Espectacular montana rusa que lanza a los pasajeros sobre el complejo oceanico con inversiones y vistas extraordinarias. Min 130cm.",
+        "fr": "Spectaculaire montagne russe lancant les passagers au-dessus du complexe oceanico avec inversions et vues extraordinaires. Min 130cm.",
+        "de": "Spektakularer Achterbahn der Fahrer uber den Ozeankomplex mit Inversionen und aussergewohnlichen Aussichten wirft. Mindestgrosse 130cm.",
+        "it": "Spettacolare montagna russa che lancia i passeggeri sopra il complesso oceanico con inversioni e viste straordinarie. Min 130cm.",
+        "nl": "Spectaculaire achtbaan die rijders over het oceaancomplex lanceert met inversies en buitengewone uitzichten. Min 130cm.",
+        "pt": "Espetacular montanha-russa lancando passageiros sobre o complexo oceanico com inversoes e vistas extraordinarias. Min 130cm.",
+        "ru": "Зрелищный коастер над океаническим комплексом. Мин 130 см.",
+        "zh": "壮观的过山车，全速飞越海洋王国建筑群，具有翻转和横琴岛公园娱的全景。最低身高130厘米。",
+        "ar": "اوتوستراد رائع فوق المجمع البحري مع انعكاسات. الحد الادنى 130 سم."
+      }
+    },
+    "deep_sea_adventure": {
+      "desc": {
+        "en": "Immersive submarine-themed dark ride voyaging to the ocean floor — encountering giant squid, anglerfish and deep sea creatures. One of the most atmospheric dark rides in China. Min 100cm.",
+        "es": "Atraccion oscura con tematica de submarino que viaja al fondo del oceano — encuentro con calamares gigantes y criaturas de las profundidades. Min 100cm.",
+        "fr": "Attraction sombre theme sous-marin voyageant vers le fond de l ocean — rencontre avec calmars geants et creatures des profondeurs. Min 100cm.",
+        "de": "Immersiver U-Boot-Themen-Darkride zur Meerestiefe — Begegnung mit Riesenkalamar und Tiefseekreaturen. Mindestgrosse 100cm.",
+        "it": "Attrazione al buio tema sottomarino che viaggia verso il fondo dell oceano. Min 100cm.",
+        "nl": "Meeslepende onderzeer thema dark ride naar de oceaanbodem. Min 100cm.",
+        "pt": "Dark ride temática de submarino em viagem ao fundo do oceano. Min 100cm.",
+        "ru": "Погружающий аттракцион на подводной лодке. Мин 100 см.",
+        "zh": "潜水艇主题暗黑游乐项目，深入海底遇见已山乌贼和深海冶异生物。最低身高100厘米。",
+        "ar": "اتراكشن dark بطابع غواصة يصل لقاع المحيط. الحد الادنى 100 سم."
+      }
+    },
+    "dolphin_paradise": {
+      "desc": {
+        "en": "Spectacular dolphin show with bottlenose and Pacific white-sided dolphins performing breathtaking acrobatic sequences. One of the most impressive marine presentations in Asia. Suitable for all ages.",
+        "es": "Espectacular espectaculo de delfines con acrobacias impresionantes. Una de las presentaciones marinas mas impresionantes de Asia. Apto para todas las edades.",
+        "fr": "Spectaculaire spectacle de dauphins avec acrobaties epoustouflantes. L une des presentations marines les plus impressionnantes d Asie. Convient a tous les ages.",
+        "de": "Spektakulare Delfinsshow mit atemberaubenden Akrobatiksequenzen. Einer der beeindruckendsten Meerspresentationen in Asien. Fur alle Altersgruppen.",
+        "it": "Spettacolare show dei delfini con sequenze acrobatiche mozzafiato. Una delle presentazioni marine piu impressionanti dell Asia. Adatto a tutte le eta.",
+        "nl": "Spectaculaire dolfijnenshow met adembenemende acrobatische sequenties. Een van de meest indrukwekkende mariene presentaties in Azie. Geschikt voor alle leeftijden.",
+        "pt": "Espetacular show de golfinhos com sequencias acrobaticas de cortar a respiracao. Uma das apresentacoes marinhas mais impressionantes da Asia. Adequado para todas as idades.",
+        "ru": "Зрелищное шоу дельфинов. Подходит для всех.",
+        "zh": "精彩的海豚表演，瘬腹海豚和太平洋白边海豚展示令人叹为观止的杂技阵列。适合所有年龄。",
+        "ar": "عرض دلافين رائع من أروع عروض البحر في آسيا. مناسب لجميع الأعمار."
+      }
+    },
+    "beluga_whale_show": {
+      "desc": {
+        "en": "Enchanting show featuring beluga whales combining swimming, singing and behaviour demonstrations. One of the most beloved shows at Chimelong Ocean Kingdom. Suitable for all ages.",
+        "es": "Encantador espectaculo con belugas combinando natacion, canto y demostraciones de comportamiento. Apto para todas las edades.",
+        "fr": "Enchanteur spectacle de belugas combinant natation, chant et demonstrations comportementales. Convient a tous les ages.",
+        "de": "Bezaubernde Belugashow mit Schwimmen, Singen und Verhaltensdemonstration. Fur alle Altersgruppen.",
+        "it": "Incantevole show di beluga con nuoto, canto e dimostrazioni comportamentali. Adatto a tutte le eta.",
+        "nl": "Betoverende beloega show met zwemmen, zingen en gedragsdemonstraties. Geschikt voor alle leeftijden.",
+        "pt": "Encantador show de belugas com natacao, canto e demonstracoes comportamentais. Adequado para todas as idades.",
+        "ru": "Чарующее шоу с белугами. Подходит для всех.",
+        "zh": "迤人的白鲸表演，展示游泳、唱歌和丰富的行为展示。适合所有年龄。",
+        "ar": "عرض ساحر لحيتان بيلوغا. مناسب لجميع الأعمار."
+      }
+    },
+    "penguin_encounter": {
+      "desc": {
+        "en": "Remarkable Antarctic habitat housing hundreds of gentoo, macaroni and king penguins — one of the largest penguin collections at any attraction worldwide. Suitable for all ages.",
+        "es": "Notable habitat antartico con cientos de pinguinos Gentoo, macaroni y reales — una de las colecciones de pinguinos mas grandes. Apto para todas las edades.",
+        "fr": "Remarquable habitat antarctique abritant des centaines de manchots — l une des plus grandes collections de manchots. Convient a tous les ages.",
+        "de": "Bemerkenswerter antarktischer Lebensraum mit Hunderten von Pinguinen — eine der grossten Pinguinsammlungen. Fur alle Altersgruppen.",
+        "it": "Notevole habitat antartico con centinaia di pinguini — una delle piu grandi collezioni di pinguini. Adatto a tutte le eta.",
+        "nl": "Opmerkelijk Antarctisch habitat met honderden pinguins — een van de grootste pinguincollecties. Geschikt voor alle leeftijden.",
+        "pt": "Notavel habitat antartico com centenas de pinguins — uma das maiores colecoes de pinguins. Adequado para todas as idades.",
+        "ru": "Замечательный антарктический обитатель. Подходит для всех.",
+        "zh": "展示数百只源间丁鹅、马卡鹅和国王企鹅的极地栖息地——全球最大的企鹅展示之一。适合所有年龄。",
+        "ar": "موئل قطبي رائع مع مئات طيور البطريق. مناسب لجميع الأعمار."
+      }
+    },
+    "polar_ocean_world": {
+      "desc": {
+        "en": "Magnificent polar zone with beluga whales, walruses and Arctic wildlife in recreated habitats with underwater viewing windows. Suitable for all ages.",
+        "es": "Magnifico mundo polar con belugas, morsas y fauna artica en habitats recreados con ventanas de vision subacuatica. Apto para todas las edades.",
+        "fr": "Magnifique monde polaire avec belugas, morses et faune arctique dans des habitats recrees. Convient a tous les ages.",
+        "de": "Magnificente Polarwelt mit Beluga-Walen, Walrossen und Arktis-Tierwelt in nachgebauten Lebensraumen. Fur alle Altersgruppen.",
+        "it": "Magnifico mondo polare con beluga, trichechi e fauna artica in habitat ricreati. Adatto a tutte le eta.",
+        "nl": "Magnificente polaire wereld met beloega's, walrussen en arctische dieren in nagebootste habitats. Geschikt voor alle leeftijden.",
+        "pt": "Magnifico mundo polar com belugas, morsas e fauna arctica em habitats recriados. Adequado para todas as idades.",
+        "ru": "Полярная зона с белугами и моржами. Подходит для всех.",
+        "zh": "展示白鲸、海象和北极野生动物的壮观极地国度，设有水下观察窗。适合所有年龄。",
+        "ar": "منطقة قطبية ضخمة مع حيتان بيلوغا وفظة بحر وحيوانات القطب الشمالي."
+      }
+    },
+    "manta_ray_bay": {
+      "desc": {
+        "en": "Open bay habitat where giant manta rays glide through vast lagoon waters — one of the most serene and visually stunning wildlife encounters at Chimelong. Suitable for all ages.",
+        "es": "Habitat de bahia abierta donde las rayas mantaraya gigantes se deslizan por las aguas de la laguna. Apto para todas las edades.",
+        "fr": "Habitat de baie ouverte ou les raies manta geantes glissent dans les eaux du lagon. Convient a tous les ages.",
+        "de": "Offener Buchtlebensraum wo riesige Mantas durch Lagunenwasser gleiten. Fur alle Altersgruppen.",
+        "it": "Habitat di baia aperta dove le mante giganti scivolano nelle acque della laguna. Adatto a tutte le eta.",
+        "nl": "Open baai habitat waar reusachtige manta's door lagune waters glijden. Geschikt voor alle leeftijden.",
+        "pt": "Habitat de baia aberta onde mantas gigantes deslizam pelas aguas da lagoa. Adequado para todas as idades.",
+        "ru": "Открытая бухта с гигантскими мантами. Подходит для всех.",
+        "zh": "开放式海湾栖息地，巨型踪魟在宽阔的湟湖中凸翅游弌。适合所有年龄。",
+        "ar": "موئل خليج مفتوح حيث تحلق أسماك المنتا العملاقة. مناسب لجميع الأعمار."
+      }
+    },
+    "ocean_tunnel_walk": {
+      "desc": {
+        "en": "Walk-through transparent tube at the bottom of a massive aquarium tank completely surrounded by sharks, rays and tropical fish. Extraordinarily immersive. Suitable for all ages.",
+        "es": "Tubo transparente a pie de caminar en el fondo de un tanque de acuario masivo rodeado de tiburones y rayas. Extraordinariamente inmersivo. Apto para todas las edades.",
+        "fr": "Tube transparent a pied au fond d un grand aquarium entoure de requins et raies. Extraordinairement immersif. Convient a tous les ages.",
+        "de": "Zu Fuss begehbares transparentes Rohr am Boden eines riesigen Aquariumtanks umgeben von Haien und Rochen. Fur alle Altersgruppen.",
+        "it": "Tubo trasparente a piedi sul fondo di un enorme vasca dell acquario circondato da squali e razze. Adatto a tutte le eta.",
+        "nl": "Doorgangstransparant buis aan de bodem van een massieve aquariumtank omgeven door haaien en roggen. Geschikt voor alle leeftijden.",
+        "pt": "Tubo transparente a pe na base de um tanque de aquario massivo rodeado por tubaroes e arraias. Adequado para todas as idades.",
+        "ru": "Бесплатный прозрачный туннель на дне аквариума. Подходит для всех.",
+        "zh": "步行穿越巨型水族馆底部透明隊道，四周旋绕着鲨鱼和營单鱼。适合所有年龄。",
+        "ar": "ممشى عبر أنبوب شفافة في قاع حوض ضخم. مناسب لجميع الأعمار."
+      }
+    },
+    "sea_lion_theater": {
+      "desc": {
+        "en": "Hilarious sea lion show with California sea lions performing comedy routines and amazing behaviour demonstrations. Most entertaining family show at the park. Suitable for all ages.",
+        "es": "Hilarante espectaculo de leones marinos con rutinas comicas y asombrosas demostraciones. Apto para todas las edades.",
+        "fr": "Hilarant spectacle de lions de mer avec routines comiques et demonstrations etonnantes. Convient a tous les ages.",
+        "de": "Witzige Seelowenshow mit Komikroutinen und erstaunlichen Demonstrationen. Fur alle Altersgruppen.",
+        "it": "Esilarante show di leoni marini con routine comiche e straordinarie dimostrazioni. Adatto a tutte le eta.",
+        "nl": "Hilarische zeeleeuwshow met komische routines en verbluffende demonstraties. Geschikt voor alle leeftijden.",
+        "pt": "Hilariante show de leoes marinhos com rotinas comicas e demonstracoes incriveis. Adequado para todas as idades.",
+        "ru": "Забавное шоу с морскими львами. Подходит для всех.",
+        "zh": "海狮表演带来欢声笑语和令人叹为观止的行为展示。适合所有年龄。",
+        "ar": "عرض أسود البحر المضحك مع عروض كوميدية. مناسب لجميع الأعمار."
+      }
+    },
+    "walrus_world": {
+      "desc": {
+        "en": "Spectacular walrus habitat with Pacific walruses — feeding sessions and keeper talks provide extraordinary close encounters. Suitable for all ages.",
+        "es": "Espectacular habitat de morsas con morsas del Pacifico — sesiones de alimentacion y charlas ofrecen encuentros cercanos extraordinarios. Apto para todas las edades.",
+        "fr": "Spectaculaire habitat de morses avec morses du Pacifique — sessions de nourrissage et discussions offrent des rencontres rapprochees extraordinaires. Convient a tous les ages.",
+        "de": "Spektakularer Walrosslebensraum mit Pazifik-Walrossen — Futerzeiten und Trainergespräche bieten aussergewohnliche Nahbegegnungen. Fur alle Altersgruppen.",
+        "it": "Spettacolare habitat di trichechi con trichechi del Pacifico. Adatto a tutte le eta.",
+        "nl": "Spectaculair walrus habitat met Stille Oceaan walrussen. Geschikt voor alle leeftijden.",
+        "pt": "Espetacular habitat de morsas com morsas do Pacifico. Adequado para todas as idades.",
+        "ru": "Зрелищный ареал с тихоокеанскими моржами. Подходит для всех.",
+        "zh": "安容太平洋海象的壮观栖息地，喂食时间和饲养员讲解提供独特的近距接触。适合所有年龄。",
+        "ar": "موئل فظة بحر رائع. مناسب لجميع الأعمار."
+      }
+    },
+    "pirate_galleon_ride": {
+      "desc": {
+        "en": "Classic swinging ship ride with pirate adventure theming — soaring back and forth at increasing height. Min 120cm.",
+        "es": "Clasico barco pirata balanceandose con altura creciente. Min 120cm.",
+        "fr": "Classique bateau pirate se balancant a hauteur croissante. Min 120cm.",
+        "de": "Klassisches Piratenschiff bei zunehmender Hohe schaukelnd. Mindestgrosse 120cm.",
+        "it": "Classica nave pirata che dondola ad altezza crescente. Min 120cm.",
+        "nl": "Klassiek piratenschip bij toenemende hoogte slingerend. Min 120cm.",
+        "pt": "Classico navio pirata balancando com altura crescente. Min 120cm.",
+        "ru": "Классический маятник. Мин 120 см.",
+        "zh": "经典海盗船项目。最低身高120厘米。",
+        "ar": "سفينة قراصنة كلاسيكية. الحد الادنى 120 سم."
+      }
+    },
+    "aqua_loop_slides": {
+      "desc": {
+        "en": "Thrilling water slides including an iconic vertical loop in a transparent tube — one of the most exciting water slide attractions in China. Min 120cm.",
+        "es": "Emocionantes toboganes acuaticos incluyendo un iconico bucle vertical en tubo transparente. Min 120cm.",
+        "fr": "Palpitants toboggans aquatiques incluant une boucle verticale iconique en tube transparent. Min 120cm.",
+        "de": "Aufregende Wasserrutschen einschliesslich einer ikonischen vertikalen Schlaufe in transparentem Rohr. Mindestgrosse 120cm.",
+        "it": "Emozionanti scivoli acquatici con un iconico loop verticale in tubo trasparente. Min 120cm.",
+        "nl": "Spannende waterslides inclusief een iconische verticale lus in transparante buis. Min 120cm.",
+        "pt": "Emocionantes escorregadores aquaticos incluindo um iconico loop vertical em tubo transparente. Min 120cm.",
+        "ru": "Захватывающие водные горки с вертикальной петлей. Мин 120 см.",
+        "zh": "刺激水滑梯，包括标志性透明圆管垂直环形滑道——中国最激算的水上滑梯之一。最低身高120厘米。",
+        "ar": "زحاليق مائية مثيرة تشمل حلقة عمودية شفافة. الحد الادنى 120 سم."
+      }
+    },
+    "waterslide_track_of_walrus_mountain": {
+      "desc": {
+        "en": "Multi-slide water attraction on the iconic Walrus Mountain structure — several slides of different speeds and intensities descending from the summit. Min 110cm.",
+        "es": "Atraccion de multiples toboganes en la iconica estructura de Walrus Mountain. Min 110cm.",
+        "fr": "Attraction multi-toboggan sur l iconique structure de Walrus Mountain. Min 110cm.",
+        "de": "Multi-Rutsch-Attraktion auf der ikonischen Walrus Mountain Struktur. Mindestgrosse 110cm.",
+        "it": "Attrazione multi-scivolo sulla struttura iconica di Walrus Mountain. Min 110cm.",
+        "nl": "Multi-slide attractie op de iconische Walrus Mountain structuur. Min 110cm.",
+        "pt": "Atracao multi-escorregador na iconica estrutura de Walrus Mountain. Min 110cm.",
+        "ru": "Многогорочный водный аттракцион на знаменитой горе. Мин 110 см.",
+        "zh": "标志性海象山结构上的多滑道水上游乐项目。最低身高110厘米。",
+        "ar": "اتراكشن زحاليق متعددة على جبل Walrus Mountain. الحد الادنى 110 سم."
+      }
+    }
+  },
+  "food": {
+    "food_penguin_buffet": {
+      "desc": {
+        "en": "Spectacular restaurant with floor-to-ceiling windows overlooking the penguin habitat — international and Chinese buffet while hundreds of penguins waddle and swim just metres away. A unique dining experience.",
+        "es": "Espectacular restaurante con ventanas de suelo a techo con vistas al habitat de pinguinos — buffet internacional y chino mientras cientos de pinguinos caminan y nadan a pocos metros.",
+        "fr": "Spectaculaire restaurant avec fenetres du sol au plafond sur l habitat des pingouins — buffet international et chinois pendant que des centaines de pingouins marchent et nagent.",
+        "de": "Spektakulares Restaurant mit raumhohen Fenstern zum Pinguinlebensraum — internationales und chinesisches Buffet wahrend Hunderte von Pinguinen watscheln und schwimmen.",
+        "it": "Spettacolare ristorante con finestre a tutta altezza sull habitat dei pinguini — buffet internazionale e cinese mentre centinaia di pinguini camminano e nuotano.",
+        "nl": "Spectaculair restaurant met vloer tot plafond ramen uitkijkend op het pinguinhabitat — internationaal en Chinees buffet terwijl honderden pinguins rondscharrelen.",
+        "pt": "Espetacular restaurante com janelas do chao ao tecto para o habitat dos pinguins — buffet internacional e chines enquanto centenas de pinguins caminham e nadam.",
+        "ru": "Зрелищный ресторан с видом на пингвинов.",
+        "zh": "拥有落地窗的壮观餐厅，展望企鹅栖息地——一边享用中式餐刀自助餐，一边观赏数百只企鹅蹇步和游泳。",
+        "ar": "مطعم رائع بنوافذ مطلة على موئل طيور البطريق."
+      }
+    },
+    "food_spaceship_restaurant": {
+      "desc": {
+        "en": "Dramatic futuristic restaurant inside the iconic Spaceship structure — Chinese set meals, dim sum and international dishes with views over the entire park.",
+        "es": "Dramatico restaurante futurista dentro de la iconica estructura Nave Espacial — menus chinos, dim sum y platos internacionales con vistas sobre el parque.",
+        "fr": "Dramatique restaurant futuriste dans la structure iconique Vaisseau Spatial — menus chinois, dim sum et plats internationaux avec vues sur le parc.",
+        "de": "Dramatisches futuristisches Restaurant im ikonischen Raumschiff-Gebaude — chinesische Menus, Dim Sum und internationale Gerichte mit Parkaussichten.",
+        "it": "Drammatico ristorante futuristico all interno della struttura astronave iconica — menu cinesi, dim sum e piatti internazionali con viste sul parco.",
+        "nl": "Dramatisch futuristisch restaurant in het iconische Ruimteschip gebouw — Chinese menus, dim sum en internationale gerechten met parkoverzicht.",
+        "pt": "Dramatico restaurante futurista dentro da estrutura iconica Nave Espacial — menus chineses, dim sum e pratos internacionais com vistas sobre o parque.",
+        "ru": "Футуристический ресторан внутри отеля.",
+        "zh": "山包罗山内寍标志性宇宙飞船建筑的奕为未来主题餐厅。",
+        "ar": "مطعم مستقبلي رائع داخل مبنى السفينة الفضائية."
+      }
+    },
+    "food_seafood_market": {
+      "desc": {
+        "en": "Vibrant seafood market-style restaurant with tanks of live seafood — prawns, crabs and fish prepared in traditional Cantonese styles. One of the most authentic dining experiences at Chimelong.",
+        "es": "Vibrante restaurante estilo mercado de mariscos con tanques de mariscos vivos — gambas, cangrejos y pescado en estilos cantoneses tradicionales.",
+        "fr": "Vibrant restaurant style marche aux fruits de mer avec des bassins de fruits de mer vivants — crevettes, crabes et poisson en styles cantonais traditionnels.",
+        "de": "Lebhaftes Meeresfruchte-Marktrestaurant mit lebenden Meeresfruchten — Garnelen, Krabben und Fisch in traditionellen kantonesischen Stilen.",
+        "it": "Vivace ristorante stile mercato del pesce con vasche di frutti di mare vivi — gamberi, granchi e pesce in stili cantonesi tradizionali.",
+        "nl": "Levendig zeevruchten markt-stijl restaurant met levende zeevruchten — garnalen, krabben en vis in traditionele Kantonese stijlen.",
+        "pt": "Vibrante restaurante estilo mercado de frutos do mar com tanques de frutos do mar vivos — camaroes, caranguejos e peixe em estilos Cantoneses tradicionais.",
+        "ru": "Рыбный рынок с живыми морепродуктами.",
+        "zh": "精彩的海鲜市场式餐厅，设有活鲜蟹池——虽大虽小虽女顺着传统粵式烹饪。",
+        "ar": "مطعم سوق المأكولات البحرية النابض مع أحواض المأكولات البحرية الحية."
+      }
+    },
+    "food_zhuhai_restaurant_buffet": {
+      "desc": {
+        "en": "Generous Cantonese buffet celebrating the seafood traditions of Zhuhai — freshly prepared dim sum, roasted meats, seafood and traditional Cantonese desserts.",
+        "es": "Generoso buffet cantonés que celebra las tradiciones de mariscos de Zhuhai — dim sum fresco, carnes asadas y postres cantoneses tradicionales.",
+        "fr": "Genereux buffet cantonais celebrant les traditions de fruits de mer de Zhuhai — dim sum frais, viandes rotis et desserts cantonais traditionnels.",
+        "de": "Grosszugiges kantonesisches Buffet das die Meeresfruchte-Traditionen Zhuhais feiert — frisch zubereitetes Dim Sum, Grillwaren und kantonesische Desserts.",
+        "it": "Generoso buffet cantonese che celebra le tradizioni dei frutti di mare di Zhuhai — dim sum fresco, carni arrosto e dolci cantonesi tradizionali.",
+        "nl": "Royaal Kantonees buffet dat de zeevruchten tradities van Zhuhai viert — vers bereide dim sum, geroosterd vlees en traditionele Kantonese desserts.",
+        "pt": "Generoso buffet Cantonese que celebra as tradicoes de frutos do mar de Zhuhai — dim sum fresco, carnes assadas e sobremesas Cantonesas tradicionais.",
+        "ru": "Щедрый кантонский буфет.",
+        "zh": "广东炎热的籤式自助餐，庆祝珠海海鲜底蕴传统——现点现蝲的点心、烧儕和籤式甲题。",
+        "ar": "بوفيه كانتوني سخي يحتفي بتقاليد المأكولات البحرية في زهواي."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_spaceship": {
+      "desc": {
+        "en": "The most iconic hotel in China — a magnificent futuristic spacecraft-shaped structure with ocean-view rooms, themed pools, aquarium-view suites and the most extraordinary hotel architecture in the country.",
+        "es": "El hotel mas iconico de China — una magnificia estructura en forma de nave espacial futurista con habitaciones con vistas al oceano y suites con vista al acuario.",
+        "fr": "L hotel le plus iconique de Chine — une magnificente structure en forme de vaisseau spatial futuriste avec chambres vue ocean et suites vue aquarium.",
+        "de": "Das ikonischste Hotel Chinas — eine magnificente futuristische Raumschiff-Form mit Meerblick-Zimmern und Aquarium-Suiten.",
+        "it": "L hotel piu iconico della Cina — una magnifica struttura futuristica a forma di astronave con camere vista oceano e suite vista acquario.",
+        "nl": "Het meest iconische hotel van China — een prachtige futuristische ruimteschip-vormige structuur met oceanzichtkamers en aquarium-suites.",
+        "pt": "O hotel mais iconico da China — uma magnifica estrutura futuristica em forma de nave espacial com quartos com vista oceano e suites com vista aquario.",
+        "ru": "Самый иконический отель Китая в форме космического корабля.",
+        "zh": "中国最标志性的酒店——状如飞醟的宇宙山包飞船建筑，设有海景客房和水族馆景观套房。",
+        "ar": "أكثر فندق أيقوني في الصين — مبنى على شكل سفينة فضائية ضخمة."
+      }
+    },
+    "hotel_penguin": {
+      "desc": {
+        "en": "Charming penguin-themed hotel with penguin rooms, an indoor penguin habitat viewable from the lobby and direct ocean kingdom access. Most delightful family hotel experience in China.",
+        "es": "Encantador hotel con tematica de pinguinos con habitaciones de pinguinos y habitat de pinguinos visible desde el vestibulo. La experiencia de hotel familiar mas encantadora de China.",
+        "fr": "Charmant hotel theme pingouin avec chambres pingouin et habitat interieur de pingouins visible depuis le hall. L experience d hotel familiale la plus delicieuse de Chine.",
+        "de": "Charmantes Pinguin-Themenhotel mit Pinguin-Zimmern und einem Innen-Pinguinlebensraum der von der Lobby aus sichtbar ist. Herrlichstes Familienhotel-Erlebnis in China.",
+        "it": "Affascinante hotel a tema pinguino con camere pinguino e habitat pinguino interno visibile dalla hall. L esperienza di hotel familiare piu deliziosa della Cina.",
+        "nl": "Charmant pinguin thema hotel met pinguinkamers en een binnenste pinguinhabitat zichtbaar vanuit de lobby. Meest heerlijke familiehotelervaring in China.",
+        "pt": "Encantador hotel tema pinguim com quartos pinguim e habitat interior de pinguins visivel do lobby. A mais deliciosa experiencia de hotel familiar na China.",
+        "ru": "Очаровательный отель с пингвинами видными из холла.",
+        "zh": "迷人的企鹅主题酒店，设有企鹅主题房间和可从大堂观赏的室内企鹅栖息地。",
+        "ar": "فندق بطابع طيور البطريق ساحر مع موئل غرف البطريق مرئي من اللوبي."
+      }
+    },
+    "hotel_hyatt_regency_hengqin": {
+      "desc": {
+        "en": "Elegant 5-star international hotel on Hengqin Island — beautifully appointed rooms, multiple restaurants, full spa and South China Sea views. Finest international hotel near Chimelong.",
+        "es": "Elegante hotel internacional de 5 estrellas en la Isla Hengqin — habitaciones magnificamente equipadas, restaurantes, spa completo y vistas al Mar de China Meridional.",
+        "fr": "Elegant hotel international 5 etoiles sur l ile de Hengqin — chambres magnifiquement equipees, restaurants, spa complet et vues sur la mer de Chine meridionale.",
+        "de": "Elegantes internationales 5-Sterne-Hotel auf Hengqin Island — wunderschon ausgestattete Zimmer, Restaurants, Vollservice-Spa und Sudchinesischen Meer-Aussichten.",
+        "it": "Elegante hotel internazionale 5 stelle sull isola di Hengqin — camere magnificamente arredate, ristoranti, spa completa e viste sul Mar Cinese Meridionale.",
+        "nl": "Elegant internationaal 5-sterrenhotel op Hengqin Island — prachtig ingerichte kamers, restaurants, volledig spa en uitzicht op de Zuid-Chinese Zee.",
+        "pt": "Elegante hotel internacional de 5 estrelas na Ilha Hengqin — quartos magnificamente equipados, restaurantes, spa completo e vistas para o Mar do Sul da China.",
+        "ru": "Элегантный 5-звёздный отель с видом на Южно-Китайское море.",
+        "zh": "横琴岛优雅的天山五星级国际酒店——屋配完善的客房、多家餐厅、全套Spa和南海美景。",
+        "ar": "فندق دولي 5 نجوم أنيق على جزيرة هنغقين مع إطلالات على بحر الصين الجنوبي."
+      }
+    },
+    "hotel_hengqin_bay": {
+      "desc": {
+        "en": "Stylish 4-star hotel on the Hengqin Island waterfront — modern rooms, pool, gym and beautiful bay views at competitive prices. Excellent value near Chimelong.",
+        "es": "Elegante hotel de 4 estrellas en el paseo maritimo de la Isla Hengqin — habitaciones modernas, piscina y hermosas vistas de la bahia a precios competitivos.",
+        "fr": "Elegant hotel 4 etoiles sur le front de mer de l ile de Hengqin — chambres modernes, piscine et belles vues sur la baie a prix competitifs.",
+        "de": "Stilvolles 4-Sterne-Hotel am Hengqin Island Uferpromenade — moderne Zimmer, Pool und schoner Buchtblick zu wettbewerbsfahigen Preisen.",
+        "it": "Elegante hotel 4 stelle sul lungomare dell isola di Hengqin — camere moderne, piscina e belle viste sulla baia a prezzi competitivi.",
+        "nl": "Stijlvol 4-sterrenhotel aan de kade van Hengqin Island — moderne kamers, zwembad en prachtig uitzicht op de baai tegen concurrerende prijzen.",
+        "pt": "Hotel de 4 estrelas elegante na frente maritima da Ilha Hengqin — quartos modernos, piscina e belas vistas para a baia a precos competitivos.",
+        "ru": "Стильный 4-звёздный отель с видом на залив.",
+        "zh": "横琴岛滨水区时尚四星级酒店——现代客房、泳池和唐山浾美景。麵山路性价比高。",
+        "ar": "فندق 4 نجوم أنيق على واجهة مائية في جزيرة هنغقين."
+      }
+    }
+  }
+}
