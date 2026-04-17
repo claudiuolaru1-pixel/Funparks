@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_californian",
+    "name": "Disney's Grand Californian Hotel & Spa",
+    "description": "The most magnificent and prestigious hotel at the Disneyland Resort — Disney's Grand Californian Hotel & Spa is a breathtaking Arts and Crafts-style resort hotel inspired by the great lodges of the American West, featuring a stunning six-story atrium lobby, direct private entrance to Disney California Adventure, multiple award-winning restaurants including Napa Rose, a spectacular pool complex and some of the finest theming of any hotel in North America.",
+    "image": "assets/images/disneyland_park/hotel_californian.png",
+    "lat": 33.8067,
+    "lng": -117.9201,
+    "rating": 4.9,
+    "topPick": true,
+    "website": "https://disneyland.disney.go.com/hotels/grand-californian-hotel/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegantly themed Arts and Crafts room with garden or courtyard views.",
+        "pricePerNight": 650,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "pool_view_room",
+        "name": "Pool View Room",
+        "description": "Premium room overlooking the spectacular Redwood Pool complex.",
+        "pricePerNight": 820,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Magnificent suite with private balcony and complimentary breakfast.",
+        "pricePerNight": 1400,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_disneyland",
+    "name": "Disneyland Hotel",
+    "description": "The original Disney hotel and a Southern California landmark since 1955 — the Disneyland Hotel is a beloved classic resort hotel adjacent to the Downtown Disney District featuring elaborately themed rooms, multiple pools, character dining and the longest history of any Disney hotel in the world. One of the most nostalgic and cherished Disney resort hotels.",
+    "image": "assets/images/disneyland_park/hotel_disneyland.png",
+    "lat": 33.8089,
+    "lng": -117.9235,
+    "rating": 4.6,
+    "topPick": true,
+    "website": "https://disneyland.disney.go.com/hotels/disneyland-hotel/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Beautifully Disney-themed room with courtyard or garden views.",
+        "pricePerNight": 420,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "tower_room",
+        "name": "Magic Kingdom Tower Room",
+        "description": "Premium tower room with Disneyland Resort views.",
+        "pricePerNight": 560,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Spacious suite with resort views and complimentary breakfast.",
+        "pricePerNight": 920,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_paradise_pier",
+    "name": "Disney's Pixar Place Hotel",
+    "description": "A vibrant Pixar-themed hotel at the Disneyland Resort — Pixar Place Hotel features elaborate Pixar character theming throughout, multiple pools, Pixar character dining and convenient access to both Disneyland and Disney California Adventure. The most fun and family-friendly hotel at the Disneyland Resort.",
+    "image": "assets/images/disneyland_park/hotel_paradise_pier.png",
+    "lat": 33.8073,
+    "lng": -117.9211,
+    "rating": 4.4,
+    "topPick": false,
+    "website": "https://disneyland.disney.go.com/hotels/pixar-place-hotel/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Fun Pixar-themed room with resort or courtyard views.",
+        "pricePerNight": 360,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "pool_view_room",
+        "name": "Pool View Room",
+        "description": "Room with pool views and Pixar character decor.",
+        "pricePerNight": 440,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Spacious Pixar suite with separate living area and breakfast.",
+        "pricePerNight": 720,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_anaheim_marriott",
+    "name": "Anaheim Marriott",
+    "description": "One of Anaheim's finest and most well-regarded hotels — the Anaheim Marriott is a prestigious 4-star hotel just 10 minutes walk from Disneyland, offering elegant rooms, a spectacular pool, multiple restaurants, a full fitness centre and some of the best non-Disney hotel service in Anaheim. Excellent value compared to on-site Disney hotels.",
+    "image": "assets/images/disneyland_park/hotel_anaheim_marriott.png",
+    "lat": 33.8003,
+    "lng": -117.9185,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "https://www.marriott.com/hotels/travel/laxah-anaheim-marriott/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant 4-star room with city or pool views and free WiFi.",
+        "pricePerNight": 280,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Premium room with upgraded furnishings and Anaheim views.",
+        "pricePerNight": 360,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Spacious suite with panoramic views and complimentary breakfast.",
+        "pricePerNight": 580,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

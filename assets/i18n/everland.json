@@ -1,0 +1,364 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Everland is South Korea's largest and most beloved theme park, located in Yongin, Gyeonggi-do, approximately 40 kilometres south of Seoul. Opened in 1976 as a part of the Samsung group's resort complex, Everland is South Korea's number one tourist destination and one of the most visited theme parks in Asia. The park is home to T-Express — one of the greatest wooden roller coasters ever built and consistently ranked among the world's top five coasters — along with the legendary Gyro Drop tower, a spectacular drive-through safari and Korea's most famous giant panda habitat. Attracts over 8 million visitors annually.",
+      "es": "Everland es el parque tematico mas grande y querido de Corea del Sur, ubicado en Yongin, Gyeonggi-do, a unos 40 kilometros al sur de Seoul. Inaugurado en 1976, es el destino turistico numero uno de Corea del Sur y uno de los parques tematicos mas visitados de Asia. Hogar de T-Express, considerado uno de los mejores coasters de madera jamas construidos. Atrae mas de 8 millones de visitantes anuales.",
+      "fr": "Everland est le plus grand et le plus aime des parcs a themes de Coree du Sud, situe a Yongin, Gyeonggi-do, a environ 40 kilometres au sud de Seoul. Ouvert en 1976, c est la premiere destination touristique de Coree du Sud et l un des parcs a themes les plus visites d Asie. Accueille plus de 8 millions de visiteurs par an.",
+      "de": "Everland ist Sudkoreas grosster und beliebtester Themenpark in Yongin, Gyeonggi-do, etwa 40 Kilometer sudlich von Seoul. 1976 eroffnet ist er Sudkoreas Nummer-eins-Touristenziel und einer der meistbesuchten Themenparks Asiens. Uber 8 Millionen Besucher jahrlich.",
+      "it": "Everland e il piu grande e amato parco a tema della Corea del Sud, situato a Yongin, Gyeonggi-do, a circa 40 chilometri a sud di Seoul. Aperto nel 1976 e la prima destinazione turistica della Corea del Sud e uno dei parchi a tema piu visitati dell Asia. Oltre 8 milioni di visitatori annui.",
+      "nl": "Everland is het grootste en meest geliefde themapark van Zuid-Korea in Yongin, Gyeonggi-do, ongeveer 40 kilometer ten zuiden van Seoul. Geopend in 1976 is het de nummer een toeristische bestemming van Zuid-Korea en een van de meest bezochte themaparken van Azie. Meer dan 8 miljoen bezoekers per jaar.",
+      "pt": "Everland e o maior e mais amado parque tematico da Coreia do Sul em Yongin, Gyeonggi-do, a cerca de 40 quilometros a sul de Seoul. Aberto em 1976 e o destino turistico numero um da Coreia do Sul e um dos parques tematicos mais visitados da Asia. Mais de 8 milhoes de visitantes anuais.",
+      "ru": "Everland — крупнейший и любимый тематический парк Южной Кореи, в 40 км от Сеула. Открыт в 1976 году. Более 8 млн посетителей в год.",
+      "zh": "爱宝乐园是韩国最大、最受欢迎的主题公园，位于首尔以南约40公里的京畿道龙仁市。公园于1976年开放，是韩国第一大旅游目的地。每年吸引逾800万游客。",
+      "ar": "Everland هو أكبر وأحب متنزهات كوريا الجنوبية، في Yongin على بعد 40 كم من سيول. افتتح 1976 ويستقبل أكثر من 8 ملايين زائر سنويا."
+    },
+    "ov_highlights_body": {
+      "en": "T-Express is one of the greatest wooden roller coasters ever built — consistently ranked top five in the world with a record 77-degree drop. Gyro Drop at 70 metres is one of the tallest and most terrifying drop towers in Asia. Safari World is the most spectacular drive-through animal safari at any theme park in Asia. Panda World is one of only a handful of places in Korea to see giant pandas. Caribbean Bay is Korea's largest water park. The tulip garden transforms the park each spring into one of Korea's most beautiful seasonal destinations. Everland operates year-round including spectacular winter illumination festivals.",
+      "es": "T-Express es uno de los mejores coasters de madera jamas construidos — consistentemente en el top cinco mundial. Gyro Drop con 70 metros es una de las torres de caida mas aterradoras de Asia. Safari World es el safari de animales mas espectacular de cualquier parque tematico en Asia. Panda World es uno de los pocos lugares de Corea para ver pandas gigantes.",
+      "fr": "T-Express est l une des meilleures montagnes russes en bois jamais construites — regulierement dans le top cinq mondial. Gyro Drop a 70 metres est l une des tours de chute les plus terrifiantes d Asie. Safari World est le safari animal en voiture le plus spectaculaire d Asie. Panda World est l un des rares endroits en Coree pour voir des pandas geants.",
+      "de": "T-Express ist eine der besten je gebauten Holzachterbahnen — regelmaessig unter den weltweiten Top Funf. Gyro Drop bei 70 Metern ist einer der erschreckendsten Fallturme Asiens. Safari World ist die spektakularste Tier-Drive-Through-Safari in Asien. Panda World ist einer der wenigen Orte in Korea um Riesenpandas zu sehen.",
+      "it": "T-Express e una delle migliori montagne russe in legno mai costruite — regolarmente nella top cinque mondiale. Gyro Drop a 70 metri e una delle piu terrificanti torri di caduta dell Asia. Safari World e il safari animale piu spettacolare di qualsiasi parco a tema in Asia. Panda World e uno dei pochi posti in Corea per vedere i panda giganti.",
+      "nl": "T-Express is een van de beste ooit gebouwde houten achtbanen — regelmatig in de wereldwijde top vijf. Gyro Drop bij 70 meter is een van de meest angstaanjagende valtorens van Azie. Safari World is de meest spectaculaire auto safari in Azie. Panda World is een van de weinige plaatsen in Korea om grote pandas te zien.",
+      "pt": "T-Express e uma das melhores montanhas-russas de madeira alguma vez construidas — regularmente no top cinco mundial. Gyro Drop a 70 metros e uma das mais aterrorizantes torres de queda da Asia. Safari World e o safari animal mais espetacular de qualquer parque tematico na Asia. Panda World e um dos poucos sitios na Coreia para ver pandas gigantes.",
+      "ru": "T-Express — один из лучших деревянных коастеров. Входит в мировый ТОП-5. Gyro Drop 70 м. Safari World — самое зрелищное сафари в Азии. Panda World — гигантские панды.",
+      "zh": "T-Express是有史以来最伟大的木质过山车之一，长期位居全球前五。陷落楚高70米。野生动物世界是亚洲最壮观的主题公园创车游艇。熊猫世界是韩国极少数能见到大熊猫的地方。",
+      "ar": "T-Express من أفضل اوتوسترادات خشبية. Gyro Drop 70 م. Safari World أروع سفاري في آسيا. Panda World من الأماكن النادرة لرؤية الباندا العملاق."
+    },
+    "ov_did_you_know_body": {
+      "en": "T-Express at Everland has been ranked as one of the top five roller coasters in the world by multiple global enthusiast organisations for over a decade. Everland's Gyro Drop tower held the Guinness World Record for the world's tallest drop tower when it opened in 1996. Everland is operated by Samsung C&T Corporation making it part of the Samsung conglomerate. The park's tulip festival each spring features over 1.5 million tulip bulbs. Everland has operated a resident giant panda programme since 2016. Safari World at Everland is one of only a few drive-through safari experiences at any theme park in the world.",
+      "es": "T-Express ha sido clasificada como uno de los mejores coasters del mundo durante mas de una decada. La torre Gyro Drop tenia el Record Guinness cuando abrio en 1996. Everland es operado por Samsung C&T. El festival de tulipanes presenta mas de 1.5 millones de bulbos de tulipan. Everland tiene un programa de pandas gigantes residentes desde 2016.",
+      "fr": "T-Express a ete classe comme l une des meilleures montagnes russes au monde pendant plus d une decennie. La tour Gyro Drop detenait le Record Guinness a son ouverture en 1996. Everland est opere par Samsung C&T. Le festival des tulipes presente plus de 1.5 million de bulbes de tulipes. Everland a un programme de pandas geants residants depuis 2016.",
+      "de": "T-Express wurde uber ein Jahrzehnt lang als eine der besten Achterbahnen der Welt eingestuft. Der Gyro Drop Turm hatte bei seiner Eroffnung 1996 den Guinness-Weltrekord. Everland wird von Samsung C&T betrieben. Das Tulipenfestival zeigt uber 1.5 Millionen Tulpenzwiebeln. Everland hat seit 2016 ein Riesenpanda-Programm.",
+      "it": "T-Express e stata classificata come una delle migliori montagne russe al mondo per piu di un decennio. La torre Gyro Drop deteneva il Record Guinness alla sua apertura nel 1996. Everland e gestita da Samsung C&T. Il festival dei tulipani presenta oltre 1.5 milioni di bulbi di tulipano. Everland ha un programma di panda giganti residenti dal 2016.",
+      "nl": "T-Express is meer dan een decennium als een van de beste achtbanen ter wereld geklassificeerd. De Gyro Drop toren hield het Guinness Wereldrecord bij opening in 1996. Everland wordt beheerd door Samsung C&T. Het tulpenfeest heeft meer dan 1.5 miljoen tulpenbollen. Everland heeft sinds 2016 een resident reuzenpanda programma.",
+      "pt": "T-Express foi classificada como uma das melhores montanhas-russas do mundo por mais de uma decada. A torre Gyro Drop detinha o Record Guinness na abertura em 1996. Everland e operada pela Samsung C&T. O festival das tulipas apresenta mais de 1.5 milhoes de bolbos de tulipas. Everland tem um programa de pandas gigantes residentes desde 2016.",
+      "ru": "T-Express более 10 лет в мировом ТОП-5. Gyro Drop установил рекорд Гиннесса в 1996 г. Тюльпановый фестиваль — 1.5 млн луковиц.",
+      "zh": "T-Express十多年来一直被列为全球十佳过山车之一。陷落楚于1996年开放时创下吉尼斯世界纪录。爱宝乐园属于三星集团。郁金香节期展示逾150万栮郁金香球茎。",
+      "ar": "T-Express ضمن أفضل 5 اوتوسترادات عالميا لأكثر من عقد. Gyro Drop حقق رقما غينيس 1996. Everland تابعة لمجموعة Samsung."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head straight to T-Express — the queue reaches 150 minutes by 11am on busy days. Gyro Drop second and Rolling X-Train third. Book Safari World in advance — sessions fill up quickly. Panda World is best early morning when pandas are most active. Thunder Falls and Amazon Express are busiest between 1pm and 4pm — visit in the morning or late afternoon. Check the show schedule at the entrance for parade and performance times. Caribbean Bay requires separate admission and is best visited on a dedicated day. The park is busiest on weekends and Korean public holidays.",
+      "es": "Llega a la apertura y ve directamente a T-Express. Gyro Drop segundo y Rolling X-Train tercero. Reserva Safari World con antelacion. Panda World es mejor de manana. Thunder Falls y Amazon Express son mas concurridos entre las 13h y las 16h. El parque es mas concurrido los fines de semana.",
+      "fr": "Arrivez a l ouverture et allez directement a T-Express. Gyro Drop deuxieme et Rolling X-Train troisieme. Reservez Safari World a l avance. Panda World est mieux le matin. Thunder Falls et Amazon Express sont plus animes entre 13h et 16h. Le parc est plus anime le week-end.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu T-Express. Gyro Drop zweiter und Rolling X-Train dritter. Buchen Sie Safari World im Voraus. Panda World ist morgens am besten. Thunder Falls und Amazon Express sind zwischen 13 und 16 Uhr am belebtesten. Wochenenden sind am belebtesten.",
+      "it": "Arriva all apertura e vai direttamente a T-Express. Gyro Drop secondo e Rolling X-Train terzo. Prenota Safari World in anticipo. Panda World e meglio la mattina. Thunder Falls e Amazon Express sono piu affollati tra le 13 e le 16. Il parco e piu affollato nei weekend.",
+      "nl": "Kom bij opening en ga direct naar T-Express. Gyro Drop tweede en Rolling X-Train derde. Boek Safari World van tevoren. Panda World is het beste in de ochtend. Thunder Falls en Amazon Express zijn het drukst tussen 13 en 16 uur. Weekenden zijn het drukst.",
+      "pt": "Chega na abertura e vai directamente a T-Express. Gyro Drop segundo e Rolling X-Train terceiro. Reserve Safari World com antecedencia. Panda World e melhor de manha. Thunder Falls e Amazon Express sao mais movimentados entre as 13h e as 16h. Os fins de semana sao os mais movimentados.",
+      "ru": "Приходите к открытию и сразу к T-Express. Gyro Drop вторым, Rolling X-Train третьим. Safari World — заранее брони. Panda World утром.",
+      "zh": "开园时到达直接前往T-Express。陷落楚第二，滚轴X火车第三。提前预订野生动物世界。熊猫世界早晨活跃度最高。周末人流最山。",
+      "ar": "صل عند الافتتاح واذهب مباشرة لـ T-Express. Gyro Drop ثانيا. احجز Safari World مسبقا."
+    },
+    "ov_photos_body": {
+      "en": "T-Express photographed from below during the record-breaking 77-degree drop is one of the most dramatic wooden coaster images in the world. Safari World photographed with lions or tigers alongside the safari vehicle creates extraordinary wildlife photography unique to theme parks. Panda World photographed through the viewing windows captures intimate giant panda moments. The tulip garden photographed during peak spring bloom with the park in the background is one of Korea's most beautiful seasonal images. Gyro Drop photographed from below against the Korean sky at the apex of a drop is iconic.",
+      "es": "T-Express fotografiado desde abajo durante la caida de 77 grados es una de las imagenes de coaster de madera mas dramaticas. Safari World con leones o tigres junto al vehiculo safari crea fotografia de vida silvestre extraordinaria. El jardin de tulipanes en plena floracion primaveral es una de las imagenes estacionales mas hermosas de Corea.",
+      "fr": "T-Express photographie depuis le dessous pendant la chute de 77 degres est l une des images les plus dramatiques de coaster en bois. Safari World avec des lions ou tigres pres du vehicule safari cree une photographie de faune extraordinaire. Le jardin de tulipes en pleine floraison est l une des plus belles images saisonnieres de Coree.",
+      "de": "T-Express von unten wahrend des 77-Grad-Abfalls fotografiert ist eines der dramatischsten Holzachterbahn-Bilder der Welt. Safari World mit Lowen oder Tigern neben dem Safariauto schafft aussergewohnliche Wildtier-Fotografie. Der Tulpengarten in voller Blute ist eines der schonsten Saisonbilder Koreas.",
+      "it": "T-Express fotografato dal basso durante la caduta di 77 gradi e una delle immagini di coaster in legno piu drammatiche al mondo. Safari World con leoni o tigri vicino al veicolo safari crea fotografie di fauna selvatica straordinarie. Il giardino di tulipani in piena fioritura e una delle piu belle immagini stagionali della Corea.",
+      "nl": "T-Express van onderaf gefotografeerd tijdens de 77-graden val is een van de meest dramatische houten achtbaanbeelden ter wereld. Safari World met leeuwen of tijgers naast het safarivoertuig creert buitengewone wilde dieren fotografie. De tulpentuin in volle bloei is een van de mooiste seizoensbeelden van Korea.",
+      "pt": "T-Express fotografado de baixo durante a queda de 77 graus e uma das imagens mais dramaticas de coaster de madeira do mundo. Safari World com leoes ou tigres junto ao veiculo safari cria fotografia de vida selvagem extraordinaria. O jardim de tulipas em plena florescencia e uma das mais belas imagens sazonais da Coreia.",
+      "ru": "T-Express снизу во время 77-градусного спуска — одно из самых драматичных фото. Тюльпановый сад — одно из красивейших фото Кореи.",
+      "zh": "T-Express从下方拍摄其77度下滑，是全球最具戴剧性的木质过山车影像之一。野生动物世界紧靠车辆拍摄狮子或老虎的照片是主题公园独有的野生动物影像。",
+      "ar": "T-Express مصور من أسفل أثناء السقوط 77 درجة من أروع صور الاوتوسترادات الخشبية."
+    }
+  },
+  "attractions": {
+    "t_express": {
+      "desc": {
+        "en": "One of the greatest wooden coasters ever built — record 77-degree drop, incredible airtime and consistently ranked top five in the world. The crown jewel of Everland. Min 140cm.",
+        "es": "Uno de los mejores coasters de madera jamas construidos — caida record de 77 grados y consistentemente en el top cinco mundial. Min 140cm.",
+        "fr": "L une des meilleures montagnes russes en bois jamais construites — chute record de 77 degres et regulierement dans le top cinq mondial. Min 140cm.",
+        "de": "Eine der besten je gebauten Holzachterbahnen — Rekordabfall von 77 Grad und regelmaessig in den weltweiten Top Funf. Mindestgrosse 140cm.",
+        "it": "Una delle migliori montagne russe in legno mai costruite — caduta record di 77 gradi e regolarmente nella top cinque mondiale. Min 140cm.",
+        "nl": "Een van de beste ooit gebouwde houten achtbanen — record val van 77 graden en regelmatig in de wereldwijde top vijf. Min 140cm.",
+        "pt": "Uma das melhores montanhas-russas de madeira alguma vez construidas — queda record de 77 graus e regularmente no top cinco mundial. Min 140cm.",
+        "ru": "Один из лучших деревянных коастеров. Спуск 77 градусов. Мин 140 см.",
+        "zh": "有史以来最伟大的木质过山车之一——77度创纪录下滑，长期全球前五。最低身高140厘米。",
+        "ar": "من أفضل اوتوسترادات خشبية بسقوط قياسي 77 درجة. الحد الادنى 140 سم."
+      }
+    },
+    "gyro_drop": {
+      "desc": {
+        "en": "One of the tallest and most terrifying drop towers in Asia at 70 metres — breathtaking panoramic views over Korean countryside before a heart-stopping free fall. Min 140cm.",
+        "es": "Una de las torres de caida mas altas y aterradoras de Asia con 70 metros — vistas panoramicas impresionantes antes de una caida libre. Min 140cm.",
+        "fr": "L une des tours de chute les plus hautes et terrifiantes d Asie a 70 metres. Min 140cm.",
+        "de": "Einer der hochsten und erschreckendsten Fallturme Asiens mit 70 Metern. Mindestgrosse 140cm.",
+        "it": "Una delle torri di caduta piu alte e terrificanti dell Asia a 70 metri. Min 140cm.",
+        "nl": "Een van de hoogste en meest angstaanjagende valtorens van Azie bij 70 meter. Min 140cm.",
+        "pt": "Uma das mais altas e aterrorizantes torres de queda da Asia a 70 metros. Min 140cm.",
+        "ru": "Один из высочайших аттракционов Азии. Мин 140 см.",
+        "zh": "亚洲最高最恐怖的落体塔之一70米——循先全景欲求后再直捣垂落。最低身高140厘米。",
+        "ar": "برج سقوط 70 م من الأكثر إثارة في آسيا. الحد الادنى 140 سم."
+      }
+    },
+    "rolling_x_train": {
+      "desc": {
+        "en": "Wildly intense inverted coaster with 4 inversions and high-speed sweeping turns. One of the most popular thrill coasters at Everland. Min 135cm.",
+        "es": "Coaster invertido salvajemente intenso con 4 inversiones. Uno de los coasters de emocion mas populares. Min 135cm.",
+        "fr": "Coaster inverse sauvagement intense avec 4 inversions. L un des coasters les plus populaires. Min 135cm.",
+        "de": "Wildintensiver Hangcoaster mit 4 Inversionen. Einer der beliebtesten Thrill-Coaster. Mindestgrosse 135cm.",
+        "it": "Coaster invertito selvaggiamente intenso con 4 inversioni. Uno dei coaster piu popolari. Min 135cm.",
+        "nl": "Wild intense inverted achtbaan met 4 inversies. Een van de populairste thrill achtbanen. Min 135cm.",
+        "pt": "Coaster invertido intensamente selvagem com 4 inversoes. Um dos coasters mais populares. Min 135cm.",
+        "ru": "Интенсивный перевернутый коастер с 4 инверсиями. Мин 135 см.",
+        "zh": "拥朄4个翻转的爆烈倒挂过山车。最低身高135厘米。",
+        "ar": "اوتوستراد معكوس شديد بانعكاسات 4. الحد الادنى 135 سم."
+      }
+    },
+    "double_rock_spin": {
+      "desc": {
+        "en": "Thrilling double-sided spinning coaster with forward and backward launches through an intense layout. Min 120cm.",
+        "es": "Emocionante coaster giratorio de doble cara con lanzamientos hacia adelante y atras. Min 120cm.",
+        "fr": "Palpitant coaster tournant double face avec lances avant et arriere. Min 120cm.",
+        "de": "Aufregende doppelseitige Drehachterbahn mit Vor- und Ruckwartsstarts. Mindestgrosse 120cm.",
+        "it": "Emozionante coaster rotante a doppia faccia con lanci avanti e indietro. Min 120cm.",
+        "nl": "Spannende dubbelzijdige draaiende achtbaan met voor en achterwaartse lanceringen. Min 120cm.",
+        "pt": "Emocionante coaster giratoria de dois lados com lancamentos para a frente e para tras. Min 120cm.",
+        "ru": "Двухсторонний вращающийся коастер. Мин 120 см.",
+        "zh": "具有前后发射的激烈双面旋转过山车。最低身高120厘米。",
+        "ar": "اوتوستراد دوار ثنائي الاتجاه. الحد الادنى 120 سم."
+      }
+    },
+    "crazy_mouse": {
+      "desc": {
+        "en": "Wildly spinning wild mouse coaster with sharp turns and sudden drops — completely unpredictable every ride. Min 120cm.",
+        "es": "Coaster raton salvaje con giros bruscos y caidas repentinas — completamente impredecible. Min 120cm.",
+        "fr": "Coaster souris sauvage avec virages brusques et chutes soudaines — completement imprevisible. Min 120cm.",
+        "de": "Wildspinnende Wilde-Maus-Achterbahn mit scharfen Kurven und plotzlichen Abfallen. Mindestgrosse 120cm.",
+        "it": "Coaster topo selvaggio con curve brusche e cadute improvvise — completamente imprevedibile. Min 120cm.",
+        "nl": "Wild draaiende wilde muis achtbaan met scherpe bochten en plotselinge dalingen. Min 120cm.",
+        "pt": "Coaster rato selvagem com curvas inesperadas e quedas repentinas — completamente imprevisivelmente. Min 120cm.",
+        "ru": "Дикая мышь с резкими поворотами. Мин 120 см.",
+        "zh": "狂转的狂鼠过山车——每次乘坐均不可预测。最低身高120厘米。",
+        "ar": "اوتوستراد فأر دوار متقلب. الحد الادنى 120 سم."
+      }
+    },
+    "thunder_falls": {
+      "desc": {
+        "en": "Spectacular log flume through dramatic waterfall landscapes with a soaking final plunge. The most popular water ride at Everland. Min 110cm.",
+        "es": "Espectacular flume a traves de dramaticos paisajes de cataratas con una salpicante caida final. Min 110cm.",
+        "fr": "Spectaculaire flume a travers des paysages de cascades dramatiques. Min 110cm.",
+        "de": "Spektakularer Wasserflume durch dramatische Wasserfall-Landschaften. Mindestgrosse 110cm.",
+        "it": "Spettacolare flume attraverso paesaggi di cascate drammatici. Min 110cm.",
+        "nl": "Spectaculaire flume door dramatische watervallandschappen. Min 110cm.",
+        "pt": "Espetacular flume por dramaticas paisagens de cascatas. Min 110cm.",
+        "ru": "Зрелищный водный аттракцион. Мин 110 см.",
+        "zh": "穿越壮观瀑布景观的山包漂流项目。最低身高110厘米。",
+        "ar": "اتراكشن مائي رائع عبر شلالات. الحد الادنى 110 سم."
+      }
+    },
+    "amazon_express": {
+      "desc": {
+        "en": "Thrilling river rapids ride through a dramatic Amazon jungle with waterfall effects and guaranteed soakings. Most exciting white-water ride in Korea. Min 110cm.",
+        "es": "Emocionante paseo de rapidos a traves de la selva amazonica con efectos de cascada. Min 110cm.",
+        "fr": "Palpitante descente de rapides a travers une jungle amazonienne dramatique. Min 110cm.",
+        "de": "Aufregende Wildwasserfahrt durch dramatischen Amazonas-Dschungel. Mindestgrosse 110cm.",
+        "it": "Emozionante discesa dei rapidi attraverso la giungla amazzonica. Min 110cm.",
+        "nl": "Spannende wildwaterrit door dramatisch Amazone jungle. Min 110cm.",
+        "pt": "Emocionante passeio de rapidos pela selva amazonica dramatica. Min 110cm.",
+        "ru": "Захватывающий рафтинг через джунгли. Мин 110 см.",
+        "zh": "穿越江据亚马逊丛林的激烈激流漂流项目。最低身高110厘米。",
+        "ar": "رحلة مجاري مثيرة عبر غابة أمازون. الحد الادنى 110 سم."
+      }
+    },
+    "safari_world": {
+      "desc": {
+        "en": "The most spectacular drive-through safari at any theme park in Asia — lions, tigers, bears and giraffes roaming freely alongside safari vehicles. A uniquely extraordinary wildlife experience. Suitable for all ages.",
+        "es": "El safari en vehiculo mas espectacular de cualquier parque tematico en Asia — leones, tigres, osos y jirafas deambulando junto a los vehiculos. Apto para todas las edades.",
+        "fr": "Le safari en voiture le plus spectaculaire de tout parc a themes en Asie — lions, tigres, ours et girafes se promenant pres des vehicules. Convient a tous les ages.",
+        "de": "Die spektakularste Drive-Through-Safari in einem Themenpark Asiens — Lowen, Tiger, Baren und Giraffen streifen neben den Safarifahrzeugen umher. Fur alle Altersgruppen.",
+        "it": "Il safari in auto piu spettacolare di qualsiasi parco a tema in Asia — leoni, tigri, orsi e giraffe che si aggirano vicino ai veicoli. Adatto a tutte le eta.",
+        "nl": "De meest spectaculaire drive-through safari in een Aziatisch themapark — leeuwen, tijgers, beren en giraffen ronddwalend naast de safarivoertuigen. Geschikt voor alle leeftijden.",
+        "pt": "O mais espetacular safari de carro em qualquer parque tematico da Asia. Adequado para todas as idades.",
+        "ru": "Самое зрелищное сафари в тематических парках Азии. Подходит для всех.",
+        "zh": "亚洲最壮观的主题公园驾车游艇——狮子、老虎、熊和鈥鸿自由行走在车辆旁边。适合所有年龄。",
+        "ar": "أروع سفاري بالسيارة في أي متنزه في آسيا. مناسب لجميع الأعمار."
+      }
+    },
+    "panda_world": {
+      "desc": {
+        "en": "Extraordinary giant panda habitat — one of the only places in Korea to see giant pandas in a beautifully designed naturalistic environment. Suitable for all ages.",
+        "es": "Extraordinario habitat de panda gigante — uno de los pocos lugares de Corea para ver pandas gigantes. Apto para todas las edades.",
+        "fr": "Extraordinaire habitat de panda geant — l un des rares endroits en Coree pour voir des pandas geants. Convient a tous les ages.",
+        "de": "Aussergewohnlicher Riesenpanda-Lebensraum — einer der wenigen Orte in Korea um Riesenpandas zu sehen. Fur alle Altersgruppen.",
+        "it": "Straordinario habitat di panda gigante — uno dei pochi posti in Corea per vedere i panda giganti. Adatto a tutte le eta.",
+        "nl": "Buitengewoon reuzenpanda habitat — een van de weinige plekken in Korea om reuzenpandas te zien. Geschikt voor alle leeftijden.",
+        "pt": "Extraordinario habitat de panda gigante — um dos poucos sitios na Coreia para ver pandas gigantes. Adequado para todas as idades.",
+        "ru": "Уникальный ареал гигантских панд. Подходит для всех.",
+        "zh": "独特的大熊猫栖息地——韩国极少数能见到大熊猫的地方之一。适合所有年龄。",
+        "ar": "موئل باندا عملاق فريد — من الأماكن النادرة في كوريا. مناسب لجميع الأعمار."
+      }
+    },
+    "carribean_bay": {
+      "desc": {
+        "en": "Korea's largest water park — massive wave pools, themed water slides, lazy rivers and a full spa. The most complete water park in Asia. Separate admission. Min 110cm for slides.",
+        "es": "El mayor parque acuatico de Corea — enormes piscinas de olas, toboganes tematicos y rio perezoso. Admision separada. Min 110cm.",
+        "fr": "Le plus grand parc aquatique de Coree — enormes piscines a vagues, toboggans thematiques et riviere paresseuse. Admission separee. Min 110cm.",
+        "de": "Koreas grosstes Wasserpark — riesige Wellenbader, thematische Rutschen und Lazy River. Separate Zulassung. Mindestgrosse 110cm.",
+        "it": "Il piu grande parco acquatico della Corea — enormi piscine a onde, scivoli tematici e fiume pigro. Ammissione separata. Min 110cm.",
+        "nl": "Korea's grootste waterpark — enorme golfbaden, thematische glijbanen en lazy river. Aparte toegang. Min 110cm.",
+        "pt": "O maior parque aquatico da Coreia — enormes piscinas de ondas, escorregadores tematicos e rio preguicoso. Admissao separada. Min 110cm.",
+        "ru": "Крупнейший аквапарк Кореи. Отдельный вход. Мин 110 см.",
+        "zh": "韩国最大的水上乐园——巨型波浪池、主题水滑梯和懒人河。需单独入成。最低身高110厘米。",
+        "ar": "أكبر منتجع مائي في كوريا. دخول منفصل. الحد الادنى 110 سم."
+      }
+    },
+    "carribean_bay_waterslides": {
+      "desc": {
+        "en": "Spectacular water slide complex with speed slides, family rafts, Master Blaster uphill coaster and iconic Mega Storm funnel slide. Min 110cm.",
+        "es": "Espectacular complejo de toboganes con toboganes de velocidad, balsas familiares y el icónico tobogán Mega Storm. Min 110cm.",
+        "fr": "Spectaculaire complexe de toboggans avec toboggans de vitesse, radeaux familiaux et iconique toboggan Mega Storm. Min 110cm.",
+        "de": "Spektakularer Rutschenkomplex mit Geschwindigkeitsrutschen, Familienflossen und Master Blaster. Mindestgrosse 110cm.",
+        "it": "Spettacolare complesso di scivoli con scivoli veloci, gommoni famiglia e iconico scivolo Mega Storm. Min 110cm.",
+        "nl": "Spectaculair waterglijbaancomplex met snelheidsglijbanen en iconische Mega Storm trechter glijbaan. Min 110cm.",
+        "pt": "Espetacular complexo de escorregadores com escorregadores de velocidade e icónico escorregador Mega Storm. Min 110cm.",
+        "ru": "Зрелищный водный комплекс. Мин 110 см.",
+        "zh": "壮观的水上滑梯群——高速滑道、家庭橡皮艇和标志性漏斗滑梯。最低身高110厘米。",
+        "ar": "مجمع زحاليق مائية رائع. الحد الادنى 110 سم."
+      }
+    },
+    "tulip_garden": {
+      "desc": {
+        "en": "Breathtaking seasonal tulip garden with millions of tulips in hundreds of varieties each spring — one of Korea's most beautiful seasonal experiences. Suitable for all ages.",
+        "es": "Impresionante jardin de tulipanes estacional con millones de tulipanes en primavera — una de las experiencias estacionales mas hermosas de Corea. Apto para todas las edades.",
+        "fr": "Impressionnant jardin de tulipes saisonnier avec des millions de tulipes au printemps — l une des plus belles experiences saisonnieres de Coree. Convient a tous les ages.",
+        "de": "Atemberaubender saisonaler Tulpengarten mit Millionen von Tulpen im Fruhling — eines der schonsten saisonalen Erlebnisse Koreas. Fur alle Altersgruppen.",
+        "it": "Mozzafiato giardino di tulipani stagionale con milioni di tulipani in primavera — una delle piu belle esperienze stagionali della Corea. Adatto a tutte le eta.",
+        "nl": "Adembenemende seizoenstulpentuin met miljoenen tulpen in de lente — een van de mooiste seizoenservaringen van Korea. Geschikt voor alle leeftijden.",
+        "pt": "Jardim de tulipas sazonal com milhoes de tulipas na primavera — uma das mais belas experiencias sazonais da Coreia. Adequado para todas as idades.",
+        "ru": "Захватывающий тюльпановый сад — одно из красивейших мест Кореи. Подходит для всех.",
+        "zh": "春天数百万栋郁金香纻放展放的令人叹为观止的郁金香花圆——韩国最美丽的季节体验之一。适合所有年龄。",
+        "ar": "حديقة زهور توليب مذهلة بملايين زهرة. مناسب لجميع الأعمار."
+      }
+    },
+    "global_fair": {
+      "desc": {
+        "en": "Entertainment and culture hub with elaborate themed street environments, live stages and street performers. The most vibrant zone in the park. Suitable for all ages.",
+        "es": "Centro de entretenimiento y cultura con entornos de calles tematicos elaborados y artistas en vivo. La zona mas vibrante del parque. Apto para todas las edades.",
+        "fr": "Centre de divertissement et de culture avec des environnements de rue thematiques elabores. La zone la plus animee du parc. Convient a tous les ages.",
+        "de": "Unterhaltungs- und Kulturzentrum mit aufwendigen thematischen Strassenumgebungen. Die lebendigste Zone des Parks. Fur alle Altersgruppen.",
+        "it": "Centro di intrattenimento e cultura con ambienti stradali tematici elaborati. La zona piu vivace del parco. Adatto a tutte le eta.",
+        "nl": "Entertainments- en cultuurhub met uitgewerkte thematische straatomgevingen. De meest levendige zone van het park. Geschikt voor alle leeftijden.",
+        "pt": "Centro de entretenimento e cultura com elaborados ambientes de rua tematicos. A zona mais vibrante do parque. Adequado para todas as idades.",
+        "ru": "Центр развлечений с тематическими уличными средами. Подходит для всех.",
+        "zh": "以繁华世界文化主题街道环境为主的娱乐和文化中心。公园最活跃的园区。适合所有年龄。",
+        "ar": "مركز الترفيه والثقافة. المنطقة الأكثر حيوية. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_china_moon_restaurant": {
+      "desc": {
+        "en": "Premier dining at Everland — elegant Chinese restaurant with authentic Cantonese and Sichuan dishes, dim sum and Peking duck in a beautifully decorated setting.",
+        "es": "Restaurante principal de Everland — elegante restaurante chino con autenticos platos cantoneses y sichuaneses.",
+        "fr": "Restaurant principal d Everland — elegant restaurant chinois avec plats cantonais et sichuanais authentiques.",
+        "de": "Hauptrestaurant von Everland — elegantes chinesisches Restaurant mit authentischen kantonesischen und Sichuan-Gerichten.",
+        "it": "Ristorante principale di Everland — elegante ristorante cinese con piatti cantonesi e sichuanesi autentici.",
+        "nl": "Hoofdrestaurant van Everland — elegant Chinees restaurant met authentieke Kantonese en Sichuan gerechten.",
+        "pt": "Restaurante principal de Everland — elegante restaurante chines com pratos cantoneses e sichuaneses autenticos.",
+        "ru": "Главный ресторан с кантонской и сычуаньской кухней.",
+        "zh": "爱宝乐园首选餐厅——居正鲜明的粹式和川菜精品饿歡。",
+        "ar": "مطعم صيني أنيق مع أطباق كانتونية وسيشوانية أصيلة."
+      }
+    },
+    "food_cucina_mario": {
+      "desc": {
+        "en": "Charming Italian restaurant serving pizza, pasta and classics. Most relaxed and family-friendly dining at Everland.",
+        "es": "Encantador restaurante italiano con pizza, pasta y clasicos. La opcion mas relajada y familiar.",
+        "fr": "Charmant restaurant italien avec pizza, pates et classiques. L option de restauration la plus detendue.",
+        "de": "Charmantes italienisches Restaurant mit Pizza, Pasta und Klassikern. Entspannteste Familienoption.",
+        "it": "Affascinante ristorante italiano con pizza, pasta e classici. L opzione piu rilassata e a misura di famiglia.",
+        "nl": "Charmant Italiaans restaurant met pizza, pasta en klassiekers. Meest ontspannen gezinsoptie.",
+        "pt": "Encantador restaurante italiano com pizza, massa e classicos. A opcao mais relaxada e familiar.",
+        "ru": "Очаровательный итальянский ресторан.",
+        "zh": "迎人的意大利餐厅，供应披萨和意面。",
+        "ar": "مطعم إيطالي ساحر ببيتزا ومعكرونة."
+      }
+    },
+    "food_on_the_border_restaurant": {
+      "desc": {
+        "en": "Lively Tex-Mex restaurant with burritos, nachos and tacos. Most vibrant casual dining option at Everland.",
+        "es": "Animado restaurante Tex-Mex con burritos, nachos y tacos. La opcion casual mas vibrante.",
+        "fr": "Restaurant Tex-Mex anime avec burritos, nachos et tacos. L option casual la plus animee.",
+        "de": "Lebhaftes Tex-Mex Restaurant mit Burritos, Nachos und Tacos. Lebendigste Casual-Option.",
+        "it": "Vivace ristorante Tex-Mex con burrito, nachos e tacos. L opzione casual piu vivace.",
+        "nl": "Levendig Tex-Mex restaurant met burritos, nachos en taco's. Meest levendige casual optie.",
+        "pt": "Animado restaurante Tex-Mex com burritos, nachos e tacos. A opcao casual mais animada.",
+        "ru": "Живой Tex-Mex ресторан.",
+        "zh": "活泼的奔次马天謂风格餐厅。",
+        "ar": "مطعم Tex-Mex نابض ببوريتو وناتشوس وتاكوس."
+      }
+    },
+    "food_snack_busters": {
+      "desc": {
+        "en": "Popular Korean street food outlet with corn dogs, tteokbokki and fried chicken. Most authentic Korean quick-service option at the park.",
+        "es": "Popular puesto de comida callejera coreana con corn dogs, tteokbokki y pollo frito.",
+        "fr": "Populaire stand de nourriture de rue coreenne avec corn dogs, tteokbokki et poulet frit.",
+        "de": "Beliebter koreanischer Strassenfoodstand mit Corn Dogs, Tteokbokki und Brathuhnchen.",
+        "it": "Popolare stand di street food coreano con corn dog, tteokbokki e pollo fritto.",
+        "nl": "Populaire Koreaanse streetfood stand met corn dogs, tteokbokki en gebakken kip.",
+        "pt": "Popular ponto de comida de rua coreana com corn dogs, tteokbokki e frango frito.",
+        "ru": "Популярный корейский уличный фастфуд.",
+        "zh": "五花八门的韩式街头小吃馗。",
+        "ar": "منفذ طعام شارع كوري شعبي."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_ramada_by_wyndham_yongin": {
+      "desc": {
+        "en": "Comfortable 4-star hotel in Yongin, 15 minutes from Everland — modern rooms, pool, fitness centre and excellent Seoul transport links. Most popular international hotel for Everland visitors.",
+        "es": "Comodo hotel de 4 estrellas en Yongin a 15 minutos de Everland — habitaciones modernas y excelentes enlaces con Seoul.",
+        "fr": "Confortable hotel 4 etoiles a Yongin a 15 minutes d Everland — chambres modernes et excellentes liaisons vers Seoul.",
+        "de": "Komfortables 4-Sterne-Hotel in Yongin 15 Minuten von Everland — moderne Zimmer und ausgezeichnete Seoul-Verkehrsverbindungen.",
+        "it": "Confortevole hotel 4 stelle a Yongin a 15 minuti da Everland — camere moderne ed eccellenti collegamenti con Seoul.",
+        "nl": "Comfortabel 4-sterrenhotel in Yongin 15 minuten van Everland — moderne kamers en uitstekende Seoul verbindingen.",
+        "pt": "Confortavel hotel de 4 estrelas em Yongin a 15 minutos de Everland — quartos modernos e excelentes ligacoes com Seoul.",
+        "ru": "Удобный 4-звёздный отель в 15 минутах от Everland.",
+        "zh": "龙仁市舒适的四星级酒店，爱宝车程15分钟。",
+        "ar": "فندق 4 نجوم مريح في Yongin، 15 دقيقة من Everland."
+      }
+    },
+    "hotel_golden_tulip_ever_yongin": {
+      "desc": {
+        "en": "Stylish hotel within the Everland resort complex — themed rooms, direct park access, multiple restaurants and best location for early entry. Best on-site hotel for Everland visitors.",
+        "es": "Hotel elegante dentro del complejo de Everland — habitaciones tematicas, acceso directo al parque y mejor ubicacion para entrada anticipada.",
+        "fr": "Hotel elegant dans le complexe Everland — chambres thematiques, acces direct au parc et meilleur emplacement pour entree anticipee.",
+        "de": "Stilvolles Hotel im Everland-Resort — thematische Zimmer, direkter Parkzugang und bester Standort fur fruhe Einfahrt.",
+        "it": "Hotel elegante nel complesso Everland — camere tematiche, accesso diretto al parco e migliore posizione per entrata anticipata.",
+        "nl": "Stijlvol hotel in het Everland resort complex — thematische kamers, directe parktoegang en beste locatie voor vroege toegang.",
+        "pt": "Hotel elegante dentro do complexo Everland — quartos tematicos, acesso directo ao parque e melhor localizacao para entrada antecipada.",
+        "ru": "Стильный отель на территории Everland.",
+        "zh": "爱宝度假村内时尚酒店——主题客房，直接进入公园。",
+        "ar": "فندق أنيق داخل مجمع Everland."
+      }
+    },
+    "hotel_thesoom_forest": {
+      "desc": {
+        "en": "Charming forest pension resort near Everland — beautifully decorated cabin-style rooms in Korean forest with BBQ facilities. Most unique and atmospheric accommodation near Everland.",
+        "es": "Encantador resort pension forestal cerca de Everland — cabanas bellamente decoradas en bosque coreano con instalaciones de barbacoa.",
+        "fr": "Charmant resort pension forestier pres d Everland — cabines joliment decorees dans une foret coreenne avec barbecue.",
+        "de": "Charmantes Waldpensionsresort nahe Everland — wunderschon dekorierte Hutten im koreanischen Wald mit Grillanlagen.",
+        "it": "Affascinante resort pensione foresta vicino Everland — cabine splendidamente decorate nella foresta coreana con barbecue.",
+        "nl": "Charmant bospension resort dicht bij Everland — mooi gedecoreerde cabines in Koreaans bos met BBQ faciliteiten.",
+        "pt": "Encantador resort pensao florestal perto de Everland — cabines lindamente decoradas na floresta coreana com instalacoes de barbecue.",
+        "ru": "Очаровательный лесной пансионат рядом с Everland.",
+        "zh": "鄰近爱宝的迷人森林平戏胜欲，围绕在韩国山林中精心制作的木屋客房。",
+        "ar": "نزل غابة ساحر بالقرب من Everland."
+      }
+    },
+    "hotel_homebrige_cabin_hostel": {
+      "desc": {
+        "en": "Budget-friendly hostel near Everland — clean dormitory and private rooms in a friendly social atmosphere. Best budget option for solo travellers visiting Everland.",
+        "es": "Hostel economico cerca de Everland — habitaciones dormitorio y privadas limpias en ambiente social amigable. Mejor opcion economica para viajeros solos.",
+        "fr": "Auberge de jeunesse economique pres d Everland — chambres propres dortoir et privees dans une atmosphere sociale conviviale. Meilleure option economique.",
+        "de": "Guenstiges Hostel nahe Everland — saubere Schlafsaal- und Privatzimmer in freundlicher sozialer Atmosphare. Beste Budgetoption.",
+        "it": "Ostello economico vicino Everland — camere dormitorio e private pulite in atmosfera sociale amichevole. Migliore opzione economica.",
+        "nl": "Budgetvriendelijk hostel dicht bij Everland — schone slaapzaal en privekamers in vriendelijke sociale sfeer. Beste budgetoptie.",
+        "pt": "Hostel economico perto de Everland — quartos de dormitorio e privados limpos em atmosfera social amigavel. Melhor opcao economica.",
+        "ru": "Бюджетный хостел рядом с Everland.",
+        "zh": "爱宝附近实惠的青年旅舍。最佳性价比选择。",
+        "ar": "نزل اقتصادي بالقرب من Everland."
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "food_perkins",
+    "name": "Perkins Restaurant & Bakery",
+    "description": "A beloved and classic full-service restaurant at Cedar Point serving hearty American comfort food including pancakes, burgers, sandwiches and daily specials. One of the most popular and well-regarded dining destinations at the Roller Coaster Capital of the World.",
+    "topPick": true,
+    "type": "American Comfort Food",
+    "image": "assets/images/cedar_point/food_perkins.png",
+    "lat": 41.48,
+    "lng": -82.683,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Buttermilk Pancakes",
+        "description": "Classic fluffy buttermilk pancakes with maple syrup and butter",
+        "price": 12
+      },
+      {
+        "name": "Classic Cheeseburger",
+        "description": "Angus beef burger with cheese, lettuce and tomato",
+        "price": 16
+      },
+      {
+        "name": "Chicken Pot Pie",
+        "description": "Classic American chicken pot pie with flaky pastry",
+        "price": 15
+      },
+      {
+        "name": "Fresh Baked Pie",
+        "description": "Slice of classic American pie from the bakery",
+        "price": 7
+      }
+    ]
+  },
+  {
+    "id": "food_melt_bar",
+    "name": "Melt Bar & Grilled",
+    "description": "A celebrated and legendary grilled cheese restaurant at Cedar Point — Melt Bar & Grilled is famous throughout Ohio for its extraordinary creative grilled cheese sandwiches stuffed with extraordinary combinations of ingredients. One of the most beloved and unique dining experiences at any American theme park.",
+    "topPick": true,
+    "type": "Creative Grilled Cheese",
+    "image": "assets/images/cedar_point/food_melt_bar.png",
+    "lat": 41.4798,
+    "lng": -82.6832,
+    "rating": 4.6,
+    "items": [
+      {
+        "name": "The Parmageddon",
+        "description": "Pierogi and kielbasa grilled cheese with caramelised onions",
+        "price": 18
+      },
+      {
+        "name": "Farm Fresh",
+        "description": "Fresh mozzarella, tomato and basil pesto grilled cheese",
+        "price": 16
+      },
+      {
+        "name": "Classic American",
+        "description": "American cheese on white bread — the classic done perfectly",
+        "price": 13
+      },
+      {
+        "name": "Craft Beer",
+        "description": "Local Ohio craft beer",
+        "price": 8
+      }
+    ]
+  },
+  {
+    "id": "food_chickie_petes",
+    "name": "Chickie's & Pete's",
+    "description": "A popular and lively sports bar and restaurant at Cedar Point serving the legendary crab fries, burgers, sandwiches and classic American sports bar food. One of the most energetic and entertaining dining experiences at any American theme park.",
+    "topPick": true,
+    "type": "Sports Bar American",
+    "image": "assets/images/cedar_point/food_chickie_petes.png",
+    "lat": 41.4795,
+    "lng": -82.6835,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Crab Fries",
+        "description": "The legendary Chickie and Pete crab fries with cheese sauce",
+        "price": 12
+      },
+      {
+        "name": "Classic Burger",
+        "description": "Classic beef burger with fries",
+        "price": 16
+      },
+      {
+        "name": "Crab Cake Sandwich",
+        "description": "Classic Maryland crab cake sandwich with slaw",
+        "price": 19
+      },
+      {
+        "name": "Draft Beer",
+        "description": "Pint of draft beer",
+        "price": 8
+      }
+    ]
+  },
+  {
+    "id": "food_farmhouse_kitchen",
+    "name": "Farmhouse Kitchen",
+    "description": "A charming and atmospheric farmhouse-themed restaurant at Cedar Point serving classic American farm-fresh comfort food including fried chicken, mac and cheese and seasonal vegetable dishes. One of the most wholesome and family-friendly dining options at Cedar Point.",
+    "topPick": false,
+    "type": "American Farm Fresh",
+    "image": "assets/images/cedar_point/food_farmhouse_kitchen.png",
+    "lat": 41.4793,
+    "lng": -82.6838,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Fried Chicken Platter",
+        "description": "Classic Southern fried chicken with mac and cheese and biscuit",
+        "price": 18
+      },
+      {
+        "name": "Mac and Cheese",
+        "description": "Classic creamy baked mac and cheese",
+        "price": 12
+      },
+      {
+        "name": "Corn on the Cob",
+        "description": "Grilled sweet corn with butter and seasoning",
+        "price": 5
+      },
+      {
+        "name": "Lemonade",
+        "description": "Fresh squeezed lemonade",
+        "price": 5
+      }
+    ]
+  },
+  {
+    "id": "food_midway_market",
+    "name": "Midway Market",
+    "description": "A classic and convenient food court at Cedar Point offering a wide variety of fast food options including pizza, pasta, chicken and classic American fairground food. The most accessible and comprehensive quick-service dining option at the Roller Coaster Capital of the World.",
+    "topPick": false,
+    "type": "Food Court Multi-Cuisine",
+    "image": "assets/images/cedar_point/food_midway_market.png",
+    "lat": 41.4802,
+    "lng": -82.6828,
+    "rating": 3.9,
+    "items": [
+      {
+        "name": "Pizza Slice",
+        "description": "Classic cheese or pepperoni pizza",
+        "price": 8
+      },
+      {
+        "name": "Chicken Strips",
+        "description": "Classic crispy chicken strips with fries",
+        "price": 14
+      },
+      {
+        "name": "Pasta Marinara",
+        "description": "Classic pasta with marinara sauce",
+        "price": 11
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Large fountain drink",
+        "price": 4
+      }
+    ]
+  }
+]

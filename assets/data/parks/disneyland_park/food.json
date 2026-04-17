@@ -1,0 +1,167 @@
+[
+  {
+    "id": "food_blue_bayou",
+    "name": "Blue Bayou Restaurant",
+    "description": "The most atmospheric and beloved restaurant in theme park history — Blue Bayou is a magical bayou-side restaurant situated literally inside the Pirates of the Caribbean attraction, where guests dine on the moonlit bayou as boats drift past them into the ride. One of the most extraordinary and sought-after dining experiences at any theme park in the world. Advance reservations essential.",
+    "topPick": true,
+    "type": "Creole Fine Dining",
+    "image": "assets/images/disneyland_park/food_blue_bayou.png",
+    "lat": 33.8109,
+    "lng": -117.9213,
+    "rating": 4.8,
+    "items": [
+      {
+        "name": "Monte Cristo Sandwich",
+        "description": "The legendary Blue Bayou Monte Cristo — fried sandwich with turkey, ham and powdered sugar",
+        "price": 32
+      },
+      {
+        "name": "Jambalaya",
+        "description": "Classic New Orleans jambalaya with shrimp, chicken andouille and Creole rice",
+        "price": 36
+      },
+      {
+        "name": "Creole Seafood Gumbo",
+        "description": "Rich dark roux gumbo with shrimp, crab and andouille sausage",
+        "price": 18
+      },
+      {
+        "name": "Mint Julep",
+        "description": "Classic New Orleans mint julep",
+        "price": 12
+      }
+    ]
+  },
+  {
+    "id": "food_carnation_cafe",
+    "name": "Carnation Cafe",
+    "description": "A Disneyland original since 1955 — Carnation Cafe is a charming Main Street USA outdoor cafe serving classic American comfort food including pot roast, burgers, pancakes and the legendary Monte Cristo sandwich in the most nostalgic and atmospheric dining setting at Disneyland. One of the most beloved restaurants at any Disney park.",
+    "topPick": true,
+    "type": "American Classic Cafe",
+    "image": "assets/images/disneyland_park/food_carnation_cafe.png",
+    "lat": 33.8127,
+    "lng": -117.9197,
+    "rating": 4.6,
+    "items": [
+      {
+        "name": "Pot Roast",
+        "description": "Classic slow-braised beef pot roast with mashed potatoes and gravy",
+        "price": 26
+      },
+      {
+        "name": "Mickey Waffles",
+        "description": "Classic Mickey-shaped waffles with fresh berries and whipped cream",
+        "price": 18
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Carnation classic cheeseburger with fries",
+        "price": 22
+      },
+      {
+        "name": "Hot Chocolate",
+        "description": "Rich creamy Carnation hot chocolate",
+        "price": 6
+      }
+    ]
+  },
+  {
+    "id": "food_jolly_holiday_bakery",
+    "name": "Jolly Holiday Bakery Cafe",
+    "description": "A beautifully Mary Poppins-themed bakery cafe on Main Street USA serving outstanding pastries, sandwiches, soups and coffee — the Jolly Holiday is the most charming and atmospheric quick-service dining option at Disneyland and the best spot for breakfast or afternoon tea on Main Street.",
+    "topPick": false,
+    "type": "Bakery Cafe",
+    "image": "assets/images/disneyland_park/food_jolly_holiday_bakery.png",
+    "lat": 33.8129,
+    "lng": -117.9195,
+    "rating": 4.5,
+    "items": [
+      {
+        "name": "Turkey Pesto Focaccia",
+        "description": "Roasted turkey with pesto aioli on toasted focaccia",
+        "price": 16
+      },
+      {
+        "name": "Strawberry Rose Macaron",
+        "description": "Classic French macaron in strawberry rose flavour",
+        "price": 6
+      },
+      {
+        "name": "Tomato Soup",
+        "description": "Classic creamy tomato basil soup with sourdough bread",
+        "price": 10
+      },
+      {
+        "name": "Cappuccino",
+        "description": "Perfectly made Italian cappuccino",
+        "price": 7
+      }
+    ]
+  },
+  {
+    "id": "food_plaza_inn",
+    "name": "Plaza Inn",
+    "description": "A Disneyland original serving fried chicken since 1955 — Plaza Inn is a beautiful Victorian-themed restaurant at the end of Main Street USA serving the most famous and beloved fried chicken at any Disney park, alongside classic American comfort food. One of the most historically significant restaurants at Disneyland.",
+    "topPick": false,
+    "type": "American Victorian",
+    "image": "assets/images/disneyland_park/food_plaza_inn.png",
+    "lat": 33.8123,
+    "lng": -117.9189,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Fried Chicken",
+        "description": "The legendary Plaza Inn fried chicken with mashed potatoes and gravy",
+        "price": 22
+      },
+      {
+        "name": "Pasta Primavera",
+        "description": "Fresh pasta with seasonal vegetables and cream sauce",
+        "price": 18
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Classic Caesar with romaine, croutons and parmesan",
+        "price": 14
+      },
+      {
+        "name": "Apple Pie",
+        "description": "Classic American apple pie with vanilla ice cream",
+        "price": 9
+      }
+    ]
+  },
+  {
+    "id": "food_bengal_barbeque",
+    "name": "Bengal Barbecue",
+    "description": "A beloved Adventureland quick-service landmark — Bengal Barbecue serves skewered meats and vegetables grilled over charcoal in a beautifully themed jungle setting adjacent to the Jungle Cruise. The most popular quick-service food in Adventureland and famous for its Outpost Skewers.",
+    "topPick": false,
+    "type": "Adventureland Grill",
+    "image": "assets/images/disneyland_park/food_bengal_barbeque.png",
+    "lat": 33.8107,
+    "lng": -117.9207,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Outpost Chicken Skewer",
+        "description": "Marinated chicken grilled over charcoal on a bamboo skewer",
+        "price": 12
+      },
+      {
+        "name": "Beef Skewer",
+        "description": "Seasoned beef grilled over charcoal on a bamboo skewer",
+        "price": 13
+      },
+      {
+        "name": "Vegetable Skewer",
+        "description": "Seasonal vegetables grilled over charcoal",
+        "price": 9
+      },
+      {
+        "name": "Tiger Tail Breadstick",
+        "description": "Classic Bengal BBQ tiger tail seasoned breadstick",
+        "price": 5
+      }
+    ]
+  }
+]

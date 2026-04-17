@@ -1,0 +1,134 @@
+[
+  {
+    "id": "food_halte_gourmande",
+    "name": "La Halte Gourmande",
+    "description": "The most popular and well-regarded dining destination at La Ronde — La Halte Gourmande is a spacious and welcoming restaurant serving generous portions of classic Quebecois and Canadian comfort food including poutine, smoked meat sandwiches, burgers and grilled chicken. The best sit-down dining experience at any Quebec theme park.",
+    "topPick": true,
+    "type": "Quebecois Comfort Food",
+    "image": "assets/images/la_ronde/food_halte_gourmande.png",
+    "lat": 45.5086,
+    "lng": -73.5328,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Poutine",
+        "description": "Classic Quebec poutine with cheese curds and brown gravy",
+        "price": 12
+      },
+      {
+        "name": "Smoked Meat Sandwich",
+        "description": "Classic Montreal smoked meat on rye with mustard",
+        "price": 16
+      },
+      {
+        "name": "Grilled Chicken Platter",
+        "description": "Flame-grilled chicken with fries and coleslaw",
+        "price": 18
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Large fountain soft drink",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_le_bistro_a_coco",
+    "name": "Le Bistro à Coco",
+    "description": "A charming and atmospheric bistro-style restaurant at La Ronde serving classic French-Canadian cuisine including crepes, sandwiches, soups and light meals. One of the most unique and characterful dining experiences at any Canadian theme park.",
+    "topPick": true,
+    "type": "French-Canadian Bistro",
+    "image": "assets/images/la_ronde/food_le_bistro_a_coco.png",
+    "lat": 45.5084,
+    "lng": -73.5332,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Sweet Crepe",
+        "description": "Classic crepe with maple syrup and fresh strawberries",
+        "price": 10
+      },
+      {
+        "name": "Savory Crepe",
+        "description": "Ham and cheese savory crepe with salad",
+        "price": 13
+      },
+      {
+        "name": "French Onion Soup",
+        "description": "Classic French onion soup with gruyere crouton",
+        "price": 9
+      },
+      {
+        "name": "Cafe au Lait",
+        "description": "Classic Montreal cafe au lait",
+        "price": 5
+      }
+    ]
+  },
+  {
+    "id": "food_queues_de_castor",
+    "name": "Queues de Castor",
+    "description": "The most beloved and iconic sweet treat experience at La Ronde — Queues de Castor serves the legendary beaver tail pastries freshly made and topped with a wide variety of toppings from classic cinnamon sugar to Nutella and Oreo. The most popular dessert destination at any Canadian theme park.",
+    "topPick": true,
+    "type": "Beaver Tails Desserts",
+    "image": "assets/images/la_ronde/food_queues_de_castor.png",
+    "lat": 45.5089,
+    "lng": -73.5325,
+    "rating": 4.6,
+    "items": [
+      {
+        "name": "Classic Beaver Tail",
+        "description": "Freshly fried beaver tail with cinnamon sugar",
+        "price": 8
+      },
+      {
+        "name": "Nutella Beaver Tail",
+        "description": "Beaver tail with Nutella and banana",
+        "price": 11
+      },
+      {
+        "name": "Oreo Beaver Tail",
+        "description": "Beaver tail with Oreo cream and chocolate drizzle",
+        "price": 12
+      },
+      {
+        "name": "Maple Beaver Tail",
+        "description": "Beaver tail with pure Quebec maple syrup",
+        "price": 10
+      }
+    ]
+  },
+  {
+    "id": "food_sabra",
+    "name": "Sabra",
+    "description": "A popular and convenient quick-service restaurant at La Ronde serving classic fast food options including hot dogs, burgers, fries and snacks. One of the most accessible and frequently visited quick-service dining locations at the park.",
+    "topPick": false,
+    "type": "Quick Service",
+    "image": "assets/images/la_ronde/food_sabra.png",
+    "lat": 45.5081,
+    "lng": -73.5338,
+    "rating": 3.8,
+    "items": [
+      {
+        "name": "Classic Hot Dog",
+        "description": "Classic hot dog with mustard and onions",
+        "price": 7
+      },
+      {
+        "name": "Poutine",
+        "description": "Classic poutine with cheese curds and gravy",
+        "price": 10
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Classic cheeseburger with fries",
+        "price": 13
+      },
+      {
+        "name": "Lemonade",
+        "description": "Fresh lemonade",
+        "price": 5
+      }
+    ]
+  }
+]

@@ -752,5 +752,329 @@
         "city": "Auckland",
         "ticketsUrl": "https://rainbowsend.co.nz/tickets/buy-tickets-online",
         "queueTimesId": 0
+    },
+    {
+        "id": "luna_park_sydney",
+        "thumbnailAsset": "assets/images/luna_park_sydney/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Luna Park Sydney",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 10,
+            "adult": 10
+        },
+        "currency": "AUD",
+        "openingHours": "10:00 - 22:00",
+        "lng": 151.21,
+        "country": "Australia",
+        "city": "Milsons Point, Sydney",
+        "ticketsUrl": "https://www.lunaparksydney.com/#hp_tickets",
+        "queueTimesId": 0
+    },
+    {
+        "id": "everland",
+        "thumbnailAsset": "assets/images/everland/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Everland",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 52000,
+            "adult": 62000
+        },
+        "currency": "KRW",
+        "openingHours": "10:00 - 21:00",
+        "lng": 127.2003,
+        "country": "South Korea",
+        "city": "Yongin, Gyeonggi-do",
+        "ticketsUrl": "https://reservation.everland.com/mobile/el.do?method=productMain",
+        "queueTimesId": 0
+    },
+    {
+        "id": "universal_studios_japan",
+        "thumbnailAsset": "assets/images/universal_studios_japan/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Universal Studios Japan",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 7400,
+            "adult": 9400
+        },
+        "currency": "JPY",
+        "openingHours": "09:00 - 21:00",
+        "lng": 135.4323,
+        "country": "Japan",
+        "city": "Osaka",
+        "ticketsUrl": "https://www.usj.co.jp/web/en/us/tickets",
+        "queueTimesId": 0
+    },
+    {
+        "id": "tokyo_disneysea",
+        "thumbnailAsset": "assets/images/tokyo_disneysea/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Tokyo DisneySea",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 7900,
+            "adult": 10900
+        },
+        "currency": "JPY",
+        "openingHours": "09:00 - 21:00",
+        "lng": 139.8855,
+        "country": "Japan",
+        "city": "Urayasu, Chiba",
+        "ticketsUrl": "https://www.tokyodisneyresort.jp/en/ticket/",
+        "queueTimesId": 0
+    },
+    {
+        "id": "dreamworld_australia",
+        "thumbnailAsset": "assets/images/dreamworld_australia/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Dreamworld",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 79,
+            "adult": 99
+        },
+        "currency": "AUD",
+        "openingHours": "10:00 - 17:00",
+        "lng": 153.3193,
+        "country": "Australia",
+        "city": "Coomera, Gold Coast",
+        "ticketsUrl": "https://www.dreamworld.com.au/tickets",
+        "queueTimesId": 0
+    },
+    {
+        "id": "beto_carrero_world",
+        "thumbnailAsset": "assets/images/beto_carrero_world/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Beto Carrero World",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 170,
+            "adult": 220
+        },
+        "currency": "BRL",
+        "openingHours": "09:00 - 18:00",
+        "lng": -48.6453,
+        "country": "Brazil",
+        "city": "Penha, Santa Catarina",
+        "ticketsUrl": "https://www.betocarrero.com.br/passaportes",
+        "queueTimesId": 0
+    },
+    {
+        "id": "fantasilandia",
+        "thumbnailAsset": "assets/images/fantasilandia/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Fantasilandia",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 12000,
+            "adult": 18000
+        },
+        "currency": "CLP",
+        "openingHours": "11:00 - 21:00",
+        "lng": -70.6506,
+        "country": "Chile",
+        "city": "Santiago",
+        "ticketsUrl": "https://www.fantasilandia.cl/entradas.html",
+        "queueTimesId": 0
+    },
+    {
+        "id": "epcot",
+        "thumbnailAsset": "assets/images/epcot/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "EPCOT",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 109,
+            "adult": 114
+        },
+        "currency": "USD",
+        "openingHours": "09:00 - 21:00",
+        "lng": -81.5494,
+        "country": "USA",
+        "city": "Orlando, Florida",
+        "ticketsUrl": "https://www.disneyworld.com/destinations/epcot/",
+        "queueTimesId": 0
+    },
+    {
+        "id": "canadas_wonderland",
+        "thumbnailAsset": "assets/images/canadas_wonderland/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Canada's Wonderland",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 44,
+            "adult": 49
+        },
+        "currency": "CAD",
+        "openingHours": "10:00 - 22:00",
+        "lng": -79.5384,
+        "country": "Canada",
+        "city": "Vaughan, Ontario",
+        "ticketsUrl": "https://www.canadaswonderland.com/tickets",
+        "queueTimesId": 0
+    },
+    {
+        "id": "magic_kingdom",
+        "thumbnailAsset": "assets/images/magic_kingdom/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Magic Kingdom",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 109,
+            "adult": 114
+        },
+        "currency": "USD",
+        "openingHours": "09:00 - 22:00",
+        "lng": -81.5811,
+        "country": "USA",
+        "city": "Orlando, Florida",
+        "ticketsUrl": "https://www.disneyworld.com/destinations/magic-kingdom/",
+        "queueTimesId": 0
+    },
+    {
+        "id": "disneyland_park",
+        "thumbnailAsset": "assets/images/disneyland_park/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Disneyland Park",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 104,
+            "adult": 109
+        },
+        "currency": "USD",
+        "openingHours": "08:00 - 23:00",
+        "lng": -117.9189,
+        "country": "USA",
+        "city": "Anaheim, California",
+        "ticketsUrl": "https://disneyland.disney.go.com/tickets/",
+        "queueTimesId": 0
+    },
+    {
+        "id": "universal_studios_florida",
+        "thumbnailAsset": "assets/images/universal_studios_florida/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Universal Studios Florida",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 109,
+            "adult": 119
+        },
+        "currency": "USD",
+        "openingHours": "09:00 - 21:00",
+        "lng": -81.4688,
+        "country": "USA",
+        "city": "Orlando, Florida",
+        "ticketsUrl": "https://www.universalorlando.com/web/en/us/tickets",
+        "queueTimesId": 0
+    },
+    {
+        "id": "islands_of_adventure",
+        "thumbnailAsset": "assets/images/islands_of_adventure/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Islands of Adventure",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 109,
+            "adult": 119
+        },
+        "currency": "USD",
+        "openingHours": "09:00 - 21:00",
+        "lng": -81.4712,
+        "country": "USA",
+        "city": "Orlando, Florida",
+        "ticketsUrl": "https://www.universalorlando.com/web/en/us/tickets",
+        "queueTimesId": 0
+    },
+    {
+        "id": "la_ronde",
+        "thumbnailAsset": "assets/images/la_ronde/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "La Ronde",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 44,
+            "adult": 49
+        },
+        "currency": "CAD",
+        "openingHours": "11:00 - 22:00",
+        "lng": -73.533,
+        "country": "Canada",
+        "city": "Montreal, Quebec",
+        "ticketsUrl": "https://www.laronde.com/larondepark/en/tickets",
+        "queueTimesId": 0
+    },
+    {
+        "id": "calaway_park",
+        "thumbnailAsset": "assets/images/calaway_park/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Calaway Park",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 36,
+            "adult": 42
+        },
+        "currency": "CAD",
+        "openingHours": "10:00 - 20:00",
+        "lng": -114.2108,
+        "country": "Canada",
+        "city": "Calgary, Alberta",
+        "ticketsUrl": "https://www.calawaypark.com/tickets/",
+        "queueTimesId": 0
+    },
+    {
+        "id": "cedar_point",
+        "thumbnailAsset": "assets/images/cedar_point/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Cedar Point",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 59,
+            "adult": 69
+        },
+        "currency": "USD",
+        "openingHours": "10:00 - 22:00",
+        "lng": -82.6837,
+        "country": "USA",
+        "city": "Sandusky, Ohio",
+        "ticketsUrl": "https://www.cedarpoint.com/tickets-passes",
+        "queueTimesId": 0
+    },
+    {
+        "id": "six_flags_magic_mountain",
+        "thumbnailAsset": "assets/images/six_flags_magic_mountain/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Six Flags Magic Mountain",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 59,
+            "adult": 74
+        },
+        "currency": "USD",
+        "openingHours": "10:30 - 20:00",
+        "lng": -118.597,
+        "country": "USA",
+        "city": "Valencia, California",
+        "ticketsUrl": "https://www.sixflags.com/magicmountain/tickets",
+        "queueTimesId": 0
+    },
+    {
+        "id": "parque_de_la_costa",
+        "thumbnailAsset": "assets/images/parque_de_la_costa/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Parque de la Costa",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 4500,
+            "adult": 5500
+        },
+        "currency": "ARS",
+        "openingHours": "11:00 - 20:00",
+        "lng": -58.5768,
+        "country": "Argentina",
+        "city": "Tigre, Buenos Aires",
+        "ticketsUrl": "https://www.parquedelacosta.com.ar/entradas",
+        "queueTimesId": 0
     }
 ]

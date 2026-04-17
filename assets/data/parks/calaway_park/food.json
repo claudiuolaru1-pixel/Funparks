@@ -1,0 +1,134 @@
+[
+  {
+    "id": "food_big_sky_grill",
+    "name": "Big Sky Grill",
+    "description": "The most popular and well-regarded restaurant at Calaway Park — Big Sky Grill is a spacious Western-themed grill restaurant serving generous portions of classic Canadian and American comfort food including burgers, ribs, chicken and fries. The best sit-down dining experience at Western Canada's largest theme park.",
+    "topPick": true,
+    "type": "Western Canadian Grill",
+    "image": "assets/images/calaway_park/food_big_sky_grill.png",
+    "lat": 51.0862,
+    "lng": -114.2108,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Alberta Beef Burger",
+        "description": "Classic Alberta beef burger with cheese, bacon and fries",
+        "price": 17
+      },
+      {
+        "name": "BBQ Ribs",
+        "description": "Slow-cooked BBQ pork ribs with coleslaw and fries",
+        "price": 22
+      },
+      {
+        "name": "Grilled Chicken Platter",
+        "description": "Flame-grilled chicken with mashed potatoes and seasonal vegetables",
+        "price": 19
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Large fountain soft drink",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_the_burger_inn",
+    "name": "The Burger Inn",
+    "description": "A classic and beloved quick-service burger restaurant at Calaway Park serving freshly made Alberta beef burgers, hot dogs, fries and milkshakes. One of the most popular and frequently visited dining destinations at Calaway Park.",
+    "topPick": true,
+    "type": "Classic Burger Quick Service",
+    "image": "assets/images/calaway_park/food_the_burger_inn.png",
+    "lat": 51.0865,
+    "lng": -114.2105,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Double Cheeseburger",
+        "description": "Double Alberta beef burger with cheese, lettuce and tomato",
+        "price": 14
+      },
+      {
+        "name": "Classic Hot Dog",
+        "description": "Classic hot dog with fries",
+        "price": 10
+      },
+      {
+        "name": "Poutine",
+        "description": "Classic Canadian poutine with cheese curds and gravy",
+        "price": 11
+      },
+      {
+        "name": "Vanilla Milkshake",
+        "description": "Classic thick vanilla milkshake",
+        "price": 7
+      }
+    ]
+  },
+  {
+    "id": "food_calaway_cafe",
+    "name": "Calaway Cafe",
+    "description": "A comfortable and convenient cafe at Calaway Park serving classic Canadian comfort food including soups, sandwiches, pasta and hot meals. The most accessible and family-friendly dining option at Western Canada's largest theme park.",
+    "topPick": false,
+    "type": "Canadian Comfort Food Cafe",
+    "image": "assets/images/calaway_park/food_calaway_cafe.png",
+    "lat": 51.0858,
+    "lng": -114.2112,
+    "rating": 3.9,
+    "items": [
+      {
+        "name": "Tomato Soup",
+        "description": "Classic creamy tomato soup with crusty bread roll",
+        "price": 8
+      },
+      {
+        "name": "Club Sandwich",
+        "description": "Classic club sandwich with fries",
+        "price": 14
+      },
+      {
+        "name": "Mac and Cheese",
+        "description": "Classic creamy macaroni and cheese",
+        "price": 10
+      },
+      {
+        "name": "Coffee",
+        "description": "Classic drip coffee",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_sweet_toothe_candy_shop",
+    "name": "Sweet Tooth Candy Shop",
+    "description": "The most beloved sweet treat destination at Calaway Park — Sweet Tooth Candy Shop serves a wonderful selection of classic Canadian fairground confections including cotton candy, candy apples, fudge and a wide variety of sweets and chocolates.",
+    "topPick": false,
+    "type": "Candy and Sweets",
+    "image": "assets/images/calaway_park/food_sweet_toothe_candy_shop.png",
+    "lat": 51.086,
+    "lng": -114.2115,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Cotton Candy",
+        "description": "Classic freshly spun cotton candy",
+        "price": 6
+      },
+      {
+        "name": "Candy Apple",
+        "description": "Classic red candy apple",
+        "price": 5
+      },
+      {
+        "name": "Maple Fudge",
+        "description": "Classic Canadian maple fudge",
+        "price": 8
+      },
+      {
+        "name": "Chocolate Bar",
+        "description": "Classic milk chocolate bar",
+        "price": 4
+      }
+    ]
+  }
+]

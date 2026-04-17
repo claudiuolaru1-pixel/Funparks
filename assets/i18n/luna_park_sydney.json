@@ -1,0 +1,392 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Luna Park Sydney is Australia's most iconic theme park, located on the shores of Sydney Harbour at Milsons Point with the Sydney Harbour Bridge rising directly behind the park entrance. Opened in 1935, Luna Park Sydney is a heritage-listed amusement park that has been entertaining Sydney families for nearly 90 years. The park combines historic heritage attractions including the legendary Coney Island fun house with modern thrill rides — all set against the most spectacular harbour backdrop of any theme park in the world. The iconic smiling face entrance and neon-lit facade are among the most recognisable images in Australian culture.",
+      "es": "Luna Park Sydney es el parque tematico mas iconico de Australia, ubicado a orillas del puerto de Sydney en Milsons Point con el Puente del Puerto de Sydney directamente detras de la entrada del parque. Inaugurado en 1935, es un parque de atracciones con patrimonio historico que ha entretenido a las familias de Sydney durante casi 90 anos. Atrae mas de 1.5 millones de visitantes anuales.",
+      "fr": "Luna Park Sydney est le parc a themes le plus iconique d Australie, situe sur les rives du port de Sydney a Milsons Point avec le Sydney Harbour Bridge directement derriere l entree. Ouvert en 1935, c est un parc d attractions inscrit au patrimoine qui divertit les familles de Sydney depuis pres de 90 ans. Accueille plus de 1.5 million de visiteurs par an.",
+      "de": "Luna Park Sydney ist Australiens ikonischster Themenpark am Ufer des Hafens von Sydney in Milsons Point mit der Sydney Harbour Bridge direkt hinter dem Parkeingang. 1935 eroffnet ist es ein denkmalgeschutzter Vergnugungspark der Sydney-Familien seit fast 90 Jahren unterhalt. Uber 1.5 Millionen Besucher jahrlich.",
+      "it": "Luna Park Sydney e il parco a tema piu iconico d Australia, situato sulle rive del porto di Sydney a Milsons Point con il Sydney Harbour Bridge direttamente dietro l ingresso. Aperto nel 1935 e un parco divertimenti con patrimonio storico che intrattiene le famiglie di Sydney da quasi 90 anni. Oltre 1.5 milioni di visitatori annui.",
+      "nl": "Luna Park Sydney is Australies meest iconische themapark aan de oevers van de haven van Sydney in Milsons Point met de Sydney Harbour Bridge direct achter de parkentree. Geopend in 1935 is het een erfgoed amusementspark dat Sydney families bijna 90 jaar vermaakt. Meer dan 1.5 miljoen bezoekers per jaar.",
+      "pt": "Luna Park Sydney e o parque tematico mais iconico da Australia, localizado nas margens do porto de Sydney em Milsons Point com a Sydney Harbour Bridge directamente atras da entrada. Aberto em 1935 e um parque de diversoes classificado como patrimonio que entretem familias de Sydney ha quase 90 anos. Mais de 1.5 milhoes de visitantes anuais.",
+      "ru": "Luna Park Sydney — самый иконический тематический парк Австралии, на берегу гавани Сиднея. Открыт в 1935 году. Более 1.5 млн посетителей в год.",
+      "zh": "消魂乐园是澳大利亚最标志性的主题公园，位于悉尼港湾岥的米尔森波尼特。公园于1935年开放，是一个历史保护的游乐場所，这里拥有全世界任何主题公园中最宏伟的港湾景色背景。每年吸引逾150万游客。",
+      "ar": "Luna Park Sydney هو أكثر متنزهات أستراليا أيقونية، على ضفاف ميناء سيدني في Milsons Point. افتتح 1935 ويستقبل أكثر من 1.5 مليون زائر سنويا."
+    },
+    "ov_highlights_body": {
+      "en": "The Ferris Wheel delivers the most spectacular harbour views of any theme park ride in the world — the Opera House and Harbour Bridge framed perfectly from the top. Sledgehammer is the most intense thrill ride with breathtaking harbour views at the apex. Coney Island has been operating since 1935 and is one of the most historically significant fun houses in the Southern Hemisphere. The Rotor is one of the last operating examples of this legendary fairground classic in Australia. The Harbourview Carousel is the most beautiful carousel in Australia. Every ride at Luna Park Sydney is enhanced by its extraordinary harbour backdrop.",
+      "es": "La noria ofrece las vistas mas espectaculares del puerto de cualquier atraccion de parque tematico en el mundo. Sledgehammer es la atraccion mas intensa con impresionantes vistas del puerto. Coney Island lleva funcionando desde 1935 y es uno de los casas de diversiones mas historicamente significativas. El Rotor es uno de los ultimos ejemplos en funcionamiento de este clasico de feria en Australia.",
+      "fr": "La grande roue offre les vues les plus spectaculaires du port de toute attraction de parc a themes au monde. Sledgehammer est l attraction la plus intense avec de superbes vues sur le port. Coney Island fonctionne depuis 1935. Le Rotor est l un des derniers exemples en fonctionnement de ce classique en Australie.",
+      "de": "Das Riesenrad bietet die spektakularsten Hafenaussichten jeder Themenpark-Attraktion der Welt. Sledgehammer ist die intensivste Attraktion mit atemberaubenden Hafenaussichten. Coney Island ist seit 1935 in Betrieb. Der Rotor ist eines der letzten betriebenen Beispiele dieses legendaren Jahrmarktsklassikers in Australien.",
+      "it": "La ruota panoramica offre le viste piu spettacolari del porto di qualsiasi attrazione al mondo. Sledgehammer e l attrazione piu intensa con viste mozzafiato sul porto. Coney Island e in funzione dal 1935. Il Rotor e uno degli ultimi esempi funzionanti di questo classico in Australia.",
+      "nl": "Het reuzenrad biedt de meest spectaculaire havenzichten van welke themapark attractie dan ook ter wereld. Sledgehammer is de meest intense attractie met adembenemende havenzichten. Coney Island is al in bedrijf sinds 1935. De Rotor is een van de laatste werkende voorbeelden van dit klassieke karreksel in Australie.",
+      "pt": "A roda panoramica oferece as vistas mais espetaculares do porto de qualquer atracao de parque tematico no mundo. Sledgehammer e a atracao mais intensa com vistas deslumbrantes do porto. Coney Island funciona desde 1935. O Rotor e um dos ultimos exemplos em funcionamento deste classico na Australia.",
+      "ru": "Колесо обозрения открывает величайший вид на гавань. Sledgehammer — самый интенсивный аттракцион. Coney Island работает с 1935 года.",
+      "zh": "观光轮提供全世界任何主题公园项目中最壮观的港湾景色。大锤是最刺激的项目，顶部俳瞰港湾美景。康尼岛自1935年起运营。转轮是澳大利亚最后运营的传奇广场游乐项目之一。",
+      "ar": "عجلة المشاهدة توفر أروع مناظر الميناء. Sledgehammer الأكثر إثارة. Coney Island منذ 1935."
+    },
+    "ov_did_you_know_body": {
+      "en": "Luna Park Sydney is heritage-listed meaning the park's iconic face entrance, original buildings and character must be preserved for future generations. The original Coney Island fun house has been operating continuously since 1935 making it one of the oldest continually operating amusement attractions in the Southern Hemisphere. The Rotor ride was originally installed in 1935 and is one of only a handful of Rotor rides still operating anywhere in the world. Entry to Luna Park Sydney is free — guests pay per ride or buy an unlimited ride pass. The park is one of the most photographed locations in all of Australia due to its extraordinary harbour backdrop.",
+      "es": "Luna Park Sydney tiene proteccion patrimonial lo que significa que la entrada facial iconica y los edificios originales deben preservarse. El Coney Island original ha funcionado continuamente desde 1935. El Rotor fue instalado originalmente en 1935 y es uno de los pocos Rotores que todavia funcionan en el mundo. La entrada a Luna Park Sydney es gratuita.",
+      "fr": "Luna Park Sydney est classe patrimoine ce qui signifie que l entree iconique en forme de visage et les batiments originaux doivent etre preserves. Le Coney Island original fonctionne continuellement depuis 1935. Le Rotor a ete installe en 1935 et est l un des rares Rotors encore en fonctionnement dans le monde. L entree a Luna Park Sydney est gratuite.",
+      "de": "Luna Park Sydney ist denkmalgeschutzt was bedeutet dass der ikonische Gesichtseingang und die Originalgebaude fur kunftige Generationen erhalten werden mussen. Das Original Coney Island Fun House ist seit 1935 ununterbrochen in Betrieb. Der Rotor wurde 1935 installiert und ist einer der wenigen noch betriebenen Rotors weltweit. Der Eintritt in Luna Park Sydney ist kostenlos.",
+      "it": "Luna Park Sydney e patrimonio tutelato il che significa che l ingresso iconico a forma di faccia e gli edifici originali devono essere preservati. Il Coney Island originale funziona continuamente dal 1935. Il Rotor fu installato nel 1935 ed e uno dei pochi Rotor ancora in funzione nel mondo. L ingresso a Luna Park Sydney e gratuito.",
+      "nl": "Luna Park Sydney is erfgoed beschermd wat betekent dat de iconische gezichtsentree en originele gebouwen bewaard moeten blijven. Het originele Coney Island fun house is ononderbroken in bedrijf sinds 1935. De Rotor werd in 1935 geinstalleerd en is een van de weinige nog werkende Rotors ter wereld. Toegang tot Luna Park Sydney is gratis.",
+      "pt": "Luna Park Sydney e classificado como patrimonio o que significa que a entrada iconica em forma de rosto e os edificios originais devem ser preservados. O Coney Island original funciona continuamente desde 1935. O Rotor foi instalado em 1935 e e um dos poucos Rotors ainda em funcionamento no mundo. A entrada em Luna Park Sydney e gratuita.",
+      "ru": "Luna Park Sydney охраняется как памятник. Coney Island беспрерывно работает с 1935 года. Rotor — один из последних в мире. Вход бесплатный.",
+      "zh": "消魂乐园是受保护的历史遗产地。康尼岛自1935年起持续运营。转轮是全世界极少数仍在运行的传奇游乐项目之一。入内免费。",
+      "ar": "Luna Park Sydney مدرج في قائمة التراث. Coney Island يعمل منذ 1935. Rotor من آخر نسخ قيد التشغيل. الدخول مجاني."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head straight to Sledgehammer and Big Dipper — queues build quickly on weekends. Boomerang third. The Ferris Wheel is best at sunset when the harbour light is at its most beautiful — the photography opportunities are extraordinary. Coney Island is best explored mid-morning before crowds build. The Rotor operates at scheduled times — check on arrival. The Gelato Bar is the most popular afternoon treat — visit before 3pm to avoid queues. Luna Park is busiest on weekends and Sydney school holidays. The park is magical at night when the neon lights are illuminated against the harbour.",
+      "es": "Llega a la apertura y ve directamente a Sledgehammer y Big Dipper. Boomerang tercero. La noria es mejor al atardecer cuando la luz del puerto es mas hermosa. Coney Island se explora mejor a media manana. El Rotor funciona en horarios programados. Luna Park es mas magico de noche cuando las luces de neon se iluminan.",
+      "fr": "Arrivez a l ouverture et allez directement a Sledgehammer et Big Dipper. Boomerang troisieme. La grande roue est mieux au coucher du soleil quand la lumiere du port est la plus belle. Coney Island se visite mieux en milieu de matinee. Le Rotor fonctionne a des heures programmees. Luna Park est magique la nuit.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Sledgehammer und Big Dipper. Boomerang dritter. Das Riesenrad ist beim Sonnenuntergang am schonsten wenn das Hafenlicht am schonsten ist. Coney Island wird am besten am Vormittag erkundet. Luna Park ist nachts magisch wenn die Neonlichter leuchten.",
+      "it": "Arriva all apertura e vai direttamente a Sledgehammer e Big Dipper. Boomerang terzo. La ruota panoramica e meglio al tramonto quando la luce del porto e piu bella. Coney Island si esplora meglio a meta mattina. Luna Park e magico di notte quando le luci al neon sono illuminate.",
+      "nl": "Kom bij opening en ga direct naar Sledgehammer en Big Dipper. Boomerang derde. Het reuzenrad is het beste bij zonsondergang wanneer het havenlicht het mooist is. Coney Island wordt best midden in de ochtend verkend. Luna Park is magisch s nachts als de neonlichten verlicht zijn.",
+      "pt": "Chega na abertura e vai directamente a Sledgehammer e Big Dipper. Boomerang terceiro. A roda panoramica e melhor ao por do sol quando a luz do porto esta mais bonita. Coney Island e melhor explorado de manha cedo. Luna Park e magico a noite quando as luzes neon estao iluminadas.",
+      "ru": "Приходите к открытию и сразу к Sledgehammer и Big Dipper. Boomerang третьим. Колесо лучше на закате солнца. Ночью парк волшебный.",
+      "zh": "开园时到达直接前往大锤和大跌车。回旋飞车第三。观光轮在日落时最层层兜射入港湾光线最为突出。康尼岛在上午或早上扫覆最佳。夜晚举炫的蝶虫灯光点亮了整个公园。",
+      "ar": "صل عند الافتتاح واذهب مباشرة لـ Sledgehammer وBig Dipper. عجلة المشاهدة أجمل عند الغروب. Luna Park سحري ليلا."
+    },
+    "ov_photos_body": {
+      "en": "Luna Park Sydney photographed from the water with the Harbour Bridge behind and the smiling face entrance illuminated at night is one of the most iconic images in Australian photography. The Ferris Wheel photographed with the Opera House perfectly framed in one of the gondola windows is uniquely spectacular. Big Dipper photographed from below with the Harbour Bridge directly overhead creates an extraordinary image found nowhere else in theme park photography. Sledgehammer photographed at the apex of its swing with Sydney Harbour spread below is breathtaking. The neon-lit park entrance photographed at dusk is one of Sydney's most beloved images.",
+      "es": "Luna Park Sydney fotografiado desde el agua con el Puente del Puerto y la entrada iluminada de noche es una de las imagenes mas iconicas de la fotografia australiana. La noria con la Opera de Sydney perfectamente enmarcada en una de las gondolas es espectacular. Big Dipper desde abajo con el Puente del Puerto directamente sobre la cabeza crea una imagen extraordinaria.",
+      "fr": "Luna Park Sydney photographie depuis l eau avec le Harbour Bridge et l entree illuminee la nuit est l une des images les plus iconiques de la photographie australienne. La grande roue avec l Opera de Sydney encadre dans une gondole est spectaculaire. Big Dipper depuis le dessous avec le Harbour Bridge directement au-dessus cree une image extraordinaire.",
+      "de": "Luna Park Sydney vom Wasser aus mit dem Harbour Bridge und dem nachts beleuchteten Eingang fotografiert ist eines der ikonischsten Bilder der australischen Fotografie. Das Riesenrad mit dem Sydney Opera House perfekt in einer Gondole eingerahmt ist spektakular. Big Dipper von unten mit dem Harbour Bridge direkt daruber schafft ein aussergewohnliches Bild.",
+      "it": "Luna Park Sydney fotografato dall acqua con il Harbour Bridge e l ingresso illuminato di notte e una delle immagini piu iconiche della fotografia australiana. La ruota panoramica con l Opera House di Sydney perfettamente inquadrata in una gondola e spettacolare. Big Dipper dal basso con il Harbour Bridge direttamente sopra crea un immagine straordinaria.",
+      "nl": "Luna Park Sydney gefotografeerd van het water met de Harbour Bridge en de verlichte entree 's nachts is een van de meest iconische beelden in de Australische fotografie. Het reuzenrad met het Sydney Opera House perfect ingekaderd in een gondel is spectaculair.",
+      "pt": "Luna Park Sydney fotografado a partir da agua com a Harbour Bridge e a entrada iluminada a noite e uma das imagens mais iconicas da fotografia australiana. A roda panoramica com a Opera House de Sydney perfeitamente enquadrada numa gondola e espetacular.",
+      "ru": "Luna Park Sydney с воды с мостом Harbour Bridge — один из самых иконичных снимков Австралии.",
+      "zh": "从水上拍摄消魂乐园，湾尼大桥在背景中尸立，入口笑脸在夜晨薦灯颗昇——是澳大利亚摄影中最标志性的影像之一。观光轮以悉尼歌剧院为背景的拍摄极为独特。",
+      "ar": "Luna Park Sydney مصور من الماء مع Harbour Bridge والمدخل مضاء ليلا هو من أكثر الصور أيقونية."
+    }
+  },
+  "attractions": {
+    "big_dipper": {
+      "desc": {
+        "en": "Classic wooden coaster delivering old-school thrills with spectacular Sydney Harbour Bridge and Opera House views throughout. A uniquely Sydney experience. Min 130cm.",
+        "es": "Montana rusa clasica de madera con vistas espectaculares del Puerto de Sydney. Una experiencia unica de Sydney. Min 130cm.",
+        "fr": "Classique montagne russe en bois avec des vues spectaculaires sur le port de Sydney. Une experience unique a Sydney. Min 130cm.",
+        "de": "Klassischer Holzachterbahn mit spektakularen Sydney Hafenaussichten. Ein einzigartiges Sydney-Erlebnis. Mindestgrosse 130cm.",
+        "it": "Classica montagna russa in legno con viste spettacolari sul porto di Sydney. Un esperienza unica a Sydney. Min 130cm.",
+        "nl": "Klassieke houten achtbaan met spectaculaire Sydney haven uitzichten. Een unieke Sydney ervaring. Min 130cm.",
+        "pt": "Classica montanha-russa de madeira com vistas espetaculares sobre o porto de Sydney. Uma experiencia unica de Sydney. Min 130cm.",
+        "ru": "Классический деревянный коастер с видом на гавань. Мин 130 см.",
+        "zh": "经典木质过山车，全程修修悉尼港湾大桥和歌剧院美景。最低身高130厘米。",
+        "ar": "اوتوستراد خشبي كلاسيكي بمناظر رائعة لميناء سيدني. الحد الادنى 130 سم."
+      }
+    },
+    "sledgehammer": {
+      "desc": {
+        "en": "The most intense thrill ride at Luna Park — spectacular over-the-top swing launching riders with breathtaking Sydney Harbour views at the apex. Min 130cm.",
+        "es": "La atraccion mas intensa de Luna Park — espectacular columpio con vistas impresionantes del puerto de Sydney en el apice. Min 130cm.",
+        "fr": "L attraction la plus intense de Luna Park — spectaculaire balancoire avec vues spectaculaires sur le port de Sydney au sommet. Min 130cm.",
+        "de": "Die intensivste Attraktion im Luna Park — spektakulare Schaukel mit atemberaubenden Hafenaussichten am Scheitelpunkt. Mindestgrosse 130cm.",
+        "it": "L attrazione piu intensa di Luna Park — spettacolare altalena con viste mozzafiato sul porto di Sydney all apice. Min 130cm.",
+        "nl": "De meest intense attractie van Luna Park — spectaculaire schommel met adembenemende havenzichten aan de top. Min 130cm.",
+        "pt": "A atracao mais intensa do Luna Park — espetacular balanco com vistas deslumbrantes do porto de Sydney no apice. Min 130cm.",
+        "ru": "Самый интенсивный аттракцион. Вид на гавань. Мин 130 см.",
+        "zh": "消魂乐园最刺激的项目——壮观的超顶旋转摇荡，顶部俳瞰港湾全景。最低身高130厘米。",
+        "ar": "أكثر اتراكشن إثارة في Luna Park بمناظر رائعة. الحد الادنى 130 سم."
+      }
+    },
+    "boomerang": {
+      "desc": {
+        "en": "High-intensity suspended looping coaster going forward and backward through 6 inversions. Surprisingly ferocious in a compact layout. Min 130cm.",
+        "es": "Coaster de bucle suspendido de alta intensidad que va hacia adelante y hacia atras a traves de 6 inversiones. Sorprendentemente feroz. Min 130cm.",
+        "fr": "Coaster a boucle suspendu haute intensite allant en avant et en arriere a travers 6 inversions. Surprenamment feroce. Min 130cm.",
+        "de": "Hochintensiver Hanglooping-Coaster vorwarts und ruckwarts durch 6 Inversionen. Uberraschend wild. Mindestgrosse 130cm.",
+        "it": "Coaster a loop sospeso ad alta intensita che va avanti e indietro attraverso 6 inversioni. Sorprendentemente feroce. Min 130cm.",
+        "nl": "Hoge intensiteit hangende looping achtbaan voor en achteruit door 6 inversies. Verrassend hevig. Min 130cm.",
+        "pt": "Coaster de loop suspenso de alta intensidade indo para frente e para tras por 6 inversoes. Surpreendentemente feroz. Min 130cm.",
+        "ru": "Интенсивный петлеевый коастер вперёд и назад через 6 инверсий. Мин 130 см.",
+        "zh": "往返穿街6个翻转的高强度悬挂式过山车。最低身高130厘米。",
+        "ar": "اوتوستراد معلق عالي الكثافة للأمام والخلف. الحد الادنى 130 سم."
+      }
+    },
+    "spider": {
+      "desc": {
+        "en": "Classic spinning flat ride with multiple rotating gondolas on extending arms and spectacular harbour views. Min 130cm.",
+        "es": "Clasica atraccion giratoria plana con gondolas giratorias y vistas espectaculares del puerto. Min 130cm.",
+        "fr": "Classique attraction plate tournante avec gondoles rotatives et vues spectaculaires sur le port. Min 130cm.",
+        "de": "Klassische Dreh-Flachattraktion mit mehreren drehenden Gondeln und spektakularen Hafenaussichten. Mindestgrosse 130cm.",
+        "it": "Classica attrazione piatta rotante con gondole rotanti e viste spettacolari sul porto. Min 130cm.",
+        "nl": "Klassieke draaiende vlakke attractie met meerdere roterende gondels en spectaculaire havenzichten. Min 130cm.",
+        "pt": "Classica atracao plana giratoria com gondolas giratories e vistas espetaculares do porto. Min 130cm.",
+        "ru": "Классический вращающийся аттракцион. Мин 130 см.",
+        "zh": "经典旋转平面游乐项目，港湾景色壁。最低身高130厘米。",
+        "ar": "اتراكشن مسطح دوار كلاسيكي. الحد الادنى 130 سم."
+      }
+    },
+    "ranger": {
+      "desc": {
+        "en": "Classic pendulum swing with spectacular Sydney Harbour views and the iconic Harbour Bridge as backdrop. Most scenic flat ride in Australia. Min 120cm.",
+        "es": "Clasico columpio pendular con vistas espectaculares del puerto de Sydney. Min 120cm.",
+        "fr": "Classique balancoire pendulaire avec vues spectaculaires du port de Sydney. Min 120cm.",
+        "de": "Klassisches Pendelschaukel mit spektakularen Hafenaussichten. Mindestgrosse 120cm.",
+        "it": "Classica altalena pendolare con viste spettacolari sul porto di Sydney. Min 120cm.",
+        "nl": "Klassieke slingerrit met spectaculaire Sydney haven uitzichten. Min 120cm.",
+        "pt": "Classico baloico pendular com vistas espetaculares sobre o porto de Sydney. Min 120cm.",
+        "ru": "Классический маятник с видом на гавань. Мин 120 см.",
+        "zh": "经典摇荡项目，港湾大桥为背景。最低身高120厘米。",
+        "ar": "أرجوحة بندول كلاسيكية بمناظر رائعة للميناء. الحد الادنى 120 سم."
+      }
+    },
+    "rotor": {
+      "desc": {
+        "en": "Legendary spinning drum ride pinning riders to the walls as the floor drops — one of the last operating Rotor rides in Australia. A true fairground classic since 1935. Min 120cm.",
+        "es": "Legendario tambor giratorio que fija a los pasajeros en las paredes mientras el suelo cae — uno de los ultimos Rotores en funcionamiento en Australia. Min 120cm.",
+        "fr": "Legendaire tambour tournant qui colle les passagers aux murs quand le sol descend — l un des derniers Rotors en fonctionnement en Australie. Min 120cm.",
+        "de": "Legendare Drehtrommel die Fahrer an den Wanden anpresst wahrend der Boden absinkt — einer der letzten betriebenen Rotors in Australien. Mindestgrosse 120cm.",
+        "it": "Leggendario tamburo rotante che incolla i passeggeri alle pareti mentre il pavimento scende — uno degli ultimi Rotor in funzione in Australia. Min 120cm.",
+        "nl": "Legendarische draaitrommel die rijders tegen de wanden perst terwijl de vloer zakt — een van de laatste werkende Rotors in Australie. Min 120cm.",
+        "pt": "Legendario tambor giratoria que cola os passageiros as paredes enquanto o chao desce — um dos ultimos Rotors em funcionamento na Australia. Min 120cm.",
+        "ru": "Легендарный вращающийся барабан. Один из последних в Австралии. Мин 120 см.",
+        "zh": "传奇的旋转滚筒项目，离心力将人压在墙上，地板向下落。澳大利亚最后运营的转轮之一。最低身高120厘米。",
+        "ar": "اسطوانة دوارة أسطورية تلصق الركاب بالجدران. الحد الادنى 120 سم."
+      }
+    },
+    "wild_mouse": {
+      "desc": {
+        "en": "Classic wild mouse coaster with sharp unexpected turns and sudden drops. Deceptively thrilling — a beloved Luna Park institution. Min 120cm.",
+        "es": "Clasico coaster raton salvaje con giros bruscos inesperados y caidas repentinas. Sorprendentemente emocionante. Min 120cm.",
+        "fr": "Classique coaster souris sauvage avec virages brusques inattendus et chutes soudaines. Surprenamment palpitant. Min 120cm.",
+        "de": "Klassischer Wilde-Maus-Coaster mit scharfen unerwarteten Kurven und plotzlichen Abfallen. Uberraschend aufregend. Mindestgrosse 120cm.",
+        "it": "Classico coaster topo selvaggio con curve brusche inaspettate e cadute improvvise. Sorprendentemente emozionante. Min 120cm.",
+        "nl": "Klassieke wilde muis achtbaan met scherpe onverwachte bochten en plotselinge dalingen. Verrassend spannend. Min 120cm.",
+        "pt": "Classico coaster rato selvagem com curvas inesperadas e quedas repentinas. Surpreendentemente emocionante. Min 120cm.",
+        "ru": "Классическая дикая мышь. Мин 120 см.",
+        "zh": "经典狂鼠过山车，充满出屎不意的急转和下降。最低身高120厘米。",
+        "ar": "اوتوستراد الفأر الكلاسيكي. الحد الادنى 120 سم."
+      }
+    },
+    "ferris_wheel": {
+      "desc": {
+        "en": "The most spectacular harbour views of any theme park ride in the world — Opera House and Harbour Bridge perfectly framed from the top. A uniquely breathtaking Sydney experience. Suitable for all ages.",
+        "es": "Las vistas mas espectaculares del puerto de cualquier atraccion de parque tematico en el mundo — Opera House y Harbour Bridge perfectamente enmarcados desde arriba. Apto para todas las edades.",
+        "fr": "Les vues les plus spectaculaires du port de toute attraction de parc a themes — Opera House et Harbour Bridge parfaitement cadres depuis le sommet. Convient a tous les ages.",
+        "de": "Die spektakularsten Hafenaussichten jeder Themenpark-Attraktion der Welt — Opera House und Harbour Bridge perfekt vom Gipfel aus gerahmt. Fur alle Altersgruppen.",
+        "it": "Le viste piu spettacolari del porto di qualsiasi attrazione di parco a tema — Opera House e Harbour Bridge perfettamente inquadrati dall alto. Adatto a tutte le eta.",
+        "nl": "De meest spectaculaire havenzichten van welke themapark attractie dan ook ter wereld. Geschikt voor alle leeftijden.",
+        "pt": "As vistas mais espetaculares do porto de qualquer atracao de parque tematico no mundo. Adequado para todas as idades.",
+        "ru": "Самый зрелищный вид на гавань среди всех парков. Подходит для всех.",
+        "zh": "全球任何主题公园项目中最壮观的港湾全景——歌剥院和湾尼大桥层层兜完美框居。适合所有年龄。",
+        "ar": "أروع مناظر الميناء لأي اتراكشن في أي متنزه في العالم. مناسب لجميع الأعمار."
+      }
+    },
+    "harbourview_carousel": {
+      "desc": {
+        "en": "Magnificently restored heritage carousel — the most beautiful carousel in Australia set against the Sydney Harbour Bridge and city skyline. Suitable for all ages.",
+        "es": "Carrusel de patrimonio magnificamente restaurado — el mas hermoso de Australia frente al Puente del Puerto de Sydney. Apto para todas las edades.",
+        "fr": "Magnifique carrousel du patrimoine restaure — le plus beau d Australie face au Sydney Harbour Bridge. Convient a tous les ages.",
+        "de": "Prachtvoll restauriertes Erbkarussell — das schonste in Australien vor dem Sydney Harbour Bridge. Fur alle Altersgruppen.",
+        "it": "Magnificamente restaurato carosello del patrimonio — il piu bello d Australia di fronte al Sydney Harbour Bridge. Adatto a tutte le eta.",
+        "nl": "Prachtig gerestaureerd erfgoed carrousel — het mooiste in Australie tegenover de Sydney Harbour Bridge. Geschikt voor alle leeftijden.",
+        "pt": "Magnificamente restaurado carrocel do patrimonio — o mais bonito da Australia em frente a Sydney Harbour Bridge. Adequado para todas as idades.",
+        "ru": "Великолепно восстановленная карусель. Подходит для всех.",
+        "zh": "宏伟修复的历史性旋转木马——澳大利亚最美的旋转木马，背景是湾尼大桥。适合所有年龄。",
+        "ar": "خيول دوار تراثية مرممة بروعة. مناسب لجميع الأعمار."
+      }
+    },
+    "coney_island": {
+      "desc": {
+        "en": "Legendary heritage fun house operating since 1935 — slides, mirrors, moving obstacles and classic fairground fun. The soul of Luna Park and one of the most historically significant attractions in Australia. Suitable for all ages.",
+        "es": "Legendaria casa de diversiones patrimonial en funcionamiento desde 1935. El alma de Luna Park. Apto para todas las edades.",
+        "fr": "Legendaire maison de divertissement patrimoniale en fonctionnement depuis 1935. L ame de Luna Park. Convient a tous les ages.",
+        "de": "Legendares Erbspasshaus seit 1935 in Betrieb. Die Seele von Luna Park. Fur alle Altersgruppen.",
+        "it": "Leggendario divertimento del patrimonio in funzione dal 1935. L anima di Luna Park. Adatto a tutte le eta.",
+        "nl": "Legendarisch erfgoed fun house in bedrijf sinds 1935. De ziel van Luna Park. Geschikt voor alle leeftijden.",
+        "pt": "Legendario fun house do patrimonio em funcionamento desde 1935. A alma do Luna Park. Adequado para todas as idades.",
+        "ru": "Легендарный аттракцион с 1935 года. Душа Luna Park. Подходит для всех.",
+        "zh": "自1935年起运营的传奇遯怡屋——滚滑梯、镜子和移动障碍物。消魂乐园的灵魂。适合所有年龄。",
+        "ar": "Coney Island الأسطوري يعمل منذ 1935. روح Luna Park. مناسب لجميع الأعمار."
+      }
+    },
+    "house_of_mirrors": {
+      "desc": {
+        "en": "Classic fairground house of mirrors with mirror mazes and distorting reflection rooms. Popular and photogenic. Suitable for all ages.",
+        "es": "Clasica casa de espejos con laberintos de espejos y salas de reflexion distorsionante. Apto para todas las edades.",
+        "fr": "Classique maison des miroirs avec labyrinthes de miroirs et salles de reflexion distorsionnantes. Convient a tous les ages.",
+        "de": "Klassisches Spiegelhaus mit Spiegellabyrinthen und verzerrenden Reflexionsraumen. Fur alle Altersgruppen.",
+        "it": "Classica casa degli specchi con labirinti di specchi e stanze di riflessione distorcenti. Adatto a tutte le eta.",
+        "nl": "Klassiek spiegelhuis met spiegellabyrinten en vervormende reflectiekamers. Geschikt voor alle leeftijden.",
+        "pt": "Classica casa dos espelhos com labirintos de espelhos e salas de reflexao distorcentes. Adequado para todas as idades.",
+        "ru": "Классический кабинет зеркал. Подходит для всех.",
+        "zh": "经典魔镜屋——镜子迡宫和变形反射房间。适合所有年龄。",
+        "ar": "بيت المرايا الكلاسيكي. مناسب لجميع الأعمار."
+      }
+    },
+    "tango_train": {
+      "desc": {
+        "en": "Classic family coaster with gentle hills and turns. Popular and accessible for families with older children. Min 100cm.",
+        "es": "Coaster familiar clasico con suaves colinas y curvas. Min 100cm.",
+        "fr": "Classique coaster familial avec douces collines et virages. Min 100cm.",
+        "de": "Klassischer Familiencoaster mit sanften Hugeln und Kurven. Mindestgrosse 100cm.",
+        "it": "Classico coaster familiare con dolci colline e curve. Min 100cm.",
+        "nl": "Klassieke familieachtbaan met zachte heuvels en bochten. Min 100cm.",
+        "pt": "Classico coaster familiar com suaves colinas e curvas. Min 100cm.",
+        "ru": "Классический семейный коастер. Мин 100 см.",
+        "zh": "经典家庭过山车。最低身高100厘米。",
+        "ar": "اوتوستراد عائلي كلاسيكي. الحد الادنى 100 سم."
+      }
+    },
+    "tumblebug": {
+      "desc": {
+        "en": "Charming vintage spinning family ride — a heritage attraction beloved by generations of Luna Park visitors. Min 90cm.",
+        "es": "Encantador paseo familiar vintage giratorio — una atraccion patrimonial querida por generaciones. Min 90cm.",
+        "fr": "Charmant tour familial vintage tournant — une attraction du patrimoine aimee par des generations. Min 90cm.",
+        "de": "Charmante Vintage-Dreh-Familienfahrt — eine Erbattraktion die von Generationen geliebt wird. Mindestgrosse 90cm.",
+        "it": "Affascinante giro familiare vintage rotante — una attrazione del patrimonio amata da generazioni. Min 90cm.",
+        "nl": "Charmante vintage draaiende familierit — een erfgoed attractie geliefd bij generaties. Min 90cm.",
+        "pt": "Encantador passeio familiar vintage giratoria — uma atracao do patrimonio amada por geracoes. Min 90cm.",
+        "ru": "Очаровательный винтажный аттракцион. Мин 90 см.",
+        "zh": "迭代传承的迂人复古旋转项目。最低身高90厘米。",
+        "ar": "رحلة عائلية دوارة تراثية. الحد الادنى 90 سم."
+      }
+    },
+    "tea_cups": {
+      "desc": {
+        "en": "Classic spinning teacup ride where guests control their own spin. Universally loved family attraction. Suitable for all ages.",
+        "es": "Clasico paseo de tazas de te giratorias donde los visitantes controlan su propio giro. Apto para todas las edades.",
+        "fr": "Classique tour de tasses de the tournantes ou les visiteurs controlent leur propre rotation. Convient a tous les ages.",
+        "de": "Klassische Drehteetatsen wo Besucher ihren eigenen Spin steuern. Fur alle Altersgruppen.",
+        "it": "Classico giro di tazze da te rotanti dove i visitatori controllano il proprio giro. Adatto a tutte le eta.",
+        "nl": "Klassieke draaiende theekopjes waar bezoekers hun eigen spin besturen. Geschikt voor alle leeftijden.",
+        "pt": "Classico passeio de xicaras de cha giratories onde os visitantes controlam a sua propria rotacao. Adequado para todas as idades.",
+        "ru": "Классические чашки. Подходит для всех.",
+        "zh": "经典旋转茶杯项目。适合所有年龄。",
+        "ar": "كوب شاي دوارة كلاسيكية. مناسب لجميع الأعمار."
+      }
+    },
+    "dodgem_cars": {
+      "desc": {
+        "en": "Classic electric bumper cars — endlessly fun and universally loved. Suitable for all ages.",
+        "es": "Clasicos autos chocadores electricos. Apto para todas las edades.",
+        "fr": "Classiques autos tamponneuses electriques. Convient a tous les ages.",
+        "de": "Klassische elektrische Autoscooter. Fur alle Altersgruppen.",
+        "it": "Classiche macchine tamponanti elettriche. Adatto a tutte le eta.",
+        "nl": "Klassieke elektrische botsauto's. Geschikt voor alle leeftijden.",
+        "pt": "Classicos carros de choque electricos. Adequado para todas as idades.",
+        "ru": "Классические автодромы. Подходит для всех.",
+        "zh": "经典碰碰车。适合所有年龄。",
+        "ar": "سيارات تصادم كلاسيكية. مناسب لجميع الأعمار."
+      }
+    },
+    "little_nipper": {
+      "desc": {
+        "en": "Dedicated young children's zone with gentle rides scaled for toddlers and young children. Essential for families with young children visiting Luna Park Sydney. Suitable for all ages.",
+        "es": "Zona dedicada a ninos pequenos con atracciones suaves para ninos. Esencial para familias con ninos pequenos. Apto para todas las edades.",
+        "fr": "Zone dediee aux jeunes enfants avec attractions douces pour les tout-petits. Essentiel pour les familles avec de jeunes enfants. Convient a tous les ages.",
+        "de": "Kleine Kinder-Zone mit sanften Attraktionen fur Kleinkinder. Wesentlich fur Familien mit kleinen Kindern. Fur alle Altersgruppen.",
+        "it": "Zona dedicata ai bambini piccoli con attrazioni dolci per i piu piccoli. Essenziale per famiglie con bambini piccoli. Adatto a tutte le eta.",
+        "nl": "Kleine kinderen zone met zachte attracties voor peuters. Essentieel voor gezinnen met jonge kinderen. Geschikt voor alle leeftijden.",
+        "pt": "Zona dedicada a criancas pequenas com atracoes suaves para os mais novos. Essencial para familias com criancas pequenas. Adequado para todas as idades.",
+        "ru": "Зона для маленьких детей. Подходит для всех.",
+        "zh": "专为幼小儿童设计的小小尼码小小乐园区域。适合所有年龄。",
+        "ar": "منطقة مخصصة للأطفال الصغار. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_hungry_horse_restaurant": {
+      "desc": {
+        "en": "Premier dining at Luna Park — Australian and international dishes with extraordinary Sydney Harbour, Harbour Bridge and Opera House views. The most spectacular dining view of any theme park in the world.",
+        "es": "Restaurante principal de Luna Park — platos australianos e internacionales con extraordinarias vistas del Puerto de Sydney. Las vistas mas espectaculares de cualquier parque tematico del mundo.",
+        "fr": "Restaurant principal de Luna Park — plats australiens et internationaux avec des vues extraordinaires sur le port de Sydney. Les vues les plus spectaculaires de tout parc a themes au monde.",
+        "de": "Hauptrestaurant von Luna Park — australische und internationale Gerichte mit aussergewohnlichen Hafenaussichten. Die spektakularsten Essensaussichten jedes Themenparks der Welt.",
+        "it": "Ristorante principale di Luna Park — piatti australiani e internazionali con viste straordinarie sul porto di Sydney. Le viste piu spettacolari di qualsiasi parco a tema al mondo.",
+        "nl": "Hoofdrestaurant van Luna Park — Australische en internationale gerechten met buitengewone havenzichten. De meest spectaculaire eetgelegenheidszichten van enig themapark ter wereld.",
+        "pt": "Restaurante principal do Luna Park — pratos australianos e internacionais com extraordinarias vistas do porto de Sydney. As vistas mais espetaculares de qualquer parque tematico no mundo.",
+        "ru": "Главный ресторан с видом на гавань. Самый зрелищный вид из ресторана любого парка.",
+        "zh": "消魂乐园首选餐馆——供应澳大利亚和国际美食，配以港湾、大桥和歌劇院的全景。",
+        "ar": "مطعم رئيسي بأروع مناظر ميناء سيدني."
+      }
+    },
+    "food_helter_skelter_cafe": {
+      "desc": {
+        "en": "Charming heritage-themed cafe inside Coney Island serving coffee, cakes and classic Australian snacks in a uniquely atmospheric fairground setting.",
+        "es": "Encantador cafe con tematica de patrimonio dentro de Coney Island con cafe, pasteles y aperitivos australianos en un entorno de feria unico.",
+        "fr": "Charmant cafe theme patrimoine a l interieur de Coney Island avec cafe, gateaux et snacks australiens classiques dans un cadre de foire unique.",
+        "de": "Charmantes Erbthemen-Cafe im Inneren von Coney Island mit Kaffee, Kuchen und klassischen australischen Snacks in einer einzigartigen Jahrmarktssetting.",
+        "it": "Affascinante cafe a tema patrimonio all interno di Coney Island con caffe, dolci e snack australiani classici in un ambiente unico di luna park.",
+        "nl": "Charmant erfgoed thema cafe binnen Coney Island met koffie, taarten en klassieke Australische snacks in een unieke kermisomgeving.",
+        "pt": "Encantador cafe de tema patrimonio dentro do Coney Island com cafe, bolos e snacks australianos classicos num cenario de feira unico.",
+        "ru": "Чарующее кафе внутри Coney Island.",
+        "zh": "康尼岛内过山车局风格的过山车品牌咊啡，供应咊啡、蛋糕和小吃。",
+        "ar": "مقهى تراثي ساحر داخل Coney Island."
+      }
+    },
+    "food_gelato_bar": {
+      "desc": {
+        "en": "Artisan Italian gelato and sorbet bar — the most popular sweet treat at Luna Park Sydney and perfect with harbour views.",
+        "es": "Bar de gelato italiano artesano y sorbete — el dulce mas popular de Luna Park Sydney. Perfecto con vistas al puerto.",
+        "fr": "Bar de gelato italien artisanal et sorbet — la douceur la plus populaire de Luna Park Sydney. Parfait avec les vues sur le port.",
+        "de": "Handwerklicher italienischer Gelato und Sorbet-Bar — die beliebteste Suessspeise in Luna Park Sydney. Perfekt mit Hafenaussichten.",
+        "it": "Bar di gelato italiano artigianale e sorbetto — il dolce piu popolare di Luna Park Sydney. Perfetto con le viste sul porto.",
+        "nl": "Ambachtelijke Italiaanse gelato en sorbet bar — de populairste lekkernij in Luna Park Sydney. Perfect met havenzichten.",
+        "pt": "Bar de gelato italiano artesanal e sorbet — a guloseima mais popular do Luna Park Sydney. Perfeito com vistas para o porto.",
+        "ru": "Артизанское мороженое. Самый популярный десерт.",
+        "zh": "手工意大利冰淇淋和冰沙吕小屋——消魂乐园最受欢迎的甜唇。",
+        "ar": "بار جيلاتو إيطالي حرفي. الحلوى الأكثر شعبية في Luna Park."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_park_hyatt_sydney": {
+      "desc": {
+        "en": "The most prestigious hotel in Sydney — directly opposite the Opera House on Sydney Harbour with the finest views in Australia, rooftop pool, world-class spa and 10 minutes from Luna Park by ferry.",
+        "es": "El hotel mas prestigioso de Sydney — directamente frente a la Opera de Sydney con las mejores vistas de Australia y a 10 minutos de Luna Park en ferry.",
+        "fr": "L hotel le plus prestigieux de Sydney — directement en face de l Opera House sur le port de Sydney avec les meilleures vues d Australie. A 10 minutes de Luna Park en ferry.",
+        "de": "Das prestigetraechtigste Hotel in Sydney — direkt gegenuber dem Opera House am Sydney Harbour mit den besten Aussichten Australiens. 10 Minuten von Luna Park mit der Fahre.",
+        "it": "L hotel piu prestigioso di Sydney — direttamente di fronte all Opera House sul porto di Sydney con le migliori viste d Australia. A 10 minuti da Luna Park in traghetto.",
+        "nl": "Het meest prestigieuze hotel in Sydney — direct tegenover het Opera House aan Sydney Harbour met de mooiste uitzichten van Australie. 10 minuten van Luna Park per veerboot.",
+        "pt": "O hotel mais prestigioso de Sydney — directamente em frente a Opera House no porto de Sydney com as melhores vistas da Australia. A 10 minutos do Luna Park de ferry.",
+        "ru": "Самый престижный отель Сиднея напротив Оперного театра. 10 минут от Luna Park.",
+        "zh": "悉尼最尊贵的酒店——歌劇院对面，拥有全澳最优美视野。度假轮船至消魂乐园仈10分钟。",
+        "ar": "أفخم فندق في سيدني — أمام دار الأوبرا مباشرة. 10 دقائق من Luna Park بالعبارة."
+      }
+    },
+    "hotel_hyatt_regency_sydney": {
+      "desc": {
+        "en": "One of Sydney's largest 5-star hotels in Darling Harbour — spectacular harbour views, rooftop pool and bar, award-winning dining and a short ferry ride from Luna Park.",
+        "es": "Uno de los hoteles de 5 estrellas mas grandes de Sydney en Darling Harbour — vistas espectaculares del puerto y un corto trayecto en ferry desde Luna Park.",
+        "fr": "L un des plus grands hotels 5 etoiles de Sydney a Darling Harbour — vues spectaculaires sur le port et un court trajet en ferry depuis Luna Park.",
+        "de": "Eines der grossten 5-Sterne-Hotels Sydneys in Darling Harbour — spektakulare Hafenaussichten und kurze Fahre von Luna Park.",
+        "it": "Uno dei piu grandi hotel 5 stelle di Sydney a Darling Harbour — viste spettacolari sul porto e un breve viaggio in traghetto da Luna Park.",
+        "nl": "Een van Sydney's grootste 5-sterrenhotels in Darling Harbour — spectaculaire havenzichten en een korte veertocht van Luna Park.",
+        "pt": "Um dos maiores hoteis de 5 estrelas de Sydney em Darling Harbour — vistas espetaculares do porto e uma curta viagem de ferry do Luna Park.",
+        "ru": "Один из крупнейших 5-звёздных отелей Сиднея. Короткая поездка на пароме.",
+        "zh": "悉尼最大的五星级酒店之一，位于达林港，墮槻泳池，渡轮车程短短即到消魂乐园。",
+        "ar": "أحد أكبر فنادق سيدني 5 نجوم. رحلة عبارة قصيرة من Luna Park."
+      }
+    },
+    "hotel_north_sydney": {
+      "desc": {
+        "en": "Stylish contemporary hotel in North Sydney, 5 minutes walk from Luna Park — modern rooms, harbour views and easy access to the CBD by train or ferry.",
+        "es": "Elegante hotel contemporaneo en North Sydney a 5 minutos a pie de Luna Park — habitaciones modernas con vistas al puerto.",
+        "fr": "Elegant hotel contemporain a North Sydney a 5 minutes a pied de Luna Park — chambres modernes avec vues sur le port.",
+        "de": "Stilvolles zeitgenossisches Hotel in North Sydney 5 Gehminuten von Luna Park — moderne Zimmer mit Hafenaussichten.",
+        "it": "Elegante hotel contemporaneo a North Sydney a 5 minuti a piedi da Luna Park — camere moderne con viste sul porto.",
+        "nl": "Stijlvol eigentijds hotel in North Sydney 5 minuten lopen van Luna Park — moderne kamers met havenzichten.",
+        "pt": "Elegante hotel contemporaneo em North Sydney a 5 minutos a pe do Luna Park — quartos modernos com vistas para o porto.",
+        "ru": "Стильный отель в 5 минутах ходьбы от Luna Park.",
+        "zh": "北悉尼时尚酒店，消魂乐园步行5分钟。有港湾景观。",
+        "ar": "فندق عصري أنيق في North Sydney، 5 دقائق مشيا من Luna Park."
+      }
+    },
+    "hotel_milsons_point_apartments": {
+      "desc": {
+        "en": "Comfortable serviced apartments directly adjacent to Luna Park — self-contained with full kitchens and Sydney Harbour views. Most family-friendly and best-value option for multi-night visits.",
+        "es": "Comodos apartamentos con servicios directamente adyacentes a Luna Park — autocontenidos con cocinas completas y vistas al puerto. La opcion mas amigable para familias.",
+        "fr": "Confortables appartements de service directement adjacents a Luna Park — autonomes avec cuisines completes et vues sur le port. L option la plus familiale.",
+        "de": "Komfortable Dienstleistungswohnungen direkt neben Luna Park — selbststandig mit vollen Kuchen und Hafenaussichten. Familienfreundlichste Option.",
+        "it": "Confortevoli appartamenti con servizi direttamente adiacenti a Luna Park — autonomi con cucine complete e viste sul porto. L opzione piu a misura di famiglia.",
+        "nl": "Comfortabele serviceappartementen direct naast Luna Park — zelfstandig met volledige keukens en havenzichten. Meest gezinsvriendelijke optie.",
+        "pt": "Confortaveis apartamentos de servico directamente adjacentes ao Luna Park — autonomos com cozinhas completas e vistas para o porto. A opcao mais familiar.",
+        "ru": "Удобные апартаменты непосредственно рядом с Luna Park.",
+        "zh": "消魂乐园旁辿的舒适服式公寓——设有全套厨房设备和港湾景观。最适合家庭多日居住。",
+        "ar": "شقق مخدومة مريحة مجاورة مباشرة لـ Luna Park بمطابخ كاملة."
+      }
+    }
+  }
+}

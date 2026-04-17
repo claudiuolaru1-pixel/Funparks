@@ -5,6 +5,10 @@ import '../data/parks_repository.dart';
 import '../models/park.dart';
 import '../l10n/app_localizations.dart';
 import '../models/park_summary.dart';
+import '../widgets/park_image.dart';
+import '../widgets/shimmer_park_list.dart';
+import 'package:flutter/services.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 class HomeMapScreen extends StatefulWidget {
   const HomeMapScreen({super.key});
@@ -122,6 +126,7 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
             infoWindow: InfoWindow(title: park.name),
             onTap: () {
               if (!mounted) return;
+              _playPlop();
               _openPark(park);
             },
           ),
@@ -152,6 +157,13 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
         _loading = false;
       });
     }
+  }
+
+  Future<void> _playPlop() async {
+    try {
+      final p = AudioPlayer();
+      await p.play(AssetSource('sounds/water_plop.wav'));
+    } catch (_) {}
   }
 
   void _openPark(ParkSummary park) {
@@ -419,6 +431,8 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
             ),
           ),
           // ── Parks list ──
+          if (_loading)
+            Expanded(flex: 2, child: const ShimmerParkList()),
           if (!_loading && _filtered.isNotEmpty)
             Expanded(
               flex: 2,
@@ -430,14 +444,20 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
                 itemBuilder: (_, i) {
                   final p = _filtered[i];
                   return ListTile(
-                    leading: CircleAvatar(
-                      backgroundColor:
-                          cs.primaryContainer,
-                      child: Text(
-                        p.name.isNotEmpty ? p.name[0].toUpperCase() : '?',
-                        style: TextStyle(
-                            color: cs.onPrimaryContainer,
-                            fontWeight: FontWeight.w900),
+                    leading: Hero(
+                      tag: 'park_hero_${p.id}',
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(8),
+                        child: (p.thumbnail ?? '').isNotEmpty
+                            ? ParkImage(image: p.thumbnail!, width: 56, height: 56, fit: BoxFit.cover)
+                            : Container(
+                                width: 56, height: 56,
+                                color: cs.primaryContainer,
+                                child: Center(child: Text(
+                                  p.name.isNotEmpty ? p.name[0].toUpperCase() : '?',
+                                  style: TextStyle(color: cs.onPrimaryContainer, fontWeight: FontWeight.w900),
+                                )),
+                              ),
                       ),
                     ),
                     title: Text(p.name,
@@ -453,16 +473,17 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
                             color: cs.primary,
                             fontWeight: FontWeight.w700)),
                     onTap: () {
-                      // Fly to marker on map
+                      HapticFeedback.lightImpact();
+                      _playPlop();
                       _controller?.animateCamera(
                           CameraUpdate.newLatLngZoom(
                               LatLng(p.lat, p.lng), 12));
                       _openPark(p);
+                        },
+                      );
                     },
-                  );
-                },
-              ),
-            ),
+                  ),
+                ),
           if (!_loading && _filtered.isEmpty && _hasActiveFilters)
             const Expanded(
               flex: 2,

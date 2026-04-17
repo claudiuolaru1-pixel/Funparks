@@ -1,0 +1,167 @@
+[
+  {
+    "id": "food_parque_de_la_costa_restaurante",
+    "name": "Restaurante Parque de la Costa",
+    "description": "The main and most popular restaurant at Parque de la Costa serving classic Argentine and international cuisine including grilled meats, empanadas, pasta and classic Argentine comfort food. The best sit-down dining experience at any Argentine theme park.",
+    "topPick": true,
+    "type": "Argentine and International",
+    "image": "assets/images/parque_de_la_costa/food_parque_de_la_costa_restaurante.png",
+    "lat": -34.4255,
+    "lng": -58.5768,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Asado de Tira",
+        "description": "Classic Argentine beef ribs grilled over charcoal with chimichurri",
+        "price": 2200
+      },
+      {
+        "name": "Empanadas",
+        "description": "Traditional Argentine empanadas — baked or fried with beef or ham and cheese",
+        "price": 800
+      },
+      {
+        "name": "Milanesa a la Napolitana",
+        "description": "Classic Argentine milanesa with tomato, ham and melted cheese",
+        "price": 1900
+      },
+      {
+        "name": "Medialunas",
+        "description": "Classic Argentine croissants",
+        "price": 400
+      }
+    ]
+  },
+  {
+    "id": "food_burger_vib",
+    "name": "Burger VIB",
+    "description": "A popular and convenient burger restaurant at Parque de la Costa serving classic Argentine-style burgers, hot dogs and fries. One of the most frequently visited quick-service dining destinations at Argentina's premier theme park.",
+    "topPick": true,
+    "type": "Argentine Burgers Quick Service",
+    "image": "assets/images/parque_de_la_costa/food_burger_vib.png",
+    "lat": -34.4252,
+    "lng": -58.5772,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Classic Burger",
+        "description": "Classic beef burger with cheese, lettuce and tomato with fries",
+        "price": 1800
+      },
+      {
+        "name": "Hot Dog",
+        "description": "Classic hot dog with chimichurri and crispy onion",
+        "price": 1200
+      },
+      {
+        "name": "Poutine Argentina",
+        "description": "Fries with cheese sauce and bacon",
+        "price": 1100
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Large soft drink",
+        "price": 500
+      }
+    ]
+  },
+  {
+    "id": "food_winners_pub",
+    "name": "Winner's Pub",
+    "description": "A lively and popular pub-style restaurant at Parque de la Costa serving classic Argentine bar food including choripán, burgers, chips and cold beer in an energetic and entertaining atmosphere. The most popular casual dining destination at Parque de la Costa.",
+    "topPick": true,
+    "type": "Argentine Pub",
+    "image": "assets/images/parque_de_la_costa/food_winners_pub.png",
+    "lat": -34.4258,
+    "lng": -58.5765,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Choripán",
+        "description": "Classic Argentine chorizo sandwich with chimichurri",
+        "price": 1100
+      },
+      {
+        "name": "Craft Beer",
+        "description": "Ice cold Argentine craft beer",
+        "price": 900
+      },
+      {
+        "name": "Picada",
+        "description": "Classic Argentine sharing platter with cold cuts and cheese",
+        "price": 2200
+      },
+      {
+        "name": "Fries",
+        "description": "Classic crispy fries with ketchup and mayo",
+        "price": 700
+      }
+    ]
+  },
+  {
+    "id": "food_rabieta",
+    "name": "Rabieta",
+    "description": "A charming and popular ice cream and sweet treat destination at Parque de la Costa serving classic Argentine ice cream, waffles, churros and traditional Argentine desserts. The most beloved sweet treat experience at any Argentine theme park.",
+    "topPick": false,
+    "type": "Argentine Ice Cream and Sweets",
+    "image": "assets/images/parque_de_la_costa/food_rabieta.png",
+    "lat": -34.426,
+    "lng": -58.5762,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Argentine Ice Cream",
+        "description": "Classic dulce de leche and chocolate Argentine ice cream",
+        "price": 700
+      },
+      {
+        "name": "Churros con Chocolate",
+        "description": "Classic Argentine churros with dark chocolate dipping sauce",
+        "price": 800
+      },
+      {
+        "name": "Waffle",
+        "description": "Classic waffle with dulce de leche and whipped cream",
+        "price": 900
+      },
+      {
+        "name": "Café con Leche",
+        "description": "Classic Argentine milky coffee",
+        "price": 500
+      }
+    ]
+  },
+  {
+    "id": "food_tostado",
+    "name": "Tostado",
+    "description": "A convenient and popular sandwich and snack bar at Parque de la Costa serving toasted sandwiches, medialunas, coffee and classic Argentine empanadas. The most accessible quick-service dining option at Argentina's premier theme park.",
+    "topPick": false,
+    "type": "Argentine Sandwiches and Snacks",
+    "image": "assets/images/parque_de_la_costa/food_tostado.png",
+    "lat": -34.4248,
+    "lng": -58.5775,
+    "rating": 3.9,
+    "items": [
+      {
+        "name": "Tostado Mixto",
+        "description": "Classic toasted ham and cheese sandwich",
+        "price": 800
+      },
+      {
+        "name": "Empanada",
+        "description": "Classic baked beef empanada",
+        "price": 600
+      },
+      {
+        "name": "Medialunas",
+        "description": "Classic Argentine croissants — sweet or savoury",
+        "price": 400
+      },
+      {
+        "name": "Cortado",
+        "description": "Classic Argentine espresso with a splash of milk",
+        "price": 500
+      }
+    ]
+  }
+]

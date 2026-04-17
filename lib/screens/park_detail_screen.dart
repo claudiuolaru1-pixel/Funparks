@@ -1227,7 +1227,7 @@ class _OverviewTab extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(16, 14, 16, 24),
       children: [
         if (hasThumb) ...[
-          ParkHeroImage(imagePath: thumb, height: 190),
+          ParkHeroImage(imagePath: thumb, height: 220, heroTag: 'park_hero_${park.id}'),
           const SizedBox(height: 14),
         ],
         Row(
@@ -1476,7 +1476,7 @@ class _AttractionsTabState extends State<_AttractionsTab> {
                 attraction: a,
                 i18n: widget.i18n,
                 categoryLabel: widget.categoryLabel,
-                onTap: () => _openDetails(a),
+                onTap: () { HapticFeedback.selectionClick(); _openDetails(a); },
                 onDirections: () => widget.onDirections(a),
               ),
             )),
@@ -2275,7 +2275,7 @@ class _FoodTab extends StatelessWidget {
                 child: _FoodTopCard(
                   food: f,
                   i18n: i18n,
-                  onTap: () => _openDetails(context, f),
+                  onTap: () { HapticFeedback.selectionClick(); _openDetails(context, f); },
                   onDirections: () => onDirections(f),
                 ),
               )),
@@ -2290,7 +2290,7 @@ class _FoodTab extends StatelessWidget {
               child: _FoodRow(
                 food: f,
                 i18n: i18n,
-                onTap: () => _openDetails(context, f),
+                onTap: () { HapticFeedback.selectionClick(); _openDetails(context, f); },
                 onDirections: () => onDirections(f),
               ),
             )),
@@ -3124,7 +3124,7 @@ class _HotelRow extends StatelessWidget {
       color: Theme.of(context).colorScheme.surface,
       child: InkWell(
         borderRadius: BorderRadius.circular(16),
-        onTap: onOpen,
+        onTap: () { HapticFeedback.selectionClick(); onOpen(); },
         child: Padding(
           padding: const EdgeInsets.all(14),
           child: Row(
@@ -3396,24 +3396,23 @@ class ParkSettingsSheet extends StatelessWidget {
 class ParkHeroImage extends StatelessWidget {
   final String imagePath;
   final double height;
+  final String? heroTag;
 
-  const ParkHeroImage(
-      {super.key, required this.imagePath, this.height = 180});
+  const ParkHeroImage({super.key, required this.imagePath, this.height = 180, this.heroTag});
 
   @override
   Widget build(BuildContext context) {
+    final inner = ClipRRect(
+      borderRadius: const BorderRadius.vertical(bottom: Radius.circular(22)),
+      child: ParkImage(image: imagePath, fit: BoxFit.cover),
+    );
     return SizedBox(
       height: height,
       width: double.infinity,
-      child: ClipRRect(
-        borderRadius:
-            const BorderRadius.vertical(bottom: Radius.circular(16)),
-        child: ParkImage(image: imagePath, fit: BoxFit.cover),
-      ),
+      child: heroTag != null ? Hero(tag: heroTag!, child: inner) : inner,
     );
   }
 }
-
 class ParkTranslateButton extends StatelessWidget {
   final List<String> supportedLanguages;
   const ParkTranslateButton(

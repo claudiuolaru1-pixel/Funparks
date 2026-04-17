@@ -1,6 +1,134 @@
-﻿[
-  {"id":"flambo_jambo","name":"Flambo Jambo","type":"restaurant","priceRange":"$$","lat":52.9872,"lng":-1.8921,"image":"assets/images/altontowers/food_flambo_jumbo.png"},
-  {"id":"secret_garden","name":"Secret Garden Restaurant","type":"restaurant","priceRange":"$$","lat":52.9874,"lng":-1.8919,"image":"assets/images/altontowers/food_secret_garden.png"},
-  {"id":"rollercoaster_restaurant","name":"Rollercoaster Restaurant","type":"restaurant","priceRange":"$$$","lat":52.9870,"lng":-1.8923,"image":"assets/images/altontowers/food_rollercoaster_restaurant.png"},
-  {"id":"towers_street_eats","name":"Towers Street Eats","type":"fast_food","priceRange":"$","lat":52.9876,"lng":-1.8917,"image":"assets/images/altontowers/food_towers_street_eats.png"}
+[
+  {
+    "id": "food_flambo_jumbo",
+    "name": "Flambo Jumbo",
+    "description": "The most popular and vibrant restaurant at Alton Towers — Flambo Jumbo is a lively Caribbean and American BBQ grill restaurant serving generous portions of flame-grilled meats, burgers, ribs and classic sides in a colourful and energetic tropical atmosphere. The best sit-down dining experience at Alton Towers.",
+    "topPick": true,
+    "type": "Caribbean & American BBQ",
+    "image": "assets/images/altontowers/food_flambo_jumbo.png",
+    "lat": 52.9918,
+    "lng": -1.8916,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Flame-Grilled Burger",
+        "description": "Flame-grilled beef burger with cheese, bacon and fries",
+        "price": 16
+      },
+      {
+        "name": "BBQ Ribs",
+        "description": "Slow-cooked BBQ pork ribs with coleslaw and fries",
+        "price": 19
+      },
+      {
+        "name": "Jerk Chicken",
+        "description": "Jamaican jerk chicken with rice and peas and plantain",
+        "price": 15
+      },
+      {
+        "name": "Tropical Cocktail",
+        "description": "Non-alcoholic tropical fruit cocktail",
+        "price": 5
+      }
+    ]
+  },
+  {
+    "id": "food_secret_garden",
+    "name": "Secret Garden",
+    "description": "A charming and peaceful restaurant tucked away in the beautiful gardens of Alton Towers — Secret Garden serves freshly prepared sandwiches, salads, soups and light meals in a tranquil outdoor setting surrounded by the stunning Victorian gardens. The most relaxing and atmospheric dining experience at Alton Towers.",
+    "topPick": true,
+    "type": "British Garden Cafe",
+    "image": "assets/images/altontowers/food_secret_garden.png",
+    "lat": 52.9925,
+    "lng": -1.8908,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Afternoon Tea",
+        "description": "Classic British afternoon tea with finger sandwiches, scones and clotted cream",
+        "price": 18
+      },
+      {
+        "name": "Soup of the Day",
+        "description": "Freshly made soup with crusty bread roll",
+        "price": 8
+      },
+      {
+        "name": "Garden Salad",
+        "description": "Fresh seasonal salad with grilled chicken and vinaigrette",
+        "price": 12
+      },
+      {
+        "name": "Cream Tea",
+        "description": "Classic scone with clotted cream and strawberry jam with tea",
+        "price": 9
+      }
+    ]
+  },
+  {
+    "id": "food_rollercoaster_restaurant",
+    "name": "Rollercoaster Restaurant",
+    "description": "One of the most unique and entertaining dining experiences in the UK — the Rollercoaster Restaurant at Alton Towers features a spectacular spiral track that delivers food directly to your table from the kitchen above via a helter-skelter chute. A genuinely extraordinary and unforgettable dining experience that is unlike anything else at any UK theme park.",
+    "topPick": true,
+    "type": "Novelty Experience Dining",
+    "image": "assets/images/altontowers/food_rollercoaster_restaurant.png",
+    "lat": 52.9915,
+    "lng": -1.8919,
+    "rating": 4.5,
+    "items": [
+      {
+        "name": "Classic Cheeseburger",
+        "description": "Beef burger with cheese and fries delivered by the track",
+        "price": 17
+      },
+      {
+        "name": "Chicken Strips",
+        "description": "Crispy chicken strips with BBQ dipping sauce and fries",
+        "price": 15
+      },
+      {
+        "name": "Mac and Cheese",
+        "description": "Classic creamy macaroni and cheese",
+        "price": 12
+      },
+      {
+        "name": "Milkshake",
+        "description": "Thick hand-spun milkshake in chocolate or vanilla",
+        "price": 6
+      }
+    ]
+  },
+  {
+    "id": "food_towers_street_eats",
+    "name": "Towers Street Eats",
+    "description": "The most convenient and popular quick-service food destination at Alton Towers — Towers Street Eats is a lively street food market on the main Towers Street serving a wide variety of fast food options including hot dogs, loaded fries, wraps, snacks and drinks. The ideal spot for a quick bite between rides.",
+    "topPick": false,
+    "type": "Street Food Market",
+    "image": "assets/images/altontowers/food_towers_street_eats.png",
+    "lat": 52.9912,
+    "lng": -1.8922,
+    "rating": 3.9,
+    "items": [
+      {
+        "name": "Loaded Hot Dog",
+        "description": "Classic hot dog with fried onions, mustard and ketchup",
+        "price": 8
+      },
+      {
+        "name": "Loaded Fries",
+        "description": "Thick fries loaded with cheese sauce and bacon bits",
+        "price": 7
+      },
+      {
+        "name": "Chicken Wrap",
+        "description": "Grilled chicken wrap with salad and sweet chilli sauce",
+        "price": 9
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Large fountain soft drink",
+        "price": 4
+      }
+    ]
+  }
 ]

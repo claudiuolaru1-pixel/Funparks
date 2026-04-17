@@ -1,0 +1,8 @@
+﻿const fs=require('fs');
+function readJson(p){let r=fs.readFileSync(p,'utf8');if(r.charCodeAt(0)===0xFEFF)r=r.slice(1);return JSON.parse(r);}
+const pe={id:"islands_of_adventure",thumbnailAsset:"assets/images/islands_of_adventure/park_thumbnail.png",tailAsset:"",name:"Islands of Adventure",type:"Theme Park",entryPrice:{child:109,adult:119},currency:"USD",openingHours:"09:00 - 21:00",lng:-81.4712,country:"USA",city:"Orlando, Florida",ticketsUrl:"https://www.universalorlando.com/web/en/us/tickets",queueTimesId:0};
+const ie={id:"islands_of_adventure",name:"Islands of Adventure",city:"Orlando, Florida",country:"USA",type:"Theme Park",lat:28.4728,lng:-81.4712,thumbnail:"assets/images/islands_of_adventure/park_thumbnail.png",website:"https://www.universalorlando.com/",ticketsUrl:"https://www.universalorlando.com/web/en/us/tickets",detailAsset:"",openingHours:"09:00 - 21:00",entryPrices:{adult:119,child:109},currency:"USD",queueTimesId:0};
+const parks=readJson('assets/data/parks.json');
+if(!parks.find(p=>p.id==='islands_of_adventure')){parks.push(pe);fs.writeFileSync('assets/data/parks.json',JSON.stringify(parks,null,4),'utf8');console.log('parks.json:',parks.length);}
+const index=readJson('assets/data/parks/parks_index.json');
+if(!index.find(p=>p.id==='islands_of_adventure')){index.push(ie);fs.writeFileSync('assets/data/parks/parks_index.json',JSON.stringify(index,null,4),'utf8');console.log('parks_index.json:',index.length);}

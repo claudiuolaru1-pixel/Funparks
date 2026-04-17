@@ -1,0 +1,134 @@
+[
+  {
+    "id": "food_studio_stars_restaurant",
+    "name": "Studio Stars Restaurant",
+    "description": "The premier dining destination at Universal Studios Japan — Studio Stars Restaurant is a large and elegant buffet restaurant in the heart of USJ serving a wide range of Japanese and international dishes including Osaka specialities, pasta, grilled meats and seasonal Japanese cuisine. The most popular and highly regarded full-service dining experience at the park.",
+    "topPick": true,
+    "type": "Japanese International Buffet",
+    "image": "assets/images/universal_studios_japan/food_studio_stars_restaurant.png",
+    "lat": 34.6654,
+    "lng": 135.4323,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Osaka Takoyaki",
+        "description": "Classic Osaka-style octopus balls with bonito flakes and sauce",
+        "price": 900
+      },
+      {
+        "name": "Teppanyaki Beef Set",
+        "description": "Grilled wagyu beef with rice, miso soup and pickles",
+        "price": 2800
+      },
+      {
+        "name": "Pasta Marinara",
+        "description": "Spaghetti with fresh tomato and basil sauce",
+        "price": 1600
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Selection of cold beverages",
+        "price": 400
+      }
+    ]
+  },
+  {
+    "id": "food_the_dragons_pearl_restaurant",
+    "name": "The Dragon's Pearl Restaurant",
+    "description": "A beautifully themed Chinese restaurant in the Wizarding World zone at USJ — serving authentic Chinese and Asian fusion dishes in an atmospheric setting inspired by the magical world of Harry Potter and wizarding cuisine. One of the most uniquely themed dining experiences at Universal Studios Japan.",
+    "topPick": true,
+    "type": "Chinese Wizarding Themed",
+    "image": "assets/images/universal_studios_japan/food_the_dragons_pearl_restaurant.png",
+    "lat": 34.6654,
+    "lng": 135.4323,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Dim Sum Set",
+        "description": "Selection of steamed dim sum with dipping sauces",
+        "price": 1800
+      },
+      {
+        "name": "Peking Duck Wrap",
+        "description": "Crispy Peking duck with pancakes and hoisin sauce",
+        "price": 2200
+      },
+      {
+        "name": "Butterbeer",
+        "description": "The iconic Wizarding World Butterbeer — cold or frozen",
+        "price": 900
+      },
+      {
+        "name": "Pumpkin Juice",
+        "description": "Refreshing pumpkin spice juice from the Wizarding World",
+        "price": 700
+      }
+    ]
+  },
+  {
+    "id": "food_saido_restaurant",
+    "name": "Saido Restaurant",
+    "description": "An authentic Japanese restaurant at Universal Studios Japan serving traditional Osaka-style cuisine including ramen, udon, donburi rice bowls and Japanese set meals. One of the most popular and authentic Japanese dining options at USJ for guests wanting genuine local food between rides.",
+    "topPick": false,
+    "type": "Japanese Authentic",
+    "image": "assets/images/universal_studios_japan/food_saido_restaurant.png",
+    "lat": 34.6656,
+    "lng": 135.4325,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Tonkotsu Ramen",
+        "description": "Rich Osaka-style pork bone broth ramen with chashu",
+        "price": 1400
+      },
+      {
+        "name": "Karaage Don",
+        "description": "Crispy Japanese fried chicken on rice with egg and sauce",
+        "price": 1200
+      },
+      {
+        "name": "Udon Set",
+        "description": "Thick udon noodles in dashi broth with tempura",
+        "price": 1300
+      },
+      {
+        "name": "Takoyaki Set",
+        "description": "Classic Osaka takoyaki with all toppings",
+        "price": 800
+      }
+    ]
+  },
+  {
+    "id": "food_amity_landing_restaurant",
+    "name": "Amity Landing Restaurant",
+    "description": "A charming New England-style seafood restaurant in the Amity Village zone at USJ — serving fish and chips, seafood chowder, clam baskets and classic American coastal food in an atmospheric waterfront setting inspired by the movie Jaws. The most atmospheric quick-service dining location at Universal Studios Japan.",
+    "topPick": false,
+    "type": "American Seafood Casual",
+    "image": "assets/images/universal_studios_japan/food_amity_landing_restaurant.png",
+    "lat": 34.6648,
+    "lng": 135.4317,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Fish and Chips",
+        "description": "Beer-battered fish with thick chips and tartar sauce",
+        "price": 1600
+      },
+      {
+        "name": "New England Clam Chowder",
+        "description": "Classic creamy clam chowder in a sourdough bread bowl",
+        "price": 1200
+      },
+      {
+        "name": "Lobster Roll",
+        "description": "Fresh lobster in a buttered brioche roll",
+        "price": 2200
+      },
+      {
+        "name": "Root Beer Float",
+        "description": "Classic American root beer with vanilla ice cream",
+        "price": 700
+      }
+    ]
+  }
+]

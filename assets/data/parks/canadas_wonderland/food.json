@@ -1,0 +1,167 @@
+[
+  {
+    "id": "food_coasters_drive_inn",
+    "name": "Coasters Drive-In",
+    "description": "The most popular and beloved dining destination at Canada's Wonderland — Coasters Drive-In is a vibrant 1950s American drive-in diner serving classic burgers, milkshakes, hot dogs and fries in a fun retro atmosphere. One of the most iconic and frequently visited restaurants at any Canadian theme park.",
+    "topPick": true,
+    "type": "American Diner",
+    "image": "assets/images/canadas_wonderland/food.png",
+    "lat": 43.8428,
+    "lng": -79.5384,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Classic Smash Burger",
+        "description": "Double smash patty with American cheese and drive-in sauce",
+        "price": 18
+      },
+      {
+        "name": "Vanilla Milkshake",
+        "description": "Thick creamy hand-spun milkshake",
+        "price": 10
+      },
+      {
+        "name": "Poutine",
+        "description": "Classic Canadian poutine with cheese curds and gravy",
+        "price": 12
+      },
+      {
+        "name": "Hot Dog",
+        "description": "Classic American hot dog in a toasted bun",
+        "price": 11
+      }
+    ]
+  },
+  {
+    "id": "food_market_grill",
+    "name": "Market Grill",
+    "description": "A spacious and popular grill restaurant at Canada's Wonderland serving generous portions of grilled chicken, burgers, pasta and Canadian comfort food. One of the largest and most convenient full-service dining options at the park for families.",
+    "topPick": true,
+    "type": "Canadian Grill",
+    "image": "assets/images/canadas_wonderland/food_market_grill.png",
+    "lat": 43.843,
+    "lng": -79.5386,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Grilled Chicken Platter",
+        "description": "Flame-grilled chicken breast with fries and coleslaw",
+        "price": 22
+      },
+      {
+        "name": "BBQ Beef Burger",
+        "description": "Angus beef burger with BBQ sauce, bacon and cheddar",
+        "price": 21
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Creamy penne pasta with parmesan and garlic bread",
+        "price": 18
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Large fountain drink",
+        "price": 5
+      }
+    ]
+  },
+  {
+    "id": "food_alls_well_hall",
+    "name": "All's Well Hall",
+    "description": "A large food hall at Canada's Wonderland offering multiple food stations with diverse dining options including pizza, pasta, Asian cuisine and classic North American comfort food — the most comprehensive and flexible dining option at the park.",
+    "topPick": false,
+    "type": "Food Hall Multi-Cuisine",
+    "image": "assets/images/canadas_wonderland/food_alls_well_hall.png",
+    "lat": 43.8432,
+    "lng": -79.5388,
+    "rating": 4,
+    "items": [
+      {
+        "name": "Pizza Slice",
+        "description": "Classic cheese and pepperoni pizza by the slice",
+        "price": 9
+      },
+      {
+        "name": "General Tso Chicken",
+        "description": "Classic Chinese-American general tso chicken with fried rice",
+        "price": 17
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Classic Caesar with romaine, croutons and parmesan",
+        "price": 14
+      },
+      {
+        "name": "Funnel Cake",
+        "description": "Classic fairground funnel cake with powdered sugar",
+        "price": 9
+      }
+    ]
+  },
+  {
+    "id": "food_carrousel_kitchen",
+    "name": "Carrousel Kitchen",
+    "description": "A charming and atmospheric restaurant near the iconic Carrousel at Canada's Wonderland serving classic Canadian comfort food and quick-service meals in a friendly family setting.",
+    "topPick": false,
+    "type": "Canadian Quick Service",
+    "image": "assets/images/canadas_wonderland/food_carrousel_kitchen.png",
+    "lat": 43.8434,
+    "lng": -79.539,
+    "rating": 3.9,
+    "items": [
+      {
+        "name": "Chicken Strips Combo",
+        "description": "Crispy chicken strips with fries and dipping sauce",
+        "price": 18
+      },
+      {
+        "name": "Mac and Cheese",
+        "description": "Classic creamy macaroni and cheese",
+        "price": 12
+      },
+      {
+        "name": "Corn Dog",
+        "description": "Classic fairground corn dog",
+        "price": 9
+      },
+      {
+        "name": "Lemonade",
+        "description": "Freshly squeezed lemonade",
+        "price": 6
+      }
+    ]
+  },
+  {
+    "id": "food_funnel_cakes",
+    "name": "Funnel Cake Co.",
+    "description": "The most beloved fairground sweet treat experience at Canada's Wonderland — Funnel Cake Co. serves freshly fried funnel cakes with a wide variety of toppings from classic powdered sugar to Nutella, berries and ice cream. The most popular dessert destination at any Canadian theme park.",
+    "topPick": false,
+    "type": "Desserts and Sweets",
+    "image": "assets/images/canadas_wonderland/food_funnel_cakes.png",
+    "lat": 43.8436,
+    "lng": -79.5392,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Classic Funnel Cake",
+        "description": "Freshly fried funnel cake with powdered sugar",
+        "price": 10
+      },
+      {
+        "name": "Nutella Funnel Cake",
+        "description": "Funnel cake with Nutella and fresh strawberries",
+        "price": 14
+      },
+      {
+        "name": "Ice Cream Funnel Cake",
+        "description": "Funnel cake topped with vanilla ice cream and caramel",
+        "price": 15
+      },
+      {
+        "name": "Lemonade",
+        "description": "Classic fresh lemonade",
+        "price": 6
+      }
+    ]
+  }
+]

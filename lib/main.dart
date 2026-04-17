@@ -1,4 +1,5 @@
-﻿import 'package:flutter/foundation.dart';
+// lib/main.dart
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:google_maps_flutter_android/google_maps_flutter_android.dart';
@@ -20,9 +21,7 @@ bool _mapsRendererInitialized = false;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   if (!_mapsRendererInitialized &&
       !kIsWeb &&
       defaultTargetPlatform == TargetPlatform.android) {
@@ -41,6 +40,35 @@ Future<void> main() async {
   );
 }
 
+// ─── Premium fade+scale page transition ─────────────────────────────────────
+class _FadeScaleTransitionsBuilder extends PageTransitionsBuilder {
+  const _FadeScaleTransitionsBuilder();
+
+  @override
+  Widget buildTransitions<T>(
+    PageRoute<T> route,
+    BuildContext context,
+    Animation<double> animation,
+    Animation<double> secondaryAnimation,
+    Widget child,
+  ) {
+    // Outgoing screen: fade+scale down slightly
+    final secondary = Tween<double>(begin: 1.0, end: 0.96).animate(
+      CurvedAnimation(parent: secondaryAnimation, curve: Curves.easeInCubic),
+    );
+
+    return FadeTransition(
+      opacity: CurvedAnimation(parent: animation, curve: Curves.easeOutCubic),
+      child: ScaleTransition(
+        scale: Tween<double>(begin: 0.96, end: 1.0).animate(
+          CurvedAnimation(parent: animation, curve: Curves.easeOutCubic),
+        ),
+        child: ScaleTransition(scale: secondary, child: child),
+      ),
+    );
+  }
+}
+
 class FunparksApp extends StatelessWidget {
   const FunparksApp({super.key});
 
@@ -54,6 +82,21 @@ class FunparksApp extends StatelessWidget {
           supportedLocales: AppLocalizations.supportedLocales,
           locale: appState.locale,
           onGenerateTitle: (context) => AppLocalizations.of(context)!.appTitle,
+
+          // ── Premium page transitions applied globally ──
+          theme: ThemeData(
+            useMaterial3: true,
+            colorScheme: ColorScheme.fromSeed(
+              seedColor: const Color(0xFF72C8FF),
+            ),
+            pageTransitionsTheme: const PageTransitionsTheme(
+              builders: {
+                TargetPlatform.android: _FadeScaleTransitionsBuilder(),
+                TargetPlatform.iOS: _FadeScaleTransitionsBuilder(),
+              },
+            ),
+          ),
+
           initialRoute: '/start',
           routes: {
             '/start': (_) => const StartScreen(),
@@ -66,9 +109,7 @@ class FunparksApp extends StatelessWidget {
             if (settings.name == '/signin') {
               final arg = settings.arguments;
               return MaterialPageRoute(
-                builder: (_) => SignInScreen(
-                  startOnRegister: arg == 'register',
-                ),
+                builder: (_) => SignInScreen(startOnRegister: arg == 'register'),
               );
             }
             if (settings.name == '/park') {
@@ -95,7 +136,6 @@ class FunparksApp extends StatelessWidget {
 class _RouteErrorScreen extends StatelessWidget {
   final String message;
   const _RouteErrorScreen({required this.message});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

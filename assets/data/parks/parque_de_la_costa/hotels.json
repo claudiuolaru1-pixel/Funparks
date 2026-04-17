@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_wyndham_nordelta_tigre",
+    "name": "Wyndham Nordelta Tigre",
+    "description": "The most prestigious and luxurious hotel near Parque de la Costa — the Wyndham Nordelta Tigre is a spectacular 5-star resort hotel in the exclusive Nordelta gated community near Tigre, featuring magnificent rooms, multiple pools, outstanding restaurants and beautiful Delta wetland views. The finest hotel experience for Parque de la Costa visitors.",
+    "image": "assets/images/parque_de_la_costa/hotel_wyndham_nordelta_tigre.png",
+    "lat": -34.4128,
+    "lng": -58.562,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.wyndhamhotels.com/wyndham/nordelta-argentina/wyndham-nordelta-tigre/overview",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant room with Delta wetland views, free WiFi and pool access.",
+        "pricePerNight": 28000,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Premium room with upgraded views and furnishings.",
+        "pricePerNight": 38000,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Spectacular suite with panoramic Delta views.",
+        "pricePerNight": 62000,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_la_posta_tigre",
+    "name": "La Posta de Tigre Hotel & Resort",
+    "description": "A charming and beloved boutique hotel resort in the heart of Tigre, just minutes from Parque de la Costa — La Posta de Tigre is a beautiful riverside resort hotel with outstanding pools, a spa, excellent Argentine dining and authentic Delta atmosphere.",
+    "image": "assets/images/parque_de_la_costa/hotel_la_posta_tigre.png",
+    "lat": -34.4268,
+    "lng": -58.578,
+    "rating": 4.4,
+    "topPick": true,
+    "website": "https://www.lapostadetigre.com.ar/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Charming room with garden or pool views, free WiFi and breakfast.",
+        "pricePerNight": 18000,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Premium room with river or pool views.",
+        "pricePerNight": 24000,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with panoramic Delta views.",
+        "pricePerNight": 38000,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_rio_tigre_hotel",
+    "name": "Rio Tigre Hotel",
+    "description": "A comfortable and well-regarded hotel on the banks of the Tigre river, minutes from Parque de la Costa — Rio Tigre Hotel offers pleasant rooms, a pool and easy access to both the park and the Tigre Delta boat trips, making it one of the most conveniently situated hotels for Parque de la Costa visitors.",
+    "image": "assets/images/parque_de_la_costa/hotel_rio_tigre_hotel.png",
+    "lat": -34.428,
+    "lng": -58.5755,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.riotirehotel.com.ar/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable room with river views, free WiFi and pool access.",
+        "pricePerNight": 12000,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Premium room with upgraded river views.",
+        "pricePerNight": 16000,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with panoramic river views.",
+        "pricePerNight": 24000,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_villa_victoria_de_tigre",
+    "name": "Villa Victoria de Tigre",
+    "description": "A beautifully restored and atmospheric heritage villa hotel in the historic centre of Tigre — Villa Victoria de Tigre is a charming boutique hotel in a magnificent early 20th century mansion offering elegant rooms, gardens and a uniquely atmospheric Argentine Delta experience for Parque de la Costa visitors.",
+    "image": "assets/images/parque_de_la_costa/hotel_villa_victoria_de_tigre.png",
+    "lat": -34.426,
+    "lng": -58.577,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.villavictoriadetigre.com.ar/",
+    "rooms": [
+      {
+        "key": "classic_room",
+        "name": "Classic Room",
+        "description": "Elegantly furnished room in a heritage villa with garden views.",
+        "pricePerNight": 10000,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Premium room with upgraded heritage furnishings.",
+        "pricePerNight": 14000,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Magnificent suite with terrace and garden views.",
+        "pricePerNight": 22000,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

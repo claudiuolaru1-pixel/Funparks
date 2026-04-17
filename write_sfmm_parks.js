@@ -1,0 +1,8 @@
+﻿const fs=require('fs');
+function readJson(p){let r=fs.readFileSync(p,'utf8');if(r.charCodeAt(0)===0xFEFF)r=r.slice(1);return JSON.parse(r);}
+const pe={id:"six_flags_magic_mountain",thumbnailAsset:"assets/images/six_flags_magic_mountain/park_thumbnail.png",tailAsset:"",name:"Six Flags Magic Mountain",type:"Theme Park",entryPrice:{child:59,adult:74},currency:"USD",openingHours:"10:30 - 20:00",lng:-118.5970,country:"USA",city:"Valencia, California",ticketsUrl:"https://www.sixflags.com/magicmountain/tickets",queueTimesId:0};
+const ie={id:"six_flags_magic_mountain",name:"Six Flags Magic Mountain",city:"Valencia, California",country:"USA",type:"Theme Park",lat:34.4259,lng:-118.5970,thumbnail:"assets/images/six_flags_magic_mountain/park_thumbnail.png",website:"https://www.sixflags.com/magicmountain",ticketsUrl:"https://www.sixflags.com/magicmountain/tickets",detailAsset:"",openingHours:"10:30 - 20:00",entryPrices:{adult:74,child:59},currency:"USD",queueTimesId:0};
+const parks=readJson('assets/data/parks.json');
+if(!parks.find(p=>p.id==='six_flags_magic_mountain')){parks.push(pe);fs.writeFileSync('assets/data/parks.json',JSON.stringify(parks,null,4),'utf8');console.log('parks.json:',parks.length);}
+const index=readJson('assets/data/parks/parks_index.json');
+if(!index.find(p=>p.id==='six_flags_magic_mountain')){index.push(ie);fs.writeFileSync('assets/data/parks/parks_index.json',JSON.stringify(index,null,4),'utf8');console.log('parks_index.json:',index.length);}

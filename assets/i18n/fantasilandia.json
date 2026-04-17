@@ -1,0 +1,420 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Fantasilandia is Chile's largest and most popular theme park, located in the heart of Santiago within the Parque O'Higgins. Opened in 1978, Fantasilandia is the oldest operating theme park in South America and has been entertaining Chilean families for over 45 years. The park features an impressive collection of thrill coasters, water rides and flat rides including the spectacular flying coaster Volare, the classic Boomerang and the beloved wooden coaster Twister. Conveniently accessible by Santiago Metro, Fantasilandia attracts over 1 million visitors annually and is an essential Santiago experience.",
+      "es": "Fantasilandia es el parque tematico mas grande y popular de Chile, ubicado en el corazon de Santiago dentro del Parque O'Higgins. Inaugurado en 1978 es el parque tematico en operacion mas antiguo de Sudamerica. Atrae mas de 1 millon de visitantes anuales.",
+      "fr": "Fantasilandia est le plus grand et plus populaire parc a themes du Chili, situe au coeur de Santiago dans le Parque O'Higgins. Ouvert en 1978 c est le plus ancien parc a themes en activite d Amerique du Sud. Accueille plus d 1 million de visiteurs par an.",
+      "de": "Fantasilandia ist Chiles grosster und beliebtester Themenpark im Herzen von Santiago im Parque O'Higgins. 1978 eroffnet ist es der alteste betriebene Themenpark Sudamerikas. Uber 1 Million Besucher jahrlich.",
+      "it": "Fantasilandia e il piu grande e popolare parco a tema del Cile, nel cuore di Santiago nel Parque O'Higgins. Aperto nel 1978 e il piu antico parco a tema in attivita del Sud America. Oltre 1 milione di visitatori annui.",
+      "nl": "Fantasilandia is Chile's grootste en meest populaire themapark in het hart van Santiago in het Parque O'Higgins. Geopend in 1978 is het het oudste actieve themapark van Zuid-Amerika. Meer dan 1 miljoen bezoekers per jaar.",
+      "pt": "Fantasilandia e o maior e mais popular parque tematico do Chile, no coracao de Santiago no Parque O'Higgins. Aberto em 1978 e o mais antigo parque tematico em actividade da America do Sul. Mais de 1 milhao de visitantes anuais.",
+      "ru": "Fantasilandia — крупнейший тематический парк Чили в центре Сантьяго. Открыт в 1978 году. Более 1 млн посетителей в год.",
+      "zh": "奇幻乐园是智利最大最受欢迎的主题公园，位于圣地亚哥市中心的奥希金斯公园内。公园于1978年开放，是南美洲历史最悠久的主题公园。每年吸引逾100万游客。",
+      "ar": "Fantasilandia أكبر متنزهات تشيلي، في قلب سانتياغو. افتتح 1978 وهو أقدم متنزه نشط في أميركا الجنوبية."
+    },
+    "ov_highlights_body": {
+      "en": "Volare is the most unique and thrilling coaster in Chile — a flying coaster with inversions found nowhere else in South America. Boomerang delivers classic intense inversions. Raptor is the most popular inverted coaster. Twister is the most beloved wooden coaster in Chile. Air Race is the most spectacular flat ride with aerobatic simulations. Pirate Revenge is the most popular water ride. The Black Hole indoor coaster delivers complete darkness thrills. Fantasilandia is walking distance from Parque O'Higgins metro station making it the most accessible major theme park in South America.",
+      "es": "Volare es el coaster mas unico y emocionante de Chile — un coaster volador con inversiones. Boomerang ofrece inversiones clasicas intensas. Raptor es el coaster invertido mas popular. Twister es el coaster de madera mas querido de Chile. Air Race es la atraccion plana mas espectacular.",
+      "fr": "Volare est le coaster le plus unique et palpitant du Chili. Boomerang offre des inversions classiques intenses. Raptor est le coaster inverse le plus populaire. Twister est le coaster en bois le plus aime du Chili. Air Race est l attraction plate la plus spectaculaire.",
+      "de": "Volare ist Chiles einzigartigster und aufregendster Coaster. Boomerang bietet klassische intensive Inversionen. Raptor ist der beliebteste Hangcoaster. Twister ist Chiles beliebtester Holzcoaster. Air Race ist die spektakularste Flachattraktion.",
+      "it": "Volare e il coaster piu unico ed emozionante del Cile. Boomerang offre inversioni classiche intense. Raptor e il piu popolare coaster invertito. Twister e il piu amato coaster in legno del Cile. Air Race e la piu spettacolare attrazione piatta.",
+      "nl": "Volare is de meest unieke en opwindende achtbaan van Chile. Boomerang biedt klassieke intense inversies. Raptor is de meest populaire hangende achtbaan. Twister is de meest geliefde houten achtbaan van Chile. Air Race is de meest spectaculaire vlakke attractie.",
+      "pt": "Volare e o coaster mais unico e emocionante do Chile. Boomerang oferece inversoes classicas intensas. Raptor e o coaster invertido mais popular. Twister e o coaster de madeira mais amado do Chile. Air Race e a atracao plana mais espetacular.",
+      "ru": "Volare — самый уникальный коастер Чили. Boomerang — классические инверсии. Twister — любимый деревянный коастер.",
+      "zh": "Volare是智利最独特最刺激的过山车。回旋车提供经典强烈翻转。扈轾是最受欢迎的倒挂式过山车。穼裂山是智利最受喜爱的木质过山车。",
+      "ar": "Volare أكثر اوتوستراد تفردا. Boomerang بانعكاسات كلاسيكية. Twister أحب اوتوستراد خشبي."
+    },
+    "ov_did_you_know_body": {
+      "en": "Fantasilandia opened in 1978 making it the oldest continuously operating theme park in South America. The park is located inside Parque O'Higgins, one of Santiago's largest public parks, and is directly accessible from the O'Higgins Metro station. Volare is one of only a handful of flying coasters in South America. The park has been visited by generations of Chilean families since 1978. Johnny Rockets opened at Fantasilandia making it one of the first international restaurant chains in a Chilean theme park. The park operates year-round unlike many South American parks.",
+      "es": "Fantasilandia abrio en 1978 siendo el parque tematico mas antiguo de Sudamerica en operacion continua. El parque esta ubicado dentro del Parque O'Higgins y es accesible directamente desde la estacion de metro O'Higgins. Volare es uno de los pocos coasters voladores en Sudamerica.",
+      "fr": "Fantasilandia a ouvert en 1978 en faisant le plus ancien parc a themes d Amerique du Sud en activite continue. Le parc est situe dans le Parque O'Higgins et est directement accessible depuis la station de metro O'Higgins. Volare est l un des rares coasters volants en Amerique du Sud.",
+      "de": "Fantasilandia offnete 1978 und ist der alteste kontinuierlich betriebene Themenpark Sudamerikas. Der Park liegt im Parque O'Higgins und ist direkt von der Metro-Station O'Higgins erreichbar. Volare ist einer der wenigen Flugcoaster in Sudamerika.",
+      "it": "Fantasilandia ha aperto nel 1978 diventando il piu antico parco a tema dell America del Sud in attivita continua. Il parco si trova nel Parque O'Higgins ed e direttamente accessibile dalla stazione metro O'Higgins. Volare e uno dei pochi coaster volanti in Sud America.",
+      "nl": "Fantasilandia opende in 1978 als het oudste continu opererende themapark van Zuid-Amerika. Het park ligt in het Parque O'Higgins en is direct bereikbaar vanaf metrostation O'Higgins. Volare is een van de weinige vliegende achtbanen in Zuid-Amerika.",
+      "pt": "Fantasilandia abriu em 1978 tornando-se o mais antigo parque tematico em actividade continua da America do Sul. O parque fica no Parque O'Higgins e e directamente acessivel pela estacao de metro O'Higgins. Volare e um dos poucos coasters voadores na America do Sul.",
+      "ru": "Fantasilandia открылась в 1978 году — старейший парк Южной Америки. Прямой доступ от метро.",
+      "zh": "奇幻乐园于1978年开放，是南美洲最古老的持续运营主题公园。可直接从地铁奥希金斯站进入。Volare是南美洲极少数飞行过山车之一。",
+      "ar": "Fantasilandia افتتح 1978 وهو أقدم متنزه في أميركا الجنوبية. وصول مباشر من مترو O'Higgins."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head straight to Volare — it builds to 70-minute queues by noon on busy days. Boomerang second and Raptor third. Pirate Revenge is best on hot Santiago afternoons. Black Hole is best mid-morning. The park is busiest during Chilean school holidays in January, February and July and on weekends. Take the Santiago Metro to O'Higgins station for the easiest access. The park is open year-round and evening visits are popular as the lights come on.",
+      "es": "Llega a la apertura y ve directamente a Volare. Boomerang segundo y Raptor tercero. Pirate Revenge es mejor las tardes calurosas de Santiago. El parque es mas concurrido durante las vacaciones escolares chilenas en enero, febrero y julio. Toma el metro de Santiago hasta la estacion O'Higgins.",
+      "fr": "Arrivez a l ouverture et allez directement a Volare. Boomerang deuxieme et Raptor troisieme. Pirate Revenge est mieux les apres-midi chauds de Santiago. Le parc est plus anime pendant les vacances scolaires chiliennes en janvier, fevrier et juillet. Prenez le metro de Santiago jusqu a la station O'Higgins.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Volare. Boomerang zweiter und Raptor dritter. Pirate Revenge ist an heissen Santiago-Nachmittagen am besten. Der Park ist wahrend der chilenischen Schulferien in Januar, Februar und Juli am belebtesten. Nehmen Sie die Santiago Metro bis zur Station O'Higgins.",
+      "it": "Arriva all apertura e vai direttamente a Volare. Boomerang secondo e Raptor terzo. Pirate Revenge e meglio i pomeriggi caldi di Santiago. Il parco e piu affollato durante le vacanze scolari cilene a gennaio, febbraio e luglio. Prendi la Metro di Santiago fino alla stazione O'Higgins.",
+      "nl": "Kom bij opening en ga direct naar Volare. Boomerang tweede en Raptor derde. Pirate Revenge is het beste op hete Santiago middagen. Het park is het drukst tijdens Chileense schoolvakanties in januari, februari en juli. Neem de Santiago Metro naar station O'Higgins.",
+      "pt": "Chega na abertura e vai directamente a Volare. Boomerang segundo e Raptor terceiro. Pirate Revenge e melhor nas tardes quentes de Santiago. O parque e mais movimentado durante as ferias escolares chilenas em janeiro, fevereiro e julho. Apanha o Metro de Santiago ate a estacao O'Higgins.",
+      "ru": "Приходите к открытию и сразу к Volare. Добраться метро до станции O'Higgins.",
+      "zh": "开园时到达直接前往Volare。展翻车第二，扈轾第三。乘地铁至奥希金斯站最便捷。",
+      "ar": "صل عند الافتتاح واذهب مباشرة لـ Volare. خذ مترو سانتياغو إلى محطة O'Higgins."
+    },
+    "ov_photos_body": {
+      "en": "Volare photographed from below during an inversion with the Santiago skyline and Andes mountains in the background is the defining image of modern Fantasilandia. Boomerang photographed at the apex of its loop against the Chilean sky is dramatic. Twister photographed from ground level showing the full wooden structure is classic. Air Race photographed mid-manoeuvre with riders apparently flying is spectacular. The park photographed at night with all its lights illuminated against the dark Santiago sky is magical.",
+      "es": "Volare fotografiado desde abajo durante una inversion con el skyline de Santiago y los Andes al fondo es la imagen definitoria del Fantasilandia moderno. El Boomerang en el apice de su lazo es dramatico. Twister fotografiado desde el suelo mostrando la estructura de madera completa es clasico.",
+      "fr": "Volare photographie depuis le dessous pendant une inversion avec la skyline de Santiago et les Andes en arriere-plan est l image definissante de Fantasilandia moderne. Boomerang au sommet de sa boucle est dramatique. Twister depuis le sol montrant la structure complete en bois est classique.",
+      "de": "Volare von unten wahrend einer Inversion mit Santiago-Skyline und Andenberge im Hintergrund ist das prasentierende Bild des modernen Fantasilandia. Boomerang am Scheitel seiner Schlaufe ist dramatisch. Twister von Bodenniveau zeigt die vollstandige Holzstruktur klassisch.",
+      "it": "Volare fotografato dal basso durante un inversione con lo skyline di Santiago e le Ande sullo sfondo e l immagine definitiva di Fantasilandia moderno. Boomerang all apice del suo anello e drammatico. Twister dal livello del suolo mostra la struttura in legno completa in modo classico.",
+      "nl": "Volare van onderaf tijdens een inversie met de Santiago skyline en de Andes op de achtergrond is het bepalende beeld van modern Fantasilandia. Boomerang op de top van zijn lus is dramatisch. Twister vanaf grondniveau toont de volledige houten structuur klassiek.",
+      "pt": "Volare fotografado de baixo durante uma inversao com a skyline de Santiago e os Andes ao fundo e a imagem definitiva de Fantasilandia moderno. Boomerang no apice do seu loop e dramatico. Twister ao nivel do solo mostra a estrutura completa de madeira de forma classica.",
+      "ru": "Volare снизу во время инверсии с Андами на фоне — главный образ.",
+      "zh": "Volare在圣地亚哥天际线和安地斯山为背景下翻转时仿作下方拍摄是奇幻乐园的标志性影像。",
+      "ar": "Volare مصور أثناء انعكاس مع جبال الأنديز في الخلفية هو الصورة المحددة."
+    }
+  },
+  "attractions": {
+    "boomerang": {
+      "desc": {
+        "en": "Classic suspended looping coaster going forward and backward through 6 inversions. The most iconic coaster at Chile's largest theme park. Min 130cm.",
+        "es": "Coaster de bucle suspendido clasico que va hacia adelante y atras con 6 inversiones. Min 130cm.",
+        "fr": "Classique coaster a boucle suspendu allant en avant et en arriere avec 6 inversions. Min 130cm.",
+        "de": "Klassischer Hanglooping-Coaster vorwarts und ruckwarts mit 6 Inversionen. Mindestgrosse 130cm.",
+        "it": "Classico coaster a loop sospeso avanti e indietro con 6 inversioni. Min 130cm.",
+        "nl": "Klassieke hangende looping achtbaan voor en achteruit met 6 inversies. Min 130cm.",
+        "pt": "Classico coaster de loop suspenso indo para frente e para tras com 6 inversoes. Min 130cm.",
+        "ru": "Классический подвешенный коастер с 6 инверсиями. Мин 130 см.",
+        "zh": "经典悬挂式过山车，前后穿街6个翻转。最低身高130厘米。",
+        "ar": "اوتوستراد بحلقات للأمام والخلف. الحد الادنى 130 سم."
+      }
+    },
+    "raptor": {
+      "desc": {
+        "en": "Thrilling inverted coaster with high-speed sweeping turns and powerful forces. One of the most intense coasters in Chile. Min 130cm.",
+        "es": "Emocionante coaster invertido con giros rapidos a alta velocidad. Min 130cm.",
+        "fr": "Palpitant coaster inverse avec des virages rapides a haute vitesse. Min 130cm.",
+        "de": "Aufregender Hangcoaster mit hochgeschwindigkeits-Kurven. Mindestgrosse 130cm.",
+        "it": "Emozionante coaster invertito con curve veloci ad alta velocita. Min 130cm.",
+        "nl": "Spannende hangende achtbaan met hoge snelheid curves. Min 130cm.",
+        "pt": "Emocionante coaster invertido com curvas rapidas de alta velocidade. Min 130cm.",
+        "ru": "Интенсивный перевернутый коастер. Мин 130 см.",
+        "zh": "激烈的倒挂式过山车。最低身高130厘米。",
+        "ar": "اوتوستراد معكوس شديد. الحد الادنى 130 سم."
+      }
+    },
+    "volare": {
+      "desc": {
+        "en": "South America's most spectacular flying coaster — prone flying position through 4 inversions. The most unique thrill experience in Chile. Min 140cm.",
+        "es": "El coaster volador mas espectacular de Sudamerica — posicion de vuelo tumbado con 4 inversiones. Min 140cm.",
+        "fr": "Le coaster volant le plus spectaculaire d Amerique du Sud — position de vol prone avec 4 inversions. Min 140cm.",
+        "de": "Sudamerikas spektakularster Flugcoaster — liegende Flugposition mit 4 Inversionen. Mindestgrosse 140cm.",
+        "it": "Il coaster volante piu spettacolare del Sud America — posizione di volo prone con 4 inversioni. Min 140cm.",
+        "nl": "Zuid-Amerika's meest spectaculaire vliegende achtbaan — liggende vliegpositie met 4 inversies. Min 140cm.",
+        "pt": "O coaster voador mais espetacular da America do Sul — posicao de voo debruado com 4 inversoes. Min 140cm.",
+        "ru": "Самый зрелищный летящий коастер. Мин 140 см.",
+        "zh": "南美洲最壮观的飞行过山车，4个翻转。最低身高140厘米。",
+        "ar": "اوتوستراد طائر بـ 4 انعكاسات. الحد الادنى 140 سم."
+      }
+    },
+    "twister": {
+      "desc": {
+        "en": "Classic beloved wooden coaster delivering old-school thrills — one of the most characterful wooden coasters in South America. Min 120cm.",
+        "es": "Querido coaster de madera clasico que ofrece emociones a la antigua usanza. Min 120cm.",
+        "fr": "Classique adorable coaster en bois offrant des sensations a l ancienne. Min 120cm.",
+        "de": "Klassischer geliebter Holzcoaster mit altmodischen Thrills. Mindestgrosse 120cm.",
+        "it": "Classico amato coaster in legno che offre emozioni alla vecchia maniera. Min 120cm.",
+        "nl": "Klassieke geliefde houten achtbaan met ouderwetse thrills. Min 120cm.",
+        "pt": "Classico e amado coaster de madeira com thrills a antiga. Min 120cm.",
+        "ru": "Классический деревянный коастер. Мин 120 см.",
+        "zh": "经典木质过山车。最低身高120厘米。",
+        "ar": "اوتوستراد خشبي كلاسيكي. الحد الادنى 120 سم."
+      }
+    },
+    "wild_mouse": {
+      "desc": {
+        "en": "Wildly spinning wild mouse coaster with sharp unexpected turns — completely unpredictable every ride. Min 120cm.",
+        "es": "Coaster raton salvaje con giros bruscos inesperados. Min 120cm.",
+        "fr": "Coaster souris sauvage avec virages brusques inattendus. Min 120cm.",
+        "de": "Wilde Maus mit scharfen unerwarteten Kurven. Mindestgrosse 120cm.",
+        "it": "Coaster topo selvaggio con curve brusche inaspettate. Min 120cm.",
+        "nl": "Wilde muis met scherpe onverwachte bochten. Min 120cm.",
+        "pt": "Coaster rato selvagem com curvas inesperadas. Min 120cm.",
+        "ru": "Дикая мышь. Мин 120 см.",
+        "zh": "狂鼠过山车。最低身高120厘米。",
+        "ar": "اوتوستراد فأر بدورات غير متوقعة. الحد الادنى 120 سم."
+      }
+    },
+    "pirate_revenge": {
+      "desc": {
+        "en": "Thrilling pirate-themed water flume with exciting journey through elaborate environments and soaking final plunge. Most popular water ride in Chile. Min 110cm.",
+        "es": "Emocionante tobogan de agua tematico pirata con viaje emocionante. Min 110cm.",
+        "fr": "Palpitant toboggan d eau theme pirate avec voyage excitant. Min 110cm.",
+        "de": "Aufregender Piraten-Wasserflume mit spannendem Ritt. Mindestgrosse 110cm.",
+        "it": "Emozionante scivolo d acqua tema pirata. Min 110cm.",
+        "nl": "Spannende piraten waterattractie. Min 110cm.",
+        "pt": "Emocionante toboga de agua tema pirata. Min 110cm.",
+        "ru": "Водный аттракцион. Мин 110 см.",
+        "zh": "海盗主题水上漂流项目。最低身高110厘米。",
+        "ar": "زلاجة مائية بطابع قرصنة. الحد الادنى 110 سم."
+      }
+    },
+    "moby_dick": {
+      "desc": {
+        "en": "Classic Viking ship pendulum swinging to extreme heights with views over Santiago. Min 120cm.",
+        "es": "Clasico barco vikingo balanceandose con vistas sobre Santiago. Min 120cm.",
+        "fr": "Classique bateau viking se balancant avec vues sur Santiago. Min 120cm.",
+        "de": "Klassisches Wikingerschiff schwingend mit Aussichten auf Santiago. Mindestgrosse 120cm.",
+        "it": "Classica nave vichinga che dondola con viste su Santiago. Min 120cm.",
+        "nl": "Klassiek Wikingschip slingerend met uitzicht over Santiago. Min 120cm.",
+        "pt": "Classico barco viking balancando com vistas sobre Santiago. Min 120cm.",
+        "ru": "Классический маятник. Мин 120 см.",
+        "zh": "经典海盗船，俳瞰圣地亚哥全景。最低身高120厘米。",
+        "ar": "سفينة فايكينج كلاسيكية. الحد الادنى 120 سم."
+      }
+    },
+    "top_spin": {
+      "desc": {
+        "en": "Intense spinning flat ride that flips and rotates riders through multiple axes simultaneously. Min 130cm.",
+        "es": "Atraccion plana giratoria intensa. Min 130cm.",
+        "fr": "Attraction plate tournante intense. Min 130cm.",
+        "de": "Intensive Dreh-Flachattraktion. Mindestgrosse 130cm.",
+        "it": "Intensa attrazione piatta rotante. Min 130cm.",
+        "nl": "Intense draaiende vlakke attractie. Min 130cm.",
+        "pt": "Intensa atracao plana giratoria. Min 130cm.",
+        "ru": "Интенсивный вращающийся аттракцион. Мин 130 см.",
+        "zh": "具有强烈旋转的翻转平面项目。最低身高130厘米。",
+        "ar": "اتراكشن مسطح دوار شديد. الحد الادنى 130 سم."
+      }
+    },
+    "air_race": {
+      "desc": {
+        "en": "Spectacular aerial flat ride simulating stunt aircraft manoeuvres with breathtaking spinning and looping. Most visually spectacular flat ride in Chile. Min 130cm.",
+        "es": "Espectacular atraccion aerea plana simulando maniobras de acrobacia aerea. Min 130cm.",
+        "fr": "Spectaculaire attraction aerienne plate simulant des manoeuvres de voltige. Min 130cm.",
+        "de": "Spektakulare Luft-Flachattraktion simuliert Kunstflugmanoever. Mindestgrosse 130cm.",
+        "it": "Spettacolare attrazione aerea piatta simulando manovre di acrobazia aerea. Min 130cm.",
+        "nl": "Spectaculaire lucht vlakke attractie die stuntvliegtuig manoevres simuleert. Min 130cm.",
+        "pt": "Espetacular atracao aerea plana simulando manobraas de acrobacia aerea. Min 130cm.",
+        "ru": "Зрелищный воздушный аттракцион. Мин 130 см.",
+        "zh": "壮观的空中马戒技平面项目。最低身高130厘米。",
+        "ar": "اتراكشن جوي رائع يحاكي مناورات طائرات الأكروبات. الحد الادنى 130 سم."
+      }
+    },
+    "disko": {
+      "desc": {
+        "en": "High-energy spinning platform oscillating while rotating — intense centrifugal forces. Min 120cm.",
+        "es": "Plataforma giratoria de alta energia. Min 120cm.",
+        "fr": "Plateforme rotative haute energie. Min 120cm.",
+        "de": "Hochenergie Drehdplattform. Mindestgrosse 120cm.",
+        "it": "Piattaforma rotante ad alta energia. Min 120cm.",
+        "nl": "Hoge energie draaiende platform. Min 120cm.",
+        "pt": "Plataforma giratoria de alta energia. Min 120cm.",
+        "ru": "Высокоэнергетичный аттракцион. Мин 120 см.",
+        "zh": "高能量旋转平台项目。最低身高120厘米。",
+        "ar": "منصة دوارة عالية الطاقة. الحد الادنى 120 سم."
+      }
+    },
+    "tagada": {
+      "desc": {
+        "en": "Wild spinning disc with no restraints — uniquely chaotic and fun. Min 130cm.",
+        "es": "Disco giratorio salvaje sin restricciones. Min 130cm.",
+        "fr": "Disque tournant sauvage sans retenue. Min 130cm.",
+        "de": "Wilde Drehdscheibe ohne Halterungen. Mindestgrosse 130cm.",
+        "it": "Disco rotante selvaggio senza vincoli. Min 130cm.",
+        "nl": "Wilde draaiende schijf zonder bevestigingen. Min 130cm.",
+        "pt": "Disco giratoria selvagem sem restricoes. Min 130cm.",
+        "ru": "Дикий вращающийся диск. Мин 130 см.",
+        "zh": "狂野的无束缚旋转圆盘。最低身高130厘米。",
+        "ar": "قرص دوار بدون أحزمة. الحد الادنى 130 سم."
+      }
+    },
+    "crazy_dance": {
+      "desc": {
+        "en": "Fun spinning family ride with enjoyable rotational movements. Popular accessible attraction at Fantasilandia. Min 110cm.",
+        "es": "Divertido paseo familiar giratorio. Min 110cm.",
+        "fr": "Amusant tour familial rotatif. Min 110cm.",
+        "de": "Lustiger Dreh-Familienritt. Mindestgrosse 110cm.",
+        "it": "Divertente giro familiare rotante. Min 110cm.",
+        "nl": "Leuke draaiende familierit. Min 110cm.",
+        "pt": "Divertido passeio familiar giratoria. Min 110cm.",
+        "ru": "Семейный аттракцион. Мин 110 см.",
+        "zh": "欢乐的家庭旋转项目。最低身高110厘米。",
+        "ar": "لعبة دوارة عائلية. الحد الادنى 110 سم."
+      }
+    },
+    "tren_minero": {
+      "desc": {
+        "en": "Classic Chilean mining-themed mine train family coaster — accessible family thrills. Min 100cm.",
+        "es": "Clasico coaster familiar tren minero tematico chileno. Min 100cm.",
+        "fr": "Classique coaster familial train minier theme chilien. Min 100cm.",
+        "de": "Klassischer chilenischer Bergbau-Minenbahncoaster. Mindestgrosse 100cm.",
+        "it": "Classico coaster familiare treno minerario tema cileno. Min 100cm.",
+        "nl": "Klassieke Chileense mijnbouw thema mijntrein achtbaan. Min 100cm.",
+        "pt": "Classico coaster familiar comboio de mina tema chileno. Min 100cm.",
+        "ru": "Семейный коастер. Мин 100 см.",
+        "zh": "智利采矿主题的经典小火车过山车。最低身高100厘米。",
+        "ar": "اوتوستراد قطار منجم عائلي. الحد الادنى 100 سم."
+      }
+    },
+    "black_hole": {
+      "desc": {
+        "en": "Thrilling indoor dark coaster in complete pitch darkness with unexpected turns and drops. Min 120cm.",
+        "es": "Emocionante coaster oscuro interior en completa oscuridad. Min 120cm.",
+        "fr": "Palpitant coaster sombre interieur dans l obscurite complete. Min 120cm.",
+        "de": "Aufregender Innen-Dunkelcoaster in vollstandiger Dunkelheit. Mindestgrosse 120cm.",
+        "it": "Emozionante coaster oscuro interno nel buio completo. Min 120cm.",
+        "nl": "Spannende indoor donkere achtbaan in volledige duisternis. Min 120cm.",
+        "pt": "Emocionante coaster escuro interior em escuridao completa. Min 120cm.",
+        "ru": "Тёмный коастер. Мин 120 см.",
+        "zh": "室内漆黑暗黑过山车。最低身高120厘米。",
+        "ar": "اوتوستراد ظلام داخلي. الحد الادنى 120 سم."
+      }
+    },
+    "spider": {
+      "desc": {
+        "en": "Classic spinning flat ride with individual rotating gondolas. Popular family-thrill attraction at Fantasilandia. Min 110cm.",
+        "es": "Atraccion plana giratoria clasica con gondolas rotativas individuales. Min 110cm.",
+        "fr": "Classique attraction plate tournante avec gondoles rotatives individuelles. Min 110cm.",
+        "de": "Klassische Dreh-Flachattraktion mit einzelnen Gondeln. Mindestgrosse 110cm.",
+        "it": "Classica attrazione piatta rotante con gondole rotanti individuali. Min 110cm.",
+        "nl": "Klassieke draaiende vlakke attractie met individuele roterende gondels. Min 110cm.",
+        "pt": "Classica atracao plana giratoria com gondolas rotativas individuais. Min 110cm.",
+        "ru": "Классический вращающийся аттракцион. Мин 110 см.",
+        "zh": "经典旋转平面项目。最低身高110厘米。",
+        "ar": "اتراكشن مسطح دوار كلاسيكي. الحد الادنى 110 سم."
+      }
+    }
+  },
+  "food": {
+    "food_johnny_rockets_north": {
+      "desc": {
+        "en": "Most popular full-service dining at Fantasilandia — classic American burgers, milkshakes and fries in a vibrant 1950s diner atmosphere.",
+        "es": "La experiencia gastronómica mas popular de Fantasilandia — hamburguesas americanas clasicas y batidos en ambiente de diner anos 50.",
+        "fr": "L experience culinaire la plus populaire de Fantasilandia — burgers americains classiques et milkshakes dans une ambiance diner des annees 50.",
+        "de": "Beliebtestes Vollservice-Dining bei Fantasilandia — klassische amerikanische Burger und Milchshakes in lebhafter 50er-Jahre-Diner-Atmosphare.",
+        "it": "L esperienza culinaria piu popolare di Fantasilandia — hamburger americani classici e milkshake in vivace atmosfera diner anni 50.",
+        "nl": "Populairste full-service dining bij Fantasilandia — klassieke Amerikaanse burgers en milkshakes in een levendige jaren 50 diner sfeer.",
+        "pt": "A experiencia culinaria mais popular de Fantasilandia — hamburgeres americanos classicos e milkshakes em atmosfera de diner dos anos 50.",
+        "ru": "Наиболее популярный ресторан.",
+        "zh": "奇幻乐园最受欢迎的全服务餐厅。",
+        "ar": "أشهر مطعم في Fantasilandia بأجواء مطعم أميركي."
+      }
+    },
+    "food_johnny_rockets_south": {
+      "desc": {
+        "en": "Second Johnny Rockets location in the southern zone — same beloved American diner classics near the major thrill rides.",
+        "es": "Segunda ubicacion de Johnny Rockets en la zona sur — mismos clasicos americanos cerca de las atracciones principales.",
+        "fr": "Deuxieme emplacement de Johnny Rockets dans la zone sud — memes classiques americains pres des attractions principales.",
+        "de": "Zweiter Johnny Rockets Standort in der Sudzone — gleiche geliebten amerikanischen Klassiker nahe der Hauptattraktionen.",
+        "it": "Secondo Johnny Rockets nella zona sud — stessi classici americani vicino alle attrazioni principali.",
+        "nl": "Tweede Johnny Rockets locatie in de zuidzone — dezelfde geliefde Amerikaanse klassiekers bij de grote attracties.",
+        "pt": "Segundo Johnny Rockets na zona sul — mesmos classicos americanos perto das atraccoes principais.",
+        "ru": "Второй Johnny Rockets.",
+        "zh": "南区第二个火箭餐厅。",
+        "ar": "موقع Johnny Rockets الثاني في المنطقة الجنوبية."
+      }
+    },
+    "food_el_rancho": {
+      "desc": {
+        "en": "Popular Chilean grill with traditional cuisine — completo, chorrillana and classic Chilean comfort food. Most authentic Chilean dining at the park.",
+        "es": "Popular parrilla chilena con cocina tradicional — completo, chorrillana y comida reconfortante chilena clasica.",
+        "fr": "Populaire grill chilien avec cuisine traditionnelle — completo, chorrillana et nourriture reconfortante chilienne classique.",
+        "de": "Beliebter chilenischer Grill mit traditioneller Küche — Completo, Chorrillana und klassisches chilenisches Soulfood.",
+        "it": "Popolare grill cileno con cucina tradizionale — completo, chorrillana e cibo cileno comfort classico.",
+        "nl": "Populaire Chileense grill met traditionele keuken — completo, chorrillana en klassiek Chileens comfort eten.",
+        "pt": "Popular grelhador chileno com cozinha tradicional — completo, chorrillana e comida reconfortante chilena classica.",
+        "ru": "Популярный чилийский гриль.",
+        "zh": "居正的智利烧炒餐厅。",
+        "ar": "شواية تشيلية شعبية."
+      }
+    },
+    "food_palacio": {
+      "desc": {
+        "en": "Elegant full-service restaurant with Chilean and international dishes. Best sit-down dining option at Fantasilandia.",
+        "es": "Elegante restaurante de servicio completo con platos chilenos e internacionales. La mejor opcion de comida sentada.",
+        "fr": "Elegant restaurant a service complet avec plats chiliens et internationaux. Meilleure option de restauration assise.",
+        "de": "Elegantes Vollservice-Restaurant mit chilenischen und internationalen Gerichten. Beste Sitzessen-Option.",
+        "it": "Elegante ristorante a servizio completo con piatti cileni e internazionali. La migliore opzione di ristorazione seduta.",
+        "nl": "Elegant full-service restaurant met Chileense en internationale gerechten. Beste zit-eten optie.",
+        "pt": "Elegante restaurante de servico completo com pratos chilenos e internacionais. Melhor opcao para refeicao sentada.",
+        "ru": "Утонченный ресторан.",
+        "zh": "优雅的全服务餐厅。",
+        "ar": "مطعم فاخر متكامل الخدمة."
+      }
+    },
+    "food_don_burro": {
+      "desc": {
+        "en": "Fun Mexican-themed quick-service — tacos, burritos and Mexican snacks. Popular flavourful option at Fantasilandia.",
+        "es": "Divertido servicio rapido tematico mexicano — tacos, burritos y aperitivos mexicanos.",
+        "fr": "Amusant service rapide theme mexicain — tacos, burritos et snacks mexicains.",
+        "de": "Lustiger mexikanischer Schnellservice — Tacos, Burritos und mexikanische Snacks.",
+        "it": "Divertente servizio rapido tema messicano — tacos, burrito e snack messicani.",
+        "nl": "Leuke Mexicaanse snelservice — taco's, burritos en Mexicaanse snacks.",
+        "pt": "Divertido servico rapido tema mexicano — tacos, burritos e snacks mexicanos.",
+        "ru": "Мексиканский фастфуд.",
+        "zh": "欢乐的墨西哥主题小吃馗。",
+        "ar": "وجبات سريعة مكسيكية."
+      }
+    },
+    "food_daytona": {
+      "desc": {
+        "en": "High-energy racing-themed snack bar — churros, popcorn and classic fairground treats. Most popular sweet treat at Fantasilandia.",
+        "es": "Snack bar tematico de carreras de alta energia — churros, palomitas y golosinas clasicas.",
+        "fr": "Bar a snacks theme course haute energie — churros, popcorn et friandises classiques.",
+        "de": "Hochenergie Renn-Themen-Snackbar — Churros, Popcorn und klassische Jahrmarktsleckereien.",
+        "it": "Bar snack tema corsa alta energia — churros, popcorn e golosita classiche.",
+        "nl": "Hoge energie race thema snack bar — churros, popcorn en klassieke kermislekkerijen.",
+        "pt": "Bar de snacks tema corrida alta energia — churros, pipocas e guloseimas classicas.",
+        "ru": "Снек-бар с чуррос.",
+        "zh": "张扬的赛车主题轻食小屋。",
+        "ar": "بار سناكس بطابع سباقات."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_w_santiago": {
+      "desc": {
+        "en": "One of Santiago's most prestigious luxury hotels — spectacular 5-star in Las Condes with Andes views, rooftop pool and bar, and award-winning restaurants.",
+        "es": "Uno de los hoteles de lujo mas prestigiosos de Santiago — espectacular 5 estrellas con vistas a los Andes y piscina en la azotea.",
+        "fr": "L un des hotels de luxe les plus prestigieux de Santiago — spectaculaire 5 etoiles avec vues sur les Andes et piscine sur le toit.",
+        "de": "Eines der prestigetraechtigsten Luxushotels Santiagos — spektakulares 5-Sterne-Hotel mit Andenblick und Dachpool.",
+        "it": "Uno degli hotel di lusso piu prestigiosi di Santiago — spettacolare 5 stelle con viste sulle Ande e piscina sul tetto.",
+        "nl": "Een van Santiago's meest prestigieuze luxe hotels — spectaculair 5 sterren met Andes uitzicht en dak zwembad.",
+        "pt": "Um dos hoteis de luxo mais prestigiosos de Santiago — espetacular 5 estrelas com vistas para os Andes e piscina no telhado.",
+        "ru": "Один из наиболее престижных отелей.",
+        "zh": "圣地亚哥最尊贵的豪华酒店之一。",
+        "ar": "من أفخم فنادق سانتياغو الفاخرة."
+      }
+    },
+    "hotel_marriott_santiago": {
+      "desc": {
+        "en": "Magnificent 5-star hotel in Las Condes — elegant rooms, pool, spa and finest service in Chile. One of Santiago's most prestigious international hotels.",
+        "es": "Magnifico hotel de 5 estrellas en Las Condes — habitaciones elegantes, piscina y spa.",
+        "fr": "Magnifique hotel 5 etoiles a Las Condes — chambres elegantes, piscine et spa.",
+        "de": "Prachtvoll 5-Sterne-Hotel in Las Condes — elegante Zimmer, Pool und Spa.",
+        "it": "Magnifico hotel 5 stelle a Las Condes — camere eleganti, piscina e spa.",
+        "nl": "Prachtig 5-sterrenhotel in Las Condes — elegante kamers, zwembad en spa.",
+        "pt": "Magnifico hotel de 5 estrelas em Las Condes — quartos elegantes, piscina e spa.",
+        "ru": "Величественный 5-звёздный отель.",
+        "zh": "拉斯康德斯宏伟的五星级酒店。",
+        "ar": "فندق 5 نجوم فاخر في Las Condes."
+      }
+    },
+    "hotel_novotel_santiago": {
+      "desc": {
+        "en": "Stylish 4-star hotel in Santiago with metro connections to Fantasilandia — modern rooms, pool and excellent transport links.",
+        "es": "Elegante hotel de 4 estrellas con conexiones de metro a Fantasilandia — habitaciones modernas y piscina.",
+        "fr": "Elegant hotel 4 etoiles avec connexions metro a Fantasilandia — chambres modernes et piscine.",
+        "de": "Stilvolles 4-Sterne-Hotel mit Metro-Verbindungen zu Fantasilandia — moderne Zimmer und Pool.",
+        "it": "Elegante hotel 4 stelle con connessioni metro a Fantasilandia — camere moderne e piscina.",
+        "nl": "Stijlvol 4-sterrenhotel met metro verbindingen naar Fantasilandia — moderne kamers en zwembad.",
+        "pt": "Elegante hotel de 4 estrelas com ligacoes de metro a Fantasilandia — quartos modernos e piscina.",
+        "ru": "Стильный 4-звёздный отель.",
+        "zh": "时尚的四星级酒店，地铁可达奇幻乐园。",
+        "ar": "فندق 4 نجوم عصري مع وصول بالمترو."
+      }
+    },
+    "hotel_ibis_santiago": {
+      "desc": {
+        "en": "Comfortable affordable ibis hotel with metro connections to Fantasilandia. Best budget option for park visitors.",
+        "es": "Comodo y asequible hotel ibis con conexiones de metro a Fantasilandia. La mejor opcion economica.",
+        "fr": "Confortable et abordable hotel ibis avec connexions metro a Fantasilandia. La meilleure option economique.",
+        "de": "Komfortables erschwingliches ibis Hotel mit Metro-Verbindungen zu Fantasilandia. Beste Budgetoption.",
+        "it": "Confortevole e conveniente hotel ibis con connessioni metro a Fantasilandia. La migliore opzione economica.",
+        "nl": "Comfortabel betaalbaar ibis hotel met metro verbindingen naar Fantasilandia. Beste budget optie.",
+        "pt": "Confortavel e acessivel hotel ibis com ligacoes de metro a Fantasilandia. A melhor opcao economica.",
+        "ru": "Бюджетный отель.",
+        "zh": "实惠舒适的ibis酒店。",
+        "ar": "فندق ibis مريح بأسعار معقولة."
+      }
+    }
+  }
+}

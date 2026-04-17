@@ -1,0 +1,134 @@
+[
+  {
+    "id": "food_leaky_cauldron",
+    "name": "The Leaky Cauldron",
+    "description": "The most atmospheric and beloved restaurant at Universal Studios Florida — The Leaky Cauldron is a wonderfully themed pub-style restaurant in Diagon Alley serving traditional British wizarding fare including butterbeer, pumpkin juice, fish and chips, cottage pie and a full British breakfast. The most immersive themed dining experience at Universal Orlando.",
+    "topPick": true,
+    "type": "British Wizarding Pub",
+    "image": "assets/images/universal_studios_florida/food_leaky_cauldron.png",
+    "lat": 28.4792,
+    "lng": -81.4688,
+    "rating": 4.7,
+    "items": [
+      {
+        "name": "Butterbeer",
+        "description": "The legendary Wizarding World Butterbeer — butterscotch cream soda with sweet foam",
+        "price": 8
+      },
+      {
+        "name": "Cottage Pie",
+        "description": "Classic British cottage pie with beef mince and mashed potato crust",
+        "price": 16
+      },
+      {
+        "name": "Fish and Chips",
+        "description": "Beer-battered fish with thick chips and mushy peas",
+        "price": 17
+      },
+      {
+        "name": "Great Feast",
+        "description": "Whole roasted chicken with corn on the cob, roasted potatoes and vegetables for 4",
+        "price": 58
+      }
+    ]
+  },
+  {
+    "id": "food_three_broomsticks",
+    "name": "Three Broomsticks",
+    "description": "A magnificent Great Hall-style restaurant in Hogsmeade at Universal Studios Florida serving hearty traditional British fare in a spectacular timber-beamed setting straight from the Harry Potter films. One of the most immersive and popular themed restaurants at any theme park in the world.",
+    "topPick": true,
+    "type": "Wizarding British",
+    "image": "assets/images/universal_studios_florida/food_three_broomsticks.png",
+    "lat": 28.4722,
+    "lng": -81.4688,
+    "rating": 4.6,
+    "items": [
+      {
+        "name": "Great Feast",
+        "description": "Whole roasted chicken with roast potatoes, corn and garden salad for 4",
+        "price": 56
+      },
+      {
+        "name": "Butterbeer",
+        "description": "Legendary Wizarding World Butterbeer",
+        "price": 8
+      },
+      {
+        "name": "Pumpkin Juice",
+        "description": "Unique Wizarding World pumpkin and apple juice blend",
+        "price": 7
+      },
+      {
+        "name": "Fish and Chips",
+        "description": "Classic British fish and chips with mushy peas",
+        "price": 17
+      }
+    ]
+  },
+  {
+    "id": "food_finnegans",
+    "name": "Finnegan's Bar and Grill",
+    "description": "A classic and beloved Irish pub-style restaurant on New York Street at Universal Studios Florida — Finnegan's Bar and Grill serves traditional Irish and American pub food including fish and chips, burgers, shepherd's pie and Guinness in a wonderfully authentic Irish pub atmosphere. The best non-wizarding dining at Universal Studios Florida.",
+    "topPick": false,
+    "type": "Irish Pub",
+    "image": "assets/images/universal_studios_florida/food_finnegans.png",
+    "lat": 28.4748,
+    "lng": -81.4682,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Shepherd's Pie",
+        "description": "Classic Irish shepherd's pie with lamb mince and mashed potato",
+        "price": 17
+      },
+      {
+        "name": "Guinness",
+        "description": "Classic pint of Guinness draught",
+        "price": 9
+      },
+      {
+        "name": "Fish and Chips",
+        "description": "Beer-battered fish and chips with tartar sauce",
+        "price": 16
+      },
+      {
+        "name": "Irish Stew",
+        "description": "Traditional Irish beef and vegetable stew with brown bread",
+        "price": 16
+      }
+    ]
+  },
+  {
+    "id": "food_mels_drive_in",
+    "name": "Mel's Drive-In",
+    "description": "A classic and nostalgic 1950s American drive-in diner on Hollywood Boulevard at Universal Studios Florida — Mel's Drive-In is a wonderfully themed retro restaurant serving classic American burgers, milkshakes, hot dogs and fries in a fun 50s atmosphere with vintage cars outside. One of the most recognisable and charming restaurants at Universal.",
+    "topPick": false,
+    "type": "1950s American Diner",
+    "image": "assets/images/universal_studios_florida/food_mels_drive_in.png",
+    "lat": 28.4752,
+    "lng": -81.4676,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Classic Cheeseburger",
+        "description": "Classic beef cheeseburger with fries and coleslaw",
+        "price": 16
+      },
+      {
+        "name": "Chocolate Milkshake",
+        "description": "Thick hand-spun chocolate milkshake",
+        "price": 8
+      },
+      {
+        "name": "Hot Dog",
+        "description": "Classic American hot dog with fries",
+        "price": 13
+      },
+      {
+        "name": "Onion Rings",
+        "description": "Classic crispy beer-battered onion rings",
+        "price": 7
+      }
+    ]
+  }
+]

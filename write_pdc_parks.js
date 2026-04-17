@@ -1,0 +1,8 @@
+﻿const fs=require('fs');
+function readJson(p){let r=fs.readFileSync(p,'utf8');if(r.charCodeAt(0)===0xFEFF)r=r.slice(1);return JSON.parse(r);}
+const pe={id:"parque_de_la_costa",thumbnailAsset:"assets/images/parque_de_la_costa/park_thumbnail.png",tailAsset:"",name:"Parque de la Costa",type:"Theme Park",entryPrice:{child:4500,adult:5500},currency:"ARS",openingHours:"11:00 - 20:00",lng:-58.5768,country:"Argentina",city:"Tigre, Buenos Aires",ticketsUrl:"https://www.parquedelacosta.com.ar/entradas",queueTimesId:0};
+const ie={id:"parque_de_la_costa",name:"Parque de la Costa",city:"Tigre, Buenos Aires",country:"Argentina",type:"Theme Park",lat:-34.4255,lng:-58.5768,thumbnail:"assets/images/parque_de_la_costa/park_thumbnail.png",website:"https://www.parquedelacosta.com.ar/",ticketsUrl:"https://www.parquedelacosta.com.ar/entradas",detailAsset:"",openingHours:"11:00 - 20:00",entryPrices:{adult:5500,child:4500},currency:"ARS",queueTimesId:0};
+const parks=readJson('assets/data/parks.json');
+if(!parks.find(p=>p.id==='parque_de_la_costa')){parks.push(pe);fs.writeFileSync('assets/data/parks.json',JSON.stringify(parks,null,4),'utf8');console.log('parks.json:',parks.length);}
+const index=readJson('assets/data/parks/parks_index.json');
+if(!index.find(p=>p.id==='parque_de_la_costa')){index.push(ie);fs.writeFileSync('assets/data/parks/parks_index.json',JSON.stringify(index,null,4),'utf8');console.log('parks_index.json:',index.length);}

@@ -1,0 +1,420 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Parque de la Costa is Argentina's largest and most beloved theme park, located in Tigre in the beautiful Buenos Aires Delta wetlands, 30 minutes north of Buenos Aires city centre. Opened in 1997, the park features over 40 rides and attractions including the inverted coaster Desafío, the spectacular Péndulo ride, the terrifying La Mansión del Terror dark ride and the panoramic Vuelta al Mundo Ferris wheel. The park is set in the extraordinary natural landscape of the Paraná Delta and offers breathtaking views over the wetlands and waterways.",
+      "es": "Parque de la Costa es el parque tematico mas grande y querido de Argentina en Tigre, Delta del Rio de la Plata, a 30 minutos de Buenos Aires. Inaugurado en 1997 con mas de 40 atracciones.",
+      "fr": "Parque de la Costa est le plus grand et plus aime parc a themes d'Argentine a Tigre dans le Delta, a 30 minutes de Buenos Aires. Ouvert en 1997 avec plus de 40 attractions.",
+      "de": "Parque de la Costa ist Argentiniens grosster und beliebtester Themenpark in Tigre im Buenos Aires Delta, 30 Minuten von der Stadtmitte. 1997 eroffnet mit uber 40 Attraktionen.",
+      "it": "Parque de la Costa e il piu grande e amato parco a tema dell Argentina a Tigre nel Delta del Buenos Aires, a 30 minuti dal centro. Aperto nel 1997 con oltre 40 attrazioni.",
+      "nl": "Parque de la Costa is Argentina's grootste en meest geliefde themapark in Tigre in het Buenos Aires Delta, 30 minuten van het stadscentrum. Geopend in 1997 met meer dan 40 attracties.",
+      "pt": "Parque de la Costa e o maior e mais amado parque tematico da Argentina em Tigre no Delta de Buenos Aires, a 30 minutos do centro. Inaugurado em 1997 com mais de 40 atracoes.",
+      "ru": "Parque de la Costa — крупнейший тематический парк Аргентины в Тигре, в 30 минутах от Буэнос-Айреса. Открыт в 1997 г.",
+      "zh": "海岸公园是阿根廷最大最受欢迎的主题公园，位于布宜诺斯艾利斯三角洲蒂格雷市。公园于1997年开放。",
+      "ar": "Parque de la Costa أكبر متنزهات الأرجنتين في Tigre، على بُعد 30 دقيقة من بوينس آيرس."
+    },
+    "ov_highlights_body": {
+      "en": "Desafío is the most thrilling and beloved roller coaster in Argentina — an inverted coaster with 5 inversions. La Mansión del Terror is the most elaborate horror dark ride in South America. Péndulo is the most spectacular pendulum thrill ride at any Argentine park. Vuelta al Mundo offers the most breathtaking panoramic views over the Tigre Delta wetlands. The park's extraordinary natural Delta setting makes it uniquely beautiful and different from any other theme park in the world.",
+      "es": "Desafío es el coaster mas emocionante de Argentina. La Mansion del Terror es el dark ride de horror mas elaborado de Sudamerica. Pendulo es el pendulo mas espectacular. Vuelta al Mundo ofrece vistas panoramicas del Delta.",
+      "fr": "Desafío est le coaster le plus palpitant d'Argentine. La Mansion del Terror est le dark ride d'horreur le plus elabore d'Amerique du Sud. Pendulo est le pendule le plus spectaculaire.",
+      "de": "Desafío ist Argentiniens aufregendster Coaster. La Mansion del Terror ist der aufwendigste Horror-Darkride Sudamerikas. Pendulo ist die spektakularste Pendelfahrt.",
+      "it": "Desafío e il coaster piu emozionante dell Argentina. La Mansion del Terror e il dark ride horror piu elaborato del Sud America.",
+      "nl": "Desafío is Argentina's meest opwindende achtbaan. La Mansion del Terror is de meest uitgebreide horror dark ride van Zuid-Amerika.",
+      "pt": "Desafío e o coaster mais emocionante da Argentina. La Mansion del Terror e o dark ride de horror mais elaborado da America do Sul.",
+      "ru": "Desafío — лучший коастер. La Mansion del Terror — лучший dark ride Южной Америки.",
+      "zh": "挑战是阿根廷最刺激的过山车。恐怖豪宅是南美洲最精心制作的恐怖暗黑项目。",
+      "ar": "ديسافيو أفضل achtbaan في الأرجنتين. لا مانسيون ديل تيرور أفضل Dark Ride رعب في أمريكا الجنوبية."
+    },
+    "ov_did_you_know_body": {
+      "en": "Parque de la Costa opened in 1997 and was built on a former industrial site on the banks of the Tigre river. The extraordinary Delta wetland setting makes it one of the most scenically unique theme parks in the world. The Tigre area has been a popular tourist destination since the 19th century when Buenos Aires aristocrats built summer mansions on the Delta islands. The park is accessible from Buenos Aires by suburban train making it one of the most easily accessible theme parks in South America.",
+      "es": "Parque de la Costa abrio en 1997 en un antiguo sitio industrial. La extraordinaria ubicacion en el Delta hace que sea uno de los parques mas unicos del mundo. El area de Tigre es destino turistico desde el siglo XIX.",
+      "fr": "Parque de la Costa a ouvert en 1997 sur un ancien site industriel. L extraordinaire cadre du Delta en fait l un des parcs les plus uniques au monde. La zone de Tigre est une destination touristique depuis le XIXe siecle.",
+      "de": "Parque de la Costa eroffnete 1997 auf einem ehemaligen Industriegelande. Das aussergewohnliche Delta-Setting macht es zu einem der szenisch einzigartigsten Parks.",
+      "it": "Parque de la Costa apri nel 1997 su un ex sito industriale. L straordinario ambiente del Delta lo rende uno dei parchi piu unici al mondo.",
+      "nl": "Parque de la Costa opende in 1997 op een voormalig industrieterrein. De buitengewone Delta omgeving maakt het tot een van de meest unieke parken.",
+      "pt": "Parque de la Costa abriu em 1997 num antigo local industrial. O extraordinario ambiente do Delta torna-o num dos parques mais unicos do mundo.",
+      "ru": "Parque de la Costa открылся в 1997 г. Уникальное расположение в дельте.",
+      "zh": "海岸公园于1997年在蒂格雷河岸的旧工业地址开放。独特的三角洲湿地环境使其成为全球景色最独特的主题公园之一。",
+      "ar": "Parque de la Costa افتتح 1997. الموقع في دلتا بارانا يجعله فريداً من نوعه."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head straight to Desafío — it builds to long queues by mid-morning. La Mansión del Terror second as it is most atmospheric at opening. Péndulo third. Vuelta al Mundo is most spectacular at sunset for the golden Delta views. The park is accessible by Tren de la Costa from Buenos Aires making it an easy day trip. Try the traditional Argentine food — the empanadas and asado are outstanding.",
+      "es": "Llega a la apertura y ve directamente a Desafío. La Mansion del Terror segundo. Pendulo tercero. Vuelta al Mundo es mas espectacular al atardecer. Accesible desde Buenos Aires por el Tren de la Costa.",
+      "fr": "Arrivez a l ouverture et allez directement a Desafío. La Mansion del Terror deuxieme. Pendulo troisieme. Vuelta al Mundo est plus spectaculaire au coucher du soleil. Accessible depuis Buenos Aires par le Tren de la Costa.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Desafío. La Mansion del Terror zweiter. Pendulo dritter. Vuelta al Mundo beim Sonnenuntergang am spektakularsten.",
+      "it": "Arriva all apertura e vai direttamente a Desafío. La Mansion del Terror secondo. Pendulo terzo. Vuelta al Mundo piu spettacolare al tramonto.",
+      "nl": "Kom bij opening en ga direct naar Desafío. La Mansion del Terror tweede. Pendulo derde. Vuelta al Mundo meest spectaculair bij zonsondergang.",
+      "pt": "Chega na abertura e vai directamente a Desafío. La Mansion del Terror segundo. Pendulo terceiro. Vuelta al Mundo mais espetacular ao por do sol.",
+      "ru": "Приходите к открытию. Desafío — первым. Tren de la Costa из Буэнос-Айреса.",
+      "zh": "开园时到达直接前往挑战。海岸公园可乘海岸列车从布宜诺斯艾利斯抵达。",
+      "ar": "اذهب مباشرة لـ Desafío. يمكن الوصول من Buenos Aires بقطار Tren de la Costa."
+    },
+    "ov_photos_body": {
+      "en": "Desafío photographed from below during an inversion with the Tigre Delta wetlands visible in the background is the defining image of Parque de la Costa. Vuelta al Mundo photographed at golden hour reflecting in the river below is extraordinarily beautiful. La Mansión del Terror photographed at night with fog effects is atmospheric. The park photographed from the water showing the rides reflected in the Delta waterways is uniquely magical.",
+      "es": "Desafío fotografiado desde abajo durante una inversion con el Delta del Tigre al fondo es la imagen definitiva. Vuelta al Mundo a la hora dorada es extraordinariamente hermosa.",
+      "fr": "Desafío photographie depuis le bas pendant une inversion avec le Delta du Tigre en arriere-plan est l image definitive.",
+      "de": "Desafío von unten bei einer Inversion mit dem Tigre-Delta im Hintergrund ist das definitive Bild.",
+      "it": "Desafío fotografato dal basso durante un inversione con il Delta del Tigre sullo sfondo e l immagine definitiva.",
+      "nl": "Desafío van onderaf tijdens een inversie met het Tigre Delta op de achtergrond is het definitieve beeld.",
+      "pt": "Desafío fotografado de baixo durante uma inversao com o Delta do Tigre ao fundo e a imagem definitiva.",
+      "ru": "Desafío снизу — главный снимок.",
+      "zh": "挑战在蒂格雷三角洲为背景下从下方拍摄是海岸公园的标志性影像。",
+      "ar": "Desafío من الأسفل هو الصورة المحددة."
+    }
+  },
+  "attractions": {
+    "desafio": {
+      "desc": {
+        "en": "Most thrilling coaster in Argentina — inverted coaster through 5 inversions at 95 km/h. Most popular attraction at any Argentine park. Min 130cm.",
+        "es": "El coaster mas emocionante de Argentina — invertido con 5 inversiones. Min 130cm.",
+        "fr": "Le coaster le plus palpitant d'Argentine — inverse avec 5 inversions. Min 130cm.",
+        "de": "Argentiniens aufregendster Coaster — Hangcoaster mit 5 Inversionen. Mindestgrosse 130cm.",
+        "it": "Il coaster piu emozionante dell Argentina — invertito con 5 inversioni. Min 130cm.",
+        "nl": "Argentina's meest opwindende achtbaan — hangende achtbaan met 5 inversies. Min 130cm.",
+        "pt": "Coaster mais emocionante da Argentina — invertido com 5 inversoes. Min 130cm.",
+        "ru": "Лучший коастер Аргентины. Мин 130 см.",
+        "zh": "阿根廷最刺激的过山车。最低身高130厘米。",
+        "ar": "أكثر achtbaan إثارة في الأرجنتين. الحد الأدنى 130 سم."
+      }
+    },
+    "captain_pirana": {
+      "desc": {
+        "en": "Thrilling pirate ship swinging to extreme heights in a dramatically themed galleon. Most popular pirate ship in Argentina. Min 122cm.",
+        "es": "Emocionante barco pirata que se balancea en un galeon tematico. Min 122cm.",
+        "fr": "Palpitant bateau pirate balancant dans un galion thematique. Min 122cm.",
+        "de": "Thrilliges Piratenschiff in einem Galeonen-Thema. Mindestgrosse 122cm.",
+        "it": "Emozionante nave pirata oscillante in un galeone tematizzato. Min 122cm.",
+        "nl": "Spannend piratenschip in een dramatisch thema galjoen. Min 122cm.",
+        "pt": "Emocionante navio pirata oscilante numa galera tematizada. Min 122cm.",
+        "ru": "Пиратский корабль. Мин 122 см.",
+        "zh": "海盗船摇摆至极高处。最低身高122厘米。",
+        "ar": "سفينة قراصنة تتأرجح لارتفاعات قصوى. الحد الأدنى 122 سم."
+      }
+    },
+    "la_mansion_del_terror": {
+      "desc": {
+        "en": "Most elaborate horror dark ride in South America — haunted mansion with extraordinary animatronics and theatrical scares. Ages 12+.",
+        "es": "El dark ride de horror mas elaborado de Sudamerica. Edades 12+.",
+        "fr": "Le dark ride d'horreur le plus elabore d'Amerique du Sud. Ages 12+.",
+        "de": "Aufwendigster Horror-Darkride Sudamerikas. Ab 12 Jahren.",
+        "it": "Il dark ride horror piu elaborato del Sud America. Eta 12+.",
+        "nl": "Meest uitgebreide horror dark ride van Zuid-Amerika. Leeftijd 12+.",
+        "pt": "Dark ride de horror mais elaborado da America do Sul. Idades 12+.",
+        "ru": "Лучший dark ride Южной Америки. С 12 лет.",
+        "zh": "南美洲最精心制作的恐怖暗黑项目。12岁以上。",
+        "ar": "أكثر Dark Ride رعباً في أمريكا الجنوبية. للأعمار 12+."
+      }
+    },
+    "acuatico": {
+      "desc": {
+        "en": "Most popular water attraction — spectacular log flume with dramatic waterfall finale. Min 107cm.",
+        "es": "La atraccion acuatica mas popular — tobogan espectacular. Min 107cm.",
+        "fr": "L attraction aquatique la plus populaire. Min 107cm.",
+        "de": "Beliebteste Wasserattraktion. Mindestgrosse 107cm.",
+        "it": "L attrazione acquatica piu popolare. Min 107cm.",
+        "nl": "Populairste waterattractie. Min 107cm.",
+        "pt": "Atracao aquatica mais popular. Min 107cm.",
+        "ru": "Лучший водный аттракцион. Мин 107 см.",
+        "zh": "最受欢迎的水上项目。最低身高107厘米。",
+        "ar": "أكثر اتراكشن مائي شعبية. الحد الأدنى 107 سم."
+      }
+    },
+    "boomerang": {
+      "desc": {
+        "en": "Classic boomerang shuttle coaster — forward and backward passes through 3 inversions. Min 122cm.",
+        "es": "Clasico coaster boomerang. Min 122cm.",
+        "fr": "Classique coaster boomerang. Min 122cm.",
+        "de": "Klassischer Bumerang-Coaster. Mindestgrosse 122cm.",
+        "it": "Classico coaster boomerang. Min 122cm.",
+        "nl": "Klassieke boemerang achtbaan. Min 122cm.",
+        "pt": "Classico coaster bumerangue. Min 122cm.",
+        "ru": "Бумеранг. Мин 122 см.",
+        "zh": "经典回旋镖过山车。最低身高122厘米。",
+        "ar": "achtbaan بوميرانج كلاسيكي. الحد الأدنى 122 سم."
+      }
+    },
+    "pendulum": {
+      "desc": {
+        "en": "Spectacular giant pendulum completing full 360-degree rotations to extreme heights. Most intense thrill at any Argentine park. Min 122cm.",
+        "es": "Espectacular pendulo gigante con rotaciones de 360 grados. Min 122cm.",
+        "fr": "Spectaculaire pendule geant avec rotations de 360 degres. Min 122cm.",
+        "de": "Spektakulares Riesenpendel mit 360-Grad-Rotationen. Mindestgrosse 122cm.",
+        "it": "Spettacolare pendolo gigante con rotazioni di 360 gradi. Min 122cm.",
+        "nl": "Spectaculaire reusachtige slinger met 360 graden rotaties. Min 122cm.",
+        "pt": "Espetacular pendulo gigante com rotacoes de 360 graus. Min 122cm.",
+        "ru": "Гигантский маятник. Мин 122 см.",
+        "zh": "壮观的巨型钟摆达到360度旋转。最低身高122厘米。",
+        "ar": "بندول عملاق مذهل بدورات 360 درجة. الحد الأدنى 122 سم."
+      }
+    },
+    "saltos_del_delta": {
+      "desc": {
+        "en": "Thrilling whitewater rapids through turbulent river effects. Refreshing popular family water ride. Min 107cm.",
+        "es": "Emocionante rio de rapidos. Min 107cm.",
+        "fr": "Palpitants rapides d'eau vive. Min 107cm.",
+        "de": "Aufregendes Wildwasser. Mindestgrosse 107cm.",
+        "it": "Emozionanti rapide di acque bianche. Min 107cm.",
+        "nl": "Spannende wildwaterrivier. Min 107cm.",
+        "pt": "Emocionantes rapidos de aguas bravas. Min 107cm.",
+        "ru": "Бурный сплав. Мин 107 см.",
+        "zh": "激流漂流项目。最低身高107厘米。",
+        "ar": "انزلاق مياه سريعة مثيرة. الحد الأدنى 107 سم."
+      }
+    },
+    "botes_en_el_nilo": {
+      "desc": {
+        "en": "Fun Nile-themed bumper boat experience with water cannons. Suitable for all ages.",
+        "es": "Divertida experiencia de botes chocadores tema Nilo. Apto para todas las edades.",
+        "fr": "Amusante experience de bateaux tamponneurs theme Nil. Convient a tous les ages.",
+        "de": "Lustiges Nil-Stossboot-Erlebnis. Fur alle Altersgruppen.",
+        "it": "Divertente esperienza di barche tamponatrici tema Nilo. Adatto a tutte le eta.",
+        "nl": "Leuke Nijl botsbootjes ervaring. Geschikt voor alle leeftijden.",
+        "pt": "Divertida experiencia de barcos de choque tema Nilo. Adequado para todas as idades.",
+        "ru": "Водный аттракцион. Подходит для всех.",
+        "zh": "尼罗河主题碰碰船体验。适合所有年龄。",
+        "ar": "تجربة قوارب مصطدمة بطابع النيل. مناسب لجميع الأعمار."
+      }
+    },
+    "botes_del_pantano": {
+      "desc": {
+        "en": "Classic charming pedal boats on the lagoon through beautiful Delta wetland environment. Suitable for all ages.",
+        "es": "Clasicos botes a pedal en la laguna. Apto para todas las edades.",
+        "fr": "Classiques bateaux a pedales sur la lagune. Convient a tous les ages.",
+        "de": "Klassische Tretboote auf der Lagune. Fur alle Altersgruppen.",
+        "it": "Classici pedalò sulla laguna. Adatto a tutte le eta.",
+        "nl": "Klassieke fietsboten op de lagune. Geschikt voor alle leeftijden.",
+        "pt": "Classicos barcos a pedal na lagoa. Adequado para todas as idades.",
+        "ru": "Прогулка на лагуне. Подходит для всех.",
+        "zh": "湖上温和的艰艰船体验。适合所有年龄。",
+        "ar": "قوارب دراجة ساحرة على البحيرة. مناسب لجميع الأعمار."
+      }
+    },
+    "el_vigia": {
+      "desc": {
+        "en": "Spectacular observation tower with breathtaking panoramic views over Tigre Delta wetlands and Buenos Aires suburbs. Most scenic attraction. Suitable for all ages.",
+        "es": "Espectacular torre de observacion con vistas panoramicas del Delta del Tigre. Apto para todas las edades.",
+        "fr": "Spectaculaire tour d'observation avec vues panoramiques sur le Delta du Tigre. Convient a tous les ages.",
+        "de": "Spektakularer Aussichtsturm mit Panoramablick uber das Tigre-Delta. Fur alle Altersgruppen.",
+        "it": "Spettacolare torre di osservazione con viste panoramiche sul Delta del Tigre. Adatto a tutte le eta.",
+        "nl": "Spectaculaire observatietoren met panoramisch uitzicht over het Tigre Delta. Geschikt voor alle leeftijden.",
+        "pt": "Espetacular torre de observacao com vistas panoramicas sobre o Delta do Tigre. Adequado para todas as idades.",
+        "ru": "Обзорная башня. Подходит для всех.",
+        "zh": "壮观的观光塔，展示蒂格雷三角洲全景。适合所有年龄。",
+        "ar": "برج مراقبة مذهل مع مناظر دلتا Tigre. مناسب لجميع الأعمار."
+      }
+    },
+    "torbellino": {
+      "desc": {
+        "en": "Classic spinning flat ride with wildly entertaining rotations. Popular thrill flat ride. Min 107cm.",
+        "es": "Clasica atraccion giratoria plana. Min 107cm.",
+        "fr": "Classique attraction plate tournante. Min 107cm.",
+        "de": "Klassisches Drehfahrgeschaft. Mindestgrosse 107cm.",
+        "it": "Classica attrazione piatta rotante. Min 107cm.",
+        "nl": "Klassieke draaiende vlakke attractie. Min 107cm.",
+        "pt": "Classica atracao plana giratoria. Min 107cm.",
+        "ru": "Классический аттракцион. Мин 107 см.",
+        "zh": "经典旋转平面项目。最低身高107厘米。",
+        "ar": "اتراكشن دوار كلاسيكي. الحد الأدنى 107 سم."
+      }
+    },
+    "desorbitados": {
+      "desc": {
+        "en": "Thrilling free-fall drop tower catapulting riders skyward before sudden descent. Min 122cm.",
+        "es": "Emocionante torre de caida libre. Min 122cm.",
+        "fr": "Palpitante tour de chute libre. Min 122cm.",
+        "de": "Aufregendes Freifall-Fallturm. Mindestgrosse 122cm.",
+        "it": "Emozionante torre di caduta libera. Min 122cm.",
+        "nl": "Spannende vrije val toren. Min 122cm.",
+        "pt": "Emocionante torre de queda livre. Min 122cm.",
+        "ru": "Башня свободного падения. Мин 122 см.",
+        "zh": "自由落体塔楼项目。最低身高122厘米。",
+        "ar": "برج سقوط حر مثير. الحد الأدنى 122 سم."
+      }
+    },
+    "orcas_voladoras": {
+      "desc": {
+        "en": "Charming fun flying orca-themed flat ride beloved by children and families. Suitable for all ages.",
+        "es": "Encantadora atraccion de orcas voladoras amada por ninos. Apto para todas las edades.",
+        "fr": "Charmante attraction d'orcas volantes aimee par les enfants. Convient a tous les ages.",
+        "de": "Charmante Orca-Flugfahrt. Fur alle Altersgruppen.",
+        "it": "Affascinante attrazione di orche volanti amata dai bambini. Adatto a tutte le eta.",
+        "nl": "Charmante vliegende orka attractie. Geschikt voor alle leeftijden.",
+        "pt": "Encantadora atracao de orcas voadoras. Adequado para todas as idades.",
+        "ru": "Аттракцион. Подходит для всех.",
+        "zh": "可爱的飞行虎鲸项目。适合所有年龄。",
+        "ar": "اتراكشن ورشة الطيران الساحر. مناسب لجميع الأعمار."
+      }
+    },
+    "samba": {
+      "desc": {
+        "en": "Classic beloved spinning carnival ride with festive atmosphere. Popular family attraction. Min 107cm.",
+        "es": "Clasico paseo de carnaval giratorio amado. Min 107cm.",
+        "fr": "Classique manege de carnaval tournant bien-aime. Min 107cm.",
+        "de": "Klassisches Karnevaldrehgeschaft. Mindestgrosse 107cm.",
+        "it": "Classica amata giostra di carnevale rotante. Min 107cm.",
+        "nl": "Klassieke draaiende kermisrit. Min 107cm.",
+        "pt": "Classico amado passeio de carnaval giratorio. Min 107cm.",
+        "ru": "Классический аттракцион. Мин 107 см.",
+        "zh": "经典桑巴嘉年华旋转。最低身高107厘米。",
+        "ar": "لعبة سيرك دوارة محبوبة. الحد الأدنى 107 سم."
+      }
+    },
+    "pulpo": {
+      "desc": {
+        "en": "Classic octopus-themed spinning flat ride — charming accessible children's attraction. Suitable for all ages.",
+        "es": "Clasica atraccion pulpo giratoria para ninos. Apto para todas las edades.",
+        "fr": "Classique attraction pieuvre rotative charmante. Convient a tous les ages.",
+        "de": "Klassische Oktopus-Drehfahrt. Fur alle Altersgruppen.",
+        "it": "Classica attrazione polipo rotante. Adatto a tutte le eta.",
+        "nl": "Klassieke octopus draaiende attractie. Geschikt voor alle leeftijden.",
+        "pt": "Classica atracao polvo giratoria. Adequado para todas as idades.",
+        "ru": "Аттракцион. Подходит для всех.",
+        "zh": "经典章鱼主题旋转项目。适合所有年龄。",
+        "ar": "اتراكشن أخطبوط دوار ساحر. مناسب لجميع الأعمار."
+      }
+    },
+    "vuelta_al_mundo": {
+      "desc": {
+        "en": "Spectacular giant Ferris wheel with extraordinary panoramic views over Tigre Delta wetlands and Buenos Aires suburbs. Suitable for all ages.",
+        "es": "Espectacular noria gigante con vistas panoramicas del Delta del Tigre. Apto para todas las edades.",
+        "fr": "Spectaculaire grande roue avec vues panoramiques sur le Delta du Tigre. Convient a tous les ages.",
+        "de": "Spektakulares Riesenrad mit Panoramablick uber das Tigre-Delta. Fur alle Altersgruppen.",
+        "it": "Spettacolare ruota panoramica con viste sul Delta del Tigre. Adatto a tutte le eta.",
+        "nl": "Spectaculair reuzenrad met panoramisch uitzicht over het Tigre Delta. Geschikt voor alle leeftijden.",
+        "pt": "Espetacular roda gigante com vistas sobre o Delta do Tigre. Adequado para todas as idades.",
+        "ru": "Гигантское колесо. Подходит для всех.",
+        "zh": "壮观的巨型摩天轮。适合所有年龄。",
+        "ar": "عجلة فيريس عملاقة مع مناظر دلتا Tigre. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_parque_de_la_costa_restaurante": {
+      "desc": {
+        "en": "Main restaurant with classic Argentine and international cuisine — asado, empanadas and traditional comfort food.",
+        "es": "Restaurante principal con cocina argentina e internacional — asado y empanadas.",
+        "fr": "Restaurant principal avec cuisine classique argentine et internationale.",
+        "de": "Hauptrestaurant mit klassischer argentinischer Kuche.",
+        "it": "Ristorante principale con cucina classica argentina.",
+        "nl": "Hoofdrestaurant met klassieke Argentijnse keuken.",
+        "pt": "Restaurante principal com cozinha classica argentina.",
+        "ru": "Главный ресторан.",
+        "zh": "主餐厅，提供阿根廷游联卫和国际菜肴。",
+        "ar": "المطعم الرئيسي مع مأكولات أرجنتينية وعالمية كلاسيكية."
+      }
+    },
+    "food_burger_vib": {
+      "desc": {
+        "en": "Popular Argentine-style burger restaurant — classic burgers, hot dogs and loaded fries.",
+        "es": "Popular restaurante de hamburgesas al estilo argentino.",
+        "fr": "Populaire restaurant de hamburgers style argentin.",
+        "de": "Beliebtes argentinisches Burgerrestaurant.",
+        "it": "Popolare ristorante di hamburger stile argentino.",
+        "nl": "Populair Argentijns stijl burgerrestaurant.",
+        "pt": "Popular restaurante de hamburgeres estilo argentino.",
+        "ru": "Популярный ресторан.",
+        "zh": "受欢迎的阿根廷风格汉堡餐厅。",
+        "ar": "مطعم برغر أرجنتيني شعبي."
+      }
+    },
+    "food_winners_pub": {
+      "desc": {
+        "en": "Lively Argentine pub with choripán, burgers and cold beer. Most popular casual dining at Parque de la Costa.",
+        "es": "Animado pub argentino con choripán, hamburgesas y cerveza fria.",
+        "fr": "Anime pub argentin avec choripán et biere froide.",
+        "de": "Lebhafter argentinischer Pub mit Choripán.",
+        "it": "Animato pub argentino con choripán.",
+        "nl": "Levendig Argentijns pub met choripán en koud bier.",
+        "pt": "Animado pub argentino com choripán e cerveja fria.",
+        "ru": "Аргентинский паб.",
+        "zh": "活跃的阿根廷酒吧。",
+        "ar": "حانة أرجنتينية نابضة بالحياة مع شوريبان وبيرة."
+      }
+    },
+    "food_rabieta": {
+      "desc": {
+        "en": "Most beloved sweet treat — Argentine ice cream, churros, waffles and classic dulce de leche desserts.",
+        "es": "El dulce mas querido — helado argentino, churros y waffles con dulce de leche.",
+        "fr": "La friandise la plus aimee — glace argentine, churros et gaufres.",
+        "de": "Beliebtester Susskram — argentinisches Eis, Churros und Waffeln.",
+        "it": "Il dolce piu amato — gelato argentino, churros e waffle.",
+        "nl": "Meest geliefde snoep — Argentijns ijs, churros en wafels.",
+        "pt": "O doce mais amado — sorvete argentino, churros e waffles.",
+        "ru": "Лучший десерт.",
+        "zh": "最受欢迎的甜食——阿根廷冰淇淋和油炸果。",
+        "ar": "أكثر حلوى محبة — آيس كريم أرجنتيني وتشوروس."
+      }
+    },
+    "food_tostado": {
+      "desc": {
+        "en": "Convenient sandwich and snack bar with toasted sandwiches, medialunas, coffee and empanadas.",
+        "es": "Conveniente bar de sandwiches con tostados, medialunas y empanadas.",
+        "fr": "Commode barre de sandwichs avec tostados, medialunas et empanadas.",
+        "de": "Praktische Sandwich- und Snackbar mit Tostados und Empanadas.",
+        "it": "Comodo bar di panini con tostados, medialunas ed empanadas.",
+        "nl": "Handig broodjeszaak met tostados en empanadas.",
+        "pt": "Conveniente bar de sanduiches com tostados e empanadas.",
+        "ru": "Быстрый перекус.",
+        "zh": "方便的三明治吧台。",
+        "ar": "بار سندويشات وسناكس مريح."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_wyndham_nordelta_tigre": {
+      "desc": {
+        "en": "Most prestigious hotel near Parque de la Costa — spectacular 5-star resort in exclusive Nordelta with Delta wetland views and multiple pools.",
+        "es": "El hotel mas prestigioso cerca del parque — espectacular resort de 5 estrellas en Nordelta.",
+        "fr": "L'hotel le plus prestigieux pres du parc — spectaculaire resort 5 etoiles a Nordelta.",
+        "de": "Prestigiotragestigstes Hotel — spektakulares 5-Sterne-Resort in Nordelta.",
+        "it": "L'hotel piu prestigioso — spettacolare resort 5 stelle a Nordelta.",
+        "nl": "Meest prestigieuze hotel — spectaculair 5-sterren resort in Nordelta.",
+        "pt": "O hotel mais prestigioso — espetacular resort de 5 estrelas em Nordelta.",
+        "ru": "Наиболее престижный отель.",
+        "zh": "最尊贵的近郊酒店。",
+        "ar": "أرقى فنادق Parque de la Costa."
+      }
+    },
+    "hotel_la_posta_tigre": {
+      "desc": {
+        "en": "Charming beloved boutique resort in the heart of Tigre — beautiful riverside hotel with pool, spa and outstanding Argentine dining.",
+        "es": "Encantador resort boutique en el corazon de Tigre con piscina y spa.",
+        "fr": "Charmant resort boutique au coeur de Tigre avec piscine et spa.",
+        "de": "Charmantes Boutique-Resort im Herzen von Tigre mit Pool und Spa.",
+        "it": "Affascinante resort boutique nel cuore di Tigre con piscina e spa.",
+        "nl": "Charmant boetiekresort in het hart van Tigre met zwembad en spa.",
+        "pt": "Charmoso resort boutique no coracao de Tigre com piscina e spa.",
+        "ru": "Очаровательный бутик-отель.",
+        "zh": "蒂格雷心脏的迷人精品度假地。",
+        "ar": "منتجع بوتيك ساحر في قلب Tigre مع مسبح وسبا."
+      }
+    },
+    "hotel_rio_tigre_hotel": {
+      "desc": {
+        "en": "Comfortable hotel on the banks of the Tigre river — pleasant rooms, pool and easy access to Parque de la Costa and Delta boat trips.",
+        "es": "Comodo hotel a orillas del rio Tigre con piscina y facil acceso al parque.",
+        "fr": "Confortable hotel sur les berges du Tigre avec acces facile au parc.",
+        "de": "Komfortables Hotel am Tigre-Fluss mit einfachem Zugang zum Park.",
+        "it": "Confortevole hotel sulle rive del Tigre con facile accesso al parco.",
+        "nl": "Comfortabel hotel aan de Tigre rivier met gemakkelijke toegang tot het park.",
+        "pt": "Confortavel hotel nas margens do Tigre com facil acesso ao parque.",
+        "ru": "Удобный отель.",
+        "zh": "蒂格雷河边的舒适酒店。",
+        "ar": "فندق مريح على ضفاف نهر Tigre."
+      }
+    },
+    "hotel_villa_victoria_de_tigre": {
+      "desc": {
+        "en": "Beautifully restored heritage villa boutique hotel in historic Tigre centre — elegant rooms and uniquely atmospheric Argentine Delta experience.",
+        "es": "Hotel villa boutique de patrimonio restaurado en el centro historico de Tigre.",
+        "fr": "Hotel villa boutique du patrimoine restaure dans le centre historique de Tigre.",
+        "de": "Wunderschon restauriertes Erbe-Villa-Hotel im historischen Tigre-Zentrum.",
+        "it": "Hotel villa boutique del patrimonio restaurato nel centro storico di Tigre.",
+        "nl": "Prachtig gerestaureerd erfgoed villa boetiekhotel in historisch Tigre centrum.",
+        "pt": "Hotel villa boutique do patrimonio restaurado no centro historico de Tigre.",
+        "ru": "Историческая вилла.",
+        "zh": "精心修复的遗产别墅精品酒店。",
+        "ar": "فندق فيلا بوتيك تراثي جميل في وسط Tigre التاريخي."
+      }
+    }
+  }
+}

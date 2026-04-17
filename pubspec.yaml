@@ -34,6 +34,9 @@ dependencies:
 
   # Other
   share_plus: ^10.0.2
+  audioplayers: ^6.1.0
+  shimmer: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
   image_picker: ^1.1.2
   geolocator: ^13.0.1
 
@@ -90,9 +93,28 @@ flutter:
     - assets/data/parks/fujiq_highland/
     - assets/data/parks/happy_valley_beijing/
     - assets/data/parks/rainbows_end/
+    - assets/data/parks/luna_park_sydney/
+    - assets/data/parks/everland/
+    - assets/data/parks/universal_studios_japan/
+    - assets/data/parks/tokyo_disneysea/
+    - assets/data/parks/dreamworld_australia/
+    - assets/data/parks/beto_carrero_world/
+    - assets/data/parks/fantasilandia/
+    - assets/data/parks/epcot/
+    - assets/data/parks/canadas_wonderland/
+    - assets/data/parks/magic_kingdom/
+    - assets/data/parks/disneyland_park/
+    - assets/data/parks/universal_studios_florida/
+    - assets/data/parks/islands_of_adventure/
+    - assets/data/parks/la_ronde/
+    - assets/data/parks/calaway_park/
+    - assets/data/parks/cedar_point/
+    - assets/data/parks/six_flags_magic_mountain/
+    - assets/data/parks/parque_de_la_costa/
     - assets/i18n/
     - assets/maps/
     - assets/images/
+    - assets/sounds/
     - assets/splash/
     - assets/icons/
     

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_yacht_club",
+    "name": "Disney's Yacht Club Resort",
+    "description": "One of the finest and most prestigious Disney resort hotels at Walt Disney World — Disney's Yacht Club Resort is an elegant New England yacht club-themed hotel with direct walking access to EPCOT and Hollywood Studios, the spectacular Stormalong Bay pool complex, multiple dining venues and impeccable service. The most convenient and beloved luxury hotel for EPCOT visitors.",
+    "image": "assets/images/epcot/hotel_yacht_club.png",
+    "lat": 28.3685,
+    "lng": -81.5553,
+    "rating": 4.8,
+    "topPick": true,
+    "website": "https://www.disneyworld.com/resorts/yacht-club-resort/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant nautical-themed room with garden or courtyard views and free WiFi.",
+        "pricePerNight": 580,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "lagoon_view_room",
+        "name": "Lagoon View Room",
+        "description": "Premium room with views of Crescent Lake and the resort lagoon.",
+        "pricePerNight": 720,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Spacious suite with separate living area and complimentary breakfast.",
+        "pricePerNight": 1200,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_beach_club",
+    "name": "Disney's Beach Club Resort",
+    "description": "A magnificent New England beach resort hotel directly adjacent to EPCOT — Disney's Beach Club Resort shares the spectacular Stormalong Bay with the Yacht Club and offers a slightly more relaxed and family-friendly atmosphere with direct park access, multiple restaurants and beautifully themed rooms. One of the most beloved Disney resorts at Walt Disney World.",
+    "image": "assets/images/epcot/hotel_beach_club.png",
+    "lat": 28.368,
+    "lng": -81.5558,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.disneyworld.com/resorts/beach-club-resort/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Charming beach-themed room with garden or pool views and free WiFi.",
+        "pricePerNight": 540,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "pool_view_room",
+        "name": "Pool View Room",
+        "description": "Room with Stormalong Bay pool views and upgraded amenities.",
+        "pricePerNight": 660,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Spacious suite with separate living area and park views.",
+        "pricePerNight": 1100,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_boardwalk_inn",
+    "name": "Disney's BoardWalk Inn",
+    "description": "A charming turn-of-the-century Atlantic City boardwalk-themed resort hotel steps from EPCOT — Disney's BoardWalk Inn features a lively entertainment district, multiple restaurants and clubs, a beautiful pool and direct walking access to both EPCOT and Hollywood Studios. One of the most atmospheric and unique Disney resorts.",
+    "image": "assets/images/epcot/hotel_boardwalk_inn.png",
+    "lat": 28.369,
+    "lng": -81.5548,
+    "rating": 4.6,
+    "topPick": false,
+    "website": "https://www.disneyworld.com/resorts/boardwalk-inn/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant room with garden or courtyard views and free WiFi.",
+        "pricePerNight": 490,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "boardwalk_view_room",
+        "name": "BoardWalk View Room",
+        "description": "Premium room overlooking the BoardWalk entertainment district.",
+        "pricePerNight": 620,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Spacious suite with BoardWalk views and complimentary breakfast.",
+        "pricePerNight": 1050,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_swan_dolphin",
+    "name": "Walt Disney World Swan and Dolphin",
+    "description": "Two spectacular tower resort hotels at Walt Disney World operated by Sheraton and Westin — the Swan and Dolphin offer premium accommodation with direct EPCOT walking access, a vast pool complex, over 17 restaurants and lounges, a full spa and the benefits of Disney resort status at a competitive price compared to Disney-owned hotels.",
+    "image": "assets/images/epcot/hotel_swan_dolphin.png",
+    "lat": 28.3695,
+    "lng": -81.5543,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "https://www.swandolphin.com/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant resort room with garden or pool views and free WiFi.",
+        "pricePerNight": 380,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "resort_view_room",
+        "name": "Resort View Room",
+        "description": "Premium room with resort and lagoon views.",
+        "pricePerNight": 460,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Junior Suite",
+        "description": "Spacious suite with panoramic resort views and breakfast.",
+        "pricePerNight": 780,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]
