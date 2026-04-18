@@ -111,6 +111,8 @@ flutter:
     - assets/data/parks/cedar_point/
     - assets/data/parks/six_flags_magic_mountain/
     - assets/data/parks/parque_de_la_costa/
+    - assets/data/parks/disney_california_adventure/
+    - assets/data/parks/hollywood_studios/
     - assets/i18n/
     - assets/maps/
     - assets/images/

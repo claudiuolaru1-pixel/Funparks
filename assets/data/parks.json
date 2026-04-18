@@ -1076,5 +1076,41 @@
         "city": "Tigre, Buenos Aires",
         "ticketsUrl": "https://www.parquedelacosta.com.ar/entradas",
         "queueTimesId": 0
+    },
+    {
+        "id": "disney_california_adventure",
+        "thumbnailAsset": "assets/images/disney_california_adventure/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Disney California Adventure",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 109,
+            "adult": 129
+        },
+        "currency": "USD",
+        "openingHours": "08:00 - 22:00",
+        "lng": -117.9215,
+        "country": "USA",
+        "city": "Anaheim, California",
+        "ticketsUrl": "https://disneyland.disney.go.com/tickets/",
+        "queueTimesId": 0
+    },
+    {
+        "id": "hollywood_studios",
+        "thumbnailAsset": "assets/images/hollywood_studios/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Hollywood Studios",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 109,
+            "adult": 129
+        },
+        "currency": "USD",
+        "openingHours": "09:00 - 21:00",
+        "lng": -81.5623,
+        "country": "USA",
+        "city": "Orlando, Florida",
+        "ticketsUrl": "https://disneyworld.disney.go.com/tickets/",
+        "queueTimesId": 0
     }
 ]

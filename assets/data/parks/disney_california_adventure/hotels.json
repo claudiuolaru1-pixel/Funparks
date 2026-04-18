@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_grand_californian_dca",
+    "name": "Disney's Grand Californian Hotel & Spa",
+    "description": "The most magnificent and prestigious hotel at Disneyland Resort — Disney's Grand Californian Hotel & Spa is a breathtaking Arts and Crafts masterpiece inspired by the great lodges of the American national parks. The hotel has its own private entrance directly into Disney California Adventure and features extraordinary restaurants, a spectacular pool complex, an outstanding spa and the most atmospheric and beloved resort hotel experience at any Disney park outside of Walt Disney World.",
+    "image": "assets/images/disney_california_adventure/hotel_grand_californian_dca.png",
+    "lat": 33.8056,
+    "lng": -117.9233,
+    "rating": 4.9,
+    "topPick": true,
+    "website": "https://disneyland.disney.go.com/hotels/grand-californian-hotel/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Magnificent Arts and Crafts room with theme park views, free WiFi and pool access.",
+        "pricePerNight": 650,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "bunk_bed_room",
+        "name": "Bunk Bed Room",
+        "description": "Family room with bunk beds, theme park views and pool access.",
+        "pricePerNight": 800,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Signature Suite",
+        "description": "Spectacular suite with panoramic park views and premium amenities.",
+        "pricePerNight": 1800,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_disneyland_hotel_dca",
+    "name": "Disneyland Hotel",
+    "description": "The most iconic and beloved hotel at Disneyland Resort — the Disneyland Hotel is a magnificent classic California resort hotel with extraordinary theming, multiple spectacular pools including the famous Never Land pool, outstanding restaurants and the most nostalgic and magical hotel experience at any Disney resort in California.",
+    "image": "assets/images/disney_california_adventure/hotel_disneyland_hotel_dca.png",
+    "lat": 33.8079,
+    "lng": -117.9234,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://disneyland.disney.go.com/hotels/disneyland-hotel/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Classic Disney room with free WiFi and pool access.",
+        "pricePerNight": 420,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "theme_room",
+        "name": "Fantasy Tower Room",
+        "description": "Specially themed room with elevated Disney details.",
+        "pricePerNight": 520,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Fairy Tale Suite",
+        "description": "Spectacular themed suite with premium park views.",
+        "pricePerNight": 1200,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_paradise_pier_dca",
+    "name": "Disney's Paradise Pier Hotel",
+    "description": "A fun and colourful California beachfront-themed hotel at Disneyland Resort — Disney's Paradise Pier Hotel is a cheerful and family-friendly hotel with spectacular rooftop pool, fantastic character dining and easy walking access to both Disneyland and Disney California Adventure.",
+    "image": "assets/images/disney_california_adventure/hotel_paradise_pier_dca.png",
+    "lat": 33.8068,
+    "lng": -117.923,
+    "rating": 4.4,
+    "topPick": false,
+    "website": "https://disneyland.disney.go.com/hotels/paradise-pier-hotel/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Bright California-themed room with pool access and free WiFi.",
+        "pricePerNight": 280,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Larger room with upgraded views and premium bedding.",
+        "pricePerNight": 360,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with separate living area.",
+        "pricePerNight": 680,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_sheraton_park_anaheim",
+    "name": "Sheraton Park Hotel at the Anaheim Resort",
+    "description": "A magnificent and recently renovated 4-star hotel just steps from the Disneyland Resort — the Sheraton Park Hotel at the Anaheim Resort offers elegant rooms, a spectacular pool complex, outstanding dining and the finest non-Disney hotel experience for Disneyland Resort visitors.",
+    "image": "assets/images/disney_california_adventure/hotel_sheraton_park_anaheim.png",
+    "lat": 33.8089,
+    "lng": -117.9218,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "https://www.marriott.com/hotels/travel/laxap-sheraton-park-hotel-at-the-anaheim-resort/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant room with free WiFi, pool access and resort views.",
+        "pricePerNight": 220,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Premium room with upgraded Disneyland Resort views.",
+        "pricePerNight": 290,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with living area and breakfast.",
+        "pricePerNight": 480,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

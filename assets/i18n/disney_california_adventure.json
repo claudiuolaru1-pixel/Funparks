@@ -1,0 +1,378 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Disney California Adventure is the second gate at Disneyland Resort in Anaheim, California, celebrating the magic, adventure and spirit of California and the stories of Pixar and Marvel. Opened in 2001 and massively expanded in 2012 with the addition of Cars Land and Buena Vista Street, the park now features some of the greatest theme park attractions ever created including Radiator Springs Racers, Guardians of the Galaxy Mission BREAKOUT! and the extraordinary Avengers Campus. Disney California Adventure is consistently rated one of the finest theme parks in the United States.",
+      "es": "Disney California Adventure es el segundo parque de Disneyland Resort en Anaheim, California. Inaugurado en 2001 y ampliado en 2012 con Cars Land. Es uno de los mejores parques de EE.UU.",
+      "fr": "Disney California Adventure est le deuxieme parc de Disneyland Resort a Anaheim. Ouvert en 2001 et agrandi en 2012 avec Cars Land. L'un des meilleurs parcs aux Etats-Unis.",
+      "de": "Disney California Adventure ist der zweite Park des Disneyland Resort in Anaheim. 2001 eroffnet und 2012 mit Cars Land erweitert. Einer der besten Parks in den USA.",
+      "it": "Disney California Adventure e il secondo parco del Disneyland Resort ad Anaheim. Aperto nel 2001 e ampliato nel 2012 con Cars Land. Uno dei migliori parchi negli USA.",
+      "nl": "Disney California Adventure is het tweede park van Disneyland Resort in Anaheim. Geopend in 2001 en uitgebreid in 2012 met Cars Land. Een van de beste parken in de VS.",
+      "pt": "Disney California Adventure e o segundo parque do Disneyland Resort em Anaheim. Aberto em 2001 e ampliado em 2012 com Cars Land. Um dos melhores parques dos EUA.",
+      "ru": "Disney California Adventure — второй парк Disneyland Resort в Анахайме. Открыт в 2001 г. Один из лучших парков США.",
+      "zh": "迪士尼加州冒险乐园是安纳海姆迪士尼度假園第二个主题公园、2001年开放，2012年扩建了汽车小镇。美国最优秀的主题公园之一。",
+      "ar": "Disney California Adventure هو ثاني متنزه في Disneyland Resort بأناهايم. افتتح 2001 وتوسع 2012 بإضافة Cars Land."
+    },
+    "ov_highlights_body": {
+      "en": "Radiator Springs Racers is consistently voted one of the greatest theme park attractions ever created. Guardians of the Galaxy Mission BREAKOUT! is the most thrilling drop tower at any Disney park. Avengers Campus brings Marvel superheroes to life in an extraordinary immersive land. Soarin Around the World is one of the most universally beloved attractions at any Disney resort. Cars Land at dusk is one of the most magical experiences in theme park history. The Grand Californian Hotel has its own private entrance directly into the park.",
+      "es": "Radiator Springs Racers es una de las mejores atracciones de parques de Disney. Guardians of the Galaxy es la torre de caida mas emocionante. Avengers Campus trae los superheroes Marvel a la vida. Cars Land al atardecer es magico.",
+      "fr": "Radiator Springs Racers est regulierement vote comme l une des meilleures attractions. Guardians of the Galaxy est la tour de chute la plus palpitante. Avengers Campus donne vie aux super-heros Marvel. Cars Land au crepuscule est magique.",
+      "de": "Radiator Springs Racers wird regelmassig als eine der besten Attraktionen gewahlt. Guardians of the Galaxy ist der aufregendste Fallturm. Avengers Campus erweckt Marvel-Superhelden zum Leben. Cars Land in der Dammerung ist magisch.",
+      "it": "Radiator Springs Racers e regolarmente votata come una delle migliori attrazioni. Guardians of the Galaxy e la torre di caduta piu emozionante. Avengers Campus da vita ai supereroi Marvel. Cars Land al tramonto e magica.",
+      "nl": "Radiator Springs Racers wordt regelmatig gekozen als een van de beste attracties. Guardians of the Galaxy is de meest opwindende valtoren. Avengers Campus brengt Marvel superhelden tot leven. Cars Land in de schemering is magisch.",
+      "pt": "Radiator Springs Racers e regularmente eleita uma das melhores atracoes. Guardians of the Galaxy e a torre de queda mais emocionante. Avengers Campus da vida aos super-herois Marvel. Cars Land ao crepusculo e magico.",
+      "ru": "Radiator Springs Racers — одна из лучших аттракций. Avengers Campus оживляет героев Marvel.",
+      "zh": "跨越汤汽车镇赛车被公认为世界最佳景点之一。复仇者任务是迪士尼最刺激的降落塔楼项目。复仇者联盟让漫威超英雄活跃起来。",
+      "ar": "Radiator Springs Racers من أفضل الاتراكشنس. Avengers Campus يجسد أبطال Marvel."
+    },
+    "ov_did_you_know_body": {
+      "en": "Disney California Adventure opened in 2001 as a celebration of the state of California and was extensively reimagined and expanded between 2007 and 2012. Cars Land opened in 2012 and is considered one of the finest themed lands ever created at any theme park in the world. The Grand Californian Hotel was designed by architect Peter Dominick and opened with the park in 2001, featuring its own private entrance directly into the park. Radiator Springs Racers took over 7 years to design and build. Avengers Campus opened in 2021 and was the first Marvel-themed land at any Disney resort in the United States.",
+      "es": "Disney California Adventure abrio en 2001 y fue ampliamente renovado entre 2007 y 2012. Cars Land abierto en 2012 es una de las mejores tierras tematicas. El Grand Californian tiene su propia entrada directa al parque. Avengers Campus fue la primera tierra Marvel en un resort Disney de EE.UU.",
+      "fr": "Disney California Adventure a ouvert en 2001 et a ete largement renove entre 2007 et 2012. Cars Land ouvert en 2012 est l'une des meilleures terres thematiques. Le Grand Californian a sa propre entree dans le parc. Avengers Campus est le premier territoire Marvel dans un resort Disney americain.",
+      "de": "Disney California Adventure eroffnete 2001 und wurde zwischen 2007 und 2012 umfassend umgestaltet. Cars Land gilt als eines der besten Themengebiete. Das Grand Californian hat einen eigenen Eingang in den Park. Avengers Campus war das erste Marvel-Land in einem US-Disney-Resort.",
+      "it": "Disney California Adventure apri nel 2001 e fu ampiamente rinnovato tra il 2007 e il 2012. Cars Land e considerata una delle migliori terre tematiche. Il Grand Californian ha il proprio ingresso nel parco. Avengers Campus fu il primo territorio Marvel in un resort Disney americano.",
+      "nl": "Disney California Adventure opende in 2001 en werd uitgebreid gerenoveerd tussen 2007 en 2012. Cars Land wordt beschouwd als een van de beste themalanden. Het Grand Californian heeft zijn eigen ingang in het park. Avengers Campus was het eerste Marvel-land in een Amerikaans Disney resort.",
+      "pt": "Disney California Adventure abriu em 2001 e foi amplamente renovado entre 2007 e 2012. Cars Land e considerada uma das melhores terras tematicas. O Grand Californian tem a sua propria entrada no parque. Avengers Campus foi o primeiro territorio Marvel num resort Disney americano.",
+      "ru": "Disney California Adventure открылся в 2001 г. Cars Land — одна из лучших тематических зон. Avengers Campus — первая зона Marvel в США.",
+      "zh": "迪士尼加州冒险乐园于2001年开放，2007至2012年间大规模改造。汽车小镇被认为是有史以来最优秀的主题区域之一。",
+      "ar": "Disney California Adventure افتتح 2001 وتم تجديده بين 2007-2012. Cars Land من أفضل المناطق الموضوعية."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at park opening and head straight to Radiator Springs Racers via the Cars Land entrance — it builds to 90-minute queues by 9am. Use Lightning Lane for Rise of the Resistance if visiting Galaxy's Edge. Guardians Mission BREAKOUT second and WEB SLINGERS third. Soarin is best in the evening with shorter waits. Cars Land at dusk is unmissable — the Cadillac Range glows magnificently in the golden light. The Grand Californian Hotel pool is spectacular for an evening swim. Buy tickets in advance as popular dates sell out.",
+      "es": "Llega a la apertura y ve directamente a Radiator Springs Racers. Usa Lightning Lane para las principales atracciones. Cars Land al atardecer es imperdible. Compra entradas con antelacion.",
+      "fr": "Arrivez a l'ouverture et allez directement a Radiator Springs Racers. Utilisez Lightning Lane pour les principales attractions. Cars Land au crepuscule est incontournable. Achetez les billets a l'avance.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie direkt zu Radiator Springs Racers. Nutzen Sie Lightning Lane fur die wichtigsten Attraktionen. Cars Land in der Dammerung ist ein Muss. Tickets im Voraus kaufen.",
+      "it": "Arriva all'apertura e vai direttamente a Radiator Springs Racers. Usa Lightning Lane per le attrazioni principali. Cars Land al tramonto e imperdibile. Acquista i biglietti in anticipo.",
+      "nl": "Kom bij opening en ga direct naar Radiator Springs Racers. Gebruik Lightning Lane voor de belangrijkste attracties. Cars Land in de schemering is een must. Koop tickets van tevoren.",
+      "pt": "Chega na abertura e vai directamente a Radiator Springs Racers. Usa Lightning Lane para as principais atracoes. Cars Land ao crepusculo e imperdivel. Compra bilhetes com antecedencia.",
+      "ru": "Приходите к открытию. Radiator Springs Racers — первым. Lightning Lane рекомендуется.",
+      "zh": "开园时到达直接前往跨越赛车。建议Flash Lane。日落时的汽车小镇必不可错过。提前购票。",
+      "ar": "اذهب مباشرة لـ Radiator Springs Racers. Cars Land عند الغروب لا يفوت."
+    },
+    "ov_photos_body": {
+      "en": "Cars Land photographed at dusk with the Cadillac Range glowing in golden light and Radiator Springs lit up below is the defining image of Disney California Adventure. Guardians of the Galaxy Mission BREAKOUT! photographed from below showing the full tower height against the California sky is spectacular. The Grand Californian Hotel photographed from Paradise Bay at golden hour is magnificent. WEB SLINGERS photographed showing the extraordinary Avengers Campus architecture is iconic. Soarin photographed showing the giant wraparound screen from below is extraordinary.",
+      "es": "Cars Land fotografiado al atardecer con la Cadillac Range brillando es la imagen definitiva. Guardians fotografiado desde abajo es espectacular. El Grand Californian desde Paradise Bay es magnifico.",
+      "fr": "Cars Land photographie au crepuscule avec la Cadillac Range brillante est l image definitive. Guardians photographie depuis le bas est spectaculaire. Le Grand Californian depuis Paradise Bay est magnifique.",
+      "de": "Cars Land in der Dammerung mit leuchtender Cadillac Range ist das definitive Bild. Guardians von unten fotografiert ist spektakular. Das Grand Californian von Paradise Bay ist prachtvoll.",
+      "it": "Cars Land fotografata al tramonto con la Cadillac Range illuminata e l immagine definitiva. Guardians fotografato dal basso e spettacolare. Il Grand Californian da Paradise Bay e magnifico.",
+      "nl": "Cars Land gefotografeerd in de schemering met de gloeiende Cadillac Range is het definitieve beeld. Guardians van onderaf gefotografeerd is spectaculair. Het Grand Californian vanaf Paradise Bay is prachtig.",
+      "pt": "Cars Land fotografado ao crepusculo com a Cadillac Range brilhante e a imagem definitiva. Guardians fotografado de baixo e espetacular. O Grand Californian de Paradise Bay e magnifico.",
+      "ru": "Cars Land на закате — главный снимок.",
+      "zh": "日落时的汽车小镇是加州冒险乐园的标志性影像。",
+      "ar": "Cars Land عند الغروب هو الصورة المحددة."
+    }
+  },
+  "attractions": {
+    "radiator_springs_racers": {
+      "desc": {
+        "en": "Greatest attraction at DCA — racing dark ride through Cars landscapes. Min 102cm.",
+        "es": "La mejor atraccion de DCA — carrera en oscuridad por el paisaje de Cars. Min 102cm.",
+        "fr": "Meilleure attraction du DCA — course en dark ride a travers Cars. Min 102cm.",
+        "de": "Beste Attraktion im DCA — Renn-Darkride durch Cars-Landschaft. Mindestgrosse 102cm.",
+        "it": "Miglior attrazione del DCA — gara dark ride attraverso Cars. Min 102cm.",
+        "nl": "Beste attractie in DCA — race dark ride door Cars landschap. Min 102cm.",
+        "pt": "Melhor atracao do DCA — corrida dark ride pela paisagem de Cars. Min 102cm.",
+        "ru": "Лучшая аттракция DCA. Мин 102 см.",
+        "zh": "DCA最佳项目——跨越汤汽车镇赛车。最低身高102厘米。",
+        "ar": "أفضل اتراكشن في DCA. الحد الأدنى 102 سم."
+      }
+    },
+    "guardians_of_the_galaxy_mission": {
+      "desc": {
+        "en": "Most thrilling drop tower at any Disney park — randomised freefall sequences to a rock soundtrack. Min 102cm.",
+        "es": "La torre de caida mas emocionante de Disney — caidas aleatorias al ritmo del rock. Min 102cm.",
+        "fr": "Tour de chute la plus palpitante Disney — chutes aleatoires sur une bande son rock. Min 102cm.",
+        "de": "Aufregendster Fallturm aller Disney-Parks — zufallige Freifall-Sequenzen zum Rock-Soundtrack. Mindestgrosse 102cm.",
+        "it": "Torre di caduta piu emozionante Disney — sequenze di caduta libera randomizzate. Min 102cm.",
+        "nl": "Meest opwindende valtoren Disney — willekeurige vrije val sequenties op rock muziek. Min 102cm.",
+        "pt": "Torre de queda mais emocionante Disney — sequencias de queda livre aleatorizadas. Min 102cm.",
+        "ru": "Самая адреналиновая башня Disney. Мин 102 см.",
+        "zh": "Disney最刺激的丈轮塔楼项目。最低身高102厘米。",
+        "ar": "أكثر برج سقوط إثارة في Disney. الحد الأدنى 102 سم."
+      }
+    },
+    "web_slingers": {
+      "desc": {
+        "en": "Innovative interactive Spider-Man attraction — sling webs to capture Spider-Bots. Suitable for all ages.",
+        "es": "Atraccion interactiva de Spider-Man — lanza telas para capturar Spider-Bots. Apto para todas las edades.",
+        "fr": "Attraction interactive Spider-Man — lancez des toiles pour capturer des Spider-Bots. Tous ages.",
+        "de": "Interaktive Spider-Man-Attraktion — Spinnennetze werfen um Spider-Bots zu fangen. Fur alle.",
+        "it": "Attrazione interattiva Spider-Man — lancia ragnatele per catturare Spider-Bot. Tutte le eta.",
+        "nl": "Interactieve Spider-Man attractie — spinnenweb slingeren om Spider-Bots te vangen. Alle leeftijden.",
+        "pt": "Atracao interativa Spider-Man — atira teias para capturar Spider-Bots. Adequado para todas as idades.",
+        "ru": "Интерактивный Spider-Man. Подходит для всех.",
+        "zh": "创新型蜘螆侠互动项目。适合所有年龄。",
+        "ar": "اتراكشن Spider-Man تفاعلي. مناسب لجميع الأعمار."
+      }
+    },
+    "soarin_over_california": {
+      "desc": {
+        "en": "Beloved hang-gliding simulation over world landmarks. Universal favourite. Min 102cm.",
+        "es": "Amada simulacion de ala delta sobre paisajes mundiales. Favorita universal. Min 102cm.",
+        "fr": "Bien-aimee simulation de deltaplane au-dessus des paysages mondiaux. Favorite universelle. Min 102cm.",
+        "de": "Geliebte Gleitschirm-Simulation uber Weltlandschaften. Universeller Favorit. Mindestgrosse 102cm.",
+        "it": "Amata simulazione di deltaplano sopra i paesaggi mondiali. Preferita universale. Min 102cm.",
+        "nl": "Geliefde zweefvliegtuig simulatie over wereldlandschappen. Universele favoriet. Min 102cm.",
+        "pt": "Amada simulacao de asa-delta sobre paisagens mundiais. Favorita universal. Min 102cm.",
+        "ru": "Любимый симулятор полёта. Мин 102 см.",
+        "zh": "深受欢迎的滑翔模拟项目。最低身高102厘米。",
+        "ar": "محاكاة التحليق المحبوبة. الحد الأدنى 102 سم."
+      }
+    },
+    "grizzly_river_run": {
+      "desc": {
+        "en": "Most exhilarating whitewater raft ride in California. Prepare to get soaked. Min 107cm.",
+        "es": "El paseo en balsa mas emocionante de California. Preparate para mojarte. Min 107cm.",
+        "fr": "Le rafting le plus exaltant en Californie. Preparez-vous a etre trempe. Min 107cm.",
+        "de": "Aufregendste Wildwasser-Raftingfahrt in Kalifornien. Auf Nasswerden vorbereiten. Mindestgrosse 107cm.",
+        "it": "Il giro in zattera piu esaltante della California. Preparatevi a bagnarvi. Min 107cm.",
+        "nl": "Meest opwindende wildwaterraften in California. Wees voorbereid op nattigheid. Min 107cm.",
+        "pt": "O passeio de jangada mais exaltante na California. Prepare-se para se molhar. Min 107cm.",
+        "ru": "Самый адреналиновый рафтинг. Мин 107 см.",
+        "zh": "加州最刺激的急流漂流项目。最低身高107厘米。",
+        "ar": "أكثر رحلات المياه إثارة في كاليفورنيا. الحد الأدنى 107 سم."
+      }
+    },
+    "cars_land": {
+      "desc": {
+        "en": "Most immersive themed land at any California Disney park — full-scale Radiator Springs recreation magical at dusk. Suitable for all ages.",
+        "es": "La tierra tematica mas inmersiva — recreacion de Radiator Springs magica al atardecer. Apto para todas las edades.",
+        "fr": "Terre thematique la plus immersive — recreation de Radiator Springs magique au crepuscule. Tous ages.",
+        "de": "Immersivestes Themengebiet im kalifornischen Disney-Park — magische Radiator Springs Nachbildung in der Dammerung. Fur alle.",
+        "it": "Terra tematica piu immersiva — ricreazione di Radiator Springs magica al tramonto. Tutte le eta.",
+        "nl": "Meest immersieve themagbied — magische Radiator Springs recreatie in de schemering. Alle leeftijden.",
+        "pt": "Terra tematica mais imersiva — recreacao de Radiator Springs magica ao crepusculo. Adequado para todas as idades.",
+        "ru": "Самая погружающая тематическая зона. Подходит для всех.",
+        "zh": "加州迪士尼乐园最具沉浸式的主题区域。适合所有年龄。",
+        "ar": "أكثر منطقة موضوعية غمراً. مناسب لجميع الأعمار."
+      }
+    },
+    "avengers_campus": {
+      "desc": {
+        "en": "Extraordinary Marvel superhero land with live character encounters. Home to WEB SLINGERS. Suitable for all ages.",
+        "es": "Extraordinaria tierra de superheroes Marvel con encuentros de personajes. Apto para todas las edades.",
+        "fr": "Extraordinaire territoire de super-heros Marvel. Tous ages.",
+        "de": "Aussergewohnliches Marvel-Superhelden-Land. Fur alle.",
+        "it": "Straordinario territorio di supereroi Marvel. Tutte le eta.",
+        "nl": "Buitengewoon Marvel superhelden land. Alle leeftijden.",
+        "pt": "Extraordinario territorio de super-herois Marvel. Adequado para todas as idades.",
+        "ru": "Тематическая зона Marvel. Подходит для всех.",
+        "zh": "非凡的漫威超英雄主题区域。适合所有年龄。",
+        "ar": "أرض ممتازة لأبطال Marvel. مناسب لجميع الأعمار."
+      }
+    },
+    "mater_junkyard_jamboree": {
+      "desc": {
+        "en": "Beloved spinning ride with Mater and tractor cousins square dancing. Suitable for all ages.",
+        "es": "Amado paseo giratorio con Mater y sus primos tractores bailando. Apto para todas las edades.",
+        "fr": "Bien-aime manege tournant avec Mater et ses cousins tracteurs. Tous ages.",
+        "de": "Geliebtes Drehkarussell mit Mater und Traktor-Cousins. Fur alle.",
+        "it": "Amata giostra rotante con Mater e i cugini trattori. Tutte le eta.",
+        "nl": "Geliefde draaiende attractie met Mater en traktor neefjes. Alle leeftijden.",
+        "pt": "Amado passeio rotativo com Mater e primos tratores. Adequado para todas as idades.",
+        "ru": "Любимая вращающаяся аттракция. Подходит для всех.",
+        "zh": "深受欢迎的拖车王旋转项目。适合所有年龄。",
+        "ar": "لعبة دوارة محبوبة مع Mater. مناسب لجميع الأعمار."
+      }
+    },
+    "pixar_pal_around": {
+      "desc": {
+        "en": "Giant Ferris wheel with panoramic views over Disneyland Resort and Anaheim. Available swinging and non-swinging. Suitable for all ages.",
+        "es": "Noria gigante con vistas panoramicas sobre Disneyland Resort. Disponible oscilante y no oscilante. Apto para todas las edades.",
+        "fr": "Grande roue geante avec vues panoramiques. Disponible oscillant et non oscillant. Tous ages.",
+        "de": "Riesiges Riesenrad mit Panoramablick. Schaukelnd und nicht-schaukelnd verfugbar. Fur alle.",
+        "it": "Ruota panoramica gigante con viste panoramiche. Disponibile oscillante e non oscillante. Tutte le eta.",
+        "nl": "Reusachtig reuzenrad met panoramisch uitzicht. Schommelend en niet-schommelend beschikbaar. Alle leeftijden.",
+        "pt": "Roda gigante com vistas panoramicas. Disponivel oscilante e nao oscilante. Adequado para todas as idades.",
+        "ru": "Гигантское колесо. Подходит для всех.",
+        "zh": "巨型摩天轮，展示迪士尼度假園全景。适合所有年龄。",
+        "ar": "عجلة فيريس عملاقة بمناظر بانورامية. مناسب لجميع الأعمار."
+      }
+    },
+    "pixar_pier": {
+      "desc": {
+        "en": "Beautifully themed Pixar seaside boardwalk with attractions and extraordinary food. Suitable for all ages.",
+        "es": "Muelle costero de Pixar bellamente tematizado con atracciones y comida. Apto para todas las edades.",
+        "fr": "Promenade cotiere Pixar magnifiquement thematisee. Tous ages.",
+        "de": "Wunderschon gestaltetes Pixar-Kustenpromenade. Fur alle.",
+        "it": "Passeggiata costiera Pixar magnificamente tematizzata. Tutte le eta.",
+        "nl": "Prachtig Pixar kustpromenade. Alle leeftijden.",
+        "pt": "Calçadao costeiro Pixar magnificamente tematizado. Adequado para todas as idades.",
+        "ru": "Презрасная набережная прогулка. Подходит для всех.",
+        "zh": "精心设计的皮克斯海滨步行街。适合所有年龄。",
+        "ar": "ممشى Pixar الساحلي الرائع. مناسب لجميع الأعمار."
+      }
+    },
+    "buena_vista_street": {
+      "desc": {
+        "en": "Magnificent 1920s Los Angeles recreation at park entrance — extraordinary period detail and atmosphere. Suitable for all ages.",
+        "es": "Magnifico paseo de Los Angeles de los anos 20 a la entrada del parque. Apto para todas las edades.",
+        "fr": "Magnifique recreation du Los Angeles des annees 1920 a l entree du parc. Tous ages.",
+        "de": "Prachtvolle 1920er Los Angeles Nachbildung am Parkeingang. Fur alle.",
+        "it": "Magnifica ricreazione della Los Angeles degli anni 20 all ingresso del parco. Tutte le eta.",
+        "nl": "Prachtige recreatie van Los Angeles uit de jaren 1920 bij de parkingang. Alle leeftijden.",
+        "pt": "Magnifica recreacao de Los Angeles dos anos 20 na entrada do parque. Adequado para todas as idades.",
+        "ru": "Прекрасная реконструкция Лос-Анджелеса 1920-х. Подходит для всех.",
+        "zh": "公园入口使用的宏伟20年代洛杉矶地景再现。适合所有年龄。",
+        "ar": "إعادة إنشاء لوس انجلوس عشرينيات القرن الماضي. مناسب لجميع الأعمار."
+      }
+    },
+    "incredicoaster": {
+      "desc": {
+        "en": "Thrilling Incredibles launched coaster through loops and show scenes at Pixar Pier. Min 122cm.",
+        "es": "Emocionante coaster de los Increibles con bucles y escenas. Min 122cm.",
+        "fr": "Palpitant coaster des Indestructibles avec boucles et scenes. Min 122cm.",
+        "de": "Aufregender Incredibles-Coaster mit Schleifen und Showszenen. Mindestgrosse 122cm.",
+        "it": "Emozionante coaster degli Incredibili con anelli e scene. Min 122cm.",
+        "nl": "Opwindende Incredibles coaster met loops en showscenes. Min 122cm.",
+        "pt": "Emocionante coaster dos Incredibles com loops e cenas. Min 122cm.",
+        "ru": "Коастер Семейки. Мин 122 см.",
+        "zh": "玥奇超人家庭过山车。最低身高122厘米。",
+        "ar": "achtbaan Incredibles مثير. الحد الأدنى 122 سم."
+      }
+    },
+    "toy_story_midway_mania": {
+      "desc": {
+        "en": "Universally beloved interactive 4D Toy Story shooting gallery. One of the most rerideable at any Disney resort. Suitable for all ages.",
+        "es": "Universalmente amado galeria de tiro 4D de Toy Story. Apto para todas las edades.",
+        "fr": "Galerie de tir 4D Toy Story universellement adoree. Tous ages.",
+        "de": "Allgemein geliebte interaktive 4D Toy Story Schiessstand. Fur alle.",
+        "it": "Galleria di tiro 4D Toy Story universalmente amata. Tutte le eta.",
+        "nl": "Universeel geliefd interactieve 4D Toy Story schietgallerij. Alle leeftijden.",
+        "pt": "Galeria de tiro 4D Toy Story universalmente amada. Adequado para todas as idades.",
+        "ru": "Любимый интерактивный 4D аттракцион. Подходит для всех.",
+        "zh": "深受欢迎的玩具总动员互助4D骑法。适合所有年龄。",
+        "ar": "معرض رماية Toy Story التفاعلي. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_carthay_circle": {
+      "desc": {
+        "en": "Most prestigious restaurant at DCA — magnificent 1926 Hollywood theatre recreation with outstanding California cuisine.",
+        "es": "El restaurante mas prestigioso del DCA — magnifico teatro de Hollywood de 1926 con cocina californiana.",
+        "fr": "L'restaurant le plus prestigieux du DCA — magnifique theatre Hollywood de 1926 avec cuisine californienne.",
+        "de": "Prestigiostragestigstes Restaurant im DCA — prachtvolles Hollywood-Theater von 1926 mit californischer Kuche.",
+        "it": "Il ristorante piu prestigioso del DCA — magnifico teatro Hollywood del 1926 con cucina californiana.",
+        "nl": "Meest prestigieus restaurant in DCA — prachtig Hollywood theater van 1926 met Californische keuken.",
+        "pt": "Restaurante mais prestigioso do DCA — magnifico teatro Hollywood de 1926 com cozinha californiana.",
+        "ru": "Наиболее престижный ресторан DCA.",
+        "zh": "DCA最尊贵的餐厅。",
+        "ar": "أرقى مطعم في DCA."
+      }
+    },
+    "food_lamplight_lounge": {
+      "desc": {
+        "en": "Most beloved waterfront dining at Pixar Pier — outstanding California coastal cuisine and extraordinary cocktails with Paradise Bay views.",
+        "es": "El restaurante mas querido frente al agua en Pixar Pier con vistas a Paradise Bay.",
+        "fr": "Restaurant en bord de mer le plus aime a Pixar Pier avec vues sur Paradise Bay.",
+        "de": "Beliebtestes Uferrestaurant am Pixar Pier mit Blick auf Paradise Bay.",
+        "it": "Il ristorante sul fronte acqua piu amato di Pixar Pier con viste su Paradise Bay.",
+        "nl": "Meest geliefd waterkant restaurant op Pixar Pier met uitzicht op Paradise Bay.",
+        "pt": "Restaurante mais amado a beira-mar no Pixar Pier com vistas para Paradise Bay.",
+        "ru": "Любимый ресторан Pixar Pier.",
+        "zh": "皮克斯海岁最受欢迎的水边餐厅。",
+        "ar": "أكثر مطعم محاذى للمياه محبوبية في Pixar Pier."
+      }
+    },
+    "food_wine_country_trattoria": {
+      "desc": {
+        "en": "Charming Italian California trattoria at the Golden Vine Winery with classic pasta and pizza in vineyard setting.",
+        "es": "Encantadora trattoria italiana californiana con pasta y pizza clasica en entorno de vinedo.",
+        "fr": "Charmante trattoria italienne californienne avec pates et pizza classique dans un cadre de vignoble.",
+        "de": "Charmante italienisch-californische Trattoria mit klassischer Pasta und Pizza in Weinbergumgebung.",
+        "it": "Affascinante trattoria italiana californiana con pasta e pizza classica in ambiente vigneto.",
+        "nl": "Charmante Italiaans-Californische trattoria met klassieke pasta en pizza in wijnlandschap.",
+        "pt": "Encantadora trattoria italiana californiana com massa e pizza classica em ambiente de vinha.",
+        "ru": "Милая итальянская траттория.",
+        "zh": "过山车坐落过山车坐落意大利加州餐厅。",
+        "ar": "تراتوريا إيطالية كاليفورنية."
+      }
+    },
+    "food_flos_v8_cafe": {
+      "desc": {
+        "en": "Most beloved quick-service in Cars Land — spectacular 1950s diner with classic American comfort food in the heart of Radiator Springs.",
+        "es": "El servicio rapido mas querido de Cars Land — espectacular restaurante de los 50 en Radiator Springs.",
+        "fr": "Service rapide le plus aime de Cars Land — spectaculaire diner des annees 50 a Radiator Springs.",
+        "de": "Beliebtester Schnellservice in Cars Land — spektakulares 1950er-Diner in Radiator Springs.",
+        "it": "Il servizio rapido piu amato di Cars Land — spettacolare diner degli anni 50 a Radiator Springs.",
+        "nl": "Meest geliefde snelservice in Cars Land — spectaculair jaren 50 diner in Radiator Springs.",
+        "pt": "Servico rapido mais amado de Cars Land — espetacular diner dos anos 50 em Radiator Springs.",
+        "ru": "Любимый фастфуд Cars Land.",
+        "zh": "Cars Land最受欢迎的快餐餐厅。",
+        "ar": "أكثر وجبات سريعة محبوبية في Cars Land."
+      }
+    },
+    "food_award_wieners": {
+      "desc": {
+        "en": "Classic creative gourmet hot dog restaurant on Hollywood Boulevard — beloved park institution.",
+        "es": "Clasico restaurante de perritos calientes gourmet en Hollywood Boulevard — institucion del parque.",
+        "fr": "Classique restaurant de hot dogs gastronomiques sur Hollywood Boulevard.",
+        "de": "Klassisches kreatives Gourmet-Hot-Dog-Restaurant am Hollywood Boulevard.",
+        "it": "Classico ristorante di hot dog gastronomici su Hollywood Boulevard.",
+        "nl": "Klassiek creatief gourmet hotdog restaurant op Hollywood Boulevard.",
+        "pt": "Classico restaurante de cachorros quentes gourmet no Hollywood Boulevard.",
+        "ru": "Классический ресторан.",
+        "zh": "好莱坤大道经典美食热狗餐厅。",
+        "ar": "مطعم هوت دوغ غورميه كلاسيكي."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_grand_californian_dca": {
+      "desc": {
+        "en": "Most magnificent hotel at Disneyland Resort — breathtaking Arts and Crafts masterpiece with private entrance directly into DCA.",
+        "es": "El hotel mas magnifico de Disneyland Resort — obra maestra de Arts and Crafts con entrada privada al DCA.",
+        "fr": "L'hotel le plus magnifique du Disneyland Resort — chef-d'oeuvre Arts and Crafts avec entree privee dans le DCA.",
+        "de": "Prachtvollustes Hotel im Disneyland Resort — Arts and Crafts Meisterwerk mit privatem Eingang in den DCA.",
+        "it": "L'hotel piu magnifico del Disneyland Resort — capolavoro Arts and Crafts con ingresso privato nel DCA.",
+        "nl": "Prachtigste hotel bij Disneyland Resort — Arts and Crafts meesterwerk met eigen ingang in DCA.",
+        "pt": "Hotel mais magnifico do Disneyland Resort — obra-prima Arts and Crafts com entrada privada no DCA.",
+        "ru": "Величайший отель Disneyland Resort.",
+        "zh": "Disneyland Resort最宏伟的酒店。",
+        "ar": "أفخم فندق في Disneyland Resort."
+      }
+    },
+    "hotel_disneyland_hotel_dca": {
+      "desc": {
+        "en": "Most iconic hotel at Disneyland Resort — classic California resort with legendary Never Land pool and outstanding character dining.",
+        "es": "El hotel mas iconico de Disneyland Resort — clasico resort de California con la legendaria piscina Never Land.",
+        "fr": "L'hotel le plus iconique du Disneyland Resort — resort californien classique avec la legendaire piscine Never Land.",
+        "de": "Ikonischstes Hotel im Disneyland Resort — klassisches California Resort mit legendarem Never Land Pool.",
+        "it": "L'hotel piu iconico del Disneyland Resort — classico resort californiano con la leggendaria piscina Never Land.",
+        "nl": "Meest iconisch hotel bij Disneyland Resort — klassiek California resort met legendarisch Never Land zwembad.",
+        "pt": "Hotel mais iconico do Disneyland Resort — classico resort californiano com a lendaria piscina Never Land.",
+        "ru": "Иконичный отель Disneyland Resort.",
+        "zh": "Disneyland Resort最标志性的酒店。",
+        "ar": "أكثر فنادق Disneyland Resort أيقونية."
+      }
+    },
+    "hotel_paradise_pier_dca": {
+      "desc": {
+        "en": "Fun colourful California beachfront-themed hotel with rooftop pool and character dining. Easy walk to both Disney parks.",
+        "es": "Divertido hotel tematico de playa californiana con piscina en la azotea y cena con personajes.",
+        "fr": "Amusant hotel theme de plage californienne avec piscine sur le toit et repas avec personnages.",
+        "de": "Lustiges farbiges California Strandthemen-Hotel mit Dachpool und Charakter-Dining.",
+        "it": "Divertente hotel tematico spiaggia californiana con piscina sul tetto e cena con personaggi.",
+        "nl": "Leuk kleurrijk California strandthema hotel met dakterras zwembad en character dining.",
+        "pt": "Divertido hotel tematico de praia californiana com piscina no terraço e jantar com personagens.",
+        "ru": "Яркий отель с бассейном.",
+        "zh": "色彩罤纷的加州海滨主题酒店。",
+        "ar": "فندق شاطئ كاليفورنيا مرح."
+      }
+    },
+    "hotel_sheraton_park_anaheim": {
+      "desc": {
+        "en": "Magnificent recently renovated 4-star hotel steps from Disneyland Resort — spectacular pool and outstanding non-Disney dining.",
+        "es": "Magnifico hotel de 4 estrellas recientemente renovado a pasos de Disneyland Resort.",
+        "fr": "Magnifique hotel 4 etoiles recemment renove a deux pas du Disneyland Resort.",
+        "de": "Prachtvolles kurzlich renoviertes 4-Sterne-Hotel direkt beim Disneyland Resort.",
+        "it": "Magnifico hotel 4 stelle recentemente ristrutturato a pochi passi dal Disneyland Resort.",
+        "nl": "Prachtig recent gerenoveerd 4-sterrenhotel vlak bij Disneyland Resort.",
+        "pt": "Magnifico hotel de 4 estrelas recentemente renovado mesmo ao lado do Disneyland Resort.",
+        "ru": "Величественный 4-звёздный отель.",
+        "zh": "刺激近期翻新的四星级酒店。",
+        "ar": "فندق 4 نجوم رائع تم تجديده مؤخراً."
+      }
+    }
+  }
+}

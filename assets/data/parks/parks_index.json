@@ -1138,5 +1138,45 @@
         },
         "currency": "ARS",
         "queueTimesId": 0
+    },
+    {
+        "id": "disney_california_adventure",
+        "name": "Disney California Adventure",
+        "city": "Anaheim, California",
+        "country": "USA",
+        "type": "Theme Park",
+        "lat": 33.8053,
+        "lng": -117.9215,
+        "thumbnail": "assets/images/disney_california_adventure/park_thumbnail.png",
+        "website": "https://disneyland.disney.go.com/destinations/disney-california-adventure/",
+        "ticketsUrl": "https://disneyland.disney.go.com/tickets/",
+        "detailAsset": "",
+        "openingHours": "08:00 - 22:00",
+        "entryPrices": {
+            "adult": 129,
+            "child": 109
+        },
+        "currency": "USD",
+        "queueTimesId": 0
+    },
+    {
+        "id": "hollywood_studios",
+        "name": "Hollywood Studios",
+        "city": "Orlando, Florida",
+        "country": "USA",
+        "type": "Theme Park",
+        "lat": 28.3574,
+        "lng": -81.5623,
+        "thumbnail": "assets/images/hollywood_studios/park_thumbnail.png",
+        "website": "https://disneyworld.disney.go.com/destinations/hollywood-studios/",
+        "ticketsUrl": "https://disneyworld.disney.go.com/tickets/",
+        "detailAsset": "",
+        "openingHours": "09:00 - 21:00",
+        "entryPrices": {
+            "adult": 129,
+            "child": 109
+        },
+        "currency": "USD",
+        "queueTimesId": 0
     }
 ]

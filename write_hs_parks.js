@@ -1,0 +1,8 @@
+﻿const fs=require('fs');
+function readJson(p){let r=fs.readFileSync(p,'utf8');if(r.charCodeAt(0)===0xFEFF)r=r.slice(1);return JSON.parse(r);}
+const pe={id:"hollywood_studios",thumbnailAsset:"assets/images/hollywood_studios/park_thumbnail.png",tailAsset:"",name:"Hollywood Studios",type:"Theme Park",entryPrice:{child:109,adult:129},currency:"USD",openingHours:"09:00 - 21:00",lng:-81.5623,country:"USA",city:"Orlando, Florida",ticketsUrl:"https://disneyworld.disney.go.com/tickets/",queueTimesId:0};
+const ie={id:"hollywood_studios",name:"Hollywood Studios",city:"Orlando, Florida",country:"USA",type:"Theme Park",lat:28.3574,lng:-81.5623,thumbnail:"assets/images/hollywood_studios/park_thumbnail.png",website:"https://disneyworld.disney.go.com/destinations/hollywood-studios/",ticketsUrl:"https://disneyworld.disney.go.com/tickets/",detailAsset:"",openingHours:"09:00 - 21:00",entryPrices:{adult:129,child:109},currency:"USD",queueTimesId:0};
+const parks=readJson('assets/data/parks.json');
+if(!parks.find(p=>p.id==='hollywood_studios')){parks.push(pe);fs.writeFileSync('assets/data/parks.json',JSON.stringify(parks,null,4),'utf8');console.log('parks.json:',parks.length);}else{console.log('HS already in parks.json');}
+const index=readJson('assets/data/parks/parks_index.json');
+if(!index.find(p=>p.id==='hollywood_studios')){index.push(ie);fs.writeFileSync('assets/data/parks/parks_index.json',JSON.stringify(index,null,4),'utf8');console.log('parks_index.json:',index.length);}else{console.log('HS already in parks_index.json');}
