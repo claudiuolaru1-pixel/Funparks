@@ -1166,5 +1166,41 @@
         "city": "Austell, Georgia",
         "ticketsUrl": "https://www.sixflags.com/overgeorgia/tickets",
         "queueTimesId": 0
+    },
+    {
+        "id": "six_flags_fiesta_texas",
+        "thumbnailAsset": "assets/images/six_flags_fiesta_texas/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Six Flags Fiesta Texas",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 59,
+            "adult": 74
+        },
+        "currency": "USD",
+        "openingHours": "10:30 - 21:00",
+        "lng": -98.6109,
+        "country": "USA",
+        "city": "San Antonio, Texas",
+        "ticketsUrl": "https://www.sixflags.com/fiestatexas/tickets",
+        "queueTimesId": 0
+    },
+    {
+        "id": "six_flags_over_texas",
+        "thumbnailAsset": "assets/images/six_flags_over_texas/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Six Flags Over Texas",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 59,
+            "adult": 74
+        },
+        "currency": "USD",
+        "openingHours": "10:30 - 21:00",
+        "lng": -97.0694,
+        "country": "USA",
+        "city": "Arlington, Texas",
+        "ticketsUrl": "https://www.sixflags.com/overtexas/tickets",
+        "queueTimesId": 0
     }
 ]

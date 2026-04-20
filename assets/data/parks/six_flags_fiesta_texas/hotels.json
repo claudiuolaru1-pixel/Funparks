@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_jw_marriott_san_antonio",
+    "name": "JW Marriott San Antonio Hill Country",
+    "description": "The most magnificent and prestigious resort near Six Flags Fiesta Texas — the JW Marriott San Antonio Hill Country Resort and Spa is a spectacular luxury resort featuring two enormous waterparks, outstanding restaurants, a world-class spa and the finest resort experience near any Texas theme park.",
+    "image": "assets/images/six_flags_fiesta_texas/hotel_jw_marriott_san_antonio.png",
+    "lat": 29.6052,
+    "lng": -98.6198,
+    "rating": 4.9,
+    "topPick": true,
+    "website": "https://www.marriott.com/hotels/travel/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant Hill Country room with resort and waterpark access.",
+        "pricePerNight": 380,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Premium room with Hill Country views.",
+        "pricePerNight": 480,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Magnificent suite with panoramic views and breakfast.",
+        "pricePerNight": 850,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_hyatt_regency_san_antonio",
+    "name": "Hyatt Regency San Antonio Riverwalk",
+    "description": "A magnificent and iconic 4-star hotel on the famous San Antonio River Walk — the Hyatt Regency San Antonio is a spectacular hotel with extraordinary River Walk views, outstanding restaurants and the finest hotel experience in downtown San Antonio for Six Flags Fiesta Texas visitors.",
+    "image": "assets/images/six_flags_fiesta_texas/hotel_hyatt_regency_san_antonio.png",
+    "lat": 29.424,
+    "lng": -98.4927,
+    "rating": 4.6,
+    "topPick": true,
+    "website": "https://www.hyatt.com/en-US/hotel/texas/hyatt-regency-san-antonio-riverwalk/satrs",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant room with River Walk views.",
+        "pricePerNight": 280,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "river_view",
+        "name": "River View Room",
+        "description": "Premium room with direct River Walk views.",
+        "pricePerNight": 340,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spectacular suite with panoramic River Walk views.",
+        "pricePerNight": 580,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_marriott_rivercenter",
+    "name": "San Antonio Marriott Rivercenter",
+    "description": "A magnificent and popular Marriott hotel on the San Antonio River Walk — the Marriott Rivercenter is a spectacular hotel with extraordinary River Walk and city views, multiple outstanding restaurants and excellent value for Six Flags Fiesta Texas visitors staying in downtown San Antonio.",
+    "image": "assets/images/six_flags_fiesta_texas/hotel_marriott_rivercenter.png",
+    "lat": 29.4235,
+    "lng": -98.488,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "https://www.marriott.com/hotels/travel/satmc-san-antonio-marriott-rivercenter/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Classic room with River Walk views.",
+        "pricePerNight": 220,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Premium room with upgraded city views.",
+        "pricePerNight": 270,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with River Walk views.",
+        "pricePerNight": 440,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_emily_morgan",
+    "name": "Emily Morgan Hotel San Antonio",
+    "description": "A magnificent boutique hotel in the heart of downtown San Antonio adjacent to the famous Alamo — the Emily Morgan Hotel is a beautifully restored Gothic Revival building offering elegant rooms, outstanding service and the most atmospheric and historic hotel experience in San Antonio.",
+    "image": "assets/images/six_flags_fiesta_texas/hotel_emily_morgan.png",
+    "lat": 29.4259,
+    "lng": -98.4861,
+    "rating": 4.6,
+    "topPick": false,
+    "website": "https://www.emilymorganhotel.com/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant boutique room with Alamo views and free WiFi.",
+        "pricePerNight": 190,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Premium room with upgraded Alamo views.",
+        "pricePerNight": 240,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Magnificent suite with panoramic Alamo views.",
+        "pricePerNight": 380,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

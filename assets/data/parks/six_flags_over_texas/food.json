@@ -1,0 +1,167 @@
+[
+  {
+    "id": "food_jbs_smokehouse_barbeque",
+    "name": "JB's Smokehouse Barbeque",
+    "description": "The most popular and beloved dining destination at Six Flags Over Texas — JBs Smokehouse Barbeque is a magnificent Texas BBQ restaurant serving authentic smoked brisket, ribs and sausage with classic Texas sides. The most satisfying and quintessentially Texan dining experience at any Arlington theme park.",
+    "topPick": true,
+    "type": "Texas BBQ",
+    "image": "assets/images/six_flags_over_texas/food_jbs_smokehouse_barbeque.png",
+    "lat": 32.7572,
+    "lng": -97.0692,
+    "rating": 4.5,
+    "items": [
+      {
+        "name": "Smoked Brisket Plate",
+        "description": "Classic Texas smoked brisket with beans and coleslaw",
+        "price": 20
+      },
+      {
+        "name": "Pork Ribs",
+        "description": "Classic slow-smoked pork ribs with BBQ sauce",
+        "price": 22
+      },
+      {
+        "name": "Combo Plate",
+        "description": "Brisket and sausage combo with two classic Texas sides",
+        "price": 22
+      },
+      {
+        "name": "Sweet Tea",
+        "description": "Classic Southern sweet iced tea",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_grannys_grill",
+    "name": "Granny's Grill",
+    "description": "A beloved and charming home-cooking themed restaurant at Six Flags Over Texas serving classic American comfort food including chicken tenders, burgers and classic sides in a warm and welcoming atmosphere.",
+    "topPick": false,
+    "type": "American Home Cooking",
+    "image": "assets/images/six_flags_over_texas/food_grannys_grill.png",
+    "lat": 32.7576,
+    "lng": -97.0696,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Chicken Tenders",
+        "description": "Classic crispy chicken tenders with honey mustard and fries",
+        "price": 15
+      },
+      {
+        "name": "Classic Burger",
+        "description": "Classic beef burger with cheese, lettuce and tomato",
+        "price": 15
+      },
+      {
+        "name": "Mac and Cheese",
+        "description": "Classic creamy mac and cheese",
+        "price": 10
+      },
+      {
+        "name": "Lemonade",
+        "description": "Fresh squeezed lemonade",
+        "price": 5
+      }
+    ]
+  },
+  {
+    "id": "food_dry_hole_charlies",
+    "name": "Dry Hole Charlie's",
+    "description": "A fun and popular Western-themed quick-service restaurant at Six Flags Over Texas serving classic Texan comfort food including nachos, corn dogs and classic Texas snacks in an entertaining atmosphere.",
+    "topPick": false,
+    "type": "Texas Western",
+    "image": "assets/images/six_flags_over_texas/food_dry_hole_charlies.png",
+    "lat": 32.7568,
+    "lng": -97.0688,
+    "rating": 4,
+    "items": [
+      {
+        "name": "Nachos",
+        "description": "Classic loaded nachos with cheese jalapeños and salsa",
+        "price": 11
+      },
+      {
+        "name": "Corn Dog",
+        "description": "Classic deep-fried corn dog",
+        "price": 8
+      },
+      {
+        "name": "Chili Cheese Fries",
+        "description": "Thick fries with chili and melted cheese",
+        "price": 10
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Large fountain drink",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_all_american_cafe",
+    "name": "All American Cafe",
+    "description": "A classic and popular American quick-service cafe at Six Flags Over Texas serving burgers, chicken sandwiches and classic American comfort food. One of the most convenient and frequently visited dining destinations at the park.",
+    "topPick": false,
+    "type": "American Quick Service",
+    "image": "assets/images/six_flags_over_texas/food_all_american_cafe.png",
+    "lat": 32.758,
+    "lng": -97.07,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Classic Burger",
+        "description": "Classic beef burger with cheese, lettuce and tomato",
+        "price": 15
+      },
+      {
+        "name": "Chicken Sandwich",
+        "description": "Classic crispy chicken sandwich with fries",
+        "price": 14
+      },
+      {
+        "name": "Hot Dog",
+        "description": "Classic beef hot dog with mustard and relish",
+        "price": 9
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Large fountain drink",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_funnel_cakes",
+    "name": "Funnel Cakes",
+    "description": "The most beloved sweet treat at Six Flags Over Texas — classic deep-fried funnel cakes with powdered sugar, strawberries or Nutella. The quintessential American theme park dessert experience.",
+    "topPick": true,
+    "type": "American Desserts",
+    "image": "assets/images/six_flags_over_texas/food_funnel_cakes.png",
+    "lat": 32.7565,
+    "lng": -97.0694,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Classic Funnel Cake",
+        "description": "Classic deep-fried funnel cake with powdered sugar",
+        "price": 9
+      },
+      {
+        "name": "Strawberry Funnel Cake",
+        "description": "Funnel cake with fresh strawberry topping",
+        "price": 11
+      },
+      {
+        "name": "Nutella Funnel Cake",
+        "description": "Funnel cake with Nutella and powdered sugar",
+        "price": 12
+      },
+      {
+        "name": "Lemonade",
+        "description": "Fresh squeezed lemonade",
+        "price": 5
+      }
+    ]
+  }
+]

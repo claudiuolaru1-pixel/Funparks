@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_live_oak_marriott",
+    "name": "Live Oak Marriott Arlington",
+    "description": "A magnificent and recently renovated Marriott hotel directly adjacent to Six Flags Over Texas — the Live Oak Marriott Arlington offers elegant rooms, a spectacular pool and the finest hotel experience steps from the park.",
+    "image": "assets/images/six_flags_over_texas/hotel_live_oak_marriott.png",
+    "lat": 32.7548,
+    "lng": -97.0712,
+    "rating": 4.5,
+    "topPick": true,
+    "website": "https://www.marriott.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant room with free WiFi and pool access.",
+        "pricePerNight": 180,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Premium king room with upgraded views.",
+        "pricePerNight": 220,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with living area and breakfast.",
+        "pricePerNight": 360,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_sheraton_arlington",
+    "name": "Sheraton Arlington Hotel",
+    "description": "A magnificent and well-regarded Sheraton hotel in Arlington near Six Flags Over Texas — offering elegant rooms, a spectacular pool, outstanding dining and excellent access to both Six Flags and the Dallas Cowboys AT&T Stadium.",
+    "image": "assets/images/six_flags_over_texas/hotel_sheraton_arlington.png",
+    "lat": 32.7365,
+    "lng": -97.1081,
+    "rating": 4.4,
+    "topPick": true,
+    "website": "https://www.marriott.com/hotels/travel/dalarar-sheraton-arlington-hotel/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Classic room with free WiFi and pool access.",
+        "pricePerNight": 160,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Premium room with upgraded views.",
+        "pricePerNight": 200,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with living area.",
+        "pricePerNight": 320,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_hyatt_place_arlington",
+    "name": "Hyatt Place Arlington",
+    "description": "A comfortable and convenient Hyatt Place hotel near Six Flags Over Texas offering modern rooms, free breakfast and easy access to both the park and the Dallas Cowboys AT&T Stadium.",
+    "image": "assets/images/six_flags_over_texas/hotel_hyatt_place_arlington.png",
+    "lat": 32.7425,
+    "lng": -97.0982,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.hyatt.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Modern room with free WiFi and breakfast.",
+        "pricePerNight": 140,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Spacious king room with breakfast.",
+        "pricePerNight": 165,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with living area and breakfast.",
+        "pricePerNight": 240,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_hilton_arlington",
+    "name": "Hilton Arlington",
+    "description": "A reliable and comfortable Hilton hotel near Six Flags Over Texas offering pleasant rooms, a pool and easy access to the park, AT&T Stadium and the Dallas-Fort Worth entertainment district.",
+    "image": "assets/images/six_flags_over_texas/hotel_hilton_arlington.png",
+    "lat": 32.7352,
+    "lng": -97.1025,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.hilton.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable room with free WiFi and pool access.",
+        "pricePerNight": 130,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Spacious king room with upgraded views.",
+        "pricePerNight": 155,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with living area.",
+        "pricePerNight": 240,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

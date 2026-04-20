@@ -1,0 +1,406 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Six Flags Over Texas is the original Six Flags park — the first park in the Six Flags chain, opened in 1961 in Arlington, Texas, between Dallas and Fort Worth. The park is home to Titan, one of the tallest and fastest roller coasters in Texas, the legendary Mr. Freeze Reverse Blast launch coaster, the world tallest swing ride Texas SkyScreamer, and classic beloved rides dating back to the park opening. Six Flags Over Texas is the birthplace of the modern theme park industry and a historic landmark in American entertainment.",
+      "es": "Six Flags Over Texas es el parque Six Flags original — el primero en abrir en 1961 en Arlington, Texas. Hogar de Titan, Mr. Freeze, el columpio mas alto del mundo Texas SkyScreamer y clasicos amados desde 1961.",
+      "fr": "Six Flags Over Texas est le parc Six Flags original — le premier a ouvrir en 1961 a Arlington, Texas. Domine par Titan, Mr. Freeze, le plus grand balancoire du monde Texas SkyScreamer et des classiques depuis 1961.",
+      "de": "Six Flags Over Texas ist der ursprungliche Six Flags Park — der erste der 1961 in Arlington, Texas eroffnet wurde. Heimat von Titan, Mr. Freeze, dem weltgrosstem Schaukelfahrt Texas SkyScreamer und geliebten Klassikern seit 1961.",
+      "it": "Six Flags Over Texas e il parco Six Flags originale — il primo ad aprire nel 1961 ad Arlington, Texas. Casa di Titan, Mr. Freeze, la piu alta altalena del mondo Texas SkyScreamer e classici amati dal 1961.",
+      "nl": "Six Flags Over Texas is het originele Six Flags park — het eerste dat in 1961 in Arlington, Texas opende. Thuis van Titan, Mr. Freeze, de hoogste schommelrit ter wereld Texas SkyScreamer en geliefde klassiekers depuis 1961.",
+      "pt": "Six Flags Over Texas e o parque Six Flags original — o primeiro a abrir em 1961 em Arlington, Texas. Lar de Titan, Mr. Freeze, a mais alta balanceira do mundo Texas SkyScreamer e classicos amados desde 1961.",
+      "ru": "Six Flags Over Texas — первый парк Six Flags, открывшийся в 1961 г. Дом Titan, Mr. Freeze и Texas SkyScreamer.",
+      "zh": "六旗导师大冒险乐园是六旗旅游的原始公园，1961年在特克萨州阿灵顿开放。拥有Titan、Mr. Freeze和全球最高秋千项目。",
+      "ar": "سيكس فلاجز أوفر تيكساس هو متنزه Six Flags الأصلي افتتح 1961."
+    },
+    "ov_highlights_body": {
+      "en": "Titan is one of the tallest and fastest coasters in Texas at 174 km/h down a 68-metre drop. Mr. Freeze Reverse Blast launches backwards at 96 km/h to a towering vertical spike. Texas SkyScreamer is the tallest swing ride in the world at 122 metres. Tormenta is the exciting new spinning coaster. Looney Tunes USA is a beloved extensive family area. Judge Roy Scream is a classic wooden coaster beloved since 1980. The park is the birthplace of the Six Flags chain and the modern theme park industry.",
+      "es": "Titan es uno de los coasters mas altos y rapidos de Texas. Mr. Freeze lanza hacia atras a 96 km/h. Texas SkyScreamer es el columpio mas alto del mundo. Tormenta es el nuevo coaster giratorio. El parque es el lugar de nacimiento del sector de parques tematicos modernos.",
+      "fr": "Titan est l un des coasters les plus hauts et rapides du Texas. Mr. Freeze lance en arriere a 96 km/h. Texas SkyScreamer est le plus grand balancoire du monde. Tormenta est le nouveau coaster tournant. Le parc est le berceau de l industrie moderne des parcs a themes.",
+      "de": "Titan ist einer der hochsten und schnellsten Coaster in Texas. Mr. Freeze startet ruckwarts mit 96 km/h. Texas SkyScreamer ist die hochste Schaukelfahrt der Welt. Tormenta ist der neue Dreh-Coaster. Der Park ist die Wiege der modernen Freizeitparkindustrie.",
+      "it": "Titan e uno dei coaster piu alti e veloci del Texas. Mr. Freeze lancia all indietro a 96 km/h. Texas SkyScreamer e la piu alta altalena del mondo. Tormenta e il nuovo coaster rotante. Il parco e la culla dell industria moderna dei parchi a tema.",
+      "nl": "Titan is een van de hoogste en snelste achtbanen in Texas. Mr. Freeze lanceert achteruit met 96 km/u. Texas SkyScreamer is de hoogste schommelrit ter wereld. Tormenta is de nieuwe draaiende achtbaan. Het park is de bakermat van de moderne pretparkindustrie.",
+      "pt": "Titan e um dos coasters mais altos e rapidos do Texas. Mr. Freeze lanca para tras a 96 km/h. Texas SkyScreamer e a mais alta balanceira do mundo. Tormenta e o novo coaster giratoria. O parque e o berco da industria moderna de parques tematicos.",
+      "ru": "Titan — один из самых высоких и быстрых. Mr. Freeze — запуск назад. Texas SkyScreamer — самые высокие качели в мире.",
+      "zh": "Titan是干芒关最高最快的过山车之一。Mr. Freeze倒转发射。Texas SkyScreamer是全球最高秋千。",
+      "ar": "Titan من أعلى وأسرع achtbaan في تكساس. Texas SkyScreamer أعلى أرجوحة في العالم."
+    },
+    "ov_did_you_know_body": {
+      "en": "Six Flags Over Texas opened on August 5 1961 and was the first park in what would become the Six Flags chain. The name Six Flags comes from the six nations whose flags have flown over Texas. Titan opened in 2001 and was the tallest coaster in the world when it debuted. Texas SkyScreamer opened in 2013 as the world tallest swing ride. The park is located in the heart of the Dallas-Fort Worth Metroplex between two of the largest cities in the United States. Mr. Freeze opened in 1998 and was one of the first Premier Rides launched coasters in the world.",
+      "es": "Six Flags Over Texas abrio el 5 de agosto de 1961 siendo el primero de la cadena. El nombre Six Flags viene de las seis naciones cuyas banderas ondearon sobre Texas. Titan abrio en 2001 siendo el coaster mas alto del mundo. Texas SkyScreamer abrio en 2013.",
+      "fr": "Six Flags Over Texas a ouvert le 5 aout 1961 etant le premier de la chaine. Le nom Six Flags vient des six nations dont les drapeaux ont flotte au-dessus du Texas. Titan a ouvert en 2001. Texas SkyScreamer a ouvert en 2013.",
+      "de": "Six Flags Over Texas eroffnete am 5. August 1961 als erster Park der Kette. Der Name Six Flags kommt von den sechs Nationen deren Flaggen uber Texas wehten. Titan eroffnete 2001. Texas SkyScreamer eroffnete 2013.",
+      "it": "Six Flags Over Texas apri il 5 agosto 1961 come primo parco della catena. Il nome Six Flags deriva dalle sei nazioni le cui bandiere hanno sventolato sul Texas. Titan apri nel 2001. Texas SkyScreamer apri nel 2013.",
+      "nl": "Six Flags Over Texas opende op 5 augustus 1961 als het eerste park van de keten. De naam Six Flags komt van de zes naties wier vlaggen boven Texas wapperden. Titan opende in 2001. Texas SkyScreamer opende in 2013.",
+      "pt": "Six Flags Over Texas abriu a 5 de agosto de 1961 como o primeiro parque da cadeia. O nome Six Flags vem das seis nacoes cujas bandeiras voaram sobre o Texas. Titan abriu em 2001. Texas SkyScreamer abriu em 2013.",
+      "ru": "Six Flags Over Texas открылся 5 августа 1961 г. Titan в 2001 г. Texas SkyScreamer в 2013 г.",
+      "zh": "1961年8月5日开放。Titan 2001年开放。Texas SkyScreamer 2013年开放。",
+      "ar": "افتتح 5 أغسطس 1961. Titan 2001. Texas SkyScreamer 2013."
+    },
+    "ov_plan_body": {
+      "en": "Arrive at opening and head straight to Titan. Mr. Freeze second and Tormenta third. Texas SkyScreamer is best at sunset for extraordinary views over Dallas-Fort Worth. Flash Pass is recommended on busy days. Looney Tunes USA is perfect for families with young children. The park is busiest on summer weekends and Texas school holidays.",
+      "es": "Llega a la apertura y ve a Titan. Mr. Freeze segundo y Tormenta tercero. Texas SkyScreamer al atardecer para vistas de Dallas-Fort Worth. Flash Pass recomendado en dias concurridos.",
+      "fr": "Arrivez a l ouverture et allez a Titan. Mr. Freeze deuxieme et Tormenta troisieme. Texas SkyScreamer au coucher du soleil. Flash Pass recommande.",
+      "de": "Kommen Sie zur Eroffnung und gehen Sie zu Titan. Mr. Freeze zweiter und Tormenta dritter. Flash Pass empfohlen.",
+      "it": "Arriva e vai a Titan. Mr. Freeze secondo e Tormenta terzo. Texas SkyScreamer al tramonto. Flash Pass consigliato.",
+      "nl": "Kom bij opening naar Titan. Mr. Freeze tweede en Tormenta derde. Flash Pass aanbevolen.",
+      "pt": "Chega na abertura e vai a Titan. Mr. Freeze segundo e Tormenta terceiro. Flash Pass recomendado.",
+      "ru": "Приходите к открытию. Titan — первым. Flash Pass рекомендуется.",
+      "zh": "开园时到达直接前往Titan。建议Flash Pass。日落时乘坐SkyScreamer欣赏达拉斯全景。",
+      "ar": "اذهب مباشرة لـ Titan. Flash Pass موصى به."
+    },
+    "ov_photos_body": {
+      "en": "Titan photographed during the 68-metre first drop against the Texas sky is the defining image of Six Flags Over Texas. Texas SkyScreamer photographed at full 122-metre height with the Dallas-Fort Worth skyline is extraordinary. Mr. Freeze photographed at the vertical spike is dramatic. The park photographed from the oil derrick observation tower showing all major coasters is spectacular.",
+      "es": "Titan fotografiado durante la primera caida de 68 metros es la imagen definitiva. Texas SkyScreamer a 122 metros con el horizonte de Dallas-Fort Worth es extraordinario.",
+      "fr": "Titan photographie pendant la premiere chute de 68 metres est l image definitive. Texas SkyScreamer a 122 metres avec la skyline de Dallas-Fort Worth est extraordinaire.",
+      "de": "Titan beim 68-Meter-Abfall ist das definitive Bild. Texas SkyScreamer auf 122 Metern mit der Dallas-Fort Worth Skyline ist aussergewohnlich.",
+      "it": "Titan durante la caduta di 68 metri e l immagine definitiva. Texas SkyScreamer a 122 metri con lo skyline di Dallas-Fort Worth e straordinario.",
+      "nl": "Titan tijdens de 68-meter val is het definitieve beeld. Texas SkyScreamer op 122 meter met de Dallas-Fort Worth skyline is buitengewoon.",
+      "pt": "Titan durante a queda de 68 metros e a imagem definitiva. Texas SkyScreamer a 122 metros com o horizonte de Dallas-Fort Worth e extraordinario.",
+      "ru": "Titan — главный снимок.",
+      "zh": "Titan在第一个下坡时的拍摄是标志性影像。",
+      "ar": "Titan أثناء الانحدار هو الصورة المحددة."
+    }
+  },
+  "attractions": {
+    "titan": {
+      "desc": {
+        "en": "Most dominant coaster at SFOT — 174 km/h down 68m first drop through helices and speed hills. Min 137cm.",
+        "es": "El coaster mas dominante — 174 km/h por una caida de 68m. Min 137cm.",
+        "fr": "Coaster le plus dominant — 174 km/h sur une chute de 68m. Min 137cm.",
+        "de": "Dominantester Coaster — 174 km/h auf 68m Abfall. Mindestgrosse 137cm.",
+        "it": "Coaster piu dominante — 174 km/h su caduta di 68m. Min 137cm.",
+        "nl": "Meest dominante achtbaan — 174 km/u op 68m val. Min 137cm.",
+        "pt": "Coaster mais dominante — 174 km/h em queda de 68m. Min 137cm.",
+        "ru": "Самый доминирующий. Мин 137 см.",
+        "zh": "干芒关最主导的过山车。最低身高137厘米。",
+        "ar": "أكثر achtbaan هيمنة. الحد الأدنى 137 سم."
+      }
+    },
+    "mr_freeze": {
+      "desc": {
+        "en": "Legendary reverse launch coaster — blasts backwards at 96 km/h to towering vertical spike. Min 137cm.",
+        "es": "Legendario coaster de lanzamiento inverso — dispara hacia atras a 96 km/h. Min 137cm.",
+        "fr": "Legendaire coaster de lancement inverse — lance en arriere a 96 km/h. Min 137cm.",
+        "de": "Legendarer umgekehrter Launch — beschleunigt ruckwarts auf 96 km/h. Mindestgrosse 137cm.",
+        "it": "Leggendario coaster di lancio inverso — spara indietro a 96 km/h. Min 137cm.",
+        "nl": "Legendarische omgekeerde launch — lanceert achteruit met 96 km/u. Min 137cm.",
+        "pt": "Lendario coaster de lancamento inverso — lanca para tras a 96 km/h. Min 137cm.",
+        "ru": "Легендарный запуск назад. Мин 137 см.",
+        "zh": "传奇的倒转发射过山车。最低身高137厘米。",
+        "ar": "Launch coaster معكوس. الحد الأدنى 137 سم."
+      }
+    },
+    "shockwave": {
+      "desc": {
+        "en": "Classic stand-up loop coaster — one of the largest loops of any stand-up coaster. Texas institution since 1978. Min 137cm.",
+        "es": "Clasico coaster de bucle de pie — uno de los lazos mas grandes. Institucion texana desde 1978. Min 137cm.",
+        "fr": "Classique coaster boucle debout — l un des plus grands lazos. Institution texane depuis 1978. Min 137cm.",
+        "de": "Klassischer Stand-Up-Loop. Texanische Institution seit 1978. Mindestgrosse 137cm.",
+        "it": "Classico coaster loop in piedi. Istituzione texana dal 1978. Min 137cm.",
+        "nl": "Klassieke stand-up loop. Texaanse institutie depuis 1978. Min 137cm.",
+        "pt": "Classico coaster de loop em pe. Instituicao texana desde 1978. Min 137cm.",
+        "ru": "Классический с 1978 г. Мин 137 см.",
+        "zh": "自1978年起的经典站立式过山车。最低身高137厘米。",
+        "ar": "achtbaan وقوفية كلاسيكية. الحد الأدنى 137 سم."
+      }
+    },
+    "batman_the_ride": {
+      "desc": {
+        "en": "Classic Batman inverted coaster through 5 inversions. DFW favourite. Min 137cm.",
+        "es": "Clasico coaster invertido Batman. Min 137cm.",
+        "fr": "Classique coaster inverse Batman. Min 137cm.",
+        "de": "Klassischer Batman-Hangcoaster. Mindestgrosse 137cm.",
+        "it": "Classico coaster invertito Batman. Min 137cm.",
+        "nl": "Klassieke Batman hangende achtbaan. Min 137cm.",
+        "pt": "Classico coaster invertido Batman. Min 137cm.",
+        "ru": "Batman. Мин 137 см.",
+        "zh": "贝特侠倒挂式过山车。最低身高137厘米。",
+        "ar": "Batman. الحد الأدنى 137 سم."
+      }
+    },
+    "joker": {
+      "desc": {
+        "en": "Free-fly coaster with independently rotating seats through 4 inversions. Min 122cm.",
+        "es": "Free-fly coaster con asientos independientes. Min 122cm.",
+        "fr": "Free-fly coaster avec sieges independants. Min 122cm.",
+        "de": "Free-Fly mit drehenden Sitzen. Mindestgrosse 122cm.",
+        "it": "Free-fly con sedili indipendenti. Min 122cm.",
+        "nl": "Free-fly met onafhankelijke stoelen. Min 122cm.",
+        "pt": "Free-fly com assentos independentes. Min 122cm.",
+        "ru": "Free-fly. Мин 122 см.",
+        "zh": "自由飞行过山车。最低身高122厘米。",
+        "ar": "Free-fly. الحد الأدنى 122 سم."
+      }
+    },
+    "tormenta": {
+      "desc": {
+        "en": "Exciting new spinning coaster with intense rotations. One of the newest additions at Over Texas. Min 122cm.",
+        "es": "Emocionante nuevo coaster giratorio con rotaciones intensas. Min 122cm.",
+        "fr": "Passionnant nouveau coaster tournant. Min 122cm.",
+        "de": "Aufregender neuer Dreh-Coaster. Mindestgrosse 122cm.",
+        "it": "Emozionante nuovo coaster rotante. Min 122cm.",
+        "nl": "Opwindende nieuwe draaiende achtbaan. Min 122cm.",
+        "pt": "Emocionante novo coaster giratoria. Min 122cm.",
+        "ru": "Новый вращающийся коастер. Мин 122 см.",
+        "zh": "最新的旋转过山车。最低身高122厘米。",
+        "ar": "achtbaan دوارة جديد. الحد الأدنى 122 سم."
+      }
+    },
+    "superman_tower": {
+      "desc": {
+        "en": "Terrifying open-air drop tower with extraordinary Dallas-Fort Worth views. Min 122cm.",
+        "es": "Aterradora torre de caida con vistas extraordinarias de Dallas-Fort Worth. Min 122cm.",
+        "fr": "Terrifiante tour de chute avec vues extraordinaires de Dallas-Fort Worth. Min 122cm.",
+        "de": "Furchteinflossender Fallturm mit aussergewohnlichem Dallas-Fort Worth Blick. Mindestgrosse 122cm.",
+        "it": "Terrificante torre di caduta con viste straordinarie di Dallas-Fort Worth. Min 122cm.",
+        "nl": "Angstaanjagende valtoren met buitengewoon uitzicht op Dallas-Fort Worth. Min 122cm.",
+        "pt": "Torre de queda aterrorizante com vistas extraordinarias de Dallas-Fort Worth. Min 122cm.",
+        "ru": "Башня. Мин 122 см.",
+        "zh": "具有达拉斯全景的丈轮塔楼项目。最低身高122厘米。",
+        "ar": "برج سقوط مخيف. الحد الأدنى 122 سم."
+      }
+    },
+    "sky_screamer": {
+      "desc": {
+        "en": "World tallest swing ride at 122m — breathtaking Dallas-Fort Worth panoramic views. Min 122cm.",
+        "es": "El columpio mas alto del mundo a 122m — vistas panoramicas de Dallas-Fort Worth. Min 122cm.",
+        "fr": "Plus grande balancoire du monde a 122m — vues panoramiques de Dallas-Fort Worth. Min 122cm.",
+        "de": "Hochste Schaukelfahrt der Welt auf 122m. Mindestgrosse 122cm.",
+        "it": "Altalena piu alta del mondo a 122m. Min 122cm.",
+        "nl": "Hoogste schommelrit ter wereld op 122m. Min 122cm.",
+        "pt": "Balanceira mais alta do mundo a 122m. Min 122cm.",
+        "ru": "Самые высокие качели 122м. Мин 122 см.",
+        "zh": "全球最高秋千项目122米。最低身高122厘米。",
+        "ar": "أعلى أرجوحة في العالم. الحد الأدنى 122 سم."
+      }
+    },
+    "pandemonium": {
+      "desc": {
+        "en": "Fun spinning wild mouse with freely rotating cars. Min 107cm.",
+        "es": "Divertido raton salvaje giratorio. Min 107cm.",
+        "fr": "Amusant souris sauvage tournante. Min 107cm.",
+        "de": "Lustiger drehender Wild-Mouse. Mindestgrosse 107cm.",
+        "it": "Divertente wild mouse rotante. Min 107cm.",
+        "nl": "Leuke draaiende wild mouse. Min 107cm.",
+        "pt": "Divertido wild mouse giratoria. Min 107cm.",
+        "ru": "Wild mouse. Мин 107 см.",
+        "zh": "旋转车树过山车。最低身高107厘米。",
+        "ar": "Wild mouse. الحد الأدنى 107 سم."
+      }
+    },
+    "runaway_mine_train": {
+      "desc": {
+        "en": "Classic beloved mine train since 1966 — most historic family coaster in Texas. Min 107cm.",
+        "es": "Clasico tren minero desde 1966 — el coaster familiar mas historico de Texas. Min 107cm.",
+        "fr": "Classique train de mine depuis 1966 — le coaster familial le plus historique du Texas. Min 107cm.",
+        "de": "Klassischer Minenbahncoaster seit 1966. Mindestgrosse 107cm.",
+        "it": "Classico treno minerario dal 1966. Min 107cm.",
+        "nl": "Klassieke mijntrein depuis 1966. Min 107cm.",
+        "pt": "Classico comboio de mina desde 1966. Min 107cm.",
+        "ru": "Классический с 1966 г. Мин 107 см.",
+        "zh": "自1966年起的经典矿山列车过山车。最低身高107厘米。",
+        "ar": "achtbaan قطار المنجم منذ 1966. الحد الأدنى 107 سم."
+      }
+    },
+    "judge_roy_scream": {
+      "desc": {
+        "en": "Beloved classic wooden coaster since 1980 — charming Texas wooden coaster institution. Min 107cm.",
+        "es": "Amado coaster de madera clasico desde 1980. Min 107cm.",
+        "fr": "Bien-aime coaster en bois classique depuis 1980. Min 107cm.",
+        "de": "Geliebter Holzcoaster seit 1980. Mindestgrosse 107cm.",
+        "it": "Amato coaster in legno classico dal 1980. Min 107cm.",
+        "nl": "Geliefde houten achtbaan depuis 1980. Min 107cm.",
+        "pt": "Amado coaster de madeira classico desde 1980. Min 107cm.",
+        "ru": "Классический деревянный с 1980 г. Мин 107 см.",
+        "zh": "自1980年起的经典木质过山车。最低身高107厘米。",
+        "ar": "achtbaan خشبية كلاسيكية منذ 1980. الحد الأدنى 107 سم."
+      }
+    },
+    "oil_derrick": {
+      "desc": {
+        "en": "Classic observation tower with panoramic DFW Metroplex views. Historically significant park icon. Suitable for all ages.",
+        "es": "Torre de observacion clasica con vistas panoramicas de DFW. Apto para todas las edades.",
+        "fr": "Tour d observation classique avec vues panoramiques de DFW. Tous ages.",
+        "de": "Klassischer Beobachtungsturm mit DFW Panorama. Fur alle.",
+        "it": "Torre di osservazione classica con viste panoramiche di DFW. Tutte le eta.",
+        "nl": "Klassieke observatietoren met panoramisch DFW uitzicht. Alle leeftijden.",
+        "pt": "Torre de observacao classica com vistas panoramicas de DFW. Adequado para todas as idades.",
+        "ru": "Классическая тур. Подходит для всех.",
+        "zh": "经典观景塔楼。适合所有年龄。",
+        "ar": "برج مراقبة كلاسيكي. مناسب لجميع الأعمار."
+      }
+    },
+    "looney_tunes_usa": {
+      "desc": {
+        "en": "Beloved extensive Looney Tunes family area with Bugs Bunny and friends — multiple rides shows and character meets. Suitable for all ages.",
+        "es": "Amada y extensa area familiar de Looney Tunes con Bugs Bunny — multiples atracciones y espectaculos. Apto para todas las edades.",
+        "fr": "Bien-aime et vaste espace familial Looney Tunes avec Bugs Bunny — multiples manege et spectacles. Tous ages.",
+        "de": "Geliebtes ausgedehntes Looney Tunes Familien-Gebiet mit Bugs Bunny. Fur alle.",
+        "it": "Amata e vasta area familiare Looney Tunes con Bugs Bunny. Tutte le eta.",
+        "nl": "Geliefd uitgebreid Looney Tunes familiegebied met Bugs Bunny. Alle leeftijden.",
+        "pt": "Amada e extensa area familiar Looney Tunes com Bugs Bunny. Adequado para todas as idades.",
+        "ru": "Семейная зона Looney Tunes. Подходит для всех.",
+        "zh": "深受欢迎的活宝乐一族家庭区域。适合所有年龄。",
+        "ar": "منطقة عائلية Looney Tunes. مناسب لجميع الأعمار."
+      }
+    },
+    "yosemite_sams": {
+      "desc": {
+        "en": "Beloved classic Western dark boat ride with Yosemite Sam and Bugs Bunny. Park classic since 1971. Suitable for all ages.",
+        "es": "Amado clasico paseo en bote oscuro occidental con Yosemite Sam. Clasico del parque desde 1971. Apto para todas las edades.",
+        "fr": "Bien-aime classique dark ride en bateau western avec Yosemite Sam. Classique du parc depuis 1971. Tous ages.",
+        "de": "Geliebte klassische Western-Bootsfahrt mit Yosemite Sam. Klassiker seit 1971. Fur alle.",
+        "it": "Amato classico dark ride in barca western con Yosemite Sam. Classico del parco dal 1971. Tutte le eta.",
+        "nl": "Geliefde klassieke westerse bootrit met Yosemite Sam. Klassiek depuis 1971. Alle leeftijden.",
+        "pt": "Amado classico dark ride de barco western com Yosemite Sam. Classico do parque desde 1971. Adequado para todas as idades.",
+        "ru": "Классический dark ride с 1971 г. Подходит для всех.",
+        "zh": "自1971年起的经典暗黑项目。适合所有年龄。",
+        "ar": "Dark ride كلاسيكي منذ 1971. مناسب لجميع الأعمار."
+      }
+    },
+    "anti_gravity": {
+      "desc": {
+        "en": "Thrilling spinning flat ride with wild rotations. Intense flat ride experience. Min 107cm.",
+        "es": "Emocionante atraccion giratoria con rotaciones salvajes. Min 107cm.",
+        "fr": "Passionnante attraction tournante. Min 107cm.",
+        "de": "Aufregende Drehfahrt. Mindestgrosse 107cm.",
+        "it": "Emozionante attrazione rotante. Min 107cm.",
+        "nl": "Opwindende draaiende attractie. Min 107cm.",
+        "pt": "Emocionante atracao giratoria. Min 107cm.",
+        "ru": "Вращающийся аттракцион. Мин 107 см.",
+        "zh": "刺激的旋转平坦项目。最低身高107厘米。",
+        "ar": "اتراكشن دوارة. الحد الأدنى 107 سم."
+      }
+    }
+  },
+  "food": {
+    "food_jbs_smokehouse_barbeque": {
+      "desc": {
+        "en": "Most popular dining at Over Texas — authentic Texas BBQ with smoked brisket, ribs and sausage.",
+        "es": "La mas popular — autentico BBQ texano con brisket y costillas.",
+        "fr": "La plus populaire — authentique BBQ texan avec brisket et cotes.",
+        "de": "Beliebtestes — authentisches Texas-BBQ.",
+        "it": "La piu popolare — autentico BBQ texano.",
+        "nl": "Meest populaire — authentiek Texas BBQ.",
+        "pt": "Mais popular — autentico BBQ texano.",
+        "ru": "Наиболее популярный.",
+        "zh": "最受欢迎的餐厅。",
+        "ar": "الأكثر شعبية — BBQ تكساس أصيل."
+      }
+    },
+    "food_grannys_grill": {
+      "desc": {
+        "en": "Beloved home-cooking restaurant with chicken tenders, burgers and classic American sides.",
+        "es": "Amado restaurante de cocina casera con tiras de pollo y hamburgesas.",
+        "fr": "Bien-aime restaurant de cuisine maison avec filets de poulet et burgers.",
+        "de": "Geliebtes Hausmannskost-Restaurant.",
+        "it": "Amato ristorante di cucina casalinga.",
+        "nl": "Geliefd thuisrestaurant.",
+        "pt": "Amado restaurante de comida caseira.",
+        "ru": "Любимый ресторан.",
+        "zh": "深受欢迎的家常菜餐厅。",
+        "ar": "مطعم طعام منزلي محبوب."
+      }
+    },
+    "food_dry_hole_charlies": {
+      "desc": {
+        "en": "Fun Western-themed quick-service with nachos, corn dogs and Texas snacks.",
+        "es": "Divertido servicio rapido occidental con nachos y perros de maiz.",
+        "fr": "Amusant service rapide western avec nachos et corn dogs.",
+        "de": "Lustiger Western-Schnellservice.",
+        "it": "Divertente servizio rapido western.",
+        "nl": "Leuke westerse snelservice.",
+        "pt": "Divertido servico rapido western.",
+        "ru": "Западный быстрый перекус.",
+        "zh": "西部主题快餐。",
+        "ar": "وجبات سريعة غربية."
+      }
+    },
+    "food_all_american_cafe": {
+      "desc": {
+        "en": "Classic American quick-service with burgers, chicken sandwiches and comfort food.",
+        "es": "Servicio rapido americano clasico con hamburgesas y sandwiches.",
+        "fr": "Service rapide americain classique.",
+        "de": "Klassischer amerikanischer Schnellservice.",
+        "it": "Servizio rapido americano classico.",
+        "nl": "Klassieke Amerikaanse snelservice.",
+        "pt": "Servico rapido americano classico.",
+        "ru": "Классический американский фастфуд.",
+        "zh": "经典美式快餐。",
+        "ar": "وجبات سريعة أمريكية."
+      }
+    },
+    "food_funnel_cakes": {
+      "desc": {
+        "en": "Most beloved sweet treat — classic deep-fried funnel cakes with powdered sugar, strawberries or Nutella.",
+        "es": "El dulce mas querido — funnel cakes clasicos fritos.",
+        "fr": "La friandise la plus aimee — funnel cakes classiques frits.",
+        "de": "Beliebtester Susskram — klassische Funnel Cakes.",
+        "it": "Il dolce piu amato — funnel cake classici fritti.",
+        "nl": "Meest geliefde zoet — klassieke funnel cakes.",
+        "pt": "O doce mais amado — funnel cakes classicos fritos.",
+        "ru": "Лучший десерт.",
+        "zh": "最受欢迎的甜食。",
+        "ar": "أكثر حلوى محبوبة."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_live_oak_marriott": {
+      "desc": {
+        "en": "Magnificent recently renovated Marriott directly adjacent to Six Flags Over Texas — finest hotel steps from the park.",
+        "es": "Magnifico Marriott renovado directamente adyacente a Six Flags Over Texas.",
+        "fr": "Magnifique Marriott renove directement adjacent a Six Flags Over Texas.",
+        "de": "Prachtvolles renoviertes Marriott direkt neben Six Flags Over Texas.",
+        "it": "Magnifico Marriott rinnovato direttamente adiacente a Six Flags Over Texas.",
+        "nl": "Prachtig gerenoveerd Marriott direct naast Six Flags Over Texas.",
+        "pt": "Magnifico Marriott renovado directamente adjacente a Six Flags Over Texas.",
+        "ru": "Отель рядом с парком.",
+        "zh": "直接毎次大冒险乐园旁的宏伟 Marriott酒店。",
+        "ar": "Marriott مجدد مباشرة بجانب المتنزه."
+      }
+    },
+    "hotel_sheraton_arlington": {
+      "desc": {
+        "en": "Magnificent Sheraton in Arlington near Six Flags — elegant rooms, spectacular pool and excellent AT&T Stadium access.",
+        "es": "Magnifico Sheraton en Arlington cerca de Six Flags — habitaciones elegantes y acceso excelente al AT&T Stadium.",
+        "fr": "Magnifique Sheraton a Arlington pres de Six Flags — chambres elegantes et acces excellent au AT&T Stadium.",
+        "de": "Prachtvolles Sheraton in Arlington bei Six Flags.",
+        "it": "Magnifico Sheraton ad Arlington vicino a Six Flags.",
+        "nl": "Prachtig Sheraton in Arlington bij Six Flags.",
+        "pt": "Magnifico Sheraton em Arlington perto de Six Flags.",
+        "ru": "Отель в Арлингтоне.",
+        "zh": "阿灵顿宏伟的喜来登酒店。",
+        "ar": "Sheraton في آرلينغتون."
+      }
+    },
+    "hotel_hyatt_place_arlington": {
+      "desc": {
+        "en": "Comfortable convenient Hyatt Place near Six Flags Over Texas with free breakfast and AT&T Stadium access.",
+        "es": "Comodo Hyatt Place cerca de Six Flags con desayuno gratuito y acceso al AT&T Stadium.",
+        "fr": "Confortable Hyatt Place pres de Six Flags avec petit-dejeuner gratuit et acces au AT&T Stadium.",
+        "de": "Bequemes Hyatt Place bei Six Flags.",
+        "it": "Comodo Hyatt Place vicino a Six Flags.",
+        "nl": "Comfortabel Hyatt Place bij Six Flags.",
+        "pt": "Confortavel Hyatt Place perto de Six Flags.",
+        "ru": "Удобный Hyatt Place.",
+        "zh": "近大冒险乐园的舒适Hyatt Place酒店。",
+        "ar": "Hyatt Place مريح بالقرب من المتنزه."
+      }
+    },
+    "hotel_hilton_arlington": {
+      "desc": {
+        "en": "Reliable comfortable Hilton near Six Flags Over Texas with pool and easy DFW entertainment district access.",
+        "es": "Fiable y comodo Hilton cerca de Six Flags con piscina y acceso al distrito de entretenimiento de DFW.",
+        "fr": "Fiable et confortable Hilton pres de Six Flags avec piscine et acces au district de divertissement de DFW.",
+        "de": "Zuverlassiges Hilton bei Six Flags.",
+        "it": "Affidabile Hilton vicino a Six Flags.",
+        "nl": "Betrouwbaar Hilton bij Six Flags.",
+        "pt": "Confiavel Hilton perto de Six Flags.",
+        "ru": "Надёжный Hilton.",
+        "zh": "阿灵顿可靠的希尔顿酒店。",
+        "ar": "Hilton موثوق بالقرب من المتنزه."
+      }
+    }
+  }
+}

@@ -116,6 +116,8 @@ flutter:
     - assets/data/parks/six_flags_great_adventure/
     - assets/data/parks/six_flags_great_america/
     - assets/data/parks/six_flags_over_georgia/
+    - assets/data/parks/six_flags_fiesta_texas/
+    - assets/data/parks/six_flags_over_texas/
     - assets/i18n/
     - assets/maps/
     - assets/images/
