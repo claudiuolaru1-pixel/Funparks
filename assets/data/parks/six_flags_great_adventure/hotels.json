@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_great_wolf_lodge",
+    "name": "Great Wolf Lodge New Jersey",
+    "description": "The most extraordinary and beloved family resort near Six Flags Great Adventure — Great Wolf Lodge New Jersey is a magnificent indoor waterpark resort featuring an enormous 100,000 square foot indoor waterpark, multiple water slides, a lazy river, themed family suites and outstanding family entertainment. The most complete and exciting family resort experience near any New Jersey theme park.",
+    "image": "assets/images/six_flags_great_adventure/hotel_great_wolf_lodge.png",
+    "lat": 40.1285,
+    "lng": -74.4398,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.greatwolf.com/new-jersey",
+    "rooms": [
+      {
+        "key": "standard_suite",
+        "name": "Standard Suite",
+        "description": "Themed family suite sleeping up to 6 with free waterpark access.",
+        "pricePerNight": 320,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "themed_suite",
+        "name": "Wolf Den Suite",
+        "description": "Premium themed den suite with bunk area and waterpark access.",
+        "pricePerNight": 420,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "premium_suite",
+        "name": "Premium Suite",
+        "description": "Magnificent premium suite with separate living area and waterpark access.",
+        "pricePerNight": 580,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_hyatt_regency",
+    "name": "Hyatt Regency Princeton",
+    "description": "The most prestigious and elegant hotel near Six Flags Great Adventure — the Hyatt Regency Princeton is a magnificent 4-star hotel offering elegant rooms, a spectacular pool, outstanding dining and the finest hotel experience for Great Adventure visitors.",
+    "image": "assets/images/six_flags_great_adventure/hotel_hyatt_regency.png",
+    "lat": 40.3476,
+    "lng": -74.6659,
+    "rating": 4.6,
+    "topPick": true,
+    "website": "https://www.hyatt.com/en-US/hotel/new-jersey/hyatt-regency-princeton/ewrpr",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant room with free WiFi and pool access.",
+        "pricePerNight": 220,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Premium king room with upgraded views.",
+        "pricePerNight": 280,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with separate living area and breakfast.",
+        "pricePerNight": 460,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_courtyard_jackson",
+    "name": "Courtyard by Marriott Jackson",
+    "description": "A comfortable and conveniently located Marriott hotel just minutes from Six Flags Great Adventure — Courtyard Jackson offers modern rooms, a pool, fitness centre and excellent value for Great Adventure visitors.",
+    "image": "assets/images/six_flags_great_adventure/hotel_courtyard_jackson.png",
+    "lat": 40.1012,
+    "lng": -74.3598,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.marriott.com/hotels/travel/ewrjk-courtyard-jackson",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Modern room with free WiFi and pool access.",
+        "pricePerNight": 155,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Spacious king room with premium bedding.",
+        "pricePerNight": 185,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with separate living area.",
+        "pricePerNight": 280,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_hilton_tinton_falls",
+    "name": "Hilton Garden Inn Tinton Falls",
+    "description": "A comfortable and family-friendly Hilton Garden Inn conveniently located near Six Flags Great Adventure — offering pleasant rooms, indoor pool, complimentary breakfast and excellent value for Great Adventure visitors.",
+    "image": "assets/images/six_flags_great_adventure/hotel_hilton_tinton_falls.png",
+    "lat": 40.3073,
+    "lng": -74.0944,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.hilton.com/en/hotels/ewrtfgi-hilton-garden-inn-tinton-falls-eatontown/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable room with free WiFi, pool access and breakfast.",
+        "pricePerNight": 140,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Spacious king room with breakfast included.",
+        "pricePerNight": 170,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with separate living area and breakfast.",
+        "pricePerNight": 260,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

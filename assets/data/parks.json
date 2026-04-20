@@ -1112,5 +1112,59 @@
         "city": "Orlando, Florida",
         "ticketsUrl": "https://disneyworld.disney.go.com/tickets/",
         "queueTimesId": 0
+    },
+    {
+        "id": "six_flags_great_adventure",
+        "thumbnailAsset": "assets/images/six_flags_great_adventure/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Six Flags Great Adventure",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 59,
+            "adult": 74
+        },
+        "currency": "USD",
+        "openingHours": "10:30 - 21:00",
+        "lng": -74.4353,
+        "country": "USA",
+        "city": "Jackson, New Jersey",
+        "ticketsUrl": "https://www.sixflags.com/greatadventure/tickets",
+        "queueTimesId": 0
+    },
+    {
+        "id": "six_flags_great_america",
+        "thumbnailAsset": "assets/images/six_flags_great_america/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Six Flags Great America",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 59,
+            "adult": 74
+        },
+        "currency": "USD",
+        "openingHours": "10:30 - 21:00",
+        "lng": -87.9364,
+        "country": "USA",
+        "city": "Gurnee, Illinois",
+        "ticketsUrl": "https://www.sixflags.com/greatamerica/tickets",
+        "queueTimesId": 0
+    },
+    {
+        "id": "six_flags_over_georgia",
+        "thumbnailAsset": "assets/images/six_flags_over_georgia/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Six Flags Over Georgia",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 59,
+            "adult": 74
+        },
+        "currency": "USD",
+        "openingHours": "10:30 - 21:00",
+        "lng": -84.5513,
+        "country": "USA",
+        "city": "Austell, Georgia",
+        "ticketsUrl": "https://www.sixflags.com/overgeorgia/tickets",
+        "queueTimesId": 0
     }
 ]

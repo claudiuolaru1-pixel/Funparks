@@ -1178,5 +1178,65 @@
         },
         "currency": "USD",
         "queueTimesId": 0
+    },
+    {
+        "id": "six_flags_great_adventure",
+        "name": "Six Flags Great Adventure",
+        "city": "Jackson, New Jersey",
+        "country": "USA",
+        "type": "Theme Park",
+        "lat": 40.1366,
+        "lng": -74.4353,
+        "thumbnail": "assets/images/six_flags_great_adventure/park_thumbnail.png",
+        "website": "https://www.sixflags.com/greatadventure",
+        "ticketsUrl": "https://www.sixflags.com/greatadventure/tickets",
+        "detailAsset": "",
+        "openingHours": "10:30 - 21:00",
+        "entryPrices": {
+            "adult": 74,
+            "child": 59
+        },
+        "currency": "USD",
+        "queueTimesId": 0
+    },
+    {
+        "id": "six_flags_great_america",
+        "name": "Six Flags Great America",
+        "city": "Gurnee, Illinois",
+        "country": "USA",
+        "type": "Theme Park",
+        "lat": 42.3703,
+        "lng": -87.9364,
+        "thumbnail": "assets/images/six_flags_great_america/park_thumbnail.png",
+        "website": "https://www.sixflags.com/greatamerica",
+        "ticketsUrl": "https://www.sixflags.com/greatamerica/tickets",
+        "detailAsset": "",
+        "openingHours": "10:30 - 21:00",
+        "entryPrices": {
+            "adult": 74,
+            "child": 59
+        },
+        "currency": "USD",
+        "queueTimesId": 0
+    },
+    {
+        "id": "six_flags_over_georgia",
+        "name": "Six Flags Over Georgia",
+        "city": "Austell, Georgia",
+        "country": "USA",
+        "type": "Theme Park",
+        "lat": 33.7717,
+        "lng": -84.5513,
+        "thumbnail": "assets/images/six_flags_over_georgia/park_thumbnail.png",
+        "website": "https://www.sixflags.com/overgeorgia",
+        "ticketsUrl": "https://www.sixflags.com/overgeorgia/tickets",
+        "detailAsset": "",
+        "openingHours": "10:30 - 21:00",
+        "entryPrices": {
+            "adult": 74,
+            "child": 59
+        },
+        "currency": "USD",
+        "queueTimesId": 0
     }
 ]

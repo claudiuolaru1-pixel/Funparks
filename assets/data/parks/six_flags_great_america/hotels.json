@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_great_wolf_lodge_gurnee",
+    "name": "Great Wolf Lodge Gurnee",
+    "description": "The most extraordinary and beloved family resort near Six Flags Great America — Great Wolf Lodge Gurnee is a magnificent indoor waterpark resort with an enormous indoor waterpark, themed family suites and outstanding family entertainment. The best family resort experience near any Chicago-area theme park.",
+    "image": "assets/images/six_flags_great_america/hotel_great_wolf_lodge_gurnee.png",
+    "lat": 42.3723,
+    "lng": -87.9421,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.greatwolf.com/gurnee",
+    "rooms": [
+      {
+        "key": "standard_suite",
+        "name": "Standard Suite",
+        "description": "Themed family suite sleeping up to 6 with waterpark access.",
+        "pricePerNight": 300,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "themed_suite",
+        "name": "Wolf Den Suite",
+        "description": "Premium themed den suite with bunk area.",
+        "pricePerNight": 400,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "premium_suite",
+        "name": "Premium Suite",
+        "description": "Magnificent suite with panoramic views.",
+        "pricePerNight": 550,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_marriott_gurnee",
+    "name": "Marriott Chicago/Gurnee",
+    "description": "A comfortable and convenient Marriott hotel just minutes from Six Flags Great America — offering modern rooms, a pool and excellent value for Great America visitors.",
+    "image": "assets/images/six_flags_great_america/hotel_marriott_gurnee.png",
+    "lat": 42.3701,
+    "lng": -87.9389,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.marriott.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Modern room with free WiFi and pool access.",
+        "pricePerNight": 150,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Spacious king room with upgraded bedding.",
+        "pricePerNight": 180,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with living area.",
+        "pricePerNight": 270,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_hilton_garden_gurnee",
+    "name": "Hilton Garden Inn Gurnee",
+    "description": "A comfortable and family-friendly Hilton Garden Inn conveniently located near Six Flags Great America with indoor pool and complimentary breakfast.",
+    "image": "assets/images/six_flags_great_america/hotel_hilton_garden_gurnee.png",
+    "lat": 42.3698,
+    "lng": -87.9395,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.hilton.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable room with free WiFi, pool access and breakfast.",
+        "pricePerNight": 140,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Spacious king room with breakfast.",
+        "pricePerNight": 170,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with living area and breakfast.",
+        "pricePerNight": 250,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_hampton_inn_gurnee",
+    "name": "Hampton Inn Gurnee",
+    "description": "A reliable and affordable Hampton Inn near Six Flags Great America offering comfortable rooms, complimentary breakfast and easy access to the park. The best budget option for Great America visitors.",
+    "image": "assets/images/six_flags_great_america/hotel_hampton_inn_gurnee.png",
+    "lat": 42.3695,
+    "lng": -87.9401,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.hilton.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable room with free WiFi and breakfast.",
+        "pricePerNight": 120,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Spacious king room with breakfast.",
+        "pricePerNight": 145,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with breakfast.",
+        "pricePerNight": 210,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

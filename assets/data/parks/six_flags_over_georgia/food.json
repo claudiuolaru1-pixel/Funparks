@@ -1,0 +1,167 @@
+[
+  {
+    "id": "food_miners_cook_house",
+    "name": "Miner's Cook House",
+    "description": "The most popular and beloved dining destination at Six Flags Over Georgia — Miners Cook House serves classic Southern comfort food including fried chicken, mac and cheese and classic Southern sides in a fun and atmospheric mining-themed setting.",
+    "topPick": true,
+    "type": "Southern Comfort Food",
+    "image": "assets/images/six_flags_over_georgia/food_miners_cook_house.png",
+    "lat": 33.7715,
+    "lng": -87.5515,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Fried Chicken",
+        "description": "Classic Southern fried chicken with mac and cheese and biscuit",
+        "price": 18
+      },
+      {
+        "name": "Mac and Cheese",
+        "description": "Classic creamy baked mac and cheese",
+        "price": 12
+      },
+      {
+        "name": "Pulled Pork Sandwich",
+        "description": "Classic slow-cooked pulled pork with coleslaw",
+        "price": 16
+      },
+      {
+        "name": "Sweet Tea",
+        "description": "Classic Southern sweet iced tea",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_georgia_sandwich_company",
+    "name": "Georgia Sandwich Company",
+    "description": "A popular and convenient sandwich restaurant at Six Flags Over Georgia serving classic American sandwiches, wraps and salads. One of the most accessible and frequently visited quick-service dining destinations at the park.",
+    "topPick": false,
+    "type": "American Sandwiches",
+    "image": "assets/images/six_flags_over_georgia/food_georgia_sandwich_company.png",
+    "lat": 33.772,
+    "lng": -84.552,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Club Sandwich",
+        "description": "Classic turkey and bacon club sandwich with fries",
+        "price": 15
+      },
+      {
+        "name": "Grilled Chicken Wrap",
+        "description": "Grilled chicken wrap with lettuce, tomato and ranch",
+        "price": 14
+      },
+      {
+        "name": "Garden Salad",
+        "description": "Classic garden salad with choice of dressing",
+        "price": 10
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Large fountain drink",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_gotham_city_eatery",
+    "name": "Gotham City Eatery",
+    "description": "A popular Batman-themed quick-service restaurant at Six Flags Over Georgia serving classic American comfort food including burgers, chicken strips and loaded fries in a fun superhero atmosphere.",
+    "topPick": false,
+    "type": "American Quick Service",
+    "image": "assets/images/six_flags_over_georgia/food_gotham_city_eatery.png",
+    "lat": 33.7725,
+    "lng": -84.5525,
+    "rating": 4,
+    "items": [
+      {
+        "name": "Classic Burger",
+        "description": "Classic beef burger with cheese, lettuce and tomato",
+        "price": 16
+      },
+      {
+        "name": "Chicken Strips",
+        "description": "Crispy chicken strips with fries and dipping sauce",
+        "price": 14
+      },
+      {
+        "name": "Loaded Fries",
+        "description": "Thick fries with cheese sauce and bacon",
+        "price": 9
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Large fountain drink",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_hickory_chip",
+    "name": "Hickory Chip BBQ",
+    "description": "A beloved BBQ restaurant at Six Flags Over Georgia serving classic Southern-style BBQ including smoked ribs, pulled pork and chicken with classic Georgia sides. One of the most authentic and satisfying dining experiences at any Atlanta area theme park.",
+    "topPick": true,
+    "type": "Southern BBQ",
+    "image": "assets/images/six_flags_over_georgia/food_hickory_chip.png",
+    "lat": 33.771,
+    "lng": -84.551,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Smoked Ribs",
+        "description": "Classic slow-smoked pork ribs with BBQ sauce and coleslaw",
+        "price": 22
+      },
+      {
+        "name": "Pulled Pork Plate",
+        "description": "Classic pulled pork with baked beans and cornbread",
+        "price": 16
+      },
+      {
+        "name": "BBQ Chicken",
+        "description": "Classic BBQ chicken half with two sides",
+        "price": 18
+      },
+      {
+        "name": "Peach Cobbler",
+        "description": "Classic Georgia peach cobbler with ice cream",
+        "price": 7
+      }
+    ]
+  },
+  {
+    "id": "food_dee_jays_diner",
+    "name": "Dee Jay's Diner",
+    "description": "A fun and popular classic American diner at Six Flags Over Georgia serving burgers, hot dogs, fries and classic diner milkshakes in a cheerful retro atmosphere.",
+    "topPick": false,
+    "type": "American Diner",
+    "image": "assets/images/six_flags_over_georgia/food_dee_jays_diner.png",
+    "lat": 33.7718,
+    "lng": -84.5518,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Classic Burger",
+        "description": "Classic diner burger with fries",
+        "price": 15
+      },
+      {
+        "name": "Hot Dog",
+        "description": "Classic beef hot dog with all the trimmings",
+        "price": 10
+      },
+      {
+        "name": "Milkshake",
+        "description": "Classic thick diner milkshake",
+        "price": 8
+      },
+      {
+        "name": "Onion Rings",
+        "description": "Classic crispy onion rings",
+        "price": 7
+      }
+    ]
+  }
+]

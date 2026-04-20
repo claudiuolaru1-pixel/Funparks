@@ -1,0 +1,167 @@
+[
+  {
+    "id": "food_johnny_rockets",
+    "name": "Johnny Rockets",
+    "description": "The most popular and beloved dining destination at Six Flags Great Adventure — Johnny Rockets is a classic American diner serving legendary burgers, crispy fries, thick milkshakes and classic American comfort food in a fun 1950s-themed atmosphere. One of the most enjoyable and rerideable dining experiences at any Six Flags park in the world.",
+    "topPick": true,
+    "type": "American Diner",
+    "image": "assets/images/six_flags_great_adventure/food_johnny_rockets.png",
+    "lat": 40.1365,
+    "lng": -74.4355,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Classic Burger",
+        "description": "Classic beef burger with cheese, lettuce and tomato",
+        "price": 16
+      },
+      {
+        "name": "Chili Cheese Fries",
+        "description": "Thick fries loaded with chili and melted cheddar",
+        "price": 10
+      },
+      {
+        "name": "Milkshake",
+        "description": "Classic thick diner milkshake in chocolate, vanilla or strawberry",
+        "price": 8
+      },
+      {
+        "name": "Onion Rings",
+        "description": "Classic beer-battered onion rings",
+        "price": 8
+      }
+    ]
+  },
+  {
+    "id": "food_best_of_the_west",
+    "name": "Best of the West",
+    "description": "The most popular quick-service restaurant at Six Flags Great Adventure serving classic Western-themed American comfort food including BBQ chicken, ribs and classic sides. One of the most satisfying and comprehensive dining options at the park.",
+    "topPick": true,
+    "type": "American BBQ",
+    "image": "assets/images/six_flags_great_adventure/food_best_of_the_west.png",
+    "lat": 40.1362,
+    "lng": -74.436,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "BBQ Chicken Platter",
+        "description": "Classic BBQ chicken with coleslaw and corn on the cob",
+        "price": 18
+      },
+      {
+        "name": "Pulled Pork Sandwich",
+        "description": "Classic slow-cooked pulled pork with BBQ sauce and coleslaw",
+        "price": 16
+      },
+      {
+        "name": "BBQ Ribs",
+        "description": "Classic BBQ pork ribs with fries and coleslaw",
+        "price": 22
+      },
+      {
+        "name": "Lemonade",
+        "description": "Fresh squeezed lemonade",
+        "price": 5
+      }
+    ]
+  },
+  {
+    "id": "food_boardwalk_steak_and_fries",
+    "name": "Boardwalk Steak and Fries",
+    "description": "A popular and convenient quick-service restaurant at Six Flags Great Adventure serving classic boardwalk-style steak sandwiches, loaded fries and classic American snacks. One of the most satisfying quick-service options at Great Adventure.",
+    "topPick": false,
+    "type": "American Steak",
+    "image": "assets/images/six_flags_great_adventure/food_boardwalk_steak_and_fries.png",
+    "lat": 40.1368,
+    "lng": -74.435,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Philly Cheesesteak",
+        "description": "Classic Philly cheesesteak sandwich with peppers and onions",
+        "price": 17
+      },
+      {
+        "name": "Loaded Fries",
+        "description": "Thick fries with cheese sauce, bacon and jalapeños",
+        "price": 10
+      },
+      {
+        "name": "Chicken Sandwich",
+        "description": "Classic crispy chicken sandwich with fries",
+        "price": 15
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Large fountain drink",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_fatburger",
+    "name": "Fatburger",
+    "description": "A beloved and legendary California burger chain at Six Flags Great Adventure serving the famous Fatburger — a thick, juicy and customisable beef burger made to order with fresh ingredients. One of the most popular and satisfying burger experiences at any New Jersey theme park.",
+    "topPick": true,
+    "type": "California Burgers",
+    "image": "assets/images/six_flags_great_adventure/food_fatburger.png",
+    "lat": 40.137,
+    "lng": -74.4355,
+    "rating": 4.5,
+    "items": [
+      {
+        "name": "Fatburger",
+        "description": "The legendary Fatburger — thick beef patty with all the trimmings",
+        "price": 18
+      },
+      {
+        "name": "Skinny Fries",
+        "description": "Classic thin crispy Fatburger fries",
+        "price": 7
+      },
+      {
+        "name": "Fat Shake",
+        "description": "Thick hand-spun milkshake in classic flavours",
+        "price": 9
+      },
+      {
+        "name": "Onion Rings",
+        "description": "Classic crispy onion rings",
+        "price": 7
+      }
+    ]
+  },
+  {
+    "id": "food_panda_express",
+    "name": "Panda Express",
+    "description": "A popular and convenient Panda Express at Six Flags Great Adventure serving classic Chinese-American dishes including orange chicken, fried rice and chow mein. One of the most accessible and frequently visited quick-service dining options at Great Adventure.",
+    "topPick": false,
+    "type": "Chinese-American",
+    "image": "assets/images/six_flags_great_adventure/food_panda_express.png",
+    "lat": 40.1358,
+    "lng": -74.4365,
+    "rating": 3.9,
+    "items": [
+      {
+        "name": "Orange Chicken Bowl",
+        "description": "Classic Panda Express orange chicken with fried rice",
+        "price": 13
+      },
+      {
+        "name": "Beijing Beef",
+        "description": "Classic crispy beef with sweet and spicy sauce",
+        "price": 13
+      },
+      {
+        "name": "Chow Mein",
+        "description": "Classic Panda Express chow mein noodles",
+        "price": 8
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Large fountain drink",
+        "price": 4
+      }
+    ]
+  }
+]

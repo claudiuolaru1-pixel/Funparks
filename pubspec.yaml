@@ -113,6 +113,9 @@ flutter:
     - assets/data/parks/parque_de_la_costa/
     - assets/data/parks/disney_california_adventure/
     - assets/data/parks/hollywood_studios/
+    - assets/data/parks/six_flags_great_adventure/
+    - assets/data/parks/six_flags_great_america/
+    - assets/data/parks/six_flags_over_georgia/
     - assets/i18n/
     - assets/maps/
     - assets/images/

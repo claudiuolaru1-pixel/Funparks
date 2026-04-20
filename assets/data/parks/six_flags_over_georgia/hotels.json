@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_marriott_marquis",
+    "name": "Atlanta Marriott Marquis",
+    "description": "The most iconic and prestigious hotel in Atlanta — the Atlanta Marriott Marquis is a magnificent 4-star hotel with a breathtaking 47-storey atrium, outstanding restaurants, a spectacular pool and the finest hotel experience for Six Flags Over Georgia visitors staying in downtown Atlanta.",
+    "image": "assets/images/six_flags_over_georgia/hotel_marriott_marquis.png",
+    "lat": 33.7602,
+    "lng": -84.3878,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.marriott.com/hotels/travel/atlmq-atlanta-marriott-marquis/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant atrium-view room with free WiFi and pool access.",
+        "pricePerNight": 280,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "atrium_room",
+        "name": "Atrium View Room",
+        "description": "Premium room with stunning 47-storey atrium views.",
+        "pricePerNight": 340,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Magnificent suite with panoramic Atlanta views.",
+        "pricePerNight": 580,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_renaissance_atlanta",
+    "name": "Renaissance Atlanta Waverly Hotel",
+    "description": "A magnificent 4-star Renaissance hotel in the Cobb Galleria area closest to Six Flags Over Georgia — offering elegant rooms, a spectacular pool, outstanding dining and the finest hotel experience in the western Atlanta suburbs.",
+    "image": "assets/images/six_flags_over_georgia/hotel_renaissance_atlanta.png",
+    "lat": 33.8837,
+    "lng": -84.4677,
+    "rating": 4.5,
+    "topPick": true,
+    "website": "https://www.marriott.com/hotels/travel/atlsh-renaissance-atlanta-waverly-hotel-and-convention-center/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Elegant room with free WiFi and pool access.",
+        "pricePerNight": 200,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Premium king room with upgraded views.",
+        "pricePerNight": 250,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with living area and breakfast.",
+        "pricePerNight": 420,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_hyatt_place",
+    "name": "Hyatt Place Atlanta/Six Flags",
+    "description": "A convenient and comfortable Hyatt Place hotel located closest to Six Flags Over Georgia — offering modern rooms, free breakfast and easy access to the park. The best positioned hotel for Six Flags Over Georgia visitors.",
+    "image": "assets/images/six_flags_over_georgia/hotel_hyatt_place.png",
+    "lat": 33.7785,
+    "lng": -84.5623,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.hyatt.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Modern room with free WiFi and breakfast.",
+        "pricePerNight": 140,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Spacious king room with breakfast.",
+        "pricePerNight": 165,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with living area and breakfast.",
+        "pricePerNight": 240,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_hilton_marietta",
+    "name": "Hilton Atlanta/Marietta Hotel",
+    "description": "A comfortable and well-regarded Hilton hotel in Marietta near Six Flags Over Georgia — offering pleasant rooms, a pool and easy access to both the park and downtown Atlanta.",
+    "image": "assets/images/six_flags_over_georgia/hotel_hilton_marietta.png",
+    "lat": 33.9526,
+    "lng": -84.5499,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.hilton.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable room with free WiFi and pool access.",
+        "pricePerNight": 130,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Spacious king room with upgraded views.",
+        "pricePerNight": 155,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with living area.",
+        "pricePerNight": 230,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]
