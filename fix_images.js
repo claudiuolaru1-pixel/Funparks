@@ -1,4 +1,20 @@
-import 'package:flutter/material.dart';
+﻿const fs=require('fs');
+
+// 1. Add cached_network_image to pubspec.yaml
+const pubspec = fs.readFileSync('pubspec.yaml','utf8');
+if(!pubspec.includes('cached_network_image')){
+  const updated = pubspec.replace(
+    'audioplayers: ^6.1.0',
+    'audioplayers: ^6.1.0\n  cached_network_image: ^3.4.1'
+  );
+  fs.writeFileSync('pubspec.yaml', updated, 'utf8');
+  console.log('pubspec updated');
+} else {
+  console.log('cached_network_image already in pubspec');
+}
+
+// 2. Replace ParkImage widget to use cached images
+const parkImage = `import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import '../services/image_url_service.dart';
 
@@ -61,3 +77,6 @@ class ParkImage extends StatelessWidget {
         ),
       );
 }
+`;
+fs.writeFileSync('lib/widgets/park_image.dart', parkImage, 'utf8');
+console.log('ParkImage widget updated with caching');

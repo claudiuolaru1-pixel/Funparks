@@ -47,7 +47,7 @@ class _StartScreenState extends State<StartScreen>
     HapticFeedback.mediumImpact();
     try {
       await _player.stop();
-      await _player.play(AssetSource('sounds/water_plop.wav'));
+      await _player.play(AssetSource('sounds/water_drop.mp3'));
     } catch (_) {}
   }
 

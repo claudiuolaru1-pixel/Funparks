@@ -162,7 +162,7 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
   Future<void> _playPlop() async {
     try {
       final p = AudioPlayer();
-      await p.play(AssetSource('sounds/water_plop.wav'));
+      await p.play(AssetSource('sounds/water_drop.mp3'));
     } catch (_) {}
   }
 
