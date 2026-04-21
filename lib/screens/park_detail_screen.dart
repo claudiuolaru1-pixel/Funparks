@@ -3286,6 +3286,30 @@ class _HotelDetailScreenState extends State<_HotelDetailScreen> {
                                 text: 'Breakfast'),
                         ],
                       ),
+                      const SizedBox(height: 10),
+                      SizedBox(
+                        width: double.infinity,
+                        child: ElevatedButton.icon(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: const Color(0xFF003580),
+                            foregroundColor: Colors.white,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            padding: const EdgeInsets.symmetric(vertical: 12),
+                          ),
+                          icon: const Icon(Icons.hotel, size: 18),
+                          label: const Text('Book Now',
+                              style: TextStyle(fontWeight: FontWeight.w800, fontSize: 14)),
+                          onPressed: () async {
+                            final query = Uri.encodeComponent(hotel.name);
+                            final url = Uri.parse(
+                              'https://www.booking.com/searchresults.html?aid=4347407&ss=$query&checkin=&checkout=&group_adults=2&no_rooms=1&label=funparks-app',
+                            );
+                            await launchUrl(url, mode: LaunchMode.externalApplication);
+                          },
+                        ),
+                      ),
                     ],
                   ),
                 ),
