@@ -2939,7 +2939,7 @@ class _HotelsTabState extends State<_HotelsTab> {
                     onOpen: () {
                       Navigator.of(context).push(MaterialPageRoute(
                           builder: (_) => _HotelDetailScreen(
-                              hotel: h, i18n: widget.i18n)));
+                              hotel: h, i18n: widget.i18n, parkCity: widget.park.city ?? '')));
                     },
                   );
                 },
@@ -3192,9 +3192,10 @@ class _HotelRow extends StatelessWidget {
 class _HotelDetailScreen extends StatefulWidget {
   final Hotel hotel;
   final I18nContent i18n;
+  final String parkCity;
 
   const _HotelDetailScreen(
-      {required this.hotel, required this.i18n});
+      {required this.hotel, required this.i18n, this.parkCity = ''});
 
   @override
   State<_HotelDetailScreen> createState() =>
@@ -3207,6 +3208,7 @@ class _HotelDetailScreenState extends State<_HotelDetailScreen> {
     final loc = AppLocalizations.of(context)!;
     final hotel = widget.hotel;
     final i18n = widget.i18n;
+    final parkCity = widget.parkCity;
     final hotelDescPair =
         _hotelDescPair(context, i18n, hotel.id, hotel.description);
 
@@ -3303,8 +3305,9 @@ class _HotelDetailScreenState extends State<_HotelDetailScreen> {
                               style: TextStyle(fontWeight: FontWeight.w800, fontSize: 14)),
                           onPressed: () async {
                             final query = Uri.encodeComponent(hotel.name);
+                            final searchQuery = parkCity.isNotEmpty ? '${hotel.name} $parkCity' : hotel.name;
                             final url = Uri.parse(
-                              'https://www.booking.com/searchresults.html?aid=4347407&ss=$query&checkin=&checkout=&group_adults=2&no_rooms=1&label=funparks-app',
+                              'https://www.booking.com/searchresults.html?aid=4347407&ss=${Uri.encodeComponent(searchQuery)}&checkin=&checkout=&group_adults=2&no_rooms=1&label=funparks-app',
                             );
                             await launchUrl(url, mode: LaunchMode.externalApplication);
                           },
