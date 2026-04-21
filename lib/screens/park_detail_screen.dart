@@ -3305,7 +3305,7 @@ class _HotelDetailScreenState extends State<_HotelDetailScreen> {
                               style: TextStyle(fontWeight: FontWeight.w800, fontSize: 14)),
                           onPressed: () async {
                             final query = Uri.encodeComponent(hotel.name);
-                            final searchQuery = parkCity.isNotEmpty ? '${hotel.name} $parkCity' : hotel.name;
+                            final searchQuery = parkCity.isNotEmpty ? '$parkCity ${hotel.name}' : hotel.name;
                             final url = Uri.parse(
                               'https://www.booking.com/searchresults.html?aid=4347407&ss=${Uri.encodeComponent(searchQuery)}&checkin=&checkout=&group_adults=2&no_rooms=1&label=funparks-app',
                             );
