@@ -175,7 +175,7 @@
         "lng": -3.5631,
         "thumbnail": "assets/images/parque_warner_madrid/park_thumbnail.png",
         "website": "https://www.parquewarner.com/en",
-        "ticketsUrl": "https://www.parquewarner.com/entradas-generales/single-ticket/select-visitors",
+        "ticketsUrl": "https://www.parquewarner.com/en/comprar-entradas",
         "detailAsset": "",
         "queueTimesId": 0
     },
