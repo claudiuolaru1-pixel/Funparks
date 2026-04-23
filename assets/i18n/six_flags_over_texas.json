@@ -358,6 +358,86 @@
         "ru": "Отель рядом с парком.",
         "zh": "直接毎次大冒险乐园旁的宏伟 Marriott酒店。",
         "ar": "Marriott مجدد مباشرة بجانب المتنزه."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaard Kamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable room with free WiFi and pool access.",
+            "es": "Habitación cómoda con WiFi gratuito y acceso a la piscina.",
+            "fr": "Chambre confortable avec WiFi gratuit et accès à la piscine.",
+            "de": "Komfortables Zimmer mit kostenlosem WLAN und Poolzugang.",
+            "it": "Camera confortevole con WiFi gratuito e accesso alla piscina.",
+            "nl": "Comfortabele kamer met gratis WiFi en zwembadtoegang.",
+            "pt": "Quarto confortável com WiFi gratuito e acesso à piscina.",
+            "ru": "Удобный номер с бесплатным Wi-Fi и доступом в бассейн.",
+            "zh": "舒适客房，含免费Wi-Fi和泳池使用权。",
+            "ar": "غرفة مريحة مع واي فاي مجاني وإمكانية الوصول إلى المسبح."
+          }
+        },
+        "king_room": {
+          "name": {
+            "en": "King Room",
+            "es": "Habitación King",
+            "fr": "Chambre King",
+            "de": "King Zimmer",
+            "it": "Camera King",
+            "nl": "King Kamer",
+            "pt": "Quarto King",
+            "ru": "Номер King",
+            "zh": "大床房",
+            "ar": "غرفة كينج"
+          },
+          "desc": {
+            "en": "Spacious king room with upgraded bedding and views.",
+            "es": "Habitación king espaciosa con ropa de cama mejorada y vistas.",
+            "fr": "Grande chambre king spacieuse avec literie améliorée.",
+            "de": "Geräumiges King-Zimmer mit hochwertiger Bettwäsche.",
+            "it": "Spaziosa camera king con biancheria migliorata.",
+            "nl": "Ruime king kamer met verbeterd beddengoed.",
+            "pt": "Quarto king espaçoso com roupa de cama melhorada.",
+            "ru": "Просторный номер с кроватью king size.",
+            "zh": "宽敞的大床房，配有升级床品。",
+            "ar": "غرفة كينج فسيحة مع مفروشات محسنة."
+          }
+        },
+        "suite": {
+          "name": {
+            "en": "Suite",
+            "es": "Suite",
+            "fr": "Suite",
+            "de": "Suite",
+            "it": "Suite",
+            "nl": "Suite",
+            "pt": "Suite",
+            "ru": "Люкс",
+            "zh": "套房",
+            "ar": "جناح"
+          },
+          "desc": {
+            "en": "Spacious suite with separate living area and premium amenities.",
+            "es": "Suite espaciosa con sala de estar separada y comodidades premium.",
+            "fr": "Suite spacieuse avec salon séparé et équipements premium.",
+            "de": "Geräumige Suite mit separatem Wohnbereich.",
+            "it": "Suite spaziosa con zona giorno separata.",
+            "nl": "Ruime suite met aparte woonkamer.",
+            "pt": "Suite espaçosa com sala de estar separada.",
+            "ru": "Просторный люкс с отдельной гостиной.",
+            "zh": "宽敞的套房，带独立客厅。",
+            "ar": "جناح فسيح مع منطقة معيشة منفصلة."
+          }
+        }
       }
     },
     "hotel_sheraton_arlington": {
@@ -372,6 +452,86 @@
         "ru": "Отель в Арлингтоне.",
         "zh": "阿灵顿宏伟的喜来登酒店。",
         "ar": "Sheraton في آرلينغتون."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaard Kamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable room with free WiFi and pool access.",
+            "es": "Habitación cómoda con WiFi gratuito y acceso a la piscina.",
+            "fr": "Chambre confortable avec WiFi gratuit et accès à la piscine.",
+            "de": "Komfortables Zimmer mit kostenlosem WLAN und Poolzugang.",
+            "it": "Camera confortevole con WiFi gratuito e accesso alla piscina.",
+            "nl": "Comfortabele kamer met gratis WiFi en zwembadtoegang.",
+            "pt": "Quarto confortável com WiFi gratuito e acesso à piscina.",
+            "ru": "Удобный номер с бесплатным Wi-Fi и доступом в бассейн.",
+            "zh": "舒适客房，含免费Wi-Fi和泳池使用权。",
+            "ar": "غرفة مريحة مع واي فاي مجاني وإمكانية الوصول إلى المسبح."
+          }
+        },
+        "deluxe_room": {
+          "name": {
+            "en": "Deluxe Room",
+            "es": "Habitación Deluxe",
+            "fr": "Chambre Deluxe",
+            "de": "Deluxe Zimmer",
+            "it": "Camera Deluxe",
+            "nl": "Deluxe Kamer",
+            "pt": "Quarto Deluxe",
+            "ru": "Номер Deluxe",
+            "zh": "豪华客房",
+            "ar": "غرفة ديلوكس"
+          },
+          "desc": {
+            "en": "Premium deluxe room with upgraded views and amenities.",
+            "es": "Habitación deluxe premium con vistas y comodidades mejoradas.",
+            "fr": "Chambre deluxe premium avec vues et équipements améliorés.",
+            "de": "Premium Deluxe-Zimmer mit verbesserten Aussichten.",
+            "it": "Camera deluxe premium con viste e comfort migliorati.",
+            "nl": "Premium deluxe kamer met verbeterd uitzicht en voorzieningen.",
+            "pt": "Quarto deluxe premium com vistas e comodidades melhoradas.",
+            "ru": "Премиум deluxe номер с улучшенными видами.",
+            "zh": "高级豪华客房，享有升级景观和设施。",
+            "ar": "غرفة ديلوكس فاخرة مع إطلالات ومرافق محسنة."
+          }
+        },
+        "suite": {
+          "name": {
+            "en": "Suite",
+            "es": "Suite",
+            "fr": "Suite",
+            "de": "Suite",
+            "it": "Suite",
+            "nl": "Suite",
+            "pt": "Suite",
+            "ru": "Люкс",
+            "zh": "套房",
+            "ar": "جناح"
+          },
+          "desc": {
+            "en": "Spacious suite with separate living area and premium amenities.",
+            "es": "Suite espaciosa con sala de estar separada y comodidades premium.",
+            "fr": "Suite spacieuse avec salon séparé et équipements premium.",
+            "de": "Geräumige Suite mit separatem Wohnbereich.",
+            "it": "Suite spaziosa con zona giorno separata.",
+            "nl": "Ruime suite met aparte woonkamer.",
+            "pt": "Suite espaçosa com sala de estar separada.",
+            "ru": "Просторный люкс с отдельной гостиной.",
+            "zh": "宽敞的套房，带独立客厅。",
+            "ar": "جناح فسيح مع منطقة معيشة منفصلة."
+          }
+        }
       }
     },
     "hotel_hyatt_place_arlington": {
@@ -386,6 +546,86 @@
         "ru": "Удобный Hyatt Place.",
         "zh": "近大冒险乐园的舒适Hyatt Place酒店。",
         "ar": "Hyatt Place مريح بالقرب من المتنزه."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaard Kamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable room with free WiFi and pool access.",
+            "es": "Habitación cómoda con WiFi gratuito y acceso a la piscina.",
+            "fr": "Chambre confortable avec WiFi gratuit et accès à la piscine.",
+            "de": "Komfortables Zimmer mit kostenlosem WLAN und Poolzugang.",
+            "it": "Camera confortevole con WiFi gratuito e accesso alla piscina.",
+            "nl": "Comfortabele kamer met gratis WiFi en zwembadtoegang.",
+            "pt": "Quarto confortável com WiFi gratuito e acesso à piscina.",
+            "ru": "Удобный номер с бесплатным Wi-Fi и доступом в бассейн.",
+            "zh": "舒适客房，含免费Wi-Fi和泳池使用权。",
+            "ar": "غرفة مريحة مع واي فاي مجاني وإمكانية الوصول إلى المسبح."
+          }
+        },
+        "king_room": {
+          "name": {
+            "en": "King Room",
+            "es": "Habitación King",
+            "fr": "Chambre King",
+            "de": "King Zimmer",
+            "it": "Camera King",
+            "nl": "King Kamer",
+            "pt": "Quarto King",
+            "ru": "Номер King",
+            "zh": "大床房",
+            "ar": "غرفة كينج"
+          },
+          "desc": {
+            "en": "Spacious king room with upgraded bedding and views.",
+            "es": "Habitación king espaciosa con ropa de cama mejorada y vistas.",
+            "fr": "Grande chambre king spacieuse avec literie améliorée.",
+            "de": "Geräumiges King-Zimmer mit hochwertiger Bettwäsche.",
+            "it": "Spaziosa camera king con biancheria migliorata.",
+            "nl": "Ruime king kamer met verbeterd beddengoed.",
+            "pt": "Quarto king espaçoso com roupa de cama melhorada.",
+            "ru": "Просторный номер с кроватью king size.",
+            "zh": "宽敞的大床房，配有升级床品。",
+            "ar": "غرفة كينج فسيحة مع مفروشات محسنة."
+          }
+        },
+        "suite": {
+          "name": {
+            "en": "Suite",
+            "es": "Suite",
+            "fr": "Suite",
+            "de": "Suite",
+            "it": "Suite",
+            "nl": "Suite",
+            "pt": "Suite",
+            "ru": "Люкс",
+            "zh": "套房",
+            "ar": "جناح"
+          },
+          "desc": {
+            "en": "Spacious suite with separate living area and premium amenities.",
+            "es": "Suite espaciosa con sala de estar separada y comodidades premium.",
+            "fr": "Suite spacieuse avec salon séparé et équipements premium.",
+            "de": "Geräumige Suite mit separatem Wohnbereich.",
+            "it": "Suite spaziosa con zona giorno separata.",
+            "nl": "Ruime suite met aparte woonkamer.",
+            "pt": "Suite espaçosa com sala de estar separada.",
+            "ru": "Просторный люкс с отдельной гостиной.",
+            "zh": "宽敞的套房，带独立客厅。",
+            "ar": "جناح فسيح مع منطقة معيشة منفصلة."
+          }
+        }
       }
     },
     "hotel_hilton_arlington": {
@@ -400,6 +640,86 @@
         "ru": "Надёжный Hilton.",
         "zh": "阿灵顿可靠的希尔顿酒店。",
         "ar": "Hilton موثوق بالقرب من المتنزه."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaard Kamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable room with free WiFi and pool access.",
+            "es": "Habitación cómoda con WiFi gratuito y acceso a la piscina.",
+            "fr": "Chambre confortable avec WiFi gratuit et accès à la piscine.",
+            "de": "Komfortables Zimmer mit kostenlosem WLAN und Poolzugang.",
+            "it": "Camera confortevole con WiFi gratuito e accesso alla piscina.",
+            "nl": "Comfortabele kamer met gratis WiFi en zwembadtoegang.",
+            "pt": "Quarto confortável com WiFi gratuito e acesso à piscina.",
+            "ru": "Удобный номер с бесплатным Wi-Fi и доступом в бассейн.",
+            "zh": "舒适客房，含免费Wi-Fi和泳池使用权。",
+            "ar": "غرفة مريحة مع واي فاي مجاني وإمكانية الوصول إلى المسبح."
+          }
+        },
+        "king_room": {
+          "name": {
+            "en": "King Room",
+            "es": "Habitación King",
+            "fr": "Chambre King",
+            "de": "King Zimmer",
+            "it": "Camera King",
+            "nl": "King Kamer",
+            "pt": "Quarto King",
+            "ru": "Номер King",
+            "zh": "大床房",
+            "ar": "غرفة كينج"
+          },
+          "desc": {
+            "en": "Spacious king room with upgraded bedding and views.",
+            "es": "Habitación king espaciosa con ropa de cama mejorada y vistas.",
+            "fr": "Grande chambre king spacieuse avec literie améliorée.",
+            "de": "Geräumiges King-Zimmer mit hochwertiger Bettwäsche.",
+            "it": "Spaziosa camera king con biancheria migliorata.",
+            "nl": "Ruime king kamer met verbeterd beddengoed.",
+            "pt": "Quarto king espaçoso com roupa de cama melhorada.",
+            "ru": "Просторный номер с кроватью king size.",
+            "zh": "宽敞的大床房，配有升级床品。",
+            "ar": "غرفة كينج فسيحة مع مفروشات محسنة."
+          }
+        },
+        "suite": {
+          "name": {
+            "en": "Suite",
+            "es": "Suite",
+            "fr": "Suite",
+            "de": "Suite",
+            "it": "Suite",
+            "nl": "Suite",
+            "pt": "Suite",
+            "ru": "Люкс",
+            "zh": "套房",
+            "ar": "جناح"
+          },
+          "desc": {
+            "en": "Spacious suite with separate living area and premium amenities.",
+            "es": "Suite espaciosa con sala de estar separada y comodidades premium.",
+            "fr": "Suite spacieuse avec salon séparé et équipements premium.",
+            "de": "Geräumige Suite mit separatem Wohnbereich.",
+            "it": "Suite spaziosa con zona giorno separata.",
+            "nl": "Ruime suite met aparte woonkamer.",
+            "pt": "Suite espaçosa com sala de estar separada.",
+            "ru": "Просторный люкс с отдельной гостиной.",
+            "zh": "宽敞的套房，带独立客厅。",
+            "ar": "جناح فسيح مع منطقة معيشة منفصلة."
+          }
+        }
       }
     }
   }

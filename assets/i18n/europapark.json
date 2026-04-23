@@ -1,4 +1,4 @@
-﻿{
+{
   "overview": {
     "ov_overview_body": {
       "en": "Europa-Park is Germany's largest theme park and one of the most visited in Europe, located in Rust, Baden-Württemberg. Founded in 1975 by the Mack family — who also manufacture roller coasters — the park has grown into a world-class resort spanning over 95 hectares. It is organised into themed areas representing different European countries, each with immersive architecture, native landscaping, authentic cuisine, and themed rides.",
@@ -287,16 +287,82 @@
       },
       "rooms": {
         "standard_room": {
-          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
-          "desc": { "en": "Elegant Roman themed room for up to 4 guests with park views and Roman inspired decor.", "es": "Elegante habitacion de tema romano para 4 huespedes con vistas al parque.", "fr": "Elegante chambre a theme romain pour 4 personnes avec vue sur le parc.", "de": "Elegantes roemisches Zimmer fuer 4 Gaeste mit Parkblick.", "it": "Elegante camera a tema romano per 4 ospiti con vista sul parco.", "nl": "Elegante Romeinse kamer voor 4 gasten met parkuitzicht.", "pt": "Elegante quarto de tema romano para 4 hospedes com vistas para o parque.", "ru": "Элегантный номер в римском стиле для 4 гостей с видом на парк.", "zh": "优雅的罗马主题客房，可容纳4位客人，欣赏公园美景。", "ar": "غرفة أنيقة بطابع روماني لـ 4 ضيوف مع إطلالات على المتنزه وديكور مستوحى من روما." }
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitacion Estandar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaardkamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Elegant Roman themed room for up to 4 guests with park views and Roman inspired decor.",
+            "es": "Elegante habitacion de tema romano para 4 huespedes con vistas al parque.",
+            "fr": "Elegante chambre a theme romain pour 4 personnes avec vue sur le parc.",
+            "de": "Elegantes roemisches Zimmer fuer 4 Gaeste mit Parkblick.",
+            "it": "Elegante camera a tema romano per 4 ospiti con vista sul parco.",
+            "nl": "Elegante Romeinse kamer voor 4 gasten met parkuitzicht.",
+            "pt": "Elegante quarto de tema romano para 4 hospedes com vistas para o parque.",
+            "ru": "Элегантный номер в римском стиле для 4 гостей с видом на парк.",
+            "zh": "优雅的罗马主题客房，可容纳4位客人，欣赏公园美景。",
+            "ar": "غرفة أنيقة بطابع روماني لـ 4 ضيوف مع إطلالات على المتنزه وديكور مستوحى من روما."
+          }
         },
         "family_room": {
-          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
-          "desc": { "en": "Spacious family room sleeping up to 6 with Roman themed bunk beds and private bathroom.", "es": "Habitacion familiar para 6 con literas de tema romano y bano privado.", "fr": "Chambre familiale pour 6 avec lits superposes romains et salle de bain privee.", "de": "Geraeumigers Familienzimmer fuer 6 mit roemischen Etagenbetten und Privatbad.", "it": "Camera familiare per 6 con letti a castello romani e bagno privato.", "nl": "Ruime familiekamer voor 6 met Romeinse stapelbedden en privébadkamer.", "pt": "Quarto familiar para 6 com beliches romanos e casa de banho privada.", "ru": "Просторный семейный номер для 6 с двухъярусными кроватями в римском стиле.", "zh": "宽敞家庭客房，可容纳6人，罗马主题上下铺，独立浴室。", "ar": "غرفة عائلية فسيحة تتسع لـ 6 أشخاص مع أسرة بطابقين بطابع روماني وحمام خاص." }
+          "name": {
+            "en": "Family Room",
+            "es": "Habitacion Familiar",
+            "fr": "Chambre Familiale",
+            "de": "Familienzimmer",
+            "it": "Camera Familiare",
+            "nl": "Familiekamer",
+            "pt": "Quarto Familiar",
+            "ru": "Семейный номер",
+            "zh": "家庭客房",
+            "ar": "غرفة عائلية"
+          },
+          "desc": {
+            "en": "Spacious family room sleeping up to 6 with Roman themed bunk beds and private bathroom.",
+            "es": "Habitacion familiar para 6 con literas de tema romano y bano privado.",
+            "fr": "Chambre familiale pour 6 avec lits superposes romains et salle de bain privee.",
+            "de": "Geraeumigers Familienzimmer fuer 6 mit roemischen Etagenbetten und Privatbad.",
+            "it": "Camera familiare per 6 con letti a castello romani e bagno privato.",
+            "nl": "Ruime familiekamer voor 6 met Romeinse stapelbedden en privébadkamer.",
+            "pt": "Quarto familiar para 6 com beliches romanos e casa de banho privada.",
+            "ru": "Просторный семейный номер для 6 с двухъярусными кроватями в римском стиле.",
+            "zh": "宽敞家庭客房，可容纳6人，罗马主题上下铺，独立浴室。",
+            "ar": "غرفة عائلية فسيحة تتسع لـ 6 أشخاص مع أسرة بطابقين بطابع روماني وحمام خاص."
+          }
         },
         "suite": {
-          "name": { "en": "Imperial Suite", "es": "Suite Imperial", "fr": "Suite Imperiale", "de": "Kaiserliche Suite", "it": "Suite Imperiale", "nl": "Imperiale Suite", "pt": "Suite Imperial", "ru": "Императорский люкс", "zh": "帝王套房", "ar": "جناح إمبراطوري" },
-          "desc": { "en": "Luxurious imperial suite with private terrace, premium Roman decor and stunning park views.", "es": "Lujosa suite imperial con terraza privada y vistas al parque.", "fr": "Luxueuse suite imperiale avec terrasse privee et vues sur le parc.", "de": "Luxurioese Kaisersuite mit Privatteasse und Parkblick.", "it": "Lussuosa suite imperiale con terrazza privata e viste sul parco.", "nl": "Luxueuze imperiale suite met prive terras en parkuitzicht.", "pt": "Luxuosa suite imperial com terraco privado e vistas para o parque.", "ru": "Роскошный императорский люкс с частной террасой и видами на парк.", "zh": "豪华帝王套房，私人露台，欣赏公园美景。", "ar": "جناح إمبراطوري فاخر مع تراس خاص وديكور روماني فاخر وإطلالات رائعة على المتنزه." }
+          "name": {
+            "en": "Imperial Suite",
+            "es": "Suite Imperial",
+            "fr": "Suite Imperiale",
+            "de": "Kaiserliche Suite",
+            "it": "Suite Imperiale",
+            "nl": "Imperiale Suite",
+            "pt": "Suite Imperial",
+            "ru": "Императорский люкс",
+            "zh": "帝王套房",
+            "ar": "جناح إمبراطوري"
+          },
+          "desc": {
+            "en": "Luxurious imperial suite with private terrace, premium Roman decor and stunning park views.",
+            "es": "Lujosa suite imperial con terraza privada y vistas al parque.",
+            "fr": "Luxueuse suite imperiale avec terrasse privee et vues sur le parc.",
+            "de": "Luxurioese Kaisersuite mit Privatteasse und Parkblick.",
+            "it": "Lussuosa suite imperiale con terrazza privata e viste sul parco.",
+            "nl": "Luxueuze imperiale suite met prive terras en parkuitzicht.",
+            "pt": "Luxuosa suite imperial com terraco privado e vistas para o parque.",
+            "ru": "Роскошный императорский люкс с частной террасой и видами на парк.",
+            "zh": "豪华帝王套房，私人露台，欣赏公园美景。",
+            "ar": "جناح إمبراطوري فاخر مع تراس خاص وديكور روماني فاخر وإطلالات رائعة على المتنزه."
+          }
         }
       }
     },
@@ -315,12 +381,56 @@
       },
       "rooms": {
         "standard_room": {
-          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
-          "desc": { "en": "Comfortable nautical themed room for up to 4 guests with lighthouse decor and garden views.", "es": "Habitacion nautica para 4 huespedes con decoracion de faro y vistas al jardin.", "fr": "Chambre nautique pour 4 personnes avec decor de phare et vue sur le jardin.", "de": "Komfortables nautisches Zimmer fuer 4 Gaeste mit Leuchtturm-Dekor und Gartenblick.", "it": "Camera nautica per 4 ospiti con decor faro e viste sul giardino.", "nl": "Nautische kamer voor 4 gasten met vuurtoren decor en tuinuitzicht.", "pt": "Quarto nautico para 4 hospedes com decor de farol e vistas para o jardim.", "ru": "Уютный морской номер для 4 гостей с декором маяка и видом на сад.", "zh": "舒适的航海主题客房，可容纳4位客人，灯塔装饰，花园景观。", "ar": "غرفة بحرية مريحة لـ 4 ضيوف بديكور المنارة وإطلالات على الحديقة." }
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitacion Estandar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaardkamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable nautical themed room for up to 4 guests with lighthouse decor and garden views.",
+            "es": "Habitacion nautica para 4 huespedes con decoracion de faro y vistas al jardin.",
+            "fr": "Chambre nautique pour 4 personnes avec decor de phare et vue sur le jardin.",
+            "de": "Komfortables nautisches Zimmer fuer 4 Gaeste mit Leuchtturm-Dekor und Gartenblick.",
+            "it": "Camera nautica per 4 ospiti con decor faro e viste sul giardino.",
+            "nl": "Nautische kamer voor 4 gasten met vuurtoren decor en tuinuitzicht.",
+            "pt": "Quarto nautico para 4 hospedes com decor de farol e vistas para o jardim.",
+            "ru": "Уютный морской номер для 4 гостей с декором маяка и видом на сад.",
+            "zh": "舒适的航海主题客房，可容纳4位客人，灯塔装饰，花园景观。",
+            "ar": "غرفة بحرية مريحة لـ 4 ضيوف بديكور المنارة وإطلالات على الحديقة."
+          }
         },
         "family_room": {
-          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
-          "desc": { "en": "Spacious family room with lighthouse theming sleeping up to 6 with bunk beds and pool access.", "es": "Habitacion familiar con tema de faro para 6 con literas y acceso a piscina.", "fr": "Chambre familiale phare pour 6 avec lits superposes et acces piscine.", "de": "Geraeumigers Leuchtturm-Familienzimmer fuer 6 mit Etagenbetten und Poolzugang.", "it": "Camera familiare faro per 6 con letti a castello e accesso piscina.", "nl": "Ruime vuurtoren familiekamer voor 6 met stapelbedden en zwembadtoegang.", "pt": "Quarto familiar com tema de farol para 6 com beliches e acesso a piscina.", "ru": "Просторный семейный номер маяка для 6 с двухъярусными кроватями и бассейном.", "zh": "宽敞的灯塔主题家庭客房，可容纳6人，上下铺，游泳池通道。", "ar": "غرفة عائلية فسيحة بطابع المنارة تتسع لـ 6 أشخاص مع أسرة بطابقين وإمكانية الوصول للمسبح." }
+          "name": {
+            "en": "Family Room",
+            "es": "Habitacion Familiar",
+            "fr": "Chambre Familiale",
+            "de": "Familienzimmer",
+            "it": "Camera Familiare",
+            "nl": "Familiekamer",
+            "pt": "Quarto Familiar",
+            "ru": "Семейный номер",
+            "zh": "家庭客房",
+            "ar": "غرفة عائلية"
+          },
+          "desc": {
+            "en": "Spacious family room with lighthouse theming sleeping up to 6 with bunk beds and pool access.",
+            "es": "Habitacion familiar con tema de faro para 6 con literas y acceso a piscina.",
+            "fr": "Chambre familiale phare pour 6 avec lits superposes et acces piscine.",
+            "de": "Geraeumigers Leuchtturm-Familienzimmer fuer 6 mit Etagenbetten und Poolzugang.",
+            "it": "Camera familiare faro per 6 con letti a castello e accesso piscina.",
+            "nl": "Ruime vuurtoren familiekamer voor 6 met stapelbedden en zwembadtoegang.",
+            "pt": "Quarto familiar com tema de farol para 6 com beliches e acesso a piscina.",
+            "ru": "Просторный семейный номер маяка для 6 с двухъярусными кроватями и бассейном.",
+            "zh": "宽敞的灯塔主题家庭客房，可容纳6人，上下铺，游泳池通道。",
+            "ar": "غرفة عائلية فسيحة بطابع المنارة تتسع لـ 6 أشخاص مع أسرة بطابقين وإمكانية الوصول للمسبح."
+          }
         }
       }
     },
@@ -339,12 +449,398 @@
       },
       "rooms": {
         "standard_room": {
-          "name": { "en": "Standard Room", "es": "Habitacion Estandar", "fr": "Chambre Standard", "de": "Standardzimmer", "it": "Camera Standard", "nl": "Standaardkamer", "pt": "Quarto Standard", "ru": "Стандартный номер", "zh": "标准客房", "ar": "غرفة قياسية" },
-          "desc": { "en": "Moorish inspired room for up to 4 guests with ornate decor and courtyard views.", "es": "Habitacion de inspiracion morisca para 4 huespedes con decoracion ornamentada.", "fr": "Chambre d'inspiration mauresque pour 4 personnes avec decor orne.", "de": "Maurisch inspiriertes Zimmer fuer 4 Gaeste mit ornamentalem Dekor.", "it": "Camera di ispirazione moresca per 4 ospiti con decor ornamentale.", "nl": "Moorse kamer voor 4 gasten met sierlijk decor.", "pt": "Quarto de inspiracao mourisca para 4 hospedes com decor ornamentado.", "ru": "Номер в мавританском стиле для 4 гостей с орнаментальным декором.", "zh": "摩尔风格客房，可容纳4位客人，华丽装饰，庭院景观。", "ar": "غرفة مستوحاة من الطراز المغربي لـ 4 ضيوف بديكور زخرفي وإطلالات على الفناء." }
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitacion Estandar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaardkamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Moorish inspired room for up to 4 guests with ornate decor and courtyard views.",
+            "es": "Habitacion de inspiracion morisca para 4 huespedes con decoracion ornamentada.",
+            "fr": "Chambre d'inspiration mauresque pour 4 personnes avec decor orne.",
+            "de": "Maurisch inspiriertes Zimmer fuer 4 Gaeste mit ornamentalem Dekor.",
+            "it": "Camera di ispirazione moresca per 4 ospiti con decor ornamentale.",
+            "nl": "Moorse kamer voor 4 gasten met sierlijk decor.",
+            "pt": "Quarto de inspiracao mourisca para 4 hospedes com decor ornamentado.",
+            "ru": "Номер в мавританском стиле для 4 гостей с орнаментальным декором.",
+            "zh": "摩尔风格客房，可容纳4位客人，华丽装饰，庭院景观。",
+            "ar": "غرفة مستوحاة من الطراز المغربي لـ 4 ضيوف بديكور زخرفي وإطلالات على الفناء."
+          }
         },
         "family_room": {
-          "name": { "en": "Family Room", "es": "Habitacion Familiar", "fr": "Chambre Familiale", "de": "Familienzimmer", "it": "Camera Familiare", "nl": "Familiekamer", "pt": "Quarto Familiar", "ru": "Семейный номер", "zh": "家庭客房", "ar": "غرفة عائلية" },
-          "desc": { "en": "Spacious Andalusian room sleeping up to 6 with ornate bunk beds and pool access.", "es": "Habitacion andaluza espaciosa para 6 con literas ornamentadas y acceso a piscina.", "fr": "Chambre andalouse spacieuse pour 6 avec lits superposes ornes et acces piscine.", "de": "Geraeumigers andalusisches Zimmer fuer 6 mit verzierten Etagenbetten und Poolzugang.", "it": "Camera andalusa spaziosa per 6 con letti a castello ornamentali e accesso piscina.", "nl": "Ruime Andalusische kamer voor 6 met sierlijke stapelbedden en zwembadtoegang.", "pt": "Quarto andaluz espacoso para 6 com beliches ornamentados e acesso a piscina.", "ru": "Просторный андалузский номер для 6 с украшенными двухъярусными кроватями и бассейном.", "zh": "宽敞的安达卢西亚客房，可容纳6人，华丽上下铺，游泳池通道。", "ar": "غرفة أندلسية فسيحة تتسع لـ 6 أشخاص مع أسرة بطابقين زخرفية وإمكانية الوصول للمسبح." }
+          "name": {
+            "en": "Family Room",
+            "es": "Habitacion Familiar",
+            "fr": "Chambre Familiale",
+            "de": "Familienzimmer",
+            "it": "Camera Familiare",
+            "nl": "Familiekamer",
+            "pt": "Quarto Familiar",
+            "ru": "Семейный номер",
+            "zh": "家庭客房",
+            "ar": "غرفة عائلية"
+          },
+          "desc": {
+            "en": "Spacious Andalusian room sleeping up to 6 with ornate bunk beds and pool access.",
+            "es": "Habitacion andaluza espaciosa para 6 con literas ornamentadas y acceso a piscina.",
+            "fr": "Chambre andalouse spacieuse pour 6 avec lits superposes ornes et acces piscine.",
+            "de": "Geraeumigers andalusisches Zimmer fuer 6 mit verzierten Etagenbetten und Poolzugang.",
+            "it": "Camera andalusa spaziosa per 6 con letti a castello ornamentali e accesso piscina.",
+            "nl": "Ruime Andalusische kamer voor 6 met sierlijke stapelbedden en zwembadtoegang.",
+            "pt": "Quarto andaluz espacoso para 6 com beliches ornamentados e acesso a piscina.",
+            "ru": "Просторный андалузский номер для 6 с украшенными двухъярусными кроватями и бассейном.",
+            "zh": "宽敞的安达卢西亚客房，可容纳6人，华丽上下铺，游泳池通道。",
+            "ar": "غرفة أندلسية فسيحة تتسع لـ 6 أشخاص مع أسرة بطابقين زخرفية وإمكانية الوصول للمسبح."
+          }
+        }
+      }
+    }
+  },
+  "food": {
+    "eatrenalin": {
+      "desc": {
+        "en": "World-first immersive dining — motorised chairs move through themed rooms with each course. The most extraordinary dining experience in Europe.",
+        "es": "Primera experiencia gastronómica inmersiva del mundo — sillas motorizadas se mueven por salas temáticas con cada plato.",
+        "fr": "Première expérience culinaire immersive au monde — des chaises motorisées se déplacent à travers des salles thématiques.",
+        "de": "Welterstes immersives Esserlebnis — motorisierte Stühle bewegen sich durch Themenräume mit jedem Gang.",
+        "it": "Prima esperienza culinaria immersiva al mondo — sedie motorizzate si spostano attraverso sale tematiche.",
+        "nl": "Werelds eerste immersieve eetervaring — gemotoriseerde stoelen bewegen door thematische kamers.",
+        "pt": "Primeira experiência gastronómica imersiva do mundo — cadeiras motorizadas movem-se por salas temáticas.",
+        "ru": "Первый в мире иммерсивный ужин — моторизованные кресла движутся по тематическим залам.",
+        "zh": "世界首个沉浸式用餐体验——电动椅子在主题房间中移动，每道菜配有不同的多感官环境。",
+        "ar": "أول تجربة طعام غامرة في العالم — كراسي آلية تتحرك عبر غرف مواضيعية مع كل طبق."
+      }
+    },
+    "seehaus": {
+      "desc": {
+        "en": "Lakeside restaurant serving fresh European cuisine including grilled fish, hearty soups and Black Forest cake. Beautiful terrace overlooking the Europa-Park lake.",
+        "es": "Restaurante junto al lago con cocina europea fresca. Hermosa terraza con vistas al lago de Europa-Park.",
+        "fr": "Restaurant au bord du lac avec cuisine européenne fraîche. Belle terrasse avec vue sur le lac.",
+        "de": "Seerestaurant mit frischer europäischer Küche. Wunderschöne Terrasse mit Blick auf den Europa-Park-See.",
+        "it": "Ristorante sul lago con cucina europea fresca. Bella terrazza con vista sul lago di Europa-Park.",
+        "nl": "Restaurant aan het meer met verse Europese keuken. Prachtig terras met uitzicht op het Europa-Park meer.",
+        "pt": "Restaurante à beira do lago com cozinha europeia fresca. Bela esplanada com vista para o lago.",
+        "ru": "Ресторан у озера со свежей европейской кухней. Красивая терраса с видом на озеро.",
+        "zh": "湖边餐厅，供应新鲜欧洲美食，包括烤鱼、浓汤和黑森林蛋糕。俯瞰欧洲公园湖泊的美丽露台。",
+        "ar": "مطعم على ضفاف البحيرة يقدم المطبخ الأوروبي الطازج. تراس جميل يطل على بحيرة Europa-Park."
+      }
+    },
+    "petite_france": {
+      "desc": {
+        "en": "Family-friendly restaurant serving classic German and European comfort food including burgers, schnitzels and daily specials in the French-themed area.",
+        "es": "Restaurante familiar con comida reconfortante alemana y europea clásica en la zona temática francesa.",
+        "fr": "Restaurant familial avec cuisine réconfortante allemande et européenne classique dans la zone thématique française.",
+        "de": "Familienrestaurant mit klassischer deutscher und europäischer Hausmannskost im französischen Themenbereich.",
+        "it": "Ristorante per famiglie con cucina tedesca e europea classica nella zona a tema francese.",
+        "nl": "Gezinsvriendelijk restaurant met klassieke Duitse en Europese comfortmaaltijden in het Franse themagebied.",
+        "pt": "Restaurante familiar com comida reconfortante alemã e europeia clássica na área temática francesa.",
+        "ru": "Семейный ресторан с классической немецкой и европейской кухней во французской тематической зоне.",
+        "zh": "家庭友好型餐厅，供应经典德式和欧洲美食，包括汉堡、炸猪排和每日特餐。",
+        "ar": "مطعم عائلي يقدم مأكولات ألمانية وأوروبية كلاسيكية في المنطقة ذات الطابع الفرنسي."
+      }
+    },
+    "foodloop": {
+      "desc": {
+        "en": "Unique Italian restaurant where food arrives via a spiral tube system to your table. Wood-fired pizzas, fresh pasta and Italian desserts in a fun interactive setting.",
+        "es": "Restaurante italiano único donde la comida llega por un sistema de tubos en espiral. Pizzas de leña y pasta fresca.",
+        "fr": "Restaurant italien unique où la nourriture arrive via un système de tubes en spirale. Pizzas au feu de bois et pâtes fraîches.",
+        "de": "Einzigartiges italienisches Restaurant, wo Speisen über ein Spiralröhrensystem an Ihren Tisch kommen.",
+        "it": "Ristorante italiano unico dove il cibo arriva tramite un sistema di tubi a spirale. Pizze al forno a legna e pasta fresca.",
+        "nl": "Uniek Italiaans restaurant waar eten via een spiraalbuissysteem aan uw tafel arriveert.",
+        "pt": "Restaurante italiano único onde a comida chega via sistema de tubos em espiral. Pizzas de forno a lenha e massa fresca.",
+        "ru": "Уникальный итальянский ресторан, где еда доставляется по спиральной трубе. Пиццы из дровяной печи и свежая паста.",
+        "zh": "独特的意大利餐厅，食物通过螺旋管道系统送达您的餐桌。木柴烤披萨、新鲜意面和意式甜点。",
+        "ar": "مطعم إيطالي فريد حيث يصل الطعام عبر نظام أنابيب حلزوني. بيتزا من الفرن الحطب ومعكرونة طازجة."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_colosseo": {
+      "desc": {
+        "en": "Stunning 4-star hotel themed around ancient Rome — dramatic columns, mosaics and fountains. Steps from the park entrance with breakfast included.",
+        "es": "Impresionante hotel de 4 estrellas temático de Roma antigua — columnas dramáticas, mosaicos y fuentes.",
+        "fr": "Magnifique hôtel 4 étoiles thématique Rome antique — colonnes dramatiques, mosaïques et fontaines.",
+        "de": "Atemberaubendes 4-Sterne-Hotel im antiken Rom-Thema — dramatische Säulen, Mosaike und Brunnen.",
+        "it": "Incredibile hotel 4 stelle a tema Roma antica — colonne drammatiche, mosaici e fontane.",
+        "nl": "Verbluffend 4-sterren hotel met oud Rome thema — dramatische zuilen, mozaïeken en fonteinen.",
+        "pt": "Hotel de 4 estrelas temático de Roma antiga — colunas dramáticas, mosaicos e fontes.",
+        "ru": "Потрясающий 4-звёздочный отель с тематикой Древнего Рима — колонны, мозаики и фонтаны.",
+        "zh": "令人叹为观止的古罗马主题四星级酒店——壮观的柱子、马赛克和喷泉。步行即可到达公园入口。",
+        "ar": "فندق 4 نجوم مذهل بموضوع روما القديمة — أعمدة درامية وفسيفساء ونوافير."
+      },
+      "rooms": {
+        "standard": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaard Kamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable Roman-themed room with twin or double beds and modern amenities. Breakfast included.",
+            "es": "Cómoda habitación temática romana con camas individuales o dobles y comodidades modernas. Desayuno incluido.",
+            "fr": "Chambre confortable à thème romain avec lits simples ou doubles. Petit-déjeuner inclus.",
+            "de": "Komfortables römisches Zimmer mit Einzel- oder Doppelbetten. Frühstück inklusive.",
+            "it": "Comoda camera a tema romano con letti singoli o matrimoniali. Colazione inclusa.",
+            "nl": "Comfortabele Romeinse kamer met twee of tweepersoonsbed. Ontbijt inbegrepen.",
+            "pt": "Quarto confortável com tema romano. Pequeno-almoço incluído.",
+            "ru": "Удобный номер в римском стиле. Завтрак включён.",
+            "zh": "舒适的罗马主题客房，含早餐。",
+            "ar": "غرفة مريحة بطابع روماني. الإفطار مشمول."
+          }
+        },
+        "superior": {
+          "name": {
+            "en": "Superior Room",
+            "es": "Habitación Superior",
+            "fr": "Chambre Supérieure",
+            "de": "Superior Zimmer",
+            "it": "Camera Superior",
+            "nl": "Superior Kamer",
+            "pt": "Quarto Superior",
+            "ru": "Номер Superior",
+            "zh": "高级客房",
+            "ar": "غرفة سوبيريور"
+          },
+          "desc": {
+            "en": "Larger room with upgraded furnishings, seating area and views over the hotel grounds. Breakfast included.",
+            "es": "Habitación más grande con mobiliario mejorado y zona de estar. Desayuno incluido.",
+            "fr": "Chambre plus grande avec mobilier amélioré et coin salon. Petit-déjeuner inclus.",
+            "de": "Größeres Zimmer mit hochwertigem Mobiliar und Sitzbereich. Frühstück inklusive.",
+            "it": "Camera più grande con arredi migliorati e area salotto. Colazione inclusa.",
+            "nl": "Grotere kamer met verbeterd meubilair en zithoek. Ontbijt inbegrepen.",
+            "pt": "Quarto maior com mobiliário melhorado e área de estar. Pequeno-almoço incluído.",
+            "ru": "Просторный номер с улучшенной мебелью. Завтрак включён.",
+            "zh": "宽敞的高级客房，含早餐。",
+            "ar": "غرفة أكبر مع أثاث محسن. الإفطار مشمول."
+          }
+        },
+        "suite": {
+          "name": {
+            "en": "Junior Suite",
+            "es": "Junior Suite",
+            "fr": "Junior Suite",
+            "de": "Junior Suite",
+            "it": "Junior Suite",
+            "nl": "Junior Suite",
+            "pt": "Junior Suite",
+            "ru": "Júnior Suite",
+            "zh": "小型套房",
+            "ar": "جونيور سويت"
+          },
+          "desc": {
+            "en": "Spacious suite with separate living area, premium Roman decor and priority park entry. Breakfast included.",
+            "es": "Suite espaciosa con sala de estar separada, decoración romana premium y entrada prioritaria al parque.",
+            "fr": "Suite spacieuse avec salon séparé, décor romain premium et entrée prioritaire au parc.",
+            "de": "Geräumige Suite mit separatem Wohnbereich und Prioritätszugang zum Park. Frühstück inklusive.",
+            "it": "Suite spaziosa con zona giorno separata e ingresso prioritario al parco. Colazione inclusa.",
+            "nl": "Ruime suite met aparte woonkamer en prioriteitstoegang tot het park. Ontbijt inbegrepen.",
+            "pt": "Suite espaçosa com sala de estar separada e entrada prioritária no parque. Pequeno-almoço incluído.",
+            "ru": "Просторный люкс с приоритетным входом в парк. Завтрак включён.",
+            "zh": "宽敞的套房，含独立客厅和优先入园权限。含早餐。",
+            "ar": "جناح فسيح مع منطقة معيشة منفصلة ودخول أولوية للحديقة. الإفطار مشمول."
+          }
+        }
+      }
+    },
+    "hotel_bell_rock": {
+      "desc": {
+        "en": "4-star New England-inspired hotel with nautical touches, large pool and direct park access. Cheerful Cape Cod architecture. Breakfast included.",
+        "es": "Hotel 4 estrellas inspirado en Nueva Inglaterra con toques náuticos, gran piscina y acceso directo al parque.",
+        "fr": "Hôtel 4 étoiles inspiré de la Nouvelle-Angleterre avec touches nautiques et accès direct au parc.",
+        "de": "4-Sterne Hotel inspiriert von Neuengland mit nautischen Elementen und direktem Parkzugang.",
+        "it": "Hotel 4 stelle ispirato al Nuovo Inghilterra con tocchi nautici e accesso diretto al parco.",
+        "nl": "4-sterren hotel geïnspireerd op Nieuw-Engeland met nautische details en directe parktoegang.",
+        "pt": "Hotel de 4 estrelas inspirado na Nova Inglaterra com toques náuticos e acesso direto ao parque.",
+        "ru": "4-звёздочный отель в стиле Новой Англии с морскими деталями и прямым доступом в парк.",
+        "zh": "四星级新英格兰风格酒店，带有航海元素，大型游泳池和直接进入公园的通道。含早餐。",
+        "ar": "فندق 4 نجوم مستوحى من نيو إنغلاند مع لمسات بحرية وإمكانية الوصول المباشر إلى الحديقة."
+      },
+      "rooms": {
+        "standard": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaard Kamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Cheerful New England styled room with garden or pool views. Breakfast included.",
+            "es": "Alegre habitación estilo Nueva Inglaterra con vistas al jardín o piscina. Desayuno incluido.",
+            "fr": "Chambre joyeuse style Nouvelle-Angleterre. Petit-déjeuner inclus.",
+            "de": "Fröhliches Neuengland-Zimmer mit Garten- oder Poolblick. Frühstück inklusive.",
+            "it": "Allegra camera stile Nuova Inghilterra. Colazione inclusa.",
+            "nl": "Vrolijke Nieuw-Engeland kamer met tuin of poolzicht. Ontbijt inbegrepen.",
+            "pt": "Quarto alegre estilo Nova Inglaterra. Pequeno-almoço incluído.",
+            "ru": "Уютный номер в стиле Новой Англии. Завтрак включён.",
+            "zh": "欢快的新英格兰风格客房，含早餐。",
+            "ar": "غرفة مبهجة بأسلوب نيو إنغلاند. الإفطار مشمول."
+          }
+        },
+        "family": {
+          "name": {
+            "en": "Family Room",
+            "es": "Habitación Familiar",
+            "fr": "Chambre Familiale",
+            "de": "Familienzimmer",
+            "it": "Camera Familiare",
+            "nl": "Familiekamer",
+            "pt": "Quarto Familiar",
+            "ru": "Семейный номер",
+            "zh": "家庭客房",
+            "ar": "غرفة عائلية"
+          },
+          "desc": {
+            "en": "Larger room sleeping up to 2 adults and 2 children with bunk beds and playful decor. Breakfast included.",
+            "es": "Habitación más grande para 2 adultos y 2 niños con literas y decoración divertida. Desayuno incluido.",
+            "fr": "Grande chambre pour 2 adultes et 2 enfants avec lits superposés. Petit-déjeuner inclus.",
+            "de": "Größeres Zimmer für 2 Erwachsene und 2 Kinder mit Etagenbetten. Frühstück inklusive.",
+            "it": "Camera per 2 adulti e 2 bambini con letti a castello. Colazione inclusa.",
+            "nl": "Grotere kamer voor 2 volwassenen en 2 kinderen met stapelbedden. Ontbijt inbegrepen.",
+            "pt": "Quarto maior para 2 adultos e 2 crianças com beliches. Pequeno-almoço incluído.",
+            "ru": "Просторный семейный номер с двухъярусными кроватями. Завтрак включён.",
+            "zh": "较大的家庭客房，可容纳2名成人和2名儿童，配有双层床。含早餐。",
+            "ar": "غرفة أكبر لشخصين بالغين وطفلين مع أسرة بطابقين. الإفطار مشمول."
+          }
+        },
+        "suite": {
+          "name": {
+            "en": "Lighthouse Suite",
+            "es": "Suite Faro",
+            "fr": "Suite Phare",
+            "de": "Leuchtturm Suite",
+            "it": "Suite Faro",
+            "nl": "Vuurtoren Suite",
+            "pt": "Suite Farol",
+            "ru": "Люкс Маяк",
+            "zh": "灯塔套房",
+            "ar": "جناح المنارة"
+          },
+          "desc": {
+            "en": "Premium suite with panoramic views, sitting room and exclusive lounge access. Breakfast included.",
+            "es": "Suite premium con vistas panorámicas y sala de estar. Desayuno incluido.",
+            "fr": "Suite premium avec vues panoramiques et salon. Petit-déjeuner inclus.",
+            "de": "Premium Suite mit Panoramablick und Salon. Frühstück inklusive.",
+            "it": "Suite premium con viste panoramiche e soggiorno. Colazione inclusa.",
+            "nl": "Premium suite met panoramisch uitzicht en zitkamer. Ontbijt inbegrepen.",
+            "pt": "Suite premium com vistas panorâmicas e sala de estar. Pequeno-almoço incluído.",
+            "ru": "Люкс с панорамным видом. Завтрак включён.",
+            "zh": "豪华套房，享有全景美景。含早餐。",
+            "ar": "جناح فاخر مع إطلالات بانورامية. الإفطار مشمول."
+          }
+        }
+      }
+    },
+    "hotel_el_andaluz": {
+      "desc": {
+        "en": "Beautiful 4-star Andalusian-inspired hotel with white-washed walls, terracotta tiles and lush courtyard gardens. Authentic Mediterranean escape. Breakfast included.",
+        "es": "Hermoso hotel de 4 estrellas inspirado en Andalucía con paredes encaladas y jardines de patio.",
+        "fr": "Bel hôtel 4 étoiles inspiré de l Andalousie avec murs blanchis à la chaux et jardins de patio.",
+        "de": "Wunderschönes 4-Sterne Hotel im andalusischen Stil mit weißen Wänden und üppigen Innenhofgärten.",
+        "it": "Bellissimo hotel 4 stelle ispirato all Andalusia con pareti imbiancate e giardini del cortile.",
+        "nl": "Prachtig 4-sterren hotel geïnspireerd op Andalusië met witgepleisterde muren en weelderige patio tuinen.",
+        "pt": "Belo hotel de 4 estrelas inspirado na Andaluzia com paredes caiadas e jardins de pátio.",
+        "ru": "Красивый 4-звёздочный отель в андалузском стиле. Завтрак включён.",
+        "zh": "美丽的安达卢西亚风格四星级酒店，白色墙壁和庭院花园。含早餐。",
+        "ar": "فندق 4 نجوم جميل مستوحى من الأندلس. الإفطار مشمول."
+      },
+      "rooms": {
+        "standard": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaard Kamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Elegant Andalusian-styled room with warm tones, tiled floors and courtyard views. Breakfast included.",
+            "es": "Elegante habitación estilo andaluz con tonos cálidos y vistas al patio. Desayuno incluido.",
+            "fr": "Chambre élégante style andalou avec tons chauds. Petit-déjeuner inclus.",
+            "de": "Elegantes andalusisches Zimmer mit warmen Tönen. Frühstück inklusive.",
+            "it": "Elegante camera in stile andaluso. Colazione inclusa.",
+            "nl": "Elegante Andalusische kamer met warme tinten. Ontbijt inbegrepen.",
+            "pt": "Elegante quarto estilo andaluz. Pequeno-almoço incluído.",
+            "ru": "Элегантный номер в андалузском стиле. Завтрак включён.",
+            "zh": "优雅的安达卢西亚风格客房。含早餐。",
+            "ar": "غرفة أنيقة بأسلوب أندلسي. الإفطار مشمول."
+          }
+        },
+        "superior": {
+          "name": {
+            "en": "Superior Room",
+            "es": "Habitación Superior",
+            "fr": "Chambre Supérieure",
+            "de": "Superior Zimmer",
+            "it": "Camera Superior",
+            "nl": "Superior Kamer",
+            "pt": "Quarto Superior",
+            "ru": "Номер Superior",
+            "zh": "高级客房",
+            "ar": "غرفة سوبيريور"
+          },
+          "desc": {
+            "en": "Larger room with upgraded furnishings, balcony and views over the courtyard fountain. Breakfast included.",
+            "es": "Habitación más grande con balcón y vistas a la fuente del patio. Desayuno incluido.",
+            "fr": "Chambre plus grande avec balcon et vues sur la fontaine du patio. Petit-déjeuner inclus.",
+            "de": "Größeres Zimmer mit Balkon und Blick auf den Hofbrunnen. Frühstück inklusive.",
+            "it": "Camera più grande con balcone e viste sulla fontana del cortile. Colazione inclusa.",
+            "nl": "Grotere kamer met balkon en uitzicht op de patiofontein. Ontbijt inbegrepen.",
+            "pt": "Quarto maior com varanda e vistas para a fonte do pátio. Pequeno-almoço incluído.",
+            "ru": "Просторный номер с балконом. Завтрак включён.",
+            "zh": "较大的客房，带阳台和庭院喷泉景观。含早餐。",
+            "ar": "غرفة أكبر مع شرفة وإطلالات على نافورة الفناء. الإفطار مشمول."
+          }
+        },
+        "suite": {
+          "name": {
+            "en": "Patio Suite",
+            "es": "Suite Patio",
+            "fr": "Suite Patio",
+            "de": "Patio Suite",
+            "it": "Suite Patio",
+            "nl": "Patio Suite",
+            "pt": "Suite Pátio",
+            "ru": "Люкс Патио",
+            "zh": "露台套房",
+            "ar": "جناح الفناء"
+          },
+          "desc": {
+            "en": "Generous suite with private patio, sitting area and premium Spanish decor. Breakfast included.",
+            "es": "Suite generosa con patio privado y decoración española premium. Desayuno incluido.",
+            "fr": "Suite généreuse avec patio privé et décor espagnol premium. Petit-déjeuner inclus.",
+            "de": "Großzügige Suite mit privatem Patio. Frühstück inklusive.",
+            "it": "Suite generosa con patio privato. Colazione inclusa.",
+            "nl": "Royale suite met privé patio. Ontbijt inbegrepen.",
+            "pt": "Suite generosa com pátio privado. Pequeno-almoço incluído.",
+            "ru": "Просторный люкс с частным патио. Завтрак включён.",
+            "zh": "宽敞的套房，带私人露台。含早餐。",
+            "ar": "جناح فسيح مع فناء خاص. الإفطار مشمول."
+          }
         }
       }
     }

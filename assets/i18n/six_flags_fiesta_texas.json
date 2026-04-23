@@ -358,6 +358,86 @@
         "ru": "Величественный JW Marriott.",
         "zh": "附近最宏伟的度假轾。",
         "ar": "أروع منتجع."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaard Kamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable room with free WiFi and pool access.",
+            "es": "Habitación cómoda con WiFi gratuito y acceso a la piscina.",
+            "fr": "Chambre confortable avec WiFi gratuit et accès à la piscine.",
+            "de": "Komfortables Zimmer mit kostenlosem WLAN und Poolzugang.",
+            "it": "Camera confortevole con WiFi gratuito e accesso alla piscina.",
+            "nl": "Comfortabele kamer met gratis WiFi en zwembadtoegang.",
+            "pt": "Quarto confortável com WiFi gratuito e acesso à piscina.",
+            "ru": "Удобный номер с бесплатным Wi-Fi и доступом в бассейн.",
+            "zh": "舒适客房，含免费Wi-Fi和泳池使用权。",
+            "ar": "غرفة مريحة مع واي فاي مجاني وإمكانية الوصول إلى المسبح."
+          }
+        },
+        "deluxe_room": {
+          "name": {
+            "en": "Deluxe Room",
+            "es": "Habitación Deluxe",
+            "fr": "Chambre Deluxe",
+            "de": "Deluxe Zimmer",
+            "it": "Camera Deluxe",
+            "nl": "Deluxe Kamer",
+            "pt": "Quarto Deluxe",
+            "ru": "Номер Deluxe",
+            "zh": "豪华客房",
+            "ar": "غرفة ديلوكس"
+          },
+          "desc": {
+            "en": "Premium deluxe room with upgraded views and amenities.",
+            "es": "Habitación deluxe premium con vistas y comodidades mejoradas.",
+            "fr": "Chambre deluxe premium avec vues et équipements améliorés.",
+            "de": "Premium Deluxe-Zimmer mit verbesserten Aussichten.",
+            "it": "Camera deluxe premium con viste e comfort migliorati.",
+            "nl": "Premium deluxe kamer met verbeterd uitzicht en voorzieningen.",
+            "pt": "Quarto deluxe premium com vistas e comodidades melhoradas.",
+            "ru": "Премиум deluxe номер с улучшенными видами.",
+            "zh": "高级豪华客房，享有升级景观和设施。",
+            "ar": "غرفة ديلوكس فاخرة مع إطلالات ومرافق محسنة."
+          }
+        },
+        "suite": {
+          "name": {
+            "en": "Suite",
+            "es": "Suite",
+            "fr": "Suite",
+            "de": "Suite",
+            "it": "Suite",
+            "nl": "Suite",
+            "pt": "Suite",
+            "ru": "Люкс",
+            "zh": "套房",
+            "ar": "جناح"
+          },
+          "desc": {
+            "en": "Spacious suite with separate living area and premium amenities.",
+            "es": "Suite espaciosa con sala de estar separada y comodidades premium.",
+            "fr": "Suite spacieuse avec salon séparé et équipements premium.",
+            "de": "Geräumige Suite mit separatem Wohnbereich.",
+            "it": "Suite spaziosa con zona giorno separata.",
+            "nl": "Ruime suite met aparte woonkamer.",
+            "pt": "Suite espaçosa com sala de estar separada.",
+            "ru": "Просторный люкс с отдельной гостиной.",
+            "zh": "宽敞的套房，带独立客厅。",
+            "ar": "جناح فسيح مع منطقة معيشة منفصلة."
+          }
+        }
       }
     },
     "hotel_hyatt_regency_san_antonio": {
@@ -372,6 +452,86 @@
         "ru": "Отель на River Walk.",
         "zh": "River Walk富丽四星酒店。",
         "ar": "Hyatt على River Walk."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaard Kamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable room with free WiFi and pool access.",
+            "es": "Habitación cómoda con WiFi gratuito y acceso a la piscina.",
+            "fr": "Chambre confortable avec WiFi gratuit et accès à la piscine.",
+            "de": "Komfortables Zimmer mit kostenlosem WLAN und Poolzugang.",
+            "it": "Camera confortevole con WiFi gratuito e accesso alla piscina.",
+            "nl": "Comfortabele kamer met gratis WiFi en zwembadtoegang.",
+            "pt": "Quarto confortável com WiFi gratuito e acesso à piscina.",
+            "ru": "Удобный номер с бесплатным Wi-Fi и доступом в бассейн.",
+            "zh": "舒适客房，含免费Wi-Fi和泳池使用权。",
+            "ar": "غرفة مريحة مع واي فاي مجاني وإمكانية الوصول إلى المسبح."
+          }
+        },
+        "river_view": {
+          "name": {
+            "en": "River View Room",
+            "es": "Habitación con Vista al Río",
+            "fr": "Chambre Vue Rivière",
+            "de": "Flussblick Zimmer",
+            "it": "Camera Vista Fiume",
+            "nl": "Rivierzicht Kamer",
+            "pt": "Quarto Vista Rio",
+            "ru": "Номер с видом на реку",
+            "zh": "河景客房",
+            "ar": "غرفة إطلالة النهر"
+          },
+          "desc": {
+            "en": "Premium room with direct River Walk views.",
+            "es": "Habitación premium con vistas directas al River Walk.",
+            "fr": "Chambre premium avec vues directes sur le River Walk.",
+            "de": "Premium Zimmer mit direktem Blick auf den River Walk.",
+            "it": "Camera premium con viste dirette sul River Walk.",
+            "nl": "Premium kamer met direct uitzicht op de River Walk.",
+            "pt": "Quarto premium com vistas directas para o River Walk.",
+            "ru": "Премиум номер с прямым видом на River Walk.",
+            "zh": "豪华客房，可直接俯瞰河畔步道。",
+            "ar": "غرفة فاخرة مع إطلالات مباشرة على River Walk."
+          }
+        },
+        "suite": {
+          "name": {
+            "en": "Suite",
+            "es": "Suite",
+            "fr": "Suite",
+            "de": "Suite",
+            "it": "Suite",
+            "nl": "Suite",
+            "pt": "Suite",
+            "ru": "Люкс",
+            "zh": "套房",
+            "ar": "جناح"
+          },
+          "desc": {
+            "en": "Spacious suite with separate living area and premium amenities.",
+            "es": "Suite espaciosa con sala de estar separada y comodidades premium.",
+            "fr": "Suite spacieuse avec salon séparé et équipements premium.",
+            "de": "Geräumige Suite mit separatem Wohnbereich.",
+            "it": "Suite spaziosa con zona giorno separata.",
+            "nl": "Ruime suite met aparte woonkamer.",
+            "pt": "Suite espaçosa com sala de estar separada.",
+            "ru": "Просторный люкс с отдельной гостиной.",
+            "zh": "宽敞的套房，带独立客厅。",
+            "ar": "جناح فسيح مع منطقة معيشة منفصلة."
+          }
+        }
       }
     },
     "hotel_marriott_rivercenter": {
@@ -386,6 +546,86 @@
         "ru": "Marriott на River Walk.",
         "zh": "River Walk宏伟的Marriott酒店。",
         "ar": "Marriott على River Walk."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaard Kamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable room with free WiFi and pool access.",
+            "es": "Habitación cómoda con WiFi gratuito y acceso a la piscina.",
+            "fr": "Chambre confortable avec WiFi gratuit et accès à la piscine.",
+            "de": "Komfortables Zimmer mit kostenlosem WLAN und Poolzugang.",
+            "it": "Camera confortevole con WiFi gratuito e accesso alla piscina.",
+            "nl": "Comfortabele kamer met gratis WiFi en zwembadtoegang.",
+            "pt": "Quarto confortável com WiFi gratuito e acesso à piscina.",
+            "ru": "Удобный номер с бесплатным Wi-Fi и доступом в бассейн.",
+            "zh": "舒适客房，含免费Wi-Fi和泳池使用权。",
+            "ar": "غرفة مريحة مع واي فاي مجاني وإمكانية الوصول إلى المسبح."
+          }
+        },
+        "deluxe_room": {
+          "name": {
+            "en": "Deluxe Room",
+            "es": "Habitación Deluxe",
+            "fr": "Chambre Deluxe",
+            "de": "Deluxe Zimmer",
+            "it": "Camera Deluxe",
+            "nl": "Deluxe Kamer",
+            "pt": "Quarto Deluxe",
+            "ru": "Номер Deluxe",
+            "zh": "豪华客房",
+            "ar": "غرفة ديلوكس"
+          },
+          "desc": {
+            "en": "Premium deluxe room with upgraded views and amenities.",
+            "es": "Habitación deluxe premium con vistas y comodidades mejoradas.",
+            "fr": "Chambre deluxe premium avec vues et équipements améliorés.",
+            "de": "Premium Deluxe-Zimmer mit verbesserten Aussichten.",
+            "it": "Camera deluxe premium con viste e comfort migliorati.",
+            "nl": "Premium deluxe kamer met verbeterd uitzicht en voorzieningen.",
+            "pt": "Quarto deluxe premium com vistas e comodidades melhoradas.",
+            "ru": "Премиум deluxe номер с улучшенными видами.",
+            "zh": "高级豪华客房，享有升级景观和设施。",
+            "ar": "غرفة ديلوكس فاخرة مع إطلالات ومرافق محسنة."
+          }
+        },
+        "suite": {
+          "name": {
+            "en": "Suite",
+            "es": "Suite",
+            "fr": "Suite",
+            "de": "Suite",
+            "it": "Suite",
+            "nl": "Suite",
+            "pt": "Suite",
+            "ru": "Люкс",
+            "zh": "套房",
+            "ar": "جناح"
+          },
+          "desc": {
+            "en": "Spacious suite with separate living area and premium amenities.",
+            "es": "Suite espaciosa con sala de estar separada y comodidades premium.",
+            "fr": "Suite spacieuse avec salon séparé et équipements premium.",
+            "de": "Geräumige Suite mit separatem Wohnbereich.",
+            "it": "Suite spaziosa con zona giorno separata.",
+            "nl": "Ruime suite met aparte woonkamer.",
+            "pt": "Suite espaçosa com sala de estar separada.",
+            "ru": "Просторный люкс с отдельной гостиной.",
+            "zh": "宽敞的套房，带独立客厅。",
+            "ar": "جناح فسيح مع منطقة معيشة منفصلة."
+          }
+        }
       }
     },
     "hotel_emily_morgan": {
@@ -400,6 +640,86 @@
         "ru": "Отель рядом с Аламо.",
         "zh": "阿兰莫旁精品酒店。",
         "ar": "فندق بوتيك بجانب الألامو."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaard Kamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable room with free WiFi and pool access.",
+            "es": "Habitación cómoda con WiFi gratuito y acceso a la piscina.",
+            "fr": "Chambre confortable avec WiFi gratuit et accès à la piscine.",
+            "de": "Komfortables Zimmer mit kostenlosem WLAN und Poolzugang.",
+            "it": "Camera confortevole con WiFi gratuito e accesso alla piscina.",
+            "nl": "Comfortabele kamer met gratis WiFi en zwembadtoegang.",
+            "pt": "Quarto confortável com WiFi gratuito e acesso à piscina.",
+            "ru": "Удобный номер с бесплатным Wi-Fi и доступом в бассейн.",
+            "zh": "舒适客房，含免费Wi-Fi和泳池使用权。",
+            "ar": "غرفة مريحة مع واي فاي مجاني وإمكانية الوصول إلى المسبح."
+          }
+        },
+        "deluxe_room": {
+          "name": {
+            "en": "Deluxe Room",
+            "es": "Habitación Deluxe",
+            "fr": "Chambre Deluxe",
+            "de": "Deluxe Zimmer",
+            "it": "Camera Deluxe",
+            "nl": "Deluxe Kamer",
+            "pt": "Quarto Deluxe",
+            "ru": "Номер Deluxe",
+            "zh": "豪华客房",
+            "ar": "غرفة ديلوكس"
+          },
+          "desc": {
+            "en": "Premium deluxe room with upgraded views and amenities.",
+            "es": "Habitación deluxe premium con vistas y comodidades mejoradas.",
+            "fr": "Chambre deluxe premium avec vues et équipements améliorés.",
+            "de": "Premium Deluxe-Zimmer mit verbesserten Aussichten.",
+            "it": "Camera deluxe premium con viste e comfort migliorati.",
+            "nl": "Premium deluxe kamer met verbeterd uitzicht en voorzieningen.",
+            "pt": "Quarto deluxe premium com vistas e comodidades melhoradas.",
+            "ru": "Премиум deluxe номер с улучшенными видами.",
+            "zh": "高级豪华客房，享有升级景观和设施。",
+            "ar": "غرفة ديلوكس فاخرة مع إطلالات ومرافق محسنة."
+          }
+        },
+        "suite": {
+          "name": {
+            "en": "Suite",
+            "es": "Suite",
+            "fr": "Suite",
+            "de": "Suite",
+            "it": "Suite",
+            "nl": "Suite",
+            "pt": "Suite",
+            "ru": "Люкс",
+            "zh": "套房",
+            "ar": "جناح"
+          },
+          "desc": {
+            "en": "Spacious suite with separate living area and premium amenities.",
+            "es": "Suite espaciosa con sala de estar separada y comodidades premium.",
+            "fr": "Suite spacieuse avec salon séparé et équipements premium.",
+            "de": "Geräumige Suite mit separatem Wohnbereich.",
+            "it": "Suite spaziosa con zona giorno separata.",
+            "nl": "Ruime suite met aparte woonkamer.",
+            "pt": "Suite espaçosa com sala de estar separada.",
+            "ru": "Просторный люкс с отдельной гостиной.",
+            "zh": "宽敞的套房，带独立客厅。",
+            "ar": "جناح فسيح مع منطقة معيشة منفصلة."
+          }
+        }
       }
     }
   }
