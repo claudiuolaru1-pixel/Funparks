@@ -1242,19 +1242,11 @@ class _OverviewTab extends StatelessWidget {
             const SizedBox(width: 10),
             Expanded(
               child: OutlinedButton.icon(
-                onPressed: () async {
-                  final country = park.country.toLowerCase();
-                  final query = Uri.encodeComponent('${park.city ?? ''} ${park.name} priority access fast track'.trim());
-                  Uri url;
-                  if (country.contains('japan') || country.contains('china') || country.contains('korea') || country.contains('hong kong') || country.contains('singapore') || country.contains('thailand') || country.contains('taiwan') || country.contains('indonesia') || country.contains('malaysia') || country.contains('philippines')) {
-                    url = Uri.parse('https://affiliate.klook.com/redirect?aid=119449&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fsearch%2F%3Fquery%3D$query');
-                  } else if (country.contains('usa') || country.contains('united states') || country.contains('canada') || country.contains('australia') || country.contains('mexico')) {
-                    url = Uri.parse('https://www.viator.com/search/$query?pid=P00298240&mcid=42383&medium=link');
-                  } else {
-                    url = Uri.parse('https://www.getyourguide.com/s/?q=$query&partner_id=GVNQTTL');
-                  }
-                  await launchUrl(url, mode: LaunchMode.externalApplication);
-                },
+                  onPressed: () async {
+                    final q = Uri.encodeComponent('${park.city ?? ''} ${park.name}'.trim());
+                    final url = Uri.parse('https://www.getyourguide.com/s/?q=$q&filters=activity_type%3ASkip+the+Line&partner_id=GVNQTTL');
+                    await launchUrl(url, mode: LaunchMode.externalApplication);
+                  },
                 icon: const Icon(Icons.bolt),
                 label: const Text('Skip the Line'),
               ),
@@ -1279,19 +1271,11 @@ class _OverviewTab extends StatelessWidget {
           children: [
             Expanded(
               child: OutlinedButton.icon(
-                onPressed: () async {
-                  final country = park.country.toLowerCase();
-                  final query = Uri.encodeComponent('${park.city ?? ''} ${park.name} guided tour day trip'.trim());
-                  Uri url;
-                  if (country.contains('japan') || country.contains('china') || country.contains('korea') || country.contains('hong kong') || country.contains('singapore') || country.contains('thailand') || country.contains('taiwan') || country.contains('indonesia') || country.contains('malaysia') || country.contains('philippines')) {
-                    url = Uri.parse('https://affiliate.klook.com/redirect?aid=119449&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fsearch%2F%3Fquery%3D$query');
-                  } else if (country.contains('usa') || country.contains('united states') || country.contains('canada') || country.contains('australia') || country.contains('mexico')) {
-                    url = Uri.parse('https://www.viator.com/search/$query?pid=P00298240&mcid=42383&medium=link');
-                  } else {
-                    url = Uri.parse('https://www.getyourguide.com/s/?q=$query&partner_id=GVNQTTL');
-                  }
-                  await launchUrl(url, mode: LaunchMode.externalApplication);
-                },
+                  onPressed: () async {
+                    final q = Uri.encodeComponent('${park.city ?? ''} ${park.name} tours'.trim());
+                    final url = Uri.parse('https://www.viator.com/search/$q?pid=P00298240&mcid=42383&medium=link');
+                    await launchUrl(url, mode: LaunchMode.externalApplication);
+                  },
                 icon: const Icon(Icons.explore),
                 label: const Text('Tours & Experiences'),
               ),
