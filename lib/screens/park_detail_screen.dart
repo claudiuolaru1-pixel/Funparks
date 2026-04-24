@@ -1244,7 +1244,7 @@ class _OverviewTab extends StatelessWidget {
               child: OutlinedButton.icon(
                 onPressed: () async {
                   final country = park.country.toLowerCase();
-                  final query = Uri.encodeComponent('${park.city ?? ''} ${park.name}'.trim());
+                  final query = Uri.encodeComponent('${park.city ?? ''} ${park.name} priority access fast track'.trim());
                   Uri url;
                   if (country.contains('japan') || country.contains('china') || country.contains('korea') || country.contains('hong kong') || country.contains('singapore') || country.contains('thailand') || country.contains('taiwan') || country.contains('indonesia') || country.contains('malaysia') || country.contains('philippines')) {
                     url = Uri.parse('https://affiliate.klook.com/redirect?aid=119449&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fsearch%2F%3Fquery%3D$query');
@@ -1281,7 +1281,7 @@ class _OverviewTab extends StatelessWidget {
               child: OutlinedButton.icon(
                 onPressed: () async {
                   final country = park.country.toLowerCase();
-                  final query = Uri.encodeComponent('${park.city ?? ''} ${park.name} tours'.trim());
+                  final query = Uri.encodeComponent('${park.city ?? ''} ${park.name} guided tour day trip'.trim());
                   Uri url;
                   if (country.contains('japan') || country.contains('china') || country.contains('korea') || country.contains('hong kong') || country.contains('singapore') || country.contains('thailand') || country.contains('taiwan') || country.contains('indonesia') || country.contains('malaysia') || country.contains('philippines')) {
                     url = Uri.parse('https://affiliate.klook.com/redirect?aid=119449&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fsearch%2F%3Fquery%3D$query');
