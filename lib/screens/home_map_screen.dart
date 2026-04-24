@@ -7,6 +7,7 @@ import '../l10n/app_localizations.dart';
 import '../models/park_summary.dart';
 import '../widgets/park_image.dart';
 import '../widgets/shimmer_park_list.dart';
+import '../widgets/blog_card.dart';
 import 'package:flutter/services.dart';
 import 'package:audioplayers/audioplayers.dart';
 
@@ -436,14 +437,19 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
           if (!_loading && _filtered.isNotEmpty)
             Expanded(
               flex: 2,
-              child: ListView.separated(
+              child: ListView.builder(
                 padding: const EdgeInsets.symmetric(vertical: 6),
-                itemCount: _filtered.length,
-                separatorBuilder: (_, __) =>
-                    const Divider(height: 1, indent: 16, endIndent: 16),
+                itemCount: _filtered.length + (_filtered.length ~/ 6),
                 itemBuilder: (_, i) {
-                  final p = _filtered[i];
-                  return ListTile(
+                  // Insert blog card every 6 parks
+                  final blogInserts = i ~/ 7;
+                  final parkIndex = i - blogInserts;
+                  if (i > 0 && i % 7 == 0 && blogInserts <= _filtered.length ~/ 6) {
+                    return const BlogCard();
+                  }
+                  if (parkIndex >= _filtered.length) return const SizedBox.shrink();
+                  final p = _filtered[parkIndex];
+                  return Column(children:[if(parkIndex>0)const Divider(height:1,indent:16,endIndent:16),ListTile(
                     leading: Hero(
                       tag: 'park_hero_${p.id}',
                       child: ClipRRect(
@@ -480,7 +486,7 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
                               LatLng(p.lat, p.lng), 12));
                       _openPark(p);
                         },
-                      );
+                      ),]);
                     },
                   ),
                 ),
