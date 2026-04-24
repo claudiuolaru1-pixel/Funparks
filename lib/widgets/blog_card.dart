@@ -4,7 +4,8 @@ import 'dart:convert';
 import 'package:url_launcher/url_launcher.dart';
 
 class BlogCard extends StatefulWidget {
-  const BlogCard({super.key});
+  final int postIndex;
+  const BlogCard({super.key, this.postIndex = 0});
   @override
   State<BlogCard> createState() => _BlogCardState();
 }
@@ -27,7 +28,8 @@ class _BlogCardState extends State<BlogCard> {
       if (res.statusCode == 200) {
         final list = jsonDecode(res.body) as List;
         if (list.isNotEmpty && mounted) {
-          setState(() { _post = list[0] as Map<String, dynamic>; _loading = false; });
+          final idx = widget.postIndex % list.length;
+          setState(() { _post = list[idx] as Map<String, dynamic>; _loading = false; });
           return;
         }
       }
