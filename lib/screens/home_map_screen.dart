@@ -445,7 +445,7 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
                   final blogInserts = i ~/ 7;
                   final parkIndex = i - blogInserts;
                   if (i > 0 && i % 7 == 0 && blogInserts <= _filtered.length ~/ 6) {
-                    return const BlogCard();
+                    return BlogCard(postIndex: blogInserts - 1);
                   }
                   if (parkIndex >= _filtered.length) return const SizedBox.shrink();
                   final p = _filtered[parkIndex];
