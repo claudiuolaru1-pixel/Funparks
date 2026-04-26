@@ -1,0 +1,58 @@
+workflows:
+  ios-release:
+    name: iOS Release
+    max_build_duration: 60
+    environment:
+      flutter: 3.24.0
+      xcode: latest
+      cocoapods: default
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.funparks.app
+      vars:
+        APP_STORE_CONNECT_ISSUER_ID: Encrypted(REPLACE_WITH_ISSUER_ID)
+        APP_STORE_CONNECT_KEY_IDENTIFIER: Encrypted(REPLACE_WITH_KEY_ID)
+        APP_STORE_CONNECT_PRIVATE_KEY: Encrypted(REPLACE_WITH_PRIVATE_KEY)
+    scripts:
+      - name: Get Flutter packages
+        script: flutter pub get
+      - name: Install pods
+        script: |
+          find . -name "Podfile" -execdir pod install \;
+      - name: Build iOS release
+        script: |
+          flutter build ipa \
+            --release \
+            --export-options-plist=/Users/builder/export_options.plist
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+    publishing:
+      app_store_connect:
+        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+        submit_to_testflight: true
+        expire_build_validity_in_days: 30
+
+  ios-debug:
+    name: iOS Debug (TestFlight only)
+    max_build_duration: 60
+    environment:
+      flutter: 3.24.0
+      xcode: latest
+      cocoapods: default
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.funparks.app
+    scripts:
+      - name: Get Flutter packages
+        script: flutter pub get
+      - name: Install pods
+        script: |
+          find . -name "Podfile" -execdir pod install \;
+      - name: Build iOS
+        script: |
+          flutter build ipa --release
+    artifacts:
+      - build/ios/ipa/*.ipa
