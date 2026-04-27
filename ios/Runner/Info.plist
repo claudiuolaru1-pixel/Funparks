@@ -45,5 +45,12 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
-</dict>
+<key>NSMicrophoneUsageDescription</key>
+<string>Funparks uses the microphone for voice search to find theme parks and attractions.</string>
+<key>NSSpeechRecognitionUsageDescription</key>
+<string>Funparks uses speech recognition to let you search for parks using your voice.</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>Funparks uses your location to show nearby theme parks and distances.</string>
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>Funparks uses your location to show nearby theme parks and distances.</string></dict>
 </plist>
