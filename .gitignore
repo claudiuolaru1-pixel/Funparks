@@ -1,4 +1,4 @@
-﻿# Flutter/Dart/Pub
+# Flutter/Dart/Pub
 .dart_tool/
 .packages
 .pub/
@@ -59,7 +59,6 @@ tmp_aab/
 # Secrets (IMPORTANT)
 **/google-services.json
 **/GoogleService-Info.plist
-**/firebase_options.dart
 
 serviceAccountKey.json
 
