@@ -58,7 +58,6 @@ tmp_aab/
 
 # Secrets (IMPORTANT)
 **/google-services.json
-**/GoogleService-Info.plist
 
 serviceAccountKey.json
 
