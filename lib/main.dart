@@ -21,8 +21,13 @@ bool _mapsRendererInitialized = false;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  if (Firebase.apps.isEmpty) {
-    await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  try {
+    if (Firebase.apps.isEmpty) {
+      await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+    }
+  } catch (e) {
+    // Firebase already initialized by native plugin on iOS
+    debugPrint('Firebase init: $e');
   }
   if (!_mapsRendererInitialized &&
       !kIsWeb &&
