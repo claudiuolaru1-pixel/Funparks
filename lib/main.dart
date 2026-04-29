@@ -21,7 +21,9 @@ bool _mapsRendererInitialized = false;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  if (Firebase.apps.isEmpty) {
+    await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  }
   if (!_mapsRendererInitialized &&
       !kIsWeb &&
       defaultTargetPlatform == TargetPlatform.android) {
