@@ -23,10 +23,13 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   try {
     if (Firebase.apps.isEmpty) {
-      await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+      if (defaultTargetPlatform == TargetPlatform.iOS || defaultTargetPlatform == TargetPlatform.macOS) {
+        await Firebase.initializeApp();
+      } else {
+        await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+      }
     }
   } catch (e) {
-    // Firebase already initialized by native plugin on iOS
     debugPrint('Firebase init: $e');
   }
   if (!_mapsRendererInitialized &&
