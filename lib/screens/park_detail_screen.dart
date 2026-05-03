@@ -2056,6 +2056,7 @@ class _AttractionDetailScreenState
     ];
 
     return Scaffold(
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
         title: Text(a.name),
         actions: [

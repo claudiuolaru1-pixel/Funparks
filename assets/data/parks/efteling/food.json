@@ -1,6 +1,218 @@
-﻿[
-  {"id":"restaurant_piraat","name":"Restaurant Piraat","type":"restaurant","priceRange":"$$","lat":51.6497,"lng":5.0460,"image":"assets/images/efteling/food_restaurant_piraat.png"},
-  {"id":"polles_keuken","name":"Polles Keuken","type":"restaurant","priceRange":"$$","lat":51.6499,"lng":5.0458,"image":"assets/images/efteling/food_polles_keuken.png"},
-  {"id":"grand_cafe_roodkapje","name":"Grand Cafe Roodkapje","type":"cafe","priceRange":"$$","lat":51.6495,"lng":5.0463,"image":"assets/images/efteling/food_grand_cafe_roodkapje.png"},
-  {"id":"pancake_house","name":"Pancake House","type":"cafe","priceRange":"$","lat":51.6493,"lng":5.0466,"image":"assets/images/efteling/food_pancake_house.png"}
+[
+  {
+    "id": "restaurant_piraat",
+    "name": "Restaurant Piraat",
+    "type": "Restaurant",
+    "description": "A grand pirate-themed restaurant serving Dutch and international dishes in an atmospheric setting inspired by the legend of the Flying Dutchman. Family-friendly with a wide menu.",
+    "image": "assets/images/efteling/food_restaurant_piraat.png",
+    "lat": 51.6497,
+    "lng": 5.046,
+    "rating": 4.3,
+    "topPick": true,
+    "priceRange": "$$",
+    "items": [
+      {
+        "name": "Stamppot",
+        "description": "Traditional Dutch mashed potatoes with sausage and vegetables",
+        "price": 14.5
+      },
+      {
+        "name": "Chicken Schnitzel",
+        "description": "Breaded chicken schnitzel with fries and salad",
+        "price": 16.9
+      },
+      {
+        "name": "Fish & Chips",
+        "description": "Beer-battered fish fillet with chunky fries",
+        "price": 15.5
+      },
+      {
+        "name": "Pirate Burger",
+        "description": "Double beef burger with bacon and special sauce",
+        "price": 15.9
+      },
+      {
+        "name": "Kids Menu",
+        "description": "Choice of pasta, nuggets or hot dog with fries and juice",
+        "price": 9.5
+      },
+      {
+        "name": "Soup of the Day",
+        "description": "Seasonal Dutch soup with bread roll",
+        "price": 6.5
+      },
+      {
+        "name": "Apple Pie",
+        "description": "Traditional Dutch apple pie with cream",
+        "price": 5.9
+      },
+      {
+        "name": "Soft Drink",
+        "description": "330ml can",
+        "price": 3.5
+      }
+    ]
+  },
+  {
+    "id": "polles_keuken",
+    "name": "Polles Keuken",
+    "type": "Restaurant",
+    "description": "Named after the beloved Efteling character Polles, this family restaurant offers warm, homestyle Dutch cooking in a whimsical fairy tale setting loved by children and adults alike.",
+    "image": "assets/images/efteling/food_polles_keuken.png",
+    "lat": 51.6499,
+    "lng": 5.0458,
+    "rating": 4.4,
+    "topPick": true,
+    "priceRange": "$$",
+    "items": [
+      {
+        "name": "Erwtensoep",
+        "description": "Thick Dutch pea soup with smoked sausage",
+        "price": 8.5
+      },
+      {
+        "name": "Beef Stew",
+        "description": "Slow-cooked Dutch beef stew with mashed potatoes",
+        "price": 17.5
+      },
+      {
+        "name": "Pancakes",
+        "description": "Three Dutch pancakes with bacon and syrup",
+        "price": 13.9
+      },
+      {
+        "name": "Vegetarian Pasta",
+        "description": "Fresh pasta with seasonal vegetables in tomato sauce",
+        "price": 13.5
+      },
+      {
+        "name": "Kids Pancake",
+        "description": "Mini pancake with chocolate sauce and sprinkles",
+        "price": 7.5
+      },
+      {
+        "name": "Uitsmijter",
+        "description": "Open sandwich with fried eggs, ham and cheese",
+        "price": 11.9
+      },
+      {
+        "name": "Stroopwafel Dessert",
+        "description": "Warm stroopwafel with vanilla ice cream",
+        "price": 6.5
+      },
+      {
+        "name": "Hot Chocolate",
+        "description": "Rich Dutch hot chocolate",
+        "price": 4.5
+      }
+    ]
+  },
+  {
+    "id": "grand_cafe_roodkapje",
+    "name": "Grand Cafe Roodkapje",
+    "type": "Cafe",
+    "description": "A charming grand cafe inspired by Little Red Riding Hood, offering light meals, coffee, and snacks in a cosy fairy tale atmosphere perfect for a relaxing break during your park visit.",
+    "image": "assets/images/efteling/food_grand_cafe_roodkapje.png",
+    "lat": 51.6495,
+    "lng": 5.0463,
+    "rating": 4.2,
+    "topPick": false,
+    "priceRange": "$",
+    "items": [
+      {
+        "name": "Club Sandwich",
+        "description": "Triple-decker sandwich with chicken, bacon and salad",
+        "price": 12.9
+      },
+      {
+        "name": "Quiche of the Day",
+        "description": "Freshly baked quiche with salad garnish",
+        "price": 10.5
+      },
+      {
+        "name": "Croissant",
+        "description": "Butter croissant with jam or cheese",
+        "price": 4.5
+      },
+      {
+        "name": "Cappuccino",
+        "description": "Italian-style cappuccino",
+        "price": 4.2
+      },
+      {
+        "name": "Espresso",
+        "description": "Double shot espresso",
+        "price": 3.5
+      },
+      {
+        "name": "Fresh Juice",
+        "description": "Orange, apple or mixed fruit juice",
+        "price": 4.9
+      },
+      {
+        "name": "Cake Slice",
+        "description": "Choice of chocolate, carrot or lemon cake",
+        "price": 5.5
+      },
+      {
+        "name": "Soft Drink",
+        "description": "330ml can",
+        "price": 3.5
+      }
+    ]
+  },
+  {
+    "id": "pancake_house",
+    "name": "Pancake House",
+    "type": "Pancake House",
+    "description": "A dedicated Dutch pancake house serving the full range of sweet and savoury pancakes. A Efteling institution and must-visit for anyone wanting an authentic Dutch treat during their day.",
+    "image": "assets/images/efteling/food_pancake_house.png",
+    "lat": 51.6493,
+    "lng": 5.0466,
+    "rating": 4.6,
+    "topPick": true,
+    "priceRange": "$",
+    "items": [
+      {
+        "name": "Classic Dutch Pancake",
+        "description": "Large thin pancake with butter and syrup",
+        "price": 9.5
+      },
+      {
+        "name": "Bacon & Syrup Pancake",
+        "description": "Pancake topped with crispy bacon and maple syrup",
+        "price": 11.9
+      },
+      {
+        "name": "Strawberry Pancake",
+        "description": "Pancake with fresh strawberries and whipped cream",
+        "price": 12.5
+      },
+      {
+        "name": "Cheese Pancake",
+        "description": "Savoury pancake with melted Gouda cheese",
+        "price": 10.9
+      },
+      {
+        "name": "Nutella Pancake",
+        "description": "Pancake with Nutella and banana",
+        "price": 11.5
+      },
+      {
+        "name": "Apple Cinnamon Pancake",
+        "description": "Pancake with stewed apple and cinnamon sugar",
+        "price": 11.9
+      },
+      {
+        "name": "Kids Pancake",
+        "description": "Small pancake with chocolate sprinkles",
+        "price": 7.5
+      },
+      {
+        "name": "Poffertjes",
+        "description": "Traditional mini Dutch pancakes with powdered sugar",
+        "price": 8.5
+      }
+    ]
+  }
 ]
