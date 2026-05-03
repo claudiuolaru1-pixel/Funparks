@@ -906,7 +906,7 @@ class _SoftBadge extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(999),
-        color: cs.surfaceContainerHighest,
+        color: const Color(0xFFF5F5F5),
         border: Border.all(color: cs.outlineVariant.withOpacity(0.25)),
       ),
       child: Row(
@@ -987,7 +987,7 @@ class _TextCard extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16),
-        color: cs.surface,
+        color: Colors.white,
         border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
         boxShadow: const [
           BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12)
@@ -1579,7 +1579,7 @@ class _AttractionTopCard extends StatelessWidget {
         child: Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(16),
-            color: cs.surface,
+            color: Colors.white,
             border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
             boxShadow: const [
               BoxShadow(
@@ -1764,7 +1764,7 @@ class _ActionPill extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(999),
-        color: cs.surfaceContainerHighest,
+        color: const Color(0xFFF5F5F5),
         border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
       ),
       child: Column(
@@ -2343,7 +2343,7 @@ class _FoodTopCard extends StatelessWidget {
         child: Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
-            color: cs.surface,
+            color: Colors.white,
             border:
                 Border.all(color: cs.outlineVariant.withOpacity(0.35)),
             boxShadow: const [
@@ -2465,7 +2465,7 @@ class _FoodRow extends StatelessWidget {
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
-          color: cs.surface,
+          color: Colors.white,
           border:
               Border.all(color: cs.outlineVariant.withOpacity(0.35)),
           boxShadow: const [
@@ -2547,7 +2547,7 @@ class _FoodActionPill extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(999),
-        color: cs.surfaceContainerHighest,
+        color: const Color(0xFFF5F5F5),
         border:
             Border.all(color: cs.outlineVariant.withOpacity(0.35)),
       ),
@@ -2703,7 +2703,7 @@ class _FoodDetailScreenState extends State<_FoodDetailScreen> {
               padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(16),
-                color: cs.surface,
+                color: Colors.white,
                 border: Border.all(
                     color: cs.outlineVariant.withOpacity(0.35)),
                 boxShadow: const [
@@ -2785,7 +2785,7 @@ class _FoodDetailScreenState extends State<_FoodDetailScreen> {
                     padding: const EdgeInsets.all(12),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(14),
-                      color: cs.surface,
+                      color: Colors.white,
                       border: Border.all(
                           color:
                               cs.outlineVariant.withOpacity(0.30)),
