@@ -671,7 +671,7 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
                     ),
                   )
                 : Stack(children: [
-                    Positioned.fill(child: TabBarView(
+                    TabBarView(
                     controller: _tabController,
                     children: [
                       _OverviewTab(
@@ -727,7 +727,7 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
                               subtitle: 'Hotels will appear here soon.',
                              ),
                     ],
-                    )),
+                    ),
                   AnimatedBuilder(
                     animation: _tabController,
                     builder: (context, _) => Positioned(
@@ -1418,7 +1418,7 @@ class _AttractionsTabState extends State<_AttractionsTab> {
     final topPicks = widget.attractions.where((a) => a.topPick).toList();
     final list = _sorted(widget.attractions);
 
-    return ListView(
+    return Container(color: Colors.white, child: ListView(
       padding: const EdgeInsets.fromLTRB(16, 14, 16, 22),
       children: [
         Consumer<AppState>(
@@ -1512,7 +1512,7 @@ class _AttractionsTabState extends State<_AttractionsTab> {
         ),
         const SizedBox(height: 8),
       ],
-    );
+    ));
   }
 }
 
