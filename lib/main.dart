@@ -102,7 +102,7 @@ class FunparksApp extends StatelessWidget {
             pageTransitionsTheme: const PageTransitionsTheme(
               builders: {
                 TargetPlatform.android: _FadeScaleTransitionsBuilder(),
-                TargetPlatform.iOS: _FadeScaleTransitionsBuilder(),
+                TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
               },
             ),
           ),
