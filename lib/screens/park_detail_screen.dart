@@ -1489,18 +1489,18 @@ class _AttractionsTabState extends State<_AttractionsTab> {
           ),
           const SizedBox(height: 16),
         ],
-        ...list.map((a) => Padding(
-              padding: const EdgeInsets.only(bottom: 12),
-              child: _AttractionRow(
-                parkId: widget.parkId,
-                attraction: a,
-                i18n: widget.i18n,
-                categoryLabel: widget.categoryLabel,
-                onTap: () { HapticFeedback.selectionClick(); _openDetails(a); },
-                onDirections: () => widget.onDirections(a),
-              ),
-            )),
-        const SizedBox(height: 8),
+        for (final a in list)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: _AttractionRow(
+              parkId: widget.parkId,
+              attraction: a,
+              i18n: widget.i18n,
+              categoryLabel: widget.categoryLabel,
+              onTap: () { HapticFeedback.selectionClick(); _openDetails(a); },
+              onDirections: () => widget.onDirections(a),
+            ),
+          ),
         Center(
           child: Text(
             'Powered by Queue-Times.com',
