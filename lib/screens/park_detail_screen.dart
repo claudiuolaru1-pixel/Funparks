@@ -1705,17 +1705,7 @@ class _AttractionRow extends StatelessWidget {
                     _SoftBadge(
                         icon: Icons.star,
                         text: attraction.rating.toStringAsFixed(1)),
-                    StreamBuilder<WaitTimeReading?>(
-                      stream: service.streamLiveWaitReading(
-                          parkId: parkId, attractionId: attraction.id),
-                      builder: (_, snap) {
-                        final minutes =
-                            snap.data?.minutes ?? attraction.liveWaitMinutes;
-                        return _SoftBadge(
-                            icon: Icons.timer,
-                            text: '$minutes min • ${loc.liveWait}');
-                      },
-                    ),
+                    _SoftBadge(icon: Icons.timer, text: '${attraction.liveWaitMinutes} min • ${loc.liveWait}'),
                     if (attraction.topPick)
                       _SoftBadge(icon: Icons.star, text: loc.topPick),
                     if ((attraction.minHeightCm ?? 0) > 0)
