@@ -1657,9 +1657,8 @@ class _AttractionRow extends StatelessWidget {
     final pair = lookup.pairDescFromSection(context,
         section: 'attractions', id: attraction.id, fallbackEn: baseEn);
 
-    return InkWell(
+    return GestureDetector(
       onTap: onTap,
-      borderRadius: BorderRadius.circular(16),
       child: Container(
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
