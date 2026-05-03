@@ -1664,8 +1664,8 @@ class _AttractionRow extends StatelessWidget {
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
-          color: cs.surface,
-          border: Border.all(color: cs.outlineVariant.withOpacity(0.35)),
+          color: Theme.of(context).brightness == Brightness.dark ? const Color(0xFF1E1E1E) : Colors.white,
+          border: Border.all(color: Colors.grey.withOpacity(0.15)),
           boxShadow: const [
             BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12)
           ],
