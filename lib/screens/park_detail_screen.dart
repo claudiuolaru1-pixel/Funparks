@@ -671,7 +671,7 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
                     ),
                   )
                 : Stack(children: [
-                    TabBarView(
+                    Positioned.fill(child: TabBarView(
                     controller: _tabController,
                     children: [
                       _OverviewTab(
@@ -727,7 +727,7 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
                               subtitle: 'Hotels will appear here soon.',
                              ),
                     ],
-                  ),
+                    )),
                   AnimatedBuilder(
                     animation: _tabController,
                     builder: (context, _) => Positioned(
