@@ -2056,7 +2056,7 @@ class _AttractionDetailScreenState
     ];
 
     return Scaffold(
-      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+      backgroundColor: Theme.of(context).brightness == Brightness.dark ? const Color(0xFF121212) : Colors.white,
       appBar: AppBar(
         title: Text(a.name),
         actions: [
