@@ -1949,16 +1949,203 @@ class _AttractionDetailScreenState
 
   @override
   Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
     final a = widget.attraction;
+    final lookup = _I18nLookup(widget.i18n);
+    final descPair = lookup.pairFromSectionIdField(context,
+        section: 'attractions',
+        id: a.id,
+        field: 'desc',
+        fallbackEn: a.description);
+    final cat = widget.categoryLabel(a.category);
+    final service = WaitTimeService();
+
+    final factLines = <String>[
+      if (a.speedKmh != null) '${loc.speed}: ${a.speedKmh} km/h',
+      if (a.heightM != null)
+        '${loc.height}: ${a.heightM!.toStringAsFixed(0)} m',
+      if (a.inversions != null) '${loc.inversions}: ${a.inversions}',
+      if (a.openedYear != null) '${loc.opened}: ${a.openedYear}',
+      if ((a.minHeightCm ?? 0) > 0) 'Min. height: ${a.minHeightCm} cm',
+    ];
+
     return Scaffold(
-      backgroundColor: Colors.white,
-      appBar: AppBar(title: Text(a.name), backgroundColor: Colors.white),
-      body: Container(
-        color: Colors.white,
-        padding: const EdgeInsets.all(16),
-        child: Text(a.name, style: const TextStyle(fontSize: 24, color: Colors.black)),
+      backgroundColor: Theme.of(context).brightness == Brightness.dark ? const Color(0xFF121212) : Colors.white,
+      appBar: AppBar(
+        title: Text(a.name),
+        actions: [
+          IconButton(
+            tooltip: 'My Day',
+            icon: Consumer<AppState>(
+              builder: (context, app, _) => Badge(
+                isLabelVisible: app.myDayTotalCount > 0,
+                label: Text(app.myDayTotalCount.toString()),
+                child: const Icon(Icons.wb_sunny_outlined),
+              ),
+            ),
+            onPressed: () => Navigator.pushNamed(context, '/my_day'),
+          ),
+          IconButton(
+            tooltip: loc.share,
+            icon: const Icon(Icons.share),
+            onPressed: () => Share.share('${a.name} • Funparks'),
+          ),
+        ],
       ),
-    );
+      body: Material(color: Colors.white, child: ListView(
+        children: [
+          AspectRatio(
+            aspectRatio: 16 / 9,
+            child: ParkImage(image: a.image, fit: BoxFit.cover, cacheWidth: 1200),
+          ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 14, 16, 20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                    _showTranslated
+                        ? descPair.translated
+                        : descPair.english,
+                    style: Theme.of(context).textTheme.bodyMedium),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: TextButton(
+                    onPressed: () => setState(
+                        () => _showTranslated = !_showTranslated),
+                    child:
+                        Text(_showTranslated ? 'EN' : 'Translate'),
+                  ),
+                ),
+                const SizedBox(height: 10),
+                Wrap(spacing: 8, runSpacing: 8, children: [
+                  _Pill(icon: Icons.category, text: cat),
+                  if (a.minHeightCm != null)
+                    _Pill(icon: Icons.height, text: '${a.minHeightCm} cm+'),
+                  StreamBuilder<WaitTimeReading?>(
+                    stream: service.streamLiveWaitReading(
+                        parkId: widget.parkId,
+                        attractionId: a.id),
+                    builder: (_, snap) {
+                      final minutes =
+                          snap.data?.minutes ?? a.liveWaitMinutes;
+                      return _Pill(
+                          icon: Icons.timer,
+                          text:
+                              '$minutes min (${loc.liveWait})');
+                    },
+                  ),
+                  Consumer<AppState>(
+                    builder: (_, app, __) {
+                      final myWait = app.myWaitFor(a.id);
+                      return _Pill(
+                        icon: Icons.edit,
+                        text: myWait == null
+                            ? loc.setMyWait
+                            : '${loc.setMyWait}: $myWait',
+                      );
+                    },
+                  ),
+                ]),
+                const SizedBox(height: 14),
+                _TextCard(title: 'Facts', lines: factLines),
+                const SizedBox(height: 16),
+                Row(
+                  children: [
+                    Expanded(
+                      child: FilledButton.icon(
+                        onPressed: () => widget.onDirections(a),
+                        icon: const Icon(Icons.directions),
+                        label: Text(loc.directions),
+                      ),
+                    ),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: Consumer<AppState>(
+                        builder: (_, app, __) {
+                          final inMyDay = app.isInMyDayUnified(a.id);
+                          return FilledButton.icon(
+                            onPressed: () async {
+                              HapticFeedback.lightImpact();
+                              if (inMyDay) {
+                                await app.removeFromMyDay(a.id);
+                              } else {
+                                await app.addToMyDay(MyDayItem(
+                                  id: a.id,
+                                  name: a.name,
+                                  type: MyDayItemType.attraction,
+                                  estimatedMinutes: MyDayItem.defaultMinutes(MyDayItemType.attraction),
+                                ));
+                              }
+                            },
+                            icon: Icon(inMyDay
+                                ? Icons.favorite
+                                : Icons.favorite_border),
+                            label: Text(inMyDay
+                                ? loc.removeFromMyDay
+                                : loc.addToMyDay),
+                          );
+                        },
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 18),
+                Text(loc.myWaitTimeOptional,
+                    style: Theme.of(context).textTheme.titleMedium),
+                const SizedBox(height: 8),
+                TextField(
+                  controller: _myWaitCtrl,
+                  keyboardType: TextInputType.number,
+                  decoration: InputDecoration(
+                    hintText: loc.minutesHint,
+                    border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12)),
+                  ),
+                ),
+                const SizedBox(height: 10),
+                SizedBox(
+                  width: double.infinity,
+                  child: FilledButton(
+                    onPressed: () async {
+                      final app = context.read<AppState>();
+                      final wait =
+                          int.tryParse(_myWaitCtrl.text.trim());
+                      if (wait != null) {
+                        await app.setMyWaitMinutes(a.id, wait);
+                      }
+                      if (wait != null && wait > 0) {
+                        await service.submitWaitTime(
+                            parkId: widget.parkId,
+                            attractionId: a.id,
+                            minutes: wait);
+                      }
+                      if (!mounted) return;
+                      ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(content: Text(loc.saved)));
+                    },
+                    child: Text(loc.save),
+                  ),
+                ),
+                const SizedBox(height: 24),
+                const Divider(),
+                const SizedBox(height: 12),
+                Text('Reviews',
+                    style: Theme.of(context)
+                        .textTheme
+                        .titleLarge
+                        ?.copyWith(fontWeight: FontWeight.w900)),
+                const SizedBox(height: 14),
+                ReviewsSection(
+                  parkId: widget.parkId,
+                  itemId: a.id,
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    ));
   }
 }
 
