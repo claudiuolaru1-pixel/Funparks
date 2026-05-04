@@ -96,8 +96,11 @@ class FunparksApp extends StatelessWidget {
           // ── Premium page transitions applied globally ──
           theme: ThemeData(
             useMaterial3: true,
+            scaffoldBackgroundColor: Colors.white,
             colorScheme: ColorScheme.fromSeed(
               seedColor: const Color(0xFF72C8FF),
+              surface: Colors.white,
+              background: Colors.white,
             ),
             pageTransitionsTheme: const PageTransitionsTheme(
               builders: {
