@@ -1,4 +1,5 @@
 ﻿// lib/screens/park_detail_screen.dart
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
@@ -353,7 +354,7 @@ class _I18nLookup {
 
   _I18nPair pairOverview(
       BuildContext context, String key, String fallbackEn) {
-    final lang = context.watch<AppState>().languageCode;
+    final lang = context.read<AppState>().languageCode;
     final root = _rootMap();
     final ov = root['overview'];
     if (ov is! Map) return _I18nPair(english: fallbackEn, translated: fallbackEn);
@@ -377,7 +378,7 @@ class _I18nLookup {
     required String id,
     required String fallbackEn,
   }) {
-    final lang = context.watch<AppState>().languageCode;
+    final lang = context.read<AppState>().languageCode;
     final root = _rootMap();
     final sec = root[section];
     if (sec is! Map) return _I18nPair(english: fallbackEn, translated: fallbackEn);
@@ -404,7 +405,7 @@ class _I18nLookup {
     required String field,
     required String fallbackEn,
   }) {
-    final lang = context.watch<AppState>().languageCode;
+    final lang = context.read<AppState>().languageCode;
     final root = _rootMap();
     final sec = root[section];
     if (sec is! Map) return _I18nPair(english: fallbackEn, translated: fallbackEn);
@@ -1401,7 +1402,7 @@ class _AttractionsTabState extends State<_AttractionsTab> {
   }
 
   void _openDetails(Attraction a) {
-    Navigator.of(context).push(MaterialPageRoute(
+    Navigator.of(context).push(CupertinoPageRoute(
       builder: (_) => _AttractionDetailScreen(
         parkId: widget.parkId,
         attraction: a,
@@ -2166,7 +2167,7 @@ class _FoodTab extends StatelessWidget {
       required this.onDirections});
 
   void _openDetails(BuildContext context, FoodPlace f) {
-    Navigator.of(context).push(MaterialPageRoute(
+    Navigator.of(context).push(CupertinoPageRoute(
         builder: (_) => _FoodDetailScreen(
             parkId: parkId, food: f, i18n: i18n, onDirections: onDirections)));
   }
@@ -2893,7 +2894,7 @@ class _HotelsTabState extends State<_HotelsTab> {
                     i18n: widget.i18n,
                     onDirections: () => widget.onDirections(h),
                     onOpen: () {
-                      Navigator.of(context).push(MaterialPageRoute(
+                      Navigator.of(context).push(CupertinoPageRoute(
                           builder: (_) => _HotelDetailScreen(
                               hotel: h, i18n: widget.i18n, parkCity: widget.park.city ?? '')));
                     },
