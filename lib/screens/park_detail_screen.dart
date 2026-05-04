@@ -1646,86 +1646,11 @@ class _AttractionRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
-    final cs = Theme.of(context).colorScheme;
-    final service = WaitTimeService();
-    final lookup = _I18nLookup(i18n);
-    final cat = categoryLabel(attraction.category);
-    final baseEn = attraction.description.trim().isEmpty
-        ? attraction.category
-        : attraction.description.trim();
-    final pair = lookup.pairDescFromSection(context,
-        section: 'attractions', id: attraction.id, fallbackEn: baseEn);
-
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        padding: const EdgeInsets.all(12),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(16),
-          color: Theme.of(context).brightness == Brightness.dark ? const Color(0xFF1E1E1E) : Colors.white,
-          border: Border.all(color: Colors.grey.withOpacity(0.15)),
-          boxShadow: const [
-            BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12)
-          ],
-        ),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(14),
-              child: SizedBox(
-                width: 76,
-                height: 76,
-                child: ParkImage(image: attraction.image, fit: BoxFit.cover, cacheWidth: 220),
-              ),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(attraction.name,
-                      style: Theme.of(context)
-                          .textTheme
-                          .titleSmall
-                          ?.copyWith(fontWeight: FontWeight.w900)),
-                  const SizedBox(height: 4),
-                  Text(cat,
-                      style: TextStyle(
-                          color: Colors.grey.shade700,
-                          fontWeight: FontWeight.w700)),
-                  const SizedBox(height: 6),
-                  Text(pair.translated,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: TextStyle(color: Colors.grey.shade700)),
-                  const SizedBox(height: 8),
-                  Wrap(spacing: 8, runSpacing: 8, children: [
-                    _SoftBadge(
-                        icon: Icons.star,
-                        text: attraction.rating.toStringAsFixed(1)),
-                    _SoftBadge(icon: Icons.timer, text: '${attraction.liveWaitMinutes} min • ${loc.liveWait}'),
-                    if (attraction.topPick)
-                      _SoftBadge(icon: Icons.star, text: loc.topPick),
-                    if ((attraction.minHeightCm ?? 0) > 0)
-                      _SoftBadge(icon: Icons.height, text: '${attraction.minHeightCm} cm+'),
-                  ]),
-                ],
-              ),
-            ),
-            const SizedBox(width: 10),
-            _ActionPill(
-              attractionId: attraction.id,
-              attractionName: attraction.name,
-              addLabel: loc.addToMyDay,
-              removeLabel: loc.removeFromMyDay,
-              directionsLabel: loc.directions,
-              onDirections: onDirections,
-            ),
-          ],
-        ),
-      ),
+    return Container(
+      color: Colors.white,
+      margin: const EdgeInsets.only(bottom: 12),
+      padding: const EdgeInsets.all(12),
+      child: Text(attraction.name, style: const TextStyle(color: Colors.black)),
     );
   }
 }
