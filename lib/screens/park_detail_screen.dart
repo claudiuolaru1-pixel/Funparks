@@ -2184,10 +2184,7 @@ class _AttractionDetailScreenState
                         .titleLarge
                         ?.copyWith(fontWeight: FontWeight.w900)),
                 const SizedBox(height: 14),
-                ReviewsSection(
-                  parkId: widget.parkId,
-                  itemId: a.id,
-                ),
+                Text("Reviews coming soon", style: TextStyle(color: Colors.grey)),
               ],
             ),
           ),
@@ -2790,10 +2787,7 @@ class _FoodDetailScreenState extends State<_FoodDetailScreen> {
                     .titleLarge
                     ?.copyWith(fontWeight: FontWeight.w900)),
             const SizedBox(height: 14),
-            ReviewsSection(
-              parkId: widget.parkId,
-              itemId: f.id,
-            ),
+            Text("Reviews coming soon", style: TextStyle(color: Colors.grey)),
           ],
         ),
       ),
