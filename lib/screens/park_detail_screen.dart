@@ -1,5 +1,4 @@
 ﻿// lib/screens/park_detail_screen.dart
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
@@ -1402,7 +1401,7 @@ class _AttractionsTabState extends State<_AttractionsTab> {
   }
 
   void _openDetails(Attraction a) {
-    Navigator.of(context).push(CupertinoPageRoute(
+    Navigator.of(context).push(MaterialPageRoute(
       builder: (_) => _AttractionDetailScreen(
         parkId: widget.parkId,
         attraction: a,
@@ -1573,10 +1572,8 @@ class _AttractionTopCard extends StatelessWidget {
     final loc = AppLocalizations.of(context)!;
     final cs = Theme.of(context).colorScheme;
 
-    return InkWell(
+    return GestureDetector(
       onTap: onTap,
-      borderRadius: BorderRadius.circular(16),
-      child: RepaintBoundary(
         child: Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(16),
@@ -1621,7 +1618,6 @@ class _AttractionTopCard extends StatelessWidget {
                 ),
               ],
             ),
-          ),
         ),
       ),
     );
@@ -1647,11 +1643,62 @@ class _AttractionRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.white,
-      margin: const EdgeInsets.only(bottom: 12),
-      padding: const EdgeInsets.all(12),
-      child: Text(attraction.name, style: const TextStyle(color: Colors.black)),
+    final loc = AppLocalizations.of(context)!;
+    final lookup = _I18nLookup(i18n);
+    final cat = categoryLabel(attraction.category);
+    final baseEn = attraction.description.trim().isEmpty ? attraction.category : attraction.description.trim();
+    final pair = lookup.pairDescFromSection(context, section: 'attractions', id: attraction.id, fallbackEn: baseEn);
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.all(12),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(16),
+          color: Colors.white,
+          border: Border.all(color: Colors.grey.withOpacity(0.15)),
+          boxShadow: const [BoxShadow(blurRadius: 10, offset: Offset(0, 3), color: Colors.black12)],
+        ),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            ClipRRect(
+              borderRadius: BorderRadius.circular(14),
+              child: SizedBox(width: 76, height: 76,
+                child: ParkImage(image: attraction.image, fit: BoxFit.cover, cacheWidth: 220),
+              ),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(attraction.name, style: Theme.of(context).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w900)),
+                  const SizedBox(height: 4),
+                  Text(cat, style: TextStyle(color: Colors.grey.shade700, fontWeight: FontWeight.w700)),
+                  const SizedBox(height: 6),
+                  Text(pair.translated, maxLines: 2, overflow: TextOverflow.ellipsis, style: TextStyle(color: Colors.grey.shade700)),
+                  const SizedBox(height: 8),
+                  Wrap(spacing: 8, runSpacing: 8, children: [
+                    _SoftBadge(icon: Icons.star, text: attraction.rating.toStringAsFixed(1)),
+                    _SoftBadge(icon: Icons.timer, text: '\ min'),
+                    if (attraction.topPick) _SoftBadge(icon: Icons.star, text: loc.topPick),
+                    if ((attraction.minHeightCm ?? 0) > 0) _SoftBadge(icon: Icons.height, text: '\ cm+'),
+                  ]),
+                ],
+              ),
+            ),
+            const SizedBox(width: 10),
+            _ActionPill(
+              attractionId: attraction.id,
+              attractionName: attraction.name,
+              addLabel: loc.addToMyDay,
+              removeLabel: loc.removeFromMyDay,
+              directionsLabel: loc.directions,
+              onDirections: onDirections,
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
@@ -2167,7 +2214,7 @@ class _FoodTab extends StatelessWidget {
       required this.onDirections});
 
   void _openDetails(BuildContext context, FoodPlace f) {
-    Navigator.of(context).push(CupertinoPageRoute(
+    Navigator.of(context).push(MaterialPageRoute(
         builder: (_) => _FoodDetailScreen(
             parkId: parkId, food: f, i18n: i18n, onDirections: onDirections)));
   }
@@ -2252,10 +2299,9 @@ class _FoodTopCard extends StatelessWidget {
     final loc = AppLocalizations.of(context)!;
     final cs = Theme.of(context).colorScheme;
 
-    return _PremiumAppear(
-      child: _PressDown(
-        onTap: onTap,
-        child: Container(
+    return _PressDown(
+      onTap: onTap,
+      child: Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
             color: Colors.white,
@@ -2345,7 +2391,6 @@ class _FoodTopCard extends StatelessWidget {
             ),
           ),
         ),
-      ),
     );
   }
 }
@@ -2894,7 +2939,7 @@ class _HotelsTabState extends State<_HotelsTab> {
                     i18n: widget.i18n,
                     onDirections: () => widget.onDirections(h),
                     onOpen: () {
-                      Navigator.of(context).push(CupertinoPageRoute(
+                      Navigator.of(context).push(MaterialPageRoute(
                           builder: (_) => _HotelDetailScreen(
                               hotel: h, i18n: widget.i18n, parkCity: widget.park.city ?? '')));
                     },
