@@ -1992,7 +1992,7 @@ class _AttractionDetailScreenState
           ),
         ],
       ),
-      body: ListView(
+      body: Material(color: Colors.white, child: ListView(
         children: [
           AspectRatio(
             aspectRatio: 16 / 9,
@@ -2145,7 +2145,7 @@ class _AttractionDetailScreenState
           ),
         ],
       ),
-    );
+    ));
   }
 }
 
