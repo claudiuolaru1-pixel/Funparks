@@ -1,4 +1,4 @@
-﻿// lib/screens/park_detail_screen.dart
+// lib/screens/park_detail_screen.dart
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
@@ -1970,21 +1970,16 @@ class _AttractionDetailScreenState
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      final app = context.read<AppState>();
       try {
+        if (!mounted) return;
+        final app = context.read<AppState>();
         await app.ensureLoadedForAttraction(widget.attraction.id);
+        final r = app.ratingForAttraction(widget.attraction.id) ?? widget.attraction.rating;
+        final c = app.commentForAttraction(widget.attraction.id) ?? '';
+        final myWait = app.myWaitFor(widget.attraction.id);
+        if (!mounted) return;
+        setState(() { _rating = r; _commentCtrl.text = c; _myWaitCtrl.text = myWait?.toString() ?? ''; });
       } catch (_) {}
-      final r = app.ratingForAttraction(widget.attraction.id) ??
-          widget.attraction.rating;
-      final c =
-          app.commentForAttraction(widget.attraction.id) ?? '';
-      final myWait = app.myWaitFor(widget.attraction.id);
-      if (!mounted) return;
-      setState(() {
-        _rating = r;
-        _commentCtrl.text = c;
-        _myWaitCtrl.text = myWait?.toString() ?? '';
-      });
     });
   }
 
