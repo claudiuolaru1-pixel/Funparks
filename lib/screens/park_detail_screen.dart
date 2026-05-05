@@ -1995,9 +1995,11 @@ class _AttractionDetailScreenState
     super.dispose();
   }
 
-  @override
   Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
+  @override
+    final locRaw = AppLocalizations.of(context);
+    if (locRaw == null) return Scaffold(backgroundColor: Colors.white, appBar: AppBar(title: Text(widget.attraction.name)), body: const SizedBox.shrink());
+    final loc = locRaw;
     final a = widget.attraction;
     final lookup = _I18nLookup(widget.i18n);
     final descPair = lookup.pairFromSectionIdField(context,
