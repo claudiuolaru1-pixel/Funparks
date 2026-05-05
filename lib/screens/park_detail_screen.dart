@@ -239,7 +239,7 @@ class _LiveWaitPill extends StatelessWidget {
 }
 
 // ===============================================================
-// I18N HELPERS  (single definitions — no duplicates)
+// I18N HELPERS  (single definitions â€” no duplicates)
 // ===============================================================
 
 class _I18nPair {
@@ -646,7 +646,7 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${park.name} • Funparks'),
+            onPressed: () => Share.share('${park.name} â€¢ Funparks'),
           ),
         ],
         bottom: TabBar(
@@ -1199,7 +1199,7 @@ class _OverviewTab extends StatelessWidget {
     final c = child != null ? fmt(child) : '';
     if (a.isEmpty && c.isEmpty) return '';
     if (a.isNotEmpty && c.isNotEmpty)
-      return 'Adult $a • Child $c ${park.currency}';
+      return 'Adult $a â€¢ Child $c ${park.currency}';
     if (a.isNotEmpty) return 'Adult $a ${park.currency}';
     return 'Child $c ${park.currency}';
   }
@@ -2015,8 +2015,8 @@ class _AttractionDetailScreenState
     ];
 
     return Scaffold(
-      backgroundColor: Theme.of(context).brightness == Brightness.dark ? const Color(0xFF121212) : Colors.white,
-      appBar: AppBar(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.white,
         title: Text(a.name),
         actions: [
           IconButton(
@@ -2033,7 +2033,7 @@ class _AttractionDetailScreenState
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${a.name} • Funparks'),
+            onPressed: () => Share.share('${a.name} â€¢ Funparks'),
           ),
         ],
       ),
@@ -2637,7 +2637,7 @@ class _FoodDetailScreenState extends State<_FoodDetailScreen> {
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${f.name} • Funparks'),
+            onPressed: () => Share.share('${f.name} â€¢ Funparks'),
           ),
         ],
       ),
@@ -3179,7 +3179,7 @@ class _HotelRow extends StatelessWidget {
 }
 
 // ===============================================================
-// HOTEL DETAIL SCREEN  (single definition — StatefulWidget)
+// HOTEL DETAIL SCREEN  (single definition â€” StatefulWidget)
 // ===============================================================
 
 class _HotelDetailScreen extends StatefulWidget {
@@ -3324,15 +3324,15 @@ class ParkSettingsSheet extends StatelessWidget {
 
     const languages = <(String, String)>[
       ('en', 'English'),
-      ('es', 'Español'),
-      ('fr', 'Français'),
+      ('es', 'EspaÃ±ol'),
+      ('fr', 'FranÃ§ais'),
       ('de', 'Deutsch'),
       ('it', 'Italiano'),
       ('nl', 'Nederlands'),
-      ('pt', 'Português'),
-      ('ru', 'Русский'),
-      ('zh', '中文'),
-      ('ar', 'العربية'),
+      ('pt', 'PortuguÃªs'),
+      ('ru', 'Ð ÑƒÑÑÐºÐ¸Ð¹'),
+      ('zh', 'ä¸­æ–‡'),
+      ('ar', 'Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©'),
     ];
 
     const currencies = <String>['EUR', 'USD', 'GBP', 'CHF'];
@@ -3448,7 +3448,7 @@ class AddToPlanButton extends StatelessWidget {
   const AddToPlanButton(
       {super.key,
       required this.itemId,
-      this.labelWhenOff = 'Add to…',
+      this.labelWhenOff = 'Add toâ€¦',
       this.labelWhenOn = 'Added'});
 
   @override
