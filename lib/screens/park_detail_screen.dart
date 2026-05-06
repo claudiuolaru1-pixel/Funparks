@@ -239,7 +239,7 @@ class _LiveWaitPill extends StatelessWidget {
 }
 
 // ===============================================================
-// I18N HELPERS  (single definitions â€” no duplicates)
+// I18N HELPERS  (single definitions ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â no duplicates)
 // ===============================================================
 
 class _I18nPair {
@@ -646,7 +646,7 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${park.name} â€¢ Funparks'),
+            onPressed: () => Share.share('${park.name} ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Funparks'),
           ),
         ],
         bottom: TabBar(
@@ -1199,7 +1199,7 @@ class _OverviewTab extends StatelessWidget {
     final c = child != null ? fmt(child) : '';
     if (a.isEmpty && c.isEmpty) return '';
     if (a.isNotEmpty && c.isNotEmpty)
-      return 'Adult $a â€¢ Child $c ${park.currency}';
+      return 'Adult $a ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Child $c ${park.currency}';
     if (a.isNotEmpty) return 'Adult $a ${park.currency}';
     return 'Child $c ${park.currency}';
   }
@@ -1402,17 +1402,18 @@ class _AttractionsTabState extends State<_AttractionsTab> {
 
   void _openDetails(Attraction a) {
     Navigator.of(context).push(MaterialPageRoute(
-      builder: (_) => _AttractionDetailScreen(
-        parkId: widget.parkId,
-        attraction: a,
-        i18n: widget.i18n,
-        onDirections: widget.onDirections,
-        categoryLabel: widget.categoryLabel,
+      builder: (ctx) => Theme(
+        data: Theme.of(context).copyWith(scaffoldBackgroundColor: Colors.white),
+        child: _AttractionDetailScreen(
+          parkId: widget.parkId,
+          attraction: a,
+          i18n: widget.i18n,
+          onDirections: widget.onDirections,
+          categoryLabel: widget.categoryLabel,
+        ),
       ),
     ));
   }
-
-  @override
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
     final topPicks = widget.attractions.where((a) => a.topPick).toList();
@@ -2033,7 +2034,7 @@ class _AttractionDetailScreenState
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${a.name} â€¢ Funparks'),
+            onPressed: () => Share.share('${a.name} ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Funparks'),
           ),
         ],
       ),
@@ -2637,7 +2638,7 @@ class _FoodDetailScreenState extends State<_FoodDetailScreen> {
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${f.name} â€¢ Funparks'),
+            onPressed: () => Share.share('${f.name} ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Funparks'),
           ),
         ],
       ),
@@ -3179,7 +3180,7 @@ class _HotelRow extends StatelessWidget {
 }
 
 // ===============================================================
-// HOTEL DETAIL SCREEN  (single definition â€” StatefulWidget)
+// HOTEL DETAIL SCREEN  (single definition ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â StatefulWidget)
 // ===============================================================
 
 class _HotelDetailScreen extends StatefulWidget {
@@ -3324,15 +3325,15 @@ class ParkSettingsSheet extends StatelessWidget {
 
     const languages = <(String, String)>[
       ('en', 'English'),
-      ('es', 'EspaÃ±ol'),
-      ('fr', 'FranÃ§ais'),
+      ('es', 'EspaÃƒÆ’Ã‚Â±ol'),
+      ('fr', 'FranÃƒÆ’Ã‚Â§ais'),
       ('de', 'Deutsch'),
       ('it', 'Italiano'),
       ('nl', 'Nederlands'),
-      ('pt', 'PortuguÃªs'),
-      ('ru', 'Ð ÑƒÑÑÐºÐ¸Ð¹'),
-      ('zh', 'ä¸­æ–‡'),
-      ('ar', 'Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©'),
+      ('pt', 'PortuguÃƒÆ’Ã‚Âªs'),
+      ('ru', 'ÃƒÂÃ‚Â Ãƒâ€˜Ã†â€™Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã‚ÂÃƒÂÃ‚ÂºÃƒÂÃ‚Â¸ÃƒÂÃ‚Â¹'),
+      ('zh', 'ÃƒÂ¤Ã‚Â¸Ã‚Â­ÃƒÂ¦Ã¢â‚¬â€œÃ¢â‚¬Â¡'),
+      ('ar', 'ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â¹ÃƒËœÃ‚Â±ÃƒËœÃ‚Â¨Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â©'),
     ];
 
     const currencies = <String>['EUR', 'USD', 'GBP', 'CHF'];
@@ -3448,7 +3449,7 @@ class AddToPlanButton extends StatelessWidget {
   const AddToPlanButton(
       {super.key,
       required this.itemId,
-      this.labelWhenOff = 'Add toâ€¦',
+      this.labelWhenOff = 'Add toÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦',
       this.labelWhenOn = 'Added'});
 
   @override
