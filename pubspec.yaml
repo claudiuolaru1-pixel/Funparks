@@ -1,6 +1,6 @@
 ﻿name: funparks
 description: A playful, map-first theme park discovery app (MVP).
-version: 2.0.1+149
+version: 2.0.1+151
 publish_to: "none"
 
 environment:
