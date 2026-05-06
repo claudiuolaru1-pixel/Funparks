@@ -239,7 +239,7 @@ class _LiveWaitPill extends StatelessWidget {
 }
 
 // ===============================================================
-// I18N HELPERS  (single definitions ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â no duplicates)
+// I18N HELPERS  (single definitions ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â no duplicates)
 // ===============================================================
 
 class _I18nPair {
@@ -646,7 +646,7 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${park.name} ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Funparks'),
+            onPressed: () => Share.share('${park.name} ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Funparks'),
           ),
         ],
         bottom: TabBar(
@@ -1199,7 +1199,7 @@ class _OverviewTab extends StatelessWidget {
     final c = child != null ? fmt(child) : '';
     if (a.isEmpty && c.isEmpty) return '';
     if (a.isNotEmpty && c.isNotEmpty)
-      return 'Adult $a ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Child $c ${park.currency}';
+      return 'Adult $a ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Child $c ${park.currency}';
     if (a.isNotEmpty) return 'Adult $a ${park.currency}';
     return 'Child $c ${park.currency}';
   }
@@ -1962,14 +1962,16 @@ class _AttractionDetailScreen extends StatefulWidget {
 
 class _AttractionDetailScreenState
     extends State<_AttractionDetailScreen> {
-  final _commentCtrl = TextEditingController();
-  final _myWaitCtrl = TextEditingController();
+  late final TextEditingController _commentCtrl;
+  late final TextEditingController _myWaitCtrl;
   double _rating = 4.5;
   bool _showTranslated = false;
 
   @override
   void initState() {
     super.initState();
+    _commentCtrl = TextEditingController();
+    _myWaitCtrl = TextEditingController();
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       try {
         if (!mounted) return;
@@ -2034,7 +2036,7 @@ class _AttractionDetailScreenState
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${a.name} ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Funparks'),
+            onPressed: () => Share.share('${a.name} ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Funparks'),
           ),
         ],
       ),
@@ -2638,7 +2640,7 @@ class _FoodDetailScreenState extends State<_FoodDetailScreen> {
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${f.name} ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Funparks'),
+            onPressed: () => Share.share('${f.name} ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Funparks'),
           ),
         ],
       ),
@@ -3180,7 +3182,7 @@ class _HotelRow extends StatelessWidget {
 }
 
 // ===============================================================
-// HOTEL DETAIL SCREEN  (single definition ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â StatefulWidget)
+// HOTEL DETAIL SCREEN  (single definition ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â StatefulWidget)
 // ===============================================================
 
 class _HotelDetailScreen extends StatefulWidget {
@@ -3325,15 +3327,15 @@ class ParkSettingsSheet extends StatelessWidget {
 
     const languages = <(String, String)>[
       ('en', 'English'),
-      ('es', 'EspaÃƒÆ’Ã‚Â±ol'),
-      ('fr', 'FranÃƒÆ’Ã‚Â§ais'),
+      ('es', 'EspaÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â±ol'),
+      ('fr', 'FranÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ais'),
       ('de', 'Deutsch'),
       ('it', 'Italiano'),
       ('nl', 'Nederlands'),
-      ('pt', 'PortuguÃƒÆ’Ã‚Âªs'),
-      ('ru', 'ÃƒÂÃ‚Â Ãƒâ€˜Ã†â€™Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã‚ÂÃƒÂÃ‚ÂºÃƒÂÃ‚Â¸ÃƒÂÃ‚Â¹'),
-      ('zh', 'ÃƒÂ¤Ã‚Â¸Ã‚Â­ÃƒÂ¦Ã¢â‚¬â€œÃ¢â‚¬Â¡'),
-      ('ar', 'ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â¹ÃƒËœÃ‚Â±ÃƒËœÃ‚Â¨Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â©'),
+      ('pt', 'PortuguÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âªs'),
+      ('ru', 'ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â ÃƒÆ’Ã¢â‚¬ËœÃƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ËœÃƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬ËœÃƒâ€šÃ‚ÂÃƒÆ’Ã‚ÂÃƒâ€šÃ‚ÂºÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¸ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¹'),
+      ('zh', 'ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â¸Ãƒâ€šÃ‚Â­ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡'),
+      ('ar', 'ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â±ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â©'),
     ];
 
     const currencies = <String>['EUR', 'USD', 'GBP', 'CHF'];
@@ -3449,7 +3451,7 @@ class AddToPlanButton extends StatelessWidget {
   const AddToPlanButton(
       {super.key,
       required this.itemId,
-      this.labelWhenOff = 'Add toÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦',
+      this.labelWhenOff = 'Add toÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦',
       this.labelWhenOn = 'Added'});
 
   @override
