@@ -1,0 +1,1 @@
+const fs=require('fs');let c=fs.readFileSync('lib/screens/park_detail_screen.dart','utf8');c=c.replace(/\u00e2\u20ac\u00a2/g,'\u2022');fs.writeFileSync('lib/screens/park_detail_screen.dart',c,'utf8');console.log('Bullet fixed:',c.includes('\u2022')?'YES':'NO');
