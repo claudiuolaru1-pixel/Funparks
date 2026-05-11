@@ -45,8 +45,8 @@ class _SignInScreenState extends State<SignInScreen>
   }
 
   Future<void> _login() async {
-    final email = _loginEmailCtrl.text.trim();
-    final pass = _loginPassCtrl.text;
+    final email = _loginEmailCtrl?.text??''.trim();
+    final pass = _loginPassCtrl?.text??'';
     if (email.isEmpty || pass.isEmpty) {
       setState(() => _loginError = 'Please enter email and password.');
       return;
@@ -64,9 +64,9 @@ class _SignInScreenState extends State<SignInScreen>
   }
 
   Future<void> _register() async {
-    final email = _regEmailCtrl.text.trim();
-    final pass = _regPassCtrl.text;
-    final confirm = _regConfirmCtrl.text;
+    final email = _regEmailCtrl?.text??''.trim();
+    final pass = _regPassCtrl?.text??'';
+    final confirm = _regConfirmCtrl?.text??'';
     if (email.isEmpty || pass.isEmpty) {
       setState(() => _regError = 'Please enter email and password.');
       return;
@@ -96,7 +96,7 @@ class _SignInScreenState extends State<SignInScreen>
   }
   
   Future<void> _resetPassword() async {
-    final email = _loginEmailCtrl.text.trim();
+    final email = _loginEmailCtrl?.text??''.trim();
     if (email.isEmpty) {
       setState(() => _loginError = 'Enter your email above first.');
       return;
@@ -206,9 +206,9 @@ class _SignInScreenState extends State<SignInScreen>
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          _emailField(ctrl: _loginEmailCtrl, label: 'Email'),
+          _emailField(ctrl: _loginEmailCtrl??TextEditingController(), label: 'Email'),
           const SizedBox(height: 14),
-          _passField(ctrl: _loginPassCtrl, label: 'Password', visible: _loginPassVisible,
+          _passField(ctrl: _loginPassCtrl??TextEditingController(), label: 'Password', visible: _loginPassVisible,
               onToggle: () => setState(() => _loginPassVisible = !_loginPassVisible)),
           const SizedBox(height: 6),
           Align(
@@ -239,12 +239,12 @@ class _SignInScreenState extends State<SignInScreen>
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          _emailField(ctrl: _regEmailCtrl, label: 'Email'),
+          _emailField(ctrl: _regEmailCtrl??TextEditingController(), label: 'Email'),
           const SizedBox(height: 14),
-          _passField(ctrl: _regPassCtrl, label: 'Password', visible: _regPassVisible,
+          _passField(ctrl: _regPassCtrl??TextEditingController(), label: 'Password', visible: _regPassVisible,
               onToggle: () => setState(() => _regPassVisible = !_regPassVisible)),
           const SizedBox(height: 14),
-          _passField(ctrl: _regConfirmCtrl, label: 'Confirm password', visible: _regPassVisible,
+          _passField(ctrl: _regConfirmCtrl??TextEditingController(), label: 'Confirm password', visible: _regPassVisible,
               onToggle: () => setState(() => _regPassVisible = !_regPassVisible)),
           if (_regError != null) ...[
             const SizedBox(height: 12),
