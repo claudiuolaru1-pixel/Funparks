@@ -1,0 +1,1 @@
+const fs=require('fs');let c=fs.readFileSync('lib/screens/park_detail_screen.dart','utf8');c=c.replace(/return 'Adult \\\ [^C]+Child \\\ \\\';/,"return 'Adult \\\ \u2022 Child \\\ \\\';\");fs.writeFileSync('lib/screens/park_detail_screen.dart',c,'utf8');console.log('Bullet:',c.includes('\u2022')?'YES':'NO');
