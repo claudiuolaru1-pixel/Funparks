@@ -2109,10 +2109,21 @@ class _AttractionDetailScreenState
                 ),
                 const SizedBox(height: 24),
                 const Divider(),
-                OutlinedButton.icon(
-                  onPressed: () => Navigator.of(context).pushNamed('/sign_in'),
-                  icon: const Icon(Icons.rate_review_outlined),
-                  label: const Text('Log in or Register to write a review'),
+                Consumer<AppState>(
+                  builder: (_, app, __) {
+                    if (app.isLoggedIn) {
+                      return OutlinedButton.icon(
+                        onPressed: () {},
+                        icon: const Icon(Icons.rate_review_outlined),
+                        label: const Text('Write a review'),
+                      );
+                    }
+                    return OutlinedButton.icon(
+                      onPressed: () => Navigator.of(context).pushNamed('/signin', arguments: 'register'),
+                      icon: const Icon(Icons.rate_review_outlined),
+                      label: const Text('Log in or Register to write a review'),
+                    );
+                  },
                 ),
               ],
             ),
