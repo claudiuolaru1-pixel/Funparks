@@ -1,0 +1,1 @@
+const fs=require('fs');let c=fs.readFileSync('lib/screens/home_map_screen.dart','utf8');c=c.replace(/\u00e2\u20ac\u00a6/g,'\u2026');c=c.replace(/\u00e2\u20ac\u00a2/g,'\u2022');fs.writeFileSync('lib/screens/home_map_screen.dart',c,'utf8');console.log('Fixed:',c.includes('Search parks\u2026')?'YES':'NO');

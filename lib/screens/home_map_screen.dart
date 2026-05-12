@@ -302,7 +302,7 @@ _loadParksAndMarkers();
                 TextField(
                   controller: _searchCtrl,
                   decoration: InputDecoration(
-                    hintText: 'Search parksâ€¦',
+                    hintText: 'Search parks…',
                     prefixIcon: const Icon(Icons.search),
                     suffixIcon: _searchQuery.isNotEmpty
                         ? IconButton(
