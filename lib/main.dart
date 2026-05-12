@@ -23,7 +23,11 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   try {
     if (Firebase.apps.isEmpty) {
-      await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+      if (defaultTargetPlatform == TargetPlatform.iOS || defaultTargetPlatform == TargetPlatform.macOS) {
+        // Firebase already configured in AppDelegate.swift - skip native init
+      } else {
+        await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+      }
     }
   } catch (e) {
     debugPrint('Firebase init: $e');
