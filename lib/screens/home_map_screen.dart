@@ -25,7 +25,7 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
   );
 
   final _repo = ParksRepository();
-  final _searchCtrl = TextEditingController();
+  TextEditingController? _searchCtrl;
 
   GoogleMapController? _controller;
   final Set<Marker> _allMarkers = {};
@@ -62,10 +62,11 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
   @override
   void initState() {
     super.initState();
-    _loadParksAndMarkers();
-    _searchCtrl.addListener(() {
+    try { _searchCtrl = TextEditingController(); } catch (_) {}
+_loadParksAndMarkers();
+    _searchCtrl?.addListener(() {
       setState(() {
-        _searchQuery = _searchCtrl.text.trim().toLowerCase();
+        _searchQuery = _searchCtrl?.text??''.trim().toLowerCase();
         _applyFilters();
       });
     });
@@ -73,7 +74,7 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
 
   @override
   void dispose() {
-    _searchCtrl.dispose();
+    _searchCtrl?.dispose();
     super.dispose();
   }
 
@@ -244,7 +245,7 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
   }
 
   void _clearFilters() {
-    _searchCtrl.clear();
+    _searchCtrl?.clear();
     setState(() {
       _searchQuery = '';
       _selectedCountry = null;
@@ -291,7 +292,7 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
       ),
       body: Column(
         children: [
-          // ── Search + filter bar ──
+          // â”€â”€ Search + filter bar â”€â”€
           Container(
             color: cs.surface,
             padding: const EdgeInsets.fromLTRB(12, 8, 12, 8),
@@ -301,13 +302,13 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
                 TextField(
                   controller: _searchCtrl,
                   decoration: InputDecoration(
-                    hintText: 'Search parks…',
+                    hintText: 'Search parksâ€¦',
                     prefixIcon: const Icon(Icons.search),
                     suffixIcon: _searchQuery.isNotEmpty
                         ? IconButton(
                             icon: const Icon(Icons.clear),
                             onPressed: () {
-                              _searchCtrl.clear();
+                              _searchCtrl?.clear();
                               setState(() {
                                 _searchQuery = '';
                                 _applyFilters();
@@ -395,7 +396,7 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
               ],
             ),
           ),
-          // ── Map ──
+          // â”€â”€ Map â”€â”€
           Expanded(
             flex: 3,
             child: Stack(
@@ -431,7 +432,7 @@ class _HomeMapScreenState extends State<HomeMapScreen> {
               ],
             ),
           ),
-          // ── Parks list ──
+          // â”€â”€ Parks list â”€â”€
           if (_loading)
             Expanded(flex: 2, child: const ShimmerParkList()),
           if (!_loading && _filtered.isNotEmpty)
