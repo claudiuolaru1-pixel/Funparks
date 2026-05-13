@@ -1,3 +1,5 @@
+platform :ios, '14.0'
+
 ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 
 project 'Runner', {
@@ -30,12 +32,9 @@ end
 
 post_install do |installer|
   # Patch FLTFirebaseCorePlugin to handle Firebase double-init crash on iOS 26.
-  # A FlutterFire plugin auto-configures Firebase before our Dart initializeApp(),
-  # causing configureWithName:options: to throw on the second call.
   Dir.glob("#{installer.sandbox.root}/**/FLTFirebaseCorePlugin.m").each do |path|
     content = File.read(path)
     next if content.include?('FunparksPatch')
-    # Try multiple known variable name patterns used across firebase_core versions
     [
       '[FIRApp configureWithName:name options:firOptions];',
       '[FIRApp configureWithName:appName options:options];',
@@ -50,7 +49,6 @@ post_install do |installer|
         break
       end
     end
-    puts "[Funparks] WARNING: No pattern matched in #{path}" unless content.include?('FunparksPatch')
   end
 
   installer.pods_project.targets.each do |target|
