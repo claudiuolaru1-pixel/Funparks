@@ -24,7 +24,7 @@ Future<void> main() async {
   try {
     if (Firebase.apps.isEmpty) {
       if (defaultTargetPlatform == TargetPlatform.iOS || defaultTargetPlatform == TargetPlatform.macOS) {
-        // Firebase already configured in AppDelegate.swift - skip native init
+        await Firebase.initializeApp();
       } else {
         await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
       }
