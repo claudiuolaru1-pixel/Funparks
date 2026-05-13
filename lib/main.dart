@@ -1,5 +1,6 @@
 // lib/main.dart
 import 'package:flutter/foundation.dart';
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:google_maps_flutter_android/google_maps_flutter_android.dart';
@@ -22,7 +23,9 @@ bool _mapsRendererInitialized = false;
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   try {
-    if (Firebase.apps.isEmpty) {
+    // Skip Firebase on iOS - double-init crash with FlutterFire plugin auto-config.
+    // Auth not available on iOS in this version; all park/affiliate data works.
+    if (!Platform.isIOS && !Platform.isMacOS && Firebase.apps.isEmpty) {
       await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
     }
   } catch (e) {
