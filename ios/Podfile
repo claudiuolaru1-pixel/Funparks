@@ -29,21 +29,28 @@ target 'Runner' do
 end
 
 post_install do |installer|
-  # Patch FLTFirebaseCorePlugin to silently handle Firebase double-init.
-  # A FlutterFire plugin auto-configures Firebase during plugin registration,
-  # then our Dart Firebase.initializeApp() triggers a second configureWithName:
-  # call which throws an NSException and crashes on iOS 26.
+  # Patch FLTFirebaseCorePlugin to handle Firebase double-init crash on iOS 26.
+  # A FlutterFire plugin auto-configures Firebase before our Dart initializeApp(),
+  # causing configureWithName:options: to throw on the second call.
   Dir.glob("#{installer.sandbox.root}/**/FLTFirebaseCorePlugin.m").each do |path|
     content = File.read(path)
     next if content.include?('FunparksPatch')
-    patched = content.gsub(
+    # Try multiple known variable name patterns used across firebase_core versions
+    [
       '[FIRApp configureWithName:name options:firOptions];',
-      '/* FunparksPatch */ @try { [FIRApp configureWithName:name options:firOptions]; } @catch (NSException *e) { NSLog(@"[Funparks] Firebase duplicate init caught: %@", e.reason); }'
-    )
-    if patched != content
-      File.write(path, patched)
-      puts "[Funparks] Patched FLTFirebaseCorePlugin.m"
+      '[FIRApp configureWithName:appName options:options];',
+      '[FIRApp configureWithName:appName options:firOptions];',
+      '[FIRApp configureWithName:name options:options];',
+    ].each do |pattern|
+      if content.include?(pattern)
+        replacement = "@try { #{pattern} } @catch (NSException *e) { NSLog(@\"[Funparks] FunparksPatch: Firebase dup ignored: %@\", e.reason); }"
+        content = content.gsub(pattern, replacement)
+        File.write(path, content)
+        puts "[Funparks] Patched FLTFirebaseCorePlugin.m: #{pattern}"
+        break
+      end
     end
+    puts "[Funparks] WARNING: No pattern matched in #{path}" unless content.include?('FunparksPatch')
   end
 
   installer.pods_project.targets.each do |target|
