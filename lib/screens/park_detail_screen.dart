@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:image_picker/image_picker.dart';
 
 import '../app_state.dart';
 import '../l10n/app_localizations.dart';
@@ -646,7 +647,7 @@ class _ParkDetailScreenState extends State<ParkDetailScreen>
           IconButton(
             tooltip: loc.share,
             icon: const Icon(Icons.share),
-            onPressed: () => Share.share('${park.name} - Theme Park Guide\nDiscover attractions, food, hotels and more on Funparks!'),
+            onPressed: () => _showParkShareSheet(context, park),
           ),
         ],
         bottom: TabBar(
@@ -1959,6 +1960,56 @@ class _AttractionDetailScreen extends StatefulWidget {
   State<_AttractionDetailScreen> createState() =>
       _AttractionDetailScreenState();
 }
+
+
+  void _showParkShareSheet(BuildContext context, Park park) {
+    showModalBottomSheet(
+      context: context,
+      shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
+      builder: (ctx) => SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 12),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Container(width: 40, height: 4, margin: const EdgeInsets.only(bottom: 16),
+                decoration: BoxDecoration(color: Colors.grey[300], borderRadius: BorderRadius.circular(2))),
+              ListTile(
+                leading: const Icon(Icons.info_outline),
+                title: const Text('Share park info'),
+                onTap: () async {
+                  Navigator.pop(ctx);
+                  await Share.share('${park.name} - Theme Park Guide\nDiscover attractions, food, hotels and more on Funparks!');
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.photo_library_outlined),
+                title: const Text('Share a photo from your visit'),
+                onTap: () async {
+                  Navigator.pop(ctx);
+                  final XFile? image = await ImagePicker().pickImage(source: ImageSource.gallery);
+                  if (image != null) {
+                    await Share.shareXFiles([image], text: '${park.name} - Funparks');
+                  }
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.videocam_outlined),
+                title: const Text('Share a video from your visit'),
+                onTap: () async {
+                  Navigator.pop(ctx);
+                  final XFile? video = await ImagePicker().pickVideo(source: ImageSource.gallery);
+                  if (video != null) {
+                    await Share.shareXFiles([video], text: '${park.name} - Funparks');
+                  }
+                },
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 
 class _AttractionDetailScreenState
     extends State<_AttractionDetailScreen> {
