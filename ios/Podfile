@@ -33,21 +33,25 @@ target 'Runner' do
 end
 
 post_install do |installer|
-  # Fix Firebase double-init crash: wrap configureWithName:options: in @try-@catch
-  # A FlutterFire plugin auto-configures Firebase before Dart initializeApp() runs.
   Dir.glob("#{installer.sandbox.root}/**/FLTFirebaseCorePlugin.m").each do |path|
     content = File.read(path)
     next if content.include?('FunparksPatch')
+    puts "[Funparks] Found FLTFirebaseCorePlugin.m at: #{path}"
+    # Print all lines with FIRApp or configure for debugging
+    content.each_line.with_index do |line, i|
+      puts "[Funparks] L#{i+1}: #{line.chomp}" if line.include?('FIRApp') || line.include?('onfigure')
+    end
+    # Multiline regex - the ObjC call may span multiple lines
     patched = content.gsub(
-      /(\[FIRApp configureWithName:[^\]]+\];)/,
-      '@try { \1 } @catch (NSException *__e) { NSLog(@"[Funparks] FunparksPatch: Firebase dup ignored: %@", __e.reason); }'
+      /(\[FIRApp configureWithName:.*?\];)/m,
+      "@try { \\1 } @catch (NSException *__e) { NSLog(@\"[Funparks] FunparksPatch: Firebase dup ignored: %@\", __e.reason); }"
     )
     if patched != content
       File.write(path, patched)
-      puts "[Funparks] FunparksPatch: patched FLTFirebaseCorePlugin.m successfully"
+      puts "[Funparks] FunparksPatch: PATCHED SUCCESSFULLY"
     else
-      puts "[Funparks] FunparksPatch WARNING: pattern not matched in #{path}"
-      content.each_line.with_index { |l,i| puts "  #{i+1}: #{l.chomp}" if l.include?('FIRApp') }
+      puts "[Funparks] FunparksPatch: NO MATCH - dumping full file:"
+      puts content
     end
   end
 
