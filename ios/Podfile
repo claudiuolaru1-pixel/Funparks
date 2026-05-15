@@ -33,37 +33,31 @@ target 'Runner' do
 end
 
 post_install do |installer|
-  # Add pre-compile patch script to firebase_core pod target
-  # $PODS_TARGET_SRCROOT points directly to the plugin source dir
-  firebase_target = installer.pods_project.targets.find { |t| t.name == 'firebase_core' }
-  if firebase_target
-    patch_script = <<~'PATCHSCRIPT'
-      #!/bin/sh
-      PLUGIN=$(find "$PODS_TARGET_SRCROOT" -name "FLTFirebaseCorePlugin.m" 2>/dev/null | head -1)
-      echo "[Funparks] FLTFirebaseCorePlugin.m: $PLUGIN"
-      if [ -n "$PLUGIN" ] && ! grep -q "FunparksPatch" "$PLUGIN"; then
-        perl -i -0pe 's/(\[FIRApp configureWithName:[^\]]+\];)/@try { $1 } @catch (NSException *__e) { NSLog(@"[Funparks] FunparksPatch: Firebase dup ignored: %@", __e.reason); }/g' "$PLUGIN"
-        echo "[Funparks] FunparksPatch: PATCHED!"
-      else
-        echo "[Funparks] FunparksPatch: skipped (PLUGIN=$PLUGIN)"
-      fi
-    PATCHSCRIPT
-
-    new_phase = installer.pods_project.new(Xcodeproj::Project::Object::PBXShellScriptBuildPhase)
-    new_phase.name = 'FunparksFirebasePatch'
-    new_phase.shell_path = '/bin/sh'
-    new_phase.shell_script = patch_script.strip
-    new_phase.run_only_for_deployment_postprocessing = '0'
-
-    sources_idx = firebase_target.build_phases.index { |p| p.isa == 'PBXSourcesBuildPhase' }
-    firebase_target.build_phases.insert(sources_idx || 0, new_phase)
-    installer.pods_project.save
-    puts "[Funparks] Added pre-compile patch to firebase_core pod target"
-  else
-    puts "[Funparks] WARNING: firebase_core target not found"
-  end
-
   installer.pods_project.targets.each do |target|
     flutter_additional_ios_build_settings(target)
+  end
+
+  # Patch FLTFirebaseCorePlugin.m with @try-@catch before Xcode compiles it
+  plugin_file = Dir.glob("#{ENV['HOME']}/.pub-cache/**/FLTFirebaseCorePlugin.m").first
+  if plugin_file
+    puts "[Funparks] Patching #{plugin_file}"
+    content = File.read(plugin_file)
+    if content.include?('@try { [FIRApp configureWithName:')
+      puts "[Funparks] Already correctly patched"
+    else
+      # Fix broken patch (missing @ before try/catch)
+      content.gsub!(/(?<![@ \t])try \{ \[FIRApp configureWithName:/, '@try { [FIRApp configureWithName:')
+      content.gsub!(/\} catch \(NSException \*__e\)/, '} @catch (NSException *__e)')
+      # Apply fresh patch if still not patched
+      unless content.include?('@try { [FIRApp configureWithName:')
+        content.gsub!(/(\[FIRApp configureWithName:[^\]]+\];)/) do |m|
+          "@try { #{m} } @catch (NSException *__e) { NSLog(@\"FunparksPatch\"); }"
+        end
+      end
+      File.write(plugin_file, content)
+      puts "[Funparks] Patched!"
+    end
+  else
+    puts "[Funparks] WARNING: FLTFirebaseCorePlugin.m not found!"
   end
 end
