@@ -23,9 +23,7 @@ bool _mapsRendererInitialized = false;
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   try {
-    // Skip Firebase on iOS - double-init crash with FlutterFire plugin auto-config.
-    // Auth not available on iOS in this version; all park/affiliate data works.
-    if (!Platform.isIOS && !Platform.isMacOS && Firebase.apps.isEmpty) {
+    if (Firebase.apps.isEmpty) {
       await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
     }
   } catch (e) {
