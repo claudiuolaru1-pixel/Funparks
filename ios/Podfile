@@ -33,36 +33,34 @@ target 'Runner' do
 end
 
 post_install do |installer|
-  # FLTFirebaseCorePlugin.m lives in .symlinks, NOT in Pods/
-  sandbox_root = installer.sandbox.root.to_s
-  project_dir  = File.dirname(sandbox_root)
-  puts "[Funparks] sandbox_root: #{sandbox_root}"
-  puts "[Funparks] project_dir:  #{project_dir}"
+  # Add pre-compile patch script to firebase_core pod target
+  # $PODS_TARGET_SRCROOT points directly to the plugin source dir
+  firebase_target = installer.pods_project.targets.find { |t| t.name == 'firebase_core' }
+  if firebase_target
+    patch_script = <<~'PATCHSCRIPT'
+      #!/bin/sh
+      PLUGIN=$(find "$PODS_TARGET_SRCROOT" -name "FLTFirebaseCorePlugin.m" 2>/dev/null | head -1)
+      echo "[Funparks] FLTFirebaseCorePlugin.m: $PLUGIN"
+      if [ -n "$PLUGIN" ] && ! grep -q "FunparksPatch" "$PLUGIN"; then
+        perl -i -0pe 's/(\[FIRApp configureWithName:[^\]]+\];)/@try { $1 } @catch (NSException *__e) { NSLog(@"[Funparks] FunparksPatch: Firebase dup ignored: %@", __e.reason); }/g' "$PLUGIN"
+        echo "[Funparks] FunparksPatch: PATCHED!"
+      else
+        echo "[Funparks] FunparksPatch: skipped (PLUGIN=$PLUGIN)"
+      fi
+    PATCHSCRIPT
 
-  # Search entire project dir excluding Pods/
-  all_files = Dir.glob(File.join(project_dir, '**', 'FLTFirebaseCorePlugin.{m,swift}'))
-                 .reject { |f| f.include?('/Pods/') }
-  puts "[Funparks] Found #{all_files.length} FLTFirebaseCorePlugin files:"
-  all_files.each { |f| puts "[Funparks]   #{f}" }
+    new_phase = installer.pods_project.new(Xcodeproj::Project::Object::PBXShellScriptBuildPhase)
+    new_phase.name = 'FunparksFirebasePatch'
+    new_phase.shell_path = '/bin/sh'
+    new_phase.shell_script = patch_script.strip
+    new_phase.run_only_for_deployment_postprocessing = '0'
 
-  all_files.each do |path|
-    content = File.read(path)
-    next if content.include?('FunparksPatch')
-    puts "[Funparks] Patching #{path}..."
-    # Print lines with configure for context
-    content.each_line.with_index { |l,i| puts "[Funparks] L#{i+1}: #{l.chomp}" if l.include?('configure') || l.include?('FIRApp') }
-    # Multiline regex
-    patched = content.gsub(
-      /(\[FIRApp configureWithName:.*?\];)/m,
-      "@try { \\1 } @catch (NSException *__e) { NSLog(@\"[Funparks] FunparksPatch: Firebase dup ignored: %@\", __e.reason); }"
-    )
-    if patched != content
-      File.write(path, patched)
-      puts "[Funparks] FunparksPatch: PATCHED SUCCESSFULLY"
-    else
-      puts "[Funparks] FunparksPatch: regex no match, dumping file:"
-      puts content
-    end
+    sources_idx = firebase_target.build_phases.index { |p| p.isa == 'PBXSourcesBuildPhase' }
+    firebase_target.build_phases.insert(sources_idx || 0, new_phase)
+    installer.pods_project.save
+    puts "[Funparks] Added pre-compile patch to firebase_core pod target"
+  else
+    puts "[Funparks] WARNING: firebase_core target not found"
   end
 
   installer.pods_project.targets.each do |target|
