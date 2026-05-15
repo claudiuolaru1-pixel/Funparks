@@ -57,5 +57,9 @@
 	<false/>
 <key>FirebaseAppDelegateProxyEnabled</key>
 	<false/>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Funparks needs access to your photos to share pictures from your park visit.</string>
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>Funparks needs access to save photos to your library.</string>
 </dict>
 </plist>
