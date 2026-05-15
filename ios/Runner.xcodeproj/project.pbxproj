@@ -243,7 +243,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\\nPLUGIN=$(find \"$HOME/.pub-cache\" -path \"*/firebase_core*/FLTFirebaseCorePlugin.m\" 2>/dev/null | head -1)\\nif [ -z \"$PLUGIN\" ]; then PLUGIN=$(find \"$HOME/.pub-cache\" -path \"*/firebase_core*/FLTFirebaseCorePlugin.m\" 2>/dev/null | head -1); fi\\necho \"[Funparks] Plugin file: $PLUGIN\"\\nif [ -n \"$PLUGIN\" ] && ! grep -q \"@try\" \"$PLUGIN\"; then\\n perl -i -0pe 's/(\\[FIRApp configureWithName:[^\\]]+\\];)/\\@try { $1 } \\@catch (NSException *__e) { NSLog(\\@\\\"[Funparks] FunparksPatch: Firebase dup ignored: %\\@\\\", __e.reason); }/g' \"$PLUGIN\"\\n echo \"[Funparks] FunparksPatch: PATCHED!\"\\nelse\\n echo \"[Funparks] FunparksPatch: skipped (file=$PLUGIN)\"\\nfi";
+			shellScript = "/bin/sh \\"$SRCROOT/Runner/FunparksPatch.sh\\"";
 		};
 
 		3B06AD1E1E4923F5004D2608 /* Thin Binary */ = {
