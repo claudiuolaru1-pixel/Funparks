@@ -33,15 +33,25 @@ target 'Runner' do
 end
 
 post_install do |installer|
-  Dir.glob("#{installer.sandbox.root}/**/FLTFirebaseCorePlugin.m").each do |path|
+  # FLTFirebaseCorePlugin.m lives in .symlinks, NOT in Pods/
+  sandbox_root = installer.sandbox.root.to_s
+  project_dir  = File.dirname(sandbox_root)
+  puts "[Funparks] sandbox_root: #{sandbox_root}"
+  puts "[Funparks] project_dir:  #{project_dir}"
+
+  # Search entire project dir excluding Pods/
+  all_files = Dir.glob(File.join(project_dir, '**', 'FLTFirebaseCorePlugin.{m,swift}'))
+                 .reject { |f| f.include?('/Pods/') }
+  puts "[Funparks] Found #{all_files.length} FLTFirebaseCorePlugin files:"
+  all_files.each { |f| puts "[Funparks]   #{f}" }
+
+  all_files.each do |path|
     content = File.read(path)
     next if content.include?('FunparksPatch')
-    puts "[Funparks] Found FLTFirebaseCorePlugin.m at: #{path}"
-    # Print all lines with FIRApp or configure for debugging
-    content.each_line.with_index do |line, i|
-      puts "[Funparks] L#{i+1}: #{line.chomp}" if line.include?('FIRApp') || line.include?('onfigure')
-    end
-    # Multiline regex - the ObjC call may span multiple lines
+    puts "[Funparks] Patching #{path}..."
+    # Print lines with configure for context
+    content.each_line.with_index { |l,i| puts "[Funparks] L#{i+1}: #{l.chomp}" if l.include?('configure') || l.include?('FIRApp') }
+    # Multiline regex
     patched = content.gsub(
       /(\[FIRApp configureWithName:.*?\];)/m,
       "@try { \\1 } @catch (NSException *__e) { NSLog(@\"[Funparks] FunparksPatch: Firebase dup ignored: %@\", __e.reason); }"
@@ -50,7 +60,7 @@ post_install do |installer|
       File.write(path, patched)
       puts "[Funparks] FunparksPatch: PATCHED SUCCESSFULLY"
     else
-      puts "[Funparks] FunparksPatch: NO MATCH - dumping full file:"
+      puts "[Funparks] FunparksPatch: regex no match, dumping file:"
       puts content
     end
   end
