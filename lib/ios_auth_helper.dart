@@ -38,7 +38,7 @@ class IOSAuthHelper {
 
   static Future<Map<String, dynamic>> _post(
       String endpoint, String email, String pass) async {
-    final apiKey = DefaultFirebaseOptions.currentPlatform.apiKey;
+    final apiKey = DefaultFirebaseOptions.android.apiKey; // Android key works for REST API
     final uri = Uri.parse(
         'https://identitytoolkit.googleapis.com/v1/accounts:$endpoint?key=$apiKey');
     final res = await http.post(uri,
