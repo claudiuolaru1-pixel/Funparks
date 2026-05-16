@@ -37,8 +37,7 @@ post_install do |installer|
     flutter_additional_ios_build_settings(target)
   end
 
-  # Patch FLTFirebaseCorePlugin.m - wrap configureWithName in @try-@catch
-  # (handles duplicate configure: AppDelegate configures first, Dart tries again)
+  # Patch 1: FLTFirebaseCorePlugin.m
   core_plugin = Dir.glob("#{ENV['HOME']}/.pub-cache/**/FLTFirebaseCorePlugin.m").first
   if core_plugin
     content = File.read(core_plugin)
@@ -47,9 +46,20 @@ post_install do |installer|
         "@try { #{m} } @catch (NSException *__e) { NSLog(@\"FunparksPatch\"); }"
       end
       File.write(core_plugin, content)
-      puts "[Funparks] Core plugin patched!"
-    else
-      puts "[Funparks] Core plugin already patched"
+      puts "[Funparks] Core patched!"
+    end
+  end
+
+  # Patch 2: FLTFirebaseAuthPlugin.m - skip Auth.auth crash, return minimal constants
+  auth_plugin = Dir.glob("#{ENV['HOME']}/.pub-cache/**/FLTFirebaseAuthPlugin.m").first
+  if auth_plugin
+    content = File.read(auth_plugin)
+    unless content.include?('FunparksAuthPatch')
+      modified = content.sub(/pluginConstantsForFIRApp:[^{]+\{/) do |match|
+        match + "\n  return @{@\"APP_LANGUAGE\": [NSNull null], @\"APP_VERIFICATION_DISABLED\": @(NO)}; // FunparksAuthPatch"
+      end
+      File.write(auth_plugin, modified)
+      puts "[Funparks] Auth patched!"
     end
   end
 end

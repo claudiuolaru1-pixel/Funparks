@@ -13,15 +13,15 @@ class _SignInScreenState extends State<SignInScreen>
     with SingleTickerProviderStateMixin {
   late final TabController _tabs;
 
-  final _loginEmailCtrl = TextEditingController();
-  final _loginPassCtrl = TextEditingController();
+  late TextEditingController _loginEmailCtrl;
+  late TextEditingController _loginPassCtrl;
   bool _loginPassVisible = false;
   String? _loginError;
   bool _loginBusy = false;
 
-  final _regEmailCtrl = TextEditingController();
-  final _regPassCtrl = TextEditingController();
-  final _regConfirmCtrl = TextEditingController();
+  late TextEditingController _regEmailCtrl;
+  late TextEditingController _regPassCtrl;
+  late TextEditingController _regConfirmCtrl;
   bool _regPassVisible = false;
   String? _regError;
   bool _regBusy = false;
@@ -29,6 +29,11 @@ class _SignInScreenState extends State<SignInScreen>
   @override
   void initState() {
     super.initState();
+    _loginEmailCtrl = TextEditingController();
+    _loginPassCtrl = TextEditingController();
+    _regEmailCtrl = TextEditingController();
+    _regPassCtrl = TextEditingController();
+    _regConfirmCtrl = TextEditingController();
     _tabs = TabController(
         length: 2, vsync: this, initialIndex: widget.startOnRegister ? 1 : 0);
   }
@@ -58,6 +63,8 @@ class _SignInScreenState extends State<SignInScreen>
       if (mounted) Navigator.of(context).pushReplacementNamed('/home');
     } on FirebaseAuthException catch (e) {
       setState(() => _loginError = _authMessage(e.code));
+    } catch (e) {
+      setState(() => _loginError = 'Error: ' + e.toString());
     } finally {
       if (mounted) setState(() => _loginBusy = false);
     }
