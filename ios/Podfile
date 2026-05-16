@@ -37,29 +37,29 @@ post_install do |installer|
     flutter_additional_ios_build_settings(target)
   end
 
-  # Patch 1: FLTFirebaseCorePlugin.m
   core_plugin = Dir.glob("#{ENV['HOME']}/.pub-cache/**/FLTFirebaseCorePlugin.m").first
   if core_plugin
     content = File.read(core_plugin)
     unless content.include?('@try { [FIRApp configureWithName:')
-      content.gsub!(/(\[FIRApp configureWithName:[^\]]+\];)/) do |m|
-        "@try { #{m} } @catch (NSException *__e) { NSLog(@\"FunparksPatch\"); }"
-      end
+      content.gsub!(/(\[FIRApp configureWithName:[^\]]+\];)/) { |m| "@try { #{m} } @catch (NSException *__e) { NSLog(@\"FunparksPatch\"); }" }
       File.write(core_plugin, content)
       puts "[Funparks] Core patched!"
     end
   end
 
-  # Patch 2: FLTFirebaseAuthPlugin.m - skip Auth.auth crash, return minimal constants
   auth_plugin = Dir.glob("#{ENV['HOME']}/.pub-cache/**/FLTFirebaseAuthPlugin.m").first
   if auth_plugin
     content = File.read(auth_plugin)
     unless content.include?('FunparksAuthPatch')
-      modified = content.sub(/pluginConstantsForFIRApp:[^{]+\{/) do |match|
-        match + "\n  return @{@\"APP_LANGUAGE\": [NSNull null], @\"APP_VERIFICATION_DISABLED\": @(NO)}; // FunparksAuthPatch"
+      content.sub!(/pluginConstantsForFIRApp:[^{]+\{/) do |match|
+        match + "\n  return @{@\"APP_VERIFICATION_DISABLED_FOR_TESTING\": @(NO), @\"APP_LANGUAGE_CODE\": [NSNull null]}; // FunparksAuthPatch"
       end
-      File.write(auth_plugin, modified)
-      puts "[Funparks] Auth patched!"
+      if content.include?('FunparksAuthPatch')
+        File.write(auth_plugin, content)
+        puts "[Funparks] Auth patched!"
+      else
+        puts "[Funparks] Auth patch regex did not match!"
+      end
     end
   end
 end
