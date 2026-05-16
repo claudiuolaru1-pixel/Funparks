@@ -37,27 +37,37 @@ post_install do |installer|
     flutter_additional_ios_build_settings(target)
   end
 
-  # Patch FLTFirebaseCorePlugin.m with @try-@catch before Xcode compiles it
-  plugin_file = Dir.glob("#{ENV['HOME']}/.pub-cache/**/FLTFirebaseCorePlugin.m").first
-  if plugin_file
-    puts "[Funparks] Patching #{plugin_file}"
-    content = File.read(plugin_file)
+  # Patch 1: FLTFirebaseCorePlugin.m - wrap configureWithName in @try-@catch
+  core_plugin = Dir.glob("#{ENV['HOME']}/.pub-cache/**/FLTFirebaseCorePlugin.m").first
+  if core_plugin
+    puts "[Funparks] Patching core: #{core_plugin}"
+    content = File.read(core_plugin)
     if content.include?('@try { [FIRApp configureWithName:')
-      puts "[Funparks] Already correctly patched"
+      puts "[Funparks] Core already patched"
     else
-      # Fix broken patch (missing @ before try/catch)
-      content.gsub!(/(?<![@ \t])try \{ \[FIRApp configureWithName:/, '@try { [FIRApp configureWithName:')
-      content.gsub!(/\} catch \(NSException \*__e\)/, '} @catch (NSException *__e)')
-      # Apply fresh patch if still not patched
-      unless content.include?('@try { [FIRApp configureWithName:')
-        content.gsub!(/(\[FIRApp configureWithName:[^\]]+\];)/) do |m|
-          "@try { #{m} } @catch (NSException *__e) { NSLog(@\"FunparksPatch\"); }"
-        end
+      content.gsub!(/(\[FIRApp configureWithName:[^\]]+\];)/) do |m|
+        "@try { #{m} } @catch (NSException *__e) { NSLog(@\"FunparksPatch\"); }"
       end
-      File.write(plugin_file, content)
-      puts "[Funparks] Patched!"
+      File.write(core_plugin, content)
+      puts "[Funparks] Core patched!"
+    end
+  end
+
+  # Patch 2: FLTFirebaseAuthPlugin.m - skip Auth.auth(app:) crash on iOS 26
+  auth_plugin = Dir.glob("#{ENV['HOME']}/.pub-cache/**/FLTFirebaseAuthPlugin.m").first
+  if auth_plugin
+    puts "[Funparks] Patching auth: #{auth_plugin}"
+    content = File.read(auth_plugin)
+    if content.include?('FunparksAuthPatch')
+      puts "[Funparks] Auth already patched"
+    else
+      content.gsub!(/(- \(NSDictionary \*\)pluginConstantsForFIRApp:\([^)]+\)[^ ]+ \{)/) do |match|
+        "#{match}\n  return @{}; // FunparksAuthPatch: skip Auth.auth crash on iOS 26"
+      end
+      File.write(auth_plugin, content)
+      puts "[Funparks] Auth patched!"
     end
   else
-    puts "[Funparks] WARNING: FLTFirebaseCorePlugin.m not found!"
+    puts "[Funparks] WARNING: FLTFirebaseAuthPlugin.m not found!"
   end
 end
