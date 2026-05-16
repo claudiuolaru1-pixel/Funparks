@@ -23,11 +23,11 @@ bool _mapsRendererInitialized = false;
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   try {
-    if (Firebase.apps.isEmpty) {
-      await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-    }
+    await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  } on FirebaseException catch (e) {
+    debugPrint('Firebase init FirebaseException: ${e.code}');
   } catch (e) {
-    debugPrint('Firebase init: $e');
+    debugPrint('Firebase init error: $e');
   }
   if (!_mapsRendererInitialized &&
       !kIsWeb &&
