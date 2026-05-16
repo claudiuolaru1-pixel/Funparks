@@ -70,7 +70,7 @@ class _SignInScreenState extends State<SignInScreen>
       }
       if (mounted) Navigator.of(context).pushReplacementNamed('/home');
     } on FirebaseAuthException catch (e) {
-      setState(() => _loginError = _authMessage(e.code));
+      setState(() => _loginError = 'FAE:' + e.code + ' ' + (e.message ?? ''));
     } catch (e) {
       setState(() => _loginError = 'Init:' + firebaseInitError + ' Apps:' + Firebase.apps.length.toString() + ' ' + e.toString());
     } finally {
