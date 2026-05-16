@@ -40,10 +40,21 @@ post_install do |installer|
   core_plugin = Dir.glob("#{ENV['HOME']}/.pub-cache/**/FLTFirebaseCorePlugin.m").first
   if core_plugin
     content = File.read(core_plugin)
+    patched = false
     unless content.include?('@try { [FIRApp configureWithName:')
       content.gsub!(/(\[FIRApp configureWithName:[^\]]+\];)/) { |m| "@try { #{m} } @catch (NSException *__e) { NSLog(@\"FunparksPatch\"); }" }
+      patched = true
+    end
+    # Also patch appNamed to fallback to defaultApp if nil
+    unless content.include?('FunparksPatch2')
+      content.gsub!(/\[FIRApp appNamed:name\]/) { "([FIRApp appNamed:name] ?: [FIRApp defaultApp]) /* FunparksPatch2 */" }
+      patched = true
+    end
+    if patched
       File.write(core_plugin, content)
       puts "[Funparks] Core patched!"
+    else
+      puts "[Funparks] Core already patched"
     end
   end
 
@@ -54,12 +65,8 @@ post_install do |installer|
       content.sub!(/pluginConstantsForFIRApp:[^{]+\{/) do |match|
         match + "\n  return @{@\"APP_VERIFICATION_DISABLED_FOR_TESTING\": @(NO), @\"APP_LANGUAGE_CODE\": [NSNull null]}; // FunparksAuthPatch"
       end
-      if content.include?('FunparksAuthPatch')
-        File.write(auth_plugin, content)
-        puts "[Funparks] Auth patched!"
-      else
-        puts "[Funparks] Auth patch regex did not match!"
-      end
+      File.write(auth_plugin, content)
+      puts "[Funparks] Auth patched!"
     end
   end
 end
