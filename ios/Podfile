@@ -37,7 +37,8 @@ post_install do |installer|
     flutter_additional_ios_build_settings(target)
   end
 
-  # Patch 1: FLTFirebaseCorePlugin.m - wrap configureWithName in @try-@catch
+  # Patch FLTFirebaseCorePlugin.m - wrap configureWithName in @try-@catch
+  # (handles duplicate configure: AppDelegate configures first, Dart tries again)
   core_plugin = Dir.glob("#{ENV['HOME']}/.pub-cache/**/FLTFirebaseCorePlugin.m").first
   if core_plugin
     content = File.read(core_plugin)
@@ -50,32 +51,5 @@ post_install do |installer|
     else
       puts "[Funparks] Core plugin already patched"
     end
-  end
-
-  # Patch 2: FLTFirebaseAuthPlugin.m - insert early return to skip Auth.auth(app:) crash
-  auth_plugin = Dir.glob("#{ENV['HOME']}/.pub-cache/**/FLTFirebaseAuthPlugin.m").first
-  if auth_plugin
-    content = File.read(auth_plugin)
-    if content.include?('FunparksAuthPatch')
-      puts "[Funparks] Auth plugin already patched"
-    else
-      # Insert early return right after opening brace of pluginConstantsForFIRApp:
-      modified = content.sub(/pluginConstantsForFIRApp:[^{]+\{/) do |match|
-        match + "\n  return @{}; // FunparksAuthPatch: skip Auth.auth crash on iOS 26"
-      end
-      if modified.include?('FunparksAuthPatch')
-        File.write(auth_plugin, modified)
-        puts "[Funparks] Auth plugin patched!"
-      else
-        # Fallback: find [FIRAuth authWithApp: and return before it
-        modified2 = content.gsub(/(\[FIRAuth authWithApp:[^\]]+\])/) do |m|
-          "nil; if(NO){ #{m} } // FunparksAuthPatch"
-        end
-        File.write(auth_plugin, modified2)
-        puts "[Funparks] Auth plugin patched (fallback)!"
-      end
-    end
-  else
-    puts "[Funparks] WARNING: FLTFirebaseAuthPlugin.m not found!"
   end
 end
