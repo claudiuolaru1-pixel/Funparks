@@ -28,7 +28,7 @@ Future<void> main() async {
   } on FirebaseException catch (e) {
     firebaseInitError = 'FE:${e.code}';
   } catch (e) {
-    firebaseInitError = 'E:${e.runtimeType}';
+    firebaseInitError = e.toString().length > 120 ? e.toString().substring(0,120) : e.toString();
   }
   if (!_mapsRendererInitialized &&
       !kIsWeb &&
