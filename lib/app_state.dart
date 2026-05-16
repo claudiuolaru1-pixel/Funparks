@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -12,7 +13,8 @@ class AppState extends ChangeNotifier {
   // ---------------------------
   User? _user;
   User? get currentUser => _user;
-  bool get isLoggedIn => _user != null;
+  bool _iosSignedIn = false;
+  bool get isLoggedIn => _user != null || _iosSignedIn;
   String? get userEmail => _user?.email;
 
   // ---------------------------
@@ -225,6 +227,15 @@ class AppState extends ChangeNotifier {
   bool _myDayUnifiedLoaded = false;
 
   Future<void> _ensureBootLoaded() async {
+    if (Platform.isIOS && !_iosSignedIn) {
+      final _ip = await SharedPreferences.getInstance();
+      final _iu = _ip.getString('ios_user_uid');
+      if (_iu != null && _iu.isNotEmpty) {
+        _iosSignedIn = true;
+        await _syncFromFirestore(_iu);
+        notifyListeners();
+      }
+    }
     if (_bootLoaded) return;
     _bootLoaded = true;
     final prefs = await SharedPreferences.getInstance();
@@ -236,13 +247,15 @@ class AppState extends ChangeNotifier {
       ..addAll(fav.where((e) => e.trim().isNotEmpty));
 
     // Listen to auth state changes
-    FirebaseAuth.instance.authStateChanges().listen((user) async {
-      _user = user;
-      if (user != null) {
-        await _syncFromFirestore(user.uid);
-      }
-      notifyListeners();
-    });
+    if (!Platform.isIOS) {
+      FirebaseAuth.instance.authStateChanges().listen((user) async {
+        _user = user;
+        if (user != null) {
+          await _syncFromFirestore(user.uid);
+        }
+        notifyListeners();
+      });
+    }
   }
 
   Future<void> _ensureMyDayLoaded() async {
@@ -487,8 +500,15 @@ class AppState extends ChangeNotifier {
   // Sign out
   // ---------------------------
   Future<void> signOut() async {
-    await FirebaseAuth.instance.signOut();
-    _user = null;
+    if (Platform.isIOS) {
+      _iosSignedIn = false;
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.remove('ios_user_uid');
+      await prefs.remove('ios_user_email');
+    } else {
+      await FirebaseAuth.instance.signOut();
+      _user = null;
+    }
     notifyListeners();
   }
 

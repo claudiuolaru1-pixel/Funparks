@@ -2,6 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import '../main.dart' show firebaseInitError;
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'dart:io';
+import '../ios_auth_helper.dart';
 
 class SignInScreen extends StatefulWidget {
   final bool startOnRegister;
@@ -60,8 +62,12 @@ class _SignInScreenState extends State<SignInScreen>
     }
     setState(() { _loginBusy = true; _loginError = null; });
     try {
-      await FirebaseAuth.instance
-          .signInWithEmailAndPassword(email: email, password: pass);
+      if (Platform.isIOS) {
+        await IOSAuthHelper.signIn(email, pass);
+      } else {
+        await FirebaseAuth.instance
+            .signInWithEmailAndPassword(email: email, password: pass);
+      }
       if (mounted) Navigator.of(context).pushReplacementNamed('/home');
     } on FirebaseAuthException catch (e) {
       setState(() => _loginError = _authMessage(e.code));
@@ -90,8 +96,12 @@ class _SignInScreenState extends State<SignInScreen>
     }
     setState(() { _regBusy = true; _regError = null; });
     try {
-      await FirebaseAuth.instance
-          .createUserWithEmailAndPassword(email: email, password: pass);
+      if (Platform.isIOS) {
+        await IOSAuthHelper.register(email, pass);
+      } else {
+        await FirebaseAuth.instance
+            .createUserWithEmailAndPassword(email: email, password: pass);
+      }
       if (mounted) Navigator.of(context).pushReplacementNamed('/home');
     } on FirebaseAuthException catch (e) {
       print('FIREBASE_AUTH_ERROR: ${e.code} - ${e.message}');
