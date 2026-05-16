@@ -19,15 +19,16 @@ import 'l10n/app_localizations.dart';
 import 'firebase_options.dart';
 
 bool _mapsRendererInitialized = false;
+String firebaseInitError = '';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   try {
     await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   } on FirebaseException catch (e) {
-    debugPrint('Firebase init FirebaseException: ${e.code}');
+    firebaseInitError = 'FE:${e.code}';
   } catch (e) {
-    debugPrint('Firebase init error: $e');
+    firebaseInitError = 'E:${e.runtimeType}';
   }
   if (!_mapsRendererInitialized &&
       !kIsWeb &&

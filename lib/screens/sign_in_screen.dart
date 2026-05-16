@@ -1,4 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
+import '../main.dart' show firebaseInitError;
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -65,7 +66,7 @@ class _SignInScreenState extends State<SignInScreen>
     } on FirebaseAuthException catch (e) {
       setState(() => _loginError = _authMessage(e.code));
     } catch (e) {
-      setState(() => _loginError = 'Apps:' + Firebase.apps.length.toString() + ' ' + e.toString());
+      setState(() => _loginError = 'Init:' + firebaseInitError + ' Apps:' + Firebase.apps.length.toString() + ' ' + e.toString());
     } finally {
       if (mounted) setState(() => _loginBusy = false);
     }
