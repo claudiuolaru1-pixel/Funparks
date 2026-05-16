@@ -1,6 +1,6 @@
 ﻿name: funparks
 description: A playful, map-first theme park discovery app (MVP).
-version: 2.0.1+189
+version: 2.0.1+190
 publish_to: "none"
 
 environment:
@@ -26,10 +26,10 @@ dependencies:
   google_maps_flutter_android: ^2.14.13
 
   # Firebase
-  firebase_core: ^3.5.0
-  cloud_firestore: ^5.6.12
-  firebase_auth: ^5.3.1
-  firebase_storage: ^12.3.3
+  firebase_core: ^4.9.0
+  cloud_firestore: ^6.4.1
+  firebase_auth: ^6.5.1
+  firebase_storage: ^13.4.1
 
   # Other
   share_plus: ^10.0.2
