@@ -251,7 +251,6 @@ class AppState extends ChangeNotifier {
     }
     if (_bootLoaded) return;
     _bootLoaded = true;
-    await _ensureMyDayLoaded();
     final prefs = await SharedPreferences.getInstance();
     _languageCode = prefs.getString(_kLang) ?? _languageCode;
     _currencyCode = prefs.getString(_kCurrency) ?? _currencyCode;
@@ -259,6 +258,8 @@ class AppState extends ChangeNotifier {
     _favoriteParkIds
       ..clear()
       ..addAll(fav.where((e) => e.trim().isNotEmpty));
+
+    await _ensureMyDayLoaded();
 
     // Listen to auth state changes
     if (!Platform.isIOS) {
@@ -347,6 +348,13 @@ class AppState extends ChangeNotifier {
       _db.collection('users').doc(uid);
 
   /// Pull all user data from Firestore and overwrite local state.
+  void onIOSSignIn(String uid, String email) {
+    _iosSignedIn = true;
+    _iosUserEmail = email;
+    _iosGuestChecked = true;
+    notifyListeners();
+  }
+
   Future<void> _syncFromFirestore(String uid) async {
     if (Platform.isIOS) return; // Firestore not available on iOS 26
     try {
@@ -518,6 +526,8 @@ class AppState extends ChangeNotifier {
   Future<void> signOut() async {
     if (Platform.isIOS) {
       _iosSignedIn = false;
+      _iosUserEmail = null;
+      _iosGuestChecked = false;
       final prefs = await SharedPreferences.getInstance();
       await prefs.remove('ios_user_uid');
       await prefs.remove('ios_user_email');

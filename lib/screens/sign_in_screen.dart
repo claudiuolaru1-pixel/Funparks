@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'dart:io';
 import '../ios_auth_helper.dart';
+import 'package:provider/provider.dart';
+import '../app_state.dart';
 
 class SignInScreen extends StatefulWidget {
   final bool startOnRegister;
@@ -63,7 +65,8 @@ class _SignInScreenState extends State<SignInScreen>
     setState(() { _loginBusy = true; _loginError = null; });
     try {
       if (Platform.isIOS) {
-        await IOSAuthHelper.signIn(email, pass);
+        final uid = await IOSAuthHelper.signIn(email, pass);
+        if (mounted) Provider.of<AppState>(context, listen: false).onIOSSignIn(uid, email);
       } else {
         await FirebaseAuth.instance
             .signInWithEmailAndPassword(email: email, password: pass);
@@ -97,7 +100,8 @@ class _SignInScreenState extends State<SignInScreen>
     setState(() { _regBusy = true; _regError = null; });
     try {
       if (Platform.isIOS) {
-        await IOSAuthHelper.register(email, pass);
+        final uid = await IOSAuthHelper.register(email, pass);
+        if (mounted) Provider.of<AppState>(context, listen: false).onIOSSignIn(uid, email);
       } else {
         await FirebaseAuth.instance
             .createUserWithEmailAndPassword(email: email, password: pass);
