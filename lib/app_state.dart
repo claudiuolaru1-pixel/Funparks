@@ -445,7 +445,7 @@ class AppState extends ChangeNotifier {
     await prefs.setString(
         _kMyDayUnified,
         json.encode(_myDayItems.map((i) => i.toJson()).toList()));
-    if (isLoggedIn) {
+    if (isLoggedIn && _user != null && !Platform.isIOS) {
       await _userDoc(_user!.uid).set({
         'my_day': _myDayItems.map((i) => i.toJson()).toList(),
         'updated_at': FieldValue.serverTimestamp(),
