@@ -14,6 +14,7 @@ class AppState extends ChangeNotifier {
   User? _user;
   User? get currentUser => _user;
   bool _iosSignedIn = false;
+  bool _iosGuestChecked = false;
   bool get isLoggedIn => _user != null || _iosSignedIn;
   String? get userEmail => _user?.email;
 
@@ -236,7 +237,8 @@ class AppState extends ChangeNotifier {
   bool _myDayUnifiedLoaded = false;
 
   Future<void> _ensureBootLoaded() async {
-    if (Platform.isIOS && !_iosSignedIn) {
+    if (Platform.isIOS && !_iosSignedIn && !_iosGuestChecked) {
+      _iosGuestChecked = true;
       final _ip = await SharedPreferences.getInstance();
       final _iu = _ip.getString('ios_user_uid');
       if (_iu != null && _iu.isNotEmpty) {
@@ -247,6 +249,7 @@ class AppState extends ChangeNotifier {
     }
     if (_bootLoaded) return;
     _bootLoaded = true;
+    await _ensureMyDayLoaded();
     final prefs = await SharedPreferences.getInstance();
     _languageCode = prefs.getString(_kLang) ?? _languageCode;
     _currencyCode = prefs.getString(_kCurrency) ?? _currencyCode;
