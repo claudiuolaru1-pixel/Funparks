@@ -1,1 +1,0 @@
-﻿const fs=require('fs');const d=JSON.parse(fs.readFileSync('luna_park_sydney_i18n_source.json','utf8'));fs.writeFileSync('assets/i18n/luna_park_sydney.json',JSON.stringify(d,null,2),'utf8');console.log('Done! Size:',fs.statSync('assets/i18n/luna_park_sydney.json').size,'bytes');

@@ -1,8 +1,0 @@
-﻿const fs=require('fs');
-function readJson(p){let r=fs.readFileSync(p,'utf8');if(r.charCodeAt(0)===0xFEFF)r=r.slice(1);return JSON.parse(r);}
-const pe={id:"disney_california_adventure",thumbnailAsset:"assets/images/disney_california_adventure/park_thumbnail.png",tailAsset:"",name:"Disney California Adventure",type:"Theme Park",entryPrice:{child:109,adult:129},currency:"USD",openingHours:"08:00 - 22:00",lng:-117.9215,country:"USA",city:"Anaheim, California",ticketsUrl:"https://disneyland.disney.go.com/tickets/",queueTimesId:0};
-const ie={id:"disney_california_adventure",name:"Disney California Adventure",city:"Anaheim, California",country:"USA",type:"Theme Park",lat:33.8053,lng:-117.9215,thumbnail:"assets/images/disney_california_adventure/park_thumbnail.png",website:"https://disneyland.disney.go.com/destinations/disney-california-adventure/",ticketsUrl:"https://disneyland.disney.go.com/tickets/",detailAsset:"",openingHours:"08:00 - 22:00",entryPrices:{adult:129,child:109},currency:"USD",queueTimesId:0};
-const parks=readJson('assets/data/parks.json');
-if(!parks.find(p=>p.id==='disney_california_adventure')){parks.push(pe);fs.writeFileSync('assets/data/parks.json',JSON.stringify(parks,null,4),'utf8');console.log('parks.json:',parks.length);}else{console.log('DCA already in parks.json');}
-const index=readJson('assets/data/parks/parks_index.json');
-if(!index.find(p=>p.id==='disney_california_adventure')){index.push(ie);fs.writeFileSync('assets/data/parks/parks_index.json',JSON.stringify(index,null,4),'utf8');console.log('parks_index.json:',index.length);}else{console.log('DCA already in parks_index.json');}

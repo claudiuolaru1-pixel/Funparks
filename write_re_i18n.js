@@ -1,1 +1,0 @@
-﻿const fs=require('fs');const d=JSON.parse(fs.readFileSync('rainbows_end_i18n_source.json','utf8'));fs.writeFileSync('assets/i18n/rainbows_end.json',JSON.stringify(d,null,2),'utf8');console.log('Done! Size:',fs.statSync('assets/i18n/rainbows_end.json').size,'bytes');
