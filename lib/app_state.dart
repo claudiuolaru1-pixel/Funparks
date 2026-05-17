@@ -348,6 +348,11 @@ class AppState extends ChangeNotifier {
       _db.collection('users').doc(uid);
 
   /// Pull all user data from Firestore and overwrite local state.
+  void onAndroidSignIn(dynamic user) {
+    _user = user;
+    notifyListeners();
+  }
+
   void onIOSSignIn(String uid, String email) {
     _iosSignedIn = true;
     _iosUserEmail = email;

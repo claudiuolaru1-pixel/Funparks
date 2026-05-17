@@ -70,6 +70,8 @@ class _SignInScreenState extends State<SignInScreen>
       } else {
         await FirebaseAuth.instance
             .signInWithEmailAndPassword(email: email, password: pass);
+        final u = FirebaseAuth.instance.currentUser;
+        if (mounted && u != null) Provider.of<AppState>(context, listen: false).onAndroidSignIn(u);
       }
       if (mounted) Navigator.of(context).pushReplacementNamed('/home');
     } on FirebaseAuthException catch (e) {
