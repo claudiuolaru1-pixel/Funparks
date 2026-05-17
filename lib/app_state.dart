@@ -334,6 +334,7 @@ class AppState extends ChangeNotifier {
 
   /// Pull all user data from Firestore and overwrite local state.
   Future<void> _syncFromFirestore(String uid) async {
+    if (Platform.isIOS) return; // Firestore not available on iOS 26
     try {
       final doc = await _userDoc(uid).get();
       if (!doc.exists) {
@@ -403,6 +404,7 @@ class AppState extends ChangeNotifier {
 
   /// Push all local data up to Firestore.
   Future<void> _pushToFirestore(String uid) async {
+    if (Platform.isIOS) return; // Firestore not available on iOS 26
     try {
       await _userDoc(uid).set({
         'my_day': _myDayItems.map((i) => i.toJson()).toList(),
