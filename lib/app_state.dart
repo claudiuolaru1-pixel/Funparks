@@ -15,8 +15,9 @@ class AppState extends ChangeNotifier {
   User? get currentUser => _user;
   bool _iosSignedIn = false;
   bool _iosGuestChecked = false;
+  String? _iosUserEmail;
   bool get isLoggedIn => _user != null || _iosSignedIn;
-  String? get userEmail => _user?.email;
+  String? get userEmail => _user?.email ?? (Platform.isIOS ? _iosUserEmail : null);
 
   // ---------------------------
   // Language & currency
@@ -243,6 +244,7 @@ class AppState extends ChangeNotifier {
       final _iu = _ip.getString('ios_user_uid');
       if (_iu != null && _iu.isNotEmpty) {
         _iosSignedIn = true;
+        _iosUserEmail = _ip.getString('ios_user_email');
         await _syncFromFirestore(_iu);
         notifyListeners();
       }
