@@ -73,11 +73,20 @@ class AppState extends ChangeNotifier {
   // Unified My Day
   // ---------------------------
   final List<MyDayItem> _myDayItems = [];
-  List<MyDayItem> get myDayItems => List.unmodifiable(_myDayItems);
-  int get myDayTotalCount => _myDayItems.length;
+  List<MyDayItem> get myDayItems {
+    if (!_myDayUnifiedLoaded) _ensureMyDayLoaded().then((_) => notifyListeners());
+    return List.unmodifiable(_myDayItems);
+  }
+  int get myDayTotalCount {
+    if (!_myDayUnifiedLoaded) _ensureMyDayLoaded().then((_) => notifyListeners());
+    return _myDayItems.length;
+  }
   int get myDayTotalMinutes =>
       _myDayItems.fold(0, (sum, i) => sum + i.estimatedMinutes);
-  bool isInMyDayUnified(String id) => _myDayItems.any((i) => i.id == id);
+  bool isInMyDayUnified(String id) {
+    if (!_myDayUnifiedLoaded) _ensureMyDayLoaded().then((_) => notifyListeners());
+    return _myDayItems.any((i) => i.id == id);
+  }
 
   Future<void> addToMyDay(MyDayItem item) async {
     await _ensureBootLoaded();
