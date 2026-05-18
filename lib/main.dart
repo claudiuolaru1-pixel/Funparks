@@ -29,8 +29,7 @@ Future<void> main() async {
       defaultTargetPlatform == TargetPlatform.android) {
     final platform = GoogleMapsFlutterPlatform.instance;
     if (platform is GoogleMapsFlutterAndroid) {
-      await platform.initializeWithRenderer(AndroidMapRenderer.legacy);
-      platform.useAndroidViewSurface = true;
+      await platform.initializeWithRenderer(AndroidMapRenderer.latest);
       _mapsRendererInitialized = true;
     }
   }
