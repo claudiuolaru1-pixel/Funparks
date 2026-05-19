@@ -348,6 +348,31 @@ class AppState extends ChangeNotifier {
       _db.collection('users').doc(uid);
 
   /// Pull all user data from Firestore and overwrite local state.
+  Future<void> deleteAccount() async {
+    if (Platform.isIOS) {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.clear();
+      _iosSignedIn = false;
+      _iosUserEmail = null;
+      _iosGuestChecked = false;
+      _myDayItems.clear();
+      _favoriteParkIds.clear();
+      notifyListeners();
+    } else {
+      final user = FirebaseAuth.instance.currentUser;
+      if (user != null) {
+        try { await _userDoc(user.uid).delete(); } catch (_) {}
+        await user.delete();
+      }
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.clear();
+      _user = null;
+      _myDayItems.clear();
+      _favoriteParkIds.clear();
+      notifyListeners();
+    }
+  }
+
   void onAndroidSignIn(dynamic user) {
     _user = user;
     notifyListeners();

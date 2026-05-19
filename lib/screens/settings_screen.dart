@@ -123,6 +123,37 @@ class SettingsScreen extends StatelessWidget {
                 }
               },
             ),
+            ListTile(
+              leading: const Icon(Icons.delete_forever, color: Colors.red),
+              title: const Text('Delete Account',
+                  style: TextStyle(color: Colors.red, fontWeight: FontWeight.w600)),
+              subtitle: const Text('Permanently delete your account and data'),
+              onTap: () async {
+                final confirm = await showDialog<bool>(
+                  context: context,
+                  builder: (_) => AlertDialog(
+                    title: const Text('Delete Account'),
+                    content: const Text('This will permanently delete your account and all your data. This cannot be undone.'),
+                    actions: [
+                      TextButton(onPressed: () => Navigator.pop(context, false), child: const Text('Cancel')),
+                      FilledButton(
+                          onPressed: () => Navigator.pop(context, true),
+                          style: FilledButton.styleFrom(backgroundColor: Colors.red),
+                          child: const Text('Delete')),
+                    ],
+                  ),
+                );
+                if (confirm == true && context.mounted) {
+                  try {
+                    await context.read<AppState>().deleteAccount();
+                    if (context.mounted) Navigator.of(context).pushReplacementNamed('/start');
+                  } catch (_) {
+                    if (context.mounted) ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text('Please sign in again to delete your account.')));
+                  }
+                }
+              },
+            ),
             const Divider(),
           ] else ...[
             ListTile(
