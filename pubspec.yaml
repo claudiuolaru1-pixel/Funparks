@@ -1,6 +1,6 @@
 ﻿name: funparks
 description: A playful, map-first theme park discovery app (MVP).
-version: 2.0.2+222
+version: 2.0.2+224
 publish_to: "none"
 
 environment:
@@ -12,7 +12,7 @@ dependencies:
 
   flutter_localizations:
     sdk: flutter
-
+
   provider: ^6.1.2
   shared_preferences: ^2.3.2
   http: ^1.2.2
@@ -139,7 +139,5 @@ flutter_icons:
   android: true
   ios: true
   image_path: assets/icons/icon_1024.png
-  adaptive_icon_background: "#72C8FF"
-  adaptive_icon_foreground: assets/icons/icon_1024.png
   remove_alpha_ios: true
 
