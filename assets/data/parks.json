@@ -1220,5 +1220,23 @@
         "city": "Gothenburg",
         "ticketsUrl": "https://www.liseberg.se/en/buy-tickets/",
         "queueTimesId": 0
+    },
+    {
+        "id": "ocean_park_hk",
+        "thumbnailAsset": "assets/images/ocean_park_hk/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Ocean Park Hong Kong",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 224,
+            "adult": 448
+        },
+        "currency": "HKD",
+        "openingHours": "10:00 - 18:00",
+        "lng": 114.1756,
+        "country": "Hong Kong",
+        "city": "Aberdeen, Hong Kong Island",
+        "ticketsUrl": "https://www.oceanpark.com.hk/en/ticket/general-admission",
+        "queueTimesId": 0
     }
 ]

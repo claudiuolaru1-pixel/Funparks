@@ -1298,5 +1298,25 @@
         },
         "currency": "SEK",
         "queueTimesId": 0
+    },
+    {
+        "id": "ocean_park_hk",
+        "name": "Ocean Park Hong Kong",
+        "city": "Aberdeen, Hong Kong Island",
+        "country": "Hong Kong",
+        "type": "Theme Park",
+        "lat": 22.2472,
+        "lng": 114.1756,
+        "thumbnail": "assets/images/ocean_park_hk/park_thumbnail.png",
+        "website": "https://www.oceanpark.com.hk/en",
+        "ticketsUrl": "https://www.oceanpark.com.hk/en/ticket/general-admission",
+        "detailAsset": "",
+        "openingHours": "10:00 - 18:00",
+        "entryPrices": {
+            "adult": 448,
+            "child": 224
+        },
+        "currency": "HKD",
+        "queueTimesId": 0
     }
 ]

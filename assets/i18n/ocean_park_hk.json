@@ -1,0 +1,458 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Ocean Park Hong Kong is one of Asia's most beloved marine-life theme parks, dramatically perched across two mountainside areas — Waterfront and Summit — connected by a spectacular cable car above Aberdeen's South China Sea coastline. Opened in 1977, the park has grown into a world-renowned blend of thrill rides, marine conservation and immersive wildlife encounters, home to one of Asia's largest aquariums, beloved giant pandas, and Thrill Mountain's headline coasters Hair Raiser and The Flash. Ocean Park is equally celebrated for its conservation work, hosting one of the world's most successful giant panda breeding programmes. The park is best for families and marine-life enthusiasts, and is open year-round.",
+      "es": "Ocean Park Hong Kong es uno de los parques temáticos de vida marina más queridos de Asia, situado dramáticamente en dos zonas de montaña — Waterfront y Summit — conectadas por un espectacular teleférico sobre la costa del Mar de China Meridional en Aberdeen. Inaugurado en 1977, el parque combina atracciones emocionantes, conservación marina y encuentros con vida salvaje, con uno de los acuarios más grandes de Asia y los queridos pandas gigantes.",
+      "fr": "Ocean Park Hong Kong est l'un des parcs à thème sur la vie marine les plus aimés d'Asie, perché de façon spectaculaire sur deux zones montagneuses — Waterfront et Summit — reliées par un téléphérique impressionnant au-dessus de la côte d'Aberdeen. Ouvert en 1977, le parc combine attractions à sensations, conservation marine et rencontres avec la faune, avec l'un des plus grands aquariums d'Asie et les célèbres pandas géants.",
+      "de": "Ocean Park Hong Kong ist einer Asiens beliebtester Meereslebewesen-Themenparks, dramatisch auf zwei Berghangbereichen gelegen — Waterfront und Summit — verbunden durch eine spektakuläre Seilbahn über Aberdeens Küste des Südchinesischen Meeres. Eröffnet 1977, vereint der Park Nervenkitzel-Fahrgeschäfte, Meeresschutz und Tierbegegnungen, mit einem von Asiens größten Aquarien und den beliebten Riesenpandas.",
+      "it": "Ocean Park Hong Kong è uno dei parchi a tema sulla vita marina più amati d'Asia, arroccato spettacolarmente su due aree montane — Waterfront e Summit — collegate da una spettacolare funivia sopra la costa di Aberdeen. Aperto nel 1977, il parco unisce attrazioni adrenaliniche, conservazione marina e incontri con la fauna selvatica, con uno degli acquari più grandi dell'Asia e gli amati panda giganti.",
+      "nl": "Ocean Park Hong Kong is een van Azië's meest geliefde zeeleven-themaparken, dramatisch gelegen op twee berggebieden — Waterfront en Summit — verbonden door een spectaculaire kabelbaan boven de kustlijn van Aberdeen. Geopend in 1977, combineert het park spannende attracties, mariene bescherming en ontmoetingen met wilde dieren, met een van Azië's grootste aquaria en de geliefde reuzenpanda's.",
+      "pt": "O Ocean Park Hong Kong é um dos parques temáticos de vida marinha mais queridos da Ásia, dramaticamente situado em duas áreas montanhosas — Waterfront e Summit — ligadas por um espetacular teleférico sobre a costa de Aberdeen. Inaugurado em 1977, o parque combina atrações radicais, conservação marinha e encontros com a vida selvagem, com um dos maiores aquários da Ásia e os adorados pandas gigantes.",
+      "ru": "Ocean Park Hong Kong — один из самых любимых тематических парков морской жизни Азии, впечатляюще расположенный на двух горных зонах — Waterfront и Summit — соединённых захватывающей канатной дорогой над побережьем Абердина. Открытый в 1977 году, парк сочетает захватывающие аттракционы, охрану морской среды и встречи с дикой природой, с одним из крупнейших аквариумов Азии и любимыми гигантскими пандами.",
+      "zh": "香港海洋公园是亚洲最受欢迎的海洋生物主题公园之一，壮观地坐落于两个山区——海滨乐园和山上乐园——通过一条横跨香港仔南中国海海岸线的壮丽缆车相连。公园始建于1977年，将刺激的游乐设施、海洋保护和身临其境的野生动物体验融为一体，拥有亚洲最大的水族馆之一，以及深受喜爱的大熊猫。",
+      "ar": "متنزه المحيط في هونغ كونغ هو أحد أكثر متنزهات الحياة البحرية الترفيهية محبوبة في آسيا، يقع بشكل مذهل عبر منطقتين جبليتين — الواجهة البحرية والقمة — متصلتين بتلفريك رائع فوق ساحل بحر الصين الجنوبي في أبردين. افتُتح عام 1977، ويجمع المتنزه بين ألعاب الإثارة وحفظ الحياة البحرية ولقاءات الحياة البرية الغامرة، مع أحد أكبر أحواض الأسماك في آسيا والباندا العملاقة المحبوبة."
+    },
+    "ov_highlights_body": {
+      "en": "Hair Raiser is the park's headline floorless coaster in Thrill Mountain, delivering steep drops and inversions overlooking the sea. The Flash brings a high-speed DC-themed spin coaster experience. The Grand Aquarium houses over 5,000 fish across 400+ species with a stunning 360-degree viewing dome. Giant Panda Adventure offers an unforgettable close encounter with Ocean Park's beloved pandas. The scenic Cable Car connects Waterfront and Summit with breathtaking coastal views, and Shark Mystique brings guests face-to-face with sand tiger sharks through expansive tunnels.",
+      "es": "Hair Raiser es el coaster sin suelo insignia del parque en Thrill Mountain. The Flash ofrece un coaster giratorio de alta velocidad con temática DC. El Grand Aquarium alberga más de 5.000 peces. Giant Panda Adventure ofrece un encuentro inolvidable con los pandas. El teleférico conecta Waterfront y Summit con vistas impresionantes.",
+      "fr": "Hair Raiser est le coaster phare sans plancher du parc dans Thrill Mountain. The Flash offre un coaster tournant à grande vitesse à thème DC. Le Grand Aquarium abrite plus de 5 000 poissons. Giant Panda Adventure offre une rencontre inoubliable avec les pandas. Le téléphérique relie Waterfront et Summit avec des vues côtières à couper le souffle.",
+      "de": "Hair Raiser ist der Flaggschiff-Floorless-Coaster des Parks in Thrill Mountain. The Flash bietet einen schnellen DC-thematisierten Dreh-Coaster. Das Grand Aquarium beherbergt über 5.000 Fische. Giant Panda Adventure bietet eine unvergessliche Begegnung mit Pandas. Die Seilbahn verbindet Waterfront und Summit mit atemberaubenden Küstenblicken.",
+      "it": "Hair Raiser è il coaster senza pavimento di punta del parco a Thrill Mountain. The Flash offre un coaster rotante ad alta velocità a tema DC. Il Grand Aquarium ospita oltre 5.000 pesci. Giant Panda Adventure offre un incontro indimenticabile con i panda. La funivia collega Waterfront e Summit con viste costiere mozzafiato.",
+      "nl": "Hair Raiser is de vlaggenschip vloerloze coaster van het park in Thrill Mountain. The Flash biedt een snelle DC-thema draaicoaster. Het Grand Aquarium huisvest meer dan 5.000 vissen. Giant Panda Adventure biedt een onvergetelijke ontmoeting met panda's. De kabelbaan verbindt Waterfront en Summit met adembenemende kustuitzichten.",
+      "pt": "A Hair Raiser é a montanha-russa sem piso principal do parque em Thrill Mountain. A The Flash oferece uma montanha-russa giratória de alta velocidade com tema DC. O Grand Aquarium alberga mais de 5.000 peixes. Giant Panda Adventure oferece um encontro inesquecível com pandas. O teleférico liga Waterfront e Summit com vistas costeiras deslumbrantes.",
+      "ru": "Hair Raiser — флагманский коастер парка без пола в Thrill Mountain. The Flash предлагает скоростной вращающийся коастер в тематике DC. Grand Aquarium вмещает более 5000 рыб. Giant Panda Adventure предлагает незабываемую встречу с пандами. Канатная дорога соединяет Waterfront и Summit с захватывающими видами на побережье.",
+      "zh": "Hair Raiser是公园位于极速山的旗舰无地板过山车。The Flash提供以DC为主题的高速旋转过山车体验。海洋水族馆容纳超过5000条鱼，涵盖400多个物种。大熊猫历奇让游客与心爱的熊猫近距离接触。缆车连接海滨乐园和山上乐园，沿途海岸风光壮丽。",
+      "ar": "Hair Raiser هي الأفعوانية الرئيسية بلا أرضية في Thrill Mountain. تقدم The Flash تجربة أفعوانية دوارة عالية السرعة بطابع DC. يضم الحوض الكبير أكثر من 5000 سمكة. تقدم مغامرة الباندا العملاقة لقاءً لا يُنسى مع الباندا المحبوبة. يربط التلفريك بين الواجهة البحرية والقمة بإطلالات ساحلية خلابة."
+    },
+    "ov_did_you_know_body": {
+      "en": "Ocean Park opened in January 1977 and was funded largely by the Hong Kong Jockey Club. The park's giant panda programme, launched in 1999, has become one of the most successful outside mainland China, with multiple successful births. Ocean Park underwent a major HK$5.5 billion redevelopment between 2005 and 2012, tripling the number of attractions. The park's cable car system, one of the oldest attractions still in operation, has been running since the park's opening year.",
+      "es": "Ocean Park abrió en enero de 1977 y fue financiado en gran parte por el Hong Kong Jockey Club. El programa de pandas gigantes, lanzado en 1999, es uno de los más exitosos fuera de China continental. El parque experimentó una gran remodelación de 5.500 millones de HKD entre 2005 y 2012.",
+      "fr": "Ocean Park a ouvert en janvier 1977 et a été largement financé par le Hong Kong Jockey Club. Le programme de pandas géants, lancé en 1999, est l'un des plus réussis hors de Chine continentale. Le parc a connu une importante rénovation de 5,5 milliards de HKD entre 2005 et 2012.",
+      "de": "Ocean Park eröffnete im Januar 1977 und wurde größtenteils vom Hong Kong Jockey Club finanziert. Das 1999 gestartete Riesenpanda-Programm gehört zu den erfolgreichsten außerhalb Festlandchinas. Der Park durchlief zwischen 2005 und 2012 eine große Umgestaltung im Wert von 5,5 Milliarden HKD.",
+      "it": "Ocean Park ha aperto nel gennaio 1977 ed è stato finanziato in gran parte dallo Hong Kong Jockey Club. Il programma dei panda giganti, lanciato nel 1999, è uno dei più riusciti al di fuori della Cina continentale. Il parco ha subito una grande ristrutturazione da 5,5 miliardi di HKD tra il 2005 e il 2012.",
+      "nl": "Ocean Park opende in januari 1977 en werd grotendeels gefinancierd door de Hong Kong Jockey Club. Het reuzenpandaprogramma, gelanceerd in 1999, is een van de meest succesvolle buiten het Chinese vasteland. Het park onderging tussen 2005 en 2012 een grote renovatie van 5,5 miljard HKD.",
+      "pt": "O Ocean Park abriu em janeiro de 1977 e foi financiado em grande parte pelo Hong Kong Jockey Club. O programa de pandas gigantes, lançado em 1999, é um dos mais bem-sucedidos fora da China continental. O parque passou por uma grande remodelação de 5,5 mil milhões de HKD entre 2005 e 2012.",
+      "ru": "Ocean Park открылся в январе 1977 года и в основном финансировался Hong Kong Jockey Club. Программа по гигантским пандам, запущенная в 1999 году, стала одной из самых успешных за пределами материкового Китая. Парк прошёл масштабную реконструкцию стоимостью 5,5 миллиарда HKD в период с 2005 по 2012 год.",
+      "zh": "海洋公园于1977年1月开幕，主要由香港赛马会资助。1999年启动的大熊猫计划已成为中国大陆以外最成功的项目之一。公园在2005年至2012年间进行了耗资55亿港元的大规模重建，游乐设施数量增至三倍。",
+      "ar": "افتُتح متنزه المحيط في يناير 1977 وموّله بشكل كبير نادي هونغ كونغ للفروسية. أصبح برنامج الباندا العملاقة، الذي أُطلق عام 1999، واحداً من أنجح البرامج خارج الصين القارية. خضع المتنزه لإعادة تطوير كبرى بقيمة 5.5 مليار دولار هونغ كونغي بين 2005 و2012."
+    },
+    "ov_plan_body": {
+      "en": "Take the cable car up to Summit first thing to beat the crowds and enjoy the coastal views before the midday heat. Hit Hair Raiser and The Flash early in Thrill Mountain, as queues build quickly by late morning. Visit Giant Panda Adventure mid-morning when the pandas are most active. The Grand Aquarium is best visited in the early afternoon when the Waterfront area gets busier with Summit visitors heading down. Book Tuxedos Restaurant in advance if you want the penguin-view dining experience. Allow a full day to properly cover both Waterfront and Summit.",
+      "es": "Toma el teleférico hasta Summit primero para evitar multitudes. Ve a Hair Raiser y The Flash temprano. Visita Giant Panda Adventure a media mañana. El Grand Aquarium es mejor a primera hora de la tarde. Reserva Tuxedos con antelación. Deja un día completo para cubrir Waterfront y Summit.",
+      "fr": "Prenez le téléphérique jusqu'à Summit dès le matin pour éviter la foule. Allez à Hair Raiser et The Flash tôt. Visitez Giant Panda Adventure en milieu de matinée. Le Grand Aquarium est meilleur en début d'après-midi. Réservez Tuxedos à l'avance. Prévoyez une journée complète.",
+      "de": "Nehmen Sie zuerst die Seilbahn zum Summit, um der Menge zu entgehen. Besuchen Sie Hair Raiser und The Flash früh. Besuchen Sie Giant Panda Adventure am Vormittag. Das Grand Aquarium ist am besten früh nachmittags. Buchen Sie Tuxedos im Voraus. Planen Sie einen ganzen Tag ein.",
+      "it": "Prendi la funivia fino a Summit prima di tutto per evitare la folla. Vai a Hair Raiser e The Flash presto. Visita Giant Panda Adventure a metà mattina. Il Grand Aquarium è meglio nel primo pomeriggio. Prenota Tuxedos in anticipo. Prevedi un'intera giornata.",
+      "nl": "Neem eerst de kabelbaan naar Summit om de drukte voor te zijn. Ga vroeg naar Hair Raiser en The Flash. Bezoek Giant Panda Adventure halverwege de ochtend. Het Grand Aquarium is het beste vroeg in de middag. Boek Tuxedos van tevoren. Plan een volledige dag in.",
+      "pt": "Apanhe o teleférico até Summit primeiro para evitar multidões. Vá à Hair Raiser e à The Flash cedo. Visite Giant Panda Adventure a meio da manhã. O Grand Aquarium é melhor no início da tarde. Reserve o Tuxedos com antecedência. Reserve um dia inteiro.",
+      "ru": "Сначала поднимитесь на канатной дороге к Summit, чтобы избежать толп. Посетите Hair Raiser и The Flash рано. Посетите Giant Panda Adventure утром. Grand Aquarium лучше посещать ранним днём. Забронируйте Tuxedos заранее. Выделите на посещение целый день.",
+      "zh": "首先乘坐缆车前往山上乐园，避开人群，享受海岸风光。清晨前往极速山体验Hair Raiser和The Flash，因为上午晚些时候排队会迅速增长。上午中段参观大熊猫历奇，此时熊猫最活跃。海洋水族馆最好在下午早些时候参观。如果想体验企鹅景观用餐，请提前预订Tuxedos餐厅。建议安排完整一天游览海滨乐园和山上乐园。",
+      "ar": "اركب التلفريك إلى القمة أولاً لتجنب الازدحام والاستمتاع بالمناظر الساحلية قبل حرارة الظهيرة. توجه إلى Hair Raiser وThe Flash مبكراً في Thrill Mountain. زر مغامرة الباندا العملاقة في منتصف الصباح. أفضل وقت لزيارة الحوض الكبير هو أوائل بعد الظهر. احجز مطعم Tuxedos مسبقاً. خصص يوماً كاملاً لتغطية الواجهة البحرية والقمة."
+    },
+    "ov_photos_body": {
+      "en": "The cable car ride offers some of the most spectacular coastal photography in Hong Kong, with sweeping views over Aberdeen and the South China Sea. Hair Raiser photographed mid-drop against the ocean backdrop is one of the park's most striking action shots. The Grand Aquarium's 360-degree dome creates a genuinely unique underwater photo opportunity. Giant Panda Adventure's naturalistic habitat provides some of the best wildlife photography in the park.",
+      "es": "El teleférico ofrece una de las mejores fotografías costeras de Hong Kong. Hair Raiser fotografiada en plena caída es una de las tomas más impactantes. La cúpula del Grand Aquarium ofrece una oportunidad fotográfica submarina única.",
+      "fr": "Le téléphérique offre l'une des plus belles photographies côtières de Hong Kong. Hair Raiser photographiée en pleine descente est l'un des clichés les plus saisissants. Le dôme du Grand Aquarium offre une occasion photo sous-marine unique.",
+      "de": "Die Seilbahnfahrt bietet eine der spektakulärsten Küstenfotografien Hongkongs. Hair Raiser mitten im Sturz fotografiert ist eines der eindrucksvollsten Actionfotos. Die Kuppel des Grand Aquarium bietet eine einzigartige Unterwasser-Fotomöglichkeit.",
+      "it": "Il giro in funivia offre una delle fotografie costiere più spettacolari di Hong Kong. Hair Raiser fotografata a metà caduta è uno degli scatti d'azione più suggestivi. La cupola del Grand Aquarium offre un'opportunità fotografica subacquea unica.",
+      "nl": "De kabelbaanrit biedt een van de meest spectaculaire kustfotografie van Hong Kong. Hair Raiser gefotografeerd tijdens de val is een van de meest opvallende actiefoto's. De koepel van het Grand Aquarium biedt een unieke onderwaterfotomogelijkheid.",
+      "pt": "O passeio de teleférico oferece uma das fotografias costeiras mais espetaculares de Hong Kong. A Hair Raiser fotografada a meio da queda é uma das fotos de ação mais impressionantes. A cúpula do Grand Aquarium oferece uma oportunidade fotográfica subaquática única.",
+      "ru": "Поездка на канатной дороге предлагает одни из самых впечатляющих береговых фотографий Гонконга. Hair Raiser, снятый в момент падения на фоне океана — один из самых ярких экшн-кадров парка. Купол Grand Aquarium создаёт по-настоящему уникальную возможность подводной фотографии.",
+      "zh": "缆车之旅提供了香港最壮观的海岸摄影机会之一，可俯瞰香港仔和南中国海全景。以海洋为背景拍摄的Hair Raiser俯冲瞬间是公园最引人注目的动作照片之一。海洋水族馆的360度穹顶创造了真正独特的水下拍摄机会。",
+      "ar": "توفر رحلة التلفريك بعضاً من أروع الصور الساحلية في هونغ كونغ. تُعد صورة Hair Raiser في منتصف الانحدار مقابل خلفية المحيط من أكثر صور الحركة إثارة في المتنزه. تخلق قبة الحوض الكبير ذات الـ360 درجة فرصة تصوير تحت الماء فريدة حقاً."
+    }
+  },
+  "attractions": {
+    "hair_raiser": {
+      "desc": {
+        "en": "Ocean Park's intense floorless roller coaster in Thrill Mountain, twisting through steep drops and inversions overlooking the South China Sea. Min 140cm.",
+        "es": "El intenso coaster sin suelo de Ocean Park en Thrill Mountain, con caídas e inversiones sobre el Mar de China Meridional. Min 140cm.",
+        "fr": "Le coaster sans plancher intense d'Ocean Park dans Thrill Mountain, avec des chutes et inversions au-dessus de la mer de Chine méridionale. Min 140cm.",
+        "de": "Ocean Parks intensiver Floorless-Coaster in Thrill Mountain mit steilen Stürzen und Inversionen über dem Südchinesischen Meer. Mindestgröße 140cm.",
+        "it": "L'intenso coaster senza pavimento di Ocean Park a Thrill Mountain, con cadute e inversioni sul Mar Cinese Meridionale. Min 140cm.",
+        "nl": "Ocean Park's intense vloerloze coaster in Thrill Mountain, met steile vallen en inversies boven de Zuid-Chinese Zee. Min 140cm.",
+        "pt": "A intensa montanha-russa sem piso do Ocean Park em Thrill Mountain, com quedas e inversões sobre o Mar da China Meridional. Min 140cm.",
+        "ru": "Интенсивный коастер без пола Ocean Park в Thrill Mountain с крутыми падениями и инверсиями над Южно-Китайским морем. Мин. рост 140см.",
+        "zh": "海洋公园位于极速山的刺激无地板过山车，在俯瞰南中国海的陡峭落差和翻转中穿梭。最低身高140厘米。",
+        "ar": "أفعوانية Ocean Park المكثفة بلا أرضية في Thrill Mountain، تلتف عبر انحدارات حادة وانقلابات تطل على بحر الصين الجنوبي. الحد الأدنى 140 سم."
+      }
+    },
+    "the_flash": {
+      "desc": {
+        "en": "A high-speed spinning coaster themed around DC's Scarlet Speedster, sending riders through unpredictable spins and rapid direction changes. Min 120cm.",
+        "es": "Coaster giratorio de alta velocidad con tema del Speedster de DC, con giros impredecibles. Min 120cm.",
+        "fr": "Coaster tournant à grande vitesse à thème du Speedster de DC, avec des rotations imprévisibles. Min 120cm.",
+        "de": "Hochgeschwindigkeits-Drehcoaster im Thema des DC Scarlet Speedster mit unvorhersehbaren Drehungen. Mindestgröße 120cm.",
+        "it": "Coaster rotante ad alta velocità a tema DC Scarlet Speedster, con giri imprevedibili. Min 120cm.",
+        "nl": "Hoge snelheid draaicoaster met DC Scarlet Speedster thema, met onvoorspelbare draaiingen. Min 120cm.",
+        "pt": "Montanha-russa giratória de alta velocidade com tema do Scarlet Speedster da DC, com giros imprevisíveis. Min 120cm.",
+        "ru": "Высокоскоростной вращающийся коастер в тематике Флэша от DC с непредсказуемыми вращениями. Мин. рост 120см.",
+        "zh": "以DC闪电侠为主题的高速旋转过山车，带来不可预测的旋转和快速方向变化。最低身高120厘米。",
+        "ar": "أفعوانية دوارة عالية السرعة بطابع بطل DC السريع، تأخذ الركاب عبر دورانات غير متوقعة وتغييرات اتجاه سريعة. الحد الأدنى 120 سم."
+      }
+    },
+    "whirly_bird": {
+      "desc": {
+        "en": "A classic thrill ride spinning riders in aerial vehicles that swing outward with increasing speed, with views over the Aberdeen coastline. Min 120cm.",
+        "es": "Atracción clásica que gira a los pasajeros en vehículos aéreos con vistas a la costa de Aberdeen. Min 120cm.",
+        "fr": "Attraction classique faisant tourner les visiteurs dans des véhicules aériens avec vue sur la côte d'Aberdeen. Min 120cm.",
+        "de": "Klassische Fahrt, die Gäste in Luftfahrzeugen dreht, mit Blick auf die Küste von Aberdeen. Mindestgröße 120cm.",
+        "it": "Attrazione classica che fa girare i visitatori in veicoli aerei con vista sulla costa di Aberdeen. Min 120cm.",
+        "nl": "Klassieke attractie die bezoekers in luchtvoertuigen ronddraait met uitzicht op de kust van Aberdeen. Min 120cm.",
+        "pt": "Atração clássica que gira os visitantes em veículos aéreos com vistas para a costa de Aberdeen. Min 120cm.",
+        "ru": "Классический аттракцион, вращающий гостей в воздушных экипажах с видом на побережье Абердина. Мин. рост 120см.",
+        "zh": "经典刺激游乐设施，乘客乘坐空中飞行器以不断增加的速度向外摆动，可欣赏香港仔海岸线景色。最低身高120厘米。",
+        "ar": "لعبة إثارة كلاسيكية تدور بالركاب في مركبات جوية تتأرجح للخارج بسرعة متزايدة، مع إطلالات على ساحل أبردين. الحد الأدنى 120 سم."
+      }
+    },
+    "bumper_blaster": {
+      "desc": {
+        "en": "A fun interactive bumper car experience in Marine World with playful collisions and quick reflexes. Min 110cm.",
+        "es": "Divertida experiencia de coches de choque en Marine World con colisiones y reflejos rápidos. Min 110cm.",
+        "fr": "Amusante expérience d'autos tamponneuses dans Marine World avec collisions et réflexes rapides. Min 110cm.",
+        "de": "Spaßige Autoscooter-Erfahrung in Marine World mit spielerischen Kollisionen. Mindestgröße 110cm.",
+        "it": "Divertente esperienza di autoscontro a Marine World con collisioni giocose. Min 110cm.",
+        "nl": "Leuke interactieve botsauto-ervaring in Marine World met speelse botsingen. Min 110cm.",
+        "pt": "Divertida experiência de carros de choque em Marine World com colisões divertidas. Min 110cm.",
+        "ru": "Весёлые интерактивные автомобильчики в Marine World с игривыми столкновениями. Мин. рост 110см.",
+        "zh": "海洋世界内有趣的互动碰碰车体验，需要快速反应来躲避碰撞。最低身高110厘米。",
+        "ar": "تجربة سيارات تصادم تفاعلية ممتعة في Marine World مع تصادمات مرحة وردود فعل سريعة. الحد الأدنى 110 سم."
+      }
+    },
+    "rev_booster": {
+      "desc": {
+        "en": "A thrilling spinning tower ride launching riders upward while rotating, with sweeping views over the harbour. Min 130cm.",
+        "es": "Emocionante torre giratoria que lanza a los pasajeros hacia arriba con vistas al puerto. Min 130cm.",
+        "fr": "Tour tournante palpitante lançant les visiteurs vers le haut avec vue sur le port. Min 130cm.",
+        "de": "Aufregende Drehturmfahrt, die Gäste nach oben schleudert, mit Blick auf den Hafen. Mindestgröße 130cm.",
+        "it": "Emozionante torre rotante che lancia i visitatori verso l'alto con vista sul porto. Min 130cm.",
+        "nl": "Spannende draaitoren die bezoekers omhoog lanceert met uitzicht op de haven. Min 130cm.",
+        "pt": "Emocionante torre giratória que lança os visitantes para cima com vistas para o porto. Min 130cm.",
+        "ru": "Захватывающий вращающийся башенный аттракцион, подбрасывающий гостей вверх с видом на гавань. Мин. рост 130см.",
+        "zh": "刺激的旋转塔式游乐设施，将乘客向上发射的同时旋转，可欣赏港口壮丽景色。最低身高130厘米。",
+        "ar": "لعبة برج دوار مثيرة تطلق الركاب للأعلى أثناء الدوران، مع إطلالات واسعة على الميناء. الحد الأدنى 130 سم."
+      }
+    },
+    "the_rapids": {
+      "desc": {
+        "en": "An exciting river rapids ride through a turbulent circular course in inflatable rafts, guaranteed to soak riders. Min 100cm.",
+        "es": "Emocionante paseo en balsas por un circuito circular turbulento, garantiza empapar a los pasajeros. Min 100cm.",
+        "fr": "Excitant parcours de rapides en radeaux gonflables sur un circuit circulaire turbulent, trempage garanti. Min 100cm.",
+        "de": "Aufregende Stromschnellen-Fahrt auf einem turbulenten Rundkurs in aufblasbaren Flößen, garantiert nass. Mindestgröße 100cm.",
+        "it": "Emozionante percorso di rapide fluviali su un circuito circolare turbolento con zattere gonfiabili. Min 100cm.",
+        "nl": "Spannende rivierrit door een turbulent circulair parcours in opblaasbare vlotten, natte garantie. Min 100cm.",
+        "pt": "Emocionante passeio de rápidos num percurso circular turbulento em barcos infláveis, molha garantido. Min 100cm.",
+        "ru": "Захватывающий сплав по бурному круговому маршруту на надувных плотах, промокание гарантировано. Мин. рост 100см.",
+        "zh": "刺激的急流泛舟，乘坐充气筏在湍急的环形航道中航行，保证让乘客全身湿透。最低身高100厘米。",
+        "ar": "رحلة مياه سريعة مثيرة عبر مسار دائري مضطرب في طوافات قابلة للنفخ، تضمن بلل الركاب. الحد الأدنى 100 سم."
+      }
+    },
+    "flying_swing": {
+      "desc": {
+        "en": "A classic swing carousel lifting guests high on spinning chains, with panoramic views across the Summit area. Min 100cm.",
+        "es": "Carrusel giratorio clásico que eleva a los invitados con vistas panorámicas del área Summit. Min 100cm.",
+        "fr": "Carrousel classique élevant les visiteurs avec des vues panoramiques sur la zone Summit. Min 100cm.",
+        "de": "Klassisches Kettenkarussell, das Gäste hoch hebt, mit Panoramablick über den Summit-Bereich. Mindestgröße 100cm.",
+        "it": "Classica giostra a catene che solleva gli ospiti con viste panoramiche sull'area Summit. Min 100cm.",
+        "nl": "Klassieke schommelcarrousel die gasten hoog optilt met panoramisch uitzicht over het Summit-gebied. Min 100cm.",
+        "pt": "Carrossel clássico de balanço que eleva os convidados com vistas panorâmicas da área Summit. Min 100cm.",
+        "ru": "Классическая карусель-качели, поднимающая гостей высоко на вращающихся цепях с панорамным видом на зону Summit. Мин. рост 100см.",
+        "zh": "经典秋千旋转木马，通过旋转链条将游客高高举起，可欣赏山上乐园区域的全景。最低身高100厘米。",
+        "ar": "أرجوحة دوارة كلاسيكية ترفع الضيوف عالياً على سلاسل دوارة، مع إطلالات بانورامية عبر منطقة القمة. الحد الأدنى 100 سم."
+      }
+    },
+    "arctic_blast": {
+      "desc": {
+        "en": "A gentle family coaster themed to Polar Adventure, offering a first taste of coaster excitement for younger riders. Min 90cm.",
+        "es": "Suave coaster familiar con tema Polar Adventure, primera experiencia de coaster para los más jóvenes. Min 90cm.",
+        "fr": "Doux coaster familial à thème Polar Adventure, première expérience de coaster pour les plus jeunes. Min 90cm.",
+        "de": "Sanfter Familiencoaster im Polar-Adventure-Thema, erste Coaster-Erfahrung für jüngere Fahrer. Mindestgröße 90cm.",
+        "it": "Delicato coaster familiare a tema Polar Adventure, prima esperienza per i più giovani. Min 90cm.",
+        "nl": "Zachte familiecoaster met Polar Adventure thema, eerste coasterervaring voor jonge rijders. Min 90cm.",
+        "pt": "Suave coaster familiar com tema Polar Adventure, primeira experiência para os mais jovens. Min 90cm.",
+        "ru": "Мягкий семейный коастер в тематике Полярного приключения, первый опыт для юных гостей. Мин. рост 90см.",
+        "zh": "以极地历奇为主题的温和家庭过山车，为年幼乘客提供初次过山车体验。最低身高90厘米。",
+        "ar": "أفعوانية عائلية لطيفة بطابع المغامرة القطبية، تقدم أول تجربة إثارة للركاب الصغار. الحد الأدنى 90 سم."
+      }
+    },
+    "sea_life_carousel": {
+      "desc": {
+        "en": "A beautifully decorated carousel themed to ocean creatures rather than horses, in the Marine World area. Suitable for all ages.",
+        "es": "Carrusel decorado con criaturas marinas en lugar de caballos, en Marine World. Apto para todas las edades.",
+        "fr": "Carrousel décoré de créatures marines plutôt que de chevaux, dans la zone Marine World. Convient à tous les âges.",
+        "de": "Wunderschön dekoriertes Karussell mit Meereskreaturen statt Pferden im Marine-World-Bereich. Für alle Altersgruppen.",
+        "it": "Giostra decorata con creature oceaniche invece di cavalli, nell'area Marine World. Adatto a tutte le età.",
+        "nl": "Mooi versierde carrousel met zeewezens in plaats van paarden, in het Marine World-gebied. Geschikt voor alle leeftijden.",
+        "pt": "Carrossel lindamente decorado com criaturas oceânicas em vez de cavalos, na área Marine World. Adequado para todas as idades.",
+        "ru": "Красиво украшенная карусель с морскими существами вместо лошадей в зоне Marine World. Подходит для всех возрастов.",
+        "zh": "以海洋生物而非马匹为主题的精美旋转木马，位于海洋世界区域。适合所有年龄段。",
+        "ar": "دوامة خيل مزينة بشكل جميل بمخلوقات بحرية بدلاً من الخيول، في منطقة Marine World. مناسبة لجميع الأعمار."
+      }
+    },
+    "toto_the_loco": {
+      "desc": {
+        "en": "A charming miniature train winding through Whiskers Harbour, the park's children's zone. Suitable for all ages.",
+        "es": "Encantador tren en miniatura por Whiskers Harbour, la zona infantil del parque. Apto para todas las edades.",
+        "fr": "Charmant petit train à travers Whiskers Harbour, la zone enfants du parc. Convient à tous les âges.",
+        "de": "Charmante Miniaturbahn durch Whiskers Harbour, den Kinderbereich des Parks. Für alle Altersgruppen.",
+        "it": "Affascinante trenino attraverso Whiskers Harbour, l'area bambini del parco. Adatto a tutte le età.",
+        "nl": "Charmant miniatuurtreintje door Whiskers Harbour, het kindergebied van het park. Geschikt voor alle leeftijden.",
+        "pt": "Charmoso comboio em miniatura por Whiskers Harbour, a zona infantil do parque. Adequado para todas as idades.",
+        "ru": "Очаровательный миниатюрный поезд, петляющий через Whiskers Harbour, детскую зону парка. Подходит для всех возрастов.",
+        "zh": "穿越威士哈港（公园的儿童区）的迷人迷你火车。适合所有年龄段。",
+        "ar": "قطار مصغر ساحر يتعرج عبر Whiskers Harbour، منطقة الأطفال في المتنزه. مناسب لجميع الأعمار."
+      }
+    },
+    "balloons_up_up_and_away": {
+      "desc": {
+        "en": "A gentle rising balloon ride in Whiskers Harbour where young riders control the height of their balloon. Suitable for all ages.",
+        "es": "Suave paseo en globo en Whiskers Harbour donde los niños controlan la altura. Apto para todas las edades.",
+        "fr": "Douce montgolfière dans Whiskers Harbour où les jeunes contrôlent la hauteur. Convient à tous les âges.",
+        "de": "Sanfte Ballonfahrt in Whiskers Harbour, bei der junge Fahrer die Höhe steuern. Für alle Altersgruppen.",
+        "it": "Delicata mongolfiera a Whiskers Harbour dove i giovani controllano l'altezza. Adatto a tutte le età.",
+        "nl": "Zachte stijgende ballonrit in Whiskers Harbour waar jonge rijders de hoogte bepalen. Geschikt voor alle leeftijden.",
+        "pt": "Suave passeio de balão em Whiskers Harbour onde os jovens controlam a altura. Adequado para todas as idades.",
+        "ru": "Мягкий подъём на воздушном шаре в Whiskers Harbour, где юные гости управляют высотой. Подходит для всех возрастов.",
+        "zh": "威士哈港内温和的升空气球游乐设施，年幼乘客可控制气球升起的高度。适合所有年龄段。",
+        "ar": "رحلة منطاد صاعد لطيفة في Whiskers Harbour حيث يتحكم الركاب الصغار في ارتفاع منطادهم. مناسبة لجميع الأعمار."
+      }
+    },
+    "grand_aquarium": {
+      "desc": {
+        "en": "One of Asia's largest aquariums, home to over 5,000 fish across 400+ species, with a breathtaking 360-degree underwater viewing dome. Suitable for all ages.",
+        "es": "Uno de los acuarios más grandes de Asia, con más de 5.000 peces y una cúpula submarina de 360 grados. Apto para todas las edades.",
+        "fr": "L'un des plus grands aquariums d'Asie, avec plus de 5 000 poissons et un dôme sous-marin à 360 degrés. Convient à tous les âges.",
+        "de": "Eines der größten Aquarien Asiens, Heimat von über 5.000 Fischen mit einer atemberaubenden 360-Grad-Unterwasserkuppel. Für alle Altersgruppen.",
+        "it": "Uno degli acquari più grandi dell'Asia, con oltre 5.000 pesci e una cupola subacquea a 360 gradi. Adatto a tutte le età.",
+        "nl": "Een van Azië's grootste aquaria, met meer dan 5.000 vissen en een adembenemende 360-graden onderwaterkoepel. Geschikt voor alle leeftijden.",
+        "pt": "Um dos maiores aquários da Ásia, com mais de 5.000 peixes e uma cúpula subaquática de 360 graus. Adequado para todas as idades.",
+        "ru": "Один из крупнейших аквариумов Азии, с более чем 5000 рыб и захватывающим 360-градусным подводным куполом. Подходит для всех возрастов.",
+        "zh": "亚洲最大的水族馆之一，容纳超过5000条鱼，涵盖400多个物种，配有令人惊叹的360度水下观景穹顶。适合所有年龄段。",
+        "ar": "أحد أكبر أحواض الأسماك في آسيا، يضم أكثر من 5000 سمكة عبر أكثر من 400 نوع، مع قبة مشاهدة تحت الماء رائعة بزاوية 360 درجة. مناسب لجميع الأعمار."
+      }
+    },
+    "giant_panda_adventure": {
+      "desc": {
+        "en": "Home to Ocean Park's beloved giant pandas and red pandas in a naturalistic habitat recreating their native Chinese mountain forest. Suitable for all ages.",
+        "es": "Hogar de los pandas gigantes y rojos en un hábitat naturalista que recrea su bosque montañoso chino. Apto para todas las edades.",
+        "fr": "Foyer des pandas géants et roux dans un habitat naturaliste recréant leur forêt montagneuse chinoise. Convient à tous les âges.",
+        "de": "Heimat der beliebten Riesenpandas und Roten Pandas in einem naturnahen Lebensraum, der ihren chinesischen Bergwald nachbildet. Für alle Altersgruppen.",
+        "it": "Casa dei panda giganti e rossi in un habitat naturalistico che ricrea la loro foresta montana cinese. Adatto a tutte le età.",
+        "nl": "Thuis van reuzenpanda's en rode panda's in een natuurlijke habitat die hun Chinese bergwoud nabootst. Geschikt voor alle leeftijden.",
+        "pt": "Lar dos adorados pandas gigantes e pandas vermelhos num habitat naturalista que recria a sua floresta montanhosa chinesa. Adequado para todas as idades.",
+        "ru": "Дом любимых гигантских и красных панд парка в естественной среде обитания, воссоздающей их родной китайский горный лес. Подходит для всех возрастов.",
+        "zh": "海洋公园心爱的大熊猫和小熊猫的家园，栖息地重现了它们原生的中国山林环境。适合所有年龄段。",
+        "ar": "موطن الباندا العملاقة والباندا الحمراء المحبوبة في Ocean Park في بيئة طبيعية تحاكي غابتهم الجبلية الصينية الأصلية. مناسب لجميع الأعمار."
+      }
+    },
+    "cable_car": {
+      "desc": {
+        "en": "A spectacular scenic cable car connecting Waterfront and Summit, with breathtaking views across the South China Sea. Suitable for all ages.",
+        "es": "Espectacular teleférico panorámico que conecta Waterfront y Summit con vistas al Mar de China Meridional. Apto para todas las edades.",
+        "fr": "Spectaculaire téléphérique panoramique reliant Waterfront et Summit, avec vue sur la mer de Chine méridionale. Convient à tous les âges.",
+        "de": "Spektakuläre Panorama-Seilbahn, die Waterfront und Summit verbindet, mit atemberaubendem Blick über das Südchinesische Meer. Für alle Altersgruppen.",
+        "it": "Spettacolare funivia panoramica che collega Waterfront e Summit, con viste mozzafiato sul Mar Cinese Meridionale. Adatto a tutte le età.",
+        "nl": "Spectaculaire panoramische kabelbaan die Waterfront en Summit verbindt, met adembenemend uitzicht over de Zuid-Chinese Zee. Geschikt voor alle leeftijden.",
+        "pt": "Espetacular teleférico panorâmico que liga Waterfront e Summit, com vistas deslumbrantes sobre o Mar da China Meridional. Adequado para todas as idades.",
+        "ru": "Захватывающая живописная канатная дорога, соединяющая Waterfront и Summit, с потрясающими видами на Южно-Китайское море. Подходит для всех возрастов.",
+        "zh": "壮观的观光缆车连接海滨乐园和山上乐园，沿途可欣赏南中国海的壮丽景色。适合所有年龄段。",
+        "ar": "تلفريك بانورامي رائع يربط بين الواجهة البحرية والقمة، مع إطلالات خلابة على بحر الصين الجنوبي. مناسب لجميع الأعمار."
+      }
+    },
+    "shark_mystique": {
+      "desc": {
+        "en": "An immersive walkthrough exhibit bringing guests face-to-face with sand tiger sharks through expansive viewing tunnels. Suitable for all ages.",
+        "es": "Exposición inmersiva que acerca a los visitantes a tiburones toro a través de amplios túneles. Apto para todas las edades.",
+        "fr": "Exposition immersive mettant les visiteurs face aux requins-taureaux à travers de vastes tunnels. Convient à tous les âges.",
+        "de": "Immersive Begehungsausstellung, die Gäste durch weitläufige Tunnel Sandtigerhaien näherbringt. Für alle Altersgruppen.",
+        "it": "Mostra immersiva che porta gli ospiti faccia a faccia con gli squali toro attraverso ampi tunnel. Adatto a tutte le età.",
+        "nl": "Meeslepende wandelexpositie die bezoekers oog in oog brengt met zandtijgerhaaien via uitgestrekte tunnels. Geschikt voor alle leeftijden.",
+        "pt": "Exposição imersiva que aproxima os visitantes de tubarões-touro através de amplos túneis de observação. Adequado para todas as idades.",
+        "ru": "Захватывающая пешеходная экспозиция, приближающая гостей к песчаным тигровым акулам через просторные туннели. Подходит для всех возрастов.",
+        "zh": "沉浸式步行展览，通过宽敞的观景隧道让游客与沙虎鲨近距离接触。适合所有年龄段。",
+        "ar": "معرض غامر للسير يضع الضيوف وجهاً لوجه مع أسماك القرش النمر الرملي عبر أنفاق مشاهدة واسعة. مناسب لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_neptunes_restaurant": {
+      "desc": {
+        "en": "Ocean Park's premier sit-down dining destination, offering a generous buffet of Asian and international dishes with views over the Grand Aquarium area.",
+        "es": "El destino gastronómico principal de Ocean Park, con un generoso buffet asiático e internacional con vistas al área del Grand Aquarium.",
+        "fr": "La principale destination gastronomique d'Ocean Park, avec un généreux buffet asiatique et international avec vue sur le Grand Aquarium.",
+        "de": "Ocean Parks führendes Sitzrestaurant mit einem großzügigen asiatisch-internationalen Buffet mit Blick auf das Grand Aquarium.",
+        "it": "La principale destinazione gastronomica di Ocean Park, con un generoso buffet asiatico e internazionale con vista sul Grand Aquarium.",
+        "nl": "Ocean Park's belangrijkste zitrestaurant, met een royaal Aziatisch en internationaal buffet met uitzicht op het Grand Aquarium-gebied.",
+        "pt": "O principal destino gastronómico do Ocean Park, com um generoso buffet asiático e internacional com vistas para a área do Grand Aquarium.",
+        "ru": "Главное место для сидячего обеда в Ocean Park, предлагающее щедрый азиатско-международный буфет с видом на зону Grand Aquarium.",
+        "zh": "海洋公园首屈一指的坐式餐饮场所，提供丰盛的亚洲和国际美食自助餐，可俯瞰海洋水族馆区域。",
+        "ar": "الوجهة الرئيسية لتناول الطعام بالجلوس في Ocean Park، تقدم بوفيه آسيوي ودولي وفير مع إطلالات على منطقة الحوض الكبير."
+      }
+    },
+    "food_ginger_grill": {
+      "desc": {
+        "en": "A relaxed grill restaurant near Thrill Mountain serving grilled meats, noodles and Asian fusion dishes in generous portions.",
+        "es": "Restaurante de parrilla relajado cerca de Thrill Mountain con carnes a la parrilla, fideos y platos de fusión asiática.",
+        "fr": "Restaurant grill décontracté près de Thrill Mountain servant viandes grillées, nouilles et cuisine asiatique fusion.",
+        "de": "Entspanntes Grillrestaurant in der Nähe von Thrill Mountain mit gegrilltem Fleisch, Nudeln und asiatischer Fusionsküche.",
+        "it": "Rilassato ristorante grill vicino a Thrill Mountain con carni grigliate, noodle e piatti fusion asiatici.",
+        "nl": "Ontspannen grillrestaurant bij Thrill Mountain met gegrild vlees, noedels en Aziatische fusiongerechten.",
+        "pt": "Restaurante de grelhados descontraído perto de Thrill Mountain servindo carnes grelhadas, noodles e pratos de fusão asiática.",
+        "ru": "Непринуждённый гриль-ресторан рядом с Thrill Mountain, предлагающий жареное мясо, лапшу и азиатские фьюжн-блюда.",
+        "zh": "位于极速山附近的轻松烧烤餐厅，供应分量十足的烤肉、面条和亚洲融合料理。",
+        "ar": "مطعم شواء مريح بالقرب من Thrill Mountain يقدم اللحوم المشوية والمعكرونة وأطباق الدمج الآسيوية بحصص سخية."
+      }
+    },
+    "food_tuxedos": {
+      "desc": {
+        "en": "A unique dining experience letting guests enjoy their meal with direct views into the park's penguin habitat.",
+        "es": "Una experiencia gastronómica única con vistas directas al hábitat de los pingüinos.",
+        "fr": "Une expérience culinaire unique offrant une vue directe sur l'habitat des pingouins.",
+        "de": "Ein einzigartiges kulinarisches Erlebnis mit direktem Blick in das Pinguingehege des Parks.",
+        "it": "Un'esperienza culinaria unica con viste dirette sull'habitat dei pinguini.",
+        "nl": "Een unieke eetervaring met direct uitzicht op de pinguïnhabitat van het park.",
+        "pt": "Uma experiência gastronómica única com vistas diretas para o habitat dos pinguins do parque.",
+        "ru": "Уникальный ресторанный опыт с прямым видом на среду обитания пингвинов парка.",
+        "zh": "独特的用餐体验，让游客在用餐的同时直接欣赏公园的企鹅栖息地。",
+        "ar": "تجربة طعام فريدة تتيح للضيوف الاستمتاع بوجبتهم مع إطلالات مباشرة على موطن البطاريق في المتنزه."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_ocean_park_marriott": {
+      "desc": {
+        "en": "The official Marriott-branded hotel directly connected to Ocean Park via a covered walkway. Modern, family-friendly rooms, multiple dining venues, an outdoor pool and direct park access.",
+        "es": "El hotel oficial Marriott conectado directamente a Ocean Park mediante pasarela cubierta. Habitaciones modernas, varios restaurantes y piscina exterior.",
+        "fr": "L'hôtel officiel Marriott directement relié à Ocean Park par une passerelle couverte. Chambres modernes, plusieurs restaurants et piscine extérieure.",
+        "de": "Das offizielle Marriott-Hotel, direkt über einen überdachten Gang mit Ocean Park verbunden. Moderne, familienfreundliche Zimmer, mehrere Restaurants und Außenpool.",
+        "it": "L'hotel ufficiale Marriott collegato direttamente a Ocean Park tramite una passerella coperta. Camere moderne, diversi ristoranti e piscina esterna.",
+        "nl": "Het officiële Marriott-hotel direct verbonden met Ocean Park via een overdekte loopbrug. Moderne, gezinsvriendelijke kamers, meerdere restaurants en buitenzwembad.",
+        "pt": "O hotel oficial Marriott ligado diretamente ao Ocean Park através de uma passagem coberta. Quartos modernos, vários restaurantes e piscina exterior.",
+        "ru": "Официальный отель Marriott, напрямую соединённый с Ocean Park крытым переходом. Современные семейные номера, несколько ресторанов и открытый бассейн.",
+        "zh": "官方万豪品牌酒店，通过有盖走道直接连接海洋公园。设有现代化家庭客房、多个餐饮场所、室外泳池，并可直接进入公园。",
+        "ar": "الفندق الرسمي بعلامة ماريوت المتصل مباشرة بـ Ocean Park عبر ممر مغطى. غرف حديثة مناسبة للعائلات ومطاعم متعددة ومسبح خارجي."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaardkamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable modern room with free WiFi, city or park views and direct walkway access to Ocean Park.",
+            "es": "Habitación moderna cómoda con WiFi gratis y acceso directo a Ocean Park.",
+            "fr": "Chambre moderne confortable avec WiFi gratuit et accès direct à Ocean Park.",
+            "de": "Komfortables modernes Zimmer mit kostenlosem WLAN und direktem Zugang zu Ocean Park.",
+            "it": "Camera moderna confortevole con WiFi gratuito e accesso diretto a Ocean Park.",
+            "nl": "Comfortabele moderne kamer met gratis WiFi en directe toegang tot Ocean Park.",
+            "pt": "Quarto moderno confortável com WiFi gratuito e acesso direto ao Ocean Park.",
+            "ru": "Уютный современный номер с бесплатным WiFi и прямым доступом в Ocean Park.",
+            "zh": "舒适现代客房，配有免费WiFi，可直接通往海洋公园。",
+            "ar": "غرفة حديثة مريحة مع واي فاي مجاني ووصول مباشر إلى Ocean Park."
+          }
+        },
+        "family_room": {
+          "name": {
+            "en": "Family Room",
+            "es": "Habitación Familiar",
+            "fr": "Chambre Familiale",
+            "de": "Familienzimmer",
+            "it": "Camera Familiare",
+            "nl": "Familiekamer",
+            "pt": "Quarto Familiar",
+            "ru": "Семейный номер",
+            "zh": "家庭客房",
+            "ar": "غرفة عائلية"
+          },
+          "desc": {
+            "en": "Larger room with additional bedding, ideal for families visiting the park across multiple days.",
+            "es": "Habitación más grande con camas adicionales, ideal para familias.",
+            "fr": "Chambre plus grande avec literie supplémentaire, idéale pour les familles.",
+            "de": "Größeres Zimmer mit zusätzlichen Betten, ideal für Familien.",
+            "it": "Camera più grande con letti aggiuntivi, ideale per famiglie.",
+            "nl": "Grotere kamer met extra bedden, ideaal voor gezinnen.",
+            "pt": "Quarto maior com camas extra, ideal para famílias.",
+            "ru": "Более просторный номер с дополнительными кроватями, идеален для семей.",
+            "zh": "更大的客房，配有额外床位，非常适合多日游览公园的家庭。",
+            "ar": "غرفة أكبر مع أسرّة إضافية، مثالية للعائلات."
+          }
+        }
+      }
+    },
+    "hotel_the_fullerton": {
+      "desc": {
+        "en": "A luxury waterfront hotel adjacent to Ocean Park offering elegant rooms, an infinity pool and fine dining with panoramic sea views.",
+        "es": "Hotel de lujo frente al mar junto a Ocean Park con habitaciones elegantes, piscina infinita y vistas panorámicas al mar.",
+        "fr": "Hôtel de luxe en bord de mer adjacent à Ocean Park avec chambres élégantes, piscine à débordement et vue panoramique sur la mer.",
+        "de": "Luxushotel am Wasser neben Ocean Park mit eleganten Zimmern, Infinity-Pool und Panoramablick auf das Meer.",
+        "it": "Hotel di lusso sul lungomare adiacente a Ocean Park con camere eleganti, piscina a sfioro e vista panoramica sul mare.",
+        "nl": "Luxe waterfront hotel naast Ocean Park met elegante kamers, infinity pool en panoramisch zeezicht.",
+        "pt": "Hotel de luxo à beira-mar adjacente ao Ocean Park com quartos elegantes, piscina infinita e vistas panorâmicas para o mar.",
+        "ru": "Роскошный прибрежный отель рядом с Ocean Park с элегантными номерами, бесконечным бассейном и панорамным видом на море.",
+        "zh": "毗邻海洋公园的豪华海滨酒店，设有典雅客房、无边泳池，以及可欣赏全景海景的高级餐厅。",
+        "ar": "فندق فاخر على الواجهة البحرية مجاور لـ Ocean Park يقدم غرفاً أنيقة ومسبح لانهائي وتناول طعام راقي بإطلالات بانورامية على البحر."
+      },
+      "rooms": {
+        "deluxe_room": {
+          "name": {
+            "en": "Deluxe Sea View Room",
+            "es": "Habitación Deluxe con Vista al Mar",
+            "fr": "Chambre Deluxe Vue Mer",
+            "de": "Deluxe Meerblickzimmer",
+            "it": "Camera Deluxe Vista Mare",
+            "nl": "Deluxe Zeezichtkamer",
+            "pt": "Quarto Deluxe com Vista Mar",
+            "ru": "Делюкс номер с видом на море",
+            "zh": "豪华海景客房",
+            "ar": "غرفة ديلوكس بإطلالة على البحر"
+          },
+          "desc": {
+            "en": "Elegant room with sea views, premium bathroom amenities and access to the infinity pool.",
+            "es": "Habitación elegante con vistas al mar y acceso a la piscina infinita.",
+            "fr": "Chambre élégante avec vue sur mer et accès à la piscine à débordement.",
+            "de": "Elegantes Zimmer mit Meerblick und Zugang zum Infinity-Pool.",
+            "it": "Camera elegante con vista mare e accesso alla piscina a sfioro.",
+            "nl": "Elegante kamer met zeezicht en toegang tot het infinity pool.",
+            "pt": "Quarto elegante com vista para o mar e acesso à piscina infinita.",
+            "ru": "Элегантный номер с видом на море и доступом к бесконечному бассейну.",
+            "zh": "典雅客房，享有海景，配备高级浴室设施，可使用无边泳池。",
+            "ar": "غرفة أنيقة بإطلالة على البحر ووسائل راحة حمام فاخرة ووصول إلى المسبح اللانهائي."
+          }
+        },
+        "suite": {
+          "name": {
+            "en": "Ocean Suite",
+            "es": "Suite Ocean",
+            "fr": "Suite Ocean",
+            "de": "Ocean Suite",
+            "it": "Suite Ocean",
+            "nl": "Ocean Suite",
+            "pt": "Suite Ocean",
+            "ru": "Люкс Ocean",
+            "zh": "海洋套房",
+            "ar": "جناح المحيط"
+          },
+          "desc": {
+            "en": "Spacious suite with separate living area, panoramic sea views and complimentary breakfast.",
+            "es": "Suite espaciosa con sala de estar separada y vistas panorámicas al mar.",
+            "fr": "Suite spacieuse avec salon séparé et vue panoramique sur mer.",
+            "de": "Geräumige Suite mit separatem Wohnbereich und Panoramablick auf das Meer.",
+            "it": "Suite spaziosa con soggiorno separato e vista panoramica sul mare.",
+            "nl": "Ruime suite met aparte woonruimte en panoramisch zeezicht.",
+            "pt": "Suite espaçosa com sala de estar separada e vistas panorâmicas para o mar.",
+            "ru": "Просторный люкс с отдельной гостиной и панорамным видом на море.",
+            "zh": "宽敞套房，配有独立起居区、全景海景，并含免费早餐。",
+            "ar": "جناح فسيح مع منطقة معيشة منفصلة وإطلالات بانورامية على البحر وإفطار مجاني."
+          }
+        }
+      }
+    }
+  }
+}

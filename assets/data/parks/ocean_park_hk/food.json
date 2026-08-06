@@ -1,0 +1,101 @@
+[
+  {
+    "id": "food_neptunes_restaurant",
+    "name": "Neptune's Restaurant",
+    "type": "Asian & International Buffet",
+    "image": "assets/images/ocean_park_hk/food_neptunes_restaurant.png",
+    "lat": 22.2457,
+    "lng": 114.1742,
+    "rating": 4.2,
+    "description": "Ocean Park's premier sit-down dining destination, Neptune's Restaurant offers a generous buffet spread of Asian and international dishes with sweeping views over the Grand Aquarium area. A firm favourite for families wanting a proper break between attractions.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "Buffet Adult",
+        "description": "Full buffet with Cantonese, international and dessert stations",
+        "price": 238
+      },
+      {
+        "name": "Buffet Child",
+        "description": "Children's buffet with familiar favourites and dessert bar",
+        "price": 158
+      },
+      {
+        "name": "Dim Sum Platter",
+        "description": "Selection of steamed Cantonese dim sum",
+        "price": 98
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Selection of cold beverages",
+        "price": 28
+      }
+    ]
+  },
+  {
+    "id": "food_ginger_grill",
+    "name": "Ginger Grill",
+    "type": "Grill & Asian Fusion",
+    "image": "assets/images/ocean_park_hk/food_ginger_grill.png",
+    "lat": 22.2474,
+    "lng": 114.1761,
+    "rating": 4,
+    "description": "A relaxed grill restaurant near Thrill Mountain serving grilled meats, noodles and Asian fusion dishes in generous portions — a popular refuel stop for guests tackling the park's more intense rides.",
+    "topPick": false,
+    "items": [
+      {
+        "name": "Grilled Chicken Rice",
+        "description": "Grilled chicken thigh with steamed rice and vegetables",
+        "price": 78
+      },
+      {
+        "name": "Beef Noodles",
+        "description": "Stir-fried beef noodles with seasonal greens",
+        "price": 82
+      },
+      {
+        "name": "BBQ Pork Bun",
+        "description": "Steamed barbecue pork bun",
+        "price": 32
+      },
+      {
+        "name": "Iced Lemon Tea",
+        "description": "Classic Hong Kong-style iced lemon tea",
+        "price": 26
+      }
+    ]
+  },
+  {
+    "id": "food_tuxedos",
+    "name": "Tuxedos Restaurant",
+    "type": "Penguin-View Dining",
+    "image": "assets/images/ocean_park_hk/food_tuxedos.png",
+    "lat": 22.2486,
+    "lng": 114.1747,
+    "rating": 4.5,
+    "description": "One of Ocean Park's most unique dining experiences — Tuxedos Restaurant lets guests enjoy their meal with direct views into the park's penguin habitat, combining genuinely good food with an unforgettable wildlife backdrop.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "Penguin View Set Meal",
+        "description": "Main course set with rice or noodles, includes drink",
+        "price": 118
+      },
+      {
+        "name": "Seafood Pasta",
+        "description": "Fresh seafood pasta in a light cream sauce",
+        "price": 98
+      },
+      {
+        "name": "Kids Set Meal",
+        "description": "Child-friendly set with a small main, side and juice",
+        "price": 68
+      },
+      {
+        "name": "Hot Chocolate",
+        "description": "Rich hot chocolate, popular in the cooler Polar Adventure zone",
+        "price": 32
+      }
+    ]
+  }
+]

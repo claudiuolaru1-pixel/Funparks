@@ -1,0 +1,56 @@
+[
+  {
+    "id": "hotel_ocean_park_marriott",
+    "name": "Ocean Park Marriott Hotel",
+    "description": "The official Marriott-branded hotel directly connected to Ocean Park via a covered walkway, making it the most convenient overnight option for park visitors. Offers modern, family-friendly rooms, multiple dining venues, an outdoor pool and direct park access without needing to navigate Hong Kong's public transport. A popular choice for international families combining Ocean Park with wider Hong Kong sightseeing.",
+    "image": "assets/images/ocean_park_hk/hotel_ocean_park_marriott.png",
+    "lat": 22.2482,
+    "lng": 114.1739,
+    "rating": 4.5,
+    "topPick": true,
+    "website": "https://www.marriott.com/en-us/hotels/hkgop-ocean-park-marriott-hotel-hong-kong/overview/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable modern room with free WiFi, city or park views and direct walkway access to Ocean Park.",
+        "pricePerNight": 1400,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Larger room with additional bedding, ideal for families visiting the park across multiple days.",
+        "pricePerNight": 1800,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_the_fullerton",
+    "name": "The Fullerton Ocean Park Hotel Hong Kong",
+    "description": "A luxury waterfront hotel adjacent to Ocean Park offering elegant rooms, an infinity pool and fine dining with panoramic sea views over the South China Sea. The most premium accommodation option connected to the park, favoured by guests wanting a higher-end stay alongside their Ocean Park visit.",
+    "image": "assets/images/ocean_park_hk/hotel_the_fullerton.png",
+    "lat": 22.2485,
+    "lng": 114.1743,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.fullertonhotels.com/fullerton-ocean-park-hotel-hong-kong",
+    "rooms": [
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Sea View Room",
+        "description": "Elegant room with sea views, premium bathroom amenities and access to the infinity pool.",
+        "pricePerNight": 2200,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Ocean Suite",
+        "description": "Spacious suite with separate living area, panoramic sea views and complimentary breakfast.",
+        "pricePerNight": 3600,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]
