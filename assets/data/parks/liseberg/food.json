@@ -1,0 +1,167 @@
+[
+  {
+    "id": "food_jarnvagsrestaurangen",
+    "name": "Järnvägsrestaurangen",
+    "type": "Family Restaurant",
+    "image": "assets/images/liseberg/food_jarnvagsrestaurangen.png",
+    "lat": 57.6938,
+    "lng": 11.991,
+    "rating": 4.3,
+    "description": "Liseberg's beloved railway-themed family restaurant, where guests sit in restored train carriages and station-style booths while enjoying well-prepared home-style Swedish and international dishes. KRAV-certified at Premium Bronze level, reflecting the restaurant's commitment to sustainably sourced ingredients. A perennial favourite for families needing a proper sit-down meal between rides.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "Swedish Meatballs",
+        "description": "Classic meatballs with mashed potatoes, lingonberry and cream sauce",
+        "price": 169
+      },
+      {
+        "name": "Grilled Chicken",
+        "description": "Grilled chicken breast with seasonal vegetables and potatoes",
+        "price": 179
+      },
+      {
+        "name": "Pancakes",
+        "description": "Classic Swedish pancakes with jam and cream, child-friendly",
+        "price": 99
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Selection of cold beverages",
+        "price": 39
+      }
+    ]
+  },
+  {
+    "id": "food_al_parco",
+    "name": "Al Parco",
+    "type": "Italian",
+    "image": "assets/images/liseberg/food_al_parco.png",
+    "lat": 57.6944,
+    "lng": 11.9918,
+    "rating": 4.1,
+    "description": "A relaxed Italian restaurant serving fresh pizza, pasta and salads in a bright, casual setting. Al Parco is one of Liseberg's most popular restaurants for groups wanting a reliably good, unfussy meal without the wait of table service, with both pre-booking and drop-in options depending on the day.",
+    "topPick": false,
+    "items": [
+      {
+        "name": "Margherita Pizza",
+        "description": "Classic tomato and mozzarella pizza from the stone oven",
+        "price": 149
+      },
+      {
+        "name": "Pasta Bolognese",
+        "description": "Fresh pasta with a rich Italian meat sauce",
+        "price": 159
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Crisp salad with grilled chicken and parmesan",
+        "price": 139
+      },
+      {
+        "name": "Tiramisu",
+        "description": "Classic Italian dessert",
+        "price": 69
+      }
+    ]
+  },
+  {
+    "id": "food_tyrolen",
+    "name": "Tyrolen",
+    "type": "Austrian",
+    "image": "assets/images/liseberg/food_tyrolen.png",
+    "lat": 57.6935,
+    "lng": 11.9902,
+    "rating": 4.4,
+    "description": "A charming Austrian-themed restaurant serving classic Alpine dishes for guests both big and small, complete with cosy chalet-style decor. Tyrolen brings genuine Austrian comfort food to Liseberg, a distinctive change of pace from the park's more typical Scandinavian and international offerings.",
+    "topPick": false,
+    "items": [
+      {
+        "name": "Wiener Schnitzel",
+        "description": "Classic breaded veal or pork schnitzel with lingonberry and potatoes",
+        "price": 189
+      },
+      {
+        "name": "Bratwurst",
+        "description": "Grilled Austrian sausage with sauerkraut and mustard",
+        "price": 139
+      },
+      {
+        "name": "Apple Strudel",
+        "description": "Traditional Austrian apple strudel with vanilla sauce",
+        "price": 79
+      },
+      {
+        "name": "Austrian Beer",
+        "description": "Selection of Austrian draught beer",
+        "price": 69
+      }
+    ]
+  },
+  {
+    "id": "food_hamnkrogen",
+    "name": "Hamnkrogen",
+    "type": "Seafood",
+    "image": "assets/images/liseberg/food_hamnkrogen.png",
+    "lat": 57.6941,
+    "lng": 11.9924,
+    "rating": 4.6,
+    "description": "Widely regarded as one of the top three restaurants inside Liseberg, Hamnkrogen is a harbour-themed seafood restaurant serving fresh Swedish west-coast specialties including saltsprinkled mussels and other coastal delicacies. The service and food quality consistently earn it the park's best reviews among sit-down dining options.",
+    "topPick": true,
+    "items": [
+      {
+        "name": "West Coast Mussels",
+        "description": "Salt-sprinkled mussels from the Swedish west coast",
+        "price": 199
+      },
+      {
+        "name": "Fish and Chips",
+        "description": "Beer-battered fish with hand-cut chips and remoulade",
+        "price": 189
+      },
+      {
+        "name": "Shrimp Sandwich",
+        "description": "Classic Gothenburg-style open shrimp sandwich",
+        "price": 159
+      },
+      {
+        "name": "White Wine",
+        "description": "Glass of chilled Swedish or imported white wine",
+        "price": 89
+      }
+    ]
+  },
+  {
+    "id": "food_lisebergs_wardshus",
+    "name": "Lisebergs Wärdshus",
+    "type": "Swedish Inn",
+    "image": "assets/images/liseberg/food_lisebergs_wardshus.png",
+    "lat": 57.6947,
+    "lng": 11.9913,
+    "rating": 4.2,
+    "description": "A traditional Swedish wärdshus (inn) style restaurant serving hearty husmanskost dishes in a warm, welcoming atmosphere. Lisebergs Wärdshus is the destination for guests wanting an authentic taste of classic Swedish home cooking during their visit to the park.",
+    "topPick": false,
+    "items": [
+      {
+        "name": "Pytt i Panna",
+        "description": "Traditional Swedish hash with fried egg and pickled beetroot",
+        "price": 159
+      },
+      {
+        "name": "Husmanskost Plate",
+        "description": "Selection of classic Swedish home-cooking dishes",
+        "price": 179
+      },
+      {
+        "name": "Cinnamon Bun",
+        "description": "Freshly baked Swedish kanelbulle",
+        "price": 49
+      },
+      {
+        "name": "Coffee",
+        "description": "Fresh brewed Swedish coffee",
+        "price": 35
+      }
+    ]
+  }
+]

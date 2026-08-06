@@ -1,0 +1,83 @@
+[
+  {
+    "id": "hotel_grand_curiosa",
+    "name": "Liseberg Grand Curiosa Hotel",
+    "description": "Sweden's most imaginative family hotel, opened in 2023 right next to Liseberg. The star-shaped, nine-storey building has 457 rooms, all sleeping at least five guests, and is filled with whimsical details — a slide connecting the second floor straight to the lobby, a 100-year-old pony carousel spinning inside one of its three restaurants, and playrooms, puzzles and a dedicated children's cinema throughout. Rooms include a treasure-hunt activity and guests can access the park after regular closing hours. The rooftop Mei Rose bar offers Asian-inspired cocktails with sweeping views over the entire park.",
+    "image": "assets/images/liseberg/hotel_grand_curiosa.png",
+    "lat": 57.6928,
+    "lng": 11.993,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.liseberg.se/en/liseberg-grand-curiosa-hotel/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Curiosa Family Room",
+        "description": "Themed family room sleeping at least 5 guests, with a treasure-hunt activity and breakfast buffet included.",
+        "pricePerNight": 2400,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "superior_room",
+        "name": "Curiosa Superior Room",
+        "description": "Larger themed room with enhanced decor and priority proximity to the park entrance.",
+        "pricePerNight": 3100,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_liseberg_heden",
+    "name": "Hotell Liseberg Heden",
+    "description": "Liseberg's original official hotel, located just a 2-minute walk from the park gate. A modern, family-friendly hotel offering comfortable rooms, a Swedish breakfast buffet and — with most rates — complimentary park entry included. The most convenient and consistently well-reviewed budget-to-mid-range option for a Liseberg stay.",
+    "image": "assets/images/liseberg/hotel_liseberg_heden.png",
+    "lat": 57.6958,
+    "lng": 11.9885,
+    "rating": 4.3,
+    "topPick": true,
+    "website": "https://www.liseberg.se/en/liseberg-heden-hotel/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable modern room with free WiFi and breakfast buffet, 2 minutes from the park gate.",
+        "pricePerNight": 1500,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Larger room with additional bedding for families, near-instant park access.",
+        "pricePerNight": 1950,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_gothia_towers",
+    "name": "Gothia Towers & Upper House",
+    "description": "A landmark three-tower hotel complex directly across from Liseberg in the heart of Gothenburg's event district, home to over 1,200 rooms, the exclusive Upper House hotel, the city's highest-located spa, and multiple acclaimed restaurants including Heaven 23 on the 23rd floor. A premium option for guests who want a full city hotel experience alongside their Liseberg visit, with the park itself just a short walk away.",
+    "image": "assets/images/liseberg/hotel_gothia_towers.png",
+    "lat": 57.6963,
+    "lng": 11.9878,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "https://en.gothiatowers.com/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable city-view room with access to the hotel spa and multiple on-site restaurants.",
+        "pricePerNight": 1800,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "upper_house_room",
+        "name": "Upper House Room",
+        "description": "Premium room in the Upper House tower with panoramic Gothenburg views.",
+        "pricePerNight": 3400,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

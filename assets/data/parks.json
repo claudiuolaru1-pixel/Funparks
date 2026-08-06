@@ -1202,5 +1202,23 @@
         "city": "Arlington, Texas",
         "ticketsUrl": "https://www.sixflags.com/overtexas/tickets",
         "queueTimesId": 0
+    },
+    {
+        "id": "liseberg",
+        "thumbnailAsset": "assets/images/liseberg/park_thumbnail.png",
+        "tailAsset": "",
+        "name": "Liseberg",
+        "type": "Theme Park",
+        "entryPrice": {
+            "child": 425,
+            "adult": 525
+        },
+        "currency": "SEK",
+        "openingHours": "11:00 - 22:00",
+        "lng": 11.9917,
+        "country": "Sweden",
+        "city": "Gothenburg",
+        "ticketsUrl": "https://www.liseberg.se/en/buy-tickets/",
+        "queueTimesId": 0
     }
 ]

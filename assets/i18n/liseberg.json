@@ -1,0 +1,526 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Liseberg is Scandinavia's largest and most beloved amusement park, located right in the heart of Gothenburg, Sweden. Opened in 1923 and now welcoming around 3 million visitors a year, Liseberg has grown from a modest recreation garden into one of Europe's finest theme parks, home to 42 rides and attractions including Helix, a world-class multi-launch coaster, and Balder, repeatedly voted one of the best wooden roller coasters on Earth. The park blends genuine thrill-ride pedigree with a distinctly Scandinavian sense of hospitality, cleanliness and design, and transforms completely each winter into the largest Christmas market in Northern Europe. Liseberg is best for families and coaster enthusiasts alike, and is open seasonally with an extended winter programme.",
+      "es": "Liseberg es el parque de atracciones más grande y querido de Escandinavia, ubicado en el corazón de Gotemburgo, Suecia. Inaugurado en 1923 y con alrededor de 3 millones de visitantes al año, Liseberg cuenta con 42 atracciones, incluyendo Helix, un coaster de lanzamiento múltiple de clase mundial, y Balder, votada repetidamente como una de las mejores montañas rusas de madera del mundo. El parque combina atracciones de primer nivel con la característica hospitalidad escandinava y se transforma cada invierno en el mercado navideño más grande del norte de Europa.",
+      "fr": "Liseberg est le plus grand et le plus aimé des parcs d'attractions de Scandinavie, situé au cœur de Göteborg, en Suède. Ouvert en 1923 et accueillant environ 3 millions de visiteurs par an, Liseberg compte 42 attractions, dont Helix, un coaster à lancements multiples de classe mondiale, et Balder, élue à plusieurs reprises l'une des meilleures montagnes russes en bois au monde. Le parc allie attractions de premier ordre et hospitalité scandinave, et se transforme chaque hiver en plus grand marché de Noël d'Europe du Nord.",
+      "de": "Liseberg ist Skandinaviens größter und beliebtester Freizeitpark, mitten in Göteborg, Schweden gelegen. Eröffnet 1923 und mit rund 3 Millionen Besuchern jährlich verfügt Liseberg über 42 Attraktionen, darunter Helix, ein Weltklasse-Multi-Launch-Coaster, und Balder, mehrfach zur besten Holzachterbahn der Welt gewählt. Der Park verbindet erstklassige Fahrgeschäfte mit typisch skandinavischer Gastfreundschaft und verwandelt sich jeden Winter in den größten Weihnachtsmarkt Nordeuropas.",
+      "it": "Liseberg è il parco divertimenti più grande e amato della Scandinavia, situato nel cuore di Göteborg, in Svezia. Aperto nel 1923 e con circa 3 milioni di visitatori all'anno, Liseberg conta 42 attrazioni, tra cui Helix, un coaster multi-lancio di livello mondiale, e Balder, ripetutamente votata come una delle migliori montagne russe in legno al mondo. Il parco unisce attrazioni di prim'ordine all'ospitalità scandinava e si trasforma ogni inverno nel più grande mercatino di Natale del Nord Europa.",
+      "nl": "Liseberg is Scandinavië's grootste en meest geliefde pretpark, in het hart van Gotenburg, Zweden. Geopend in 1923 en met circa 3 miljoen bezoekers per jaar, telt Liseberg 42 attracties, waaronder Helix, een wereldklasse multi-launch coaster, en Balder, herhaaldelijk verkozen tot een van de beste houten achtbanen ter wereld. Het park combineert attracties van topklasse met typisch Scandinavische gastvrijheid en verandert elke winter in de grootste kerstmarkt van Noord-Europa.",
+      "pt": "Liseberg é o maior e mais querido parque de diversões da Escandinávia, localizado no coração de Gotemburgo, Suécia. Inaugurado em 1923 e recebendo cerca de 3 milhões de visitantes por ano, o Liseberg conta com 42 atrações, incluindo a Helix, uma montanha-russa de lançamento múltiplo de classe mundial, e a Balder, repetidamente eleita uma das melhores montanhas-russas de madeira do mundo. O parque combina atrações de primeira linha com a hospitalidade escandinava e transforma-se todos os invernos no maior mercado de Natal do norte da Europa.",
+      "ru": "Liseberg — крупнейший и самый любимый парк развлечений Скандинавии, расположенный в самом центре Гётеборга, Швеция. Открытый в 1923 году и принимающий около 3 миллионов посетителей в год, парк насчитывает 42 аттракциона, включая Helix — мультизапускаемый коастер мирового класса, и Balder — неоднократно признанный одним из лучших деревянных коастеров мира. Парк сочетает первоклассные аттракционы со скандинавским гостеприимством и каждую зиму превращается в крупнейшую рождественскую ярмарку Северной Европы.",
+      "zh": "利瑟贝里是斯堪的纳维亚最大、最受欢迎的游乐园，位于瑞典哥德堡市中心。公园始建于1923年，如今每年接待约300万游客，拥有42个游乐项目，包括世界级多发射过山车Helix，以及屡获评为世界最佳木质过山车之一的Balder。公园将顶级游乐设施与典型的斯堪的纳维亚式待客之道相结合，每年冬季都会变身为北欧最大的圣诞市场。",
+      "ar": "ليسيبرغ هو أكبر وأحب متنزه ترفيهي في اسكندنافيا، يقع في قلب مدينة غوتنبرغ بالسويد. افتُتح عام 1923 ويستقبل الآن نحو 3 ملايين زائر سنوياً، ويضم 42 لعبة وجاذبية بما في ذلك هيليكس، أفعوانية متعددة الإطلاق عالمية المستوى، وبالدر التي صُوّتت مراراً كواحدة من أفضل الأفعوانيات الخشبية في العالم. يجمع المتنزه بين الجاذبيات الرفيعة المستوى والضيافة الاسكندنافية المميزة، ويتحول كل شتاء إلى أكبر سوق لعيد الميلاد في شمال أوروبا."
+    },
+    "ov_highlights_body": {
+      "en": "Helix is the undisputed star — a Mack Rides multi-launch coaster with seven inversions and two launches, consistently ranked among the world's best steel coasters. Balder delivers relentless wooden-coaster airtime at up to 120 km/h. Valkyria is Europe's longest dive coaster with a genuine 90-degree drop. AtmosFear stands 116 metres tall, one of Europe's largest free-fall towers. Mechanica combines physical sets with projection mapping in an immersive steampunk dark ride. And the new 2026 addition Stormvåg brings a wholly new wild-swing sensation to the park.",
+      "es": "Helix es la estrella indiscutible — un coaster de lanzamiento múltiple de Mack Rides con siete inversiones, considerado uno de los mejores coasters de acero del mundo. Balder ofrece un airtime constante a 120 km/h. Valkyria es el dive coaster más largo de Europa con una caída de 90 grados. AtmosFear mide 116 metros, una de las torres de caída libre más grandes de Europa. Mechanica combina decorados físicos con mapping en un dark ride steampunk inmersivo. Y la novedad de 2026, Stormvåg, aporta una sensación totalmente nueva al parque.",
+      "fr": "Helix est la star incontestée — un coaster à lancements multiples de Mack Rides avec sept inversions, régulièrement classé parmi les meilleurs coasters en acier au monde. Balder offre un airtime constant à 120 km/h. Valkyria est le plus long dive coaster d'Europe avec une chute à 90 degrés. AtmosFear culmine à 116 mètres, l'une des plus grandes tours de chute libre d'Europe. Mechanica combine décors physiques et mapping vidéo dans un dark ride steampunk immersif. La nouveauté 2026, Stormvåg, apporte une toute nouvelle sensation au parc.",
+      "de": "Helix ist der unangefochtene Star — ein Multi-Launch-Coaster von Mack Rides mit sieben Inversionen, regelmäßig unter den besten Stahlachterbahnen der Welt gelistet. Balder liefert konstantes Airtime bei bis zu 120 km/h. Valkyria ist Europas längster Dive Coaster mit einem echten 90-Grad-Sturz. AtmosFear ist 116 Meter hoch, einer der größten Falltürme Europas. Mechanica kombiniert physische Kulissen mit Projektionsmapping in einer immersiven Steampunk-Dark-Ride. Die Neuheit 2026, Stormvåg, bringt ein völlig neues Schwungerlebnis in den Park.",
+      "it": "Helix è la star indiscussa — un coaster multi-lancio di Mack Rides con sette inversioni, costantemente tra le migliori montagne russe in acciaio al mondo. Balder offre airtime costante fino a 120 km/h. Valkyria è il dive coaster più lungo d'Europa con una caduta di 90 gradi. AtmosFear è alta 116 metri, una delle torri a caduta libera più grandi d'Europa. Mechanica combina scenografie fisiche e proiezioni mappate in un dark ride steampunk immersivo. La novità 2026, Stormvåg, porta una sensazione del tutto nuova al parco.",
+      "nl": "Helix is de onbetwiste ster — een multi-launch coaster van Mack Rides met zeven inversies, consequent gerangschikt onder de beste stalen achtbanen ter wereld. Balder levert constante airtime tot 120 km/h. Valkyria is Europa's langste dive coaster met een echte val van 90 graden. AtmosFear is 116 meter hoog, een van de grootste vrije-val torens van Europa. Mechanica combineert fysieke decors met projectiemapping in een meeslepende steampunk dark ride. De nieuwkomer van 2026, Stormvåg, brengt een compleet nieuwe schommelsensatie naar het park.",
+      "pt": "A Helix é a estrela indiscutível — uma montanha-russa de lançamento múltiplo da Mack Rides com sete inversões, constantemente classificada entre as melhores montanhas-russas de aço do mundo. A Balder oferece airtime constante a até 120 km/h. A Valkyria é o dive coaster mais longo da Europa, com uma queda genuína de 90 graus. A AtmosFear tem 116 metros de altura, uma das maiores torres de queda livre da Europa. A Mechanica combina cenários físicos com projeção mapeada num dark ride steampunk imersivo. A novidade de 2026, Stormvåg, traz uma sensação totalmente nova ao parque.",
+      "ru": "Helix — бесспорная звезда парка: мультизапускаемый коастер от Mack Rides с семью инверсиями, стабильно входящий в число лучших стальных коастеров мира. Balder обеспечивает непрерывный airtime на скорости до 120 км/ч. Valkyria — самый длинный дайв-коастер Европы с настоящим падением под углом 90 градусов. AtmosFear достигает высоты 116 метров — одна из крупнейших башен свободного падения в Европе. Mechanica сочетает физические декорации с проекционным маппингом в захватывающем стимпанк-аттракционе. Новинка 2026 года Stormvåg приносит совершенно новые ощущения качания в парк.",
+      "zh": "Helix无疑是明星项目——一座Mack Rides制造的多发射过山车，拥有七次翻转，常年位列世界最佳钢制过山车之一。Balder以高达120公里/小时的速度提供持续的失重感。Valkyria是欧洲最长的俯冲式过山车，拥有真正的90度落差。AtmosFear高达116米，是欧洲最大的自由落体塔之一。Mechanica将实体布景与投影映射相结合，打造沉浸式蒸汽朋克暗黑骑乘体验。2026年新增的Stormvåg为公园带来了全新的摇摆体验。",
+      "ar": "هيليكس هو النجم الذي لا مُنازع له — أفعوانية متعددة الإطلاق من Mack Rides بسبعة انقلابات، تُصنَّف باستمرار من بين أفضل الأفعوانيات الفولاذية في العالم. تقدم بالدر إحساساً متواصلاً بانعدام الوزن بسرعة تصل إلى 120 كم/ساعة. فالكيريا هي أطول أفعوانية غطس في أوروبا بانحدار حقيقي بزاوية 90 درجة. يبلغ ارتفاع AtmosFear 116 متراً، وهو أحد أكبر أبراج السقوط الحر في أوروبا. تجمع Mechanica بين المجموعات المادية وتقنية عرض الخرائط في لعبة مظلمة غامرة بطراز البخار. وتجلب الإضافة الجديدة لعام 2026، Stormvåg، إحساساً جديداً تماماً بالتأرجح إلى المتنزه."
+    },
+    "ov_did_you_know_body": {
+      "en": "Liseberg opened in 1923 to celebrate the 300th anniversary of Gothenburg's founding, and quickly grew into Sweden's national amusement park. Helix, opened in 2014, was Mack Rides' most ambitious coaster at the time of construction and remains one of the most decorated steel coasters built this decade. Balder replaced an earlier hydraulic launch coaster called Kanonen, which closed in 2016 and was relocated to Lost Island Theme Park in Iowa, USA. The park's own on-site hotel, Liseberg Grand Curiosa, opened in 2023 as part of the park's centenary celebrations and was named 'Best of the Best' at the Park World Excellence Awards that same year.",
+      "es": "Liseberg abrió en 1923 para celebrar el 300 aniversario de la fundación de Gotemburgo, y rápidamente se convirtió en el parque nacional de atracciones de Suecia. Helix, inaugurado en 2014, fue el coaster más ambicioso de Mack Rides en su momento. Balder reemplazó a un coaster de lanzamiento hidráulico llamado Kanonen, que cerró en 2016 y fue trasladado a Lost Island Theme Park en Iowa, EE. UU. El hotel propio del parque, Liseberg Grand Curiosa, abrió en 2023 como parte de las celebraciones del centenario.",
+      "fr": "Liseberg a ouvert en 1923 pour célébrer le 300e anniversaire de la fondation de Göteborg, et est rapidement devenu le parc d'attractions national de la Suède. Helix, ouvert en 2014, était le coaster le plus ambitieux de Mack Rides à l'époque de sa construction. Balder a remplacé un coaster à lancement hydraulique appelé Kanonen, fermé en 2016 et transféré au Lost Island Theme Park dans l'Iowa, aux États-Unis. L'hôtel du parc, Liseberg Grand Curiosa, a ouvert en 2023 dans le cadre des célébrations du centenaire.",
+      "de": "Liseberg wurde 1923 zum 300-jährigen Jubiläum der Gründung Göteborgs eröffnet und entwickelte sich rasch zu Schwedens Nationalvergnügungspark. Helix, eröffnet 2014, war zum Bauzeitpunkt der ambitionierteste Coaster von Mack Rides. Balder ersetzte den hydraulisch gestarteten Coaster Kanonen, der 2016 schloss und ins Lost Island Theme Park in Iowa, USA, umgesiedelt wurde. Das parkeigene Hotel Liseberg Grand Curiosa eröffnete 2023 im Rahmen der Hundertjahrfeier.",
+      "it": "Liseberg ha aperto nel 1923 per celebrare il 300° anniversario della fondazione di Göteborg, diventando rapidamente il parco divertimenti nazionale svedese. Helix, aperta nel 2014, era il coaster più ambizioso mai costruito da Mack Rides fino a quel momento. Balder ha sostituito un coaster a lancio idraulico chiamato Kanonen, chiuso nel 2016 e trasferito al Lost Island Theme Park in Iowa, USA. L'hotel del parco, Liseberg Grand Curiosa, ha aperto nel 2023 come parte delle celebrazioni del centenario.",
+      "nl": "Liseberg opende in 1923 ter viering van het 300-jarig bestaan van Gotenburg en groeide snel uit tot Zwedens nationale pretpark. Helix, geopend in 2014, was destijds de meest ambitieuze coaster van Mack Rides. Balder verving een eerdere hydraulisch gelanceerde coaster genaamd Kanonen, die in 2016 sloot en werd verplaatst naar Lost Island Theme Park in Iowa, VS. Het eigen hotel van het park, Liseberg Grand Curiosa, opende in 2023 als onderdeel van de honderdjarige viering.",
+      "pt": "O Liseberg abriu em 1923 para celebrar o 300º aniversário da fundação de Gotemburgo, tornando-se rapidamente o parque de diversões nacional da Suécia. A Helix, inaugurada em 2014, foi a montanha-russa mais ambiciosa da Mack Rides à época da construção. A Balder substituiu uma anterior montanha-russa de lançamento hidráulico chamada Kanonen, encerrada em 2016 e transferida para o Lost Island Theme Park no Iowa, EUA. O hotel do próprio parque, Liseberg Grand Curiosa, abriu em 2023 como parte das celebrações do centenário.",
+      "ru": "Liseberg открылся в 1923 году в честь 300-летия основания Гётеборга и быстро стал национальным парком развлечений Швеции. Helix, открытый в 2014 году, был самым амбициозным коастером Mack Rides на момент постройки. Balder заменил более ранний гидравлический коастер Kanonen, закрытый в 2016 году и перевезённый в Lost Island Theme Park в Айове, США. Собственный отель парка, Liseberg Grand Curiosa, открылся в 2023 году в рамках празднования столетия.",
+      "zh": "利瑟贝里于1923年为庆祝哥德堡建城300周年而开放，并迅速发展成为瑞典的国家级游乐园。2014年开放的Helix，是Mack Rides建造时最具雄心的过山车。Balder取代了早期一座名为Kanonen的液压发射过山车，该项目于2016年关闭并迁至美国爱荷华州的Lost Island主题公园。公园自有的Liseberg Grand Curiosa酒店于2023年作为百年庆典的一部分开业。",
+      "ar": "افتُتح ليسيبرغ عام 1923 احتفالاً بالذكرى الـ300 لتأسيس غوتنبرغ، ونما بسرعة ليصبح المتنزه الترفيهي الوطني للسويد. كانت هيليكس، التي افتُتحت عام 2014، أكثر أفعوانية طموحاً بناها Mack Rides في وقت إنشائها. حلّت بالدر محل أفعوانية إطلاق هيدروليكي سابقة تُدعى Kanonen، أُغلقت عام 2016 ونُقلت إلى Lost Island Theme Park في ولاية أيوا الأمريكية. افتُتح فندق المتنزه الخاص، Liseberg Grand Curiosa، عام 2023 كجزء من احتفالات الذكرى المئوية."
+    },
+    "ov_plan_body": {
+      "en": "Head straight to Helix at opening — it draws the park's longest queues and is best experienced before 11:30am. Balder and Valkyria are best mid-morning once the initial rush settles. AtmosFear tends to have shorter waits in the afternoon. Mechanica is covered by the virtual queue system — book your slot via the app early in the day. Families with young children should start in Kaninlandet, which is quietest right at opening. Hamnkrogen is the best sit-down lunch option in the park — book ahead if possible. If visiting in winter, stay for the evening to experience Liseberg's celebrated Christmas market, the largest in Northern Europe.",
+      "es": "Ve directo a Helix en la apertura — tiene las colas más largas y es mejor antes de las 11:30. Balder y Valkyria a media mañana. AtmosFear suele tener menos espera por la tarde. Mechanica usa fila virtual — reserva tu turno pronto en la app. Las familias con niños pequeños deberían empezar en Kaninlandet. Hamnkrogen es la mejor opción de almuerzo con mesa. Si visitas en invierno, quédate para el mercado navideño, el más grande del norte de Europa.",
+      "fr": "Allez directement à Helix à l'ouverture — il a les files les plus longues et se profite mieux avant 11h30. Balder et Valkyria en milieu de matinée. AtmosFear a généralement moins d'attente l'après-midi. Mechanica utilise une file virtuelle — réservez votre créneau tôt via l'appli. Les familles avec jeunes enfants devraient commencer par Kaninlandet. Hamnkrogen est la meilleure option de déjeuner assis. En hiver, restez pour le marché de Noël, le plus grand d'Europe du Nord.",
+      "de": "Gehen Sie bei Öffnung direkt zu Helix — er hat die längsten Warteschlangen und ist am besten vor 11:30 Uhr zu erleben. Balder und Valkyria am besten am Vormittag. AtmosFear hat nachmittags meist kürzere Wartezeiten. Mechanica nutzt virtuelle Warteschlangen — buchen Sie früh über die App. Familien mit kleinen Kindern sollten in Kaninlandet beginnen. Hamnkrogen ist die beste Sitzplatz-Option zum Mittagessen. Im Winter lohnt sich ein Abendbesuch für den berühmten Weihnachtsmarkt, den größten Nordeuropas.",
+      "it": "Vai subito a Helix all'apertura — ha le code più lunghe ed è meglio prima delle 11:30. Balder e Valkyria a metà mattina. AtmosFear ha generalmente meno attesa nel pomeriggio. Mechanica usa la coda virtuale — prenota presto tramite l'app. Le famiglie con bambini piccoli dovrebbero iniziare da Kaninlandet. Hamnkrogen è la migliore opzione per il pranzo al tavolo. In inverno, resta per il mercatino di Natale, il più grande del Nord Europa.",
+      "nl": "Ga bij opening direct naar Helix — die heeft de langste rijen en is het best voor 11:30 uur. Balder en Valkyria halverwege de ochtend. AtmosFear heeft 's middags meestal kortere wachttijden. Mechanica gebruikt een virtuele wachtrij — boek vroeg via de app. Gezinnen met jonge kinderen beginnen het best bij Kaninlandet. Hamnkrogen is de beste zit-lunchoptie. Bij een winterbezoek, blijf voor de kerstmarkt, de grootste van Noord-Europa.",
+      "pt": "Vá diretamente à Helix na abertura — tem as filas mais longas e é melhor antes das 11h30. Balder e Valkyria a meio da manhã. A AtmosFear costuma ter menos espera à tarde. A Mechanica usa fila virtual — reserve cedo pela app. Famílias com crianças pequenas devem começar em Kaninlandet. Hamnkrogen é a melhor opção de almoço à mesa. Se visitar no inverno, fique para o mercado de Natal, o maior do norte da Europa.",
+      "ru": "Идите сразу к Helix при открытии — там самые длинные очереди, лучше всего до 11:30. Balder и Valkyria — утром. AtmosFear обычно короче очередь днём. У Mechanica виртуальная очередь — бронируйте слот заранее через приложение. Семьям с маленькими детьми стоит начать с Kaninlandet. Hamnkrogen — лучший вариант обеда за столиком. При зимнем визите останьтесь на рождественскую ярмарку, крупнейшую в Северной Европе.",
+      "zh": "开园时直奔Helix——它排队最长，最好在上午11:30前体验。Balder和Valkyria最好在上午中段游玩。AtmosFear下午排队通常较短。Mechanica采用虚拟排队系统——请尽早通过应用预约。带幼儿的家庭应从Kaninlandet开始。Hamnkrogen是公园内最好的坐式午餐选择。若冬季来访，建议留到晚上体验利瑟贝里著名的圣诞市场，这是北欧最大的圣诞市场。",
+      "ar": "توجه مباشرة إلى هيليكس عند الافتتاح — فهي تجذب أطول طوابير المتنزه ويُفضَّل تجربتها قبل الساعة 11:30 صباحاً. بالدر وفالكيريا أفضل في منتصف الصباح. عادة ما يكون الانتظار أقصر في AtmosFear بعد الظهر. تستخدم Mechanica نظام طابور افتراضي — احجز موعدك مبكراً عبر التطبيق. يجب على العائلات ذات الأطفال الصغار البدء في Kaninlandet. Hamnkrogen هو أفضل خيار غداء بالجلوس. إذا كنت تزور في الشتاء، ابقَ للاستمتاع بسوق عيد الميلاد الشهير، الأكبر في شمال أوروبا."
+    },
+    "ov_photos_body": {
+      "en": "Helix photographed mid-inversion against the Gothenburg skyline is one of the most striking coaster images in Sweden. Balder's first drop through its wooden structure makes for dramatic action shots from the dedicated photo spots along the track. AtmosFear silhouetted at sunset is a favourite among visiting photographers. The Liseberg Grand Curiosa's star-shaped exterior lit up at night creates a genuinely unique architectural shot. And the park's famous Christmas illuminations in winter turn nearly every corner of Liseberg into a postcard scene.",
+      "es": "Helix fotografiada a mitad de inversión contra el skyline de Gotemburgo es una de las imágenes más impactantes de Suecia. La primera caída de Balder crea fotos de acción dramáticas. AtmosFear en silueta al atardecer es un favorito. El exterior en forma de estrella del Grand Curiosa iluminado de noche crea una toma arquitectónica única. Las iluminaciones navideñas del parque convierten casi cada rincón en una postal.",
+      "fr": "Helix photographiée en pleine inversion sur fond de skyline de Göteborg est l'une des images de coaster les plus frappantes de Suède. La première descente de Balder crée des photos d'action spectaculaires. AtmosFear en silhouette au coucher du soleil est un favori. L'extérieur en étoile du Grand Curiosa illuminé la nuit crée un cliché architectural unique. Les illuminations de Noël du parc transforment presque chaque coin en carte postale.",
+      "de": "Helix, mitten in einer Inversion vor der Göteborger Skyline fotografiert, ist eines der eindrucksvollsten Coaster-Bilder Schwedens. Balders erster Sturz durch die Holzkonstruktion liefert dramatische Actionfotos. AtmosFear als Silhouette bei Sonnenuntergang ist bei Besuchern beliebt. Die sternförmige, nachts beleuchtete Außenfassade des Grand Curiosa ist ein einzigartiges Architekturfoto. Die berühmten Weihnachtsbeleuchtungen verwandeln fast jede Ecke des Parks in eine Postkartenszene.",
+      "it": "Helix fotografata a metà inversione con lo skyline di Göteborg sullo sfondo è una delle immagini di coaster più suggestive della Svezia. La prima discesa di Balder crea foto d'azione spettacolari. AtmosFear stagliata al tramonto è un'immagine amata dai visitatori. L'esterno a forma di stella del Grand Curiosa illuminato di notte crea uno scatto architettonico unico. Le illuminazioni natalizie trasformano quasi ogni angolo del parco in una cartolina.",
+      "nl": "Helix, gefotografeerd tijdens een inversie tegen de skyline van Gotenburg, is een van de meest opvallende coasterbeelden van Zweden. Balders eerste val door de houten structuur levert dramatische actiefoto's op. AtmosFear als silhouet bij zonsondergang is een favoriet. Het sterachtige exterieur van het Grand Curiosa, 's nachts verlicht, levert een uniek architectuurbeeld op. De beroemde kerstverlichting verandert vrijwel elke hoek van het park in een ansichtkaart.",
+      "pt": "A Helix fotografada a meio de uma inversão com o horizonte de Gotemburgo ao fundo é uma das imagens de coaster mais marcantes da Suécia. A primeira queda da Balder cria fotos de ação dramáticas. A AtmosFear em silhueta ao pôr do sol é uma favorita. O exterior em forma de estrela do Grand Curiosa iluminado à noite cria uma imagem arquitetónica única. As famosas iluminações de Natal transformam quase todos os cantos do parque num cartão-postal.",
+      "ru": "Helix, снятый в момент инверсии на фоне горизонта Гётеборга — один из самых впечатляющих снимков коастеров Швеции. Первое падение Balder создаёт драматичные экшн-кадры. Силуэт AtmosFear на закате — любимый кадр посетителей. Звёздообразный фасад Grand Curiosa, подсвеченный ночью, создаёт уникальный архитектурный снимок. Знаменитая рождественская иллюминация превращает почти каждый уголок парка в открытку.",
+      "zh": "在哥德堡天际线映衬下拍摄的Helix翻转瞬间，是瑞典最引人注目的过山车照片之一。Balder穿越木质结构的首次下坠创造了戏剧性的动作照片。日落时分AtmosFear的剪影是游客们的最爱。Grand Curiosa星形外观在夜晚点亮时，营造出独一无二的建筑摄影效果。公园著名的圣诞灯饰在冬季将几乎每个角落都变成明信片般的场景。",
+      "ar": "التقاط صورة هيليكس في منتصف الانقلاب مقابل أفق غوتنبرغ هو أحد أكثر صور الأفعوانيات إثارة في السويد. يخلق أول انحدار لبالدر عبر هيكلها الخشبي صوراً درامية للحركة. يُعد ظل AtmosFear عند الغروب من الصور المفضلة لدى الزوار. تخلق الواجهة الخارجية النجمية الشكل لفندق Grand Curiosa المضاءة ليلاً لقطة معمارية فريدة. تحول أضواء عيد الميلاد الشهيرة في المتنزه كل زاوية تقريباً إلى مشهد بطاقة بريدية."
+    }
+  },
+  "attractions": {
+    "helix": {
+      "desc": {
+        "en": "A Mack Rides multi-launch steel coaster with two linear synchronous motor launches and seven inversions across 1,378 metres of track. Consistently ranked among the world's best steel coasters. Min 140cm.",
+        "es": "Coaster de acero multi-lanzamiento de Mack Rides con siete inversiones en 1.378 metros de vía. Considerado entre los mejores del mundo. Min 140cm.",
+        "fr": "Coaster en acier multi-lancements de Mack Rides avec sept inversions sur 1 378 mètres de piste. Régulièrement classé parmi les meilleurs au monde. Min 140cm.",
+        "de": "Multi-Launch-Stahlcoaster von Mack Rides mit sieben Inversionen auf 1.378 Metern Strecke. Regelmäßig unter den weltbesten gelistet. Mindestgröße 140cm.",
+        "it": "Coaster in acciaio multi-lancio di Mack Rides con sette inversioni su 1.378 metri di pista. Tra i migliori al mondo. Min 140cm.",
+        "nl": "Multi-launch stalen coaster van Mack Rides met zeven inversies over 1.378 meter spoor. Consequent onder de wereldbeste. Min 140cm.",
+        "pt": "Montanha-russa de aço multi-lançamento da Mack Rides com sete inversões em 1.378 metros de pista. Entre as melhores do mundo. Min 140cm.",
+        "ru": "Стальной мультизапускаемый коастер Mack Rides с семью инверсиями на 1378 метрах трассы. Один из лучших в мире. Мин. рост 140см.",
+        "zh": "Mack Rides制造的多发射钢制过山车，拥有七次翻转，轨道长1378米。常年位列世界最佳。最低身高140厘米。",
+        "ar": "أفعوانية فولاذية متعددة الإطلاق من Mack Rides بسبعة انقلابات عبر 1378 متراً من المسار. من بين الأفضل عالمياً. الحد الأدنى 140 سم."
+      }
+    },
+    "balder": {
+      "desc": {
+        "en": "Repeatedly voted one of the world's best wooden coasters, reaching 120 km/h with relentless airtime. Opened 2003, designed by Intamin. Min 140cm.",
+        "es": "Votada repetidamente como una de las mejores montañas rusas de madera del mundo, alcanza 120 km/h. Inaugurada en 2003. Min 140cm.",
+        "fr": "Élue à plusieurs reprises l'une des meilleures montagnes russes en bois au monde, atteignant 120 km/h. Ouverte en 2003. Min 140cm.",
+        "de": "Mehrfach zur besten Holzachterbahn der Welt gewählt, erreicht 120 km/h. Eröffnet 2003. Mindestgröße 140cm.",
+        "it": "Ripetutamente votata come una delle migliori montagne russe in legno al mondo, raggiunge i 120 km/h. Aperta nel 2003. Min 140cm.",
+        "nl": "Herhaaldelijk verkozen tot een van de beste houten achtbanen ter wereld, bereikt 120 km/h. Geopend in 2003. Min 140cm.",
+        "pt": "Repetidamente eleita uma das melhores montanhas-russas de madeira do mundo, atinge 120 km/h. Inaugurada em 2003. Min 140cm.",
+        "ru": "Неоднократно признанный одним из лучших деревянных коастеров мира, разгоняется до 120 км/ч. Открыт в 2003 году. Мин. рост 140см.",
+        "zh": "屡获评为世界最佳木质过山车之一，时速高达120公里。2003年开放。最低身高140厘米。",
+        "ar": "صُوّتت مراراً كواحدة من أفضل الأفعوانيات الخشبية في العالم، تصل سرعتها إلى 120 كم/ساعة. افتُتحت عام 2003. الحد الأدنى 140 سم."
+      }
+    },
+    "valkyria": {
+      "desc": {
+        "en": "Europe's longest dive coaster, a B&M creation with a genuine 90-degree drop plunging riders underground through a dramatic tunnel. Opened 2018. Min 130cm.",
+        "es": "El dive coaster más largo de Europa, una creación de B&M con una caída de 90 grados bajo tierra. Inaugurado en 2018. Min 130cm.",
+        "fr": "Le plus long dive coaster d'Europe, une création B&M avec une chute à 90 degrés sous terre. Ouvert en 2018. Min 130cm.",
+        "de": "Europas längster Dive Coaster von B&M mit einem echten 90-Grad-Sturz unter die Erde. Eröffnet 2018. Mindestgröße 130cm.",
+        "it": "Il dive coaster più lungo d'Europa, una creazione B&M con una caduta di 90 gradi sottoterra. Aperta nel 2018. Min 130cm.",
+        "nl": "Europa's langste dive coaster, een B&M-creatie met een echte val van 90 graden onder de grond. Geopend in 2018. Min 130cm.",
+        "pt": "O dive coaster mais longo da Europa, uma criação da B&M com queda de 90 graus para debaixo do solo. Inaugurada em 2018. Min 130cm.",
+        "ru": "Самый длинный дайв-коастер Европы от B&M с настоящим падением под землю на 90 градусов. Открыт в 2018 году. Мин. рост 130см.",
+        "zh": "欧洲最长的俯冲式过山车，B&M制造，拥有真正的90度地下俯冲。2018年开放。最低身高130厘米。",
+        "ar": "أطول أفعوانية غطس في أوروبا، من صنع B&M بانحدار حقيقي بزاوية 90 درجة تحت الأرض عبر نفق درامي. افتُتحت عام 2018. الحد الأدنى 130 سم."
+      }
+    },
+    "atmosfear": {
+      "desc": {
+        "en": "One of the tallest free-fall towers in Europe at 116 metres, with sweeping views over Gothenburg before a terrifying drop. Min 140cm.",
+        "es": "Una de las torres de caída libre más altas de Europa, 116 metros, con vistas de Gotemburgo antes de una caída aterradora. Min 140cm.",
+        "fr": "L'une des plus hautes tours de chute libre d'Europe à 116 mètres, avec vue sur Göteborg avant une chute terrifiante. Min 140cm.",
+        "de": "Einer der höchsten Falltürme Europas mit 116 Metern, mit Blick über Göteborg vor einem erschreckenden Sturz. Mindestgröße 140cm.",
+        "it": "Una delle torri a caduta libera più alte d'Europa, 116 metri, con vista su Göteborg prima di una caduta terrificante. Min 140cm.",
+        "nl": "Een van de hoogste vrije-val torens van Europa op 116 meter, met uitzicht over Gotenburg voor een angstaanjagende val. Min 140cm.",
+        "pt": "Uma das torres de queda livre mais altas da Europa, com 116 metros, com vistas sobre Gotemburgo antes de uma queda aterradora. Min 140cm.",
+        "ru": "Одна из самых высоких башен свободного падения в Европе высотой 116 метров с видом на Гётеборг перед пугающим падением. Мин. рост 140см.",
+        "zh": "欧洲最高的自由落体塔之一，高116米，可俯瞰哥德堡全景，随后是令人恐惧的坠落。最低身高140厘米。",
+        "ar": "أحد أطول أبراج السقوط الحر في أوروبا بارتفاع 116 متراً، مع إطلالات واسعة على غوتنبرغ قبل سقوط مرعب. الحد الأدنى 140 سم."
+      }
+    },
+    "loke": {
+      "desc": {
+        "en": "A B&M wing coaster where riders sit beyond both sides of the track with nothing above or below their feet, creating a sensation of open-air flight. Min 130cm.",
+        "es": "Un wing coaster de B&M donde los riders se sientan más allá de ambos lados de la vía, creando una sensación de vuelo. Min 130cm.",
+        "fr": "Un wing coaster B&M où les riders s'assoient au-delà des deux côtés de la voie, créant une sensation de vol. Min 130cm.",
+        "de": "Ein B&M Wing Coaster, bei dem Fahrer jenseits beider Gleisseiten sitzen und ein Fluggefühl erleben. Mindestgröße 130cm.",
+        "it": "Un wing coaster di B&M dove i rider siedono oltre entrambi i lati del binario, creando una sensazione di volo. Min 130cm.",
+        "nl": "Een B&M wing coaster waarbij rijders voorbij beide zijden van het spoor zitten, wat een vliegsensatie creëert. Min 130cm.",
+        "pt": "Um wing coaster da B&M onde os riders se sentam além de ambos os lados da via, criando uma sensação de voo. Min 130cm.",
+        "ru": "Wing-коастер от B&M, где пассажиры сидят по обе стороны рельса, создавая ощущение полёта. Мин. рост 130см.",
+        "zh": "B&M翼式过山车，乘客坐在轨道两侧之外，脚下空无一物，营造出开放式飞行的感觉。最低身高130厘米。",
+        "ar": "أفعوانية جناح من B&M حيث يجلس الركاب خارج جانبي المسار، مما يخلق إحساساً بالطيران في الهواء الطلق. الحد الأدنى 130 سم."
+      }
+    },
+    "mechanica": {
+      "desc": {
+        "en": "Liseberg's headline indoor dark ride combining physical sets with projection-mapped animation in an immersive steampunk narrative. Suitable for all ages.",
+        "es": "El dark ride interior insignia de Liseberg, combinando decorados físicos con animación proyectada en una narrativa steampunk. Apto para todas las edades.",
+        "fr": "Le dark ride phare de Liseberg, combinant décors physiques et animation en mapping vidéo dans un récit steampunk. Convient à tous les âges.",
+        "de": "Lisebergs Flaggschiff-Dark-Ride, der physische Kulissen mit Projektionsmapping in einer Steampunk-Erzählung kombiniert. Für alle Altersgruppen.",
+        "it": "Il dark ride di punta di Liseberg, che combina scenografie fisiche e animazioni proiettate in una narrazione steampunk. Adatto a tutte le età.",
+        "nl": "Lisebergs vlaggenschip dark ride, die fysieke decors combineert met projectiemapping in een steampunk verhaal. Geschikt voor alle leeftijden.",
+        "pt": "O dark ride principal do Liseberg, combinando cenários físicos com animação projetada numa narrativa steampunk. Adequado para todas as idades.",
+        "ru": "Флагманский тёмный аттракцион Liseberg, сочетающий физические декорации с проекционной анимацией в стимпанковой истории. Подходит для всех возрастов.",
+        "zh": "利瑟贝里的旗舰室内暗黑骑乘项目，将实体布景与投影动画相结合，讲述沉浸式蒸汽朋克故事。适合所有年龄段。",
+        "ar": "أبرز لعبة مظلمة داخلية في ليسيبرغ، تجمع بين المجموعات المادية والرسوم المتحركة المعروضة بالخرائط في قصة غامرة بطراز البخار. مناسبة لجميع الأعمار."
+      }
+    },
+    "luna": {
+      "desc": {
+        "en": "A family boomerang coaster pulled backwards up a lift hill before racing forward and reversing the entire course. Min 120cm.",
+        "es": "Un coaster boomerang familiar que se lanza hacia atrás en la subida antes de avanzar y volver a recorrer todo el trayecto. Min 120cm.",
+        "fr": "Un coaster boomerang familial tiré en arrière avant d'avancer et de repasser tout le parcours. Min 120cm.",
+        "de": "Ein Familien-Boomerang-Coaster, der rückwärts hochgezogen wird, bevor er vorwärts fährt und den Kurs umkehrt. Mindestgröße 120cm.",
+        "it": "Un coaster boomerang familiare tirato indietro sulla salita prima di percorrere tutto il tragitto in avanti e all'indietro. Min 120cm.",
+        "nl": "Een familie boomerang coaster die achteruit de lift op wordt getrokken voordat hij vooruit en weer achteruit rijdt. Min 120cm.",
+        "pt": "Um coaster boomerang familiar puxado para trás na subida antes de avançar e repetir todo o percurso ao contrário. Min 120cm.",
+        "ru": "Семейный бумеранг-коастер, который тянется назад на подъёме перед тем, как промчаться вперёд и вернуться назад. Мин. рост 120см.",
+        "zh": "家庭回旋镖过山车，先向后拉上升坡道，然后向前疾驰并反向重复整个赛道。最低身高120厘米。",
+        "ar": "أفعوانية بوميرانج عائلية تُسحب للخلف صعوداً قبل الانطلاق للأمام وعكس المسار بالكامل. الحد الأدنى 120 سم."
+      }
+    },
+    "stormwag": {
+      "desc": {
+        "en": "Liseberg's headline addition for 2026 — an Art Engineering Wild Swing XL standing 14.5 metres tall with 24 sofa-style seats. Min 120cm.",
+        "es": "La novedad de Liseberg para 2026 — un Wild Swing XL de Art Engineering de 14,5 metros con 24 asientos tipo sofá. Min 120cm.",
+        "fr": "La nouveauté 2026 de Liseberg — un Wild Swing XL d'Art Engineering de 14,5 mètres avec 24 sièges style canapé. Min 120cm.",
+        "de": "Lisebergs Neuheit für 2026 — ein 14,5 Meter hoher Wild Swing XL von Art Engineering mit 24 Sofa-Sitzen. Mindestgröße 120cm.",
+        "it": "La novità 2026 di Liseberg — un Wild Swing XL di Art Engineering alto 14,5 metri con 24 sedili stile divano. Min 120cm.",
+        "nl": "Lisebergs nieuwkomer voor 2026 — een 14,5 meter hoge Art Engineering Wild Swing XL met 24 bank-stijl zitplaatsen. Min 120cm.",
+        "pt": "A novidade do Liseberg para 2026 — um Wild Swing XL da Art Engineering com 14,5 metros de altura e 24 assentos estilo sofá. Min 120cm.",
+        "ru": "Новинка Liseberg 2026 года — Wild Swing XL от Art Engineering высотой 14,5 метра с 24 местами в стиле дивана. Мин. рост 120см.",
+        "zh": "利瑟贝里2026年重磅新增项目——Art Engineering制造的Wild Swing XL，高14.5米，配有24个沙发式座椅。最低身高120厘米。",
+        "ar": "إضافة ليسيبرغ الرئيسية لعام 2026 — أرجوحة Wild Swing XL من Art Engineering بارتفاع 14.5 متراً مع 24 مقعداً بطراز الأريكة. الحد الأدنى 120 سم."
+      }
+    },
+    "kaninlandet": {
+      "desc": {
+        "en": "Liseberg's dedicated children's area, home to the park's beloved bunny mascot, filled with gentle rides for young visitors. Open every weekend in 2026. Suitable for all ages.",
+        "es": "El área infantil de Liseberg, hogar de la mascota conejo del parque, llena de atracciones suaves. Abierta cada fin de semana en 2026. Apto para todas las edades.",
+        "fr": "L'espace enfants de Liseberg, avec la mascotte lapin du parc, rempli d'attractions douces. Ouvert chaque week-end en 2026. Convient à tous les âges.",
+        "de": "Lisebergs Kinderbereich mit dem beliebten Hasenmaskottchen des Parks, voller sanfter Fahrgeschäfte. 2026 jedes Wochenende geöffnet. Für alle Altersgruppen.",
+        "it": "L'area bambini di Liseberg, con la amata mascotte coniglio del parco, piena di attrazioni delicate. Aperta ogni weekend nel 2026. Adatto a tutte le età.",
+        "nl": "Lisebergs kindergebied met de geliefde konijnenmascotte van het park, vol zachte attracties. In 2026 elk weekend geopend. Geschikt voor alle leeftijden.",
+        "pt": "A área infantil do Liseberg, lar da adorada mascote coelho do parque, cheia de atrações suaves. Aberta todos os fins de semana em 2026. Adequado para todas as idades.",
+        "ru": "Детская зона Liseberg с любимым кроличьим талисманом парка, полная мягких аттракционов. Открыта каждые выходные в 2026 году. Подходит для всех возрастов.",
+        "zh": "利瑟贝里专属儿童区，是公园心爱的兔子吉祥物的家，设有各种温和的游乐设施。2026年每个周末开放。适合所有年龄段。",
+        "ar": "منطقة الأطفال المخصصة في ليسيبرغ، موطن تميمة الأرنب المحبوبة للمتنزه، مليئة بالألعاب اللطيفة. مفتوحة كل عطلة نهاية أسبوع في 2026. مناسبة لجميع الأعمار."
+      }
+    },
+    "flygis": {
+      "desc": {
+        "en": "A classic gentle spinning plane ride in Kaninlandet where young riders control how high their aeroplane flies. Suitable for all ages.",
+        "es": "Un clásico paseo giratorio de aviones en Kaninlandet donde los jóvenes controlan la altura de vuelo. Apto para todas las edades.",
+        "fr": "Un classique manège tournant d'avions dans Kaninlandet où les jeunes contrôlent la hauteur de vol. Convient à tous les âges.",
+        "de": "Eine klassische sanfte Drehflugzeugfahrt in Kaninlandet, bei der junge Fahrer die Flughöhe steuern. Für alle Altersgruppen.",
+        "it": "Un classico giro rotante di aeroplani a Kaninlandet dove i giovani controllano l'altezza di volo. Adatto a tutte le età.",
+        "nl": "Een klassieke draaiende vliegtuigrit in Kaninlandet waarbij jonge rijders de vlieghoogte bepalen. Geschikt voor alle leeftijden.",
+        "pt": "Um clássico passeio giratório de aviões em Kaninlandet onde os jovens controlam a altura de voo. Adequado para todas as idades.",
+        "ru": "Классическая вращающаяся карусель с самолётами в Kaninlandet, где юные гости управляют высотой полёта. Подходит для всех возрастов.",
+        "zh": "Kaninlandet中经典的旋转飞机游乐设施，年幼的乘客可以控制飞机的飞行高度。适合所有年龄段。",
+        "ar": "رحلة طائرات دوارة لطيفة كلاسيكية في Kaninlandet حيث يتحكم الركاب الصغار في ارتفاع طيران طائرتهم. مناسبة لجميع الأعمار."
+      }
+    },
+    "cyclone": {
+      "desc": {
+        "en": "A gentle spinning ride in Kaninlandet perfectly scaled for the park's youngest guests. Suitable for all ages.",
+        "es": "Una atracción giratoria suave en Kaninlandet a la medida de los visitantes más jóvenes. Apto para todas las edades.",
+        "fr": "Une attraction tournante douce dans Kaninlandet parfaitement adaptée aux plus jeunes visiteurs. Convient à tous les âges.",
+        "de": "Eine sanfte Drehfahrt in Kaninlandet, perfekt für die jüngsten Parkbesucher. Für alle Altersgruppen.",
+        "it": "Un'attrazione rotante delicata a Kaninlandet perfetta per i visitatori più giovani. Adatto a tutte le età.",
+        "nl": "Een zachte draairit in Kaninlandet perfect afgestemd op de jongste bezoekers. Geschikt voor alle leeftijden.",
+        "pt": "Uma atração giratória suave em Kaninlandet perfeitamente adequada aos visitantes mais jovens. Adequado para todas as idades.",
+        "ru": "Мягкий вращающийся аттракцион в Kaninlandet, идеально подходящий для самых юных гостей парка. Подходит для всех возрастов.",
+        "zh": "Kaninlandet中温和的旋转游乐设施，非常适合公园里最年幼的游客。适合所有年龄段。",
+        "ar": "لعبة دوارة لطيفة في Kaninlandet مصممة خصيصاً لأصغر ضيوف المتنزه سناً. مناسبة لجميع الأعمار."
+      }
+    },
+    "gasten": {
+      "desc": {
+        "en": "A spooky walkthrough ghost hotel experience themed around Liseberg's resident ghost mascot, Gasten. Suitable for all ages.",
+        "es": "Una experiencia de hotel fantasma temática con Gasten, el fantasma residente de Liseberg. Apto para todas las edades.",
+        "fr": "Une expérience d'hôtel hanté à thème autour de Gasten, le fantôme résident de Liseberg. Convient à tous les âges.",
+        "de": "Ein gruseliges begehbares Geisterhotel-Erlebnis rund um Lisebergs eigenes Geistermaskottchen Gasten. Für alle Altersgruppen.",
+        "it": "Un'esperienza spettrale a piedi in un hotel fantasma a tema con Gasten, il fantasma residente di Liseberg. Adatto a tutte le età.",
+        "nl": "Een griezelige wandelervaring door een spookhotel rond Lisebergs eigen spookmascotte Gasten. Geschikt voor alle leeftijden.",
+        "pt": "Uma assustadora experiência a pé por um hotel fantasma temático com Gasten, o fantasma residente do Liseberg. Adequado para todas as idades.",
+        "ru": "Жуткая прогулочная экспозиция в стиле отеля с привидениями, посвящённая собственному призраку-талисману парка Gasten. Подходит для всех возрастов.",
+        "zh": "以利瑟贝里驻场幽灵吉祥物Gasten为主题的恐怖步行式鬼屋酒店体验。适合所有年龄段。",
+        "ar": "تجربة سير مخيفة في فندق أشباح مستوحاة من تميمة الشبح المقيم في ليسيبرغ، Gasten. مناسبة لجميع الأعمار."
+      }
+    },
+    "pariserhjulet": {
+      "desc": {
+        "en": "Liseberg's classic big wheel offering sweeping panoramic views across Gothenburg and the harbour. Suitable for all ages.",
+        "es": "La clásica noria de Liseberg con vistas panorámicas de Gotemburgo y el puerto. Apto para todas las edades.",
+        "fr": "La grande roue classique de Liseberg offrant des vues panoramiques sur Göteborg et le port. Convient à tous les âges.",
+        "de": "Lisebergs klassisches Riesenrad mit weitem Panoramablick über Göteborg und den Hafen. Für alle Altersgruppen.",
+        "it": "La classica ruota panoramica di Liseberg con viste mozzafiato su Göteborg e il porto. Adatto a tutte le età.",
+        "nl": "Lisebergs klassieke reuzenrad met panoramisch uitzicht over Gotenburg en de haven. Geschikt voor alle leeftijden.",
+        "pt": "A clássica roda gigante do Liseberg com vistas panorâmicas sobre Gotemburgo e o porto. Adequado para todas as idades.",
+        "ru": "Классическое колесо обозрения Liseberg с панорамным видом на Гётеборг и гавань. Подходит для всех возрастов.",
+        "zh": "利瑟贝里的经典摩天轮，可俯瞰哥德堡和港口的壮丽全景。适合所有年龄段。",
+        "ar": "عجلة ليسيبرغ الكبيرة الكلاسيكية التي تقدم إطلالات بانورامية واسعة على غوتنبرغ والميناء. مناسبة لجميع الأعمار."
+      }
+    }
+  },
+  "food": {
+    "food_jarnvagsrestaurangen": {
+      "desc": {
+        "en": "A railway-themed family restaurant with restored train carriages and station-style booths, serving well-prepared home-style Swedish and international dishes. KRAV-certified for sustainable sourcing.",
+        "es": "Restaurante familiar temático ferroviario con vagones restaurados, sirviendo platos suecos e internacionales. Certificado KRAV.",
+        "fr": "Restaurant familial à thème ferroviaire avec wagons restaurés, servant des plats suédois et internationaux. Certifié KRAV.",
+        "de": "Familienrestaurant im Eisenbahn-Design mit restaurierten Waggons, serviert schwedische und internationale Küche. KRAV-zertifiziert.",
+        "it": "Ristorante familiare a tema ferroviario con vagoni restaurati, con piatti svedesi e internazionali. Certificato KRAV.",
+        "nl": "Familierestaurant met spoorwegthema en gerestaureerde treinwagons, met Zweedse en internationale gerechten. KRAV-gecertificeerd.",
+        "pt": "Restaurante familiar com tema ferroviário com vagões restaurados, servindo pratos suecos e internacionais. Certificado KRAV.",
+        "ru": "Семейный ресторан в железнодорожной тематике с восстановленными вагонами, шведская и международная кухня. Сертификат KRAV.",
+        "zh": "以铁路为主题的家庭餐厅，配有修复的火车车厢，供应精心烹制的瑞典家常菜和国际美食。获得KRAV可持续认证。",
+        "ar": "مطعم عائلي بطابع القطارات مع عربات مرممة، يقدم أطباقاً سويدية ودولية منزلية الطراز. معتمد من KRAV."
+      }
+    },
+    "food_al_parco": {
+      "desc": {
+        "en": "A relaxed Italian restaurant serving fresh pizza, pasta and salads in a bright, casual setting.",
+        "es": "Restaurante italiano relajado con pizza, pasta y ensaladas frescas en ambiente informal.",
+        "fr": "Restaurant italien décontracté servant pizza, pâtes et salades fraîches dans un cadre lumineux.",
+        "de": "Entspanntes italienisches Restaurant mit frischer Pizza, Pasta und Salaten in heller, lockerer Atmosphäre.",
+        "it": "Un rilassato ristorante italiano con pizza, pasta e insalate fresche in un ambiente luminoso e informale.",
+        "nl": "Ontspannen Italiaans restaurant met verse pizza, pasta en salades in een lichte, casual sfeer.",
+        "pt": "Restaurante italiano descontraído com pizza fresca, massa e saladas num ambiente claro e informal.",
+        "ru": "Непринуждённый итальянский ресторан со свежей пиццей, пастой и салатами в светлой повседневной обстановке.",
+        "zh": "轻松惬意的意大利餐厅，供应新鲜披萨、意面和沙拉，环境明亮休闲。",
+        "ar": "مطعم إيطالي مريح يقدم بيتزا ومعكرونة وسلطات طازجة في أجواء مشرقة وغير رسمية."
+      }
+    },
+    "food_tyrolen": {
+      "desc": {
+        "en": "A charming Austrian-themed restaurant serving classic Alpine dishes in cosy chalet-style decor.",
+        "es": "Restaurante austriaco con platos alpinos clásicos en decoración de chalet acogedor.",
+        "fr": "Restaurant charmant à thème autrichien servant des plats alpins classiques dans un décor de chalet cosy.",
+        "de": "Charmantes österreichisches Restaurant mit klassischen Alpengerichten in gemütlicher Chalet-Atmosphäre.",
+        "it": "Un affascinante ristorante a tema austriaco con piatti alpini classici in un arredo da chalet accogliente.",
+        "nl": "Charmant Oostenrijks themarestaurant met klassieke Alpengerechten in gezellige chaletstijl.",
+        "pt": "Encantador restaurante temático austríaco com pratos alpinos clássicos em decoração de chalé aconchegante.",
+        "ru": "Уютный ресторан в австрийской тематике с классическими альпийскими блюдами в стиле шале.",
+        "zh": "迷人的奥地利主题餐厅，在温馨的小木屋风格装饰中供应经典阿尔卑斯山菜肴。",
+        "ar": "مطعم ساحر بطابع نمساوي يقدم أطباقاً ألبية كلاسيكية في ديكور دافئ على طراز الشاليه."
+      }
+    },
+    "food_hamnkrogen": {
+      "desc": {
+        "en": "One of the top three restaurants in the park, a harbour-themed seafood restaurant serving fresh Swedish west-coast specialties.",
+        "es": "Uno de los tres mejores restaurantes del parque, tema portuario con mariscos frescos de la costa oeste sueca.",
+        "fr": "L'un des trois meilleurs restaurants du parc, thème portuaire avec fruits de mer frais de la côte ouest suédoise.",
+        "de": "Eines der drei besten Restaurants im Park, Hafenthema mit frischen Meeresfrüchten von Schwedens Westküste.",
+        "it": "Uno dei tre migliori ristoranti del parco, tema portuale con specialità di pesce fresco della costa occidentale svedese.",
+        "nl": "Een van de drie beste restaurants van het park, haventhema met verse zeevruchten van de Zweedse westkust.",
+        "pt": "Um dos três melhores restaurantes do parque, tema portuário com marisco fresco da costa oeste sueca.",
+        "ru": "Один из трёх лучших ресторанов парка, морская тематика со свежими деликатесами западного побережья Швеции.",
+        "zh": "公园内三大顶级餐厅之一，港口主题海鲜餐厅，供应新鲜的瑞典西海岸特色美食。",
+        "ar": "أحد أفضل ثلاثة مطاعم في المتنزه، بطابع الميناء يقدم مأكولات بحرية طازجة من الساحل الغربي السويدي."
+      }
+    },
+    "food_lisebergs_wardshus": {
+      "desc": {
+        "en": "A traditional Swedish inn-style restaurant serving hearty husmanskost home-cooking dishes in a warm atmosphere.",
+        "es": "Restaurante tradicional sueco tipo posada con platos caseros contundentes en ambiente cálido.",
+        "fr": "Restaurant traditionnel suédois de style auberge servant des plats copieux de cuisine familiale dans une ambiance chaleureuse.",
+        "de": "Traditionelles schwedisches Wirtshaus-Restaurant mit herzhaften Husmanskost-Hausmannskostgerichten in warmer Atmosphäre.",
+        "it": "Un tradizionale ristorante svedese in stile locanda con piatti abbondanti di cucina casalinga in un'atmosfera calda.",
+        "nl": "Traditioneel Zweeds herbergrestaurant met stevige huisgerechten in een warme sfeer.",
+        "pt": "Restaurante tradicional sueco estilo pousada com pratos caseiros fartos num ambiente caloroso.",
+        "ru": "Традиционный шведский ресторан в стиле придорожной гостиницы с сытными домашними блюдами в тёплой атмосфере.",
+        "zh": "传统瑞典客栈风格餐厅，在温馨的氛围中供应丰盛的家常菜肴。",
+        "ar": "مطعم سويدي تقليدي على طراز النزل يقدم أطباقاً منزلية شهية في أجواء دافئة."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_grand_curiosa": {
+      "desc": {
+        "en": "Sweden's most imaginative family hotel, opened 2023 right next to Liseberg. The star-shaped, nine-storey building has 457 rooms filled with whimsical details, a lobby slide, a 100-year-old pony carousel and park access after regular hours.",
+        "es": "El hotel familiar más imaginativo de Suecia, junto a Liseberg. 457 habitaciones, tobogán en el vestíbulo, carrusel de 100 años y acceso al parque fuera de horario.",
+        "fr": "L'hôtel familial le plus imaginatif de Suède, juste à côté de Liseberg. 457 chambres, toboggan dans le hall, carrousel centenaire et accès au parc hors horaires.",
+        "de": "Schwedens fantasievollstes Familienhotel, direkt neben Liseberg. 457 Zimmer, Lobby-Rutsche, 100 Jahre altes Ponykarussell und Parkzugang außerhalb der Öffnungszeiten.",
+        "it": "L'hotel per famiglie più fantasioso di Svezia, proprio accanto a Liseberg. 457 camere, scivolo nella lobby, giostra centenaria e accesso al parco fuori orario.",
+        "nl": "Zweden's meest fantasievolle familiehotel, direct naast Liseberg. 457 kamers, glijbaan in de lobby, honderdjarig ponycarrousel en parktoegang buiten openingstijden.",
+        "pt": "O hotel familiar mais imaginativo da Suécia, mesmo ao lado do Liseberg. 457 quartos, escorrega no lobby, carrossel centenário e acesso ao parque fora de horas.",
+        "ru": "Самый изобретательный семейный отель Швеции, прямо у Liseberg. 457 номеров, горка в лобби, вековая карусель с пони и доступ в парк вне обычных часов.",
+        "zh": "瑞典最富想象力的家庭酒店，紧邻利瑟贝里。共457间客房，配有大堂滑梯、百年小马旋转木马，并可在正常营业时间之外进入公园。",
+        "ar": "أكثر فندق عائلي إبداعاً في السويد، بجوار ليسيبرغ مباشرة. 457 غرفة مليئة بتفاصيل خيالية، وزلاقة في الردهة، ودوامة مهر عمرها 100 عام، ودخول للمتنزه خارج ساعات العمل."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": {
+            "en": "Curiosa Family Room",
+            "es": "Habitación Familiar Curiosa",
+            "fr": "Chambre Familiale Curiosa",
+            "de": "Curiosa Familienzimmer",
+            "it": "Camera Familiare Curiosa",
+            "nl": "Curiosa Familiekamer",
+            "pt": "Quarto Familiar Curiosa",
+            "ru": "Семейный номер Curiosa",
+            "zh": "Curiosa家庭客房",
+            "ar": "غرفة كوريوسا العائلية"
+          },
+          "desc": {
+            "en": "Themed family room sleeping at least 5 guests, with a treasure-hunt activity and breakfast buffet included.",
+            "es": "Habitación familiar temática para al menos 5 huéspedes, con búsqueda del tesoro y desayuno incluido.",
+            "fr": "Chambre familiale à thème pour au moins 5 personnes, avec chasse au trésor et petit-déjeuner inclus.",
+            "de": "Themenzimmer für mindestens 5 Gäste mit Schatzsuche und Frühstücksbuffet inklusive.",
+            "it": "Camera familiare a tema per almeno 5 ospiti, con caccia al tesoro e colazione a buffet inclusa.",
+            "nl": "Themafamiliekamer voor minstens 5 gasten, met schattenjacht en ontbijtbuffet inbegrepen.",
+            "pt": "Quarto familiar temático para pelo menos 5 hóspedes, com caça ao tesouro e pequeno-almoço buffet incluído.",
+            "ru": "Тематический семейный номер минимум для 5 гостей с квестом-поиском сокровищ и завтраком-буфетом.",
+            "zh": "主题家庭客房，可容纳至少5位客人，含寻宝活动和自助早餐。",
+            "ar": "غرفة عائلية ذات طابع تتسع لـ 5 ضيوف على الأقل، مع نشاط البحث عن الكنز وإفطار بوفيه مشمول."
+          }
+        },
+        "superior_room": {
+          "name": {
+            "en": "Curiosa Superior Room",
+            "es": "Habitación Superior Curiosa",
+            "fr": "Chambre Supérieure Curiosa",
+            "de": "Curiosa Superior Zimmer",
+            "it": "Camera Superior Curiosa",
+            "nl": "Curiosa Superior Kamer",
+            "pt": "Quarto Superior Curiosa",
+            "ru": "Улучшенный номер Curiosa",
+            "zh": "Curiosa高级客房",
+            "ar": "غرفة كوريوسا سوبيريور"
+          },
+          "desc": {
+            "en": "Larger themed room with enhanced decor and priority proximity to the park entrance.",
+            "es": "Habitación temática más grande con decoración mejorada y cercanía a la entrada del parque.",
+            "fr": "Chambre à thème plus grande avec décor amélioré et proximité de l'entrée du parc.",
+            "de": "Größeres Themenzimmer mit erweitertem Dekor und Nähe zum Parkeingang.",
+            "it": "Camera a tema più grande con decor migliorato e vicinanza all'ingresso del parco.",
+            "nl": "Grotere themakamer met verbeterd decor en nabijheid van de parkingang.",
+            "pt": "Quarto temático maior com decoração melhorada e proximidade à entrada do parque.",
+            "ru": "Более просторный тематический номер с улучшенным декором рядом со входом в парк.",
+            "zh": "更大的主题客房，装饰升级，靠近公园入口。",
+            "ar": "غرفة ذات طابع أكبر مع ديكور محسّن وقرب من مدخل المتنزه."
+          }
+        }
+      }
+    },
+    "hotel_liseberg_heden": {
+      "desc": {
+        "en": "Liseberg's original official hotel, a 2-minute walk from the park gate. Comfortable rooms, a Swedish breakfast buffet and complimentary park entry with most rates.",
+        "es": "El hotel oficial original de Liseberg, a 2 minutos de la entrada. Habitaciones cómodas, desayuno sueco y entrada al parque incluida en la mayoría de tarifas.",
+        "fr": "L'hôtel officiel original de Liseberg, à 2 minutes de l'entrée. Chambres confortables, petit-déjeuner suédois et entrée au parc incluse dans la plupart des tarifs.",
+        "de": "Lisebergs ursprüngliches offizielles Hotel, 2 Gehminuten vom Parkeingang. Komfortable Zimmer, schwedisches Frühstücksbuffet und Parkeintritt bei den meisten Tarifen inklusive.",
+        "it": "L'hotel ufficiale originale di Liseberg, a 2 minuti a piedi dall'ingresso. Camere confortevoli, colazione svedese a buffet e ingresso al parco incluso nella maggior parte delle tariffe.",
+        "nl": "Lisebergs originele officiële hotel, 2 minuten lopen van de parkingang. Comfortabele kamers, Zweeds ontbijtbuffet en parktoegang inbegrepen bij de meeste tarieven.",
+        "pt": "O hotel oficial original do Liseberg, a 2 minutos a pé da entrada. Quartos confortáveis, buffet de pequeno-almoço sueco e entrada no parque incluída na maioria das tarifas.",
+        "ru": "Первоначальный официальный отель Liseberg, в 2 минутах ходьбы от входа в парк. Уютные номера, шведский завтрак-буфет и вход в парк включён в большинство тарифов.",
+        "zh": "利瑟贝里最初的官方酒店，距公园入口仅2分钟步行路程。舒适客房、瑞典自助早餐，大多数房价均含公园门票。",
+        "ar": "فندق ليسيبرغ الرسمي الأصلي، على بعد دقيقتين سيراً من بوابة المتنزه. غرف مريحة، وإفطار بوفيه سويدي، ودخول مجاني للمتنزه مع معظم الأسعار."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaardkamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable modern room with free WiFi and breakfast buffet, 2 minutes from the park gate.",
+            "es": "Habitación moderna con WiFi gratis y desayuno buffet, a 2 minutos de la entrada.",
+            "fr": "Chambre moderne confortable avec WiFi gratuit et petit-déjeuner buffet, à 2 minutes de l'entrée.",
+            "de": "Komfortables modernes Zimmer mit kostenlosem WLAN und Frühstücksbuffet, 2 Minuten vom Parkeingang.",
+            "it": "Camera moderna confortevole con WiFi gratuito e colazione a buffet, a 2 minuti dall'ingresso.",
+            "nl": "Comfortabele moderne kamer met gratis WiFi en ontbijtbuffet, 2 minuten van de parkingang.",
+            "pt": "Quarto moderno confortável com WiFi gratuito e buffet de pequeno-almoço, a 2 minutos da entrada.",
+            "ru": "Уютный современный номер с бесплатным WiFi и завтраком-буфетом, в 2 минутах от входа в парк.",
+            "zh": "舒适现代客房，配有免费WiFi和自助早餐，距公园入口2分钟路程。",
+            "ar": "غرفة حديثة مريحة مع واي فاي مجاني وإفطار بوفيه، على بعد دقيقتين من بوابة المتنزه."
+          }
+        },
+        "family_room": {
+          "name": {
+            "en": "Family Room",
+            "es": "Habitación Familiar",
+            "fr": "Chambre Familiale",
+            "de": "Familienzimmer",
+            "it": "Camera Familiare",
+            "nl": "Familiekamer",
+            "pt": "Quarto Familiar",
+            "ru": "Семейный номер",
+            "zh": "家庭客房",
+            "ar": "غرفة عائلية"
+          },
+          "desc": {
+            "en": "Larger room with additional bedding for families, near-instant park access.",
+            "es": "Habitación más grande con camas adicionales para familias, acceso casi instantáneo al parque.",
+            "fr": "Chambre plus grande avec literie supplémentaire pour familles, accès quasi instantané au parc.",
+            "de": "Größeres Zimmer mit zusätzlichen Betten für Familien, nahezu sofortiger Parkzugang.",
+            "it": "Camera più grande con letti aggiuntivi per famiglie, accesso quasi istantaneo al parco.",
+            "nl": "Grotere kamer met extra bedden voor gezinnen, bijna directe parktoegang.",
+            "pt": "Quarto maior com camas extra para famílias, acesso quase instantâneo ao parque.",
+            "ru": "Более просторный номер с дополнительными кроватями для семей, почти мгновенный доступ в парк.",
+            "zh": "更大的客房，配有家庭额外床位，几乎可即时进入公园。",
+            "ar": "غرفة أكبر مع أسرّة إضافية للعائلات، ودخول شبه فوري للمتنزه."
+          }
+        }
+      }
+    },
+    "hotel_gothia_towers": {
+      "desc": {
+        "en": "A landmark three-tower hotel complex directly across from Liseberg, home to over 1,200 rooms, the exclusive Upper House hotel, the city's highest-located spa, and acclaimed restaurants including Heaven 23.",
+        "es": "Complejo hotelero de tres torres frente a Liseberg, con más de 1.200 habitaciones, el exclusivo Upper House, el spa más alto de la ciudad y restaurantes aclamados como Heaven 23.",
+        "fr": "Complexe hôtelier emblématique de trois tours face à Liseberg, avec plus de 1 200 chambres, l'hôtel exclusif Upper House, le spa le plus haut de la ville et des restaurants réputés comme Heaven 23.",
+        "de": "Wahrzeichen-Hotelkomplex mit drei Türmen direkt gegenüber Liseberg, über 1.200 Zimmer, das exklusive Upper House, das höchstgelegene Spa der Stadt und gefeierte Restaurants wie Heaven 23.",
+        "it": "Complesso alberghiero iconico a tre torri di fronte a Liseberg, con oltre 1.200 camere, l'esclusivo Upper House, la spa più alta della città e ristoranti rinomati come Heaven 23.",
+        "nl": "Iconisch drietorenshotelcomplex direct tegenover Liseberg, met meer dan 1.200 kamers, het exclusieve Upper House, de hoogst gelegen spa van de stad en gerenommeerde restaurants zoals Heaven 23.",
+        "pt": "Complexo hoteleiro icónico de três torres em frente ao Liseberg, com mais de 1.200 quartos, o exclusivo Upper House, o spa mais alto da cidade e restaurantes aclamados como o Heaven 23.",
+        "ru": "Знаковый отельный комплекс из трёх башен прямо напротив Liseberg, более 1200 номеров, эксклюзивный отель Upper House, самый высокий спа-центр города и знаменитые рестораны, включая Heaven 23.",
+        "zh": "位于利瑟贝里正对面的标志性三塔酒店综合体，拥有超过1200间客房、独享的Upper House酒店、市内海拔最高的水疗中心，以及Heaven 23等广受赞誉的餐厅。",
+        "ar": "مجمع فندقي بارز مكون من ثلاثة أبراج مقابل ليسيبرغ مباشرة، يضم أكثر من 1200 غرفة، وفندق Upper House الحصري، وأعلى منتجع صحي في المدينة، ومطاعم مشهورة منها Heaven 23."
+      },
+      "rooms": {
+        "standard_room": {
+          "name": {
+            "en": "Standard Room",
+            "es": "Habitación Estándar",
+            "fr": "Chambre Standard",
+            "de": "Standardzimmer",
+            "it": "Camera Standard",
+            "nl": "Standaardkamer",
+            "pt": "Quarto Standard",
+            "ru": "Стандартный номер",
+            "zh": "标准客房",
+            "ar": "غرفة قياسية"
+          },
+          "desc": {
+            "en": "Comfortable city-view room with access to the hotel spa and multiple on-site restaurants.",
+            "es": "Habitación cómoda con vistas a la ciudad, acceso al spa y varios restaurantes.",
+            "fr": "Chambre confortable avec vue sur la ville, accès au spa et à plusieurs restaurants.",
+            "de": "Komfortables Zimmer mit Stadtblick, Zugang zum Spa und mehreren Restaurants.",
+            "it": "Camera confortevole con vista città, accesso alla spa e a più ristoranti.",
+            "nl": "Comfortabele kamer met stadszicht, toegang tot de spa en meerdere restaurants.",
+            "pt": "Quarto confortável com vista para a cidade, acesso ao spa e vários restaurantes.",
+            "ru": "Уютный номер с видом на город, доступ к спа-центру и нескольким ресторанам.",
+            "zh": "舒适的城市景观客房，可使用酒店水疗中心和多家餐厅。",
+            "ar": "غرفة مريحة بإطلالة على المدينة مع إمكانية الوصول إلى المنتجع الصحي ومطاعم متعددة."
+          }
+        },
+        "upper_house_room": {
+          "name": {
+            "en": "Upper House Room",
+            "es": "Habitación Upper House",
+            "fr": "Chambre Upper House",
+            "de": "Upper House Zimmer",
+            "it": "Camera Upper House",
+            "nl": "Upper House Kamer",
+            "pt": "Quarto Upper House",
+            "ru": "Номер Upper House",
+            "zh": "Upper House客房",
+            "ar": "غرفة Upper House"
+          },
+          "desc": {
+            "en": "Premium room in the Upper House tower with panoramic Gothenburg views.",
+            "es": "Habitación premium en la torre Upper House con vistas panorámicas de Gotemburgo.",
+            "fr": "Chambre premium dans la tour Upper House avec vue panoramique sur Göteborg.",
+            "de": "Premium-Zimmer im Upper House Turm mit Panoramablick auf Göteborg.",
+            "it": "Camera premium nella torre Upper House con vista panoramica su Göteborg.",
+            "nl": "Premium kamer in de Upper House toren met panoramisch uitzicht op Gotenburg.",
+            "pt": "Quarto premium na torre Upper House com vistas panorâmicas de Gotemburgo.",
+            "ru": "Премиальный номер в башне Upper House с панорамным видом на Гётеборг.",
+            "zh": "Upper House塔楼内的高级客房，可欣赏哥德堡全景。",
+            "ar": "غرفة فاخرة في برج Upper House بإطلالات بانورامية على غوتنبرغ."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1278,5 +1278,25 @@
         },
         "currency": "USD",
         "queueTimesId": 0
+    },
+    {
+        "id": "liseberg",
+        "name": "Liseberg",
+        "city": "Gothenburg",
+        "country": "Sweden",
+        "type": "Theme Park",
+        "lat": 57.6947,
+        "lng": 11.9917,
+        "thumbnail": "assets/images/liseberg/park_thumbnail.png",
+        "website": "https://www.liseberg.se/en",
+        "ticketsUrl": "https://www.liseberg.se/en/buy-tickets/",
+        "detailAsset": "",
+        "openingHours": "11:00 - 22:00",
+        "entryPrices": {
+            "adult": 525,
+            "child": 425
+        },
+        "currency": "SEK",
+        "queueTimesId": 0
     }
 ]
