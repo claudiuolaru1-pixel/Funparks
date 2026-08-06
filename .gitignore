@@ -64,3 +64,6 @@ serviceAccountKey.json
 functions/.env
 
 node_modules/
+
+write_*.js
+*_i18n_source.json
