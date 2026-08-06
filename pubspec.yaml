@@ -1,4 +1,4 @@
-﻿name: funparks
+name: funparks
 description: A playful, map-first theme park discovery app (MVP).
 version: 2.0.2+227
 publish_to: "none"
@@ -39,6 +39,7 @@ dependencies:
   flutter_staggered_animations: ^1.1.1
   image_picker: ^1.1.2
   geolocator: ^13.0.1
+  firebase_messaging: ^16.5.0
 
 dev_dependencies:
   flutter_test:

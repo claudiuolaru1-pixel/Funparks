@@ -1,4 +1,7 @@
 ﻿const {onRequest} = require("firebase-functions/v2/https");
+const {onDocumentWritten} = require("firebase-functions/v2/firestore");
+const admin = require("firebase-admin");
+admin.initializeApp();
 const Anthropic = require("@anthropic-ai/sdk");
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
@@ -134,6 +137,65 @@ ${parkPromotionInstruction}`;
     } catch (error) {
       console.error("Error calling Anthropic API:", error);
       res.status(500).json({error: "Failed to get response from AI: " + error.message});
+    }
+  }
+);
+
+// ── Wait Time Alerts ─────────────────────────────────────────────────────
+exports.checkWaitTimeAlerts = onDocumentWritten(
+  "parks/{parkId}/wait_times/{attractionId}",
+  async (event) => {
+    const parkId = event.params.parkId;
+    const attractionId = event.params.attractionId;
+
+    const before = event.data.before.exists ? event.data.before.data() : null;
+    const after = event.data.after.exists ? event.data.after.data() : null;
+    if (!after) return;
+
+    const newMinutes = after.minutes;
+    const oldMinutes = before ? before.minutes : null;
+    if (typeof newMinutes !== "number") return;
+
+    const db = admin.firestore();
+    const usersSnap = await db
+      .collection("users")
+      .where("activeWaitAlert.parkId", "==", parkId)
+      .where("activeWaitAlert.attractionId", "==", attractionId)
+      .where("activeWaitAlert.fired", "==", false)
+      .get();
+
+    if (usersSnap.empty) return;
+
+    for (const userDoc of usersSnap.docs) {
+      const alert = userDoc.data().activeWaitAlert;
+      if (!alert || typeof alert.thresholdMinutes !== "number") continue;
+
+      const wasAbove = oldMinutes === null || oldMinutes > alert.thresholdMinutes;
+      const isAtOrBelow = newMinutes <= alert.thresholdMinutes;
+
+      // Only fire once, on the crossing from above threshold to at/below it
+      if (!(wasAbove && isAtOrBelow)) continue;
+      if (!alert.fcmToken) continue;
+
+      try {
+        await admin.messaging().send({
+          token: alert.fcmToken,
+          notification: {
+            title: "Wait time dropped!",
+            body: `${alert.attractionName || "Your ride"} is now ${newMinutes} min at ${parkId}!`,
+          },
+          data: {
+            parkId: parkId,
+            attractionId: attractionId,
+          },
+        });
+      } catch (err) {
+        console.error("Failed to send wait alert notification:", err);
+      }
+
+      await userDoc.ref.update({
+        "activeWaitAlert.fired": true,
+      });
     }
   }
 );

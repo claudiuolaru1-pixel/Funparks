@@ -1,8 +1,9 @@
-// lib/screens/park_detail_screen.dart
+﻿// lib/screens/park_detail_screen.dart
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
+import '../services/wait_alert_service.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:image_picker/image_picker.dart';
@@ -2016,6 +2017,7 @@ class _AttractionDetailScreenState
   TextEditingController? _myWaitCtrl;
   double _rating = 4.5;
   bool _showTranslated = false;
+  final WaitAlertService _waitAlertService = WaitAlertService();
 
   @override
   void initState() {
@@ -2041,6 +2043,84 @@ class _AttractionDetailScreenState
   void dispose() {
     _myWaitCtrl?.dispose();
     super.dispose();
+  }
+
+  Widget _buildWaitAlertBell(BuildContext context, Attraction a) {
+    return StreamBuilder<bool>(
+      stream: _waitAlertService.isAlertActiveFor(
+        parkId: widget.parkId,
+        attractionId: a.id,
+      ),
+      builder: (context, snap) {
+        final active = snap.data ?? false;
+        return _PillIconButton(
+          tooltip: active ? 'Wait alert set' : 'Set wait time alert',
+          icon: active ? Icons.notifications_active : Icons.notifications_none,
+          onTap: () => _handleAlertTap(context, a, active),
+        );
+      },
+    );
+  }
+
+  Future<void> _handleAlertTap(BuildContext context, Attraction a, bool active) async {
+    final app = context.read<AppState>();
+    if (app.currentUser == null) {
+      Navigator.of(context).pushNamed('/signin');
+      return;
+    }
+    if (active) {
+      await _waitAlertService.clearAlert();
+      return;
+    }
+    await _showThresholdSheet(context, a);
+  }
+
+  Future<void> _showThresholdSheet(BuildContext context, Attraction a) async {
+    final options = [10, 15, 20, 30, 45];
+    final selected = await showModalBottomSheet<int>(
+      context: context,
+      backgroundColor: Colors.white,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (ctx) => SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('Notify me when wait drops below',
+                  style: Theme.of(ctx).textTheme.titleMedium),
+              const SizedBox(height: 16),
+              Wrap(
+                spacing: 10,
+                runSpacing: 10,
+                children: options
+                    .map((m) => ActionChip(
+                          label: Text('$m min'),
+                          onPressed: () => Navigator.of(ctx).pop(m),
+                        ))
+                    .toList(),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+    if (selected == null) return;
+    final ok = await _waitAlertService.setAlert(
+      parkId: widget.parkId,
+      attractionId: a.id,
+      attractionName: a.name,
+      thresholdMinutes: selected,
+    );
+    if (!ok && mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+            content: Text('Could not set alert. Check notification permissions.')),
+      );
+    }
   }
 
   @override
@@ -2094,6 +2174,7 @@ class _AttractionDetailScreenState
                   if (a.minHeightCm != null)
                     _Pill(icon: Icons.height, text: '${a.minHeightCm} cm+'),
                   _Pill(icon: Icons.timer, text: '${a.liveWaitMinutes} min (${loc.liveWait})'),
+                    _buildWaitAlertBell(context, a),
                 ]),
                 const SizedBox(height: 14),
                 _TextCard(title: 'Facts', lines: factLines),
