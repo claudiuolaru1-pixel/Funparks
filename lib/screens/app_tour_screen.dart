@@ -43,6 +43,12 @@ class _AppTourScreenState extends State<AppTourScreen> {
       body: 'The Attractions tab lists all rides with live wait times, ratings and categories. Sort by lowest wait or highest rated. Tap any ride for full details.',
     ),
     _TourSlide(
+      icon: Icons.notifications_active,
+      color: Color(0xFFFFC107),
+      title: 'Wait Time Alerts',
+      body: 'Tap the bell icon next to any ride''s wait time and set a threshold. You will get a notification the moment the wait drops below it, so you never have to keep checking.',
+    ),
+    _TourSlide(
       icon: Icons.wb_sunny_outlined,
       color: Color(0xFFFF9800),
       title: 'My Day',
@@ -58,7 +64,7 @@ class _AppTourScreenState extends State<AppTourScreen> {
       icon: Icons.language,
       color: Color(0xFF607D8B),
       title: 'Switch Language',
-      body: 'Funparks supports 9 languages. Tap the Settings icon inside any park page to switch language. All descriptions, overviews and tips will update instantly.',
+      body: 'Funparks supports 10 languages. Tap the Settings icon inside any park page to switch language. All descriptions, overviews and tips will update instantly.',
     ),
     _TourSlide(
       icon: Icons.person_outline,
