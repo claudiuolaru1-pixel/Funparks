@@ -2,6 +2,7 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
     "firebase-admin": "^13.10.0",
+    "google-auth-library": "^11.0.2",
     "sharp": "^0.34.5"
   }
 }

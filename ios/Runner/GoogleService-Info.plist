@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -9,7 +9,7 @@
 	<key>ANDROID_CLIENT_ID</key>
 	<string>50958281106-drac7io32fl8hdahffm9pocki5ufo5is.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBPbxWYFg182Wfft-CN2EJjigbr2f33ztE</string>
+	<string>AIzaSyBolULsWmfVm8AJAFA41LH3ffSMf_HHZPs</string>
 	<key>GCM_SENDER_ID</key>
 	<string>50958281106</string>
 	<key>PLIST_VERSION</key>
