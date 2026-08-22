@@ -1,4 +1,4 @@
-workflows:
+﻿workflows:
   ios-release:
     name: iOS Release
     max_build_duration: 60
@@ -19,6 +19,20 @@ workflows:
       - name: Install pods
         script: |
           find . -name "Podfile" -execdir pod install \;
+      - name: Add GoogleService-Info.plist to Xcode project
+        script: |
+          gem install xcodeproj --no-document
+          ruby -e "
+            require 'xcodeproj'
+            project = Xcodeproj::Project.open('ios/Runner.xcodeproj')
+            target = project.targets.first
+            runner_group = project.main_group['Runner']
+            plist_name = 'GoogleService-Info.plist'
+            file_ref = runner_group.files.find { |f| f.path == plist_name } || runner_group.new_reference(plist_name)
+            phase = target.resources_build_phase
+            phase.add_file_reference(file_ref, true)
+            project.save
+          "
       - name: Build iOS release
         script: |
           flutter build ipa \
