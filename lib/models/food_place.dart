@@ -1,4 +1,5 @@
 // lib/models/food_place.dart
+import 'closure_status.dart';
 
 class FoodItem {
   final String name;
@@ -45,6 +46,9 @@ class FoodPlace {
 
   final List<FoodItem> items;
 
+  /// Optional open/closed information. Null when unknown.
+  final ClosureStatus? closure;
+
   FoodPlace({
     required this.id,
     required this.name,
@@ -56,6 +60,7 @@ class FoodPlace {
     required this.description,
     required this.topPick,
     required this.items,
+    this.closure,
   });
 
   static double _parseDouble(dynamic v, double fallback) {
@@ -102,6 +107,7 @@ class FoodPlace {
       description: (j['description'] ?? j['type'] ?? '').toString(),
       topPick: topPick,
       items: items,
+      closure: ClosureStatus.tryParse(j),
     );
   }
 }

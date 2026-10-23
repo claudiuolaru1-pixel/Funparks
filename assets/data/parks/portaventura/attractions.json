@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "shambhala",
     "minHeightCm": 140,
@@ -31,7 +31,12 @@
     "inversions": 8,
     "openedYear": 1995,
     "lat": 41.08760,
-    "lng": 1.15630
+    "lng": 1.15630,
+    "status": "notice",
+    "statusNote": "Track renewal announced from 7 Jan 2026 with reopening 'next season'; current status not confirmed.",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "PortAventura",
+    "statusConfidence": "Low"
   },
   {
     "id": "furius_baco",

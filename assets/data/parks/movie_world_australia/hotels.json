@@ -31,7 +31,13 @@
         "pricePerNight": 550,
         "breakfastIncluded": false
       }
-    ]
+    ],
+    "status": "open",
+    "statusNote": "Versace licence ended and the hotel became The Imperial Hotel Gold Coast on 31 Jul 2023; it is due to be refurbished and reopen as an LXR Hotel in early 2027.",
+    "statusFrom": "2023-07-31",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "Business News Australia 2023-07-31; TTG Asia 2026-08-13; Luxury Travel Advisor 2026-03-05",
+    "statusConfidence": "High"
   },
   {
     "id": "hotel_jwmariott",

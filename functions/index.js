@@ -32,17 +32,60 @@ const FUNPARKS_PARKS = [
   { id: "mirabilandia", name: "Mirabilandia", country: "Italy" },
   { id: "zoomarine", name: "Zoomarine", country: "Portugal" },
   { id: "parque_warner_madrid", name: "Parque Warner Madrid", country: "Spain" },
+  { id: "tokyo_disneyland", name: "Tokyo Disneyland", country: "Japan" },
+  { id: "shanghai_disneyland", name: "Shanghai Disneyland", country: "China" },
+  { id: "movie_world_australia", name: "Warner Bros. Movie World", country: "Australia" },
+  { id: "gold_reef_city", name: "Gold Reef City", country: "South Africa" },
+  { id: "ferrari_world", name: "Ferrari World Abu Dhabi", country: "United Arab Emirates" },
+  { id: "lotte_world", name: "Lotte World", country: "South Korea" },
+  { id: "sea_world_gold_coast", name: "Sea World Gold Coast", country: "Australia" },
+  { id: "hong_kong_disneyland", name: "Hong Kong Disneyland", country: "Hong Kong" },
+  { id: "universal_studios_singapore", name: "Universal Studios Singapore", country: "Singapore" },
+  { id: "chimelong_ocean_kingdom", name: "Chimelong Ocean Kingdom", country: "China" },
+  { id: "img_worlds", name: "IMG Worlds of Adventure", country: "United Arab Emirates" },
+  { id: "fujiq_highland", name: "Fuji-Q Highland", country: "Japan" },
+  { id: "happy_valley_beijing", name: "Happy Valley Beijing", country: "China" },
+  { id: "rainbows_end", name: "Rainbow's End", country: "New Zealand" },
+  { id: "luna_park_sydney", name: "Luna Park Sydney", country: "Australia" },
+  { id: "everland", name: "Everland", country: "South Korea" },
+  { id: "universal_studios_japan", name: "Universal Studios Japan", country: "Japan" },
+  { id: "tokyo_disneysea", name: "Tokyo DisneySea", country: "Japan" },
+  { id: "dreamworld_australia", name: "Dreamworld", country: "Australia" },
+  { id: "beto_carrero_world", name: "Beto Carrero World", country: "Brazil" },
+  { id: "fantasilandia", name: "Fantasilandia", country: "Chile" },
+  { id: "epcot", name: "EPCOT", country: "USA" },
+  { id: "canadas_wonderland", name: "Canada's Wonderland", country: "Canada" },
+  { id: "magic_kingdom", name: "Magic Kingdom", country: "USA" },
+  { id: "disneyland_park", name: "Disneyland Park", country: "USA" },
+  { id: "universal_studios_florida", name: "Universal Studios Florida", country: "USA" },
+  { id: "islands_of_adventure", name: "Islands of Adventure", country: "USA" },
+  { id: "la_ronde", name: "La Ronde", country: "Canada" },
+  { id: "calaway_park", name: "Calaway Park", country: "Canada" },
+  { id: "cedar_point", name: "Cedar Point", country: "USA" },
+  { id: "six_flags_magic_mountain", name: "Six Flags Magic Mountain", country: "USA" },
+  { id: "parque_de_la_costa", name: "Parque de la Costa", country: "Argentina" },
+  { id: "disney_california_adventure", name: "Disney California Adventure", country: "USA" },
+  { id: "hollywood_studios", name: "Hollywood Studios", country: "USA" },
+  { id: "six_flags_great_adventure", name: "Six Flags Great Adventure", country: "USA" },
+  { id: "six_flags_great_america", name: "Six Flags Great America", country: "USA" },
+  { id: "six_flags_over_georgia", name: "Six Flags Over Georgia", country: "USA" },
+  { id: "six_flags_fiesta_texas", name: "Six Flags Fiesta Texas", country: "USA" },
+  { id: "six_flags_over_texas", name: "Six Flags Over Texas", country: "USA" },
+  { id: "liseberg", name: "Liseberg", country: "Sweden" },
+  { id: "ocean_park_hk", name: "Ocean Park Hong Kong", country: "Hong Kong" },
 ];
 
 const FUNPARKS_FEATURES = `The Funparks app includes the following features:
 - Detailed attraction listings with height restrictions for every ride
 - My Day planner — save attractions, restaurants and hotels to plan your visit
 - Route navigation — get directions to any attraction or restaurant inside the park
-- Live wait times for attractions
+- Live wait times for attractions in many parks
+- Clear "closed" labels for rides, parks, hotels and restaurants that are closed, retired or closed for the winter, with reopening dates when known
 - Restaurant and hotel listings with descriptions and prices
 - AI Assistant (that's me!) to answer questions about the park
 - Translations in 10 languages: English, Spanish, French, German, Italian, Dutch, Portuguese, Russian, Chinese and Arabic
-- Works on Android`;
+- Free on iOS and Android`;
+
 
 exports.askParkAssistant = onRequest(
   {
@@ -199,3 +242,9 @@ exports.checkWaitTimeAlerts = onDocumentWritten(
     }
   }
 );
+
+exports.postBlogToFacebook = require('./social').postBlogToFacebook;
+
+exports.imageTest = require('./imagetest').imageTest;
+
+exports.videoTest = require('./videotest').videoTest;

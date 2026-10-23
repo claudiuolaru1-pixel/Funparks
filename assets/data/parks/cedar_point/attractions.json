@@ -33,7 +33,12 @@
     "inversions": 0,
     "openedYear": 2000,
     "minHeightCm": 137,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "open",
+    "statusNote": "Closed 18 Oct 2026 after a part fell from a train; reportedly reopened 19 Oct (separate incident).",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "PointBuzz",
+    "statusConfidence": "Med"
   },
   {
     "id": "top_thrill_dragster",

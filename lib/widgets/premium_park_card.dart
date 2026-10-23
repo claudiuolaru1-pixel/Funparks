@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../models/park_summary.dart';
 import 'park_image.dart';
+import 'closure_badge.dart';
 
 class PremiumParkCard extends StatefulWidget {
   final ParkSummary park;
@@ -119,6 +120,17 @@ class _PremiumParkCardState extends State<PremiumParkCard> {
                         Colors.black.withOpacity(0.80),
                       ],
                     ),
+                  ),
+                ),
+
+                // ── Closed / season label — top left ────────────────────
+                Positioned(
+                  top: 10,
+                  left: 10,
+                  right: 96,
+                  child: Align(
+                    alignment: Alignment.centerLeft,
+                    child: ClosureBadge(status: p.closure),
                   ),
                 ),
 

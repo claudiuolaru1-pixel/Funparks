@@ -15,7 +15,13 @@
     "inversions": 0,
     "openedYear": 2005,
     "minHeightCm": 137,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "permanently_closed",
+    "statusNote": "Closed after the 2024 season and demolished in early 2025.",
+    "statusFrom": "2024-11-01",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Attractions Magazine",
+    "statusConfidence": "High"
   },
   {
     "id": "el_toro",
@@ -51,7 +57,12 @@
     "inversions": 0,
     "openedYear": 2001,
     "minHeightCm": 137,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "notice",
+    "statusNote": "Closed after 12 Oct 2026; current status could not be confirmed.",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Six Flags safety pause reports",
+    "statusConfidence": "Low"
   },
   {
     "id": "bizarro",

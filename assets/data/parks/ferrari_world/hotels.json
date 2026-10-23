@@ -31,7 +31,12 @@
         "pricePerNight": 2500,
         "breakfastIncluded": true
       }
-    ]
+    ],
+    "status": "open",
+    "statusNote": "A Gulf Business article (about mid-2021, date inferred) says Marriott takes over management and the hotel is rebranded as a W Hotels property, so the Yas Viceroy name is probably outdated.",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "Gulf Business (https://mot-backup.gulfbusiness.com/?p=126772), c. June 2021, date not stated on page",
+    "statusConfidence": "Med"
   },
   {
     "id": "hotel_crowne_plaza_yas_island",

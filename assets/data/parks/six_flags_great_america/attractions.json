@@ -51,7 +51,12 @@
     "inversions": 0,
     "openedYear": 1999,
     "minHeightCm": 137,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "notice",
+    "statusNote": "Closed after 12 Oct 2026; current status could not be confirmed.",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Six Flags safety pause reports",
+    "statusConfidence": "Low"
   },
   {
     "id": "superman",

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "baron_1898",
     "minHeightCm": 130,
@@ -31,7 +31,14 @@
     "speedKmh": 75.0,
     "heightM": 14.0,
     "inversions": 0,
-    "openedYear": 2010
+    "openedYear": 2010,
+    "status": "temporarily_closed",
+    "statusNote": "Scheduled closure 30 Nov to 18 Dec 2026.",
+    "statusFrom": "2026-11-30",
+    "statusUntil": "2026-12-18",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Efteling",
+    "statusConfidence": "Med"
   },
   {
     "id": "de_vliegende_hollander",
@@ -80,7 +87,14 @@
     "speedKmh": 0.0,
     "heightM": 0.0,
     "inversions": 0,
-    "openedYear": 1993
+    "openedYear": 1993,
+    "status": "temporarily_closed",
+    "statusNote": "Scheduled closure 9 Nov to 4 Dec 2026.",
+    "statusFrom": "2026-11-09",
+    "statusUntil": "2026-12-04",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Efteling",
+    "statusConfidence": "Med"
   },
   {
     "id": "fata_morgana",

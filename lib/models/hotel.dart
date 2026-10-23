@@ -1,4 +1,5 @@
 // lib/models/hotel.dart
+import 'closure_status.dart';
 
 class HotelRoom {
   /// ✅ used for i18n lookup, e.g. "standard_room", "superior_room"
@@ -51,6 +52,9 @@ class Hotel {
   final String? website;
   final List<HotelRoom> rooms;
 
+  /// Optional open/closed information. Null when unknown.
+  final ClosureStatus? closure;
+
   Hotel({
     required this.id,
     required this.name,
@@ -62,6 +66,7 @@ class Hotel {
     required this.topPick,
     required this.website,
     required this.rooms,
+    this.closure,
   });
 
   static double _d(dynamic v, double fb) =>
@@ -101,6 +106,7 @@ class Hotel {
           ? null
           : (j['website'] ?? '').toString().trim(),
       rooms: rooms,
+      closure: ClosureStatus.tryParse(j),
     );
   }
 

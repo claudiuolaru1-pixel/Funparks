@@ -96,7 +96,13 @@
         "description": "Traditional Irish beef and vegetable stew with brown bread",
         "price": 16
       }
-    ]
+    ],
+    "status": "temporarily_closed",
+    "statusNote": "Closed for a year-long refurbishment; still closed as of 19 Sep 2026 with a vague 'winter 2026' reopening and no date announced.",
+    "statusFrom": "2026-01-12",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "WDWNT 2025-11 'Finnegan's at Universal Studios Florida to be Closed Most of 2026'; Inside the Magic 2026-09-19 (Universal ends long closures)",
+    "statusConfidence": "High"
   },
   {
     "id": "food_mels_drive_in",

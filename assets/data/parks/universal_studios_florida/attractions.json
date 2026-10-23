@@ -69,7 +69,13 @@
     "inversions": 0,
     "openedYear": 2009,
     "minHeightCm": 122,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "permanently_closed",
+    "statusNote": "Closed permanently on 18 Aug 2025.",
+    "statusFrom": "2025-08-18",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Kenny the Pirate",
+    "statusConfidence": "High"
   },
   {
     "id": "revenge_of_the_mummy",
@@ -123,7 +129,13 @@
     "inversions": 0,
     "openedYear": 2018,
     "minHeightCm": 102,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "permanently_closed",
+    "statusNote": "Closed permanently on 17 Aug 2026.",
+    "statusFrom": "2026-08-17",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Kenny the Pirate",
+    "statusConfidence": "High"
   },
   {
     "id": "wizarding_world_diagon_alley",

@@ -15,7 +15,13 @@
     "inversions": 2,
     "openedYear": 2005,
     "minHeightCm": 130,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "permanently_closed",
+    "statusNote": "Last run on 13 Sep 2026.",
+    "statusFrom": "2026-09-13",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Brasilturis",
+    "statusConfidence": "High"
   },
   {
     "id": "tigor_mountain",

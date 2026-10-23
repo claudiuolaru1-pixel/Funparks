@@ -141,7 +141,13 @@
     "inversions": 0,
     "openedYear": 2005,
     "minHeightCm": 81,
-    "temporarilyClosed": false
+    "temporarilyClosed": true,
+    "status": "temporarily_closed",
+    "statusNote": "Closed until 12 Nov 2026.",
+    "statusUntil": "2026-11-12",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "WDWNT",
+    "statusConfidence": "Med"
   },
   {
     "id": "fantasy_gardens",
@@ -213,6 +219,12 @@
     "inversions": 0,
     "openedYear": 2005,
     "minHeightCm": 0,
-    "temporarilyClosed": false
+    "temporarilyClosed": true,
+    "status": "temporarily_closed",
+    "statusNote": "Disneyland Railroad closed since 2 Mar 2026 for refurbishment; no reopening date.",
+    "statusFrom": "2026-03-02",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "WDWNT",
+    "statusConfidence": "Med"
   }
 ]

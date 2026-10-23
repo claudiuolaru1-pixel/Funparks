@@ -15,7 +15,13 @@
     "inversions": 0,
     "openedYear": 2006,
     "minHeightCm": 137,
-    "temporarilyClosed": false
+    "temporarilyClosed": true,
+    "status": "temporarily_closed",
+    "statusNote": "Closed indefinitely while authorities investigate.",
+    "statusFrom": "2026-10-12",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "WRDW",
+    "statusConfidence": "High"
   },
   {
     "id": "twisted_cyclone",

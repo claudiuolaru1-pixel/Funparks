@@ -15,7 +15,13 @@
     "inversions": 0,
     "openedYear": 2006,
     "minHeightCm": 137,
-    "temporarilyClosed": false
+    "temporarilyClosed": true,
+    "status": "temporarily_closed",
+    "statusNote": "Closed 13 Oct 2026; may not reopen this season.",
+    "statusFrom": "2026-10-13",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "MTL Blog",
+    "statusConfidence": "Med"
   },
   {
     "id": "vampire",
@@ -123,7 +129,13 @@
     "inversions": 0,
     "openedYear": 2001,
     "minHeightCm": 122,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "permanently_closed",
+    "statusNote": "Demolished in November 2025 (had been idle since 2018).",
+    "statusFrom": "2025-11-01",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Wikipedia",
+    "statusConfidence": "Med"
   },
   {
     "id": "ednor",

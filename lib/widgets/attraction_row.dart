@@ -8,6 +8,7 @@ import '../models/attraction.dart';
 import '../services/i18n_content.dart';
 
 import 'soft_badge.dart';
+import 'closure_badge.dart';
 import 'action_pill.dart';
 
 class AttractionRow extends StatelessWidget {
@@ -42,7 +43,7 @@ class AttractionRow extends StatelessWidget {
     final translatedDesc =
         i18n.tAttractionDesc(context, attraction.id, attraction.description);
 
-    return InkWell(
+    return ClosureDim(status: attraction.closure, child: InkWell(
       onTap: onTap,
       borderRadius: BorderRadius.circular(16),
       child: Container(
@@ -113,11 +114,13 @@ class AttractionRow extends StatelessWidget {
                     spacing: 8,
                     runSpacing: 8,
                     children: [
+                      ClosureBadge(status: attraction.closure),
                       SoftBadge(
                         icon: Icons.star,
                         text: attraction.rating.toStringAsFixed(1),
                       ),
 
+                      if (!(attraction.closure?.isClosedAt(DateTime.now()) ?? false))
                       StreamBuilder<WaitTimeReading?>(
                         stream: waitTimeService.streamLiveWaitReading(
                           parkId: parkId,
@@ -173,7 +176,7 @@ class AttractionRow extends StatelessWidget {
           ],
         ),
       ),
-    );
+    ));
   }
 
   String _noLiveText(AppLocalizations loc) {

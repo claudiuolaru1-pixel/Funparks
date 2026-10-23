@@ -65,7 +65,13 @@
         "pricePerNight": 320,
         "breakfastIncluded": true
       }
-    ]
+    ],
+    "status": "permanently_closed",
+    "statusNote": "Hotel closed in Feb 2026 and was imploded on 6 Jun 2026; a 507-room Americana by Loews is planned for late 2028/2029.",
+    "statusFrom": "2026-02-15",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "Wikipedia 'Sheraton Arlington Hotel' (closure date); NBC DFW 2026-06-05/06 implosion article; Dallas Express (WARN notice)",
+    "statusConfidence": "High"
   },
   {
     "id": "hotel_hyatt_place_arlington",

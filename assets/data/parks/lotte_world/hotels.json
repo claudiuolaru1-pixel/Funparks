@@ -99,7 +99,13 @@
         "pricePerNight": 580000,
         "breakfastIncluded": true
       }
-    ]
+    ],
+    "status": "open",
+    "statusNote": "Hotel was rebranded as The Grand Lotte Seoul on 14 Aug 2026 after a 15-month renovation of the main tower, and stayed open during the works.",
+    "statusFrom": "2026-08-14",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "Korea Times 2026-08-20; Kyunghyang Shinmun 2026-08-19; Seoul Economic Daily 2026-06-24",
+    "statusConfidence": "High"
   },
   {
     "id": "hotel_sheraton_seoul_gangnam",

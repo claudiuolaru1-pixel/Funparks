@@ -33,7 +33,13 @@
     "inversions": 3,
     "openedYear": 1999,
     "minHeightCm": 122,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "permanently_closed",
+    "statusNote": "The Aerosmith version closed on 2 Mar 2026. A Muppets-themed version of the coaster opened on 26 May 2026.",
+    "statusFrom": "2026-03-02",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "wdwmagic",
+    "statusConfidence": "High"
   },
   {
     "id": "millenium_falcon",
@@ -159,7 +165,13 @@
     "inversions": 0,
     "openedYear": 1991,
     "minHeightCm": 0,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "permanently_closed",
+    "statusNote": "Closed permanently on 8 Jun 2025.",
+    "statusFrom": "2025-06-08",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Disney Tourist Blog",
+    "statusConfidence": "High"
   },
   {
     "id": "echo_lake",

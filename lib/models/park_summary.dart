@@ -1,4 +1,5 @@
-﻿import 'entry_prices.dart';
+import 'closure_status.dart';
+import 'entry_prices.dart';
 
 enum ParkType { theme, water, zoo, resort, other }
 
@@ -34,6 +35,12 @@ class ParkSummary {
   final String detailAsset;
   final String? ticketsUrl;
 
+  /// Queue-Times.com park id for live wait times. Null when not available.
+  final int? queueTimesId;
+
+  /// Optional season / closure information. Null when unknown.
+  final ClosureStatus? closure;
+
   const ParkSummary({
     required this.id,
     required this.name,
@@ -49,6 +56,8 @@ class ParkSummary {
     required this.website,
     this.detailAsset = "",
     this.ticketsUrl,
+    this.queueTimesId,
+    this.closure,
   });
 
   factory ParkSummary.fromJson(Map<String, dynamic> json) {
@@ -87,6 +96,10 @@ class ParkSummary {
       website: reqString('website'),
       detailAsset: json['detailAsset']?.toString() ?? '',
       ticketsUrl: json['ticketsUrl']?.toString(),
+      queueTimesId: (json['queueTimesId'] is int && json['queueTimesId'] > 0)
+          ? json['queueTimesId'] as int
+          : null,
+      closure: ClosureStatus.tryParse(json),
     );
   }
 
@@ -105,5 +118,7 @@ class ParkSummary {
         'website': website,
         'detailAsset': detailAsset,
         if (ticketsUrl != null) 'ticketsUrl': ticketsUrl,
+        if (queueTimesId != null) 'queueTimesId': queueTimesId,
+        if (closure != null) ...closure!.toJson(),
       };
 }

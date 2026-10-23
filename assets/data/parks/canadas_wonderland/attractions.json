@@ -15,7 +15,13 @@
     "inversions": 0,
     "openedYear": 2012,
     "minHeightCm": 137,
-    "temporarilyClosed": false
+    "temporarilyClosed": true,
+    "status": "temporarily_closed",
+    "statusNote": "Closed since 13 Oct 2026; no reopening date on 16 Oct.",
+    "statusFrom": "2026-10-13",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "CP24",
+    "statusConfidence": "High"
   },
   {
     "id": "yukon_striker",
@@ -51,7 +57,13 @@
     "inversions": 0,
     "openedYear": 2008,
     "minHeightCm": 137,
-    "temporarilyClosed": false
+    "temporarilyClosed": true,
+    "status": "temporarily_closed",
+    "statusNote": "Closed since 13 Oct 2026; no reopening date on 16 Oct.",
+    "statusFrom": "2026-10-13",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "CP24",
+    "statusConfidence": "High"
   },
   {
     "id": "shockwave",
@@ -87,7 +99,13 @@
     "inversions": 3,
     "openedYear": 1998,
     "minHeightCm": 137,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "permanently_closed",
+    "statusNote": "Closed permanently in March 2025.",
+    "statusFrom": "2025-03-01",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "CP24",
+    "statusConfidence": "High"
   },
   {
     "id": "vortex",

@@ -94,6 +94,17 @@ class WaitTimeService {
         }
       }
 
+      // Some parks list their rides at the top level instead of inside lands.
+      final topRides = (data['rides'] as List?) ?? [];
+      for (final ride in topRides) {
+        final id = (ride['id'] as num).toInt();
+        rideData[id] = {
+          'wait_time': (ride['wait_time'] as num?)?.toInt() ?? 0,
+          'is_open': ride['is_open'] as bool? ?? false,
+          'last_updated': ride['last_updated'],
+        };
+      }
+
       // Write to Firestore for each mapped attraction
       final batch = _db.batch();
       map.forEach((attractionId, queueTimesRideId) {

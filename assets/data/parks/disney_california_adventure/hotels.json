@@ -99,7 +99,13 @@
         "pricePerNight": 680,
         "breakfastIncluded": true
       }
-    ]
+    ],
+    "status": "open",
+    "statusNote": "Hotel was re-themed and reopened as Disney's Pixar Place Hotel (the old name no longer exists).",
+    "statusFrom": "2024-01-30",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "Hotel Online, 31 Jan 2024 (hotel-online.com 'Disney's Paradise Pier Hotel transformed into first fully Pixar-themed hotel in the U.S.')",
+    "statusConfidence": "High"
   },
   {
     "id": "hotel_sheraton_park_anaheim",

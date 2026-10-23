@@ -24,7 +24,12 @@
         "pricePerNight": 219.0,
         "breakfastIncluded": true
       }
-    ]
+    ],
+    "status": "open",
+    "statusNote": "Plopsa's own site now lists the on-site hotel as 'Plopsaland Theater Hotel' (opened 1 Apr 2021, called 'Plopsa Hotel' by Freizeitpark-Welt), so the name 'Hotel Plopsaland' looks outdated.",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "plopsa.com/en/plopsaland-belgium/frequently-asked-questions/can-i-stay-overnight-near-park (fetched 23 Oct 2026); freizeitpark-welt.de Plopsa Hotel page",
+    "statusConfidence": "Med"
   },
   {
     "id": "camping_plopsaland",
@@ -51,6 +56,11 @@
         "pricePerNight": 35.0,
         "breakfastIncluded": false
       }
-    ]
+    ],
+    "status": "open",
+    "statusNote": "The campsite is now called 'Plopsaland Basecamp' (pitches for tents, caravans, mobile homes; Eurocampings lists it open 1 Jan-31 Dec), not 'Camping Plopsaland'.",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "plopsa.com/en/plopsaland-basecamp/pitches and plopsa.com FAQ (fetched 23 Oct 2026); eurocampings.co.uk Plopsaland Basecamp listing",
+    "statusConfidence": "Med"
   }
 ]

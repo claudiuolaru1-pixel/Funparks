@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "big_thunder_mountain",
     "minHeightCm": 102,
@@ -78,7 +78,12 @@
     "speedKmh": 70.0,
     "heightM": 15.0,
     "inversions": 1,
-    "openedYear": 1993
+    "openedYear": 1993,
+    "status": "notice",
+    "statusNote": "One source reports it closed from 21 Sep 2026; not confirmed.",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Single source",
+    "statusConfidence": "Low"
   },
   {
     "id": "buzz_lightyear_laser_blast",
@@ -161,7 +166,14 @@
     "speedKmh": 70.0,
     "heightM": 18.0,
     "inversions": 0,
-    "openedYear": 2007
+    "openedYear": 2007,
+    "status": "temporarily_closed",
+    "statusNote": "Closed since 7 Sep 2026; expected back in summer 2027.",
+    "statusFrom": "2026-09-07",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Sortiraparis",
+    "statusConfidence": "Med",
+    "temporarilyClosed": true
   },
   {
     "id": "ratatouille_adventure",

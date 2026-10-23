@@ -87,7 +87,13 @@
     "inversions": 0,
     "openedYear": 2007,
     "minHeightCm": 120,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "permanently_closed",
+    "statusNote": "Closed 2 Feb 2026. Being rebuilt as Lost Mine Mayhem, planned for late 2027.",
+    "statusFrom": "2026-02-02",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Theme Parks AU",
+    "statusConfidence": "High"
   },
   {
     "id": "gold_rush",

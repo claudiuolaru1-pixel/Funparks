@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "troy",
     "minHeightCm": 120,
@@ -98,7 +98,13 @@
     "speedKmh": 35,
     "heightM": 8,
     "inversions": 0,
-    "openedYear": 2015
+    "openedYear": 2015,
+    "status": "permanently_closed",
+    "statusNote": "Closed 17 May 2026. A swinging bobsled replaces it this winter.",
+    "statusFrom": "2026-05-17",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "ThrillNation",
+    "statusConfidence": "High"
   },
   {
     "id": "scorpios",

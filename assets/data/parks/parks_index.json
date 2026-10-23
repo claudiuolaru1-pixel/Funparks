@@ -17,7 +17,12 @@
         "website": "https://www.portaventuraworld.com/",
         "ticketsUrl": "https://www.portaventuraworld.com/en/tickets",
         "detailAsset": "assets/data/parks/portaventura.detail.json",
-        "queueTimesId": 19
+        "queueTimesId": 19,
+        "status": "open",
+        "seasonNote": "Christmas 20 Nov 2026 to 6 Jan 2027.",
+        "statusAsOf": "2026-10-21",
+        "statusSource": "PortAventura",
+        "statusConfidence": "Med"
     },
     {
         "id": "europapark",
@@ -37,7 +42,24 @@
         "website": "https://www.europapark.de/en",
         "ticketsUrl": "https://www.europapark.de/en/theme-park/tickets-offers",
         "detailAsset": "assets/data/parks/europapark.detail.json",
-        "queueTimesId": 2
+        "queueTimesId": 51,
+        "status": "open",
+        "seasonNote": "HALLOWinter to 27 Nov 2026. Winterzauber 28 Nov 2026 to 9 Jan 2027. Pre-Opening Weeks 7 to 19 Mar 2027. Summer season from 20 Mar 2027.",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Europa-Park",
+        "statusConfidence": "High",
+        "closures": [
+          {
+            "from": "2026-12-24",
+            "until": "2026-12-25",
+            "note": "Closed on Christmas Eve and Christmas Day"
+          },
+          {
+            "from": "2027-01-10",
+            "until": "2027-03-06",
+            "note": "Winter break. Pre-Opening Weeks from 7 March, full season from 20 March 2027"
+          }
+        ]
     },
     {
         "id": "efteling",
@@ -57,7 +79,12 @@
         "website": "https://www.efteling.com/en",
         "ticketsUrl": "https://www.efteling.com/en/park/tickets",
         "detailAsset": "assets/data/parks/efteling.detail.json",
-        "queueTimesId": 2
+        "queueTimesId": 160,
+        "status": "open",
+        "seasonNote": "Winter Efteling runs 16 Nov 2026 to 31 Jan 2027. The park is normally open all year.",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Efteling",
+        "statusConfidence": "High"
     },
     {
         "id": "altontowers",
@@ -77,7 +104,19 @@
         "website": "https://www.altontowers.com",
         "ticketsUrl": "https://www.altontowers.com/tickets",
         "detailAsset": "assets/data/parks/altontowers.detail.json",
-        "queueTimesId": 3
+        "queueTimesId": 1,
+        "status": "limited_days",
+        "statusNote": "Limited days for Scarefest. Season ends 8 Nov 2026.",
+        "statusUntil": "2026-11-08",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Alton Towers",
+        "statusConfidence": "Med",
+        "closures": [
+          {
+            "from": "2026-11-09",
+            "note": "Closed after the end of the season. Opens only on selected Christmas dates (2026 dates not published yet)"
+          }
+        ]
     },
     {
         "id": "plopsaland",
@@ -97,7 +136,10 @@
         "website": "https://www.plopsaland.be/en",
         "ticketsUrl": "https://www.plopsaland.be/en/tickets",
         "detailAsset": "assets/data/parks/plopsaland.detail.json",
-        "queueTimesId": 16
+        "queueTimesId": 54,
+        "seasonNote": "Christmas season runs to early January. Most weekdays are closed in November and December; check the park calendar before you go.",
+        "statusAsOf": "2026-10-23",
+        "statusConfidence": "Low"
     },
     {
         "id": "gardaland",
@@ -117,7 +159,40 @@
         "website": "https://www.gardaland.it/en",
         "ticketsUrl": "https://www.gardaland.it/en/tickets",
         "detailAsset": "assets/data/parks/gardaland.detail.json",
-        "queueTimesId": 7
+        "queueTimesId": 12,
+        "status": "open",
+        "statusNote": "Season ends 1 Nov 2026.",
+        "statusUntil": "2026-11-01",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Gardaland",
+        "statusConfidence": "Med",
+        "seasonNote": "Magic Winter 5 Dec 2026 to 6 Jan 2027, 10:30 to 18:00 on open days.",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "until": "2026-12-04",
+            "note": "Closed between the autumn season and Magic Winter"
+          },
+          {
+            "from": "2026-12-09",
+            "until": "2026-12-11",
+            "note": "Closed during the Magic Winter period"
+          },
+          {
+            "from": "2026-12-14",
+            "until": "2026-12-18",
+            "note": "Closed during the Magic Winter period"
+          },
+          {
+            "from": "2026-12-25",
+            "until": "2026-12-25",
+            "note": "Closed on Christmas Day"
+          },
+          {
+            "from": "2027-01-07",
+            "note": "Closed until the 2027 season. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "parcasterix",
@@ -137,7 +212,25 @@
         "website": "https://www.parcasterix.fr/en",
         "ticketsUrl": "https://www.parcasterix.fr/en/billetterie",
         "detailAsset": "assets/data/parks/parcasterix.detail.json",
-        "queueTimesId": 9
+        "queueTimesId": 9,
+        "status": "limited_days",
+        "statusNote": "Weekends, plus daily 16 to 31 Oct 2026. Season ends 8 Nov 2026.",
+        "statusUntil": "2026-11-08",
+        "seasonNote": "Christmas 19 Dec 2026 to 3 Jan 2027.",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Sortiraparis",
+        "statusConfidence": "High",
+        "closures": [
+          {
+            "from": "2026-11-09",
+            "until": "2026-12-18",
+            "note": "Closed between Halloween and Christmas"
+          },
+          {
+            "from": "2027-01-04",
+            "note": "Closed after Christmas until the spring 2027 season"
+          }
+        ]
     },
     {
         "id": "energylandia",
@@ -177,7 +270,12 @@
             "child": 71
         },
         "currency": "EUR",
-        "queueTimesId": 4
+        "queueTimesId": 4,
+        "status": "open",
+        "seasonNote": "World of Frozen Christmas 7 Nov 2026 to 6 Jan 2027.",
+        "statusAsOf": "2026-10-21",
+        "statusSource": "Disneyland Paris",
+        "statusConfidence": "Med"
     },
     {
         "id": "phantasialand",
@@ -197,7 +295,33 @@
             "child": 44
         },
         "currency": "EUR",
-        "queueTimesId": 29
+        "queueTimesId": 56,
+        "status": "open",
+        "seasonNote": "Wintertraum 14 Nov 2026 to 24 Jan 2027, open daily.",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Phantasialand",
+        "statusConfidence": "High",
+        "closures": [
+          {
+            "from": "2026-12-24",
+            "until": "2026-12-25",
+            "note": "Closed for Christmas"
+          },
+          {
+            "from": "2027-01-01",
+            "until": "2027-01-01",
+            "note": "Closed on New Year's Day"
+          },
+          {
+            "from": "2027-01-12",
+            "until": "2027-01-13",
+            "note": "Technical maintenance (check before you go)"
+          },
+          {
+            "from": "2027-01-25",
+            "note": "Winter break until the 2027 season. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "gronalund",
@@ -217,7 +341,30 @@
             "child": 175
         },
         "currency": "SEK",
-        "queueTimesId": 34
+        "queueTimesId": 166,
+        "status": "limited_days",
+        "statusNote": "Probably closed midweek. Open Fri 23 Oct, then set days 24 Oct to 8 Nov 2026.",
+        "statusUntil": "2026-11-08",
+        "seasonNote": "Barnens Jul on selected days: 21-22 and 28-29 Nov, 5-6, 12-13, 19-23 and 25-30 Dec 2026.",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Gröna Lund",
+        "statusConfidence": "Med",
+        "closures": [
+          {
+            "from": "2026-11-09",
+            "until": "2026-11-20",
+            "note": "Closed before Barnens Jul"
+          },
+          {
+            "from": "2026-12-24",
+            "until": "2026-12-24",
+            "note": "Closed on Christmas Eve"
+          },
+          {
+            "from": "2026-12-31",
+            "note": "Closed for the winter. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "tivoli",
@@ -237,7 +384,24 @@
             "child": 95
         },
         "currency": "DKK",
-        "queueTimesId": 6
+        "queueTimesId": 0,
+        "status": "open",
+        "seasonNote": "Christmas 13 Nov 2026 to 3 Jan 2027. Easter 19 to 29 Mar 2027. Summer season from 30 Mar 2027.",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "until": "2026-11-12",
+            "note": "Closed between Halloween and Christmas"
+          },
+          {
+            "from": "2027-01-04",
+            "until": "2027-03-18",
+            "note": "Closed for the winter"
+          }
+        ],
+        "statusAsOf": "2026-10-21",
+        "statusSource": "Tivoli Gardens",
+        "statusConfidence": "High"
     },
     {
         "id": "siampark",
@@ -257,7 +421,12 @@
             "child": 32
         },
         "currency": "EUR",
-        "queueTimesId": 0
+        "queueTimesId": 0,
+        "status": "open",
+        "seasonNote": "Hours 10:00 to 17:00 from 1 Nov 2026; sources disagree on whether it opens daily in winter.",
+        "statusAsOf": "2026-10-21",
+        "statusSource": "Siam Park",
+        "statusConfidence": "Low"
     },
     {
         "id": "toverland",
@@ -277,7 +446,14 @@
             "child": 25
         },
         "currency": "EUR",
-        "queueTimesId": 31
+        "queueTimesId": 305,
+        "status": "limited_days",
+        "seasonNote": "Winter Feelings runs on selected days (Wednesdays, weekends and Christmas holidays). Check the park calendar before you go.",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Toverland",
+        "statusConfidence": "Med",
+        "statusUntil": "2026-11-08",
+        "statusNote": "Halloween Days and Nights on selected dates. Last day 8 Nov 2026."
     },
     {
         "id": "walibibelgium",
@@ -297,7 +473,30 @@
             "child": 46
         },
         "currency": "EUR",
-        "queueTimesId": 11
+        "queueTimesId": 14,
+        "status": "limited_days",
+        "statusNote": "Ibilaw (Halloween) on selected days until 11 Nov 2026.",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Walibi Belgium",
+        "statusConfidence": "Med",
+        "statusUntil": "2026-11-11",
+        "seasonNote": "Walibi Winter 5 Dec 2026 to 3 Jan 2027 on selected days.",
+        "closures": [
+          {
+            "from": "2026-11-12",
+            "until": "2026-12-04",
+            "note": "Closed between Halloween and Walibi Winter"
+          },
+          {
+            "from": "2026-12-25",
+            "until": "2026-12-25",
+            "note": "Closed on Christmas Day"
+          },
+          {
+            "from": "2027-01-04",
+            "note": "Winter break. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "heidepark",
@@ -317,7 +516,19 @@
             "child": 37
         },
         "currency": "EUR",
-        "queueTimesId": 37
+        "queueTimesId": 25,
+        "status": "open",
+        "statusNote": "Last day of the season is 31 Oct 2026. The 2027 reopening date has not been announced.",
+        "statusUntil": "2026-10-31",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Heide Park",
+        "statusConfidence": "High",
+        "closures": [
+          {
+            "from": "2026-11-01",
+            "note": "Winter break. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "thorpepark",
@@ -337,7 +548,19 @@
             "child": 40
         },
         "currency": "GBP",
-        "queueTimesId": 8
+        "queueTimesId": 2,
+        "status": "limited_days",
+        "statusNote": "Open most days with some midweek closures. Season ends 1 Nov 2026.",
+        "statusUntil": "2026-11-01",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Thorpe Park",
+        "statusConfidence": "High",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "note": "Closed for the winter. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "moviepark",
@@ -357,7 +580,25 @@
             "child": 34
         },
         "currency": "EUR",
-        "queueTimesId": 14
+        "queueTimesId": 310,
+        "status": "limited_days",
+        "statusNote": "Limited days for the Halloween Horror Festival. Season ends 8 Nov 2026.",
+        "statusUntil": "2026-11-08",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Movie Park Germany",
+        "statusConfidence": "High",
+        "seasonNote": "Movie Park Hollywood Christmas 27 Nov 2026 to 3 Jan 2027 on 23 selected days.",
+        "closures": [
+          {
+            "from": "2026-11-09",
+            "until": "2026-11-26",
+            "note": "Closed between Halloween and Hollywood Christmas"
+          },
+          {
+            "from": "2027-01-04",
+            "note": "Closed for the winter. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "lego_billund",
@@ -377,7 +618,28 @@
             "child": 379
         },
         "currency": "DKK",
-        "queueTimesId": 5
+        "queueTimesId": 52,
+        "status": "open",
+        "seasonNote": "Christmas at LEGOLAND 28 Nov to 31 Dec 2026: open 28-29 Nov, 4-6, 11-13, 18-23 and 27-31 Dec.",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Press reports",
+        "statusConfidence": "Med",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "until": "2026-11-27",
+            "note": "Closed between Halloween and Christmas"
+          },
+          {
+            "from": "2026-12-24",
+            "until": "2026-12-26",
+            "note": "Closed for Christmas"
+          },
+          {
+            "from": "2027-01-01",
+            "note": "Closed for the winter. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "walibinl",
@@ -397,7 +659,19 @@
             "child": 36
         },
         "currency": "EUR",
-        "queueTimesId": 12
+        "queueTimesId": 53,
+        "status": "limited_days",
+        "statusNote": "Probably closed midweek. Fright Nights dates; the last listed date is 1 Nov 2026.",
+        "statusUntil": "2026-11-01",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Walibi Holland",
+        "statusConfidence": "High",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "note": "Winter break. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "legoland_deutschland",
@@ -417,7 +691,50 @@
             "child": 58
         },
         "currency": "EUR",
-        "queueTimesId": 3
+        "queueTimesId": 278,
+        "status": "open",
+        "statusNote": "Season ends 8 Nov 2026.",
+        "statusUntil": "2026-11-08",
+        "seasonNote": "WinterWonder: 28-29 Nov, 4-6, 11-13, 18-23 and 26-30 Dec 2026, and 2-10 Jan 2027.",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "LEGOLAND Deutschland",
+        "statusConfidence": "High",
+        "closures": [
+          {
+            "from": "2026-11-09",
+            "until": "2026-11-27",
+            "note": "Closed between the end of the season and WinterWonder"
+          },
+          {
+            "from": "2026-11-30",
+            "until": "2026-12-03",
+            "note": "Closed between WinterWonder weekends"
+          },
+          {
+            "from": "2026-12-07",
+            "until": "2026-12-10",
+            "note": "Closed between WinterWonder weekends"
+          },
+          {
+            "from": "2026-12-14",
+            "until": "2026-12-17",
+            "note": "Closed between WinterWonder weekends"
+          },
+          {
+            "from": "2026-12-24",
+            "until": "2026-12-25",
+            "note": "Closed for Christmas"
+          },
+          {
+            "from": "2026-12-31",
+            "until": "2027-01-01",
+            "note": "Closed for New Year"
+          },
+          {
+            "from": "2027-01-11",
+            "note": "Closed for the winter. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "puydufou",
@@ -437,7 +754,29 @@
             "child": 34
         },
         "currency": "EUR",
-        "queueTimesId": 0
+        "queueTimesId": 0,
+        "status": "open",
+        "seasonNote": "Closed in November after 1 Nov 2026. Christmas 19 Dec 2026 to 3 Jan 2027, closed 25 Dec.",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "until": "2026-12-18",
+            "note": "Closed between autumn and Christmas"
+          },
+          {
+            "from": "2026-12-25",
+            "until": "2026-12-25",
+            "note": "Closed on Christmas Day"
+          },
+          {
+            "from": "2027-01-04",
+            "until": "2027-03-26",
+            "note": "Closed for the winter. Reopens 27 March 2027"
+          }
+        ],
+        "statusAsOf": "2026-10-21",
+        "statusSource": "Puy du Fou",
+        "statusConfidence": "Med"
     },
     {
         "id": "mirabilandia",
@@ -457,7 +796,19 @@
             "child": 27
         },
         "currency": "EUR",
-        "queueTimesId": 0
+        "queueTimesId": 0,
+        "status": "open",
+        "statusNote": "Season ends 1 Nov 2026.",
+        "statusUntil": "2026-11-01",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Mirabilandia",
+        "statusConfidence": "Med",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "note": "Closed for the winter. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "zoomarine",
@@ -477,7 +828,12 @@
             "child": 23
         },
         "currency": "EUR",
-        "queueTimesId": 0
+        "queueTimesId": 0,
+        "status": "open",
+        "seasonNote": "Halloween Tuesday to Saturday, 20 to 31 Oct 2026. Closes for the winter (about late November to mid-March); not re-confirmed.",
+        "statusAsOf": "2026-10-21",
+        "statusSource": "Funparks operating status audit (31 Jul 2026)",
+        "statusConfidence": "Low"
     },
     {
         "id": "parque_warner_madrid",
@@ -497,7 +853,21 @@
             "child": 35
         },
         "currency": "EUR",
-        "queueTimesId": 0
+        "queueTimesId": 298,
+        "seasonNote": "Christmas season 21 Nov 2026 to 10 Jan 2027: open on weekends and selected days only. Check the park calendar.",
+        "statusAsOf": "2026-10-23",
+        "statusConfidence": "Low",
+        "closures": [
+          {
+            "from": "2026-11-03",
+            "until": "2026-11-20",
+            "note": "Closed between Halloween and the Christmas season"
+          },
+          {
+            "from": "2027-01-11",
+            "note": "Closed until the 2027 season. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "lat": 35.6329,
@@ -517,7 +887,7 @@
         "lng": 139.8804,
         "country": "Japan",
         "city": "Urayasu, Chiba",
-        "queueTimesId": 0
+        "queueTimesId": 274
     },
     {
         "id": "shanghai_disneyland",
@@ -537,7 +907,7 @@
             "child": 399
         },
         "currency": "CNY",
-        "queueTimesId": 0
+        "queueTimesId": 30
     },
     {
         "id": "movie_world_australia",
@@ -557,7 +927,7 @@
             "child": 99
         },
         "currency": "AUD",
-        "queueTimesId": 0
+        "queueTimesId": 342
     },
     {
         "id": "gold_reef_city",
@@ -577,7 +947,12 @@
             "child": 175
         },
         "currency": "ZAR",
-        "queueTimesId": 0
+        "queueTimesId": 0,
+        "status": "notice",
+        "statusNote": "Thursday to Sunday only, according to the August audit; not re-confirmed.",
+        "statusAsOf": "2026-10-21",
+        "statusSource": "Funparks operating status audit (31 Jul 2026)",
+        "statusConfidence": "Low"
     },
     {
         "id": "ferrari_world",
@@ -617,7 +992,7 @@
             "child": 52000
         },
         "currency": "KRW",
-        "queueTimesId": 0
+        "queueTimesId": 333
     },
     {
         "id": "sea_world_gold_coast",
@@ -637,7 +1012,7 @@
             "child": 99
         },
         "currency": "AUD",
-        "queueTimesId": 0
+        "queueTimesId": 338
     },
     {
         "id": "hong_kong_disneyland",
@@ -657,7 +1032,7 @@
             "child": 419
         },
         "currency": "HKD",
-        "queueTimesId": 0
+        "queueTimesId": 31
     },
     {
         "id": "universal_studios_singapore",
@@ -737,7 +1112,7 @@
             "child": 2000
         },
         "currency": "JPY",
-        "queueTimesId": 0
+        "queueTimesId": 337
     },
     {
         "id": "happy_valley_beijing",
@@ -777,7 +1152,13 @@
             "child": 44
         },
         "currency": "NZD",
-        "queueTimesId": 0
+        "queueTimesId": 0,
+        "status": "limited_days",
+        "statusNote": "Open Monday, Friday, Saturday and Sunday only; closed Tuesday to Thursday until 29 Nov 2026. Daily from 30 Nov.",
+        "statusUntil": "2026-11-29",
+        "statusAsOf": "2026-10-21",
+        "statusSource": "Rainbow's End",
+        "statusConfidence": "High"
     },
     {
         "id": "luna_park_sydney",
@@ -817,7 +1198,7 @@
             "child": 52000
         },
         "currency": "KRW",
-        "queueTimesId": 0
+        "queueTimesId": 125
     },
     {
         "id": "universal_studios_japan",
@@ -837,7 +1218,7 @@
             "child": 7400
         },
         "currency": "JPY",
-        "queueTimesId": 0
+        "queueTimesId": 284
     },
     {
         "id": "tokyo_disneysea",
@@ -857,7 +1238,7 @@
             "child": 7900
         },
         "currency": "JPY",
-        "queueTimesId": 0
+        "queueTimesId": 275
     },
     {
         "id": "dreamworld_australia",
@@ -897,7 +1278,12 @@
             "child": 170
         },
         "currency": "BRL",
-        "queueTimesId": 0
+        "queueTimesId": 319,
+        "status": "open",
+        "seasonNote": "Open daily since 10 Oct 2026, to about 3 Apr 2027.",
+        "statusAsOf": "2026-10-21",
+        "statusSource": "Brasilturis",
+        "statusConfidence": "Med"
     },
     {
         "id": "fantasilandia",
@@ -917,7 +1303,12 @@
             "child": 12000
         },
         "currency": "CLP",
-        "queueTimesId": 0
+        "queueTimesId": 0,
+        "status": "open",
+        "seasonNote": "Final season at Parque O'Higgins; the park is moving to San Bernardo and the old site closes in summer 2027 (sources disagree on the last day). Halloween event on Saturdays through 31 Oct 2026.",
+        "statusAsOf": "2026-10-21",
+        "statusSource": "24horas",
+        "statusConfidence": "Med"
     },
     {
         "id": "epcot",
@@ -937,7 +1328,7 @@
             "child": 109
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 5
     },
     {
         "id": "canadas_wonderland",
@@ -957,7 +1348,25 @@
             "child": 44
         },
         "currency": "CAD",
-        "queueTimesId": 0
+        "queueTimesId": 58,
+        "status": "limited_days",
+        "statusNote": "Limited days for Halloween Haunt. Season ends 1 Nov 2026.",
+        "statusUntil": "2026-11-01",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Haunted Attraction Network",
+        "statusConfidence": "Med",
+        "seasonNote": "WinterFest 21 Nov 2026 to 3 Jan 2027 on select nights.",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "until": "2026-11-20",
+            "note": "Closed between Halloween Haunt and WinterFest"
+          },
+          {
+            "from": "2027-01-04",
+            "note": "Closed for the winter. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "magic_kingdom",
@@ -977,7 +1386,7 @@
             "child": 109
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 6
     },
     {
         "id": "disneyland_park",
@@ -997,7 +1406,7 @@
             "child": 104
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 16
     },
     {
         "id": "universal_studios_florida",
@@ -1017,7 +1426,7 @@
             "child": 109
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 65
     },
     {
         "id": "islands_of_adventure",
@@ -1037,7 +1446,7 @@
             "child": 109
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 64
     },
     {
         "id": "la_ronde",
@@ -1057,7 +1466,19 @@
             "child": 44
         },
         "currency": "CAD",
-        "queueTimesId": 0
+        "queueTimesId": 0,
+        "status": "limited_days",
+        "statusNote": "Limited days for Fright Fest. Season ends 1 Nov 2026.",
+        "statusUntil": "2026-11-01",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "MTL Blog",
+        "statusConfidence": "Low",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "note": "Closed for the season. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "calaway_park",
@@ -1077,7 +1498,13 @@
             "child": 36
         },
         "currency": "CAD",
-        "queueTimesId": 0
+        "queueTimesId": 0,
+        "status": "seasonal_closed",
+        "statusNote": "Closed for the season. Reopens 22 May 2027.",
+        "statusUntil": "2027-05-21",
+        "statusAsOf": "2026-10-21",
+        "statusSource": "Calaway Park hours",
+        "statusConfidence": "High"
     },
     {
         "id": "cedar_point",
@@ -1097,7 +1524,19 @@
             "child": 59
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 50,
+        "status": "limited_days",
+        "statusNote": "Limited days for HalloWeekends. Season ends 1 Nov 2026.",
+        "statusUntil": "2026-11-01",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "PointBuzz",
+        "statusConfidence": "High",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "note": "Closed for the season. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "six_flags_magic_mountain",
@@ -1117,7 +1556,12 @@
             "child": 59
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 32,
+        "status": "open",
+        "seasonNote": "Fright Fest on select nights to 1 Nov 2026. Holiday in the Park from 26 Nov 2026.",
+        "statusAsOf": "2026-10-21",
+        "statusSource": "Screamscape",
+        "statusConfidence": "Med"
     },
     {
         "id": "parque_de_la_costa",
@@ -1157,7 +1601,7 @@
             "child": 109
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 17
     },
     {
         "id": "hollywood_studios",
@@ -1177,7 +1621,7 @@
             "child": 109
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 7
     },
     {
         "id": "six_flags_great_adventure",
@@ -1197,7 +1641,25 @@
             "child": 59
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 37,
+        "status": "limited_days",
+        "statusNote": "Limited days for Fright Fest (Thursdays added from 8 Oct). Runs to 1 Nov 2026.",
+        "statusUntil": "2026-11-01",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Screamscape",
+        "statusConfidence": "Med",
+        "seasonNote": "Holiday in the Park 21 Nov 2026 to 3 Jan 2027 on select nights.",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "until": "2026-11-19",
+            "note": "Closed between Fright Fest and Holiday in the Park"
+          },
+          {
+            "from": "2027-01-04",
+            "note": "Closed for the winter. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "six_flags_great_america",
@@ -1217,7 +1679,19 @@
             "child": 59
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 38,
+        "status": "limited_days",
+        "statusNote": "Limited days for Fright Fest, to 1 Nov 2026. No holiday event.",
+        "statusUntil": "2026-11-01",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Screamscape",
+        "statusConfidence": "Med",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "note": "Closed for the season. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "six_flags_over_georgia",
@@ -1237,7 +1711,25 @@
             "child": 59
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 35,
+        "status": "limited_days",
+        "statusNote": "Weekends only for Fright Fest, to 1 Nov 2026. Goliath is closed.",
+        "statusUntil": "2026-11-01",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "WRDW / Screamscape",
+        "statusConfidence": "Med",
+        "seasonNote": "Holiday in the Park 21 Nov 2026 to 3 Jan 2027 on select days.",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "until": "2026-11-20",
+            "note": "Closed between Fright Fest and Holiday in the Park"
+          },
+          {
+            "from": "2027-01-04",
+            "note": "Closed for the winter. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "six_flags_fiesta_texas",
@@ -1257,7 +1749,14 @@
             "child": 59
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 39,
+        "status": "limited_days",
+        "statusNote": "Select nights for Fright Fest, to 1 Nov 2026.",
+        "statusUntil": "2026-11-01",
+        "seasonNote": "Holiday in the Park from 21 Nov 2026 on select dates. Outside events the park may open on weekends only; check the park calendar.",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Screamscape",
+        "statusConfidence": "Low"
     },
     {
         "id": "six_flags_over_texas",
@@ -1277,7 +1776,23 @@
             "child": 59
         },
         "currency": "USD",
-        "queueTimesId": 0
+        "queueTimesId": 34,
+        "status": "open",
+        "seasonNote": "Holiday in the Park 21 Nov to 30 Dec 2026 on select days.",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Screamscape",
+        "statusConfidence": "Med",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "until": "2026-11-20",
+            "note": "Closed between Fright Fest and Holiday in the Park"
+          },
+          {
+            "from": "2027-01-01",
+            "note": "Closed for the winter. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "liseberg",
@@ -1297,7 +1812,30 @@
             "child": 425
         },
         "currency": "SEK",
-        "queueTimesId": 0
+        "queueTimesId": 11,
+        "status": "limited_days",
+        "statusNote": "Limited days for Halloween, to 1 Nov 2026.",
+        "statusUntil": "2026-11-01",
+        "seasonNote": "Jul på Liseberg 14 Nov to 30 Dec 2026 on selected days: 14-15, 20-22, 27-29 Nov and most days in December.",
+        "statusAsOf": "2026-10-23",
+        "statusSource": "Liseberg",
+        "statusConfidence": "Med",
+        "closures": [
+          {
+            "from": "2026-11-02",
+            "until": "2026-11-13",
+            "note": "Closed between Halloween and Jul på Liseberg"
+          },
+          {
+            "from": "2026-12-24",
+            "until": "2026-12-25",
+            "note": "Closed for Christmas"
+          },
+          {
+            "from": "2026-12-31",
+            "note": "Closed for the winter. Reopening date not announced yet"
+          }
+        ]
     },
     {
         "id": "ocean_park_hk",

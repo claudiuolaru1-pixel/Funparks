@@ -105,7 +105,14 @@
     "inversions": 0,
     "openedYear": 2024,
     "minHeightCm": 97,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "temporarily_closed",
+    "statusNote": "Closed for refurbishment 2 Nov to 18 Dec 2026.",
+    "statusFrom": "2026-11-02",
+    "statusUntil": "2026-12-18",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "wdwinfo",
+    "statusConfidence": "Med"
   },
   {
     "id": "peter_pan_flight",

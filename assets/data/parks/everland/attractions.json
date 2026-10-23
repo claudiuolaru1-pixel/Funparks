@@ -141,7 +141,12 @@
     "inversions": 0,
     "openedYear": 1976,
     "minHeightCm": 0,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "notice",
+    "statusNote": "Reported closed for renovation from 19 Feb 2026; current status not confirmed.",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Press reports",
+    "statusConfidence": "Low"
   },
   {
     "id": "panda_world",

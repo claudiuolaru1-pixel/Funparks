@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "toutatis",
     "name": "Toutatis",
@@ -159,6 +159,11 @@
     "speedKmh": 0.0,
     "heightM": 8.0,
     "inversions": 0,
-    "openedYear": 1994
+    "openedYear": 1994,
+    "status": "notice",
+    "statusNote": "Being rebuilt as 'Nile Descent'.",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Parc Asterix",
+    "statusConfidence": "Med"
   }
 ]

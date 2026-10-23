@@ -30,7 +30,13 @@
         "description": "Premium Chinese tea selection served traditionally",
         "price": 68
       }
-    ]
+    ],
+    "status": "temporarily_closed",
+    "statusNote": "Hotel restaurant: final dim sum service ran through 11 Oct 2026, closed along with the Hong Kong Disneyland Hotel with no reopening date (inferred from hotel closure).",
+    "statusFrom": "2026-10-12",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "The Standard HK (https://www.thestandard.com.hk/news/article/341928/HK-Disneyland-Hotel-pauses-for-glow-up-but-holiday-treats-await), Sep 2026",
+    "statusConfidence": "Med"
   },
   {
     "id": "food_plaza_inn",

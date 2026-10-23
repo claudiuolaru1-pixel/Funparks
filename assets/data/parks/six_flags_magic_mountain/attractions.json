@@ -15,7 +15,13 @@
     "inversions": 0,
     "openedYear": 2002,
     "minHeightCm": 122,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "permanently_closed",
+    "statusNote": "Closed 12 Jul 2026 and retired for good on 29 Sep 2026. The ride has been dismantled.",
+    "statusFrom": "2026-07-12",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Attractions Magazine",
+    "statusConfidence": "High"
   },
   {
     "id": "tatsu",
@@ -51,7 +57,13 @@
     "inversions": 0,
     "openedYear": 1997,
     "minHeightCm": 137,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "permanently_closed",
+    "statusNote": "Down since Sep 2024; permanent closure announced 28 Mar 2025.",
+    "statusFrom": "2024-09-01",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "WBTV",
+    "statusConfidence": "High"
   },
   {
     "id": "full_throttle",
@@ -87,7 +99,12 @@
     "inversions": 0,
     "openedYear": 2000,
     "minHeightCm": 137,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "notice",
+    "statusNote": "Reportedly reopened 15 Oct 2026 after the safety pause; not confirmed by the park.",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Park reports",
+    "statusConfidence": "Low"
   },
   {
     "id": "west_coast_racers",
@@ -213,7 +230,12 @@
     "inversions": 7,
     "openedYear": 2003,
     "minHeightCm": 137,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "notice",
+    "statusNote": "Listed as under refurbishment in the August 2026 audit; current status not confirmed.",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Funparks operating status audit (31 Jul 2026)",
+    "statusConfidence": "Low"
   },
   {
     "id": "apocalypse",

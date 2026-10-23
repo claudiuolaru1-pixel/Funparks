@@ -1,4 +1,6 @@
 // lib/models/park.dart
+import 'closure_status.dart';
+
 class Park {
   final String id;
   final String name;
@@ -15,6 +17,9 @@ class Park {
   final String? ticketsUrl;
   final int? queueTimesId;
 
+  /// Optional season / closure information. Null when unknown.
+  final ClosureStatus? closure;
+
   const Park({
     required this.id,
     required this.name,
@@ -30,6 +35,7 @@ class Park {
     this.website,
     this.ticketsUrl,
     this.queueTimesId,
+    this.closure,
   });
 
   static double _d(dynamic v, double fb) =>
@@ -58,6 +64,7 @@ class Park {
       website: j['website']?.toString(),
       ticketsUrl: j['ticketsUrl']?.toString(),
       queueTimesId: j['queueTimesId'] is int ? j['queueTimesId'] : null,
+      closure: ClosureStatus.tryParse(j),
     );
   }
 
@@ -76,5 +83,6 @@ class Park {
         if (website != null) 'website': website,
         if (ticketsUrl != null) 'ticketsUrl': ticketsUrl,
         if (queueTimesId != null) 'queueTimesId': queueTimesId,
+        if (closure != null) ...closure!.toJson(),
       };
 }

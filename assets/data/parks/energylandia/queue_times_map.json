@@ -1,21 +1,17 @@
-﻿{
-  "parkId": "energylandia",
-  "queueTimesId": 317,
-  "rides": [
-    { "id": "hyperion", "queueTimesName": "Hyperion Rc" },
-    { "id": "zadra", "queueTimesName": "Zadra" },
-    { "id": "speed", "queueTimesName": "Speed" },
-    { "id": "mayan", "queueTimesName": "Mayan" },
-    { "id": "dragon_rmf", "queueTimesName": "Dragon Rmf" },
-    { "id": "space_booster", "queueTimesName": "Space Booster" },
-    { "id": "abyssus", "queueTimesName": "Abyssus" },
-    { "id": "aztec", "queueTimesName": "Aztec Swing" },
-    { "id": "jungle_adventure", "queueTimesName": "Jungle Adventure" },
-    { "id": "atlantis", "queueTimesName": "Atlantis" },
-    { "id": "formula", "queueTimesName": "Moya Formula Rc" },
-    { "id": "wonder_wheel", "queueTimesName": "Wonder Wheel" },
-    { "id": "choco_chip_creek", "queueTimesName": "Choco Chip Creek" },
-    { "id": "boomerang", "queueTimesName": "Boomerang" },
-    { "id": "apocalypto", "queueTimesName": "Apocalypto" }
-  ]
+{
+  "hyperion": 11270,
+  "zadra": 11276,
+  "speed": 11266,
+  "mayan": 11256,
+  "dragon_rmf": 11261,
+  "space_booster": 11238,
+  "abyssus": 11281,
+  "aztec": 11258,
+  "jungle_adventure": 11265,
+  "atlantis": 11248,
+  "formula": 11262,
+  "wonder_wheel": 11282,
+  "choco_chip_creek": 11451,
+  "boomerang": 11268,
+  "apocalypto": 11257
 }

@@ -41,7 +41,12 @@
     "openedYear": 2011,
     "minHeightCm": 140,
     "temporarilyClosed": false,
-    "description": "A thrilling wing coaster where riders sit on the edge of the track with nothing above or below."
+    "description": "A thrilling wing coaster where riders sit on the edge of the track with nothing above or below.",
+    "status": "notice",
+    "statusNote": "The Raptor and Far West zone were reported closed after a fire on 28 Jul 2026; current status not confirmed.",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Press reports",
+    "statusConfidence": "Low"
   },
   {
     "id": "blue_tornado",

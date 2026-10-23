@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "blue_lagoon",
     "name": "Blue Lagoon Restaurant",
@@ -31,7 +31,12 @@
       { "name": "Buffet Child", "description": "Children's buffet with dedicated kids section and desserts", "price": 28.00 },
       { "name": "Character Breakfast", "description": "Breakfast buffet with Disney character meet and greet", "price": 38.00 },
       { "name": "Soft Drink", "description": "Selection of soft drinks and juices", "price": 5.50 }
-    ]
+    ],
+    "status": "temporarily_closed",
+    "statusNote": "Closed in April 2026 (Disneyland Paris update of 12 Apr 2026) for a year-long full refurbishment, reopening expected early 2027 with no exact date.",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "mickeyfromthe.uk 'Plaza Gardens Restaurant Closes for Major Renovation Until 2027' (12 Apr 2026); themeparkshark.com (17 Apr 2026); laughingplace.com (Jul 2026, still under scaffolding)",
+    "statusConfidence": "High"
   },
   {
     "id": "walts_restaurant",

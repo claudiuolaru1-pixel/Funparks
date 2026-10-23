@@ -31,7 +31,13 @@
         "pricePerNight": 950,
         "breakfastIncluded": true
       }
-    ]
+    ],
+    "status": "permanently_closed",
+    "statusNote": "Hard Rock Hotel stopped operating on 2 Mar 2024 to make way for a new luxury hotel, now The Laurus (Luxury Collection), opened around Oct 2025.",
+    "statusFrom": "2024-03-02",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "GGRAsia 2024-02-05 (https://www.ggrasia.com/hard-rock-hotel-singapore-at-rws-to-close-on-march-2/); Wikipedia Resorts World Sentosa",
+    "statusConfidence": "High"
   },
   {
     "id": "hotel_equarius",

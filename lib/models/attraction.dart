@@ -1,4 +1,5 @@
-﻿// lib/models/attraction.dart
+// lib/models/attraction.dart
+import 'closure_status.dart';
 
 class Attraction {
   final String id;
@@ -24,6 +25,9 @@ class Attraction {
   final int? minHeightCm;
   final bool temporarilyClosed;
 
+  /// Optional open/closed information (status, dates, note). Null when unknown.
+  final ClosureStatus? closure;
+
   Attraction({
     required this.id,
     required this.name,
@@ -41,6 +45,7 @@ class Attraction {
     this.openedYear,
     this.minHeightCm,
     this.temporarilyClosed = false,
+    this.closure,
   });
 
   static double _parseDouble(dynamic v, double fallback) {
@@ -103,6 +108,7 @@ class Attraction {
       openedYear: _parseIntNullable(j['openedYear']),
       minHeightCm: _parseIntNullable(j['minHeightCm']),
       temporarilyClosed: j['temporarilyClosed'] == true,
+      closure: ClosureStatus.tryParse(j),
     );
   }
 
@@ -123,5 +129,6 @@ class Attraction {
         'openedYear': openedYear,
         'minHeightCm': minHeightCm,
         'temporarilyClosed': temporarilyClosed,
+        if (closure != null) ...closure!.toJson(),
       };
 }

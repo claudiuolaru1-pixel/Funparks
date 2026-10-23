@@ -96,7 +96,14 @@
         "description": "Child-sized set meal with drink and small dessert",
         "price": 900
       }
-    ]
+    ],
+    "status": "temporarily_closed",
+    "statusNote": "Westernland restaurant closed for about seven months of refurbishment, scheduled to reopen on 2 Nov 2026.",
+    "statusFrom": "2026-04-01",
+    "statusUntil": "2026-11-01",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "TDR Explorer 2025-10-27 (https://tdrexplorer.com/tokyo-disneylands-westernland-restaurants-to-close-for-extended-refurbishment/); Inside the Magic Jan 2026",
+    "statusConfidence": "High"
   },
   {
     "id": "food_queen_of_hearts",

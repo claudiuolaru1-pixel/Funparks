@@ -31,7 +31,13 @@
         "pricePerNight": 7800,
         "breakfastIncluded": true
       }
-    ]
+    ],
+    "status": "temporarily_closed",
+    "statusNote": "Entire hotel closed from 12 Oct 2026 for a comprehensive refurbishment with no reopening date announced.",
+    "statusFrom": "2026-10-12",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "BlogMickey 2026-10 (https://blogmickey.com/2026/10/entire-hong-kong-disneyland-hotel-to-close-for-refurbishment/); SCMP 2026-09-04",
+    "statusConfidence": "High"
   },
   {
     "id": "hotel_disney_hollywood_hotel",

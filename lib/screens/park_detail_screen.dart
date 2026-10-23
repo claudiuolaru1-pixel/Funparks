@@ -1,4 +1,4 @@
-﻿// lib/screens/park_detail_screen.dart
+// lib/screens/park_detail_screen.dart
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
@@ -21,6 +21,7 @@ import '../services/wait_time_service.dart';
 import '../services/i18n_content.dart';
 import '../models/hotel.dart';
 import '../widgets/park_image.dart';
+import '../widgets/closure_badge.dart';
 import '../widgets/ai_assistant_widget.dart';
 import '../services/portaventura_hotels_repository.dart';
 
@@ -1303,6 +1304,7 @@ class _OverviewTab extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 14),
+        ParkClosureBanner(status: park.closure),
         _SectionCard(
             title: loc.overview,
             englishText: overviewPair.english,
@@ -1535,7 +1537,7 @@ class _AttractionTopPickRail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 242,
+      height: 290,
       child: ListView.separated(
         scrollDirection: Axis.horizontal,
         itemCount: items.length,
@@ -1575,7 +1577,7 @@ class _AttractionTopCard extends StatelessWidget {
     final loc = AppLocalizations.of(context)!;
     final cs = Theme.of(context).colorScheme;
 
-    return GestureDetector(
+    return ClosureDim(status: attraction.closure, child: GestureDetector(
       onTap: onTap,
         child: Container(
           decoration: BoxDecoration(
@@ -1594,36 +1596,55 @@ class _AttractionTopCard extends StatelessWidget {
               children: [
                 SizedBox(
                   height: 110,
-                  child: ParkImage(image: attraction.image, fit: BoxFit.cover, cacheWidth: 900),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(10, 8, 10, 10),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                  child: Stack(
+                    fit: StackFit.expand,
                     children: [
-                      Text(attraction.name,
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          style: const TextStyle(
-                              fontWeight: FontWeight.w900, fontSize: 13)),
-                      const SizedBox(height: 6),
-                      Wrap(spacing: 6, runSpacing: 6, children: [
-                        _SoftBadge(
-                            icon: Icons.star,
-                            text: attraction.rating.toStringAsFixed(1)),
-                        _SoftBadge(
-                            icon: Icons.category,
-                            text: categoryLabel(attraction.category)),
-                        _SoftBadge(icon: Icons.star, text: loc.topPick),
-                      ]),
+                      ParkImage(image: attraction.image, fit: BoxFit.cover, cacheWidth: 900),
+                      Positioned(
+                        left: 8,
+                        top: 8,
+                        right: 8,
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          child: ClosureBadge(status: attraction.closure),
+                        ),
+                      ),
                     ],
+                  ),
+                ),
+                Expanded(
+                  child: ClipRect(
+                    child: SingleChildScrollView(
+                      physics: const NeverScrollableScrollPhysics(),
+                      padding: const EdgeInsets.fromLTRB(10, 8, 10, 10),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(attraction.name,
+                              maxLines: 2,
+                              overflow: TextOverflow.ellipsis,
+                              style: const TextStyle(
+                                  fontWeight: FontWeight.w900, fontSize: 13)),
+                          const SizedBox(height: 6),
+                          Wrap(spacing: 6, runSpacing: 6, children: [
+                            _SoftBadge(
+                                icon: Icons.star,
+                                text: attraction.rating.toStringAsFixed(1)),
+                            _SoftBadge(
+                                icon: Icons.category,
+                                text: categoryLabel(attraction.category)),
+                            _SoftBadge(icon: Icons.star, text: loc.topPick),
+                          ]),
+                        ],
+                      ),
+                    ),
                   ),
                 ),
               ],
             ),
         ),
       ),
-    );
+    ));
   }
 }
 
@@ -1651,7 +1672,8 @@ class _AttractionRow extends StatelessWidget {
     final cat = categoryLabel(attraction.category);
     final baseEn = attraction.description.trim().isEmpty ? attraction.category : attraction.description.trim();
     final pair = lookup.pairDescFromSection(context, section: 'attractions', id: attraction.id, fallbackEn: baseEn);
-    return GestureDetector(
+    final closedNow = attraction.closure?.isClosedAt(DateTime.now()) ?? false;
+    return ClosureDim(status: attraction.closure, child: GestureDetector(
       onTap: onTap,
       child: Container(
         padding: const EdgeInsets.all(12),
@@ -1682,8 +1704,9 @@ class _AttractionRow extends StatelessWidget {
                   Text(pair.translated, maxLines: 2, overflow: TextOverflow.ellipsis, style: TextStyle(color: Colors.grey.shade700)),
                   const SizedBox(height: 8),
                   Wrap(spacing: 8, runSpacing: 8, children: [
+                    ClosureBadge(status: attraction.closure),
                     _SoftBadge(icon: Icons.star, text: attraction.rating.toStringAsFixed(1)),
-                    _SoftBadge(icon: Icons.timer, text: '\ min'),
+                    if (!closedNow) _SoftBadge(icon: Icons.timer, text: '\ min'),
                     if (attraction.topPick) _SoftBadge(icon: Icons.star, text: loc.topPick),
                     if ((attraction.minHeightCm ?? 0) > 0) _SoftBadge(icon: Icons.height, text: '\ cm+'),
                   ]),
@@ -1702,7 +1725,7 @@ class _AttractionRow extends StatelessWidget {
           ],
         ),
       ),
-    );
+    ));
   }
 }
 
@@ -2162,6 +2185,7 @@ class _AttractionDetailScreenState
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                ParkClosureBanner(status: a.closure),
                 Text(_showTranslated ? descPair.translated : descPair.english,
                     style: Theme.of(context).textTheme.bodyMedium),
                 TextButton(
@@ -2173,7 +2197,8 @@ class _AttractionDetailScreenState
                   _Pill(icon: Icons.category, text: cat),
                   if (a.minHeightCm != null)
                     _Pill(icon: Icons.height, text: '${a.minHeightCm} cm+'),
-                  _Pill(icon: Icons.timer, text: '${a.liveWaitMinutes} min (${loc.liveWait})'),
+                  if (!(a.closure?.isClosedAt(DateTime.now()) ?? false))
+                    _Pill(icon: Icons.timer, text: '${a.liveWaitMinutes} min (${loc.liveWait})'),
                     _buildWaitAlertBell(context, a),
                 ]),
                 const SizedBox(height: 14),
@@ -2529,7 +2554,7 @@ class _FoodRow extends StatelessWidget {
     final pair = lookup.pairDescFromSection(context,
         section: 'food', id: food.id, fallbackEn: baseEn);
 
-    return InkWell(
+    return ClosureDim(status: food.closure, child: InkWell(
       onTap: onTap,
       borderRadius: BorderRadius.circular(16),
       child: Container(
@@ -2573,9 +2598,12 @@ class _FoodRow extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                       style: TextStyle(color: Colors.grey.shade700)),
                   const SizedBox(height: 8),
-                  _SoftBadge(
-                      icon: Icons.star,
-                      text: food.rating.toStringAsFixed(1)),
+                  Wrap(spacing: 8, runSpacing: 8, children: [
+                    ClosureBadge(status: food.closure),
+                    _SoftBadge(
+                        icon: Icons.star,
+                        text: food.rating.toStringAsFixed(1)),
+                  ]),
                 ],
               ),
             ),
@@ -2591,7 +2619,7 @@ class _FoodRow extends StatelessWidget {
           ],
         ),
       ),
-    );
+    ));
   }
 }
 
@@ -3241,7 +3269,7 @@ class _HotelRow extends StatelessWidget {
     final descPair =
         _hotelDescPair(context, i18n, hotel.id, hotel.description);
 
-    return Material(
+    return ClosureDim(status: hotel.closure, child: Material(
       elevation: 0,
       borderRadius: BorderRadius.circular(16),
       color: Theme.of(context).colorScheme.surface,
@@ -3263,6 +3291,12 @@ class _HotelRow extends StatelessWidget {
                         style: const TextStyle(
                             fontWeight: FontWeight.w900,
                             fontSize: 15)),
+                    if (hotel.closure != null) ...[
+                      const SizedBox(height: 6),
+                      Align(
+                          alignment: Alignment.centerLeft,
+                          child: ClosureBadge(status: hotel.closure)),
+                    ],
                     const SizedBox(height: 6),
                     _HotelToggleText(
                         english: descPair.en,
@@ -3304,7 +3338,7 @@ class _HotelRow extends StatelessWidget {
           ),
         ),
       ),
-    );
+    ));
   }
 }
 

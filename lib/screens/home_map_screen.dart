@@ -8,6 +8,7 @@ import '../models/park_summary.dart';
 import '../widgets/park_image.dart';
 import '../widgets/shimmer_park_list.dart';
 import '../widgets/blog_card.dart';
+import '../widgets/closure_badge.dart';
 import 'package:flutter/services.dart';
 import 'package:audioplayers/audioplayers.dart';
 
@@ -183,6 +184,8 @@ _loadParksAndMarkers();
       thumbnail: park.thumbnail,
       website: park.website,
       ticketsUrl: park.ticketsUrl,
+      queueTimesId: park.queueTimesId,
+      closure: park.closure,
     ));
   }
 
@@ -330,18 +333,18 @@ _loadParksAndMarkers();
                   child: Row(
                     children: [
                       // Country filter
-                      PopupMenuButton<String?>(
+                      PopupMenuButton<String>(
                         tooltip: 'Filter by country',
                         onSelected: (v) {
                           setState(() {
-                            _selectedCountry = v;
+                            _selectedCountry = v.isEmpty ? null : v;
                             _applyFilters();
                           });
                           _fitFilteredMarkers();
                         },
                         itemBuilder: (_) => [
                           const PopupMenuItem(
-                              value: null, child: Text('All countries')),
+                              value: '', child: Text('All countries')),
                           ..._countries.map((c) =>
                               PopupMenuItem(value: c, child: Text(c))),
                         ],
@@ -353,18 +356,18 @@ _loadParksAndMarkers();
                       ),
                       const SizedBox(width: 8),
                       // Type filter
-                      PopupMenuButton<String?>(
+                      PopupMenuButton<String>(
                         tooltip: 'Filter by type',
                         onSelected: (v) {
                           setState(() {
-                            _selectedType = v;
+                            _selectedType = v.isEmpty ? null : v;
                             _applyFilters();
                           });
                           _fitFilteredMarkers();
                         },
                         itemBuilder: (_) => [
                           const PopupMenuItem(
-                              value: null, child: Text('All types')),
+                              value: '', child: Text('All types')),
                           ..._types.map((t) =>
                               PopupMenuItem(value: t, child: Text(t))),
                         ],
@@ -469,11 +472,25 @@ _loadParksAndMarkers();
                     ),
                     title: Text(p.name,
                         style: const TextStyle(fontWeight: FontWeight.w800)),
-                    subtitle: Text(
-                        [p.city, p.country]
-                            .where((s) => (s ?? '').isNotEmpty)
-                            .join(', '),
-                        style: TextStyle(color: Colors.grey.shade600)),
+                    subtitle: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                            [p.city, p.country]
+                                .where((s) => (s ?? '').isNotEmpty)
+                                .join(', '),
+                            style: TextStyle(color: Colors.grey.shade600)),
+                        if (p.closure != null &&
+                            p.closure!.kindAt(DateTime.now()) != null)
+                          Padding(
+                            padding: const EdgeInsets.only(top: 4),
+                            child: Align(
+                              alignment: Alignment.centerLeft,
+                              child: ClosureBadge(status: p.closure),
+                            ),
+                          ),
+                      ],
+                    ),
                     trailing: Text(p.type.name,
                         style: TextStyle(
                             fontSize: 11,

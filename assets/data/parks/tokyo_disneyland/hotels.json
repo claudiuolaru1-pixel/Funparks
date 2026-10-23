@@ -99,7 +99,14 @@
         "pricePerNight": 42000,
         "breakfastIncluded": false
       }
-    ]
+    ],
+    "status": "temporarily_closed",
+    "statusNote": "Upcoming one-day full closure on 18 Jan 2027 for thermal energy supply equipment work (notice dated 23 Jul 2026).",
+    "statusFrom": "2027-01-18",
+    "statusUntil": "2027-01-18",
+    "statusAsOf": "2026-10-23",
+    "statusSource": "Tokyo Disney Resort official notice (https://www.tokyodisneyresort.jp/en/hotel/tsh/information.html), 2026-07-23",
+    "statusConfidence": "High"
   },
   {
     "id": "hotel_tokyo_disney_celebration",

@@ -33,7 +33,14 @@
     "inversions": 0,
     "openedYear": 1983,
     "minHeightCm": 0,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "temporarily_closed",
+    "statusNote": "Scheduled closure 8 Jan to 4 Feb 2027.",
+    "statusFrom": "2027-01-08",
+    "statusUntil": "2027-02-04",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Tokyo Disney Resort",
+    "statusConfidence": "Med"
   },
   {
     "id": "big_thunder_mountain",
@@ -87,7 +94,14 @@
     "inversions": 0,
     "openedYear": 1992,
     "minHeightCm": 90,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "temporarily_closed",
+    "statusNote": "Scheduled closure 7 Jan to 4 Feb 2027.",
+    "statusFrom": "2027-01-07",
+    "statusUntil": "2027-02-04",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Tokyo Disney Resort",
+    "statusConfidence": "Med"
   },
   {
     "id": "star_tours",
@@ -105,7 +119,14 @@
     "inversions": 0,
     "openedYear": 1989,
     "minHeightCm": 102,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "temporarily_closed",
+    "statusNote": "Scheduled closure 5 to 18 Feb 2027.",
+    "statusFrom": "2027-02-05",
+    "statusUntil": "2027-02-18",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Tokyo Disney Resort",
+    "statusConfidence": "Med"
   },
   {
     "id": "buzz_lightyear_astro_blasters",
@@ -213,7 +234,14 @@
     "inversions": 0,
     "openedYear": 1983,
     "minHeightCm": 0,
-    "temporarilyClosed": false
+    "temporarilyClosed": false,
+    "status": "temporarily_closed",
+    "statusNote": "Scheduled closure 6 Jan to 31 Mar 2027.",
+    "statusFrom": "2027-01-06",
+    "statusUntil": "2027-03-31",
+    "statusAsOf": "2026-10-21",
+    "statusSource": "Tokyo Disney Resort",
+    "statusConfidence": "Med"
   },
   {
     "id": "mark_twain_riverboat",
