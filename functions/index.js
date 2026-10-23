@@ -245,6 +245,4 @@ exports.checkWaitTimeAlerts = onDocumentWritten(
 
 exports.postBlogToFacebook = require('./social').postBlogToFacebook;
 
-exports.imageTest = require('./imagetest').imageTest;
-
-exports.videoTest = require('./videotest').videoTest;
+exports.postBlogToYouTube = require('./youtubepost').postBlogToYouTube;
