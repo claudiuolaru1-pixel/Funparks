@@ -11,7 +11,8 @@ const ffmpegPath = require("ffmpeg-static");
 const BUCKET = "funparks-779c6.firebasestorage.app";
 const MODELS = ["veo-3.1-fast-generate-001", "veo-3.1-lite-generate-001", "veo-3.1-generate-001"];
 const ENDCARD = path.join(__dirname, "assets", "endcard.png");
-const ENDCARD_SECONDS = 2;
+const ENDCARD_SECONDS = 4; // 6 s clip + 4 s end card = about 10 s, the length of the song
+const SONG = path.join(__dirname, "assets", "funparks_audio.mp3");
 const NEGATIVE =
   "collision, crash, head-on, near miss, derailment, accident, fire, explosion, smoke, injury, danger, first-person view on tracks, " +
   "oncoming train, second train, text, letters, watermark, logo, cartoon character";
@@ -102,17 +103,18 @@ async function addEndCard(clipBuffer) {
   const inPath = path.join(dir, "clip.mp4");
   const outPath = path.join(dir, "final.mp4");
   fs.writeFileSync(inPath, clipBuffer);
+  const hasSong = fs.existsSync(SONG);
   const filter =
     "[0:v]scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,setsar=1,fps=30,format=yuv420p[a];" +
     "[1:v]scale=720:1280,setsar=1,fps=30,format=yuv420p[b];" +
-    "[a][b]concat=n=2:v=1:a=0[v]";
-  await run(ffmpegPath, [
-    "-y", "-i", inPath,
-    "-loop", "1", "-t", String(ENDCARD_SECONDS), "-i", ENDCARD,
-    "-filter_complex", filter,
-    "-map", "[v]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
-    "-movflags", "+faststart", outPath,
-  ]);
+    "[a][b]concat=n=2:v=1:a=0[v]" +
+    (hasSong ? ";[2:a]afade=t=out:st=9.4:d=0.5,apad=whole_dur=10[aud]" : "");
+  const args = ["-y", "-i", inPath, "-loop", "1", "-t", String(ENDCARD_SECONDS), "-i", ENDCARD];
+  if (hasSong) args.push("-i", SONG);
+  args.push("-filter_complex", filter, "-map", "[v]");
+  if (hasSong) args.push("-map", "[aud]", "-c:a", "aac", "-b:a", "128k", "-t", "10");
+  args.push("-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-movflags", "+faststart", outPath);
+  await run(ffmpegPath, args);
   const out = fs.readFileSync(outPath);
   fs.rmSync(dir, { recursive: true, force: true });
   return out;
