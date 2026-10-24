@@ -246,3 +246,7 @@ exports.checkWaitTimeAlerts = onDocumentWritten(
 exports.postBlogToFacebook = require('./social').postBlogToFacebook;
 
 exports.postBlogToYouTube = require('./youtubepost').postBlogToYouTube;
+
+exports.postBlogToTikTok = require('./tiktokpost').postBlogToTikTok;
+
+exports.tiktokCaption = require("./captionpage").tiktokCaption;
