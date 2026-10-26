@@ -9,6 +9,7 @@ const YT_CLIENT_SECRET = defineSecret("YT_CLIENT_SECRET");
 const YT_REFRESH_TOKEN = defineSecret("YT_REFRESH_TOKEN");
 
 const SITE = "https://funparks.app";
+const BUCKET = "funparks-779c6.firebasestorage.app";
 // Videos that pass the safety check are published with this setting.
 // Videos that fail or cannot be checked are always uploaded as "private" for you to look at.
 // Use "private" here to stop publishing and review everything yourself first.
@@ -59,6 +60,12 @@ async function uploadVideo(videoBuffer, meta, accessToken) {
   const data = await r.json();
   if (!r.ok) throw new Error("Upload failed: " + JSON.stringify(data.error || data));
   return data;
+}
+
+function storagePathFromUrl(url) {
+  const m = String(url).match(/\/o\/([^?]+)/);
+  if (!m) throw new Error("Cannot read the storage path from the video address");
+  return decodeURIComponent(m[1]);
 }
 
 function plain(text) {
@@ -171,8 +178,17 @@ exports.postBlogToYouTube = onSchedule(
       if (!post) throw new Error("Article not found on the website: " + slug);
 
       const { title, description } = await writeTitleAndDescription(post);
-      const video = await generateArticleVideo(slug, post.title, post.excerpt || "");
-      console.log("YouTube: video ready (" + video.model + ", " + video.buffer.length + " bytes): " + video.url);
+      // Use the video made by the 17:00 step. Only if there is none, make one now.
+      const stored = doc.data();
+      let video;
+      if (stored.videoUrl) {
+        const [buffer] = await admin.storage().bucket(BUCKET).file(storagePathFromUrl(stored.videoUrl)).download();
+        video = { buffer, url: stored.videoUrl, prompt: stored.videoPrompt || null, model: stored.videoModel || null, check: stored.videoCheck || stored.youtubeCheck || null };
+        console.log("YouTube: using the video already made (" + buffer.length + " bytes): " + video.url);
+      } else {
+        video = await generateArticleVideo(slug, post.title, post.excerpt || "");
+        console.log("YouTube: video ready (" + video.model + ", " + video.buffer.length + " bytes): " + video.url);
+      }
 
       // Public only when Gemini confirmed the clip is safe. Otherwise private, for you to check.
       const privacy = video.check && video.check.ok === true ? YT_PRIVACY : "private";

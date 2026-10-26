@@ -9,6 +9,8 @@ const PAGE_ID = "1166040799926353";
 const IG_ID = "17841402111399337";
 const GRAPH = "https://graph.facebook.com/v26.0";
 const SITE = "https://funparks.app";
+// Statuses written by the 17:00 video step. These articles are not posted yet.
+const PREP_STATUSES = ["preparing", "video-ready", "video-failed"];
 // Safety switch: while true, nothing is published (only safe pre-flight checks run).
 const DRY_RUN = false;
 
@@ -71,6 +73,62 @@ async function createInstagramContainer(imageUrl, caption, token) {
   throw new Error("Instagram container was not ready in time");
 }
 
+// Prepares an Instagram Reel (not yet public) and waits until Instagram has processed the video.
+async function createInstagramReelContainer(videoUrl, caption, token) {
+  const c = await graphPost("/" + IG_ID + "/media", {
+    media_type: "REELS",
+    video_url: videoUrl,
+    caption: caption,
+    share_to_feed: "true",
+    access_token: token,
+  });
+  for (let i = 0; i < 60; i++) {
+    await sleep(5000);
+    const s = await graphGet("/" + c.id, { fields: "status_code,status", access_token: token });
+    if (s.status_code === "FINISHED") return c.id;
+    if (s.status_code === "ERROR" || s.status_code === "EXPIRED") {
+      throw new Error("Instagram Reel status: " + s.status_code + " " + JSON.stringify(s.status || ""));
+    }
+  }
+  throw new Error("Instagram Reel was not ready in time");
+}
+
+// Publishes the video as a Facebook Reel on the Page (start -> upload from URL -> finish).
+async function postFacebookReel(videoUrl, description, token) {
+  const start = await graphPost("/" + PAGE_ID + "/video_reels", { upload_phase: "start", access_token: token });
+  if (!start.video_id || !start.upload_url) throw new Error("Facebook Reel start gave no upload address: " + JSON.stringify(start));
+  const up = await fetch(start.upload_url, {
+    method: "POST",
+    headers: { Authorization: "OAuth " + token, file_url: videoUrl },
+  });
+  const upData = await up.json().catch(() => ({}));
+  if (!up.ok || upData.success === false) throw new Error("Facebook Reel upload failed: HTTP " + up.status + " " + JSON.stringify(upData).slice(0, 300));
+  // Give Facebook a little time to take the file in, then publish.
+  for (let i = 0; i < 12; i++) {
+    await sleep(5000);
+    try {
+      const s = await graphGet("/" + start.video_id, { fields: "status", access_token: token });
+      const st = s.status || {};
+      const phase = st.uploading_phase && st.uploading_phase.status;
+      console.log("Facebook Reel upload status: " + JSON.stringify(st).slice(0, 200));
+      if (st.video_status === "error" || phase === "error") throw new Error("Facebook Reel upload error: " + JSON.stringify(st).slice(0, 300));
+      if (phase === "complete" || st.video_status === "upload_complete" || st.video_status === "ready") break;
+    } catch (e) {
+      if (String(e.message).startsWith("Facebook Reel upload error")) throw e;
+      console.log("Facebook Reel status check skipped: " + errText(e));
+    }
+  }
+  const fin = await graphPost("/" + PAGE_ID + "/video_reels", {
+    access_token: token,
+    video_id: start.video_id,
+    upload_phase: "finish",
+    video_state: "PUBLISHED",
+    description: description,
+  });
+  if (fin.success === false) throw new Error("Facebook Reel publish failed: " + JSON.stringify(fin).slice(0, 300));
+  return { id: start.video_id };
+}
+
 async function writeCaption(post) {
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   const msg = await client.messages.create({
@@ -102,7 +160,7 @@ exports.postBlogToFacebook = onSchedule(
     schedule: "0 18 * * 1,3,5",
     timeZone: "Europe/Paris",
     region: "europe-west1",
-    timeoutSeconds: 300,
+    timeoutSeconds: 900,
     memory: "512MiB",
     secrets: [FACEBOOK_PAGE_TOKEN],
   },
@@ -129,12 +187,29 @@ exports.postBlogToFacebook = onSchedule(
     }
 
     const doneSnap = await db.collection("social_posts").get();
-    const done = new Set(doneSnap.docs.map((d) => d.id));
+    // Articles the 17:00 video step has only prepared are not posted yet.
+    const done = new Set(doneSnap.docs.filter((d) => !PREP_STATUSES.includes(d.data().status)).map((d) => d.id));
     const post = posts.find((p) => p.slug && !done.has(p.slug));
     if (!post) {
       console.log("No new article to post.");
       return;
     }
+
+    const claimRef = db.collection("social_posts").doc(post.slug);
+
+    // The video step (17:00) may have prepared a video. Wait a little if it is still working.
+    let prep = await claimRef.get();
+    for (let i = 0; i < 24 && prep.exists && prep.data().status === "preparing"; i++) {
+      console.log("Video is still being prepared, waiting...");
+      await sleep(10000);
+      prep = await claimRef.get();
+    }
+    const prepData = prep.exists ? prep.data() : null;
+    const priorStatus = prepData ? prepData.status : null;
+    // A Reel is only posted when the video passed the safety check.
+    const reelOk = !!(prepData && prepData.status === "video-ready" && prepData.videoUrl && prepData.videoCheck && prepData.videoCheck.ok === true);
+    if (reelOk) console.log("Safe video found - posting as a Reel: " + prepData.videoUrl);
+    else console.log("No safe video for this article (" + (priorStatus || "none") + ") - posting the picture.");
 
     const caption = await writeCaption(post);
     if (!caption) throw new Error("Empty caption from Claude - not posting");
@@ -142,14 +217,21 @@ exports.postBlogToFacebook = onSchedule(
     const igCaption = instagramCaption(caption);
     const token = FACEBOOK_PAGE_TOKEN.value();
 
-    // Make a picture. If that fails, Facebook falls back to a normal link post and Instagram is skipped.
+    // The picture is only made when it is needed (no Reel, or the Reel failed).
     let image = null;
-    try {
-      image = await generateArticleImage(post.slug, post.title);
-      console.log("Image ready:", image.url);
-    } catch (e) {
-      console.error("Image generation failed, will post without picture:", errText(e));
+    let imageTried = false;
+    async function ensureImage() {
+      if (imageTried) return image;
+      imageTried = true;
+      try {
+        image = await generateArticleImage(post.slug, post.title);
+        console.log("Image ready:", image.url);
+      } catch (e) {
+        console.error("Image generation failed, will post without picture:", errText(e));
+      }
+      return image;
     }
+    if (DRY_RUN || !reelOk) await ensureImage();
 
     if (DRY_RUN) {
       console.log("DRY RUN - would post to Facebook:\n" + caption + "\n" + link);
@@ -173,33 +255,51 @@ exports.postBlogToFacebook = onSchedule(
       return;
     }
 
-    const claimRef = db.collection("social_posts").doc(post.slug);
     const claimed = await db.runTransaction(async (tx) => {
-      if ((await tx.get(claimRef)).exists) return false;
-      tx.set(claimRef, { status: "posting", title: post.title, createdAt: admin.firestore.FieldValue.serverTimestamp() });
+      const cur = await tx.get(claimRef);
+      if (cur.exists && !PREP_STATUSES.includes(cur.data().status)) return false;
+      tx.set(claimRef, { status: "posting", title: post.title, createdAt: admin.firestore.FieldValue.serverTimestamp() }, { merge: true });
       return true;
     });
     if (!claimed) { console.log("Already handled:", post.slug); return; }
 
-    // 1) Facebook
-    let fbData;
+    // 1) Facebook: Reel if there is a safe video, otherwise (or if the Reel fails) the picture.
+    let fbData = null;
+    let fbFormat = null;
+    let reelError = null;
     try {
-      if (image) {
-        fbData = await graphPost("/" + PAGE_ID + "/photos", {
-          url: image.url,
-          message: caption + "\n\n" + link,
-          access_token: token,
-        });
-      } else {
-        fbData = await graphPost("/" + PAGE_ID + "/feed", {
-          message: caption,
-          link: link,
-          access_token: token,
-        });
+      if (reelOk) {
+        try {
+          fbData = await postFacebookReel(prepData.videoUrl, caption + "\n\n" + link, token);
+          fbFormat = "reel";
+        } catch (e) {
+          reelError = errText(e);
+          console.error("Facebook Reel failed, falling back to the picture:", reelError);
+        }
+      }
+      if (!fbData) {
+        await ensureImage();
+        if (image) {
+          fbData = await graphPost("/" + PAGE_ID + "/photos", {
+            url: image.url,
+            message: caption + "\n\n" + link,
+            access_token: token,
+          });
+          fbFormat = "photo";
+        } else {
+          fbData = await graphPost("/" + PAGE_ID + "/feed", {
+            message: caption,
+            link: link,
+            access_token: token,
+          });
+          fbFormat = "link";
+        }
       }
     } catch (e) {
       console.error("Facebook error:", errText(e));
-      await claimRef.delete();
+      // Put the article back as it was, so the next run can try again (the video stays saved).
+      if (priorStatus) await claimRef.update({ status: priorStatus });
+      else await claimRef.delete();
       throw new Error("Facebook post failed");
     }
     const fbId = fbData.post_id || fbData.id;
@@ -207,25 +307,41 @@ exports.postBlogToFacebook = onSchedule(
       status: "posted",
       title: post.title,
       facebookPostId: fbId,
+      facebookFormat: fbFormat,
+      facebookReelError: reelError,
       imageUrl: image ? image.url : null,
       createdAt: admin.firestore.FieldValue.serverTimestamp(),
-    });
-    console.log("Posted to Facebook:", fbId);
+    }, { merge: true });
+    console.log("Posted to Facebook (" + fbFormat + "):", fbId);
 
     // 2) Instagram (a failure here never undoes or repeats the Facebook post)
+    let igReelError = null;
+    if (reelOk) {
+      try {
+        const cid = await createInstagramReelContainer(prepData.videoUrl, igCaption, token);
+        const pub = await graphPost("/" + IG_ID + "/media_publish", { creation_id: cid, access_token: token });
+        await claimRef.update({ instagramStatus: "posted", instagramPostId: pub.id, instagramFormat: "reel" });
+        console.log("Posted to Instagram (reel):", pub.id);
+        return;
+      } catch (e) {
+        igReelError = errText(e);
+        console.error("Instagram Reel failed, trying the picture:", igReelError);
+      }
+    }
+    await ensureImage();
     if (!image) {
-      await claimRef.update({ instagramStatus: "skipped-no-image" });
+      await claimRef.update({ instagramStatus: "skipped-no-image", instagramReelError: igReelError });
       console.log("Instagram skipped: no image.");
       return;
     }
     try {
       const cid = await createInstagramContainer(image.url, igCaption, token);
       const pub = await graphPost("/" + IG_ID + "/media_publish", { creation_id: cid, access_token: token });
-      await claimRef.update({ instagramStatus: "posted", instagramPostId: pub.id });
-      console.log("Posted to Instagram:", pub.id);
+      await claimRef.update({ instagramStatus: "posted", instagramPostId: pub.id, instagramFormat: "photo", instagramReelError: igReelError });
+      console.log("Posted to Instagram (photo):", pub.id);
     } catch (e) {
       console.error("Instagram error:", errText(e));
-      await claimRef.update({ instagramStatus: "failed", instagramError: errText(e) });
+      await claimRef.update({ instagramStatus: "failed", instagramError: errText(e), instagramReelError: igReelError });
     }
   }
 );

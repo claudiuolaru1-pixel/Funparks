@@ -250,3 +250,5 @@ exports.postBlogToYouTube = require('./youtubepost').postBlogToYouTube;
 exports.postBlogToTikTok = require('./tiktokpost').postBlogToTikTok;
 
 exports.tiktokCaption = require("./captionpage").tiktokCaption;
+
+exports.prepareArticleVideo = require("./videoprep").prepareArticleVideo;
