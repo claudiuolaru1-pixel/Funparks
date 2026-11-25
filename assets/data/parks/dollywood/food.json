@@ -1,0 +1,99 @@
+[
+  {
+    "id": "food_aunt_grannys_restaurant",
+    "name": "Aunt Granny's Restaurant",
+    "description": "A Dollywood favourite since 1986 in Rivertown Junction, serving Southern dishes as an all-you-care-to-eat buffet. Expect comfort food such as chicken and dumplings, corn pudding and Stone Soup. The menu changes over time, so ask on arrival what is on offer today.",
+    "topPick": false,
+    "type": "Southern Buffet",
+    "image": "assets/images/dollywood/food_aunt_grannys_restaurant.png",
+    "lat": 35.8051,
+    "lng": -83.5276,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "All-You-Care-To-Eat Buffet",
+        "description": "Southern buffet with changing hot dishes such as chicken and dumplings and corn pudding, plus sides and desserts",
+        "price": 25
+      }
+    ]
+  },
+  {
+    "id": "food_hickory_house_bbq",
+    "name": "Hickory House BBQ",
+    "description": "A table-service smokehouse in Craftsman's Valley serving award-winning BBQ recipes. The menu centres on pulled pork, BBQ sandwiches and cheesesteak sandwiches, a hearty stop for hungry families between rides.",
+    "topPick": true,
+    "type": "BBQ Table Service",
+    "image": "assets/images/dollywood/food_hickory_house_bbq.png",
+    "lat": 35.8054,
+    "lng": -83.5303,
+    "rating": 4.5,
+    "items": [
+      {
+        "name": "Pulled Pork Sandwich",
+        "description": "Slow-cooked pulled pork in BBQ sauce on a bun",
+        "price": 14
+      },
+      {
+        "name": "BBQ Cheesesteak Sandwich",
+        "description": "Sliced beef and cheese on a toasted roll with BBQ sauce",
+        "price": 16
+      },
+      {
+        "name": "Pulled Pork Plate",
+        "description": "Pulled pork served with sides",
+        "price": 17
+      }
+    ]
+  },
+  {
+    "id": "food_granny_ogles_ham_n_beans",
+    "name": "Granny Ogle's Ham 'n' Beans",
+    "description": "A Craftsman's Valley restaurant known for its ham and pinto beans, served in generous portions. A simple, filling Southern classic that fits the park's Appalachian setting.",
+    "topPick": false,
+    "type": "Southern Comfort Food",
+    "image": "assets/images/dollywood/food_granny_ogles_ham_n_beans.png",
+    "lat": 35.8053,
+    "lng": -83.5306,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Ham 'n' Beans",
+        "description": "Ham and pinto beans served in a generous portion",
+        "price": 12
+      },
+      {
+        "name": "Cornbread",
+        "description": "Warm Southern-style cornbread",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_cinnamon_bread_grist_mill",
+    "name": "Cinnamon Bread at The Grist Mill",
+    "description": "Dollywood's signature treat: cinnamon bread baked fresh daily at The Grist Mill in Craftsman's Valley. The mill was built in 1982 and was described as Tennessee's first fully working grist mill in over 100 years. The bread comes plain, with icing or with apple butter.",
+    "topPick": true,
+    "type": "Bakery Snack",
+    "image": "assets/images/dollywood/food_cinnamon_bread_grist_mill.png",
+    "lat": 35.8056,
+    "lng": -83.531,
+    "rating": 4.8,
+    "items": [
+      {
+        "name": "Cinnamon Bread",
+        "description": "Freshly baked cinnamon bread",
+        "price": 7
+      },
+      {
+        "name": "Cinnamon Bread with Icing",
+        "description": "Cinnamon bread topped with sweet icing",
+        "price": 8
+      },
+      {
+        "name": "Cinnamon Bread with Apple Butter",
+        "description": "Cinnamon bread served with apple butter",
+        "price": 8
+      }
+    ]
+  }
+]

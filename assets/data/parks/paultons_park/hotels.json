@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hotel_the_mortimer_arms",
+    "name": "The Mortimer Arms",
+    "description": "The Mortimer Arms is a country inn on the Romsey Road in Ower, about 1.2 km from the park, making it one of the closest places to stay. Rates shown are estimates; check the booking page for current prices.",
+    "image": "assets/images/paultons_park/hotel_the_mortimer_arms.png",
+    "lat": 50.9533,
+    "lng": -1.5578,
+    "rating": 4.2,
+    "topPick": true,
+    "website": "https://www.countryhotelbreaks.com",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable double room at the inn.",
+        "pricePerNight": 129,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with space for families.",
+        "pricePerNight": 165,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_bartley_lodge",
+    "name": "Bartley Lodge Hotel",
+    "description": "Bartley Lodge Hotel is a hotel in Cadnam in the New Forest, about 3.5 miles from the park. Rates shown are estimates.",
+    "image": "assets/images/paultons_park/hotel_bartley_lodge.png",
+    "lat": 50.9167,
+    "lng": -1.5833,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.bestloved.com",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Double room in the New Forest.",
+        "pricePerNight": 120,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with space for families.",
+        "pricePerNight": 155,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_premier_inn_southampton_north",
+    "name": "Premier Inn Southampton North",
+    "description": "Premier Inn Southampton North is a budget-friendly chain hotel at Nursling, a short drive from the park. Rates shown are estimates.",
+    "image": "assets/images/paultons_park/hotel_premier_inn_southampton_north.png",
+    "lat": 50.9423,
+    "lng": -1.4749,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.premierinn.com",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Standard double room.",
+        "pricePerNight": 70,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for two adults and children.",
+        "pricePerNight": 85,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_novotel_southampton",
+    "name": "Novotel Southampton",
+    "description": "Novotel Southampton is a city-centre hotel near West Quay, about 7.5 miles from the park. Rates shown are estimates.",
+    "image": "assets/images/paultons_park/hotel_novotel_southampton.png",
+    "lat": 50.9035,
+    "lng": -1.414,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://uk.hotels.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Standard room in the city centre.",
+        "pricePerNight": 75,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with space for families.",
+        "pricePerNight": 110,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_chewton_glen",
+    "name": "Chewton Glen Hotel & Spa",
+    "description": "Chewton Glen is a luxury country-house hotel and spa in New Milton, about 19 miles from the park. Rates shown are estimates and vary widely by room and season.",
+    "image": "assets/images/paultons_park/hotel_chewton_glen.png",
+    "lat": 50.749,
+    "lng": -1.66,
+    "rating": 4.8,
+    "topPick": true,
+    "website": "https://www.chewtonglen.com",
+    "rooms": [
+      {
+        "key": "luxury_room",
+        "name": "Luxury Room",
+        "description": "Country-house room with spa access.",
+        "pricePerNight": 450,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite.",
+        "pricePerNight": 700,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

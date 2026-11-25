@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hotel_knoebels_campground",
+    "name": "Knoebels Campground",
+    "description": "The Knoebels Campground at 391 Knoebels Blvd has campsites, cozy log cabins, deluxe cabins and rental trailers, steps from the park. Knoebels has no hotel, so the campground is the closest place to stay. Rates shown are estimates.",
+    "image": "assets/images/knoebels/hotel_knoebels_campground.png",
+    "lat": 40.8815,
+    "lng": -76.501,
+    "rating": 4.4,
+    "topPick": true,
+    "website": "https://knoebels.com/stay/knoebels-campground/",
+    "rooms": [
+      {
+        "key": "campsite",
+        "name": "Campsite",
+        "description": "Tent or RV campsite on site.",
+        "pricePerNight": 45,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "log_cabin",
+        "name": "Cozy Log Cabin",
+        "description": "Simple log cabin on the campground.",
+        "pricePerNight": 110,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "deluxe_cabin",
+        "name": "Deluxe Cabin",
+        "description": "Larger cabin with more comforts.",
+        "pricePerNight": 180,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_knoebels_cottages",
+    "name": "Knoebels Cottages",
+    "description": "Knoebels Cottages are quaint country cottages close to all the rides. A homely choice for families who want to stay right by the park. Rates shown are estimates.",
+    "image": "assets/images/knoebels/hotel_knoebels_cottages.png",
+    "lat": 40.8805,
+    "lng": -76.5035,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.knoebels.com/stay",
+    "rooms": [
+      {
+        "key": "cottage",
+        "name": "Cottage",
+        "description": "Country cottage close to the rides.",
+        "pricePerNight": 150,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_latorre_house_bb",
+    "name": "Latorre House Bed & Breakfast",
+    "description": "Latorre House Bed & Breakfast at 1133 PA-487 in Elysburg is less than a mile from the park. Rooms are listed from about $170 to $180 a night pre-season, with an efficiency apartment from $290. Rates shown are estimates.",
+    "image": "assets/images/knoebels/hotel_latorre_house_bb.png",
+    "lat": 40.8828,
+    "lng": -76.5135,
+    "rating": 4.6,
+    "topPick": false,
+    "website": "https://www.knoebels.com/stay/latorre-house-bed-breakfast",
+    "rooms": [
+      {
+        "key": "room",
+        "name": "Room",
+        "description": "Bed and breakfast room.",
+        "pricePerNight": 175,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "efficiency_apartment",
+        "name": "Efficiency Apartment",
+        "description": "Apartment with kitchen facilities.",
+        "pricePerNight": 290,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_holiday_inn_express_bloomsburg",
+    "name": "Holiday Inn Express Bloomsburg",
+    "description": "Holiday Inn Express Bloomsburg by IHG is about 9.5 miles from the park. A comfortable chain hotel with rates around $103 a night. Rates shown are estimates.",
+    "image": "assets/images/knoebels/hotel_holiday_inn_express_bloomsburg.png",
+    "lat": 41.0049,
+    "lng": -76.443,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.expedia.com/Knoebels-Amusement-Resort-Hotels.0-l6263703-0.Travel-Guide-Filter-Hotels",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable double room.",
+        "pricePerNight": 103,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 135,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_pine_barn_inn",
+    "name": "Pine Barn Inn",
+    "description": "Pine Barn Inn at 1 Pine Barn Place in Danville is about 8 miles from the park and has 99 rooms. Rates found online were around $129 a night. Rates shown are estimates.",
+    "image": "assets/images/knoebels/hotel_pine_barn_inn.png",
+    "lat": 40.968,
+    "lng": -76.6073,
+    "rating": 4.4,
+    "topPick": false,
+    "website": "https://locations.geisinger.org/pine-barn-inn",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable double room.",
+        "pricePerNight": 129,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Larger room with extra space.",
+        "pricePerNight": 190,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

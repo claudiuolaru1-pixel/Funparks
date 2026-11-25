@@ -1,0 +1,114 @@
+[
+  {
+    "id": "food_mrs_knotts_chicken_dinner",
+    "name": "Mrs. Knott's Chicken Dinner Restaurant",
+    "description": "A famous fried chicken restaurant that opened in 1934, just outside the park gate and open without a park ticket. Known for fried chicken dinners with mashed potatoes and biscuits, chicken pot pie and boysenberry pie. Reservations via OpenTable. Prices here are estimates.",
+    "topPick": true,
+    "type": "Restaurant",
+    "image": "assets/images/knotts_berry_farm/food_mrs_knotts_chicken_dinner.png",
+    "lat": 33.8431,
+    "lng": -118.0043,
+    "rating": 4.5,
+    "items": [
+      {
+        "name": "Fried Chicken Dinner",
+        "description": "Fried chicken with mashed potatoes and biscuits",
+        "price": 24
+      },
+      {
+        "name": "Chicken Pot Pie",
+        "description": "Classic chicken pot pie",
+        "price": 18
+      },
+      {
+        "name": "Boysenberry Pie",
+        "description": "Slice of boysenberry pie",
+        "price": 7
+      }
+    ]
+  },
+  {
+    "id": "food_firemans_bbq",
+    "name": "Fireman's BBQ",
+    "description": "An open-air barbecue in Ghost Town serving BBQ chicken, ribs and a giant turkey leg. Its current opening status is unconfirmed and hours vary. Prices here are estimates.",
+    "topPick": false,
+    "type": "BBQ",
+    "image": "assets/images/knotts_berry_farm/food_firemans_bbq.png",
+    "lat": 33.845,
+    "lng": -118.003,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "BBQ Chicken",
+        "description": "Barbecue chicken",
+        "price": 16
+      },
+      {
+        "name": "Ribs",
+        "description": "Barbecue ribs",
+        "price": 19
+      },
+      {
+        "name": "Giant Turkey Leg",
+        "description": "Smoked turkey leg",
+        "price": 14
+      }
+    ]
+  },
+  {
+    "id": "food_boardwalk_bbq",
+    "name": "Boardwalk BBQ",
+    "description": "A cafeteria-style smokehouse serving pulled pork, smokehouse sausages and rotisserie chicken, with sides such as mac and cheese and cornbread. Prices here are estimates.",
+    "topPick": false,
+    "type": "BBQ",
+    "image": "assets/images/knotts_berry_farm/food_boardwalk_bbq.png",
+    "lat": 33.8437,
+    "lng": -118.0023,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Pulled Pork",
+        "description": "Slow-smoked pulled pork",
+        "price": 16
+      },
+      {
+        "name": "Smokehouse Sausage",
+        "description": "Smoked sausage",
+        "price": 15
+      },
+      {
+        "name": "Rotisserie Chicken",
+        "description": "Rotisserie chicken with sides",
+        "price": 16
+      }
+    ]
+  },
+  {
+    "id": "food_ghost_town_bakery",
+    "name": "Ghost Town Bakery",
+    "description": "A bakery and coffee shop in Ghost Town, directly across from GhostRider, serving fresh cinnamon buns, soup in a sourdough bread bowl and stuffed croissants. Prices here are estimates.",
+    "topPick": false,
+    "type": "Bakery",
+    "image": "assets/images/knotts_berry_farm/food_ghost_town_bakery.png",
+    "lat": 33.8451,
+    "lng": -118.0029,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Cinnamon Bun",
+        "description": "Fresh-baked cinnamon bun",
+        "price": 7
+      },
+      {
+        "name": "Soup in a Bread Bowl",
+        "description": "Soup served in a sourdough bowl",
+        "price": 12
+      },
+      {
+        "name": "Stuffed Croissant",
+        "description": "Filled croissant",
+        "price": 8
+      }
+    ]
+  }
+]

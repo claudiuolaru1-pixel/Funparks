@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hotel_great_wolf_lodge_mason",
+    "name": "Great Wolf Lodge Cincinnati/Mason",
+    "description": "Great Wolf Lodge is an indoor water-park resort about 0.6 miles (1 km) from the park, near I-71 exit 25. It is the closest big resort. Rates shown are rough estimates and change by date.",
+    "image": "assets/images/kings_island/hotel_great_wolf_lodge_mason.png",
+    "lat": 39.339,
+    "lng": -84.2755,
+    "rating": 4.2,
+    "topPick": true,
+    "website": "https://www.greatwolf.com/cincinnati",
+    "rooms": [
+      {
+        "key": "family_suite",
+        "name": "Family Suite",
+        "description": "Suite for families with water-park access.",
+        "pricePerNight": 180,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "kid_cabin_suite",
+        "name": "Kid Cabin Suite",
+        "description": "Suite with a themed kids' sleeping area.",
+        "pricePerNight": 260,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_comfort_suites_mason",
+    "name": "Comfort Suites Mason",
+    "description": "Comfort Suites Mason is a budget-friendly hotel about 0.9 miles from the park. The link goes to the brand website. Rates shown are rough estimates.",
+    "image": "assets/images/kings_island/hotel_comfort_suites_mason.png",
+    "lat": 39.341,
+    "lng": -84.277,
+    "rating": 3.9,
+    "topPick": false,
+    "website": "https://www.choicehotels.com",
+    "rooms": [
+      {
+        "key": "standard_suite",
+        "name": "Standard Suite",
+        "description": "Suite near the park.",
+        "pricePerNight": 70,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_suite",
+        "name": "Family Suite",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 95,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_hampton_inn_mason",
+    "name": "Hampton Inn & Suites Cincinnati-Mason",
+    "description": "Hampton Inn & Suites Cincinnati-Mason is a mid-range hotel about 1 mile from the park. The link goes to the brand website. Rates shown are rough estimates.",
+    "image": "assets/images/kings_island/hotel_hampton_inn_mason.png",
+    "lat": 39.346,
+    "lng": -84.2765,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.hilton.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Standard hotel room.",
+        "pricePerNight": 90,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_suite",
+        "name": "Family Suite",
+        "description": "Suite with space for families.",
+        "pricePerNight": 120,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_springhill_suites_mason",
+    "name": "SpringHill Suites Cincinnati Mason",
+    "description": "SpringHill Suites Cincinnati Mason is an all-suite hotel about 1.1 miles from the park. The link goes to the brand website. Rates shown are rough estimates.",
+    "image": "assets/images/kings_island/hotel_springhill_suites_mason.png",
+    "lat": 39.35,
+    "lng": -84.2715,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.marriott.com",
+    "rooms": [
+      {
+        "key": "studio_suite",
+        "name": "Studio Suite",
+        "description": "Suite with a sitting area.",
+        "pricePerNight": 116,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "two_room_suite",
+        "name": "Two-Room Suite",
+        "description": "Larger suite for families.",
+        "pricePerNight": 160,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_camp_cedar",
+    "name": "Camp Cedar Cabin & RV Resort",
+    "description": "Camp Cedar is a cabin and RV resort managed by Kings Island, about 1.1 miles from the park, with a shuttle to the park. Cabin rates vary a lot by season and are rough estimates.",
+    "image": "assets/images/kings_island/hotel_camp_cedar.png",
+    "lat": 39.334,
+    "lng": -84.2735,
+    "rating": 4,
+    "topPick": false,
+    "website": "https://www.visitcampcedar.com",
+    "rooms": [
+      {
+        "key": "cabin",
+        "name": "Cabin",
+        "description": "Cottage-style cabin.",
+        "pricePerNight": 139,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_cabin",
+        "name": "Family Cabin",
+        "description": "Larger cabin for groups.",
+        "pricePerNight": 250,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

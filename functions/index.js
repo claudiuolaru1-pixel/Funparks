@@ -73,6 +73,22 @@ const FUNPARKS_PARKS = [
   { id: "six_flags_over_texas", name: "Six Flags Over Texas", country: "USA" },
   { id: "liseberg", name: "Liseberg", country: "Sweden" },
   { id: "ocean_park_hk", name: "Ocean Park Hong Kong", country: "Hong Kong" },
+  { id: "chimelong_paradise", name: "Chimelong Paradise", country: "China" },
+  { id: "chessington_world_of_adventures", name: "Chessington World of Adventures", country: "United Kingdom" },
+  { id: "seaworld_orlando", name: "SeaWorld Orlando", country: "USA" },
+  { id: "kings_island", name: "Kings Island", country: "USA" },
+  { id: "knotts_berry_farm", name: "Knott's Berry Farm", country: "USA" },
+  { id: "parque_de_atracciones_madrid", name: "Parque de Atracciones de Madrid", country: "Spain" },
+  { id: "futuroscope", name: "Futuroscope", country: "France" },
+  { id: "paultons_park", name: "Paultons Park", country: "United Kingdom" },
+  { id: "genting_skyworlds", name: "Genting SkyWorlds", country: "Malaysia" },
+  { id: "knoebels", name: "Knoebels Amusement Resort", country: "United States" },
+  { id: "flamingo_land", name: "Flamingo Land", country: "United Kingdom" },
+  { id: "blackpool_pleasure_beach", name: "Blackpool Pleasure Beach", country: "United Kingdom" },
+  { id: "hansa_park", name: "Hansa-Park", country: "Germany" },
+  { id: "dollywood", name: "Dollywood", country: "USA" },
+  { id: "wet_n_wild_gold_coast", name: "Wet'n'Wild Gold Coast", country: "Australia" },
+  { id: "hersheypark", name: "Hersheypark", country: "USA" },
 ];
 
 const FUNPARKS_FEATURES = `The Funparks app includes the following features:

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "food_smokehouse_bbq_bar",
+    "name": "Smokehouse BBQ & Bar",
+    "description": "A sit-down barbecue restaurant and bar in Adventure Point, with takeaway too. The meats are smoked for 12 hours, including pulled pork, beef brisket and ribs, and there is a Taste of Texas sharing platter. The park is cashless, so bring a card. Prices come from an undated menu and may have changed.",
+    "topPick": true,
+    "type": "BBQ",
+    "image": "assets/images/chessington_world_of_adventures/food_smokehouse_bbq_bar.png",
+    "lat": 51.3488,
+    "lng": -0.3168,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Full Rack of Ribs",
+        "description": "Smoked ribs",
+        "price": 24
+      },
+      {
+        "name": "Pulled Pork Brioche",
+        "description": "12-hour smoked pulled pork in a brioche bun",
+        "price": 16
+      },
+      {
+        "name": "Taste of Texas",
+        "description": "Sharing platter of smoked meats",
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": "food_vampire_burger_kitchen",
+    "name": "The Vampire Burger Kitchen",
+    "description": "A burger restaurant in Wild Woods on the way to Vampire, with self-service kiosks and eat-in or takeaway. It serves beef, chicken and plant-based burgers, plus fries, desserts and kids' meals. Prices here are estimates.",
+    "topPick": false,
+    "type": "Burgers",
+    "image": "assets/images/chessington_world_of_adventures/food_vampire_burger_kitchen.png",
+    "lat": 51.3492,
+    "lng": -0.3188,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Beef Burger",
+        "description": "Beef burger",
+        "price": 11
+      },
+      {
+        "name": "Chicken Burger",
+        "description": "Chicken burger",
+        "price": 10
+      },
+      {
+        "name": "Plant-Based Burger",
+        "description": "Plant-based burger",
+        "price": 11
+      }
+    ]
+  },
+  {
+    "id": "food_pizza_pasta",
+    "name": "Pizza Pasta",
+    "description": "An all-you-can-eat sit-down buffet in Adventure Point with pizza (pepperoni, margherita, vegetarian and vegan), garlic bread, fresh pasta, a salad bar and free-refill soft drinks. Prices here are estimates.",
+    "topPick": false,
+    "type": "Buffet",
+    "image": "assets/images/chessington_world_of_adventures/food_pizza_pasta.png",
+    "lat": 51.3486,
+    "lng": -0.3172,
+    "rating": 4,
+    "items": [
+      {
+        "name": "Pizza & Pasta Buffet",
+        "description": "All-you-can-eat pizza, pasta and salad bar",
+        "price": 15
+      },
+      {
+        "name": "Garlic Bread",
+        "description": "Garlic bread",
+        "price": 4
+      },
+      {
+        "name": "Soft Drink Refill",
+        "description": "Free-refill soft drink",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "food_zafari_bar_grill",
+    "name": "Zafari Bar & Grill",
+    "description": "An African-themed restaurant and bar inside the Chessington Safari Hotel, with views over the Wanyama Reserve. It is a hotel restaurant outside the park gates and serves breakfast and dinner with grill dishes, salads, vegan options and a kids' menu. Prices here are estimates.",
+    "topPick": false,
+    "type": "Restaurant",
+    "image": "assets/images/chessington_world_of_adventures/food_zafari_bar_grill.png",
+    "lat": 51.3512,
+    "lng": -0.3138,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Grill Burger",
+        "description": "Grilled burger",
+        "price": 15
+      },
+      {
+        "name": "Ribs",
+        "description": "Grilled ribs",
+        "price": 20
+      },
+      {
+        "name": "Fresh Salad",
+        "description": "Fresh salad",
+        "price": 12
+      }
+    ]
+  }
+]

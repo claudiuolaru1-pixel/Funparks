@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hotel_chimelong_hotel",
+    "name": "Chimelong Hotel",
+    "description": "Chimelong Hotel is a five-star hotel inside the Chimelong resort, about 0.3 to 0.9 km from the park depending on the source, with a free resort shuttle and the White Tiger Restaurant. Rates shown are rough estimates and change a lot by date.",
+    "image": "assets/images/chimelong_paradise/hotel_chimelong_hotel.png",
+    "lat": 23.003,
+    "lng": 113.329,
+    "rating": 4.6,
+    "topPick": true,
+    "website": "https://www.chimelong.com/gz/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Five-star room in the resort.",
+        "pricePerNight": 910,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 1250,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_chimelong_panda_hotel",
+    "name": "Chimelong Panda Hotel",
+    "description": "Chimelong Panda Hotel is a panda-themed hotel inside the Chimelong resort, about 0.8 km from the park, with the Panda All Day Dining Restaurant. Rates shown are rough estimates.",
+    "image": "assets/images/chimelong_paradise/hotel_chimelong_panda_hotel.png",
+    "lat": 23.009,
+    "lng": 113.33,
+    "rating": 4.4,
+    "topPick": false,
+    "website": "https://www.chimelong.com/gz/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Panda-themed room.",
+        "pricePerNight": 980,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 1300,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_atour_light_hanxi_changlong",
+    "name": "Atour Light Hanxi Changlong",
+    "description": "Atour Light Hanxi Changlong is a three-star budget hotel about 0.9 km from the park in Dashi, Panyu, with a high guest rating. The link goes to a booking page. Rates shown are rough estimates and can be much higher on peak dates.",
+    "image": "assets/images/chimelong_paradise/hotel_atour_light_hanxi_changlong.png",
+    "lat": 23.009,
+    "lng": 113.32,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "https://ca.trip.com/hotels/guangzhou-hotel-detail-109908504/guangzhou-panyu-hanxi-changlong-tourist-resort-atour-light-hotel/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Simple budget room.",
+        "pricePerNight": 320,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families.",
+        "pricePerNight": 450,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_chimelong_xiangjiang_hotel",
+    "name": "Chimelong Xiangjiang Hotel",
+    "description": "Chimelong Xiangjiang Hotel is a four-star hotel next to the Chimelong Safari Park in Dashi, with a free shuttle to the Chimelong attractions that reviewers say is infrequent and stops early in the evening. The distance to the park is not confirmed. The link goes to a booking page. Rates shown are rough estimates.",
+    "image": "assets/images/chimelong_paradise/hotel_chimelong_xiangjiang_hotel.png",
+    "lat": 23.001,
+    "lng": 113.313,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.trip.com/hotels/guangzhou-hotel-detail-23406093/chimelong-xiangjiang-hotel/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Four-star room.",
+        "pricePerNight": 800,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 1100,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_holiday_inn_express_panyu_dashi",
+    "name": "Holiday Inn Express Panyu Dashi",
+    "description": "Holiday Inn Express Panyu Dashi is a budget hotel about 2 to 2.5 km from the park, next to Dashi Station on Metro Line 3, with free breakfast and free parking for guests. There is no shuttle. Rates shown are rough estimates.",
+    "image": "assets/images/chimelong_paradise/hotel_holiday_inn_express_panyu_dashi.png",
+    "lat": 22.989,
+    "lng": 113.342,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.ihg.com/holidayinnexpress/hotels/gb/en/guangzhou/cangg/hoteldetail",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Standard room with free breakfast.",
+        "pricePerNight": 335,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families with free breakfast.",
+        "pricePerNight": 450,
+        "breakfastIncluded": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hotel_genting_skyworlds_hotel",
+    "name": "Genting SkyWorlds Hotel",
+    "description": "Genting SkyWorlds Hotel is the closest hotel to the park, right at its doorstep next to SkyAvenue and Arena of Stars, with 448 rooms. Rates found online start from around RM250 for a night, though that figure may be for a different hotel. Rates shown are estimates.",
+    "image": "assets/images/genting_skyworlds/hotel_genting_skyworlds_hotel.png",
+    "lat": 3.423,
+    "lng": 101.7945,
+    "rating": 4.1,
+    "topPick": true,
+    "website": "https://www.rwgenting.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable standard room next to the park.",
+        "pricePerNight": 260,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 380,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_first_world_hotel",
+    "name": "First World Hotel",
+    "description": "First World Hotel is one of the largest hotels in the world, with 7,351 rooms near First World Plaza, SkyAvenue and Skytropolis. Discounted offers found online ranged from about RM293 to RM497, and some listings show around RM250. Rates shown are estimates.",
+    "image": "assets/images/genting_skyworlds/hotel_first_world_hotel.png",
+    "lat": 3.4238,
+    "lng": 101.7925,
+    "rating": 3.9,
+    "topPick": false,
+    "website": "https://www.rwgenting.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Budget-friendly standard room.",
+        "pricePerNight": 290,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 420,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_rw_hotel",
+    "name": "RW Hotel",
+    "description": "RW Hotel is the new name, since May 2026, of the former Highlands Hotel at Resorts World Genting. Older booking sites may still use the old name. Rates shown are estimates.",
+    "image": "assets/images/genting_skyworlds/hotel_rw_hotel.png",
+    "lat": 3.424,
+    "lng": 101.7935,
+    "rating": 4,
+    "topPick": false,
+    "website": "https://www.rwgenting.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Standard room at the resort.",
+        "pricePerNight": 260,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 360,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_genting_grand",
+    "name": "Genting Grand",
+    "description": "Genting Grand is an upscale hotel at Resorts World Genting with easy access to the attractions. A premier suite was priced at around RM1,784 in one source. Rates shown are estimates.",
+    "image": "assets/images/genting_skyworlds/hotel_genting_grand.png",
+    "lat": 3.4243,
+    "lng": 101.7918,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.rwgenting.com",
+    "rooms": [
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Upscale room at the resort.",
+        "pricePerNight": 650,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "premier_suite",
+        "name": "Premier Suite",
+        "description": "Large suite with extra comforts.",
+        "pricePerNight": 1784,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_crockfords",
+    "name": "Crockfords",
+    "description": "Crockfords is the luxury hotel at Resorts World Genting. Rates found online were around RM1,500 for a superior room and up to RM10,800 for a villa. Rates shown are estimates.",
+    "image": "assets/images/genting_skyworlds/hotel_crockfords.png",
+    "lat": 3.4246,
+    "lng": 101.7912,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "https://www.rwgenting.com",
+    "rooms": [
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Luxury superior room.",
+        "pricePerNight": 1500,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "villa",
+        "name": "Villa",
+        "description": "Private villa accommodation.",
+        "pricePerNight": 10800,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

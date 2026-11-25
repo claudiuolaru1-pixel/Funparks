@@ -1,0 +1,114 @@
+[
+  {
+    "id": "food_coney_bar_b_que",
+    "name": "Coney Bar-B-Que",
+    "description": "A fast-casual barbecue spot in Coney Mall serving hand-pulled pork, rotisserie chicken cooked over an open flame and smoked St. Louis-style ribs. Prices here are estimates.",
+    "topPick": true,
+    "type": "BBQ",
+    "image": "assets/images/kings_island/food_coney_bar_b_que.png",
+    "lat": 39.3445,
+    "lng": -84.2692,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Hand-Pulled Pork",
+        "description": "Slow-cooked pulled pork",
+        "price": 14
+      },
+      {
+        "name": "Rotisserie Chicken",
+        "description": "Rotisserie chicken",
+        "price": 15
+      },
+      {
+        "name": "Smoked St. Louis-Style Ribs",
+        "description": "Smoked pork ribs",
+        "price": 18
+      }
+    ]
+  },
+  {
+    "id": "food_jukebox_diner",
+    "name": "Jukebox Diner",
+    "description": "A retro 1950s-style diner in Coney Mall serving freshly grilled cheeseburgers, a signature patty melt and thick milkshakes. Prices here are estimates.",
+    "topPick": false,
+    "type": "Diner",
+    "image": "assets/images/kings_island/food_jukebox_diner.png",
+    "lat": 39.3444,
+    "lng": -84.2688,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Cheeseburger",
+        "description": "Freshly grilled cheeseburger",
+        "price": 13
+      },
+      {
+        "name": "Patty Melt",
+        "description": "Burger patty with melted cheese",
+        "price": 14
+      },
+      {
+        "name": "Milkshake",
+        "description": "Thick milkshake",
+        "price": 8
+      }
+    ]
+  },
+  {
+    "id": "food_festhaus",
+    "name": "Festhaus",
+    "description": "A Bavarian-themed, air-conditioned dining hall with live entertainment in season, serving grilled burgers, chicken tenders and pizza. It is seasonal, so it may be closed in winter. Prices here are estimates.",
+    "topPick": false,
+    "type": "Restaurant",
+    "image": "assets/images/kings_island/food_festhaus.png",
+    "lat": 39.3462,
+    "lng": -84.2672,
+    "rating": 4,
+    "items": [
+      {
+        "name": "Grilled Burger",
+        "description": "Freshly grilled burger",
+        "price": 13
+      },
+      {
+        "name": "Chicken Tenders",
+        "description": "Breaded chicken tenders",
+        "price": 12
+      },
+      {
+        "name": "Pizza",
+        "description": "Pizza slice or personal pizza",
+        "price": 12
+      }
+    ]
+  },
+  {
+    "id": "food_potato_works",
+    "name": "Potato Works",
+    "description": "A fresh-cut fries stand in Rivertown, with all items gluten free. Loaded fries come with buffalo chicken or BBQ pulled pork and cheese sauce. Prices here are estimates.",
+    "topPick": false,
+    "type": "Snacks",
+    "image": "assets/images/kings_island/food_potato_works.png",
+    "lat": 39.3418,
+    "lng": -84.265,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Fresh-Cut Fries",
+        "description": "Fresh-cut French fries",
+        "price": 9
+      },
+      {
+        "name": "Buffalo Chicken Loaded Fries",
+        "description": "Fries with buffalo chicken",
+        "price": 12
+      },
+      {
+        "name": "BBQ Pulled Pork Loaded Fries",
+        "description": "Fries with BBQ pulled pork and cheese sauce",
+        "price": 13
+      }
+    ]
+  }
+]

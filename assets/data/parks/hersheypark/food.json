@@ -1,0 +1,101 @@
+[
+  {
+    "id": "food_the_chocolatier",
+    "name": "The Chocolatier",
+    "description": "A sit-down restaurant in Hershey's Chocolatetown at Hersheypark, where American dishes come with a chocolate twist. It is a relaxing break from the rides, with table service, a family-friendly menu and plenty of desserts that make the most of Hershey's most famous ingredient.",
+    "topPick": true,
+    "type": "American Table Service",
+    "image": "assets/images/hersheypark/food_the_chocolatier.png",
+    "lat": 40.2873,
+    "lng": -76.6558,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Chocolate-Glazed Chicken",
+        "description": "Grilled chicken with a light cocoa glaze and seasonal vegetables",
+        "price": 24
+      },
+      {
+        "name": "Classic Cheeseburger",
+        "description": "Beef burger with cheese, lettuce, tomato and fries",
+        "price": 19
+      },
+      {
+        "name": "Hershey's Chocolate Cake",
+        "description": "Rich layered chocolate cake with whipped cream",
+        "price": 11
+      },
+      {
+        "name": "Chocolate Milkshake",
+        "description": "Thick milkshake made with Hershey's chocolate",
+        "price": 8
+      }
+    ]
+  },
+  {
+    "id": "food_chefs_market",
+    "name": "Chef's Market",
+    "description": "A market-style eatery at Hersheypark where guests choose from several food stations, so everyone in the group can find something they like. It is a good option for families with different tastes, with fresh and hot dishes, salads, sides and desserts.",
+    "topPick": false,
+    "type": "Market-Style Dining",
+    "image": "assets/images/hersheypark/food_chefs_market.png",
+    "lat": 40.288,
+    "lng": -76.6549,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Rotisserie Chicken Plate",
+        "description": "Roasted chicken with two sides",
+        "price": 16
+      },
+      {
+        "name": "Garden Salad",
+        "description": "Fresh greens with seasonal vegetables and dressing",
+        "price": 11
+      },
+      {
+        "name": "Pasta of the Day",
+        "description": "Chef's pasta dish with a choice of sauce",
+        "price": 14
+      },
+      {
+        "name": "Fresh Baked Cookie",
+        "description": "Warm cookie baked on site",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_1933_restaurant",
+    "name": "1933 Restaurant & Tavern",
+    "description": "A full-service restaurant and tavern serving American favourites with a selection of beer and cocktails for adults. It is a more relaxed place to sit down, rest your legs and enjoy a proper meal during a long day at the park.",
+    "topPick": false,
+    "type": "American Restaurant & Bar",
+    "image": "assets/images/hersheypark/food_1933_restaurant.png",
+    "lat": 40.287,
+    "lng": -76.6535,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Pub Burger",
+        "description": "Beef burger with cheddar, bacon and fries",
+        "price": 20
+      },
+      {
+        "name": "Crispy Chicken Sandwich",
+        "description": "Fried chicken sandwich with pickles and house sauce",
+        "price": 17
+      },
+      {
+        "name": "Pennsylvania Pretzel Appetizer",
+        "description": "Soft pretzel bites with beer cheese",
+        "price": 12
+      },
+      {
+        "name": "Local Draft Beer",
+        "description": "Pint of regional draft beer",
+        "price": 8
+      }
+    ]
+  }
+]

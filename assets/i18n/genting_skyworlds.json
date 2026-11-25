@@ -1,0 +1,406 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Genting SkyWorlds is a theme park in Genting Highlands, Pahang, Malaysia, set high in the mountains at Resorts World Genting. It opened in February 2022 on about 26 acres and is themed around well-known film franchises, with zones such as Ice Age, Rio, Epic, Robots, Planet of the Apes and Independence Day. It passed one million guests in 2025. Rides range from the Samba Gliders suspended coaster and the Acorn Adventure mine-train coaster to dark rides, flying theatres and family attractions. Visitors usually arrive by the Awana SkyWay cable car, and several resort hotels stand nearby.",
+      "es": "Genting SkyWorlds es un parque temático en Genting Highlands, Pahang, Malasia, situado en lo alto de las montañas en Resorts World Genting. Abrió en febrero de 2022 sobre unos 26 acres y está ambientado en conocidas franquicias de cine, con zonas como Ice Age, Rio, Epic, Robots, Planet of the Apes e Independence Day. Superó el millón de visitantes en 2025. Sus atracciones van desde la montaña rusa suspendida Samba Gliders y la montaña rusa de tren minero Acorn Adventure hasta atracciones oscuras, cines voladores y atracciones familiares. Los visitantes suelen llegar en el teleférico Awana SkyWay, y varios hoteles del resort están cerca.",
+      "fr": "Genting SkyWorlds est un parc à thème de Genting Highlands, dans l'État de Pahang, en Malaisie, perché dans les montagnes à Resorts World Genting. Ouvert en février 2022 sur environ 26 acres, il est thématisé autour de célèbres franchises de cinéma, avec des zones comme Ice Age, Rio, Epic, Robots, Planet of the Apes et Independence Day. Il a dépassé le million de visiteurs en 2025. Les attractions vont du coaster suspendu Samba Gliders et du coaster de train de mine Acorn Adventure aux parcours scéniques, cinémas volants et attractions familiales. On y accède généralement par le téléphérique Awana SkyWay, et plusieurs hôtels du complexe sont tout près.",
+      "de": "Genting SkyWorlds ist ein Freizeitpark in Genting Highlands, Pahang, Malaysia, hoch oben in den Bergen im Resorts World Genting. Er eröffnete im Februar 2022 auf etwa 26 Acres und ist nach bekannten Filmreihen gestaltet, mit Bereichen wie Ice Age, Rio, Epic, Robots, Planet of the Apes und Independence Day. 2025 überschritt er eine Million Besucher. Die Attraktionen reichen von der Hängeachterbahn Samba Gliders und der Minenzug-Achterbahn Acorn Adventure bis zu Dark Rides, Flugkinos und Familienattraktionen. Meist kommt man mit der Seilbahn Awana SkyWay, und mehrere Resort-Hotels liegen in der Nähe.",
+      "it": "Genting SkyWorlds è un parco a tema a Genting Highlands, Pahang, Malesia, in alta montagna a Resorts World Genting. Ha aperto nel febbraio 2022 su circa 26 acri ed è ispirato a celebri saghe cinematografiche, con zone come Ice Age, Rio, Epic, Robots, Planet of the Apes e Independence Day. Nel 2025 ha superato il milione di visitatori. Le attrazioni vanno dalla montagna russa sospesa Samba Gliders e dal trenino minerario Acorn Adventure ai dark ride, ai cinema volanti e alle attrazioni per famiglie. Di solito si arriva con la funivia Awana SkyWay e diversi hotel del resort sono vicini.",
+      "nl": "Genting SkyWorlds is een attractiepark in Genting Highlands, Pahang, Maleisië, hoog in de bergen bij Resorts World Genting. Het opende in februari 2022 op zo'n 26 acres en is gethematiseerd naar bekende filmreeksen, met zones als Ice Age, Rio, Epic, Robots, Planet of the Apes en Independence Day. In 2025 passeerde het een miljoen bezoekers. De attracties variëren van de hangende achtbaan Samba Gliders en de mijntrein-achtbaan Acorn Adventure tot darkrides, vliegende bioscopen en gezinsattracties. Bezoekers komen meestal met de kabelbaan Awana SkyWay en verschillende resorthotels staan vlakbij.",
+      "pt": "O Genting SkyWorlds é um parque temático em Genting Highlands, Pahang, Malásia, no alto das montanhas em Resorts World Genting. Abriu em fevereiro de 2022 em cerca de 26 acres e é temático de conhecidas franquias de cinema, com zonas como Ice Age, Rio, Epic, Robots, Planet of the Apes e Independence Day. Ultrapassou um milhão de visitantes em 2025. As atrações vão da montanha-russa suspensa Samba Gliders e da montanha-russa de comboio mineiro Acorn Adventure a atrações escuras, cinemas voadores e atrações familiares. Costuma chegar-se de teleférico Awana SkyWay e vários hotéis do resort ficam perto.",
+      "ru": "Genting SkyWorlds — тематический парк в Гентинг-Хайлендс, штат Паханг, Малайзия, высоко в горах на курорте Resorts World Genting. Он открылся в феврале 2022 года на площади около 26 акров и построен по мотивам известных киносерий: зоны Ice Age, Rio, Epic, Robots, Planet of the Apes и Independence Day. В 2025 году парк принял миллионного гостя. Здесь есть подвесные горки Samba Gliders, горки-шахтёрский поезд Acorn Adventure, тёмные аттракционы, летающие кинотеатры и семейные развлечения. Обычно добираются на канатной дороге Awana SkyWay, а рядом расположено несколько отелей курорта.",
+      "zh": "Genting SkyWorlds是位于马来西亚彭亨州云顶高原的主题乐园，坐落在云顶世界度假村的山上。乐园2022年2月开业，占地约26英亩，以知名电影系列为主题，设有冰川时代、里约、艾比克、机器人总动员、猩球崛起和独立日等园区，2025年游客突破100万。游乐项目包括Samba Gliders悬挂式过山车、Acorn Adventure矿车过山车，以及暗骑、飞行影院和家庭项目。游客通常乘坐Awana SkyWay缆车前往，附近有多家度假村酒店。",
+      "ar": "جنتنغ سكاي ورلدز متنزه ترفيهي في جنتنغ هايلاندز بولاية باهانغ في ماليزيا، يقع عالياً في الجبال داخل منتجع رزورتس وورلد جنتنغ. افتُتح في فبراير 2022 على نحو 26 فداناً وهو مستوحى من سلاسل أفلام شهيرة بمناطق مثل Ice Age وRio وEpic وRobots وPlanet of the Apes وIndependence Day، وتجاوز عدد زواره المليون عام 2025. وتشمل ألعابه قطار Samba Gliders المعلّق وقطار Acorn Adventure بنمط قطار المناجم وألعاباً مظلمة وسينما طائرة وألعاباً عائلية. ويصل الزوار عادةً بالتلفريك Awana SkyWay، وتقع عدة فنادق للمنتجع قريباً."
+    },
+    "ov_highlights_body": {
+      "en": "Samba Gliders in the Rio zone is a suspended coaster about 25 m high, and Acorn Adventure in the Ice Age zone is a mine-train coaster of similar height. Rivet Town Roller is a spinning coaster in the Robots zone, Terraform Tower Challenge is a drop tower and Alpha Fighter Pilots is a flight ride. Independence Day: Defiance is a flying theatre, and Invasion of the Planet of the Apes and Ice Age: Expedition Thin Ice are trackless dark rides. Families will like Epic Voyage to Moonhaven, Sid's Rock 'N' Slide and the Blue Sky Carousel. For food, Buck's Café is the park's largest restaurant, and all park outlets are pork-free.",
+      "es": "Samba Gliders, en la zona Rio, es una montaña rusa suspendida de unos 25 m de altura, y Acorn Adventure, en la zona Ice Age, es una montaña rusa de tren minero de altura similar. Rivet Town Roller es una montaña rusa giratoria en la zona Robots, Terraform Tower Challenge es una torre de caída y Alpha Fighter Pilots es una atracción de vuelo. Independence Day: Defiance es un cine volador, e Invasion of the Planet of the Apes e Ice Age: Expedition Thin Ice son atracciones oscuras sin raíles. A las familias les gustarán Epic Voyage to Moonhaven, Sid's Rock 'N' Slide y el Blue Sky Carousel. Para comer, Buck's Café es el restaurante más grande del parque y todos los puntos de comida son sin cerdo.",
+      "fr": "Samba Gliders, dans la zone Rio, est un coaster suspendu d'environ 25 m de haut, et Acorn Adventure, dans la zone Ice Age, est un coaster de train de mine de hauteur similaire. Rivet Town Roller est un coaster tournant dans la zone Robots, Terraform Tower Challenge est une tour de chute et Alpha Fighter Pilots une attraction de vol. Independence Day: Defiance est un cinéma volant, et Invasion of the Planet of the Apes et Ice Age: Expedition Thin Ice sont des parcours scéniques sans rails. Les familles apprécieront Epic Voyage to Moonhaven, Sid's Rock 'N' Slide et le Blue Sky Carousel. Côté table, Buck's Café est le plus grand restaurant du parc, et tous les points de restauration sont sans porc.",
+      "de": "Samba Gliders im Rio-Bereich ist eine Hängeachterbahn von etwa 25 m Höhe, und Acorn Adventure im Ice-Age-Bereich ist eine Minenzug-Achterbahn ähnlicher Höhe. Rivet Town Roller ist eine Spinning-Achterbahn im Robots-Bereich, Terraform Tower Challenge ein Drop Tower und Alpha Fighter Pilots ein Flug-Fahrgeschäft. Independence Day: Defiance ist ein Flugkino, Invasion of the Planet of the Apes und Ice Age: Expedition Thin Ice sind schienenlose Dark Rides. Familien freuen sich auf Epic Voyage to Moonhaven, Sid's Rock 'N' Slide und das Blue Sky Carousel. Zum Essen ist Buck's Café das größte Restaurant des Parks, und alle Verpflegungsstände sind schweinefleischfrei.",
+      "it": "Samba Gliders nella zona Rio è una montagna russa sospesa alta circa 25 m, e Acorn Adventure nella zona Ice Age è un trenino minerario di altezza simile. Rivet Town Roller è una montagna russa rotante nella zona Robots, Terraform Tower Challenge è una torre di caduta e Alpha Fighter Pilots un'attrazione di volo. Independence Day: Defiance è un cinema volante, e Invasion of the Planet of the Apes e Ice Age: Expedition Thin Ice sono dark ride senza binari. Le famiglie apprezzeranno Epic Voyage to Moonhaven, Sid's Rock 'N' Slide e il Blue Sky Carousel. Per mangiare, Buck's Café è il ristorante più grande del parco e tutti i punti di ristoro sono senza maiale.",
+      "nl": "Samba Gliders in de Rio-zone is een hangende achtbaan van ongeveer 25 m hoog, en Acorn Adventure in de Ice Age-zone is een mijntrein-achtbaan van vergelijkbare hoogte. Rivet Town Roller is een spinning coaster in de Robots-zone, Terraform Tower Challenge is een valtoren en Alpha Fighter Pilots is een vliegattractie. Independence Day: Defiance is een vliegende bioscoop, en Invasion of the Planet of the Apes en Ice Age: Expedition Thin Ice zijn spoorloze darkrides. Gezinnen genieten van Epic Voyage to Moonhaven, Sid's Rock 'N' Slide en de Blue Sky Carousel. Bij het eten is Buck's Café het grootste restaurant van het park en zijn alle verkooppunten varkensvleesvrij.",
+      "pt": "A Samba Gliders, na zona Rio, é uma montanha-russa suspensa com cerca de 25 m de altura, e a Acorn Adventure, na zona Ice Age, é uma montanha-russa de comboio mineiro de altura semelhante. A Rivet Town Roller é uma montanha-russa giratória na zona Robots, a Terraform Tower Challenge é uma torre de queda e a Alpha Fighter Pilots é uma atração de voo. A Independence Day: Defiance é um cinema voador, e a Invasion of the Planet of the Apes e a Ice Age: Expedition Thin Ice são atrações escuras sem carris. As famílias vão gostar da Epic Voyage to Moonhaven, da Sid's Rock 'N' Slide e do Blue Sky Carousel. Para comer, o Buck's Café é o maior restaurante do parque e todos os pontos de restauração são sem porco.",
+      "ru": "Samba Gliders в зоне Rio — подвесные горки высотой около 25 м, а Acorn Adventure в зоне Ice Age — горки-шахтёрский поезд похожей высоты. Rivet Town Roller — вращающиеся горки в зоне Robots, Terraform Tower Challenge — башня падения, а Alpha Fighter Pilots — аттракцион-полёт. Independence Day: Defiance — летающий кинотеатр, а Invasion of the Planet of the Apes и Ice Age: Expedition Thin Ice — тёмные аттракционы без рельсов. Семьям понравятся Epic Voyage to Moonhaven, Sid's Rock 'N' Slide и Blue Sky Carousel. Из еды: Buck's Café — самый большой ресторан парка, а во всех точках питания нет свинины.",
+      "zh": "Rio园区的Samba Gliders是高约25米的悬挂式过山车，冰川时代园区的Acorn Adventure是高度相近的矿车过山车。Rivet Town Roller是机器人园区的旋转过山车，Terraform Tower Challenge是跳楼机，Alpha Fighter Pilots是飞行类项目。Independence Day: Defiance是飞行影院，Invasion of the Planet of the Apes和Ice Age: Expedition Thin Ice是无轨暗骑项目。家庭游客会喜欢Epic Voyage to Moonhaven、Sid's Rock 'N' Slide和Blue Sky Carousel。餐饮方面，Buck's Café是乐园最大的餐厅，园内所有餐饮点均不含猪肉。",
+      "ar": "Samba Gliders في منطقة Rio قطار معلّق بارتفاع نحو 25 م، وAcorn Adventure في منطقة Ice Age قطار بنمط قطار المناجم بارتفاع مماثل. Rivet Town Roller قطار دوّار في منطقة Robots، وTerraform Tower Challenge برج سقوط، وAlpha Fighter Pilots لعبة طيران. Independence Day: Defiance سينما طائرة، وInvasion of the Planet of the Apes وIce Age: Expedition Thin Ice لعبتان مظلمتان بلا سكة. وستحب العائلات Epic Voyage to Moonhaven وSid's Rock 'N' Slide وBlue Sky Carousel. وللطعام يُعد Buck's Café أكبر مطاعم المتنزه، وجميع منافذ الطعام خالية من لحم الخنزير."
+    },
+    "ov_did_you_know_body": {
+      "en": "Genting SkyWorlds had its soft opening on 8 February 2022 and cost about US$800 million to build. It was first planned as \"20th Century Fox World\" and was renamed after a 2019 settlement. The park is billed as having 26 rides and attractions, and it welcomed its one millionth guest in late November 2025. The Samba Gliders opened on 12 February 2022 and Acorn Adventure on 30 April 2022. The old Highlands Hotel was renamed RW Hotel in May 2026.",
+      "es": "Genting SkyWorlds tuvo su apertura de prueba el 8 de febrero de 2022 y costó unos 800 millones de dólares. Se planeó primero como «20th Century Fox World» y cambió de nombre tras un acuerdo en 2019. Se presenta con 26 atracciones y recibió a su visitante un millón a finales de noviembre de 2025. Samba Gliders abrió el 12 de febrero de 2022 y Acorn Adventure el 30 de abril de 2022. El antiguo Highlands Hotel pasó a llamarse RW Hotel en mayo de 2026.",
+      "fr": "Genting SkyWorlds a eu son ouverture en douceur le 8 février 2022 et a coûté environ 800 millions de dollars. Il avait d'abord été prévu sous le nom de « 20th Century Fox World » avant d'être renommé après un accord en 2019. Le parc annonce 26 attractions et a accueilli son millionième visiteur fin novembre 2025. Samba Gliders a ouvert le 12 février 2022 et Acorn Adventure le 30 avril 2022. L'ancien Highlands Hotel a été rebaptisé RW Hotel en mai 2026.",
+      "de": "Genting SkyWorlds hatte am 8. Februar 2022 seine Probeeröffnung und kostete rund 800 Millionen US-Dollar. Ursprünglich als „20th Century Fox World“ geplant, wurde er nach einem Vergleich 2019 umbenannt. Der Park wirbt mit 26 Attraktionen und begrüßte Ende November 2025 seinen einmillionsten Gast. Samba Gliders eröffnete am 12. Februar 2022 und Acorn Adventure am 30. April 2022. Das frühere Highlands Hotel wurde im Mai 2026 in RW Hotel umbenannt.",
+      "it": "Genting SkyWorlds ha avuto il soft opening l'8 febbraio 2022 e è costato circa 800 milioni di dollari. Era stato progettato come «20th Century Fox World» ed è stato rinominato dopo un accordo nel 2019. Il parco dichiara 26 attrazioni e ha accolto il milionesimo ospite a fine novembre 2025. Samba Gliders ha aperto il 12 febbraio 2022 e Acorn Adventure il 30 aprile 2022. Il vecchio Highlands Hotel è stato rinominato RW Hotel a maggio 2026.",
+      "nl": "Genting SkyWorlds had op 8 februari 2022 zijn soft opening en kostte zo'n 800 miljoen dollar. Het was eerst gepland als «20th Century Fox World» en werd na een schikking in 2019 hernoemd. Het park spreekt van 26 attracties en verwelkomde eind november 2025 zijn miljoenste gast. Samba Gliders opende op 12 februari 2022 en Acorn Adventure op 30 april 2022. Het voormalige Highlands Hotel werd in mei 2026 omgedoopt tot RW Hotel.",
+      "pt": "O Genting SkyWorlds teve a abertura experimental a 8 de fevereiro de 2022 e custou cerca de 800 milhões de dólares. Foi planeado como «20th Century Fox World» e rebatizado após um acordo em 2019. O parque apresenta 26 atrações e recebeu o milionésimo visitante no final de novembro de 2025. A Samba Gliders abriu a 12 de fevereiro de 2022 e a Acorn Adventure a 30 de abril de 2022. O antigo Highlands Hotel passou a chamar-se RW Hotel em maio de 2026.",
+      "ru": "Генеральное пробное открытие Genting SkyWorlds состоялось 8 февраля 2022 года, а строительство обошлось примерно в 800 млн долларов США. Сначала парк планировали как «20th Century Fox World», а после урегулирования в 2019 году переименовали. Заявлено 26 аттракционов, а миллионного гостя парк принял в конце ноября 2025 года. Samba Gliders открылись 12 февраля 2022 года, а Acorn Adventure — 30 апреля 2022-го. Прежний Highlands Hotel в мае 2026 года стал RW Hotel.",
+      "zh": "Genting SkyWorlds于2022年2月8日试运营，造价约8亿美元。它最初计划命名为“20th Century Fox World”，2019年和解后更名。乐园宣称拥有26个游乐项目，2025年11月底迎来第100万名游客。Samba Gliders于2022年2月12日开放，Acorn Adventure于2022年4月30日开放。原Highlands Hotel已于2026年5月更名为RW Hotel。",
+      "ar": "بدأ جنتنغ سكاي ورلدز افتتاحه التجريبي في 8 فبراير 2022 وبلغت تكلفته نحو 800 مليون دولار. خُطط له أولاً باسم «20th Century Fox World» ثم أُعيدت تسميته بعد تسوية عام 2019. يُعلن المتنزه عن 26 لعبة ومعلماً، واستقبل زائره المليون في أواخر نوفمبر 2025. افتُتحت Samba Gliders في 12 فبراير 2022 وAcorn Adventure في 30 أبريل 2022. وتحوّل Highlands Hotel القديم إلى RW Hotel في مايو 2026."
+    },
+    "ov_plan_body": {
+      "en": "Genting SkyWorlds is open daily from 10:00 to 18:00 and closed on Tuesdays, except Malaysian public and school holidays; some rides close for scheduled maintenance, so check the day you plan to visit. The most recent official prices found were an online promotion in late 2025 (about RM60 for Malaysians and RM120 for non-Malaysians, against normal prices of RM168 and RM198), and 2026 prices have not been confirmed. Online tickets need to be bought at least a day ahead. Most visitors arrive by the Awana SkyWay cable car (about 10 minutes) and walk from SkyAvenue Station to the entrance. Night at the Museum: Midnight Mayhem and the new Mad Ramp Peak are not included, as neither is confirmed open. You can stay at Genting SkyWorlds Hotel, right next to the park, or at First World Hotel.",
+      "es": "Genting SkyWorlds abre todos los días de 10:00 a 18:00 y cierra los martes, salvo festivos y vacaciones escolares de Malasia; algunas atracciones cierran por mantenimiento programado, así que consulta el día que planeas ir. Los precios oficiales más recientes que encontramos son de una promoción en línea de finales de 2025 (unos 60 RM para malasios y 120 RM para no malasios, frente a precios normales de 168 RM y 198 RM); los precios de 2026 no están confirmados. Las entradas en línea deben comprarse con al menos un día de antelación. La mayoría llega en el teleférico Awana SkyWay (unos 10 minutos) y camina desde la estación SkyAvenue hasta la entrada. Night at the Museum: Midnight Mayhem y la nueva Mad Ramp Peak no se incluyen porque ninguna está confirmada como abierta. Puedes alojarte en el Genting SkyWorlds Hotel, junto al parque, o en el First World Hotel.",
+      "fr": "Genting SkyWorlds est ouvert tous les jours de 10 h à 18 h et fermé le mardi, sauf jours fériés et vacances scolaires malaisiens ; certaines attractions ferment pour maintenance programmée, vérifiez donc le jour de votre visite. Les derniers tarifs officiels trouvés datent d'une promotion en ligne fin 2025 (environ 60 RM pour les Malaisiens et 120 RM pour les non-Malaisiens, contre 168 RM et 198 RM en tarif normal) ; les tarifs 2026 ne sont pas confirmés. Les billets en ligne doivent être achetés au moins un jour à l'avance. La plupart des visiteurs arrivent par le téléphérique Awana SkyWay (environ 10 minutes) et marchent de la station SkyAvenue jusqu'à l'entrée. Night at the Museum: Midnight Mayhem et la nouvelle Mad Ramp Peak ne sont pas incluses, car aucune n'est confirmée ouverte. Vous pouvez loger au Genting SkyWorlds Hotel, juste à côté du parc, ou au First World Hotel.",
+      "de": "Genting SkyWorlds ist täglich von 10:00 bis 18:00 Uhr geöffnet und dienstags geschlossen, außer an malaysischen Feiertagen und Schulferien; einige Attraktionen sind wegen geplanter Wartung gesperrt, prüfen Sie also den Besuchstag. Die jüngsten gefundenen offiziellen Preise stammen aus einer Online-Aktion Ende 2025 (etwa 60 RM für Malaysier und 120 RM für Nicht-Malaysier, gegenüber Normalpreisen von 168 RM und 198 RM); die Preise für 2026 sind nicht bestätigt. Online-Tickets müssen mindestens einen Tag vorher gekauft werden. Die meisten kommen mit der Seilbahn Awana SkyWay (ca. 10 Minuten) und gehen von der SkyAvenue Station zum Eingang. Night at the Museum: Midnight Mayhem und das neue Mad Ramp Peak sind nicht enthalten, da beide nicht als geöffnet bestätigt sind. Übernachten können Sie im Genting SkyWorlds Hotel direkt am Park oder im First World Hotel.",
+      "it": "Genting SkyWorlds è aperto tutti i giorni dalle 10:00 alle 18:00 e chiuso il martedì, tranne nei giorni festivi e nelle vacanze scolastiche malesi; alcune attrazioni chiudono per manutenzione programmata, quindi controllate il giorno della visita. Gli ultimi prezzi ufficiali trovati risalgono a una promozione online di fine 2025 (circa 60 RM per i malesi e 120 RM per i non malesi, contro prezzi normali di 168 RM e 198 RM); i prezzi 2026 non sono confermati. I biglietti online vanno acquistati almeno un giorno prima. La maggior parte dei visitatori arriva con la funivia Awana SkyWay (circa 10 minuti) e cammina dalla stazione SkyAvenue all'ingresso. Night at the Museum: Midnight Mayhem e la nuova Mad Ramp Peak non sono incluse perché nessuna delle due è confermata aperta. Si può soggiornare al Genting SkyWorlds Hotel, accanto al parco, o al First World Hotel.",
+      "nl": "Genting SkyWorlds is dagelijks open van 10:00 tot 18:00 en dinsdag gesloten, behalve op Maleisische feest- en schoolvakantiedagen; sommige attracties zijn dicht voor gepland onderhoud, dus check de dag van je bezoek. De recentste officiële prijzen die we vonden stammen uit een online actie eind 2025 (ongeveer 60 RM voor Maleisiërs en 120 RM voor niet-Maleisiërs, tegenover normale prijzen van 168 RM en 198 RM); de prijzen voor 2026 zijn niet bevestigd. Online tickets moet je minstens een dag vooraf kopen. De meeste bezoekers komen met de kabelbaan Awana SkyWay (ongeveer 10 minuten) en lopen van SkyAvenue Station naar de ingang. Night at the Museum: Midnight Mayhem en de nieuwe Mad Ramp Peak zijn niet opgenomen omdat geen van beide bevestigd open is. Je kunt overnachten in het Genting SkyWorlds Hotel naast het park of in het First World Hotel.",
+      "pt": "O Genting SkyWorlds abre todos os dias das 10:00 às 18:00 e fecha às terças, exceto feriados e férias escolares da Malásia; algumas atrações fecham para manutenção programada, por isso consulte o dia da sua visita. Os preços oficiais mais recentes encontrados são de uma promoção online no final de 2025 (cerca de 60 RM para malaios e 120 RM para não malaios, contra preços normais de 168 RM e 198 RM); os preços de 2026 não estão confirmados. Os bilhetes online têm de ser comprados com pelo menos um dia de antecedência. A maioria chega pelo teleférico Awana SkyWay (cerca de 10 minutos) e caminha da estação SkyAvenue até à entrada. A Night at the Museum: Midnight Mayhem e a nova Mad Ramp Peak não estão incluídas porque nenhuma está confirmada como aberta. Pode ficar no Genting SkyWorlds Hotel, junto ao parque, ou no First World Hotel.",
+      "ru": "Genting SkyWorlds открыт ежедневно с 10:00 до 18:00 и закрыт по вторникам, кроме малайзийских праздников и школьных каникул; некоторые аттракционы закрываются на плановое обслуживание, поэтому проверьте нужный день. Последние найденные официальные цены относятся к онлайн-акции конца 2025 года (около 60 RM для малайзийцев и 120 RM для иностранцев при обычных 168 и 198 RM); цены на 2026 год не подтверждены. Онлайн-билеты нужно покупать минимум за день. Большинство гостей едут на канатной дороге Awana SkyWay (около 10 минут) и идут от станции SkyAvenue ко входу. Night at the Museum: Midnight Mayhem и новые Mad Ramp Peak не включены, так как ни один из них не подтверждён как открытый. Остановиться можно в Genting SkyWorlds Hotel рядом с парком или в First World Hotel.",
+      "zh": "Genting SkyWorlds每天10:00至18:00开放，周二休园（马来西亚公共假期和学校假期除外）；部分项目会因计划维护而关闭，出行前请确认当天情况。找到的最新官方价格来自2025年底的线上促销（马来西亚居民约60令吉，非马来西亚居民约120令吉，正常价分别为168和198令吉），2026年价格尚未确认。线上票须至少提前一天购买。大多数游客乘坐Awana SkyWay缆车（约10分钟），再从SkyAvenue站步行到入口。Night at the Museum: Midnight Mayhem和新项目Mad Ramp Peak因未确认开放而未收录。可入住紧邻乐园的Genting SkyWorlds Hotel，或First World Hotel。",
+      "ar": "يفتح جنتنغ سكاي ورلدز يومياً من 10:00 إلى 18:00 ويُغلق أيام الثلاثاء باستثناء العطل الرسمية والمدرسية الماليزية؛ وتُغلق بعض الألعاب للصيانة المجدولة لذا تحقق من يوم زيارتك. وأحدث الأسعار الرسمية التي وجدناها من عرض إلكتروني في أواخر 2025 (نحو 60 رينغيت للماليزيين و120 رينغيت لغير الماليزيين مقابل الأسعار العادية 168 و198)، وأسعار 2026 غير مؤكدة. يجب شراء التذاكر الإلكترونية قبل يوم على الأقل. ويصل معظم الزوار بالتلفريك Awana SkyWay (نحو 10 دقائق) ثم يمشون من محطة SkyAvenue إلى المدخل. لم تُدرج Night at the Museum: Midnight Mayhem ولا Mad Ramp Peak الجديدة لأن أياً منهما غير مؤكد الفتح. ويمكنك الإقامة في Genting SkyWorlds Hotel بجوار المتنزه أو في First World Hotel."
+    },
+    "ov_photos_body": {
+      "en": "The colourful Rio zone and the Ice Age area make cheerful photo backdrops, and the suspended Samba Gliders track stands out against the mountain mist. Genting Highlands often has cool, cloudy weather, which gives soft light but can hide the view, so allow time for the clouds to clear. Evening visits to the lit-up resort area are also atmospheric.",
+      "es": "La colorida zona Rio y el área de Ice Age son fondos alegres para las fotos, y la vía suspendida de Samba Gliders destaca contra la niebla de la montaña. Genting Highlands suele tener tiempo fresco y nublado, que da luz suave pero puede ocultar las vistas, así que deja tiempo para que se despejen las nubes. Las visitas al atardecer a la zona iluminada del resort también son atmosféricas.",
+      "fr": "La zone Rio colorée et l'espace Ice Age offrent de joyeux décors pour les photos, et la voie suspendue de Samba Gliders se détache sur la brume de la montagne. Genting Highlands connaît souvent un temps frais et nuageux, qui donne une lumière douce mais peut cacher la vue : prévoyez du temps pour que les nuages se dégagent. Les visites en soirée dans la zone illuminée du complexe sont aussi pleines d'ambiance.",
+      "de": "Der farbenfrohe Rio-Bereich und der Ice-Age-Bereich sind fröhliche Fotohintergründe, und die Hängebahn von Samba Gliders hebt sich vom Bergnebel ab. In Genting Highlands ist es oft kühl und bewölkt, was weiches Licht gibt, aber die Aussicht verdecken kann; planen Sie Zeit ein, bis die Wolken aufreißen. Auch Abendbesuche im beleuchteten Resortbereich sind stimmungsvoll.",
+      "it": "La colorata zona Rio e l'area Ice Age sono sfondi allegri per le foto, e il tracciato sospeso di Samba Gliders spicca contro la nebbia di montagna. Genting Highlands ha spesso tempo fresco e nuvoloso, che dà luce morbida ma può nascondere il panorama, quindi lasciate tempo perché le nuvole si diradino. Anche le visite serali nell'area illuminata del resort sono suggestive.",
+      "nl": "De kleurrijke Rio-zone en het Ice Age-gebied zijn vrolijke fotoachtergronden, en de hangende baan van Samba Gliders steekt af tegen de bergmist. Genting Highlands heeft vaak koel, bewolkt weer, wat zacht licht geeft maar het uitzicht kan verbergen, dus reken op tijd tot de wolken optrekken. Ook avondbezoeken aan het verlichte resortgebied zijn sfeervol.",
+      "pt": "A colorida zona Rio e a área Ice Age são cenários alegres para fotografias, e a via suspensa da Samba Gliders destaca-se contra a névoa da montanha. Genting Highlands tem muitas vezes tempo fresco e nublado, que dá luz suave mas pode esconder a vista, por isso deixe tempo para as nuvens abrirem. As visitas ao fim do dia à zona iluminada do resort também são cheias de atmosfera.",
+      "ru": "Яркая зона Rio и зона Ice Age — весёлый фон для фото, а подвесная трасса Samba Gliders выделяется на фоне горного тумана. В Гентинг-Хайлендс часто прохладно и облачно: свет мягкий, но облака могут закрывать вид, поэтому оставьте время, чтобы они разошлись. Вечерние прогулки по подсвеченной территории курорта тоже атмосферны.",
+      "zh": "色彩缤纷的Rio园区和冰川时代园区是欢快的拍照背景，Samba Gliders的悬挂轨道在山间云雾中格外醒目。云顶高原常常凉爽多云，光线柔和但可能遮挡景色，所以请留出时间等云散开。傍晚游览灯光璀璨的度假村区域也很有氛围。",
+      "ar": "تشكل منطقة Rio الملونة ومنطقة Ice Age خلفيات مبهجة للصور، ويبرز مسار Samba Gliders المعلّق على ضباب الجبل. ويكون الطقس في جنتنغ هايلاندز غالباً بارداً وغائماً، ما يمنح ضوءاً ناعماً لكنه قد يحجب المنظر، فاترك وقتاً لتنقشع الغيوم. كما أن الزيارات المسائية لمنطقة المنتجع المضاءة ذات أجواء ساحرة."
+    }
+  },
+  "attractions": {
+    "samba_gliders": {
+      "desc": {
+        "en": "Suspended coaster in the Rio zone, opened in 2022: about 25 m high, riders swing below the track. Min 95cm.",
+        "es": "Montaña rusa suspendida en la zona Rio, inaugurada en 2022: unos 25 m de altura, con los pasajeros colgando bajo la vía. Mín. 95cm.",
+        "fr": "Coaster suspendu dans la zone Rio, ouvert en 2022 : environ 25 m de haut, les passagers se balancent sous les rails. Min 95cm.",
+        "de": "Hängeachterbahn im Rio-Bereich, 2022 eröffnet: etwa 25 m hoch, die Passagiere schwingen unter der Schiene. Min 95cm.",
+        "it": "Montagna russa sospesa nella zona Rio, inaugurata nel 2022: alta circa 25 m, i passeggeri oscillano sotto i binari. Min 95cm.",
+        "nl": "Hangende achtbaan in de Rio-zone, geopend in 2022: ongeveer 25 m hoog, passagiers zwaaien onder de rails. Min 95cm.",
+        "pt": "Montanha-russa suspensa na zona Rio, inaugurada em 2022: cerca de 25 m de altura, os passageiros balançam sob os carris. Mín. 95cm.",
+        "ru": "Подвесные горки в зоне Rio, открытые в 2022 году: высота около 25 м, пассажиры раскачиваются под рельсами. Рост от 95 см.",
+        "zh": "Rio园区的悬挂式过山车，2022年开放：高约25米，乘客悬挂在轨道下方摆荡。最低身高95厘米。",
+        "ar": "قطار جبال روسية معلّق في منطقة Rio افتُتح عام 2022: ارتفاع نحو 25 م ويتأرجح الركاب تحت السكة. الحد الأدنى 95 سم."
+      }
+    },
+    "acorn_adventure": {
+      "desc": {
+        "en": "Mine-train style coaster in the Ice Age zone, opened in 2022: about 25 m high. Min 122cm.",
+        "es": "Montaña rusa estilo tren minero en la zona Ice Age, inaugurada en 2022: unos 25 m de altura. Mín. 122cm.",
+        "fr": "Coaster de style train de mine dans la zone Ice Age, ouvert en 2022 : environ 25 m de haut. Min 122cm.",
+        "de": "Minenzug-Achterbahn im Ice-Age-Bereich, 2022 eröffnet: etwa 25 m hoch. Min 122cm.",
+        "it": "Montagna russa in stile trenino minerario nella zona Ice Age, inaugurata nel 2022: alta circa 25 m. Min 122cm.",
+        "nl": "Achtbaan in mijntreinstijl in de Ice Age-zone, geopend in 2022: ongeveer 25 m hoog. Min 122cm.",
+        "pt": "Montanha-russa estilo comboio mineiro na zona Ice Age, inaugurada em 2022: cerca de 25 m de altura. Mín. 122cm.",
+        "ru": "Горки в стиле шахтёрского поезда в зоне Ice Age, открытые в 2022 году: высота около 25 м. Рост от 122 см.",
+        "zh": "冰川时代园区的矿车式过山车，2022年开放：高约25米。最低身高122厘米。",
+        "ar": "قطار جبال روسية بنمط قطار المناجم في منطقة Ice Age افتُتح عام 2022: ارتفاع نحو 25 م. الحد الأدنى 122 سم."
+      }
+    },
+    "rivet_town_roller": {
+      "desc": {
+        "en": "Spinning coaster in the Robots Rivet Town zone, opened in 2022. Min 122cm.",
+        "es": "Montaña rusa giratoria en la zona Robots Rivet Town, inaugurada en 2022. Mín. 122cm.",
+        "fr": "Coaster tournant dans la zone Robots Rivet Town, ouvert en 2022. Min 122cm.",
+        "de": "Spinning-Achterbahn im Robots-Rivet-Town-Bereich, 2022 eröffnet. Min 122cm.",
+        "it": "Montagna russa rotante nella zona Robots Rivet Town, inaugurata nel 2022. Min 122cm.",
+        "nl": "Spinning coaster in de Robots Rivet Town-zone, geopend in 2022. Min 122cm.",
+        "pt": "Montanha-russa giratória na zona Robots Rivet Town, inaugurada em 2022. Mín. 122cm.",
+        "ru": "Вращающиеся горки в зоне Robots Rivet Town, открытые в 2022 году. Рост от 122 см.",
+        "zh": "机器人总动员铆钉镇园区的旋转过山车，2022年开放。最低身高122厘米。",
+        "ar": "قطار جبال روسية دوّار في منطقة Robots Rivet Town افتُتح عام 2022. الحد الأدنى 122 سم."
+      }
+    },
+    "independence_day_defiance": {
+      "desc": {
+        "en": "Flying-theatre style ride in the Central Park zone, based on the Independence Day films. Min 100cm.",
+        "es": "Atracción tipo cine volador en la zona Central Park, basada en las películas de Independence Day. Mín. 100cm.",
+        "fr": "Attraction de type cinéma volant dans la zone Central Park, basée sur les films Independence Day. Min 100cm.",
+        "de": "Flugkino-Attraktion im Central-Park-Bereich nach den Independence-Day-Filmen. Min 100cm.",
+        "it": "Attrazione in stile cinema volante nella zona Central Park, ispirata ai film Independence Day. Min 100cm.",
+        "nl": "Attractie in vliegende-bioscoopstijl in de Central Park-zone, gebaseerd op de Independence Day-films. Min 100cm.",
+        "pt": "Atração estilo cinema voador na zona Central Park, baseada nos filmes Independence Day. Mín. 100cm.",
+        "ru": "Аттракцион типа летающего кинотеатра в зоне Central Park по мотивам фильмов «День независимости». Рост от 100 см.",
+        "zh": "中央公园园区的飞行影院式项目，改编自《独立日》系列电影。最低身高100厘米。",
+        "ar": "لعبة بنمط السينما الطائرة في منطقة Central Park مستوحاة من أفلام Independence Day. الحد الأدنى 100 سم."
+      }
+    },
+    "invasion_of_the_planet_of_the_apes": {
+      "desc": {
+        "en": "3D trackless dark ride in the Liberty Lane zone. Min 110cm.",
+        "es": "Atracción oscura 3D sin raíles en la zona Liberty Lane. Mín. 110cm.",
+        "fr": "Parcours scénique 3D sans rails dans la zone Liberty Lane. Min 110cm.",
+        "de": "Schienenloser 3D-Dark-Ride im Liberty-Lane-Bereich. Min 110cm.",
+        "it": "Dark ride 3D senza binari nella zona Liberty Lane. Min 110cm.",
+        "nl": "Spoorloze 3D-darkride in de Liberty Lane-zone. Min 110cm.",
+        "pt": "Atração escura 3D sem carris na zona Liberty Lane. Mín. 110cm.",
+        "ru": "Тёмный аттракцион 3D без рельсов в зоне Liberty Lane. Рост от 110 см.",
+        "zh": "Liberty Lane园区的3D无轨暗骑项目。最低身高110厘米。",
+        "ar": "لعبة مظلمة ثلاثية الأبعاد بلا سكة في منطقة Liberty Lane. الحد الأدنى 110 سم."
+      }
+    },
+    "terraform_tower_challenge": {
+      "desc": {
+        "en": "S&S drop tower in the Andromeda Base zone, opened in 2022. Min 122cm.",
+        "es": "Torre de caída S&S en la zona Andromeda Base, inaugurada en 2022. Mín. 122cm.",
+        "fr": "Tour de chute S&S dans la zone Andromeda Base, ouverte en 2022. Min 122cm.",
+        "de": "S&S-Drop-Tower im Andromeda-Base-Bereich, 2022 eröffnet. Min 122cm.",
+        "it": "Torre di caduta S&S nella zona Andromeda Base, inaugurata nel 2022. Min 122cm.",
+        "nl": "S&S-valtoren in de Andromeda Base-zone, geopend in 2022. Min 122cm.",
+        "pt": "Torre de queda S&S na zona Andromeda Base, inaugurada em 2022. Mín. 122cm.",
+        "ru": "Башня падения S&S в зоне Andromeda Base, открытая в 2022 году. Рост от 122 см.",
+        "zh": "仙女座基地园区的S&S跳楼机，2022年开放。最低身高122厘米。",
+        "ar": "برج سقوط S&S في منطقة Andromeda Base افتُتح عام 2022. الحد الأدنى 122 سم."
+      }
+    },
+    "alpha_fighter_pilots": {
+      "desc": {
+        "en": "Zamperla Air Race ride in the Andromeda Base zone: spin and swing in small fighter planes. Min 122cm.",
+        "es": "Atracción Air Race de Zamperla en la zona Andromeda Base: gira y oscila en pequeños cazas. Mín. 122cm.",
+        "fr": "Attraction Air Race de Zamperla dans la zone Andromeda Base : tournez et oscillez dans de petits avions de chasse. Min 122cm.",
+        "de": "Zamperla-Air-Race im Andromeda-Base-Bereich: In kleinen Kampfflugzeugen drehen und schwingen. Min 122cm.",
+        "it": "Giostra Air Race di Zamperla nella zona Andromeda Base: ruota e oscilla su piccoli caccia. Min 122cm.",
+        "nl": "Zamperla Air Race in de Andromeda Base-zone: draai en zwaai in kleine gevechtsvliegtuigen. Min 122cm.",
+        "pt": "Atração Air Race da Zamperla na zona Andromeda Base: gire e balance em pequenos caças. Mín. 122cm.",
+        "ru": "Аттракцион Air Race от Zamperla в зоне Andromeda Base: вращайтесь и раскачивайтесь в маленьких истребителях. Рост от 122 см.",
+        "zh": "仙女座基地园区的Zamperla Air Race项目：乘坐小型战斗机旋转摆荡。最低身高122厘米。",
+        "ar": "لعبة Air Race من Zamperla في منطقة Andromeda Base: دُر وتأرجح في طائرات مقاتلة صغيرة. الحد الأدنى 122 سم."
+      }
+    },
+    "esd_global_defender": {
+      "desc": {
+        "en": "Aerobat flight ride in the Central Park zone, opened in 2022. Min 130cm.",
+        "es": "Atracción de vuelo Aerobat en la zona Central Park, inaugurada en 2022. Mín. 130cm.",
+        "fr": "Attraction de vol Aerobat dans la zone Central Park, ouverte en 2022. Min 130cm.",
+        "de": "Aerobat-Flugfahrgeschäft im Central-Park-Bereich, 2022 eröffnet. Min 130cm.",
+        "it": "Giostra di volo Aerobat nella zona Central Park, inaugurata nel 2022. Min 130cm.",
+        "nl": "Aerobat-vliegattractie in de Central Park-zone, geopend in 2022. Min 130cm.",
+        "pt": "Atração de voo Aerobat na zona Central Park, inaugurada em 2022. Mín. 130cm.",
+        "ru": "Аттракцион-полёт Aerobat в зоне Central Park, открытый в 2022 году. Рост от 130 см.",
+        "zh": "中央公园园区的Aerobat飞行项目，2022年开放。最低身高130厘米。",
+        "ar": "لعبة طيران Aerobat في منطقة Central Park افتُتحت عام 2022. الحد الأدنى 130 سم."
+      }
+    },
+    "epic_voyage_to_moonhaven": {
+      "desc": {
+        "en": "Indoor boat ride in the Epic zone, opened in 2022, with a drop and splashes. Min 90cm.",
+        "es": "Paseo en barca cubierto en la zona Epic, inaugurado en 2022, con una caída y salpicaduras. Mín. 90cm.",
+        "fr": "Parcours en bateau couvert dans la zone Epic, ouvert en 2022, avec une chute et des éclaboussures. Min 90cm.",
+        "de": "Bootsfahrt in der Halle im Epic-Bereich, 2022 eröffnet, mit Abfahrt und Spritzern. Min 90cm.",
+        "it": "Giro in barca al coperto nella zona Epic, inaugurato nel 2022, con una discesa e qualche spruzzo. Min 90cm.",
+        "nl": "Overdekte boottocht in de Epic-zone, geopend in 2022, met een val en spetters. Min 90cm.",
+        "pt": "Passeio de barco interior na zona Epic, inaugurado em 2022, com uma queda e salpicos. Mín. 90cm.",
+        "ru": "Крытый аттракцион на лодках в зоне Epic, открытый в 2022 году, со спуском и брызгами. Рост от 90 см.",
+        "zh": "Epic园区的室内乘船项目，2022年开放，带落差和水花。最低身高90厘米。",
+        "ar": "رحلة قارب داخلية في منطقة Epic افتُتحت عام 2022 مع منحدر ورذاذ. الحد الأدنى 90 سم."
+      }
+    },
+    "ice_age_expedition_thin_ice": {
+      "desc": {
+        "en": "Trackless dark ride in the Ice Age zone, opened in 2022. Min 110cm.",
+        "es": "Atracción oscura sin raíles en la zona Ice Age, inaugurada en 2022. Mín. 110cm.",
+        "fr": "Parcours scénique sans rails dans la zone Ice Age, ouvert en 2022. Min 110cm.",
+        "de": "Schienenloser Dark Ride im Ice-Age-Bereich, 2022 eröffnet. Min 110cm.",
+        "it": "Dark ride senza binari nella zona Ice Age, inaugurato nel 2022. Min 110cm.",
+        "nl": "Spoorloze darkride in de Ice Age-zone, geopend in 2022. Min 110cm.",
+        "pt": "Atração escura sem carris na zona Ice Age, inaugurada em 2022. Mín. 110cm.",
+        "ru": "Тёмный аттракцион без рельсов в зоне Ice Age, открытый в 2022 году. Рост от 110 см.",
+        "zh": "冰川时代园区的无轨暗骑项目，2022年开放。最低身高110厘米。",
+        "ar": "لعبة مظلمة بلا سكة في منطقة Ice Age افتُتحت عام 2022. الحد الأدنى 110 سم."
+      }
+    },
+    "sids_rock_n_slide": {
+      "desc": {
+        "en": "Spinning log ride from Zierer in the Ice Age zone, opened in 2022. Min 100cm.",
+        "es": "Atracción giratoria de troncos de Zierer en la zona Ice Age, inaugurada en 2022. Mín. 100cm.",
+        "fr": "Attraction de troncs tournants de Zierer dans la zone Ice Age, ouverte en 2022. Min 100cm.",
+        "de": "Rotierende Baumstammfahrt von Zierer im Ice-Age-Bereich, 2022 eröffnet. Min 100cm.",
+        "it": "Giostra con tronchi rotanti di Zierer nella zona Ice Age, inaugurata nel 2022. Min 100cm.",
+        "nl": "Draaiende boomstamrit van Zierer in de Ice Age-zone, geopend in 2022. Min 100cm.",
+        "pt": "Atração de troncos giratórios da Zierer na zona Ice Age, inaugurada em 2022. Mín. 100cm.",
+        "ru": "Вращающийся аттракцион «бревно» от Zierer в зоне Ice Age, открытый в 2022 году. Рост от 100 см.",
+        "zh": "冰川时代园区Zierer的旋转原木项目，2022年开放。最低身高100厘米。",
+        "ar": "لعبة جذوع دوّارة من Zierer في منطقة Ice Age افتُتحت عام 2022. الحد الأدنى 100 سم."
+      }
+    },
+    "rio_carnaval_chaos": {
+      "desc": {
+        "en": "Spinning teacups ride from Zamperla in the Rio zone, opened in 2022. Min 90cm.",
+        "es": "Atracción de tazas giratorias de Zamperla en la zona Rio, inaugurada en 2022. Mín. 90cm.",
+        "fr": "Attraction de tasses tournantes de Zamperla dans la zone Rio, ouverte en 2022. Min 90cm.",
+        "de": "Tassenkarussell von Zamperla im Rio-Bereich, 2022 eröffnet. Min 90cm.",
+        "it": "Giostra di tazze rotanti di Zamperla nella zona Rio, inaugurata nel 2022. Min 90cm.",
+        "nl": "Draaiende theekopjes van Zamperla in de Rio-zone, geopend in 2022. Min 90cm.",
+        "pt": "Atração de chávenas giratórias da Zamperla na zona Rio, inaugurada em 2022. Mín. 90cm.",
+        "ru": "Вращающиеся чашки от Zamperla в зоне Rio, открытые в 2022 году. Рост от 90 см.",
+        "zh": "Rio园区Zamperla的旋转茶杯项目，2022年开放。最低身高90厘米。",
+        "ar": "لعبة فناجين دوّارة من Zamperla في منطقة Rio افتُتحت عام 2022. الحد الأدنى 90 سم."
+      }
+    },
+    "blue_sky_carousel": {
+      "desc": {
+        "en": "Double-decker carousel in the Rio zone, opened in 2022. Min 80cm.",
+        "es": "Carrusel de dos pisos en la zona Rio, inaugurado en 2022. Mín. 80cm.",
+        "fr": "Carrousel à deux étages dans la zone Rio, ouvert en 2022. Min 80cm.",
+        "de": "Doppelstock-Karussell im Rio-Bereich, 2022 eröffnet. Min 80cm.",
+        "it": "Carosello a due piani nella zona Rio, inaugurato nel 2022. Min 80cm.",
+        "nl": "Dubbeldeks draaimolen in de Rio-zone, geopend in 2022. Min 80cm.",
+        "pt": "Carrossel de dois andares na zona Rio, inaugurado em 2022. Mín. 80cm.",
+        "ru": "Двухэтажная карусель в зоне Rio, открытая в 2022 году. Рост от 80 см.",
+        "zh": "Rio园区的双层旋转木马，2022年开放。最低身高80厘米。",
+        "ar": "دوّامة خيل بطابقين في منطقة Rio افتُتحت عام 2022. الحد الأدنى 80 سم."
+      }
+    },
+    "bigwelds_zeppelins": {
+      "desc": {
+        "en": "Aerial family ride in the Robots Rivet Town zone, opened in 2022. Min 80cm.",
+        "es": "Atracción aérea familiar en la zona Robots Rivet Town, inaugurada en 2022. Mín. 80cm.",
+        "fr": "Attraction aérienne familiale dans la zone Robots Rivet Town, ouverte en 2022. Min 80cm.",
+        "de": "Familien-Flugfahrgeschäft im Robots-Rivet-Town-Bereich, 2022 eröffnet. Min 80cm.",
+        "it": "Giostra aerea per famiglie nella zona Robots Rivet Town, inaugurata nel 2022. Min 80cm.",
+        "nl": "Luchtattractie voor gezinnen in de Robots Rivet Town-zone, geopend in 2022. Min 80cm.",
+        "pt": "Atração aérea familiar na zona Robots Rivet Town, inaugurada em 2022. Mín. 80cm.",
+        "ru": "Семейный воздушный аттракцион в зоне Robots Rivet Town, открытый в 2022 году. Рост от 80 см.",
+        "zh": "机器人总动员铆钉镇园区的家庭空中项目，2022年开放。最低身高80厘米。",
+        "ar": "لعبة جوية عائلية في منطقة Robots Rivet Town افتُتحت عام 2022. الحد الأدنى 80 سم."
+      }
+    },
+    "epic_hummingbird_flyers": {
+      "desc": {
+        "en": "Zierer flying-gondola ride in the Epic zone, opened in 2022. Min 95cm.",
+        "es": "Atracción de góndolas voladoras de Zierer en la zona Epic, inaugurada en 2022. Mín. 95cm.",
+        "fr": "Attraction de nacelles volantes de Zierer dans la zone Epic, ouverte en 2022. Min 95cm.",
+        "de": "Zierer-Gondelflug-Fahrgeschäft im Epic-Bereich, 2022 eröffnet. Min 95cm.",
+        "it": "Giostra di gondole volanti di Zierer nella zona Epic, inaugurata nel 2022. Min 95cm.",
+        "nl": "Zierer-vliegende gondelattractie in de Epic-zone, geopend in 2022. Min 95cm.",
+        "pt": "Atração de gôndolas voadoras da Zierer na zona Epic, inaugurada em 2022. Mín. 95cm.",
+        "ru": "Аттракцион с летающими гондолами от Zierer в зоне Epic, открытый в 2022 году. Рост от 95 см.",
+        "zh": "Epic园区Zierer的飞行吊舱项目，2022年开放。最低身高95厘米。",
+        "ar": "لعبة مقصورات طائرة من Zierer في منطقة Epic افتُتحت عام 2022. الحد الأدنى 95 سم."
+      }
+    }
+  },
+  "food": {
+    "food_bucks_cafe": {
+      "desc": {
+        "en": "The park's largest restaurant, in the Ice Age zone, serving Western and Asian dishes.",
+        "es": "El restaurante más grande del parque, en la zona Ice Age, con platos occidentales y asiáticos.",
+        "fr": "Le plus grand restaurant du parc, dans la zone Ice Age, avec des plats occidentaux et asiatiques.",
+        "de": "Das größte Restaurant des Parks im Ice-Age-Bereich mit westlichen und asiatischen Gerichten.",
+        "it": "Il ristorante più grande del parco, nella zona Ice Age, con piatti occidentali e asiatici.",
+        "nl": "Het grootste restaurant van het park, in de Ice Age-zone, met westerse en Aziatische gerechten.",
+        "pt": "O maior restaurante do parque, na zona Ice Age, com pratos ocidentais e asiáticos.",
+        "ru": "Самый большой ресторан парка в зоне Ice Age: западные и азиатские блюда.",
+        "zh": "乐园最大的餐厅，位于冰川时代园区，供应西式和亚洲菜肴。",
+        "ar": "أكبر مطاعم المتنزه في منطقة Ice Age ويقدم أطباقاً غربية وآسيوية."
+      }
+    },
+    "food_peaches_cocoa_concoctions": {
+      "desc": {
+        "en": "Café in the Ice Age zone with hot chocolate, coffee and churros.",
+        "es": "Cafetería en la zona Ice Age con chocolate caliente, café y churros.",
+        "fr": "Café dans la zone Ice Age avec chocolat chaud, café et churros.",
+        "de": "Café im Ice-Age-Bereich mit heißer Schokolade, Kaffee und Churros.",
+        "it": "Caffè nella zona Ice Age con cioccolata calda, caffè e churros.",
+        "nl": "Café in de Ice Age-zone met warme chocolademelk, koffie en churros.",
+        "pt": "Café na zona Ice Age com chocolate quente, café e churros.",
+        "ru": "Кафе в зоне Ice Age: горячий шоколад, кофе и чуррос.",
+        "zh": "冰川时代园区的咖啡馆，供应热巧克力、咖啡和吉事果。",
+        "ar": "مقهى في منطقة Ice Age يقدم الشوكولاتة الساخنة والقهوة والتشوروس."
+      }
+    },
+    "food_golden_gate_garage": {
+      "desc": {
+        "en": "Hot dog stand in the Liberty Lane zone, with the extra-long Fuel Injector.",
+        "es": "Puesto de perritos calientes en la zona Liberty Lane, con el extralargo Fuel Injector.",
+        "fr": "Stand de hot-dogs dans la zone Liberty Lane, avec l'extra-long Fuel Injector.",
+        "de": "Hotdog-Stand im Liberty-Lane-Bereich mit dem extralangen Fuel Injector.",
+        "it": "Chiosco di hot dog nella zona Liberty Lane, con l'extra lungo Fuel Injector.",
+        "nl": "Hotdogkraam in de Liberty Lane-zone, met de extra lange Fuel Injector.",
+        "pt": "Banca de cachorros-quentes na zona Liberty Lane, com o extralongo Fuel Injector.",
+        "ru": "Киоск с хот-догами в зоне Liberty Lane: сверхдлинный Fuel Injector и обычные хот-доги.",
+        "zh": "Liberty Lane园区的热狗摊，供应超长热狗Fuel Injector和普通热狗。",
+        "ar": "كشك هوت دوغ في منطقة Liberty Lane يقدم Fuel Injector الطويل جداً وهوت دوغ عادياً."
+      }
+    },
+    "food_orbits_fried_dough": {
+      "desc": {
+        "en": "Snack stand in Central Park with fresh churros in flavours like Rainbow, Hot Dog and Donut.",
+        "es": "Puesto de aperitivos en Central Park con churros frescos de sabores como Rainbow, Hot Dog y Donut.",
+        "fr": "Stand de snacks dans Central Park avec churros frais aux saveurs Rainbow, Hot Dog et Donut.",
+        "de": "Snackstand im Central-Park-Bereich mit frischen Churros in Sorten wie Rainbow, Hot Dog und Donut.",
+        "it": "Chiosco di snack in Central Park con churros freschi in gusti come Rainbow, Hot Dog e Donut.",
+        "nl": "Snackkraam in Central Park met verse churros in smaken als Rainbow, Hot Dog en Donut.",
+        "pt": "Banca de snacks em Central Park com churros frescos em sabores como Rainbow, Hot Dog e Donut.",
+        "ru": "Киоск со свежими чурросами в Central Park: вкусы Rainbow, Hot Dog и Donut.",
+        "zh": "中央公园园区的小吃摊，供应彩虹、热狗和甜甜圈口味的现炸吉事果。",
+        "ar": "كشك وجبات خفيفة في Central Park يقدم تشوروس طازجاً بنكهات مثل Rainbow وHot Dog وDonut."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_genting_skyworlds_hotel": {
+      "desc": {
+        "en": "The closest hotel to the park, next to SkyAvenue, with 448 rooms.",
+        "es": "El hotel más cercano al parque, junto a SkyAvenue, con 448 habitaciones.",
+        "fr": "L'hôtel le plus proche du parc, à côté de SkyAvenue, avec 448 chambres.",
+        "de": "Das dem Park nächstgelegene Hotel neben SkyAvenue mit 448 Zimmern.",
+        "it": "L'hotel più vicino al parco, accanto a SkyAvenue, con 448 camere.",
+        "nl": "Het dichtstbijzijnde hotel bij het park, naast SkyAvenue, met 448 kamers.",
+        "pt": "O hotel mais próximo do parque, junto ao SkyAvenue, com 448 quartos.",
+        "ru": "Ближайший к парку отель рядом с SkyAvenue на 448 номеров.",
+        "zh": "距离乐园最近的酒店，毗邻SkyAvenue，共448间客房。",
+        "ar": "أقرب فندق إلى المتنزه بجوار SkyAvenue ويضم 448 غرفة."
+      }
+    },
+    "hotel_first_world_hotel": {
+      "desc": {
+        "en": "Huge hotel with 7,351 rooms near First World Plaza and SkyAvenue.",
+        "es": "Enorme hotel con 7.351 habitaciones cerca de First World Plaza y SkyAvenue.",
+        "fr": "Hôtel géant de 7 351 chambres près de First World Plaza et SkyAvenue.",
+        "de": "Riesiges Hotel mit 7.351 Zimmern nahe First World Plaza und SkyAvenue.",
+        "it": "Enorme hotel con 7.351 camere vicino a First World Plaza e SkyAvenue.",
+        "nl": "Enorm hotel met 7.351 kamers bij First World Plaza en SkyAvenue.",
+        "pt": "Enorme hotel com 7.351 quartos perto da First World Plaza e do SkyAvenue.",
+        "ru": "Огромный отель на 7351 номер рядом с First World Plaza и SkyAvenue.",
+        "zh": "拥有7351间客房的超大酒店，靠近First World Plaza和SkyAvenue。",
+        "ar": "فندق ضخم بـ7,351 غرفة قرب First World Plaza وSkyAvenue."
+      }
+    },
+    "hotel_rw_hotel": {
+      "desc": {
+        "en": "Resort hotel renamed from Highlands Hotel in May 2026.",
+        "es": "Hotel del resort rebautizado desde Highlands Hotel en mayo de 2026.",
+        "fr": "Hôtel du resort rebaptisé depuis Highlands Hotel en mai 2026.",
+        "de": "Resort-Hotel, im Mai 2026 vom Highlands Hotel umbenannt.",
+        "it": "Hotel del resort rinominato da Highlands Hotel a maggio 2026.",
+        "nl": "Resorthotel, in mei 2026 omgedoopt van Highlands Hotel.",
+        "pt": "Hotel do resort rebatizado de Highlands Hotel em maio de 2026.",
+        "ru": "Отель курорта, переименованный из Highlands Hotel в мае 2026 года.",
+        "zh": "度假村酒店，原Highlands Hotel，2026年5月更名。",
+        "ar": "فندق في المنتجع أُعيدت تسميته من Highlands Hotel في مايو 2026."
+      }
+    },
+    "hotel_genting_grand": {
+      "desc": {
+        "en": "Upscale hotel at Resorts World Genting with easy access to the attractions.",
+        "es": "Hotel de lujo en Resorts World Genting con fácil acceso a las atracciones.",
+        "fr": "Hôtel haut de gamme à Resorts World Genting avec accès facile aux attractions.",
+        "de": "Gehobenes Hotel im Resorts World Genting mit gutem Zugang zu den Attraktionen.",
+        "it": "Hotel di fascia alta a Resorts World Genting con facile accesso alle attrazioni.",
+        "nl": "Luxe hotel bij Resorts World Genting met makkelijke toegang tot de attracties.",
+        "pt": "Hotel de luxo em Resorts World Genting com fácil acesso às atrações.",
+        "ru": "Отель высокого класса в Resorts World Genting с удобным доступом к аттракционам.",
+        "zh": "云顶世界度假村的高档酒店，前往各景点十分方便。",
+        "ar": "فندق راقٍ في رزورتس وورلد جنتنغ بسهولة الوصول إلى المعالم."
+      }
+    },
+    "hotel_crockfords": {
+      "desc": {
+        "en": "Luxury hotel at Resorts World Genting, with superior rooms and villas.",
+        "es": "Hotel de lujo en Resorts World Genting, con habitaciones superiores y villas.",
+        "fr": "Hôtel de luxe à Resorts World Genting, avec chambres supérieures et villas.",
+        "de": "Luxushotel im Resorts World Genting mit Superior-Zimmern und Villen.",
+        "it": "Hotel di lusso a Resorts World Genting, con camere superior e ville.",
+        "nl": "Luxehotel bij Resorts World Genting, met superior kamers en villa's.",
+        "pt": "Hotel de luxo em Resorts World Genting, com quartos superiores e vilas.",
+        "ru": "Роскошный отель в Resorts World Genting с номерами улучшенной категории и виллами.",
+        "zh": "云顶世界度假村的豪华酒店，设有高级客房和别墅。",
+        "ar": "فندق فاخر في رزورتس وورلد جنتنغ بغرف سوبيريور وفلل."
+      }
+    }
+  }
+}

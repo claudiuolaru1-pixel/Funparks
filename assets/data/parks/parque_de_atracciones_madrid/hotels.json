@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hotel_password_to_madrid",
+    "name": "Password to Madrid Casa de Campo",
+    "description": "Password to Madrid Casa de Campo is a budget stay about 1.4 km from the park. The link opens a booking page, as no official site was found. Rates shown are rough estimates.",
+    "image": "assets/images/parque_de_atracciones_madrid/hotel_password_to_madrid.png",
+    "lat": 40.4202,
+    "lng": -3.7586,
+    "rating": 3.2,
+    "topPick": false,
+    "website": "https://www.booking.com/landmark/es/parque-de-atracciones.html",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Simple budget room.",
+        "pricePerNight": 65,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families.",
+        "pricePerNight": 95,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_nh_ribera_del_manzanares",
+    "name": "NH Madrid Ribera del Manzanares",
+    "description": "NH Madrid Ribera del Manzanares is a business-style hotel about 2.4 km from the park. Rates shown are rough estimates and vary a lot by date.",
+    "image": "assets/images/parque_de_atracciones_madrid/hotel_nh_ribera_del_manzanares.png",
+    "lat": 40.4007,
+    "lng": -3.74,
+    "rating": 4.3,
+    "topPick": true,
+    "website": "https://www.nh-hotels.com/en/hotel/nh-madrid-ribera-del-manzanares",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable standard room.",
+        "pricePerNight": 190,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families.",
+        "pricePerNight": 250,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_acta_madfor",
+    "name": "Hotel Acta Madfor",
+    "description": "Hotel Acta Madfor is a hotel on Paseo de la Florida, about 2.6 km from the park in a straight line. Rates shown are rough estimates.",
+    "image": "assets/images/parque_de_atracciones_madrid/hotel_acta_madfor.png",
+    "lat": 40.4213,
+    "lng": -3.724,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.actahotels.com/en/hotels/hotel-acta-madfor",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable standard room.",
+        "pricePerNight": 105,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families.",
+        "pricePerNight": 140,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_social_hub_madrid",
+    "name": "The Social Hub Madrid",
+    "description": "The Social Hub Madrid is a modern hotel about 3.1 km from the park. Rates shown are rough estimates.",
+    "image": "assets/images/parque_de_atracciones_madrid/hotel_social_hub_madrid.png",
+    "lat": 40.4244,
+    "lng": -3.7247,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.thesocialhub.co/madrid",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Modern standard room.",
+        "pricePerNight": 155,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families.",
+        "pricePerNight": 210,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_general_ricardos",
+    "name": "Hotel General Ricardos",
+    "description": "Hotel General Ricardos is a hotel about 3.1 km from the park. The link opens a booking page, as no official site was found. Rates shown are rough estimates.",
+    "image": "assets/images/parque_de_atracciones_madrid/hotel_general_ricardos.png",
+    "lat": 40.3925,
+    "lng": -3.7275,
+    "rating": 3.8,
+    "topPick": false,
+    "website": "https://www.booking.com/landmark/es/parque-de-atracciones.html",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Simple room.",
+        "pricePerNight": 90,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families.",
+        "pricePerNight": 125,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

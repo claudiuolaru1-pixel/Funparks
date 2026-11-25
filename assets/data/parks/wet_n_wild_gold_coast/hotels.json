@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_imperial_hotel_gold_coast",
+    "name": "Imperial Hotel Gold Coast",
+    "description": "Imperial Hotel Gold Coast is a luxury hotel at 94 Sea World Drive, Main Beach, about 100 m from the surf beach and next to the Marina Mirage shopping centre. It offers lagoon and balcony rooms and a range of suites, a calm base on the northern Gold Coast.",
+    "image": "assets/images/wet_n_wild_gold_coast/hotel_imperial_hotel_gold_coast.png",
+    "lat": -27.976,
+    "lng": 153.4283,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.theimperialgc.com.au/",
+    "rooms": [
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Elegant room with balcony or lagoon views and free WiFi.",
+        "pricePerNight": 420,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "lagoon_room",
+        "name": "Lagoon Room",
+        "description": "Room with direct access to the lagoon-style pool area.",
+        "pricePerNight": 520,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Superior Suite",
+        "description": "Spacious suite with separate living area.",
+        "pricePerNight": 780,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_jw_marriot_gold_coast",
+    "name": "JW Marriott Gold Coast Resort & Spa",
+    "description": "JW Marriott Gold Coast Resort & Spa is a luxury beachside resort in Surfers Paradise, with a spa, pools and several restaurants. A relaxing base for adults and families who want resort comfort on the Gold Coast, within a drive of the theme parks.",
+    "image": "assets/images/wet_n_wild_gold_coast/hotel_jw_marriot_gold_coast.png",
+    "lat": -27.9943,
+    "lng": 153.4301,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.marriott.com/hotels/travel/oolj-jw-marriott-gold-coast-resort-and-spa/",
+    "rooms": [
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Comfortable room with premium bedding and free WiFi.",
+        "pricePerNight": 280,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "ocean_view_room",
+        "name": "Ocean View Room",
+        "description": "Room with balcony and ocean views.",
+        "pricePerNight": 380,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with separate living area.",
+        "pricePerNight": 650,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_mantra_at_sharks",
+    "name": "Mantra at Sharks",
+    "description": "Mantra at Sharks is a contemporary 120-room hotel in the Gold Coast Health and Knowledge Precinct in Southport, with a free fitness centre and the Aviary Rooftop Bar. A practical, good-value base for families and groups, closer to Wet'n'Wild than the beachfront hotels.",
+    "image": "assets/images/wet_n_wild_gold_coast/hotel_mantra_at_sharks.png",
+    "lat": -27.9625,
+    "lng": 153.3685,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://southportsharks.com.au/hotel/about-mantra-at-sharks",
+    "rooms": [
+      {
+        "key": "studio",
+        "name": "Studio Room",
+        "description": "Modern room with queen bed, kitchenette and free WiFi.",
+        "pricePerNight": 190,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "one_bedroom",
+        "name": "One Bedroom Suite",
+        "description": "Suite with separate bedroom and living area.",
+        "pricePerNight": 260,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "two_bedroom",
+        "name": "Two Bedroom Suite",
+        "description": "Two-bedroom suite sleeping up to six, ideal for families.",
+        "pricePerNight": 340,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_peppers_soul_surfers_paradise",
+    "name": "Peppers Soul Surfers Paradise",
+    "description": "Peppers Soul Surfers Paradise is a 77-level luxury apartment tower at 8 The Esplanade, directly on the Surfers Paradise foreshore. Apartments have full kitchens, and there is a heated beach-view pool, a spa, sauna, steam room and gym. A stylish beachfront base for a Gold Coast holiday.",
+    "image": "assets/images/wet_n_wild_gold_coast/hotel_peppers_soul_surfers_paradise.png",
+    "lat": -28.0001,
+    "lng": 153.4302,
+    "rating": 4.6,
+    "topPick": false,
+    "website": "https://www.peppers.com.au/soul",
+    "rooms": [
+      {
+        "key": "one_bedroom",
+        "name": "One Bedroom Apartment",
+        "description": "Apartment with kitchen, balcony and ocean views.",
+        "pricePerNight": 430,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "two_bedroom",
+        "name": "Two Bedroom Apartment",
+        "description": "Larger apartment with two bedrooms and full kitchen.",
+        "pricePerNight": 640,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "sky_view",
+        "name": "Sky View Apartment",
+        "description": "High-floor apartment with panoramic coastline views.",
+        "pricePerNight": 900,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "food_gran_avenida",
+    "name": "Buffet Gran Avenida",
+    "description": "A self-service all-you-can-eat buffet with more than 30 products, such as meats, rice dishes and salads. Typical items are listed here, not an official menu. Prices here are estimates.",
+    "topPick": true,
+    "type": "Buffet",
+    "image": "assets/images/parque_de_atracciones_madrid/food_gran_avenida.png",
+    "lat": 40.4113,
+    "lng": -3.7515,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Meat Dishes",
+        "description": "Selection of meats from the buffet",
+        "price": 19
+      },
+      {
+        "name": "Rice Dishes",
+        "description": "Rice dishes from the buffet",
+        "price": 19
+      },
+      {
+        "name": "Salads",
+        "description": "Salad bar",
+        "price": 19
+      }
+    ]
+  },
+  {
+    "id": "food_el_templete",
+    "name": "Bocatas El Templete",
+    "description": "A sandwich bar with a terrace overlooking the waterfalls, serving bocadillos such as the serranito with pork loin or grilled chicken, fried peppers and jamón ibérico. Typical items are listed here, not an official menu. Prices here are estimates.",
+    "topPick": false,
+    "type": "Sandwiches",
+    "image": "assets/images/parque_de_atracciones_madrid/food_el_templete.png",
+    "lat": 40.4116,
+    "lng": -3.752,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Serranito",
+        "description": "Sandwich with pork loin or chicken, peppers and jamón ibérico",
+        "price": 8
+      },
+      {
+        "name": "Bocadillo",
+        "description": "Classic Spanish bocadillo",
+        "price": 6.5
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "food_nickelodeon_cafe",
+    "name": "Nickelodeon Café",
+    "description": "A kids-oriented café in Nickelodeon Land serving beef burgers, freshly made pizza and cheeseburgers, with gluten-free options. Typical items are listed here, not an official menu. Prices here are estimates.",
+    "topPick": false,
+    "type": "Cafe",
+    "image": "assets/images/parque_de_atracciones_madrid/food_nickelodeon_cafe.png",
+    "lat": 40.4122,
+    "lng": -3.7497,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Beef Burger",
+        "description": "100% beef hamburger",
+        "price": 9
+      },
+      {
+        "name": "Pizza",
+        "description": "Freshly made pizza",
+        "price": 8.5
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Cheeseburger, gluten-free option available",
+        "price": 9
+      }
+    ]
+  },
+  {
+    "id": "food_el_mirador",
+    "name": "Focacceria Pizzería El Mirador",
+    "description": "A pizzeria and focacceria with a terrace overlooking Los Fiordos and the carousel, serving fresh pizza, express pasta with a choice of sauces and artisan roscas. Typical items are listed here, not an official menu. Prices here are estimates.",
+    "topPick": false,
+    "type": "Pizzeria",
+    "image": "assets/images/parque_de_atracciones_madrid/food_el_mirador.png",
+    "lat": 40.4111,
+    "lng": -3.7527,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Pizza",
+        "description": "Freshly made pizza",
+        "price": 9
+      },
+      {
+        "name": "Express Pasta",
+        "description": "Pasta with a choice of sauces",
+        "price": 8
+      },
+      {
+        "name": "Artisan Rosca",
+        "description": "Artisan sweet ring bread",
+        "price": 4
+      }
+    ]
+  }
+]

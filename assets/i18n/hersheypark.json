@@ -1,0 +1,378 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Hersheypark is a family-friendly theme park in Hershey, Pennsylvania, founded in 1906 by Milton S. Hershey as a leisure park for the employees of his chocolate factory. Set on 121 acres in the heart of the “sweetest place on Earth”, it welcomes around 3 million visitors a year and offers 73 rides and attractions, including 14 roller coasters, 15 water rides and seven themed areas, plus ZooAmerica. The 2026 season is its 120th. Chocolate is part of everything here: the Hershey's Chocolatetown area, the chocolate-inspired dining and, from November, the glittering Christmas Candylane. Hersheypark is best for families and coaster fans alike, with rides for guests from 36 in (91 cm) tall.",
+      "es": "Hersheypark es un parque temático familiar en Hershey, Pensilvania, fundado en 1906 por Milton S. Hershey como parque de ocio para los empleados de su fábrica de chocolate. Situado en 49 hectáreas en el corazón del «lugar más dulce de la Tierra», recibe unos 3 millones de visitantes al año y ofrece 73 atracciones, entre ellas 14 montañas rusas, 15 atracciones acuáticas y siete zonas temáticas, además de ZooAmerica. La temporada 2026 es la número 120. El chocolate está presente en todo: la zona Hershey's Chocolatetown, la gastronomía con chocolate y, desde noviembre, el brillante Christmas Candylane. Es ideal para familias y aficionados a las montañas rusas, con atracciones desde 91 cm de altura.",
+      "fr": "Hersheypark est un parc d'attractions familial situé à Hershey, en Pennsylvanie, fondé en 1906 par Milton S. Hershey comme parc de loisirs pour les employés de sa chocolaterie. Étendu sur 49 hectares au cœur de « l'endroit le plus sucré de la Terre », il accueille environ 3 millions de visiteurs par an et propose 73 attractions, dont 14 montagnes russes, 15 attractions aquatiques et sept zones thématiques, ainsi que ZooAmerica. La saison 2026 est la 120e. Le chocolat est partout : le quartier Hershey's Chocolatetown, les restaurants inspirés du chocolat et, dès novembre, le scintillant Christmas Candylane. Idéal pour les familles et les amateurs de sensations fortes, avec des attractions accessibles dès 91 cm.",
+      "de": "Hersheypark ist ein familienfreundlicher Freizeitpark in Hershey, Pennsylvania, 1906 von Milton S. Hershey als Freizeitpark für die Mitarbeiter seiner Schokoladenfabrik gegründet. Auf 49 Hektar im Herzen des „süßesten Ortes der Welt“ begrüßt er jährlich rund 3 Millionen Besucher und bietet 73 Attraktionen, darunter 14 Achterbahnen, 15 Wasserattraktionen und sieben Themenbereiche sowie ZooAmerica. 2026 ist die 120. Saison. Schokolade ist allgegenwärtig: im Bereich Hershey's Chocolatetown, in der schokoladigen Gastronomie und ab November im glitzernden Christmas Candylane. Ideal für Familien und Achterbahnfans, mit Fahrgeschäften ab 91 cm Körpergröße.",
+      "it": "Hersheypark è un parco divertimenti per famiglie a Hershey, in Pennsylvania, fondato nel 1906 da Milton S. Hershey come parco ricreativo per i dipendenti della sua fabbrica di cioccolato. Esteso su 49 ettari nel cuore del «posto più dolce della Terra», accoglie circa 3 milioni di visitatori all'anno e offre 73 attrazioni, tra cui 14 montagne russe, 15 attrazioni acquatiche e sette aree tematiche, oltre a ZooAmerica. La stagione 2026 è la 120ª. Il cioccolato è ovunque: l'area Hershey's Chocolatetown, la ristorazione ispirata al cioccolato e, da novembre, lo scintillante Christmas Candylane. Ideale per famiglie e appassionati di montagne russe, con attrazioni a partire da 91 cm di altezza.",
+      "nl": "Hersheypark is een gezinsvriendelijk pretpark in Hershey, Pennsylvania, in 1906 opgericht door Milton S. Hershey als recreatiepark voor de werknemers van zijn chocoladefabriek. Het park beslaat 49 hectare in het hart van ‘de zoetste plek op aarde’, trekt jaarlijks ongeveer 3 miljoen bezoekers en biedt 73 attracties, waaronder 14 achtbanen, 15 waterattracties en zeven themagebieden, plus ZooAmerica. Het seizoen 2026 is het 120e. Chocolade zit overal in: het gebied Hershey's Chocolatetown, de chocoladegerichte restaurants en vanaf november het sprankelende Christmas Candylane. Ideaal voor gezinnen en achtbaanfans, met attracties vanaf 91 cm lengte.",
+      "pt": "O Hersheypark é um parque de diversões familiar em Hershey, na Pensilvânia, fundado em 1906 por Milton S. Hershey como parque de lazer para os funcionários da sua fábrica de chocolate. Com 49 hectares no coração do «lugar mais doce da Terra», recebe cerca de 3 milhões de visitantes por ano e oferece 73 atrações, incluindo 14 montanhas-russas, 15 atrações aquáticas e sete áreas temáticas, além do ZooAmerica. A temporada de 2026 é a 120.ª. O chocolate está em tudo: a área Hershey's Chocolatetown, a gastronomia inspirada no chocolate e, a partir de novembro, o brilhante Christmas Candylane. Ideal para famílias e fãs de montanhas-russas, com atrações a partir de 91 cm de altura.",
+      "ru": "Hersheypark — семейный парк развлечений в Херши, штат Пенсильвания. Его основал в 1906 году Милтон С. Херши как место отдыха для работников своей шоколадной фабрики. Парк площадью 49 гектаров расположен в «самом сладком месте на Земле», принимает около 3 миллионов гостей в год и предлагает 73 аттракциона, включая 14 американских горок, 15 водных аттракционов и семь тематических зон, а также ZooAmerica. Сезон 2026 года — 120-й. Шоколад здесь повсюду: зона Hershey's Chocolatetown, рестораны с шоколадными блюдами и, начиная с ноября, сверкающий Christmas Candylane. Идеально подходит семьям и любителям американских горок: есть аттракционы для роста от 91 см.",
+      "zh": "好时公园（Hersheypark）是位于宾夕法尼亚州好时镇的家庭主题乐园，由米尔顿·S·好时于1906年创建，最初是为其巧克力工厂员工打造的休闲公园。乐园占地约49公顷，坐落在“地球上最甜蜜的地方”，每年接待约300万游客，拥有73项游乐设施，包括14座过山车、15项水上设施和七大主题区，另有ZooAmerica动物园。2026年是它的第120个运营季。巧克力无处不在：好时巧克力镇（Hershey's Chocolatetown）、巧克力主题餐饮，以及11月起璃糨的Christmas Candylane圣诞活动。非常适合家庭和过山车爱好者，身高91厘米以上即可体验部分项目。",
+      "ar": "هيرشي بارك (Hersheypark) متنزه ترفيهي عائلي في مدينة هيرشي بولاية بنسلفانيا، أسسه ميلتون س. هيرشي عام 1906 كمتنزه ترفيهي لموظفي مصنع الشوكولاتة الخاص به. يمتد على مساحة 49 هكتاراً في قلب «أحلى مكان على الأرض»، ويستقبل نحو 3 ملايين زائر سنوياً، ويضم 73 لعبة ومعلماً، بينها 14 قطاراً هوائياً و١٥ لعبة مائية وسبع مناطق موضوعية، إضافة إلى حديقة ZooAmerica. موسم 2026 هو الموسم العشرون بعد المئة. الشوكولاتة حاضرة في كل مكان: منطقة Hershey's Chocolatetown، والمطاعم ذات الطابع الشوكولاتي، وابتداءً من نوفمبر احتفال Christmas Candylane المتألق. مناسب للعائلات وعشاق القطارات الهوائية، مع ألعاب تناسب ارتفاع 91 سم فما فوق."
+    },
+    "ov_highlights_body": {
+      "en": "Don't miss Candymonium, Skyrush and Storm Runner for big-thrill coasters, Fahrenheit's near-vertical 97° first drop, and the classic wooden Comet, which turns 80 in 2026. Lightning Racer sends two trains racing side by side, Laff Trakk is a glow-in-the-dark indoor spinning coaster, and The Boardwalk water park, home of the Breakers Edge water coaster, is the way to cool off in summer. For food, try the chocolate-inspired dishes at The Chocolatier in Chocolatetown. Guests of the Official Resorts of Hersheypark (The Hotel Hershey, Hershey Lodge, the new Hershey Inn & Suites and the Camping Resort) get resort perks such as ticket discounts and extra park hours.",
+      "es": "No te pierdas Candymonium, Skyrush y Storm Runner para sentir grandes emociones, la primera caída casi vertical de 97° de Fahrenheit y la clásica montaña rusa de madera Comet, que cumple 80 años en 2026. En Lightning Racer dos trenes compiten lado a lado, Laff Trakk es una montaña rusa giratoria interior que brilla en la oscuridad y el parque acuático The Boardwalk, con la montaña rusa acuática Breakers Edge, es ideal para refrescarse en verano. Para comer, prueba los platos inspirados en el chocolate de The Chocolatier, en Chocolatetown. Los huéspedes de los Official Resorts of Hersheypark (The Hotel Hershey, Hershey Lodge, el nuevo Hershey Inn & Suites y el Camping Resort) disfrutan de ventajas como descuentos en entradas y horas extra en el parque.",
+      "fr": "À ne pas manquer : Candymonium, Skyrush et Storm Runner pour les grandes sensations, la première descente quasi verticale à 97° de Fahrenheit et le Comet, montagnes russes classiques en bois, qui fête ses 80 ans en 2026. Lightning Racer fait courir deux trains côte à côte, Laff Trakk est un grand huit tournant en intérieur qui brille dans le noir, et le parc aquatique The Boardwalk, avec les montagnes russes aquatiques Breakers Edge, permet de se rafraîchir l'été. Côté restauration, essayez les plats inspirés du chocolat de The Chocolatier à Chocolatetown. Les clients des Official Resorts of Hersheypark (The Hotel Hershey, Hershey Lodge, le nouveau Hershey Inn & Suites et le Camping Resort) profitent d'avantages comme des réductions sur les billets et des heures d'ouverture supplémentaires.",
+      "de": "Nicht verpassen: Candymonium, Skyrush und Storm Runner für große Thrills, Fahrenheits fast senkrechte erste Abfahrt mit 97° und die klassische Holzachterbahn Comet, die 2026 ihren 80. Geburtstag feiert. Bei Lightning Racer rasen zwei Züge nebeneinander, Laff Trakk ist eine im Dunkeln leuchtende Indoor-Spinning-Achterbahn, und der Wasserpark The Boardwalk mit der Wasserachterbahn Breakers Edge sorgt im Sommer für Abkühlung. Zum Essen gibt es schokoladeninspirierte Gerichte im The Chocolatier in Chocolatetown. Gäste der Official Resorts of Hersheypark (The Hotel Hershey, Hershey Lodge, das neue Hershey Inn & Suites und das Camping Resort) profitieren von Vorteilen wie Ticketrabatten und zusätzlichen Parkzeiten.",
+      "it": "Da non perdere: Candymonium, Skyrush e Storm Runner per le grandi emozioni, la prima discesa quasi verticale di 97° di Fahrenheit e la classica montagna russa in legno Comet, che compie 80 anni nel 2026. Su Lightning Racer due treni sfrecciano fianco a fianco, Laff Trakk è una montagna russa rotante al coperto che brilla al buio e il parco acquatico The Boardwalk, con la water coaster Breakers Edge, è l'ideale per rinfrescarsi d'estate. Per mangiare, prova i piatti ispirati al cioccolato di The Chocolatier a Chocolatetown. Gli ospiti degli Official Resorts of Hersheypark (The Hotel Hershey, Hershey Lodge, il nuovo Hershey Inn & Suites e il Camping Resort) hanno vantaggi come sconti sui biglietti e ore extra nel parco.",
+      "nl": "Mis Candymonium, Skyrush en Storm Runner niet voor grote sensatie, de bijna verticale eerste afdaling van 97° van Fahrenheit en de klassieke houten achtbaan Comet, die in 2026 80 jaar wordt. Bij Lightning Racer racen twee treinen naast elkaar, Laff Trakk is een in het donker oplichtende indoor-spinning-achtbaan en het waterpark The Boardwalk met de waterachtbaan Breakers Edge is dé manier om af te koelen in de zomer. Probeer voor eten de chocoladegerichte gerechten van The Chocolatier in Chocolatetown. Gasten van de Official Resorts of Hersheypark (The Hotel Hershey, Hershey Lodge, het nieuwe Hershey Inn & Suites en het Camping Resort) krijgen voordelen zoals ticketkorting en extra parkuren.",
+      "pt": "Não perca Candymonium, Skyrush e Storm Runner para grandes emoções, a primeira descida quase vertical de 97° da Fahrenheit e a clássica montanha-russa de madeira Comet, que completa 80 anos em 2026. Na Lightning Racer dois comboios correm lado a lado, a Laff Trakk é uma montanha-russa giratória interior que brilha no escuro e o parque aquático The Boardwalk, com a montanha-russa aquática Breakers Edge, é ideal para refrescar no verão. Para comer, experimente os pratos inspirados no chocolate do The Chocolatier, em Chocolatetown. Os hóspedes dos Official Resorts of Hersheypark (The Hotel Hershey, Hershey Lodge, o novo Hershey Inn & Suites e o Camping Resort) têm vantagens como descontos nos bilhetes e horas extra no parque.",
+      "ru": "Не пропустите Candymonium, Skyrush и Storm Runner для сильных эмоций, почти вертикальный первый спуск Fahrenheit под углом 97° и классические деревянные горки Comet, которым в 2026 году исполняется 80 лет. На Lightning Racer два поезда мчатся бок о бок, Laff Trakk — крытые вращающиеся горки, светящиеся в темноте, а аквапарк The Boardwalk с водными горками Breakers Edge поможет освежиться летом. Из еды попробуйте блюда в шоколадном стиле в ресторане The Chocolatier в Chocolatetown. Гости официальных курортов Hersheypark (The Hotel Hershey, Hershey Lodge, новый Hershey Inn & Suites и Camping Resort) получают бонусы: скидки на билеты и дополнительные часы в парке.",
+      "zh": "不容错过：刺激十足的Candymonium、Skyrush和Storm Runner，Fahrenheit近乎垂直的97°首跌，以及2026年迎来80岁生日的经典木质过山车Comet。Lightning Racer让两列列车并排竞速，Laff Trakk是室内夜光旋转过山车，而设有Breakers Edge水上过山车的The Boardwalk水上乐园是夏日消暑的好去处。美食方面，推荐在巧克力镇的The Chocolatier品尝巧克力风味菜肴。入住好时公园官方度假酒店（The Hotel Hershey、Hershey Lodge、全新的Hershey Inn & Suites和Camping Resort）的客人可享门票优惠和额外入园时段等福利。",
+      "ar": "لا تفوّت Candymonium وSkyrush وStorm Runner لعشاق الإثارة، ونزول Fahrenheit الأول شبه العمودي بزاوية 97 درجة، وقطار Comet الخشبي الكلاسيكي الذي يحتفل بعامه الثمانين في 2026. في Lightning Racer يتسابق قطاران جنباً إلى جنب، أما Laff Trakk فهو قطار دوّار داخلي يتوهج في الظلام، ويُعد منتزه The Boardwalk المائي، حيث قطار Breakers Edge المائي، أفضل وسيلة للانتعاش في الصيف. وللطعام جرّب الأطباق المستوحاة من الشوكولاتة في مطعم The Chocolatier في Chocolatetown. ويحصل نزلاء المنتجعات الرسمية لـ Hersheypark (The Hotel Hershey وHershey Lodge والفندق الجديد Hershey Inn & Suites وCamping Resort) على مزايا مثل خصومات التذاكر وساعات إضافية في المتنزه."
+    },
+    "ov_did_you_know_body": {
+      "en": "Hersheypark opened on 30 May 1906. Comet, built by Philadelphia Toboggan Coasters, has run since 1946 and celebrates its 80th anniversary in 2026. At 210 ft (64 m) and 76 mph (122 km/h), Candymonium is the park's tallest and fastest coaster. Two new water play areas, The Inlet and The Island, opened at Bayside Pier for summer 2026, and the new Hershey Inn & Suites joins the resorts in 2026.",
+      "es": "Hersheypark abrió el 30 de mayo de 1906. Comet, construida por Philadelphia Toboggan Coasters, funciona desde 1946 y celebra su 80.º aniversario en 2026. Con 64 m (210 ft) y 122 km/h (76 mph), Candymonium es la montaña rusa más alta y rápida del parque. Dos nuevas zonas de juegos acuáticos, The Inlet y The Island, abrieron en Bayside Pier para el verano de 2026, y el nuevo Hershey Inn & Suites se suma a los resorts en 2026.",
+      "fr": "Hersheypark a ouvert le 30 mai 1906. Comet, construit par Philadelphia Toboggan Coasters, fonctionne depuis 1946 et fête ses 80 ans en 2026. Avec 64 m (210 ft) et 122 km/h (76 mph), Candymonium est le grand huit le plus haut et le plus rapide du parc. Deux nouvelles aires de jeux d'eau, The Inlet et The Island, ont ouvert à Bayside Pier pour l'été 2026, et le nouvel Hershey Inn & Suites rejoint les hôtels en 2026.",
+      "de": "Hersheypark eröffnete am 30. Mai 1906. Comet, gebaut von Philadelphia Toboggan Coasters, fährt seit 1946 und feiert 2026 sein 80-jähriges Jubiläum. Mit 64 m (210 ft) Höhe und 122 km/h (76 mph) ist Candymonium die höchste und schnellste Achterbahn des Parks. Zwei neue Wasserspielbereiche, The Inlet und The Island, eröffneten für den Sommer 2026 am Bayside Pier, und das neue Hershey Inn & Suites kommt 2026 zu den Resorts hinzu.",
+      "it": "Hersheypark ha aperto il 30 maggio 1906. Comet, costruita da Philadelphia Toboggan Coasters, funziona dal 1946 e celebra il suo 80° anniversario nel 2026. Con 64 m (210 ft) e 122 km/h (76 mph), Candymonium è la montagna russa più alta e veloce del parco. Due nuove aree gioco con l'acqua, The Inlet e The Island, hanno aperto a Bayside Pier per l'estate 2026, e il nuovo Hershey Inn & Suites si aggiunge ai resort nel 2026.",
+      "nl": "Hersheypark opende op 30 mei 1906. Comet, gebouwd door Philadelphia Toboggan Coasters, rijdt sinds 1946 en viert in 2026 haar 80e verjaardag. Met 64 m (210 ft) en 122 km/u (76 mph) is Candymonium de hoogste en snelste achtbaan van het park. Twee nieuwe waterspeelgebieden, The Inlet en The Island, openden voor de zomer van 2026 bij Bayside Pier, en het nieuwe Hershey Inn & Suites komt in 2026 bij de resorts.",
+      "pt": "O Hersheypark abriu em 30 de maio de 1906. A Comet, construída pela Philadelphia Toboggan Coasters, funciona desde 1946 e celebra o seu 80.º aniversário em 2026. Com 64 m (210 ft) e 122 km/h (76 mph), a Candymonium é a montanha-russa mais alta e mais rápida do parque. Duas novas áreas de brincadeiras aquáticas, The Inlet e The Island, abriram em Bayside Pier para o verão de 2026, e o novo Hershey Inn & Suites junta-se aos resorts em 2026.",
+      "ru": "Hersheypark открылся 30 мая 1906 года. Comet, построенные Philadelphia Toboggan Coasters, работают с 1946 года, а в 2026 году им исполняется 80 лет. С высотой 64 м (210 футов) и скоростью 122 км/ч (76 миль/ч) Candymonium — самые высокие и быстрые горки парка. Две новые зоны водных игр, The Inlet и The Island, открылись у Bayside Pier к лету 2026 года, а новый Hershey Inn & Suites пополнит курорты в 2026 году.",
+      "zh": "好时公园于1906年5月30日开园。由Philadelphia Toboggan Coasters建造的Comet自1946年运行至今，2026年迎来80周年。Candymonium高64米（210英尺），时速122公里（76英里），是园内最高、最快的过山车。两处新的戏水区The Inlet和The Island于2026年夏季在Bayside Pier开放，全新的Hershey Inn & Suites也于2026年加入度假酒店行列。",
+      "ar": "افتُتح هيرشي بارك في 30 مايو 1906. وقطار Comet الذي بنته شركة Philadelphia Toboggan Coasters يعمل منذ عام 1946 ويحتفل بعامه الثمانين في 2026. وبارتفاع 64 متراً (210 أقدام) وسرعة 122 كم/س (76 ميلاً/س)، يُعد Candymonium أعلى وأسرع قطار هوائي في المتنزه. وقد افتُتحت منطقتان جديدتان للعب بالماء، The Inlet وThe Island، في Bayside Pier لصيف 2026، كما ينضم فندق Hershey Inn & Suites الجديد إلى المنتجعات في 2026."
+    },
+    "ov_plan_body": {
+      "en": "Arrive before opening and head straight to Candymonium or Skyrush, as the biggest coasters build the longest queues by late morning. Storm Runner and Fahrenheit are good next stops, and Laff Trakk is a smart choice when it is hot or raining because it is indoors. Hersheypark's paid Quick Queue can save time on busy days. The Boardwalk water park and ZooAmerica are included with admission, so bring swimwear in summer. Guests of the Official Resorts get perks such as ticket discounts and extra park hours. Buying tickets online in advance is usually cheaper than at the gate, and Hershey's Chocolate World, just outside the park, is a free and tasty extra stop.",
+      "es": "Llega antes de la apertura y ve directo a Candymonium o Skyrush, porque las montañas rusas más grandes acumulan las colas más largas a media mañana. Storm Runner y Fahrenheit son buenas siguientes paradas, y Laff Trakk es una gran opción cuando hace calor o llueve porque es interior. El Quick Queue de pago de Hersheypark puede ahorrar tiempo los días de mucha afluencia. El parque acuático The Boardwalk y ZooAmerica están incluidos en la entrada, así que lleva bañador en verano. Los huéspedes de los Official Resorts tienen ventajas como descuentos en entradas y horas extra en el parque. Comprar las entradas online con antelación suele salir más barato que en taquilla, y Hershey's Chocolate World, justo fuera del parque, es una parada extra gratuita y deliciosa.",
+      "fr": "Arrivez avant l'ouverture et filez directement à Candymonium ou Skyrush, car les plus grands grands huit ont les files les plus longues dès la fin de matinée. Storm Runner et Fahrenheit sont de bonnes étapes suivantes, et Laff Trakk est un excellent choix quand il fait chaud ou qu'il pleut, car il est en intérieur. Le Quick Queue payant de Hersheypark peut faire gagner du temps les jours d'affluence. Le parc aquatique The Boardwalk et ZooAmerica sont inclus dans l'entrée, pensez donc au maillot de bain en été. Les clients des Official Resorts profitent d'avantages comme des réductions sur les billets et des heures supplémentaires dans le parc. Acheter ses billets en ligne à l'avance est généralement moins cher qu'à l'entrée, et Hershey's Chocolate World, juste à l'extérieur du parc, est une étape gratuite et gourmande.",
+      "de": "Kommen Sie vor der Öffnung und gehen Sie direkt zu Candymonium oder Skyrush, denn die größten Achterbahnen haben ab dem späten Vormittag die längsten Warteschlangen. Storm Runner und Fahrenheit sind gute nächste Stationen, und Laff Trakk ist bei Hitze oder Regen eine kluge Wahl, da die Bahn in einer Halle fährt. Der kostenpflichtige Quick Queue von Hersheypark kann an vollen Tagen Zeit sparen. Der Wasserpark The Boardwalk und ZooAmerica sind im Eintritt enthalten, packen Sie im Sommer also Badesachen ein. Gäste der Official Resorts erhalten Vorteile wie Ticketrabatte und zusätzliche Parkzeit. Online gekaufte Tickets sind meist günstiger als an der Tageskasse, und Hershey's Chocolate World direkt vor dem Park ist ein kostenloser, leckerer Zusatzstopp.",
+      "it": "Arriva prima dell'apertura e vai subito a Candymonium o Skyrush, perché le montagne russe più grandi hanno le code più lunghe già a tarda mattina. Storm Runner e Fahrenheit sono buone tappe successive, e Laff Trakk è una scelta intelligente quando fa caldo o piove perché si trova al coperto. Il Quick Queue a pagamento di Hersheypark può far risparmiare tempo nei giorni affollati. Il parco acquatico The Boardwalk e ZooAmerica sono inclusi nell'ingresso, quindi porta il costume in estate. Gli ospiti dei Official Resorts hanno vantaggi come sconti sui biglietti e ore extra nel parco. Comprare i biglietti online in anticipo costa di solito meno che alla cassa, e Hershey's Chocolate World, appena fuori dal parco, è una tappa extra gratuita e golosa.",
+      "nl": "Kom voor de opening en ga meteen naar Candymonium of Skyrush, want de grootste achtbanen krijgen tegen het einde van de ochtend de langste rijen. Storm Runner en Fahrenheit zijn goede vervolgstops, en Laff Trakk is een slimme keuze bij hitte of regen omdat hij binnen staat. De betaalde Quick Queue van Hersheypark kan op drukke dagen tijd besparen. Het waterpark The Boardwalk en ZooAmerica zijn bij de toegang inbegrepen, dus neem in de zomer zwemkleding mee. Gasten van de Official Resorts krijgen voordelen zoals ticketkorting en extra parkuren. Tickets vooraf online kopen is meestal goedkoper dan aan de kassa, en Hershey's Chocolate World, vlak buiten het park, is een gratis en lekkere extra stop.",
+      "pt": "Chegue antes da abertura e vá direto a Candymonium ou Skyrush, porque as maiores montanhas-russas têm as filas mais longas já a meio da manhã. Storm Runner e Fahrenheit são boas paragens seguintes, e Laff Trakk é uma escolha inteligente quando está calor ou chove, por ser no interior. O Quick Queue pago do Hersheypark pode poupar tempo nos dias de muito movimento. O parque aquático The Boardwalk e o ZooAmerica estão incluídos na entrada, por isso leve fato de banho no verão. Os hóspedes dos Official Resorts têm vantagens como descontos nos bilhetes e horas extra no parque. Comprar os bilhetes online com antecedência costuma ser mais barato do que na bilheteira, e o Hershey's Chocolate World, mesmo à saída do parque, é uma paragem extra gratuita e deliciosa.",
+      "ru": "Приезжайте до открытия и сразу идите на Candymonium или Skyrush: к концу утра у самых больших горок образуются самые длинные очереди. Следующими хороши Storm Runner и Fahrenheit, а Laff Trakk — отличный выбор в жару или дождь, так как аттракцион расположен в помещении. Платный Quick Queue в Hersheypark может сэкономить время в загруженные дни. Аквапарк The Boardwalk и ZooAmerica входят в стоимость билета, поэтому летом возьмите купальник. Гости Official Resorts получают бонусы, например скидки на билеты и дополнительные часы в парке. Билеты, купленные заранее онлайн, обычно дешевле, чем в кассе, а Hershey's Chocolate World прямо за территорией парка — бесплатная и вкусная остановка.",
+      "zh": "请在开园前到达，直奔Candymonium或Skyrush，因为最大型的过山车在上午晚些时候排队最长。接下来可以去Storm Runner和Fahrenheit；天气炎热或下雨时，位于室内的Laff Trakk是明智的选择。在人多的日子，Hersheypark的付费Quick Queue可以节省时间。The Boardwalk水上乐园和ZooAmerica均包含在门票内，夏季请带上泳衣。官方度假酒店（Official Resorts）的住客可享受门票折扣和延长入园时间等优惠。提前在线购票通常比现场购票便宜，而公园外的Hershey's Chocolate World是免费又美味的额外一站。",
+      "ar": "احرص على الوصول قبل الافتتاح واتجه مباشرة إلى Candymonium أو Skyrush، فأكبر القطارات الهوائية تشهد أطول طوابير منذ أواخر الصباح. وتُعد Storm Runner وFahrenheit محطتين تاليتين جيدتين، كما أن Laff Trakk خيار ذكي في الحر أو المطر لأنها في الداخل. يمكن لخدمة Quick Queue المدفوعة في Hersheypark أن توفر الوقت في الأيام المزدحمة. ويشمل سعر الدخول منتزه The Boardwalk المائي وحديقة ZooAmerica، فاحضر ملابس السباحة في الصيف. ويحصل نزلاء Official Resorts على مزايا مثل خصومات التذاكر وساعات إضافية في المتنزه. وشراء التذاكر عبر الإنترنت مسبقاً أرخص عادةً من شرائها عند البوابة، كما أن Hershey's Chocolate World خارج المتنزه مباشرة محطة إضافية مجانية ولذيذة."
+    },
+    "ov_photos_body": {
+      "en": "Candymonium photographed from Chocolatetown, with its 210 ft (64 m) lift hill rising over the rooftops, is the defining image of Hersheypark. Skyrush's wing seats tipping over the first drop make a dramatic shot, and Fahrenheit's near-vertical climb looks best from below against a blue sky. The white timber structure of the classic Comet is a lovely subject at golden hour, and Laff Trakk's glowing sign and entrance stand out after dark. In winter, Christmas Candylane lights add a magical sparkle to every corner of the park.",
+      "es": "Candymonium fotografiada desde Chocolatetown, con su colina de elevación de 64 m (210 ft) sobre los tejados, es la imagen más representativa de Hersheypark. Los asientos tipo ala de Skyrush inclinándose en la primera caída dan una foto espectacular, y la subida casi vertical de Fahrenheit luce mejor desde abajo con el cielo azul. La estructura de madera blanca de la clásica Comet es un tema precioso a la hora dorada, y el cartel luminoso y la entrada de Laff Trakk destacan al caer la noche. En invierno, las luces de Christmas Candylane añaden un brillo mágico a cada rincón del parque.",
+      "fr": "Candymonium photographié depuis Chocolatetown, avec sa colline de lancement de 64 m (210 ft) qui domine les toits, est l'image emblématique de Hersheypark. Les sièges ailés de Skyrush qui basculent dans la première descente donnent un cliché spectaculaire, et la montée quasi verticale de Fahrenheit se photographie mieux d'en bas, sur fond de ciel bleu. La structure en bois blanc de la classique Comet est un beau sujet à l'heure dorée, et l'enseigne lumineuse et l'entrée de Laff Trakk ressortent à la nuit tombée. En hiver, les lumières de Christmas Candylane ajoutent un éclat magique à chaque recoin du parc.",
+      "de": "Candymonium, fotografiert von Chocolatetown aus, mit dem 64 m (210 ft) hohen Lifthill über den Dächern, ist das typische Bild von Hersheypark. Die Wing-Sitze von Skyrush, die in die erste Abfahrt kippen, ergeben ein dramatisches Foto, und der fast senkrechte Anstieg von Fahrenheit wirkt von unten vor blauem Himmel am besten. Die weiße Holzkonstruktion der klassischen Comet ist zur goldenen Stunde ein schönes Motiv, und das leuchtende Schild und der Eingang von Laff Trakk fallen nach Einbruch der Dunkelheit auf. Im Winter verleihen die Lichter von Christmas Candylane jeder Ecke des Parks einen magischen Glanz.",
+      "it": "Candymonium fotografata da Chocolatetown, con la sua salita di 64 m (210 ft) che svetta sopra i tetti, è l'immagine simbolo di Hersheypark. I sedili ad ala di Skyrush che si inclinano nella prima discesa regalano uno scatto spettacolare, e la salita quasi verticale di Fahrenheit rende meglio dal basso contro il cielo azzurro. La struttura in legno bianco della classica Comet è un bel soggetto all'ora dorata, e l'insegna luminosa e l'ingresso di Laff Trakk risaltano dopo il tramonto. In inverno le luci di Christmas Candylane aggiungono un tocco magico a ogni angolo del parco.",
+      "nl": "Candymonium gefotografeerd vanaf Chocolatetown, met de 64 m (210 ft) hoge liftheuvel boven de daken, is het kenmerkende beeld van Hersheypark. De wing-zitplaatsen van Skyrush die over de eerste afdaling kantelen geven een dramatische foto, en de bijna verticale klim van Fahrenheit komt het best uit van onderaf tegen een blauwe lucht. De witte houten constructie van de klassieke Comet is een prachtig onderwerp tijdens het gouden uur, en het oplichtende bord en de ingang van Laff Trakk vallen na zonsondergang op. In de winter geven de lichtjes van Christmas Candylane elke hoek van het park een magische glans.",
+      "pt": "Candymonium fotografada a partir de Chocolatetown, com a sua colina de elevação de 64 m (210 ft) sobre os telhados, é a imagem mais característica do Hersheypark. Os assentos tipo asa da Skyrush a inclinarem-se na primeira descida dão uma fotografia dramática, e a subida quase vertical da Fahrenheit fica melhor vista de baixo contra o céu azul. A estrutura de madeira branca da clássica Comet é um belo tema à hora dourada, e o letreiro luminoso e a entrada da Laff Trakk destacam-se depois de anoitecer. No inverno, as luzes do Christmas Candylane dão um brilho mágico a cada canto do parque.",
+      "ru": "Candymonium, снятая со стороны Chocolatetown, с подъёмом высотой 64 м (210 футов) над крышами — главный кадр Hersheypark. Крыльевые сиденья Skyrush, наклоняющиеся на первом спуске, дают эффектный снимок, а почти вертикальный подъём Fahrenheit лучше снимать снизу на фоне голубого неба. Белая деревянная конструкция классической Comet прекрасна в золотой час, а светящаяся вывеска и вход Laff Trakk выделяются после наступления темноты. Зимой огни Christmas Candylane придают волшебный блеск каждому уголку парка.",
+      "zh": "从Chocolatetown拍摄的Candymonium，64米（210英尺）的提升坡道耸立在屋顶之上，是Hersheypark最具代表性的画面。Skyrush的翼式座椅在首跌处倾斜而下，是极具戏剧性的一张照片；Fahrenheit近乎垂直的爬升则最适合在下方以蓝天为背景拍摄。经典Comet的白色木质结构在黄金时刻格外迷人，Laff Trakk发光的招牌和入口在夜幕降临后十分醒目。冬季，Christmas Candylane的灯光为公园的每个角落增添魔幻光彩。",
+      "ar": "صورة Candymonium من Chocolatetown، مع تلّ الصعود البالغ ارتفاعه 64 متراً (210 أقدام) فوق الأسطح، هي الصورة الأشهر لـ Hersheypark. ومقاعد Skyrush الجانبية وهي تميل في الهبوط الأول تمنح لقطة مثيرة، أما صعود Fahrenheit شبه العمودي فيبدو أجمل من الأسفل على خلفية سماء زرقاء. والهيكل الخشبي الأبيض لقطار Comet الكلاسيكي موضوع جميل في الساعة الذهبية، فيما تبرز اللافتة المضيئة ومدخل Laff Trakk بعد حلول الظلام. وفي الشتاء تضفي أضواء Christmas Candylane بريقاً ساحراً على كل ركن من المتنزه."
+    }
+  },
+  "attractions": {
+    "skyrush": {
+      "desc": {
+        "en": "Intamin wing coaster that climbs 200 ft (61 m) and drops 212 ft (65 m) at up to 75 mph (121 km/h), with riders seated on the sides of the track. Min 137cm.",
+        "es": "Montaña rusa Wing de Intamin que sube 61 m (200 ft) y cae 65 m (212 ft) a hasta 121 km/h (75 mph), con los pasajeros sentados a los lados de la vía. Mín. 137cm.",
+        "fr": "Montagnes russes Wing d'Intamin qui montent à 61 m (200 ft) et plongent de 65 m (212 ft) jusqu'à 121 km/h (75 mph), avec les passagers assis de chaque côté de la voie. Min 137cm.",
+        "de": "Intamin-Wing-Coaster, der 61 m (200 ft) hoch fährt und 65 m (212 ft) in die Tiefe stürzt, mit bis zu 121 km/h (75 mph); die Fahrgäste sitzen seitlich der Schiene. Min 137cm.",
+        "it": "Wing coaster di Intamin che sale a 61 m (200 ft) e scende di 65 m (212 ft) fino a 121 km/h (75 mph), con i passeggeri seduti ai lati del binario. Min 137cm.",
+        "nl": "Intamin Wing Coaster die 61 m (200 ft) omhoog klimt en 65 m (212 ft) naar beneden stort met tot 121 km/u (75 mph); de passagiers zitten aan de zijkanten van het spoor. Min 137cm.",
+        "pt": "Montanha-russa Wing da Intamin que sobe 61 m (200 ft) e cai 65 m (212 ft) a até 121 km/h (75 mph), com os passageiros sentados dos lados da via. Mín. 137cm.",
+        "ru": "Крыльевые горки Intamin: подъём на 61 м (200 футов), спуск 65 м (212 футов) и скорость до 121 км/ч (75 миль/ч); пассажиры сидят по бокам от рельсов. Рост от 137 см.",
+        "zh": "Intamin翼式过山车，攀升至61米（200英尺），首跌65米（212英尺），时速最高121公里（75英里），乘客坐在轨道两侧。最低身高137厘米。",
+        "ar": "قطار Intamin الهوائي من طراز Wing يصعد إلى 61 متراً (200 قدم) ويهبط 65 متراً (212 قدماً) بسرعة تصل إلى 121 كم/س (75 ميلاً/س)، ويجلس الركاب على جانبي المسار. الحد الأدنى 137 سم."
+      }
+    },
+    "candymonium": {
+      "desc": {
+        "en": "Bolliger & Mabillard hypercoaster rising 210 ft (64 m) over Hershey's Chocolatetown, with a 216 ft (66 m) first drop and a top speed of 76 mph (122 km/h). Min 137cm.",
+        "es": "Hypercoaster de Bolliger & Mabillard que se eleva 64 m (210 ft) sobre Hershey's Chocolatetown, con una primera caída de 66 m (216 ft) y una velocidad máxima de 122 km/h (76 mph). Mín. 137cm.",
+        "fr": "Hypercoaster de Bolliger & Mabillard qui s'élève à 64 m (210 ft) au-dessus de Hershey's Chocolatetown, avec une première descente de 66 m (216 ft) et une vitesse maximale de 122 km/h (76 mph). Min 137cm.",
+        "de": "Bolliger-&-Mabillard-Hypercoaster, der 64 m (210 ft) über Hershey's Chocolatetown aufragt, mit 66 m (216 ft) erster Abfahrt und bis zu 122 km/h (76 mph). Min 137cm.",
+        "it": "Hypercoaster di Bolliger & Mabillard che si innalza a 64 m (210 ft) sopra Hershey's Chocolatetown, con una prima discesa di 66 m (216 ft) e una velocità massima di 122 km/h (76 mph). Min 137cm.",
+        "nl": "Bolliger & Mabillard-hypercoaster die 64 m (210 ft) boven Hershey's Chocolatetown uitsteekt, met een eerste afdaling van 66 m (216 ft) en een topsnelheid van 122 km/u (76 mph). Min 137cm.",
+        "pt": "Hypercoaster da Bolliger & Mabillard que se ergue 64 m (210 ft) sobre Hershey's Chocolatetown, com uma primeira descida de 66 m (216 ft) e velocidade máxima de 122 km/h (76 mph). Mín. 137cm.",
+        "ru": "Гиперкоастер Bolliger & Mabillard высотой 64 м (210 футов) над Hershey's Chocolatetown: первый спуск 66 м (216 футов), максимальная скорость 122 км/ч (76 миль/ч). Рост от 137 см.",
+        "zh": "Bolliger & Mabillard超级过山车，高64米（210英尺），耸立于好时巧克力镇上空，首跌66米（216英尺），最高时速122公里（76英里）。最低身高137厘米。",
+        "ar": "قطار Bolliger & Mabillard الهوائي العملاق (Hypercoaster) يرتفع 64 متراً (210 أقدام) فوق Hershey's Chocolatetown، بهبوط أول يبلغ 66 متراً (216 قدماً) وسرعة قصوى 122 كم/س (76 ميلاً/س). الحد الأدنى 137 سم."
+      }
+    },
+    "fahrenheit": {
+      "desc": {
+        "en": "Intamin coaster with a 121 ft (37 m) near-vertical climb and a 97° first drop, followed by loops and corkscrews at up to 58 mph (93 km/h). Min 137cm.",
+        "es": "Montaña rusa de Intamin con una subida casi vertical de 37 m (121 ft) y una primera caída de 97°, seguida de loopings y tirabuzones a hasta 93 km/h (58 mph). Mín. 137cm.",
+        "fr": "Montagnes russes d'Intamin avec une montée quasi verticale de 37 m (121 ft) et une première descente à 97°, suivie de loopings et de tire-bouchons jusqu'à 93 km/h (58 mph). Min 137cm.",
+        "de": "Intamin-Achterbahn mit einem fast senkrechten Aufstieg von 37 m (121 ft) und einer ersten Abfahrt mit 97°, gefolgt von Loopings und Korkenziehern mit bis zu 93 km/h (58 mph). Min 137cm.",
+        "it": "Montagna russa di Intamin con una salita quasi verticale di 37 m (121 ft) e una prima discesa a 97°, seguite da giri della morte e cavatappi fino a 93 km/h (58 mph). Min 137cm.",
+        "nl": "Intamin-achtbaan met een bijna verticale klim van 37 m (121 ft) en een eerste afdaling van 97°, gevolgd door loopings en kurkentrekkers tot 93 km/u (58 mph). Min 137cm.",
+        "pt": "Montanha-russa da Intamin com uma subida quase vertical de 37 m (121 ft) e uma primeira descida de 97°, seguidas de loopings e parafusos a até 93 km/h (58 mph). Mín. 137cm.",
+        "ru": "Горки Intamin с почти вертикальным подъёмом на 37 м (121 фут) и первым спуском под углом 97°, затем петли и штопоры на скорости до 93 км/ч (58 миль/ч). Рост от 137 см.",
+        "zh": "Intamin过山车，近乎垂直攀升37米（121英尺），首跌角度97°，随后穿越环圈和螺旋，时速最高93公里（58英里）。最低身高137厘米。",
+        "ar": "قطار Intamin الهوائي بصعود شبه عمودي يبلغ 37 متراً (121 قدماً) ونزول أول بزاوية 97 درجة، تليه حلقات ولوالب بسرعة تصل إلى 93 كم/س (58 ميلاً/س). الحد الأدنى 137 سم."
+      }
+    },
+    "great_bear": {
+      "desc": {
+        "en": "Bolliger & Mabillard inverted coaster from 1998: riders' feet dangle below the track through four inversions. Min 137cm.",
+        "es": "Montaña rusa invertida de Bolliger & Mabillard de 1998: los pasajeros viajan con los pies colgando bajo la vía a través de cuatro inversiones. Mín. 137cm.",
+        "fr": "Montagnes russes inversées de Bolliger & Mabillard (1998) : les passagers ont les pieds dans le vide sous la voie et traversent quatre inversions. Min 137cm.",
+        "de": "Hängeachterbahn von Bolliger & Mabillard aus dem Jahr 1998: Die Füße der Fahrgäste baumeln unter der Schiene durch vier Inversionen. Min 137cm.",
+        "it": "Montagna russa invertita di Bolliger & Mabillard del 1998: i passeggeri viaggiano con i piedi penzoloni sotto il binario attraverso quattro inversioni. Min 137cm.",
+        "nl": "Hangende achtbaan van Bolliger & Mabillard uit 1998: de benen van de passagiers bungelen onder het spoor door vier inversies. Min 137cm.",
+        "pt": "Montanha-russa invertida da Bolliger & Mabillard de 1998: os passageiros viajam com os pés a balançar sob a via por quatro inversões. Mín. 137cm.",
+        "ru": "Подвесные горки Bolliger & Mabillard 1998 года: ноги пассажиров свободно болтаются под рельсами на протяжении четырёх инверсий. Рост от 137 см.",
+        "zh": "Bolliger & Mabillard倒挂式过山车，1998年开放，乘客双脚悬空于轨道下方，穿越四个倒转。最低身高137厘米。",
+        "ar": "قطار Bolliger & Mabillard المقلوب الذي افتُتح عام 1998، حيث تتدلى أقدام الركاب أسفل المسار عبر أربع انقلابات. الحد الأدنى 137 سم."
+      }
+    },
+    "storm_runner": {
+      "desc": {
+        "en": "Intamin hydraulic launch coaster that fires riders to 72 mph (116 km/h) and up a 150 ft (46 m) peak, with three inversions. Min 137cm.",
+        "es": "Montaña rusa de lanzamiento hidráulico de Intamin que catapulta a los pasajeros a 116 km/h (72 mph) por un pico de 46 m (150 ft), con tres inversiones. Mín. 137cm.",
+        "fr": "Montagnes russes à lancement hydraulique d'Intamin qui propulsent les passagers à 116 km/h (72 mph) jusqu'à un sommet de 46 m (150 ft), avec trois inversions. Min 137cm.",
+        "de": "Intamin-Katapultachterbahn mit hydraulischem Start, die Fahrgäste auf 116 km/h (72 mph) beschleunigt und über einen 46 m (150 ft) hohen Gipfel mit drei Inversionen schickt. Min 137cm.",
+        "it": "Montagna russa a lancio idraulico di Intamin che spinge i passeggeri a 116 km/h (72 mph) fino a un picco di 46 m (150 ft), con tre inversioni. Min 137cm.",
+        "nl": "Intamin-achtbaan met hydraulische lancering die passagiers naar 116 km/u (72 mph) schiet en over een top van 46 m (150 ft) stuurt, met drie inversies. Min 137cm.",
+        "pt": "Montanha-russa de lançamento hidráulico da Intamin que dispara os passageiros a 116 km/h (72 mph) por um pico de 46 m (150 ft), com três inversões. Mín. 137cm.",
+        "ru": "Горки Intamin с гидравлическим запуском: пассажиров разгоняют до 116 км/ч (72 мили/ч) и поднимают на вершину высотой 46 м (150 футов); три инверсии. Рост от 137 см.",
+        "zh": "Intamin液压弹射过山车，将乘客加速至时速116公里（72英里），冲上46米（150英尺）的高点，并穿越三个倒转。最低身高137厘米。",
+        "ar": "قطار Intamin الهوائي بالإطلاق الهيدروليكي الذي ينطلق بالركاب إلى 116 كم/س (72 ميلاً/س) ويصعد بهم قمة بارتفاع 46 متراً (150 قدماً) مع ثلاث انقلابات. الحد الأدنى 137 سم."
+      }
+    },
+    "lightning_racer": {
+      "desc": {
+        "en": "Wooden dueling coaster by Great Coasters International where two trains race side by side at up to 51 mph (82 km/h). Min 122cm.",
+        "es": "Montaña rusa de madera de duelo de Great Coasters International en la que dos trenes compiten lado a lado a hasta 82 km/h (51 mph). Mín. 122cm.",
+        "fr": "Montagnes russes en bois à duel de Great Coasters International où deux trains font la course côte à côte jusqu'à 82 km/h (51 mph). Min 122cm.",
+        "de": "Hölzerne Duell-Achterbahn von Great Coasters International, bei der zwei Züge mit bis zu 82 km/h (51 mph) nebeneinander um die Wette fahren. Min 122cm.",
+        "it": "Montagna russa in legno a duello di Great Coasters International in cui due treni gareggiano fianco a fianco fino a 82 km/h (51 mph). Min 122cm.",
+        "nl": "Houten duelachtbaan van Great Coasters International waarbij twee treinen naast elkaar racen met tot 82 km/u (51 mph). Min 122cm.",
+        "pt": "Montanha-russa de madeira de duelo da Great Coasters International em que dois comboios correm lado a lado a até 82 km/h (51 mph). Mín. 122cm.",
+        "ru": "Деревянные парные горки Great Coasters International: два поезда мчатся бок о бок со скоростью до 82 км/ч (51 миля/ч). Рост от 122 см.",
+        "zh": "Great Coasters International建造的木质对决过山车，两列列车并排竞速，时速最高82公里（51英里）。最低身高122厘米。",
+        "ar": "قطار خشبي متنافس من Great Coasters International يتسابق فيه قطاران جنباً إلى جنب بسرعة تصل إلى 82 كم/س (51 ميلاً/س). الحد الأدنى 122 سم."
+      }
+    },
+    "comet": {
+      "desc": {
+        "en": "Classic wooden coaster built in 1946 by Philadelphia Toboggan Coasters, 84 ft (26 m) tall and running at 50 mph (80 km/h). Celebrates its 80th anniversary in 2026. Min 107cm.",
+        "es": "Montaña rusa clásica de madera construida en 1946 por Philadelphia Toboggan Coasters, de 26 m (84 ft) de altura y 80 km/h (50 mph). Celebra su 80.º aniversario en 2026. Mín. 107cm.",
+        "fr": "Montagnes russes classiques en bois construites en 1946 par Philadelphia Toboggan Coasters, hautes de 26 m (84 ft) et roulant à 80 km/h (50 mph). Elles fêtent leurs 80 ans en 2026. Min 107cm.",
+        "de": "Klassische Holzachterbahn, 1946 von Philadelphia Toboggan Coasters gebaut, 26 m (84 ft) hoch und mit 80 km/h (50 mph) unterwegs. Feiert 2026 ihren 80. Geburtstag. Min 107cm.",
+        "it": "Classica montagna russa in legno costruita nel 1946 da Philadelphia Toboggan Coasters, alta 26 m (84 ft) e con velocità di 80 km/h (50 mph). Celebra l'80° anniversario nel 2026. Min 107cm.",
+        "nl": "Klassieke houten achtbaan, in 1946 gebouwd door Philadelphia Toboggan Coasters, 26 m (84 ft) hoog en met 80 km/u (50 mph). Viert in 2026 haar 80e verjaardag. Min 107cm.",
+        "pt": "Montanha-russa clássica de madeira construída em 1946 pela Philadelphia Toboggan Coasters, com 26 m (84 ft) de altura e 80 km/h (50 mph). Celebra o 80.º aniversário em 2026. Mín. 107cm.",
+        "ru": "Классические деревянные горки, построенные в 1946 году Philadelphia Toboggan Coasters, высотой 26 м (84 фута) и скоростью 80 км/ч (50 миль/ч). В 2026 году им исполняется 80 лет. Рост от 107 см.",
+        "zh": "经典木质过山车，由Philadelphia Toboggan Coasters于1946年建造，高26米（84英尺），时速80公里（50英里）。2026年迎来80周年。最低身高107厘米。",
+        "ar": "قطار خشبي كلاسيكي بنته Philadelphia Toboggan Coasters عام 1946، بارتفاع 26 متراً (84 قدماً) وسرعة 80 كم/س (50 ميلاً/س). يحتفل بعامه الثمانين في 2026. الحد الأدنى 107 سم."
+      }
+    },
+    "superdooperlooper": {
+      "desc": {
+        "en": "Schwarzkopf looping coaster from 1977 that sends riders through a classic vertical loop. Min 107cm.",
+        "es": "Montaña rusa con looping de Schwarzkopf de 1977 que lleva a los pasajeros por un clásico looping vertical. Mín. 107cm.",
+        "fr": "Montagnes russes à looping de Schwarzkopf (1977) qui font passer les passagers par un looping vertical classique. Min 107cm.",
+        "de": "Looping-Achterbahn von Schwarzkopf aus dem Jahr 1977, die Fahrgäste durch einen klassischen senkrechten Looping schickt. Min 107cm.",
+        "it": "Montagna russa con giro della morte di Schwarzkopf del 1977 che porta i passeggeri attraverso un classico loop verticale. Min 107cm.",
+        "nl": "Loopingachtbaan van Schwarzkopf uit 1977 die passagiers door een klassieke verticale looping stuurt. Min 107cm.",
+        "pt": "Montanha-russa com looping da Schwarzkopf de 1977 que leva os passageiros por um clássico looping vertical. Mín. 107cm.",
+        "ru": "Горки с петлёй Schwarzkopf 1977 года: пассажиров ждёт классическая вертикальная петля. Рост от 107 см.",
+        "zh": "Schwarzkopf于1977年建造的环圈过山车，带乘客体验经典垂直环圈。最低身高107厘米。",
+        "ar": "قطار Schwarzkopf ذو الحلقة الذي افتُتح عام 1977 ويمر بالركاب عبر حلقة عمودية كلاسيكية. الحد الأدنى 107 سم."
+      }
+    },
+    "laff_trakk": {
+      "desc": {
+        "en": "Indoor spinning coaster by Maurer that opened in 2015: cars spin freely through a glow-in-the-dark interior. Min 107cm.",
+        "es": "Montaña rusa giratoria interior de Maurer inaugurada en 2015: los vagones giran libremente por un interior que brilla en la oscuridad. Mín. 107cm.",
+        "fr": "Montagnes russes tournantes en intérieur de Maurer ouvertes en 2015 : les voitures tournent librement dans un décor qui brille dans le noir. Min 107cm.",
+        "de": "Indoor-Spinning-Achterbahn von Maurer, 2015 eröffnet: Die Wagen drehen sich frei durch ein im Dunkeln leuchtendes Interieur. Min 107cm.",
+        "it": "Montagna russa rotante al coperto di Maurer aperta nel 2015: le vetture girano liberamente in un interno che brilla al buio. Min 107cm.",
+        "nl": "Indoor-spinning-achtbaan van Maurer, geopend in 2015: de wagens draaien vrij door een in het donker oplichtend interieur. Min 107cm.",
+        "pt": "Montanha-russa giratória interior da Maurer inaugurada em 2015: os carrinhos giram livremente por um interior que brilha no escuro. Mín. 107cm.",
+        "ru": "Крытые вращающиеся горки Maurer, открытые в 2015 году: вагончики свободно вращаются в светящемся в темноте интерьере. Рост от 107 см.",
+        "zh": "Maurer室内旋转过山车，2015年开放，车厢在夜光场景中自由旋转。最低身高107厘米。",
+        "ar": "قطار Maurer الدوّار الداخلي الذي افتُتح عام 2015، حيث تدور العربات بحرية داخل ديكور يتوهج في الظلام. الحد الأدنى 107 سم."
+      }
+    },
+    "jolly_rancher_remix": {
+      "desc": {
+        "en": "Vekoma Boomerang coaster, opened in 1991 as Sidewinder, that sends riders through three inversions forwards and then backwards. Min 122cm.",
+        "es": "Montaña rusa Boomerang de Vekoma, inaugurada en 1991 como Sidewinder, que lleva a los pasajeros por tres inversiones hacia delante y luego hacia atrás. Mín. 122cm.",
+        "fr": "Montagnes russes Boomerang de Vekoma, ouvertes en 1991 sous le nom de Sidewinder, qui font traverser trois inversions en avant puis en arrière. Min 122cm.",
+        "de": "Vekoma-Boomerang-Achterbahn, 1991 als Sidewinder eröffnet, die Fahrgäste vorwärts und dann rückwärts durch drei Inversionen schickt. Min 122cm.",
+        "it": "Montagna russa Boomerang di Vekoma, aperta nel 1991 come Sidewinder, che porta i passeggeri attraverso tre inversioni in avanti e poi all'indietro. Min 122cm.",
+        "nl": "Vekoma Boomerang-achtbaan, in 1991 geopend als Sidewinder, die passagiers eerst vooruit en dan achteruit door drie inversies stuurt. Min 122cm.",
+        "pt": "Montanha-russa Boomerang da Vekoma, inaugurada em 1991 como Sidewinder, que leva os passageiros por três inversões para a frente e depois para trás. Mín. 122cm.",
+        "ru": "Горки Vekoma Boomerang, открытые в 1991 году как Sidewinder: сначала вперёд, а затем назад через три инверсии. Рост от 122 см.",
+        "zh": "Vekoma回旋镖过山车，1991年以Sidewinder之名开放，先正向再反向穿越三个倒转。最低身高122厘米。",
+        "ar": "قطار Vekoma من طراز Boomerang الذي افتُتح عام 1991 باسم Sidewinder، ويمر بالركاب عبر ثلاث انقلابات إلى الأمام ثم إلى الخلف. الحد الأدنى 122 سم."
+      }
+    },
+    "trailblazer": {
+      "desc": {
+        "en": "Classic Arrow Development mine-train coaster from 1974 with a helix that circles four times. Min 91cm.",
+        "es": "Montaña rusa clásica de tren minero de Arrow Development de 1974, con una hélice que da cuatro vueltas. Mín. 91cm.",
+        "fr": "Montagnes russes classiques de type train de mine d'Arrow Development (1974), avec une hélice qui tourne quatre fois. Min 91cm.",
+        "de": "Klassische Minenzug-Achterbahn von Arrow Development aus dem Jahr 1974 mit einer Helix, die sich viermal dreht. Min 91cm.",
+        "it": "Classica montagna russa a treno minerario di Arrow Development del 1974, con un'elica che compie quattro giri. Min 91cm.",
+        "nl": "Klassieke mijntrein-achtbaan van Arrow Development uit 1974 met een helix die vier keer rondgaat. Min 91cm.",
+        "pt": "Montanha-russa clássica de comboio mineiro da Arrow Development, de 1974, com uma hélice que dá quatro voltas. Mín. 91cm.",
+        "ru": "Классические горки-шахтёрский поезд Arrow Development 1974 года со спиралью, которая делает четыре витка. Рост от 91 см.",
+        "zh": "Arrow Development经典矿车式过山车，1974年建成，设有绕行四圈的螺旋轨道。最低身高91厘米。",
+        "ar": "قطار المناجم الكلاسيكي من Arrow Development الذي بدأ عمله عام 1974، بمسار حلزوني يدور أربع مرات. الحد الأدنى 91 سم."
+      }
+    },
+    "wild_mouse": {
+      "desc": {
+        "en": "Mack Rides Wild Mouse from 1999 with tight 180° hairpin turns. Min 122cm.",
+        "es": "Wild Mouse de Mack Rides de 1999 con cerradas curvas de horquilla de 180°. Mín. 122cm.",
+        "fr": "Wild Mouse de Mack Rides (1999) avec des virages en épingle à 180°. Min 122cm.",
+        "de": "Wild Mouse von Mack Rides aus dem Jahr 1999 mit engen 180°-Haarnadelkurven. Min 122cm.",
+        "it": "Wild Mouse di Mack Rides del 1999 con strette curve a tornante di 180°. Min 122cm.",
+        "nl": "Wild Mouse van Mack Rides uit 1999 met scherpe haarspeldbochten van 180°. Min 122cm.",
+        "pt": "Wild Mouse da Mack Rides de 1999 com curvas apertadas em gancho de 180°. Mín. 122cm.",
+        "ru": "Горки Wild Mouse от Mack Rides 1999 года с крутыми поворотами-шпильками на 180°. Рост от 122 см.",
+        "zh": "Mack Rides野鼠过山车，1999年开放，设有急促的180°发卡弯。最低身高122厘米。",
+        "ar": "قطار Wild Mouse من Mack Rides الذي افتُتح عام 1999 بمنعطفات حادة على شكل دبوس شعر بزاوية 180 درجة. الحد الأدنى 122 سم."
+      }
+    },
+    "cocoa_cruiser": {
+      "desc": {
+        "en": "Zamperla family gravity coaster, opened in 2014, with a six-car train carrying up to 12 riders. Min 91cm.",
+        "es": "Montaña rusa familiar por gravedad de Zamperla, inaugurada en 2014, con un tren de seis vagones para hasta 12 pasajeros. Mín. 91cm.",
+        "fr": "Montagnes russes familiales à gravité de Zamperla, ouvertes en 2014, avec un train de six voitures pour jusqu'à 12 passagers. Min 91cm.",
+        "de": "Zamperla-Familien-Schwerkraftachterbahn, 2014 eröffnet, mit einem sechswagigen Zug für bis zu 12 Fahrgäste. Min 91cm.",
+        "it": "Montagna russa familiare a gravità di Zamperla, aperta nel 2014, con un treno di sei vetture per un massimo di 12 passeggeri. Min 91cm.",
+        "nl": "Zamperla-gezinsachtbaan op zwaartekracht, geopend in 2014, met een trein van zes wagens voor maximaal 12 passagiers. Min 91cm.",
+        "pt": "Montanha-russa familiar por gravidade da Zamperla, inaugurada em 2014, com um comboio de seis carros para até 12 passageiros. Mín. 91cm.",
+        "ru": "Семейные гравитационные горки Zamperla, открытые в 2014 году; поезд из шести вагонов вмещает до 12 пассажиров. Рост от 91 см.",
+        "zh": "Zamperla家庭重力过山车，2014年开放，六节车厢列车最多可乘坐12人。最低身高91厘米。",
+        "ar": "قطار Zamperla العائلي الذي يعمل بالجاذبية، افتُتح عام 2014، بقطار من ست عربات يتسع لما يصل إلى 12 راكباً. الحد الأدنى 91 سم."
+      }
+    },
+    "breakers_edge": {
+      "desc": {
+        "en": "ProSlide water coaster in The Boardwalk water park, opened in 2018. Life jacket required. Min 107cm.",
+        "es": "Montaña rusa acuática de ProSlide en el parque acuático The Boardwalk, inaugurada en 2018. Chaleco salvavidas obligatorio. Mín. 107cm.",
+        "fr": "Montagnes russes aquatiques de ProSlide dans le parc aquatique The Boardwalk, ouvertes en 2018. Gilet de sauvetage obligatoire. Min 107cm.",
+        "de": "ProSlide-Wasserachterbahn im Wasserpark The Boardwalk, 2018 eröffnet. Schwimmweste erforderlich. Min 107cm.",
+        "it": "Water coaster di ProSlide nel parco acquatico The Boardwalk, aperta nel 2018. Giubbotto salvagente obbligatorio. Min 107cm.",
+        "nl": "ProSlide-waterachtbaan in het waterpark The Boardwalk, geopend in 2018. Zwemvest verplicht. Min 107cm.",
+        "pt": "Montanha-russa aquática da ProSlide no parque aquático The Boardwalk, inaugurada em 2018. Colete salva-vidas obrigatório. Mín. 107cm.",
+        "ru": "Водные горки ProSlide в аквапарке The Boardwalk, открыты в 2018 году. Спасательный жилет обязателен. Рост от 107 см.",
+        "zh": "ProSlide水上过山车，位于The Boardwalk水上乐园，2018年开放。须穿救生衣。最低身高107厘米。",
+        "ar": "قطار ProSlide المائي في منتزه The Boardwalk المائي، افتُتح عام 2018. ارتداء سترة النجاة إلزامي. الحد الأدنى 107 سم."
+      }
+    },
+    "wildcats_revenge": {
+      "desc": {
+        "en": "Rocky Mountain Construction hybrid coaster from 2023, built on the structure of the park's former Wildcat wooden coaster. Min 122cm.",
+        "es": "Montaña rusa híbrida de Rocky Mountain Construction de 2023, construida sobre la estructura de la antigua montaña rusa de madera Wildcat del parque. Mín. 122cm.",
+        "fr": "Montagnes russes hybrides de Rocky Mountain Construction (2023), construites sur la structure de l'ancien grand huit en bois Wildcat du parc. Min 122cm.",
+        "de": "Hybrid-Achterbahn von Rocky Mountain Construction aus dem Jahr 2023, auf der Struktur der früheren Holzachterbahn Wildcat des Parks errichtet. Min 122cm.",
+        "it": "Montagna russa ibrida di Rocky Mountain Construction del 2023, costruita sulla struttura dell'ex montagna russa in legno Wildcat del parco. Min 122cm.",
+        "nl": "Hybride achtbaan van Rocky Mountain Construction uit 2023, gebouwd op de structuur van de voormalige houten Wildcat van het park. Min 122cm.",
+        "pt": "Montanha-russa híbrida da Rocky Mountain Construction de 2023, construída sobre a estrutura da antiga montanha-russa de madeira Wildcat do parque. Mín. 122cm.",
+        "ru": "Гибридные горки Rocky Mountain Construction 2023 года, построенные на конструкции прежних деревянных горок парка Wildcat. Рост от 122 см.",
+        "zh": "Rocky Mountain Construction混合式过山车，2023年开放，在园内原Wildcat木质过山车的结构上改建而成。最低身高122厘米。",
+        "ar": "قطار Rocky Mountain Construction الهجين الذي افتُتح عام 2023، وبُني على هيكل قطار Wildcat الخشبي السابق في المتنزه. الحد الأدنى 122 سم."
+      }
+    }
+  },
+  "food": {
+    "food_the_chocolatier": {
+      "desc": {
+        "en": "Sit-down restaurant in Hershey's Chocolatetown with American dishes that come with a chocolate twist.",
+        "es": "Restaurante con servicio de mesa en Hershey's Chocolatetown, con platos americanos con un toque de chocolate.",
+        "fr": "Restaurant avec service à table à Hershey's Chocolatetown, proposant des plats américains avec une touche de chocolat.",
+        "de": "Restaurant mit Bedienung in Hershey's Chocolatetown mit amerikanischen Gerichten und einem Hauch Schokolade.",
+        "it": "Ristorante con servizio al tavolo a Hershey's Chocolatetown, con piatti americani dal tocco di cioccolato.",
+        "nl": "Restaurant met bediening in Hershey's Chocolatetown met Amerikaanse gerechten met een vleugje chocolade.",
+        "pt": "Restaurante com serviço de mesa em Hershey's Chocolatetown, com pratos americanos com um toque de chocolate.",
+        "ru": "Ресторан с обслуживанием за столиком в Hershey's Chocolatetown: американские блюда с шоколадной изюминкой.",
+        "zh": "位于Hershey's Chocolatetown的坐席餐厅，美式菜肴带有巧克力风味。",
+        "ar": "مطعم بخدمة الطاولة في Hershey's Chocolatetown يقدم أطباقاً أمريكية بلمسة من الشوكولاتة."
+      }
+    },
+    "food_chefs_market": {
+      "desc": {
+        "en": "Market-style eatery with several food stations, so every guest in the group can find something they like.",
+        "es": "Restaurante estilo mercado con varios puestos de comida, para que cada persona del grupo encuentre algo que le guste.",
+        "fr": "Restaurant de type marché avec plusieurs stands de cuisine, pour que chacun trouve quelque chose à son goût.",
+        "de": "Restaurant im Marktstil mit mehreren Essensstationen, sodass jeder in der Gruppe etwas nach seinem Geschmack findet.",
+        "it": "Locale in stile mercato con diverse postazioni di cibo, così ognuno nel gruppo trova qualcosa di suo gradimento.",
+        "nl": "Restaurant in marktstijl met meerdere eetstations, zodat iedereen in de groep iets naar smaak vindt.",
+        "pt": "Restaurante estilo mercado com várias estações de comida, para que cada pessoa do grupo encontre algo do seu agrado.",
+        "ru": "Ресторан в формате рынка с несколькими станциями еды, где каждый в компании найдёт блюдо по вкусу.",
+        "zh": "市集风格的餐厅，设有多个美食档口，团队中的每个人都能找到喜欢的食物。",
+        "ar": "مطعم على طراز السوق بعدة محطات للطعام ليجد كل فرد في المجموعة ما يناسبه."
+      }
+    },
+    "food_1933_restaurant": {
+      "desc": {
+        "en": "Full-service restaurant and tavern with American favourites, beer and cocktails.",
+        "es": "Restaurante y taberna con servicio completo, con clásicos americanos, cerveza y cócteles.",
+        "fr": "Restaurant et taverne avec service à table, proposant des classiques américains, de la bière et des cocktails.",
+        "de": "Restaurant und Taverne mit Bedienung, mit amerikanischen Klassikern, Bier und Cocktails.",
+        "it": "Ristorante e taverna con servizio completo, con classici americani, birra e cocktail.",
+        "nl": "Restaurant en taverne met bediening, met Amerikaanse klassiekers, bier en cocktails.",
+        "pt": "Restaurante e taberna com serviço completo, com clássicos americanos, cerveja e cocktails.",
+        "ru": "Ресторан и таверна с полным обслуживанием: американская классика, пиво и коктейли.",
+        "zh": "提供全套服务的餐厅兼酒馆，供应美式经典菜肴、啤酒和鸡尾酒。",
+        "ar": "مطعم وحانة بخدمة كاملة يقدمان الأطباق الأمريكية المفضلة والبيرة والكوكتيلات."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_the_hotel_hershey": {
+      "desc": {
+        "en": "Luxury 1933 resort in the hills above Hersheypark with gardens, a spa and fine dining. Official Resort of Hersheypark.",
+        "es": "Resort de lujo de 1933 en las colinas sobre Hersheypark, con jardines, spa y alta cocina. Official Resort de Hersheypark.",
+        "fr": "Resort de luxe de 1933 sur les collines au-dessus de Hersheypark, avec jardins, spa et gastronomie. Official Resort de Hersheypark.",
+        "de": "Luxusresort von 1933 in den Hügeln über Hersheypark mit Gärten, Spa und gehobener Küche. Official Resort von Hersheypark.",
+        "it": "Resort di lusso del 1933 sulle colline sopra Hersheypark, con giardini, spa e alta cucina. Official Resort di Hersheypark.",
+        "nl": "Luxe resort uit 1933 in de heuvels boven Hersheypark, met tuinen, spa en fijne keuken. Official Resort van Hersheypark.",
+        "pt": "Resort de luxo de 1933 nas colinas acima do Hersheypark, com jardins, spa e alta cozinha. Official Resort do Hersheypark.",
+        "ru": "Роскошный курорт 1933 года на холмах над Hersheypark: сады, спа и изысканная кухня. Official Resort Hersheypark.",
+        "zh": "1933年建成的豪华度假酒店，坐落于Hersheypark上方的山丘，设有花园、水疗中心和精致餐厅。Hersheypark官方度假酒店。",
+        "ar": "منتجع فاخر يعود إلى 1933 على التلال المطلة على Hersheypark، يضم حدائق ومنتجعاً صحياً ومطاعم راقية. أحد Official Resorts لـ Hersheypark."
+      }
+    },
+    "hotel_hershey_lodge": {
+      "desc": {
+        "en": "Large family-friendly resort near Hersheypark with indoor and outdoor pools and restaurants. Official Resort of Hersheypark.",
+        "es": "Gran resort familiar cerca de Hersheypark, con piscinas interiores y exteriores y restaurantes. Official Resort de Hersheypark.",
+        "fr": "Grand resort familial près de Hersheypark, avec piscines intérieures et extérieures et restaurants. Official Resort de Hersheypark.",
+        "de": "Großes familienfreundliches Resort nahe Hersheypark mit Innen- und Außenpools und Restaurants. Official Resort von Hersheypark.",
+        "it": "Grande resort per famiglie vicino a Hersheypark, con piscine interne ed esterne e ristoranti. Official Resort di Hersheypark.",
+        "nl": "Groot gezinsvriendelijk resort bij Hersheypark met binnen- en buitenzwembaden en restaurants. Official Resort van Hersheypark.",
+        "pt": "Grande resort familiar perto do Hersheypark, com piscinas interiores e exteriores e restaurantes. Official Resort do Hersheypark.",
+        "ru": "Большой семейный курорт рядом с Hersheypark: крытые и открытые бассейны, рестораны. Official Resort Hersheypark.",
+        "zh": "靠近Hersheypark的大型亲子度假酒店，设有室内外泳池和多家餐厅。Hersheypark官方度假酒店。",
+        "ar": "منتجع عائلي كبير قرب Hersheypark يضم مسابح داخلية وخارجية ومطاعم. أحد Official Resorts لـ Hersheypark."
+      }
+    },
+    "hotel_hershey_inn_suites": {
+      "desc": {
+        "en": "New for 2026: the newest Official Resort of Hersheypark, a modern base for families close to the park.",
+        "es": "Novedad de 2026: el nuevo Official Resort de Hersheypark, una base moderna para familias cerca del parque.",
+        "fr": "Nouveauté 2026 : le tout nouvel Official Resort de Hersheypark, une base moderne pour les familles près du parc.",
+        "de": "Neu 2026: das neueste Official Resort von Hersheypark, eine moderne Unterkunft für Familien in Parknähe.",
+        "it": "Novità 2026: il nuovo Official Resort di Hersheypark, una base moderna per le famiglie vicino al parco.",
+        "nl": "Nieuw in 2026: het nieuwste Official Resort van Hersheypark, een moderne uitvalsbasis voor gezinnen vlak bij het park.",
+        "pt": "Novidade de 2026: o novo Official Resort do Hersheypark, uma base moderna para famílias perto do parque.",
+        "ru": "Новинка 2026 года: новейший Official Resort Hersheypark, современная база для семей рядом с парком.",
+        "zh": "2026年新开业：Hersheypark最新的官方度假酒店，靠近公园，是家庭出游的现代之选。",
+        "ar": "جديد في 2026: أحدث Official Resorts لـ Hersheypark، قاعدة عصرية للعائلات بالقرب من المتنزه."
+      }
+    },
+    "hotel_hersheypark_camping_resort": {
+      "desc": {
+        "en": "Campsites and cabins near Hersheypark for a nature-based stay. Official Resort of Hersheypark.",
+        "es": "Parcelas y cabañas cerca de Hersheypark para una estancia en plena naturaleza. Official Resort de Hersheypark.",
+        "fr": "Emplacements de camping et cabanes près de Hersheypark pour un séjour au cœur de la nature. Official Resort de Hersheypark.",
+        "de": "Stellplätze und Hütten nahe Hersheypark für einen Aufenthalt in der Natur. Official Resort von Hersheypark.",
+        "it": "Piazzole e cabine vicino a Hersheypark per un soggiorno a contatto con la natura. Official Resort di Hersheypark.",
+        "nl": "Kampeerplaatsen en hutten bij Hersheypark voor een verblijf in de natuur. Official Resort van Hersheypark.",
+        "pt": "Parcelas de campismo e cabanas perto do Hersheypark para uma estadia junto à natureza. Official Resort do Hersheypark.",
+        "ru": "Места для кемпинга и домики рядом с Hersheypark для отдыха на природе. Official Resort Hersheypark.",
+        "zh": "靠近Hersheypark的露营地和小木屋，适合亲近自然的住宿。Hersheypark官方度假酒店。",
+        "ar": "مواقع تخييم وكبائن قرب Hersheypark لإقامة بين أحضان الطبيعة. أحد Official Resorts لـ Hersheypark."
+      }
+    }
+  }
+}

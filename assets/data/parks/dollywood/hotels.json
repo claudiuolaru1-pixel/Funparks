@@ -1,0 +1,151 @@
+[
+  {
+    "id": "hotel_dreammore_resort_and_spa",
+    "name": "Dollywood's DreamMore Resort and Spa",
+    "description": "Dollywood's DreamMore Resort and Spa is the park's official resort, opened on 27 July 2015 with more than 300 rooms. It sits about 1.3 mi (2 km) from the park, and a free trolley runs to Dollywood and Splash Country. Guests receive TimeSaver passes, transportation and preferred parking. Typical rates run from about $220 to $470 a night.",
+    "image": "assets/images/dollywood/hotel_dreammore_resort_and_spa.png",
+    "lat": 35.7885,
+    "lng": -83.5265,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.dollywood.com/dreammore",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable resort room for couples or small families.",
+        "pricePerNight": 250,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Larger room with extra space for families.",
+        "pricePerNight": 330,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite for longer stays.",
+        "pricePerNight": 450,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_heartsong_lodge_and_resort",
+    "name": "Dollywood's HeartSong Lodge & Resort",
+    "description": "Dollywood's HeartSong Lodge & Resort opened on 3 November 2023 with 302 rooms, next to DreamMore. It is an official park resort with a free trolley to Dollywood and perks such as TimeSaver passes and preferred parking. Rates seen at launch ranged from about $199 to $374 a night.",
+    "image": "assets/images/dollywood/hotel_heartsong_lodge_and_resort.png",
+    "lat": 35.7875,
+    "lng": -83.5258,
+    "rating": 4.7,
+    "topPick": true,
+    "website": "https://www.dollywood.com/",
+    "rooms": [
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Comfortable room with a king bed.",
+        "pricePerNight": 199,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "bunk_suite",
+        "name": "Bunk Suite",
+        "description": "Family suite with bunk beds.",
+        "pricePerNight": 274,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "junior_suite",
+        "name": "Junior Suite",
+        "description": "Larger suite with a separate sitting area.",
+        "pricePerNight": 374,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_black_fox_lodge",
+    "name": "Black Fox Lodge Pigeon Forge, Tapestry Collection by Hilton",
+    "description": "Black Fox Lodge Pigeon Forge is a Tapestry Collection by Hilton hotel about 1.6 mi (2.6 km) from Dollywood. It is a good base for guests who prefer a Hilton-brand stay close to the park. Typical rates run from about $237 to $293 a night.",
+    "image": "assets/images/dollywood/hotel_black_fox_lodge.png",
+    "lat": 35.786,
+    "lng": -83.538,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "https://www.hilton.com/en/hotels/tysirup-black-fox-lodge-pigeon-forge/",
+    "rooms": [
+      {
+        "key": "king_room",
+        "name": "King Room",
+        "description": "Room with a king bed.",
+        "pricePerNight": 240,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "double_queen_room",
+        "name": "Double Queen Room",
+        "description": "Room with two queen beds, suited to families.",
+        "pricePerNight": 290,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_embassy_suites_pigeon_forge",
+    "name": "Embassy Suites by Hilton Pigeon Forge Resort",
+    "description": "Embassy Suites by Hilton Pigeon Forge Resort is an all-suite hotel about 1.7 mi (2.7 km) from Dollywood, popular with families who like extra space. Typical rates run from about $184 to $297 a night.",
+    "image": "assets/images/dollywood/hotel_embassy_suites_pigeon_forge.png",
+    "lat": 35.789,
+    "lng": -83.544,
+    "rating": 4.4,
+    "topPick": false,
+    "website": "https://www.hilton.com/en/hotels/TYSPGES/",
+    "rooms": [
+      {
+        "key": "king_suite",
+        "name": "King Suite",
+        "description": "Two-room suite with a king bed and a separate living area.",
+        "pricePerNight": 190,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "double_queen_suite",
+        "name": "Double Queen Suite",
+        "description": "Two-room suite with two queen beds for families.",
+        "pricePerNight": 290,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_wild_bear_inn",
+    "name": "Wild Bear Inn",
+    "description": "Wild Bear Inn is a budget-friendly option about 1.6 mi (2.6 km) from Dollywood. Typical rates run from about $87 to $113 a night, which makes it one of the cheaper choices near the park.",
+    "image": "assets/images/dollywood/hotel_wild_bear_inn.png",
+    "lat": 35.792,
+    "lng": -83.516,
+    "rating": 4,
+    "topPick": false,
+    "website": "https://www.choicehotels.com/tennessee/pigeon-forge/ascend-hotels/tn445",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Simple room for a budget stay near the park.",
+        "pricePerNight": 90,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 110,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

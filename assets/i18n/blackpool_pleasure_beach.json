@@ -1,0 +1,406 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Blackpool Pleasure Beach, which now calls itself Pleasure Beach Resort, is a seaside amusement park on Ocean Boulevard on the Fylde coast of England. It opened in 1896 and is one of the best-known parks in the UK, famous for a collection of coasters ranging from the historic Grand National of 1935 to ICON, opened in 2018. Classic wooden coasters, modern thrill rides, dark rides and family attractions sit side by side, and press reports quote millions of visitors a year (the exact figure is weakly sourced). The newest ride is Aviktas, the UK's tallest gyro swing, which opened on 21 May 2026. The park has two hotels on site, the Big Blue Hotel and the Boulevard Hotel.",
+      "es": "Blackpool Pleasure Beach, que ahora se llama Pleasure Beach Resort, es un parque de atracciones costero en Ocean Boulevard, en la costa de Fylde, Inglaterra. Abrió en 1896 y es uno de los parques más conocidos del Reino Unido, famoso por una colección de montañas rusas que va desde el histórico Grand National de 1935 hasta ICON, inaugurada en 2018. Montañas rusas clásicas de madera, atracciones modernas de emociones fuertes, trenes de la bruja y atracciones familiares conviven en un mismo recinto, y la prensa habla de millones de visitantes al año (la cifra exacta está poco contrastada). La última novedad es Aviktas, el columpio giroscópico más alto del Reino Unido, inaugurado el 21 de mayo de 2026. El parque tiene dos hoteles propios, el Big Blue Hotel y el Boulevard Hotel.",
+      "fr": "Blackpool Pleasure Beach, qui se nomme désormais Pleasure Beach Resort, est un parc d'attractions balnéaire situé sur Ocean Boulevard, sur la côte de Fylde, en Angleterre. Ouvert en 1896, c'est l'un des parcs les plus connus du Royaume-Uni, célèbre pour sa collection de montagnes russes, du Grand National historique de 1935 à ICON, inauguré en 2018. Montagnes russes classiques en bois, attractions à sensations modernes, parcours scéniques sombres et attractions familiales se côtoient, et la presse évoque des millions de visiteurs par an (le chiffre exact est peu documenté). La dernière nouveauté est Aviktas, la plus haute balançoire gyroscopique du Royaume-Uni, ouverte le 21 mai 2026. Le parc compte deux hôtels sur place, le Big Blue Hotel et le Boulevard Hotel.",
+      "de": "Blackpool Pleasure Beach, das sich heute Pleasure Beach Resort nennt, ist ein Vergnügungspark am Meer am Ocean Boulevard an der Fylde-Küste in England. Er wurde 1896 eröffnet und gehört zu den bekanntesten Parks Großbritanniens, berühmt für eine Sammlung von Achterbahnen vom historischen Grand National von 1935 bis zu ICON, die 2018 eröffnet wurde. Klassische Holzachterbahnen, moderne Thrill-Rides, Dark Rides und Familienattraktionen liegen dicht beieinander, und die Presse spricht von Millionen Besuchern pro Jahr (die genaue Zahl ist schwach belegt). Neueste Attraktion ist Aviktas, die höchste Gyro-Schaukel Großbritanniens, die am 21. Mai 2026 eröffnet wurde. Der Park hat zwei eigene Hotels, das Big Blue Hotel und das Boulevard Hotel.",
+      "it": "Blackpool Pleasure Beach, che oggi si chiama Pleasure Beach Resort, è un parco divertimenti sul mare in Ocean Boulevard, sulla costa del Fylde, in Inghilterra. Ha aperto nel 1896 ed è uno dei parchi più famosi del Regno Unito, noto per una collezione di montagne russe che va dallo storico Grand National del 1935 a ICON, inaugurata nel 2018. Classiche montagne russe in legno, attrazioni moderne ad alta adrenalina, dark ride e attrazioni per famiglie convivono nello stesso parco, e la stampa parla di milioni di visitatori l'anno (la cifra esatta è poco documentata). L'ultima novità è Aviktas, la più alta giostra gyro del Regno Unito, aperta il 21 maggio 2026. Il parco ha due hotel all'interno, il Big Blue Hotel e il Boulevard Hotel.",
+      "nl": "Blackpool Pleasure Beach, dat zichzelf nu Pleasure Beach Resort noemt, is een attractiepark aan zee aan Ocean Boulevard aan de Fylde-kust in Engeland. Het opende in 1896 en is een van de bekendste parken van het Verenigd Koninkrijk, beroemd om een verzameling achtbanen, van de historische Grand National uit 1935 tot ICON uit 2018. Klassieke houten achtbanen, moderne thrillrides, darkrides en gezinsattracties staan naast elkaar, en de pers noemt miljoenen bezoekers per jaar (het exacte cijfer is zwak onderbouwd). De nieuwste attractie is Aviktas, de hoogste gyroswing van het Verenigd Koninkrijk, die op 21 mei 2026 opende. Het park heeft twee hotels op het terrein, het Big Blue Hotel en het Boulevard Hotel.",
+      "pt": "A Blackpool Pleasure Beach, que agora se chama Pleasure Beach Resort, é um parque de diversões à beira-mar na Ocean Boulevard, na costa de Fylde, em Inglaterra. Abriu em 1896 e é um dos parques mais conhecidos do Reino Unido, famoso por uma coleção de montanhas-russas que vai do histórico Grand National de 1935 até à ICON, inaugurada em 2018. Montanhas-russas clássicas de madeira, atrações modernas de emoção forte, comboios fantasma e atrações familiares convivem lado a lado, e a imprensa fala em milhões de visitantes por ano (o número exato tem pouca fundamentação). A novidade mais recente é a Aviktas, o baloiço giroscópico mais alto do Reino Unido, inaugurado a 21 de maio de 2026. O parque tem dois hotéis no local, o Big Blue Hotel e o Boulevard Hotel.",
+      "ru": "Blackpool Pleasure Beach, который теперь называет себя Pleasure Beach Resort, — приморский парк аттракционов на Ocean Boulevard на побережье Файлд в Англии. Он открылся в 1896 году и считается одним из самых известных парков Великобритании: здесь собрана коллекция американских горок от исторического Grand National 1935 года до ICON, открытых в 2018 году. Классические деревянные горки, современные острые аттракционы, тёмные аттракционы и семейные развлечения соседствуют друг с другом, а пресса называет миллионы посетителей в год (точные цифры подтверждены слабо). Новинка — Aviktas, самые высокие гироскопические качели Великобритании, открытые 21 мая 2026 года. На территории парка два отеля — Big Blue Hotel и Boulevard Hotel.",
+      "zh": "Blackpool Pleasure Beach（布莱克浦欢乐海滩，现称Pleasure Beach Resort）是位于英格兰菲尔德海岸Ocean Boulevard的海滨游乐园。乐园1896年开业，是英国最知名的乐园之一，以收藏从1935年的历史名作Grand National到2018年开放的ICON的各类过山车而闻名。经典木质过山车、现代刺激项目、暗骑和家庭游乐设施并存，媒体称每年游客数以百万计（具体数字出处较弱）。最新项目是2026年5月21日开放的Aviktas，为英国最高的陀螺式摆锤。园内有两家自营酒店：Big Blue Hotel和Boulevard Hotel。",
+      "ar": "بلاكبول بليجر بيتش، الذي يسمي نفسه الآن Pleasure Beach Resort، متنزه ترفيهي ساحلي على Ocean Boulevard في ساحل فيلد بإنجلترا. افتُتح عام 1896 وهو من أشهر المتنزهات في المملكة المتحدة، ويشتهر بمجموعة قطارات الجبال الروسية من Grand National التاريخي عام 1935 إلى ICON التي افتُتحت عام 2018. تجتمع قطارات خشبية كلاسيكية وألعاب إثارة حديثة وألعاب مظلمة وألعاب عائلية جنباً إلى جنب، وتتحدث الصحافة عن ملايين الزوار سنوياً (الرقم الدقيق ضعيف التوثيق). وأحدث الألعاب هي Aviktas، أطول أرجوحة جيروسكوبية في المملكة المتحدة، وقد افتُتحت في 21 مايو 2026. وللمتنزه فندقان في موقعه هما Big Blue Hotel وBoulevard Hotel."
+    },
+    "ov_highlights_body": {
+      "en": "ICON is the headline coaster, a double-launch ride reaching 85 km/h with one inversion, while The Big One hypercoaster climbs to 65 m and reaches 119 km/h. Infusion is a suspended looping coaster over water with five inversions, and the new Aviktas gyro swing rises to about 42 m. Valhalla is an indoor water ride, and the park's history shows in Grand National (1935), Nickelodeon Streak (built 1933), Ghost Train (1930) and Sir Hiram Maxim's Flying Machines (1904). Families will enjoy Wallace & Gromit's Thrill-O-Matic and Alice in Wonderland. For food, Coasters Bar and Restaurant has a balcony view of ICON, and Loki's Restaurant serves rotisserie chicken beside Valhalla.",
+      "es": "ICON es la montaña rusa estrella, con doble lanzamiento, 85 km/h y una inversión, mientras que The Big One, una hypercoaster, sube a 65 m y alcanza 119 km/h. Infusion es una montaña rusa suspendida con loopings sobre el agua y cinco inversiones, y el nuevo columpio giroscópico Aviktas sube a unos 42 m. Valhalla es una atracción acuática cubierta, y la historia del parque se ve en Grand National (1935), Nickelodeon Streak (construida en 1933), Ghost Train (1930) y Sir Hiram Maxim's Flying Machines (1904). A las familias les encantarán Wallace & Gromit's Thrill-O-Matic y Alice in Wonderland. Para comer, Coasters Bar and Restaurant tiene balcón con vistas a ICON y Loki's Restaurant sirve pollo asado en espetón junto a Valhalla.",
+      "fr": "ICON est le grand huit phare, à double lancement, 85 km/h et une inversion, tandis que The Big One, un hypercoaster, grimpe à 65 m et atteint 119 km/h. Infusion est un coaster suspendu à loopings au-dessus de l'eau avec cinq inversions, et la nouvelle balançoire gyroscopique Aviktas s'élève à environ 42 m. Valhalla est une attraction aquatique couverte, et l'histoire du parc se lit dans Grand National (1935), Nickelodeon Streak (construit en 1933), Ghost Train (1930) et Sir Hiram Maxim's Flying Machines (1904). Les familles apprécieront Wallace & Gromit's Thrill-O-Matic et Alice in Wonderland. Côté table, Coasters Bar and Restaurant offre un balcon avec vue sur ICON et Loki's Restaurant sert du poulet rôti à la broche près de Valhalla.",
+      "de": "ICON ist die Top-Achterbahn mit zwei Katapultstarts, 85 km/h und einer Inversion, während der Hypercoaster The Big One auf 65 m steigt und 119 km/h erreicht. Infusion ist eine Hängeachterbahn mit Loopings über dem Wasser und fünf Inversionen, und die neue Gyro-Schaukel Aviktas steigt auf etwa 42 m. Valhalla ist eine Wasserattraktion in der Halle, und die Geschichte des Parks zeigt sich in Grand National (1935), Nickelodeon Streak (1933 gebaut), Ghost Train (1930) und Sir Hiram Maxim's Flying Machines (1904). Familien freuen sich auf Wallace & Gromit's Thrill-O-Matic und Alice in Wonderland. Zum Essen bietet Coasters Bar and Restaurant einen Balkon mit Blick auf ICON, und im Loki's Restaurant gibt es Grillhähnchen neben Valhalla.",
+      "it": "ICON è la montagna russa di punta, con doppio lancio, 85 km/h e un'inversione, mentre The Big One, un hypercoaster, sale a 65 m e raggiunge 119 km/h. Infusion è una montagna russa sospesa con loop sull'acqua e cinque inversioni, e la nuova giostra gyro Aviktas sale a circa 42 m. Valhalla è un'attrazione acquatica al coperto, e la storia del parco si vede in Grand National (1935), Nickelodeon Streak (costruita nel 1933), Ghost Train (1930) e Sir Hiram Maxim's Flying Machines (1904). Le famiglie apprezzeranno Wallace & Gromit's Thrill-O-Matic e Alice in Wonderland. Per mangiare, Coasters Bar and Restaurant ha un balcone con vista su ICON e Loki's Restaurant serve pollo allo spiedo accanto a Valhalla.",
+      "nl": "ICON is de blikvanger onder de achtbanen, met dubbele lancering, 85 km/u en één inversie, terwijl de hypercoaster The Big One klimt tot 65 m en 119 km/u haalt. Infusion is een hangende looping-achtbaan boven water met vijf inversies, en de nieuwe gyroswing Aviktas komt tot ongeveer 42 m. Valhalla is een overdekte waterattractie, en de geschiedenis van het park zie je in Grand National (1935), Nickelodeon Streak (gebouwd in 1933), Ghost Train (1930) en Sir Hiram Maxim's Flying Machines (1904). Gezinnen genieten van Wallace & Gromit's Thrill-O-Matic en Alice in Wonderland. Bij het eten heeft Coasters Bar and Restaurant een balkon met uitzicht op ICON en serveert Loki's Restaurant draaispitkip naast Valhalla.",
+      "pt": "A ICON é a montanha-russa principal, com duplo lançamento, 85 km/h e uma inversão, enquanto a The Big One, uma hypercoaster, sobe a 65 m e atinge 119 km/h. A Infusion é uma montanha-russa suspensa com loopings sobre a água e cinco inversões, e o novo baloiço giroscópico Aviktas sobe a cerca de 42 m. A Valhalla é uma atração aquática interior, e a história do parque vê-se em Grand National (1935), Nickelodeon Streak (construída em 1933), Ghost Train (1930) e Sir Hiram Maxim's Flying Machines (1904). As famílias vão gostar de Wallace & Gromit's Thrill-O-Matic e Alice in Wonderland. Para comer, o Coasters Bar and Restaurant tem uma varanda com vista para a ICON e o Loki's Restaurant serve frango assado no espeto junto à Valhalla.",
+      "ru": "ICON — главные горки парка с двойным разгоном, скоростью 85 км/ч и одной инверсией, а гиперкоастер The Big One поднимается на 65 м и разгоняется до 119 км/ч. Infusion — подвесные горки с петлями над водой и пятью инверсиями, а новые гироскопические качели Aviktas поднимаются примерно на 42 м. Valhalla — крытый водный аттракцион, а история парка видна в Grand National (1935), Nickelodeon Streak (построены в 1933), Ghost Train (1930) и Sir Hiram Maxim's Flying Machines (1904). Семьям понравятся Wallace & Gromit's Thrill-O-Matic и Alice in Wonderland. Из еды: у Coasters Bar and Restaurant есть балкон с видом на ICON, а Loki's Restaurant подаёт курицу-гриль рядом с Valhalla.",
+      "zh": "ICON是乐园的明星过山车，双重弹射，时速85公里，带一次翻转；超级过山车The Big One高65米，时速达119公里。Infusion是水面上空带五次翻转的悬挂式环形过山车，全新的Aviktas陀螺式摆锤高约42米。Valhalla是室内水上项目，而Grand National（1935年）、Nickelodeon Streak（1933年建成）、Ghost Train（1930年）和Sir Hiram Maxim's Flying Machines（1904年）则展现了乐园的悠久历史。家庭游客会喜欢Wallace & Gromit's Thrill-O-Matic和Alice in Wonderland。餐饮方面，Coasters Bar and Restaurant设有可眺望ICON的阳台，Loki's Restaurant在Valhalla旁供应烤鸡。",
+      "ar": "ICON هي قطار الجبال الروسية الأبرز بإطلاق مزدوج وسرعة 85 كم/س وانقلاب واحد، بينما يرتفع قطار The Big One الفائق إلى 65 م ويبلغ 119 كم/س. Infusion قطار معلّق بحلقات فوق الماء بخمس انقلابات، وترتفع أرجوحة Aviktas الجيروسكوبية الجديدة إلى نحو 42 م. Valhalla لعبة مائية داخلية، ويظهر تاريخ المتنزه في Grand National (1935) وNickelodeon Streak (بُني عام 1933) وGhost Train (1930) وSir Hiram Maxim's Flying Machines (1904). وستستمتع العائلات بـWallace & Gromit's Thrill-O-Matic وAlice in Wonderland. وللطعام يتميز Coasters Bar and Restaurant بشرفة تطل على ICON، ويقدم Loki's Restaurant الدجاج المشوي بجوار Valhalla."
+    },
+    "ov_did_you_know_body": {
+      "en": "Blackpool Pleasure Beach opened in 1896 and celebrated its 125th anniversary in 2021. Sir Hiram Maxim's Flying Machines dates from 1904, Ghost Train from 1930 and the wooden Grand National racing coaster from 1935. Nickelodeon Streak was built in 1933 as a coaster called Roller Coaster and renamed in 2010. Launch Pad reopened in May 2025 as a rebuilt version of the former Ice Blast, and in 2026 the park opened Aviktas for £8.72 million.",
+      "es": "Blackpool Pleasure Beach abrió en 1896 y celebró su 125.º aniversario en 2021. Sir Hiram Maxim's Flying Machines es de 1904, Ghost Train de 1930 y la montaña rusa de carreras de madera Grand National de 1935. Nickelodeon Streak se construyó en 1933 como una montaña rusa llamada Roller Coaster y fue rebautizada en 2010. Launch Pad reabrió en mayo de 2025 como versión renovada de la antigua Ice Blast, y en 2026 el parque inauguró Aviktas por 8,72 millones de libras.",
+      "fr": "Blackpool Pleasure Beach a ouvert en 1896 et a fêté ses 125 ans en 2021. Sir Hiram Maxim's Flying Machines date de 1904, Ghost Train de 1930 et le grand huit de course en bois Grand National de 1935. Nickelodeon Streak a été construit en 1933 sous le nom de Roller Coaster et rebaptisé en 2010. Launch Pad a rouvert en mai 2025 comme version reconstruite de l'ancienne Ice Blast, et en 2026 le parc a ouvert Aviktas pour 8,72 millions de livres.",
+      "de": "Blackpool Pleasure Beach wurde 1896 eröffnet und feierte 2021 sein 125-jähriges Bestehen. Sir Hiram Maxim's Flying Machines stammt von 1904, Ghost Train von 1930 und die hölzerne Rennachterbahn Grand National von 1935. Nickelodeon Streak wurde 1933 als Achterbahn namens Roller Coaster gebaut und 2010 umbenannt. Launch Pad eröffnete im Mai 2025 als überarbeitete Version der früheren Ice Blast, und 2026 eröffnete der Park Aviktas für 8,72 Millionen Pfund.",
+      "it": "Blackpool Pleasure Beach ha aperto nel 1896 e ha festeggiato i 125 anni nel 2021. Sir Hiram Maxim's Flying Machines risale al 1904, Ghost Train al 1930 e la montagna russa a gara in legno Grand National al 1935. Nickelodeon Streak è stata costruita nel 1933 come montagna russa chiamata Roller Coaster e ribattezzata nel 2010. Launch Pad ha riaperto a maggio 2025 come versione ricostruita della precedente Ice Blast, e nel 2026 il parco ha inaugurato Aviktas per 8,72 milioni di sterline.",
+      "nl": "Blackpool Pleasure Beach opende in 1896 en vierde in 2021 zijn 125-jarig bestaan. Sir Hiram Maxim's Flying Machines stamt uit 1904, Ghost Train uit 1930 en de houten racebaan Grand National uit 1935. Nickelodeon Streak werd in 1933 gebouwd als een achtbaan genaamd Roller Coaster en in 2010 hernoemd. Launch Pad heropende in mei 2025 als herbouwde versie van de voormalige Ice Blast, en in 2026 opende het park Aviktas voor 8,72 miljoen pond.",
+      "pt": "A Blackpool Pleasure Beach abriu em 1896 e celebrou o 125.º aniversário em 2021. A Sir Hiram Maxim's Flying Machines data de 1904, a Ghost Train de 1930 e a montanha-russa de corrida em madeira Grand National de 1935. A Nickelodeon Streak foi construída em 1933 como uma montanha-russa chamada Roller Coaster e rebatizada em 2010. A Launch Pad reabriu em maio de 2025 como versão reconstruída da antiga Ice Blast, e em 2026 o parque inaugurou a Aviktas por 8,72 milhões de libras.",
+      "ru": "Blackpool Pleasure Beach открылся в 1896 году и в 2021 году отметил 125-летие. Sir Hiram Maxim's Flying Machines появились в 1904 году, Ghost Train — в 1930-м, а деревянные гоночные горки Grand National — в 1935-м. Nickelodeon Streak были построены в 1933 году как горки Roller Coaster и переименованы в 2010 году. Launch Pad вновь открылись в мае 2025 года как перестроенная версия прежнего Ice Blast, а в 2026 году парк открыл Aviktas стоимостью 8,72 млн фунтов.",
+      "zh": "Blackpool Pleasure Beach于1896年开业，并在2021年庆祝了125周年。Sir Hiram Maxim's Flying Machines始于1904年，Ghost Train始于1930年，木质竞速过山车Grand National始于1935年。Nickelodeon Streak于1933年建成，当时名为Roller Coaster，2010年改名。Launch Pad于2025年5月以前Ice Blast重建版的身份重新开放，2026年乐园又以872万英镑推出Aviktas。",
+      "ar": "افتُتح بلاكبول بليجر بيتش عام 1896 واحتفل بالذكرى الـ125 عام 2021. تعود Sir Hiram Maxim's Flying Machines إلى عام 1904، وGhost Train إلى 1930، وقطار السباق الخشبي Grand National إلى 1935. بُني Nickelodeon Streak عام 1933 باسم Roller Coaster وأُعيدت تسميته عام 2010. وأُعيد افتتاح Launch Pad في مايو 2025 كنسخة معاد بناؤها من Ice Blast السابقة، وفي 2026 افتتح المتنزه Aviktas بتكلفة 8.72 مليون جنيه."
+    },
+    "ov_plan_body": {
+      "en": "Pleasure Beach Resort opens on most days from 7 March to 28 November in 2026, with some midweek days closed in spring and autumn, so check the official calendar before you go. Opening times are usually 10:00 or 11:00 to about 17:00-19:00, with Late Night Riding on selected dates. On-the-day tickets for unlimited rides cost £60, but advance tickets are cheaper (about £30 to £35), there are two-for-£60 offers on Fridays, Sundays and afternoons, and a non-rider ticket is £20; children under 2 go free. The historic Big Dipper has been closed since July 2026 and River Caves is closed for repairs, so they are not included here. Staying at the on-site Big Blue Hotel or Boulevard Hotel puts you next to the rides.",
+      "es": "Pleasure Beach Resort abre la mayoría de los días del 7 de marzo al 28 de noviembre de 2026, con algunos días entre semana cerrados en primavera y otoño, así que consulta el calendario oficial antes de ir. El horario suele ser de 10:00 o 11:00 a unas 17:00-19:00, con Late Night Riding en fechas concretas. La entrada del día con atracciones ilimitadas cuesta 60 £, pero las entradas anticipadas son más baratas (unas 30 a 35 £), hay ofertas de dos por 60 £ los viernes, domingos y por la tarde, y la entrada sin atracciones cuesta 20 £; los menores de 2 años entran gratis. La histórica Big Dipper está cerrada desde julio de 2026 y River Caves está cerrada por reparaciones, así que no figuran aquí. Alojarse en el Big Blue Hotel o el Boulevard Hotel del recinto te deja junto a las atracciones.",
+      "fr": "Pleasure Beach Resort est ouvert la plupart des jours du 7 mars au 28 novembre en 2026, avec quelques jours de semaine fermés au printemps et à l'automne ; consultez donc le calendrier officiel avant de partir. Les horaires vont généralement de 10 h ou 11 h à 17 h-19 h environ, avec des soirées Late Night Riding à certaines dates. Le billet du jour avec attractions illimitées coûte 60 £, mais les billets à l'avance sont moins chers (environ 30 à 35 £), il existe des offres deux pour 60 £ les vendredis, dimanches et l'après-midi, et un billet sans attractions coûte 20 £ ; les moins de 2 ans entrent gratuitement. La célèbre Big Dipper est fermée depuis juillet 2026 et River Caves est fermée pour réparations ; elles ne figurent donc pas ici. Séjourner au Big Blue Hotel ou au Boulevard Hotel sur place vous place à côté des attractions.",
+      "de": "Das Pleasure Beach Resort ist 2026 an den meisten Tagen vom 7. März bis 28. November geöffnet, einzelne Wochentage im Frühjahr und Herbst sind jedoch geschlossen, daher vorab den offiziellen Kalender prüfen. Die Öffnungszeiten liegen meist zwischen 10 oder 11 Uhr und etwa 17-19 Uhr, an einzelnen Terminen gibt es Late Night Riding. Das Tagesticket mit unbegrenzten Fahrten kostet 60 £, Vorab-Tickets sind günstiger (etwa 30 bis 35 £), freitags, sonntags und nachmittags gibt es Zwei-für-60-£-Angebote, ein Ticket ohne Fahrten kostet 20 £; Kinder unter 2 Jahren sind frei. Die historische Big Dipper ist seit Juli 2026 geschlossen und River Caves wegen Reparaturen gesperrt, daher sind sie hier nicht aufgeführt. Wer im Big Blue Hotel oder im Boulevard Hotel auf dem Gelände übernachtet, wohnt direkt neben den Attraktionen.",
+      "it": "Il Pleasure Beach Resort è aperto nella maggior parte dei giorni dal 7 marzo al 28 novembre 2026, con alcuni giorni infrasettimanali chiusi in primavera e in autunno, quindi controllate il calendario ufficiale prima di andare. Gli orari vanno di solito dalle 10 o 11 alle 17-19 circa, con Late Night Riding in alcune date. Il biglietto giornaliero con giri illimitati costa 60 £, ma i biglietti in anticipo costano meno (circa 30-35 £), ci sono offerte due per 60 £ il venerdì, la domenica e nel pomeriggio, e il biglietto senza attrazioni costa 20 £; i bambini sotto i 2 anni entrano gratis. La storica Big Dipper è chiusa da luglio 2026 e River Caves è chiusa per riparazioni, quindi non sono incluse qui. Soggiornare al Big Blue Hotel o al Boulevard Hotel nel parco vi porta accanto alle attrazioni.",
+      "nl": "Pleasure Beach Resort is in 2026 de meeste dagen open van 7 maart tot 28 november, met enkele doordeweekse dagen gesloten in lente en herfst, dus check vooraf de officiële kalender. De openingstijden zijn meestal van 10:00 of 11:00 tot ongeveer 17:00-19:00, met Late Night Riding op bepaalde data. Een dagkaart met onbeperkt ritten kost £60, maar tickets vooraf zijn goedkoper (ongeveer £30 tot £35), op vrijdag, zondag en in de middag zijn er twee-voor-£60-aanbiedingen en een ticket zonder attracties kost £20; kinderen onder 2 jaar gaan gratis. De historische Big Dipper is sinds juli 2026 gesloten en River Caves is gesloten wegens reparaties, dus ze staan hier niet bij. Overnachten in het Big Blue Hotel of Boulevard Hotel op het terrein brengt je direct naast de attracties.",
+      "pt": "O Pleasure Beach Resort abre na maioria dos dias de 7 de março a 28 de novembro de 2026, com alguns dias úteis fechados na primavera e no outono, por isso consulte o calendário oficial antes de ir. O horário costuma ser das 10:00 ou 11:00 até cerca das 17:00-19:00, com Late Night Riding em datas selecionadas. O bilhete do dia com atrações ilimitadas custa 60 £, mas os bilhetes antecipados são mais baratos (cerca de 30 a 35 £), há ofertas de dois por 60 £ às sextas, domingos e à tarde, e o bilhete sem atrações custa 20 £; crianças com menos de 2 anos entram grátis. A histórica Big Dipper está fechada desde julho de 2026 e a River Caves está fechada para reparações, por isso não constam aqui. Ficar no Big Blue Hotel ou no Boulevard Hotel dentro do parque deixa-o junto às atrações.",
+      "ru": "В 2026 году Pleasure Beach Resort работает в большинство дней с 7 марта по 28 ноября, при этом некоторые будни весной и осенью закрыты, поэтому перед поездкой проверьте официальный календарь. Обычно парк открыт с 10:00 или 11:00 примерно до 17:00–19:00, а в отдельные даты проходит Late Night Riding. Билет на день с неограниченными поездками стоит 60 £, но билеты заранее дешевле (около 30–35 £), по пятницам, воскресеньям и во второй половине дня действуют предложения «два за 60 £», а билет без аттракционов стоит 20 £; дети до 2 лет бесплатно. Историческая Big Dipper закрыта с июля 2026 года, а River Caves закрыта на ремонт, поэтому здесь их нет. Если остановиться в отеле Big Blue Hotel или Boulevard Hotel на территории, вы окажетесь рядом с аттракционами.",
+      "zh": "2026年Pleasure Beach Resort在3月7日至11月28日期间大部分日子开放，春秋两季部分工作日休园，出发前请查看官方日历。开放时间通常为10:00或11:00至约17:00–19:00，特定日期设有Late Night Riding夜场。当日不限次数游玩票为60英镑，提前购票更便宜（约30至35英镑），周五、周日及下午有两张60英镑的优惠，不玩项目的门票为20英镑；2岁以下儿童免费。历史悠久的Big Dipper自2026年7月起关闭，River Caves因维修关闭，因此本页未收录。入住园内的Big Blue Hotel或Boulevard Hotel，就在游乐设施旁边。",
+      "ar": "يفتح Pleasure Beach Resort أبوابه في معظم الأيام من 7 مارس إلى 28 نوفمبر 2026، مع إغلاق بعض أيام الأسبوع في الربيع والخريف، لذا راجع التقويم الرسمي قبل الذهاب. تكون ساعات العمل عادةً من 10:00 أو 11:00 إلى نحو 17:00-19:00، مع Late Night Riding في تواريخ محددة. تكلفة تذكرة اليوم بركوب غير محدود 60 جنيهاً، لكن التذاكر المسبقة أرخص (نحو 30 إلى 35 جنيهاً)، وتوجد عروض اثنان بـ60 جنيهاً أيام الجمعة والأحد وبعد الظهر، وتذكرة بلا ركوب بـ20 جنيهاً؛ والأطفال دون عامين مجاناً. أُغلقت Big Dipper التاريخية منذ يوليو 2026 وRiver Caves مغلقة للإصلاح، لذا لم تُدرج هنا. والإقامة في Big Blue Hotel أو Boulevard Hotel داخل المتنزه تضعك بجوار الألعاب."
+    },
+    "ov_photos_body": {
+      "en": "The tall lift hill of The Big One and the looping tracks of ICON and Infusion make dramatic shots against the Irish Sea sky. The wooden structures of Grand National and Nickelodeon Streak add vintage charm, and the historic Flying Machines are a classic subject. On evenings with Late Night Riding, the park's lights make for atmospheric photos.",
+      "es": "La alta colina de ascenso de The Big One y las vías con loopings de ICON e Infusion crean imágenes espectaculares contra el cielo del mar de Irlanda. Las estructuras de madera de Grand National y Nickelodeon Streak aportan encanto retro, y las históricas Flying Machines son un tema clásico. En las noches de Late Night Riding, las luces del parque dan fotos con mucha atmósfera.",
+      "fr": "La haute colline de lancement de The Big One et les rails à loopings d'ICON et d'Infusion font des clichés spectaculaires contre le ciel de la mer d'Irlande. Les structures en bois de Grand National et de Nickelodeon Streak apportent un charme rétro, et les historiques Flying Machines sont un sujet classique. Lors des soirées Late Night Riding, les lumières du parc donnent de belles photos d'ambiance.",
+      "de": "Der hohe Lifthügel von The Big One und die Looping-Gleise von ICON und Infusion ergeben dramatische Bilder vor dem Himmel über der Irischen See. Die Holzkonstruktionen von Grand National und Nickelodeon Streak verleihen Vintage-Charme, und die historischen Flying Machines sind ein klassisches Motiv. An Abenden mit Late Night Riding sorgen die Lichter des Parks für stimmungsvolle Fotos.",
+      "it": "L'alta collina di risalita di The Big One e i binari con loop di ICON e Infusion regalano scatti spettacolari contro il cielo del Mare d'Irlanda. Le strutture in legno di Grand National e Nickelodeon Streak aggiungono un fascino vintage, e le storiche Flying Machines sono un soggetto classico. Nelle serate di Late Night Riding, le luci del parco creano foto suggestive.",
+      "nl": "De hoge lifthill van The Big One en de looping-rails van ICON en Infusion geven dramatische foto's tegen de lucht boven de Ierse Zee. De houten constructies van Grand National en Nickelodeon Streak geven vintage charme, en de historische Flying Machines zijn een klassiek onderwerp. Op avonden met Late Night Riding zorgen de lichten van het park voor sfeervolle foto's.",
+      "pt": "A alta colina de subida da The Big One e os carris com loopings da ICON e da Infusion dão fotografias dramáticas contra o céu do Mar da Irlanda. As estruturas de madeira da Grand National e da Nickelodeon Streak acrescentam charme vintage, e as históricas Flying Machines são um tema clássico. Nas noites de Late Night Riding, as luzes do parque criam fotografias com muita atmosfera.",
+      "ru": "Высокий подъёмник The Big One и петлевые рельсы ICON и Infusion дают эффектные кадры на фоне неба над Ирландским морем. Деревянные конструкции Grand National и Nickelodeon Streak добавляют винтажного шарма, а исторические Flying Machines — классический сюжет. В вечера Late Night Riding огни парка создают атмосферные снимки.",
+      "zh": "The Big One高耸的提升坡和ICON、Infusion带环的轨道，以爱尔兰海上空的天空为背景，拍出来非常有气势。Grand National和Nickelodeon Streak的木质结构带来复古韵味，历史悠久的Flying Machines也是经典拍摄对象。在Late Night Riding夜场的晚上，乐园的灯光很适合拍出氛围感。",
+      "ar": "يمنح ارتفاع منحدر الرفع في The Big One ومسارات الحلقات في ICON وInfusion لقطات مذهلة على خلفية سماء بحر أيرلندا. وتضفي الهياكل الخشبية في Grand National وNickelodeon Streak سحراً قديماً، وتُعدّ Flying Machines التاريخية موضوعاً كلاسيكياً. وفي أمسيات Late Night Riding تمنح أضواء المتنزه صوراً ساحرة."
+    }
+  },
+  "attractions": {
+    "icon": {
+      "desc": {
+        "en": "Double-launch coaster opened in 2018: 27 m high, up to 85 km/h and one inversion. Min 130cm.",
+        "es": "Montaña rusa de doble lanzamiento inaugurada en 2018: 27 m de altura, hasta 85 km/h y una inversión. Mín. 130cm.",
+        "fr": "Grand huit à double lancement ouvert en 2018 : 27 m de haut, jusqu'à 85 km/h et une inversion. Min 130cm.",
+        "de": "Achterbahn mit doppeltem Katapultstart von 2018: 27 m hoch, bis zu 85 km/h und eine Inversion. Min 130cm.",
+        "it": "Montagna russa a doppio lancio inaugurata nel 2018: alta 27 m, fino a 85 km/h e un'inversione. Min 130cm.",
+        "nl": "Achtbaan met dubbele lancering uit 2018: 27 m hoog, tot 85 km/u en één inversie. Min 130cm.",
+        "pt": "Montanha-russa de duplo lançamento inaugurada em 2018: 27 m de altura, até 85 km/h e uma inversão. Mín. 130cm.",
+        "ru": "Горки с двойным разгоном, открытые в 2018 году: высота 27 м, скорость до 85 км/ч, одна инверсия. Рост от 130 см.",
+        "zh": "2018年开放的双重弹射过山车：高27米，时速最高85公里，带一次翻转。最低身高130厘米。",
+        "ar": "قطار جبال روسية بإطلاق مزدوج افتُتح عام 2018: ارتفاع 27 م وسرعة تصل إلى 85 كم/س وانقلاب واحد. الحد الأدنى 130 سم."
+      }
+    },
+    "the_big_one": {
+      "desc": {
+        "en": "Hypercoaster opened in 1994: 65 m high and up to 119 km/h, beside the sea. Min 132cm.",
+        "es": "Hypercoaster inaugurada en 1994: 65 m de altura y hasta 119 km/h, junto al mar. Mín. 132cm.",
+        "fr": "Hypercoaster ouvert en 1994 : 65 m de haut et jusqu'à 119 km/h, au bord de la mer. Min 132cm.",
+        "de": "Hypercoaster von 1994: 65 m hoch und bis zu 119 km/h, direkt am Meer. Min 132cm.",
+        "it": "Hypercoaster inaugurato nel 1994: alto 65 m e fino a 119 km/h, sul mare. Min 132cm.",
+        "nl": "Hypercoaster uit 1994: 65 m hoog en tot 119 km/u, vlak bij de zee. Min 132cm.",
+        "pt": "Hypercoaster inaugurada em 1994: 65 m de altura e até 119 km/h, junto ao mar. Mín. 132cm.",
+        "ru": "Гиперкоастер, открытый в 1994 году: высота 65 м, скорость до 119 км/ч, рядом с морем. Рост от 132 см.",
+        "zh": "1994年开放的超级过山车：高65米，时速最高119公里，紧邻大海。最低身高132厘米。",
+        "ar": "قطار جبال روسية فائق افتُتح عام 1994: ارتفاع 65 م وسرعة تصل إلى 119 كم/س بجوار البحر. الحد الأدنى 132 سم."
+      }
+    },
+    "aviktas": {
+      "desc": {
+        "en": "The UK's tallest gyro swing, opened in 2026: about 42 m high and around 97 km/h. Min 130cm.",
+        "es": "El columpio giroscópico más alto del Reino Unido, inaugurado en 2026: unos 42 m de altura y unos 97 km/h. Mín. 130cm.",
+        "fr": "La plus haute balançoire gyroscopique du Royaume-Uni, ouverte en 2026 : environ 42 m de haut et près de 97 km/h. Min 130cm.",
+        "de": "Die höchste Gyro-Schaukel Großbritanniens, 2026 eröffnet: etwa 42 m hoch und rund 97 km/h. Min 130cm.",
+        "it": "La più alta giostra gyro del Regno Unito, aperta nel 2026: circa 42 m di altezza e circa 97 km/h. Min 130cm.",
+        "nl": "De hoogste gyroswing van het Verenigd Koninkrijk, geopend in 2026: ongeveer 42 m hoog en circa 97 km/u. Min 130cm.",
+        "pt": "O baloiço giroscópico mais alto do Reino Unido, inaugurado em 2026: cerca de 42 m de altura e perto de 97 km/h. Mín. 130cm.",
+        "ru": "Самые высокие гироскопические качели Великобритании, открытые в 2026 году: около 42 м и примерно 97 км/ч. Рост от 130 см.",
+        "zh": "2026年开放的英国最高陀螺式摆锤：高约42米，时速约97公里。最低身高130厘米。",
+        "ar": "أطول أرجوحة جيروسكوبية في المملكة المتحدة، افتُتحت عام 2026: ارتفاع نحو 42 م وسرعة نحو 97 كم/س. الحد الأدنى 130 سم."
+      }
+    },
+    "infusion": {
+      "desc": {
+        "en": "Suspended looping coaster opened in 2007: 33 m lift, up to 80 km/h and five inversions. Min 132cm.",
+        "es": "Montaña rusa suspendida con loopings inaugurada en 2007: ascenso de 33 m, hasta 80 km/h y cinco inversiones. Mín. 132cm.",
+        "fr": "Coaster suspendu à loopings ouvert en 2007 : lift de 33 m, jusqu'à 80 km/h et cinq inversions. Min 132cm.",
+        "de": "Hängeachterbahn mit Loopings von 2007: 33 m Lift, bis zu 80 km/h und fünf Inversionen. Min 132cm.",
+        "it": "Montagna russa sospesa con loop inaugurata nel 2007: salita di 33 m, fino a 80 km/h e cinque inversioni. Min 132cm.",
+        "nl": "Hangende looping-achtbaan uit 2007: lift van 33 m, tot 80 km/u en vijf inversies. Min 132cm.",
+        "pt": "Montanha-russa suspensa com loopings inaugurada em 2007: subida de 33 m, até 80 km/h e cinco inversões. Mín. 132cm.",
+        "ru": "Подвесные горки с петлями, открытые в 2007 году: подъём 33 м, скорость до 80 км/ч, пять инверсий. Рост от 132 см.",
+        "zh": "2007年开放的悬挂式环形过山车：提升高度33米，时速最高80公里，带五次翻转。最低身高132厘米。",
+        "ar": "قطار جبال روسية معلّق بحلقات افتُتح عام 2007: رفع 33 م وسرعة تصل إلى 80 كم/س وخمس انقلابات. الحد الأدنى 132 سم."
+      }
+    },
+    "valhalla": {
+      "desc": {
+        "en": "Indoor water ride opened in 2000: Norse-themed scenes and a final drop of about 24 m. Min 130cm.",
+        "es": "Atracción acuática cubierta inaugurada en 2000: escenas de temática nórdica y una caída final de unos 24 m. Mín. 130cm.",
+        "fr": "Parcours aquatique couvert ouvert en 2000 : décors nordiques et chute finale d'environ 24 m. Min 130cm.",
+        "de": "Wasserfahrt in der Halle von 2000: nordische Szenen und ein finaler Drop von etwa 24 m. Min 130cm.",
+        "it": "Giostra acquatica al coperto inaugurata nel 2000: scenari a tema nordico e una discesa finale di circa 24 m. Min 130cm.",
+        "nl": "Overdekte waterattractie uit 2000: Noors thema en een laatste val van ongeveer 24 m. Min 130cm.",
+        "pt": "Atração aquática interior inaugurada em 2000: cenários de temática nórdica e uma queda final de cerca de 24 m. Mín. 130cm.",
+        "ru": "Крытый водный аттракцион, открытый в 2000 году: скандинавские декорации и финальный спуск около 24 м. Рост от 130 см.",
+        "zh": "2000年开放的室内水上项目：北欧主题场景，最后有约24米的落差。最低身高130厘米。",
+        "ar": "لعبة مائية داخلية افتُتحت عام 2000: مشاهد بطابع شمالي وسقوط أخير بنحو 24 م. الحد الأدنى 130 سم."
+      }
+    },
+    "revolution": {
+      "desc": {
+        "en": "Launched looping coaster from 1979: a vertical loop taken forwards and then backwards. Min 127cm.",
+        "es": "Montaña rusa con lanzamiento y looping de 1979: un looping vertical recorrido hacia delante y luego hacia atrás. Mín. 127cm.",
+        "fr": "Grand huit à lancement et looping de 1979 : une boucle verticale prise en avant puis en arrière. Min 127cm.",
+        "de": "Katapult-Looping-Achterbahn von 1979: ein vertikaler Looping vorwärts und dann rückwärts. Min 127cm.",
+        "it": "Montagna russa con lancio e loop del 1979: un loop verticale percorso in avanti e poi all'indietro. Min 127cm.",
+        "nl": "Gelanceerde looping-achtbaan uit 1979: een verticale looping eerst vooruit en dan achteruit. Min 127cm.",
+        "pt": "Montanha-russa com lançamento e looping de 1979: um looping vertical percorrido para a frente e depois para trás. Mín. 127cm.",
+        "ru": "Горки с разгоном и петлёй 1979 года: вертикальная петля вперёд, а затем назад. Рост от 127 см.",
+        "zh": "1979年的弹射环形过山车：先正向再反向通过垂直回环。最低身高127厘米。",
+        "ar": "قطار جبال روسية بإطلاق وحلقة من عام 1979: حلقة رأسية تُقطع للأمام ثم للخلف. الحد الأدنى 127 سم."
+      }
+    },
+    "avalanche": {
+      "desc": {
+        "en": "Bobsled-style coaster from 1988: swooping banked turns on a track about 18 m high. Min 112cm.",
+        "es": "Montaña rusa estilo bobsleigh de 1988: curvas peraltadas en una vía de unos 18 m de altura. Mín. 112cm.",
+        "fr": "Grand huit style bobsleigh de 1988 : virages relevés sur une piste d'environ 18 m de haut. Min 112cm.",
+        "de": "Bobbahn-Achterbahn von 1988: Steilkurven auf einer etwa 18 m hohen Strecke. Min 112cm.",
+        "it": "Montagna russa in stile bob del 1988: curve paraboliche su un tracciato alto circa 18 m. Min 112cm.",
+        "nl": "Bobsleeachtbaan uit 1988: snelle bochten op een baan van ongeveer 18 m hoog. Min 112cm.",
+        "pt": "Montanha-russa estilo bobsleigh de 1988: curvas inclinadas numa via com cerca de 18 m de altura. Mín. 112cm.",
+        "ru": "Горки в стиле бобслея 1988 года: виражи на трассе высотой около 18 м. Рост от 112 см.",
+        "zh": "1988年的雪橇式过山车：在约18米高的轨道上通过倾斜弯道。最低身高112厘米。",
+        "ar": "قطار جبال روسية على طراز المزلجة من عام 1988: منعطفات مائلة على مسار بارتفاع نحو 18 م. الحد الأدنى 112 سم."
+      }
+    },
+    "steeplechase": {
+      "desc": {
+        "en": "Triple-track racing coaster from 1977: ride horse-shaped cars and race side by side. Min 127cm.",
+        "es": "Montaña rusa de carreras de tres vías de 1977: monta en vagonetas con forma de caballo y compite en paralelo. Mín. 127cm.",
+        "fr": "Grand huit de course à trois voies de 1977 : montez dans des wagons en forme de cheval et faites la course côte à côte. Min 127cm.",
+        "de": "Rennachterbahn mit drei Spuren von 1977: auf pferdeförmigen Wagen nebeneinander um die Wette fahren. Min 127cm.",
+        "it": "Montagna russa da corsa a tre binari del 1977: sedetevi su vagoni a forma di cavallo e gareggiate fianco a fianco. Min 127cm.",
+        "nl": "Racebaan-achtbaan met drie sporen uit 1977: zit in paardvormige wagens en race naast elkaar. Min 127cm.",
+        "pt": "Montanha-russa de corrida de três vias de 1977: sente-se em carruagens em forma de cavalo e corra lado a lado. Mín. 127cm.",
+        "ru": "Гоночные горки с тремя путями 1977 года: садитесь в вагончики в форме лошадей и соревнуйтесь бок о бок. Рост от 127 см.",
+        "zh": "1977年的三轨竞速过山车：坐上马形车厢并排竞速。最低身高127厘米。",
+        "ar": "قطار سباق بثلاثة مسارات من عام 1977: اركب عربات على شكل أحصنة وتسابق جنباً إلى جنب. الحد الأدنى 127 سم."
+      }
+    },
+    "grand_national": {
+      "desc": {
+        "en": "Wooden racing coaster from 1935: two trains race along a structure about 19 m high. Min 140cm.",
+        "es": "Montaña rusa de madera de carreras de 1935: dos trenes compiten en una estructura de unos 19 m de altura. Mín. 140cm.",
+        "fr": "Grand huit de course en bois de 1935 : deux trains font la course sur une structure d'environ 19 m de haut. Min 140cm.",
+        "de": "Hölzerne Rennachterbahn von 1935: zwei Züge fahren auf einer etwa 19 m hohen Konstruktion um die Wette. Min 140cm.",
+        "it": "Montagna russa da corsa in legno del 1935: due treni gareggiano su una struttura alta circa 19 m. Min 140cm.",
+        "nl": "Houten racebaan-achtbaan uit 1935: twee treinen racen op een constructie van ongeveer 19 m hoog. Min 140cm.",
+        "pt": "Montanha-russa de corrida em madeira de 1935: dois comboios competem numa estrutura com cerca de 19 m de altura. Mín. 140cm.",
+        "ru": "Деревянные гоночные горки 1935 года: два поезда соревнуются на конструкции высотой около 19 м. Рост от 140 см.",
+        "zh": "1935年的木质竞速过山车：两列车厢在约19米高的结构上并行竞速。最低身高140厘米。",
+        "ar": "قطار سباق خشبي من عام 1935: قطاران يتسابقان على هيكل بارتفاع نحو 19 م. الحد الأدنى 140 سم."
+      }
+    },
+    "nickelodeon_streak": {
+      "desc": {
+        "en": "Wooden coaster built in 1933: about 19 m high and up to 56 km/h. Min 117cm.",
+        "es": "Montaña rusa de madera construida en 1933: unos 19 m de altura y hasta 56 km/h. Mín. 117cm.",
+        "fr": "Grand huit en bois construit en 1933 : environ 19 m de haut et jusqu'à 56 km/h. Min 117cm.",
+        "de": "Holzachterbahn, 1933 gebaut: etwa 19 m hoch und bis zu 56 km/h. Min 117cm.",
+        "it": "Montagna russa in legno costruita nel 1933: alta circa 19 m e fino a 56 km/h. Min 117cm.",
+        "nl": "Houten achtbaan gebouwd in 1933: ongeveer 19 m hoog en tot 56 km/u. Min 117cm.",
+        "pt": "Montanha-russa de madeira construída em 1933: cerca de 19 m de altura e até 56 km/h. Mín. 117cm.",
+        "ru": "Деревянные горки, построенные в 1933 году: высота около 19 м, скорость до 56 км/ч. Рост от 117 см.",
+        "zh": "1933年建成的木质过山车：高约19米，时速最高56公里。最低身高117厘米。",
+        "ar": "قطار جبال روسية خشبي بُني عام 1933: ارتفاع نحو 19 م وسرعة تصل إلى 56 كم/س. الحد الأدنى 117 سم."
+      }
+    },
+    "launch_pad": {
+      "desc": {
+        "en": "Space Shot tower reopened in 2025: fired up 64 m at around 129 km/h. Check the height rule on the day.",
+        "es": "Torre Space Shot reabierta en 2025: lanzamiento a 64 m a unos 129 km/h. Consulta la altura mínima el mismo día.",
+        "fr": "Tour Space Shot rouverte en 2025 : propulsion à 64 m à environ 129 km/h. Vérifiez la taille minimale sur place.",
+        "de": "Space-Shot-Turm, 2025 wiedereröffnet: Katapult auf 64 m mit rund 129 km/h. Mindestgröße vor Ort prüfen.",
+        "it": "Torre Space Shot riaperta nel 2025: lancio a 64 m a circa 129 km/h. Controllate l'altezza minima in loco.",
+        "nl": "Space Shot-toren heropend in 2025: gelanceerd naar 64 m met circa 129 km/u. Check de minimumlengte ter plaatse.",
+        "pt": "Torre Space Shot reaberta em 2025: lançamento a 64 m a cerca de 129 km/h. Confirme a altura mínima no dia.",
+        "ru": "Башня Space Shot, вновь открытая в 2025 году: выстрел на 64 м со скоростью около 129 км/ч. Ограничение по росту уточняйте на месте.",
+        "zh": "2025年重新开放的Space Shot塔：以约129公里时速弹射至64米高。身高限制请当天确认。",
+        "ar": "برج Space Shot أُعيد افتتاحه عام 2025: إطلاق إلى ارتفاع 64 م بسرعة نحو 129 كم/س. تحقق من شرط الطول في اليوم نفسه."
+      }
+    },
+    "wallace_gromits_thrill_o_matic": {
+      "desc": {
+        "en": "Dark ride from 2013 through sets inspired by the Wallace & Gromit films. Min 117cm alone, 90cm with a rider.",
+        "es": "Atracción oscura de 2013 por decorados inspirados en las películas de Wallace & Gromit. Mín. 117cm solo, 90cm acompañado.",
+        "fr": "Parcours scénique de 2013 dans des décors inspirés des films Wallace & Gromit. Min 117cm seul, 90cm accompagné.",
+        "de": "Dark Ride von 2013 durch Kulissen nach den Wallace-&-Gromit-Filmen. Min 117cm allein, 90cm mit Begleitung.",
+        "it": "Dark ride del 2013 tra ambientazioni ispirate ai film di Wallace & Gromit. Min 117cm da soli, 90cm con accompagnatore.",
+        "nl": "Darkride uit 2013 door decors geïnspireerd op de Wallace & Gromit-films. Min 117cm alleen, 90cm met begeleider.",
+        "pt": "Atração escura de 2013 por cenários inspirados nos filmes de Wallace & Gromit. Mín. 117cm sozinho, 90cm acompanhado.",
+        "ru": "Тёмный аттракцион 2013 года с декорациями по мотивам фильмов о Уоллесе и Громите. Рост от 117 см самостоятельно, от 90 см с сопровождающим.",
+        "zh": "2013年的暗骑项目，场景灵感来自《超级无敌掌门狗》电影。独自乘坐最低117厘米，有人陪同最低90厘米。",
+        "ar": "لعبة مظلمة من عام 2013 عبر مشاهد مستوحاة من أفلام والاس وغروميت. الحد الأدنى 117 سم بمفردك أو 90 سم برفقة راكب."
+      }
+    },
+    "ghost_train": {
+      "desc": {
+        "en": "Classic dark ride from 1930: small cars through spooky scenes and surprises. Min 117cm alone.",
+        "es": "Clásico tren fantasma de 1930: pequeños coches por escenas siniestras y sorpresas. Mín. 117cm solo.",
+        "fr": "Train fantôme classique de 1930 : petites voitures à travers des scènes effrayantes et des surprises. Min 117cm seul.",
+        "de": "Klassische Geisterbahn von 1930: kleine Wagen durch gruselige Szenen und Überraschungen. Min 117cm allein.",
+        "it": "Classico treno fantasma del 1930: piccole auto tra scene spettrali e sorprese. Min 117cm da soli.",
+        "nl": "Klassieke spooktrein uit 1930: kleine wagentjes door spookachtige scènes en verrassingen. Min 117cm alleen.",
+        "pt": "Clássico comboio fantasma de 1930: pequenos carros por cenas assustadoras e surpresas. Mín. 117cm sozinho.",
+        "ru": "Классический «поезд призраков» 1930 года: небольшие вагончики проезжают через жуткие сцены и сюрпризы. Рост от 117 см самостоятельно.",
+        "zh": "1930年的经典鬼屋列车：乘坐小车穿过阴森场景和各种惊喜。独自乘坐最低117厘米。",
+        "ar": "قطار الأشباح الكلاسيكي من عام 1930: سيارات صغيرة عبر مشاهد مخيفة ومفاجآت. الحد الأدنى 117 سم بمفردك."
+      }
+    },
+    "alice_in_wonderland": {
+      "desc": {
+        "en": "Gentle dark ride from 1962 through colourful scenes of the Alice story. Min 117cm alone.",
+        "es": "Atracción oscura suave de 1962 por coloridas escenas del cuento de Alicia. Mín. 117cm solo.",
+        "fr": "Parcours scénique doux de 1962 à travers des scènes colorées de l'histoire d'Alice. Min 117cm seul.",
+        "de": "Sanfter Dark Ride von 1962 durch bunte Szenen aus der Geschichte von Alice. Min 117cm allein.",
+        "it": "Dolce dark ride del 1962 tra scene colorate della storia di Alice. Min 117cm da soli.",
+        "nl": "Rustige darkride uit 1962 door kleurrijke scènes uit het verhaal van Alice. Min 117cm alleen.",
+        "pt": "Atração escura suave de 1962 por cenas coloridas da história de Alice. Mín. 117cm sozinho.",
+        "ru": "Спокойный тёмный аттракцион 1962 года с яркими сценами из истории об Алисе. Рост от 117 см самостоятельно.",
+        "zh": "1962年的温和暗骑项目，穿越《爱丽丝梦游仙境》的缤纷场景。独自乘坐最低117厘米。",
+        "ar": "لعبة مظلمة لطيفة من عام 1962 عبر مشاهد ملونة من قصة أليس. الحد الأدنى 117 سم بمفردك."
+      }
+    },
+    "flying_machines": {
+      "desc": {
+        "en": "Vintage ride from 1904: small aeroplane-style cars swing out as the structure spins. Min 117cm alone.",
+        "es": "Atracción histórica de 1904: pequeños aviones que se abren al girar la estructura. Mín. 117cm solo.",
+        "fr": "Attraction historique de 1904 : de petits avions qui s'écartent quand la structure tourne. Min 117cm seul.",
+        "de": "Historisches Fahrgeschäft von 1904: kleine Flugzeug-Gondeln schwingen beim Drehen nach außen. Min 117cm allein.",
+        "it": "Giostra storica del 1904: piccoli aeroplani che si aprono mentre la struttura gira. Min 117cm da soli.",
+        "nl": "Historische attractie uit 1904: kleine vliegtuigjes zwaaien uit terwijl de constructie draait. Min 117cm alleen.",
+        "pt": "Atração histórica de 1904: pequenos aviões que se afastam enquanto a estrutura gira. Mín. 117cm sozinho.",
+        "ru": "Старинный аттракцион 1904 года: маленькие «самолётики» отклоняются в стороны при вращении конструкции. Рост от 117 см самостоятельно.",
+        "zh": "1904年的古董游乐设施：小型飞机造型车厢随结构旋转而向外摆起。独自乘坐最低117厘米。",
+        "ar": "لعبة تاريخية من عام 1904: طائرات صغيرة تتأرجح للخارج مع دوران الهيكل. الحد الأدنى 117 سم بمفردك."
+      }
+    }
+  },
+  "food": {
+    "food_coasters_bar_and_restaurant": {
+      "desc": {
+        "en": "Bar and restaurant with a balcony view of ICON: breakfast, Italian and Tex-Mex dishes.",
+        "es": "Bar y restaurante con balcón con vistas a ICON: desayunos, platos italianos y tex-mex.",
+        "fr": "Bar-restaurant avec balcon donnant sur ICON : petit-déjeuner, plats italiens et tex-mex.",
+        "de": "Bar und Restaurant mit Balkon und Blick auf ICON: Frühstück, italienische und Tex-Mex-Gerichte.",
+        "it": "Bar e ristorante con balcone vista ICON: colazione, piatti italiani e tex-mex.",
+        "nl": "Bar en restaurant met balkon met uitzicht op ICON: ontbijt, Italiaanse en Tex-Mex-gerechten.",
+        "pt": "Bar e restaurante com varanda com vista para a ICON: pequeno-almoço, pratos italianos e tex-mex.",
+        "ru": "Бар-ресторан с балконом и видом на ICON: завтраки, итальянские и тексмекс-блюда.",
+        "zh": "设有可眺望ICON阳台的酒吧餐厅：供应早餐、意大利菜和墨西哥风味菜肴。",
+        "ar": "بار ومطعم بشرفة تطل على ICON: وجبات إفطار وأطباق إيطالية ومكسيكية."
+      }
+    },
+    "food_lokis_restaurant": {
+      "desc": {
+        "en": "Norse-themed restaurant and bar beside Valhalla, serving rotisserie chicken with sides.",
+        "es": "Restaurante y bar de temática nórdica junto a Valhalla, con pollo asado en espetón y guarniciones.",
+        "fr": "Restaurant et bar à thème nordique à côté de Valhalla, avec poulet rôti à la broche et accompagnements.",
+        "de": "Nordisch gestaltetes Restaurant und Bar neben Valhalla mit Grillhähnchen und Beilagen.",
+        "it": "Ristorante e bar a tema nordico accanto a Valhalla, con pollo allo spiedo e contorni.",
+        "nl": "Restaurant en bar met Noors thema naast Valhalla, met draaispitkip en bijgerechten.",
+        "pt": "Restaurante e bar de temática nórdica junto à Valhalla, com frango assado no espeto e acompanhamentos.",
+        "ru": "Ресторан и бар в скандинавском стиле рядом с Valhalla: курица-гриль и гарниры.",
+        "zh": "位于Valhalla旁的北欧主题餐厅和酒吧，供应烤鸡及配菜。",
+        "ar": "مطعم وبار بطابع شمالي بجوار Valhalla يقدم الدجاج المشوي مع الأطباق الجانبية."
+      }
+    },
+    "food_big_pizza_kitchen": {
+      "desc": {
+        "en": "All-you-can-eat pizza, pasta and salad buffet with vegetarian, gluten-free and kids' options.",
+        "es": "Bufé libre de pizza, pasta y ensalada con opciones vegetarianas, sin gluten e infantiles.",
+        "fr": "Buffet à volonté de pizzas, pâtes et salades avec options végétariennes, sans gluten et enfants.",
+        "de": "All-you-can-eat-Buffet mit Pizza, Pasta und Salat; vegetarische, glutenfreie und Kinderoptionen.",
+        "it": "Buffet a volontà di pizza, pasta e insalata con opzioni vegetariane, senza glutine e per bambini.",
+        "nl": "All-you-can-eat buffet met pizza, pasta en salade, met vegetarische, glutenvrije en kinderopties.",
+        "pt": "Buffet livre de pizza, massa e salada com opções vegetarianas, sem glúten e infantis.",
+        "ru": "Шведский стол «ешь сколько хочешь»: пицца, паста и салаты, есть вегетарианские, безглютеновые и детские варианты.",
+        "zh": "无限畅吃的披萨、意面和沙拉自助，提供素食、无麸质和儿童选择。",
+        "ar": "بوفيه مفتوح من البيتزا والمعكرونة والسلطات مع خيارات نباتية وخالية من الغلوتين وللأطفال."
+      }
+    },
+    "food_white_tower_restaurant": {
+      "desc": {
+        "en": "Traditional top-floor restaurant in the Casino Building with promenade views and local produce.",
+        "es": "Restaurante tradicional en la planta superior del edificio Casino, con vistas al paseo marítimo y productos locales.",
+        "fr": "Restaurant traditionnel au dernier étage du Casino Building, avec vue sur la promenade et produits locaux.",
+        "de": "Traditionelles Restaurant im obersten Stock des Casino Building mit Promenadenblick und regionalen Produkten.",
+        "it": "Ristorante tradizionale all'ultimo piano del Casino Building, con vista sul lungomare e prodotti locali.",
+        "nl": "Traditioneel restaurant op de bovenste verdieping van het Casino Building met uitzicht op de boulevard en lokale producten.",
+        "pt": "Restaurante tradicional no último andar do Casino Building, com vista para o passeio marítimo e produtos locais.",
+        "ru": "Традиционный ресторан на верхнем этаже здания Casino Building с видом на набережную и местными продуктами.",
+        "zh": "位于Casino Building顶层的传统餐厅，可眺望海滨步道，使用当地食材。",
+        "ar": "مطعم تقليدي في الطابق العلوي من مبنى الكازينو يطل على الممشى البحري ويقدم منتجات محلية."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_big_blue_hotel": {
+      "desc": {
+        "en": "4-star hotel on the Pleasure Beach site, a short walk from the rides.",
+        "es": "Hotel de 4 estrellas en el recinto del Pleasure Beach, a pocos pasos de las atracciones.",
+        "fr": "Hôtel 4 étoiles sur le site du Pleasure Beach, à quelques pas des attractions.",
+        "de": "4-Sterne-Hotel auf dem Gelände des Pleasure Beach, nur wenige Schritte von den Attraktionen.",
+        "it": "Hotel 4 stelle nell'area del Pleasure Beach, a pochi passi dalle attrazioni.",
+        "nl": "4-sterrenhotel op het terrein van Pleasure Beach, op loopafstand van de attracties.",
+        "pt": "Hotel de 4 estrelas no recinto do Pleasure Beach, a poucos passos das atrações.",
+        "ru": "4-звёздочный отель на территории Pleasure Beach, в нескольких минутах ходьбы от аттракционов.",
+        "zh": "位于Pleasure Beach园区内的四星级酒店，步行即可到达游乐设施。",
+        "ar": "فندق أربع نجوم داخل موقع Pleasure Beach على بعد خطوات من الألعاب."
+      }
+    },
+    "hotel_boulevard_hotel": {
+      "desc": {
+        "en": "Modern 120-room hotel opened in 2019 on the southern edge of the park, with restaurant and bar.",
+        "es": "Hotel moderno de 120 habitaciones inaugurado en 2019 en el extremo sur del parque, con restaurante y bar.",
+        "fr": "Hôtel moderne de 120 chambres ouvert en 2019 au sud du parc, avec restaurant et bar.",
+        "de": "Modernes Hotel mit 120 Zimmern, 2019 am südlichen Rand des Parks eröffnet, mit Restaurant und Bar.",
+        "it": "Hotel moderno con 120 camere aperto nel 2019 al margine sud del parco, con ristorante e bar.",
+        "nl": "Modern hotel met 120 kamers, geopend in 2019 aan de zuidrand van het park, met restaurant en bar.",
+        "pt": "Hotel moderno de 120 quartos inaugurado em 2019 no extremo sul do parque, com restaurante e bar.",
+        "ru": "Современный отель на 120 номеров, открытый в 2019 году на южной окраине парка, с рестораном и баром.",
+        "zh": "2019年开业的现代酒店，位于乐园南侧，共120间客房，设有餐厅和酒吧。",
+        "ar": "فندق حديث بـ120 غرفة افتُتح عام 2019 على الحافة الجنوبية للمتنزه مع مطعم وبار."
+      }
+    },
+    "hotel_hampton_by_hilton_blackpool": {
+      "desc": {
+        "en": "Reliable hotel on the South Promenade, about 0.2 miles from the park.",
+        "es": "Hotel fiable en South Promenade, a unos 0,3 km del parque.",
+        "fr": "Hôtel fiable sur South Promenade, à environ 0,3 km du parc.",
+        "de": "Zuverlässiges Hotel an der South Promenade, etwa 0,3 km vom Park entfernt.",
+        "it": "Hotel affidabile sulla South Promenade, a circa 0,3 km dal parco.",
+        "nl": "Betrouwbaar hotel aan de South Promenade, ongeveer 0,3 km van het park.",
+        "pt": "Hotel fiável na South Promenade, a cerca de 0,3 km do parque.",
+        "ru": "Надёжный отель на South Promenade примерно в 0,3 км от парка.",
+        "zh": "位于South Promenade的可靠酒店，距乐园约0.3公里。",
+        "ar": "فندق موثوق على South Promenade على بعد نحو 0.3 كم من المتنزه."
+      }
+    },
+    "hotel_premier_inn_blackpool_beach": {
+      "desc": {
+        "en": "Budget-friendly hotel about a 7-minute drive from the park.",
+        "es": "Hotel económico a unos 7 minutos en coche del parque.",
+        "fr": "Hôtel économique à environ 7 minutes en voiture du parc.",
+        "de": "Preiswertes Hotel, etwa 7 Autominuten vom Park entfernt.",
+        "it": "Hotel economico a circa 7 minuti d'auto dal parco.",
+        "nl": "Voordelig hotel op ongeveer 7 minuten rijden van het park.",
+        "pt": "Hotel económico a cerca de 7 minutos de carro do parque.",
+        "ru": "Недорогой отель примерно в 7 минутах езды от парка.",
+        "zh": "经济型酒店，驾车约7分钟可达乐园。",
+        "ar": "فندق اقتصادي على بعد نحو 7 دقائق بالسيارة من المتنزه."
+      }
+    },
+    "hotel_imperial_hotel_blackpool": {
+      "desc": {
+        "en": "Classic seafront hotel on the North Promenade, on the far side of town from the park.",
+        "es": "Hotel clásico frente al mar en North Promenade, al otro lado de la ciudad respecto al parque.",
+        "fr": "Hôtel classique en bord de mer sur North Promenade, de l'autre côté de la ville par rapport au parc.",
+        "de": "Klassisches Hotel an der North Promenade, auf der anderen Seite der Stadt vom Park aus gesehen.",
+        "it": "Hotel classico sul lungomare di North Promenade, dall'altra parte della città rispetto al parco.",
+        "nl": "Klassiek hotel aan de North Promenade, aan de andere kant van de stad vanaf het park.",
+        "pt": "Hotel clássico à beira-mar na North Promenade, do outro lado da cidade em relação ao parque.",
+        "ru": "Классический отель на набережной North Promenade, на другом конце города от парка.",
+        "zh": "位于North Promenade的经典海滨酒店，与乐园分处小镇两端。",
+        "ar": "فندق كلاسيكي على الواجهة البحرية في North Promenade على الجانب الآخر من المدينة بالنسبة للمتنزه."
+      }
+    }
+  }
+}

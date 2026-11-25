@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hotel_knotts_hotel",
+    "name": "Knott's Hotel",
+    "description": "Knott's Hotel is the park-owned hotel on Crescent Avenue, about 0.3 miles from the park. The official site sells packages with admission, breakfast and parking, and the hotel has restaurants and a lobby bar. Rates shown are rough estimates.",
+    "image": "assets/images/knotts_berry_farm/hotel_knotts_hotel.png",
+    "lat": 33.8415,
+    "lng": -118.004,
+    "rating": 4,
+    "topPick": true,
+    "website": "https://www.sixflags.com/knotts/knotts-hotel/packages",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Hotel room next to the park.",
+        "pricePerNight": 150,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 200,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_days_inn_buena_park",
+    "name": "Days Inn by Wyndham Buena Park",
+    "description": "Days Inn by Wyndham Buena Park is a budget hotel about 1 mile from the park. The link goes to the brand website. Rates shown are rough estimates.",
+    "image": "assets/images/knotts_berry_farm/hotel_days_inn_buena_park.png",
+    "lat": 33.847,
+    "lng": -118.016,
+    "rating": 3.4,
+    "topPick": false,
+    "website": "https://www.wyndhamhotels.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Simple budget room.",
+        "pricePerNight": 93,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families.",
+        "pricePerNight": 120,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_courtyard_anaheim_buena_park",
+    "name": "Courtyard by Marriott Anaheim Buena Park",
+    "description": "Courtyard by Marriott Anaheim Buena Park is a mid-range hotel about 2 miles from Knott's and about 6 miles from Disneyland. The link goes to the brand website. Rates shown are rough estimates.",
+    "image": "assets/images/knotts_berry_farm/hotel_courtyard_anaheim_buena_park.png",
+    "lat": 33.8545,
+    "lng": -117.9905,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.marriott.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable standard room.",
+        "pricePerNight": 127,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families.",
+        "pricePerNight": 165,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_doubletree_buena_park",
+    "name": "DoubleTree by Hilton Buena Park",
+    "description": "DoubleTree by Hilton Buena Park is a hotel a short drive from the park, with a complimentary shuttle to nearby attractions. The link goes to the brand website. Rates shown are rough estimates.",
+    "image": "assets/images/knotts_berry_farm/hotel_doubletree_buena_park.png",
+    "lat": 33.8606,
+    "lng": -117.998,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.hilton.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable standard room.",
+        "pricePerNight": 131,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families.",
+        "pricePerNight": 170,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_holiday_inn_express_anaheim_west",
+    "name": "Holiday Inn Express Anaheim West",
+    "description": "Holiday Inn Express Anaheim West is a hotel near Knott's Berry Farm and Disneyland. The link goes to the brand website. Rates shown are rough estimates.",
+    "image": "assets/images/knotts_berry_farm/hotel_holiday_inn_express_anaheim_west.png",
+    "lat": 33.835,
+    "lng": -117.997,
+    "rating": 4,
+    "topPick": false,
+    "website": "https://www.ihg.com",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable standard room.",
+        "pricePerNight": 119,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families.",
+        "pricePerNight": 155,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

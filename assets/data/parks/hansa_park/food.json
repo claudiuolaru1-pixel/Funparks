@@ -1,0 +1,109 @@
+[
+  {
+    "id": "food_weltumsegler",
+    "name": "Restaurant Weltumsegler",
+    "description": "A sit-down restaurant in Hansa-Park serving traditional German dishes such as schnitzel, fried potatoes, currywurst, soups and apple cake. A hearty, familiar stop between rides for families and groups.",
+    "topPick": true,
+    "type": "Traditional German",
+    "image": "assets/images/hansa_park/food_weltumsegler.png",
+    "lat": 54.0765,
+    "lng": 10.7787,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Schnitzel with Fried Potatoes",
+        "description": "Breaded schnitzel served with fried potatoes",
+        "price": 15
+      },
+      {
+        "name": "Currywurst with Fries",
+        "description": "Sausage in curry sauce with chips",
+        "price": 9
+      },
+      {
+        "name": "Soup of the Day",
+        "description": "Fresh daily soup with bread",
+        "price": 6
+      },
+      {
+        "name": "Apple Cake",
+        "description": "Classic German apple cake",
+        "price": 5
+      }
+    ]
+  },
+  {
+    "id": "food_cafe_rosa",
+    "name": "Café Rosa",
+    "description": "A pink-themed café behind the Visby facade near the Holstentor, serving coffee, cake and pink-coloured treats. A sweet, photogenic break from the rides.",
+    "topPick": false,
+    "type": "Cafe",
+    "image": "assets/images/hansa_park/food_cafe_rosa.png",
+    "lat": 54.0759,
+    "lng": 10.7776,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Coffee",
+        "description": "Freshly brewed coffee",
+        "price": 3
+      },
+      {
+        "name": "Cake of the Day",
+        "description": "Slice of cake from the café display",
+        "price": 5
+      },
+      {
+        "name": "Pink Treat",
+        "description": "A pink-themed sweet or dish from the café's pink menu",
+        "price": 5
+      }
+    ]
+  },
+  {
+    "id": "food_new_chance_saloon",
+    "name": "Western-Saloon „New Chance“",
+    "description": "A Western-themed restaurant in Hansa-Park's Western town area. Menu details have not been verified, so check the board on arrival for today's offer.",
+    "topPick": false,
+    "type": "Western Saloon",
+    "image": "assets/images/hansa_park/food_new_chance_saloon.png",
+    "lat": 54.0753,
+    "lng": 10.7771,
+    "rating": 4,
+    "items": [
+      {
+        "name": "Hearty Main Dish",
+        "description": "Typical saloon-style main dish; menu varies",
+        "price": 14
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "food_lartista",
+    "name": "Ristorante „L'Artista“",
+    "description": "A ristorante in Hansa-Park. The cuisine has not been verified (presumably Italian), so check the menu on arrival.",
+    "topPick": false,
+    "type": "Ristorante",
+    "image": "assets/images/hansa_park/food_lartista.png",
+    "lat": 54.0761,
+    "lng": 10.7793,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Pasta Dish",
+        "description": "Typical pasta dish; menu varies",
+        "price": 12
+      },
+      {
+        "name": "Pizza",
+        "description": "Typical pizza; menu varies",
+        "price": 11
+      }
+    ]
+  }
+]

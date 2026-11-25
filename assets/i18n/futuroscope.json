@@ -1,0 +1,406 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Futuroscope is a theme park near Poitiers in western France, in Chasseneuil-du-Poitou, built around cinema, image technology and the future. Instead of classic roller coasters, most of its attractions are motion simulators, giant screens and immersive shows, alongside a handful of thrill and water rides. It has its own TGV station, about 20 minutes from Poitiers, and welcomed 2.6 million visitors in 2025 (including the separate Aquascope water park). A 2026 season brought La Serre des Mondes, the T-Rex dome film and Pulse! The Electric Odyssey.",
+      "es": "Futuroscope es un parque temático cerca de Poitiers, en el oeste de Francia, en Chasseneuil-du-Poitou, construido en torno al cine, la tecnología de la imagen y el futuro. En lugar de montañas rusas clásicas, la mayoría de sus atracciones son simuladores de movimiento, pantallas gigantes y espectáculos inmersivos, junto a unas pocas atracciones de emoción y de agua. Tiene su propia estación de TGV, a unos 20 minutos de Poitiers, y recibió 2,6 millones de visitantes en 2025 (incluido el parque acuático Aquascope, aparte). La temporada 2026 trajo La Serre des Mondes, la película en cúpula T-Rex y Pulse! The Electric Odyssey.",
+      "fr": "Le Futuroscope est un parc à thème près de Poitiers, dans l'ouest de la France, à Chasseneuil-du-Poitou, construit autour du cinéma, des technologies de l'image et du futur. Plutôt que des montagnes russes classiques, la plupart de ses attractions sont des simulateurs de mouvement, des écrans géants et des spectacles immersifs, avec quelques attractions à sensations et aquatiques. Il possède sa propre gare TGV, à environ 20 minutes de Poitiers, et a accueilli 2,6 millions de visiteurs en 2025 (Aquascope, parc aquatique distinct, inclus). La saison 2026 a apporté La Serre des Mondes, le film en dôme T-Rex et Pulse ! The Electric Odyssey.",
+      "de": "Futuroscope ist ein Freizeitpark bei Poitiers im Westen Frankreichs, in Chasseneuil-du-Poitou, der sich um Kino, Bildtechnik und die Zukunft dreht. Statt klassischer Achterbahnen bietet er überwiegend Bewegungssimulatoren, Riesenleinwände und immersive Shows, dazu einige Thrill- und Wasserattraktionen. Der Park hat einen eigenen TGV-Bahnhof, etwa 20 Minuten von Poitiers entfernt, und zählte 2025 2,6 Millionen Besucher (einschließlich des separaten Wasserparks Aquascope). Die Saison 2026 brachte La Serre des Mondes, den Kuppelfilm T-Rex und Pulse! The Electric Odyssey.",
+      "it": "Futuroscope è un parco a tema vicino a Poitiers, nell'ovest della Francia, a Chasseneuil-du-Poitou, costruito attorno al cinema, alla tecnologia dell'immagine e al futuro. Invece delle classiche montagne russe, la maggior parte delle attrazioni sono simulatori di movimento, schermi giganti e spettacoli immersivi, accanto a poche attrazioni adrenaliniche e acquatiche. Ha una propria stazione TGV, a circa 20 minuti da Poitiers, e nel 2025 ha accolto 2,6 milioni di visitatori (compreso il parco acquatico Aquascope, separato). La stagione 2026 ha portato La Serre des Mondes, il film in cupola T-Rex e Pulse! The Electric Odyssey.",
+      "nl": "Futuroscope is een themapark bij Poitiers in west-Frankrijk, in Chasseneuil-du-Poitou, gebouwd rond film, beeldtechnologie en de toekomst. In plaats van klassieke achtbanen zijn de meeste attracties bewegingssimulatoren, reuzenschermen en meeslepende shows, naast een paar thrill- en waterattracties. Het park heeft een eigen TGV-station, ongeveer 20 minuten van Poitiers, en ontving in 2025 2,6 miljoen bezoekers (inclusief het aparte waterpark Aquascope). Het seizoen 2026 bracht La Serre des Mondes, de koepelfilm T-Rex en Pulse! The Electric Odyssey.",
+      "pt": "O Futuroscope é um parque temático perto de Poitiers, no oeste de França, em Chasseneuil-du-Poitou, construído em torno do cinema, da tecnologia da imagem e do futuro. Em vez das montanhas-russas clássicas, a maioria das atrações são simuladores de movimento, ecrãs gigantes e espetáculos imersivos, a par de algumas atrações de emoção e aquáticas. Tem a sua própria estação de TGV, a cerca de 20 minutos de Poitiers, e recebeu 2,6 milhões de visitantes em 2025 (incluindo o parque aquático Aquascope, à parte). A temporada de 2026 trouxe La Serre des Mondes, o filme em cúpula T-Rex e Pulse! The Electric Odyssey.",
+      "ru": "Futuroscope — тематический парк близ Пуатье на западе Франции, в Шасней-дю-Пуатон, посвящённый кино, технологиям изображения и будущему. Вместо классических американских горок большинство аттракционов здесь — симуляторы движения, гигантские экраны и иммерсивные шоу, а также несколько острых и водных аттракционов. У парка есть собственная станция TGV примерно в 20 минутах от Пуатье, а в 2025 году его посетили 2,6 млн человек (включая отдельный аквапарк Aquascope). В сезоне 2026 появились La Serre des Mondes, фильм для купола T-Rex и Pulse! The Electric Odyssey.",
+      "zh": "Futuroscope是位于法国西部普瓦捷附近、Chasseneuil-du-Poitou的主题乐园，以电影、影像技术和未来为主题。这里没有传统过山车，大多数项目是动感模拟器、巨幕和沉浸式演出，另有少量刺激项目和水上项目。乐园有自己的TGV车站，距普瓦捷约20分钟，2025年接待游客260万人次（含另设的Aquascope水上乐园）。2026年新增了La Serre des Mondes、穹幕影片T-Rex和Pulse! The Electric Odyssey。",
+      "ar": "فوتوروسكوب متنزه ترفيهي قرب بواتييه في غرب فرنسا، في شاسنوي-دو-بواتو، قائم على السينما وتقنيات الصورة والمستقبل. وبدلاً من قطارات الجبال الروسية التقليدية، معظم ألعابه محاكيات حركة وشاشات عملاقة وعروض غامرة، إلى جانب عدد قليل من ألعاب الإثارة والألعاب المائية. لديه محطة TGV خاصة على بعد نحو 20 دقيقة من بواتييه، واستقبل 2.6 مليون زائر في 2025 (بما في ذلك متنزه Aquascope المائي المنفصل). وجلب موسم 2026 لعبة La Serre des Mondes وفيلم القبة T-Rex وPulse! The Electric Odyssey."
+    },
+    "ov_highlights_body": {
+      "en": "Objectif Mars is a family coaster that runs indoors and outdoors at about 55 km/h, and Danse avec les Robots lifts two riders on a 9 m robot arm. Chasseurs de tornades, L'Extraordinaire Voyage and Arthur, l'Aventure 4D are the big motion-simulator and flying-theatre experiences. Mission Bermudes is the water coaster, Hydro Dynamo a giant swing of about 12 m, and Turbo Splash lifts its boat 8 m before a splash-down. La Machine à Voyager dans le Temps is a gentle family ride, and the new La Serre des Mondes is an immersive walk-through.",
+      "es": "Objectif Mars es una montaña rusa familiar que recorre interior y exterior a unos 55 km/h, y Danse avec les Robots eleva a dos pasajeros con un brazo robótico de 9 m. Chasseurs de tornades, L'Extraordinaire Voyage y Arthur, l'Aventure 4D son las grandes experiencias de simulador de movimiento y cine volador. Mission Bermudes es la montaña rusa acuática, Hydro Dynamo un columpio gigante de unos 12 m, y Turbo Splash eleva su barca 8 m antes de caer al agua. La Machine à Voyager dans le Temps es una atracción familiar suave, y la nueva La Serre des Mondes es un recorrido inmersivo a pie.",
+      "fr": "Objectif Mars est un coaster familial qui passe à l'intérieur et à l'extérieur à environ 55 km/h, et Danse avec les Robots soulève deux passagers au bout d'un bras robotisé de 9 m. Chasseurs de tornades, L'Extraordinaire Voyage et Arthur, l'Aventure 4D sont les grandes expériences de simulateur de mouvement et de cinéma volant. Mission Bermudes est le coaster aquatique, Hydro Dynamo une balançoire géante d'environ 12 m, et Turbo Splash hisse sa barque de 8 m avant de retomber dans l'eau. La Machine à Voyager dans le Temps est une attraction familiale douce, et la nouvelle Serre des Mondes est un parcours immersif à pied.",
+      "de": "Objectif Mars ist eine Familienachterbahn, die drinnen und draußen mit etwa 55 km/h fährt, und bei Danse avec les Robots hebt ein 9 m langer Roboterarm zwei Fahrgäste an. Chasseurs de tornades, L'Extraordinaire Voyage und Arthur, l'Aventure 4D sind die großen Erlebnisse mit Bewegungssimulator und fliegendem Kino. Mission Bermudes ist die Wasserachterbahn, Hydro Dynamo eine Riesenschaukel von etwa 12 m, und Turbo Splash hebt sein Boot 8 m an, bevor es ins Wasser taucht. La Machine à Voyager dans le Temps ist eine sanfte Familienfahrt, und das neue La Serre des Mondes ein immersiver Rundgang.",
+      "it": "Objectif Mars è una montagna russa per famiglie che corre al chiuso e all'aperto a circa 55 km/h, e Danse avec les Robots solleva due passeggeri con un braccio robotico di 9 m. Chasseurs de tornades, L'Extraordinaire Voyage e Arthur, l'Aventure 4D sono le grandi esperienze con simulatore di movimento e cinema volante. Mission Bermudes è la montagna russa acquatica, Hydro Dynamo un'altalena gigante di circa 12 m, e Turbo Splash solleva la barca di 8 m prima del tuffo in acqua. La Machine à Voyager dans le Temps è un'attrazione dolce per famiglie, e la nuova La Serre des Mondes è un percorso immersivo a piedi.",
+      "nl": "Objectif Mars is een gezinsachtbaan die binnen en buiten rijdt met ongeveer 55 km/u, en bij Danse avec les Robots tilt een robotarm van 9 m twee rijders op. Chasseurs de tornades, L'Extraordinaire Voyage en Arthur, l'Aventure 4D zijn de grote ervaringen met bewegingssimulator en vliegende bioscoop. Mission Bermudes is de waterachtbaan, Hydro Dynamo een reuzenschommel van ongeveer 12 m, en Turbo Splash tilt zijn boot 8 m op voor de plons in het water. La Machine à Voyager dans le Temps is een rustige gezinsattractie en het nieuwe La Serre des Mondes een meeslepende wandeling.",
+      "pt": "O Objectif Mars é uma montanha-russa familiar que passa por dentro e por fora a cerca de 55 km/h, e o Danse avec les Robots eleva dois passageiros num braço robótico de 9 m. Chasseurs de tornades, L'Extraordinaire Voyage e Arthur, l'Aventure 4D são as grandes experiências de simulador de movimento e cinema voador. O Mission Bermudes é a montanha-russa aquática, o Hydro Dynamo um baloiço gigante de cerca de 12 m, e o Turbo Splash eleva o barco 8 m antes de cair na água. A Machine à Voyager dans le Temps é uma atração familiar suave, e a nova La Serre des Mondes é um percurso imersivo a pé.",
+      "ru": "Objectif Mars — семейные горки, проходящие в помещении и на улице со скоростью около 55 км/ч, а Danse avec les Robots поднимает двух пассажиров на роботизированной руке высотой 9 м. Chasseurs de tornades, L'Extraordinaire Voyage и Arthur, l'Aventure 4D — главные аттракционы с симуляторами движения и летающим кинотеатром. Mission Bermudes — водные горки, Hydro Dynamo — гигантские качели около 12 м, а Turbo Splash поднимает лодку на 8 м перед спуском в воду. La Machine à Voyager dans le Temps — спокойный семейный аттракцион, а новая La Serre des Mondes — иммерсивная пешая прогулка.",
+      "zh": "Objectif Mars是一条室内外穿行的家庭过山车，时速约55公里；Danse avec les Robots用9米高的机械臂托起两名乘客。Chasseurs de tornades、L'Extraordinaire Voyage和Arthur, l'Aventure 4D是动感模拟器和飞行影院类的重头体验。Mission Bermudes是水上过山车，Hydro Dynamo是约12米高的巨型摆锤，Turbo Splash将船抬升8米后落入水中。La Machine à Voyager dans le Temps是温和的家庭项目，新开放的La Serre des Mondes则是沉浸式步行体验。",
+      "ar": "Objectif Mars قطار جبال روسية عائلي يمر داخل المبنى وخارجه بسرعة نحو 55 كم/س، وفي Danse avec les Robots تحمل ذراع روبوتية بارتفاع 9 م راكبين اثنين. وتُعد Chasseurs de tornades وL'Extraordinaire Voyage وArthur, l'Aventure 4D أبرز تجارب محاكي الحركة والسينما الطائرة. Mission Bermudes هو القطار المائي، وHydro Dynamo أرجوحة عملاقة بارتفاع نحو 12 م، وتحمل Turbo Splash قاربها 8 م قبل أن يسقط في الماء. أما La Machine à Voyager dans le Temps فلعبة عائلية هادئة، وLa Serre des Mondes الجديدة جولة غامرة سيراً على الأقدام."
+    },
+    "ov_did_you_know_body": {
+      "en": "Futuroscope opened in 1987, so the 2027 season marks its 40th anniversary. The Pavillon 360 and the Sébastien Loeb Racing Xperience have closed, and the building became La Serre des Mondes in 2026. Étincelle replaced the old L'Âge de glace show in 2023. A fourth park hotel, Utopia, is planned for December 2027 and is not open yet.",
+      "es": "Futuroscope abrió en 1987, así que la temporada 2027 marca su 40.º aniversario. El Pavillon 360 y el Sébastien Loeb Racing Xperience han cerrado, y el edificio se convirtió en La Serre des Mondes en 2026. Étincelle sustituyó en 2023 al antiguo espectáculo L'Âge de glace. Un cuarto hotel del parque, Utopia, está previsto para diciembre de 2027 y aún no está abierto.",
+      "fr": "Le Futuroscope a ouvert en 1987 ; la saison 2027 marque donc son 40e anniversaire. Le Pavillon 360 et le Sébastien Loeb Racing Xperience ont fermé, et le bâtiment est devenu La Serre des Mondes en 2026. Étincelle a remplacé en 2023 l'ancien spectacle L'Âge de glace. Un quatrième hôtel du parc, Utopia, est prévu pour décembre 2027 et n'est pas encore ouvert.",
+      "de": "Futuroscope eröffnete 1987, die Saison 2027 ist also das 40-jährige Jubiläum. Das Pavillon 360 und das Sébastien Loeb Racing Xperience sind geschlossen, das Gebäude wurde 2026 zu La Serre des Mondes. Étincelle ersetzte 2023 die frühere Show L'Âge de glace. Ein viertes Parkhotel, Utopia, ist für Dezember 2027 geplant und noch nicht geöffnet.",
+      "it": "Futuroscope ha aperto nel 1987, quindi la stagione 2027 segna il suo 40° anniversario. Il Pavillon 360 e il Sébastien Loeb Racing Xperience hanno chiuso e l'edificio è diventato La Serre des Mondes nel 2026. Étincelle ha sostituito nel 2023 il vecchio spettacolo L'Âge de glace. Un quarto hotel del parco, Utopia, è previsto per dicembre 2027 e non è ancora aperto.",
+      "nl": "Futuroscope opende in 1987, dus het seizoen 2027 markeert het 40-jarig bestaan. Het Pavillon 360 en de Sébastien Loeb Racing Xperience zijn gesloten en het gebouw werd in 2026 La Serre des Mondes. Étincelle verving in 2023 de oude show L'Âge de glace. Een vierde parkhotel, Utopia, staat gepland voor december 2027 en is nog niet open.",
+      "pt": "O Futuroscope abriu em 1987, por isso a temporada de 2027 assinala o seu 40.º aniversário. O Pavillon 360 e o Sébastien Loeb Racing Xperience fecharam, e o edifício tornou-se La Serre des Mondes em 2026. O Étincelle substituiu em 2023 o antigo espetáculo L'Âge de glace. Um quarto hotel do parque, o Utopia, está previsto para dezembro de 2027 e ainda não abriu.",
+      "ru": "Futuroscope открылся в 1987 году, поэтому сезон 2027 года станет его 40-летием. Pavillon 360 и Sébastien Loeb Racing Xperience закрыты, а здание в 2026 году стало La Serre des Mondes. Étincelle в 2023 году заменил прежнее шоу L'Âge de glace. Четвёртый отель парка, Utopia, запланирован на декабрь 2027 года и пока не открыт.",
+      "zh": "Futuroscope于1987年开业，因此2027年是它的40周年。Pavillon 360和Sébastien Loeb Racing Xperience已经关闭，该建筑在2026年变成了La Serre des Mondes。Étincelle在2023年取代了旧的L'Âge de glace演出。乐园的第四家酒店Utopia计划于2027年12月开业，目前尚未开放。",
+      "ar": "افتُتح فوتوروسكوب عام 1987، لذا يصادف موسم 2027 ذكراه الأربعين. وقد أُغلق Pavillon 360 وSébastien Loeb Racing Xperience وتحوّل المبنى إلى La Serre des Mondes في 2026. وحلّت Étincelle عام 2023 محل عرض L'Âge de glace القديم. ومن المقرر افتتاح فندق رابع للمتنزه باسم Utopia في ديسمبر 2027 وهو غير مفتوح بعد."
+    },
+    "ov_plan_body": {
+      "en": "Futuroscope is seasonal. In November it opens on weekends and school holidays only, and Christmas at Futuroscope runs daily from 19 December to 3 January. It closes in January and reopens in early February 2027, with the exact date still to be confirmed, so check the official calendar before you travel. Gates open at about 10:00 and the park stays open into the evening for the night show La Clé des Songes. One-day tickets booked ahead start from about €37 for adults, dated tickets run roughly €47 to €59, and children under 5 are free. Parking is about €13 a day.",
+      "es": "Futuroscope es estacional. En noviembre abre solo los fines de semana y en vacaciones escolares, y Christmas at Futuroscope funciona a diario del 19 de diciembre al 3 de enero. Cierra en enero y reabre a principios de febrero de 2027, con la fecha exacta aún por confirmar, así que consulta el calendario oficial antes de viajar. Las puertas abren sobre las 10:00 y el parque sigue abierto hasta la noche para el espectáculo nocturno La Clé des Songes. Las entradas de un día compradas con antelación parten de unos 37 € para adultos, las entradas con fecha rondan entre 47 y 59 €, y los menores de 5 años entran gratis. El aparcamiento cuesta unos 13 € al día.",
+      "fr": "Le Futuroscope est saisonnier. En novembre, il n'ouvre que les week-ends et pendant les vacances scolaires, et Noël au Futuroscope a lieu tous les jours du 19 décembre au 3 janvier. Il ferme en janvier et rouvre début février 2027, la date exacte restant à confirmer : consultez le calendrier officiel avant de partir. Les portes ouvrent vers 10 h et le parc reste ouvert en soirée pour le spectacle nocturne La Clé des Songes. Les billets 1 jour achetés à l'avance démarrent à environ 37 € pour les adultes, les billets datés vont d'environ 47 à 59 €, et les moins de 5 ans entrent gratuitement. Le parking coûte environ 13 € par jour.",
+      "de": "Futuroscope ist saisonal. Im November ist er nur an Wochenenden und in den Schulferien geöffnet, und Christmas at Futuroscope läuft täglich vom 19. Dezember bis 3. Januar. Im Januar ist er geschlossen und öffnet Anfang Februar 2027 wieder, das genaue Datum steht noch aus – bitte vorab den offiziellen Kalender prüfen. Die Tore öffnen gegen 10:00, und der Park bleibt abends für die Nachtshow La Clé des Songes geöffnet. Im Voraus gebuchte Eintagestickets kosten ab etwa 37 € für Erwachsene, Tickets mit festem Datum liegen bei etwa 47 bis 59 €, Kinder unter 5 Jahren sind frei. Parken kostet etwa 13 € pro Tag.",
+      "it": "Futuroscope è stagionale. A novembre apre solo nei weekend e durante le vacanze scolastiche, e Christmas at Futuroscope si tiene ogni giorno dal 19 dicembre al 3 gennaio. Chiude a gennaio e riapre all'inizio di febbraio 2027, con la data esatta ancora da confermare, quindi controllate il calendario ufficiale prima di partire. I cancelli aprono verso le 10:00 e il parco resta aperto la sera per lo spettacolo notturno La Clé des Songes. I biglietti giornalieri acquistati in anticipo partono da circa 37 € per gli adulti, quelli con data vanno da circa 47 a 59 €, e i bambini sotto i 5 anni entrano gratis. Il parcheggio costa circa 13 € al giorno.",
+      "nl": "Futuroscope is seizoensgebonden. In november is het alleen in het weekend en in schoolvakanties open, en Christmas at Futuroscope loopt dagelijks van 19 december tot 3 januari. In januari is het gesloten en begin februari 2027 gaat het weer open, de exacte datum moet nog bevestigd worden, dus check de officiële kalender voor je reist. De poorten gaan rond 10:00 open en het park blijft 's avonds open voor de nachtshow La Clé des Songes. Eendagstickets die vooraf zijn geboekt, beginnen bij ongeveer € 37 voor volwassenen, tickets met vaste datum kosten ongeveer € 47 tot € 59, en kinderen onder 5 jaar zijn gratis. Parkeren kost ongeveer € 13 per dag.",
+      "pt": "O Futuroscope é sazonal. Em novembro abre apenas aos fins de semana e nas férias escolares, e o Christmas at Futuroscope decorre todos os dias de 19 de dezembro a 3 de janeiro. Fecha em janeiro e reabre no início de fevereiro de 2027, com a data exata ainda por confirmar, por isso consulte o calendário oficial antes de viajar. As portas abrem por volta das 10:00 e o parque mantém-se aberto à noite para o espetáculo noturno La Clé des Songes. Os bilhetes de um dia comprados com antecedência começam em cerca de 37 € para adultos, os bilhetes com data custam entre 47 e 59 €, e as crianças com menos de 5 anos entram grátis. O estacionamento custa cerca de 13 € por dia.",
+      "ru": "Futuroscope работает сезонно. В ноябре он открыт только по выходным и в школьные каникулы, а рождественская программа Christmas at Futuroscope идёт ежедневно с 19 декабря по 3 января. В январе парк закрыт и вновь откроется в начале февраля 2027 года, точная дата пока не подтверждена — проверьте официальный календарь перед поездкой. Ворота открываются около 10:00, а вечером парк работает ради ночного шоу La Clé des Songes. Однодневные билеты, купленные заранее, стоят от примерно 37 € для взрослых, билеты на конкретную дату — около 47–59 €, дети до 5 лет бесплатно. Парковка около 13 € в день.",
+      "zh": "Futuroscope是季节性开放的。11月仅在周末和学校假期开放，Christmas at Futuroscope从12月19日至1月3日每天举行。1月闭园，2027年2月初重新开放，具体日期仍待确认，出发前请查看官方日历。园区约10:00开门，晚上开放至夜间演出La Clé des Songes。提前预订的一日票成人约37欧元起，指定日期票约47至59欧元，5岁以下儿童免费。停车费约每天13欧元。",
+      "ar": "فوتوروسكوب موسمي. ففي نوفمبر يفتح في عطلات نهاية الأسبوع وعطلات المدارس فقط، ويُقام Christmas at Futuroscope يومياً من 19 ديسمبر إلى 3 يناير. ويُغلق في يناير ويعاود الافتتاح في أوائل فبراير 2027 والموعد الدقيق لم يُؤكد بعد، لذا راجع التقويم الرسمي قبل السفر. تفتح البوابات نحو الساعة 10:00 ويبقى المتنزه مفتوحاً مساءً لعرض الليل La Clé des Songes. تبدأ تذاكر اليوم الواحد المحجوزة مسبقاً من نحو 37 يورو للبالغين، والتذاكر المحددة التاريخ بين نحو 47 و59 يورو، والأطفال دون 5 سنوات مجاناً. ويبلغ سعر المواقف نحو 13 يورو في اليوم."
+    },
+    "ov_photos_body": {
+      "en": "The glass and steel Kinémax pavilion and the futuristic architecture make Futuroscope unusually photogenic. Come back in the evening for the night show La Clé des Songes and the lights, and in winter for the Christmas decorations.",
+      "es": "La arquitectura futurista del parque hace que Futuroscope sea especialmente fotogénico. Vuelve por la tarde-noche para el espectáculo La Clé des Songes y las luces, y en invierno para las decoraciones navideñas.",
+      "fr": "L'architecture futuriste du parc rend le Futuroscope particulièrement photogénique. Revenez en soirée pour le spectacle La Clé des Songes et les lumières, et en hiver pour les décorations de Noël.",
+      "de": "Die futuristische Architektur macht Futuroscope ungewöhnlich fotogen. Kommen Sie abends für die Show La Clé des Songes und die Lichter wieder, im Winter für die Weihnachtsdekoration.",
+      "it": "L'architettura futuristica del parco rende Futuroscope particolarmente fotogenico. Tornate la sera per lo spettacolo La Clé des Songes e le luci, e in inverno per le decorazioni natalizie.",
+      "nl": "De futuristische architectuur maakt Futuroscope bijzonder fotogeniek. Kom 's avonds terug voor de show La Clé des Songes en de lichten, en in de winter voor de kerstversiering.",
+      "pt": "A arquitetura futurista do parque torna o Futuroscope especialmente fotogénico. Volte ao fim do dia para o espetáculo La Clé des Songes e as luzes, e no inverno para as decorações de Natal.",
+      "ru": "Футуристическая архитектура делает Futuroscope особенно фотогеничным. Вернитесь вечером на шоу La Clé des Songes и огни, а зимой — на рождественские украшения.",
+      "zh": "乐园的未来感建筑让Futuroscope格外上镜。傍晚回来看夜间演出La Clé des Songes和灯光，冬天则可欣赏圣诞装饰。",
+      "ar": "تجعل العمارة المستقبلية فوتوروسكوب لافتاً للتصوير. عُد في المساء لعرض La Clé des Songes والأضواء، وفي الشتاء لزينة عيد الميلاد."
+    }
+  },
+  "attractions": {
+    "chasseurs_de_tornades": {
+      "desc": {
+        "en": "Motion-platform ride in front of a circular LED screen, opened in 2022. Min 105cm.",
+        "es": "Atracción de plataforma móvil ante una pantalla LED circular, inaugurada en 2022. Mín. 105cm.",
+        "fr": "Attraction à plateforme mobile devant un écran LED circulaire, ouverte en 2022. Min 105cm.",
+        "de": "Fahrgeschäft mit Bewegungsplattform vor einer runden LED-Leinwand, 2022 eröffnet. Min 105cm.",
+        "it": "Attrazione con piattaforma mobile davanti a uno schermo LED circolare, aperta nel 2022. Min 105cm.",
+        "nl": "Attractie met bewegend platform voor een rond LED-scherm, geopend in 2022. Min 105cm.",
+        "pt": "Atração com plataforma móvel diante de um ecrã LED circular, inaugurada em 2022. Mín. 105cm.",
+        "ru": "Аттракцион с подвижной платформой перед круговым светодиодным экраном, открыт в 2022 году. Рост от 105 см.",
+        "zh": "面对环形LED屏幕的动感平台项目，2022年开放。 最低身高105厘米。",
+        "ar": "لعبة بمنصة متحركة أمام شاشة LED دائرية افتُتحت عام 2022. الحد الأدنى 105 سم."
+      }
+    },
+    "objectif_mars": {
+      "desc": {
+        "en": "Family coaster that runs indoors and outdoors at about 55 km/h, opened in 2020. Min 110cm.",
+        "es": "Montaña rusa familiar que recorre interior y exterior a unos 55 km/h, inaugurada en 2020. Mín. 110cm.",
+        "fr": "Coaster familial qui passe à l'intérieur et à l'extérieur à environ 55 km/h, ouvert en 2020. Min 110cm.",
+        "de": "Familienachterbahn drinnen und draußen mit etwa 55 km/h, 2020 eröffnet. Min 110cm.",
+        "it": "Montagna russa per famiglie al chiuso e all'aperto a circa 55 km/h, aperta nel 2020. Min 110cm.",
+        "nl": "Gezinsachtbaan binnen en buiten met ongeveer 55 km/u, geopend in 2020. Min 110cm.",
+        "pt": "Montanha-russa familiar por dentro e por fora a cerca de 55 km/h, inaugurada em 2020. Mín. 110cm.",
+        "ru": "Семейные горки в помещении и на улице, скорость около 55 км/ч, открыты в 2020 году. Рост от 110 см.",
+        "zh": "室内外穿行的家庭过山车，时速约55公里，2020年开放。 最低身高110厘米。",
+        "ar": "قطار جبال روسية عائلي داخل المبنى وخارجه بسرعة نحو 55 كم/س، افتُتح عام 2020. الحد الأدنى 110 سم."
+      }
+    },
+    "danse_avec_les_robots": {
+      "desc": {
+        "en": "Two riders are swung around on a 9 m robot arm, opened in 2006. Min 120cm.",
+        "es": "Dos pasajeros giran en un brazo robótico de 9 m, inaugurada en 2006. Mín. 120cm.",
+        "fr": "Deux passagers sont emportés au bout d'un bras robotisé de 9 m, ouverte en 2006. Min 120cm.",
+        "de": "Zwei Fahrgäste schwingen an einem 9 m langen Roboterarm, 2006 eröffnet. Min 120cm.",
+        "it": "Due passeggeri ruotano su un braccio robotico di 9 m, aperta nel 2006. Min 120cm.",
+        "nl": "Twee rijders zwiepen rond aan een robotarm van 9 m, geopend in 2006. Min 120cm.",
+        "pt": "Dois passageiros giram num braço robótico de 9 m, inaugurada em 2006. Mín. 120cm.",
+        "ru": "Двое пассажиров вращаются на роботизированной руке высотой 9 м, открыт в 2006 году. Рост от 120 см.",
+        "zh": "两名乘客坐在9米高的机械臂上旋转，2006年开放。 最低身高120厘米。",
+        "ar": "يدور راكبان على ذراع روبوتية بارتفاع 9 م، افتُتحت عام 2006. الحد الأدنى 120 سم."
+      }
+    },
+    "mission_bermudes": {
+      "desc": {
+        "en": "Water coaster with a drop, opened in 2025. It depends on the weather. Min 105cm.",
+        "es": "Montaña rusa acuática con caída, inaugurada en 2025. Depende del tiempo. Mín. 105cm.",
+        "fr": "Coaster aquatique avec une chute, ouvert en 2025. Dépend de la météo. Min 105cm.",
+        "de": "Wasserachterbahn mit Abfahrt, 2025 eröffnet. Wetterabhängig. Min 105cm.",
+        "it": "Montagna russa acquatica con una discesa, aperta nel 2025. Dipende dal meteo. Min 105cm.",
+        "nl": "Waterachtbaan met een afdaling, geopend in 2025. Weersafhankelijk. Min 105cm.",
+        "pt": "Montanha-russa aquática com queda, inaugurada em 2025. Depende do tempo. Mín. 105cm.",
+        "ru": "Водные горки со спуском, открыты в 2025 году. Зависят от погоды. Рост от 105 см.",
+        "zh": "带落差的水上过山车，2025年开放，视天气而定。 最低身高105厘米。",
+        "ar": "قطار مائي بمنحدر افتُتح عام 2025 ويتوقف على الطقس. الحد الأدنى 105 سم."
+      }
+    },
+    "l_extraordinaire_voyage": {
+      "desc": {
+        "en": "Flying theatre with your feet dangling in front of a huge curved screen, opened in 2017. Min 105cm.",
+        "es": "Cine volador con los pies colgando ante una enorme pantalla curva, inaugurado en 2017. Mín. 105cm.",
+        "fr": "Cinéma volant, pieds dans le vide devant un immense écran incurvé, ouvert en 2017. Min 105cm.",
+        "de": "Fliegendes Kino mit baumelnden Füßen vor einer riesigen gebogenen Leinwand, 2017 eröffnet. Min 105cm.",
+        "it": "Cinema volante con i piedi nel vuoto davanti a un enorme schermo curvo, aperto nel 2017. Min 105cm.",
+        "nl": "Vliegende bioscoop met bungelende voeten voor een enorm gebogen scherm, geopend in 2017. Min 105cm.",
+        "pt": "Cinema voador com os pés a pender diante de um enorme ecrã curvo, inaugurado em 2017. Mín. 105cm.",
+        "ru": "Летающий кинотеатр: ноги свободно висят перед огромным изогнутым экраном, открыт в 2017 году. Рост от 105 см.",
+        "zh": "双脚悬空面对巨大弧形屏幕的飞行影院，2017年开放。 最低身高105厘米。",
+        "ar": "سينما طائرة وقدماك معلقتان أمام شاشة منحنية ضخمة، افتُتحت عام 2017. الحد الأدنى 105 سم."
+      }
+    },
+    "arthur_l_aventure_4d": {
+      "desc": {
+        "en": "4D motion ride on a giant ladybug, opened in 2009. Min 105cm.",
+        "es": "Atracción de movimiento 4D sobre una mariquita gigante, inaugurada en 2009. Mín. 105cm.",
+        "fr": "Attraction 4D en mouvement sur une coccinelle géante, ouverte en 2009. Min 105cm.",
+        "de": "4D-Bewegungsfahrt auf einem riesigen Marienkäfer, 2009 eröffnet. Min 105cm.",
+        "it": "Attrazione 4D in movimento su una coccinella gigante, aperta nel 2009. Min 105cm.",
+        "nl": "4D-bewegingsattractie op een reuzenlieveheersbeestje, geopend in 2009. Min 105cm.",
+        "pt": "Atração 4D com movimento numa joaninha gigante, inaugurada em 2009. Mín. 105cm.",
+        "ru": "Аттракцион 4D с движением на гигантской божьей коровке, открыт в 2009 году. Рост от 105 см.",
+        "zh": "骑在巨型瓢虫上的4D动感项目，2009年开放。 最低身高105厘米。",
+        "ar": "لعبة 4D متحركة على دعسوقة عملاقة، افتُتحت عام 2009. الحد الأدنى 105 سم."
+      }
+    },
+    "la_vienne_dynamique": {
+      "desc": {
+        "en": "Motion-seat cinema that takes you on a rally through the Vienne region. Min 105cm.",
+        "es": "Cine con asientos móviles que te lleva en un rally por la región del Vienne. Mín. 105cm.",
+        "fr": "Cinéma à sièges mobiles pour un rallye à travers la Vienne. Min 105cm.",
+        "de": "Kino mit beweglichen Sitzen: eine Rallye durch das Département Vienne. Min 105cm.",
+        "it": "Cinema con sedili mobili per un rally attraverso la Vienne. Min 105cm.",
+        "nl": "Bioscoop met bewegende stoelen voor een rally door de Vienne. Min 105cm.",
+        "pt": "Cinema com assentos móveis para um rali pela região de Vienne. Mín. 105cm.",
+        "ru": "Кинотеатр с подвижными креслами: ралли по департаменту Вьенна. Рост от 105 см.",
+        "zh": "座椅会动的影院，带你在维埃纳地区进行一场拉力赛。 最低身高105厘米。",
+        "ar": "سينما بمقاعد متحركة تأخذك في رالي عبر منطقة فيين. الحد الأدنى 105 سم."
+      }
+    },
+    "la_machine_a_voyager_dans_le_temps": {
+      "desc": {
+        "en": "Train-style family ride with the Raving Rabbids, opened in 2014. Min 90cm.",
+        "es": "Atracción familiar tipo tren con los Rabbids, inaugurada en 2014. Mín. 90cm.",
+        "fr": "Attraction familiale en train avec les Lapins Crétins, ouverte en 2014. Min 90cm.",
+        "de": "Familienfahrt im Zug mit den Rabbids, 2014 eröffnet. Min 90cm.",
+        "it": "Attrazione per famiglie in stile treno con i Rabbids, aperta nel 2014. Min 90cm.",
+        "nl": "Gezinsrit in treinstijl met de Rabbids, geopend in 2014. Min 90cm.",
+        "pt": "Atração familiar tipo comboio com os Rabbids, inaugurada em 2014. Mín. 90cm.",
+        "ru": "Семейный аттракцион-поезд с Бешеными кроликами, открыт в 2014 году. Рост от 90 см.",
+        "zh": "与疯狂兔子同行的火车式家庭项目，2014年开放。 最低身高90厘米。",
+        "ar": "لعبة عائلية بنمط القطار مع الأرانب المجنونة، افتُتحت عام 2014. الحد الأدنى 90 سم."
+      }
+    },
+    "etincelle": {
+      "desc": {
+        "en": "Family 4D show on a vibrating platform, opened in 2023.",
+        "es": "Espectáculo familiar 4D sobre una plataforma vibratoria, inaugurado en 2023.",
+        "fr": "Spectacle familial 4D sur plateforme vibrante, ouvert en 2023.",
+        "de": "Familien-4D-Show auf einer vibrierenden Plattform, 2023 eröffnet.",
+        "it": "Spettacolo 4D per famiglie su piattaforma vibrante, aperto nel 2023.",
+        "nl": "Familie-4D-show op een trillend platform, geopend in 2023.",
+        "pt": "Espetáculo familiar 4D numa plataforma vibratória, inaugurado em 2023.",
+        "ru": "Семейное шоу 4D на вибрирующей платформе, открыто в 2023 году.",
+        "zh": "振动平台上的家庭4D演出，2023年开放。",
+        "ar": "عرض عائلي 4D على منصة مهتزة، افتُتح عام 2023."
+      }
+    },
+    "hydro_dynamo": {
+      "desc": {
+        "en": "Giant swing about 12 m high with no inversions. Min 105cm.",
+        "es": "Columpio gigante de unos 12 m de altura, sin inversiones. Mín. 105cm.",
+        "fr": "Balançoire géante d'environ 12 m de haut, sans inversion. Min 105cm.",
+        "de": "Riesenschaukel von etwa 12 m Höhe ohne Überschlag. Min 105cm.",
+        "it": "Altalena gigante alta circa 12 m, senza inversioni. Min 105cm.",
+        "nl": "Reuzenschommel van ongeveer 12 m hoog, zonder inversies. Min 105cm.",
+        "pt": "Baloiço gigante com cerca de 12 m de altura, sem inversões. Mín. 105cm.",
+        "ru": "Гигантские качели высотой около 12 м, без инверсий. Рост от 105 см.",
+        "zh": "约12米高的巨型摆锤，没有翻转。 最低身高105厘米。",
+        "ar": "أرجوحة عملاقة بارتفاع نحو 12 م بلا انقلابات. الحد الأدنى 105 سم."
+      }
+    },
+    "turbo_splash": {
+      "desc": {
+        "en": "Water ride that lifts the boat 8 m before it splashes down. Min 120cm.",
+        "es": "Atracción acuática que eleva la barca 8 m antes de caer al agua. Mín. 120cm.",
+        "fr": "Attraction aquatique qui hisse la barque de 8 m avant de la faire retomber dans l'eau. Min 120cm.",
+        "de": "Wasserfahrt, die das Boot 8 m anhebt, bevor es ins Wasser klatscht. Min 120cm.",
+        "it": "Attrazione acquatica che solleva la barca di 8 m prima del tuffo in acqua. Min 120cm.",
+        "nl": "Waterattractie die de boot 8 m optilt voor de plons. Min 120cm.",
+        "pt": "Atração aquática que eleva o barco 8 m antes de cair na água. Mín. 120cm.",
+        "ru": "Водный аттракцион: лодка поднимается на 8 м, затем падает в воду. Рост от 120 см.",
+        "zh": "将船抬升8米后落入水中的水上项目。 最低身高120厘米。",
+        "ar": "لعبة مائية ترفع القارب 8 م قبل أن يسقط في الماء. الحد الأدنى 120 سم."
+      }
+    },
+    "rescue_academy": {
+      "desc": {
+        "en": "Lifeboat water ride in the Futuropolis area. Min 105cm.",
+        "es": "Atracción acuática en bote salvavidas en la zona Futuropolis. Mín. 105cm.",
+        "fr": "Attraction aquatique en bateau de sauvetage dans la zone Futuropolis. Min 105cm.",
+        "de": "Wasserfahrt im Rettungsboot im Bereich Futuropolis. Min 105cm.",
+        "it": "Attrazione acquatica in barca di salvataggio nell'area Futuropolis. Min 105cm.",
+        "nl": "Waterattractie in een reddingsboot in het Futuropolis-gebied. Min 105cm.",
+        "pt": "Atração aquática em barco salva-vidas na zona Futuropolis. Mín. 105cm.",
+        "ru": "Водный аттракцион на спасательной лодке в зоне Futuropolis. Рост от 105 см.",
+        "zh": "Futuropolis园区的救生艇水上项目。 最低身高105厘米。",
+        "ar": "لعبة مائية بقارب إنقاذ في منطقة Futuropolis. الحد الأدنى 105 سم."
+      }
+    },
+    "t_rex": {
+      "desc": {
+        "en": "Dome film on a hemispheric screen in 6K laser, new for 2026.",
+        "es": "Película en pantalla hemisférica con láser 6K, novedad de 2026.",
+        "fr": "Film sur écran hémisphérique en laser 6K, nouveauté 2026.",
+        "de": "Kuppelfilm auf halbkugelförmiger Leinwand in 6K-Laser, neu 2026.",
+        "it": "Film su schermo emisferico con laser 6K, novità 2026.",
+        "nl": "Koepelfilm op een halfrond scherm met 6K-laser, nieuw in 2026.",
+        "pt": "Filme em ecrã hemisférico com laser 6K, novidade de 2026.",
+        "ru": "Фильм на полусферическом экране с лазерным проектором 6K, новинка 2026 года.",
+        "zh": "半球形6K激光银幕上的穹幕影片，2026年新增。",
+        "ar": "فيلم على شاشة نصف كروية بتقنية ليزر 6K، جديد 2026."
+      }
+    },
+    "la_centrifugeuse": {
+      "desc": {
+        "en": "Riders in pairs spin head over heels. Min 120cm.",
+        "es": "Los pasajeros, por parejas, dan vueltas de campana. Mín. 120cm.",
+        "fr": "Les passagers, par deux, tournent la tête en bas. Min 120cm.",
+        "de": "Fahrgäste drehen sich zu zweit kopfüber im Kreis. Min 120cm.",
+        "it": "I passeggeri, a coppie, ruotano a testa in giù. Min 120cm.",
+        "nl": "Rijders draaien in paren ondersteboven rond. Min 120cm.",
+        "pt": "Os passageiros, em pares, giram de cabeça para baixo. Mín. 120cm.",
+        "ru": "Пассажиры парами вращаются вверх ногами. Рост от 120 см.",
+        "zh": "乘客两人一组，头朝下旋转。 最低身高120厘米。",
+        "ar": "يدور الركاب في أزواج رأساً على عقب. الحد الأدنى 120 سم."
+      }
+    },
+    "la_serre_des_mondes": {
+      "desc": {
+        "en": "Immersive walk-through opened in 2026 in the former Pavillon 360.",
+        "es": "Recorrido inmersivo a pie inaugurado en 2026 en el antiguo Pavillon 360.",
+        "fr": "Parcours immersif à pied ouvert en 2026 dans l'ancien Pavillon 360.",
+        "de": "Immersiver Rundgang, 2026 im früheren Pavillon 360 eröffnet.",
+        "it": "Percorso immersivo a piedi aperto nel 2026 nell'ex Pavillon 360.",
+        "nl": "Meeslepende wandeling, in 2026 geopend in het voormalige Pavillon 360.",
+        "pt": "Percurso imersivo a pé inaugurado em 2026 no antigo Pavillon 360.",
+        "ru": "Иммерсивная пешая прогулка, открыта в 2026 году в бывшем Pavillon 360.",
+        "zh": "沉浸式步行体验，2026年在原Pavillon 360馆内开放。",
+        "ar": "جولة غامرة سيراً على الأقدام افتُتحت عام 2026 في Pavillon 360 السابق."
+      }
+    }
+  },
+  "food": {
+    "food_miam": {
+      "desc": {
+        "en": "Self-service restaurant with a comic-book decor: Caesar salad, poke bowls and fruit verrines.",
+        "es": "Restaurante de autoservicio con decoración de cómic: ensalada César, poke bowls y verrines de fruta.",
+        "fr": "Restaurant en self-service au décor BD : salade César, poke bowls et verrines de fruits.",
+        "de": "Selbstbedienungsrestaurant im Comic-Look: Caesar Salad, Poke Bowls und Obstverrinen.",
+        "it": "Ristorante self-service con decor fumettistico: insalata Caesar, poke bowl e verrine di frutta.",
+        "nl": "Zelfbedieningsrestaurant met stripdecor: Caesarsalade, pokébowls en fruitverrines.",
+        "pt": "Restaurante self-service com cenário de banda desenhada: salada Caesar, poke bowls e verrines de fruta.",
+        "ru": "Ресторан самообслуживания в стиле комикса: салат «Цезарь», поке-боулы и фруктовые вэррины.",
+        "zh": "漫画风装饰的自助餐厅，供应凯撒沙拉、夏威夷盖饭和水果杯甜点。",
+        "ar": "مطعم خدمة ذاتية بديكور القصص المصورة يقدم سلطة سيزر وأطباق بوكي وكؤوس الفاكهة."
+      }
+    },
+    "food_bermuda_bar_and_food": {
+      "desc": {
+        "en": "Cuban-themed fast food with airplane decor: Cuban bocadillo and burger with sweet potato fries.",
+        "es": "Comida rápida de temática cubana con decoración de avión: bocadillo y hamburguesa cubanos con boniato frito.",
+        "fr": "Restauration rapide cubaine au décor d'avion : bocadillo et burger cubains avec frites de patate douce.",
+        "de": "Kubanisch angehauchtes Fast Food mit Flugzeugdekor: kubanisches Bocadillo und Burger mit Süßkartoffelpommes.",
+        "it": "Fast food a tema cubano con decor aeroplano: bocadillo e burger cubani con patate dolci fritte.",
+        "nl": "Fastfood met Cubaans thema en vliegtuigdecor: Cubaanse bocadillo en burger met zoete aardappelfriet.",
+        "pt": "Fast food de tema cubano com decoração de avião: bocadillo e hambúrguer cubanos com batata-doce frita.",
+        "ru": "Фастфуд в кубинском стиле с декором самолёта: кубинский бокадильо и бургер с картофелем фри из батата.",
+        "zh": "古巴主题快餐店，飞机装饰，供应古巴三明治和配红薯条的古巴汉堡。",
+        "ar": "وجبات سريعة بطابع كوبي وديكور طائرة: بوكاديو وبرغر كوبي مع بطاطا حلوة مقلية."
+      }
+    },
+    "food_l_atelier_des_saveurs": {
+      "desc": {
+        "en": "Table-service restaurant with traditional cuisine, including rack of pork with morel jus.",
+        "es": "Restaurante con servicio de mesa y cocina tradicional, con carré de cerdo con jugo de colmenillas.",
+        "fr": "Restaurant avec service à table et cuisine traditionnelle, dont un carré de porc au jus de morilles.",
+        "de": "Restaurant mit Bedienung und traditioneller Küche, darunter Schweinekarree mit Morchelsauce.",
+        "it": "Ristorante con servizio al tavolo e cucina tradizionale, tra cui carré di maiale al fondo di spugnole.",
+        "nl": "Restaurant met bediening en traditionele keuken, waaronder varkenscarré met morieljusje.",
+        "pt": "Restaurante com serviço de mesa e cozinha tradicional, incluindo carré de porco com molho de morchellas.",
+        "ru": "Ресторан с обслуживанием за столом и традиционной кухней, в том числе корейка со сморчковым соусом.",
+        "zh": "提供餐桌服务的传统菜餐厅，有羊肚菌汁猪排。",
+        "ar": "مطعم بخدمة الطاولة ومطبخ تقليدي، منه ضلع الخنزير بصلصة المورشيلا."
+      }
+    },
+    "food_comptoirs_du_monde": {
+      "desc": {
+        "en": "Street-food style fast food: burgers, tacos and kebab sandwiches with fries.",
+        "es": "Comida rápida estilo street food: hamburguesas, tacos y kebabs con patatas fritas.",
+        "fr": "Restauration rapide façon street food : burgers, tacos et sandwichs kebab avec frites.",
+        "de": "Fast Food im Street-Food-Stil: Burger, Tacos und Kebab-Sandwiches mit Pommes.",
+        "it": "Fast food in stile street food: hamburger, tacos e panini kebab con patatine.",
+        "nl": "Fastfood in streetfoodstijl: burgers, taco's en kebabbroodjes met friet.",
+        "pt": "Fast food ao estilo street food: hambúrgueres, tacos e sanduíches de kebab com batatas fritas.",
+        "ru": "Фастфуд в стиле стритфуда: бургеры, тако и сэндвичи с кебабом с картофелем фри.",
+        "zh": "街头美食风格的快餐，供应汉堡、塔可和配薯条的烤肉三明治。",
+        "ar": "وجبات سريعة بنمط طعام الشارع: برغر وتاكو وساندويتش كباب مع البطاطا المقلية."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_station_cosmos": {
+      "desc": {
+        "en": "The park's own 4-star hotel, a couple of minutes' walk from the entrance.",
+        "es": "El hotel de 4 estrellas del propio parque, a un par de minutos a pie de la entrada.",
+        "fr": "L'hôtel 4 étoiles du parc, à quelques minutes à pied de l'entrée.",
+        "de": "Das parkeigene 4-Sterne-Hotel, nur wenige Gehminuten vom Eingang entfernt.",
+        "it": "L'hotel a 4 stelle del parco, a pochi minuti a piedi dall'ingresso.",
+        "nl": "Het eigen 4-sterrenhotel van het park, op een paar minuten lopen van de ingang.",
+        "pt": "O hotel de 4 estrelas do próprio parque, a poucos minutos a pé da entrada.",
+        "ru": "Собственный 4-звёздочный отель парка в паре минут ходьбы от входа.",
+        "zh": "乐园自营的四星级酒店，步行几分钟即可到达入口。",
+        "ar": "فندق المتنزه الخاص من 4 نجوم على بعد دقائق سيراً من المدخل."
+      }
+    },
+    "hotel_ecolodgee_futuroscope": {
+      "desc": {
+        "en": "Park hotel of lodges, a short walk from the main entrance.",
+        "es": "Hotel del parque formado por cabañas, a poca distancia a pie de la entrada principal.",
+        "fr": "Hôtel du parc composé de lodges, à courte distance à pied de l'entrée principale.",
+        "de": "Parkhotel aus Lodges, kurzer Fußweg zum Haupteingang.",
+        "it": "Hotel del parco composto da lodge, a breve distanza a piedi dall'ingresso principale.",
+        "nl": "Parkhotel met lodges, op korte loopafstand van de hoofdingang.",
+        "pt": "Hotel do parque com lodges, a curta distância a pé da entrada principal.",
+        "ru": "Отель парка из лоджей, недалеко пешком от главного входа.",
+        "zh": "由木屋组成的乐园酒店，步行即可到达主入口。",
+        "ar": "فندق المتنزه المؤلف من أكواخ على مسافة قصيرة سيراً من المدخل الرئيسي."
+      }
+    },
+    "hotel_du_futuroscope": {
+      "desc": {
+        "en": "The park's 1-star hotel, with a guest footbridge straight into the park.",
+        "es": "El hotel de 1 estrella del parque, con pasarela para huéspedes directa al parque.",
+        "fr": "L'hôtel 1 étoile du parc, avec une passerelle réservée aux clients vers le parc.",
+        "de": "Das 1-Sterne-Hotel des Parks mit Fußgängerbrücke für Gäste direkt in den Park.",
+        "it": "L'hotel a 1 stella del parco, con passerella riservata agli ospiti verso il parco.",
+        "nl": "Het 1-sterrenhotel van het park, met een loopbrug voor gasten direct het park in.",
+        "pt": "O hotel de 1 estrela do parque, com passadiço para hóspedes direto ao parque.",
+        "ru": "Однозвёздочный отель парка с пешеходным мостом для гостей прямо в парк.",
+        "zh": "乐园的一星级酒店，住客可通过人行天桥直达园内。",
+        "ar": "فندق المتنزه من نجمة واحدة مع جسر مشاة للنزلاء يؤدي مباشرة إلى المتنزه."
+      }
+    },
+    "hotel_kyriad_jules_verne": {
+      "desc": {
+        "en": "3-star partner hotel about 10 minutes' walk from the park.",
+        "es": "Hotel asociado de 3 estrellas a unos 10 minutos a pie del parque.",
+        "fr": "Hôtel partenaire 3 étoiles à environ 10 minutes à pied du parc.",
+        "de": "3-Sterne-Partnerhotel etwa 10 Gehminuten vom Park entfernt.",
+        "it": "Hotel partner a 3 stelle a circa 10 minuti a piedi dal parco.",
+        "nl": "3-sterren partnerhotel op ongeveer 10 minuten lopen van het park.",
+        "pt": "Hotel parceiro de 3 estrelas a cerca de 10 minutos a pé do parque.",
+        "ru": "Трёхзвёздочный отель-партнёр примерно в 10 минутах ходьбы от парка.",
+        "zh": "三星级合作酒店，步行约10分钟到乐园。",
+        "ar": "فندق شريك من 3 نجوم على بعد نحو 10 دقائق سيراً من المتنزه."
+      }
+    },
+    "hotel_plaza_futuroscope": {
+      "desc": {
+        "en": "4-star partner hotel less than 10 minutes' walk from the park.",
+        "es": "Hotel asociado de 4 estrellas a menos de 10 minutos a pie del parque.",
+        "fr": "Hôtel partenaire 4 étoiles à moins de 10 minutes à pied du parc.",
+        "de": "4-Sterne-Partnerhotel weniger als 10 Gehminuten vom Park entfernt.",
+        "it": "Hotel partner a 4 stelle a meno di 10 minuti a piedi dal parco.",
+        "nl": "4-sterren partnerhotel op minder dan 10 minuten lopen van het park.",
+        "pt": "Hotel parceiro de 4 estrelas a menos de 10 minutos a pé do parque.",
+        "ru": "Четырёхзвёздочный отель-партнёр менее чем в 10 минутах ходьбы от парка.",
+        "zh": "四星级合作酒店，步行不到10分钟到乐园。",
+        "ar": "فندق شريك من 4 نجوم على بعد أقل من 10 دقائق سيراً من المتنزه."
+      }
+    }
+  }
+}

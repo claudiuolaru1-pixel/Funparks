@@ -1,0 +1,119 @@
+[
+  {
+    "id": "food_coasters_bar_and_restaurant",
+    "name": "Coasters Bar and Restaurant",
+    "description": "A bar and restaurant in the park with a balcony view of ICON. The menu covers breakfast plus Italian and Mexican/Tex-Mex dishes such as lasagne and burritos, making it a relaxed sit-down stop between rides.",
+    "topPick": true,
+    "type": "Restaurant",
+    "image": "assets/images/blackpool_pleasure_beach/food_coasters_bar_and_restaurant.png",
+    "lat": 53.79,
+    "lng": -3.0548,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Lasagne",
+        "description": "Classic baked lasagne with sides",
+        "price": 12
+      },
+      {
+        "name": "Burrito",
+        "description": "Mexican-style burrito with filling of the day",
+        "price": 11
+      },
+      {
+        "name": "Full English Breakfast",
+        "description": "Traditional cooked breakfast served in the morning",
+        "price": 10
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "food_lokis_restaurant",
+    "name": "Loki's Restaurant and Après Ski Bar",
+    "description": "A Norse-themed restaurant and après ski bar beside the Valhalla water ride, serving rotisserie chicken with sides and drinks. A hearty sit-down meal in a themed setting.",
+    "topPick": false,
+    "type": "Restaurant",
+    "image": "assets/images/blackpool_pleasure_beach/food_lokis_restaurant.png",
+    "lat": 53.7895,
+    "lng": -3.0563,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Rotisserie Chicken",
+        "description": "Roast chicken served with sides",
+        "price": 12
+      },
+      {
+        "name": "Chicken Meal with Fries",
+        "description": "Chicken portion with chips and a side",
+        "price": 11
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "food_big_pizza_kitchen",
+    "name": "Big Pizza Kitchen",
+    "description": "An all-you-can-eat buffet of pizza, pasta and salad on the edge of Nickelodeon Land. Vegetarian, gluten-free and children's options are available, which makes it an easy choice for families.",
+    "topPick": true,
+    "type": "Buffet",
+    "image": "assets/images/blackpool_pleasure_beach/food_big_pizza_kitchen.png",
+    "lat": 53.7913,
+    "lng": -3.0556,
+    "rating": 4,
+    "items": [
+      {
+        "name": "Pizza, Pasta and Salad Buffet",
+        "description": "All-you-can-eat adult buffet",
+        "price": 14
+      },
+      {
+        "name": "Children's Buffet",
+        "description": "All-you-can-eat buffet for children",
+        "price": 9
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "food_white_tower_restaurant",
+    "name": "White Tower Restaurant",
+    "description": "A traditional restaurant on the top floor of the Casino Building, with views over the promenade, local produce, a sunken bar and a terrace. Private dining is available for up to 20 guests. Prices here are estimates.",
+    "topPick": false,
+    "type": "Fine Dining",
+    "image": "assets/images/blackpool_pleasure_beach/food_white_tower_restaurant.png",
+    "lat": 53.7916,
+    "lng": -3.0537,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Main Course of the Day",
+        "description": "Traditional dish made with local produce",
+        "price": 22
+      },
+      {
+        "name": "Dessert of the Day",
+        "description": "Chef's dessert selection",
+        "price": 8
+      },
+      {
+        "name": "Glass of Wine",
+        "description": "House wine by the glass",
+        "price": 7
+      }
+    ]
+  }
+]

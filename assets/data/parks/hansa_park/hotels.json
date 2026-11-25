@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hotel_hansa_park_resort_am_meer",
+    "name": "HANSA-PARK Resort am Meer",
+    "description": "HANSA-PARK Resort am Meer is a holiday park of holiday homes at Am Fahrenkrog 91 in Sierksdorf, right next to Hansa-Park (a railway line lies between the two). It is the closest place to stay and a practical base for families, with self-catering homes for groups of different sizes.",
+    "image": "assets/images/hansa_park/hotel_hansa_park_resort_am_meer.png",
+    "lat": 54.0735,
+    "lng": 10.779,
+    "rating": 4.2,
+    "topPick": true,
+    "website": "https://www.roompot.com/parks/hansa-park-resort-am-meer",
+    "rooms": [
+      {
+        "key": "holiday_home_4",
+        "name": "Holiday Home (up to 4)",
+        "description": "Self-catering holiday home for small families.",
+        "pricePerNight": 130,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "holiday_home_6",
+        "name": "Holiday Home (up to 6)",
+        "description": "Larger self-catering holiday home for groups.",
+        "pricePerNight": 180,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_hof_sierksdorf",
+    "name": "Hof Sierksdorf",
+    "description": "Hof Sierksdorf is a 3-star hotel at Am Strande 32 in Sierksdorf, about 2.25 km from Hansa-Park. Rates found online were around €114 a night, a simple, comfortable choice close to the park.",
+    "image": "assets/images/hansa_park/hotel_hof_sierksdorf.png",
+    "lat": 54.084,
+    "lng": 10.762,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://hotels.com/ho337559",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable double room.",
+        "pricePerNight": 114,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 145,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_arborea_marina_resort_neustadt",
+    "name": "Arborea Marina Resort Neustadt",
+    "description": "Arborea Marina Resort Neustadt is a marina resort in Neustadt in Holstein, about 2.3 km from Hansa-Park. Rates found online were roughly €121 to €130 a night, a good option for guests who want a waterfront stay.",
+    "image": "assets/images/hansa_park/hotel_arborea_marina_resort_neustadt.png",
+    "lat": 54.1,
+    "lng": 10.81,
+    "rating": 4.4,
+    "topPick": false,
+    "website": "https://www.its.de/hotel/arborea-marina-resort-neustadt-11byh3",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable double room at the marina.",
+        "pricePerNight": 125,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "apartment",
+        "name": "Apartment",
+        "description": "Larger apartment for families.",
+        "pricePerNight": 160,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_meerzeit",
+    "name": "Hotel Meerzeit",
+    "description": "Hotel Meerzeit is a small 40-room hotel in Scharbeutz, about 3 km from Hansa-Park. Rates found online were around $77 (roughly €70) a night, making it one of the cheaper choices near the park.",
+    "image": "assets/images/hansa_park/hotel_meerzeit.png",
+    "lat": 54.048,
+    "lng": 10.764,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://hotels.com/ho373249/hotel-meerzeit-scharbeutz-germany",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Simple double room close to the beach.",
+        "pricePerNight": 75,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Larger room with extra comfort.",
+        "pricePerNight": 95,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_atlantic_grand_travemuende",
+    "name": "ATLANTIC Grand Hotel Travemünde",
+    "description": "ATLANTIC Grand Hotel Travemünde is a seafront hotel in Lübeck-Travemünde, about 14 km from Hansa-Park. Rates found online were around $145 (roughly €135) a night, the most upscale choice of the five.",
+    "image": "assets/images/hansa_park/hotel_atlantic_grand_travemuende.png",
+    "lat": 53.959,
+    "lng": 10.87,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "https://www.atlantic-hotels.de/en/grand-hotel-travemuende/",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable double room.",
+        "pricePerNight": 140,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "sea_view_room",
+        "name": "Sea View Room",
+        "description": "Room with a view of the Baltic Sea.",
+        "pricePerNight": 180,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

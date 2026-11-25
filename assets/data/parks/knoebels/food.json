@@ -1,0 +1,124 @@
+[
+  {
+    "id": "food_alamo",
+    "name": "Alamo",
+    "description": "A full-service, Texas-themed American restaurant that has been serving guests since 1926. It was named best theme park restaurant in the 2026 USA Today 10Best awards. Prices here are estimates.",
+    "topPick": true,
+    "type": "Restaurant",
+    "image": "assets/images/knoebels/food_alamo.png",
+    "lat": 40.8786,
+    "lng": -76.5052,
+    "rating": 4.7,
+    "items": [
+      {
+        "name": "Steak Dinner",
+        "description": "Sit-down steak dish with sides",
+        "price": 24
+      },
+      {
+        "name": "Burger",
+        "description": "Burger with fries",
+        "price": 14
+      },
+      {
+        "name": "Chicken Dinner",
+        "description": "Chicken dish with sides",
+        "price": 18
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "food_phoenix_junction",
+    "name": "Phoenix Junction",
+    "description": "A counter-service American spot serving handcrafted burgers and sandwiches, plus steak and ale soup. A quick, filling stop next to the Phoenix coaster. Prices here are estimates.",
+    "topPick": false,
+    "type": "Counter Service",
+    "image": "assets/images/knoebels/food_phoenix_junction.png",
+    "lat": 40.8792,
+    "lng": -76.5065,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Handcrafted Burger",
+        "description": "Burger made to order",
+        "price": 11
+      },
+      {
+        "name": "Sandwich",
+        "description": "Handcrafted sandwich",
+        "price": 10
+      },
+      {
+        "name": "Steak and Ale Soup",
+        "description": "Hearty soup in a bowl",
+        "price": 6
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "food_international_food_court",
+    "name": "International Food Court",
+    "description": "A food court with international dishes that also serves breakfast daily from 8am to 2pm. A good choice for groups who want different options. Prices here are estimates.",
+    "topPick": false,
+    "type": "Food Court",
+    "image": "assets/images/knoebels/food_international_food_court.png",
+    "lat": 40.8789,
+    "lng": -76.5046,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Breakfast Plate",
+        "description": "Breakfast served until 2pm",
+        "price": 9
+      },
+      {
+        "name": "International Main Dish",
+        "description": "Dish of the day from the food court",
+        "price": 12
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "food_potato_barn",
+    "name": "Potato Barn",
+    "description": "A snack stand famous for loaded baked potatoes, sweet potatoes and pulled pork sandwiches. A filling grab-and-go bite. Prices here are estimates.",
+    "topPick": false,
+    "type": "Snack Stand",
+    "image": "assets/images/knoebels/food_potato_barn.png",
+    "lat": 40.8784,
+    "lng": -76.506,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Loaded Baked Potato",
+        "description": "Baked potato with toppings",
+        "price": 8
+      },
+      {
+        "name": "Sweet Potato",
+        "description": "Baked sweet potato",
+        "price": 7
+      },
+      {
+        "name": "Pulled Pork Sandwich",
+        "description": "Pulled pork on a bun",
+        "price": 9
+      }
+    ]
+  }
+]

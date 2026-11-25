@@ -1,0 +1,123 @@
+[
+  {
+    "id": "hotel_lifestyle_lodge",
+    "name": "Lifestyle Lodge",
+    "description": "Lifestyle Lodge is a self-catering holiday home on the Flamingo Land Resort that sleeps six, with theme park and zoo access included. The resort has no hotel, so the on-site lodges are the closest place to stay. Rates shown are estimates.",
+    "image": "assets/images/flamingo_land/hotel_lifestyle_lodge.png",
+    "lat": 54.2092,
+    "lng": -0.81,
+    "rating": 4.2,
+    "topPick": true,
+    "website": "https://www.flamingoland.co.uk/holiday-resort/accommodation/lifestyle-holiday-homes/",
+    "rooms": [
+      {
+        "key": "lodge_6",
+        "name": "Lifestyle Lodge (sleeps 6)",
+        "description": "Self-catering lodge for a family or group of six.",
+        "pricePerNight": 180,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_the_gate_house",
+    "name": "The Gate House",
+    "description": "The Gate House sits on the edge of the resort next to Penguin Coast, sleeps five and has a hot tub. A different, private option for a family stay at Flamingo Land. Rates shown are estimates.",
+    "image": "assets/images/flamingo_land/hotel_the_gate_house.png",
+    "lat": 54.2086,
+    "lng": -0.8108,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.flamingoland.co.uk/holiday-resort/accommodation/the-gate-house/",
+    "rooms": [
+      {
+        "key": "gate_house_5",
+        "name": "The Gate House (sleeps 5)",
+        "description": "Self-catering house with a hot tub, sleeping five.",
+        "pricePerNight": 200,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_forest_and_vale",
+    "name": "Best Western Forest & Vale Hotel",
+    "description": "The Best Western Forest & Vale Hotel is in Pickering, roughly 3 to 5 miles from Flamingo Land. A comfortable hotel base with a rate of around £144 for a sample night. Rates shown are estimates.",
+    "image": "assets/images/flamingo_land/hotel_forest_and_vale.png",
+    "lat": 54.2441,
+    "lng": -0.7783,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://uk.hotels.com/de1653704/hotels-near-flamingo-land-theme-park-and-zoo-kirby-misperton-united-kingdom",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable double room.",
+        "pricePerNight": 144,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 175,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_white_swan_inn",
+    "name": "The White Swan Inn",
+    "description": "The White Swan Inn is a coaching inn on Market Place in Pickering, about 2.8 miles from Flamingo Land. Rates found online range from about £120 to £219 a night. Rates shown are estimates.",
+    "image": "assets/images/flamingo_land/hotel_white_swan_inn.png",
+    "lat": 54.2447,
+    "lng": -0.7745,
+    "rating": 4.6,
+    "topPick": true,
+    "website": "https://sawdays.co.uk/britain/england/yorkshire/the-white-swan-inn",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable double room at the inn.",
+        "pricePerNight": 120,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "superior_room",
+        "name": "Superior Room",
+        "description": "Larger, higher-spec room.",
+        "pricePerNight": 190,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_the_talbot_malton",
+    "name": "The Talbot Hotel",
+    "description": "The Talbot Hotel is in Malton, about 5 miles from Flamingo Land, a more upmarket base in a historic market town. Rates found online start at around £103 to £117 a night. Rates shown are estimates.",
+    "image": "assets/images/flamingo_land/hotel_the_talbot_malton.png",
+    "lat": 54.1347,
+    "lng": -0.7973,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "https://www.mrandmrssmith.com/luxury-hotels/the-talbot/rooms",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable double room.",
+        "pricePerNight": 110,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Larger room with extra comforts.",
+        "pricePerNight": 160,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

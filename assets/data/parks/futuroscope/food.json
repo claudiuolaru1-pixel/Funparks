@@ -1,0 +1,114 @@
+[
+  {
+    "id": "food_miam",
+    "name": "MIAM!",
+    "description": "A self-service restaurant with an immersive comic-book decor, serving a gourmet Caesar salad with breaded chicken, poke bowls and fresh fruit salad verrines. The menu formula is around €19.90. Prices here are estimates.",
+    "topPick": true,
+    "type": "Self-service",
+    "image": "assets/images/futuroscope/food_miam.png",
+    "lat": 46.6587,
+    "lng": 0.3657,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Gourmet Caesar Salad",
+        "description": "Caesar salad with breaded chicken and parmesan shavings",
+        "price": 13
+      },
+      {
+        "name": "Poke Bowl",
+        "description": "Poke bowl",
+        "price": 13.5
+      },
+      {
+        "name": "Fruit Salad Verrine",
+        "description": "Fresh fruit salad dessert",
+        "price": 4.5
+      }
+    ]
+  },
+  {
+    "id": "food_bermuda_bar_and_food",
+    "name": "Bermuda Bar & Food",
+    "description": "A Cuban-themed fast-food spot with airplane decor, serving the Cuban Bocadillo and the Cuban Burger with sweet potato fries, plus salads. Prices here are estimates.",
+    "topPick": false,
+    "type": "Fast Food",
+    "image": "assets/images/futuroscope/food_bermuda_bar_and_food.png",
+    "lat": 46.6574,
+    "lng": 0.3662,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Cuban Bocadillo",
+        "description": "Cuban sandwich with chips and dessert",
+        "price": 13.9
+      },
+      {
+        "name": "Cuban Burger",
+        "description": "Burger with sweet potato fries and dessert",
+        "price": 15.9
+      },
+      {
+        "name": "Salad",
+        "description": "Fresh salad",
+        "price": 9.5
+      }
+    ]
+  },
+  {
+    "id": "food_l_atelier_des_saveurs",
+    "name": "L'Atelier des Saveurs",
+    "description": "A table-service restaurant with traditional cuisine, known for a low-temperature rack of pork with morel jus. It offers a pasta or pizza plus dessert menu, and a Discovery Menu that must be booked ahead. Prices here are estimates.",
+    "topPick": true,
+    "type": "Restaurant",
+    "image": "assets/images/futuroscope/food_l_atelier_des_saveurs.png",
+    "lat": 46.6593,
+    "lng": 0.3645,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Rack of Pork",
+        "description": "Low-temperature rack of pork with morel mushroom jus",
+        "price": 24
+      },
+      {
+        "name": "Pasta or Pizza Menu",
+        "description": "Pasta or pizza with dessert",
+        "price": 24.5
+      },
+      {
+        "name": "Discovery Menu",
+        "description": "Multi-course menu, book ahead",
+        "price": 55
+      }
+    ]
+  },
+  {
+    "id": "food_comptoirs_du_monde",
+    "name": "Comptoirs du Monde",
+    "description": "A street-food style fast-food spot serving hamburgers with fries, tacos and a kebab sandwich with a cone of fries. The menu formula is around €15.90. Prices here are estimates.",
+    "topPick": false,
+    "type": "Fast Food",
+    "image": "assets/images/futuroscope/food_comptoirs_du_monde.png",
+    "lat": 46.6581,
+    "lng": 0.3647,
+    "rating": 4,
+    "items": [
+      {
+        "name": "Burger and Fries",
+        "description": "Hamburger served with fries",
+        "price": 15.9
+      },
+      {
+        "name": "Tacos",
+        "description": "Tacos",
+        "price": 12
+      },
+      {
+        "name": "Kebab Sandwich",
+        "description": "Kebab sandwich with a cone of fries",
+        "price": 12
+      }
+    ]
+  }
+]

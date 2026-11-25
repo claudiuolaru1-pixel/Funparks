@@ -1,0 +1,129 @@
+[
+  {
+    "id": "food_metropolis_bar_and_grill",
+    "name": "Metropolis Bar & Grill",
+    "description": "A booth-seating restaurant and cocktail bar in the Metropolis area, overlooking the Pirate Ship and the Pirates of Zanzibar show. The menu covers Tex-Mex, burgers and grill dishes. Prices here are estimates.",
+    "topPick": true,
+    "type": "Restaurant & Bar",
+    "image": "assets/images/flamingo_land/food_metropolis_bar_and_grill.png",
+    "lat": 54.2106,
+    "lng": -0.8089,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Burger with Fries",
+        "description": "Grilled burger served with chips",
+        "price": 12
+      },
+      {
+        "name": "Tex-Mex Dish",
+        "description": "Tex-Mex main of the day",
+        "price": 13
+      },
+      {
+        "name": "Cocktail",
+        "description": "Cocktail from the bar",
+        "price": 8
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "food_the_coach_house",
+    "name": "The Coach House",
+    "description": "A refurbished country-style pub next to Children's Planet, with a conservatory and beer garden. It serves pub classics and Sunday roasts and is open daily from 11:00 to 20:00. Prices here are estimates.",
+    "topPick": true,
+    "type": "Pub",
+    "image": "assets/images/flamingo_land/food_the_coach_house.png",
+    "lat": 54.211,
+    "lng": -0.8083,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Sunday Roast",
+        "description": "Roast meat with vegetables and gravy",
+        "price": 14
+      },
+      {
+        "name": "Fish and Chips",
+        "description": "Battered fish with chips and peas",
+        "price": 13
+      },
+      {
+        "name": "Pie of the Day",
+        "description": "Traditional pub pie with sides",
+        "price": 13
+      },
+      {
+        "name": "Pint of Beer",
+        "description": "Draught beer",
+        "price": 5
+      }
+    ]
+  },
+  {
+    "id": "food_street_food_kitchen",
+    "name": "Street Food Kitchen",
+    "description": "A casual restaurant in the Riverside One complex with indoor and outdoor seating, serving burgers and fried chicken. It has a Costa Coffee and direct access to the Zoo Bar. Prices here are estimates.",
+    "topPick": false,
+    "type": "Casual Dining",
+    "image": "assets/images/flamingo_land/food_street_food_kitchen.png",
+    "lat": 54.2104,
+    "lng": -0.8096,
+    "rating": 4,
+    "items": [
+      {
+        "name": "Burger",
+        "description": "Burger with toppings and fries",
+        "price": 11
+      },
+      {
+        "name": "Fried Chicken",
+        "description": "Crispy fried chicken portion",
+        "price": 10
+      },
+      {
+        "name": "Coffee",
+        "description": "Costa coffee",
+        "price": 3
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "food_the_diner",
+    "name": "The Diner",
+    "description": "A casual diner-style place to eat at Flamingo Land. Menu details have not been verified, so check the board on arrival for today's offer. Prices here are estimates.",
+    "topPick": false,
+    "type": "Diner",
+    "image": "assets/images/flamingo_land/food_the_diner.png",
+    "lat": 54.2109,
+    "lng": -0.8092,
+    "rating": 4,
+    "items": [
+      {
+        "name": "Main Dish of the Day",
+        "description": "Typical diner-style main; menu varies",
+        "price": 11
+      },
+      {
+        "name": "Fries",
+        "description": "Portion of chips",
+        "price": 4
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 3
+      }
+    ]
+  }
+]

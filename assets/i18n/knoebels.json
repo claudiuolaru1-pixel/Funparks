@@ -1,0 +1,406 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Knoebels Amusement Resort is a family-owned amusement park in Elysburg, Pennsylvania, USA, that opened in 1926 and celebrated its 100th anniversary in 2026. Admission and parking are free: guests pay for rides with ticket books or a Ride All Day pass. The park is famous for its classic wooden coasters such as Phoenix and Twister, the rare wooden bobsled coaster Flying Turns, and a collection of vintage rides including the Grand Carousel and Haunted Mansion. Around 1.4 million guests a year were reported in a 2018 press article. There is no hotel at the park, only a campground with cabins and cottages.",
+      "es": "Knoebels Amusement Resort es un parque de atracciones familiar en Elysburg, Pensilvania, EE. UU., que abrió en 1926 y celebró su 100.º aniversario en 2026. La entrada y el aparcamiento son gratuitos: se paga por las atracciones con cuadernos de tickets o un pase Ride All Day. El parque es famoso por sus montañas rusas clásicas de madera como Phoenix y Twister, la rara montaña rusa de madera tipo bobsleigh Flying Turns y una colección de atracciones antiguas, entre ellas el Grand Carousel y Haunted Mansion. Un artículo de prensa de 2018 habló de unos 1,4 millones de visitantes al año. No hay hotel en el parque, solo un camping con cabañas y cottages.",
+      "fr": "Knoebels Amusement Resort est un parc d'attractions familial à Elysburg, en Pennsylvanie (États-Unis), ouvert en 1926 et qui a fêté son centenaire en 2026. L'entrée et le parking sont gratuits : on paie les attractions avec des carnets de tickets ou un pass Ride All Day. Le parc est célèbre pour ses montagnes russes classiques en bois comme Phoenix et Twister, le rare coaster de bobsleigh en bois Flying Turns et une collection d'attractions anciennes dont le Grand Carousel et Haunted Mansion. Un article de presse de 2018 faisait état d'environ 1,4 million de visiteurs par an. Il n'y a pas d'hôtel au parc, seulement un camping avec chalets et cottages.",
+      "de": "Knoebels Amusement Resort ist ein familiengeführter Freizeitpark in Elysburg, Pennsylvania, USA, der 1926 eröffnet wurde und 2026 sein 100-jähriges Bestehen feierte. Eintritt und Parken sind kostenlos: Die Fahrgeschäfte bezahlt man mit Ticketheften oder einem Ride-All-Day-Pass. Berühmt ist der Park für klassische Holzachterbahnen wie Phoenix und Twister, die seltene hölzerne Bobbahn Flying Turns und eine Sammlung historischer Fahrgeschäfte, darunter das Grand Carousel und Haunted Mansion. Ein Pressebericht von 2018 nannte rund 1,4 Millionen Besucher pro Jahr. Es gibt kein Hotel im Park, nur einen Campingplatz mit Hütten und Cottages.",
+      "it": "Knoebels Amusement Resort è un parco divertimenti a conduzione familiare a Elysburg, in Pennsylvania (USA), aperto nel 1926 e che ha festeggiato il centenario nel 2026. Ingresso e parcheggio sono gratuiti: le attrazioni si pagano con blocchetti di biglietti o con il pass Ride All Day. Il parco è famoso per le classiche montagne russe in legno come Phoenix e Twister, la rara montagna russa in legno stile bob Flying Turns e una collezione di attrazioni d'epoca tra cui il Grand Carousel e Haunted Mansion. Un articolo di stampa del 2018 parlava di circa 1,4 milioni di visitatori l'anno. Non c'è un hotel nel parco, solo un campeggio con cabine e cottage.",
+      "nl": "Knoebels Amusement Resort is een attractiepark van een familiebedrijf in Elysburg, Pennsylvania (VS), dat in 1926 opende en in 2026 zijn 100-jarig bestaan vierde. Entree en parkeren zijn gratis: de attracties betaal je met ticketboekjes of een Ride All Day-pas. Het park is beroemd om klassieke houten achtbanen zoals Phoenix en Twister, de zeldzame houten bobsleeachtbaan Flying Turns en een verzameling vintage attracties, waaronder de Grand Carousel en Haunted Mansion. Een persartikel uit 2018 noemde zo'n 1,4 miljoen bezoekers per jaar. Er is geen hotel bij het park, alleen een camping met hutten en cottages.",
+      "pt": "O Knoebels Amusement Resort é um parque de diversões familiar em Elysburg, Pensilvânia, EUA, que abriu em 1926 e celebrou o 100.º aniversário em 2026. A entrada e o estacionamento são gratuitos: as atrações pagam-se com cadernetas de bilhetes ou um passe Ride All Day. O parque é famoso pelas montanhas-russas clássicas de madeira como a Phoenix e a Twister, pela rara montanha-russa de madeira tipo trenó Flying Turns e por uma coleção de atrações antigas, incluindo o Grand Carousel e a Haunted Mansion. Um artigo de imprensa de 2018 falava em cerca de 1,4 milhões de visitantes por ano. Não há hotel no parque, apenas um parque de campismo com cabanas e cottages.",
+      "ru": "Knoebels Amusement Resort — семейный парк аттракционов в Элисберге, штат Пенсильвания, США, открытый в 1926 году и отметивший 100-летие в 2026 году. Вход и парковка бесплатны: аттракционы оплачиваются книжками билетов или пропуском Ride All Day. Парк славится классическими деревянными горками Phoenix и Twister, редкими деревянными бобслейными горками Flying Turns и коллекцией старинных аттракционов, включая Grand Carousel и Haunted Mansion. В прессе 2018 года упоминалось около 1,4 млн гостей в год. Отеля в парке нет, только кемпинг с домиками и коттеджи.",
+      "zh": "Knoebels Amusement Resort是位于美国宾夕法尼亚州Elysburg的家族经营游乐园，1926年开业，2026年迎来100周年。入园和停车免费，游乐项目通过票本或Ride All Day通票付费。乐园以Phoenix和Twister等经典木质过山车、罕见的木质雪橇式过山车Flying Turns，以及Grand Carousel和Haunted Mansion等怀旧项目闻名。2018年的新闻报道称每年约有140万游客。园内没有酒店，只有带木屋和小屋的露营地。",
+      "ar": "منتجع نوبلز الترفيهي (Knoebels) متنزه ترفيهي عائلي في إلسبورغ بولاية بنسلفانيا الأمريكية، افتُتح عام 1926 واحتفل بمئويته عام 2026. الدخول ومواقف السيارات مجانية، ويُدفع ثمن الألعاب بدفاتر التذاكر أو بتصريح Ride All Day. يشتهر المتنزه بقطاراته الخشبية الكلاسيكية مثل Phoenix وTwister، وقطار المزلجة الخشبي النادر Flying Turns، ومجموعة ألعاب قديمة منها Grand Carousel وHaunted Mansion. وذكر مقال صحفي عام 2018 نحو 1.4 مليون زائر سنوياً. لا يوجد فندق في المتنزه بل مخيم مع أكواخ وكوتيجات فقط."
+    },
+    "ov_highlights_body": {
+      "en": "Phoenix is the signature wooden coaster, built in 1947 as The Rocket and moved to Knoebels in 1985; Twister is a 31 m wooden coaster from 1999, and Flying Turns is a rare wooden bobsled coaster from 2013. Impulse is the steel thrill coaster with four inversions, and StratosFear is a 45 m drop tower. Water fans have Giant Flume and Sklooosh!, families can ride the Grand Carousel, Haunted Mansion, Giant Wheel and Pioneer Train, and Cosmotron and Black Diamond add more variety. For food, Alamo is a Texas-themed sit-down restaurant open since 1926, and the Potato Barn sells loaded baked potatoes.",
+      "es": "Phoenix es la montaña rusa de madera insignia, construida en 1947 como The Rocket y trasladada a Knoebels en 1985; Twister es una montaña rusa de madera de 31 m de 1999, y Flying Turns es una rara montaña rusa de madera tipo bobsleigh de 2013. Impulse es la montaña rusa de acero con cuatro inversiones, y StratosFear es una torre de caída de 45 m. Los amantes del agua tienen Giant Flume y Sklooosh!, las familias pueden subir al Grand Carousel, Haunted Mansion, Giant Wheel y Pioneer Train, y Cosmotron y Black Diamond aportan más variedad. Para comer, Alamo es un restaurante de temática texana abierto desde 1926 y Potato Barn vende patatas asadas rellenas.",
+      "fr": "Phoenix est le grand huit en bois emblématique, construit en 1947 sous le nom de The Rocket et installé à Knoebels en 1985 ; Twister est un coaster en bois de 31 m de 1999, et Flying Turns un rare coaster de bobsleigh en bois de 2013. Impulse est le coaster en acier à quatre inversions, et StratosFear une tour de chute de 45 m. Les amateurs d'eau ont Giant Flume et Sklooosh!, les familles peuvent monter dans le Grand Carousel, Haunted Mansion, Giant Wheel et Pioneer Train, et Cosmotron et Black Diamond ajoutent de la variété. Côté table, Alamo est un restaurant à thème texan ouvert depuis 1926 et Potato Barn vend des pommes de terre au four garnies.",
+      "de": "Phoenix ist die Holzachterbahn schlechthin, 1947 als The Rocket gebaut und 1985 nach Knoebels versetzt; Twister ist eine 31 m hohe Holzachterbahn von 1999, und Flying Turns eine seltene hölzerne Bobbahn von 2013. Impulse ist die Stahlachterbahn mit vier Inversionen, StratosFear ein 45 m hoher Drop Tower. Wasserfans haben Giant Flume und Sklooosh!, Familien können Grand Carousel, Haunted Mansion, Giant Wheel und Pioneer Train fahren, und Cosmotron und Black Diamond sorgen für Abwechslung. Zum Essen gibt es das Alamo, ein Restaurant im Texas-Stil seit 1926, und im Potato Barn belegte Ofenkartoffeln.",
+      "it": "Phoenix è la montagna russa in legno simbolo del parco, costruita nel 1947 come The Rocket e spostata a Knoebels nel 1985; Twister è una montagna russa in legno alta 31 m del 1999, e Flying Turns una rara montagna russa in legno stile bob del 2013. Impulse è la montagna russa in acciaio con quattro inversioni, e StratosFear una torre di caduta di 45 m. Gli amanti dell'acqua hanno Giant Flume e Sklooosh!, le famiglie possono salire sul Grand Carousel, Haunted Mansion, Giant Wheel e Pioneer Train, e Cosmotron e Black Diamond aggiungono varietà. Per mangiare, l'Alamo è un ristorante a tema texano aperto dal 1926, e il Potato Barn vende patate al forno farcite.",
+      "nl": "Phoenix is de blikvanger onder de houten achtbanen, in 1947 gebouwd als The Rocket en in 1985 naar Knoebels verplaatst; Twister is een houten achtbaan van 31 m uit 1999, en Flying Turns een zeldzame houten bobsleeachtbaan uit 2013. Impulse is de stalen achtbaan met vier inversies, en StratosFear een valtoren van 45 m. Waterfans hebben Giant Flume en Sklooosh!, gezinnen kunnen in de Grand Carousel, Haunted Mansion, Giant Wheel en Pioneer Train, en Cosmotron en Black Diamond zorgen voor meer variatie. Bij het eten is Alamo een restaurant met Texaans thema dat al sinds 1926 open is, en de Potato Barn verkoopt gevulde ovenaardappelen.",
+      "pt": "A Phoenix é a montanha-russa de madeira emblemática, construída em 1947 como The Rocket e transferida para Knoebels em 1985; a Twister é uma montanha-russa de madeira de 31 m de 1999, e a Flying Turns uma rara montanha-russa de madeira tipo trenó de 2013. A Impulse é a montanha-russa de aço com quatro inversões, e a StratosFear uma torre de queda de 45 m. Os fãs de água têm a Giant Flume e a Sklooosh!, as famílias podem andar no Grand Carousel, na Haunted Mansion, na Giant Wheel e no Pioneer Train, e a Cosmotron e a Black Diamond trazem mais variedade. Para comer, o Alamo é um restaurante de temática texana aberto desde 1926, e o Potato Barn vende batatas assadas recheadas.",
+      "ru": "Phoenix — фирменные деревянные горки, построенные в 1947 году как The Rocket и перенесённые в Knoebels в 1985-м; Twister — деревянные горки высотой 31 м, открытые в 1999 году, а Flying Turns — редкие деревянные бобслейные горки 2013 года. Impulse — стальные горки с четырьмя инверсиями, а StratosFear — башня свободного падения высотой 45 м. Любителям воды — Giant Flume и Sklooosh!, семьям — Grand Carousel, Haunted Mansion, Giant Wheel и Pioneer Train, а Cosmotron и Black Diamond добавляют разнообразия. Из еды: Alamo — ресторан в техасском стиле, работающий с 1926 года, а Potato Barn продаёт запечённый картофель с начинками.",
+      "zh": "Phoenix是乐园的标志性木质过山车，1947年以The Rocket之名建成，1985年迁至Knoebels；Twister是1999年的31米高木质过山车，Flying Turns是2013年的罕见木质雪橇式过山车。Impulse是带四次翻转的钢轨过山车，StratosFear是45米高的跳楼机。爱玩水的游客可以选Giant Flume和Sklooosh!，家庭游客可以乘坐Grand Carousel、Haunted Mansion、Giant Wheel和Pioneer Train，Cosmotron和Black Diamond则增添了更多选择。餐饮方面，Alamo是自1926年营业的得州主题餐厅，Potato Barn出售各式烤土豆。",
+      "ar": "Phoenix هو القطار الخشبي الأشهر، بُني عام 1947 باسم The Rocket ونُقل إلى Knoebels عام 1985؛ وTwister قطار خشبي بارتفاع 31 م من 1999، وFlying Turns قطار مزلجة خشبي نادر من 2013. وImpulse قطار فولاذي بأربع انقلابات، وStratosFear برج سقوط بارتفاع 45 م. ولمحبي الماء Giant Flume وSklooosh!، وللعائلات Grand Carousel وHaunted Mansion وGiant Wheel وPioneer Train، وتضيف Cosmotron وBlack Diamond تنوعاً. وللطعام مطعم Alamo بطابع تكساس مفتوح منذ 1926، ويبيع Potato Barn البطاطا المشوية المحشوة."
+    },
+    "ov_did_you_know_body": {
+      "en": "Knoebels opened in 1926 and celebrated its 100th anniversary in 2026. The Grand Carousel was built in 1913 and has operated at the park since 1942, with 63 horses and 3 chariots. Phoenix was built in 1947 as The Rocket and was moved to Knoebels in 1985, and the Alamo restaurant has been serving guests since 1926 and was named best theme park restaurant in the 2026 USA Today 10Best awards. Flying Turns opened on 5 October 2013 and is one of the very few wooden bobsled coasters in the world.",
+      "es": "Knoebels abrió en 1926 y celebró su 100.º aniversario en 2026. El Grand Carousel se construyó en 1913 y funciona en el parque desde 1942, con 63 caballos y 3 carrozas. Phoenix se construyó en 1947 como The Rocket y se trasladó a Knoebels en 1985, y el restaurante Alamo sirve a los visitantes desde 1926 y fue elegido mejor restaurante de parque temático en los premios 10Best de USA Today de 2026. Flying Turns abrió el 5 de octubre de 2013 y es una de las poquísimas montañas rusas de madera tipo bobsleigh del mundo.",
+      "fr": "Knoebels a ouvert en 1926 et a fêté son centenaire en 2026. Le Grand Carousel a été construit en 1913 et fonctionne dans le parc depuis 1942, avec 63 chevaux et 3 chars. Phoenix a été construit en 1947 sous le nom de The Rocket et déplacé à Knoebels en 1985, et le restaurant Alamo accueille les visiteurs depuis 1926 ; il a été élu meilleur restaurant de parc à thème aux 10Best de USA Today en 2026. Flying Turns a ouvert le 5 octobre 2013 et c'est l'un des très rares coasters de bobsleigh en bois au monde.",
+      "de": "Knoebels wurde 1926 eröffnet und feierte 2026 sein 100-jähriges Bestehen. Das Grand Carousel wurde 1913 gebaut und läuft seit 1942 im Park, mit 63 Pferden und 3 Wagen. Phoenix wurde 1947 als The Rocket gebaut und 1985 nach Knoebels versetzt, und das Restaurant Alamo bewirtet Gäste seit 1926; bei den 10Best Awards von USA Today 2026 wurde es zum besten Freizeitpark-Restaurant gewählt. Flying Turns eröffnete am 5. Oktober 2013 und ist eine der ganz wenigen hölzernen Bobbahnen der Welt.",
+      "it": "Knoebels ha aperto nel 1926 e ha festeggiato il centenario nel 2026. Il Grand Carousel fu costruito nel 1913 e funziona nel parco dal 1942, con 63 cavalli e 3 carrozze. Phoenix fu costruita nel 1947 come The Rocket e spostata a Knoebels nel 1985, e il ristorante Alamo accoglie i visitatori dal 1926 ed è stato eletto miglior ristorante di un parco a tema ai 10Best di USA Today del 2026. Flying Turns ha aperto il 5 ottobre 2013 ed è una delle pochissime montagne russe in legno stile bob al mondo.",
+      "nl": "Knoebels opende in 1926 en vierde in 2026 zijn 100-jarig bestaan. De Grand Carousel werd in 1913 gebouwd en draait sinds 1942 in het park, met 63 paarden en 3 koetsen. Phoenix werd in 1947 gebouwd als The Rocket en in 1985 naar Knoebels verplaatst, en restaurant Alamo ontvangt gasten sinds 1926; het werd uitgeroepen tot beste themapark-restaurant bij de 10Best Awards van USA Today in 2026. Flying Turns opende op 5 oktober 2013 en is een van de weinige houten bobsleeachtbanen ter wereld.",
+      "pt": "O Knoebels abriu em 1926 e celebrou o 100.º aniversário em 2026. O Grand Carousel foi construído em 1913 e funciona no parque desde 1942, com 63 cavalos e 3 carruagens. A Phoenix foi construída em 1947 como The Rocket e transferida para Knoebels em 1985, e o restaurante Alamo recebe visitantes desde 1926, tendo sido eleito o melhor restaurante de parque temático nos prémios 10Best do USA Today de 2026. A Flying Turns abriu a 5 de outubro de 2013 e é uma das pouquíssimas montanhas-russas de madeira tipo trenó do mundo.",
+      "ru": "Knoebels открылся в 1926 году и отметил 100-летие в 2026 году. Grand Carousel построили в 1913 году, а в парке он работает с 1942-го: 63 лошади и 3 кареты. Phoenix построили в 1947 году как The Rocket, а в Knoebels перенесли в 1985-м; ресторан Alamo принимает гостей с 1926 года и в 2026 году признан лучшим рестораном тематического парка по версии 10Best от USA Today. Flying Turns открылись 5 октября 2013 года и входят в число очень немногих деревянных бобслейных горок в мире.",
+      "zh": "Knoebels于1926年开业，2026年迎来100周年。Grand Carousel建于1913年，1942年起在园内运行，拥有63匹马和3辆马车。Phoenix于1947年以The Rocket之名建成，1985年迁至Knoebels；Alamo餐厅自1926年起接待游客，并在2026年《今日美国》10Best评选中被评为最佳主题乐园餐厅。Flying Turns于2013年10月5日开放，是世界上极少数的木质雪橇式过山车之一。",
+      "ar": "افتُتح Knoebels عام 1926 واحتفل بمئويته عام 2026. بُني Grand Carousel عام 1913 ويعمل في المتنزه منذ 1942 بـ63 حصاناً و3 عربات. وبُني Phoenix عام 1947 باسم The Rocket ونُقل إلى Knoebels عام 1985، ويستقبل مطعم Alamo الزوار منذ 1926 وقد اختير أفضل مطعم متنزه ترفيهي في جوائز 10Best من USA Today لعام 2026. وافتُتح Flying Turns في 5 أكتوبر 2013 وهو من القطارات الخشبية القليلة جداً من نوع المزلجة في العالم."
+    },
+    "ov_plan_body": {
+      "en": "Knoebels has closed for the 2026 season and reopens in spring 2027; in 2026 the park opened on 25 April, and the 2027 date is not announced yet. In season, admission and parking are free. You pay for rides with ticket books ($5 for about 2 rides, $20 for about 8, $50 for about 20) or a Ride All Day pass, roughly $40 for guests under 48 inches and $60 for guests over 48 inches in the main season, with cheaper evening passes from 4pm. Prices change by date, so check the official pricing page. The Joy Through the Grove drive-through lights display runs from 27 November to 31 December. There is no hotel at the park, only a campground with cabins and the Knoebels Cottages, so many visitors stay in nearby Bloomsburg or Danville.",
+      "es": "Knoebels cerró la temporada 2026 y reabre en primavera de 2027; en 2026 el parque abrió el 25 de abril y la fecha de 2027 aún no se ha anunciado. En temporada, la entrada y el aparcamiento son gratuitos. Las atracciones se pagan con cuadernos de tickets (5 $ por unas 2 atracciones, 20 $ por unas 8, 50 $ por unas 20) o con un pase Ride All Day, de unos 40 $ para menores de 48 pulgadas y 60 $ para mayores de 48 pulgadas en temporada principal, con pases de tarde más baratos desde las 16:00. Los precios cambian según la fecha, así que consulta la página oficial. La exhibición de luces Joy Through the Grove, en coche, se celebra del 27 de noviembre al 31 de diciembre. No hay hotel en el parque, solo un camping con cabañas y los Knoebels Cottages, por lo que muchos visitantes se alojan en Bloomsburg o Danville.",
+      "fr": "Knoebels a fermé sa saison 2026 et rouvre au printemps 2027 ; en 2026, le parc a ouvert le 25 avril et la date de 2027 n'est pas encore annoncée. En saison, l'entrée et le parking sont gratuits. On paie les attractions avec des carnets de tickets (5 $ pour environ 2 attractions, 20 $ pour environ 8, 50 $ pour environ 20) ou un pass Ride All Day, d'environ 40 $ pour les moins de 48 pouces et 60 $ pour les plus de 48 pouces en haute saison, avec des pass de soirée moins chers dès 16 h. Les prix varient selon la date : consultez la page officielle. L'exposition de lumières en voiture Joy Through the Grove a lieu du 27 novembre au 31 décembre. Il n'y a pas d'hôtel au parc, seulement un camping avec chalets et les Knoebels Cottages ; beaucoup de visiteurs logent donc à Bloomsburg ou Danville.",
+      "de": "Knoebels hat die Saison 2026 beendet und öffnet im Frühjahr 2027 wieder; 2026 öffnete der Park am 25. April, das Datum für 2027 steht noch nicht fest. In der Saison sind Eintritt und Parken kostenlos. Die Fahrgeschäfte bezahlt man mit Ticketheften (5 $ für etwa 2 Fahrten, 20 $ für etwa 8, 50 $ für etwa 20) oder einem Ride-All-Day-Pass, in der Hauptsaison rund 40 $ für Gäste unter 48 Zoll und 60 $ für Gäste über 48 Zoll, mit günstigeren Abendpässen ab 16 Uhr. Die Preise ändern sich je nach Datum, daher die offizielle Preisseite prüfen. Die Drive-through-Lichtershow Joy Through the Grove läuft vom 27. November bis 31. Dezember. Im Park gibt es kein Hotel, nur einen Campingplatz mit Hütten und die Knoebels Cottages, daher übernachten viele Gäste in Bloomsburg oder Danville.",
+      "it": "Knoebels ha chiuso la stagione 2026 e riapre in primavera 2027; nel 2026 il parco ha aperto il 25 aprile e la data del 2027 non è ancora stata annunciata. In stagione ingresso e parcheggio sono gratuiti. Le attrazioni si pagano con blocchetti di biglietti (5 $ per circa 2 giri, 20 $ per circa 8, 50 $ per circa 20) o con un pass Ride All Day, circa 40 $ per chi è sotto i 48 pollici e 60 $ per chi è sopra in alta stagione, con pass serali più economici dalle 16:00. I prezzi variano in base alla data, quindi controllate la pagina ufficiale. L'esposizione di luci in auto Joy Through the Grove si tiene dal 27 novembre al 31 dicembre. Nel parco non c'è un hotel, solo un campeggio con cabine e i Knoebels Cottages, quindi molti visitatori alloggiano a Bloomsburg o Danville.",
+      "nl": "Knoebels is gesloten voor het seizoen 2026 en heropent in het voorjaar van 2027; in 2026 opende het park op 25 april en de datum voor 2027 is nog niet bekendgemaakt. In het seizoen zijn entree en parkeren gratis. De attracties betaal je met ticketboekjes ($5 voor ongeveer 2 ritten, $20 voor ongeveer 8, $50 voor ongeveer 20) of een Ride All Day-pas, in het hoogseizoen ongeveer $40 voor gasten onder 48 inch en $60 voor gasten boven 48 inch, met goedkopere avondpassen vanaf 16:00. Prijzen verschillen per datum, dus check de officiële prijzenpagina. De drive-through lichtshow Joy Through the Grove loopt van 27 november tot 31 december. Er is geen hotel bij het park, alleen een camping met hutten en de Knoebels Cottages, dus veel bezoekers overnachten in Bloomsburg of Danville.",
+      "pt": "O Knoebels encerrou a temporada de 2026 e reabre na primavera de 2027; em 2026 o parque abriu a 25 de abril e a data de 2027 ainda não foi anunciada. Em época, a entrada e o estacionamento são gratuitos. As atrações pagam-se com cadernetas de bilhetes (5 $ por cerca de 2 atrações, 20 $ por cerca de 8, 50 $ por cerca de 20) ou com um passe Ride All Day, cerca de 40 $ para quem tem menos de 48 polegadas e 60 $ para quem tem mais na época alta, com passes de fim de tarde mais baratos a partir das 16:00. Os preços mudam consoante a data, por isso consulte a página oficial. A exposição de luzes de condução Joy Through the Grove decorre de 27 de novembro a 31 de dezembro. Não há hotel no parque, apenas um parque de campismo com cabanas e os Knoebels Cottages, por isso muitos visitantes ficam em Bloomsburg ou Danville.",
+      "ru": "Сезон 2026 года в Knoebels завершён, парк снова откроется весной 2027 года; в 2026 году он открылся 25 апреля, дата 2027 года пока не объявлена. В сезон вход и парковка бесплатны. Аттракционы оплачиваются книжками билетов (5 $ — около 2 поездок, 20 $ — около 8, 50 $ — около 20) или пропуском Ride All Day: в основной сезон примерно 40 $ для гостей ниже 48 дюймов и 60 $ для выше, а вечерние пропуска с 16:00 дешевле. Цены зависят от даты, поэтому проверьте официальную страницу. Автомобильное шоу огней Joy Through the Grove проходит с 27 ноября по 31 декабря. В парке нет отеля, только кемпинг с домиками и Knoebels Cottages, поэтому многие гости останавливаются в Блумсберге или Дэнвилле.",
+      "zh": "Knoebels已结束2026年季节，将于2027年春季重新开放；2026年乐园于4月25日开放，2027年的日期尚未公布。营业季内入园和停车免费，游乐项目通过票本（5美元约2次、20美元约8次、50美元约20次）或Ride All Day通票付费，主季节身高不足48英寸约40美元，超过48英寸约60美元，下午4点后的傍晚通票更便宜。价格随日期而变，请查看官方价格页面。驱车观赏的灯光秀Joy Through the Grove在11月27日至12月31日举行。园内没有酒店，只有带木屋的露营地和Knoebels Cottages，因此许多游客住在附近的Bloomsburg或Danville。",
+      "ar": "أنهى Knoebels موسم 2026 ويعود في ربيع 2027؛ ففي 2026 افتُتح المتنزه يوم 25 أبريل ولم يُعلن بعد موعد 2027. الدخول ومواقف السيارات مجانية في الموسم. تُدفع الألعاب بدفاتر التذاكر (5 دولارات لنحو لعبتين، و20 دولاراً لنحو 8، و50 دولاراً لنحو 20) أو بتصريح Ride All Day، وهو نحو 40 دولاراً لمن هم دون 48 بوصة و60 دولاراً لمن فوقها في الموسم الرئيسي، مع تصاريح مسائية أرخص من الساعة 4 مساءً. تتغير الأسعار حسب التاريخ فراجع الصفحة الرسمية. ويُقام عرض الأضواء بالسيارة Joy Through the Grove من 27 نوفمبر إلى 31 ديسمبر. لا يوجد فندق في المتنزه بل مخيم مع أكواخ وKnoebels Cottages، لذا يقيم كثيرون في بلومسبورغ أو دانفيل."
+    },
+    "ov_photos_body": {
+      "en": "The wooden frames of Phoenix and Twister look best in the golden light of late afternoon, and Flying Turns' tube-like track is a rare subject. The Grand Carousel with its painted horses and the Giant Wheel make classic vintage shots, and the shaded grove paths are lovely in autumn colour. In winter, the lights display adds a different atmosphere.",
+      "es": "Las estructuras de madera de Phoenix y Twister se ven mejor con la luz dorada del final de la tarde, y la vía en forma de tubo de Flying Turns es un tema poco común. El Grand Carousel con sus caballos pintados y la Giant Wheel dan fotos clásicas de época, y los senderos sombreados del bosque son preciosos con los colores del otoño. En invierno, la exhibición de luces aporta otra atmósfera.",
+      "fr": "Les structures en bois de Phoenix et Twister sont plus belles dans la lumière dorée de la fin d'après-midi, et la piste en forme de tube de Flying Turns est un sujet rare. Le Grand Carousel avec ses chevaux peints et la Giant Wheel donnent des clichés vintage classiques, et les allées ombragées du bois sont superbes aux couleurs de l'automne. En hiver, l'exposition de lumières crée une autre ambiance.",
+      "de": "Die Holzgerüste von Phoenix und Twister wirken im goldenen Licht des späten Nachmittags am schönsten, und die röhrenartige Strecke von Flying Turns ist ein seltenes Motiv. Das Grand Carousel mit seinen bemalten Pferden und das Giant Wheel liefern klassische Vintage-Fotos, und die schattigen Waldwege sind in den Herbstfarben herrlich. Im Winter sorgt die Lichtershow für eine ganz andere Stimmung.",
+      "it": "Le strutture in legno di Phoenix e Twister danno il meglio nella luce dorata del tardo pomeriggio, e il tracciato a tubo di Flying Turns è un soggetto raro. Il Grand Carousel con i suoi cavalli dipinti e la Giant Wheel regalano scatti vintage classici, e i sentieri ombreggiati del boschetto sono bellissimi nei colori dell'autunno. In inverno, l'esposizione di luci crea un'atmosfera diversa.",
+      "nl": "De houten constructies van Phoenix en Twister zien er het mooist uit in het gouden licht van de late middag, en het buisvormige spoor van Flying Turns is een zeldzaam onderwerp. De Grand Carousel met zijn beschilderde paarden en het Giant Wheel geven klassieke vintage foto's, en de beschaduwde paden in het bos zijn prachtig in herfstkleuren. In de winter zorgt de lichtshow voor een andere sfeer.",
+      "pt": "As estruturas de madeira da Phoenix e da Twister ficam melhor com a luz dourada do fim da tarde, e a via em forma de tubo da Flying Turns é um tema raro. O Grand Carousel com os seus cavalos pintados e a Giant Wheel dão fotografias vintage clássicas, e os caminhos sombreados do bosque são lindos com as cores do outono. No inverno, a exposição de luzes traz outra atmosfera.",
+      "ru": "Деревянные конструкции Phoenix и Twister лучше всего смотрятся в золотистом свете позднего дня, а трубчатая трасса Flying Turns — редкий сюжет. Grand Carousel с расписными лошадками и Giant Wheel дают классические винтажные кадры, а тенистые аллеи рощи прекрасны в осенних красках. Зимой шоу огней создаёт совсем другую атмосферу.",
+      "zh": "Phoenix和Twister的木质骨架在傍晚的金色光线下最好看，Flying Turns的管状轨道是难得一见的拍摄对象。Grand Carousel上彩绘的木马和Giant Wheel是经典的怀旧画面，树荫下的林间小路在秋色中格外迷人。冬季的灯光秀则带来不同的氛围。",
+      "ar": "تبدو الهياكل الخشبية في Phoenix وTwister أجمل في الضوء الذهبي آخر النهار، ويُعدّ مسار Flying Turns الأنبوبي موضوعاً نادراً. ويمنح Grand Carousel بأحصنته المرسومة وGiant Wheel صوراً قديمة كلاسيكية، وتبدو الممرات الظليلة في البستان رائعة بألوان الخريف. وفي الشتاء يضفي عرض الأضواء أجواء مختلفة."
+    }
+  },
+  "attractions": {
+    "phoenix": {
+      "desc": {
+        "en": "Signature wooden coaster, built in 1947 and moved here in 1985: about 24 m high and up to 72 km/h. Min 122cm.",
+        "es": "Montaña rusa de madera insignia, construida en 1947 y trasladada aquí en 1985: unos 24 m de altura y hasta 72 km/h. Mín. 122cm.",
+        "fr": "Grand huit en bois emblématique, construit en 1947 et installé ici en 1985 : environ 24 m de haut et jusqu'à 72 km/h. Min 122cm.",
+        "de": "Die Holzachterbahn des Parks, 1947 gebaut und 1985 hierher versetzt: etwa 24 m hoch und bis zu 72 km/h. Min 122cm.",
+        "it": "Montagna russa in legno simbolo del parco, costruita nel 1947 e spostata qui nel 1985: alta circa 24 m e fino a 72 km/h. Min 122cm.",
+        "nl": "Houten blikvanger, gebouwd in 1947 en hier geplaatst in 1985: ongeveer 24 m hoog en tot 72 km/u. Min 122cm.",
+        "pt": "Montanha-russa de madeira emblemática, construída em 1947 e transferida para aqui em 1985: cerca de 24 m de altura e até 72 km/h. Mín. 122cm.",
+        "ru": "Фирменные деревянные горки, построенные в 1947 году и перенесённые сюда в 1985-м: высота около 24 м, скорость до 72 км/ч. Рост от 122 см.",
+        "zh": "标志性木质过山车，1947年建成，1985年迁至此处：高约24米，时速最高72公里。最低身高122厘米。",
+        "ar": "قطار خشبي أيقوني بُني عام 1947 ونُقل إلى هنا عام 1985: ارتفاع نحو 24 م وسرعة تصل إلى 72 كم/س. الحد الأدنى 122 سم."
+      }
+    },
+    "twister": {
+      "desc": {
+        "en": "Wooden coaster opened in 1999: about 31 m high and up to 82 km/h on a twisting layout. Min 107cm.",
+        "es": "Montaña rusa de madera inaugurada en 1999: unos 31 m de altura y hasta 82 km/h en un recorrido retorcido. Mín. 107cm.",
+        "fr": "Grand huit en bois ouvert en 1999 : environ 31 m de haut et jusqu'à 82 km/h sur un parcours sinueux. Min 107cm.",
+        "de": "Holzachterbahn von 1999: etwa 31 m hoch und bis zu 82 km/h auf verwundener Strecke. Min 107cm.",
+        "it": "Montagna russa in legno inaugurata nel 1999: alta circa 31 m e fino a 82 km/h su un tracciato contorto. Min 107cm.",
+        "nl": "Houten achtbaan uit 1999: ongeveer 31 m hoog en tot 82 km/u op een kronkelend traject. Min 107cm.",
+        "pt": "Montanha-russa de madeira inaugurada em 1999: cerca de 31 m de altura e até 82 km/h num percurso retorcido. Mín. 107cm.",
+        "ru": "Деревянные горки, открытые в 1999 году: высота около 31 м, скорость до 82 км/ч на извилистой трассе. Рост от 107 см.",
+        "zh": "1999年开放的木质过山车：高约31米，在蜿蜒轨道上时速最高82公里。最低身高107厘米。",
+        "ar": "قطار جبال روسية خشبي افتُتح عام 1999: ارتفاع نحو 31 م وسرعة تصل إلى 82 كم/س على مسار ملتوٍ. الحد الأدنى 107 سم."
+      }
+    },
+    "flying_turns": {
+      "desc": {
+        "en": "Rare wooden bobsled coaster from 2013: toboggan-style cars glide down a tube-like track. Min 122cm.",
+        "es": "Rara montaña rusa de madera tipo bobsleigh de 2013: vagonetas estilo trineo se deslizan por una vía en forma de tubo. Mín. 122cm.",
+        "fr": "Rare coaster de bobsleigh en bois de 2013 : des véhicules type luge glissent dans une piste en forme de tube. Min 122cm.",
+        "de": "Seltene hölzerne Bobbahn von 2013: Schlittenwagen gleiten durch eine röhrenartige Strecke. Min 122cm.",
+        "it": "Rara montagna russa in legno stile bob del 2013: vagoni tipo slittino scivolano in un tracciato a tubo. Min 122cm.",
+        "nl": "Zeldzame houten bobsleeachtbaan uit 2013: sledeachtige wagens glijden door een buisvormig spoor. Min 122cm.",
+        "pt": "Rara montanha-russa de madeira tipo trenó de 2013: carros estilo tobogã deslizam por uma via em forma de tubo. Mín. 122cm.",
+        "ru": "Редкие деревянные бобслейные горки 2013 года: санки скользят по трубчатой трассе. Рост от 122 см.",
+        "zh": "2013年的罕见木质雪橇式过山车：雪橇造型车厢在管状轨道上滑行。最低身高122厘米。",
+        "ar": "قطار مزلجة خشبي نادر من عام 2013: عربات تشبه الزلاجات تنزلق على مسار أنبوبي. الحد الأدنى 122 سم."
+      }
+    },
+    "impulse": {
+      "desc": {
+        "en": "Steel launch coaster opened in 2015: about 30 m high, up to 89 km/h and four inversions. Min 132cm.",
+        "es": "Montaña rusa de acero con lanzamiento inaugurada en 2015: unos 30 m de altura, hasta 89 km/h y cuatro inversiones. Mín. 132cm.",
+        "fr": "Coaster en acier à lancement ouvert en 2015 : environ 30 m de haut, jusqu'à 89 km/h et quatre inversions. Min 132cm.",
+        "de": "Stahl-Launch-Coaster von 2015: etwa 30 m hoch, bis zu 89 km/h und vier Inversionen. Min 132cm.",
+        "it": "Montagna russa in acciaio con lancio inaugurata nel 2015: alta circa 30 m, fino a 89 km/h e quattro inversioni. Min 132cm.",
+        "nl": "Stalen launch-achtbaan uit 2015: ongeveer 30 m hoog, tot 89 km/u en vier inversies. Min 132cm.",
+        "pt": "Montanha-russa de aço com lançamento inaugurada em 2015: cerca de 30 m de altura, até 89 km/h e quatro inversões. Mín. 132cm.",
+        "ru": "Стальные горки с разгоном, открытые в 2015 году: высота около 30 м, скорость до 89 км/ч, четыре инверсии. Рост от 132 см.",
+        "zh": "2015年开放的钢轨弹射过山车：高约30米，时速最高89公里，带四次翻转。最低身高132厘米。",
+        "ar": "قطار جبال روسية فولاذي بإطلاق افتُتح عام 2015: ارتفاع نحو 30 م وسرعة تصل إلى 89 كم/س وأربع انقلابات. الحد الأدنى 132 سم."
+      }
+    },
+    "black_diamond": {
+      "desc": {
+        "en": "Enclosed steel coaster from 2011 through a dark indoor course. Min 107cm.",
+        "es": "Montaña rusa de acero cubierta de 2011 por un recorrido oscuro en interior. Mín. 107cm.",
+        "fr": "Coaster en acier couvert de 2011 à travers un parcours sombre en intérieur. Min 107cm.",
+        "de": "Geschlossene Stahlachterbahn von 2011 durch einen dunklen Innenparcours. Min 107cm.",
+        "it": "Montagna russa in acciaio al coperto del 2011 lungo un percorso buio interno. Min 107cm.",
+        "nl": "Overdekte stalen achtbaan uit 2011 door een donker binnenparcours. Min 107cm.",
+        "pt": "Montanha-russa de aço coberta de 2011 por um percurso escuro no interior. Mín. 107cm.",
+        "ru": "Крытые стальные горки 2011 года с тёмной трассой внутри здания. Рост от 107 см.",
+        "zh": "2011年的室内钢轨过山车，穿行于昏暗的室内轨道。最低身高107厘米。",
+        "ar": "قطار جبال روسية فولاذي مغلق من عام 2011 عبر مسار داخلي مظلم. الحد الأدنى 107 سم."
+      }
+    },
+    "kozmos_kurves": {
+      "desc": {
+        "en": "Small steel kiddie coaster from 2009, perfect for young riders. Min 91cm.",
+        "es": "Pequeña montaña rusa de acero infantil de 2009, ideal para los más pequeños. Mín. 91cm.",
+        "fr": "Petit coaster en acier pour enfants de 2009, idéal pour les plus jeunes. Min 91cm.",
+        "de": "Kleine Kinder-Stahlachterbahn von 2009, ideal für die Jüngsten. Min 91cm.",
+        "it": "Piccola montagna russa in acciaio per bambini del 2009, perfetta per i più piccoli. Min 91cm.",
+        "nl": "Kleine stalen kinderachtbaan uit 2009, ideaal voor de jongsten. Min 91cm.",
+        "pt": "Pequena montanha-russa de aço infantil de 2009, ideal para os mais novos. Mín. 91cm.",
+        "ru": "Небольшие стальные детские горки 2009 года, идеальны для малышей. Рост от 91 см.",
+        "zh": "2009年的小型钢轨儿童过山车，非常适合小朋友。最低身高91厘米。",
+        "ar": "قطار جبال روسية فولاذي صغير للأطفال من عام 2009 مثالي للصغار. الحد الأدنى 91 سم."
+      }
+    },
+    "stratosfear": {
+      "desc": {
+        "en": "SuperShot drop tower from 2013: riders are shot up about 45 m and bounce back down. Min 122cm.",
+        "es": "Torre de caída SuperShot de 2013: los pasajeros salen disparados unos 45 m y rebotan hacia abajo. Mín. 122cm.",
+        "fr": "Tour de chute SuperShot de 2013 : les passagers sont propulsés à environ 45 m puis rebondissent. Min 122cm.",
+        "de": "SuperShot-Drop-Tower von 2013: Passagiere werden etwa 45 m hochgeschossen und federn zurück. Min 122cm.",
+        "it": "Torre di caduta SuperShot del 2013: i passeggeri vengono lanciati a circa 45 m e rimbalzano verso il basso. Min 122cm.",
+        "nl": "SuperShot-valtoren uit 2013: passagiers worden ongeveer 45 m omhoog geschoten en stuiteren terug. Min 122cm.",
+        "pt": "Torre de queda SuperShot de 2013: os passageiros são lançados a cerca de 45 m e ressaltam para baixo. Mín. 122cm.",
+        "ru": "Башня SuperShot 2013 года: пассажиров выстреливает примерно на 45 м вверх, затем они подпрыгивают вниз. Рост от 122 см.",
+        "zh": "2013年的SuperShot跳楼机：乘客被弹射到约45米高处后回弹下落。最低身高122厘米。",
+        "ar": "برج السقوط SuperShot من عام 2013: يُقذف الركاب إلى نحو 45 م ثم يرتدون إلى الأسفل. الحد الأدنى 122 سم."
+      }
+    },
+    "haunted_mansion": {
+      "desc": {
+        "en": "Classic dark ride from 1973 through spooky scenes. No height limit listed.",
+        "es": "Clásica atracción oscura de 1973 por escenas siniestras. Sin altura mínima indicada.",
+        "fr": "Parcours scénique classique de 1973 à travers des scènes effrayantes. Aucune taille minimale indiquée.",
+        "de": "Klassischer Dark Ride von 1973 durch gruselige Szenen. Keine Mindestgröße angegeben.",
+        "it": "Classico dark ride del 1973 tra scene spettrali. Nessuna altezza minima indicata.",
+        "nl": "Klassieke darkride uit 1973 door spookachtige taferelen. Geen minimumlengte vermeld.",
+        "pt": "Clássica atração escura de 1973 por cenas assustadoras. Sem altura mínima indicada.",
+        "ru": "Классический тёмный аттракцион 1973 года с жуткими сценами. Ограничений по росту не указано.",
+        "zh": "1973年的经典暗骑项目，穿行于阴森场景。未列出身高限制。",
+        "ar": "لعبة مظلمة كلاسيكية من عام 1973 عبر مشاهد مخيفة. لا يوجد حد أدنى للطول مذكور."
+      }
+    },
+    "cosmotron": {
+      "desc": {
+        "en": "Himalaya-type spinning ride from 1998. Min 122cm.",
+        "es": "Atracción giratoria tipo Himalaya de 1998. Mín. 122cm.",
+        "fr": "Attraction rotative de type Himalaya de 1998. Min 122cm.",
+        "de": "Himalaya-Fahrgeschäft von 1998. Min 122cm.",
+        "it": "Giostra rotante tipo Himalaya del 1998. Min 122cm.",
+        "nl": "Himalaya-draaiattractie uit 1998. Min 122cm.",
+        "pt": "Atração giratória tipo Himalaia de 1998. Mín. 122cm.",
+        "ru": "Вращающийся аттракцион типа «Гималаи» 1998 года. Рост от 122 см.",
+        "zh": "1998年的喜马拉雅式旋转项目。最低身高122厘米。",
+        "ar": "لعبة دوّارة من طراز هيمالايا من عام 1998. الحد الأدنى 122 سم."
+      }
+    },
+    "giant_flume": {
+      "desc": {
+        "en": "Log flume water ride from 1990. Min 107cm.",
+        "es": "Atracción acuática de troncos de 1990. Mín. 107cm.",
+        "fr": "Rivière rapide en tronc de 1990. Min 107cm.",
+        "de": "Wildwasserbahn mit Baumstämmen von 1990. Min 107cm.",
+        "it": "Giostra acquatica con tronchi del 1990. Min 107cm.",
+        "nl": "Boomstamattractie uit 1990. Min 107cm.",
+        "pt": "Atração aquática de troncos de 1990. Mín. 107cm.",
+        "ru": "Водный аттракцион «бревно» 1990 года. Рост от 107 см.",
+        "zh": "1990年的原木漂流水上项目。最低身高107厘米。",
+        "ar": "لعبة مائية بالجذوع من عام 1990. الحد الأدنى 107 سم."
+      }
+    },
+    "sklooosh": {
+      "desc": {
+        "en": "Shoot-the-chute water ride from 1997: a boat plunges down a slope with a giant splash. Min 102cm.",
+        "es": "Atracción acuática shoot-the-chute de 1997: una barca se desliza por una pendiente con una gran salpicadura. Mín. 102cm.",
+        "fr": "Attraction aquatique de type shoot-the-chute de 1997 : un bateau dévale une pente dans de grosses éclaboussures. Min 102cm.",
+        "de": "Shoot-the-Chute-Wasserbahn von 1997: Ein Boot rauscht eine Rampe hinunter und verursacht einen riesigen Splash. Min 102cm.",
+        "it": "Giostra acquatica shoot-the-chute del 1997: una barca scende lungo un pendio con un enorme spruzzo. Min 102cm.",
+        "nl": "Shoot-the-chute-waterattractie uit 1997: een boot raast een helling af met een enorme plons. Min 102cm.",
+        "pt": "Atração aquática shoot-the-chute de 1997: um barco desce uma rampa com um enorme chapão. Mín. 102cm.",
+        "ru": "Водный аттракцион «шут-зе-шут» 1997 года: лодка стремительно спускается по склону с огромными брызгами. Рост от 102 см.",
+        "zh": "1997年的滑水道船体俯冲项目：小船沿斜坡冲下，溅起巨大水花。最低身高102厘米。",
+        "ar": "لعبة مائية من نوع شوت ذا شوت من عام 1997: يندفع قارب على منحدر مع رذاذ هائل. الحد الأدنى 102 سم."
+      }
+    },
+    "grand_carousel": {
+      "desc": {
+        "en": "Classic carousel built in 1913 with 63 horses and 3 chariots, at Knoebels since 1942.",
+        "es": "Carrusel clásico construido en 1913 con 63 caballos y 3 carrozas, en Knoebels desde 1942.",
+        "fr": "Carrousel classique construit en 1913 avec 63 chevaux et 3 chars, à Knoebels depuis 1942.",
+        "de": "Klassisches Karussell von 1913 mit 63 Pferden und 3 Wagen, seit 1942 in Knoebels.",
+        "it": "Carosello classico costruito nel 1913 con 63 cavalli e 3 carrozze, a Knoebels dal 1942.",
+        "nl": "Klassieke draaimolen uit 1913 met 63 paarden en 3 koetsen, sinds 1942 in Knoebels.",
+        "pt": "Carrossel clássico construído em 1913 com 63 cavalos e 3 carruagens, em Knoebels desde 1942.",
+        "ru": "Классическая карусель 1913 года с 63 лошадками и 3 каретами, в Knoebels с 1942 года.",
+        "zh": "建于1913年的经典旋转木马，有63匹马和3辆马车，自1942年起在Knoebels运行。",
+        "ar": "دوّامة خيل كلاسيكية بُنيت عام 1913 بـ63 حصاناً و3 عربات، وتعمل في Knoebels منذ 1942."
+      }
+    },
+    "giant_wheel": {
+      "desc": {
+        "en": "Ferris wheel from 1991 rising to about 34 m.",
+        "es": "Noria de 1991 que sube hasta unos 34 m.",
+        "fr": "Grande roue de 1991 s'élevant à environ 34 m.",
+        "de": "Riesenrad von 1991, etwa 34 m hoch.",
+        "it": "Ruota panoramica del 1991 alta circa 34 m.",
+        "nl": "Reuzenrad uit 1991 van ongeveer 34 m hoog.",
+        "pt": "Roda-gigante de 1991 com cerca de 34 m.",
+        "ru": "Колесо обозрения 1991 года высотой около 34 м.",
+        "zh": "1991年的摩天轮，高约34米。",
+        "ar": "عجلة فيريس من عام 1991 بارتفاع نحو 34 م."
+      }
+    },
+    "antique_cars": {
+      "desc": {
+        "en": "Gentle ride from 1990 in vintage-style cars. Check the height rule on the day.",
+        "es": "Suave atracción de coches de época de 1990. Consulta la altura mínima el mismo día.",
+        "fr": "Douce attraction de voitures anciennes de 1990. Vérifiez la taille minimale sur place.",
+        "de": "Sanftes Oldtimer-Fahrgeschäft von 1990. Mindestgröße vor Ort prüfen.",
+        "it": "Dolce giostra di auto d'epoca del 1990. Controllate l'altezza minima in loco.",
+        "nl": "Rustige oldtimerrit uit 1990. Check de minimumlengte ter plaatse.",
+        "pt": "Atração suave de carros antigos de 1990. Confirme a altura mínima no dia.",
+        "ru": "Спокойный аттракцион с ретро-автомобилями 1990 года. Ограничение по росту уточняйте на месте.",
+        "zh": "1990年的温和复古汽车项目。身高限制请当天确认。",
+        "ar": "لعبة لطيفة بسيارات عتيقة من عام 1990. تحقق من شرط الطول في اليوم نفسه."
+      }
+    },
+    "pioneer_train": {
+      "desc": {
+        "en": "Train ride from 1960 covering about 1.5 miles around the park.",
+        "es": "Paseo en tren de 1960 que recorre unas 1,5 millas alrededor del parque.",
+        "fr": "Promenade en train de 1960 sur environ 2,4 km autour du parc.",
+        "de": "Zugfahrt von 1960, rund 2,4 km um den Park.",
+        "it": "Giro in treno del 1960 per circa 2,4 km intorno al parco.",
+        "nl": "Treinrit uit 1960 over ongeveer 2,4 km rond het park.",
+        "pt": "Passeio de comboio de 1960 com cerca de 2,4 km à volta do parque.",
+        "ru": "Поездка на поезде 1960 года примерно на 2,4 км вокруг парка.",
+        "zh": "1960年的火车之旅，环绕乐园约2.4公里。",
+        "ar": "رحلة بالقطار من عام 1960 تمتد نحو 2.4 كم حول المتنزه."
+      }
+    }
+  },
+  "food": {
+    "food_alamo": {
+      "desc": {
+        "en": "Full-service Texas-themed restaurant open since 1926, named best theme park restaurant in 2026.",
+        "es": "Restaurante de servicio completo de temática texana, abierto desde 1926 y elegido mejor restaurante de parque temático en 2026.",
+        "fr": "Restaurant avec service à table à thème texan, ouvert depuis 1926 et élu meilleur restaurant de parc à thème en 2026.",
+        "de": "Restaurant mit Tischservice im Texas-Stil, seit 1926 geöffnet und 2026 zum besten Freizeitpark-Restaurant gewählt.",
+        "it": "Ristorante con servizio al tavolo a tema texano, aperto dal 1926 ed eletto miglior ristorante di un parco a tema nel 2026.",
+        "nl": "Restaurant met bediening en Texaans thema, open sinds 1926 en in 2026 uitgeroepen tot beste themapark-restaurant.",
+        "pt": "Restaurante com serviço de mesa de temática texana, aberto desde 1926 e eleito o melhor restaurante de parque temático em 2026.",
+        "ru": "Ресторан с обслуживанием за столом в техасском стиле, работает с 1926 года, в 2026 году признан лучшим рестораном тематического парка.",
+        "zh": "得州主题的堂食餐厅，自1926年营业，2026年被评为最佳主题乐园餐厅。",
+        "ar": "مطعم بخدمة كاملة بطابع تكساس مفتوح منذ 1926 واختير أفضل مطعم متنزه ترفيهي عام 2026."
+      }
+    },
+    "food_phoenix_junction": {
+      "desc": {
+        "en": "Counter-service spot with handcrafted burgers, sandwiches and steak and ale soup.",
+        "es": "Local de autoservicio con hamburguesas artesanales, sándwiches y sopa de carne y cerveza.",
+        "fr": "Point de restauration au comptoir avec burgers maison, sandwichs et soupe au bœuf et à la bière.",
+        "de": "Counter-Service mit handgemachten Burgern, Sandwiches und Steak-and-Ale-Suppe.",
+        "it": "Punto ristoro al banco con hamburger artigianali, panini e zuppa di manzo e birra.",
+        "nl": "Counter-service met ambachtelijke burgers, broodjes en steak-and-ale-soep.",
+        "pt": "Ponto de serviço ao balcão com hambúrgueres artesanais, sanduíches e sopa de carne e cerveja.",
+        "ru": "Закусочная с самообслуживанием: бургеры ручной работы, сэндвичи и суп со стейком и элем.",
+        "zh": "柜台点餐餐厅，供应手工汉堡、三明治和牛排艾尔浓汤。",
+        "ar": "مطعم خدمة سريعة عند الطاولة يقدم البرغر المصنوع يدوياً والساندويشات وشوربة الستيك والبيرة."
+      }
+    },
+    "food_international_food_court": {
+      "desc": {
+        "en": "Food court with international dishes, plus breakfast daily from 8am to 2pm.",
+        "es": "Zona de comidas con platos internacionales y desayunos todos los días de 8:00 a 14:00.",
+        "fr": "Food court de plats internationaux, avec petit-déjeuner tous les jours de 8 h à 14 h.",
+        "de": "Food Court mit internationalen Gerichten und Frühstück täglich von 8 bis 14 Uhr.",
+        "it": "Food court con piatti internazionali e colazione ogni giorno dalle 8:00 alle 14:00.",
+        "nl": "Foodcourt met internationale gerechten en dagelijks ontbijt van 8:00 tot 14:00.",
+        "pt": "Praça de alimentação com pratos internacionais e pequeno-almoço todos os dias das 8:00 às 14:00.",
+        "ru": "Фудкорт с блюдами мировой кухни, завтраки ежедневно с 8:00 до 14:00.",
+        "zh": "提供各国料理的美食广场，每天8:00至14:00供应早餐。",
+        "ar": "ساحة طعام بأطباق عالمية مع وجبة إفطار يومياً من 8 صباحاً حتى 2 ظهراً."
+      }
+    },
+    "food_potato_barn": {
+      "desc": {
+        "en": "Snack stand with loaded baked potatoes, sweet potatoes and pulled pork sandwiches.",
+        "es": "Puesto de comida rápida con patatas asadas rellenas, boniatos y sándwiches de cerdo desmenuzado.",
+        "fr": "Stand de snacks avec pommes de terre au four garnies, patates douces et sandwichs au porc effiloché.",
+        "de": "Imbissstand mit gefüllten Ofenkartoffeln, Süßkartoffeln und Pulled-Pork-Sandwiches.",
+        "it": "Chiosco di snack con patate al forno farcite, patate dolci e panini con pulled pork.",
+        "nl": "Snackkraam met gevulde ovenaardappelen, zoete aardappelen en pulled-porkbroodjes.",
+        "pt": "Banca de snacks com batatas assadas recheadas, batatas-doces e sanduíches de porco desfiado.",
+        "ru": "Киоск с запечённым картофелем с начинками, бататом и сэндвичами с рваной свининой.",
+        "zh": "小吃摊，供应各式烤土豆、烤红薯和手撕猪肉三明治。",
+        "ar": "كشك وجبات خفيفة يقدم البطاطا المشوية المحشوة والبطاطا الحلوة وساندويشات لحم الخنزير المسحوب."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_knoebels_campground": {
+      "desc": {
+        "en": "Campground with campsites, log cabins and deluxe cabins, steps from the park.",
+        "es": "Camping con parcelas, cabañas de troncos y cabañas de lujo, a pocos pasos del parque.",
+        "fr": "Camping avec emplacements, chalets en rondins et chalets de luxe, à deux pas du parc.",
+        "de": "Campingplatz mit Stellplätzen, Blockhütten und Deluxe-Hütten, nur wenige Schritte vom Park.",
+        "it": "Campeggio con piazzole, cabine di tronchi e cabine deluxe, a pochi passi dal parco.",
+        "nl": "Camping met kampeerplekken, blokhutten en luxe hutten, op steenworp afstand van het park.",
+        "pt": "Parque de campismo com parcelas, cabanas de troncos e cabanas de luxo, a poucos passos do parque.",
+        "ru": "Кемпинг с участками, бревенчатыми и комфортабельными домиками в нескольких шагах от парка.",
+        "zh": "露营地提供营位、原木小屋和豪华小屋，步行即可到达乐园。",
+        "ar": "مخيم يضم مواقع تخييم وأكواخاً خشبية وأكواخاً فاخرة على بعد خطوات من المتنزه."
+      }
+    },
+    "hotel_knoebels_cottages": {
+      "desc": {
+        "en": "Quaint country cottages close to all the rides.",
+        "es": "Pintorescos cottages rurales cerca de todas las atracciones.",
+        "fr": "Cottages de campagne pittoresques proches de toutes les attractions.",
+        "de": "Urige Landhäuser nahe allen Fahrgeschäften.",
+        "it": "Graziosi cottage di campagna vicini a tutte le attrazioni.",
+        "nl": "Charmante landelijke cottages vlak bij alle attracties.",
+        "pt": "Cottages rurais pitorescos perto de todas as atrações.",
+        "ru": "Уютные загородные коттеджи рядом со всеми аттракционами.",
+        "zh": "古朴的乡村小屋，紧邻所有游乐设施。",
+        "ar": "كوتيجات ريفية جميلة قريبة من جميع الألعاب."
+      }
+    },
+    "hotel_latorre_house_bb": {
+      "desc": {
+        "en": "Bed and breakfast in Elysburg less than a mile from the park.",
+        "es": "Bed and breakfast en Elysburg a menos de 1,6 km del parque.",
+        "fr": "Chambre d'hôtes à Elysburg à moins de 1,6 km du parc.",
+        "de": "Bed & Breakfast in Elysburg, weniger als 1,6 km vom Park entfernt.",
+        "it": "Bed and breakfast a Elysburg a meno di 1,6 km dal parco.",
+        "nl": "Bed and breakfast in Elysburg, op minder dan 1,6 km van het park.",
+        "pt": "Bed and breakfast em Elysburg a menos de 1,6 km do parque.",
+        "ru": "Мини-отель типа «постель и завтрак» в Элисберге менее чем в 1,6 км от парка.",
+        "zh": "位于Elysburg的民宿，距乐园不到1.6公里。",
+        "ar": "نزل مبيت وإفطار في إلسبورغ على بعد أقل من 1.6 كم من المتنزه."
+      }
+    },
+    "hotel_holiday_inn_express_bloomsburg": {
+      "desc": {
+        "en": "Chain hotel in Bloomsburg about 9.5 miles from the park.",
+        "es": "Hotel de cadena en Bloomsburg a unos 15 km del parque.",
+        "fr": "Hôtel de chaîne à Bloomsburg, à environ 15 km du parc.",
+        "de": "Kettenhotel in Bloomsburg, etwa 15 km vom Park entfernt.",
+        "it": "Hotel di catena a Bloomsburg, a circa 15 km dal parco.",
+        "nl": "Ketenhotel in Bloomsburg, ongeveer 15 km van het park.",
+        "pt": "Hotel de cadeia em Bloomsburg, a cerca de 15 km do parque.",
+        "ru": "Сетевой отель в Блумсберге примерно в 15 км от парка.",
+        "zh": "位于Bloomsburg的连锁酒店，距乐园约15公里。",
+        "ar": "فندق من سلسلة فنادق في بلومسبورغ على بعد نحو 15 كم من المتنزه."
+      }
+    },
+    "hotel_pine_barn_inn": {
+      "desc": {
+        "en": "99-room inn in Danville about 8 miles from the park.",
+        "es": "Posada de 99 habitaciones en Danville a unos 13 km del parque.",
+        "fr": "Auberge de 99 chambres à Danville, à environ 13 km du parc.",
+        "de": "Gasthaus mit 99 Zimmern in Danville, etwa 13 km vom Park entfernt.",
+        "it": "Locanda con 99 camere a Danville, a circa 13 km dal parco.",
+        "nl": "Herberg met 99 kamers in Danville, ongeveer 13 km van het park.",
+        "pt": "Estalagem com 99 quartos em Danville, a cerca de 13 km do parque.",
+        "ru": "Гостиница на 99 номеров в Дэнвилле примерно в 13 км от парка.",
+        "zh": "位于Danville的99间客房旅馆，距乐园约13公里。",
+        "ar": "نزل بـ99 غرفة في دانفيل على بعد نحو 13 كم من المتنزه."
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "food_bucks_cafe",
+    "name": "Buck's Café",
+    "description": "The park's largest restaurant, in the Ice Age zone, serving both Western and Asian dishes. According to the resort, all outlets in the park are pork-free. Prices here are estimates.",
+    "topPick": true,
+    "type": "Restaurant",
+    "image": "assets/images/genting_skyworlds/food_bucks_cafe.png",
+    "lat": 3.4218,
+    "lng": 101.7948,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Western Main Dish",
+        "description": "Western-style main meal with sides",
+        "price": 32
+      },
+      {
+        "name": "Asian Main Dish",
+        "description": "Asian-style rice or noodle dish",
+        "price": 28
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 7
+      }
+    ]
+  },
+  {
+    "id": "food_peaches_cocoa_concoctions",
+    "name": "Peaches' Cocoa Concoctions",
+    "description": "A café in the Ice Age zone serving hot chocolate, coffee and churros. A warm, sweet stop in the cool mountain air. Prices here are estimates.",
+    "topPick": false,
+    "type": "Cafe",
+    "image": "assets/images/genting_skyworlds/food_peaches_cocoa_concoctions.png",
+    "lat": 3.4219,
+    "lng": 101.7951,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Hot Chocolate",
+        "description": "Rich hot chocolate",
+        "price": 14
+      },
+      {
+        "name": "Coffee",
+        "description": "Freshly made coffee",
+        "price": 11
+      },
+      {
+        "name": "Churros",
+        "description": "Fried dough with sugar",
+        "price": 13
+      }
+    ]
+  },
+  {
+    "id": "food_golden_gate_garage",
+    "name": "Golden Gate Garage",
+    "description": "A hot dog stand in the Liberty Lane zone serving The Fuel Injector, an extra-long hot dog, alongside regular hot dogs. Prices here are estimates.",
+    "topPick": false,
+    "type": "Hot Dogs",
+    "image": "assets/images/genting_skyworlds/food_golden_gate_garage.png",
+    "lat": 3.4214,
+    "lng": 101.7953,
+    "rating": 4,
+    "items": [
+      {
+        "name": "The Fuel Injector",
+        "description": "Extra-long hot dog",
+        "price": 20
+      },
+      {
+        "name": "Hot Dog",
+        "description": "Regular hot dog",
+        "price": 14
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 7
+      }
+    ]
+  },
+  {
+    "id": "food_orbits_fried_dough",
+    "name": "Orbits Fried Dough",
+    "description": "A snack stand in the Central Park zone selling fresh churros in flavours such as Rainbow Colour, Churros Hot Dog and Churros Donut. Prices here are estimates.",
+    "topPick": false,
+    "type": "Snacks",
+    "image": "assets/images/genting_skyworlds/food_orbits_fried_dough.png",
+    "lat": 3.4225,
+    "lng": 101.7961,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Rainbow Churros",
+        "description": "Colourful churros",
+        "price": 14
+      },
+      {
+        "name": "Churros Hot Dog",
+        "description": "Hot dog wrapped in churros dough",
+        "price": 16
+      },
+      {
+        "name": "Churros Donut",
+        "description": "Churros-style donut",
+        "price": 13
+      }
+    ]
+  }
+]

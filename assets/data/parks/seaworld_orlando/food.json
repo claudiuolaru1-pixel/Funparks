@@ -1,0 +1,114 @@
+[
+  {
+    "id": "food_sharks_underwater_grill",
+    "name": "Sharks Underwater Grill and Bar",
+    "description": "An upscale sit-down restaurant with a floor-to-ceiling shark aquarium view. The menu includes filet mignon, cold-water lobster bisque and miso-roasted Atlantic salmon. Priority seating is recommended. Park admission is required and prices here are estimates.",
+    "topPick": true,
+    "type": "Restaurant",
+    "image": "assets/images/seaworld_orlando/food_sharks_underwater_grill.png",
+    "lat": 28.411,
+    "lng": -81.462,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Filet Mignon",
+        "description": "Grilled filet mignon",
+        "price": 48
+      },
+      {
+        "name": "Cold Water Lobster Bisque",
+        "description": "Creamy lobster soup",
+        "price": 14
+      },
+      {
+        "name": "Miso Roasted Atlantic Salmon",
+        "description": "Roasted salmon with miso glaze",
+        "price": 36
+      }
+    ]
+  },
+  {
+    "id": "food_voyagers_smokehouse",
+    "name": "Voyager's Smokehouse",
+    "description": "A hickory-smoked American barbecue place across from the Seaport Theater, with mobile ordering. It serves Texas-style brisket, a smoked rib and chicken sampler and a pulled pork sandwich. Prices here are estimates.",
+    "topPick": false,
+    "type": "BBQ",
+    "image": "assets/images/seaworld_orlando/food_voyagers_smokehouse.png",
+    "lat": 28.4108,
+    "lng": -81.4635,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Texas Style Brisket",
+        "description": "Hickory-smoked brisket",
+        "price": 18
+      },
+      {
+        "name": "Smoked Rib & Chicken Sampler",
+        "description": "Ribs and chicken sampler",
+        "price": 20
+      },
+      {
+        "name": "Smoked BBQ Pulled Pork Sandwich",
+        "description": "Pulled pork sandwich",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "food_altitude_burgers",
+    "name": "Altitude Burgers",
+    "description": "A burger spot serving handmade smash burgers and grilled chicken, such as the Bacon Bleu Burger, the Rodeo Burger and a crispy Thai chili chicken sandwich. A plant-based burger is also available. Prices here are estimates.",
+    "topPick": false,
+    "type": "Burgers",
+    "image": "assets/images/seaworld_orlando/food_altitude_burgers.png",
+    "lat": 28.4128,
+    "lng": -81.464,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Bacon Bleu Burger",
+        "description": "Smash burger with bacon and blue cheese",
+        "price": 16
+      },
+      {
+        "name": "Rodeo Burger",
+        "description": "Smash burger with barbecue-style toppings",
+        "price": 16
+      },
+      {
+        "name": "Crispy Thai Chili Chicken Sandwich",
+        "description": "Crispy chicken sandwich",
+        "price": 15
+      }
+    ]
+  },
+  {
+    "id": "food_waterway_grill",
+    "name": "Waterway Grill",
+    "description": "A restaurant with American food and Amazon-region flavors, plus a Waterway Bar with craft beer and indoor seating. Dishes include grilled churrasco steak, sofrito chicken and slow-roasted pork, and mobile ordering is available. Prices here are estimates.",
+    "topPick": false,
+    "type": "Restaurant",
+    "image": "assets/images/seaworld_orlando/food_waterway_grill.png",
+    "lat": 28.4102,
+    "lng": -81.4605,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Grilled Churrasco Steak",
+        "description": "Grilled steak with Amazon-region flavors",
+        "price": 22
+      },
+      {
+        "name": "Sofrito Chicken",
+        "description": "Chicken with sofrito sauce",
+        "price": 18
+      },
+      {
+        "name": "Slow Roasted Pork",
+        "description": "Slow-roasted pork",
+        "price": 18
+      }
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "food_bambora_burger_bar",
+    "name": "Bombora Burger Bar",
+    "description": "The park's burger bar, serving beef and vegetarian burgers, fried chicken and hot chips. A quick, filling stop between slides, popular with families and groups who want a proper meal without leaving the water park.",
+    "topPick": true,
+    "type": "Burgers and Fast Food",
+    "image": "assets/images/wet_n_wild_gold_coast/food_bambora_burger_bar.png",
+    "lat": -27.9105,
+    "lng": 153.3136,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Classic Beef Burger",
+        "description": "Beef patty with cheese, lettuce, tomato and sauce",
+        "price": 14
+      },
+      {
+        "name": "Veggie Burger",
+        "description": "Plant-based burger with salad and sauce",
+        "price": 14
+      },
+      {
+        "name": "Fried Chicken Pieces",
+        "description": "Crispy fried chicken served hot",
+        "price": 13
+      },
+      {
+        "name": "Hot Chips",
+        "description": "Large serve of crunchy chips",
+        "price": 7
+      }
+    ]
+  },
+  {
+    "id": "food_the_pizza_shack",
+    "name": "Pizza Shack",
+    "description": "A casual pizza stop with a choice of pizzas to share, ideal for families and groups. Pick up a hot slice or a whole pizza and refuel before heading back to the slides.",
+    "topPick": false,
+    "type": "Pizza Casual",
+    "image": "assets/images/wet_n_wild_gold_coast/food_the_pizza_shack.png",
+    "lat": -27.9107,
+    "lng": 153.314,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Margherita Pizza",
+        "description": "Tomato, mozzarella and basil",
+        "price": 20
+      },
+      {
+        "name": "Pepperoni Pizza",
+        "description": "Tomato, mozzarella and pepperoni",
+        "price": 22
+      },
+      {
+        "name": "Cheese Pizza Slice",
+        "description": "Single slice of cheese pizza",
+        "price": 8
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 5
+      }
+    ]
+  },
+  {
+    "id": "food_village_bean",
+    "name": "Village Bean Coffee House",
+    "description": "The park's coffee house, serving coffee, drinks, sandwiches and cakes. A good place for parents to sit down with a hot drink and something sweet while the family enjoys the water.",
+    "topPick": false,
+    "type": "Cafe and Coffee",
+    "image": "assets/images/wet_n_wild_gold_coast/food_village_bean.png",
+    "lat": -27.9103,
+    "lng": 153.3132,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Flat White",
+        "description": "Espresso coffee with silky steamed milk",
+        "price": 5
+      },
+      {
+        "name": "Iced Coffee",
+        "description": "Chilled coffee with milk and ice",
+        "price": 7
+      },
+      {
+        "name": "Toasted Sandwich",
+        "description": "Hot toasted sandwich with a savoury filling",
+        "price": 10
+      },
+      {
+        "name": "Slice of Cake",
+        "description": "Sweet cake slice to go with your coffee",
+        "price": 7
+      }
+    ]
+  }
+]

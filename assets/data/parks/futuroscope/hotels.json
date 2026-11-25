@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hotel_station_cosmos",
+    "name": "Station Cosmos",
+    "description": "Station Cosmos is the park's own 4-star hotel with 76 rooms, a couple of minutes' walk from the entrance. Rates shown are rough estimates derived from ticket-plus-hotel packages.",
+    "image": "assets/images/futuroscope/hotel_station_cosmos.png",
+    "lat": 46.66,
+    "lng": 0.3668,
+    "rating": 4.5,
+    "topPick": true,
+    "website": "https://www.futuroscope.com/en/xperiences/hotels/hotel-station-cosmos",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Room at the park's entrance.",
+        "pricePerNight": 275,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with space for families.",
+        "pricePerNight": 330,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_ecolodgee_futuroscope",
+    "name": "Ecolodgee",
+    "description": "Ecolodgee is a park hotel made up of lodges, a short walk from the main entrance. Rates shown are rough estimates.",
+    "image": "assets/images/futuroscope/hotel_ecolodgee_futuroscope.png",
+    "lat": 46.6606,
+    "lng": 0.3678,
+    "rating": 4.3,
+    "topPick": false,
+    "website": "https://www.futuroscope.com/en/xperiences/hotels/hotel-ecolodgee",
+    "rooms": [
+      {
+        "key": "lodge",
+        "name": "Lodge",
+        "description": "Lodge-style room.",
+        "pricePerNight": 205,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_lodge",
+        "name": "Family Lodge",
+        "description": "Lodge with space for families.",
+        "pricePerNight": 250,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_du_futuroscope",
+    "name": "Hôtel du Futuroscope",
+    "description": "Hôtel du Futuroscope is the park's 1-star hotel, with a guest-only footbridge directly into the park. Rates shown are rough estimates.",
+    "image": "assets/images/futuroscope/hotel_du_futuroscope.png",
+    "lat": 46.659,
+    "lng": 0.368,
+    "rating": 3.9,
+    "topPick": false,
+    "website": "https://www.futuroscope.com/en/xperiences/hotels/hotel-du-futuroscope",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Simple room with direct access to the park.",
+        "pricePerNight": 125,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families.",
+        "pricePerNight": 150,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_kyriad_jules_verne",
+    "name": "Kyriad Jules Verne",
+    "description": "Hôtel Kyriad Poitiers - Jules Verne is a 3-star partner hotel about 10 minutes' walk from the park, on Avenue Jean Monnet. Rates shown are rough estimates.",
+    "image": "assets/images/futuroscope/hotel_kyriad_jules_verne.png",
+    "lat": 46.6642,
+    "lng": 0.3693,
+    "rating": 4,
+    "topPick": false,
+    "website": "https://www.futuroscope.com/en/xperiences/hotels/hotel-kyriad",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Standard double room.",
+        "pricePerNight": 135,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families.",
+        "pricePerNight": 165,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_plaza_futuroscope",
+    "name": "Hôtel Plaza",
+    "description": "Hôtel Plaza - Site du Futuroscope is a 4-star partner hotel under 10 minutes' walk from the park. Rates found online range from about €130 to €240 a night, so treat prices as rough estimates.",
+    "image": "assets/images/futuroscope/hotel_plaza_futuroscope.png",
+    "lat": 46.6702,
+    "lng": 0.3664,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.futuroscope.com/en/xperiences/hotels/hotel-plaza",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Standard double room.",
+        "pricePerNight": 160,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Larger room or suite.",
+        "pricePerNight": 240,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

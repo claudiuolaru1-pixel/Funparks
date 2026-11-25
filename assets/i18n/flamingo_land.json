@@ -1,0 +1,406 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Flamingo Land is a theme park, zoo and holiday resort at Kirby Misperton in North Yorkshire, England. It began in 1959 as a zoo and has grown into one of the north of England's best-known family parks, with around 895,000 visitors in 2021 (the latest figure found). Thrill rides such as the 10-inversion coaster Sik, the suspended looping coaster Kumali and the motorbike-launched Velocity share the site with family rides, water rides and a zoo. The resort has lodges, holiday homes and campsites but no hotel of its own.",
+      "es": "Flamingo Land es un parque temático, zoo y resort vacacional en Kirby Misperton, en North Yorkshire, Inglaterra. Nació en 1959 como zoo y se ha convertido en uno de los parques familiares más conocidos del norte de Inglaterra, con unos 895.000 visitantes en 2021 (la cifra más reciente encontrada). Atracciones de emociones fuertes como la montaña rusa de 10 inversiones Sik, la montaña rusa suspendida con loopings Kumali y Velocity, lanzada como una moto, comparten espacio con atracciones familiares, acuáticas y un zoo. El resort ofrece cabañas, casas vacacionales y zonas de camping, pero no tiene hotel propio.",
+      "fr": "Flamingo Land est un parc à thème, zoo et complexe de vacances à Kirby Misperton, dans le North Yorkshire, en Angleterre. Né en 1959 comme zoo, il est devenu l'un des parcs familiaux les plus connus du nord de l'Angleterre, avec environ 895 000 visiteurs en 2021 (le dernier chiffre trouvé). Des attractions à sensations comme le grand huit à 10 inversions Sik, le coaster suspendu à loopings Kumali et Velocity, lancé comme une moto, côtoient des attractions familiales, aquatiques et un zoo. Le complexe propose des lodges, des maisons de vacances et des campings, mais pas d'hôtel.",
+      "de": "Flamingo Land ist ein Freizeitpark mit Zoo und Ferienresort in Kirby Misperton in North Yorkshire, England. Er begann 1959 als Zoo und ist heute einer der bekanntesten Familienparks Nordenglands, mit rund 895.000 Besuchern im Jahr 2021 (die jüngste gefundene Zahl). Thrill-Attraktionen wie die Achterbahn Sik mit 10 Inversionen, die Hängeachterbahn Kumali mit Loopings und das wie ein Motorrad gestartete Velocity teilen sich das Gelände mit Familienattraktionen, Wasserfahrten und einem Zoo. Das Resort bietet Lodges, Ferienhäuser und Campingplätze, aber kein eigenes Hotel.",
+      "it": "Flamingo Land è un parco a tema con zoo e resort per vacanze a Kirby Misperton, nel North Yorkshire, in Inghilterra. Nato nel 1959 come zoo, è diventato uno dei parchi per famiglie più noti del nord dell'Inghilterra, con circa 895.000 visitatori nel 2021 (l'ultimo dato trovato). Attrazioni adrenaliniche come la montagna russa a 10 inversioni Sik, la montagna russa sospesa con loop Kumali e Velocity, lanciata come una moto, convivono con attrazioni per famiglie, acquatiche e uno zoo. Il resort offre lodge, case vacanza e campeggi, ma non ha un hotel proprio.",
+      "nl": "Flamingo Land is een attractiepark met dierentuin en vakantieresort in Kirby Misperton in North Yorkshire, Engeland. Het begon in 1959 als dierentuin en is uitgegroeid tot een van de bekendste familieparken van Noord-Engeland, met zo'n 895.000 bezoekers in 2021 (het meest recente cijfer dat is gevonden). Thrillrides zoals de achtbaan Sik met 10 inversies, de hangende looping-achtbaan Kumali en het als een motor gelanceerde Velocity delen het terrein met gezinsattracties, waterattracties en een dierentuin. Het resort heeft lodges, vakantiehuizen en campings, maar geen eigen hotel.",
+      "pt": "O Flamingo Land é um parque temático com zoo e resort de férias em Kirby Misperton, em North Yorkshire, Inglaterra. Nasceu em 1959 como zoo e tornou-se um dos parques familiares mais conhecidos do norte de Inglaterra, com cerca de 895.000 visitantes em 2021 (o número mais recente encontrado). Atrações de emoção forte como a montanha-russa de 10 inversões Sik, a montanha-russa suspensa com loopings Kumali e a Velocity, lançada como uma mota, partilham o espaço com atrações familiares, aquáticas e um zoo. O resort tem lodges, casas de férias e parques de campismo, mas não tem hotel próprio.",
+      "ru": "Flamingo Land — тематический парк с зоопарком и курортом в Кирби-Мисперton в Северном Йоркшире, Англия. Он начал работу в 1959 году как зоопарк и вырос в один из самых известных семейных парков севера Англии: в 2021 году его посетили около 895 000 человек (последняя найденная цифра). Острые аттракционы — горки Sik с 10 инверсиями, подвесные горки с петлями Kumali и Velocity с мотоциклетным стартом — соседствуют с семейными и водными аттракционами и зоопарком. На курорте есть лоджи, дома для отдыха и кемпинги, но собственного отеля нет.",
+      "zh": "Flamingo Land是位于英格兰北约克郡Kirby Misperton的主题乐园，集动物园和度假村于一体。它始于1959年的一座动物园，如今已成为英格兰北部最知名的家庭乐园之一，2021年约有89.5万名游客（找到的最新数据）。10次翻转的过山车Sik、带环悬挂式过山车Kumali和摩托车式弹射的Velocity等刺激项目，与家庭项目、水上项目和动物园共处一园。度假村提供木屋、度假屋和露营地，但没有自己的酒店。",
+      "ar": "فلامنغو لاند منتجع يضم متنزهاً ترفيهياً وحديقة حيوان وقرية عطلات في كيربي ميسبرتون بمقاطعة نورث يوركشاير في إنجلترا. بدأ عام 1959 كحديقة حيوان وأصبح من أشهر المتنزهات العائلية في شمال إنجلترا، بنحو 895 ألف زائر عام 2021 (آخر رقم عُثر عليه). وتتشارك ألعاب الإثارة مثل قطار Sik بعشر انقلابات وقطار Kumali المعلّق بالحلقات وقطار Velocity المنطلق كالدراجة النارية المكان مع ألعاب عائلية ومائية وحديقة حيوان. ويضم المنتجع أكواخاً ومنازل عطلات ومخيمات لكنه بلا فندق خاص به."
+    },
+    "ov_highlights_body": {
+      "en": "Sik is the headline coaster: 33 m high, 87 km/h and 10 inversions. Kumali is a suspended looping coaster with four inversions at 90 km/h, and Velocity launches riders on motorbike-style cars to 87 km/h. Cliff Hanger drops from about 55 m, Pterodactyl swings to 46 m, and Mumbo Jumbo and Hero add more coasters. Families will enjoy Lost River Ride, Splash Battle, Mischief Mansion and the junior coasters Twistosaurus, Zooom and Runaway Train. For food, Metropolis Bar & Grill serves Tex-Mex and burgers, and The Coach House is a country pub with Sunday roasts.",
+      "es": "Sik es la montaña rusa estrella: 33 m de altura, 87 km/h y 10 inversiones. Kumali es una montaña rusa suspendida con cuatro inversiones a 90 km/h, y Velocity lanza a los pasajeros en vagonetas con forma de moto hasta 87 km/h. Cliff Hanger cae desde unos 55 m, Pterodactyl se balancea a 46 m, y Mumbo Jumbo y Hero suman más montañas rusas. A las familias les gustarán Lost River Ride, Splash Battle, Mischief Mansion y las montañas rusas infantiles Twistosaurus, Zooom y Runaway Train. Para comer, Metropolis Bar & Grill ofrece tex-mex y hamburguesas, y The Coach House es un pub rural con asados de domingo.",
+      "fr": "Sik est le grand huit phare : 33 m de haut, 87 km/h et 10 inversions. Kumali est un coaster suspendu à quatre inversions à 90 km/h, et Velocity propulse les passagers dans des véhicules en forme de moto jusqu'à 87 km/h. Cliff Hanger chute d'environ 55 m, Pterodactyl se balance à 46 m, et Mumbo Jumbo et Hero complètent l'offre de coasters. Les familles apprécieront Lost River Ride, Splash Battle, Mischief Mansion et les coasters juniors Twistosaurus, Zooom et Runaway Train. Côté table, Metropolis Bar & Grill sert du tex-mex et des burgers, et The Coach House est un pub de campagne avec rôtis du dimanche.",
+      "de": "Sik ist die Top-Achterbahn: 33 m hoch, 87 km/h und 10 Inversionen. Kumali ist eine Hängeachterbahn mit vier Inversionen bei 90 km/h, und Velocity startet in motorradähnlichen Wagen auf 87 km/h. Cliff Hanger fällt aus rund 55 m, Pterodactyl schwingt auf 46 m, und Mumbo Jumbo und Hero ergänzen das Achterbahn-Angebot. Familien freuen sich auf Lost River Ride, Splash Battle, Mischief Mansion und die Kinderachterbahnen Twistosaurus, Zooom und Runaway Train. Zum Essen gibt es im Metropolis Bar & Grill Tex-Mex und Burger, und The Coach House ist ein Landpub mit Sonntagsbraten.",
+      "it": "Sik è la montagna russa di punta: 33 m di altezza, 87 km/h e 10 inversioni. Kumali è una montagna russa sospesa con quattro inversioni a 90 km/h, e Velocity lancia i passeggeri su vagoni a forma di moto fino a 87 km/h. Cliff Hanger scende da circa 55 m, Pterodactyl oscilla a 46 m, e Mumbo Jumbo e Hero aggiungono altre montagne russe. Le famiglie apprezzeranno Lost River Ride, Splash Battle, Mischief Mansion e le montagne russe per i più piccoli Twistosaurus, Zooom e Runaway Train. Per mangiare, il Metropolis Bar & Grill serve tex-mex e hamburger, e The Coach House è un pub di campagna con arrosti della domenica.",
+      "nl": "Sik is de blikvanger onder de achtbanen: 33 m hoog, 87 km/u en 10 inversies. Kumali is een hangende achtbaan met vier inversies op 90 km/u, en Velocity lanceert passagiers in motorachtige wagens naar 87 km/u. Cliff Hanger valt van ongeveer 55 m, Pterodactyl zwaait tot 46 m, en Mumbo Jumbo en Hero voegen meer achtbanen toe. Gezinnen genieten van Lost River Ride, Splash Battle, Mischief Mansion en de kinderachtbanen Twistosaurus, Zooom en Runaway Train. Bij het eten serveert Metropolis Bar & Grill tex-mex en burgers, en The Coach House is een landelijke pub met zondagse braadstukken.",
+      "pt": "A Sik é a montanha-russa principal: 33 m de altura, 87 km/h e 10 inversões. A Kumali é uma montanha-russa suspensa com quatro inversões a 90 km/h, e a Velocity lança os passageiros em carros em forma de mota até 87 km/h. A Cliff Hanger cai de cerca de 55 m, a Pterodactyl balança a 46 m, e a Mumbo Jumbo e a Hero acrescentam mais montanhas-russas. As famílias vão gostar da Lost River Ride, da Splash Battle, da Mischief Mansion e das montanhas-russas infantis Twistosaurus, Zooom e Runaway Train. Para comer, o Metropolis Bar & Grill serve tex-mex e hambúrgueres, e o The Coach House é um pub rural com assados de domingo.",
+      "ru": "Sik — главные горки парка: высота 33 м, скорость 87 км/ч и 10 инверсий. Kumali — подвесные горки с четырьмя инверсиями и скоростью 90 км/ч, а Velocity разгоняет пассажиров в вагончиках-мотоциклах до 87 км/ч. Cliff Hanger падает примерно с 55 м, Pterodactyl раскачивается на высоте 46 м, а Mumbo Jumbo и Hero дополняют коллекцию горок. Семьям понравятся Lost River Ride, Splash Battle, Mischief Mansion и детские горки Twistosaurus, Zooom и Runaway Train. Из еды: Metropolis Bar & Grill предлагает тексмекс и бургеры, а The Coach House — деревенский паб с воскресными жаркими.",
+      "zh": "Sik是乐园的明星过山车：高33米，时速87公里，共有10次翻转。Kumali是时速90公里、带四次翻转的悬挂式环形过山车，Velocity让乘客坐在摩托车造型车厢里弹射至时速87公里。Cliff Hanger从约55米高处下落，Pterodactyl摆荡至46米，Mumbo Jumbo和Hero则增添了更多过山车。家庭游客会喜欢Lost River Ride、Splash Battle、Mischief Mansion以及儿童过山车Twistosaurus、Zooom和Runaway Train。餐饮方面，Metropolis Bar & Grill供应墨西哥风味菜肴和汉堡，The Coach House是提供周日烤肉的乡村酒馆。",
+      "ar": "Sik هي قطار الجبال الروسية الأبرز: ارتفاع 33 م وسرعة 87 كم/س و10 انقلابات. Kumali قطار معلّق بحلقات وأربع انقلابات بسرعة 90 كم/س، وتنطلق Velocity بعربات على شكل دراجة نارية حتى 87 كم/س. تسقط Cliff Hanger من نحو 55 م، وتتأرجح Pterodactyl حتى 46 م، وتضيف Mumbo Jumbo وHero المزيد من القطارات. وستستمتع العائلات بـLost River Ride وSplash Battle وMischief Mansion وقطارات الأطفال Twistosaurus وZooom وRunaway Train. وللطعام يقدم Metropolis Bar & Grill أطباقاً مكسيكية وبرغر، وThe Coach House حانة ريفية بأطباق شواء يوم الأحد."
+    },
+    "ov_did_you_know_body": {
+      "en": "Flamingo Land opened in 1959 as a zoo, long before its first thrill rides arrived. Sik, which opened on 2 July 2022, has 10 inversions, and Kumali opened on 1 April 2006 as a suspended looping coaster over 35 m high. Velocity was launched in 2005 with cars styled like motorbikes. The park's official site lists a Mischief Mansion ghost train, and in winter some days are zoo-only, with admission at £18.",
+      "es": "Flamingo Land abrió en 1959 como zoo, mucho antes de que llegaran sus primeras atracciones de emociones fuertes. Sik, inaugurada el 2 de julio de 2022, tiene 10 inversiones, y Kumali abrió el 1 de abril de 2006 como montaña rusa suspendida con loopings de más de 35 m de altura. Velocity se estrenó en 2005 con vagonetas de estilo moto. En invierno algunos días son solo de zoo, con una entrada de 18 £.",
+      "fr": "Flamingo Land a ouvert en 1959 comme zoo, bien avant l'arrivée de ses premières attractions à sensations. Sik, inaugurée le 2 juillet 2022, compte 10 inversions, et Kumali a ouvert le 1er avril 2006 comme coaster suspendu à loopings de plus de 35 m de haut. Velocity a été lancée en 2005 avec des véhicules en forme de moto. En hiver, certains jours sont réservés au zoo, avec une entrée à 18 £.",
+      "de": "Flamingo Land wurde 1959 als Zoo eröffnet, lange bevor die ersten Thrill-Attraktionen kamen. Sik, am 2. Juli 2022 eröffnet, hat 10 Inversionen, und Kumali eröffnete am 1. April 2006 als Hängeachterbahn mit Loopings und über 35 m Höhe. Velocity startete 2005 mit Wagen im Motorrad-Stil. Im Winter sind einige Tage nur für den Zoo geöffnet, der Eintritt kostet dann 18 £.",
+      "it": "Flamingo Land ha aperto nel 1959 come zoo, molto prima dell'arrivo delle prime attrazioni adrenaliniche. Sik, inaugurata il 2 luglio 2022, ha 10 inversioni, e Kumali ha aperto il 1° aprile 2006 come montagna russa sospesa con loop alta oltre 35 m. Velocity è stata lanciata nel 2005 con vagoni in stile moto. In inverno alcuni giorni sono riservati solo allo zoo, con ingresso a 18 £.",
+      "nl": "Flamingo Land opende in 1959 als dierentuin, lang voordat de eerste thrillrides kwamen. Sik, geopend op 2 juli 2022, heeft 10 inversies, en Kumali opende op 1 april 2006 als hangende looping-achtbaan van meer dan 35 m hoog. Velocity werd in 2005 gelanceerd met wagens in motorstijl. In de winter zijn sommige dagen alleen voor de dierentuin, tegen een toegangsprijs van £18.",
+      "pt": "O Flamingo Land abriu em 1959 como zoo, muito antes de chegarem as primeiras atrações de emoção forte. A Sik, inaugurada a 2 de julho de 2022, tem 10 inversões, e a Kumali abriu a 1 de abril de 2006 como montanha-russa suspensa com loopings de mais de 35 m de altura. A Velocity foi lançada em 2005 com carros em estilo de mota. No inverno alguns dias são só de zoo, com entrada a 18 £.",
+      "ru": "Flamingo Land открылся в 1959 году как зоопарк — задолго до появления первых острых аттракционов. Sik, открытые 2 июля 2022 года, имеют 10 инверсий, а Kumali открылись 1 апреля 2006 года как подвесные горки с петлями высотой более 35 м. Velocity запустили в 2005 году с вагончиками в стиле мотоцикла. Зимой некоторые дни работает только зоопарк, вход стоит 18 £.",
+      "zh": "Flamingo Land于1959年作为动物园开业，远早于首批刺激项目的到来。Sik于2022年7月2日开放，共有10次翻转；Kumali于2006年4月1日开放，是高逾35米的悬挂式环形过山车。Velocity于2005年推出，车厢仿摩托车造型。冬季部分日子仅开放动物园，门票18英镑。",
+      "ar": "افتُتح فلامنغو لاند عام 1959 كحديقة حيوان قبل وصول ألعاب الإثارة الأولى بزمن طويل. افتُتحت Sik في 2 يوليو 2022 وفيها 10 انقلابات، وافتُتحت Kumali في 1 أبريل 2006 كقطار معلّق بحلقات يزيد ارتفاعه على 35 م. وأُطلقت Velocity عام 2005 بعربات على شكل دراجات نارية. وفي الشتاء تقتصر بعض الأيام على حديقة الحيوان مع تذكرة بـ18 جنيهاً."
+    },
+    "ov_plan_body": {
+      "en": "The full theme park season in 2026 started on 21 March and runs to early November (the exact closing date is unconfirmed), so rides may already be closed for the winter. On winter days only the zoo is open, with admission around £18; check the official calendar before you go. When the theme park is open, public access starts at 10:00 and closes between 17:00 and 18:00 depending on the time of year. Standard adult tickets cost £46 when booked 7 or more days ahead, rising to £51.50 and then £58 closer to the day. A family ticket for up to four people costs £168, seniors (65+) pay £36.75 and children aged 3 and under go free. The resort has no hotel, so most visitors stay in lodges, holiday homes or camping on site, or in nearby Pickering and Malton.",
+      "es": "La temporada completa del parque temático en 2026 empezó el 21 de marzo y dura hasta principios de noviembre (la fecha exacta de cierre no está confirmada), así que es posible que las atracciones ya estén cerradas por el invierno. En los días de invierno solo abre el zoo, con una entrada de unas 18 £; consulta el calendario oficial antes de ir. Cuando el parque temático está abierto, el acceso es a las 10:00 y cierra entre las 17:00 y las 18:00 según la época del año. La entrada general de adulto cuesta 46 £ reservada con 7 o más días de antelación y sube a 51,50 £ y luego a 58 £ cerca de la fecha. La entrada familiar para hasta cuatro personas cuesta 168 £, los mayores de 65 pagan 36,75 £ y los menores de 4 años entran gratis. El resort no tiene hotel, así que la mayoría se aloja en cabañas, casas vacacionales o camping en el recinto, o en las cercanas Pickering y Malton.",
+      "fr": "La saison complète du parc à thème en 2026 a commencé le 21 mars et dure jusqu'au début novembre (la date exacte de fermeture n'est pas confirmée) ; les attractions sont donc peut-être déjà fermées pour l'hiver. Les jours d'hiver, seul le zoo est ouvert, avec une entrée d'environ 18 £ ; consultez le calendrier officiel avant de partir. Quand le parc à thème est ouvert, l'accès commence à 10 h et la fermeture a lieu entre 17 h et 18 h selon la période. Le billet adulte standard coûte 46 £ réservé 7 jours ou plus à l'avance, puis 51,50 £ et 58 £ à l'approche de la date. Le billet famille pour jusqu'à quatre personnes coûte 168 £, les seniors (65 ans et plus) paient 36,75 £ et les enfants de 3 ans et moins entrent gratuitement. Le complexe n'a pas d'hôtel : la plupart des visiteurs logent en lodge, maison de vacances ou camping sur place, ou à Pickering et Malton, tout près.",
+      "de": "Die volle Freizeitpark-Saison 2026 begann am 21. März und läuft bis Anfang November (das genaue Schlussdatum ist nicht bestätigt), die Fahrgeschäfte können also schon für den Winter geschlossen sein. An Wintertagen ist nur der Zoo geöffnet, der Eintritt liegt bei etwa 18 £; prüfen Sie vorab den offiziellen Kalender. Bei geöffnetem Park beginnt der Einlass um 10:00 Uhr, geschlossen wird je nach Jahreszeit zwischen 17:00 und 18:00 Uhr. Das Standard-Erwachsenenticket kostet 46 £ bei Buchung 7 oder mehr Tage im Voraus und steigt auf 51,50 £ und dann 58 £ kurz vor dem Besuch. Ein Familienticket für bis zu vier Personen kostet 168 £, Senioren (ab 65) zahlen 36,75 £, Kinder bis 3 Jahre sind frei. Das Resort hat kein Hotel, die meisten übernachten daher in Lodges, Ferienhäusern oder auf dem Campingplatz vor Ort oder im nahen Pickering und Malton.",
+      "it": "La stagione completa del parco a tema nel 2026 è iniziata il 21 marzo e dura fino a inizio novembre (la data esatta di chiusura non è confermata), quindi le attrazioni potrebbero essere già chiuse per l'inverno. Nei giorni invernali è aperto solo lo zoo, con ingresso a circa 18 £; controllate il calendario ufficiale prima di andare. Quando il parco a tema è aperto, l'accesso inizia alle 10:00 e la chiusura è tra le 17:00 e le 18:00 a seconda del periodo. Il biglietto adulto standard costa 46 £ se prenotato con 7 o più giorni di anticipo, poi sale a 51,50 £ e a 58 £ a ridosso della data. Il biglietto famiglia fino a quattro persone costa 168 £, i senior (65+) pagano 36,75 £ e i bambini fino a 3 anni entrano gratis. Il resort non ha un hotel: la maggior parte dei visitatori alloggia in lodge, case vacanza o campeggio nel resort, oppure a Pickering e Malton, nelle vicinanze.",
+      "nl": "Het volledige seizoen van het attractiepark in 2026 begon op 21 maart en loopt tot begin november (de exacte sluitingsdatum is niet bevestigd), dus de attracties kunnen al gesloten zijn voor de winter. Op winterdagen is alleen de dierentuin open, met een toegangsprijs van ongeveer £18; check vooraf de officiële kalender. Als het park open is, begint de toegang om 10:00 en sluit het tussen 17:00 en 18:00, afhankelijk van de periode. Het standaard volwassenenticket kost £46 bij boeking 7 of meer dagen vooraf en loopt op naar £51,50 en daarna £58 vlak voor de dag. Een gezinsticket voor maximaal vier personen kost £168, senioren (65+) betalen £36,75 en kinderen tot en met 3 jaar gaan gratis. Het resort heeft geen hotel, dus de meeste bezoekers slapen in lodges, vakantiehuizen of op de camping op het terrein, of in het nabije Pickering en Malton.",
+      "pt": "A temporada completa do parque temático em 2026 começou a 21 de março e vai até ao início de novembro (a data exata de encerramento não está confirmada), por isso as atrações podem já estar fechadas para o inverno. Nos dias de inverno só o zoo está aberto, com entrada de cerca de 18 £; consulte o calendário oficial antes de ir. Com o parque temático aberto, o acesso começa às 10:00 e fecha entre as 17:00 e as 18:00 consoante a época do ano. O bilhete de adulto standard custa 46 £ reservado com 7 ou mais dias de antecedência e sobe para 51,50 £ e depois 58 £ perto da data. O bilhete família até quatro pessoas custa 168 £, os seniores (65+) pagam 36,75 £ e crianças até 3 anos entram grátis. O resort não tem hotel, por isso a maioria fica em lodges, casas de férias ou campismo no recinto, ou em Pickering e Malton, ali perto.",
+      "ru": "Полный сезон тематического парка в 2026 году начался 21 марта и продлится до начала ноября (точная дата закрытия не подтверждена), поэтому аттракционы могут быть уже закрыты на зиму. В зимние дни открыт только зоопарк, вход около 18 £; перед поездкой проверьте официальный календарь. Когда парк работает, вход открывается в 10:00, а закрытие — между 17:00 и 18:00 в зависимости от времени года. Стандартный взрослый билет стоит 46 £ при покупке за 7 и более дней, затем 51,50 £ и 58 £ ближе к дате. Семейный билет до четырёх человек стоит 168 £, пенсионеры (65+) платят 36,75 £, дети до 3 лет бесплатно. В курорте нет отеля, поэтому большинство гостей останавливаются в лоджах, домах для отдыха или кемпинге на территории либо в близлежащих Пикеринге и Малтоне.",
+      "zh": "2026年主题乐园全季从3月21日开始，持续到11月初（具体闭园日期未确认），因此游乐设施可能已进入冬季关闭期。冬季仅开放动物园，门票约18英镑，出行前请查看官方日历。乐园开放时，10:00开始入园，根据季节在17:00至18:00之间关闭。标准成人票提前7天或以上预订为46英镑，临近日期会升至51.50英镑和58英镑。最多4人的家庭票为168英镑，65岁以上老人票36.75英镑，3岁及以下儿童免费。度假村没有酒店，大多数游客住在园内的木屋、度假屋或露营地，或附近的Pickering和Malton。",
+      "ar": "بدأ الموسم الكامل للمتنزه الترفيهي في 2026 يوم 21 مارس ويستمر حتى أوائل نوفمبر (موعد الإغلاق الدقيق غير مؤكد)، لذا قد تكون الألعاب مغلقة بالفعل للشتاء. في أيام الشتاء تفتح حديقة الحيوان فقط بتذكرة نحو 18 جنيهاً؛ راجع التقويم الرسمي قبل الذهاب. عند فتح المتنزه يبدأ الدخول الساعة 10:00 ويُغلق بين 17:00 و18:00 بحسب الموسم. تكلفة تذكرة البالغين القياسية 46 جنيهاً عند الحجز قبل 7 أيام أو أكثر، وترتفع إلى 51.50 ثم 58 جنيهاً قرب الموعد. وتذكرة العائلة لأربعة أشخاص 168 جنيهاً، وكبار السن (65+) يدفعون 36.75 جنيهاً، والأطفال حتى 3 سنوات مجاناً. لا يوجد فندق في المنتجع، لذا يقيم معظم الزوار في أكواخ أو منازل عطلات أو مخيمات داخله، أو في بيكرينغ ومالتون القريبتين."
+    },
+    "ov_photos_body": {
+      "en": "Sik's tall, twisting track and the loops of Kumali stand out against the North Yorkshire countryside. Pterodactyl's swinging arm and the Cliff Hanger tower make dramatic skyline shots, and the colourful family rides are good for portraits. Early morning and late afternoon give the softest light.",
+      "es": "La alta y retorcida vía de Sik y los loopings de Kumali destacan contra el paisaje de North Yorkshire. El brazo oscilante de Pterodactyl y la torre de Cliff Hanger crean fotos espectaculares del horizonte, y las atracciones familiares de colores son ideales para retratos. A primera hora de la mañana y al final de la tarde la luz es más suave.",
+      "fr": "Le haut parcours sinueux de Sik et les loopings de Kumali se détachent sur la campagne du North Yorkshire. Le bras oscillant de Pterodactyl et la tour de Cliff Hanger donnent de superbes images de l'horizon, et les attractions familiales colorées se prêtent bien aux portraits. Tôt le matin et en fin d'après-midi, la lumière est la plus douce.",
+      "de": "Die hohe, verdrehte Strecke von Sik und die Loopings von Kumali heben sich vor der Landschaft von North Yorkshire ab. Der schwingende Arm von Pterodactyl und der Turm von Cliff Hanger ergeben dramatische Skyline-Fotos, und die bunten Familienfahrgeschäfte eignen sich gut für Porträts. Am frühen Morgen und späten Nachmittag ist das Licht am weichsten.",
+      "it": "Il tracciato alto e contorto di Sik e i loop di Kumali spiccano sullo sfondo della campagna del North Yorkshire. Il braccio oscillante di Pterodactyl e la torre di Cliff Hanger regalano scatti scenografici dello skyline, e le colorate attrazioni per famiglie sono perfette per i ritratti. La luce più morbida è al mattino presto e nel tardo pomeriggio.",
+      "nl": "Het hoge, kronkelende spoor van Sik en de looping-rails van Kumali steken af tegen het landschap van North Yorkshire. De zwaaiende arm van Pterodactyl en de toren van Cliff Hanger geven dramatische skyline-foto's, en de kleurrijke gezinsattracties zijn goed voor portretten. Vroeg in de ochtend en laat in de middag is het licht het zachtst.",
+      "pt": "A via alta e retorcida da Sik e os loopings da Kumali destacam-se contra a paisagem de North Yorkshire. O braço oscilante da Pterodactyl e a torre da Cliff Hanger dão fotografias dramáticas do horizonte, e as coloridas atrações familiares são ótimas para retratos. De manhã cedo e ao fim da tarde a luz é mais suave.",
+      "ru": "Высокая извилистая трасса Sik и петли Kumali выделяются на фоне пейзажей Северного Йоркшира. Качающаяся стрела Pterodactyl и башня Cliff Hanger дают эффектные кадры на фоне горизонта, а яркие семейные аттракционы хороши для портретов. Самый мягкий свет — рано утром и ближе к вечеру.",
+      "zh": "Sik高耸扭转的轨道和Kumali的回环在北约克郡的乡间风光中格外醒目。Pterodactyl的摆动臂和Cliff Hanger塔楼是拍摄天际线的好题材，色彩缤纷的家庭游乐设施适合拍人像。清晨和傍晚的光线最柔和。",
+      "ar": "يبرز مسار Sik العالي الملتوي وحلقات Kumali على خلفية ريف نورث يوركشاير. وتمنح ذراع Pterodactyl المتأرجحة وبرج Cliff Hanger لقطات مذهلة للأفق، وتناسب الألعاب العائلية الملونة صور البورتريه. ويكون الضوء ألطف في الصباح الباكر وآخر النهار."
+    }
+  },
+  "attractions": {
+    "sik": {
+      "desc": {
+        "en": "Flagship coaster opened in 2022: 33 m high, up to 87 km/h and 10 inversions. Min 140cm.",
+        "es": "Montaña rusa estrella inaugurada en 2022: 33 m de altura, hasta 87 km/h y 10 inversiones. Mín. 140cm.",
+        "fr": "Grand huit phare ouvert en 2022 : 33 m de haut, jusqu'à 87 km/h et 10 inversions. Min 140cm.",
+        "de": "Flaggschiff-Achterbahn von 2022: 33 m hoch, bis zu 87 km/h und 10 Inversionen. Min 140cm.",
+        "it": "Montagna russa di punta inaugurata nel 2022: alta 33 m, fino a 87 km/h e 10 inversioni. Min 140cm.",
+        "nl": "Blikvanger-achtbaan uit 2022: 33 m hoog, tot 87 km/u en 10 inversies. Min 140cm.",
+        "pt": "Montanha-russa principal inaugurada em 2022: 33 m de altura, até 87 km/h e 10 inversões. Mín. 140cm.",
+        "ru": "Главные горки парка, открытые в 2022 году: высота 33 м, скорость до 87 км/ч, 10 инверсий. Рост от 140 см.",
+        "zh": "2022年开放的旗舰过山车：高33米，时速最高87公里，带10次翻转。最低身高140厘米。",
+        "ar": "قطار الجبال الروسية الرئيسي الذي افتُتح عام 2022: ارتفاع 33 م وسرعة تصل إلى 87 كم/س و10 انقلابات. الحد الأدنى 140 سم."
+      }
+    },
+    "kumali": {
+      "desc": {
+        "en": "Suspended looping coaster opened in 2006: about 36 m high, up to 90 km/h and four inversions. Min 130cm.",
+        "es": "Montaña rusa suspendida con loopings inaugurada en 2006: unos 36 m de altura, hasta 90 km/h y cuatro inversiones. Mín. 130cm.",
+        "fr": "Coaster suspendu à loopings ouvert en 2006 : environ 36 m de haut, jusqu'à 90 km/h et quatre inversions. Min 130cm.",
+        "de": "Hängeachterbahn mit Loopings von 2006: etwa 36 m hoch, bis zu 90 km/h und vier Inversionen. Min 130cm.",
+        "it": "Montagna russa sospesa con loop inaugurata nel 2006: alta circa 36 m, fino a 90 km/h e quattro inversioni. Min 130cm.",
+        "nl": "Hangende looping-achtbaan uit 2006: ongeveer 36 m hoog, tot 90 km/u en vier inversies. Min 130cm.",
+        "pt": "Montanha-russa suspensa com loopings inaugurada em 2006: cerca de 36 m de altura, até 90 km/h e quatro inversões. Mín. 130cm.",
+        "ru": "Подвесные горки с петлями, открытые в 2006 году: высота около 36 м, скорость до 90 км/ч, четыре инверсии. Рост от 130 см.",
+        "zh": "2006年开放的悬挂式环形过山车：高约36米，时速最高90公里，带四次翻转。最低身高130厘米。",
+        "ar": "قطار جبال روسية معلّق بحلقات افتُتح عام 2006: ارتفاع نحو 36 م وسرعة تصل إلى 90 كم/س وأربع انقلابات. الحد الأدنى 130 سم."
+      }
+    },
+    "velocity": {
+      "desc": {
+        "en": "Launch coaster with motorbike-style cars, opened in 2005: up to 87 km/h. Min 140cm.",
+        "es": "Montaña rusa con lanzamiento y vagonetas estilo moto, inaugurada en 2005: hasta 87 km/h. Mín. 140cm.",
+        "fr": "Coaster à lancement avec véhicules en forme de moto, ouvert en 2005 : jusqu'à 87 km/h. Min 140cm.",
+        "de": "Launch-Coaster mit motorradähnlichen Wagen von 2005: bis zu 87 km/h. Min 140cm.",
+        "it": "Montagna russa con lancio e vagoni in stile moto, inaugurata nel 2005: fino a 87 km/h. Min 140cm.",
+        "nl": "Gelanceerde achtbaan met motorachtige wagens, geopend in 2005: tot 87 km/u. Min 140cm.",
+        "pt": "Montanha-russa com lançamento e carros em estilo de mota, inaugurada em 2005: até 87 km/h. Mín. 140cm.",
+        "ru": "Горки с разгоном и вагончиками-мотоциклами, открытые в 2005 году: скорость до 87 км/ч. Рост от 140 см.",
+        "zh": "2005年开放的弹射过山车，车厢为摩托车造型，时速最高87公里。最低身高140厘米。",
+        "ar": "قطار جبال روسية بإطلاق وعربات على شكل دراجة نارية افتُتح عام 2005: سرعة تصل إلى 87 كم/س. الحد الأدنى 140 سم."
+      }
+    },
+    "mumbo_jumbo": {
+      "desc": {
+        "en": "El Loco coaster opened in 2009: about 30 m high with two inversions. Min 122cm.",
+        "es": "Montaña rusa El Loco inaugurada en 2009: unos 30 m de altura y dos inversiones. Mín. 122cm.",
+        "fr": "Coaster El Loco ouvert en 2009 : environ 30 m de haut et deux inversions. Min 122cm.",
+        "de": "El-Loco-Achterbahn von 2009: etwa 30 m hoch mit zwei Inversionen. Min 122cm.",
+        "it": "Montagna russa El Loco inaugurata nel 2009: alta circa 30 m con due inversioni. Min 122cm.",
+        "nl": "El Loco-achtbaan uit 2009: ongeveer 30 m hoog met twee inversies. Min 122cm.",
+        "pt": "Montanha-russa El Loco inaugurada em 2009: cerca de 30 m de altura e duas inversões. Mín. 122cm.",
+        "ru": "Горки El Loco, открытые в 2009 году: высота около 30 м, две инверсии. Рост от 122 см.",
+        "zh": "2009年开放的El Loco过山车：高约30米，带两次翻转。最低身高122厘米。",
+        "ar": "قطار El Loco الذي افتُتح عام 2009: ارتفاع نحو 30 م وانقلابان. الحد الأدنى 122 سم."
+      }
+    },
+    "hero": {
+      "desc": {
+        "en": "Suspended side-by-side coaster opened in 2013: about 20 m high and around 40 km/h. Min 127cm.",
+        "es": "Montaña rusa suspendida de dos vías en paralelo inaugurada en 2013: unos 20 m de altura y unos 40 km/h. Mín. 127cm.",
+        "fr": "Coaster suspendu côte à côte ouvert en 2013 : environ 20 m de haut et près de 40 km/h. Min 127cm.",
+        "de": "Hängeachterbahn mit zwei Zügen nebeneinander von 2013: etwa 20 m hoch und rund 40 km/h. Min 127cm.",
+        "it": "Montagna russa sospesa affiancata inaugurata nel 2013: alta circa 20 m e circa 40 km/h. Min 127cm.",
+        "nl": "Hangende achtbaan met twee naast elkaar rijdende treinen uit 2013: ongeveer 20 m hoog en circa 40 km/u. Min 127cm.",
+        "pt": "Montanha-russa suspensa lado a lado inaugurada em 2013: cerca de 20 m de altura e perto de 40 km/h. Mín. 127cm.",
+        "ru": "Подвесные горки с двумя поездами рядом, открытые в 2013 году: высота около 20 м, скорость около 40 км/ч. Рост от 127 см.",
+        "zh": "2013年开放的并排悬挂式过山车：高约20米，时速约40公里。最低身高127厘米。",
+        "ar": "قطار جبال روسية معلّق متوازٍ افتُتح عام 2013: ارتفاع نحو 20 م وسرعة نحو 40 كم/س. الحد الأدنى 127 سم."
+      }
+    },
+    "cliff_hanger": {
+      "desc": {
+        "en": "S&S combo tower about 55 m high that launches riders up and drops them. Min 132cm.",
+        "es": "Torre combinada S&S de unos 55 m que lanza a los pasajeros hacia arriba y los deja caer. Mín. 132cm.",
+        "fr": "Tour combinée S&S d'environ 55 m qui propulse puis fait chuter les passagers. Min 132cm.",
+        "de": "S&S-Kombi-Turm, etwa 55 m hoch: Passagiere werden hochgeschossen und fallen zurück. Min 132cm.",
+        "it": "Torre combo S&S alta circa 55 m che lancia i passeggeri verso l'alto e li fa precipitare. Min 132cm.",
+        "nl": "S&S-combitoren van ongeveer 55 m hoog die passagiers omhoog schiet en laat vallen. Min 132cm.",
+        "pt": "Torre combo S&S com cerca de 55 m que lança os passageiros para cima e os deixa cair. Mín. 132cm.",
+        "ru": "Башня S&S высотой около 55 м, которая выстреливает пассажиров вверх и роняет их вниз. Рост от 132 см.",
+        "zh": "高约55米的S&S组合塔，将乘客弹射到高空再自由下落。最低身高132厘米。",
+        "ar": "برج S&S المركّب بارتفاع نحو 55 م يقذف الركاب إلى الأعلى ثم يُسقطهم. الحد الأدنى 132 سم."
+      }
+    },
+    "pterodactyl": {
+      "desc": {
+        "en": "Sky swing opened in 2012: swings riders out from a tower about 46 m high. Min 122cm.",
+        "es": "Columpio de altura inaugurado en 2012: balancea a los pasajeros desde una torre de unos 46 m. Mín. 122cm.",
+        "fr": "Balançoire géante ouverte en 2012 : fait osciller les passagers depuis une tour d'environ 46 m. Min 122cm.",
+        "de": "Sky Swing von 2012: schwingt Passagiere von einem etwa 46 m hohen Turm aus. Min 122cm.",
+        "it": "Giostra sky swing inaugurata nel 2012: fa oscillare i passeggeri da una torre alta circa 46 m. Min 122cm.",
+        "nl": "Sky swing uit 2012: laat passagiers uitzwaaien vanaf een toren van ongeveer 46 m. Min 122cm.",
+        "pt": "Baloiço sky swing inaugurado em 2012: balança os passageiros de uma torre com cerca de 46 m. Mín. 122cm.",
+        "ru": "Высотные качели, открытые в 2012 году: пассажиры раскачиваются на башне высотой около 46 м. Рост от 122 см.",
+        "zh": "2012年开放的空中秋千：乘客在约46米高的塔上摆荡。最低身高122厘米。",
+        "ar": "أرجوحة سماوية افتُتحت عام 2012: تُأرجح الركاب من برج بارتفاع نحو 46 م. الحد الأدنى 122 سم."
+      }
+    },
+    "navigator": {
+      "desc": {
+        "en": "Zamperla Mega Disk'O from 2005: a giant disc that swings and spins, about 18 m high. Min 122cm.",
+        "es": "Mega Disk'O de Zamperla de 2005: un disco gigante que oscila y gira, de unos 18 m. Mín. 122cm.",
+        "fr": "Mega Disk'O de Zamperla de 2005 : un disque géant qui oscille et tourne, d'environ 18 m. Min 122cm.",
+        "de": "Zamperla Mega Disk'O von 2005: eine riesige Scheibe, die schwingt und sich dreht, etwa 18 m hoch. Min 122cm.",
+        "it": "Mega Disk'O di Zamperla del 2005: un disco gigante che oscilla e ruota, alto circa 18 m. Min 122cm.",
+        "nl": "Zamperla Mega Disk'O uit 2005: een reusachtige schijf die zwaait en draait, ongeveer 18 m hoog. Min 122cm.",
+        "pt": "Mega Disk'O da Zamperla de 2005: um disco gigante que oscila e gira, com cerca de 18 m. Mín. 122cm.",
+        "ru": "Mega Disk'O от Zamperla 2005 года: гигантский диск, который качается и вращается, высотой около 18 м. Рост от 122 см.",
+        "zh": "2005年的Zamperla Mega Disk'O：会摆动和旋转的巨型圆盘，高约18米。最低身高122厘米。",
+        "ar": "Mega Disk'O من Zamperla عام 2005: قرص عملاق يتأرجح ويدور بارتفاع نحو 18 م. الحد الأدنى 122 سم."
+      }
+    },
+    "lost_river_ride": {
+      "desc": {
+        "en": "Boat safari through jungle scenes ending in a drop of about 18 m and a big splash. Min 122cm.",
+        "es": "Safari en barca por escenas de selva que termina con una caída de unos 18 m y una gran salpicadura. Mín. 122cm.",
+        "fr": "Safari en bateau à travers des décors de jungle, qui se termine par une chute d'environ 18 m et de grosses éclaboussures. Min 122cm.",
+        "de": "Bootssafari durch Dschungelszenen mit einem Abschluss-Drop von etwa 18 m und großem Splash. Min 122cm.",
+        "it": "Safari in barca tra scenari di giungla che si conclude con una discesa di circa 18 m e un grande spruzzo. Min 122cm.",
+        "nl": "Bootsafari door jungletaferelen die eindigt met een val van ongeveer 18 m en een grote plons. Min 122cm.",
+        "pt": "Safari de barco por cenários de selva que termina com uma queda de cerca de 18 m e um grande chapão. Mín. 122cm.",
+        "ru": "Сафари на лодках по джунглям, которое заканчивается спуском примерно на 18 м и большими брызгами. Рост от 122 см.",
+        "zh": "乘船穿越丛林场景，结尾有约18米落差和巨大水花。最低身高122厘米。",
+        "ar": "رحلة سفاري بالقوارب عبر مشاهد الغابة تنتهي بسقوط نحو 18 م ورذاذ كبير. الحد الأدنى 122 سم."
+      }
+    },
+    "splash_battle": {
+      "desc": {
+        "en": "Interactive water ride from 2007: fire water cannons at other boats and onlookers. Min 91cm.",
+        "es": "Atracción acuática interactiva de 2007: dispara cañones de agua a otras barcas y al público. Mín. 91cm.",
+        "fr": "Attraction aquatique interactive de 2007 : tirez au canon à eau sur les autres bateaux et les spectateurs. Min 91cm.",
+        "de": "Interaktive Wasserattraktion von 2007: Wasserkanonen auf andere Boote und Zuschauer abfeuern. Min 91cm.",
+        "it": "Attrazione acquatica interattiva del 2007: spara con i cannoni ad acqua alle altre barche e agli spettatori. Min 91cm.",
+        "nl": "Interactieve waterattractie uit 2007: schiet met waterkanonnen op andere boten en omstanders. Min 91cm.",
+        "pt": "Atração aquática interativa de 2007: dispare canhões de água contra outros barcos e espectadores. Mín. 91cm.",
+        "ru": "Интерактивный водный аттракцион 2007 года: стреляйте из водяных пушек по другим лодкам и зрителям. Рост от 91 см.",
+        "zh": "2007年的互动水上项目：用水炮向其他船只和观众喷水。最低身高91厘米。",
+        "ar": "لعبة مائية تفاعلية من عام 2007: أطلق مدافع المياه على القوارب الأخرى والمتفرجين. الحد الأدنى 91 سم."
+      }
+    },
+    "mischief_mansion": {
+      "desc": {
+        "en": "Family ghost-train style dark ride from 2001. Min 107cm unless with an adult.",
+        "es": "Atracción oscura familiar estilo tren fantasma de 2001. Mín. 107cm salvo con un adulto.",
+        "fr": "Parcours scénique familial façon train fantôme de 2001. Min 107cm sauf avec un adulte.",
+        "de": "Familien-Geisterbahn von 2001. Min 107cm, mit Erwachsenem auch kleiner.",
+        "it": "Dark ride per famiglie in stile treno fantasma del 2001. Min 107cm, salvo con un adulto.",
+        "nl": "Familie-darkride in spooktreinstijl uit 2001. Min 107cm, tenzij met een volwassene.",
+        "pt": "Atração escura familiar estilo comboio fantasma de 2001. Mín. 107cm, exceto com um adulto.",
+        "ru": "Семейный тёмный аттракцион в стиле поезда призраков, 2001 год. Рост от 107 см, с взрослым — меньше.",
+        "zh": "2001年的家庭鬼屋列车式暗骑项目。最低身高107厘米，有成人陪同则不限。",
+        "ar": "لعبة مظلمة عائلية على طراز قطار الأشباح من عام 2001. الحد الأدنى 107 سم ما لم يرافقك بالغ."
+      }
+    },
+    "voodoo": {
+      "desc": {
+        "en": "Swinging ship ride from 2003 that swings higher and higher. Min 122cm, 107cm with an adult.",
+        "es": "Barco pirata oscilante de 2003 que se balancea cada vez más alto. Mín. 122cm, 107cm con un adulto.",
+        "fr": "Bateau oscillant de 2003 qui monte de plus en plus haut. Min 122cm, 107cm avec un adulte.",
+        "de": "Schiffschaukel von 2003, die immer höher schwingt. Min 122cm, 107cm mit Erwachsenem.",
+        "it": "Nave oscillante del 2003 che sale sempre più in alto. Min 122cm, 107cm con un adulto.",
+        "nl": "Schommelschip uit 2003 dat steeds hoger zwaait. Min 122cm, 107cm met een volwassene.",
+        "pt": "Barco oscilante de 2003 que balança cada vez mais alto. Mín. 122cm, 107cm com um adulto.",
+        "ru": "Качающийся корабль 2003 года, раскачивающийся всё выше. Рост от 122 см, с взрослым от 107 см.",
+        "zh": "2003年的摆荡海盗船，越荡越高。最低身高122厘米，有成人陪同则107厘米。",
+        "ar": "سفينة متأرجحة من عام 2003 تتأرجح أعلى فأعلى. الحد الأدنى 122 سم أو 107 سم برفقة بالغ."
+      }
+    },
+    "twistosaurus": {
+      "desc": {
+        "en": "Family spinning coaster from 2013: about 8 m high and around 27 km/h. Min 105cm.",
+        "es": "Montaña rusa giratoria familiar de 2013: unos 8 m de altura y unos 27 km/h. Mín. 105cm.",
+        "fr": "Coaster tournant familial de 2013 : environ 8 m de haut et près de 27 km/h. Min 105cm.",
+        "de": "Spinning-Coaster für Familien von 2013: etwa 8 m hoch und rund 27 km/h. Min 105cm.",
+        "it": "Montagna russa rotante per famiglie del 2013: alta circa 8 m e circa 27 km/h. Min 105cm.",
+        "nl": "Draaiende gezinsachtbaan uit 2013: ongeveer 8 m hoog en circa 27 km/u. Min 105cm.",
+        "pt": "Montanha-russa giratória familiar de 2013: cerca de 8 m de altura e perto de 27 km/h. Mín. 105cm.",
+        "ru": "Семейные вращающиеся горки 2013 года: высота около 8 м, скорость около 27 км/ч. Рост от 105 см.",
+        "zh": "2013年的家庭旋转过山车：高约8米，时速约27公里。最低身高105厘米。",
+        "ar": "قطار جبال روسية دوّار للعائلات من عام 2013: ارتفاع نحو 8 م وسرعة نحو 27 كم/س. الحد الأدنى 105 سم."
+      }
+    },
+    "zooom": {
+      "desc": {
+        "en": "Suspended junior coaster from 2011, a first step towards bigger coasters. Min 105cm.",
+        "es": "Montaña rusa suspendida infantil de 2011, un primer paso hacia las grandes. Mín. 105cm.",
+        "fr": "Coaster suspendu junior de 2011, une première étape vers les grands huit. Min 105cm.",
+        "de": "Hängende Junior-Achterbahn von 2011, ein erster Schritt zu den großen Bahnen. Min 105cm.",
+        "it": "Montagna russa sospesa junior del 2011, un primo passo verso quelle più grandi. Min 105cm.",
+        "nl": "Hangende junior-achtbaan uit 2011, een eerste stap naar de grotere banen. Min 105cm.",
+        "pt": "Montanha-russa suspensa júnior de 2011, um primeiro passo para as maiores. Mín. 105cm.",
+        "ru": "Подвесные детские горки 2011 года — первый шаг к большим горкам. Рост от 105 см.",
+        "zh": "2011年的悬挂式儿童过山车，是挑战大型过山车的第一步。最低身高105厘米。",
+        "ar": "قطار جبال روسية معلّق للصغار من عام 2011، خطوة أولى نحو القطارات الأكبر. الحد الأدنى 105 سم."
+      }
+    },
+    "runaway_train": {
+      "desc": {
+        "en": "Family mine-train coaster from 2007 with gentle drops and turns. Min 104cm.",
+        "es": "Montaña rusa familiar estilo tren minero de 2007 con caídas y giros suaves. Mín. 104cm.",
+        "fr": "Coaster familial de style train de mine de 2007, aux chutes et virages doux. Min 104cm.",
+        "de": "Familien-Minenzug-Achterbahn von 2007 mit sanften Abfahrten und Kurven. Min 104cm.",
+        "it": "Montagna russa familiare in stile treno minerario del 2007, con discese e curve dolci. Min 104cm.",
+        "nl": "Familieachtbaan in mijntreinstijl uit 2007 met zachte dalen en bochten. Min 104cm.",
+        "pt": "Montanha-russa familiar estilo comboio mineiro de 2007, com descidas e curvas suaves. Mín. 104cm.",
+        "ru": "Семейные горки в стиле шахтёрского поезда, 2007 год, с мягкими спусками и поворотами. Рост от 104 см.",
+        "zh": "2007年的家庭矿车式过山车，落差和转弯都很温和。最低身高104厘米。",
+        "ar": "قطار جبال روسية عائلي بنمط قطار المناجم من عام 2007 بمنحدرات ومنعطفات لطيفة. الحد الأدنى 104 سم."
+      }
+    }
+  },
+  "food": {
+    "food_metropolis_bar_and_grill": {
+      "desc": {
+        "en": "Restaurant and cocktail bar with booth seating, Tex-Mex, burgers and grill dishes.",
+        "es": "Restaurante y bar de cócteles con reservados, tex-mex, hamburguesas y platos a la parrilla.",
+        "fr": "Restaurant et bar à cocktails avec banquettes, tex-mex, burgers et grillades.",
+        "de": "Restaurant und Cocktailbar mit Sitznischen, Tex-Mex, Burgern und Grillgerichten.",
+        "it": "Ristorante e cocktail bar con salottini, tex-mex, hamburger e piatti alla griglia.",
+        "nl": "Restaurant en cocktailbar met zithoekjes, tex-mex, burgers en grillgerechten.",
+        "pt": "Restaurante e bar de cocktails com cabines, tex-mex, hambúrgueres e grelhados.",
+        "ru": "Ресторан и коктейль-бар с уютными кабинками: тексмекс, бургеры и блюда на гриле.",
+        "zh": "设有卡座的餐厅和鸡尾酒吧，供应墨西哥风味菜、汉堡和烧烤。",
+        "ar": "مطعم وبار كوكتيلات بمقصورات جلوس يقدم أطباقاً مكسيكية وبرغر ومشويات."
+      }
+    },
+    "food_the_coach_house": {
+      "desc": {
+        "en": "Country-style pub with a conservatory and beer garden, serving pub classics and Sunday roasts.",
+        "es": "Pub de estilo rural con invernadero y jardín cervecero, con clásicos de pub y asados de domingo.",
+        "fr": "Pub de style campagnard avec véranda et jardin, proposant des classiques de pub et des rôtis du dimanche.",
+        "de": "Pub im Landhausstil mit Wintergarten und Biergarten, mit Pub-Klassikern und Sonntagsbraten.",
+        "it": "Pub in stile country con veranda e giardino, con classici da pub e arrosti della domenica.",
+        "nl": "Landelijke pub met serre en biertuin, met pubklassiekers en zondagse braadstukken.",
+        "pt": "Pub de estilo rural com conservatório e jardim de cerveja, com clássicos de pub e assados de domingo.",
+        "ru": "Паб в деревенском стиле с зимним садом и пивным садом: классика пабов и воскресные жаркие.",
+        "zh": "乡村风格酒馆，设有玻璃暖房和啤酒花园，供应经典酒馆菜和周日烤肉。",
+        "ar": "حانة بطابع ريفي مع شرفة زجاجية وحديقة جعة تقدم أطباق الحانات الكلاسيكية وشواء الأحد."
+      }
+    },
+    "food_street_food_kitchen": {
+      "desc": {
+        "en": "Casual restaurant with indoor and outdoor seating: burgers, fried chicken and Costa Coffee.",
+        "es": "Restaurante informal con mesas dentro y fuera: hamburguesas, pollo frito y Costa Coffee.",
+        "fr": "Restaurant décontracté avec places à l'intérieur et en terrasse : burgers, poulet frit et Costa Coffee.",
+        "de": "Lockeres Restaurant mit Sitzplätzen drinnen und draußen: Burger, Fried Chicken und Costa Coffee.",
+        "it": "Ristorante informale con posti dentro e fuori: hamburger, pollo fritto e Costa Coffee.",
+        "nl": "Informeel restaurant met binnen- en buitenzitplaatsen: burgers, gebakken kip en Costa Coffee.",
+        "pt": "Restaurante descontraído com lugares no interior e no exterior: hambúrgueres, frango frito e Costa Coffee.",
+        "ru": "Неформальный ресторан с местами внутри и на улице: бургеры, жареная курица и Costa Coffee.",
+        "zh": "休闲餐厅，设有室内和室外座位，供应汉堡、炸鸡，并有Costa咖啡。",
+        "ar": "مطعم غير رسمي بمقاعد داخلية وخارجية يقدم البرغر والدجاج المقلي وقهوة Costa."
+      }
+    },
+    "food_the_diner": {
+      "desc": {
+        "en": "Casual diner-style place to eat in the park. Check the board on arrival for today's menu.",
+        "es": "Lugar informal estilo diner para comer en el parque. Consulta la pizarra al llegar para ver el menú del día.",
+        "fr": "Lieu de restauration décontracté de style diner dans le parc. Consultez le tableau à l'arrivée pour le menu du jour.",
+        "de": "Lockeres Diner-Lokal im Park. Das heutige Angebot steht vor Ort auf der Tafel.",
+        "it": "Locale informale in stile diner nel parco. Controllate la lavagna all'arrivo per il menu del giorno.",
+        "nl": "Informele diner-gelegenheid in het park. Check bij aankomst het bord voor het menu van de dag.",
+        "pt": "Local informal estilo diner no parque. Consulte o quadro à chegada para ver o menu do dia.",
+        "ru": "Неформальное заведение в стиле «дайнер» в парке. Меню дня смотрите на доске у входа.",
+        "zh": "园内的休闲餐厅风格用餐处。到店后请查看黑板上的当日菜单。",
+        "ar": "مكان تناول طعام غير رسمي على طراز الدايْنر داخل المتنزه. اطلع على اللوحة عند الوصول لمعرفة قائمة اليوم."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_lifestyle_lodge": {
+      "desc": {
+        "en": "Self-catering lodge for six on the resort, with theme park and zoo access included.",
+        "es": "Cabaña autoservicio para seis en el resort, con acceso al parque temático y al zoo incluido.",
+        "fr": "Lodge en location pour six personnes dans le resort, accès au parc à thème et au zoo inclus.",
+        "de": "Ferienhaus für sechs Personen im Resort, Zugang zu Themenpark und Zoo inklusive.",
+        "it": "Lodge in autogestione per sei persone nel resort, con accesso al parco a tema e allo zoo incluso.",
+        "nl": "Zelfverzorgingslodge voor zes personen op het resort, inclusief toegang tot attractiepark en dierentuin.",
+        "pt": "Lodge self-catering para seis no resort, com acesso ao parque temático e ao zoo incluído.",
+        "ru": "Лодж с самообслуживанием на шесть человек на территории курорта, вход в парк и зоопарк включён.",
+        "zh": "位于度假村内、可住六人的自助式木屋，含主题乐园和动物园入园。",
+        "ar": "كوخ ذاتي الخدمة يتسع لستة أشخاص داخل المنتجع مع دخول المتنزه وحديقة الحيوان."
+      }
+    },
+    "hotel_the_gate_house": {
+      "desc": {
+        "en": "Self-catering house for five with a hot tub, on the resort perimeter next to Penguin Coast.",
+        "es": "Casa autoservicio para cinco con jacuzzi, en el perímetro del resort junto a Penguin Coast.",
+        "fr": "Maison en location pour cinq avec jacuzzi, en bordure du resort près de Penguin Coast.",
+        "de": "Ferienhaus für fünf mit Whirlpool am Rand des Resorts neben Penguin Coast.",
+        "it": "Casa in autogestione per cinque con vasca idromassaggio, al margine del resort accanto a Penguin Coast.",
+        "nl": "Zelfverzorgingshuis voor vijf met hottub, aan de rand van het resort naast Penguin Coast.",
+        "pt": "Casa self-catering para cinco com banheira de hidromassagem, no perímetro do resort junto à Penguin Coast.",
+        "ru": "Дом с самообслуживанием на пятерых с джакузи на краю курорта рядом с Penguin Coast.",
+        "zh": "位于度假村边缘、紧邻Penguin Coast的自助式住宅，可住五人，带热水浴池。",
+        "ar": "منزل ذاتي الخدمة لخمسة أشخاص مع جاكوزي على أطراف المنتجع بجوار Penguin Coast."
+      }
+    },
+    "hotel_forest_and_vale": {
+      "desc": {
+        "en": "Best Western hotel in Pickering, roughly 3 to 5 miles from Flamingo Land.",
+        "es": "Hotel Best Western en Pickering, a unos 5-8 km de Flamingo Land.",
+        "fr": "Hôtel Best Western à Pickering, à environ 5-8 km de Flamingo Land.",
+        "de": "Best-Western-Hotel in Pickering, etwa 5-8 km von Flamingo Land entfernt.",
+        "it": "Hotel Best Western a Pickering, a circa 5-8 km da Flamingo Land.",
+        "nl": "Best Western-hotel in Pickering, ongeveer 5-8 km van Flamingo Land.",
+        "pt": "Hotel Best Western em Pickering, a cerca de 5-8 km do Flamingo Land.",
+        "ru": "Отель Best Western в Пикеринге примерно в 5–8 км от Flamingo Land.",
+        "zh": "位于Pickering的贝斯特韦斯特酒店，距Flamingo Land约5至8公里。",
+        "ar": "فندق Best Western في بيكرينغ على بعد نحو 5 إلى 8 كم من فلامنغو لاند."
+      }
+    },
+    "hotel_white_swan_inn": {
+      "desc": {
+        "en": "Coaching inn on Market Place in Pickering, about 2.8 miles from Flamingo Land.",
+        "es": "Posada histórica en Market Place, Pickering, a unos 4,5 km de Flamingo Land.",
+        "fr": "Auberge historique sur Market Place à Pickering, à environ 4,5 km de Flamingo Land.",
+        "de": "Historisches Gasthaus am Market Place in Pickering, etwa 4,5 km von Flamingo Land entfernt.",
+        "it": "Locanda storica su Market Place a Pickering, a circa 4,5 km da Flamingo Land.",
+        "nl": "Historische herberg aan Market Place in Pickering, ongeveer 4,5 km van Flamingo Land.",
+        "pt": "Estalagem histórica em Market Place, Pickering, a cerca de 4,5 km do Flamingo Land.",
+        "ru": "Исторический постоялый двор на Market Place в Пикеринге примерно в 4,5 км от Flamingo Land.",
+        "zh": "位于Pickering市场广场的历史驿馆，距Flamingo Land约4.5公里。",
+        "ar": "نزل تاريخي في ماركت بليس ببيكرينغ على بعد نحو 4.5 كم من فلامنغو لاند."
+      }
+    },
+    "hotel_the_talbot_malton": {
+      "desc": {
+        "en": "Upmarket hotel in the market town of Malton, about 5 miles from Flamingo Land.",
+        "es": "Hotel de categoría en la ciudad de Malton, a unos 8 km de Flamingo Land.",
+        "fr": "Hôtel haut de gamme dans la ville de Malton, à environ 8 km de Flamingo Land.",
+        "de": "Gehobenes Hotel in der Marktstadt Malton, etwa 8 km von Flamingo Land entfernt.",
+        "it": "Hotel di fascia alta nella cittadina di Malton, a circa 8 km da Flamingo Land.",
+        "nl": "Chique hotel in het marktstadje Malton, ongeveer 8 km van Flamingo Land.",
+        "pt": "Hotel de categoria superior na cidade de Malton, a cerca de 8 km do Flamingo Land.",
+        "ru": "Респектабельный отель в рыночном городке Малтон примерно в 8 км от Flamingo Land.",
+        "zh": "位于集镇Malton的高档酒店，距Flamingo Land约8公里。",
+        "ar": "فندق راقٍ في بلدة مالتون على بعد نحو 8 كم من فلامنغو لاند."
+      }
+    }
+  }
+}

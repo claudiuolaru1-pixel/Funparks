@@ -1,0 +1,406 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Kings Island is a theme park in Mason, Ohio, about 24 miles (39 km) northeast of Cincinnati. It opened in 1972, has belonged to Six Flags since the July 2024 merger with Cedar Fair, and welcomed about 3.2 million visitors in 2025. The park is known for its coasters, including The Beast, Banshee, Mystic Timbers, Orion and Diamondback, and it has a Planet Snoopy area for young children and the Soak City water park. A replica of the Eiffel Tower stands near the entrance.",
+      "es": "Kings Island es un parque temático en Mason, Ohio, a unos 39 km al noreste de Cincinnati. Abrió en 1972, pertenece a Six Flags desde la fusión con Cedar Fair en julio de 2024 y recibió unos 3,2 millones de visitantes en 2025. El parque es conocido por sus montañas rusas, entre ellas The Beast, Banshee, Mystic Timbers, Orion y Diamondback, y cuenta con una zona Planet Snoopy para los más pequeños y el parque acuático Soak City. Una réplica de la Torre Eiffel se alza cerca de la entrada.",
+      "fr": "Kings Island est un parc à thème à Mason, dans l'Ohio, à environ 39 km au nord-est de Cincinnati. Il a ouvert en 1972, appartient à Six Flags depuis la fusion avec Cedar Fair en juillet 2024 et a accueilli environ 3,2 millions de visiteurs en 2025. Le parc est connu pour ses coasters, dont The Beast, Banshee, Mystic Timbers, Orion et Diamondback, et il propose une zone Planet Snoopy pour les plus jeunes ainsi que le parc aquatique Soak City. Une réplique de la tour Eiffel se dresse près de l'entrée.",
+      "de": "Kings Island ist ein Freizeitpark in Mason, Ohio, etwa 39 km nordöstlich von Cincinnati. Er eröffnete 1972, gehört seit der Fusion mit Cedar Fair im Juli 2024 zu Six Flags und zählte 2025 rund 3,2 Millionen Besucher. Der Park ist bekannt für seine Achterbahnen, darunter The Beast, Banshee, Mystic Timbers, Orion und Diamondback, und hat einen Planet-Snoopy-Bereich für die Kleinen sowie den Wasserpark Soak City. Eine Nachbildung des Eiffelturms steht in der Nähe des Eingangs.",
+      "it": "Kings Island è un parco a tema a Mason, in Ohio, a circa 39 km a nord-est di Cincinnati. Ha aperto nel 1972, appartiene a Six Flags dalla fusione con Cedar Fair di luglio 2024 e nel 2025 ha accolto circa 3,2 milioni di visitatori. Il parco è noto per le sue montagne russe, tra cui The Beast, Banshee, Mystic Timbers, Orion e Diamondback, e ha un'area Planet Snoopy per i più piccoli e il parco acquatico Soak City. Una replica della Torre Eiffel si trova vicino all'ingresso.",
+      "nl": "Kings Island is een themapark in Mason, Ohio, ongeveer 39 km ten noordoosten van Cincinnati. Het opende in 1972, is sinds de fusie met Cedar Fair in juli 2024 eigendom van Six Flags en ontving in 2025 ongeveer 3,2 miljoen bezoekers. Het park staat bekend om zijn achtbanen, waaronder The Beast, Banshee, Mystic Timbers, Orion en Diamondback, en heeft een Planet Snoopy-gebied voor de kleintjes en het waterpark Soak City. Bij de ingang staat een replica van de Eiffeltoren.",
+      "pt": "O Kings Island é um parque temático em Mason, Ohio, a cerca de 39 km a nordeste de Cincinnati. Abriu em 1972, pertence à Six Flags desde a fusão com a Cedar Fair em julho de 2024 e recebeu cerca de 3,2 milhões de visitantes em 2025. O parque é conhecido pelas suas montanhas-russas, incluindo The Beast, Banshee, Mystic Timbers, Orion e Diamondback, e tem uma zona Planet Snoopy para os mais pequenos e o parque aquático Soak City. Uma réplica da Torre Eiffel ergue-se perto da entrada.",
+      "ru": "Kings Island — тематический парк в Мейсоне, штат Огайо, примерно в 39 км к северо-востоку от Цинциннати. Он открылся в 1972 году, с момента слияния с Cedar Fair в июле 2024 года принадлежит Six Flags, а в 2025 году его посетили около 3,2 млн человек. Парк известен своими горками, среди которых The Beast, Banshee, Mystic Timbers, Orion и Diamondback; здесь есть зона Planet Snoopy для малышей и аквапарк Soak City. Недалеко от входа стоит копия Эйфелевой башни.",
+      "zh": "Kings Island是位于俄亥俄州梅森的主题乐园，在辛辛那提东北约39公里。乐园于1972年开业，2024年7月与Cedar Fair合并后归Six Flags所有，2025年接待游客约320万人次。乐园以过山车闻名，包括The Beast、Banshee、Mystic Timbers、Orion和Diamondback，还设有面向幼儿的Planet Snoopy区域和Soak City水上乐园。入口附近矗立着一座埃菲尔铁塔复制品。",
+      "ar": "كينغز آيلند متنزه ترفيهي في ميسون بولاية أوهايو، على بعد نحو 39 كم شمال شرق سينسيناتي. افتُتح عام 1972، وتملكه شركة Six Flags منذ اندماجها مع Cedar Fair في يوليو 2024، واستقبل نحو 3.2 مليون زائر في 2025. يشتهر المتنزه بقطارات الجبال الروسية ومنها The Beast وBanshee وMystic Timbers وOrion وDiamondback، وفيه منطقة Planet Snoopy للصغار ومتنزه Soak City المائي. وتقف نسخة من برج إيفل قرب المدخل."
+    },
+    "ov_highlights_body": {
+      "en": "The Beast opened in 1979 and has 2,244 m of wooden track, while Mystic Timbers is a wooden coaster 33 m high. Banshee is a steel coaster with seven inversions, Diamondback reaches 80 mph (130 km/h) and Orion stands 287 ft (88 m) tall with a top speed of 91 mph (146 km/h). Flight of Fear is an indoor coaster with four inversions. New in 2026 is Phantom Theater: Opening Nightmare, an interactive dark ride, and Soak City got the RiverRacers water coaster in 2025. For families there are Planet Snoopy, Woodstock Express and the Grand Carousel from 1926, and White Water Canyon and Congo Falls are the wet rides.",
+      "es": "The Beast abrió en 1979 y tiene 2.244 m de vía de madera, mientras que Mystic Timbers es una montaña rusa de madera de 33 m de altura. Banshee es una montaña rusa de acero con siete inversiones, Diamondback alcanza 80 mph (130 km/h) y Orion mide 287 pies (88 m) con una velocidad máxima de 91 mph (146 km/h). Flight of Fear es una montaña rusa cubierta con cuatro inversiones. La novedad de 2026 es Phantom Theater: Opening Nightmare, una atracción oscura interactiva, y Soak City estrenó en 2025 la montaña rusa acuática RiverRacers. Para familias hay Planet Snoopy, Woodstock Express y el Grand Carousel de 1926, y White Water Canyon y Congo Falls son las atracciones donde uno se moja.",
+      "fr": "The Beast a ouvert en 1979 et compte 2 244 m de rails en bois, tandis que Mystic Timbers est un coaster en bois de 33 m de haut. Banshee est un coaster en acier avec sept inversions, Diamondback atteint 80 mph (130 km/h) et Orion mesure 287 pieds (88 m) pour une vitesse maximale de 91 mph (146 km/h). Flight of Fear est un coaster couvert avec quatre inversions. La nouveauté 2026 est Phantom Theater: Opening Nightmare, une attraction sombre interactive, et Soak City a reçu en 2025 le coaster aquatique RiverRacers. Pour les familles, il y a Planet Snoopy, Woodstock Express et le Grand Carousel de 1926, et White Water Canyon et Congo Falls sont les attractions où l'on se mouille.",
+      "de": "The Beast eröffnete 1979 und hat 2.244 m Holzstrecke, während Mystic Timbers eine 33 m hohe Holzachterbahn ist. Banshee ist eine Stahlachterbahn mit sieben Inversionen, Diamondback erreicht 80 mph (130 km/h) und Orion ist 287 Fuß (88 m) hoch mit einer Spitzengeschwindigkeit von 91 mph (146 km/h). Flight of Fear ist eine Indoor-Achterbahn mit vier Inversionen. Neu in 2026 ist Phantom Theater: Opening Nightmare, eine interaktive Dunkelfahrt, und Soak City bekam 2025 die Wasserachterbahn RiverRacers. Für Familien gibt es Planet Snoopy, Woodstock Express und das Grand Carousel von 1926, und White Water Canyon und Congo Falls sind die nassen Fahrten.",
+      "it": "The Beast ha aperto nel 1979 e ha 2.244 m di binari in legno, mentre Mystic Timbers è una montagna russa in legno alta 33 m. Banshee è una montagna russa in acciaio con sette inversioni, Diamondback raggiunge 80 mph (130 km/h) e Orion è alta 287 piedi (88 m) con una velocità massima di 91 mph (146 km/h). Flight of Fear è una montagna russa al coperto con quattro inversioni. La novità del 2026 è Phantom Theater: Opening Nightmare, un dark ride interattivo, e Soak City ha ricevuto nel 2025 la montagna russa acquatica RiverRacers. Per le famiglie ci sono Planet Snoopy, Woodstock Express e il Grand Carousel del 1926, e White Water Canyon e Congo Falls sono le attrazioni dove ci si bagna.",
+      "nl": "The Beast opende in 1979 en heeft 2.244 m houten baan, terwijl Mystic Timbers een houten achtbaan van 33 m hoog is. Banshee is een stalen achtbaan met zeven inversies, Diamondback haalt 80 mph (130 km/u) en Orion is 287 voet (88 m) hoog met een topsnelheid van 91 mph (146 km/u). Flight of Fear is een overdekte achtbaan met vier inversies. Nieuw in 2026 is Phantom Theater: Opening Nightmare, een interactieve darkride, en Soak City kreeg in 2025 de waterachtbaan RiverRacers. Voor gezinnen zijn er Planet Snoopy, Woodstock Express en de Grand Carousel uit 1926, en White Water Canyon en Congo Falls zijn de natte attracties.",
+      "pt": "O The Beast abriu em 1979 e tem 2244 m de pista de madeira, enquanto o Mystic Timbers é uma montanha-russa de madeira com 33 m de altura. O Banshee é uma montanha-russa de aço com sete inversões, o Diamondback atinge 80 mph (130 km/h) e o Orion tem 287 pés (88 m) com uma velocidade máxima de 91 mph (146 km/h). O Flight of Fear é uma montanha-russa coberta com quatro inversões. A novidade de 2026 é o Phantom Theater: Opening Nightmare, uma atração escura interativa, e o Soak City recebeu em 2025 a montanha-russa aquática RiverRacers. Para famílias há o Planet Snoopy, o Woodstock Express e o Grand Carousel de 1926, e o White Water Canyon e o Congo Falls são as atrações onde nos molhamos.",
+      "ru": "The Beast открылись в 1979 году, длина деревянной трассы — 2244 м, а Mystic Timbers — деревянные горки высотой 33 м. Banshee — стальные горки с семью инверсиями, Diamondback разгоняются до 80 миль/ч (130 км/ч), а Orion высотой 287 футов (88 м) развивают до 91 миль/ч (146 км/ч). Flight of Fear — крытые горки с четырьмя инверсиями. Новинка 2026 года — Phantom Theater: Opening Nightmare, интерактивный аттракцион в темноте, а в Soak City в 2025 году появились водные горки RiverRacers. Для семей есть Planet Snoopy, Woodstock Express и карусель Grand Carousel 1926 года, а White Water Canyon и Congo Falls — аттракционы, где можно промокнуть.",
+      "zh": "The Beast于1979年开放，木质轨道长2244米，而Mystic Timbers是高33米的木质过山车。Banshee是带七次翻转的钢轨过山车，Diamondback时速可达80英里（130公里），Orion高287英尺（88米），最高时速91英里（146公里）。Flight of Fear是带四次翻转的室内过山车。2026年新增了互动暗黑骑乘项目Phantom Theater: Opening Nightmare，Soak City则在2025年迎来了RiverRacers水上过山车。家庭游客可玩Planet Snoopy、Woodstock Express和1926年的Grand Carousel，White Water Canyon和Congo Falls是会弄湿身体的项目。",
+      "ar": "افتُتح The Beast عام 1979 وفيه 2244 م من المسار الخشبي، أما Mystic Timbers فهو قطار جبال روسية خشبي بارتفاع 33 م. وBanshee قطار فولاذي بسبعة انقلابات، وDiamondback يبلغ 80 ميلاً/س (130 كم/س)، وOrion بارتفاع 287 قدماً (88 م) وأقصى سرعة 91 ميلاً/س (146 كم/س). وFlight of Fear قطار مغطى بأربعة انقلابات. والجديد في 2026 هو Phantom Theater: Opening Nightmare، رحلة مظلمة تفاعلية، وحصل Soak City في 2025 على قطار الجبال المائي RiverRacers. وللعائلات هناك Planet Snoopy وWoodstock Express ودوّارة Grand Carousel من عام 1926، أما White Water Canyon وCongo Falls فهما لعبتان يبتل فيهما الركاب."
+    },
+    "ov_did_you_know_body": {
+      "en": "Orion and Diamondback have been closed since 12 October 2026 as a precaution after a fatal accident on a coaster at Six Flags Over Georgia. No reopening date had been announced as of mid-October, so rely on the live wait times. Phantom Theater replaced Boo Blasters, which closed on 1 September 2025. The park has no classic motion simulator, so Phantom Theater stands in for the simulator category. There is no hotel inside the park, because the old Kings Island Inn closed in 2014. Vortex closed after 2019 and Son of Beast was demolished in 2012.",
+      "es": "Orion y Diamondback están cerradas desde el 12 de octubre de 2026 como medida de precaución tras un accidente mortal en una montaña rusa de Six Flags Over Georgia. A mediados de octubre no se había anunciado una fecha de reapertura, así que fíate de los tiempos de espera en directo. Phantom Theater sustituyó a Boo Blasters, que cerró el 1 de septiembre de 2025. El parque no tiene un simulador de movimiento clásico, por lo que Phantom Theater ocupa la categoría de simulador. No hay hotel dentro del parque, porque el antiguo Kings Island Inn cerró en 2014. Vortex cerró tras 2019 y Son of Beast se demolió en 2012.",
+      "fr": "Orion et Diamondback sont fermés depuis le 12 octobre 2026 par précaution, après un accident mortel sur un coaster de Six Flags Over Georgia. Aucune date de réouverture n'avait été annoncée à la mi-octobre, fiez-vous donc aux temps d'attente en direct. Phantom Theater a remplacé Boo Blasters, fermé le 1er septembre 2025. Le parc n'a pas de simulateur de mouvement classique, donc Phantom Theater tient lieu de simulateur. Il n'y a pas d'hôtel dans le parc, car l'ancien Kings Island Inn a fermé en 2014. Vortex a fermé après 2019 et Son of Beast a été démoli en 2012.",
+      "de": "Orion und Diamondback sind seit dem 12. Oktober 2026 vorsorglich geschlossen, nach einem tödlichen Unfall auf einer Achterbahn im Six Flags Over Georgia. Mitte Oktober war noch kein Wiedereröffnungstermin bekannt, verlass dich also auf die Live-Wartezeiten. Phantom Theater ersetzte Boo Blasters, das am 1. September 2025 schloss. Der Park hat keinen klassischen Bewegungssimulator, daher steht Phantom Theater stellvertretend für die Simulator-Kategorie. Im Park gibt es kein Hotel, da das alte Kings Island Inn 2014 schloss. Vortex schloss nach 2019 und Son of Beast wurde 2012 abgerissen.",
+      "it": "Orion e Diamondback sono chiuse dal 12 ottobre 2026 per precauzione, dopo un incidente mortale su una montagna russa di Six Flags Over Georgia. A metà ottobre non era stata annunciata una data di riapertura, quindi affidati ai tempi di attesa in diretta. Phantom Theater ha sostituito Boo Blasters, chiusa il 1° settembre 2025. Il parco non ha un simulatore di movimento classico, quindi Phantom Theater fa da simulatore. Non ci sono hotel nel parco, perché il vecchio Kings Island Inn ha chiuso nel 2014. Vortex ha chiuso dopo il 2019 e Son of Beast è stata demolita nel 2012.",
+      "nl": "Orion en Diamondback zijn sinds 12 oktober 2026 uit voorzorg gesloten, na een dodelijk ongeval op een achtbaan in Six Flags Over Georgia. Half oktober was er nog geen heropeningsdatum bekend, dus vertrouw op de live wachttijden. Phantom Theater verving Boo Blasters, dat op 1 september 2025 sloot. Het park heeft geen klassieke bewegingssimulator, dus Phantom Theater vervangt de simulatorcategorie. Er is geen hotel in het park, want het oude Kings Island Inn sloot in 2014. Vortex sloot na 2019 en Son of Beast werd in 2012 gesloopt.",
+      "pt": "O Orion e o Diamondback estão fechados desde 12 de outubro de 2026 por precaução, após um acidente mortal numa montanha-russa do Six Flags Over Georgia. A meio de outubro ainda não havia data de reabertura, por isso confie nos tempos de espera em direto. O Phantom Theater substituiu o Boo Blasters, que fechou a 1 de setembro de 2025. O parque não tem um simulador de movimento clássico, por isso o Phantom Theater ocupa a categoria de simulador. Não há hotel dentro do parque, porque o antigo Kings Island Inn fechou em 2014. O Vortex fechou depois de 2019 e o Son of Beast foi demolido em 2012.",
+      "ru": "Orion и Diamondback закрыты с 12 октября 2026 года в качестве меры предосторожности после несчастного случая со смертельным исходом на горках в Six Flags Over Georgia. К середине октября дата открытия не объявлялась, поэтому ориентируйтесь на живое время ожидания. Phantom Theater заменил Boo Blasters, закрытый 1 сентября 2025 года. Классического симулятора движения в парке нет, поэтому Phantom Theater выступает в категории симуляторов. Отеля на территории парка нет: старый Kings Island Inn закрылся в 2014 году. Vortex закрыли после 2019 года, а Son of Beast снесли в 2012 году.",
+      "zh": "Orion和Diamondback自2026年10月12日起作为预防措施关闭，起因是Six Flags Over Georgia的一台过山车发生了致命事故。截至10月中旬尚未公布重新开放日期，请以实时排队时间为准。Phantom Theater取代了2025年9月1日关闭的Boo Blasters。乐园没有传统的动感模拟器，因此以Phantom Theater充当模拟器类别。园内没有酒店，因为旧的Kings Island Inn已于2014年关闭。Vortex在2019年后关闭，Son of Beast于2012年拆除。",
+      "ar": "أُغلق Orion وDiamondback منذ 12 أكتوبر 2026 كإجراء احترازي بعد حادث قاتل على قطار جبال روسية في Six Flags Over Georgia. ولم يُعلن عن موعد لإعادة الافتتاح حتى منتصف أكتوبر، فاعتمد على أوقات الانتظار المباشرة. وحلّ Phantom Theater محل Boo Blasters الذي أُغلق في 1 سبتمبر 2025. ولا يملك المتنزه محاكي حركة تقليدياً، لذا يحلّ Phantom Theater محله في فئة المحاكيات. ولا يوجد فندق داخل المتنزه لأن Kings Island Inn القديم أُغلق عام 2014. وأُغلق Vortex بعد 2019 وهُدم Son of Beast عام 2012."
+    },
+    "ov_plan_body": {
+      "en": "Kings Island is a seasonal park. The 2026 season opened on 18 April, and the park now runs WinterFest on select dates from 27 November to 31 December 2026. It then closes from 1 January until spring 2027, and the 2027 opening date has not been announced. Soak City is closed in winter. Online tickets start at about $39 plus a fee, tickets at the gate cost roughly twice as much, and parking is about $35 to $45. Summer hours are about 10:00 to 22:00, shorter in spring and autumn, so check the official calendar before you go.",
+      "es": "Kings Island es un parque de temporada. La temporada 2026 abrió el 18 de abril y ahora el parque celebra WinterFest en fechas seleccionadas del 27 de noviembre al 31 de diciembre de 2026. Después cierra desde el 1 de enero hasta la primavera de 2027, y la fecha de apertura de 2027 aún no se ha anunciado. Soak City está cerrado en invierno. Las entradas online empiezan en unos 39 $ más una tarifa, en taquilla cuestan aproximadamente el doble, y el aparcamiento cuesta entre 35 y 45 $. El horario de verano es de unas 10:00 a 22:00, más corto en primavera y otoño, así que consulta el calendario oficial antes de ir.",
+      "fr": "Kings Island est un parc saisonnier. La saison 2026 a ouvert le 18 avril et le parc propose maintenant WinterFest à des dates choisies du 27 novembre au 31 décembre 2026. Il ferme ensuite du 1er janvier jusqu'au printemps 2027, et la date d'ouverture 2027 n'a pas été annoncée. Soak City est fermé en hiver. Les billets en ligne commencent à environ 39 $ plus des frais, ils coûtent à peu près le double à l'entrée, et le parking coûte de 35 à 45 $. Les horaires d'été vont d'environ 10 h à 22 h, plus courts au printemps et à l'automne, consultez donc le calendrier officiel avant de venir.",
+      "de": "Kings Island ist ein Saisonpark. Die Saison 2026 begann am 18. April, und der Park veranstaltet nun an ausgewählten Tagen vom 27. November bis 31. Dezember 2026 WinterFest. Danach ist er ab dem 1. Januar bis zum Frühjahr 2027 geschlossen, der Eröffnungstermin 2027 ist noch nicht bekannt. Soak City ist im Winter geschlossen. Online-Tickets kosten ab etwa 39 $ plus Gebühr, an der Kasse etwa das Doppelte, und Parken kostet rund 35 bis 45 $. Die Sommeröffnungszeiten sind etwa 10:00 bis 22:00 Uhr, im Frühjahr und Herbst kürzer, prüfe also vorher den offiziellen Kalender.",
+      "it": "Kings Island è un parco stagionale. La stagione 2026 è iniziata il 18 aprile e ora il parco ospita WinterFest in date selezionate dal 27 novembre al 31 dicembre 2026. Poi chiude dal 1° gennaio fino alla primavera 2027, e la data di apertura del 2027 non è stata annunciata. Soak City è chiuso in inverno. I biglietti online partono da circa 39 $ più una commissione, alla biglietteria costano circa il doppio, e il parcheggio costa da 35 a 45 $. Gli orari estivi sono circa dalle 10:00 alle 22:00, più brevi in primavera e autunno, quindi controlla il calendario ufficiale prima di andare.",
+      "nl": "Kings Island is een seizoenspark. Het seizoen 2026 opende op 18 april en het park houdt nu WinterFest op geselecteerde data van 27 november tot en met 31 december 2026. Daarna is het gesloten van 1 januari tot het voorjaar van 2027, en de openingsdatum voor 2027 is nog niet bekendgemaakt. Soak City is in de winter gesloten. Online tickets kosten vanaf ongeveer 39 $ plus een toeslag, aan de kassa ongeveer het dubbele, en parkeren kost ongeveer 35 tot 45 $. De zomeropeningstijden zijn ongeveer 10:00 tot 22:00 uur, korter in lente en herfst, dus bekijk vooraf de officiële kalender.",
+      "pt": "O Kings Island é um parque sazonal. A temporada de 2026 abriu a 18 de abril e agora o parque realiza o WinterFest em datas selecionadas de 27 de novembro a 31 de dezembro de 2026. Depois fecha de 1 de janeiro até à primavera de 2027, e a data de abertura de 2027 ainda não foi anunciada. O Soak City está fechado no inverno. Os bilhetes online começam em cerca de 39 $ mais uma taxa, na bilheteira custam aproximadamente o dobro, e o estacionamento custa cerca de 35 a 45 $. O horário de verão é de cerca das 10:00 às 22:00, mais curto na primavera e no outono, por isso consulte o calendário oficial antes de ir.",
+      "ru": "Kings Island — сезонный парк. Сезон 2026 года открылся 18 апреля, а сейчас в выбранные даты с 27 ноября по 31 декабря 2026 года проходит WinterFest. Затем парк закрывается с 1 января до весны 2027 года, дата открытия в 2027 году пока не объявлена. Аквапарк Soak City зимой закрыт. Билеты онлайн стоят от примерно 39 $ плюс сбор, на входе примерно вдвое дороже, парковка — около 35–45 $. Летом парк работает примерно с 10:00 до 22:00, весной и осенью — меньше, поэтому перед поездкой проверьте официальный календарь.",
+      "zh": "Kings Island是季节性乐园。2026赛季于4月18日开放，目前在2026年11月27日至12月31日的部分日期举办WinterFest冬季活动。之后从1月1日起关闭至2027年春季，2027年的开园日期尚未公布。Soak City水上乐园冬季关闭。网上门票约39美元起，另加手续费，现场购票大约贵一倍，停车费约35至45美元。夏季开放时间约为10:00至22:00，春秋季较短，出行前请查看官方日历。",
+      "ar": "كينغز آيلند متنزه موسمي. افتُتح موسم 2026 في 18 أبريل، ويقيم المتنزه حالياً WinterFest في تواريخ مختارة من 27 نوفمبر إلى 31 ديسمبر 2026. ثم يُغلق من 1 يناير حتى ربيع 2027، ولم يُعلن موعد افتتاح 2027 بعد. ويُغلق Soak City في الشتاء. تبدأ تذاكر الإنترنت من نحو 39 دولاراً مع رسوم، وتكلّف عند البوابة نحو الضعف، ويبلغ موقف السيارات نحو 35 إلى 45 دولاراً. ساعات الصيف نحو 10:00 إلى 22:00 وأقصر في الربيع والخريف، فراجع التقويم الرسمي قبل الذهاب."
+    },
+    "ov_photos_body": {
+      "en": "The Eiffel Tower replica near the entrance makes a recognisable backdrop, and The Beast's wooden structure looks best among the trees. Banshee's inversions and Orion's tall first hill are strong coaster shots. WinterFest brings holiday lights and decorations in the evenings.",
+      "es": "La réplica de la Torre Eiffel cerca de la entrada es un fondo reconocible, y la estructura de madera de The Beast luce mejor entre los árboles. Las inversiones de Banshee y la alta primera subida de Orion dan buenas fotos de montañas rusas. WinterFest trae luces y decoración navideña por las noches.",
+      "fr": "La réplique de la tour Eiffel près de l'entrée offre un décor reconnaissable, et la structure en bois de The Beast est plus belle au milieu des arbres. Les inversions de Banshee et la grande première bosse d'Orion font de belles photos de coasters. WinterFest apporte des lumières et des décorations de fête le soir.",
+      "de": "Die Eiffelturm-Nachbildung nahe dem Eingang ist eine wiedererkennbare Kulisse, und die Holzkonstruktion von The Beast wirkt zwischen den Bäumen am besten. Die Inversionen von Banshee und der hohe erste Hügel von Orion geben starke Achterbahnfotos. WinterFest bringt abends Festbeleuchtung und Dekoration.",
+      "it": "La replica della Torre Eiffel vicino all'ingresso è uno sfondo riconoscibile, e la struttura in legno di The Beast sta meglio tra gli alberi. Le inversioni di Banshee e l'alta prima salita di Orion regalano ottime foto di montagne russe. WinterFest porta luci e decorazioni natalizie la sera.",
+      "nl": "De replica van de Eiffeltoren bij de ingang is een herkenbare achtergrond, en de houten constructie van The Beast komt het best tussen de bomen uit. De inversies van Banshee en de hoge eerste heuvel van Orion geven sterke achtbaanfoto's. WinterFest brengt 's avonds feestverlichting en versiering.",
+      "pt": "A réplica da Torre Eiffel perto da entrada é um fundo reconhecível, e a estrutura de madeira do The Beast fica melhor entre as árvores. As inversões do Banshee e a alta primeira subida do Orion dão ótimas fotos de montanhas-russas. O WinterFest traz luzes e decorações festivas à noite.",
+      "ru": "Копия Эйфелевой башни у входа — узнаваемый фон, а деревянная конструкция The Beast лучше всего смотрится среди деревьев. Инверсии Banshee и высокий первый подъём Orion дают сильные кадры горок. WinterFest приносит вечерние праздничные огни и украшения.",
+      "zh": "入口附近的埃菲尔铁塔复制品是辨识度很高的背景，The Beast的木质结构在树丛间拍起来最好看。Banshee的翻转和Orion高耸的第一个爬升都是很棒的过山车取景。WinterFest期间晚上会有节日灯饰和装饰。",
+      "ar": "نسخة برج إيفل قرب المدخل خلفية مميزة، وتبدو بنية The Beast الخشبية أجمل بين الأشجار. وانقلابات Banshee وصعود Orion الأول العالي لقطات رائعة للقطارات. ويجلب WinterFest أضواء الأعياد وزينتها مساءً."
+    }
+  },
+  "attractions": {
+    "the_beast": {
+      "desc": {
+        "en": "A wooden coaster with 2,244 m of track, 34 m high and up to 104 km/h, opened in 1979. Min 122cm.",
+        "es": "Una montaña rusa de madera con 2.244 m de vía, 34 m de altura y hasta 104 km/h, inaugurada en 1979. Mín. 122cm.",
+        "fr": "Un coaster en bois avec 2 244 m de rails, 34 m de haut et jusqu'à 104 km/h, ouvert en 1979. Min 122cm.",
+        "de": "Eine Holzachterbahn mit 2.244 m Strecke, 34 m Höhe und bis zu 104 km/h, 1979 eröffnet. Min 122cm.",
+        "it": "Una montagna russa in legno con 2.244 m di binari, alta 34 m e fino a 104 km/h, aperta nel 1979. Min 122cm.",
+        "nl": "Een houten achtbaan met 2.244 m baan, 34 m hoog en tot 104 km/u, geopend in 1979. Min 122cm.",
+        "pt": "Uma montanha-russa de madeira com 2244 m de pista, 34 m de altura e até 104 km/h, inaugurada em 1979. Mín. 122cm.",
+        "ru": "Деревянные горки с трассой 2244 м, высотой 34 м и скоростью до 104 км/ч, открыты в 1979 году. Рост от 122 см.",
+        "zh": "木质过山车，轨道长2244米，高34米，时速最高104公里，1979年开放。 最低身高122厘米。",
+        "ar": "قطار جبال روسية خشبي بمسار طوله 2244 م وارتفاع 34 م وسرعة حتى 104 كم/س، افتُتح عام 1979. الحد الأدنى 122 سم."
+      }
+    },
+    "banshee": {
+      "desc": {
+        "en": "A steel coaster 51 m high reaching 109 km/h with seven inversions, opened in 2014. Min 132cm.",
+        "es": "Una montaña rusa de acero de 51 m de altura que alcanza 109 km/h con siete inversiones, inaugurada en 2014. Mín. 132cm.",
+        "fr": "Un coaster en acier de 51 m de haut atteignant 109 km/h avec sept inversions, ouvert en 2014. Min 132cm.",
+        "de": "Eine 51 m hohe Stahlachterbahn mit 109 km/h und sieben Inversionen, 2014 eröffnet. Min 132cm.",
+        "it": "Una montagna russa in acciaio alta 51 m che raggiunge 109 km/h con sette inversioni, aperta nel 2014. Min 132cm.",
+        "nl": "Een stalen achtbaan van 51 m hoog die 109 km/u haalt met zeven inversies, geopend in 2014. Min 132cm.",
+        "pt": "Uma montanha-russa de aço com 51 m de altura que atinge 109 km/h com sete inversões, inaugurada em 2014. Mín. 132cm.",
+        "ru": "Стальные горки высотой 51 м со скоростью 109 км/ч и семью инверсиями, открыты в 2014 году. Рост от 132 см.",
+        "zh": "高51米、时速109公里、带七次翻转的钢轨过山车，2014年开放。 最低身高132厘米。",
+        "ar": "قطار جبال روسية فولاذي بارتفاع 51 م يبلغ 109 كم/س بسبعة انقلابات، افتُتح عام 2014. الحد الأدنى 132 سم."
+      }
+    },
+    "mystic_timbers": {
+      "desc": {
+        "en": "A wooden coaster 33 m high reaching 85 km/h, opened in 2017. Min 122cm.",
+        "es": "Una montaña rusa de madera de 33 m de altura que alcanza 85 km/h, inaugurada en 2017. Mín. 122cm.",
+        "fr": "Un coaster en bois de 33 m de haut atteignant 85 km/h, ouvert en 2017. Min 122cm.",
+        "de": "Eine 33 m hohe Holzachterbahn mit 85 km/h, 2017 eröffnet. Min 122cm.",
+        "it": "Una montagna russa in legno alta 33 m che raggiunge 85 km/h, aperta nel 2017. Min 122cm.",
+        "nl": "Een houten achtbaan van 33 m hoog die 85 km/u haalt, geopend in 2017. Min 122cm.",
+        "pt": "Uma montanha-russa de madeira com 33 m de altura que atinge 85 km/h, inaugurada em 2017. Mín. 122cm.",
+        "ru": "Деревянные горки высотой 33 м со скоростью 85 км/ч, открыты в 2017 году. Рост от 122 см.",
+        "zh": "高33米、时速85公里的木质过山车，2017年开放。 最低身高122厘米。",
+        "ar": "قطار جبال روسية خشبي بارتفاع 33 م يبلغ 85 كم/س، افتُتح عام 2017. الحد الأدنى 122 سم."
+      }
+    },
+    "orion": {
+      "desc": {
+        "en": "A giga coaster 88 m high reaching about 146 km/h, opened in 2020. Temporarily closed since 12 October 2026, with no reopening date. Min 137cm.",
+        "es": "Una giga montaña rusa de 88 m de altura que alcanza unos 146 km/h, inaugurada en 2020. Cerrada temporalmente desde el 12 de octubre de 2026, sin fecha de reapertura. Mín. 137cm.",
+        "fr": "Un giga coaster de 88 m de haut atteignant environ 146 km/h, ouvert en 2020. Fermé temporairement depuis le 12 octobre 2026, sans date de réouverture. Min 137cm.",
+        "de": "Ein 88 m hoher Giga-Coaster mit etwa 146 km/h, 2020 eröffnet. Seit dem 12. Oktober 2026 vorübergehend geschlossen, ohne Wiedereröffnungstermin. Min 137cm.",
+        "it": "Una giga coaster alta 88 m che raggiunge circa 146 km/h, aperta nel 2020. Chiusa temporaneamente dal 12 ottobre 2026, senza data di riapertura. Min 137cm.",
+        "nl": "Een gigacoaster van 88 m hoog die ongeveer 146 km/u haalt, geopend in 2020. Sinds 12 oktober 2026 tijdelijk gesloten, zonder heropeningsdatum. Min 137cm.",
+        "pt": "Uma giga montanha-russa com 88 m de altura que atinge cerca de 146 km/h, inaugurada em 2020. Fechada temporariamente desde 12 de outubro de 2026, sem data de reabertura. Mín. 137cm.",
+        "ru": "Гигакастер высотой 88 м со скоростью около 146 км/ч, открыт в 2020 году. Временно закрыт с 12 октября 2026 года, дата открытия не объявлена. Рост от 137 см.",
+        "zh": "高88米、时速约146公里的巨型过山车，2020年开放。自2026年10月12日起临时关闭，重新开放日期未定。 最低身高137厘米。",
+        "ar": "قطار جبال روسية عملاق بارتفاع 88 م يبلغ نحو 146 كم/س، افتُتح عام 2020. مغلق مؤقتاً منذ 12 أكتوبر 2026 دون موعد لإعادة الافتتاح. الحد الأدنى 137 سم."
+      }
+    },
+    "diamondback": {
+      "desc": {
+        "en": "A steel coaster 70 m high reaching 130 km/h, opened in 2009. Temporarily closed since 12 October 2026, with no reopening date. Min 137cm.",
+        "es": "Una montaña rusa de acero de 70 m de altura que alcanza 130 km/h, inaugurada en 2009. Cerrada temporalmente desde el 12 de octubre de 2026, sin fecha de reapertura. Mín. 137cm.",
+        "fr": "Un coaster en acier de 70 m de haut atteignant 130 km/h, ouvert en 2009. Fermé temporairement depuis le 12 octobre 2026, sans date de réouverture. Min 137cm.",
+        "de": "Eine 70 m hohe Stahlachterbahn mit 130 km/h, 2009 eröffnet. Seit dem 12. Oktober 2026 vorübergehend geschlossen, ohne Wiedereröffnungstermin. Min 137cm.",
+        "it": "Una montagna russa in acciaio alta 70 m che raggiunge 130 km/h, aperta nel 2009. Chiusa temporaneamente dal 12 ottobre 2026, senza data di riapertura. Min 137cm.",
+        "nl": "Een stalen achtbaan van 70 m hoog die 130 km/u haalt, geopend in 2009. Sinds 12 oktober 2026 tijdelijk gesloten, zonder heropeningsdatum. Min 137cm.",
+        "pt": "Uma montanha-russa de aço com 70 m de altura que atinge 130 km/h, inaugurada em 2009. Fechada temporariamente desde 12 de outubro de 2026, sem data de reabertura. Mín. 137cm.",
+        "ru": "Стальные горки высотой 70 м со скоростью 130 км/ч, открыты в 2009 году. Временно закрыты с 12 октября 2026 года, дата открытия не объявлена. Рост от 137 см.",
+        "zh": "高70米、时速130公里的钢轨过山车，2009年开放。自2026年10月12日起临时关闭，重新开放日期未定。 最低身高137厘米。",
+        "ar": "قطار جبال روسية فولاذي بارتفاع 70 م يبلغ 130 كم/س، افتُتح عام 2009. مغلق مؤقتاً منذ 12 أكتوبر 2026 دون موعد لإعادة الافتتاح. الحد الأدنى 137 سم."
+      }
+    },
+    "flight_of_fear": {
+      "desc": {
+        "en": "An indoor launched coaster with four inversions, reaching 87 km/h, opened in 1996. Min 137cm.",
+        "es": "Una montaña rusa cubierta con lanzamiento y cuatro inversiones que alcanza 87 km/h, inaugurada en 1996. Mín. 137cm.",
+        "fr": "Un coaster couvert à lancement avec quatre inversions, atteignant 87 km/h, ouvert en 1996. Min 137cm.",
+        "de": "Eine Indoor-Katapultachterbahn mit vier Inversionen und 87 km/h, 1996 eröffnet. Min 137cm.",
+        "it": "Una montagna russa al coperto a lancio con quattro inversioni, che raggiunge 87 km/h, aperta nel 1996. Min 137cm.",
+        "nl": "Een overdekte lanceerachtbaan met vier inversies die 87 km/u haalt, geopend in 1996. Min 137cm.",
+        "pt": "Uma montanha-russa coberta de lançamento com quatro inversões, que atinge 87 km/h, inaugurada em 1996. Mín. 137cm.",
+        "ru": "Крытые горки с запуском и четырьмя инверсиями, скорость 87 км/ч, открыты в 1996 году. Рост от 137 см.",
+        "zh": "带四次翻转的室内弹射过山车，时速87公里，1996年开放。 最低身高137厘米。",
+        "ar": "قطار جبال روسية مغطى بالقذف وأربعة انقلابات يبلغ 87 كم/س، افتُتح عام 1996. الحد الأدنى 137 سم."
+      }
+    },
+    "the_racer": {
+      "desc": {
+        "en": "A classic wooden coaster with two tracks, 27 m high and up to 85 km/h, opened in 1972. Min 122cm.",
+        "es": "Una montaña rusa de madera clásica con dos vías, 27 m de altura y hasta 85 km/h, inaugurada en 1972. Mín. 122cm.",
+        "fr": "Un coaster en bois classique à deux voies, 27 m de haut et jusqu'à 85 km/h, ouvert en 1972. Min 122cm.",
+        "de": "Eine klassische Holzachterbahn mit zwei Strecken, 27 m hoch und bis zu 85 km/h, 1972 eröffnet. Min 122cm.",
+        "it": "Una montagna russa in legno classica con due binari, alta 27 m e fino a 85 km/h, aperta nel 1972. Min 122cm.",
+        "nl": "Een klassieke houten achtbaan met twee banen, 27 m hoog en tot 85 km/u, geopend in 1972. Min 122cm.",
+        "pt": "Uma montanha-russa de madeira clássica com duas pistas, 27 m de altura e até 85 km/h, inaugurada em 1972. Mín. 122cm.",
+        "ru": "Классические деревянные горки с двумя трассами, высота 27 м, скорость до 85 км/ч, открыты в 1972 году. Рост от 122 см.",
+        "zh": "经典木质过山车，双轨设计，高27米，时速最高85公里，1972年开放。 最低身高122厘米。",
+        "ar": "قطار جبال روسية خشبي كلاسيكي بمسارين وارتفاع 27 م وسرعة حتى 85 كم/س، افتُتح عام 1972. الحد الأدنى 122 سم."
+      }
+    },
+    "delirium": {
+      "desc": {
+        "en": "A giant swinging-arm ride 42 m high that swings riders through 120 degrees, opened in 2003. Min 132cm.",
+        "es": "Una atracción de brazo oscilante gigante de 42 m de altura que balancea a los pasajeros 120 grados, inaugurada en 2003. Mín. 132cm.",
+        "fr": "Une attraction à bras pivotant géante de 42 m de haut qui balance les passagers sur 120 degrés, ouverte en 2003. Min 132cm.",
+        "de": "Ein riesiges Schwingarm-Fahrgeschäft, 42 m hoch, das Fahrgäste um 120 Grad schwingt, 2003 eröffnet. Min 132cm.",
+        "it": "Un'attrazione a braccio oscillante gigante alta 42 m che fa oscillare i passeggeri di 120 gradi, aperta nel 2003. Min 132cm.",
+        "nl": "Een gigantische zwaaiarm-attractie van 42 m hoog die rijders 120 graden laat zwaaien, geopend in 2003. Min 132cm.",
+        "pt": "Uma atração de braço oscilante gigante com 42 m de altura que balança os passageiros 120 graus, inaugurada em 2003. Mín. 132cm.",
+        "ru": "Гигантский качающийся аттракцион высотой 42 м, раскачивающий пассажиров на 120 градусов, открыт в 2003 году. Рост от 132 см.",
+        "zh": "高42米的巨型摆臂游乐设施，摆动角度达120度，2003年开放。 最低身高132厘米。",
+        "ar": "لعبة ذراع متأرجحة عملاقة بارتفاع 42 م تُرجح الركاب بزاوية 120 درجة، افتُتحت عام 2003. الحد الأدنى 132 سم."
+      }
+    },
+    "drop_tower": {
+      "desc": {
+        "en": "A 96 m drop tower that opened in 1999 as Drop Zone: Stunt Tower. Min 122cm.",
+        "es": "Una torre de caída de 96 m que abrió en 1999 como Drop Zone: Stunt Tower. Mín. 122cm.",
+        "fr": "Une tour de chute de 96 m ouverte en 1999 sous le nom de Drop Zone: Stunt Tower. Min 122cm.",
+        "de": "Ein 96 m hoher Freifallturm, der 1999 als Drop Zone: Stunt Tower eröffnete. Min 122cm.",
+        "it": "Una torre di caduta alta 96 m, aperta nel 1999 come Drop Zone: Stunt Tower. Min 122cm.",
+        "nl": "Een valtoren van 96 m hoog die in 1999 opende als Drop Zone: Stunt Tower. Min 122cm.",
+        "pt": "Uma torre de queda livre com 96 m de altura que abriu em 1999 como Drop Zone: Stunt Tower. Mín. 122cm.",
+        "ru": "Башня свободного падения высотой 96 м, открытая в 1999 году под названием Drop Zone: Stunt Tower. Рост от 122 см.",
+        "zh": "高96米的跳楼机，1999年以Drop Zone: Stunt Tower之名开放。 最低身高122厘米。",
+        "ar": "برج سقوط بارتفاع 96 م افتُتح عام 1999 باسم Drop Zone: Stunt Tower. الحد الأدنى 122 سم."
+      }
+    },
+    "woodstock_express": {
+      "desc": {
+        "en": "A family wooden coaster in Planet Snoopy, in the park since 1972. Min 102cm.",
+        "es": "Una montaña rusa familiar de madera en Planet Snoopy, en el parque desde 1972. Mín. 102cm.",
+        "fr": "Un coaster familial en bois à Planet Snoopy, dans le parc depuis 1972. Min 102cm.",
+        "de": "Eine Familien-Holzachterbahn in Planet Snoopy, seit 1972 im Park. Min 102cm.",
+        "it": "Una montagna russa in legno per famiglie a Planet Snoopy, nel parco dal 1972. Min 102cm.",
+        "nl": "Een houten gezinsachtbaan in Planet Snoopy, sinds 1972 in het park. Min 102cm.",
+        "pt": "Uma montanha-russa de madeira para famílias no Planet Snoopy, no parque desde 1972. Mín. 102cm.",
+        "ru": "Семейные деревянные горки в Planet Snoopy, в парке с 1972 года. Рост от 102 см.",
+        "zh": "Planet Snoopy区域的家庭木质过山车，自1972年起就在园内。 最低身高102厘米。",
+        "ar": "قطار جبال روسية خشبي عائلي في Planet Snoopy، موجود في المتنزه منذ عام 1972. الحد الأدنى 102 سم."
+      }
+    },
+    "grand_carousel": {
+      "desc": {
+        "en": "A carousel built in 1926 with 48 horses, at the park since 1972. Children under 117 cm must ride with an adult.",
+        "es": "Un tiovivo construido en 1926 con 48 caballos, en el parque desde 1972. Los menores de 117 cm deben subir con un adulto.",
+        "fr": "Un carrousel construit en 1926 avec 48 chevaux, dans le parc depuis 1972. Les enfants de moins de 117 cm doivent être accompagnés d'un adulte.",
+        "de": "Ein 1926 gebautes Karussell mit 48 Pferden, seit 1972 im Park. Kinder unter 117 cm müssen mit einem Erwachsenen fahren.",
+        "it": "Una giostra costruita nel 1926 con 48 cavalli, nel parco dal 1972. I bambini sotto i 117 cm devono salire con un adulto.",
+        "nl": "Een carrousel uit 1926 met 48 paarden, sinds 1972 in het park. Kinderen onder 117 cm moeten met een volwassene mee.",
+        "pt": "Um carrossel construído em 1926 com 48 cavalos, no parque desde 1972. Crianças com menos de 117 cm devem andar com um adulto.",
+        "ru": "Карусель 1926 года с 48 лошадками, в парке с 1972 года. Дети ростом менее 117 см катаются только со взрослым.",
+        "zh": "1926年建造的旋转木马，共有48匹马，1972年起落户乐园。身高不足117厘米的儿童须由成人陪同。",
+        "ar": "دوّارة بُنيت عام 1926 فيها 48 حصاناً، موجودة في المتنزه منذ 1972. على الأطفال دون 117 سم الركوب مع بالغ."
+      }
+    },
+    "phantom_theater_opening_nightmare": {
+      "desc": {
+        "en": "An interactive indoor dark ride opened in 2026, where guests use flashlights to find ghost notes across 26 scenes. It replaced Boo Blasters. Minimum height not confirmed.",
+        "es": "Una atracción oscura interactiva cubierta inaugurada en 2026, donde los visitantes usan linternas para encontrar notas fantasma en 26 escenas. Sustituyó a Boo Blasters. Altura mínima sin confirmar.",
+        "fr": "Une attraction sombre interactive couverte ouverte en 2026, où l'on utilise des lampes torches pour trouver des notes fantômes dans 26 scènes. Elle a remplacé Boo Blasters. Taille minimale non confirmée.",
+        "de": "Eine interaktive Indoor-Dunkelfahrt, 2026 eröffnet, bei der Gäste mit Taschenlampen in 26 Szenen Geisternotizen suchen. Sie ersetzte Boo Blasters. Mindestgröße nicht bestätigt.",
+        "it": "Un dark ride interattivo al coperto aperto nel 2026, dove si usano le torce per trovare note fantasma in 26 scene. Ha sostituito Boo Blasters. Altezza minima non confermata.",
+        "nl": "Een interactieve overdekte darkride, geopend in 2026, waarbij gasten met zaklampen spooknotities zoeken in 26 scènes. Ze verving Boo Blasters. Minimale lengte niet bevestigd.",
+        "pt": "Uma atração escura interativa coberta inaugurada em 2026, onde os visitantes usam lanternas para encontrar notas fantasma em 26 cenas. Substituiu o Boo Blasters. Altura mínima não confirmada.",
+        "ru": "Интерактивный тёмный аттракцион в помещении, открыт в 2026 году: гости с фонариками ищут призрачные записки в 26 сценах. Заменил Boo Blasters. Минимальный рост не подтверждён.",
+        "zh": "2026年开放的室内互动暗黑骑乘项目，游客用手电筒在26个场景中寻找幽灵便条。取代了Boo Blasters。最低身高未确认。",
+        "ar": "رحلة مظلمة تفاعلية مغطاة افتُتحت عام 2026، يستخدم فيها الزوار المصابيح لإيجاد ملاحظات الأشباح عبر 26 مشهداً. حلّت محل Boo Blasters. الحد الأدنى للطول غير مؤكد."
+      }
+    },
+    "white_water_canyon": {
+      "desc": {
+        "en": "A river-rapids raft ride that opened in 1985. Expect to get wet. Min 117cm.",
+        "es": "Una atracción de rápidos en balsa inaugurada en 1985. Te mojarás. Mín. 117cm.",
+        "fr": "Une attraction de rapides en bouée ouverte en 1985. Attendez-vous à être mouillé. Min 117cm.",
+        "de": "Eine Wildwasser-Floßfahrt, 1985 eröffnet. Man wird nass. Min 117cm.",
+        "it": "Un'attrazione di rafting sulle rapide aperta nel 1985. Ci si bagna. Min 117cm.",
+        "nl": "Een wildwaterraftattractie, geopend in 1985. Je wordt nat. Min 117cm.",
+        "pt": "Uma atração de rafting em rápidos inaugurada em 1985. Vai ficar molhado. Mín. 117cm.",
+        "ru": "Сплав на плотах по порогам, открыт в 1985 году. Вы промокнете. Рост от 117 см.",
+        "zh": "1985年开放的漂流激流项目，会被水打湿。 最低身高117厘米。",
+        "ar": "لعبة تجديف على قوارب في المنحدرات المائية افتُتحت عام 1985. ستبتل بالتأكيد. الحد الأدنى 117 سم."
+      }
+    },
+    "congo_falls": {
+      "desc": {
+        "en": "A shoot-the-chutes water ride that opened in 1988 as Amazon Falls and was renamed Congo Falls in 1999. Expect to get wet. Min 117cm.",
+        "es": "Una atracción acuática de tobogán de agua inaugurada en 1988 como Amazon Falls y rebautizada Congo Falls en 1999. Te mojarás. Mín. 117cm.",
+        "fr": "Une attraction aquatique de type shoot-the-chute ouverte en 1988 sous le nom d'Amazon Falls et rebaptisée Congo Falls en 1999. Attendez-vous à être mouillé. Min 117cm.",
+        "de": "Eine Wasserrutschen-Fahrt (Shoot-the-Chutes), 1988 als Amazon Falls eröffnet und 1999 in Congo Falls umbenannt. Man wird nass. Min 117cm.",
+        "it": "Un'attrazione acquatica shoot-the-chute aperta nel 1988 come Amazon Falls e ribattezzata Congo Falls nel 1999. Ci si bagna. Min 117cm.",
+        "nl": "Een shoot-the-chutes-waterattractie, in 1988 geopend als Amazon Falls en in 1999 omgedoopt tot Congo Falls. Je wordt nat. Min 117cm.",
+        "pt": "Uma atração aquática do tipo shoot-the-chutes inaugurada em 1988 como Amazon Falls e rebatizada Congo Falls em 1999. Vai ficar molhado. Mín. 117cm.",
+        "ru": "Водный аттракцион-спуск на лодках, открыт в 1988 году как Amazon Falls, в 1999 году переименован в Congo Falls. Вы промокнете. Рост от 117 см.",
+        "zh": "一种滑水道式水上项目，1988年以Amazon Falls之名开放，1999年更名为Congo Falls。会被水打湿。 最低身高117厘米。",
+        "ar": "لعبة مائية من نوع الانزلاق بالقوارب افتُتحت عام 1988 باسم Amazon Falls وأُعيدت تسميتها Congo Falls عام 1999. ستبتل بالتأكيد. الحد الأدنى 117 سم."
+      }
+    },
+    "riverracers": {
+      "desc": {
+        "en": "A dual-racing water coaster in Soak City with a 10 m first drop, opened in 2025. Soak City is closed in winter. Min 107cm.",
+        "es": "Una montaña rusa acuática de carreras dobles en Soak City con una primera caída de 10 m, inaugurada en 2025. Soak City está cerrado en invierno. Mín. 107cm.",
+        "fr": "Un coaster aquatique à courses parallèles à Soak City avec une première chute de 10 m, ouvert en 2025. Soak City est fermé en hiver. Min 107cm.",
+        "de": "Eine Wasserachterbahn mit Rennduell in Soak City mit 10 m erstem Abfall, 2025 eröffnet. Soak City ist im Winter geschlossen. Min 107cm.",
+        "it": "Una montagna russa acquatica a gara doppia a Soak City con una prima discesa di 10 m, aperta nel 2025. Soak City è chiuso in inverno. Min 107cm.",
+        "nl": "Een waterachtbaan met dubbele race in Soak City met een eerste afdaling van 10 m, geopend in 2025. Soak City is in de winter gesloten. Min 107cm.",
+        "pt": "Uma montanha-russa aquática de corrida dupla no Soak City com uma primeira descida de 10 m, inaugurada em 2025. O Soak City está fechado no inverno. Mín. 107cm.",
+        "ru": "Водные горки с гонкой на двоих в Soak City с первым спуском 10 м, открыты в 2025 году. Зимой Soak City закрыт. Рост от 107 см.",
+        "zh": "Soak City内的双人竞速水上过山车，首落差10米，2025年开放。Soak City冬季关闭。 最低身高107厘米。",
+        "ar": "قطار جبال مائي لسباق مزدوج في Soak City بأول انحدار 10 م، افتُتح عام 2025. يُغلق Soak City في الشتاء. الحد الأدنى 107 سم."
+      }
+    }
+  },
+  "food": {
+    "food_coney_bar_b_que": {
+      "desc": {
+        "en": "Fast-casual barbecue in Coney Mall: pulled pork, rotisserie chicken and smoked ribs.",
+        "es": "Barbacoa informal en Coney Mall: cerdo desmenuzado, pollo asado y costillas ahumadas.",
+        "fr": "Barbecue décontracté à Coney Mall : effiloché de porc, poulet rôti et travers fumés.",
+        "de": "Lockeres Barbecue in der Coney Mall: Pulled Pork, Grillhähnchen und geräucherte Rippchen.",
+        "it": "Barbecue informale a Coney Mall: pulled pork, pollo arrosto e costine affumicate.",
+        "nl": "Informele barbecue in Coney Mall: pulled pork, gebraden kip en gerookte ribben.",
+        "pt": "Churrasco informal no Coney Mall: porco desfiado, frango assado e costelas fumadas.",
+        "ru": "Барбекю быстрого обслуживания в Coney Mall: рваная свинина, курица гриль и копчёные рёбрышки.",
+        "zh": "Coney Mall内的快餐式烧烤，供应手撕猪肉、烤鸡和烟熏排骨。",
+        "ar": "شواء سريع في Coney Mall يقدم لحم الخنزير الممزق والدجاج المشوي والأضلاع المدخنة."
+      }
+    },
+    "food_jukebox_diner": {
+      "desc": {
+        "en": "Retro 1950s diner: grilled cheeseburgers, patty melt and thick milkshakes.",
+        "es": "Restaurante retro de los años 50: hamburguesas con queso a la parrilla, patty melt y batidos espesos.",
+        "fr": "Diner rétro des années 50 : cheeseburgers grillés, patty melt et milkshakes épais.",
+        "de": "Retro-Diner im Stil der 50er: gegrillte Cheeseburger, Patty Melt und dicke Milchshakes.",
+        "it": "Diner retrò anni '50: cheeseburger alla griglia, patty melt e frappè densi.",
+        "nl": "Retro-diner uit de jaren 50: gegrilde cheeseburgers, patty melt en dikke milkshakes.",
+        "pt": "Diner retro dos anos 50: cheeseburgers grelhados, patty melt e batidos espessos.",
+        "ru": "Ретро-закусочная в стиле 1950-х: чизбургеры на гриле, патти-мелт и густые молочные коктейли.",
+        "zh": "1950年代复古风餐厅，供应烤芝士汉堡、融化芝士肉饼三明治和浓稠奶昔。",
+        "ar": "مطعم على طراز الخمسينيات يقدم برغر بالجبن مشوياً وباتي ميلت ومخفوق حليب كثيفاً."
+      }
+    },
+    "food_festhaus": {
+      "desc": {
+        "en": "Bavarian-style air-conditioned dining hall with burgers, chicken tenders and pizza.",
+        "es": "Comedor climatizado de estilo bávaro con hamburguesas, tiras de pollo y pizza.",
+        "fr": "Salle de restaurant climatisée de style bavarois avec burgers, tenders de poulet et pizza.",
+        "de": "Klimatisierte Speisehalle im bayerischen Stil mit Burgern, Chicken Tenders und Pizza.",
+        "it": "Sala da pranzo climatizzata in stile bavarese con hamburger, straccetti di pollo e pizza.",
+        "nl": "Gekoelde eetzaal in Beierse stijl met burgers, kipstukjes en pizza.",
+        "pt": "Sala de refeições climatizada de estilo bávaro com hambúrgueres, tiras de frango e pizza.",
+        "ru": "Кондиционируемый зал в баварском стиле: бургеры, куриные наггетсы и пицца.",
+        "zh": "巴伐利亚风格的空调餐厅，供应汉堡、炸鸡条和披萨。",
+        "ar": "قاعة طعام مكيّفة بطراز بافاري تقدم البرغر وقطع الدجاج والبيتزا."
+      }
+    },
+    "food_potato_works": {
+      "desc": {
+        "en": "Fresh-cut fries stand in Rivertown, all gluten free, with loaded options.",
+        "es": "Puesto de patatas fritas recién cortadas en Rivertown, todo sin gluten, con opciones cargadas.",
+        "fr": "Stand de frites fraîches à Rivertown, tout sans gluten, avec des options garnies.",
+        "de": "Pommes-Stand in Rivertown mit frisch geschnittenen Pommes, alles glutenfrei, mit belegten Varianten.",
+        "it": "Chiosco di patatine fresche a Rivertown, tutto senza glutine, con versioni farcite.",
+        "nl": "Frietkraam in Rivertown met vers gesneden frietjes, alles glutenvrij, met beladen varianten.",
+        "pt": "Quiosque de batatas fritas frescas em Rivertown, tudo sem glúten, com opções recheadas.",
+        "ru": "Киоск со свежей картошкой фри в Rivertown, всё без глютена, есть варианты с добавками.",
+        "zh": "Rivertown区的现切薯条摊，所有食品均不含麸质，还有加料薯条。",
+        "ar": "كشك بطاطس مقلية طازجة في Rivertown، كل الأصناف خالية من الغلوتين مع خيارات محمّلة."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_great_wolf_lodge_mason": {
+      "desc": {
+        "en": "Indoor water-park resort about 0.6 miles (1 km) from the park.",
+        "es": "Resort con parque acuático cubierto a unos 0,6 millas (1 km) del parque.",
+        "fr": "Resort avec parc aquatique couvert à environ 1 km du parc.",
+        "de": "Resort mit Indoor-Wasserpark, etwa 1 km vom Park entfernt.",
+        "it": "Resort con parco acquatico coperto a circa 1 km dal parco.",
+        "nl": "Resort met overdekt waterpark, ongeveer 1 km van het park.",
+        "pt": "Resort com parque aquático coberto a cerca de 1 km do parque.",
+        "ru": "Курорт с крытым аквапарком примерно в 1 км от парка.",
+        "zh": "带室内水上乐园的度假酒店，距乐园约1公里。",
+        "ar": "منتجع مع متنزه مائي داخلي على بعد نحو 1 كم من المتنزه."
+      }
+    },
+    "hotel_comfort_suites_mason": {
+      "desc": {
+        "en": "Budget-friendly hotel about 0.9 miles (1.4 km) from the park.",
+        "es": "Hotel económico a unos 0,9 millas (1,4 km) del parque.",
+        "fr": "Hôtel économique à environ 1,4 km du parc.",
+        "de": "Günstiges Hotel etwa 1,4 km vom Park entfernt.",
+        "it": "Hotel economico a circa 1,4 km dal parco.",
+        "nl": "Voordelig hotel op ongeveer 1,4 km van het park.",
+        "pt": "Hotel económico a cerca de 1,4 km do parque.",
+        "ru": "Недорогой отель примерно в 1,4 км от парка.",
+        "zh": "经济型酒店，距乐园约1.4公里。",
+        "ar": "فندق اقتصادي على بعد نحو 1.4 كم من المتنزه."
+      }
+    },
+    "hotel_hampton_inn_mason": {
+      "desc": {
+        "en": "Mid-range hotel about 1 mile (1.6 km) from the park.",
+        "es": "Hotel de gama media a una milla (1,6 km) del parque.",
+        "fr": "Hôtel de milieu de gamme à environ 1,6 km du parc.",
+        "de": "Mittelklassehotel etwa 1,6 km vom Park entfernt.",
+        "it": "Hotel di fascia media a circa 1,6 km dal parco.",
+        "nl": "Hotel in het middensegment op ongeveer 1,6 km van het park.",
+        "pt": "Hotel de gama média a cerca de 1,6 km do parque.",
+        "ru": "Отель среднего класса примерно в 1,6 км от парка.",
+        "zh": "中档酒店，距乐园约1.6公里。",
+        "ar": "فندق متوسط الفئة على بعد نحو 1.6 كم من المتنزه."
+      }
+    },
+    "hotel_springhill_suites_mason": {
+      "desc": {
+        "en": "All-suite hotel about 1.1 miles (1.8 km) from the park.",
+        "es": "Hotel de suites a unos 1,1 millas (1,8 km) del parque.",
+        "fr": "Hôtel de suites à environ 1,8 km du parc.",
+        "de": "Suitenhotel etwa 1,8 km vom Park entfernt.",
+        "it": "Hotel di sole suite a circa 1,8 km dal parco.",
+        "nl": "Suitehotel op ongeveer 1,8 km van het park.",
+        "pt": "Hotel só de suites a cerca de 1,8 km do parque.",
+        "ru": "Отель с номерами-сьютами примерно в 1,8 км от парка.",
+        "zh": "全套房酒店，距乐园约1.8公里。",
+        "ar": "فندق أجنحة فقط على بعد نحو 1.8 كم من المتنزه."
+      }
+    },
+    "hotel_camp_cedar": {
+      "desc": {
+        "en": "Cabin and RV resort managed by Kings Island, about 1.1 miles (1.8 km) away.",
+        "es": "Resort de cabañas y caravanas gestionado por Kings Island, a unos 1,1 millas (1,8 km).",
+        "fr": "Complexe de cabanes et de camping-cars géré par Kings Island, à environ 1,8 km.",
+        "de": "Von Kings Island betriebenes Hütten- und Wohnmobil-Resort, etwa 1,8 km entfernt.",
+        "it": "Resort con cabine e camper gestito da Kings Island, a circa 1,8 km.",
+        "nl": "Hutten- en camperresort beheerd door Kings Island, op ongeveer 1,8 km.",
+        "pt": "Resort de cabanas e autocaravanas gerido pelo Kings Island, a cerca de 1,8 km.",
+        "ru": "Курорт с домиками и местами для автодомов под управлением Kings Island, примерно в 1,8 км.",
+        "zh": "由Kings Island管理的木屋和房车度假村，距乐园约1.8公里。",
+        "ar": "منتجع أكواخ ومركبات سكنية تديره Kings Island، على بعد نحو 1.8 كم."
+      }
+    }
+  }
+}

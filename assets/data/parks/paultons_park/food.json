@@ -1,0 +1,114 @@
+[
+  {
+    "id": "food_wild_forest_family_restaurant",
+    "name": "Wild Forest Family Restaurant",
+    "description": "A family restaurant in the park serving burgers, wraps and jacket potatoes, with kids' and vegan or vegetarian options. It is seasonal, with a reduced menu off-peak. Prices here are estimates.",
+    "topPick": true,
+    "type": "Restaurant",
+    "image": "assets/images/paultons_park/food_wild_forest_family_restaurant.png",
+    "lat": 50.9488,
+    "lng": -1.5527,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Burger",
+        "description": "Burger with sides",
+        "price": 9.5
+      },
+      {
+        "name": "Jacket Potato",
+        "description": "Baked potato with a choice of fillings",
+        "price": 7.5
+      },
+      {
+        "name": "Kids' Meal",
+        "description": "Small meal for children",
+        "price": 6.5
+      }
+    ]
+  },
+  {
+    "id": "food_route_83_diner",
+    "name": "Route 83 Diner",
+    "description": "An American-style diner in Tornado Springs serving the 83 Burger, chicken tenders and the Bad Boy Dog. Prices here are estimates.",
+    "topPick": true,
+    "type": "Diner",
+    "image": "assets/images/paultons_park/food_route_83_diner.png",
+    "lat": 50.9482,
+    "lng": -1.5529,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "The 83 Burger",
+        "description": "The diner's signature burger",
+        "price": 11.5
+      },
+      {
+        "name": "Chicken Tenders",
+        "description": "Crispy chicken strips",
+        "price": 8.5
+      },
+      {
+        "name": "Bad Boy Dog",
+        "description": "Loaded hot dog",
+        "price": 8
+      }
+    ]
+  },
+  {
+    "id": "food_daddy_pigs_cafe",
+    "name": "Daddy Pig's Café",
+    "description": "A café in Peppa Pig World serving pizza, pasties, snacks and drinks, with vegan and vegetarian options. Prices here are estimates.",
+    "topPick": false,
+    "type": "Cafe",
+    "image": "assets/images/paultons_park/food_daddy_pigs_cafe.png",
+    "lat": 50.9473,
+    "lng": -1.5549,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Pizza",
+        "description": "Freshly baked pizza",
+        "price": 8
+      },
+      {
+        "name": "Pasty",
+        "description": "Warm pasty",
+        "price": 5.5
+      },
+      {
+        "name": "Soft Drink",
+        "description": "Chilled soft drink",
+        "price": 2.8
+      }
+    ]
+  },
+  {
+    "id": "food_the_feasting_hall",
+    "name": "The Feasting Hall",
+    "description": "A restaurant in the new Valgard area, new for 2026, serving flame-grilled and fried chicken, salad and couscous bowls, pancakes and sundaes, and the Golden Apple Frost drink. Prices here are estimates.",
+    "topPick": false,
+    "type": "Restaurant",
+    "image": "assets/images/paultons_park/food_the_feasting_hall.png",
+    "lat": 50.9495,
+    "lng": -1.5514,
+    "rating": 4.3,
+    "items": [
+      {
+        "name": "Flame-Grilled Chicken",
+        "description": "Chicken from the grill with sides",
+        "price": 11
+      },
+      {
+        "name": "Couscous Bowl",
+        "description": "Salad and couscous bowl",
+        "price": 9
+      },
+      {
+        "name": "Golden Apple Frost",
+        "description": "Signature frozen drink",
+        "price": 4.5
+      }
+    ]
+  }
+]

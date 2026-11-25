@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hotel_big_blue_hotel",
+    "name": "Big Blue Hotel",
+    "description": "The Big Blue Hotel is a 4-star hotel on the Pleasure Beach site at 525 Ocean Boulevard, opened in 2003. It is a short walk from Pleasure Beach station and next to the rides. Rates shown are estimates.",
+    "image": "assets/images/blackpool_pleasure_beach/hotel_big_blue_hotel.png",
+    "lat": 53.7872,
+    "lng": -3.0536,
+    "rating": 4,
+    "topPick": true,
+    "website": "https://www.themeparks-uk.com/blackpool-pleasure-beach-guide/where-to-stay/big-blue-hotel",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable double room on the Pleasure Beach site.",
+        "pricePerNight": 65,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families with extra beds.",
+        "pricePerNight": 90,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_boulevard_hotel",
+    "name": "Boulevard Hotel",
+    "description": "The Boulevard Hotel (BLVD) opened in 2019 on the southern edge of the Pleasure Beach site at 525 Ocean Boulevard. It has 120 rooms and its own Beachside Restaurant, Ocean Bar and Surfside Café. Rates shown are estimates.",
+    "image": "assets/images/blackpool_pleasure_beach/hotel_boulevard_hotel.png",
+    "lat": 53.786,
+    "lng": -3.0531,
+    "rating": 4.3,
+    "topPick": true,
+    "website": "https://www.blackpoolpleasurebeach.com",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Modern double room by the beach.",
+        "pricePerNight": 95,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for families with extra beds.",
+        "pricePerNight": 125,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_hampton_by_hilton_blackpool",
+    "name": "Hampton by Hilton Blackpool",
+    "description": "Hampton by Hilton Blackpool is at 595-601 New South Promenade, about 0.2 miles from the park. A comfortable, reliable base within walking distance. Rates shown are estimates.",
+    "image": "assets/images/blackpool_pleasure_beach/hotel_hampton_by_hilton_blackpool.png",
+    "lat": 53.7835,
+    "lng": -3.052,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.hilton.com/en/hotels/blkplhx-hampton-blackpool/hotel-location/",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Comfortable double room.",
+        "pricePerNight": 65,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 90,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_premier_inn_blackpool_beach",
+    "name": "Premier Inn Blackpool (Beach)",
+    "description": "Premier Inn Blackpool (Beach) is a budget-friendly hotel about a 7-minute drive from the park. A simple, good-value base for families. Rates shown are estimates.",
+    "image": "assets/images/blackpool_pleasure_beach/hotel_premier_inn_blackpool_beach.png",
+    "lat": 53.777,
+    "lng": -3.051,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.premierinn.com/gb/en/hotels/england/lancashire/blackpool/blackpool-beach.html",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Standard double room.",
+        "pricePerNight": 50,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Family room for up to four.",
+        "pricePerNight": 65,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_imperial_hotel_blackpool",
+    "name": "Imperial Hotel Blackpool",
+    "description": "The Imperial Hotel is a classic seafront hotel at 318 North Promenade on the north shore, on the far side of town from the park. A good option for those who want to stay near the town centre. Rates shown are estimates.",
+    "image": "assets/images/blackpool_pleasure_beach/hotel_imperial_hotel_blackpool.png",
+    "lat": 53.8335,
+    "lng": -3.0575,
+    "rating": 4,
+    "topPick": false,
+    "website": "https://www.booking.com/searchresults.html?ss=Imperial+Hotel+Blackpool",
+    "rooms": [
+      {
+        "key": "double_room",
+        "name": "Double Room",
+        "description": "Classic double room.",
+        "pricePerNight": 70,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "sea_view_room",
+        "name": "Sea View Room",
+        "description": "Room with a view over the sea.",
+        "pricePerNight": 95,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

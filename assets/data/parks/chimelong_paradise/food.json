@@ -1,0 +1,86 @@
+[
+  {
+    "id": "food_white_tiger_restaurant",
+    "name": "White Tiger Restaurant",
+    "description": "An international buffet with 300+ items inside the Chimelong Hotel, with windows onto the white tiger and flamingo exhibits. Expect seafood, steak, Cantonese dim sum and sashimi. It is in the hotel, not inside the park, and reservations are advised. Prices are converted from online vouchers and are estimates.",
+    "topPick": true,
+    "type": "Buffet",
+    "image": "assets/images/chimelong_paradise/food_white_tiger_restaurant.png",
+    "lat": 23.003,
+    "lng": 113.329,
+    "rating": 4.4,
+    "items": [
+      {
+        "name": "Breakfast Buffet",
+        "description": "Buffet breakfast",
+        "price": 131
+      },
+      {
+        "name": "Lunch Buffet",
+        "description": "International lunch buffet",
+        "price": 139
+      },
+      {
+        "name": "Dinner Buffet",
+        "description": "International dinner buffet",
+        "price": 162
+      }
+    ]
+  },
+  {
+    "id": "food_panda_all_day_dining_restaurant",
+    "name": "Panda All Day Dining Restaurant",
+    "description": "A family-friendly buffet on the first floor of the Chimelong Panda Hotel, serving Japanese sushi, Chaozhou-style marinated dishes, Cantonese roast meats and panda-themed snacks. It is in the hotel, not inside the park. Prices are converted from online vouchers and are estimates.",
+    "topPick": false,
+    "type": "Buffet",
+    "image": "assets/images/chimelong_paradise/food_panda_all_day_dining_restaurant.png",
+    "lat": 23.009,
+    "lng": 113.33,
+    "rating": 4.2,
+    "items": [
+      {
+        "name": "Breakfast Buffet",
+        "description": "Buffet breakfast",
+        "price": 97
+      },
+      {
+        "name": "Lunch Buffet",
+        "description": "Buffet lunch",
+        "price": 216
+      },
+      {
+        "name": "Dinner Buffet",
+        "description": "Buffet dinner",
+        "price": 172
+      }
+    ]
+  },
+  {
+    "id": "food_xinglong_tea_restaurant",
+    "name": "Xinglong Tea Restaurant",
+    "description": "A Hong Kong-style tea restaurant in the lobby of the Chimelong Xiangjiang Hotel, open all day, serving roast goose, pineapple buns, Portuguese tarts, dry-fried beef rice noodles and congee. It is in the hotel, not inside the park. Prices are estimates, except the breakfast price.",
+    "topPick": false,
+    "type": "Restaurant",
+    "image": "assets/images/chimelong_paradise/food_xinglong_tea_restaurant.png",
+    "lat": 23.001,
+    "lng": 113.313,
+    "rating": 4.1,
+    "items": [
+      {
+        "name": "Breakfast Buffet",
+        "description": "Buffet breakfast",
+        "price": 88
+      },
+      {
+        "name": "Roast Goose",
+        "description": "Sham Tseng-style roast goose",
+        "price": 98
+      },
+      {
+        "name": "Dry-Fried Beef Rice Noodles",
+        "description": "Stir-fried beef with rice noodles",
+        "price": 48
+      }
+    ]
+  }
+]

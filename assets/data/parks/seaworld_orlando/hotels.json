@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hotel_renaissance_orlando_at_seaworld",
+    "name": "Renaissance Orlando at SeaWorld",
+    "description": "Renaissance Orlando at SeaWorld is an upscale hotel directly across from the park, about 0.5 km away, with an outdoor water park. Rates shown are rough estimates and change a lot by date.",
+    "image": "assets/images/seaworld_orlando/hotel_renaissance_orlando_at_seaworld.png",
+    "lat": 28.4088,
+    "lng": -81.4587,
+    "rating": 4.3,
+    "topPick": true,
+    "website": "https://www.marriott.com/en-us/hotels/mcosr-renaissance-orlando-at-seaworld/overview/",
+    "rooms": [
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Upscale room across from the park.",
+        "pricePerNight": 184,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_suite",
+        "name": "Family Suite",
+        "description": "Suite with more space for families.",
+        "pricePerNight": 260,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_hilton_grand_vacations_at_seaworld",
+    "name": "Hilton Grand Vacations at SeaWorld",
+    "description": "Hilton Grand Vacations Club SeaWorld Orlando offers timeshare-style suites about 1 km from the park. Sources disagree on the exact distance. Rates shown are rough estimates.",
+    "image": "assets/images/seaworld_orlando/hotel_hilton_grand_vacations_at_seaworld.png",
+    "lat": 28.4065,
+    "lng": -81.457,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.hilton.com/en/hotels/orlswgv-hilton-grand-vacations-club-seaworld-orlando/",
+    "rooms": [
+      {
+        "key": "studio_suite",
+        "name": "Studio Suite",
+        "description": "Suite with a kitchenette.",
+        "pricePerNight": 129,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "one_bedroom_suite",
+        "name": "One-Bedroom Suite",
+        "description": "Suite with a separate bedroom.",
+        "pricePerNight": 190,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_hampton_inn_suites_orlando_at_seaworld",
+    "name": "Hampton Inn & Suites Orlando at SeaWorld",
+    "description": "Hampton Inn & Suites Orlando at SeaWorld is a mid-range hotel about 0.8 km from the park. Rates shown are rough estimates.",
+    "image": "assets/images/seaworld_orlando/hotel_hampton_inn_suites_orlando_at_seaworld.png",
+    "lat": 28.4098,
+    "lng": -81.4572,
+    "rating": 4,
+    "topPick": false,
+    "website": "https://www.hilton.com/en/hotels/orlnshx-hampton-suites-orlando-at-seaworld",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Standard hotel room.",
+        "pricePerNight": 124,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_suite",
+        "name": "Family Suite",
+        "description": "Suite with space for families.",
+        "pricePerNight": 160,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_hilton_garden_inn_orlando_at_seaworld",
+    "name": "Hilton Garden Inn Orlando at SeaWorld",
+    "description": "Hilton Garden Inn Orlando at SeaWorld is a mid-range hotel about 0.6 km from the park. Rates shown are rough estimates.",
+    "image": "assets/images/seaworld_orlando/hotel_hilton_garden_inn_orlando_at_seaworld.png",
+    "lat": 28.4075,
+    "lng": -81.456,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.hilton.com/en/hotels/orlsegi-hilton-garden-inn-orlando-at-seaworld",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Standard hotel room.",
+        "pricePerNight": 101,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with extra beds for families.",
+        "pricePerNight": 140,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_towneplace_suites_orlando_at_seaworld",
+    "name": "TownePlace Suites Orlando at SeaWorld",
+    "description": "TownePlace Suites Orlando at SeaWorld is an extended-stay suite hotel next door to the park, about 0.5 km away. It is the cheapest of the five. Rates shown are rough estimates.",
+    "image": "assets/images/seaworld_orlando/hotel_towneplace_suites_orlando_at_seaworld.png",
+    "lat": 28.415,
+    "lng": -81.459,
+    "rating": 4,
+    "topPick": false,
+    "website": "https://www.marriott.com/en-us/hotels/mcoyw-towneplace-suites-orlando-at-seaworld/overview/",
+    "rooms": [
+      {
+        "key": "studio_suite",
+        "name": "Studio Suite",
+        "description": "Suite with a kitchen.",
+        "pricePerNight": 84,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "two_bedroom_suite",
+        "name": "Two-Bedroom Suite",
+        "description": "Suite for larger families.",
+        "pricePerNight": 140,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

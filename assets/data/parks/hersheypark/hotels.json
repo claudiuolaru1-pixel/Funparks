@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel_the_hotel_hershey",
+    "name": "The Hotel Hershey",
+    "description": "The Hotel Hershey is the luxury resort in the hills above Hersheypark, built by Milton S. Hershey and opened in 1933. Its Mediterranean-style building has formal gardens, a spa, multiple restaurants and a pool, and it is an Official Resort of Hersheypark with perks such as ticket discounts and extra park hours. A calm, elegant base for couples and families who want a special stay.",
+    "image": "assets/images/hersheypark/hotel_the_hotel_hershey.png",
+    "lat": 40.2987,
+    "lng": -76.659,
+    "rating": 4.8,
+    "topPick": true,
+    "website": "https://www.thehotelhershey.com/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable room with garden or courtyard views, free WiFi and access to resort amenities.",
+        "pricePerNight": 420,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "deluxe_room",
+        "name": "Deluxe Room",
+        "description": "Larger room with upgraded views and a sitting area.",
+        "pricePerNight": 520,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Spacious suite with separate living area, ideal for families.",
+        "pricePerNight": 760,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_hershey_lodge",
+    "name": "Hershey Lodge",
+    "description": "Hershey Lodge is a large, family-friendly resort a short distance from Hersheypark, with indoor and outdoor pools, several restaurants, a chocolate-themed shop and activities for children. It is an Official Resort of Hersheypark, so guests get perks such as ticket discounts and extra park hours, and a good-value base for a family trip.",
+    "image": "assets/images/hersheypark/hotel_hershey_lodge.png",
+    "lat": 40.2851,
+    "lng": -76.6401,
+    "rating": 4.4,
+    "topPick": false,
+    "website": "https://www.hersheyresorts.com/hershey-lodge/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Comfortable room with two beds, free WiFi and access to the resort pools.",
+        "pricePerNight": 260,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Larger room with extra sleeping space for families.",
+        "pricePerNight": 330,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "suite",
+        "name": "Suite",
+        "description": "Suite with separate living area and room for the whole family.",
+        "pricePerNight": 470,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_hershey_inn_suites",
+    "name": "Hershey Inn & Suites",
+    "description": "Hershey Inn & Suites is the newest Official Resort of Hersheypark, new for 2026. It is designed for families who want a modern, convenient base close to the park, with guest perks such as ticket discounts and extra park hours. Check the official site for the latest room types, amenities and opening details.",
+    "image": "assets/images/hersheypark/hotel_hershey_inn_suites.png",
+    "lat": 40.2832,
+    "lng": -76.648,
+    "rating": 4.5,
+    "topPick": false,
+    "website": "https://www.hersheyresorts.com/",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Modern room with two beds and free WiFi.",
+        "pricePerNight": 230,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_suite",
+        "name": "Family Suite",
+        "description": "Suite with extra sleeping space and a separate seating area.",
+        "pricePerNight": 330,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "king_suite",
+        "name": "King Suite",
+        "description": "Suite with king bed and separate living area.",
+        "pricePerNight": 380,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_hersheypark_camping_resort",
+    "name": "Hersheypark Camping Resort",
+    "description": "Hersheypark Camping Resort is the outdoor option among the Official Resorts of Hersheypark, with campsites for tents and RVs and cabins for guests who want a nature-based stay near the park. Camping guests get perks such as ticket discounts and extra park hours. Facilities and seasonal dates vary, so check the official site before booking.",
+    "image": "assets/images/hersheypark/hotel_hersheypark_camping_resort.png",
+    "lat": 40.2735,
+    "lng": -76.676,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.hersheypark.com/camping/",
+    "rooms": [
+      {
+        "key": "tent_site",
+        "name": "Tent Site",
+        "description": "Camping pitch for tents with access to resort facilities.",
+        "pricePerNight": 65,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "rv_site",
+        "name": "RV Site",
+        "description": "Site with hookups for RVs and campers.",
+        "pricePerNight": 95,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "cabin",
+        "name": "Camping Cabin",
+        "description": "Cabin accommodation for families, with beds and a covered porch.",
+        "pricePerNight": 160,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]

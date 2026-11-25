@@ -1,0 +1,406 @@
+{
+  "overview": {
+    "ov_overview_body": {
+      "en": "Paultons Park is a family theme park in Ower, near Southampton and the New Forest in Hampshire, England. It opened in 1983 as Paultons Park and Bird Gardens and now covers about 140 acres, with more than one million visitors a year according to the park and the press (the figure is undated). It is the home of Peppa Pig World, which opened in 2011, and has themed areas including Lost Kingdom, Tornado Springs, Critter Creek and Wild Lands. The newest area is Valgard: Realm of the Vikings, which opened on 16 May 2026 with the Drakon coaster. Parking is free, and the park has no hotel of its own, only partner hotels nearby.",
+      "es": "Paultons Park es un parque temático familiar en Ower, cerca de Southampton y del New Forest, en Hampshire, Inglaterra. Abrió en 1983 como Paultons Park and Bird Gardens y hoy ocupa unos 140 acres, con más de un millón de visitantes al año según el parque y la prensa (la cifra no tiene fecha). Es el hogar de Peppa Pig World, inaugurado en 2011, y tiene zonas temáticas como Lost Kingdom, Tornado Springs, Critter Creek y Wild Lands. La zona más reciente es Valgard: Realm of the Vikings, abierta el 16 de mayo de 2026 con la montaña rusa Drakon. El aparcamiento es gratuito y el parque no tiene hotel propio, solo hoteles asociados cercanos.",
+      "fr": "Paultons Park est un parc à thème familial à Ower, près de Southampton et de la New Forest, dans le Hampshire, en Angleterre. Ouvert en 1983 sous le nom de Paultons Park and Bird Gardens, il couvre aujourd'hui environ 140 acres et accueille plus d'un million de visiteurs par an selon le parc et la presse (chiffre non daté). C'est la maison de Peppa Pig World, ouvert en 2011, et il compte des zones à thème comme Lost Kingdom, Tornado Springs, Critter Creek et Wild Lands. La dernière zone est Valgard: Realm of the Vikings, ouverte le 16 mai 2026 avec le coaster Drakon. Le parking est gratuit et le parc n'a pas d'hôtel propre, seulement des hôtels partenaires à proximité.",
+      "de": "Paultons Park ist ein Familien-Freizeitpark in Ower bei Southampton und dem New Forest in Hampshire, England. Er eröffnete 1983 als Paultons Park and Bird Gardens und umfasst heute rund 140 Acres, mit laut Park und Presse über einer Million Besuchern pro Jahr (die Zahl ist undatiert). Hier steht Peppa Pig World, 2011 eröffnet, außerdem gibt es Themenbereiche wie Lost Kingdom, Tornado Springs, Critter Creek und Wild Lands. Der neueste Bereich ist Valgard: Realm of the Vikings, am 16. Mai 2026 mit der Achterbahn Drakon eröffnet. Parken ist kostenlos, und der Park hat kein eigenes Hotel, nur Partnerhotels in der Nähe.",
+      "it": "Paultons Park è un parco a tema per famiglie a Ower, vicino a Southampton e al New Forest, nell'Hampshire, in Inghilterra. Ha aperto nel 1983 come Paultons Park and Bird Gardens e oggi si estende su circa 140 acri, con oltre un milione di visitatori l'anno secondo il parco e la stampa (il dato non è datato). Ospita Peppa Pig World, aperto nel 2011, e ha aree tematiche come Lost Kingdom, Tornado Springs, Critter Creek e Wild Lands. L'area più recente è Valgard: Realm of the Vikings, aperta il 16 maggio 2026 con la montagna russa Drakon. Il parcheggio è gratuito e il parco non ha un hotel proprio, solo hotel partner nelle vicinanze.",
+      "nl": "Paultons Park is een familiepark in Ower, bij Southampton en het New Forest in Hampshire, Engeland. Het opende in 1983 als Paultons Park and Bird Gardens en beslaat nu ongeveer 140 acres, met volgens het park en de pers meer dan een miljoen bezoekers per jaar (het cijfer is ongedateerd). Hier staat Peppa Pig World, geopend in 2011, en er zijn themazones als Lost Kingdom, Tornado Springs, Critter Creek en Wild Lands. De nieuwste zone is Valgard: Realm of the Vikings, geopend op 16 mei 2026 met de achtbaan Drakon. Parkeren is gratis en het park heeft geen eigen hotel, alleen partnerhotels in de buurt.",
+      "pt": "O Paultons Park é um parque temático familiar em Ower, perto de Southampton e do New Forest, em Hampshire, Inglaterra. Abriu em 1983 como Paultons Park and Bird Gardens e hoje ocupa cerca de 140 acres, com mais de um milhão de visitantes por ano segundo o parque e a imprensa (o número não tem data). É a casa do Peppa Pig World, inaugurado em 2011, e tem zonas temáticas como Lost Kingdom, Tornado Springs, Critter Creek e Wild Lands. A zona mais recente é Valgard: Realm of the Vikings, aberta a 16 de maio de 2026 com a montanha-russa Drakon. O estacionamento é gratuito e o parque não tem hotel próprio, apenas hotéis parceiros por perto.",
+      "ru": "Paultons Park — семейный тематический парк в Оувере близ Саутгемптона и Нью-Фореста в Хэмпшире, Англия. Он открылся в 1983 году как Paultons Park and Bird Gardens, сегодня занимает около 140 акров, а по данным парка и прессы его посещают более миллиона человек в год (цифра без даты). Здесь находится Peppa Pig World, открытый в 2011 году, а также тематические зоны Lost Kingdom, Tornado Springs, Critter Creek и Wild Lands. Новейшая зона — Valgard: Realm of the Vikings, открытая 16 мая 2026 года вместе с горками Drakon. Парковка бесплатна, собственного отеля у парка нет, только отели-партнёры поблизости.",
+      "zh": "Paultons Park是位于英格兰汉普郡Ower、靠近南安普敦和新森林的家庭主题乐园。它1983年以Paultons Park and Bird Gardens之名开业，如今占地约140英亩，据乐园和媒体称每年游客超过100万（数据无具体年份）。这里是2011年开放的小猪佩奇乐园（Peppa Pig World）的所在地，另有Lost Kingdom、Tornado Springs、Critter Creek和Wild Lands等主题区。最新的园区是Valgard: Realm of the Vikings，于2026年5月16日随过山车Drakon一起开放。停车免费，乐园没有自己的酒店，只有附近的合作酒店。",
+      "ar": "باولتونز بارك متنزه ترفيهي عائلي في أوير قرب ساوثهامبتون ونيو فورست في هامبشير بإنجلترا. افتُتح عام 1983 باسم Paultons Park and Bird Gardens ويمتد اليوم على نحو 140 فداناً، بأكثر من مليون زائر سنوياً بحسب المتنزه والصحافة (الرقم بلا تاريخ). وهو موطن Peppa Pig World الذي افتُتح عام 2011، وفيه مناطق مثل Lost Kingdom وTornado Springs وCritter Creek وWild Lands. وأحدث مناطقه Valgard: Realm of the Vikings التي افتُتحت في 16 مايو 2026 مع قطار Drakon. مواقف السيارات مجانية، ولا يملك المتنزه فندقاً خاصاً بل فنادق شريكة قريبة."
+    },
+    "ov_highlights_body": {
+      "en": "Drakon is the new headline coaster in the Valgard area, with a lift of about 23 m and two inversions, opened in May 2026. Raven, which used to be called Cobra, reopened in Valgard on 16 May 2026, and the Vild Swing opened there too. Storm Chaser and Cyclonator are the thrill rides of Tornado Springs, while Flight of the Pterosaur and Velociraptor are the family coasters of Lost Kingdom. Peppa Pig World has rides such as Peppa's Big Balloon Ride, George's Dinosaur Adventure and Grampy Rabbit's Sailing Club. For food, The Feasting Hall in Valgard serves flame-grilled chicken, and Route 83 Diner has burgers and chicken tenders.",
+      "es": "Drakon es la nueva montaña rusa estrella de la zona Valgard, con un ascenso de unos 23 m y dos inversiones, inaugurada en mayo de 2026. Raven, que antes se llamaba Cobra, reabrió en Valgard el 16 de mayo de 2026, y allí también abrió el Vild Swing. Storm Chaser y Cyclonator son las atracciones de emociones fuertes de Tornado Springs, mientras que Flight of the Pterosaur y Velociraptor son las montañas rusas familiares de Lost Kingdom. Peppa Pig World tiene atracciones como Peppa's Big Balloon Ride, George's Dinosaur Adventure y Grampy Rabbit's Sailing Club. Para comer, The Feasting Hall en Valgard sirve pollo a la llama y Route 83 Diner tiene hamburguesas y tiras de pollo.",
+      "fr": "Drakon est le nouveau coaster phare de la zone Valgard, avec un lift d'environ 23 m et deux inversions, ouvert en mai 2026. Raven, anciennement appelé Cobra, a rouvert à Valgard le 16 mai 2026, et le Vild Swing y a aussi ouvert. Storm Chaser et Cyclonator sont les attractions à sensations de Tornado Springs, tandis que Flight of the Pterosaur et Velociraptor sont les coasters familiaux de Lost Kingdom. Peppa Pig World propose des attractions comme Peppa's Big Balloon Ride, George's Dinosaur Adventure et Grampy Rabbit's Sailing Club. Côté table, The Feasting Hall à Valgard sert du poulet grillé à la flamme et Route 83 Diner propose burgers et lanières de poulet.",
+      "de": "Drakon ist die neue Top-Achterbahn im Valgard-Bereich mit etwa 23 m Lifthöhe und zwei Inversionen, im Mai 2026 eröffnet. Raven, früher Cobra genannt, öffnete am 16. Mai 2026 in Valgard wieder, und auch die Vild Swing eröffnete dort. Storm Chaser und Cyclonator sind die Thrill-Fahrgeschäfte von Tornado Springs, Flight of the Pterosaur und Velociraptor die Familienachterbahnen von Lost Kingdom. Peppa Pig World bietet Attraktionen wie Peppa's Big Balloon Ride, George's Dinosaur Adventure und Grampy Rabbit's Sailing Club. Zum Essen serviert The Feasting Hall in Valgard flammengegrilltes Hähnchen, und im Route 83 Diner gibt es Burger und Chicken Tenders.",
+      "it": "Drakon è la nuova montagna russa di punta dell'area Valgard, con una salita di circa 23 m e due inversioni, aperta a maggio 2026. Raven, che si chiamava Cobra, ha riaperto a Valgard il 16 maggio 2026, e lì ha aperto anche il Vild Swing. Storm Chaser e Cyclonator sono le attrazioni adrenaliniche di Tornado Springs, mentre Flight of the Pterosaur e Velociraptor sono le montagne russe familiari di Lost Kingdom. Peppa Pig World ha attrazioni come Peppa's Big Balloon Ride, George's Dinosaur Adventure e Grampy Rabbit's Sailing Club. Per mangiare, The Feasting Hall a Valgard serve pollo alla fiamma e il Route 83 Diner ha hamburger e straccetti di pollo.",
+      "nl": "Drakon is de nieuwe blikvanger onder de achtbanen in het Valgard-gebied, met een lift van ongeveer 23 m en twee inversies, geopend in mei 2026. Raven, voorheen Cobra genoemd, heropende op 16 mei 2026 in Valgard, en ook de Vild Swing opende daar. Storm Chaser en Cyclonator zijn de thrillrides van Tornado Springs, terwijl Flight of the Pterosaur en Velociraptor de gezinsachtbanen van Lost Kingdom zijn. Peppa Pig World heeft attracties als Peppa's Big Balloon Ride, George's Dinosaur Adventure en Grampy Rabbit's Sailing Club. Bij het eten serveert The Feasting Hall in Valgard op de vlam gegrilde kip en heeft Route 83 Diner burgers en chicken tenders.",
+      "pt": "A Drakon é a nova montanha-russa principal da zona Valgard, com uma subida de cerca de 23 m e duas inversões, aberta em maio de 2026. A Raven, antes chamada Cobra, reabriu em Valgard a 16 de maio de 2026, e o Vild Swing também abriu lá. A Storm Chaser e a Cyclonator são as atrações de emoção forte de Tornado Springs, enquanto a Flight of the Pterosaur e a Velociraptor são as montanhas-russas familiares de Lost Kingdom. O Peppa Pig World tem atrações como Peppa's Big Balloon Ride, George's Dinosaur Adventure e Grampy Rabbit's Sailing Club. Para comer, o The Feasting Hall em Valgard serve frango grelhado à chama e o Route 83 Diner tem hambúrgueres e tiras de frango.",
+      "ru": "Drakon — новые главные горки в зоне Valgard с подъёмом около 23 м и двумя инверсиями, открытые в мае 2026 года. Raven, прежде называвшиеся Cobra, вновь открылись в Valgard 16 мая 2026 года, там же открылись и качели Vild Swing. Storm Chaser и Cyclonator — острые аттракционы Tornado Springs, а Flight of the Pterosaur и Velociraptor — семейные горки Lost Kingdom. В Peppa Pig World есть Peppa's Big Balloon Ride, George's Dinosaur Adventure и Grampy Rabbit's Sailing Club. Из еды: The Feasting Hall в Valgard подаёт курицу на открытом огне, а Route 83 Diner — бургеры и куриные полоски.",
+      "zh": "Drakon是Valgard园区全新的明星过山车，提升高度约23米，带两次翻转，于2026年5月开放。Raven（原名Cobra）于2026年5月16日在Valgard重新开放，Vild Swing也在同一区域开放。Storm Chaser和Cyclonator是Tornado Springs的刺激项目，Flight of the Pterosaur和Velociraptor是Lost Kingdom的家庭过山车。小猪佩奇乐园有Peppa's Big Balloon Ride、George's Dinosaur Adventure和Grampy Rabbit's Sailing Club等项目。餐饮方面，Valgard的The Feasting Hall供应明火烤鸡，Route 83 Diner有汉堡和鸡柳。",
+      "ar": "Drakon هو قطار الجبال الروسية الجديد الأبرز في منطقة Valgard بارتفاع رفع نحو 23 م وانقلابين، افتُتح في مايو 2026. وأُعيد افتتاح Raven الذي كان يُسمى Cobra في Valgard يوم 16 مايو 2026، وافتُتحت هناك أيضاً أرجوحة Vild Swing. Storm Chaser وCyclonator لعبتا الإثارة في Tornado Springs، بينما Flight of the Pterosaur وVelociraptor قطاران عائليان في Lost Kingdom. ويضم Peppa Pig World ألعاباً مثل Peppa's Big Balloon Ride وGeorge's Dinosaur Adventure وGrampy Rabbit's Sailing Club. وللطعام يقدم The Feasting Hall في Valgard الدجاج المشوي على اللهب، ويقدم Route 83 Diner البرغر وشرائح الدجاج."
+    },
+    "ov_did_you_know_body": {
+      "en": "Paultons Park opened on 17 May 1983 as Paultons Park and Bird Gardens, and Peppa Pig World opened on 6 April 2011. Before Peppa Pig World the park had about 500,000 visitors a year, and attendance then rose to well over a million. The Raven coaster opened in 2006 as Cobra and was renamed when it reopened in Valgard in May 2026. The park is planning a water coaster, Serpent's Curse, for 2027, but it is not open yet.",
+      "es": "Paultons Park abrió el 17 de mayo de 1983 como Paultons Park and Bird Gardens, y Peppa Pig World abrió el 6 de abril de 2011. Antes de Peppa Pig World el parque recibía unos 500.000 visitantes al año, y después la cifra superó con creces el millón. La montaña rusa Raven abrió en 2006 como Cobra y cambió de nombre al reabrir en Valgard en mayo de 2026. El parque prepara una montaña rusa acuática, Serpent's Curse, para 2027, pero aún no está abierta.",
+      "fr": "Paultons Park a ouvert le 17 mai 1983 sous le nom de Paultons Park and Bird Gardens, et Peppa Pig World a ouvert le 6 avril 2011. Avant Peppa Pig World, le parc accueillait environ 500 000 visiteurs par an, puis la fréquentation a largement dépassé le million. Le coaster Raven a ouvert en 2006 sous le nom de Cobra et a été rebaptisé à sa réouverture à Valgard en mai 2026. Le parc prépare un coaster aquatique, Serpent's Curse, pour 2027, mais il n'est pas encore ouvert.",
+      "de": "Paultons Park eröffnete am 17. Mai 1983 als Paultons Park and Bird Gardens, Peppa Pig World am 6. April 2011. Vor Peppa Pig World kamen etwa 500.000 Besucher pro Jahr, danach deutlich über eine Million. Die Achterbahn Raven eröffnete 2006 als Cobra und wurde bei der Wiedereröffnung in Valgard im Mai 2026 umbenannt. Für 2027 ist mit Serpent's Curse eine Wasserachterbahn geplant, sie ist aber noch nicht geöffnet.",
+      "it": "Paultons Park ha aperto il 17 maggio 1983 come Paultons Park and Bird Gardens, e Peppa Pig World il 6 aprile 2011. Prima di Peppa Pig World il parco aveva circa 500.000 visitatori l'anno, poi le presenze hanno superato di molto il milione. La montagna russa Raven ha aperto nel 2006 come Cobra ed è stata rinominata alla riapertura a Valgard a maggio 2026. Il parco prevede una montagna russa acquatica, Serpent's Curse, per il 2027, ma non è ancora aperta.",
+      "nl": "Paultons Park opende op 17 mei 1983 als Paultons Park and Bird Gardens en Peppa Pig World opende op 6 april 2011. Voor Peppa Pig World kreeg het park ongeveer 500.000 bezoekers per jaar, daarna ruim een miljoen. De achtbaan Raven opende in 2006 als Cobra en werd hernoemd bij de heropening in Valgard in mei 2026. Voor 2027 staat een waterachtbaan, Serpent's Curse, gepland, maar die is nog niet open.",
+      "pt": "O Paultons Park abriu a 17 de maio de 1983 como Paultons Park and Bird Gardens, e o Peppa Pig World abriu a 6 de abril de 2011. Antes do Peppa Pig World o parque tinha cerca de 500.000 visitantes por ano, e depois passou bem de um milhão. A montanha-russa Raven abriu em 2006 como Cobra e foi renomeada ao reabrir em Valgard em maio de 2026. O parque prepara uma montanha-russa aquática, Serpent's Curse, para 2027, mas ainda não está aberta.",
+      "ru": "Paultons Park открылся 17 мая 1983 года как Paultons Park and Bird Gardens, а Peppa Pig World — 6 апреля 2011 года. До Peppa Pig World парк посещали около 500 000 человек в год, затем намного больше миллиона. Горки Raven открылись в 2006 году как Cobra и были переименованы при повторном открытии в Valgard в мае 2026 года. На 2027 год планируются водные горки Serpent's Curse, но они ещё не открыты.",
+      "zh": "Paultons Park于1983年5月17日以Paultons Park and Bird Gardens之名开业，小猪佩奇乐园于2011年4月6日开放。小猪佩奇乐园开放前，乐园每年约有50万名游客，之后远超100万。过山车Raven于2006年以Cobra之名开放，2026年5月在Valgard重新开放时改名。乐园计划在2027年推出水上过山车Serpent's Curse，目前尚未开放。",
+      "ar": "افتُتح باولتونز بارك في 17 مايو 1983 باسم Paultons Park and Bird Gardens، وافتُتح Peppa Pig World في 6 أبريل 2011. وقبل Peppa Pig World كان المتنزه يستقبل نحو 500 ألف زائر سنوياً ثم تجاوز المليون بكثير. وافتُتح قطار Raven عام 2006 باسم Cobra وأُعيدت تسميته عند إعادة افتتاحه في Valgard في مايو 2026. ويخطط المتنزه لقطار مائي باسم Serpent's Curse عام 2027 لكنه لم يُفتتح بعد."
+    },
+    "ov_plan_body": {
+      "en": "Paultons Park is open for most of the year, with standard days running from 10:00 to about 16:30 or 17:00 and weekends and school holidays to 17:30, though the official calendar did not load, so check the park's site before you go. It usually closes on 25 and 26 December and 1 January, plus some weekdays in January, and reopens in mid-February. Christmas at Paultons Park runs on selected dates from December to 3 January 2027. One-day tickets booked online start from about £46.75 and cost around £60 at the gate; children under 1 m go free and parking is free. The Feasting Hall and the rest of Valgard are new for 2026. The park has no hotel of its own, so most visitors stay in partner or nearby hotels.",
+      "es": "Paultons Park abre durante la mayor parte del año, con días normales de 10:00 a unas 16:30 o 17:00 y fines de semana y vacaciones escolares hasta las 17:30, aunque el calendario oficial no cargó, así que consulta la web del parque antes de ir. Suele cerrar el 25 y 26 de diciembre y el 1 de enero, además de algunos días laborables de enero, y reabre a mediados de febrero. Christmas at Paultons Park se celebra en fechas seleccionadas de diciembre al 3 de enero de 2027. Las entradas de un día compradas en línea parten de unas 46,75 £ y cuestan unas 60 £ en taquilla; los menores de 1 m entran gratis y el aparcamiento es gratuito. The Feasting Hall y el resto de Valgard son novedad de 2026. El parque no tiene hotel propio, así que la mayoría se aloja en hoteles asociados o cercanos.",
+      "fr": "Paultons Park est ouvert la majeure partie de l'année, avec des journées normales de 10 h à environ 16 h 30 ou 17 h et des week-ends et vacances scolaires jusqu'à 17 h 30, mais le calendrier officiel ne s'est pas chargé : consultez donc le site du parc avant de partir. Il ferme généralement les 25 et 26 décembre et le 1er janvier, ainsi que certains jours de semaine en janvier, et rouvre à la mi-février. Christmas at Paultons Park a lieu à des dates choisies de décembre au 3 janvier 2027. Les billets d'une journée achetés en ligne démarrent à environ 46,75 £ et coûtent environ 60 £ à l'entrée ; les moins d'1 m entrent gratuitement et le parking est gratuit. The Feasting Hall et le reste de Valgard sont nouveaux en 2026. Le parc n'a pas d'hôtel propre : la plupart des visiteurs logent dans des hôtels partenaires ou proches.",
+      "de": "Paultons Park ist den größten Teil des Jahres geöffnet, normale Tage von 10:00 bis etwa 16:30 oder 17:00, Wochenenden und Schulferien bis 17:30; der offizielle Kalender ließ sich jedoch nicht laden, daher vorab die Parkwebsite prüfen. Meist geschlossen ist am 25. und 26. Dezember und am 1. Januar sowie an einigen Wochentagen im Januar; Mitte Februar öffnet er wieder. Christmas at Paultons Park findet an ausgewählten Terminen von Dezember bis 3. Januar 2027 statt. Eintagestickets online kosten ab etwa 46,75 £ und an der Kasse rund 60 £; Kinder unter 1 m sind frei, Parken ist kostenlos. The Feasting Hall und das übrige Valgard sind neu für 2026. Der Park hat kein eigenes Hotel, die meisten übernachten in Partnerhotels oder in der Nähe.",
+      "it": "Paultons Park è aperto per gran parte dell'anno, con giorni normali dalle 10:00 alle 16:30 o 17:00 circa e weekend e vacanze scolastiche fino alle 17:30, ma il calendario ufficiale non si è caricato, quindi controllate il sito del parco prima di andare. Di solito chiude il 25 e 26 dicembre e il 1° gennaio, oltre ad alcuni giorni feriali di gennaio, e riapre a metà febbraio. Christmas at Paultons Park si tiene in date selezionate da dicembre al 3 gennaio 2027. I biglietti giornalieri online partono da circa 46,75 £ e costano circa 60 £ alla cassa; i bambini sotto 1 m entrano gratis e il parcheggio è gratuito. The Feasting Hall e il resto di Valgard sono novità del 2026. Il parco non ha un hotel proprio, quindi la maggior parte dei visitatori alloggia in hotel partner o vicini.",
+      "nl": "Paultons Park is het grootste deel van het jaar open, met normale dagen van 10:00 tot ongeveer 16:30 of 17:00 en weekenden en schoolvakanties tot 17:30, maar de officiële kalender laadde niet, dus check de website van het park voor je gaat. Meestal is het gesloten op 25 en 26 december en 1 januari, plus enkele doordeweekse dagen in januari, en gaat het half februari weer open. Christmas at Paultons Park vindt plaats op geselecteerde data van december tot en met 3 januari 2027. Eendagstickets online kosten vanaf ongeveer £46,75 en aan de kassa zo'n £60; kinderen onder 1 m gaan gratis en parkeren is gratis. The Feasting Hall en de rest van Valgard zijn nieuw in 2026. Het park heeft geen eigen hotel, dus de meeste bezoekers slapen in partnerhotels of hotels in de buurt.",
+      "pt": "O Paultons Park está aberto durante a maior parte do ano, com dias normais das 10:00 às 16:30 ou 17:00 e fins de semana e férias escolares até às 17:30, mas o calendário oficial não carregou, por isso consulte o site do parque antes de ir. Costuma fechar a 25 e 26 de dezembro e a 1 de janeiro, além de alguns dias úteis de janeiro, e reabre em meados de fevereiro. O Christmas at Paultons Park decorre em datas selecionadas de dezembro a 3 de janeiro de 2027. Os bilhetes de um dia comprados online começam em cerca de 46,75 £ e custam cerca de 60 £ à porta; crianças com menos de 1 m entram grátis e o estacionamento é gratuito. O The Feasting Hall e o resto de Valgard são novidade de 2026. O parque não tem hotel próprio, por isso a maioria dos visitantes fica em hotéis parceiros ou próximos.",
+      "ru": "Paultons Park открыт большую часть года: в обычные дни с 10:00 до примерно 16:30 или 17:00, в выходные и школьные каникулы до 17:30, однако официальный календарь не загрузился, поэтому проверьте сайт парка перед поездкой. Обычно он закрыт 25 и 26 декабря и 1 января, а также в некоторые будни января, и снова открывается в середине февраля. Christmas at Paultons Park проходит в отдельные даты с декабря по 3 января 2027 года. Билеты на день при онлайн-покупке стоят от примерно 46,75 £, на кассе около 60 £; дети ростом до 1 м бесплатно, парковка бесплатная. The Feasting Hall и остальная часть Valgard — новинки 2026 года. У парка нет собственного отеля, поэтому большинство гостей останавливаются в отелях-партнёрах или поблизости.",
+      "zh": "Paultons Park全年大部分时间开放，普通日为10:00至约16:30或17:00，周末和学校假期至17:30，但官方日历未能加载，出发前请查看乐园网站。通常在12月25日、26日和1月1日以及1月的部分工作日闭园，2月中旬重新开放。Christmas at Paultons Park在12月至2027年1月3日的指定日期举行。一日票网上预订约46.75英镑起，现场购票约60英镑；1米以下儿童免费，停车免费。The Feasting Hall及Valgard园区是2026年新增内容。乐园没有自己的酒店，大多数游客住在合作酒店或附近酒店。",
+      "ar": "يفتح باولتونز بارك معظم أيام السنة، فتكون الأيام العادية من 10:00 إلى نحو 16:30 أو 17:00 وعطلات نهاية الأسبوع والمدارس حتى 17:30، لكن التقويم الرسمي لم يُحمَّل لذا راجع موقع المتنزه قبل الذهاب. يُغلق عادةً يومي 25 و26 ديسمبر و1 يناير وبعض أيام الأسبوع في يناير ويعود في منتصف فبراير. ويقام Christmas at Paultons Park في تواريخ محددة من ديسمبر حتى 3 يناير 2027. تبدأ تذاكر اليوم الواحد عبر الإنترنت من نحو 46.75 جنيهاً وتكلف نحو 60 جنيهاً عند البوابة؛ والأطفال دون متر مجاناً ومواقف السيارات مجانية. وThe Feasting Hall وبقية Valgard جديدة في 2026. لا يملك المتنزه فندقاً خاصاً لذا يقيم معظم الزوار في فنادق شريكة أو قريبة."
+    },
+    "ov_photos_body": {
+      "en": "Drakon's coaster track and the Viking-themed buildings of Valgard make dramatic backdrops, and the colourful Peppa Pig World is a favourite for family photos. Lost Kingdom's dinosaur theming adds variety. Autumn and the Christmas events bring seasonal lights and decorations.",
+      "es": "La vía de la montaña rusa Drakon y los edificios de temática vikinga de Valgard crean fondos espectaculares, y el colorido Peppa Pig World es un favorito para las fotos en familia. La temática de dinosaurios de Lost Kingdom aporta variedad. El otoño y los eventos navideños traen luces y decoraciones de temporada.",
+      "fr": "La voie du coaster Drakon et les bâtiments à thème viking de Valgard offrent des décors spectaculaires, et le coloré Peppa Pig World est un favori pour les photos de famille. Le thème dinosaures de Lost Kingdom apporte de la variété. L'automne et les événements de Noël amènent lumières et décorations de saison.",
+      "de": "Die Strecke des Drakon und die wikingerthematischen Gebäude von Valgard ergeben dramatische Kulissen, und das bunte Peppa Pig World ist ein Favorit für Familienfotos. Das Dinosaurier-Thema von Lost Kingdom sorgt für Abwechslung. Herbst und Weihnachtsveranstaltungen bringen saisonale Lichter und Dekorationen.",
+      "it": "Il tracciato di Drakon e gli edifici a tema vichingo di Valgard offrono sfondi scenografici, e il colorato Peppa Pig World è un favorito per le foto di famiglia. Il tema dinosauri di Lost Kingdom aggiunge varietà. Autunno e eventi natalizi portano luci e decorazioni stagionali.",
+      "nl": "De baan van Drakon en de Vikingthema-gebouwen van Valgard geven dramatische achtergronden, en het kleurrijke Peppa Pig World is een favoriet voor gezinsfoto's. Het dinosaurusthema van Lost Kingdom zorgt voor afwisseling. Herfst en kerstevenementen brengen seizoenslichten en decoraties.",
+      "pt": "A via da Drakon e os edifícios de temática viking de Valgard criam cenários dramáticos, e o colorido Peppa Pig World é um favorito para fotografias de família. A temática de dinossauros de Lost Kingdom traz variedade. O outono e os eventos de Natal trazem luzes e decorações sazonais.",
+      "ru": "Трасса Drakon и здания Valgard в стиле викингов создают эффектный фон, а яркий Peppa Pig World — любимое место для семейных фото. Динозавровая тематика Lost Kingdom добавляет разнообразия. Осень и рождественские события приносят сезонные огни и украшения.",
+      "zh": "Drakon的轨道和Valgard维京风格的建筑是极具气势的背景，色彩缤纷的小猪佩奇乐园则是家庭合影的热门之地。Lost Kingdom的恐龙主题增添了变化。秋季和圣诞活动还会带来应季灯光和装饰。",
+      "ar": "يشكل مسار Drakon ومباني Valgard بطابع الفايكنغ خلفيات مذهلة، ويُعدّ Peppa Pig World الملون مفضلاً لصور العائلة. ويضيف طابع الديناصورات في Lost Kingdom تنوعاً. ويجلب الخريف وفعاليات عيد الميلاد أضواءً وزينة موسمية."
+    }
+  },
+  "attractions": {
+    "drakon": {
+      "desc": {
+        "en": "Headline coaster of the new Valgard area, opened in 2026: about 23 m lift and two inversions. Min 125cm.",
+        "es": "Montaña rusa estrella de la nueva zona Valgard, inaugurada en 2026: ascenso de unos 23 m y dos inversiones. Mín. 125cm.",
+        "fr": "Coaster phare de la nouvelle zone Valgard, ouvert en 2026 : lift d'environ 23 m et deux inversions. Min 125cm.",
+        "de": "Top-Achterbahn des neuen Valgard-Bereichs, 2026 eröffnet: etwa 23 m Lift und zwei Inversionen. Min 125cm.",
+        "it": "Montagna russa di punta della nuova area Valgard, inaugurata nel 2026: salita di circa 23 m e due inversioni. Min 125cm.",
+        "nl": "Blikvanger-achtbaan van het nieuwe Valgard-gebied, geopend in 2026: lift van ongeveer 23 m en twee inversies. Min 125cm.",
+        "pt": "Montanha-russa principal da nova zona Valgard, inaugurada em 2026: subida de cerca de 23 m e duas inversões. Mín. 125cm.",
+        "ru": "Главные горки новой зоны Valgard, открытые в 2026 году: подъём около 23 м и две инверсии. Рост от 125 см.",
+        "zh": "新Valgard园区的明星过山车，2026年开放：提升高度约23米，带两次翻转。最低身高125厘米。",
+        "ar": "قطار الجبال الروسية الرئيسي في منطقة Valgard الجديدة، افتُتح عام 2026: رفع نحو 23 م وانقلابان. الحد الأدنى 125 سم."
+      }
+    },
+    "raven": {
+      "desc": {
+        "en": "Bobsled coaster opened in 2006 as Cobra, reopened in Valgard as Raven in 2026. Min 110cm.",
+        "es": "Montaña rusa tipo bobsleigh inaugurada en 2006 como Cobra y reabierta en Valgard como Raven en 2026. Mín. 110cm.",
+        "fr": "Coaster de type bobsleigh ouvert en 2006 sous le nom de Cobra, rouvert à Valgard sous le nom de Raven en 2026. Min 110cm.",
+        "de": "Bobbahn-Achterbahn, 2006 als Cobra eröffnet und 2026 als Raven in Valgard wiedereröffnet. Min 110cm.",
+        "it": "Montagna russa stile bob aperta nel 2006 come Cobra e riaperta a Valgard come Raven nel 2026. Min 110cm.",
+        "nl": "Bobsleeachtbaan, in 2006 geopend als Cobra en in 2026 heropend in Valgard als Raven. Min 110cm.",
+        "pt": "Montanha-russa tipo trenó aberta em 2006 como Cobra e reaberta em Valgard como Raven em 2026. Mín. 110cm.",
+        "ru": "Бобслейные горки, открытые в 2006 году как Cobra и вновь открытые в Valgard под названием Raven в 2026-м. Рост от 110 см.",
+        "zh": "雪橇式过山车，2006年以Cobra之名开放，2026年以Raven之名在Valgard重新开放。最低身高110厘米。",
+        "ar": "قطار جبال روسية بنمط المزلجة افتُتح عام 2006 باسم Cobra وأُعيد افتتاحه في Valgard باسم Raven عام 2026. الحد الأدنى 110 سم."
+      }
+    },
+    "vild_swing": {
+      "desc": {
+        "en": "Swinging ride in the new Valgard area, opened in 2026, about 12 m high. Min 95cm.",
+        "es": "Atracción oscilante en la nueva zona Valgard, inaugurada en 2026, de unos 12 m de altura. Mín. 95cm.",
+        "fr": "Attraction oscillante dans la nouvelle zone Valgard, ouverte en 2026, d'environ 12 m de haut. Min 95cm.",
+        "de": "Schaukel-Fahrgeschäft im neuen Valgard-Bereich, 2026 eröffnet, etwa 12 m hoch. Min 95cm.",
+        "it": "Attrazione oscillante nella nuova area Valgard, inaugurata nel 2026, alta circa 12 m. Min 95cm.",
+        "nl": "Zwaai-attractie in het nieuwe Valgard-gebied, geopend in 2026, ongeveer 12 m hoog. Min 95cm.",
+        "pt": "Atração oscilante na nova zona Valgard, inaugurada em 2026, com cerca de 12 m de altura. Mín. 95cm.",
+        "ru": "Качающийся аттракцион в новой зоне Valgard, открытый в 2026 году, высотой около 12 м. Рост от 95 см.",
+        "zh": "新Valgard园区的摆荡项目，2026年开放，高约12米。最低身高95厘米。",
+        "ar": "لعبة تأرجح في منطقة Valgard الجديدة افتُتحت عام 2026 بارتفاع نحو 12 م. الحد الأدنى 95 سم."
+      }
+    },
+    "storm_chaser": {
+      "desc": {
+        "en": "Mack spinning coaster in Tornado Springs, opened in 2021: about 20 m high. Min 100cm.",
+        "es": "Montaña rusa giratoria de Mack en Tornado Springs, inaugurada en 2021: unos 20 m de altura. Mín. 100cm.",
+        "fr": "Coaster tournant de Mack à Tornado Springs, ouvert en 2021 : environ 20 m de haut. Min 100cm.",
+        "de": "Mack-Spinning-Coaster in Tornado Springs, 2021 eröffnet: etwa 20 m hoch. Min 100cm.",
+        "it": "Montagna russa rotante Mack a Tornado Springs, inaugurata nel 2021: alta circa 20 m. Min 100cm.",
+        "nl": "Mack spinning coaster in Tornado Springs, geopend in 2021: ongeveer 20 m hoog. Min 100cm.",
+        "pt": "Montanha-russa giratória da Mack em Tornado Springs, inaugurada em 2021: cerca de 20 m de altura. Mín. 100cm.",
+        "ru": "Вращающиеся горки Mack в Tornado Springs, открытые в 2021 году: высота около 20 м. Рост от 100 см.",
+        "zh": "Tornado Springs园区的Mack旋转过山车，2021年开放：高约20米。最低身高100厘米。",
+        "ar": "قطار جبال روسية دوّار من Mack في Tornado Springs افتُتح عام 2021: ارتفاع نحو 20 م. الحد الأدنى 100 سم."
+      }
+    },
+    "cyclonator": {
+      "desc": {
+        "en": "Swinging thrill ride in Tornado Springs, opened in 2021, swinging riders up to about 25 m. Min 120cm.",
+        "es": "Atracción oscilante de emociones fuertes en Tornado Springs, inaugurada en 2021, que balancea hasta unos 25 m. Mín. 120cm.",
+        "fr": "Attraction oscillante à sensations à Tornado Springs, ouverte en 2021, qui balance jusqu'à environ 25 m. Min 120cm.",
+        "de": "Schaukel-Thrill-Ride in Tornado Springs, 2021 eröffnet, schwingt bis auf etwa 25 m. Min 120cm.",
+        "it": "Attrazione oscillante adrenalinica a Tornado Springs, inaugurata nel 2021, che dondola fino a circa 25 m. Min 120cm.",
+        "nl": "Zwaaiende thrillride in Tornado Springs, geopend in 2021, die tot ongeveer 25 m zwaait. Min 120cm.",
+        "pt": "Atração oscilante de emoção forte em Tornado Springs, inaugurada em 2021, que balança até cerca de 25 m. Mín. 120cm.",
+        "ru": "Качающийся острый аттракцион в Tornado Springs, открытый в 2021 году: раскачивается примерно до 25 м. Рост от 120 см.",
+        "zh": "Tornado Springs园区的摆荡刺激项目，2021年开放，最高摆至约25米。最低身高120厘米。",
+        "ar": "لعبة إثارة متأرجحة في Tornado Springs افتُتحت عام 2021 وتتأرجح حتى نحو 25 م. الحد الأدنى 120 سم."
+      }
+    },
+    "flight_of_the_pterosaur": {
+      "desc": {
+        "en": "Family coaster in Lost Kingdom, opened in 2016: about 20 m high and around 55 km/h. Min 100cm.",
+        "es": "Montaña rusa familiar en Lost Kingdom, inaugurada en 2016: unos 20 m de altura y unos 55 km/h. Mín. 100cm.",
+        "fr": "Coaster familial à Lost Kingdom, ouvert en 2016 : environ 20 m de haut et près de 55 km/h. Min 100cm.",
+        "de": "Familien-Achterbahn in Lost Kingdom, 2016 eröffnet: etwa 20 m hoch und rund 55 km/h. Min 100cm.",
+        "it": "Montagna russa per famiglie a Lost Kingdom, inaugurata nel 2016: alta circa 20 m e circa 55 km/h. Min 100cm.",
+        "nl": "Gezinsachtbaan in Lost Kingdom, geopend in 2016: ongeveer 20 m hoog en circa 55 km/u. Min 100cm.",
+        "pt": "Montanha-russa familiar em Lost Kingdom, inaugurada em 2016: cerca de 20 m de altura e perto de 55 km/h. Mín. 100cm.",
+        "ru": "Семейные горки в Lost Kingdom, открытые в 2016 году: высота около 20 м, скорость около 55 км/ч. Рост от 100 см.",
+        "zh": "Lost Kingdom园区的家庭过山车，2016年开放：高约20米，时速约55公里。最低身高100厘米。",
+        "ar": "قطار جبال روسية عائلي في Lost Kingdom افتُتح عام 2016: ارتفاع نحو 20 م وسرعة نحو 55 كم/س. الحد الأدنى 100 سم."
+      }
+    },
+    "velociraptor": {
+      "desc": {
+        "en": "Family coaster in Lost Kingdom, opened in 2016: about 20 m high and around 58 km/h. Min 100cm.",
+        "es": "Montaña rusa familiar en Lost Kingdom, inaugurada en 2016: unos 20 m de altura y unos 58 km/h. Mín. 100cm.",
+        "fr": "Coaster familial à Lost Kingdom, ouvert en 2016 : environ 20 m de haut et près de 58 km/h. Min 100cm.",
+        "de": "Familien-Achterbahn in Lost Kingdom, 2016 eröffnet: etwa 20 m hoch und rund 58 km/h. Min 100cm.",
+        "it": "Montagna russa per famiglie a Lost Kingdom, inaugurata nel 2016: alta circa 20 m e circa 58 km/h. Min 100cm.",
+        "nl": "Gezinsachtbaan in Lost Kingdom, geopend in 2016: ongeveer 20 m hoog en circa 58 km/u. Min 100cm.",
+        "pt": "Montanha-russa familiar em Lost Kingdom, inaugurada em 2016: cerca de 20 m de altura e perto de 58 km/h. Mín. 100cm.",
+        "ru": "Семейные горки в Lost Kingdom, открытые в 2016 году: высота около 20 м, скорость около 58 км/ч. Рост от 100 см.",
+        "zh": "Lost Kingdom园区的家庭过山车，2016年开放：高约20米，时速约58公里。最低身高100厘米。",
+        "ar": "قطار جبال روسية عائلي في Lost Kingdom افتُتح عام 2016: ارتفاع نحو 20 م وسرعة نحو 58 كم/س. الحد الأدنى 100 سم."
+      }
+    },
+    "edge": {
+      "desc": {
+        "en": "Thrill ride opened in 2009. Min 120cm, age 6 and over.",
+        "es": "Atracción de emociones fuertes inaugurada en 2009. Mín. 120cm, a partir de 6 años.",
+        "fr": "Attraction à sensations ouverte en 2009. Min 120cm, à partir de 6 ans.",
+        "de": "Thrill-Fahrgeschäft, 2009 eröffnet. Min 120cm, ab 6 Jahren.",
+        "it": "Attrazione adrenalinica inaugurata nel 2009. Min 120cm, dai 6 anni.",
+        "nl": "Thrillride geopend in 2009. Min 120cm, vanaf 6 jaar.",
+        "pt": "Atração de emoção forte inaugurada em 2009. Mín. 120cm, a partir dos 6 anos.",
+        "ru": "Острый аттракцион, открытый в 2009 году. Рост от 120 см, возраст от 6 лет.",
+        "zh": "2009年开放的刺激项目。最低身高120厘米，6岁及以上。",
+        "ar": "لعبة إثارة افتُتحت عام 2009. الحد الأدنى 120 سم ومن عمر 6 سنوات."
+      }
+    },
+    "farmyard_flyer": {
+      "desc": {
+        "en": "Family ride in Tornado Springs, opened in 2022. Min 90cm.",
+        "es": "Atracción familiar en Tornado Springs, inaugurada en 2022. Mín. 90cm.",
+        "fr": "Attraction familiale à Tornado Springs, ouverte en 2022. Min 90cm.",
+        "de": "Familien-Fahrgeschäft in Tornado Springs, 2022 eröffnet. Min 90cm.",
+        "it": "Attrazione per famiglie a Tornado Springs, inaugurata nel 2022. Min 90cm.",
+        "nl": "Gezinsattractie in Tornado Springs, geopend in 2022. Min 90cm.",
+        "pt": "Atração familiar em Tornado Springs, inaugurada em 2022. Mín. 90cm.",
+        "ru": "Семейный аттракцион в Tornado Springs, открытый в 2022 году. Рост от 90 см.",
+        "zh": "Tornado Springs园区的家庭项目，2022年开放。最低身高90厘米。",
+        "ar": "لعبة عائلية في Tornado Springs افتُتحت عام 2022. الحد الأدنى 90 سم."
+      }
+    },
+    "ghostly_manor": {
+      "desc": {
+        "en": "Indoor interactive dark ride opened in 2025. Check the height rule on the day.",
+        "es": "Atracción oscura interactiva cubierta inaugurada en 2025. Consulta la altura mínima el mismo día.",
+        "fr": "Parcours scénique interactif couvert ouvert en 2025. Vérifiez la taille minimale sur place.",
+        "de": "Interaktiver Dark Ride in der Halle, 2025 eröffnet. Mindestgröße vor Ort prüfen.",
+        "it": "Dark ride interattivo al coperto inaugurato nel 2025. Controllate l'altezza minima in loco.",
+        "nl": "Interactieve overdekte darkride, geopend in 2025. Check de minimumlengte ter plaatse.",
+        "pt": "Atração escura interativa interior inaugurada em 2025. Confirme a altura mínima no dia.",
+        "ru": "Крытый интерактивный тёмный аттракцион, открытый в 2025 году. Ограничение по росту уточняйте на месте.",
+        "zh": "2025年开放的室内互动暗骑项目。身高限制请当天确认。",
+        "ar": "لعبة مظلمة تفاعلية داخلية افتُتحت عام 2025. تحقق من شرط الطول في اليوم نفسه."
+      }
+    },
+    "splash_lagoon": {
+      "desc": {
+        "en": "Log flume in Lost Kingdom, opened in 2024. Check the height rule on the day.",
+        "es": "Tronco acuático en Lost Kingdom, inaugurado en 2024. Consulta la altura mínima el mismo día.",
+        "fr": "Rivière rapide en tronc à Lost Kingdom, ouverte en 2024. Vérifiez la taille minimale sur place.",
+        "de": "Wildwasserbahn in Lost Kingdom, 2024 eröffnet. Mindestgröße vor Ort prüfen.",
+        "it": "Tronchi d'acqua a Lost Kingdom, inaugurati nel 2024. Controllate l'altezza minima in loco.",
+        "nl": "Boomstamattractie in Lost Kingdom, geopend in 2024. Check de minimumlengte ter plaatse.",
+        "pt": "Rio de troncos em Lost Kingdom, inaugurado em 2024. Confirme a altura mínima no dia.",
+        "ru": "Водный аттракцион «бревно» в Lost Kingdom, открытый в 2024 году. Ограничение по росту уточняйте на месте.",
+        "zh": "Lost Kingdom园区的原木漂流，2024年开放。身高限制请当天确认。",
+        "ar": "ممر مائي بالجذوع في Lost Kingdom افتُتح عام 2024. تحقق من شرط الطول في اليوم نفسه."
+      }
+    },
+    "buffalo_falls": {
+      "desc": {
+        "en": "Water ride in Tornado Springs with three drops, first opened in 2003 and moved in 2021. Min 90cm.",
+        "es": "Atracción acuática en Tornado Springs con tres caídas, abierta en 2003 y trasladada en 2021. Mín. 90cm.",
+        "fr": "Attraction aquatique à Tornado Springs avec trois chutes, ouverte en 2003 et déplacée en 2021. Min 90cm.",
+        "de": "Wasserattraktion in Tornado Springs mit drei Abfahrten, 2003 eröffnet und 2021 versetzt. Min 90cm.",
+        "it": "Attrazione acquatica a Tornado Springs con tre discese, aperta nel 2003 e spostata nel 2021. Min 90cm.",
+        "nl": "Waterattractie in Tornado Springs met drie dalen, geopend in 2003 en verplaatst in 2021. Min 90cm.",
+        "pt": "Atração aquática em Tornado Springs com três quedas, aberta em 2003 e deslocada em 2021. Mín. 90cm.",
+        "ru": "Водный аттракцион в Tornado Springs с тремя спусками, открытый в 2003 году и перенесённый в 2021-м. Рост от 90 см.",
+        "zh": "Tornado Springs园区的水上项目，有三段落差，2003年开放，2021年迁址。最低身高90厘米。",
+        "ar": "لعبة مائية في Tornado Springs بثلاثة منحدرات افتُتحت عام 2003 ونُقلت عام 2021. الحد الأدنى 90 سم."
+      }
+    },
+    "grampy_rabbits_sailing_club": {
+      "desc": {
+        "en": "Gentle water ride in Peppa Pig World, opened in 2018. Check the height rule on the day.",
+        "es": "Suave atracción acuática en Peppa Pig World, inaugurada en 2018. Consulta la altura mínima el mismo día.",
+        "fr": "Douce attraction aquatique à Peppa Pig World, ouverte en 2018. Vérifiez la taille minimale sur place.",
+        "de": "Sanfte Wasserattraktion in Peppa Pig World, 2018 eröffnet. Mindestgröße vor Ort prüfen.",
+        "it": "Dolce attrazione acquatica a Peppa Pig World, inaugurata nel 2018. Controllate l'altezza minima in loco.",
+        "nl": "Rustige waterattractie in Peppa Pig World, geopend in 2018. Check de minimumlengte ter plaatse.",
+        "pt": "Atração aquática suave no Peppa Pig World, inaugurada em 2018. Confirme a altura mínima no dia.",
+        "ru": "Спокойный водный аттракцион в Peppa Pig World, открытый в 2018 году. Ограничение по росту уточняйте на месте.",
+        "zh": "小猪佩奇乐园的温和水上项目，2018年开放。身高限制请当天确认。",
+        "ar": "لعبة مائية لطيفة في Peppa Pig World افتُتحت عام 2018. تحقق من شرط الطول في اليوم نفسه."
+      }
+    },
+    "peppas_big_balloon_ride": {
+      "desc": {
+        "en": "Gentle family ride in Peppa Pig World, opened in 2011. Check the height rule on the day.",
+        "es": "Suave atracción familiar en Peppa Pig World, inaugurada en 2011. Consulta la altura mínima el mismo día.",
+        "fr": "Douce attraction familiale à Peppa Pig World, ouverte en 2011. Vérifiez la taille minimale sur place.",
+        "de": "Sanftes Familien-Fahrgeschäft in Peppa Pig World, 2011 eröffnet. Mindestgröße vor Ort prüfen.",
+        "it": "Dolce attrazione per famiglie a Peppa Pig World, inaugurata nel 2011. Controllate l'altezza minima in loco.",
+        "nl": "Rustige gezinsattractie in Peppa Pig World, geopend in 2011. Check de minimumlengte ter plaatse.",
+        "pt": "Atração familiar suave no Peppa Pig World, inaugurada em 2011. Confirme a altura mínima no dia.",
+        "ru": "Спокойный семейный аттракцион в Peppa Pig World, открытый в 2011 году. Ограничение по росту уточняйте на месте.",
+        "zh": "小猪佩奇乐园的温和家庭项目，2011年开放。身高限制请当天确认。",
+        "ar": "لعبة عائلية لطيفة في Peppa Pig World افتُتحت عام 2011. تحقق من شرط الطول في اليوم نفسه."
+      }
+    },
+    "georges_dinosaur_adventure": {
+      "desc": {
+        "en": "Family ride in Peppa Pig World, opened in 2011. Min 85cm.",
+        "es": "Atracción familiar en Peppa Pig World, inaugurada en 2011. Mín. 85cm.",
+        "fr": "Attraction familiale à Peppa Pig World, ouverte en 2011. Min 85cm.",
+        "de": "Familien-Fahrgeschäft in Peppa Pig World, 2011 eröffnet. Min 85cm.",
+        "it": "Attrazione per famiglie a Peppa Pig World, inaugurata nel 2011. Min 85cm.",
+        "nl": "Gezinsattractie in Peppa Pig World, geopend in 2011. Min 85cm.",
+        "pt": "Atração familiar no Peppa Pig World, inaugurada em 2011. Mín. 85cm.",
+        "ru": "Семейный аттракцион в Peppa Pig World, открытый в 2011 году. Рост от 85 см.",
+        "zh": "小猪佩奇乐园的家庭项目，2011年开放。最低身高85厘米。",
+        "ar": "لعبة عائلية في Peppa Pig World افتُتحت عام 2011. الحد الأدنى 85 سم."
+      }
+    }
+  },
+  "food": {
+    "food_wild_forest_family_restaurant": {
+      "desc": {
+        "en": "Family restaurant with burgers, wraps, jacket potatoes and kids' and vegan options.",
+        "es": "Restaurante familiar con hamburguesas, wraps, patatas asadas y opciones infantiles y veganas.",
+        "fr": "Restaurant familial avec burgers, wraps, pommes de terre au four et options enfants et végétaliennes.",
+        "de": "Familienrestaurant mit Burgern, Wraps, Ofenkartoffeln sowie Kinder- und veganen Optionen.",
+        "it": "Ristorante per famiglie con hamburger, wrap, patate al forno e opzioni per bambini e vegane.",
+        "nl": "Familierestaurant met burgers, wraps, gepofte aardappelen en kinder- en veganistische opties.",
+        "pt": "Restaurante familiar com hambúrgueres, wraps, batatas assadas e opções infantis e veganas.",
+        "ru": "Семейный ресторан: бургеры, роллы, печёный картофель, детские и веганские блюда.",
+        "zh": "家庭餐厅，供应汉堡、卷饼、烤土豆，并有儿童和纯素选择。",
+        "ar": "مطعم عائلي يقدم البرغر واللفائف والبطاطا المشوية مع خيارات للأطفال وللنباتيين."
+      }
+    },
+    "food_route_83_diner": {
+      "desc": {
+        "en": "Diner in Tornado Springs with the 83 Burger, chicken tenders and the Bad Boy Dog.",
+        "es": "Diner en Tornado Springs con la hamburguesa 83, tiras de pollo y el Bad Boy Dog.",
+        "fr": "Diner à Tornado Springs avec le burger 83, des tenders de poulet et le Bad Boy Dog.",
+        "de": "Diner in Tornado Springs mit dem 83 Burger, Chicken Tenders und dem Bad Boy Dog.",
+        "it": "Diner a Tornado Springs con l'83 Burger, tenders di pollo e il Bad Boy Dog.",
+        "nl": "Diner in Tornado Springs met de 83 Burger, chicken tenders en de Bad Boy Dog.",
+        "pt": "Diner em Tornado Springs com o 83 Burger, tiras de frango e o Bad Boy Dog.",
+        "ru": "Закусочная в Tornado Springs: бургер 83, куриные стрипсы и Bad Boy Dog.",
+        "zh": "Tornado Springs园区的美式餐馆，供应83汉堡、鸡柳和Bad Boy热狗。",
+        "ar": "مطعم على الطراز الأمريكي في Tornado Springs يقدم برغر 83 وقطع الدجاج وBad Boy Dog."
+      }
+    },
+    "food_daddy_pigs_cafe": {
+      "desc": {
+        "en": "Café in Peppa Pig World with pizza, pasties, snacks and drinks, plus vegan options.",
+        "es": "Cafetería en Peppa Pig World con pizza, empanadas, snacks y bebidas, además de opciones veganas.",
+        "fr": "Café à Peppa Pig World avec pizzas, chaussons, snacks et boissons, et options véganes.",
+        "de": "Café in Peppa Pig World mit Pizza, Pasteten, Snacks und Getränken sowie veganen Optionen.",
+        "it": "Caffè a Peppa Pig World con pizza, pasties, snack e bevande, anche opzioni vegane.",
+        "nl": "Café in Peppa Pig World met pizza, pasteitjes, snacks en drankjes, ook veganistische opties.",
+        "pt": "Café no Peppa Pig World com pizza, pastéis, snacks e bebidas, além de opções veganas.",
+        "ru": "Кафе в Peppa Pig World: пицца, пирожки, закуски и напитки, есть веганские блюда.",
+        "zh": "小猪佩奇乐园内的咖啡馆，供应披萨、馅饼、小吃和饮品，也有纯素选择。",
+        "ar": "مقهى في Peppa Pig World يقدم البيتزا والمعجنات والوجبات الخفيفة والمشروبات مع خيارات نباتية."
+      }
+    },
+    "food_the_feasting_hall": {
+      "desc": {
+        "en": "Restaurant in the new Valgard area with grilled and fried chicken, bowls, pancakes and sundaes.",
+        "es": "Restaurante en la nueva zona Valgard con pollo a la parrilla y frito, bowls, tortitas y helados.",
+        "fr": "Restaurant de la nouvelle zone Valgard : poulet grillé et frit, bowls, pancakes et coupes glacées.",
+        "de": "Restaurant im neuen Valgard-Bereich mit gegrilltem und frittiertem Hähnchen, Bowls, Pfannkuchen und Eisbechern.",
+        "it": "Ristorante nella nuova area Valgard con pollo alla griglia e fritto, bowl, pancake e coppe gelato.",
+        "nl": "Restaurant in het nieuwe Valgard-gebied met gegrilde en gefrituurde kip, bowls, pannenkoeken en ijscoupes.",
+        "pt": "Restaurante na nova zona Valgard com frango grelhado e frito, bowls, panquecas e sundaes.",
+        "ru": "Ресторан в новой зоне Valgard: курица на гриле и жареная, боулы, блины и десерты с мороженым.",
+        "zh": "新Valgard园区的餐厅，供应烤鸡和炸鸡、沙拉古斯古斯碗、煎饼和圣代。",
+        "ar": "مطعم في منطقة Valgard الجديدة يقدم الدجاج المشوي والمقلي والأطباق الخفيفة والفطائر والآيس كريم."
+      }
+    }
+  },
+  "hotels": {
+    "hotel_the_mortimer_arms": {
+      "desc": {
+        "en": "Country inn in Ower, about 1.2 km from the park.",
+        "es": "Posada rural en Ower, a unos 1,2 km del parque.",
+        "fr": "Auberge de campagne à Ower, à environ 1,2 km du parc.",
+        "de": "Landgasthof in Ower, etwa 1,2 km vom Park entfernt.",
+        "it": "Locanda di campagna a Ower, a circa 1,2 km dal parco.",
+        "nl": "Landelijke herberg in Ower, ongeveer 1,2 km van het park.",
+        "pt": "Estalagem rural em Ower, a cerca de 1,2 km do parque.",
+        "ru": "Загородная гостиница в Ower, примерно в 1,2 км от парка.",
+        "zh": "位于Ower的乡村旅馆，距乐园约1.2公里。",
+        "ar": "نزل ريفي في Ower على بعد نحو 1.2 كم من المتنزه."
+      }
+    },
+    "hotel_bartley_lodge": {
+      "desc": {
+        "en": "Hotel in Cadnam, in the New Forest, about 3.5 miles from the park.",
+        "es": "Hotel en Cadnam, en el New Forest, a unas 3,5 millas del parque.",
+        "fr": "Hôtel à Cadnam, dans la New Forest, à environ 5,6 km du parc.",
+        "de": "Hotel in Cadnam im New Forest, etwa 5,6 km vom Park entfernt.",
+        "it": "Hotel a Cadnam, nel New Forest, a circa 5,6 km dal parco.",
+        "nl": "Hotel in Cadnam in het New Forest, ongeveer 5,6 km van het park.",
+        "pt": "Hotel em Cadnam, na New Forest, a cerca de 5,6 km do parque.",
+        "ru": "Отель в Cadnam в Нью-Форесте, примерно в 5,6 км от парка.",
+        "zh": "位于新森林区Cadnam的酒店，距乐园约5.6公里。",
+        "ar": "فندق في Cadnam في نيو فورست على بعد نحو 5.6 كم من المتنزه."
+      }
+    },
+    "hotel_premier_inn_southampton_north": {
+      "desc": {
+        "en": "Budget-friendly chain hotel at Nursling, a short drive from the park.",
+        "es": "Hotel de cadena económico en Nursling, a poca distancia en coche del parque.",
+        "fr": "Hôtel de chaîne économique à Nursling, à courte distance en voiture du parc.",
+        "de": "Günstiges Kettenhotel in Nursling, kurze Fahrt vom Park.",
+        "it": "Hotel di catena economico a Nursling, a breve distanza in auto dal parco.",
+        "nl": "Voordelig ketenhotel in Nursling, een korte rit van het park.",
+        "pt": "Hotel de cadeia económico em Nursling, a pouca distância de carro do parque.",
+        "ru": "Недорогой отель известной сети в Nursling, недалеко от парка на машине.",
+        "zh": "位于Nursling的经济型连锁酒店，驾车到乐园很近。",
+        "ar": "فندق اقتصادي من سلسلة معروفة في Nursling على مسافة قصيرة بالسيارة من المتنزه."
+      }
+    },
+    "hotel_novotel_southampton": {
+      "desc": {
+        "en": "City-centre hotel near West Quay, about 7.5 miles from the park.",
+        "es": "Hotel en el centro de la ciudad cerca de West Quay, a unas 7,5 millas del parque.",
+        "fr": "Hôtel du centre-ville près de West Quay, à environ 12 km du parc.",
+        "de": "Stadthotel nahe West Quay, etwa 12 km vom Park entfernt.",
+        "it": "Hotel in centro città vicino a West Quay, a circa 12 km dal parco.",
+        "nl": "Stadshotel bij West Quay, ongeveer 12 km van het park.",
+        "pt": "Hotel no centro da cidade perto de West Quay, a cerca de 12 km do parque.",
+        "ru": "Отель в центре города у West Quay, примерно в 12 км от парка.",
+        "zh": "位于市中心West Quay附近的酒店，距乐园约12公里。",
+        "ar": "فندق في وسط المدينة قرب West Quay على بعد نحو 12 كم من المتنزه."
+      }
+    },
+    "hotel_chewton_glen": {
+      "desc": {
+        "en": "Luxury country-house hotel and spa in New Milton, about 19 miles from the park.",
+        "es": "Hotel balneario de lujo en una casa de campo en New Milton, a unas 19 millas del parque.",
+        "fr": "Hôtel et spa de luxe dans une demeure de campagne à New Milton, à environ 30 km du parc.",
+        "de": "Luxuriöses Landhaushotel mit Spa in New Milton, etwa 30 km vom Park entfernt.",
+        "it": "Hotel di lusso con spa in una dimora di campagna a New Milton, a circa 30 km dal parco.",
+        "nl": "Luxe landhuishotel met spa in New Milton, ongeveer 30 km van het park.",
+        "pt": "Hotel de luxo com spa numa casa de campo em New Milton, a cerca de 30 km do parque.",
+        "ru": "Роскошный загородный отель со спа в New Milton, примерно в 30 км от парка.",
+        "zh": "位于New Milton的豪华乡村庄园酒店及水疗中心，距乐园约30公里。",
+        "ar": "فندق فاخر بطراز بيت ريفي مع سبا في New Milton على بعد نحو 30 كم من المتنزه."
+      }
+    }
+  }
+}

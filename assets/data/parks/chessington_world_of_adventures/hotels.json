@@ -1,0 +1,103 @@
+[
+  {
+    "id": "hotel_chessington_safari_hotel",
+    "name": "Chessington Safari Hotel",
+    "description": "Chessington Safari Hotel is the on-site resort hotel beside the zoo, within walking distance of the park gates. Short-break packages include breakfast, park entry and parking, and rooms include animal-view and Gruffalo, Jumanji and PAW Patrol themes. Rates shown are rough estimates and change a lot by date.",
+    "image": "assets/images/chessington_world_of_adventures/hotel_chessington_safari_hotel.png",
+    "lat": 51.3512,
+    "lng": -0.314,
+    "rating": 4.2,
+    "topPick": true,
+    "website": "https://www.chessington.com/short-breaks/accommodation/azteca-safari-resort-hotels",
+    "rooms": [
+      {
+        "key": "animal_view_room",
+        "name": "Animal-View Room",
+        "description": "Room overlooking the animals; packages include breakfast, entry and parking.",
+        "pricePerNight": 130,
+        "breakfastIncluded": true
+      },
+      {
+        "key": "themed_family_room",
+        "name": "Themed Family Room",
+        "description": "Themed room such as Gruffalo, Jumanji or PAW Patrol.",
+        "pricePerNight": 180,
+        "breakfastIncluded": true
+      }
+    ]
+  },
+  {
+    "id": "hotel_chessington_azteca_hotel",
+    "name": "Chessington Azteca Hotel",
+    "description": "Chessington Azteca Hotel was the on-site four-star hotel with an Aztec-temple theme, opened in 2014. It is closed: the last bookable date was 31 October 2026, and it is being converted into a Minecraft World hotel planned for 2027. No rates are available.",
+    "image": "assets/images/chessington_world_of_adventures/hotel_chessington_azteca_hotel.png",
+    "lat": 51.3505,
+    "lng": -0.319,
+    "rating": 4,
+    "topPick": false,
+    "website": "https://www.chessington.com/short-breaks/accommodation/azteca-safari-resort-hotels",
+    "rooms": [
+      {
+        "key": "closed",
+        "name": "Closed",
+        "description": "Not bookable. Being converted into a Minecraft World hotel.",
+        "pricePerNight": 0,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_premier_inn_chessington",
+    "name": "Premier Inn Chessington",
+    "description": "Premier Inn Chessington is a budget hotel on Leatherhead Road, a very short walk from the park gates. The hotel says it is less than 200 m away, while another site says about 600 m. Rates shown are rough estimates, and a buffet breakfast costs extra.",
+    "image": "assets/images/chessington_world_of_adventures/hotel_premier_inn_chessington.png",
+    "lat": 51.3478,
+    "lng": -0.3152,
+    "rating": 4.2,
+    "topPick": false,
+    "website": "https://www.premierinn.com/gb/en/hotels/england/greater-london/chessington.html",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Standard double or family room.",
+        "pricePerNight": 75,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room for up to two adults and two children.",
+        "pricePerNight": 95,
+        "breakfastIncluded": false
+      }
+    ]
+  },
+  {
+    "id": "hotel_crowne_plaza_kingston",
+    "name": "Crowne Plaza London - Kingston",
+    "description": "Crowne Plaza London - Kingston is an upscale hotel in Kingston Tower, Surbiton, about 6 km from the park, so you would need a car or taxi. A sample rate was about £94 per night for one date. Rates shown are rough estimates.",
+    "image": "assets/images/chessington_world_of_adventures/hotel_crowne_plaza_kingston.png",
+    "lat": 51.3922,
+    "lng": -0.304,
+    "rating": 4.1,
+    "topPick": false,
+    "website": "https://www.ihg.com/crowneplaza/hotels/gb/en/surbiton/lonkt/hoteldetail",
+    "rooms": [
+      {
+        "key": "standard_room",
+        "name": "Standard Room",
+        "description": "Standard hotel room.",
+        "pricePerNight": 94,
+        "breakfastIncluded": false
+      },
+      {
+        "key": "family_room",
+        "name": "Family Room",
+        "description": "Room with space for families.",
+        "pricePerNight": 130,
+        "breakfastIncluded": false
+      }
+    ]
+  }
+]
