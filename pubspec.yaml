@@ -1,6 +1,6 @@
 ﻿name: funparks
 description: A playful, map-first theme park discovery app (MVP).
-version: 2.0.5+231
+version: 2.1.0+232
 publish_to: "none"
 
 environment:
@@ -71,6 +71,22 @@ flutter:
     - assets/data/parks/toverland/
     - assets/data/parks/liseberg/
     - assets/data/parks/ocean_park_hk/
+    - assets/data/parks/chimelong_paradise/
+    - assets/data/parks/chessington_world_of_adventures/
+    - assets/data/parks/seaworld_orlando/
+    - assets/data/parks/kings_island/
+    - assets/data/parks/knotts_berry_farm/
+    - assets/data/parks/parque_de_atracciones_madrid/
+    - assets/data/parks/futuroscope/
+    - assets/data/parks/paultons_park/
+    - assets/data/parks/genting_skyworlds/
+    - assets/data/parks/knoebels/
+    - assets/data/parks/flamingo_land/
+    - assets/data/parks/blackpool_pleasure_beach/
+    - assets/data/parks/hansa_park/
+    - assets/data/parks/dollywood/
+    - assets/data/parks/wet_n_wild_gold_coast/
+    - assets/data/parks/hersheypark/
     - assets/data/parks/walibibelgium/
     - assets/data/parks/heidepark/
     - assets/data/parks/thorpepark/
